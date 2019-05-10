@@ -10,7 +10,7 @@ topic-tags: Einführung
 products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: a 3 a 98 b 2 f -65 bf -4493-82 ad -1717938 fdbc
 translation-type: tm+mt
-source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
+source-git-commit: 51842e5b6a9d4491bd4088d30c0d8c3a502e9644
 
 ---
 
@@ -65,21 +65,21 @@ Die folgende Tabelle, deren Inhalt auf github mit vollständigen Versionshinweis
 
 | Version | Beschreibung | AEM 6.3 | AEM 6.4 | AEM 6.5 | Java |
 |---|---|---|---|---|---|
-| [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | Mit dieser Version wurde die Komponente &quot;Inhaltsfragment&quot; eingeführt. | 6.3.3.0 | 6.4.2.0 | 6.5.0.0 | 1.8 |
-| [2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2) | Diese Version konzentriert sich auf Verfeinerungen in der Komponentenbibliothek, enthält aber auch einige Funktionsverbesserungen für die Trennzeichenkomponente. | 6.3.3.0 | 6.4.2.0 | 6.5.0.0 | 1.8 |
-| [2.3.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.0) | Diese Version konzentriert sich sowohl auf die Komponentenbibliothek als auch auf die neue Trennzeichenkomponente, enthält jedoch einige Funktionsverbesserungen für die Image-Komponente. | 6.3.3.0 | 6.4.2.0 | - | 1.8 |
-| [2.2.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.2) | Diese Version konzentriert sich hauptsächlich auf Fehlerbehebungen, enthält aber auch einige Funktionsverbesserungen für die Karussellkomponente. | 6.3.3.0 | 6.4.2.0 | - | 1.8 |
-| [2.2.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.0) | Tabulatoren und Karussell-Komponenten, Verbesserungen der Bild-, Seiten- und Titelkomponenten und verbesserte Verfolgung | 6.3.3.0 | 6.4.2.0 | - | 1.8 |
-| [2.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.1.0) | Teaser-Komponente, verbesserte Bildkomponentenverbesserungen und zahlreiche Fehlerkorrekturen | 6.3.3.0 | 6.4.2.0 | 1.8 |
-| [2.0.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.8) | Bugfix-Version | 6.3.2.0 | 6.4.0.0 | - | 1.8 |
-| [2.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.6) | Zusätzliche Verbesserungen unter den Verbesserungen, Fehlerbehebungen und kleinere Verbesserungen, einschließlich Unterstützung für das Spiegeln von Bildern. | 6.3.2.0 | 6.4.0.0 | - | 1.8 |
-| [2.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.4) | Meist unter-the-Hood Verbesserungen, Fehlerbehebungen und einige kleinere Verbesserungen der Bild-, Seiten- und Inhaltsfragmente | 6.3.2.0 | 6.4.0.0 | - | 1.8 |
-| [2.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.0) | Navigation, Sprachnavigation und Schnellsuche wurden eingeführt. Für alle Komponenten implementiertes Stilsystem. | 6.3.2.0 | 6.4.0.0 | - | 1.8 |
-| [1.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.1.0) | Implementierung des JSON-Exports für alle Komponenten, Einführung in die Komponente &quot;Content Fragment « | 6.3.1.0 | 6.4.0.0 | 1.8 |
-| [1.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.6) | Mehrere Fehlerbehebungen für die Image-Komponente | 6.3.0.0 | 6.4.0.0 | - | 1.8 |
-| [1.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.4) | Fehlerbehebungen der Seitenkomponente, der Bildkomponente, verschiedener globaler Korrekturen und Verbesserungen | 6.3.0.0 | 6.4.0.0 | - | 1.8 |
-| [1.0.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.all-1.0.2) | Korrekturen für animierte GIF-Bilder in der Image-Komponente | 6.3.0.0 | 6.4.0.0 | - | 1.7 |
-| [1.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.0) | Erste Version der Kernkomponenten | 6.3.0.0 | 6.4.0.0 | - | 1.7 |
+| [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | Mit dieser Version wurde die Komponente &quot;Inhaltsfragment&quot; eingeführt. | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 |
+| [2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2) | Diese Version konzentriert sich auf Verfeinerungen in der Komponentenbibliothek, enthält aber auch einige Funktionsverbesserungen für die Trennzeichenkomponente. | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8 |
+| [2.3.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.0) | Diese Version konzentriert sich sowohl auf die Komponentenbibliothek als auch auf die neue Trennzeichenkomponente, enthält jedoch einige Funktionsverbesserungen für die Image-Komponente. | 6.3.3.0+ | 6.4.2.0+ | - | 8 |
+| [2.2.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.2) | Diese Version konzentriert sich hauptsächlich auf Fehlerbehebungen, enthält aber auch einige Funktionsverbesserungen für die Karussellkomponente. | 6.3.3.0+ | 6.4.2.0+ | - | 8 |
+| [2.2.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.0) | Tabulatoren und Karussell-Komponenten, Verbesserungen der Bild-, Seiten- und Titelkomponenten und verbesserte Verfolgung | 6.3.3.0+ | 6.4.2.0+ | - | 8 |
+| [2.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.1.0) | Teaser-Komponente, verbesserte Bildkomponentenverbesserungen und zahlreiche Fehlerkorrekturen | 6.3.3.0+ | 6.4.2.0+ | - | 8 |
+| [2.0.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.8) | Bugfix-Version | 6.3.2.0+ | 6.4.0.0+ | - | 8 |
+| [2.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.6) | Zusätzliche Verbesserungen unter den Verbesserungen, Fehlerbehebungen und kleinere Verbesserungen, einschließlich Unterstützung für das Spiegeln von Bildern. | 6.3.2.0+ | 6.4.0.0+ | - | 8 |
+| [2.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.4) | Meist unter-the-Hood Verbesserungen, Fehlerbehebungen und einige kleinere Verbesserungen der Bild-, Seiten- und Inhaltsfragmente | 6.3.2.0+ | 6.4.0.0+ | - | 8 |
+| [2.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.0) | Navigation, Sprachnavigation und Schnellsuche wurden eingeführt. Für alle Komponenten implementiertes Stilsystem. | 6.3.2.0+ | 6.4.0.0+ | - | 8 |
+| [1.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.1.0) | Implementierung des JSON-Exports für alle Komponenten, Einführung in die Komponente &quot;Content Fragment « | 6.3.1.0 | 6.4.0.0+ | - | 8 |
+| [1.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.6) | Mehrere Fehlerbehebungen für die Image-Komponente | 6.3.0.0+ | 6.4.0.0+ | - | 8 |
+| [1.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.4) | Fehlerbehebungen der Seitenkomponente, der Bildkomponente, verschiedener globaler Korrekturen und Verbesserungen | 6.3.0.0+ | 6.4.0.0+ | - | 8 |
+| [1.0.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.all-1.0.2) | Korrekturen für animierte GIF-Bilder in der Image-Komponente | 6.3.0.0+ | 6.4.0.0+ | - | 7 |
+| [1.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.0) | Erste Version der Kernkomponenten | 6.3.0.0+ | 6.4.0.0+ | - | 7 |
 
 >[!NOTE]
 >
@@ -102,7 +102,7 @@ Die folgende Tabelle zeigt, welche Versionen von Komponenten in welchen Versione
 | **[Formularoptionen](form-options.md)** | v1 | v1 | v 1, v 2 | v 1, v 2 | v 1, v 2 | v 1, v 2 |
 | **[Ausgeblendetes Formular](form-hidden.md)** | v1 | v1 | v 1, v 2 | v 1, v 2 | v 1, v 2 | v 1, v 2 |
 | **[Formularschaltfläche](form-button.md)** | v1 | v1 | v 1, v 2 | v 1, v 2 | v 1, v 2 | v 1, v 2 |
-| **[Inhaltsfragmente](content-fragment-component.md)** | Sandbox | v1 | v1 | v1 | v1 |
+| **[Inhaltsfragment](content-fragment-component.md)** | Sandbox | v1 | v1 | v1 | v1 |
 | **[Navigation](navigation.md)** | v1 | v1 | v1 | v1 |
 | **[Sprachnavigation](language-navigation.md)** | v1 | v1 | v1 | v1 |
 | **[Schnellsuche](quick-search.md)** | v1 | v1 | v1 | v1 |
