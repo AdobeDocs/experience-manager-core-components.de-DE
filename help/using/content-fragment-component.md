@@ -10,7 +10,7 @@ topic-tags: authoring
 products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: f 093 f 58 e -9755-4 a 4 f -803 a-ab 93 a 50 e 6870
 translation-type: tm+mt
-source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
+source-git-commit: 51842e5b6a9d4491bd4088d30c0d8c3a502e9644
 
 ---
 
@@ -49,7 +49,7 @@ Rufen Sie die [Komponentenbibliothek auf, um die Content Fragment-Komponente sow
 
 ## Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Inhaltsfragment-Komponente [finden Sie unter github](https://github.com/adobe/aem-core-wcm-components/blob/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragment/v1/contentfragment).
+Die aktuelle technische Dokumentation zur Inhaltsfragment-Komponente [finden Sie unter github](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/contentfragment/v1/contentfragment).
 
 Weitere Informationen zur Entwicklung Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Komponenten](developing.md).
 
@@ -59,7 +59,7 @@ Weitere Informationen zur Entwicklung Kernkomponenten finden Sie in der [Dokumen
 
 ![](assets/chlimage_1-87.png)
 
-* **Inhaltsfragmente**
+* **Inhaltsfragment**
 
    * Pfad zum gewünschten Inhaltsfragment
    * Das **Auswahldialogfeld** kann zum Suchen des Fragments verwendet werden.
