@@ -10,7 +10,7 @@ topic-tags: authoring
 products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: f 093 f 58 e -9755-4 a 4 f -803 a-ab 93 a 50 e 6870
 translation-type: tm+mt
-source-git-commit: 40ce01fdb0f22e3ee3b376a3684a766bd7e7bc11
+source-git-commit: b464b49bc22573c24363da5a1d41baebd112368c
 
 ---
 
@@ -40,6 +40,18 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 | Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |--- |--- |--- |---|
 | v1 | Kompatibel | Kompatibel | Kompatibel |
+
+>[!NOTE]
+>
+>Vor Version 2.4.0 befand sich die Komponente &quot;Content Fragment&quot; im Ordner&quot; Extensions&quot; .
+>
+> `apps/core/wcm/extension/components/contentfragment/v1/contentfragment`
+> 
+>Von 2.4.0 wurde an den folgenden Speicherort verschoben.
+>
+>`apps/core/wcm/components/contentfragment/v1/contentfragment`
+>
+>Obwohl es sich bei beiden um v 1 handelt, erfordert jede aus dem Ordner Erweiterungen verwendete Inhaltsfragment-Komponente eine Migration der zugehörigen Proxy-Komponenten, um den neuen Ressourcentyp bei der Aktualisierung auf Version 2.4.0 oder höher der Kernkomponenten zu verwenden.
 
 Weitere Informationen zu Core-Komponentenversionen und -versionen finden Sie in den Core [-Komponentenversionen](versions.md).
 
