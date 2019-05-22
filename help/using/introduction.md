@@ -10,7 +10,7 @@ topic-tags: Einführung
 products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: c 44 bb 0 d 7-5 d 91-4659-878 e-a 0658 fe 29 aa 2
 translation-type: tm+mt
-source-git-commit: dde716ccb64c4c444ec0f6ad432fd1ea8d5fd9f2
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
@@ -94,7 +94,7 @@ Um eine Einführung in die Kernkomponenten, die angebotenen Funktionen und die N
 
 ## WKND Developer Tutorial {#wknd-developer-tutorial}
 
-[Beginnen Sie mit der Entwicklung von AEM-Sites mit Kernkomponenten, indem Sie diesen Schritt schrittweise befolgen.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+Beginnen Sie mit der Entwicklung von AEM-Sites mit Kernkomponenten, indem Sie [diesen Schritt schrittweise befolgen.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
 ## Unterstützung Kernkomponenten {#core-components-support}
 
@@ -115,4 +115,4 @@ Weitere Informationen zur Unterstützung von Komponentenanpassungen finden Sie a
 
 Da die Foundation-Komponenten aufgrund vieler Versionen als Grundlage für so viele Projekte bereitgestellt wurden, werden sie in absehbarer Zukunft weiterhin unterstützt.
 
-Der Entwicklungsschwerpunkt von Adobe wurde jedoch auf die Kernkomponenten verlagert, und neue Funktionen werden ihnen hinzugefügt, während nur Fehlerkorrekturen an den Foundation-Komponenten vorgenommen werden.
+Der Entwicklungs-Schwerpunkt von Adobe wurde jedoch auf die Kernkomponenten verschoben, und neue Funktionen werden ihnen hinzugefügt, während [fast alle Foundation-Komponenten mit AEM 6.5 verworfen wurden](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) und es werden nur Fehlerkorrekturen an den Foundation-Komponenten vorgenommen.
