@@ -8,7 +8,7 @@ content-type: Referenz
 topic-tags: authoring
 discoiquuid: 8751 e 490-d 427-44 f 2-b 767-51935 afda 988
 translation-type: tm+mt
-source-git-commit: 600aefa49d6247c290b8fb9f6acf5548126b3f61
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
@@ -19,25 +19,25 @@ In Adobe Experience Manager sind Komponenten die strukturellen Elemente, aus den
 
 Die Kernkomponenten bieten flexible und funktionale Authoring-Funktionen. Die Referenz-Website [für wir](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) zeigt an, wie die Kernkomponenten verwendet werden können.
 
+Rufen Sie die [Komponentenbibliothek auf, um die Kernkomponenten zu testen und Beispiele für ihre Konfigurationsoptionen sowie HTML- und JSON-Ausgaben anzuzeigen](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html).
+
 >[!NOTE]
 >
->Kernkomponenten sind für Autoren nicht sofort verfügbar, das [Entwicklungsteam muss sie zunächst in Ihre Umgebung integrieren](using.md). Nach der Integration können sie über den [Vorlageneditor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) oder im [Designmodus bereitgestellt und vorkonfiguriert](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-designmode.html)werden.
+>Kernkomponenten sind für Autoren nicht sofort verfügbar, das [Entwicklungsteam muss sie zunächst in Ihre Umgebung integrieren](using.md). Nach der Integration können sie über den [Vorlageneditor verfügbar gemacht und vorkonfiguriert](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)werden.
 
 >[!CAUTION]
 >
->Core-Komponenten [benötigen AEM 6.3 oder höher](versions.md) und funktionieren nicht mit der klassischen Benutzeroberfläche.
+>Core-Komponenten [erfordern AEM 6.3 oder höher](versions.md) und erfordern [bearbeitbare Vorlagen](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html). Sie funktionieren nicht mit der klassischen Benutzeroberfläche und statischen Vorlagen.
 
 ## Bearbeiten mit Kernkomponenten {#authoring-with-core-components}
-
-Um die Kernkomponenten zu verstehen, sehen Sie sich die [Komponentenbibliothek an](http://opensource.adobe.com/aem-core-wcm-components/library.html), in der die Kernkomponenten vorgestellt werden und Beispiele für deren Nutzung präsentiert werden.
 
 Als Autor werden Sie verschiedene Vorteile der Kernkomponenten bemerken, darunter:
 
 * Einfach zu verwenden und mit [dem Seiteneditor gut integriert](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)
-* Funktionsreiche Funktionen für zahlreiche Anwendungsfälle, [wie in &quot;We. Retail&quot; gezeigt](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)
-* [Vorkonfigurierbar](#pre-configuring-core-components) , um zu definieren, welche Funktionen für Seitenautoren verfügbar sind
-   * Über den [Vorlageneditor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) für [bearbeitbare Vorlagen](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-editable.html)
-   * Im [Designmodus](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-designmode.html) für [statische Vorlagen](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-static.html)
+
+* Funktionsreiche Funktionen für zahlreiche Anwendungsfälle, [wie in &quot;We. Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) &quot; und in der [Komponentenbibliothek gezeigt](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html)
+
+* [Vorkonfigurierbar](#pre-configuring-core-components) , um zu definieren, welche Funktionen für Seitenautoren über den [Vorlageneditor verfügbar sind](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
 
 * Richtlinien [für Barrierefreiheit](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
 
@@ -55,7 +55,7 @@ Komponenten werden nach Kategorien gruppiert, die Komponentengruppen genannt wer
 
 ## Vorkonfigurieren der Kernkomponenten {#pre-configuring-core-components}
 
-Die Konfiguration von Foundation-Komponenten war der Auftrag eines Entwicklers. Mit Core-Komponenten kann ein Vorlagenautor jetzt eine Reihe von Funktionen über den Vorlageneditor oder im Designmodus konfigurieren.
+Die Konfiguration von Foundation-Komponenten war der Auftrag eines Entwicklers. Mit Core-Komponenten kann ein Vorlagenautor jetzt eine Reihe von Funktionen über den Vorlageneditor konfigurieren.
 
 Wenn beispielsweise eine Image-Komponente keine Bilduploads vom Dateisystem zulassen darf oder wenn eine Textkomponente nur bestimmte Absatzformatierungen zulassen soll, können diese Funktionen mit einem einfachen Klick aktiviert oder deaktiviert werden.
 
@@ -93,7 +93,7 @@ Die aktuelle Version der Kernkomponenten enthält die folgenden Komponenten.
 * [Formularschaltfläche](form-button.md)
 * [Karussell](carousel.md)
 * [Formular-Container](form-container.md)
-* [Inhaltsfragmente](content-fragment-component.md)
+* [Inhaltsfragment](content-fragment-component.md)
 * [Inhaltsfragmentliste](content-fragment-list.md)
 * [Ausgeblendetes Formular](form-hidden.md)
 * [Formularoptionen](form-options.md)
