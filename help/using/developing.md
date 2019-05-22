@@ -10,7 +10,7 @@ topic-tags: wird entwickelt
 products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 157 a 2 ec 3-9 fca -4 path -977 a-d 93013 eeb 218
 translation-type: tm+mt
-source-git-commit: 600aefa49d6247c290b8fb9f6acf5548126b3f61
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
@@ -45,9 +45,9 @@ Die Kernkomponenten bieten stabile und erweiterbare Basiskomponenten und ihre Hi
 
 >[!CAUTION]
 >
->Core-Komponenten erfordern AEM 6.3 oder höher und Java 8.
+>Core-Komponenten erfordern AEM 6.3 oder höher und Java 8 und erfordern die Verwendung [von bearbeitbaren Vorlagen.](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
 >
->Die Kernkomponenten funktionieren in der klassischen Benutzeroberfläche nicht.
+>Core-Komponenten funktionieren nicht mit der klassischen Benutzeroberfläche und statischen Vorlagen.
 
 ## Gems Session Overview {#gems-session-overview}
 
@@ -57,7 +57,7 @@ Um eine Einführung in die Kernkomponenten, die angebotenen Funktionen und die N
 
 ## WKND Developer Tutorial {#wknd-developer-tutorial}
 
-[Beginnen Sie mit der Entwicklung von AEM-Sites mit Kernkomponenten, indem Sie diesen Schritt schrittweise befolgen.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+Beginnen Sie mit der Entwicklung von AEM-Sites mit Kernkomponenten, indem Sie diese [schrittweise Übung befolgen.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
 ## Über github bereitgestellt {#delivered-over-github}
 
@@ -172,7 +172,22 @@ verwendet weiterhin die [Foundation-Komponenten](developing.md), es sei denn, ei
 wenn Ihre Komponenten erwartungsgemäß funktionieren, behalten Sie sie unverändert bei.\
    Falls nicht, verweisen Sie auf &quot;Neue benutzerdefinierte Komponenten&quot; oben.
 
-### Core-Komponentenunterstützung {#core-component-support}
+## Migration zu Kernkomponenten
+
+Jedes neue Projekt sollte mit Kernkomponenten implementiert werden. Bestehende Projekte verfügen jedoch meist über umfassende Implementierungen der Foundation-Komponenten.
+
+Eine größere Arbeit an einem vorhandenen Projekt (z. B. ein Rebranding oder eine Gesamtrefaktorierung) bietet oft eine Möglichkeit, zu den Core-Komponenten zu migrieren. Um diese Migration zu erleichtern, stellt Adobe eine Reihe von Migrationswerkzeugen bereit, um die Akzeptanz der Kernkomponenten und der neuesten AEM-Technologie zu fördern.
+
+[Die AEM Modernisierung Tools Suite](https://github.com/adobe/aem-modernize-tools) ermöglicht die einfache Konvertierung von:
+
+* Statische Vorlagen zu bearbeitbaren Vorlagen
+* Designkonfigurationen zu Richtlinien
+* Foundation-Komponenten zu Kernkomponenten
+* Klassische Benutzeroberfläche für Touch-aktivierte Benutzeroberfläche
+
+Weitere Informationen zur Nutzung dieser Werkzeuge finden Sie [in der Dokumentation](https://www.adobe.com/go/aem_modernize_tools_en).
+
+## Core-Komponentenunterstützung {#core-component-support}
 
 Core-Komponenten sind ein wesentlicher Bestandteil von AEM und unterstützen wie vorliegend unter denselben Bedingungen, wie sie als Teil des Quickstart bereitgestellt wurden.
 
@@ -182,11 +197,11 @@ Die Version der einzelnen Komponenten stellt klar die von dieser Version unterst
 
 Weitere Informationen zur Unterstützung von Komponentenanpassungen finden Sie auf der [Seite Anpassen Kernkomponenten](customizing.md) .
 
-### Unterstützung von Foundation-Komponenten {#foundation-component-support}
+## Unterstützung von Foundation-Komponenten {#foundation-component-support}
 
-Da die Foundation-Komponenten aufgrund vieler Versionen als Grundlage für so viele Projekte bereitgestellt wurden, werden sie in absehbarer Zukunft weiterhin unterstützt.
+Da die Foundation-Komponenten aufgrund vieler AEM-Versionen als Grundlage für so viele Projekte bereitgestellt wurden, werden sie in absehbarer Zukunft weiterhin unterstützt.
 
-Der Entwicklungsschwerpunkt von Adobe ist jedoch auf die Kernkomponenten verlagert und neue Funktionen werden ihnen hinzugefügt, während nur Fehlerkorrekturen an den Basiskomponenten vorgenommen werden.
+Der Entwicklungs-Schwerpunkt von Adobe wurde jedoch auf die Kernkomponenten verschoben, und neue Funktionen werden ihnen hinzugefügt, während [fast alle Foundation-Komponenten mit AEM 6.5 verworfen wurden](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) und es werden nur Fehlerkorrekturen an den Foundation-Komponenten vorgenommen.
 
 **Lesen Sie als Nächstes:**
 
