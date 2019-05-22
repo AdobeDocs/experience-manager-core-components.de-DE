@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
@@ -135,13 +135,13 @@ Stellen Sie sicher, dass Ihre Proxy-Komponenten und Client-Bibliotheken in Ihrer
 
 ## Komponenten zulassen {#allow-the-components}
 
-Die folgenden Schritte werden normalerweise im [Vorlagen-Editor durchgeführt](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html), für vorhandene Setups jedoch möglicherweise im Designmodus:
+Die folgenden Schritte werden im [Vorlagen-Editor durchgeführt](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html).
 
-1. Wählen Sie im Vorlageneditor (oder im Designmodus) den Layoutcontainer (oder die parsys) aus und öffnen Sie die Richtlinie (oder Design-Konfiguration).
+1. Wählen Sie im Vorlageneditor den Layout-Container aus und öffnen Sie seine Richtlinie.
 1. Wählen Sie in der Liste der zulässigen Komponenten die zuvor erstellten Proxy-Komponenten aus, die unter der ihnen zugewiesenen Komponentengruppe angezeigt werden sollen. Übernehmen Sie anschließend die Änderungen.
 1. Optional können sie für Komponenten mit einem Design-Dialogfeld vorkonfiguriert werden.
 
-Auf den Seiten, die aus der bearbeiteten Vorlage erstellt wurden, sollten Sie jetzt die neu erstellten Komponenten verwenden können.
+Das ist es! In den aus der bearbeiteten Vorlage erstellten Seiten sollten Sie jetzt die neu erstellten Komponenten verwenden können.
 
 **Lesen Sie als Nächstes:**
 
