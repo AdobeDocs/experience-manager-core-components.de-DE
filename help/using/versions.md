@@ -10,20 +10,20 @@ topic-tags: Einführung
 products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: a 3 a 98 b 2 f -65 bf -4493-82 ad -1717938 fdbc
 translation-type: tm+mt
-source-git-commit: 40ce01fdb0f22e3ee3b376a3684a766bd7e7bc11
+source-git-commit: 144494c03ffed068b403d80f62fdfddc73a53748
 
 ---
 
 
-# Hauptkomponenten-Versionen{#core-components-versions}
+# Core Components Versions{#core-components-versions}
 
 Die aktuelle Version der Kernkomponenten ist 2.4.0 und ist mit AEM 6.5 kompatibel. Es wurde im Mai 2019 als kleinere Aktualisierung an Version 2.0.0 veröffentlicht. Mit Version 2.0.0 wurden neue Komponenten zusammen mit Version 2 der vorhandenen Komponenten eingeführt.
 
-Weitere Informationen finden Sie im Abschnitt [Versionsverlauf und Kompatibilität](#versions-and-releases) dieses Dokuments.
+See the section [Release History and Compatibility](#versions-and-releases) of this document for more information.
 
-Sie können auch die [Komponentenbibliothek](http://opensource.adobe.com/aem-core-wcm-components/library.html)auschecken, in der die aktuelle Version der Kernkomponenten präsentiert wird, und Beispiele für ihre Verwendung eingeben.
+You can also check out the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library.html), which showcases the current release of the Core Components and gives examples of their usage.
 
-## Versionen und Versionen {#versions-and-releases}
+## Versions and Releases {#versions-and-releases}
 
 Kernkomponenten werden über github verteilt. Dadurch kann Adobe den Komponenten schneller Funktionen hinzufügen und die Community-Eingabe außerhalb des AEM-Versionszyklus zulassen.
 
@@ -31,15 +31,15 @@ Die Kernkomponenten werden mit definierten AEM-Versionen bereitgestellt, mit den
 
 ### Versionen {#versions}
 
-Die Hauptiteration der Kernkomponenten sind die **Versionen**. Jede Komponente hat eine Version. Versionen werden mit **dem Zusatz v** angehängt, der eine nicht null, positive Ganzzahl wie v 1 und v 2 angehängt hat. Versionen werden nur für Änderungen inkrementiert, die nicht abwärtskompatibel sind. Dies gilt normalerweise für die Einführung neuer Funktionen und Funktionen.
+The major iteration of the Core Components are the **versions**. Jede Komponente hat eine Version. Versions are denoted with **v** appended with a nonzero, positive integer such as v1 and v2. Versionen werden nur für Änderungen inkrementiert, die nicht abwärtskompatibel sind. Dies gilt normalerweise für die Einführung neuer Funktionen und Funktionen.
 
-Entwickler und Administratoren können Versionen der Kernkomponenten anhand einer Zahl in ihren Ressourcentyppfaden und in den vollständig qualifizierten Java-Klassennamen ihrer Implementierungen erkennen. Diese Versionsnummer stellt eine Hauptversion dar, die durch [semantische Versionshinweise definiert](https://semver.org/)wird.
+Entwickler und Administratoren können Versionen der Kernkomponenten anhand einer Zahl in ihren Ressourcentyppfaden und in den vollständig qualifizierten Java-Klassennamen ihrer Implementierungen erkennen. This version number represents a major version as defined by [semantic versioning guidelines](https://semver.org/).
 
-Weitere Informationen zu Core-Komponentenversionen finden Sie in der [Entwicklerdokumentation der Kernkomponenten](guidelines.md).
+For more details about core component versions, see the [developer documentation of the Core Components](guidelines.md).
 
-### Versionen {#releases}
+### Releases {#releases}
 
-Die Kernkomponenten werden über **Versionen bereitgestellt** und [stellen die tatsächlichen veröffentlichten Artefakte dar](https://github.com/adobe/aem-core-wcm-components/releases), die auf github verfügbar sind. Versionen werden mit einer Dezimalzahl im Format X.Y.Z gekennzeichnet und alle Kernkomponenten werden zusammen als bereitstellbares Paket erfasst.
+The core components are made available through **releases** and [represent the actual published artifacts available on GitHub](https://github.com/adobe/aem-core-wcm-components/releases). Versionen werden mit einer Dezimalzahl im Format X.Y.Z gekennzeichnet und alle Kernkomponenten werden zusammen als bereitstellbares Paket erfasst.
 
 * **Hauptversionen** können neue Versionen vorhandener Komponenten sowie völlig neue Komponenten sowie Standardfehlerbehebungen einführen. Dies wird durch eine Inkrementierung der X-Komponente der Versionsnummer dargestellt.
 
@@ -53,15 +53,15 @@ Die Kernkomponenten werden über **Versionen bereitgestellt** und [stellen die t
 >
 >Dieselbe Version einer Komponente kann in mehreren Versionen angezeigt werden.
 
-## Versionsverlauf und Kompatibilität {#release-history-and-compatibility}
+## Release History and Compatibility {#release-history-and-compatibility}
 
 Die Kernkomponenten wurden zuerst mit AEM 6.3 veröffentlicht und sind so ausgelegt, dass sie flexibel und mit allen unterstützten AEM-Versionen kompatibel sind. Daher kann eine Version der Komponenten mehrere Versionen derselben Komponente enthalten.
 
 Die folgenden Tabellen zeigen die Kompatibilität der Versionen der Kernkomponenten mit den Komponentenversionen, in denen Versionen enthalten sind.
 
-### Versionsverlauf und unterstützte AEM-Versionen {#release-history-supported-aem-versions}
+### Release History &amp; Supported AEM Versions {#release-history-supported-aem-versions}
 
-Die folgende Tabelle, deren Inhalt auf github mit vollständigen Versionshinweisen [](https://github.com/adobe/aem-core-wcm-components/releases)verfügbar ist, bietet einen Überblick über die Versionen der Kernkomponenten und deren Kompatibilität mit AEM-Versionen und Java-Versionen.
+The following table, the contents of which are [available on GitHub with full release details](https://github.com/adobe/aem-core-wcm-components/releases), gives an overview of the releases of the Core Components and their compatibility with AEM releases and Java versions.
 
 | Version | Beschreibung | AEM 6.3 | AEM 6.4 | AEM 6.5 | Java |
 |---|---|---|---|---|---|
@@ -83,9 +83,9 @@ Die folgende Tabelle, deren Inhalt auf github mit vollständigen Versionshinweis
 
 >[!NOTE]
 >
->Wie bei AEM empfiehlt Adobe, dass Entwickler die [neueste Version und Versionen der verfügbaren Kernkomponenten](https://github.com/adobe/aem-core-wcm-components/releases/latest) verwenden, die mit der Version von AEM kompatibel sind, die sie ausführen, um die aktuellsten Fehlerbehebungen und Funktionen nutzen zu können.
+>As with AEM, Adobe recommends that developers use the [latest release and versions of the Core Components](https://github.com/adobe/aem-core-wcm-components/releases/latest) available that is compatible with the version of AEM that they are running in order to benefit from the most up-to-date fixes and features.
 
-### Komponentenversionen und Releases {component-versions-and-releases}
+### Component Versions &amp; Releases {#component-versions-and-releases}
 
 Die folgende Tabelle zeigt, welche Versionen von Komponenten in welchen Versionen der Kernkomponenten enthalten sind.
 
@@ -102,14 +102,14 @@ Die folgende Tabelle zeigt, welche Versionen von Komponenten in welchen Versione
 | **[Formularoptionen](form-options.md)** | v1 | v1 | v 1, v 2 | v 1, v 2 | v 1, v 2 | v 1, v 2 |
 | **[Ausgeblendetes Formular](form-hidden.md)** | v1 | v1 | v 1, v 2 | v 1, v 2 | v 1, v 2 | v 1, v 2 |
 | **[Formularschaltfläche](form-button.md)** | v1 | v1 | v 1, v 2 | v 1, v 2 | v 1, v 2 | v 1, v 2 |
-| **[Inhaltsfragment](content-fragment-component.md)** | Sandbox | v1 | v1 | v1 | v1 |
-| **[Navigation](navigation.md)** | v1 | v1 | v1 | v1 |
-| **[Sprachnavigation](language-navigation.md)** | v1 | v1 | v1 | v1 |
-| **[Schnellsuche](quick-search.md)** | v1 | v1 | v1 | v1 |
-| **[Teaser](teaser.md)** | v1 | v1 | v1 |
-| **[Registerkarten](tabs.md)** | v1 | v1 |
-| **[Karussell](carousel.md)** | v1 | v1 |
-| **[Trennzeichen](separator.md)** | v1 |
+| **[Inhaltsfragment](content-fragment-component.md)** |  | Sandbox | v1 | v1 | v1 | v1 |
+| **[Navigation](navigation.md)** |  |  | v1 | v1 | v1 | v1 |
+| **[Sprachnavigation](language-navigation.md)** |  |  | v1 | v1 | v1 | v1 |
+| **[Schnellsuche](quick-search.md)** |  |  | v1 | v1 | v1 | v1 |
+| **[Teaser](teaser.md)** |  |  |  | v1 | v1 | v1 |
+| **[Registerkarten](tabs.md)** |  |  |  |  | v1 | v1 |
+| **[Karussell](carousel.md)** |  |  |  |  | v1 | v1 |
+| **[Trennzeichen](separator.md)** |  |  |  |  |  | v1 |
 
 ## Dokumentation {#documentation}
 
