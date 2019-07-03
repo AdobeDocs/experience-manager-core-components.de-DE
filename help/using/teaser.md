@@ -3,30 +3,30 @@ title: Teaser-Komponente
 seo-title: Teaser-Komponente
 description: Die Teaser-Komponente kann ein Bild, einen Titel, Rich-Text und optional einen Link zu weiteren Inhalten anzeigen.
 seo-description: Die Teaser-Komponente kann ein Bild, einen Titel, Rich-Text und optional einen Link zu weiteren Inhalten anzeigen.
-uuid: 46989314-df 37-448 b -8562-c 707043 f 2160
+uuid: 46989314-df37-448b-8562-c707043f2160
 contentOwner: Bohnert
 content-type: Referenz
 topic-tags: Kernkomponenten
-discoiquuid: e 597 c 18 e -3643-41 be -9878-4 a 7872 f 1 ab 90
+discoiquuid: e597c18e-3643-41be-9878-4a7872f1ab90
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ---
 
 
 # Teaser-Komponente{#teaser-component}
 
-Die Core Component Teaser-Komponente kann ein Bild, einen Titel, Rich-Text und optional einen Link zu weiteren Inhalten anzeigen.
+Die Kernkomponente Teaser-Komponente kann ein Bild, einen Titel, Rich-Text und optional einen Link zu weiteren Inhalten anzeigen.
 
 ## Nutzung {#usage}
 
-Mit der Teaser-Komponente kann der Inhaltsautor problemlos einen Teaser für weitere Inhalte erstellen, indem Sie ein Bild, einen Titel oder einen Rich Text verwenden und Links zu weiteren Inhalten oder anderen Aktionen erstellen.
+Mit der Teaser-Komponente kann der Inhaltsautor problemlos einen Teaser für weitere Inhalte erstellen, indem er ein Bild, einen Titel oder einen Rich Text verwendet und Links zu weiteren Inhalten oder anderen Aktionen erstellt.
 
-Der Vorlagenautor kann das [Design-Dialogfeld](#design-dialog) verwenden, um zu definieren, ob die Optionen zum Erstellen von Aktionsaufrufen und zum Hinzufügen von Links sowie zum Deaktivieren verschiedener Anzeigeoptionen verfügbar sind. Der Inhaltsautor kann das [Konfigurationsdialogfeld](#configure-dialog) verwenden, um ein Bild festzulegen, ctas festzulegen, Titel und Beschreibungen festzulegen und Links zum jeweiligen Teaser zu konfigurieren. Auf das Dialogfeld [&quot;Bearbeiten&quot;](image.md#edit-dialog) der [Image-Komponente](image.md) kann zugegriffen werden, um den Teaser-Image zu ändern.
+Der Vorlagenautor kann das [Dialogfeld „Design“](#design-dialog) verwenden, um zu definieren, ob die Optionen zum Erstellen von Aktionsaufrufen und zum Hinzufügen von Links verfügbar sind sowie verschiedene Anzeigeoptionen deaktivieren. Der Inhaltsautor kann das [Dialogfeld „Konfigurieren“](#configure-dialog) verwenden, um ein Bild festzulegen, CTAs zu definieren, Titel und Beschreibungen festzulegen und Links zum jeweiligen Teaser zu konfigurieren. Es kann auf das [Dialogfeld „Bearbeiten“](image.md#edit-dialog) der [Bild-Komponente](image.md) zugegriffen werden, um das Bild des Teasers zu ändern.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die aktuelle Version der Teaser-Komponente ist v 1, die mit Version 2.1.0 der Kernkomponenten im Juli 2018 eingeführt wurde und in diesem Dokument beschrieben wird.
+Die aktuelle Version der Teaser-Komponente ist v1, die mit Version 2.1.0 der Kernkomponenten im Juli 2018 eingeführt wurde und in diesem Dokument beschrieben wird.
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
@@ -36,84 +36,78 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Im Folgenden finden Sie ein Beispiel aus [We. Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
-
-### Screenshot {#screenshot}
-
-![](assets/screen_shot_2018-07-04at145042.png)
-
-### Komponentenbibliothek
-
-Rufen Sie die [Komponentenbibliothek auf, um die Teaser-Komponente sowie Beispiele für die Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten](http://opensource.adobe.com/aem-core-wcm-components/library/teaser.html).
+To experience the Teaser Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/teaser.html).
 
 ### Technische Details {#technical-details}
 
-Die aktuellste technische Dokumentation zur Teaser-Komponente [finden Sie unter github](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/teaser/v1/teaser).
+The latest technical documentation about the Teaser Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/teaser/v1/teaser).
 
-Weitere Informationen zur Entwicklung Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Komponenten](developing.md).
+Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
 
-## Dialogfeld konfigurieren {#configure-dialog}
+## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
-Der Inhaltsautor kann das Konfigurationsdialogfeld verwenden, um die Eigenschaften des einzelnen Teasers zu definieren. Es gibt auch [ein Dialogfeld zum Bearbeiten](#edit-dialog) des Teaserbilds, wenn eine ausgewählt ist.
+Der Inhaltsautor kann das Dialogfeld „Konfigurieren“ verwenden, um die Eigenschaften des einzelnen Teasers zu definieren. Es gibt auch ein [Dialogfeld „Bearbeiten“](#edit-dialog) zum Bearbeiten des Teaserbilds, wenn eines ausgewählt ist.
 
-### image (Bild){#image}
+### Bild{#image}
 
 ![](assets/screen_shot_2018-07-03at104125.png)
 
 * **Bild-Asset**
-   * Legen Sie ein Asset aus dem [Asset-Browser ab](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) oder tippen Sie auf die **Durchsuchen** -Option, um es aus einem lokalen Dateisystem hochzuladen.
-   * Tippen oder klicken **Sie auf Leeren** , um das aktuell ausgewählte Bild zu deaktivieren.
-   * Tippen oder klicken **Sie auf Bearbeiten** , um [die Darstellungen des Assets](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) im Asset Editor zu mange.
+   * Drop an asset from the [asset browser](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) or tap the **browse** option to upload from a local file system.
+   * Tippen oder klicken Sie auf **Löschen**, um das aktuell ausgewählte Bild zu deaktivieren.
+   * Tap or click **Edit** to [mange the renditions of the asset](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) in the asset editor.
 
 ### Text {#text}
 
 ![](assets/screen_shot_2018-07-03at104138.png)
 
-* **Title**
+* **Titel**
 Definiert einen Titel, der als Überschrift für den Teaser angezeigt wird.
-* **Titel von verknüpfte Seite**
-abrufen Wenn aktiviert, wird der Titel mit dem Titel der verknüpften Seite ausgefüllt.
+* **Titel von verknüpfter Seite abrufen**
+Wenn aktiviert, wird der Titel mit dem Titel der verknüpften Seite ausgefüllt.
 * **Beschreibung**
-Definiert eine Beschreibung, die als Überschrift des Teasers angezeigt wird.
-* **Beschreibung von verknüpfte Seite**
-erhalten, Wenn aktiviert, wird die Beschreibung mit der Beschreibung der verknüpften Seite ausgefüllt.
+Definiert eine Beschreibung, die als Untertitel des Teasers angezeigt wird.
+* **Beschreibung von verknüpfter Seite erhalten**
+Wenn aktiviert, wird die Beschreibung mit der Beschreibung der verknüpften Seite ausgefüllt.
 
 ### Links und Aktionen {#links-actions}
 
 ![](assets/screen_shot_2018-07-03at104146.png)
 
-* **Link Link**
-auf den Teaser angewendet. Verwenden Sie den Pfad-Browser, um das Link-Ziel auszuwählen.
-* **Aktivieren von Aktionsaufrufen**, wenn aktiviert, ermöglicht die Definition von Aktionsaufrufen. Der erste Link-zu-Action-Link in der Liste wird als Link für andere Teaser-Elemente verwendet.
+* **Link**
+Link, der auf den Teaser angewendet wird. Verwenden Sie den Pfad-Browser, um das Link-Ziel auszuwählen.
+* **Aktivieren von Aktionsaufrufen**
+Wenn aktiviert, ermöglicht die Definition von Aktionsaufrufen. Der erste Link zu Aktionsaufrufen in der Liste wird als Link für andere Teaser-Elemente verwendet.
 
-## Dialogfeld bearbeiten {#edit-dialog}
+## Dialogfeld „Bearbeiten“ {#edit-dialog}
 
-Die Teaser-Komponente überträgt das Bild-Rendern an die [Image-Komponente](image.md). Daher wird das [Dialogfeld &quot;Bearbeiten]&quot; (image. md # edit-dialog der Image-Komponente verfügbar) dem Inhaltsautor zur Bearbeitung des Teaserbilds zur Verfügung gestellt.
+Die Teaser-Komponente delegiert das Rendern von Bildern an die [Bild-Komponente](image.md). Daher wird das [Dialogfeld „Bearbeiten“] dem Inhaltsautor zur Bearbeitung des Teaserbilds zur Verfügung gestellt.
 
-## Design-Dialogfeld {#design-dialog}
+## Dialogfeld „Design“ {#design-dialog}
 
-Das Design-Dialogfeld ermöglicht es dem Vorlagenautor, die Teaser-Optionen zu definieren, die der Inhaltsautor bei Verwendung dieser Komponente hat.
+Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Teaser-Optionen zu definieren, die der Inhaltsautor bei Verwendung dieser Komponente hat.
 
-### Teaser-Registerkarte {#teaser-tab}
+### Registerkarte „Teaser“ {#teaser-tab}
 
 ![](assets/screen_shot_2018-07-03at105958.png)
 
 * **Aktionsaufrufe**
-   * **Aufrufen von Aktionsaufrufen** ausblenden der Option **&quot;Aktionsaufruf** ausblenden&quot; für Inhaltsautoren
+   * **Deaktivieren von Aktionsaufrufen**
+Blendet die Option**Aktionsaufrufe** für Inhaltsautoren aus.
 * **Elemente**
    * **Titel ausblenden**
-      * Blendet **die Option &quot;Titel&quot;** für Autoren von Inhalten aus.
-      * Wenn ausgewählt, wird der **Titeltyp** ausgeblendet.
-   * **Beschreibung**
-ausblenden Option Die Option **Beschreibung** ausblenden für Autoren ausblenden
+      * Blendet die Option **Titel** für Inhaltsautoren aus
+      * Nach der Auswahl wird der **Titeltyp** ausgeblendet
+   * **Beschreibung ausblenden**
+Versteckt die Option **Beschreibung** für Inhaltsautoren
 * **Titeltyp**
 Definiert das H-Tag, das vom Titel des Teasers verwendet werden soll.
 * **Links**
-   * **Verknüpfen Sie das Bild**
-nicht, wenn ausgewählt, wird das Teaser-Bild nicht verknüpft.
-   * **Verknüpfen Sie den Titel**
-nicht, wenn ausgewählt, der Teaser-Titel ist nicht verknüpft.
+   * **Das Bild nicht verknüpfen**
+Wenn ausgewählt, wird das Teaser-Bild nicht verknüpft.
+   * **Den Titel nicht verknüpfen**
+Wenn ausgewählt, wird der Teaser-Titel nicht verknüpft.
 
-### Stile Registerkarte {#styles-tab}
+### Registerkarte „Stile“ {#styles-tab}
 
-Die Teaser-Komponente unterstützt das AEM [-Stilsystem](authoring.md#component-styling).
+Die Teaser-Komponente unterstützt das AEM-[Stilsystem](authoring.md#component-styling).
