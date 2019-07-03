@@ -2,12 +2,12 @@
 title: Sprachnavigationskomponente
 seo-title: Sprachnavigationskomponente
 description: 'null'
-seo-description: Die Komponente Sprachnavigation stellt eine Sprache/Ländernavigation für eine Site bereit, sodass Besucher zur gleichen Seite in einem anderen Gebietsschema navigieren können.
-uuid: ce 736458-9 cdf -4 bc 2-b 90 f -9 c 5 a 62 fe 1 ca 0
+seo-description: Die Sprachnavigationskomponente stellt eine Sprache/Ländernavigation für eine Site bereit, sodass Besucher zur gleichen Seite in einem anderen Gebietsschema navigieren können.
+uuid: ce736458-9cdf-4bc2-b90f-9c5a62fe1ca0
 content-type: Referenz
-topic-tags: authoring
-products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 8 f 232 eb 0-65 d 5-4075-8668-75 f 1366882 c 8
+topic-tags: Authoring
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: 8f232eb0-65d5-4075-8668-75f1366882c8
 disttype: dist5
 gnavtheme: light
 groupsectionnavitems: keine
@@ -18,24 +18,24 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c58826c133eb112b305fa4facbe2a81e577eb896
+source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ---
 
 
-# Language Navigation Component{#language-navigation-component}
+# Sprachnavigationskomponente{#language-navigation-component}
 
 Die Sprachnavigationskomponente stellt eine Sprache/Ländernavigation für eine Site bereit, sodass Besucher zur gleichen Seite in einem anderen Gebietsschema navigieren können.
 
 ## Nutzung {#usage}
 
-Oft werden Websites für verschiedene Regionen in mehreren Sprachen bereitgestellt. Mit der Komponente für die Sprachnavigation kann ein Besucher dieselbe Seite in verschiedenen Sprachen/Gebietsschemas anzeigen.
+Oft werden Websites für verschiedene Regionen in mehreren Sprachen bereitgestellt. Mit der Sprachnavigationskomponente kann ein Besucher dieselbe Seite in verschiedenen Sprachen/Gebietsschemata anzeigen.
 
-The [edit dialog](#edit-dialog) allows the definition of the global site navigation root as well as how deep into the structure the navigation should go. Using the [design dialog](#design-dialog), the template author can set the default values for the same options.
+Das Dialogfeld [Bearbeiten](#edit-dialog) ermöglicht die Definition des globalen Site-Navigationsstamms sowie die Festlegung, wie tief in die Struktur die Navigation gehen soll. Im Dialogfeld [Design](#design-dialog)kann der Vorlagenautor die Standardwerte für dieselben Optionen festlegen.
 
-## Version and Compatibility {#version-and-compatibility}
+## Version und Kompatibilität {#version-and-compatibility}
 
-Die aktuelle Version der Sprachnavigationskomponente ist v 1, die mit Version 2.0.0 der Kernkomponenten im Januar 2018 eingeführt wurde und in diesem Dokument beschrieben wird.
+Die aktuelle Version der Sprachnavigationskomponente ist v1, die mit Version 2.0.0 der Kernkomponenten im Januar 2018 eingeführt wurde und in diesem Dokument beschrieben wird.
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
@@ -44,42 +44,43 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 | v1 | Kompatibel | Kompatibel | Kompatibel |
 
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
+Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](versions.md).
 
-## Sample Component Output {#sample-component-output}
+## Musterkomponentenausgabe {#sample-component-output}
 
-To experience the Language Navigation Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/languagenavigation.html).
+To experience the Language Navigation Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/language-navigation/language-structure/us/en/language-navigation.html).
 
-## Technical Details {#technical-details}
+## Technische Details {#technical-details}
 
 The latest technical documentation about the Language Navigation Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/languagenavigation/v1/languagenavigation).
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
+Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
 
-## Edit Dialog {#edit-dialog}
+## Dialogfeld „Bearbeiten“ {#edit-dialog}
 
-Das Dialogfeld Bearbeiten ermöglicht die Definition des globalen Site-Navigationsstamms sowie die Tiefe der Navigation in der Struktur.
+Das Dialogfeld „Bearbeiten“ ermöglicht die Definition des globalen Site-Navigationsstamms sowie die Festlegung, wie tief in die Struktur die Navigation gehen soll.
 
 ![](assets/screen_shot_2018-01-12at133353.png)
 
-* **Navigation Root**
+* **Navigationsstamm**
 Definiert die Stammseite der Navigationsstruktur.
-   * Use the **Open Selection Dialog** button to easily navigate the content structure and select the root.
-* **Sprachstrukturtiefe**
-der globalen Sprachstruktur relativ zum Navigationsstamm.
+   * Verwenden Sie die **Schaltfläche „Auswahl öffnen“**, um einfach in der Inhaltsstruktur zu navigieren und den Stamm auszuwählen.
+* **Tiefe der Sprachstruktur**
+Tiefe der globalen Sprachstruktur in Relation zum Navigationsstamm.
 
-## Design Dialog {#design-dialog}
+## Dialogfeld „Design“ {#design-dialog}
 
-Im Design-Dialogfeld kann der Vorlagenautor die Standardwerte für dieselben Optionen festlegen, die im Dialogfeld Bearbeiten verfügbar sind.
+Über das Dialogfeld „Design“ kann der Vorlagenautor die Standardwerte für dieselben Optionen festlegen, die im Dialogfeld „Bearbeiten“ verfügbar sind.
 
-### Properties Tab {#properties-tab}
+### Registerkarte „Eigenschaften“{#properties-tab}
 
 ![](assets/screen_shot_2018-01-12at133642.png)
 
-* **Navigationsstamm**-Standardwert
-des Navigationsstammwertes, wenn ein Inhaltsautor die Sprachumschalter-Komponente auf einer Inhaltsseite platziert
-* **Standardwert der** Sprachstruktur der Sprachstruktur, wenn ein Inhaltsautor die Sprachumschalter-Komponente auf einer Inhaltsseite platziert
+* **Navigationsstamm**
+Standardwert des Navigationsstamms, wenn ein Inhaltsautor die Sprachumschalter-Komponente auf einer Inhaltsseite platziert
+* **Sprachstrukturtiefe**
+Standardwert der Tiefe der Sprachstruktur, wenn ein Inhaltsautor die Sprachumschalter-Komponente auf einer Inhaltsseite platziert
 
-### Styles Tab {#styles-tab}
+### Registerkarte „Stile“ {#styles-tab}
 
-The Language Navigation Component supports the AEM [Style System](authoring.md#component-styling).
+Die Sprachnavigationskomponente unterstützt das AEM-[Stilsystem](authoring.md#component-styling).
