@@ -1,33 +1,33 @@
 ---
-title: Social Sharing-Komponente
-seo-title: Social Sharing-Komponente
-description: Die Social Sharing-Komponente "Core Component" ist ein Facebook- und Pinterest-Freigabewidget.
-seo-description: Die Social Sharing-Komponente "Core Component" ist ein Facebook- und Pinterest-Freigabewidget.
-uuid: a 75 aeca 9-f 055-429 b-a 128-7 d 4 a 1 e 5 ab 21 e
+title: Social-Sharing-Komponente
+seo-title: Social-Sharing-Komponente
+description: Die Kernkomponente „Social-Sharing-Komponente“ ist ein Widget zum Teilen auf Facebook und Pinterest.
+seo-description: Die Kernkomponente „Social-Sharing-Komponente“ ist ein Widget zum Teilen auf Facebook und Pinterest.
+uuid: a75aeca9-f055-429b-a128-7d4a1e5ab21e
 contentOwner: Benutzer
 content-type: Referenz
-topic-tags: authoring
-products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: a 4 a 31261-01 e 9-4 fda -8 d 1 b -7 cec 90 bb 6574
+topic-tags: Authoring
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: a4a31261-01e9-4fda-8d1b-7cec90bb6574
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ---
 
 
-# Social Sharing-Komponente{#social-sharing-component}
+# Social-Sharing-Komponente{#social-sharing-component}
 
-Die Social Sharing-Komponente &quot;Core Component&quot; ist ein Facebook- und Pinterest-Freigabewidget.
+Die Kernkomponente „Social-Sharing-Komponente“ ist ein Widget zum Teilen auf Facebook und Pinterest.
 
 ## Nutzung {#usage}
 
-Die Social Sharing-Komponente fügt Links für Facebook und Pinterest zur Seite hinzu. Es wird häufig in Seitenkopf- oder Fußzeilen einbezogen.
+Die Social-Sharing-Komponente fügt Sharing-Links für Facebook und Pinterest zur Seite hinzu. Sie wird häufig in Kopf- oder Fußzeilen von Seiten einbezogen.
 
-Im Gegensatz zu anderen Komponenten werden die Einstellungen für die Social Sharing-Komponente vom Vorlagenautor über [die Eigenschaften Initial Page und](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) vom Inhaltsautor über [Seiteneigenschaften vorgenommen](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-page-properties.html).
+Unlike other components, the settings for the Social Sharing Component is done by the template author via [Initial Page properties](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) and by the content author via [Page Properties](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-page-properties.html).
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die aktuelle Version der Social Sharing-Komponente ist v 1, die mit Version 1.0.0 der Kernkomponenten mit AEM 6.3 eingeführt wurde und in diesem Dokument beschrieben wird.
+Die aktuelle Version der Social-Sharing-Komponente ist v1, die mit Version 1.0.0 der Kernkomponenten mit AEM 6.3 eingeführt wurde und in diesem Dokument beschrieben wird.
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente und die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind.
 
@@ -36,30 +36,22 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente und d
 | v1 | Kompatibel | Kompatibel | Kompatibel |
 
 
-Weitere Informationen zu Core-Komponentenversionen und -versionen finden Sie in den Core [-Komponentenversionen](versions.md).
+Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](versions.md).
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Nachfolgend finden Sie ein Beispiel aus [We. Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
-
-### Screenshot {#screenshot}
-
-![](assets/chlimage_1-6.png)
-
-### Komponentenbibliothek
-
-Um die Social Sharing-Komponente sowie Beispiele für die Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](http://opensource.adobe.com/aem-core-wcm-components/library/social-sharing.html).
+To experience the Social Sharing Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/social-sharing.html).
 
 ### Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Freigabe-Komponente [finden Sie unter github](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/sharing/v1/sharing).
+The latest technical documentation about the Sharing Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/sharing/v1/sharing).
 
-Weitere Informationen zur Entwicklung Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Komponenten](developing.md).
+Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
 
-## Dialogfeld bearbeiten {#edit-dialog}
+## Dialogfeld „Bearbeiten“ {#edit-dialog}
 
-Da die Freigabe spezielle Seitenüberschriften erfordert, muss jede Freigabe auf Seitenebene aktiviert werden. Daher sind die Bearbeitungsoptionen für die Freigabekomponente für den Inhaltsautor über die Registerkarte &quot;Freigeben&quot; die [Seiteneigenschaften verfügbar](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-page-properties.html).
+Da Teilen, d. h. eine Freigabe, spezielle Seitenkopfzeilen erfordert, muss jede Freigabe auf Seitenebene aktiviert werden. Therefore, for the content author the edit options for the sharing component are available through the sharing tab the [page properties](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-page-properties.html).
 
-## Design-Dialogfeld {#design-dialog}
+## Dialogfeld „Design“ {#design-dialog}
 
-Da die Freigabe spezielle Seitenüberschriften erfordert, muss jede Freigabe auf Seitenebene aktiviert werden. Daher sind die Designoptionen für die Freigabe-Komponente für den Vorlagenautor über die [ersten Seiteneigenschaften verfügbar](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html).
+Da Teilen, d. h. eine Freigabe, spezielle Seitenkopfzeilen erfordert, muss jede Freigabe auf Seitenebene aktiviert werden. Therefore, for the template author the design options for the sharing component are available through the [initial page properties](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html).
