@@ -2,12 +2,12 @@
 title: Navigationskomponente
 seo-title: Navigationskomponente
 description: 'null'
-seo-description: Mit der Navigationskomponente können Benutzer leicht auf eine globale Site-Struktur navigieren.
-uuid: 616 c 03 fb -39 b 3-402 a-b 990-f 56 c 87 bc 6 df 4
+seo-description: Mit der Navigationskomponente können Benutzer leicht durch eine globalisierten Site-Struktur navigieren.
+uuid: 616c03fb-39b3-402a-b990-f56c87bc6df4
 content-type: Referenz
-topic-tags: authoring
-products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: da 8 d 67 d 7-b 65 e -4041-bc 0 e-e 998 f 24 a 68 f 9
+topic-tags: Authoring
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: da8d67d7-b65e-4041-bc0e-e998f24a68f9
 disttype: dist5
 gnavtheme: light
 groupsectionnavitems: keine
@@ -18,24 +18,24 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c58826c133eb112b305fa4facbe2a81e577eb896
+source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ---
 
 
-# Navigation Component{#navigation-component}
+# Navigationskomponente{#navigation-component}
 
-Mit der Navigationskomponente können Benutzer leicht auf eine globale Site-Struktur navigieren.
+Mit der Navigationskomponente können Benutzer leicht durch eine globalisierten Site-Struktur navigieren.
 
 ## Nutzung {#usage}
 
-Die Navigationskomponente ermöglicht eine Navigationshierarchie, die aus den Live-Kopien eines Blueprints, aus den Sprachkopien einer Sprachmaster oder aus einer einfachen Seitenstruktur erstellt werden kann. Dadurch können Benutzer der Seite leicht auf eine Site-Struktur navigieren.
+Die Navigationskomponente ermöglicht eine Navigationshierarchie, die aus den Live-Kopien eines Blueprints, aus den Sprachkopien eines Sprachmasters oder aus einer einfachen Seitenstruktur erstellt werden kann. Dadurch können Benutzer der Seite leicht auf einer Seitenstruktur navigieren.
 
-The [edit dialog](#edit-dialog) allows the content author to define the navigation root page along with the depth of navigation. The [design dialog](#design-dialog) allows the template author to define default values for the navigation root and depth.
+Das Dialogfeld [„Bearbeiten“](#edit-dialog) ermöglicht es dem Inhaltsautor, die Navigationsstammseite zusammen mit der Navigationstiefe zu definieren. Das [Dialogfeld „Design“](#design-dialog) ermöglicht es dem Vorlagenautor, Standardwerte für den Navigationsstamm und die Tiefe zu definieren.
 
-## Version and Compatibility {#version-and-compatibility}
+## Version und Kompatibilität {#version-and-compatibility}
 
-Die aktuelle Version der Navigationskomponente ist v 1, die mit Version 2.0.0 der Kernkomponenten im Januar 2018 eingeführt wurde und in diesem Dokument beschrieben wird.
+Die aktuelle Version der Navigationskomponente ist v1, die mit Version 2.0.0 der Kernkomponenten im Januar 2018 eingeführt wurde und in diesem Dokument beschrieben wird.
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
@@ -44,54 +44,54 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 | v1 | Kompatibel | Kompatibel | Kompatibel |
 
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
+Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](versions.md).
 
-## Sample Component Output {#sample-component-output}
+## Musterkomponentenausgabe {#sample-component-output}
 
 To experience the Navigation Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/navigation.html).
 
-## Technical Details {#technical-details}
+## Technische Details {#technical-details}
 
 The latest technical documentation about the Navigation Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/navigation/v1/navigation).
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md.
+Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation von Kernkomponenten für Entwickler](developing.md).
 
 >[!NOTE]
 >
->As of Core Components release 2.1.0, the Navigation Component supports [schema.org microdata](https://schema.org).
+>Ab Version 2.1.0 der Kernkomponente unterstützt die Navigationskomponente [schema.org-Mikrodaten](https://schema.org).
 
-## Edit Dialog {#edit-dialog}
+## Dialogfeld „Bearbeiten“ {#edit-dialog}
 
-Im Dialogfeld &quot;Bearbeiten&quot; kann der Inhaltsautor die Stammseite für die Navigation und die Tiefe der Navigationsstruktur definieren.
+Im Dialogfeld „Bearbeiten“ kann der Inhaltsautor die Stammseite für die Navigation und die Tiefe der Navigationsstruktur definieren.
 
 ![](assets/screen_shot_2018-04-03at112055.png)
 
-* **Navigation Root**
-The Root Page, der zum Generieren der Navigationsstruktur verwendet wird.
-* **Ausschluss-Stammordner**
-Ausschließen des Navigationsstammordners in der resultierenden Struktur, schließen Sie nur untergeordnete Elemente ein.
+* **Navigationsstamm**
+Die Stammseite, die zum Generieren der Navigationsstruktur verwendet wird.
+* **Navigationsstamm ausschließen**
+Navigationsstamm in der Ausgabestruktur ausschließen, nur untergeordnete Elemente einschließen.
 * **Sammlung aller untergeordneten Seiten**
-sammeln Alle Seiten, die sich auf dem Navigationsstamm befinden.
+Sammeln Sie alle untergeordneten Seiten, die sich auf dem Navigationsstamm befinden.
 * **Navigationsstrukturtiefe**
-Definiert, wie viele Ebenen die Komponente in der Navigationsstruktur relativ zum Navigationsstamm anzeigen soll (nur verfügbar, wenn **alle untergeordneten Seiten** nicht ausgewählt sind).
+Definiert, wie viele Ebenen die Komponente in der Navigationsstruktur im Verhältnis zum Navigationsstamm anzeigen soll (nur verfügbar, wenn **Sammlung aller untergeordneten Seiten** nicht ausgewählt sind).
 
-## Design Dialog {#design-dialog}
+## Dialogfeld „Design“ {#design-dialog}
 
-Das Entwurfsdialogfeld ermöglicht es dem Vorlagenautor, die Standardwerte für die Navigationsstammseite und die Navigationstiefe festzulegen, die den Autoren angezeigt werden.
+Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Standardwerte für die Navigationsstammseite und die Navigationstiefe festzulegen, die den Inhaltsautoren angezeigt werden.
 
-### Properties Tab {#properties-tab}
+### Registerkarte „Eigenschaften“{#properties-tab}
 
 ![](assets/screen_shot_2018-04-03at112357.png)
 
-* **Navigation Root**
+* **Navigationsstamm**
 Der Standardwert der Stammseite der Navigationsstruktur, die zum Generieren der Navigationsstruktur verwendet und standardmäßig verwendet wird, wenn der Inhaltsautor die Komponente der Seite hinzufügt.
-* **Exclude Navigation Root**
+* **Navigationsstamm ausschließen**
 Der Standardwert der Option, um den Navigationsstamm in der resultierenden Struktur auszuschließen.
-* **Alle untergeordneten Seiten**
-erfassen Der Standardwert der Option zur Sammlung aller Seiten, die sich auf dem Navigationsstamm befinden.
-* **Navigationsstruktur Der**
-Standardwert der Navigationsstruktur der Navigationsstruktur.
+* **Sammlung aller untergeordneten Seiten**
+Der Standardwert der Option zur Sammlung aller Seiten, die sich auf dem Navigationsstamm befinden.
+* **Navigationsstruktur der Tiefe**
+Standardwert der Navigationsstruktur der Tiefe.
 
-### Styles Tab {#styles-tab}
+### Registerkarte „Stile“ {#styles-tab}
 
-The Navigation Component supports the AEM [Style System](authoring.md#component-styling).
+Die Navigationskomponente unterstützt das AEM-[Stilsystem](authoring.md#component-styling).
