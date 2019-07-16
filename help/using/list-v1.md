@@ -1,12 +1,12 @@
 ---
-title: Listenkomponente (v 1)
-seo-title: Listenkomponente (v 1)
+title: Listenkomponente (v1)
+seo-title: Listenkomponente (v1)
 description: 'null'
-seo-description: Die Komponente Component Component List ermöglicht die einfache Erstellung dynamischer sowie statischer Listen.
-uuid: 06658 c 9 d-cbf 2-4 bfe-b 425-d 980 d 1181908
+seo-description: Die Kernkomponente „Listenkomponente“ ermöglicht die einfache Erstellung dynamischer sowie statischer Listen.
+uuid: 06658c9d-cbf2-4bfe-b425-d980d1181908
 content-type: Referenz
-products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 7 c 130 ccc -83 ff -464 d-b 58 f-d 581 f 4365 dbd
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: 7c130ccc-83ff-464d-b58f-d581f4365dbd
 disttype: dist5
 gnavtheme: light
 groupsectionnavitems: keine
@@ -17,42 +17,42 @@ noindex: 'true'
 index: n
 internal: n
 snippet: y
-translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+translation-type: ht
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
 
-# Listenkomponente (v 1){#list-component-v}
+# Listenkomponente (v1){#list-component-v}
 
-Die Komponente Component Component List ermöglicht die einfache Erstellung dynamischer sowie statischer Listen.
+Die Kernkomponente „Listenkomponente“ ermöglicht die einfache Erstellung dynamischer sowie statischer Listen.
 
 ## Nutzung {#usage}
 
-Die Listenkomponente kann zum Erstellen einer dynamischen Liste von untergeordneten Seiten oder einer statischen Liste von willkürlich definierten Elementen verwendet werden.
+Die Listenkomponente kann beispielsweise zum Erstellen einer dynamischen Liste von untergeordneten Seiten oder einer statischen Liste von willkürlich definierten Elementen verwendet werden.
 
-Der Typ der verfügbaren Listen und Formatierungsoptionen kann vom Vorlagenautor im [Designdialogfeld definiert](list-v1.md#main-pars_title_1995166862)werden. Der Content-Editor kann aus verfügbaren Listentypen und dem Formatieren der Listenelemente im [Bearbeitungsdialogfeld auswählen](list-v1.md#main-pars_title).
+Der Typ der verfügbaren Listen und Formatierungsoptionen kann vom Vorlagenautor im [Dialogfeld „Design“](list-v1.md#main-pars_title_1995166862) definiert werden. Der Inhaltseditor kann aus verfügbaren Listentypen und Elementen zum Formatieren der Listen im [Dialogfeld „Bearbeiten“](list-v1.md#main-pars_title) auswählen.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-In diesem Dokument wird die Version 1 der List Component beschrieben, die ursprünglich mit Version 1.0.0 der Kernkomponenten mit AEM 6.3 eingeführt wurde.
+In diesem Dokument wird die v1 der Listenkomponente beschrieben, die ursprünglich mit Version 1.0.0 der Kernkomponenten mit AEM 6.3 eingeführt wurde.
 
-In der folgenden Tabelle ist die Kompatibilität von v 1 der Listenkomponente aufgeführt.
+In der folgenden Tabelle ist die Kompatibilität von v1 der Listenkomponente aufgeführt.
 
-| AEM-Version | Listenkomponente v 1 |
+| AEM-Version | Listenkomponente v1 |
 |--- |--- |
 | 6.3 | Kompatibel |
 | 6.4 | Kompatibel |
 
 >[!CAUTION]
 >
->In diesem Dokument wird v 1 der Listenkomponente beschrieben.
+>In diesem Dokument wird v1 der Listenkomponente beschrieben.
 >
->Weitere Informationen zur aktuellen Version der Listenkomponente finden Sie im [Dokument List Component](list.md) .
+>Weitere Informationen zur aktuellen Version der Listenkomponente finden Sie im Dokument [Listenkomponente](list.md).
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Nachfolgend finden Sie ein Beispiel aus [We. Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+Folgendes Beispiel wurde von [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html) übernommen.
 
 ### Screenshot {#screenshot}
 
@@ -146,11 +146,11 @@ Nachfolgend finden Sie ein Beispiel aus [We. Retail](https://helpx.adobe.com/exp
 
 >[!NOTE]
 >
->Für JSON-Exporte aus den Core-Komponenten ist Version 1.1.0 der Kernkomponenten erforderlich. Weitere Informationen finden Sie in den [Kompatibilitätsinformationen für Kernkomponenten v 1](versions.md#main-pars_title_236368006) .
+>Für JSON-Exporte aus den Kernkomponenten ist Version 1.1.0 der Kernkomponenten erforderlich. Weitere Informationen finden Sie in den [Kompatibilitätsinformationen für Kernkomponenten v1](versions.md#main-pars_title_236368006).
 
-## Dialogfeld bearbeiten {#edit-dialog}
+## Dialogfeld „Bearbeiten“ {#edit-dialog}
 
-Das Dialogfeld &quot;Bearbeiten&quot; ermöglicht dem Inhaltsautor die Konfiguration der Liste und der Listenelemente.
+Das Dialogfeld „Bearbeiten“ ermöglicht dem Inhaltsautor die Konfiguration der Liste und der Listenelemente.
 
 ### Listen-Einstellungen {#list-settings}
 
@@ -161,7 +161,7 @@ Die Liste kann auf verschiedene Weise erstellt werden.
 * [Suchen](list-v1.md#main-pars_title_1224003560)
 * [Tags](list-v1.md#main-pars_title_700759533)
 
-Unabhängig davon, wie die Liste erstellt wurde, gibt es [Sortieroptionen](list-v1.md#main-pars_title_1568376452) , die immer konfiguriert werden können.
+Unabhängig davon, wie die Liste erstellt wurde, gibt es [Sortieroptionen](list-v1.md#main-pars_title_1568376452), die immer konfiguriert werden können.
 
 ![](assets/chlimage_1-38.png)
 
@@ -174,23 +174,23 @@ Die Liste kann aus den untergeordneten Seiten der aktuellen Seite oder einer and
 ![](assets/chlimage_1-39.png)
 
 * **Übergeordnete Seite**
-   * Die Seite, deren untergeordnete Seiten die Liste bereitstellen sollten
-   * Leer lassen, um die aktuelle Seite zu verwenden
+   * Die Seite, deren untergeordnete Seiten in die Liste aufgenommen werden sollen
+   * Frei lassen, um aktuelle Seite zu verwenden
 * **Untergeordnete Tiefe** - Wie viele Ebenen in der Hierarchie verwendet werden sollten
 
-#### Feste Liste {#fixed-list}
+#### Liste fester Werte {#fixed-list}
 
-Die Liste kann mit einer festen Liste von Elementen erstellt werden.
+Die Liste kann mit einer Liste mit festen Elementen erstellt werden.
 
 ![](assets/chlimage_1-40.png)
 
-Tippen oder klicken Sie auf **die Schaltfläche &quot;Hinzufügen** &quot; , um ein neues Element auf die Liste einzufügen.
+Tippen oder klicken Sie auf die Schaltfläche **Hinzufügen**, um ein neues Element in die Liste einzufügen.
 
-* Geben Sie Text für das Element in der Liste ein oder wählen Sie im **Auswahldialogfeld** ein Element aus AEM aus.
+* Geben Sie Text für das Element in der Liste ein oder wählen Sie im **Dialogfeld „Auswahl“** ein Element aus AEM aus.
 * Mit dem Ziehpunkt können Sie die Elemente in der Liste neu anordnen.
 * Verwenden Sie das Papierkorbsymbol, um Elemente in der Liste zu löschen.
 
-#### search (Suche){#search}
+#### Suche{#search}
 
 Die Liste kann mithilfe der Ergebnisse einer Suche aus AEM-Inhalten erstellt werden.
 
@@ -198,21 +198,21 @@ Die Liste kann mithilfe der Ergebnisse einer Suche aus AEM-Inhalten erstellt wer
 
 * **Suchabfrage** - Die Zeichenfolge, für die eine Volltextsuche ausgeführt wird, um die Listenelemente zu generieren
 * **Suchen in** - Wo die Suche ausgeführt werden soll
-   * Wählen Sie im **Dialogfeld &quot;Auswahl&quot;** den Speicherort in AEM aus.
+   * Wählen Sie im **Dialogfeld „Auswahl“** den Speicherort in AEM aus
    * Aktuelle Seite verwenden, wenn leer
 
 #### Tags {#tags}
 
-Die Liste kann mithilfe vonseiten erstellt werden, die bestimmten Tags unter einem bestimmten Ort entsprechen.
+Die Liste kann mithilfe von Seiten erstellt werden, die bestimmten Tags unter einem bestimmten Ort entsprechen.
 
 ![](assets/chlimage_1-42.png)
 
-* **Übergeordnete Seite** - Wo die Tag-Übereinstimmung beginnen sollte
-   * Wählen Sie im **Dialogfeld &quot;Auswahl&quot;** den Speicherort in AEM aus.
+* **Übergeordnete Seite** - Wo das Tag-Matching beginnen sollte
+   * Wählen Sie im **Dialogfeld „Auswahl“** den Speicherort in AEM aus
    * Aktuelle Seite verwenden, wenn leer
-* **Tags** - Welche Tags sollten erfüllt werden
-   * Verwenden Sie das **Dialogfeld &quot;Durchsuchen&quot;** , um die Tags auszuwählen.
-* **Übereinstimmung** - Definieren Sie, welche Art von Übereinstimmung eine Seite qualifizieren soll, damit sie in die Liste aufgenommen wird.
+* **Tags** - Welche Tags sollten abgestimmt werden
+   * Verwenden Sie das Dialogfeld **Durchsuchen**, um die Tags auszuwählen.
+* **Übereinstimmung** - Definieren Sie, welche Art von Übereinstimmung eine Seite dazu qualifizieren soll, damit sie in die Liste aufgenommen wird.
    * **beliebiges Tag**
    * **alle Tags**
 
@@ -222,57 +222,58 @@ Unabhängig davon, wie Sie die Liste erstellen, gibt es bestimmte Sortieroptione
 
 ![](assets/chlimage_1-43.png)
 
-* **Reihenfolge nach** - Reihenfolge der Elemente
+* **Reihenfolge nach** - Gewünschte Reihenfolge der Elemente
    * **Titel**
    * **Datum der letzten Änderung**
 * **Sortierreihenfolge** - Reihenfolge, in der die Elemente angeordnet werden sollen
    * **Aufsteigend**
    * **Absteigend**
-* **Max. Elemente** - Maximale Anzahl der in der Liste angezeigten Elemente.
+* **Maximale Elemente** - die maximale Anzahl der in der Liste angezeigten Elementen.
    * Leer lassen, um alle Elemente zurückzugeben.
 
 ### Element-Einstellungen {#item-settings}
 
-Auf der Registerkarte **&quot;Elementeinstellungen** &quot; kann die Formatierung der Listenelemente konfiguriert werden.
+Auf der Registerkarte **Elementeinstellungen** kann die Formatierung der Listenelemente konfiguriert werden.
 
 ![](assets/chlimage_1-44.png)
 
-* **** Linkelemente verknüpfen Elemente mit der entsprechenden Seite
-* **Beschreibung**
-anzeigen Beschreibung des Link-Elements
-* **Datum**des Änderungsdatums
-des Links anzeigen
+* **Elemente verknüpfen**
+Elemente mit der entsprechenden Seite verknüpfen
+* **Beschreibung anzeigen**
+Beschreibung des Link-Elements anzeigen
+* **Datum anzeigen**
+Änderungsdatum des Link-Elements anzeigen
 
-## Design-Dialogfeld {#design-dialog}
+## Dialogfeld „Design“ {#design-dialog}
 
-Über das Design-Dialogfeld können Sie festlegen, welche Listentypen den Autoren-Autoren sowie den verfügbaren Elementeinstellungen erlaubt werden sollen.
+Über das Dialogfeld „Design“ kann der Vorlagenautor festlegen, welche Listentypen für Inhaltsautoren erlaubt und welche Elementeinstellungen verfügbar sind.
 
 ### Listen-Einstellungen {#list-settings-1}
 
-Auf der Registerkarte **&quot;Listeneinstellungen** &quot; kann das Datumsformat sowie der Listentyp definiert werden, der in der Komponente den Autoren des Inhalts zur Verfügung stehen soll.
+Auf der Registerkarte **Listeneinstellungen** kann das Datumsformat sowie der Listentyp definiert werden, der in der Komponente den Inhaltsautoren zur Verfügung stehen soll.
 
 ![](assets/chlimage_1-45.png)
 
-* **Datumsformat** - Format für die Anzeige des Änderungsdatum der letzten Änderung
-* **Untergeordnete Elemente** deaktivieren: Deaktivieren Sie den Listentyp der untergeordneten Liste in der Komponente.
-* **Statisch** deaktivieren: Deaktivieren Sie den statischen Listentyp in der Komponente.
-* **Suche** deaktivieren - Deaktivieren Sie den Suchlistentyp in der Komponente.
-* **Tags deaktivieren** - Tag-Listentyp in der Komponente deaktivieren
+* **Datumsformat** - Format für die Anzeige des letzten Bearbeitungsdatums
+* **Untergeordnete deaktivieren** - Deaktiviert den untergeordneten Listentyp in der Komponente.
+* **Statisch deaktivieren** - Deaktiviert den statischen Listentyp in der Komponente
+* **Suche deaktivieren** - Deaktiviert den Suchlistentyp in der Komponente.
+* **Tags deaktivieren** - Deaktiviert den Tag-Listentyp in der Komponente
 
 ### Element-Einstellungen {#item-settings-1}
 
-Auf der **Registerkarte &quot;Elementeinstellungen** &quot; können die Formatierungsoptionen für die einzelnen Listenelemente definiert werden, die in der Komponente für die Autoren verfügbar sein sollten.
+Auf der Registerkarte **Elementeinstellungen** können die Formatierungsoptionen für die einzelnen Listenelemente definiert werden, die in der Komponente für die Inhaltsautoren verfügbar sein sollten.
 
 ![](assets/chlimage_1-46.png)
 
-* **Verknüpfungselemente** - Option &quot;Verknüpfungselemente aktivieren&quot; im [Dialogfeld&quot; Bearbeiten&quot; aktivieren](list-v1.md#main-pars_title_550499279)
-* **Beschreibungen anzeigen** - Option &quot;Beschreibungen anzeigen&quot; im [Dialogfeld&quot; Bearbeiten&quot; aktivieren](list-v1.md#main-pars_title_550499279)
-* **Datum anzeigen** - Option Datum anzeigen im [Dialogfeld Bearbeiten](list-v1.md#main-pars_title_550499279)
+* **Verknüpfungselemente** - Aktivieren Sie die Option Verknüpfungselemente im [Dialogfeld „Bearbeiten“](list-v1.md#main-pars_title_550499279)
+* **Beschreibungen anzeigen** - Aktivieren Sie die Option „Beschreibungen anzeigen“ im [Dialogfeld „Bearbeiten“](list-v1.md#main-pars_title_550499279)
+* **Datum anzeigen** - Aktivieren Sie die Option „Datum anzeigen“ im [Dialogfeld „Bearbeiten“](list-v1.md#main-pars_title_550499279)
 
 ## Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Listenkomponente [finden Sie unter github](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/list/v1/list).
+Die aktuelle technische Dokumentation zur Listenkomponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/list/v1/list).
 
-Das gesamte Kernkomponentenprojekt kann von github heruntergeladen werden.
+Das gesamte Kernkomponentenprojekt kann von GitHub heruntergeladen werden.
 
-Weitere Informationen zur Entwicklung Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Komponenten](developing.md).
+Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation für Entwickler von Kernkomponenten](developing.md).
