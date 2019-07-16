@@ -1,14 +1,14 @@
 ---
-title: Formularschaltflächenkomponente
-seo-title: Formularschaltflächenkomponente
+title: Formularschaltflächen-Komponente
+seo-title: Formularschaltflächen-Komponente
 description: 'null'
-seo-description: Die Komponente "Core Component Form" (Ausgeblendete Komponente) ermöglicht die Einbeziehung eines unsichtbaren Felds in ein Formular.
-uuid: 22 c 53 cd 0-d 0 bc -4 e 5 d -89 f 3-5 ac 4 f 61 a 9100
+seo-description: Die Kernkomponente „Komponente für ausgeblendetes Formular“ ermöglicht die Einbeziehung eines ausgeblendeten Felds in ein Formular.
+uuid: 22c53cd0-d0bc-4e5d-89f3-5ac4f61a9100
 contentOwner: Benutzer
 content-type: Referenz
-topic-tags: authoring
-products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: a 6 e 2974 a -243 f -40 ab -903 c-c 7 d 3 e 6615 bcc
+topic-tags: Authoring
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: a6e2974a-243f-40ab-903c-c7d3e8615bcc
 disttype: dist5
 gnavtheme: light
 groupsectionnavitems: keine
@@ -18,25 +18,25 @@ modalsize: 426x240
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+translation-type: ht
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
 
-# Formularschaltflächenkomponente{#form-button-component}
+# Formularschaltflächen-Komponente{#form-button-component}
 
-Die Schaltfläche &quot;Core-Komponenten-Formular&quot; ermöglicht die Einbeziehung einer Schaltfläche zum Auslösen einer Aktion auf einer Seite.
+Die Kernkomponente „Formularschaltflächen-Komponente“ ermöglicht die Einbeziehung einer Schaltfläche zum Auslösen einer Aktion auf einer Seite.
 
 ## Nutzung {#usage}
 
-Die Komponente &quot;Core-Komponenten-Formular&quot; ermöglicht die Erstellung von Schaltflächenfeldern, die häufig die Übermittlung des Formulars auslösen und zusammen mit der [Formularcontainer-Komponente verwendet werden sollen](form-container.md).
+Die Kernkomponente „Formularschaltflächen-Komponente“ ermöglicht die Erstellung von Schaltflächenfeldern, die häufig dazu dienen, die Übermittlung des Formulars auszulösen, und zusammen mit der [Formularcontainer-Komponente](form-container.md). verwendet werden sollen
 
-Die Schaltflächeneigenschaften können vom Content-Editor im Dialogfeld [&quot;Konfigurieren&quot; definiert](form-button.md)werden.
+Die Schaltflächeneigenschaften können vom Inhaltseditor im [Dialogfeld „Konfigurieren“](form-button.md) definiert werden.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die aktuelle Version der Formularschaltflächenkomponente ist v 2, die mit Version 2.0.0 der Kernkomponenten im Januar 2018 eingeführt wurde und in diesem Dokument beschrieben wird.
+Die aktuelle Version der Formularschaltflächenkomponente ist v2, die mit Version 2.0.0 der Kernkomponenten im Januar 2018 eingeführt wurde und in diesem Dokument beschrieben wird.
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
@@ -45,11 +45,11 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 | v2 | Kompatibel | Kompatibel | Kompatibel |
 | [v1](form-button-v1.md) | Kompatibel | Kompatibel | Kompatibel |
 
-Weitere Informationen zu Core-Komponentenversionen und -versionen finden Sie in den Core [-Komponentenversionen](versions.md).
+Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](versions.md).
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Nachfolgend finden Sie ein Beispiel aus [We. Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
+Folgendes Beispiel wurde von [We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) übernommen.
 
 ### Screenshot {#screenshot}
 
@@ -85,15 +85,15 @@ Nachfolgend finden Sie ein Beispiel aus [We. Retail](https://helpx.adobe.com/exp
 
 ### Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Formularschaltfläche-Komponente [finden Sie unter github](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v2/button).
+Die aktuelle technische Dokumentation zur Formularschaltflächen-Komponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v2/button).
 
-Weitere Informationen zur Entwicklung Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Komponenten](developing.md).
+Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
 
-## Dialogfeld konfigurieren {#configure-dialog}
+## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
-Über das Dialogfeld &quot;Konfigurieren&quot; kann der Inhaltsautor die Parameter der Schaltfläche definieren.
+Über das Dialogfeld „Konfigurieren“ kann der Inhaltsautor die Parameter der Schaltfläche definieren.
 
-### Registerkarte &quot;Eigenschaften « {#properties-tab}
+### Registerkarte „Eigenschaften“{#properties-tab}
 
 ![](assets/screen_shot_2018-01-12at120433.png)
 
@@ -104,13 +104,13 @@ Weitere Informationen zur Entwicklung Kernkomponenten finden Sie in der [Dokumen
 
 * **Titel** - Der auf der Schaltfläche angezeigte Text
 
-   * Wenn kein Wert angegeben ist, wird standardmäßig der Schaltflächentyp
+   * Wenn kein Wert angegeben ist, erscheint standardmäßig der Schaltflächentyp
 
-* **Name** - Der Name der Schaltfläche, die mit den Formulardaten gesendet wird
-* **Wert** - Der Wert der Schaltfläche, der mit den Formulardaten gesendet wird
+* **Name** - Der Name der Schaltfläche, der mit den Formulardaten übermittelt wird
+* **Wert** - Der Wert der Schaltfläche, der mit den Formulardaten übermittelt wird
 
-## Design-Dialogfeld {#design-dialog}
+## Dialogfeld „Design“ {#design-dialog}
 
-### Stile Registerkarte {#styles-tab}
+### Registerkarte „Stile“ {#styles-tab}
 
-Die Komponente &quot;Formular-Schaltfläche&quot; unterstützt das AEM [-Stilsystem](authoring.md#component-styling).
+Die Formularschaltflächen-Komponente unterstützt das AEM-[Stilsystem](authoring.md#component-styling).
