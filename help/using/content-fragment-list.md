@@ -1,32 +1,32 @@
 ---
-title: Komponente "Inhaltsfragment-Liste «
-seo-title: Komponente "Inhaltsfragment-Liste «
+title: Inhaltsfragmentlisten-Komponente
+seo-title: Inhaltsfragmentlisten-Komponente
 description: 'null'
-seo-description: Die Komponente "Core Component Content Fragment" ermöglicht die Anzeige einer Liste von Inhaltsfragmenten.
+seo-description: Die Kernkomponente „Inhaltsfragmentliste“ ermöglicht die Anzeige einer Liste von Inhaltsfragmenten.
 contentOwner: Bohnert
 content-type: Referenz
-topic-tags: authoring
-products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-new
-translation-type: tm+mt
-source-git-commit: d683f8110b514860bba11e08e6923be49e92652f
+topic-tags: Authoring
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+translation-type: ht
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
 
-# Komponente &quot;Inhaltsfragment-Liste «{#content-fragment-list-component}
+# Inhaltsfragmentlisten-Komponente{#content-fragment-list-component}
 
-Die Komponente &quot;Core Component Content Fragment&quot; ermöglicht die Anzeige einer Liste von [Inhaltsfragmenten](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html).
+Die Kernkomponente „Inhaltsfragmentliste“ ermöglicht die Anzeige einer Liste von [Inhaltsfragmenten](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html).
 
 ## Nutzung {#usage}
 
-Die Komponente &quot;Core Component Content Fragment List&quot; ermöglicht die Einbeziehung einer Liste von [Inhaltsfragmenten](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html) auf einer Seite basierend auf einem Content Fragmentmodell. Dies kann besonders hilfreich sein, um [headless-Inhalte](https://helpx.adobe.com/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) zu erstellen, die problemlos von anderen Anwendungen genutzt werden können.
+Die Kernkomponente „Inhaltsfragmentliste“ ermöglicht die Einbeziehung einer Liste von [Inhaltsfragmenten](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html) auf einer Seite basierend auf einem Inhaltsfragmentmodell. Dies kann besonders für die Erstellung von [Headless Content](https://helpx.adobe.com/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) nützlich sein, der leicht von anderen Anwendungen genutzt werden kann.
 
-* Die Liste und die zugehörigen Eigenschaften können im Dialogfeld [&quot;Konfigurieren&quot; ausgewählt](#configure-dialog)werden.
-* Stile können auf die Komponente im [Design-Dialogfeld angewendet](#design-dialog)werden.
+* Die Liste und ihre Eigenschaften können im [Dialogfeld „Konfigurieren“](#configure-dialog) ausgewählt werden.
+* Stile können auf die Komponente im [Dialogfeld „Design“](#design-dialog) angewendet werden.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die aktuelle Version der Content Fragment-Komponente ist v 1, die mit Version 2.4.0 der Kernkomponenten im Mai 2019 eingeführt wurde und in diesem Dokument beschrieben wird.
+Die aktuelle Version der Inhaltsfragment-Komponente ist v1, die mit Version 2.4.0 der Kernkomponente im Mai 2019 eingeführt wurde und in diesem Dokument beschrieben wird.
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
@@ -34,49 +34,49 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 |--- |--- |--- |---|
 | v1 | Kompatibel | Kompatibel | Kompatibel |
 
-Weitere Informationen zu Core-Komponentenversionen und -versionen finden Sie in den Core [-Komponentenversionen](versions.md).
+Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](versions.md).
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Rufen Sie die [Komponentenbibliothek auf, um die Komponente &quot;Inhaltsfragment&quot; sowie Beispiele für die Konfigurationsoptionen sowie die HTML- und JSON-Ausgabe zu erhalten](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment-list.html).
+Rufen Sie die [Komponentenbibliothek](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment-list.html) auf, um die Inhaltsfragmentlisten-Komponente sowie die Beispiele für die Konfigurationsoptionen und die HTML- und JSON-Ausgabe zu testen.
 
 ## Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Inhaltsfragmentlistenkomponente [finden Sie unter github](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/contentfragmentlist/v1/contentfragmentlist).
+Die aktuelle technische Dokumentation zur Inhaltsfragmentlisten-Komponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/contentfragmentlist/v1/contentfragmentlist).
 
-Weitere Informationen zur Entwicklung Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Komponenten](developing.md).
+Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
 
-## Dialogfeld konfigurieren {#configure-dialog}
+## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
-Über das Dialogfeld &quot;Konfigurieren&quot; kann der Inhaltsautor festlegen, welche Inhaltsfragmente die Liste und die Elemente dieser Fragmente enthalten sollen.
+Über das Dialogfeld „Konfigurieren“ kann der Inhaltsautor festlegen, welche Inhaltsfragmente die Liste und die Elemente dieser Fragmente enthalten sollen.
 
-### Registerkarte &quot;Eigenschaften «
+### Registerkarte „Eigenschaften“
 
-Auf der **Registerkarte &quot;Eigenschaften** &quot; wird festgelegt, welche Inhaltsfragmente in der Liste enthalten sind. Dies basiert hauptsächlich auf einem ausgewählten Inhaltsfragmentmodell, aber es stehen andere Filteroptionen zur Verfügung.
+Auf der Registerkarte **Eigenschaften** wird festgelegt, welche Inhaltsfragmente in der Liste enthalten sind. Dies basiert hauptsächlich auf einem ausgewählten Inhaltsfragment-Modell, es stehen aber auch andere Filteroptionen zur Verfügung.
 
 ![](assets/screen-shot-2019-05-08-10.47.19.png)
 
-* **Modell** - Pfad zum Inhaltsfragmentmodell, auf dem die Liste basiert.
+* **Modell** - Pfad zum Inhaltsfragment-Modell, auf dem die Liste basiert.
    * Standardmäßig sind alle Inhaltsfragmente des Modells, das als **Modellpfad** definiert ist, in der Liste enthalten.
 * **Übergeordneter Pfad** - Übergeordneter Pfad, aus dem die Liste erstellt werden soll.
-   * Die auf dem ausgewählten **Modellpfad** basierenden Inhaltsfragmente werden auf die entsprechenden **übergeordneten Pfade gefiltert**.
-   * Klicken Sie auf die Schaltfläche &quot;Auswahl **öffnen&quot;** auf der rechten Seite des Feldes, um den Pfad anzugeben.
-* **Tags** - Die Liste wird nur die Inhaltsfragmente mit den angegebenen Tags enthalten.
-   * Klicken Sie auf die Schaltfläche &quot;Auswahl **öffnen&quot;** auf der rechten Seite des Feldes, um die Tags anzugeben.
-   * Klicken oder tippen Sie auf das X neben ausgewählten Tags, um sie zu entfernen.
+   * Die auf dem ausgewählten **Modellpfad** basierenden Inhaltsfragmente werden nach den im **Übergeordneten Pfad** enthaltenen gefiltert.
+   * Klicken oder tippen Sie auf die Schaltfläche **Auswahl-Dialogfeld öffnen** auf der rechten Seite des Feldes, um den Pfad anzugeben.
+* **Tags** - Nur die Inhaltsfragmente mit den angegebenen Tags werden in die Liste aufgenommen.
+   * Klicken oder tippen Sie auf die Schaltfläche **Auswahl-Dialogfeld öffnen** auf der rechten Seite des Feldes, um die Tags anzugeben.
+   * Klicken oder tippen Sie auf das X neben den ausgewählten Tags, um sie zu entfernen.
 
 
-### Registerkarte &quot;Elemente «
+### Registerkarte „Elemente“
 
-Standardmäßig werden alle Elemente des Inhaltsfragmentmodells in die Liste aufgenommen. Mit den **Elementen** können Sie nur bestimmte Elemente angeben, die einbezogen werden sollen.
+Standardmäßig werden alle Elemente des Inhaltsfragmentmodells in die Liste aufgenommen. Unter **Elemente** können Sie nur bestimmte Elemente angeben, die einbezogen werden sollen.
 
 ![](assets/screen-shot-2019-05-08-10.47.34.png)
 
 * **Elemente** - Es werden nur die Elemente der Inhaltsfragmente in der angegebenen Liste angezeigt.
-   * Klicken oder tippen Sie auf **die Schaltfläche Hinzufügen** , um ein neues Element hinzuzufügen.
-   * Klicken oder tippen Sie auf **die Schaltfläche Löschen** , um ein ausgewähltes Element zu entfernen.
-   * Ziehen Sie den **Bestellpunkt** , um die Reihenfolge der Elemente zu ändern.
+   * Klicken oder tippen Sie auf die Schaltfläche **Hinzufügen**, um ein neues Element hinzuzufügen.
+   * Klicken oder tippen Sie auf die Schaltfläche **Entfernen**, um ein ausgewähltes Element zu entfernen.
+   * Ziehen Sie den Ziehgriff **Reihenfolge**, um die Reihenfolge der Elemente zu ändern.
 
-## Design-Dialogfeld {#design-dialog}
+## Dialogfeld „Design“ {#design-dialog}
 
-Im Entwurfsdialogfeld kann der Vorlagenautor die Stile definieren, die auf die Komponente &quot;Inhaltsfragment&quot; angewendet werden.
+Im Dialogfeld „Design“ kann der Vorlagenautor die Stile definieren, die auf die Inhaltsfragmentlisten-Komponente angewendet werden.
