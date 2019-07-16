@@ -1,39 +1,39 @@
 ---
-title: Inhaltsfragmentkomponente
-seo-title: Inhaltsfragmentkomponente
+title: Inhaltsfragment-Komponente
+seo-title: Inhaltsfragment-Komponente
 description: 'null'
-seo-description: Die Komponente Core Component Content Fragment ermöglicht die Anzeige eines Inhaltsfragments.
-uuid: ec 807 de 9-f 76 c -4850-9 ece-c 3 e 339 a 1 d 626
+seo-description: Die Kernkomponente „Inhaltsfragment-Komponente“ ermöglicht die Anzeige eines Inhaltsfragments.
+uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
 contentOwner: Benutzer
 content-type: Referenz
-topic-tags: authoring
-products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: f 093 f 58 e -9755-4 a 4 f -803 a-ab 93 a 50 e 6870
-translation-type: tm+mt
-source-git-commit: b464b49bc22573c24363da5a1d41baebd112368c
+topic-tags: Authoring
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
+translation-type: ht
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
 
 # Inhaltsfragment-Komponente{#content-fragment-component}
 
-Die Komponente Core Component Content Fragment ermöglicht die Anzeige eines [Inhaltsfragments](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html).
+Die Kernkomponente „Inhaltsfragment-Komponente“ ermöglicht die Anzeige eines [Inhaltsfragments](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html).
 
 >[!NOTE]
 >
->Vor Version 2.4.0 der Core-Komponenten war die Komponente &quot;Inhaltsfragment&quot; als Erweiterung für die Kernkomponenten verfügbar und musste separat heruntergeladen und explizit aktiviert werden.
+>Vor Version 2.4.0 der Kernkomponenten war die Komponente „Inhaltsfragment“ als Erweiterung für die Kernkomponenten verfügbar und musste separat heruntergeladen und explizit aktiviert werden.
 
 ## Nutzung {#usage}
 
-Die Komponente Komponente Core Component Content Fragment ermöglicht die Einbeziehung eines [Inhaltsfragments](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html) auf einer Seite.
+Die Kernkomponente „Inhaltsfragment-Komponente“ ermöglicht die Einbeziehung eines [Inhaltsfragments](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/content-fragments.html) auf einer Seite.
 
-* Das Fragment und seine Eigenschaften können im Dialogfeld [&quot;Konfigurieren&quot; ausgewählt](#configure-dialog)werden.
-* Ressourcentypen zum Verarbeiten bestimmter Bilder und Raster können im [Design-Dialogfeld definiert](#design-dialog)werden.
-* Mit der Option &quot;Bearbeiten&quot; wird das ausgewählte Fragment im [Inhaltsfragment-Editor geöffnet](https://helpx.adobe.com/content/help/en/experience-manager/6-5/assets/using/content-fragments.html).
+* Das Fragment und seine Eigenschaften können im [Dialogfeld „Konfigurieren“](#configure-dialog) ausgewählt werden.
+* Ressourcentypen zum Verarbeiten bestimmter Bilder und Raster können im [Dialogfeld „Design“](#design-dialog) definiert werden.
+* Mit der Option „Bearbeiten“ wird das ausgewählte Fragment im [Inhaltsfragments-Editor](https://helpx.adobe.com/content/help/de/experience-manager/6-5/assets/using/content-fragments.html) geöffnet.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die aktuelle Version der Content Fragment-Komponente ist v 1, die mit Version 1.1.0 der Kernkomponenten im Oktober 2017 eingeführt wurde und in diesem Dokument beschrieben wird.
+Die aktuelle Version der Inhaltsfragment-Komponente ist v1, die mit Version 1.1.0 der Kernkomponenten im Oktober 2017 eingeführt wurde und in diesem Dokument beschrieben wird.
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
@@ -43,55 +43,55 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 
 >[!NOTE]
 >
->Vor Version 2.4.0 befand sich die Komponente &quot;Content Fragment&quot; im Ordner&quot; Extensions&quot; .
+>Vor Version 2.4.0 befand sich die Inhaltsfragment-Komponente im Erweiterungsordner.
 >
 > `apps/core/wcm/extension/components/contentfragment/v1/contentfragment`
 > 
->Von 2.4.0 wurde an den folgenden Speicherort verschoben.
+>Ab 2.4.0 wurde sie an den folgenden Speicherort verschoben.
 >
 >`apps/core/wcm/components/contentfragment/v1/contentfragment`
 >
->Obwohl es sich bei beiden um v 1 handelt, erfordert jede aus dem Ordner Erweiterungen verwendete Inhaltsfragment-Komponente eine Migration der zugehörigen Proxy-Komponenten, um den neuen Ressourcentyp bei der Aktualisierung auf Version 2.4.0 oder höher der Kernkomponenten zu verwenden.
+>Obwohl es sich bei beiden um v1 handelt, erfordert jede aus dem Erweiterungsordner verwendete Inhaltsfragment-Komponente eine Migration der zugehörigen Proxy-Komponenten, um den neuen Ressourcentyp bei der Aktualisierung auf Version 2.4.0 oder höher der Kernkomponenten zu verwenden.
 
-Weitere Informationen zu Core-Komponentenversionen und -versionen finden Sie in den Core [-Komponentenversionen](versions.md).
+Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](versions.md).
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Rufen Sie die [Komponentenbibliothek auf, um die Content Fragment-Komponente sowie Beispiele für die Konfigurationsoptionen sowie die HTML- und JSON-Ausgabe zu erhalten](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html).
+Um die Inhaltsfragment-Komponente zu erleben und Beispiele für ihre Konfigurationsoptionen sowie die HTML- und JSON-Ausgabe zu sehen, besuchen Sie die [Komponentenbibliothek](http://opensource.adobe.com/de/aem-core-wcm-components/library/content-fragment.html).
 
 ## Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Inhaltsfragment-Komponente [finden Sie unter github](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/contentfragment/v1/contentfragment).
+Die aktuelle technische Dokumentation zur Inhaltsfragment-Komponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/contentfragment/v1/contentfragment).
 
-Weitere Informationen zur Entwicklung Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Komponenten](developing.md).
+Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
 
-## Dialogfeld konfigurieren {#configure-dialog}
+## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
-Über das Dialogfeld &quot;Konfigurieren&quot; kann der Inhaltsautor das gewünschte Inhaltsfragment und die Elemente dieses Fragments definieren.
+Über das Dialogfeld „Konfigurieren“ kann der Inhaltsautor das gewünschte Inhaltsfragment und die zu verwendenden Elemente dieses Fragments definieren.
 
 ![](assets/chlimage_1-87.png)
 
 * **Inhaltsfragment**
 
    * Pfad zum gewünschten Inhaltsfragment
-   * Das **Auswahldialogfeld** kann zum Suchen des Fragments verwendet werden.
+   * Das **Dialogfeld „Auswahl“** kann zum Suchen des Fragments verwendet werden.
 
 * **Element** - Das Element des Inhaltsfragments, das eingefügt werden soll
-* **Variation** - Welche Variante des zu verwendenden Inhaltsfragments (standardmäßig **Master**)
+* **Variation** - Welche Variante des Inhaltsfragments zu verwenden ist (standardmäßig **Master**)
 
 * **Absätze**
 
    * **Alle** - Alle Absätze anzeigen
    * **Bereich**
 
-      * Festlegen von Absätzen, die durch ein Semikolon getrennt werden sollen
-      * So können Sie z. `1;3-5;7;9-*` B. den 1., den 3. bis 5., den 7. und den 9. bis den abschließenden Absätzen einschließen
+      * Festlegen von Bereichen der anzuzeigenden Absätze, durch ein Semikolon getrennt
+      * So können Sie z. B. mit `1;3-5;7;9-*` den 1., den 3. bis 5., den 7. und den 9. bis zum letzten Absatz einbeziehen.
 
-* **Überschrift als eigene Absätze behandeln**
+* **Überschriften als separate Absätze behandeln**
 
-## Design-Dialogfeld {#design-dialog}
+## Dialogfeld „Design“ {#design-dialog}
 
-Das Design-Dialogfeld ermöglicht es dem Vorlagenautor, die Ressourcentypen zu definieren, mit denen gemischte Medienbilder und responsive Raster verarbeitet werden.
+Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Ressourcentypen zu definieren, mit denen gemischte Medienbilder und responsive Raster verarbeitet werden.
 
 ![](assets/chlimage_1-88.png)
 
