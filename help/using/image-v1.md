@@ -1,49 +1,49 @@
 ---
-title: Bildkomponente (v 1)
-seo-title: Bildkomponente (v 1)
-description: Die Core Component Image Component ist eine Komponente für adaptive Bildkomponenten, die ersetzende Bearbeitung bietet.
-seo-description: Die Core Component Image Component ist eine Komponente für adaptive Bildkomponenten, die ersetzende Bearbeitung bietet.
-uuid: 20 ea 7921-511 d -4 d 3 a-b 3 df-c 2 f 2 c 1 d 8455 d
+title: Bildkomponente (v1)
+seo-title: Bildkomponente (v1)
+description: Die Kernkomponente „Bildkomponente“ ist eine anpassungsfähige Bildkomponente mit Funktionen zur Bearbeitung im Kontext.
+seo-description: Die Kernkomponente „Bildkomponente“ ist eine anpassungsfähige Bildkomponente mit Funktionen zur Bearbeitung im Kontext.
+uuid: 20ea7921-511d-4d3a-b3df-c2f2c1d8455d
 content-type: Referenz
-products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: ab 9041 ab-e 29 e -4277-b 326-85 ab 37 df 8413
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: ab9041ab-e29e-4277-b326-85ab37df8413
 index: n
-translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+translation-type: ht
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
 
-# Bildkomponente (v 1){#image-component-v}
+# Bildkomponente (v1){#image-component-v}
 
-Die Core Component Image Component ist eine Komponente für adaptive Bildkomponenten, die ersetzende Bearbeitung bietet.
+Die Kernkomponente „Bildkomponente“ ist eine anpassungsfähige Bildkomponente mit Funktionen zur Bearbeitung im Kontext.
 
 ## Nutzung {#usage}
 
-Die Image-Komponente ermöglicht eine einfache Platzierung von Bild-Assets und bietet eine ersetzende Bearbeitung. Es bietet eine adaptive Bildauswahl mit verzögertem Laden sowie Beschneiden für den Inhaltsautor.
+Die Bildkomponente ermöglicht das einfache Platzieren von Bildmaterial und bietet die Möglichkeit zur direkten Bearbeitung. Es bietet eine anpassungsfähige Bildauswahl mit verzögertem Laden sowie Beschneiden für den Inhaltsautor.
 
-Die zulässigen Bildbreiten sowie die Beschneidung und zusätzliche Einstellungen können vom Vorlagenautor im [Designdialogfeld definiert](image-v1.md#main-pars_title_1995166862)werden. Der Content-Editor kann Assets im Dialogfeld [&quot;Konfigurieren&quot; hochladen oder auswählen](image-v1.md#main-pars_title_55926120) und das Bild im [Bearbeitungsdialogfeld](image-v1.md#main-pars_title)beschneiden. Zur einfachen Vereinfachung ist auch einfach ersetzende Änderungen des Bildes verfügbar.
+Die zulässigen Bildbreiten sowie das Zuschneiden und zusätzliche Einstellungen können hier vom Vorlagenautor definiert werden [Designdialogfeld ](image-v1.md#main-pars_title_1995166862). Der Inhaltseditor kann Assets im [Dialogfeld „Konfigurieren“](image-v1.md#main-pars_title_55926120) hochladen oder auswählen und das Bild im [Dialogfeld „Bearbeiten“](image-v1.md#main-pars_title) beschneiden. Für zusätzlichen Komfort ist auch eine einfache, ersetzende Änderung des Bildes verfügbar.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-In diesem Dokument wird Version 1 der Image-Komponente beschrieben, die ursprünglich mit Version 1.0.0 der Kernkomponenten mit AEM 6.3 eingeführt wurde.
+In diesem Dokument wird v1 der Bildkomponente beschrieben, die ursprünglich mit Version 1.0.0 der Kernkomponenten mit AEM 6.3 eingeführt wurde.
 
-In der folgenden Tabelle ist die Kompatibilität von v 1 der Image-Komponente aufgeführt.
+In der folgenden Tabelle ist die Kompatibilität der Bildkomponente v1 aufgeführt.
 
-| AEM-Version | Bildkomponente v 1 |
+| AEM-Version | Bildkomponente v1 |
 |--- |--- |
 | 6.3 | Kompatibel |
 | 6.4 | Kompatibel |
 
 >[!CAUTION]
 >
->In diesem Dokument wird v 1 der Image-Komponente beschrieben.
+>In diesem Dokument wird die Bildkomponente v1 beschrieben.
 >
->Weitere Informationen zur aktuellen Version der Image-Komponente finden Sie im [Dokument Image Component](image.md) .
+>Weitere Informationen zur aktuellen Version der Bildkomponente finden Sie im Dokument [ Bildkomponente ](image.md) .
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Nachfolgend finden Sie ein Beispiel aus [We. Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+Folgendes Beispiel wurde von [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html) übernommen.
 
 ### Screenshot {#screenshot}
 
@@ -76,44 +76,44 @@ Nachfolgend finden Sie ein Beispiel aus [We. Retail](https://helpx.adobe.com/exp
 
 >[!NOTE]
 >
->Für JSON-Exporte aus den Core-Komponenten ist Version 1.1.0 der Kernkomponenten erforderlich. Weitere Informationen finden Sie in den [Kompatibilitätsinformationen für Kernkomponenten v 1](versions.md#main-pars_title_236368006) .
+>Für JSON-Exporte aus den Kernkomponenten ist Version 1.1.0 der Kernkomponenten erforderlich. Weitere Informationen finden Sie in den [Kompatibilitätsinformationen für Kernkomponenten v1](versions.md#main-pars_title_236368006).
 
-## Dialogfeld konfigurieren {#configure-dialog}
+## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
-Zusätzlich zum standardmäßigen [Dialogfeld](image-v1.md#main-pars_title) zum Bearbeiten und [Entwerfen bietet die Image](image-v1.md#main-pars_title_1995166862)-Komponente ein Dialogfeld für die Konfiguration, bei dem das Bild selbst mit der Beschreibung und den grundlegenden Eigenschaften definiert wird.
+Zusätzlich zum standardmäßigen [Dialogfeld „Bearbeiten“](image-v1.md#main-pars_title) und zum [Dialogfeld „Design“](image-v1.md#main-pars_title_1995166862) bietet die Bildkomponente ein Dialogfeld für die Konfiguration, bei dem das Bild selbst mit seiner Beschreibung und den grundlegenden Eigenschaften definiert wird.
 
 ![](assets/chlimage_1-50.png)
 
 * **Bild-Asset**
-   * Legen Sie ein Asset aus dem [Asset-Browser ab](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/author-environment-tools.html#main-pars_title) oder tippen Sie auf die **Durchsuchen** -Option, um es aus einem lokalen Dateisystem hochzuladen.
-   * Tippen oder klicken **Sie auf Leeren** , um das aktuell ausgewählte Bild zu deaktivieren.
-   * Tippen oder klicken **Sie auf Bearbeiten** , um [die Darstellungen des Assets](https://helpx.adobe.com/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19) im Asset Editor zu mange.
+   * Ziehen Sie ein Asset aus dem [Asset-Browser](https://helpx.adobe.com/de/experience-manager/6-3/sites/authoring/using/author-environment-tools.html#main-pars_title) oder tippen Sie auf **Durchsuchen**, um es aus einem lokalen Dateisystem hochzuladen.
+   * Tippen oder klicken Sie auf **Löschen**, um das aktuell ausgewählte Bild zu deaktivieren.
+   * Tippen oder klicken Sie auf **Bearbeiten**, um die [Darstellung des Assets](https://helpx.adobe.com/de/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19) im Asset-Editor zu verwalten.
 
-* **Bild ist dekorativ** : Überprüfen Sie, ob das Bild von Hilfstechnologien ignoriert werden soll, und erfordert daher keinen alternativen Text. Dies gilt nur für dekorative Bilder.
-* **Alternativer Text** - Textalternative der Bedeutung oder Funktion des Bilds für Sehbehinderte.
+* **Bild ist dekorativ** - Überprüfen Sie, ob das Bild von Hilfstechnologien ignoriert werden soll und daher keinen alternativen Text erfordert. Dies gilt nur für dekorative Bilder.
+* **Alternativer Text** - Textalternativen zur Bedeutung oder Funktion des Bildes für sehbeeinträchtigte Leser.
 * **Verknüpfung**
    * Verknüpfen Sie das Bild mit einer anderen Ressource.
-   * Verwenden Sie das Auswahldialogfeld, um eine Verknüpfung zu einer anderen AEM-Ressource herzustellen.
-   * Geben Sie die absolute URL ein, wenn Sie keine Verknüpfung zu einer AEM-Ressource erstellen. Nicht-Solute-urls werden relativ zu AEM interpretiert.
+   * Verwenden Sie das Dialogfeld „Auswahl“, um eine Verknüpfung zu einer anderen AEM-Ressource herzustellen.
+   * Geben Sie die absolute URL ein, wenn Sie keine Verknüpfung zu einer AEM-Ressource erstellen. Nicht absolute URLs werden als relativ zu AEM interpretiert.
 
 * **Beschriftung** - Zusätzliche Informationen über das Bild, die unter dem Bild angezeigt werden, sind standardmäßig verfügbar.
-* **Beschriftung als Popup** anzeigen: Wenn diese Option aktiviert ist, wird die Beschriftung nicht unter dem Bild angezeigt, sondern als Popup, der von einigen Browsern angezeigt wird, wenn sie den Mauszeiger über das Bild bewegen.
+* **Beschriftung als Pop-up anzeigen** - Wenn die Option aktiviert ist, wird die Beschriftung nicht unter dem Bild angezeigt, sondern von einigen Browsern als Pop-up, wenn der Mauszeiger über das Bild bewegt wird.
 
-## Dialogfeld bearbeiten {#edit-dialog}
+## Dialogfeld „Bearbeiten“ {#edit-dialog}
 
-Das Dialogfeld &quot;Bearbeiten&quot; ermöglicht dem Autor das Beschneiden, Ändern der Startkarte und das Zoomen des Bildes.
+Das Dialogfeld „Bearbeiten“ ermöglicht dem Inhaltsautor das Zuschneiden, Ändern der Startkarte und das Zoomen des Bildes.
 
 ![](assets/chlimage_1-8.png)
 
-* Beschneiden beginnen
+* Zuschneiden beginnen
 
    ![](assets/chlimage_1-9.png)
 
-   Wenn Sie diese Option auswählen, wird eine Dropdown-Liste für vordefinierte Beschnittrahmen geöffnet.
+   Wenn Sie diese Option auswählen, wird eine Dropdown-Liste für vordefinierte Zuschneideproportionen geöffnet.
 
-   * Wählen Sie die Option **&quot;Frei&quot;** , um Ihren eigenen Beschneidungstext zu definieren.
-   * Wählen Sie &quot;Beschneiden **entfernen** &quot; , um das ursprüngliche Asset anzuzeigen.
-   Nachdem Sie eine Beschneidungsoption ausgewählt haben, verwenden Sie die blauen Griffe, um die Beschneidung auf dem Bild anzupassen.
+   * Wählen Sie die Option **Freihand**, um Ihre eigene Zuschnittsart zu definieren.
+   * Wählen Sie **Zuschnitt entfernen**, um das ursprüngliche Asset anzuzeigen.
+   Nachdem Sie eine Zuschnittoption ausgewählt haben, verwenden Sie die blauen Griffe, um die Beschneidung auf dem Bild anzupassen.
 
    ![](assets/chlimage_1-10.png)
 
@@ -121,37 +121,37 @@ Das Dialogfeld &quot;Bearbeiten&quot; ermöglicht dem Autor das Beschneiden, Än
 
    ![](assets/chlimage_1-11.png)
 
-   Verwenden Sie diese Option, um das Bild um 90 ° nach rechts (im Uhrzeigersinn) zu drehen.
+   Verwenden Sie diese Option, um das Bild um 90° nach rechts (im Uhrzeigersinn) zu drehen.
 
 * Startkarte
 
    ![](assets/chlimage_1-12.png)
 
-   Verwenden Sie diese Option, um eine Startkarte auf das Bild anzuwenden. Wenn Sie diese Option auswählen, wird ein neues Fenster geöffnet, in dem der Benutzer die Form der Karte auswählen kann:
+   Verwenden Sie diese Option, um eine Startkarte auf das Bild anzuwenden. Wenn der Benutzer diese Option auswählt, wird ein neues Fenster geöffnet, in dem er die Form der Karte auswählen kann:
 
    * **Rechteckige Karte hinzufügen**
    * **Kreisdiagramm hinzufügen**
-   * **Polygon-Map hinzufügen**
+   * **Polygon-Karte hinzufügen**
 
-      * Standardmäßig wird eine Dreiecksmap hinzugefügt. Doppelklicken Sie auf eine Zeile der Form, um einer neuen Seite einen neuen blauen Größengriff hinzuzufügen.
-   Nachdem eine Map-Form ausgewählt wurde, wird das Bild überlagert, um die Größe zu ändern. Ziehen Sie die blauen Größenänderungsgriffe per Drag &amp; Drop, um die Form anzupassen.
+      * Standardmäßig wird eine Dreieckskarte hinzugefügt. Doppelklicken Sie auf eine Linie der Form, um zu einer neuen Seite einen neuen blauen Griff zur Größenanpassung hinzuzufügen.
+   Nachdem eine Karten-Form ausgewählt wurde, wird sie mit dem Bild überlagert, sodass die Größe geändert werden kenn. Ziehen Sie die blauen Größenänderungsgriffe per Drag-and-Drop, um die Form anzupassen.
 
    ![](assets/chlimage_1-13.png)
 
-   Nachdem Sie die Startkarte gepostet haben, klicken Sie darauf, um eine schwebende Symbolleiste zu öffnen, um den Pfad des Links zu definieren.
+   Nachdem Sie die Größe der Startkarte angepasst haben, klicken Sie darauf, um eine schwebende Symbolleiste zu öffnen, um den Pfad des Links zu definieren.
 
    * **Pfad**
-      * Verwenden Sie die Option Pfadauswahl, um einen Pfad in AEM auszuwählen.
-      * Wenn der Pfad nicht in AEM angegeben ist, verwenden Sie die absolute URL. Nicht absolute Pfade werden relativ zu AEM interpretiert.
+      * Verwenden Sie die Option „Pfadwähler“, um einen Pfad in AEM auszuwählen.
+      * Wenn der Pfad sich nicht in AEM befindet, verwenden Sie die absolute URL. Nicht absolute Pfade werden relativ zu AEM interpretiert.
 
-      * **Alternative Beschreibung**
-des Pfadziels Alternative Beschreibung
+      * **Alternativer Text**
+Alternative Beschreibung des Pfadziels
       * **Target**
-         * **Gleiche Registerkarte**
+         * **Selbe Registerkarte**
          * **Neue Registerkarte**
          * **Übergeordneter Frame**
          * **Top-Frame**
-   Tippen oder klicken Sie auf das blaue Häkchen zum Speichern, das schwarze X zum Abbrechen und den roten Papierkorb, um die Karte zu löschen.
+   Tippen oder klicken Sie auf das blaue Häkchen zum Speichern, das schwarze x zum Abbrechen oder den roten Papierkorb, um die Karte zu löschen.
 
    ![](assets/chlimage_1-14.png)
 
@@ -169,51 +169,51 @@ des Pfadziels Alternative Beschreibung
 
    ![](assets/chlimage_1-17.png)
 
-Der ersetzende Editor kann auch zum Ändern des Bildes verwendet werden. Aufgrund von Leerzeichen sind nur einfache Optionen verfügbar. Für vollständige Bearbeitungsoptionen verwenden Sie den Vollbildmodus.
+Der Editor für die Bearbeitung im Kontext kann auch zum Ändern des Bildes verwendet werden. Aus Platzgründen sind nur einfache Optionen inline verfügbar. Für vollständige Bearbeitungsoptionen verwenden Sie den Vollbildmodus.
 
 ![](assets/chlimage_1-18.png)
 
 >[!NOTE]
 >
->Bildbearbeitungsvorgänge (Beschneiden, Spiegeln, Drehen) werden für GIF-Bilder nicht unterstützt. Alle Änderungen, die im Bearbeitungsmodus an GIFS vorgenommen wurden, bleiben bestehen.
+>Bildbearbeitungsvorgänge (Beschneiden, Spiegeln, Drehen) werden für GIF-Bilder nicht unterstützt. Alle Änderungen, die im Bearbeitungsmodus an GIFs vorgenommen wurden, bleiben nicht bestehen.
 
-## Design-Dialogfeld {#design-dialog}
+## Dialogfeld „Design“ {#design-dialog}
 
-Das Design-Dialogfeld ermöglicht es dem Vorlagenautor, den Beschneidungs-, Upload- und Drehung-Upload des Inhalts-Autors für die Verwendung dieser Komponente vorzunehmen.
+Das Dialogfeld „Design“ ermöglicht dem Vorlagenautor die Definition von Zuschnitt, Upload und Rotations-Upload, die vom Inhalts-Autor bei der Verwendung dieser Komponente genutzt werden.
 
 ### Haupt {#main}
 
-Auf der **Registerkarte &quot;Main&quot;** können Sie eine Liste der zulässigen Breiten in Pixel definieren, um das Bild automatisch in die gewünschte Breite aus der Liste zu laden.
+In dieser Registerkarte **Allgemein** können Sie eine Liste der zulässigen Breiten in Pixel definieren, damit das Bild automatisch die angemessenste Breite aus der Liste laden wird.
 
 ![](assets/chlimage_1-51.png)
 
-Tippen oder klicken Sie auf die Schaltfläche Hinzufügen, um eine weitere Größe hinzuzufügen.
+Tippen oder klicken Sie auf „Hinzufügen“, um eine weitere Größe hinzuzufügen.
 
 * Verwenden Sie die Griffpunkte, um die Reihenfolge der Größen neu anzuordnen.
-* Verwenden Sie das Löschsymbol, um eine Breite zu entfernen.
+* Verwenden Sie das Symbol „Löschen“, um eine Breite zu entfernen.
 
-Standardmäßig werden Bilder verzögert, bis sie sichtbar werden. Wählen Sie die Option **Verzögertes Laden** deaktivieren, um die Bilder beim Laden der Seite zu laden.
+Standardmäßig wird das Laden von Bildern verzögert, bis sie sichtbar werden. Wählen Sie die Option **Lazy Loading deaktivieren**, um die Bilder schon beim Laden der Seite zu laden.
 
 ### Funktionen {#features}
 
-Auf der **Registerkarte &quot;Funktionen** &quot; können Sie festlegen, welche Optionen den Autoren für Inhalte zur Verfügung stehen, wenn Sie die Komponente verwenden, einschließlich Optionen für Upload-Optionen, Ausrichtung und Beschneiden.
+Auf der Registerkarte **Funktionen** können Sie festlegen, welche Optionen den Inhaltsautoren zur Verfügung stehen, wenn sie die Komponente verwenden, einschließlich Optionen fürs Hochladen, Ausrichtung und Beschneiden.
 
 * Quelle
 
    ![](assets/chlimage_1-19.png)
 
-   Wählen Sie die Option **zum Hochladen von Assets aus dem Dateisystem** zulassen, damit Autoren von Inhalten Bilder von seinem lokalen Computer hochladen können. Wenn Sie erzwingen möchten, dass Autoren nur Assets aus AEM auswählen, wählen Sie diese Option aus.
+   Wählen Sie die Option **Asset-Uploads aus Dateisystem zulassen**, damit Inhaltsautoren Bilder von ihrem lokalen Computer hochladen können. Wenn Sie erzwingen möchten, dass Autoren nur Assets aus AEM auswählen, wählen Sie diese Option ab.
 
 * Ausrichtung
 
    ![](assets/chlimage_1-20.png)
 
-   * **Drehen** - Verwenden Sie diese Option, damit der Inhaltsautor die Option &quot;Rechts **drehen&quot; verwenden** kann.
-   * **Verwenden Sie diese**
-Option, damit der Inhaltsautor die Option &quot;Horizontal **spiegeln** «und **&quot; Vertikal** spiegeln&quot; verwenden kann.
+   * **Drehen** - Verwenden Sie diese Option, damit der Inhaltsautor die Option **Nach Rechts drehen** verwenden kann.
+   * **Spiegeln**
+Verwenden Sie diese Option, damit der Inhaltsautor die Option **Horizontal spiegeln** und **Vertikal spiegeln** verwenden kann.
    >[!CAUTION]
    >
-   >Die **Option &quot;Spiegeln&quot;** ist standardmäßig deaktiviert. Durch Aktivieren wird im Dialogfeld &quot;Bearbeiten&quot; der Image-Komponente die **Schaltflächen&quot; Vertikal** spiegeln&quot; und **&quot;Horizontal** spiegeln&quot; angezeigt. Die Funktion wird jedoch derzeit nicht von AEM unterstützt, und die Änderungen, die mit diesen Optionen vorgenommen wurden, bleiben nicht erhalten.
+   >Die Option **Spiegeln** ist standardmäßig deaktiviert. Durch Aktivieren werden im Dialogfeld „Bearbeiten“ der Bildkomponente die Felder **Vertikal spiegeln** und **Horizontal spiegeln** angezeigt. Die Funktion wird jedoch derzeit nicht von AEM unterstützt, und die Änderungen, die mit diesen Optionen vorgenommen werden, bleiben nicht erhalten.
 
 <!-- 
 Comment Type: remark
@@ -227,20 +227,20 @@ Last Modified Date: 2017-11-20T05:51:34.378-0500
 
    ![](assets/chlimage_1-21.png)
 
-   Wählen Sie die Option **&quot;Beschneiden** zulassen&quot; aus, damit der Inhaltsautor das Bild in der Komponente im Bearbeitungsdialogfeld beschneiden kann.
-   * Klicken **Sie auf Hinzufügen** , um ein vordefiniertes Beschneidungsseitenverhältnis hinzuzufügen.
-   * Geben Sie einen beschreibenden Namen ein, der im **Dropdown-** Menü &quot;Beschneiden&quot; angezeigt wird.
-   * Geben Sie das numerische Verhältnis des Aspekts ein.
-   * Verwenden Sie die Ziehpunkte, um die Reihenfolge des Seitenverhältnisses neu anzuordnen.
+   Wählen Sie die Option **Beschneiden zulassen** aus, damit der Inhaltsautor das Bild in der Komponente im Dialogfeld „Bearbeiten“ beschneiden kann.
+   * Klicken Sie auf **Hinzufügen**, um ein vordefiniertes Bildseitenverhältnis hinzuzufügen.
+   * Geben Sie einen beschreibenden Namen ein, der im Dropdown-Menü **Zuschneiden** angezeigt wird.
+   * Geben Sie das numerische Seitenverhältnis des Bildes ein.
+   * Verwenden Sie die Ziehpunkte, um die Reihenfolge der Seitenverhältnisse neu anzuordnen.
    * Verwenden Sie das Papierkorbsymbol, um ein Seitenverhältnis zu löschen.
    >[!CAUTION]
    >
-   >Beachten Sie, dass in AEM Seitenverhältnisse als **Höhe/Breite definiert** werden. Dies unterscheidet sich von der herkömmlichen Definition von Breite/Höhe und erfolgt aus älteren Kompatibilitätsgründen. Die Autoren des Inhalts achten auf keine Unterschiede, solange Sie einen klaren Namen des Verhältnisses angeben, da der Name in der Benutzeroberfläche angezeigt wird und nicht das Verhältnis selbst.
+   >Beachten Sie, dass die Beschneidungsverhältnisse als **Höhe/Breite** definiert sind. Dies unterscheidet sich von der herkömmlichen Definition als Breite/Höhe und erfolgt aus Gründen der Legacy-Kompatibilität. Den Inhaltsautoren wird kein Unterschied bewusst werden, solange Sie einen klaren Namen für das Verhältnis angeben, da nur der Name in der Benutzeroberfläche angezeigt wird und nicht das Verhältnis selbst.
 
 ## Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Bildkomponente [finden Sie unter github](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/image/v1/image).
+Die aktuelle technische Dokumentation zur Bildkomponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/image/v1/image).
 
-Das gesamte Kernkomponentenprojekt kann von github heruntergeladen werden.
+Das gesamte Kernkomponentenprojekt kann von GitHub heruntergeladen werden.
 
-Weitere Informationen zur Entwicklung Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Komponenten](developing.md).
+Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
