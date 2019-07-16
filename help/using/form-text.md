@@ -1,14 +1,14 @@
 ---
-title: Formulartextkomponente
-seo-title: Formulartextkomponente
+title: Formulartext-Komponente
+seo-title: Formulartext-Komponente
 description: 'null'
-seo-description: Die Komponente "Core-Komponenten-Formulartext" ermöglicht die Einsendung von Formulartext.
-uuid: f 2418 d 55-0 b 59-4 c 7 c-a 541-d 12 dda 4 db 4 cf
+seo-description: Die Kernkomponente „Formulartext-Komponente“ ermöglicht die Eingabe von Formulartext zur Übermittlung.
+uuid: f2418d55-0b59-4c7c-a541-d12dda4db4cf
 contentOwner: Benutzer
 content-type: Referenz
-topic-tags: authoring
-products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 3 a 970 c 4 b -806 b -4 a 0 a-b 6 b 8-b 3 dca 4 e 9 f 136
+topic-tags: Authoring
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: 3a970c4b-806b-4a0a-b6b8-b3dca4e9f136
 disttype: dist5
 gnavtheme: light
 groupsectionnavitems: keine
@@ -18,23 +18,23 @@ modalsize: 426x240
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+translation-type: ht
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
 
-# Formulartextkomponente{#form-text-component}
+# Formulartext-Komponente{#form-text-component}
 
-Die Komponente &quot;Core-Komponenten-Formulartext&quot; ermöglicht die Einsendung von Formulartext.
+Die Kernkomponente „Formulartext-Komponente“ ermöglicht die Eingabe von Formulartext zur Übermittlung.
 
 ## Nutzung {#usage}
 
-Die Komponente &quot;Formulartext&quot; ermöglicht die Übermittlung verschiedener Texttypen und soll zusammen mit der [Formularcontainerkomponente verwendet](form-container.md)werden. Der Typ der Textvalidierung, Beschriftung und Hilfemeldungen kann vom Content Editor im Dialogfeld [&quot;Konfigurieren&quot; definiert](#configure-dialog)werden.
+Die Formulartext-Komponente ermöglicht die Übermittlung verschiedener Texttypen und sollte zusammen mit der [Formularcontainer-Komponente](form-container.md) verwendet werden. Der Typ der Textvalidierung, Beschriftung und Hilfemeldungen kann vom Inhaltseditor im [Dialogfeld „Konfigurieren“](#configure-dialog) definiert werden.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die aktuelle Version der Formulartext-Komponente ist v 2, die mit Version 2.0.0 der Kernkomponenten im Januar 2018 eingeführt wurde und in diesem Dokument beschrieben wird.
+Die aktuelle Version der Formulartext-Komponente ist v2, die mit Version 2.0.0 der Kernkomponenten im Januar 2018 eingeführt wurde und in diesem Dokument beschrieben wird.
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
@@ -43,11 +43,11 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 | v2 | Kompatibel | Kompatibel | Kompatibel |
 | [v1](form-text-v1.md) | Kompatibel | Kompatibel | Kompatibel |
 
-Weitere Informationen zu Core-Komponentenversionen und -versionen finden Sie in den Core [-Komponentenversionen](versions.md).
+Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](versions.md).
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Nachfolgend finden Sie ein Beispiel aus [We. Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
+Folgendes Beispiel wurde von [We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) übernommen.
 
 ### Screenshot {#screenshot}
 
@@ -88,20 +88,20 @@ Nachfolgend finden Sie ein Beispiel aus [We. Retail](https://helpx.adobe.com/exp
 
 ### Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Formulartextkomponente [finden Sie unter github](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v2/text).
+Die aktuelle technische Dokumentation zur Formulartext-Komponente[ finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v2/text).
 
-Weitere Informationen zur Entwicklung Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Komponenten](developing.md).
+Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
 
-## Dialogfeld konfigurieren {#configure-dialog}
+## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
-Das Dialogfeld &quot;Konfigurieren&quot; ermöglicht es dem Inhaltsautor, den Texttyp sowie Standardwerte und Beschriftungen zu definieren.
+Das Dialogfeld „Konfigurieren“ ermöglicht es dem Inhaltsautor, den Texttyp sowie Standardwerte und Beschriftungen zu definieren.
 
 ### Hauptregisterkarte {#main-tab}
 
 ![](assets/chlimage_1-23.png)
 
-* **Constraint**
-The Type of text to be input and will be validation against
+* **Einschränkung**
+Die Art des Textes, der eingegeben und anhand dem validiert wird
    * **Text**
    * **Textbereich**
    * **E-Mail**
@@ -109,23 +109,25 @@ The Type of text to be input and will be validation against
    * **Datum**
    * **Nummer**
    * **Kennwort**
-* **Textzeilenanzahl**
-der Zeilen, die im Textbereich angezeigt werden sollen (nur angezeigt, wenn **&quot;Constraint** «auf **&quot; Textbereich&quot; festgelegt** ist)
-* **Beschriftung für** das Feld beschriften
-* **Blenden Sie die Beschriftung von**&quot;Erforderlich&quot; aus, wenn die Beschriftung nur für Ein-/Ausgabehilfe-Zwecke erforderlich ist und keine weiteren visuellen Informationen über das Feld eingibt.
-* **Elementname**
-Der Name des Feldes, das mit den Formulardaten gesendet wird
-* **Standardwert,**
-der im Feld vorbelegt wird
+* **Textzeile**
+Anzahl der Zeilen, die im Textbereich angezeigt werden sollen (nur angezeigt, wenn **Beschränkung** auf **Textbereich** festgelegt ist)
+* **Beschriftung**
+Die Beschriftung, die für das Feld angezeigt wird
+* **Beschriftung ausblenden**
+Erforderlich, wenn die Beschriftung nur für Zugangszwecke erforderlich ist und keine weiteren visuellen Informationen über das Feld vermittelt
+* **Element Name**
+Der Name des mit den Formulardaten gesendeten Felds
+* **Wert,**
+Der im Feld vorbelegte Standardwert
 
-### Registerkarte &quot;Info « {#about-tab}
+### Registerkarte „Info“ {#about-tab}
 
 ![](assets/chlimage_1-24.png)
 
-* **Hilfe-Meldung**
-an den Benutzer senden, was in das Feld eingegeben werden kann
-* **Hilfe-Meldung als Platzhalter**
-anzeigen, um die Hilfemeldung in der Formulareingabe anzuzeigen, wenn diese leer und nicht fokussiert ist
+* **Hilfemeldung**
+: Sie weist den Benutzer darauf hin, was im Feld eingegeben werden kann
+* **Bestimmt, ob die Hilfemeldung in der Formulareingabe angezeigt wird, wenn sie leer ist und sich nicht im Fokus befindet**
+
 
 ### Registerkarte „Beschränkungen“{#constraints-tab}
 
@@ -133,11 +135,12 @@ anzeigen, um die Hilfemeldung in der Formulareingabe anzuzeigen, wenn diese leer
 
 * **Beschränkungsmeldung**
    * Meldung wird beim Senden des Formulars als QuickInfo angezeigt, wenn der Wert den ausgewählten Typ nicht validiert
-   * Nicht für **Text-** und **Textbereichstypen** angezeigt
-* **Wenn**
-ausgewählt, muss der Benutzer einen Wert ausfüllen, bevor er das Formular sendet.
-* **Schreibgeschützt** Wenn ausgewählt, kann der Benutzer den Wert des Felds nicht ändern
+   * Wird nicht für Beschränkungstypen **Text** und **Textbereich** angezeigt
+* **Erforderlich**
+Wenn ausgewält, muss der Benutzer einen Wert ausfüllen, bevor das Formular gesendet werden kann
+* **Schreibgeschützt**
+Wenn ausgewählt, kann der Benutzer den Wert des Felds nicht ändern
 
-## Design-Dialogfeld {#design-dialog}
+## Dialogfeld „Design“ {#design-dialog}
 
-Es gibt kein Dialogfeld für die Formulartext-Komponente.
+Es gibt kein Dialogfeld „Design“ für die Formulartext-Komponente
