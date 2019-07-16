@@ -1,12 +1,12 @@
 ---
-title: Formular-Schaltflächenkomponente (v 1)
-seo-title: Formular-Schaltflächenkomponente (v 1)
+title: Formularschaltflächen-Komponente (v1)
+seo-title: Formularschaltflächen-Komponente (v1)
 description: 'null'
-seo-description: Die Komponente "Core Component Form" (Ausgeblendete Komponente) ermöglicht die Einbeziehung eines unsichtbaren Felds in ein Formular.
-uuid: 0525 e 70 f -294 f -4 d 35-bf 96-fc 0 e 4 ec 225 e 9
+seo-description: Die Kernkomponente „Komponente für ausgeblendetes Formular“ ermöglicht die Einbeziehung eines ausgeblendeten Felds in ein Formular.
+uuid: 0525e70f-294f-4d35-bf96-fc0e4ec225e9
 content-type: Referenz
-products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: ea 06 acc 0-38 e 2-4252-ac 29-07332835 b 7 c 4
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: ea06acc0-38e2-4252-ac29-07332835b7c4
 disttype: dist5
 gnavtheme: light
 groupsectionnavitems: keine
@@ -14,42 +14,42 @@ hidemerchandisingbar: inherit
 hidepromocomponent: inherit
 modalsize: 426x240
 index: n
-translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+translation-type: ht
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
 
-# Formular-Schaltflächenkomponente (v 1){#form-button-component-v}
+# Formularschaltflächen-Komponente (v1){#form-button-component-v}
 
-Die Komponente &quot;Core-Komponenten-Formular&quot; ermöglicht die Einbeziehung eines Schaltflächenfelds in ein Formular, um eine Aktion auszulösen.
+Die Kernkomponente „Formularschaltflächen-Komponente“ ermöglicht die Einbeziehung eines Schaltflächenfelds in ein Formular, um eine Aktion auszulösen.
 
 ## Nutzung {#usage}
 
-Die Komponente &quot;Core-Komponenten-Formular&quot; ermöglicht die Erstellung von Schaltflächenfeldern, die häufig die Übermittlung des Formulars auslösen und zusammen mit der [Formularcontainerkomponente verwendet werden sollen](form-container.md).
+Die Kernkomponente „Formularschaltflächen-Komponente“ ermöglicht die Erstellung von Schaltflächenfeldern, die häufig dazu dienen, die Übermittlung des Formulars auszulösen, und zusammen mit der [Formularcontainer-Komponente](form-container.md). verwendet werden sollen
 
-Die Schaltflächeneigenschaften können vom Content-Editor im Dialogfeld [&quot;Konfigurieren&quot; definiert](form-button-v1.md#main-pars_title)werden.
+Die Schaltflächeneigenschaften können vom Inhaltseditor im [Dialogfeld „Konfigurieren“](form-button-v1.md#main-pars_title) definiert werden.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-In diesem Dokument wird die Version 1 der Komponente &quot;Formular-Schaltfläche&quot; beschrieben, die ursprünglich mit Version 1.0.0 der Kernkomponenten mit AEM 6.3 eingeführt wurde.
+In diesem Dokument wird die v1 der Formularschaltflächen-Komponente beschrieben, die ursprünglich mit Version 1.0.0 der Kernkomponenten mit AEM 6.3 eingeführt wurde.
 
-In der folgenden Tabelle ist die Kompatibilität von v 1 der Formular-Schaltflächenkomponente aufgeführt.
+In der folgenden Tabelle ist die Kompatibilität von v1 der Formularschaltflächen-Komponente aufgeführt.
 
-| AEM-Version | Formular-Schaltflächenkomponente v 1 |
+| AEM-Version | Formularschaltflächen-Komponente v1 |
 |--- |--- |
 | 6.3 | Kompatibel |
 | 6.4 | Kompatibel |
 
 >[!CAUTION]
 >
->In diesem Dokument wird die Version 1 der Komponente &quot;Formular-Schaltfläche&quot; beschrieben.
+>In diesem Dokument wird v1 der Formularschaltflächen-Komponente beschrieben.
 >
->Weitere Informationen zur aktuellen Version der Formular-Schaltflächenkomponente finden Sie im [Dokument &quot;Formularschaltflächenkomponente](form-button.md) &quot; .
+>Weitere Informationen zur aktuellen Version der Formularschaltflächen-Komponente finden Sie im Dokument [Formularschaltflächen-Komponente](form-button.md).
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Nachfolgend finden Sie ein Beispiel aus [We. Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+Folgendes Beispiel wurde von [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html) übernommen.
 
 ### Screenshot {#screenshot}
 
@@ -93,11 +93,11 @@ Nachfolgend finden Sie ein Beispiel aus [We. Retail](https://helpx.adobe.com/exp
 
 >[!NOTE]
 >
->Für JSON-Exporte aus den Core-Komponenten ist Version 1.1.0 der Kernkomponenten erforderlich. Weitere Informationen finden Sie in den [Kompatibilitätsinformationen für Kernkomponenten v 1](versions.md#main-pars_title_236368006) .
+>Für JSON-Exporte aus den Kernkomponenten ist Version 1.1.0 der Kernkomponenten erforderlich. Weitere Informationen finden Sie in den [Kompatibilitätsinformationen für Kernkomponenten v1](versions.md#main-pars_title_236368006).
 
-## Dialogfeld konfigurieren {#configure-dialog}
+## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
-Über das Dialogfeld &quot;Konfigurieren&quot; kann der Inhaltsautor die Parameter der Schaltfläche definieren.
+Über das Dialogfeld „Konfigurieren“ kann der Inhaltsautor die Parameter der Schaltfläche definieren.
 
 ![](assets/chlimage_1-49.png)
 
@@ -106,19 +106,19 @@ Nachfolgend finden Sie ein Beispiel aus [We. Retail](https://helpx.adobe.com/exp
    * **Absenden**
 
 * **Titel** - Der auf der Schaltfläche angezeigte Text
-   * Wenn kein Wert angegeben ist, wird standardmäßig der Schaltflächentyp
+   * Wenn kein Wert angegeben ist, erscheint standardmäßig der Schaltflächentyp
 
-* **Name** - Der Name der Schaltfläche, die mit den Formulardaten gesendet wird
-* **Wert** - Der Wert der Schaltfläche, der mit den Formulardaten gesendet wird
+* **Name** - Der Name der Schaltfläche, der mit den Formulardaten übermittelt wird.
+* **Wert** - Der Wert der Schaltfläche, der mit den Formulardaten übermittelt wird.
 
-## Design-Dialogfeld {#design-dialog}
+## Dialogfeld „Design“ {#design-dialog}
 
-Es gibt kein Dialogfeld für die Formularschaltfläche.
+Es gibt kein Dialogfeld „Design“ für die Formularschaltflächen-Komponente.
 
 ## Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Formularschaltfläche-Komponente [finden Sie unter github](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v1/button).
+Die aktuelle technische Dokumentation zur Formularschaltflächen-Komponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v1/button).
 
-Das gesamte Kernkomponentenprojekt kann von github heruntergeladen werden.
+Das gesamte Kernkomponentenprojekt kann von GitHub heruntergeladen werden.
 
-Weitere Informationen zur Entwicklung Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Komponenten](developing.md).
+Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
