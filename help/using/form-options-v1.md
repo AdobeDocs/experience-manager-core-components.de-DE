@@ -1,12 +1,12 @@
 ---
-title: Komponente "Formularoptionen" (v 1)
-seo-title: Komponente "Formularoptionen" (v 1)
+title: Formularoptionen-Komponente (v1)
+seo-title: Formularoptionen-Komponente (v1)
 description: 'null'
-seo-description: Die Komponente "Core-Komponenten-Formularformulare" ermöglicht die Auswahl aus vordefinierten Optionen in verschiedenen Formaten.
-uuid: a 22 ed 77 c-c 9 f 3-46 f 4-8 afe-e 478383 c 1251
+seo-description: Die Kernkomponente „Formularoptionen“ ermöglicht die Auswahl aus vordefinierten Optionen in verschiedenen Formaten.
+uuid: a22ed77c-c9f3-46f4-8afe-e478383c1251
 content-type: Referenz
-products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: e 1975 bfe -2 bda -409 a -998 e -1 ff 4 f 9 f 23 b 94
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: e1975bfe-2bda-409a-998e-1ff4f9f23b94
 disttype: dist5
 gnavtheme: light
 groupsectionnavitems: keine
@@ -17,27 +17,27 @@ noindex: 'true'
 index: n
 internal: n
 snippet: y
-translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+translation-type: ht
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
 
-# Komponente &quot;Formularoptionen&quot; (v 1){#form-options-component-v}
+# Formularoptionen (v1){#form-options-component-v}
 
-Die Komponente &quot;Core-Komponenten-Formularformulare&quot; ermöglicht die Auswahl aus vordefinierten Optionen in verschiedenen Formaten.
+Die Kernkomponente „Formularoptionen“ ermöglicht die Auswahl aus vordefinierten Optionen in verschiedenen Formaten.
 
 ## Nutzung {#usage}
 
-Die Komponente &quot;Core-Komponenten-Formularoptionen&quot; ermöglicht die Übermittlung verschiedener Arten von Optionen, die auf vielerlei Arten präsentiert werden und sollen zusammen mit der [Formularcontainerkomponente verwendet](form-container.md)werden.
+Die Kernkomponente „Formularoptionen-Komponente“ ermöglicht die Übermittlung verschiedener Arten von Optionen, die auf vielerlei Arten präsentiert werden und die zusammen mit der [Formularcontainer-Komponente](form-container.md) verwendet werden sollten.
 
-Die Darstellung der Optionen, Beschriftungen und einzelnen Optionen kann vom Content Editor im Dialogfeld [&quot;Konfigurieren&quot; definiert](form-options-v1.md#main-pars_title)werden.
+Die Darstellung der Optionen, Beschriftungen und individuellen Optionen kann vom Inhaltseditor im Dialogfeld [Konfigurieren](form-options-v1.md#main-pars_title) definiert werden.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-In diesem Dokument wird die Version 1 der Komponente &quot;Formularoptionen&quot; beschrieben, die ursprünglich mit Version 1.0.0 der Kernkomponenten mit AEM 6.3 eingeführt wurde.
+In diesem Dokument wird die v1 der Formularoptionen-Komponente beschrieben, die ursprünglich mit Version 1.0.0 der Kernkomponenten mit AEM 6.3 eingeführt wurde.
 
-In der folgenden Tabelle ist die Kompatibilität von v 1 der Komponente &quot;Formularoptionen&quot; aufgeführt.
+In der folgenden Tabelle ist die Kompatibilität von v1 der Formularoptionen-Komponente aufgeführt.
 
 | Komponentenversion | AEM 6.3 | AEM 6.4 |
 |--- |--- |--- |
@@ -46,13 +46,13 @@ In der folgenden Tabelle ist die Kompatibilität von v 1 der Komponente &quot;Fo
 
 >[!CAUTION]
 >
->In diesem Dokument wird die Version 1 der Komponente &quot;Formularoptionen&quot; beschrieben.
+>In diesem Dokument wird die v1 der Formularoptionen-Komponente beschrieben.
 >
->Weitere Informationen zur aktuellen Version der Formularoptionskomponente finden Sie im [Dokument &quot;](form-options.md) Formularoptionen&quot; .
+>Weitere Informationen zur aktuellen Version der Formularoptionen-Komponente finden Sie im Dokument [Formularoptionen-Komponente](form-options.md).
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Nachfolgend finden Sie ein Beispiel aus [We. Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+Folgendes Beispiel wurde von [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html) übernommen.
 
 ### Screenshot {#screenshot}
 
@@ -122,16 +122,16 @@ Nachfolgend finden Sie ein Beispiel aus [We. Retail](https://helpx.adobe.com/exp
 
 >[!NOTE]
 >
->Für JSON-Exporte aus den Core-Komponenten ist Version 1.1.0 der Kernkomponenten erforderlich. Weitere Informationen finden Sie in den [Kompatibilitätsinformationen für Kernkomponenten v 1](versions.md#main-pars_title_236368006) .
+>Für JSON-Exporte aus den Kernkomponenten ist Version 1.1.0 der Kernkomponenten erforderlich. Weitere Informationen finden Sie in den [Kompatibilitätsinformationen für Kernkomponenten v1](versions.md#main-pars_title_236368006).
 
-## Dialogfeld konfigurieren {#configure-dialog}
+## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
-Im Dialogfeld &quot;Konfigurieren&quot; kann der Inhaltsautor den Typ der Optionen festlegen, die angezeigt werden sollen, Beschriftungen und welche Optionen verfügbar sind.
+Im Dialogfeld „Konfigurieren“ kann der Inhaltsautor den Typ der Optionen festlegen, die angezeigt werden sollen, Beschriftungen definieren und festlegen, welche Optionen verfügbar sind.
 
 ![](assets/chlimage_1-90.png)
 
-* **Typen,**
-wie die Optionen angezeigt werden
+* **Arten**
+Wie die Optionen angezeigt werden
 
    * **Kontrollkästchen**
    * **Optionsfelder**
@@ -143,26 +143,26 @@ wie die Optionen angezeigt werden
 * **Quelle** - Wo die Optionen definiert sind
 
    * **Lokal** - Definiert in der Komponente
-      * Tippen oder klicken Sie auf **die Schaltfläche Hinzufügen** , um einen Wert hinzuzufügen, **Löschen** , um einen Wert zu entfernen.
-      * **Wert** : Der Wert, der gespeichert wird, wenn diese Option beim Senden des Formulars ausgewählt wird.
+      * Tippen oder klicken Sie auf die Schaltfläche **Hinzufügen**, um einen Wert hinzuzufügen, und auf **Entfernen**, um einen Wert zu entfernen.
+      * **Wert** - Der Wert, der gespeichert wird, wenn diese Option beim Senden des Formulars ausgewählt wird.
       * **Text** - Die Bezeichnung für die Option, die im Formular angezeigt wird
-      * **Aktiv** - Die Option wird als ausgewählt markiert, wenn das Formular geladen wird.
-      * **Deaktiviert** - Die Option ist nicht auswählbar, aber trotzdem angezeigt
+      * **Aktiv** - Die Option wird als ausgewählt markiert, wenn das Formular geladen wird
+      * **Deaktiviert** - Die Option ist nicht auswählbar, wird aber trotzdem angezeigt
       * **Liste** - Eine an anderer Stelle in AEM definierte statische Liste wird für die Option verwendet
          * **Liste** - Der Pfad der statischen Liste in AEM
-            * Suchen Sie mithilfe der Schaltfläche &quot;Durchsuchen&quot; die Listenressource.
-      * **Datenquelle** - Eine Datenquelle wird für die Optionen verwendet.
+            * Verwenden Sie die Schaltfläche „Durchsuchen“, um die Listenressource zu finden.
+      * **Datenquelle** - Eine Datenquelle wird für die Optionen verwendet
          * **Datenquelle** - Ressourcentyp der Datenquelle
-* **Hilfe-Meldung** : Ein Hinweis für den Benutzer, der in das Feld eingegeben werden kann
+* **Hilfenachricht** - Ein Hinweis für den Benutzer dahingehend, was im Feld eingegeben werden kann
 
-## Design-Dialogfeld {#design-dialog}
+## Dialogfeld „Design“ {#design-dialog}
 
-Es gibt kein Dialogfeld für die Formularoptionen.
+Es gibt kein Dialogfeld „Design“ für die Formularoptionen-Komponente.
 
 ## Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Formularoptionskomponente [finden Sie unter github](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v1/options).
+Die aktuelle technische Dokumentation zur Formularoptionen-Komponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v1/options).
 
-Das gesamte Kernkomponentenprojekt kann von github heruntergeladen werden.
+Das gesamte Kernkomponentenprojekt kann von GitHub heruntergeladen werden.
 
-Weitere Informationen zur Entwicklung Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Komponenten](developing.md).
+Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation von Kernkomponenten für Entwickler](developing.md).
