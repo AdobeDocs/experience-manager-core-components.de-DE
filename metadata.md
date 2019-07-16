@@ -1,16 +1,16 @@
 ---
 cloud: experience-cloud
-solution-title: Experience Cloud Core-Komponenten
+solution-title: Kernkomponenten Experience Cloud
 solution-hub-url: https://helpx.adobe.com/de/support/experience-manager/6-4.html
 solution-image: null
 getting-started-title: Erste Schritte
 getting-started-url: https://helpx.adobe.com/experience-manager/get-started.html
 tutorials-title: Tutorials
 tutorials-url: https://helpx.adobe.com/experience-manager/kt/index/aem-6-4-videos.html
-git-repo: https://github.com/AdobeDocs/experience-manager-core-components.en
+git-repo: https://github.com/AdobeDocs/experience-manager-cloud-manager.en
 index: y
-translation-type: tm+mt
-source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
+translation-type: ht
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
