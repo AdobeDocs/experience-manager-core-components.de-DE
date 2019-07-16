@@ -1,53 +1,53 @@
 ---
-title: Seitenkomponente (v 1)
-seo-title: Seitenkomponente (v 1)
-description: he Page Component ist eine Komponente erweiterbarer Seiten, die für die Zusammenarbeit mit dem Vorlageneditor entwickelt wurde und das Zulassen von Seitenkopf-/Fußzeile und Strukturkomponenten mit dem Vorlageneditor ermöglicht.
-seo-description: Die Seitenkomponente ist eine Komponente erweiterbarer Seiten, die zum Arbeiten mit dem Vorlageneditor entwickelt wurde und die Seitenkopf-/Fußzeile sowie Strukturkomponenten mit dem Vorlageneditor ermöglicht.
-uuid: dd 1 b 1 e 58-ae 14-4818-afbe -8 bcff 0 de 2 c 32
+title: Seitenkomponente (v1)
+seo-title: Seitenkomponente (v1)
+description: Die Seitenkomponente ist eine Erweiterungskomponente für Seiten, die mit dem Vorlageneditor arbeitet und es ermöglicht, Seitenkopf-/Fußzeilen- und Strukturkomponenten mit dem Vorlageneditor zusammenzustellen.
+seo-description: Die Seitenkomponente ist eine Erweiterungskomponente für Seiten, die mit dem Vorlageneditor arbeitet und es ermöglicht, Seitenkopf-/Fußzeilen- und Strukturkomponenten mit dem Vorlageneditor zusammenzustellen.
+uuid: dd1b1e58-ae14-4818-afbe-8bcff0de2c32
 content-type: Referenz
 topic-tags: Kernkomponenten
-discoiquuid: b 3 f 1775 d -743 d -4 f 72-a 1 e 5-198303007 a 8 e
+discoiquuid: b3f1775d-743d-4f72-a1e5-198303007a8e
 index: n
-translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+translation-type: ht
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
 
-# Seitenkomponente (v 1){#page-component-v}
+# Seitenkomponente (v1){#page-component-v}
 
-Die Seitenkomponente ist eine Komponente erweiterbarer Seiten, die zum Arbeiten mit dem [Vorlageneditor](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html) entwickelt wurde und die Seitenkopf-/Fußzeile sowie Strukturkomponenten mit dem Vorlageneditor ermöglicht.
+Die Seitenkomponente ist eine Erweiterungskomponente für Seiten, die mit dem [Vorlageneditor](https://helpx.adobe.com/de/experience-manager/6-4/sites/authoring/using/templates.html) arbeitet und es ermöglicht, Seitenkopf-/Fußzeilen- und Strukturkomponenten mit dem Vorlageneditor zusammenzustellen.
 
 ## Nutzung {#usage}
 
-Die Seitenkomponente bildet die Grundlage aller Seiten, die mit Kernkomponenten und bearbeitbaren Vorlagen entworfen wurden. Mithilfe der Seitenkomponente, Kopfzeilen, Fußzeilen und der Struktur der Seite können Sie als Vorlage mit den anderen Kernkomponenten definiert werden.
+Die Seitenkomponente bildet die Grundlage aller Seiten, die mit den Kernkomponenten entworfen wurden, sowie bearbeitbarer Vorlagen. Mithilfe der Seitenkomponente können Kopfzeilen, Fußzeilen und der Struktur der Seite als Vorlage unter Verwendung der anderen Kernkomponenten definiert werden.
 
-Im [Design-Dialogfeld](page-v1.md#main-pars_title_1995166862)können benutzerdefinierte clientseitige Bibliotheken für die Seite definiert werden. Im Gegensatz zu anderen Komponenten, für die ein Bearbeitungsdialogfeld direkt von der Komponente aufgerufen wird, da die Komponente die Seite selbst ist, ist das [Dialogfeld &quot;Bearbeiten](page-v1.md#main-pars_title) &quot; der Seitenkomponente das Fenster&quot; Seiteneigenschaften&quot; .
+Im [Dialogfeld „Design“](page-v1.md#main-pars_title_1995166862) können benutzerdefinierte Client-seitige Bibliotheken für die Seite definiert werden. Im Gegensatz zu anderen Komponenten, die ein Dialogfeld „Bearbeiten“ haben, auf das direkt von der Komponente aus zugegriffen werden kann, weil die Komponente die Seite selbst ist, ist das [Dialogfeld „Bearbeiten“](page-v1.md#main-pars_title) der Seitenkomponente das Fenster „Seiteneigenschaften“.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-In diesem Dokument wird die Version 1 der Seitenkomponente beschrieben, die ursprünglich mit Version 1.0.0 der Kernkomponenten mit AEM 6.3 eingeführt wurde.
+In diesem Dokument wird die v1 der Seitenkomponente beschrieben, die ursprünglich mit Version 1.0.0 der Kernkomponenten mit AEM 6.3 eingeführt wurde.
 
-In der folgenden Tabelle ist die Kompatibilität von v 1 der Seitenkomponente aufgeführt.
+In der folgenden Tabelle ist die Kompatibilität von v1 der Seitenkomponente aufgeführt.
 
-| AEM-Version | Seitenkomponente v 1 |
+| AEM-Version | Seitenkomponente v1 |
 |--- |--- |
 | 6.3 | Kompatibel |
 | 6.4 | Kompatibel |
 
 >[!CAUTION]
 >
->In diesem Dokument wird v 1 der Seitenkomponente beschrieben.
+>In diesem Dokument wird v1 der Seitenkomponente beschrieben.
 >
->Weitere Informationen zur aktuellen Version der Seitenkomponente finden Sie im [Dokument &quot;Seitenkomponente](page.md) &quot; .
+>Weitere Informationen zur aktuellen Version der Seitenkomponente finden Sie im Dokument [Seitenkomponente](page.md).
 
 >[!NOTE]
 >
->v 1 der Seitenkomponente unterstützt keine Seitenumleitung. Bitte verwenden Sie die [aktuelle Version der Seitenkomponente](page.md) zur Unterstützung der Seitenumleitung.
+>v1 der Seitenkomponente unterstützt keine Seitenumleitung. Bitte verwenden Sie die [aktuelle Version der Seitenkomponente](page.md) zur Unterstützung der Seitenumleitung.
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Nachfolgend finden Sie ein Beispiel aus [We. Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+Folgendes Beispiel wurde von [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html) übernommen.
 
 ### Screenshot {#screenshot}
 
@@ -681,32 +681,32 @@ Nachfolgend finden Sie ein Beispiel aus [We. Retail](https://helpx.adobe.com/exp
 
 >[!NOTE]
 >
->Für JSON-Exporte aus den Core-Komponenten ist Version 1.1.0 der Kernkomponenten erforderlich. Weitere Informationen finden Sie in den [Kompatibilitätsinformationen für Kernkomponenten v 1](versions.md#main-pars_title_236368006) .
+>Für JSON-Exporte aus den Kernkomponenten ist Version 1.1.0 der Kernkomponenten erforderlich. Weitere Informationen finden Sie in den [Kompatibilitätsinformationen für Kernkomponenten v1](versions.md#main-pars_title_236368006).
 
-## Dialogfeld bearbeiten {#edit-dialog}
+## Dialogfeld „Bearbeiten“ {#edit-dialog}
 
-Da die Komponente die gesamte Seite darstellt, befinden sich Einstellungen, die normalerweise in einem Bearbeitungsdialogfeld enthalten wären, im Fenster [&quot;Seiteneigenschaften](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-page-properties.html) &quot; .
+Da die Komponente die gesamte Seite darstellt, befinden sich Einstellungen, die normalerweise in einem Dialogfeld „Bearbeiten“ enthalten wären, im Fenster [Seiteneigenschaften](https://helpx.adobe.com/de/experience-manager/6-4/sites/authoring/using/editing-page-properties.html).
 
-## Design-Dialogfeld {#design-dialog}
+## Dialogfeld „Design“ {#design-dialog}
 
-Da die Komponente die gesamte Seite darstellt, wird über **Seiteninformationen -&gt; Seitenentwurf auf das Design-Dialogfeld zugegriffen**.
+Da die Komponente die gesamte Seite darstellt, wird über **Seiteninformationen -&gt; Seitenentwurf** auf das Dialogfeld „Design“ zugegriffen.
 
 ![](assets/chlimage_1-94.png)
 
-Mit dem Fenster &quot;Seitendesign&quot; können Sie clientseitige Bibliotheken definieren, die mit der Seite geladen werden sollen.
+Mit dem Fenster Seitendesign können Sie Client-seitige Bibliotheken definieren, die mit der Seite geladen werden sollen.
 
-* Um ein neues Feld hinzuzufügen, klicken Sie auf die **Schaltfläche** &quot;Hinzufügen&quot; unter den Feldern.
+* Um ein neues Feld hinzuzufügen, klicken oder tippen Sie auf die Schaltfläche **Hinzufügen** unter den Feldern.
 * Um ein Feld zu entfernen, klicken oder tippen Sie neben dem Feld, das entfernt werden soll, auf das Papierkorbsymbol.
-* Um die Ladereihenfolge neu anzuordnen, klicken oder ziehen Sie den Griff neben dem Feld, das verschoben werden soll, und ziehen Sie es.
+* Um die Ladereihenfolge neu anzuordnen, klicken oder tippen Sie auf den Griff neben dem Feld, das verschoben werden soll, und ziehen Sie es.
 
-Weitere Informationen zur Verwendung clientseitiger Bibliotheken finden Sie unter [Clientseitige Bibliotheken verwenden](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/clientlibs.html).
+Weitere Informationen zur Verwendung Client-seitiger Bibliotheken finden Sie unter [Verwendung von Client-seitigen Bibliotheken](https://helpx.adobe.com/de/experience-manager/6-3/sites/developing/using/clientlibs.html).
 
 ![](assets/chlimage_1-95.png)
 
 ## Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Seitenkomponente [finden Sie unter github](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v1/page).
+Die aktuelle technische Dokumentation zur Seitenkomponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v1/page).
 
-Das gesamte Kernkomponentenprojekt kann von github heruntergeladen werden.
+Das gesamte Kernkomponentenprojekt kann von GitHub heruntergeladen werden.
 
-Weitere Informationen zur Entwicklung Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Komponenten](developing.md).
+Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
