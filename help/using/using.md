@@ -2,19 +2,19 @@
 title: Verwenden von Kernkomponenten
 seo-title: Verwenden von Kernkomponenten
 description: 'null'
-seo-description: '" Um mit Kernkomponenten in Ihrem eigenen Projekt vertraut zu werden, gibt es drei Schritte: herunterladen und installieren, Proxy-Komponenten erstellen, die Kernstile laden und die Komponenten in Ihren Vorlagen zulassen. «'
-uuid: a 1 ef 2 acf -8226-4510-838 b-f 5 fae 196 f 9 f 1
+seo-description: '„Um mit Kernkomponenten in Ihrem eigenen Projekt produktiv zu werden, sind drei Schritte erforderlich: herunterladen und installieren, Proxy-Komponenten erstellen, die Kernstile laden und die Komponenten in Ihren Vorlagen zulassen.“'
+uuid: a1ef2acf-8226-4510-838b-f5fae196f9f1
 contentOwner: Benutzer
 content-type: Referenz
-topic-tags: wird entwickelt
-products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 1703 a 171-830 c -477 e-a 34 f -99 caba 841 ec 4
+topic-tags: entwickeln
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: 1703a171-830c-477e-a34f-99caba841ec4
 disttype: dist5
 gnavtheme: light
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
@@ -22,25 +22,25 @@ source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 # Verwenden von Kernkomponenten{#using-core-components}
 
-Um mit [Kernkomponenten](developing.md) in Ihrem eigenen Projekt vertraut zu werden, gibt es vier Schritte, die in den folgenden Abschnitten einzeln detailliert sind:
+Um mit [Kernkomponenten](developing.md) in Ihrem eigenen Projekt produktiv zu werden, sind vier Schritte erforderlich, die in den folgenden Abschnitten einzeln detailliert sind:
 
-1. [Herunterladen und Installieren](#download-and-install)
+1. [Herunterladen und installieren](#download-and-install)
 1. [Proxy-Komponenten erstellen](#create-proxy-components)
-1. [Laden der Core-Stile](#load-the-core-styles)
+1. [Laden der Kernstile](#load-the-core-styles)
 1. [Komponenten aktivieren](#allow-the-components)
 
 >[!NOTE]
 >
->Alternativ dazu können die Hauptkomponenten, bearbeitbaren Vorlagen, Client-Bibliotheken und Komponentenentwicklung für allgemeine Anweisungen zur ersten Schritte mit dem Projektsetup, der bearbeitbaren Vorlage, der Client-Bibliotheken und der Komponentenentwicklung verwendet werden:\
->[Erste Schritte mit AEM Sites - WKND Tutorial](wknd-tutorial.md)
+>Alternativ kann auch das folgende mehrteilige Tutorial von Interesse sein, um zu erfahren, wie Sie mit der Projekteinrichtung, den Kernkomponenten, den bearbeitbaren Vorlagen, den Client-Bibliotheken und der Komponentenentwicklung von Grund auf neu beginnen können:\
+>[Erste Schritte mit AEM Sites - WKND-Tutorial](wknd-tutorial.md)
 
-## Herunterladen und Installieren {#download-and-install}
+## Herunterladen und installieren {#download-and-install}
 
-Einer der führenden Ideen hinter den Kernkomponenten ist Flexibilität. Durch die Veröffentlichung neuer Versionen der Kernkomponenten kann Adobe bei der Bereitstellung neuer Funktionen flexibler sein. Entwickler können sich flexibel entscheiden, in welche Komponenten sie sich integrieren lassen und wie oft sie sie aktualisieren möchten.
+Einer der treibenden Ideen hinter den Kernkomponenten ist Flexibilität. Durch die häufigere Veröffentlichung neuer Versionen der Kernkomponenten kann Adobe bei der Bereitstellung neuer Funktionen flexibler sein. Entwickler wiederum können flexibel entscheiden, welche Komponenten sie in ihre Projekte integrieren und wie oft sie diese aktualisieren möchten.
 
-Aus diesem Grund sind die Core-Komponenten nicht Teil des Schnellstart, wenn sie im Produktionsmodus (ohne Beispielinhalt) beginnen. Der erste Schritt besteht darin, das neueste veröffentlichte Inhaltspaket von github [herunterzuladen](https://github.com/adobe/aem-core-wcm-components/releases/latest) und es in Ihren AEM-Umgebungen zu installieren.
+Aus diesem Grund sind die Kernkomponenten nicht Teil des Schnellstarts, wenn Sie im Produktionsmodus (ohne Beispielinhalt) beginnen. Der erste Schritt besteht darin, [das neueste veröffentlichte Inhaltspaket von GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest) herunterzuladen und es in Ihren AEM-Umgebungen zu installieren.
 
-Es gibt verschiedene Möglichkeiten, dies zu automatisieren, aber die einfachste Möglichkeit, ein Inhaltspaket schnell auf einer Instanz zu installieren, erfolgt über den Package Manager; Siehe [Installieren von Paketen](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html). Sobald Sie außerdem eine Veröffentlichungsinstanz ausgeführt haben, müssen Sie dieses Paket für den Herausgeber replizieren. Siehe [Replizieren von Paketen](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html).
+Es gibt verschiedene Möglichkeiten, dies zu automatisieren, aber die einfachste Möglichkeit, ein Inhaltspaket schnell auf einer Instanz zu installieren, erfolgt über den Package Manager; Siehe [Installieren von Paketen](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/package-manager.html). Sobald Sie außerdem eine Veröffentlichungsinstanz ausgeführt haben, müssen Sie dieses Paket für den Herausgeber replizieren. Siehe [Replizieren von Paketen](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html).
 
 <!-- 
 
@@ -54,21 +54,21 @@ Should we be promoting embedding the core-component package as an artifact in a 
 
 ## Proxy-Komponenten erstellen {#create-proxy-components}
 
-Aus den im Abschnitt [Proxy Component Pattern](guidelines.md#proxy-component-pattern) erläuterten Gründen dürfen Core-Komponenten nicht direkt über den Inhalt referenziert werden. Um dies zu vermeiden, gehören alle zu einer ausgeblendeten Komponentengruppe ( `.core-wcm` oder `.core-wcm-form`), die verhindert, dass sie direkt im Editor angezeigt werden.
+Aus den im Abschnitt [Proxy-Komponentenmuster](guidelines.md#proxy-component-pattern) erläuterten Gründen dürfen Kernkomponenten nicht direkt über den Inhalt referenziert werden. Um dies zu vermeiden, gehören alle zu einer ausgeblendeten Komponentengruppe ( `.core-wcm` oder `.core-wcm-form`), was verhindert, dass sie direkt im Editor angezeigt werden.
 
-Stattdessen müssen site-spezifische Komponenten erstellt werden, die den gewünschten Komponentennamen und die gewünschte Gruppe definieren, die für Seitenautoren angezeigt werden sollen, und jede auf eine Core-Komponente als ihren Supertyp verweisen. Diese sitespezifischen Komponenten werden manchmal als &quot;Proxy-Komponenten&quot; bezeichnet, da sie nichts enthalten und hauptsächlich zur Definition der Version einer Komponente dienen, die für die Site verwendet werden soll. Beim Anpassen der [Kernkomponenten](customizing.md)spielen diese Proxy-Komponenten jedoch eine wesentliche Rolle für Markierung und logische Anpassung.
+Stattdessen müssen Site-spezifische Komponenten erstellt werden, die den gewünschten Komponentennamen und die gewünschte Gruppe definieren, die für Seitenautoren angezeigt werden sollen, und jede auf eine Kernkomponente als ihren übergeordneten Typ verweisen. Diese Site-spezifischen Komponenten werden manchmal als „Proxy-Komponenten“ bezeichnet, da sie nichts enthalten und hauptsächlich zur Definition der Version einer Komponente dienen, die für die Site verwendet werden soll. Beim Anpassen der [Kernkomponenten](customizing.md)spielen diese Proxy-Komponenten jedoch eine wesentliche Rolle für die Anpassung von Markup und Logik.
 
-Für jede Core-Komponente, die für eine Site verwendet werden soll, müssen Sie Folgendes tun:
+Für jede Kernkomponente, die für eine Site verwendet werden soll, müssen Sie also Folgendes tun:
 
 1. Erstellen Sie eine entsprechende Proxy-Komponente im Komponentenordner der Site.
 
    **Beispiel**
-unter `/apps/my-site/components` Erstellen eines Titelknotens des Typs `cq:Component`
+Unter `/apps/my-site/components` Erstellen eines Titelknotens des Typs `cq:Component`
 
-1. Verweisen Sie auf die entsprechende Core-Komponentenversion mit dem super-Typ.
+1. Verweisen Sie auf die entsprechende Kernkomponentenversion mit dem übergeordneten Typ.
 
    **Beispiel**
-fügen Sie folgende Eigenschaft hinzu:\
+Fügen Sie folgende Eigenschaft hinzu:\
    `sling:resourceSuperType="core/wcm/components/title/v1/title"`
 
 1. Definieren Sie die Gruppe, den Titel und optional die Beschreibung der Komponente. Diese Werte sind projektspezifisch und bestimmen, wie die Komponente Autoren offensteht.
@@ -82,9 +82,9 @@ Fügen Sie folgende Eigenschaften hinzu:
    jcr:description="Section Heading"
    ```
 
-Betrachten Sie beispielsweise die [title-Komponente der Referenz-Website &quot;We. Retail&quot;](https://github.com/Adobe-Marketing-Cloud/aem-sample-we-retail/blob/master/ui.apps/src/main/content/jcr_root/apps/weretail/components/content/title/.content.xml). Dies ist ein gutes Beispiel für eine Proxy-Komponente, die auf diese Weise aufgebaut ist.
+Betrachten Sie beispielsweise die [Titelkomponente der Referenz-Site „We.Retail“](https://github.com/Adobe-Marketing-Cloud/aem-sample-we-retail/blob/master/ui.apps/src/main/content/jcr_root/apps/weretail/components/content/title/.content.xml). Dies ist ein gutes Beispiel für eine Proxy-Komponente, die auf diese Weise aufgebaut ist.
 
-## Laden der Core-Stile {#load-the-core-styles}
+## Laden der Kernstile {#load-the-core-styles}
 
 <!-- 
 
@@ -116,10 +116,10 @@ Load the Core Client Libraries sounds way better
 
  -->
 
-1. Erstellen Sie eine [Client-Bibliothek](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html) , die alle CSS- und JS-Dateien enthält, die für Ihre Site benötigt werden, falls noch nicht geschehen.
-1. Fügen Sie in der Client-Bibliothek Ihrer Site die Abhängigkeiten zu den Core-Komponenten hinzu, die möglicherweise benötigt werden. Dies geschieht durch Hinzufügen einer `embed` Eigenschaft.
+1. Erstellen Sie eine [Client-Bibliothek](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/using/clientlibs.html), die alle CSS- und JS-Dateien enthält, die für Ihre Site benötigt werden, falls noch nicht geschehen.
+1. Fügen Sie in der Client-Bibliothek Ihrer Site die Abhängigkeiten zu den Kernkomponenten hinzu, die möglicherweise benötigt werden. Dies geschieht durch Hinzufügen einer `embed` Eigenschaft.
 
-   Um beispielsweise die Client-Bibliotheken aller v 1 Core Components einzubeziehen, lautet die hinzuzufügende Eigenschaft:
+   Um beispielsweise die Client-Bibliotheken aller v1 Kernkomponenten einzubeziehen, lautet die hinzuzufügende Eigenschaft:
 
    ```shell
    embed="[  
@@ -131,19 +131,19 @@ Load the Core Client Libraries sounds way better
    ]"
    ```
 
-Stellen Sie sicher, dass Ihre Proxy-Komponenten und Client-Bibliotheken in Ihrer AEM-Umgebung bereitgestellt wurden, bevor Sie zum nächsten Abschnitt wechseln.
+Stellen Sie sicher, dass Ihre Proxy-Komponenten und Client-Bibliotheken in Ihrer AEM-Umgebung bereitgestellt wurden, bevor Sie zum nächsten Abschnitt übergehen.
 
 ## Komponenten zulassen {#allow-the-components}
 
-Die folgenden Schritte werden im [Vorlagen-Editor durchgeführt](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html).
+Die folgenden Schritte werden im [Vorlageneditor](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/templates.html) durchgeführt.
 
 1. Wählen Sie im Vorlageneditor den Layout-Container aus und öffnen Sie seine Richtlinie.
 1. Wählen Sie in der Liste der zulässigen Komponenten die zuvor erstellten Proxy-Komponenten aus, die unter der ihnen zugewiesenen Komponentengruppe angezeigt werden sollen. Übernehmen Sie anschließend die Änderungen.
-1. Optional können sie für Komponenten mit einem Design-Dialogfeld vorkonfiguriert werden.
+1. Optional können sie für Komponenten, die ein Dialogfeld „Design“ haben, vorkonfiguriert werden.
 
-Das ist es! In den aus der bearbeiteten Vorlage erstellten Seiten sollten Sie jetzt die neu erstellten Komponenten verwenden können.
+Das war´s! In den aus der bearbeiteten Vorlage erstellten Seiten sollten Sie jetzt die neu erstellten Komponenten verwenden können.
 
 **Lesen Sie als Nächstes:**
 
-* [Anpassen der Kernkomponenten](customizing.md) - um zu erfahren, wie Sie die Kernkomponenten gestalten und anpassen können.
-* [Komponentenrichtlinien](guidelines.md) - um die Implementierungsmuster der Kernkomponenten zu erfahren.
+* [Anpassen der Kernkomponenten](customizing.md) - Erfahren Sie, wie Sie die Kernkomponenten gestalten und anpassen können.
+* [Komponentenrichtlinien](guidelines.md) - Lernen Sie die Implementierungsmuster der Kernkomponenten kennen.
