@@ -1,83 +1,83 @@
 ---
-title: Bearbeiten mit Kernkomponenten
-seo-title: Bearbeiten mit Kernkomponenten
-description: In AEM sind Komponenten die Strukturelemente, die den Inhalt der erstellten Seiten darstellen. Kernkomponenten bieten flexible und funktionsreiche Authoring-Funktionen.
-seo-description: In AEM sind Komponenten die Strukturelemente, die den Inhalt der erstellten Seiten darstellen. Kernkomponenten bieten flexible und funktionsreiche Authoring-Funktionen.
-uuid: 4 a 54 cd 4 c -3 d 89-4683-8301-bf 1 e 344736 e 3
+title: Authoring mit Kernkomponenten
+seo-title: Authoring mit Kernkomponenten
+description: In AEM sind Komponenten die Strukturelemente, die den Inhalt der zu erstellenden Seiten ausmachen. Kernkomponenten bieten flexible und funktionsreiche Authoring-Funktionalität.
+seo-description: In AEM sind Komponenten die Strukturelemente, die den Inhalt der zu erstellenden Seiten ausmachen. Kernkomponenten bieten flexible und funktionsreiche Authoring-Funktionalität.
+uuid: 4a54cd4c-3d89-4683-8301-bf1e634736e3
 content-type: Referenz
-topic-tags: authoring
-discoiquuid: 8751 e 490-d 427-44 f 2-b 767-51935 afda 988
-translation-type: tm+mt
+topic-tags: Authoring
+discoiquuid: 8751e490-d427-44f2-b767-51935afda988
+translation-type: ht
 source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
 
-# Autor mit Kernkomponenten
+# Authoring mit Kernkomponenten
 
-In Adobe Experience Manager sind Komponenten die strukturellen Elemente, aus denen der Inhalt von bearbeiteten Seiten besteht. Dieser Abschnitt enthält die Kernkomponenten, die wichtige Inhaltstypen zur Erstellung vonseiten bereitstellen.
+In Adobe Experience Manager sind Komponenten die strukturellen Elemente, aus denen der Inhalt von bearbeiteten Seiten besteht. In diesem Abschnitt werden die Kernkomponenten behandelt, die die grundlegenden Arten von Inhalten zum Erstellen von Seiten bereitstellen.
 
-Die Kernkomponenten bieten flexible und funktionale Authoring-Funktionen. Die Referenz-Website [für wir](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) zeigt an, wie die Kernkomponenten verwendet werden können.
+Die Kernkomponenten bieten eine flexible und funktionsreiche Authoring-Funktionalität. Die [Referenz-Site „We.Retail“](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/using/we-retail.html) illustriert, wie die Kernkomponenten verwendet werden können.
 
-Rufen Sie die [Komponentenbibliothek auf, um die Kernkomponenten zu testen und Beispiele für ihre Konfigurationsoptionen sowie HTML- und JSON-Ausgaben anzuzeigen](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html).
+Um die Kernkomponenten zu erleben und Beispiele für ihre Konfigurationsoptionen sowie die HTML- und JSON-Ausgabe zu sehen, besuchen Sie die [Komponentenbibliothek](http://opensource.adobe.com/de/aem-core-wcm-components/library/content-fragment.html).
 
 >[!NOTE]
 >
->Kernkomponenten sind für Autoren nicht sofort verfügbar, das [Entwicklungsteam muss sie zunächst in Ihre Umgebung integrieren](using.md). Nach der Integration können sie über den [Vorlageneditor verfügbar gemacht und vorkonfiguriert](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)werden.
+>Kernkomponenten sind für Autoren nicht sofort verfügbar. Das [Entwicklerteam muss sie zuerst in Ihre Umgebung integrieren](using.md). Nach der Integration können sie über den [Vorlageneditor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) bereitgestellt und vorkonfiguriert werden.
 
 >[!CAUTION]
 >
->Core-Komponenten [erfordern AEM 6.3 oder höher](versions.md) und erfordern [bearbeitbare Vorlagen](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html). Sie funktionieren nicht mit der klassischen Benutzeroberfläche und statischen Vorlagen.
+>Kernkomponenten [erfordern AEM 6.3 oder höher](versions.md) und die Verwendung von [bearbeitbaren Vorlagen](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/templates.html). Sie funktionieren weder mit der klassischen Benutzeroberfläche noch mit statischen Vorlagen.
 
-## Bearbeiten mit Kernkomponenten {#authoring-with-core-components}
+## Authoring mit Kernkomponenten {#authoring-with-core-components}
 
-Als Autor werden Sie verschiedene Vorteile der Kernkomponenten bemerken, darunter:
+Als Autor werden Sie einige Vorteile der Kernkomponenten bemerken, wie beispielsweise:
 
-* Einfach zu verwenden und mit [dem Seiteneditor gut integriert](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)
+* Einfach zu verwenden und gut mit dem [Seiteneditor](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/editing-content.html) integriert
 
-* Funktionsreiche Funktionen für zahlreiche Anwendungsfälle, [wie in &quot;We. Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) &quot; und in der [Komponentenbibliothek gezeigt](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html)
+* Vielfältige Funktionen zur Anpassung an viele Anwendungsfälle, wie in [We.Retail](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/using/we-retail.html) sowie in der [Komponentenbibliothek](http://opensource.adobe.com/de/aem-core-wcm-components/library/content-fragment.html) gezeigt
 
-* [Vorkonfigurierbar](#pre-configuring-core-components) , um zu definieren, welche Funktionen für Seitenautoren über den [Vorlageneditor verfügbar sind](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+* [Vorkonfigurierbar](#pre-configuring-core-components), um zu definieren, welche Funktionen für Seitenautoren über den [Vorlageneditor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) verfügbar sind
 
-* Richtlinien [für Barrierefreiheit](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
+* Basierend auf [Zugänglichkeitsrichtlinien](https://helpx.adobe.com/de/experience-manager/6-5/managing/using/web-accessibility.html)
 
-* Erstellen, um [responsive Layout zu unterstützen](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/responsive-layout.html)
+* Entwickelt, um [responsives Layout](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/responsive-layout.html) zu unterstützen
 
-Komponenten sind auf der Registerkarte **Komponenten** des Seiteneditors beim [Bearbeiten einer Seite auf der Registerkarte &quot;Komponenten&quot; verfügbar](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html).
+Komponenten sind auf der Registerkarte **Komponenten** im seitlichen Bedienfeld des Seiteneditors beim [Bearbeiten einer Seite](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/editing-content.html) verfügbar.
 
-Komponenten werden nach Kategorien gruppiert, die Komponentengruppen genannt werden, um die Komponenten mühelos zu organisieren und zu filtern. Der Komponentengruppenname wird mit der Komponente im [Komponentenbrowser angezeigt,](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html) und es ist auch möglich, nach Gruppe zu filtern, um die richtige Komponente zu finden.
+Komponenten werden nach Kategorien gruppiert, die Komponentengruppen genannt werden, um die Komponenten mühelos zu organisieren und zu filtern. Der Name der Komponentengruppe wird mit der Komponente im [Komponenten-Browser](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/editing-content.html) angezeigt, und es ist auch möglich, nach Gruppen zu filtern, um mühelos die richtige Komponente zu finden.
 
 >[!NOTE]
 >
->Die Kernkomponenten sind standardmäßig Teil einer ausgeblendeten Gruppe und sind im Komponentenbrowser nicht sichtbar.
+>Die Kernkomponenten sind standardmäßig Teil einer ausgeblendeten Gruppe und sind im Komponenten-Browser nicht sichtbar.
 >
 >Fügen Sie die erforderlichen Komponenten einer sichtbaren Gruppe hinzu oder passen Sie sie an, damit sie für Autoren verfügbar sind.
 
 ## Vorkonfigurieren der Kernkomponenten {#pre-configuring-core-components}
 
-Die Konfiguration von Foundation-Komponenten war der Auftrag eines Entwicklers. Mit Core-Komponenten kann ein Vorlagenautor jetzt eine Reihe von Funktionen über den Vorlageneditor konfigurieren.
+Die Konfiguration von Foundation-Komponenten war Auftrag eines Entwicklers. Mit Kernkomponenten kann ein Vorlagenautor jedoch jetzt eine Reihe von Funktionen über den Vorlageneditor konfigurieren.
 
-Wenn beispielsweise eine Image-Komponente keine Bilduploads vom Dateisystem zulassen darf oder wenn eine Textkomponente nur bestimmte Absatzformatierungen zulassen soll, können diese Funktionen mit einem einfachen Klick aktiviert oder deaktiviert werden.
+Wenn beispielsweise eine Bild-Komponente keine Bilduploads vom Dateisystem zulassen soll oder wenn eine Textkomponente nur bestimmte Absatzformatierungen zulassen soll, können diese Funktionen mit einem einfachen Klick aktiviert oder deaktiviert werden.
 
-Weitere Informationen finden Sie unter [Erstellen von Seitenvorlagen](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) .
+Weitere Informationen finden Sie unter [Erstellen von Seitenvorlagen](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/templates.html).
 
-### Dialogfelder bearbeiten und entwerfen {#edit-and-design-dialogs}
+### Dialogfelder „Bearbeiten“ und „Design“ {#edit-and-design-dialogs}
 
-Da die Kernkomponenten von Vorlagenautoren vorkonfiguriert werden können, um zu definieren, welche Optionen als Teil einer Vorlage zulässig sind und dann weiter vom Seitenautor konfiguriert werden, um tatsächliche Seiteninhalte zu definieren, kann jede Komponente über zwei verschiedene Dialogfelder verfügen.
+Da die Kernkomponenten von Vorlagenautoren vorkonfiguriert werden können, um zu definieren, welche Optionen als Teil einer Vorlage zulässig sind, und dann weiter vom Seitenautor konfiguriert werden können, um tatsächliche Seiteninhalte zu definieren, kann jede Komponente über Optionen in zwei verschiedenen Dialogfeldern verfügen.
 
-|  | Beschreibung | Steuerelemente | Beispiele |
+|  | Beschreibung | Funktion | Beispiele |
 |--- |--- |--- |--- |
-| **Dialogfeld bearbeiten** | Optionen, die ein **Seitenautor** während der normalen Seitenbearbeitung für die platzierten Komponenten ändern kann | Der von der Komponente angezeigte Inhalt und die Art und Weise, wie er letztendlich auf der Seite angezeigt wird. | Formatieren von Inhalten, Drehen eines Bildes auf einer Seite |
-| **Design-Dialogfeld** | Optionen, die ein **Vorlagenautor ändern** kann, wenn eine Seitenvorlage konfiguriert wird. | Welche Optionen der Seitenautor beim Bearbeiten der Komponente verfügbar hat | Welche Textformatierungsoptionen verfügbar sind, sind die ersetzenden Optionen verfügbar. |
+| **Dialogfeld „Bearbeiten“** | Optionen, die ein **Seitenautor** während der normalen Seitenbearbeitung für die platzierten Komponenten ändern kann | Der von der Komponente angezeigte Inhalt und die Art und Weise, wie er letztendlich auf der Seite angezeigt wird. | Formatieren von Inhaltstext und Drehen eines Bildes auf einer Seite |
+| **Dialogfeld „Design“** | Optionen, die ein **Vorlagenautor** ändern kann, wenn er eine Seitenvorlage konfiguriert. | Welche Optionen für den Seitenautor beim Bearbeiten der Komponente verfügbar sind | Welche Textformatierungsoptionen verfügbar sind, welche ersetzenden Optionen für Bilder verfügbar sind |
 
 ### Komponentenstil {#component-styling}
 
 Die Stile der meisten Kernkomponenten können mithilfe des AEM-Stilsystems definiert werden.
 
-* Ein Vorlagenautor kann festlegen, welche Stile für eine bestimmte Komponente im Design-Dialogfeld dieser Komponente verfügbar sind.
-* Der Inhaltsautor kann dann festlegen, welche Stile angewendet werden sollen, wenn die Komponente hinzugefügt und Inhalte erstellt werden.
+* Ein Vorlagenautor kann festlegen, welche Stile für eine bestimmte Komponente im Dialogfeld „Design“ dieser Komponente verfügbar sind.
+* Der Inhaltsautor kann dann festlegen, welche Stile angewendet werden sollen, wenn er die Komponente hinzufügt und Inhalte erstellt.
 
-Weitere Informationen finden Sie in der [Dokumentation zum Stilsystem](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/style-system.html) .
+Weitere Informationen finden Sie in der Dokumentation zum [Stilsystem](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/style-system.html).
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ Weitere Informationen finden Sie in der [Dokumentation zum Stilsystem](https://h
 
 ## Liste der verfügbaren Kernkomponenten {#list-of-core-components-available}
 
-Im Folgenden finden Sie eine Liste der verfügbaren Kernkomponenten, die mit den Seiten verknüpft sind, die ihre Dialogfelder zum Bearbeiten und Design im Detail beschreiben.
+Im Folgenden finden Sie eine Liste der verfügbaren Kernkomponenten und Links zu Seiten, auf denen ihre Dialogfelder zum Bearbeiten und Design im Detail beschrieben werden.
 
 Die aktuelle Version der Kernkomponenten enthält die folgenden Komponenten.
 
@@ -102,7 +102,7 @@ Die aktuelle Version der Kernkomponenten enthält die folgenden Komponenten.
 * [Sprachnavigation](language-navigation.md)
 * [Liste](list.md)
 * [Navigation](navigation.md)
-* [Page](page.md)
+* [Seite](page.md)
 * [Schnellsuche](quick-search.md)
 * [Trennzeichen](separator.md)
 * [Freigabe in Social Media](sharing.md)
@@ -114,13 +114,13 @@ Die aktuelle Version der Kernkomponenten enthält die folgenden Komponenten.
 >
 >Einige Versionen einzelner Kernkomponenten sind möglicherweise nur mit bestimmten Versionen von AEM kompatibel.
 >
->Weitere Informationen finden Sie auf der einzelnen Hilfeseite (Links in der vorherigen Liste) für die jeweilige Komponente oder auf das Dokument [Hauptkomponenten Versionsversionen](versions.md) .
+>Weitere Informationen zu Kompatibilitätsinformationen finden Sie auf der Hilfeseite für die jeweilige Komponente (Links in der vorherigen Liste) oder im Dokument [Kernkomponentenversionen](versions.md).
 
 >[!NOTE]
 >
 >Abhängig von Ihrer Instanz besitzen Sie möglicherweise benutzerdefinierte Komponenten, die speziell für Ihre Anforderungen entwickelt wurden. Möglicherweise haben diese sogar denselben Namen wie die hier behandelten Komponenten.
->Die Core-Komponenten des Formulars sind nicht mit AEM Forms verknüpft.
+>Die Formular-Kernkomponenten hängen nicht mit AEM Forms zusammen.
 
 ## Entwicklungsressourcen {#developer-resources}
 
-Technische [Informationen zu Kernkomponenten finden Sie in der](developing.md) Entwicklerdokumentation zu Kernkomponenten entwickeln.
+Technische Informationen zu Kernkomponenten finden Sie in der Entwicklerdokumentation [Entwickeln von Kernkomponenten](developing.md).
