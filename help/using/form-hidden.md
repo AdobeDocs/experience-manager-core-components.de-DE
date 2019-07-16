@@ -1,13 +1,13 @@
 ---
-title: Komponente ausgeblendeter Formulare
-seo-title: Komponente ausgeblendeter Formulare
+title: Komponente für ausgeblendetes Formular
+seo-title: Komponente für ausgeblendetes Formular
 description: 'null'
-seo-description: Die Komponente "Core-Komponente-Formular ausgeblendet" ermöglicht die Anzeige eines unsichtbaren Felds.
-uuid: 63 a 1 b 381-f 45 c -4241-b 743-dea 8 abd 45 e 11
+seo-description: Die Kernkomponente „Komponente für ausgeblendetes Formular“ ermöglicht die Anzeige eines ausgeblendeten Felds.
+uuid: 63a1b381-f45c-4241-b743-dea8abd45e11
 contentOwner: Benutzer
 content-type: Referenz
 topic-tags: Kernkomponenten
-discoiquuid: 36 e 49035-7641-4 unangemessen -8 a 61-723060032903
+discoiquuid: 36e49035-7641-4bad-8a61-723060032903
 disttype: dist5
 gnavtheme: light
 groupsectionnavitems: keine
@@ -17,25 +17,25 @@ modalsize: 426x240
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+translation-type: ht
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
 
-# Komponente ausgeblendeter Formulare{#form-hidden-component}
+# Komponente für ausgeblendetes Formular{#form-hidden-component}
 
-Die Komponente &quot;Core-Komponente-Formular ausgeblendet&quot; ermöglicht die Anzeige eines unsichtbaren Felds.
+Die Kernkomponente „Komponente für ausgeblendetes Formular“ ermöglicht die Anzeige eines ausgeblendeten Felds.
 
 ## Nutzung {#usage}
 
-Die Komponente &quot;Core Component Form Hidden&quot; (Ausgeblendete Komponenten) ermöglicht die Erstellung ausgeblendeter Felder, um Informationen über die aktuelle Seite zurück an AEM zurückzusenden. Sie soll zusammen mit der [Formularcontainerkomponente verwendet](form-container.md)werden.
+Die Kernkomponente „Komponente für ausgeblendetes Formular“ ermöglicht die Erstellung ausgeblendeter Felder, um Informationen über die aktuelle Seite zurück an AEM zu senden. Sie soll zusammen mit der [Formularcontainer-Komponente](form-container.md) verwendet werden.
 
-Die Feldeigenschaften können vom Content-Editor im Dialogfeld [&quot;Konfigurieren&quot; definiert](form-hidden.md)werden.
+Die Feldeigenschaften können vom Inhaltseditor im [Dialogfeld „Konfigurieren“](form-hidden.md) definiert werden.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die aktuelle Version der ausgeblendeten Komponente ist v 2, die mit Version 2.0.0 der Kernkomponenten im Januar 2018 eingeführt wurde und in diesem Dokument beschrieben wird.
+Die aktuelle Version der Komponente für ausgeblendetes Formular ist v2, die mit Version 2.0.0 der Kernkomponenten im Januar 2018 eingeführt wurde und in diesem Dokument beschrieben wird.
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
@@ -44,11 +44,11 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 | v2 | Kompatibel | Kompatibel | Kompatibel |
 | [v1](form-hidden-v1.md) | Kompatibel | Kompatibel | Kompatibel |
 
-Weitere Informationen zu Core-Komponentenversionen und -versionen finden Sie in den Core [-Komponentenversionen](versions.md).
+Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](versions.md).
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Nachfolgend finden Sie ein Beispiel aus [We. Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
+Folgendes Beispiel wurde von [We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) übernommen.
 
 ### HTML {#html}
 
@@ -88,27 +88,27 @@ Nachfolgend finden Sie ein Beispiel aus [We. Retail](https://helpx.adobe.com/exp
 
 ### Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Formular-ausgeblendeten Komponente [finden Sie unter github](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v2/hidden).
+Die aktuelle technische Dokumentation zur Komponente für ausgeblendetes Formular [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v2/hidden).
 
-Weitere Informationen zur Entwicklung Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Komponenten](developing.md).
+Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
 
-## Dialogfeld konfigurieren {#configure-dialog}
+## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
-Das Dialogfeld &quot;Konfigurieren&quot; ermöglicht dem Inhaltsautor die Definition der Parameter des ausgeblendeten Felds.
+Über das Dialogfeld „Konfigurieren“ kann der Inhaltsautor die Parameter des ausgeblendeten Felds definieren.
 
 ![](assets/chlimage_1-26.png)
 
-* **Name**des Feldes,
-das mit den Formulardaten gesendet wird
+* **Name**
+Der Name des mit den Formulardaten gesendeten Felds
 * **Wert**
-des Felds, das mit den Formulardaten gesendet wird
-* **Bezeichner**
-Der Bezeichner muss eindeutig auf der Seite sein und kann verwendet werden, um Skripten an dieses Formularfeld zu binden.
+Der Wert des mit den Formulardaten gesendeten Felds
+* **Kennung**
+Die Kennung muss auf der Seite eindeutig sein und kann genutzt werden, um Skripte in dieses Formularfeld einzubinden.
 
-Da die Komponente &quot;Ausgeblendete Formulare&quot; normalerweise keine sichtbaren Attribute aufweist, zeigt der Platzhalter der Komponente im Editor die **Feldwerte&quot; Name** «und **&quot;Wert&quot;** an, wenn sie zugewiesen werden, damit der Autor die entsprechende Form ausgeblendet wird.
+Da die Komponente für ausgeblendetes Formular normalerweise keine sichtbaren Attribute aufweist, zeigt der Platzhalter der Komponente im Editor die Feldwerte **Name** und **Wert** an, wenn sie zugewiesen werden, um dem Autor zu helfen, die passende Komponente für ausgeblendetes Formular zu identifizieren.
 
 ![](assets/screenshot_2018-10-19at094927.png)
 
-## Design-Dialogfeld {#design-dialog}
+## Dialogfeld „Design“ {#design-dialog}
 
-Es gibt kein Design-Dialogfeld für die Komponente &quot;Formular ausgeblendet&quot; .
+Es gibt kein Dialogfeld „Design“ für die Komponente für ausgeblendetes Formular.
