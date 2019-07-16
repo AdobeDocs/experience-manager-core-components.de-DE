@@ -1,33 +1,33 @@
 ---
-title: Komponente "Formularoptionen «
-seo-title: Komponente "Formularoptionen «
-description: Die Komponente "Core-Komponenten-Formularformulare" ermöglicht die Auswahl aus vordefinierten Optionen in verschiedenen Formaten.
-seo-description: Die Komponente "Core-Komponenten-Formularformulare" ermöglicht die Auswahl aus vordefinierten Optionen in verschiedenen Formaten.
-uuid: 7 e 8714 df -75 d 1-4 bb 0-b 1 ee-b 7 c 7450 d 806 a
+title: Formularoptionen-Komponente
+seo-title: Formularoptionen-Komponente
+description: Die Kernkomponente „Formularoptionen“ ermöglicht die Auswahl aus vordefinierten Optionen in verschiedenen Formaten.
+seo-description: Die Kernkomponente „Formularoptionen“ ermöglicht die Auswahl aus vordefinierten Optionen in verschiedenen Formaten.
+uuid: 7e8714df-75d1-4bb0-b1ee-b7c7450d806a
 contentOwner: Benutzer
 content-type: Referenz
-topic-tags: authoring
-products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 42289 c 2 b -1671-463 a-ac 1 d -457 aa 9 aefa 2 a
-translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+topic-tags: Authoring
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: 42289c2b-1671-463a-ac1d-457aa9aefa2a
+translation-type: ht
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
 
-# Komponente &quot;Formularoptionen «{#form-options-component}
+# Formularoptionen-Komponente{#form-options-component}
 
-Die Komponente &quot;Core-Komponenten-Formularoptionen&quot; ermöglicht die Auswahl aus vordefinierten Optionen in verschiedenen Formaten.
+Die Kernkomponente „Formularoptionen“ ermöglicht die Auswahl aus vordefinierten Optionen in verschiedenen Formaten.
 
 ## Nutzung {#usage}
 
-Die Komponente &quot;Core-Komponenten-Formularoptionen&quot; ermöglicht die Übermittlung verschiedener Arten von Optionen, die auf vielerlei Arten präsentiert werden und sollen zusammen mit der [Formularcontainer-Komponente verwendet](form-container.md)werden.
+Die Kernkomponente „Formularoptionen-Komponente“ ermöglicht die Übermittlung verschiedener Arten von Optionen, die auf vielerlei Arten präsentiert werden und die zusammen mit der [Formularcontainer-Komponente](form-container.md) verwendet werden sollten.
 
-Die Darstellung der Optionen, Beschriftungen und einzelnen Optionen kann vom Content Editor im Dialogfeld [&quot;Konfigurieren&quot; definiert](#configure-dialog)werden.
+Die Darstellung der Optionen, Beschriftungen und individuellen Optionen kann vom Inhaltseditor im Dialogfeld [Konfigurieren](#configure-dialog) definiert werden.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die aktuelle Version der Formularoptionskomponente ist v 2, die mit Version 2.0.0 der Kernkomponenten im Januar 2018 eingeführt wurde und in diesem Dokument beschrieben wird.
+Die aktuelle Version der Formularoptionen-Komponente ist v2, die mit Version 2.0.0 der Kernkomponenten im Januar 2018 eingeführt wurde und in diesem Dokument beschrieben wird.
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
@@ -36,11 +36,11 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 | v2 | Kompatibel | Kompatibel | Kompatibel |
 | [v1](form-options-v1.md) | Kompatibel | Kompatibel | Kompatibel |
 
-Weitere Informationen zu Core-Komponentenversionen und -versionen finden Sie in den Core [-Komponentenversionen](versions.md).
+Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](versions.md).
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Nachfolgend finden Sie ein Beispiel aus [We. Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
+Folgendes Beispiel wurde von [We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) übernommen.
 
 ### Screenshot {#screenshot}
 
@@ -139,13 +139,13 @@ Nachfolgend finden Sie ein Beispiel aus [We. Retail](https://helpx.adobe.com/exp
 
 ### Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Formularoptionskomponente [finden Sie unter github](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v2/options).
+Die aktuelle technische Dokumentation zur Formularoptionen-Komponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v2/options).
 
-Weitere Informationen zur Entwicklung Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Komponenten](developing.md).
+Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
 
-## Dialogfeld konfigurieren {#configure-dialog}
+## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
-Im Dialogfeld &quot;Konfigurieren&quot; kann der Inhaltsautor den Typ der Optionen festlegen, die angezeigt werden sollen, Beschriftungen und welche Optionen verfügbar sind.
+Im Dialogfeld „Konfigurieren“ kann der Inhaltsautor den Typ der Optionen festlegen, die angezeigt werden sollen, Beschriftungen definieren und festlegen, welche Optionen verfügbar sind.
 
 ![](assets/screen_shot_2018-01-12at113153.png)
 
@@ -155,35 +155,36 @@ Im Dialogfeld &quot;Konfigurieren&quot; kann der Inhaltsautor den Typ der Option
    * **Dropdown**
    * **Dropdown für mehrere Auswahlen**
 * **Titel**
-Der Titel, der als Beschriftung für die Optionen angezeigt wird
+Der Titel, der als Beschriftung für die Optionen angezeigt werden wird
 * **Name**
-des mit den Formulardaten gesendeten Felds
-* **Quelle**, an
-der die Optionen definiert sind
+Der Name des Feldes, das mit den Formulardaten übermittelt wurde.
+* **Quelle**
+Wo die Optionen definiert sind
    * **Lokal**
-definiert in der Komponente
-      * Tippen oder klicken Sie auf **die Schaltfläche Hinzufügen** , um einen Wert hinzuzufügen, **Löschen** , um einen Wert zu entfernen.
-      * **Wert wird**
-gespeichert, wenn diese Option beim Senden des Formulars ausgewählt wird
+Definiert innerhalb der Komponente
+      * Tippen oder klicken Sie auf die Schaltfläche **Hinzufügen**, um einen Wert hinzuzufügen, und auf **Entfernen**, um einen Wert zu entfernen.
+      * **Wert**
+Der Wert, der gespeichert wird, wenn diese Option beim Übermitteln des Formulars ausgewählt wird
       * **Text**
 Der Beschriftung der im Formular angezeigten Option
       * **Aktiv**
 Diese Option wird als ausgewählt markiert, wenn das Formular geladen wird.
       * **Deaktiviert**
-Die Option ist nicht auswählbar, aber trotzdem angezeigt
-      * **Liste**Eine statische Liste,
-die anderswo in AEM definiert ist, wird für die Optionen verwendet
-         * **Den** Pfad der statischen Liste in AEM auflisten
-            * Suchen Sie mithilfe der Schaltfläche &quot;Durchsuchen&quot; die Listenressource.
+Die Option ist nicht auswählbar, wird aber trotzdem angezeigt
+      * **Liste**
+Eine statische Liste, die anderswo in AEM definiert ist, wird für die Optionen verwendet
+         * **Liste**
+Der Pfad der statischen Liste in AEM
+            * Verwenden Sie die Schaltfläche „Durchsuchen“, um die Listenressource zu finden.
       * **Datenquelle**
 Eine Datenquelle wird für die Optionen verwendet.
-         * **Datenquellen**-Ressourcentyp
-der Datenquelle
-* **Hilfe-Meldung**
-Ein Hinweis für den Benutzer, der in das Feld eingegeben werden kann
+         * **Datenquelle**
+Ressourcentyp der Datenquelle
+* **Hilfemeldung**
+Ein Hinweis für den Benutzer, was in das Feld eingegeben werden kann
 
-## Design-Dialogfeld {#design-dialog}
+## Dialogfeld „Design“ {#design-dialog}
 
-### Stile Registerkarte {#styles-tab}
+### Registerkarte „Stile“ {#styles-tab}
 
-Die Komponente &quot;Formularoptionen&quot; unterstützt das AEM [-Stilsystem](authoring.md#component-styling).
+Die Formularoptionen-Komponente unterstützt das AEM-[Stilsystem](authoring.md#component-styling).
