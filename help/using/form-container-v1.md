@@ -1,95 +1,95 @@
 ---
-title: Formularcontainer-Komponente (v 1)
-seo-title: Formularcontainer-Komponente (v 1)
-description: Die Container-Komponente Core Component Form (Core Component Form Container Component) ermöglicht die Erstellung einfacher Übermittlungsformulare.
-seo-description: Die Container-Komponente Core Component Form (Core Component Form Container Component) ermöglicht die Erstellung einfacher Übermittlungsformulare.
-uuid: 075 d 83 ed-de 40-414 e-a 18 f -46 b 3 a 857 acba
+title: Formularcontainer-Komponente (v1)
+seo-title: Formularcontainer-Komponente (v1)
+description: Die Kernkomponente „Formularcontainer-Komponente“ ermöglicht die Erstellung einfacher Übermittlungsformulare.
+seo-description: Die Kernkomponente „Formularcontainer-Komponente“ ermöglicht die Erstellung einfacher Übermittlungsformulare.
+uuid: 075d83ed-de40-414e-a18f-46b3a857acba
 content-type: Referenz
-products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 800 c 064 e -2 ad 5-41 f 3-9 cef-b 025 a 555 efd 9
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: 800c064e-2ad5-41f3-9cef-b025a555efd9
 index: n
-translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+translation-type: ht
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
 
-# Formularcontainer-Komponente (v 1){#form-container-component-v}
+# Formularcontainer-Komponente (v1){#form-container-component-v}
 
-Die Container-Komponente Core Component Form (Core Component Form Container Component) ermöglicht die Erstellung einfacher Übermittlungsformulare.
+Die Kernkomponente „Formularcontainer-Komponente“ ermöglicht die Erstellung einfacher Übermittlungsformulare.
 
 ## Nutzung {#usage}
 
-Die Formularcontainer-Komponente hat die Erstellung einfacher Informationsübermittlungsformulare und -funktionen aktiviert, indem einfache WCM-Formulare unterstützt und eine verschachtelte Struktur verwendet wurde, um zusätzliche Formularkomponenten zuzulassen.
+Die Formularcontainer-Komponente ermöglicht den Aufbau einfacher Formulare und Funktionen zur Informationsübermittlung, indem sie einfache WCM-Formulare unterstützt und eine verschachtelte Struktur verwendet, um zusätzliche Formularkomponenten zu ermöglichen.
 
-Mithilfe des [Dialogfeldes für die Einstellung](form-container-v1.md#main-pars_title) kann der Content-Editor definieren, welche Art von Aktionsformularübermittlung ausgelöst wird, wo der gesendete Inhalt gespeichert werden soll und ob ein Workflow ausgelöst werden soll. Der Vorlagenautor kann das [Design-Dialogfeld](form-container-v1.md#main-pars_title_1995166862) verwenden, um die zulässigen Komponenten und deren Zuordnungen ähnlich dem Design-Dialogfeld für den [Standard-Layout-Container im Vorlageneditor zu definieren](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1754153843).
+Mithilfe des [Dialogfelds „Einstellungen“](form-container-v1.md#main-pars_title) kann der Inhaltseditor definieren, welche Art von Aktion durch eine Formularübermittlung ausgelöst wird, wo der gesendete Inhalt gespeichert werden soll und ob ein Workflow ausgelöst werden soll. Der Vorlagenautor kann das [Dialogfeld „Design“](form-container-v1.md#main-pars_title_1995166862) verwenden, um die zulässigen Komponenten und deren Zuordnungen ähnlich dem Dialogfeld „Design“ für den [Standard-Layout-Container im Vorlageneditor](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1754153843) zu definieren.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-In diesem Dokument wird die Version 1 der Formularcontainer-Komponente beschrieben, die ursprünglich mit Version 1.0.0 der Kernkomponenten mit AEM 6.3 eingeführt wurde.
+In diesem Dokument wird die v1 der Formularcontainer-Komponente beschrieben, die ursprünglich mit Version 1.0.0 der Kernkomponenten mit AEM 6.3 eingeführt wurde.
 
-In der folgenden Tabelle ist die Kompatibilität von v 1 der Formular-Container-Komponente aufgeführt.
+In der folgenden Tabelle ist die Kompatibilität von v1 der Formularcontainer-Komponente aufgeführt.
 
-| AEM-Version | Form Container Component v 1 |
+| AEM-Version | Formularcontainer-Komponente v1 |
 |--- |--- |
 | 6.3 | Kompatibel |
 | 6.4 | Kompatibel |
 
 >[!CAUTION]
 >
->In diesem Dokument wird v 1 der Formular-Container-Komponente beschrieben.
+>In diesem Dokument wird v1 der Formularcontainer-Komponente beschrieben.
 >
->Weitere Informationen zur aktuellen Version der Formular-Container-Komponente finden Sie im [Dokument Container Container Component](form-container.md) .
+>Weitere Informationen zur aktuellen Version der Formularcontainer-Komponente finden Sie im Dokument [Formularcontainer-Komponente](form-container.md).
 
-## Dialogfeld &quot;Einstellungen « {#settings-dialog}
+## Dialogfeld „Einstellungen“ {#settings-dialog}
 
-Über das Dialogfeld &quot;Einstellungen&quot; können Sie festlegen, welche Aktionen beim Senden der Komponente durchgeführt werden.
+Über das Dialogfeld „Einstellungen“ können Sie festlegen, welche Aktionen beim Übermitteln der Komponente durchgeführt werden.
 
 ![](assets/chlimage_1.png)
 
-Je nach ausgewähltem Aktionstyp **** werden die verfügbaren Optionen im Container geändert. Die verfügbaren Aktionstypen sind:
+Je nach ausgewähltem **Aktionstyp** werden die verfügbaren Optionen im Container geändert. Die verfügbaren Aktionstypen sind:
 
 * [E-Mail](form-container-v1.md#main-pars_title_966511656)
 * [Inhalt speichern](form-container-v1.md#main-pars_title_2065985840)
 * [Bestellung absenden](form-container-v1.md#main-pars_title_686874527)
 * [Auftrag aktualisieren](form-container-v1.md#main-pars_title_410109286)
 
-Unabhängig vom Typ gibt es [allgemeine Einstellungen](form-container-v1.md#main-pars_title_375403046) , die für jede Aktion gelten.
+Unabhängig vom Typ gibt es [allgemeine Einstellungen](form-container-v1.md#main-pars_title_375403046), die für jede Aktion gelten.
 
 ### E-Mail {#mail}
 
-Wenn das Formular gesendet wird, sendet der E-Mail-Aktionstyp eine E-Mail an bestimmte Empfänger.
+Wenn das Formular gesendet wird, sendet der Mail-Aktionstyp eine E-Mail an bestimmte Empfänger.
 
 ![](assets/chlimage_1-1.png)
 
-* **Betreff** : Betreffbetreff der E-Email, die beim Senden des Formulars gesendet wird
-* **Von** - der E-Email-Adresse der E-Email, die beim Senden des Formulars gesendet wird
-* **An** - Die Adressen der Empfänger, die eine E-Email bei der Formularübermittlung erhalten
-   * Tippen oder klicken Sie auf **die Schaltfläche Hinzufügen** , um weitere Adressen hinzuzufügen.
-   * Tippen oder klicken Sie auf **die Schaltfläche Löschen** , um eine E-Email-Adresse zu entfernen.
-* **CC** - Die Adressen der Empfänger, die eine &quot;carbon&quot; -Kopie empfangen, die beim Senden des Formulars gesendet wird
-   * Tippen oder klicken Sie auf **die Schaltfläche Hinzufügen** , um weitere Adressen hinzuzufügen.
-   * Tippen oder klicken Sie auf **die Schaltfläche Löschen** , um eine E-Email-Adresse zu entfernen.
+* **Betreff** - Betreffzeile der E-Mail, die beim Übermitteln des Formulars gesendet wird
+* **Von** - die Absenderadresse der E-Mail, die beim Übermitteln des Formulars gesendet wird
+* **An** - Die Adressen der Empfänger, die eine E-Mail bei der Formularübermittlung erhalten
+   * Tippen oder klicken Sie auf die Schaltfläche **Hinzufügen**, um weitere Adressen hinzuzufügen.
+   * Tippen oder klicken Sie auf die Schaltfläche **Löschen**, um eine E-Mail-Adresse zu entfernen.
+* **CC** - Die Adressen der Empfänger, die eine Kopie der E-Mail erhalten, die beim Übermitteln des Formulars gesendet wird
+   * Tippen oder klicken Sie auf die Schaltfläche **Hinzufügen**, um weitere Adressen hinzuzufügen.
+   * Tippen oder klicken Sie auf die Schaltfläche **Löschen**, um eine E-Mail-Adresse zu entfernen.
 
 ### Inhalt speichern {#store-content}
 
-Wenn das Formular gesendet wird, wird der Inhalt des Formulars in einem bestimmten Repository gespeichert.
+Wenn das Formular übermittelt wird, wird der Inhalt des Formulars in einem bestimmten Repository gespeichert.
 
 ![](assets/chlimage_1-2.png)
 
-* **Content Path** - Inhalts-Repository-Pfad, in dem gesendete Inhalte gespeichert werden
+* **Inhalts-Pfad** - Inhalts-Repository-Pfad, in dem der übermittelte Inhalt gespeichert wird
 * **Daten anzeigen** - Tippen oder klicken Sie, um gespeicherte gesendete Daten als JSON anzuzeigen.
-* **Workflow starten** - Konfigurieren Sie, um einen Workflow mit dem gespeicherten Inhalt als Nutzlast bei Formularübermittlung zu starten.
+* **Workflow starten** - Konfigurieren Sie den Start eines Workflows mit dem gespeicherten Inhalt als Nutzlast bei Formularübermittlung.
 
 ### Bestellung absenden {#submit-order}
 
-Wenn das Formular gesendet wird, wird die Bestellung gesendet.
+Wenn das Formular übermittelt wird, wird die Bestellung übermittelt.
 
 ![](assets/chlimage_1-3.png)
 
 ### Auftrag aktualisieren {#update-order}
 
-Wenn das Formular gesendet wird, wird die Bestellung aktualisiert.
+Wenn das Formular übermittelt wird, wird die Bestellung aktualisiert.
 
 ![](assets/chlimage_1-4.png)
 
@@ -101,18 +101,18 @@ Unabhängig vom ausgewählten Aktionstyp kann eine Dankeseite immer definiert we
 
 Der Benutzer wird nach Abschluss der Formularübermittlung zur angegebenen Seite weitergeleitet.
 
-* Verwenden Sie das Auswahldialogfeld, um eine Ressource in AEM auszuwählen.
-* Wenn die Dankeseite nicht in AEM angegeben ist, geben Sie die absolute URL an. Nicht absolute urls werden relativ zu AEM interpretiert.
-* Lassen Sie sich leer, um das Formular nach der Übermittlung erneut anzuzeigen.
+* Verwenden Sie das Dialogfeld „Auswahl“, um eine Ressource in AEM auszuwählen.
+* Wenn die Dankeseite nicht in AEM enthalten ist, geben Sie die absolute URL an. Nicht absolute URLs werden relativ zu AEM interpretiert.
+* Leer lassen, damit das Formular nach der Übermittlung wieder angezeigt wird.
 
-## Design-Dialogfeld {#design-dialog}
+## Dialogfeld „Design“ {#design-dialog}
 
-Im Entwurfsdialogfeld kann der Vorlagenautor die zulässigen Komponenten und deren Zuordnungen für den Container, der dem Design-Dialogfeld des [Vorlageneditors](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1754153843)ähnelt, definieren.
+Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die zulässigen Komponenten und deren Zuordnungen für den Container ähnlich dem Dialogfeld „Design“ für den [Standard-Layout-Container im Vorlageneditor](https://helpx.adobe.com/de/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1754153843) zu definieren.
 
 ## Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Formularcontainer-Komponente [finden Sie unter github](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/container/v1/container).
+Die aktuelle technische Dokumentation zur Formularcontainer-Komponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/container/v1/container).
 
-Das gesamte Kernkomponentenprojekt kann von github heruntergeladen werden.
+Das gesamte Kernkomponentenprojekt kann von GitHub heruntergeladen werden.
 
-Weitere Informationen zur Entwicklung Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Komponenten](developing.md).
+Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
