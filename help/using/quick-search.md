@@ -1,13 +1,13 @@
 ---
-title: Schnellsuchkomponente
-seo-title: Schnellsuchkomponente
+title: Schnellsuch-Komponente
+seo-title: Schnellsuch-Komponente
 description: 'null'
-seo-description: Die Komponente "Schnellsuche" bietet Suchfunktionen für eine Website und zeigt Suchergebnisse an, damit Besucher die Site durchsuchen und die Ergebnisse filtern können.
-uuid: 1 ba 69 be 3-537 e -4 f 20-9 f 17-b 4 b 7174 a 8 e 88
+seo-description: Die Schnellsuch-Komponente bietet Suchfunktionen für eine Website und zeigt Suchergebnisse an, damit Besucher die Site durchsuchen und die Ergebnisse filtern können.
+uuid: 1ba69be3-537e-4f20-9f17-b4b7174a8e88
 content-type: Referenz
-topic-tags: authoring
-products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 906 a 684 d -5663-4497-bef 3-37 f 13 d 5 b 46 c 7
+topic-tags: Authoring
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: 906a684d-5663-4497-bef3-37f13d5b46c7
 disttype: dist5
 gnavtheme: light
 groupsectionnavitems: keine
@@ -17,25 +17,25 @@ modalsize: 426x240
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+translation-type: ht
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
 
-# Schnellsuchkomponente{#quick-search-component}
+# Schnellsuch-Komponente{#quick-search-component}
 
-Die Komponente &quot;Schnellsuche&quot; bietet Suchfunktionen für eine Website und zeigt Suchergebnisse an, damit Besucher mühelos übereinstimmende Inhalte finden und Ergebnisse anzeigen können.
+Die Schnellsuch-Komponente bietet Suchfunktionen für eine Website und zeigt Suchergebnisse an, damit Besucher mühelos übereinstimmende Inhalte finden und Ergebnisse anzeigen können.
 
 ## Nutzung {#usage}
 
-Die Komponente &quot;Schnellsuche&quot; bietet Site-Besuchern die Möglichkeit, nach Inhalten zu suchen, die Ergebnisse ersetzend anzuzeigen und leicht zu den passenden Seiten zu navigieren. Neue Ergebnisse werden dynamisch abgerufen, wenn der Benutzer die Suchergebnisse durchblättert.
+Die Schnellsuch-Komponente bietet Site-Besuchern die Möglichkeit, nach Inhalten zu suchen, die Ergebnisse unmittelbar anzuzeigen und leicht zu den passenden Seiten zu navigieren. Neue Ergebnisse werden dynamisch abgerufen, wenn der Benutzer die Suchergebnisse durchblättert.
 
-Im [Dialogfeld &quot;Bearbeiten](#edit-dialog) &quot; kann der Verfasser des Inhalts festlegen, wo die Suche in der Inhaltsstruktur beginnen soll. Im [Design-Dialogfeld](#design-dialog)kann der Vorlagenautor den Standardwert festlegen, an dem die Suche in der Inhaltsstruktur beginnen soll, sowie eine maximale Ergebnissatzgröße und minimale Suchlänge.
+Im [Dialogfeld „Bearbeiten“](#edit-dialog) kann der Verfasser des Inhalts festlegen, wo die Suche in der Inhaltsstruktur beginnen soll. Im [Dialogfeld „Design“](#design-dialog) kann der Vorlagenautor den Standardwert festlegen, an dem die Suche in der Inhaltsstruktur beginnen soll, sowie eine maximale Ergebnissatzgröße und minimale Suchbegriffslänge festlegen.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die aktuelle Version der Schnellsuchkomponente ist v 1, die mit Version 2.0.0 der Kernkomponenten im Januar 2018 eingeführt wurde und in diesem Dokument beschrieben wird.
+Die aktuelle Version der Schnellsuch-Komponente ist v1, die mit Version 2.0.0 der Kernkomponenten im Januar 2018 eingeführt wurde und in diesem Dokument beschrieben wird.
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
@@ -43,11 +43,11 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 |--- |--- |--- |--- |
 | v1 | Kompatibel | Kompatibel | Kompatibel |
 
-Weitere Informationen zu Core-Komponentenversionen und -versionen finden Sie in den Core [-Komponentenversionen](versions.md).
+Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](versions.md).
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Nachfolgend finden Sie ein Beispiel aus [We. Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
+Folgendes Beispiel wurde von [We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) übernommen.
 
 ### Screenshot {#screenshot}
 
@@ -93,42 +93,43 @@ Nachfolgend finden Sie ein Beispiel aus [We. Retail](https://helpx.adobe.com/exp
 
 >[!NOTE]
 >
->Der Schutz der Suchkomponente oder einer beliebigen AEM-basierten Anwendung gegen DOS-Angriffe sollte auf höherer Ebene implementiert werden, z. B. durch Verwendung `mod_security` des Dispatchers.
+>Der Schutz der Suchkomponente oder einer beliebigen AEM-basierten Anwendung gegen DOS-Angriffe sollte auf höherer Ebene implementiert werden, z. B. durch Verwendung von `mod_security` auf dem Dispatcher.
 
-Die aktuelle technische Dokumentation zur Schnellsuchkomponente [finden Sie unter github](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/search/v1/search).
+Die aktuelle technische Dokumentation zur Schnellsuch-Komponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/search/v1/search).
 
-Weitere Informationen zur Entwicklung Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Komponenten](developing.md).
+Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
 
-## Dialogfeld bearbeiten {#edit-dialog}
+## Dialogfeld „Bearbeiten“ {#edit-dialog}
 
-Im Dialogfeld &quot;Bearbeiten&quot; kann der Verfasser des Inhalts festlegen, wo die Suche in der Inhaltsstruktur beginnen soll.
+Im Dialogfeld „Bearbeiten“ kann der Verfasser des Inhalts festlegen, wo die Suche in der Inhaltsstruktur beginnen soll.
 
 ![](assets/screen_shot_2018-04-03at120132.png)
 
-**Suchstamm** - Die Stammseite, von der aus die Suche gestartet werden soll. Der Suchstamm kann ein Blueprint-Master, ein Master-Master oder eine normale Seite sein.
+**Suchstamm** - Die Stammseite, von der aus die Suche gestartet werden soll. Der Suchstamm kann ein Blueprint-Master, ein Sprachen-Master oder eine normale Seite sein.
 
-## Design-Dialogfeld {#design-dialog}
+## Dialogfeld „Design“ {#design-dialog}
 
-Im Design-Dialogfeld kann der Vorlagenautor den Standardwert festlegen, an dem die Suche in der Inhaltsstruktur beginnen soll, sowie eine maximale Ergebnissatzgröße und minimale Suchlänge. Das Vorlagendialogfeld ermöglicht dem Vorlagenautor, die für die Inhaltsautoren verfügbaren Textformatierungsoptionen zu definieren.
+Im Dialogfeld „Design“ kann der Vorlagenautor den Standardwert festlegen, an dem die Suche in der Inhaltsstruktur beginnen soll, sowie eine maximale Ergebnissatzgröße und minimale Suchbegriffslänge. Das Dialogfeld „Design“ ermöglicht dem Vorlagenautor, die für die Inhaltsautoren verfügbaren Textformatierungsoptionen zu definieren.
 
-### Registerkarte &quot;Eigenschaften « {#properties-tab}
+### Registerkarte „Eigenschaften“ {#properties-tab}
 
 ![](assets/screen_shot_2018-04-03at120028.png)
 
-* **Suche Root**
-Der Standardwert des Suchstamms, wenn ein Content-Autor die Schnellsuchkomponente auf einer Inhaltsseite platziert
+* **Suchstamm**
+Der Standardwert des Suchstamms, wenn ein Inhaltsautor die Komponente „Schnellsuche“ auf einer Inhaltsseite platziert
 * **Ergebnisgröße**
 Die maximale Anzahl von Ergebnissen, die durch eine Suchanfrage abgerufen werden
-* **Mindestlänge des Suchbegriffs** Mindestlänge des Suchbegriffs, um die Suche zu starten
+* **Mindestlänge des Suchbegriffs**
+Mindestlänge des Suchbegriffs, um die Suche zu starten
 
 >[!NOTE]
 >
->**Die minimale** Länge und **die Mindestlänge** des Suchbegriffs können nur im Designmodus festgelegt werden und daher nur auf Vorlagenebene, d. h. Inhaltsautoren können diese Werte nicht ändern.
+>**Die Größe der Ergebnisse** und **die Mindestlänge des Suchbegriffs** können nur im Designmodus festgelegt werden und daher nur auf Vorlagenebene, d. h. Inhaltsautoren können diese Werte nicht ändern.
 
 >[!CAUTION]
 >
->**Die minimale** Länge **und die Mindestlänge** des Suchbegriffs können Auswirkungen auf die Leistung haben, wenn sie zu hoch oder zu niedrig eingestellt sind.
+>**Die Größe der Ergebnisse** und **die Mindestlänge des Suchbegriffs** können Auswirkungen auf die Leistung haben, wenn sie zu hoch oder zu niedrig eingestellt sind.
 
-### Stile Registerkarte {#styles-tab}
+### Registerkarte „Stile“ {#styles-tab}
 
-Die Komponente &quot;Schnellsuche&quot; unterstützt das AEM [-Stilsystem](authoring.md#component-styling).
+Die Komponente „Schnellsuche“ unterstützt das AEM-[Stilsystem](authoring.md#component-styling).
