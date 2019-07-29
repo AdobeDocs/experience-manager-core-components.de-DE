@@ -9,7 +9,7 @@ content-type: Referenz
 topic-tags: Authoring
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: d4684f33-2fb5-4f32-866f-7136cf1800d7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ---
@@ -52,17 +52,17 @@ Aus Sicherheitsgründen wird die ursprüngliche SVG niemals direkt vom Bild-Edit
 
 >[!CAUTION]
 >
->SVG support requires release 2.1.0 of the Core Components or higher along with [service pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) for AEM 6.4 or [service pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) for AEM 6.3 or higher to support [new image editor features](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) within AEM.
+>Der SVG-Support erfordert Version 2.1.0 der Kernkomponenten oder höher zusammen mit [Service Pack 2](https://helpx.adobe.com/de/experience-manager/6-4/release-notes/sp-release-notes.html) für AEM 6.4 oder [Service Pack 3](https://helpx.adobe.com/de/experience-manager/6-3/release-notes/sp3-release-notes.html) für AEM 6.3 oder höher, um [neue Funktionen des Bildeditors](https://helpx.adobe.com/de/experience-manager/6-4/sites/developing/using/image-editor.html) in AEM zu unterstützen.
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-To experience the Image Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/image.html).
+Um die Bildkomponente zu erleben und Beispiele für ihre Konfigurationsoptionen sowie die HTML- und JSON-Ausgabe zu sehen, besuchen Sie die [Komponentenbibliothek](http://opensource.adobe.com/de/aem-core-wcm-components/library/image.html).
 
 ### Technische Details {#technical-details}
 
-The latest technical documentation about the Image Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image).
+Die aktuelle technische Dokumentation zur Bildkomponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image).
 
-Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation von Kernkomponenten für Entwickler](developing.md).
+Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
 
 >[!NOTE]
 >
@@ -77,9 +77,9 @@ Zusätzlich zum standardmäßigen [Dialogfeld „Bearbeiten“](#edit-dialog) un
 ![](assets/screen_shot_2018-01-08at114245.png)
 
 * **Bild-Asset**
-   * Drop an asset from the [asset browser](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) or tap the **browse** option to upload from a local file system.
+   * Ziehen Sie ein Asset aus dem [Asset-Browser](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) oder tippen Sie auf die Option **Durchsuchen**, um es von einem lokalen Dateisystem hochzuladen.
    * Tippen oder klicken Sie auf **Löschen**, um das aktuell ausgewählte Bild zu deaktivieren.
-   * Tap or click **Edit** to [mange the renditions of the asset](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) in the asset editor.
+   * Tippen oder klicken Sie auf **Bearbeiten**, um die [Darstellungen der Assets](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) im Asset-Editor zu verwalten.
 
 ### Registerkarte „Metadaten“ {#metadata-tab}
 
@@ -143,7 +143,7 @@ Das Dialogfeld „Bearbeiten“ ermöglicht dem Inhaltsautor das Zuschneiden, Ä
 
    >[!CAUTION]
    >
-   >The Launch Map feature requires release 2.1.0 of the Core Components or higher along with [service pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) for AEM 6.4 or [service pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) for AEM 6.3 or higher to support [new image editor features](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) within AEM.
+   >Die Funktion „Startkarte“ erfordert Version 2.1.0 der Kernkomponenten oder höher zusammen mit [Service Pack 2](https://helpx.adobe.com/de/experience-manager/6-4/release-notes/sp-release-notes.html) für AEM 6.4 oder [Service Pack 3](https://helpx.adobe.com/de/experience-manager/6-3/release-notes/sp3-release-notes.html) für AEM 6.3 oder höher, um [die neuen Bildeditor-Funktionen](https://helpx.adobe.com/de/experience-manager/6-4/sites/developing/using/image-editor.html) in AEM zu unterstützen.
 
    ![](assets/chlimage_1-12.png)
 
