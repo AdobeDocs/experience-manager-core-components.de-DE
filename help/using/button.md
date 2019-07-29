@@ -2,33 +2,33 @@
 title: Schaltflächenkomponente
 seo-title: Schaltflächenkomponente
 description: 'null'
-seo-description: Die Komponente "Core-Komponente" ermöglicht die Erstellung und Anzeige einer Schaltfläche.
-uuid: ec 807 de 9-f 76 c -4850-9 ece-c 3 e 339 a 1 d 626
+seo-description: Die Kernkomponente „Schaltflächenkomponente“ ermöglicht die Erstellung und Anzeige einer Schaltfläche.
+uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
 contentOwner: Benutzer
 content-type: Referenz
-topic-tags: authoring
-products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: f 093 f 58 e -9755-4 a 4 f -803 a-ab 93 a 50 e 6870
-translation-type: tm+mt
+topic-tags: Authoring
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
+translation-type: ht
 source-git-commit: 7d17d1ba5fcabac4361e24f60c91cd242367bba6
 
 ---
 
 
-# Button Component{#button-component}
+# Schaltflächenkomponente{#button-component}
 
-Die Komponente &quot;Core-Komponente&quot; ermöglicht die Konfiguration und Anzeige eines Schaltflächenelements auf einer Seite.
+Die Kernkomponente „Schaltflächenkomponente“ ermöglicht die Erstellung und Anzeige eines Schaltflächen-Elements auf einer Seite.
 
 ## Nutzung {#usage}
 
-Die Komponente &quot;Core-Komponente&quot; ermöglicht die Einbeziehung einer Schaltfläche auf einer Seite.
+Die Kernkomponente „Schaltflächenkomponente“ ermöglicht die Integration einer Schaltfläche in eine Seite.
 
-* The button&#39;s properties can be selected in the [configure dialog](#configure-dialog).
-* Styles for the Button Component can be defined in the [design dialog](#design-dialog).
+* Die Eigenschaften der Schaltfläche können im [Dialogfeld „Konfigurieren“](#configure-dialog) ausgewählt werden.
+* Stile für die Schaltflächenkomponente können im [Dialogfeld „Design“](#design-dialog) definiert werden.
 
-## Version and Compatibility {#version-and-compatibility}
+## Version und Kompatibilität {#version-and-compatibility}
 
-Die aktuelle Version der Schaltflächenkomponente ist v 1, die mit Version 2.5.0 der Kernkomponenten im Juni 2019 eingeführt wurde und in diesem Dokument beschrieben wird.
+Die aktuelle Version der Schaltflächenkomponente ist v1, die mit Version 2.5.0 der Kernkomponenten im Juni 2019 eingeführt wurde und in diesem Dokument beschrieben wird.
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
@@ -36,31 +36,31 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 |--- |--- |--- |---|
 | v1 | Kompatibel | Kompatibel | Kompatibel |
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
+Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](versions.md).
 
-## Sample Component Output {#sample-component-output}
+## Musterkomponentenausgabe {#sample-component-output}
 
-To experience the Button Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/button.html).
+Um die Schaltflächen-Komponente sowie Beispiele für die Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](http://opensource.adobe.com/aem-core-wcm-components/library/button.html).
 
-## Technical Details {#technical-details}
+## Technische Details {#technical-details}
 
-The latest technical documentation about the Button Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button).
+Die aktuelle technische Dokumentation zur Schaltflächen-Komponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button).
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
+Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
 
-## Configure Dialog {#configure-dialog}
+## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
-Das Dialogfeld &quot;Konfigurieren&quot; ermöglicht es dem Inhaltsautor, die Schaltfläche zu definieren und die Art und Weise zu bestimmen, wie sie sich für einen Besucher der Seite verhalten wird.
+Mit dem Dialogfeld „Konfigurieren“ kann der Inhaltsautor die Schaltfläche und ihr Verhalten und Aussehen für einen Besucher der Seite definieren.
 
 ![](assets/screen-shot-2019-06-17-11.26.13.png)
 
-* **Text** - Der auf der Schaltfläche anzuzeigende Text
-* **Link** - Verknüpfen mit einer Inhaltsseite in AEM, einer externen Ressource oder einem Anker
-   * Use the **Selection Dialog** to choose a path within AEM.
-* **Symbol** - Bezeichner für die Anzeige eines Symbols in der Schaltfläche
+* **Text** - Der Text, der auf der Schaltfläche angezeigt werden soll
+* **Link** - Link zu einer Inhaltsseite in AEM, einer externen Ressource oder einem Anker
+   * Wählen Sie im Dialogfeld **Auswahl** einen Pfad in AEM aus.
+* **Symbol** - Bezeichner für die Anzeige eines Symbols auf der Schaltfläche
 
-## Design Dialog {#design-dialog}
+## Dialogfeld „Design“ {#design-dialog}
 
-### Styles Tab {#styles-tab}
+### Registerkarte „Stile“ {#styles-tab}
 
-The Image Component supports the AEM [Style System](authoring.md#component-styling).
+Die Bildkomponente unterstützt das AEM-[Stilsystem](authoring.md#component-styling).
