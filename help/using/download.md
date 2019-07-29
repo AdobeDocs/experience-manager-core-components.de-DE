@@ -1,34 +1,34 @@
 ---
-title: Komponente herunterladen
-seo-title: Komponente herunterladen
+title: Download-Komponente
+seo-title: Download-Komponente
 description: 'null'
-seo-description: Die Komponente "Core-Komponente-Download" ermöglicht die Erstellung einer Download-Option auf einer Seite.
-uuid: ec 807 de 9-f 76 c -4850-9 ece-c 3 e 339 a 1 d 626
+seo-description: Die Kernkomponente „Download-Komponente“ ermöglicht die Erstellung einer Download-Option auf einer Seite.
+uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
 contentOwner: Benutzer
 content-type: Referenz
-topic-tags: authoring
-products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: f 093 f 58 e -9755-4 a 4 f -803 a-ab 93 a 50 e 6870
-translation-type: tm+mt
+topic-tags: Authoring
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
+translation-type: ht
 source-git-commit: 88bc68b60e5de247fe800ac041ffefdf9238cce1
 
 ---
 
 
-# Download Component{#download-component}
+# Download-Komponente{#download-component}
 
-Die Komponente &quot;Core-Komponente-Download&quot; ermöglicht die Erstellung einer Download-Option auf einer Seite.
+Die Kernkomponente „Download-Komponente“ ermöglicht die Erstellung einer Download-Option auf einer Seite.
 
 ## Nutzung {#usage}
 
-Die Komponente &quot;Core-Komponente-Download&quot; ermöglicht die Einbeziehung einer Download-Option und des zugehörigen Assets auf einer Seite.
+Die Kernkomponente „Download-Komponente“ ermöglicht die Erstellung einer Download-Option und zugehöriger Elemente auf einer Seite.
 
-* The download option&#39;s properties can be selected in the [configure dialog](#configure-dialog).
-* Defaults for the download component can be defined in the [design dialog](#design-dialog).
+* Die Eigenschaften der Download-Komponente können im [Dialogfeld „Konfigurieren“](#configure-dialog) ausgewählt werden.
+* Standardwerte für die Download-Komponente können im [Dialogfeld „Design“](#design-dialog) definiert werden.
 
-## Version and Compatibility {#version-and-compatibility}
+## Version und Kompatibilität {#version-and-compatibility}
 
-Die aktuelle Version der Download-Komponente ist v 1, die mit Version 2.5.0 der Kernkomponenten im Juni 2019 eingeführt wurde und in diesem Dokument beschrieben wird.
+Die aktuelle Version der Download-Komponente ist v1, die mit Version 2.5.0 der Kernkomponenten im Juni 2019 eingeführt wurde und in diesem Dokument beschrieben wird.
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
@@ -36,65 +36,65 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 |--- |--- |--- |---|
 | v1 | Kompatibel | Kompatibel | Kompatibel |
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
+Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](versions.md).
 
-## Sample Component Output {#sample-component-output}
+## Musterkomponentenausgabe {#sample-component-output}
 
-To experience the Download Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/download.html).
+Um die Download-Komponente sowie Beispiele für die Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](http://opensource.adobe.com/aem-core-wcm-components/library/download.html).
 
-## Technical Details {#technical-details}
+## Technische Details {#technical-details}
 
-The latest technical documentation about the Download Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/download/v1/download).
+Die aktuelle technische Dokumentation zur Download-Komponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/download/v1/download).
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
+Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
 
-## Configure Dialog {#configure-dialog}
+## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
-Das Dialogfeld &quot;Konfigurieren&quot; ermöglicht dem Inhaltsautor das Herunterladen des Downloadelements und die Art und Weise, wie er sich für einen Besucher der Seite verhalten wird.
+Mit dem Dialogfeld „Konfigurieren“ kann der Inhaltsautor das Download-Element und sein Verhalten und Aussehen für einen Besucher der Seite definieren.
 
 ![](assets/screen-shot-2019-06-17-09.49.14.png)
 
-### Asset Tab {#asset-tab}
+### Asset-Registerkarte {#asset-tab}
 
-The selection of a download asset is very similar to the functionality of the [Image Component](image.md) and likewise leverages AEM&#39;s DAM.
+Die Auswahl eines Download-Assets ähnelt der Funktionalität der [Bildkomponente](image.md) und nutzt gleichermaßen das AEM-DAM.
 
 * **Asset herunterladen**
-   * Drop an asset from the [asset browser](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) or tap the **browse** option to upload from a local file system.
-   * Tap or click **Clear** to de-select the currently selected image.
-   * Tap or click **Edit** to [mange the renditions of the asset](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) in the asset editor.
+   * Ziehen Sie ein Asset aus dem [Asset-Browser](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) oder tippen Sie auf die Option **Durchsuchen**, um es von einem lokalen Dateisystem hochzuladen.
+   * Tippen oder klicken Sie auf **Löschen**, um das aktuell ausgewählte Bild zu deaktivieren.
+   * Tippen oder klicken Sie auf **Bearbeiten**, um die [Darstellungen der Assets](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) im Asset-Editor zu verwalten.
 
-### Properties Tab {#properties-tab}
+### Registerkarte „Eigenschaften“{#properties-tab}
 
 ![](assets/screen-shot-2019-06-17-09.49.51.png)
 
-* **Titel** - Wird als Überschrift für das Downloadelement angezeigt
-   * **Titel vom DAM-Asset abrufen** - Wenn ausgewählt, wird der Titel automatisch mit dem DAM-Asset-Titel ausgefüllt.
-* **Beschreibung** - Wird als beschreibendes Unterüberschrift des Downloadelements angezeigt
-   * **Beschreibung vom DAM-Asset abrufen** - Wenn ausgewählt, wird die Beschreibung automatisch mit der Beschreibung des DAM-Assets ausgefüllt.
-* **Action Text** - Wird als Action Text for the Download Item angezeigt
-   * Dieses Feld ist beim Hochladen eines Assets aus dem Dateisystem erforderlich.
-   * **Inline-Anzeige** : Wenn ausgewählt wird, wird der angegebene **Aktionstext** inline angezeigt.
+* **Titel** - Wird als Überschrift für das Download-Element angezeigt
+   * **Titel von DAM-Asset abrufen** - Wenn ausgewählt, wird der Titel automatisch mit dem Titel des DAM-Assets ausgefüllt.
+* **Beschreibung** - Zeigt eine beschreibende Unterüberschrift des Download-Elements an
+   * **Beschreibung von DAM-Asset abrufen** - Wenn ausgewählt, wird die Beschreibung automatisch mit der Beschreibung des DAM-Assets ausgefüllt.
+* **Aktionstext** - Zeigt Aktionstext für das Download-Element an
+   * Dieses Feld ist beim Hochladen eines Assets aus dem Dateisystem erforderlich. 
+   * **Inline-Anzeige** - Wenn ausgewählt, wird der angegebene **Aktionstext** inline angezeigt.
 
-## Design Dialog {#design-dialog}
+## Dialogfeld „Design“ {#design-dialog}
 
-Im Entwurfsdialogfeld kann der Vorlagenautor die verfügbaren Optionen für den Inhaltsautor definieren, der die Downloadkomponente verwendet.
+Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Optionen für den Inhaltsautor zu definieren, der die Download-Komponente verwendet.
 
-### Properties Tab {#properties-tab-design}
+### Registerkarte „Eigenschaften“{#properties-tab-design}
 
 ![](assets/screen-shot-2019-06-17-10.04.31.png)
 
-* **Standardaktionstext** : Definiert den **Standardmäßigen Aktionstext,** der angegeben wird, wenn ein Autor die Download-Komponente einer Seite hinzufügt.
-* **Upload von Dateisystem** zulassen: Ermöglicht dem Inhaltsautor das Hochladen eines Assets aus seinem lokalen Filesystem als Download-Asset.
+* **Standardaktionstext** - Definiert den standardmäßigen **Aktionstext**, der angegeben wird, wenn ein Autor die Download-Komponente einer Seite hinzufügt.
+* **Upload aus Dateisystem zulassen** - Ermöglicht dem Inhaltsautor das Hochladen eines Assets aus seinem lokalen Dateisystem als Download-Asset.
    * Der Standardwert ist nicht ausgewählt.
-* **Titeltyp** - Das HTML-Element, das für den Titel der Downloadkomponente verwendet wird.
+* **Titeltyp** - Das HTML-Element, das für den Titel der Download-Komponente verwendet wird.
    * Wenn kein Wert ausgewählt ist, lautet der Standardwert H 3.
-* **Dateigröße anzeigen** : Wenn ausgewählt, wird die Dateigröße des Assets in der Downloadkomponente angezeigt.
+* **Dateigröße anzeigen** - Wenn ausgewählt, wird die Dateigröße des Assets in der Download-Komponente angezeigt.
    * Der Standardwert ist ausgewählt.
-* **Dateiformat anzeigen** : Wenn ausgewählt, wird das Dateiformat des Assets in der Downloadkomponente angezeigt.
+* **Dateiformat anzeigen** - Wenn ausgewählt, wird das Dateiformat des Assets in der Download-Komponente angezeigt.
    * Der Standardwert ist ausgewählt.
-* **Dateiname anzeigen** : Wenn ausgewählt, wird der Dateiname des Assets in der Downloadkomponente angezeigt.
+* **Dateinamen anzeigen** - Wenn ausgewählt, wird der Dateiname des Assets in der Download-Komponente angezeigt.
    * Der Standardwert ist ausgewählt.
 
-### Styles Tab {#styles-tab}
+### Registerkarte „Stile“ {#styles-tab}
 
-The Image Component supports the AEM [Style System](authoring.md#component-styling).
+Die Bildkomponente unterstützt das AEM-[Stilsystem](authoring.md#component-styling).
