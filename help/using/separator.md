@@ -6,7 +6,7 @@ seo-description: Die Trennzeichen-Komponente erstellt einen Umbruch zwischen Kom
 contentOwner: Bohnert
 content-type: Referenz
 topic-tags: Kernkomponenten
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ---
@@ -32,11 +32,11 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-To experience the Separator Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/separator.html).
+Um die Trennzeichenkomponente zu erleben und Beispiele für ihre Konfigurationsoptionen sowie die HTML- und JSON-Ausgabe zu sehen, besuchen Sie die [Komponentenbibliothek](http://opensource.adobe.com/de/aem-core-wcm-components/library/separator.htm).
 
 ### Technische Details {#technical-details}
 
-The latest technical documentation about the Separator Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator).
+Die aktuelle technische Dokumentation zur Trennzeichenkomponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
 
