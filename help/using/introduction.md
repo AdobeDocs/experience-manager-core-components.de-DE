@@ -1,33 +1,33 @@
 ---
 title: Einführung in Kernkomponenten
 seo-title: Einführung in Kernkomponenten
-description: 'Kernkomponenten wurden eingeführt, um robuste und erweiterbare Basiskomponenten bereitzustellen, die auf aktuellen Technologie und Best Practices basieren. '
-seo-description: 'Kernkomponenten wurden eingeführt, um robuste und erweiterbare Basiskomponenten bereitzustellen, die auf aktuellen Technologie und Best Practices basieren. '
-uuid: b 815 c 7 d 1-fbb 0-4480-bd 23-42606 ff 8 b 1 eb
+description: 'Kernkomponenten wurden eingeführt, um robuste und erweiterbare Basiskomponenten bereitzustellen, die auf aktueller Technologie und Best Practices basieren. '
+seo-description: 'Kernkomponenten wurden eingeführt, um robuste und erweiterbare Basiskomponenten bereitzustellen, die auf aktueller Technologie und Best Practices basieren. '
+uuid: b815c7d1-fbb0-4480-bd23-42606ff8b1eb
 contentOwner: Benutzer
 content-type: Referenz
 topic-tags: Einführung
-products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: c 44 bb 0 d 7-5 d 91-4659-878 e-a 0658 fe 29 aa 2
-translation-type: tm+mt
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: c44bb0d7-5d91-4659-878e-a0658fe29aa2
+translation-type: ht
 source-git-commit: 7130f4ae8add8c8dc3cdfcc4addd0621722b89f7
 
 ---
 
 
-# Core Components Introduction{#core-components-introduction}
+# Einführung in Kernkomponenten{#core-components-introduction}
 
 In Adobe Experience Manager sind Komponenten die strukturellen Elemente, aus denen der Inhalt von bearbeiteten Seiten besteht. Komponenten waren immer ein Grundelement des AEM-Erlebnisses, wodurch die Seitenerstellung einfach, aber für den Autor und die Entwicklung von Komponenten flexibel und erweiterbar ist.
 
-Kernkomponenten wurden eingeführt, um robuste und erweiterbare Basiskomponenten bereitzustellen, auf der neuesten Technologie und Best Practices basieren und die Richtlinien zur Barrierefreiheit einhalten und mit dem WCAG 2.0 AA-Standard konform sind. Kernkomponenten ermöglichen die flexiblere und anpassbare Seitenbearbeitung und erweitern die benutzerdefinierten Funktionen für den Entwickler einfach.
+Kernkomponenten wurden eingeführt, um stabile und erweiterbare Basiskomponenten bereitzustellen, auf der neuesten Technologie und Best Practices basieren und die Richtlinien zur Barrierefreiheit einhalten sowie mit dem WCAG 2.0 AA-Standard konform sind. Kernkomponenten machen die Seitenerstellung flexibler und anpassbarer. Die Erweiterung auf benutzerdefinierte Funktionen ist für den Entwickler einfach.
 
 ## Testen der Kernkomponenten
 
-If you want to get started straight away trying out the Core Components, head over to the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library.html). Die Komponentenbibliothek ist ein Online-Showcase der aktuellen Version der Hauptkomponenten, mit dem Sie mit Variationen der Komponenten interagieren und die HTML- und JSON-Beispielausgabe sehen können.
+Wenn Sie sofort anfangen möchten, die Kernkomponenten auszuprobieren, wechseln Sie zur [Komponentenbibliothek](http://opensource.adobe.com/aem-core-wcm-components/library.html). Die Komponentenbibliothek ist eine Online-Präsentation der aktuellen Version der meisten Kernkomponenten, mit der Sie mit Variationen der Komponenten interagieren und Beispiele von HTML- und JSON-Ausgaben anzeigen können.
 
-The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html) also illustrates how the core components can be used.
+Die [„We.Retail“ Referenz-Site](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html) zeigt außerdem, wie die Kernkomponenten verwendet werden können.
 
-## Core Components - Core Features {#core-components-core-features}
+## Kernkomponenten - Kernfunktionen {#core-components-core-features}
 
 Die Kernkomponenten sind:
 
@@ -36,27 +36,27 @@ Die Kernkomponenten sind:
 | Vorkonfigurierbar | Vorlagen können definieren, wie die Seitenautoren sie verwenden können. |
 | Vielseitig | Autoren können die meisten Inhaltstypen erstellen. |
 | Einfach zu verwenden | Autoren können Inhalte effizient erstellen und verwalten. |
-| Produktionsbereit | Einsatzbereit! Sie sind robust, gut getestet und funktionieren gut. |
-| Accessible | Sie erfüllen WCAG 2.0-Standards, geben ARIA-Beschriftungen an und unterstützen Tastaturnavigation. |
-| Einfach zu formatieren | Die Komponenten implementieren das Stilsystem und die Markierung folgt BEM CSS-Benennung. |
-| SEO-freundlich | Die HTML-Ausgabe ist semantisch und stellt schema.org microdata anmerkungen bereit. |
-| PWA/SPA/App Ready | Die optimierte JSON-Ausgabe kann auch für die clientseitige Wiedergabe verwendet werden. |
+| Produktionsbereit | Sofort einsatzbereit! Sie sind stabil, gut getestet und funktionieren gut. |
+| Barrierefrei | Sie erfüllen WCAG 2.0-Standards, geben ARIA-Beschriftungen an und unterstützen Tastaturnavigation. |
+| Einfach zu formatieren | Die Komponenten implementieren das Stilsystem und die Markierung folgt der BEM-CSS-Benennung. |
+| SEO-freundlich | Die HTML-Ausgabe ist semantisch und stellt schema.org Mikrodatenanmerkungen bereit. |
+| Sofort einsatzbereit für PWA/SPA/App | Die optimierte JSON-Ausgabe kann auch für die Client-seitige Wiedergabe verwendet werden. |
 | Erweiterbar | Um benutzerdefinierte Anforderungen zu behandeln, ohne komplett neu beginnen zu müssen, können Sie alles erweitern. |
-| Open Source | Wenn etwas nicht so wie nötig sein sollte, tragen Sie zu github (Apache-Lizenz) bei. |
-| Versionierung | Die Kernkomponenten brechen Ihre Site nicht auf, wenn Sie Dinge verbessern, die sich möglicherweise auf Sie auswirken. |
+| Open Source | Wenn etwas nicht so ist, wie es sein sollte, können Sie auf GitHub (Apache License) Verbesserungsvorschläge einreichen. |
+| Versionierung | Die Kernkomponenten werden Ihre Website nicht beschädigen, wenn Sie Dinge verbessern, die sich möglicherweise auf Sie auswirken. |
 
-## Available Components {#available-components}
+## Verfügbare Komponenten {#available-components}
 
 Die aktuelle Version der Kernkomponenten enthält die folgenden Komponenten.
 
-* [Akkordion](accordion.md)
+* [Akkordeon](accordion.md)
 * [Breadcrumb](breadcrumb.md)
 * [Schaltfläche](button.md)
 * [Container](container.md)
 * [Karussell](carousel.md)
 * [Inhaltsfragment](content-fragment-component.md)
 * [Inhaltsfragmentliste](content-fragment-list.md)
-* [Herunterladen](download.md)
+* [Download](download.md)
 * [Formularschaltfläche](form-button.md)
 * [Formular-Container](form-container.md)
 * [Ausgeblendetes Formular](form-hidden.md)
@@ -66,7 +66,7 @@ Die aktuelle Version der Kernkomponenten enthält die folgenden Komponenten.
 * [Sprachnavigation](language-navigation.md)
 * [Liste](list.md)
 * [Navigation](navigation.md)
-* [Page](page.md)
+* [Seite](page.md)
 * [Schnellsuche](quick-search.md)
 * [Trennzeichen](separator.md)
 * [Freigabe in Social Media](sharing.md)
@@ -76,47 +76,47 @@ Die aktuelle Version der Kernkomponenten enthält die folgenden Komponenten.
 
 >[!NOTE]
 >
->Core Components are not immediately available to authors, the [development team must first integrate them to your environment](using.md). Once integrated, they may be made available and pre-configured via the [template editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) or in [design mode](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-designmode.html).
+>Kernkomponenten sind für Autoren nicht sofort verfügbar. Das [Entwicklerteam muss sie zuerst in Ihre Umgebung integrieren](using.md). Nach der Integration können sie über den [Vorlagen-Editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) oder im [Entwurfsmodus](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-designmode.html) bereitgestellt und vorkonfiguriert werden.
 
 >[!CAUTION]
 >
 >Einige Versionen einzelner Kernkomponenten sind möglicherweise nur mit bestimmten Versionen von AEM kompatibel.
 >
->See the individual help page (linked to in the previous list) for the specific component for compatibility information or reference the [Core Components Versions](versions.md) document for more information.
+>Weitere Informationen zu Kompatibilitätsinformationen finden Sie auf der Hilfeseite für die jeweilige Komponente (Links in der vorherigen Liste) oder im Dokument [Kernkomponentenversionen](versions.md).
 
-## When to Use Core Components {#when-to-use-core-components}
+## Wann Kernkomponenten zu verwenden sind {#when-to-use-core-components}
 
-Da die Kernkomponenten völlig neu sind und mehrere Vorteile bieten, sollten Sie für neue AEM-Projekte verwendet werden. Bei vorhandenen Projekten sollte eine Migration Teil eines größeren Projekts sein, z. B. ein Rebranding oder eine Gesamtrefaktorierung.
+Da die Kernkomponenten völlig neu sind und mehrere Vorteile bieten, wird empfohlen, sie für neue AEM-Projekte zu verwenden. Bei vorhandenen Projekten sollte eine Migration Teil einer größeren Projektaufgabe sein, z. B. ein Rebranding oder eine Gesamtrefaktorierung.
 
-For specific use recommendations, see [When to Use the Core Components?](developing.md) im Dokument [Entwicklung Kernkomponenten](developing.md) .
+Informationen zu spezifischen Empfehlungen der Nutzung finden Sie unter [Wann Kernkomponenten zu verwenden sind.](developing.md) im Dokument [Entwicklung von Kernkomponenten](developing.md) .
 
-## Gems Session Overview {#gems-session-overview}
+## Überblick über die Gems-Sitzung {#gems-session-overview}
 
-For an introduction to the Core Components, the features they offer, and how they are leveraged in AEM, check out the AEM Gems Session [AEM Core Components.](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
+Um eine Einführung in die Kernkomponenten, die angebotenen Funktionen und ihre Nutzung in AEM zu erhalten, sehen Sie sich die AEM-Gems-Sitzung [AEM-Kernkomponenten](https://helpx.adobe.com/de/experience-manager/de/eseminars/gems/AEM-Core-Components.html) an.
 
-[Gems on Adobe Experience Manager](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) ist eine Reihe von technischen Tiefstellungen von Adobe-Experten. Diese Reihe ergänzt die Produktdokumentation und alle anderen technischen Kanäle und ermöglicht es Entwicklern, Kontakt zu erhalten und ein bestimmtes Thema tief zu betrachten.
+[Gems zu Adobe Experience Manager](https://helpx.adobe.com/experience-manager/de/eseminars/gems/aem-index.html) ist eine Reihe technischer Vertiefungen, die von Adobe-Experten angeboten werden. Diese Reihe ergänzt die Produktdokumentation und alle anderen technischen Kanäle und ermöglicht es Entwicklern, in Kontakt zu treten und ein bestimmtes Thema zu vertiefen.
 
-## WKND Developer Tutorial {#wknd-developer-tutorial}
+## WKND-Entwickler-Tutorial {#wknd-developer-tutorial}
 
-Get started developing AEM Sites with Core Components by following [this step by step tutorial.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+Beginnen Sie mit der Entwicklung von AEM Sites mit Kernkomponenten, indem Sie [dieses Tutorial schrittweise befolgen.](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/using/getting-started.html) befolgen.
 
-## Core Components Support {#core-components-support}
+## Support für Kernkomponenten {#core-components-support}
 
-Core-Komponenten sind ein wesentlicher Bestandteil von AEM und unterstützen wie vorliegend unter denselben Bedingungen, wie sie als Teil des Quickstart bereitgestellt wurden.
+Kernkomponenten sind ein integraler Bestandteil von AEM und werden ohne Mängelgewähr unterstützt, zu den gleichen Bedingungen und Konditionen, als ob sie im Rahmen des Quickstarts geliefert würden.
 
-Wie andere Produktmerkmale gilt auch für das Ende der Lebensdauer Folgendes:
+Wie bei anderen Produktmerkmalen gilt für das Ende der Lebensdauer die allgemeine Regel:
 
 * Komponenten werden zuerst als veraltet angekündigt, bevor sie entfernt werden.
-* Frühestens werden sie aus der AEM-Version entfernt, die nach der Mitteilung bekannt ist.
+* Sie werden dann frühestens nach Ankündigung aus dem AEM-Release entfernt.
 
 Dadurch erhalten Kunden mindestens einen Versionszyklus, um zur neuen Version der Komponente zu wechseln, bevor die Unterstützung endet.
 
-Die Version der einzelnen Komponenten stellt klar die von dieser Version unterstützten AEM-Versionen dar. Wenn Support-Argumente für eine Version von AEM verfügbar sind, dann wird die Unterstützung der Kernkomponenten für diese Version von AEM unterstützt.
+Die Version jeder Komponente gibt eindeutig die AEM-Versionen an, die sie unterstützt. Wenn der Support für eine Version von AEM eingestellt wird, gilt das auch für die Unterstützung der Kernkomponenten für diese Version von AEM.
 
-For details about the support of component customizations, see the [Customizing Core Components](customizing.md) page of the relevant Core Components Version.
+Weitere Informationen zum Support von Komponentenanpassungen finden Sie auf der Seite [Anpassen von Kernkomponenten](customizing.md) der entsprechenden Kernkomponentenversion.
 
-## Foundation Component Support {#foundation-component-support}
+## Unterstützung von Foundation-Komponenten {#foundation-component-support}
 
 Da die Foundation-Komponenten aufgrund vieler Versionen als Grundlage für so viele Projekte bereitgestellt wurden, werden sie in absehbarer Zukunft weiterhin unterstützt.
 
-However, Adobe&#39;s development emphasis has shifted to the Core Components and new features will be added to them, whereas [nearly all Foundation Components have been deprecated with AEM 6.5](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) and only bug fixes will be made to the Foundation Components going forward.
+Der Entwicklungsschwerpunkt von Adobe wurde jedoch auf die Kernkomponenten verschoben, und neue Funktionen werden zu ihnen hinzugefügt, während [fast alle Foundation-Komponenten mit AEM 6.5 als veraltet gelten](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) und jetzt nur noch Fehlerkorrekturen an den Foundation-Komponenten vorgenommen werden.
