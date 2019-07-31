@@ -1,6 +1,6 @@
 ---
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
-translation-type: ht
+source-git-commit: 1273505a2b00913a89606b856d2e7c3811a3bd72
+translation-type: tm+mt
 
 ---
 # Richtlinien für die Teilnahme an der AEM-Dokumentation
@@ -31,11 +31,11 @@ Da die AEM-Dokumentation Standard-Anwendungsfälle behandelt, werden Bugs oder E
 
 ### Dokumentationsbeiträge sind nicht zur Beantwortung technischer Fragen geeignet.
 
-Alle Ideen, die Sie möglicherweise zur Verbesserung der AEM-Dokumentation haben, sind als Beiträge willkommen. Die Beiträge können jedoch nicht zur Beantwortung Ihrer Fragen über die Verwendung von AEM oder die Lösung technischer Probleme verwendet werden.
+Alle Ideen, die Sie möglicherweise zur Verbesserung der AEM-Dokumentation haben, sind als Beiträge willkommen. However comments, issues, and pull requests are intended for *contributions* only. Sie sollten nicht zur Beantwortung Ihrer Fragen zur Verwendung von AEM oder zur Lösung technischer Probleme verwendet werden.
 
-Fragen, die Sie möglicherweise zur Verwendung von AEM oder technischen Fehlern haben, müssen über den normalen Support-Prozess oder über die AEM-Benutzerforen besprochen werden.
+Any questions about the usage of AEM or technical errors you may have should be reported through the normal support process via the [Experience Manager Support Portal](https://daycare.day.com/home.html) or discussed in the [Experience Manager community](http://help-forums.adobe.com/content/adobeforums/en/experience-manager-forum/adobe-experience-manager.html).
 
-***AEM-Dokumentationsbeiträge sind kein Ersatz für den Adobe Support.*** Solche Beiträge werden abgelehnt.
+***Die AEM-Dokumentationsbeiträge sind keine Ersatz für Adobe Support,*** und solche Beiträge, die Antworten auf Supportbezogene Fragen suchen, werden abgelehnt.
 
 ### Die Beiträge müssen sich eindeutig auf die betroffenen Dokumentationsseiten beziehen.
 
@@ -61,7 +61,7 @@ Denken Sie daran, dass die wir internationale Leser der AEM-Dokumentation haben 
 
 #### Befolgen Sie das Stil-Handbuch von Microsoft.
 
-[Das Manual of Style von Microsoft](https://docs.microsoft.com/en-us/style-guide/welcome/) ist ein kostenloses Stil-Handbuch zur Dokumentation von Software und die AEM-Dokumentation folgt diesem Modell.
+[Das Microsoft Manual of Style](https://docs.microsoft.com/en-us/style-guide/welcome/) ist ein kostenloses Handbuch zur Dokumentation von Dokumentationen, das sich auf die Software-Dokumentation konzentriert und die Dokumentation zu AEM nach Möglichkeit nach diesem Handbuch arbeitet.
 
 ### Formatierung
 
