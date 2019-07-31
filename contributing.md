@@ -1,6 +1,6 @@
 ---
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
-translation-type: ht
+source-git-commit: 396d7c04712f575fd5ce67892448dedaab5dbd45
+translation-type: tm+mt
 
 ---
 # Beiträge zur Adobe Experience Manager-Dokumentation
@@ -11,7 +11,8 @@ In dieser Datei wird beschrieben, wie Sie Beiträge beisteuern können und welch
 
 ## Adobe Open Source-Verhaltenskodex
 
-Dieses Projekt folgt dem [Adobe Open Source-Verhaltenskodex](code-of-conduct.md). Mit Ihrer Teilnahme an der AEM-Dokumentation erklären Sie sich damit einverstanden, diesen Verhaltenskodex einzuhalten.
+Dieses Projekt folgt dem [Adobe Open Source-Verhaltenskodex](code-of-conduct.md). Mit Ihrer Teilnahme an der AEM-Dokumentation erklären Sie sich damit einverstanden, diesen Verhaltenskodex einzuhalten. Bitte melden Sie sich inakzeptables Verhalten an
+[Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
 ## Richtlinien für die Teilnahme an der AEM-Dokumentation
 
@@ -21,9 +22,13 @@ Wir freuen uns zwar über jeden Beitrag, um die AEM-Dokumentation zu verbessern,
 
 Wie Sie Beiträge einbringen, hängt davon ab, wer Sie sind und welche Art von Änderungen Sie beitragen möchten:
 
+### Erstellen eines Problems
+
+Haben Sie einen Vorschlag, eine Beobachtung der aktuellen Dokumente oder eine Frage, wie etwas beschrieben wird? Datei ein Problem. Probleme sind auch hervorragend, wenn Sie etwas zu contirbute haben, die Dokumente jedoch nicht bearbeiten oder selbst abrufen können.
+
 ### Geringfügige Änderungen
 
-Um kleinere Aktualisierungen einzureichen, klicken Sie in einem Artikel auf den Link **Bearbeiten**, wodurch der Quellartikel in GitHub geöffnet wird. Verwenden Sie die GitHub-Benutzeroberfläche, um Ihre Aktualisierungen vorzunehmen. Weitere Informationen finden Sie im allgemeinen [Adobe Docs Contributor Guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
+Um kleinere Aktualisierungen einzureichen, klicken Sie in einem Artikel auf den Link **Bearbeiten**, wodurch der Quellartikel in GitHub geöffnet wird. Verwenden Sie die GitHub-Benutzeroberfläche, um Ihre Aktualisierungen vorzunehmen. See the general [Adobe Docs contributor guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) for more information.
 
 Kleinere Korrekturen oder Erläuterungen, die Sie für Dokumentation und Codebeispiele in diesem Repo einreichen, werden von den Adobe-Nutzungsbedingungen abgedeckt.
 
@@ -39,18 +44,22 @@ Wenn es zu Ihren Aufgaben als technischer Redakteur, Programmmanager oder Entwic
 
 Adobe-Mitarbeiter aus anderen Teilen der Adobe-Welt sollten das öffentliche Repo für kleinere Updates verwenden.
 
+## Lizenzvereinbarung für Mitarbeiter
+
+Alle Drittanbieter-Beiträge zu diesem Projekt müssen von einer unterzeichneten Lizenzvereinbarung für Mitwirkende begleitet werden. Damit kann Adobe Ihre Beiträge als Teil des Projekts weitervertreiben. [Signieren Sie unsere CLA-Datei.](https://opensource.adobe.com/cla.html) Sie müssen nur einmal eine Adobe-CLA übermitteln. Wenn Sie also bereits eine übermittelt haben, können Sie sofort loslegen!
+
 ## Tools und Einrichtung
 
 Communitymitwirkende können die GitHub-UI zur grundlegenden Bearbeitung verwenden oder das Repo zum Beisteuern größerer Beiträge forken.
 
-Eine Übersicht zur Verwendung der GitHub-Autoren-Plattform finden Sie im [Adobe Docs Contributor Guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
+See the [Adobe Docs Contributor Guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) for an overview of how to use the GitHub authoring platform.
 
 ## Verwendung von Markdowns zum Formatieren Ihres Themas
 
 Alle Artikel in diesem Repository verwenden GitHub Flavored Markdown. Wenn Sie mit Markdowns nicht vertraut sind, lesen Sie:
 
-* [Markdown-Grundlagen](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [Ausdruckbares Markdown-Cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Grundlegende Markierungen](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
+* [Druckbares Marktierungs-Dropsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## Beschriftungen
 
