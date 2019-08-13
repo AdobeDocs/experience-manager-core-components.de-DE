@@ -1,6 +1,6 @@
 ---
-source-git-commit: 396d7c04712f575fd5ce67892448dedaab5dbd45
-translation-type: ht
+source-git-commit: 3113ed985136880c33302d2ab3504be16c5ed963
+translation-type: tm+mt
 
 ---
 # Beiträge zur Adobe Experience Manager-Dokumentation
@@ -28,7 +28,7 @@ Haben Sie einen Vorschlag, eine Beobachtung zu den aktuellen Dokumenten oder ein
 
 ### Geringfügige Änderungen
 
-Um kleinere Aktualisierungen einzureichen, klicken Sie in einem Artikel auf den Link **Bearbeiten**, wodurch der Quellartikel in GitHub geöffnet wird. Verwenden Sie die GitHub-Benutzeroberfläche, um Ihre Aktualisierungen vorzunehmen. Weitere Informationen finden Sie im allgemeinen [Adobe Docs Contributor Guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html)
+Um kleinere Aktualisierungen einzureichen, klicken Sie in einem Artikel auf den Link **Bearbeiten**, wodurch der Quellartikel in GitHub geöffnet wird. Verwenden Sie die GitHub-Benutzeroberfläche, um Ihre Aktualisierungen vorzunehmen. See the general [Adobe Docs contributor guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) for more information.
 
 Kleinere Korrekturen oder Erläuterungen, die Sie für Dokumentation und Codebeispiele in diesem Repo einreichen, werden von den Adobe-Nutzungsbedingungen abgedeckt.
 
@@ -52,14 +52,14 @@ Alle Drittanbieter-Beiträge zu diesem Projekt müssen von einer unterzeichneten
 
 Communitymitwirkende können die GitHub-UI zur grundlegenden Bearbeitung verwenden oder das Repo zum Beisteuern größerer Beiträge forken.
 
-Eine Übersicht zur Verwendung der GitHub-Autoren-Plattform finden Sie im [Adobe Docs Contributor Guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
+See the [Adobe Docs Contributor Guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) for an overview of how to use the GitHub authoring platform.
 
 ## Verwendung von Markdowns zum Formatieren Ihres Themas
 
 Alle Artikel in diesem Repository verwenden GitHub Flavored Markdown. Wenn Sie mit Markdowns nicht vertraut sind, lesen Sie:
 
-* [Markdown-Grundlagen](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [Ausdruckbares Markdown-Cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Grundlegende Markierungen](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
+* [Druckbares Marktierungs-Dropsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## Beschriftungen
 
