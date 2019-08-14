@@ -1,10 +1,10 @@
 ---
 cloud: experience-cloud
-product: adobe experience manager
+product: Adobe Experience Manager
 sub-product: Kernkomponenten in Adobe Experience Manager
 archetype: Administrator
 user-guide-title: AEM-Kernkomponenten
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 427046cbfa4fed3735a7baf2aa7600f5a11851cd
 
 ---
@@ -60,6 +60,6 @@ source-git-commit: 427046cbfa4fed3735a7baf2aa7600f5a11851cd
          + [Formulartext (v1)](form-text-v1.md)
 + Entwickeln {#developing}
    + [Entwickeln von Kernkomponenten](developing.md)
-   + [WKND-Entwickler-Tutorial](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+   + [WKND-Tutorial für Entwickler](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
    + [Anpassen der Kernkomponenten](customizing.md)
    + [Komponentenrichtlinien](guidelines.md)
