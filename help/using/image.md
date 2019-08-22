@@ -9,7 +9,7 @@ content-type: Referenz
 topic-tags: Authoring
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: d4684f33-2fb5-4f32-866f-7136cf1800d7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 34ae30ca8be3ad290924b986acfac11d960f2ee0
 
 ---
@@ -17,19 +17,19 @@ source-git-commit: 34ae30ca8be3ad290924b986acfac11d960f2ee0
 
 # Bildkomponente{#image-component}
 
-Die Kernkomponente Bildkomponente ist eine adaptive Bildkomponente, die eine direkte Bearbeitung ermöglicht.
+Die Kernkomponente „Bildkomponente“ ist eine adaptive Bildkomponente, die eine direkte Bearbeitung ermöglicht.
 
 ## Nutzung {#usage}
 
-Die Image-Komponente bietet adaptive Bildauswahl und reaktionsfähiges Verhalten mit verzögertem Laden für den Seitenbesucher sowie einfache Bildplatzierung und Beschneidung für den Inhaltsautor.
+Die Bildkomponente bietet adaptive Bildauswahl und reaktionsfähiges Verhalten mit verzögertem Laden für den Seitenbesucher sowie einfache Bildplatzierung und Zuschneiden für den Inhaltsautor.
 
 Die Bildbreiten sowie die Beschneidung und zusätzliche Einstellungen können vom Vorlagenautor im [Dialogfeld „Design“](#design-dialog) definiert werden. Der Inhaltseditor kann Assets im [Dialogfeld „Konfigurieren“](#configure-dialog) hochladen oder auswählen und das Bild im [Dialogfeld „Bearbeiten“](#edit-dialog) beschneiden. Für zusätzlichen Komfort ist auch eine einfache, ersetzende Änderung des Bildes verfügbar.
 
 ## Responsive Funktionen {#responsive-features}
 
-Die Image-Komponente verfügt über robuste reaktionsfähige Funktionen, die direkt sofort bereitgestellt werden können. Auf der Seitenvorlagenebene kann das [Design-Dialogfeld](#design-dialog) verwendet werden, um die Standardbreiten des Bild-Assets zu definieren. Die Bildkomponente lädt dann automatisch die korrekte Breite, die je nach Größe des Browserfensters angezeigt wird. Wenn die Größe des Fensters geändert wird, lädt die Imagekomponente die korrekte Bildgröße dynamisch automatisch. Komponentenentwickler müssen sich keine Gedanken darüber machen, wie sie benutzerdefinierte Medienabfragen definieren, da die Image-Komponente bereits optimiert ist, um Ihren Inhalt zu laden.
+Die Bildkomponente verfügt über robuste responsive Funktionen, die direkt sofort bereitgestellt werden können. Auf der Seitenvorlagenebene kann das [Design-Dialogfeld](#design-dialog) verwendet werden, um die Standardbreiten des Bild-Assets zu definieren. Die Bildkomponente lädt dann automatisch die korrekte Breite, die je nach Größe des Browserfensters angezeigt wird. Wenn die Größe des Fensters geändert wird, lädt die Bildkomponente die korrekte Bildgröße dynamisch. Komponentenentwickler müssen sich keine Gedanken darüber machen, wie sie benutzerdefinierte Medienabfragen definieren, da die Bildkomponente bereits optimiert ist, um Ihren Inhalt zu laden.
 
-Darüber hinaus unterstützt die Image-Komponente verzögertes Laden, um das Laden des tatsächlichen Bild-Assets zu verzögern, bis es im Browser sichtbar ist, wodurch die Reaktionsgeschwindigkeit Ihrer Seiten zunimmt.
+Darüber hinaus unterstützt die Bildkomponente verzögertes Laden, um das Laden des tatsächlichen Bild-Assets zu verzögern, bis es im Browser sichtbar ist, wodurch die Reaktionsgeschwindigkeit Ihrer Seiten zunimmt.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
@@ -54,19 +54,19 @@ Skalierbare Vektorgrafiken (SVG) werden von der Bildkomponente unterstützt.
 
 ### Sicherheit {#security}
 
-Aus Sicherheitsgründen wird die ursprüngliche SVG niemals direkt vom Bild-Editor aufgerufen. Es wird durch `<img src=“path-to-component”>` aufgerufen. Dadurch wird verhindert, dass der Browser Skripten ausführt, die in der SVG-Datei eingebettet sind.
+Aus Sicherheitsgründen wird die ursprüngliche SVG niemals direkt vom Bild-Editor aufgerufen. Es wird durch `<img src=“path-to-component”>` aufgerufen. Dadurch wird verhindert, dass der Browser Skripte ausführt, die in der SVG-Datei eingebettet sind.
 
 >[!CAUTION]
 >
->Der SVG-Support erfordert Version 2.1.0 der Kernkomponenten oder höher zusammen mit [Service Pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) für AEM 6.4 oder [Service Pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) für AEM 6.3 oder höher, um [neue Bildbearbeitungsfunktionen](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) in AEM zu unterstützen.
+>Der SVG-Support erfordert Version 2.1.0 der Kernkomponenten oder höher zusammen mit [Service Pack 2](https://helpx.adobe.com/de/experience-manager/6-4/release-notes/sp-release-notes.html) für AEM 6.4 oder [Service Pack 3](https://helpx.adobe.com/de/experience-manager/6-3/release-notes/sp3-release-notes.html) für AEM 6.3 oder höher, um [neue Funktionen des Bildeditors](https://helpx.adobe.com/de/experience-manager/6-4/sites/developing/using/image-editor.html) in AEM zu unterstützen.
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-To experience the Image Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/image.html).
+Um die Bildkomponente zu erleben und Beispiele für ihre Konfigurationsoptionen sowie die HTML- und JSON-Ausgabe zu sehen, besuchen Sie die [Komponentenbibliothek](http://opensource.adobe.com/de/aem-core-wcm-components/library/image.html).
 
 ### Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Bildkomponente [finden Sie unter github](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image).
+Die aktuelle technische Dokumentation zur Bildkomponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
 
@@ -83,9 +83,9 @@ Zusätzlich zum standardmäßigen [Dialogfeld „Bearbeiten“](#edit-dialog) un
 ![](assets/screen_shot_2018-01-08at114245.png)
 
 * **Bild-Asset**
-   * Drop an asset from the [asset browser](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) or tap the **browse** option to upload from a local file system.
+   * Ziehen Sie ein Asset aus dem [Asset-Browser](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) oder tippen Sie auf die Option **Durchsuchen**, um es von einem lokalen Dateisystem hochzuladen.
    * Tippen oder klicken Sie auf **Löschen**, um das aktuell ausgewählte Bild zu deaktivieren.
-   * Tap or click **Edit** to [mange the renditions of the asset](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) in the asset editor.
+   * Tippen oder klicken Sie auf **Bearbeiten**, um die [Darstellungen der Assets](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) im Asset-Editor zu verwalten.
 
 ### Registerkarte „Metadaten“ {#metadata-tab}
 
@@ -149,7 +149,7 @@ Das Dialogfeld „Bearbeiten“ ermöglicht dem Inhaltsautor das Zuschneiden, Ä
 
    >[!CAUTION]
    >
-   >Die Startkarte-Funktion erfordert Version 2.1.0 der Kernkomponenten oder höher zusammen mit [Service Pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) für AEM 6.4 oder [Service Pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) für AEM 6.3 oder höher, um [neue Bildbearbeitungsfunktionen](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) in AEM zu unterstützen.
+   >Die Funktion „Startkarte“ erfordert Version 2.1.0 der Kernkomponenten oder höher zusammen mit [Service Pack 2](https://helpx.adobe.com/de/experience-manager/6-4/release-notes/sp-release-notes.html) für AEM 6.4 oder [Service Pack 3](https://helpx.adobe.com/de/experience-manager/6-3/release-notes/sp3-release-notes.html) für AEM 6.3 oder höher, um [die neuen Bildeditor-Funktionen](https://helpx.adobe.com/de/experience-manager/6-4/sites/developing/using/image-editor.html) in AEM zu unterstützen.
 
    ![](assets/chlimage_1-12.png)
 
@@ -207,7 +207,7 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Beschneidungs-
 
 ### Hauptregisterkarte {#main-tab}
 
-Auf der **Registerkarte "Main"** können Sie eine Liste der Breiten in Pixel für das Bild definieren, und die Komponente lädt automatisch die passende Breite basierend auf der Browsergröße. Dies ist ein wichtiger Teil der [responsiven Funktionen](#responsive-features) der Image-Komponente.
+Auf der Registerkarte **Main** können Sie eine Liste der Breiten in Pixel für das Bild definieren, und die Komponente lädt automatisch die passende Breite basierend auf der Browsergröße. Dies ist ein wichtiger Teil der [responsiven Funktionen](#responsive-features) der Bildkomponente.
 
 Darüber hinaus können Sie festlegen, welche allgemeinen Komponentenoptionen automatisch aktiviert oder deaktiviert werden, wenn der Autor die Komponente zu einer Seite hinzufügt.
 
@@ -226,7 +226,7 @@ Festlegen, ob die Option zum Anzeigen der Bildbeschriftung als Popup automatisch
 * **UUID-Verfolgung deaktivieren**,
 Option markieren, um die Verfolgung der UUID des Bild-Assets zu deaktivieren.
 
-* **Breite**
+* **Breiten**
 Definiert eine Liste der Breiten in Pixel für das Bild, und die Komponente lädt automatisch die passende Breite basierend auf der Browsergröße.
    * Tippen oder klicken Sie auf die Schaltfläche **Hinzufügen**, um eine weitere Größe hinzuzufügen.
       * Verwenden Sie die Griffpunkte, um die Reihenfolge der Größen neu anzuordnen.
