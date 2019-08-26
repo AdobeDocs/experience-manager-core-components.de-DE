@@ -9,8 +9,8 @@ content-type: Referenz
 topic-tags: Einführung
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: a3a98b2f-65bf-4493-82ad-01717938fdbc
-translation-type: ht
-source-git-commit: 144494c03ffed068b403d80f62fdfddc73a53748
+translation-type: tm+mt
+source-git-commit: d1708bef323e2cdb071ebea5b15a1ebc6f683e9d
 
 ---
 
@@ -33,13 +33,13 @@ Die Kernkomponenten werden mit definierten AEM-Versionen bereitgestellt, mit den
 
 Die Hauptiteration der Kernkomponenten sind die **Versionen**. Jede Komponente hat eine Version. Versionen werden mit **dem Zusatz v** bezeichnet und es ihnen eine positive Ganzzahl ungleich Null angehängt, z. B. v1 und v2. Versionen werden nur für Änderungen inkrementiert, die nicht abwärtskompatibel sind. Dies gilt normalerweise für die Einführung neuer Funktionen und Funktionalitäten.
 
-Entwickler und Administratoren können Versionen der Kernkomponenten anhand einer Zahl in ihren Ressourcentyppfaden und in den vollständig qualifizierten Java-Klassennamen ihrer Implementierungen erkennen. Diese Versionsnummer stellt eine Hauptversion dar, wie in [der semantischen Versionierung der Richtlinien](https://semver.org/) dargestellt wird.
+Entwickler und Administratoren können Versionen der Kernkomponenten anhand einer Zahl in ihren Ressourcentyppfaden und in den vollständig qualifizierten Java-Klassennamen ihrer Implementierungen erkennen. Diese Versionsnummer stellt eine Hauptversion dar, wie in [der semantischen Versionierung der Richtlinien](https://semver.org/) / dargestellt wird.
 
 Weitere Informationen zu Kernkomponentenversionen finden Sie in der [Entwicklerdokumentation der Kernkomponenten](guidelines.md).
 
 ### Versionen {#releases}
 
-Die Kernkomponenten werden über Version **und** verfügbar gemacht. Sie stellen die tatsächlichen veröffentlichten Artefakte dar, [die auf GitHub verfügbar sind](https://github.com/adobe/aem-core-wcm-components/releases). Versionen werden mit einer Dezimalzahl im Format X.Y.Z gekennzeichnet und alle Kernkomponenten werden zusammen als bereitstellbares Paket erfasst.
+The core components are made available through **releases** and [represent the actual published artifacts available on GitHub](https://github.com/adobe/aem-core-wcm-components/releases). Versionen werden mit einer Dezimalzahl im Format X.Y.Z gekennzeichnet und alle Kernkomponenten werden zusammen als bereitstellbares Paket erfasst.
 
 * **Hauptversionen** können neue Versionen vorhandener Komponenten sowie völlig neue Komponenten sowie Standardfehlerbehebungen einführen. Dies wird durch eine Inkrementierung der X-Komponente der Versionsnummer dargestellt.
 
@@ -65,6 +65,7 @@ Die folgende Tabelle, deren Inhalt [auf GitHub mit vollständigen Veröffentlich
 
 | Version | Beschreibung | AEM 6.3 | AEM 6.4 | AEM 6.5 | Java |
 |---|---|---|---|---|---|
+| [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | Mit dieser Version wurden die neuen Komponenten Akkordeon, Schaltfläche, Container und Herunterladen eingeführt. | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 |
 | [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | Mit dieser Version wurde die Inhaltsfragmentlisten-Komponente eingeführt. | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 |
 | [2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2) | Diese Version konzentriert sich auf Verfeinerungen in der Komponentenbibliothek, enthält aber auch einige Funktionsverbesserungen für die Trennzeichenkomponente | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8 |
 | [2.3.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.0) | Diese Version konzentriert sich sowohl auf die Komponentenbibliothek als auch auf die Einführung der neuen Trennzeichenkomponente, enthält jedoch auch einige Funktionsverbesserungen für die Bild-Komponente. | 6.3.3.0+ | 6.4.2.0+ | - | 8 |
@@ -115,7 +116,7 @@ Die folgende Tabelle zeigt, welche Versionen welcher Komponenten in welchen Frei
 
 [Authoring mit Kernkomponenten](authoring.md) beschreibt die Nutzung der Kernkomponenten und der Funktionen, die für Inhaltsautoren und Vorlagenautoren verfügbar sind. Jede Komponente wird detailliert dokumentiert.
 
-[Komponentenbibliothek](http://opensource.adobe.com/de/aem-core-wcm-components/library.html) ist ein Schaufenster der aktuellen Version der meisten Kernkomponenten und zeigt, wie sie verwendet werden können.
+[Die Komponentenbibliothek](http://opensource.adobe.com/aem-core-wcm-components/library.html) stellt die aktuelle Version der meisten Kernkomponenten dar und zeigt, wie sie verwendet werden können.
 
 [Entwicklung von Kernkomponenten](developing.md) beschreibt die technischen Funktionen der Kernkomponenten, deren Verwendung in Ihren Projekten, die Anpassung und Best Practices.
 
