@@ -5,12 +5,11 @@ description: Mit der Experience Fragment-Komponente kann der Inhaltsautor einer 
 seo-description: Mit der Experience Fragment-Komponente kann der Inhaltsautor einer Seite eine Erlebnisfragmentvariation hinzufügen.
 content-type: Referenz
 topic-tags: Kernkomponenten
-index: y
-internal: n
 translation-type: tm+mt
-source-git-commit: c0827595a594779f48ba5e8770b804e574346647
+source-git-commit: 12d18a31c5507f5bbc713383f4d194d8ab8c4d58
 
 ---
+
 
 # Erlebnisfragment-Komponente{#experience-fragment-component}
 
