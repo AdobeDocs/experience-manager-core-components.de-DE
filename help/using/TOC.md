@@ -4,8 +4,8 @@ product: Adobe Experience Manager
 sub-product: Kernkomponenten in Adobe Experience Manager
 archetype: Administrator
 user-guide-title: AEM-Kernkomponenten
-translation-type: ht
-source-git-commit: 427046cbfa4fed3735a7baf2aa7600f5a11851cd
+translation-type: tm+mt
+source-git-commit: 63e75079e41d3091ca57bfc3129e700675bf4939
 
 ---
 
@@ -27,6 +27,7 @@ source-git-commit: 427046cbfa4fed3735a7baf2aa7600f5a11851cd
    + [Inhaltsfragment](content-fragment-component.md)
    + [Inhaltsfragmentliste](content-fragment-list.md)
    + [Download](download.md)
+   + [Experience Fragment](experience-fragment.md)
    + [Bild](image.md)
    + [Sprachnavigation](language-navigation.md)
    + [Liste](list.md)
@@ -60,6 +61,6 @@ source-git-commit: 427046cbfa4fed3735a7baf2aa7600f5a11851cd
          + [Formulartext (v1)](form-text-v1.md)
 + Entwickeln {#developing}
    + [Entwickeln von Kernkomponenten](developing.md)
-   + [WKND-Tutorial für Entwickler](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+   + [WKND-Entwickler-Tutorial](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
    + [Anpassen der Kernkomponenten](customizing.md)
    + [Komponentenrichtlinien](guidelines.md)
