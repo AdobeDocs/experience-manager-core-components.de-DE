@@ -7,8 +7,8 @@ uuid: 46f71233-8b12-4887-a0c6-ad24dc469cb1
 content-type: Referenz
 topic-tags: Kernkomponenten
 discoiquuid: 966d47fb-d35d-4103-b29d-4ef0aa739f24
-translation-type: ht
-source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
+translation-type: tm+mt
+source-git-commit: 48d23edbcdf4c4ed70d590cf6c6e4ac1db14f852
 
 ---
 
@@ -27,7 +27,7 @@ Im [Dialogfeld „Bearbeiten“](#edit-dialog) kann der Inhaltsautor mehrere Reg
 >
 >Verschachtelte Registerkarten-Komponenten (Registerkarten innerhalb Registerkarten) werden unterstützt.
 >
->Einfache (nicht verschachtelte) Registerkarten-Komponenten können mithilfe des [Inhaltsbaums](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) lokalisiert/ausgewählt werden, verschachtelte Registerkarten jedoch nicht.
+>Simple (non-nested) tab components can be located/selected using the [content tree](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html), however nested tabs can not be.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
@@ -43,11 +43,11 @@ Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in d
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Um die Registerkarten-Komponente zu erleben und Beispiele für ihre Konfigurationsoptionen sowie die HTML- und JSON-Ausgabe zu sehen, besuchen Sie die [Komponentenbibliothek](http://opensource.adobe.com/de/aem-core-wcm-components/library/tabs.html).
+To experience the Tabs Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/tabs.html).
 
 ### Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Registerkarten-Komponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/tabs/v1/tabs).
+Die aktuelle technische Dokumentation zur Tabulatorkomponente [finden Sie unter github](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/tabs/v1/tabs).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
 
@@ -57,7 +57,7 @@ Im Dialogfeld „Bearbeiten“ kann der Inhaltsautor Registerkarten erstellen, u
 
 ### Registerkarte „Elemente“ {#items-tab}
 
-![](assets/screenshot_2018-10-11at153557.png)
+![](assets/screen-shot-2019-08-29-12.28.16.png)
 
 Verwenden Sie die Schaltfläche **Hinzufügen**, um die Komponentenauswahl zu öffnen und dort auszuwählen, welche Komponente als Registerkarte hinzugefügt werden soll. Nach dem Hinzufügen wird der Liste ein Eintrag hinzugefügt, der die folgenden Spalten enthält:
 
@@ -68,9 +68,17 @@ Verwenden Sie die Schaltfläche **Hinzufügen**, um die Komponentenauswahl zu ö
 
 ### Registerkarte „Eigenschaften“{#properties-tab}
 
-![](assets/screenshot_2018-10-19at140646.png)
+![](assets/screen-shot-2019-08-29-12.28.32.png)
 
 Auf der Registerkarte **Eigenschaften** kann der Inhaltsautor definieren, welche Registerkarte aktiv ist, wenn die Seite geladen wird. Mit der Option **Standard** wird die erste Registerkarte ausgewählt.
+
+### Registerkarte "Ein-/Ausgabehilfe « {#accessibility-tab}
+
+![](assets/screen-shot-2019-08-29-12.28.40.png)
+
+Auf der **Registerkarte Ein-/Ausgabehilfe** können Werte für [ARIA-Barrierefreiheitsbeschriftungen](https://www.w3.org/WAI/standards-guidelines/aria/) für die Komponente festgelegt werden.
+
+* **Beschriftung** - Wert eines ARIA-Label-Attributs für die Komponente
 
 ## Bedienfeld auswählen {#select-panel}
 
@@ -90,7 +98,7 @@ Nach Auswahl der Option **Bedienfeld auswählen** in der Komponenten-Symbolleist
 
 >[!NOTE]
 >
->Registerkarten können vom Autor im **Bearbeiten**-Modus nicht ausgewählt werden. Verwenden Sie den [**Vorschau**-Modus](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/editing-content.html) oder die Option **[Ansicht wie veröffentlicht](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/editing-content.html)**, um mit den Registerkarten so zu interagieren, wie es ein Leser des veröffentlichten Inhalts tun würde.
+>Registerkarten können vom Autor im **Bearbeiten**-Modus nicht ausgewählt werden. Verwenden [**Sie** den Vorschaumodus](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html) **[oder die Option "Als veröffentlicht](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** anzeigen" , um mit den Registerkarten als Leser des veröffentlichten Inhalts zu interagieren.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
@@ -100,7 +108,7 @@ Im Dialogfeld „Design“ kann der Vorlagenautor definieren, welche Komponenten
 
 Über die Registerkarte **Zulässige Komponenten** können Sie definieren, welche Komponenten vom Inhaltsautor als Elemente zur Registerkarten-Komponente hinzugefügt werden können.
 
-Die Registerkarte „Zugelassene Komponenten“ funktioniert auf die gleiche Weise wie die Registerkarte desselben Namens beim [Definieren der Richtlinie und Eigenschaften eines Layoutcontainers im Vorlageneditor.](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/templates.html)
+Die Registerkarte „Zugelassene Komponenten“ funktioniert auf die gleiche Weise wie die Registerkarte desselben Namens beim [Definieren der Richtlinie und Eigenschaften eines Layoutcontainers im Vorlageneditor.](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
 
 ### Registerkarte „Stile“ {#styles-tab}
 
