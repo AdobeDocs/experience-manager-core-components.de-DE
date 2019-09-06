@@ -9,8 +9,8 @@ content-type: Referenz
 topic-tags: Einführung
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: c44bb0d7-5d91-4659-878e-a0658fe29aa2
-translation-type: ht
-source-git-commit: 7130f4ae8add8c8dc3cdfcc4addd0621722b89f7
+translation-type: tm+mt
+source-git-commit: 63e75079e41d3091ca57bfc3129e700675bf4939
 
 ---
 
@@ -25,7 +25,7 @@ Kernkomponenten wurden eingeführt, um stabile und erweiterbare Basiskomponenten
 
 Wenn Sie sofort anfangen möchten, die Kernkomponenten auszuprobieren, wechseln Sie zur [Komponentenbibliothek](http://opensource.adobe.com/aem-core-wcm-components/library.html). Die Komponentenbibliothek ist eine Online-Präsentation der aktuellen Version der meisten Kernkomponenten, mit der Sie mit Variationen der Komponenten interagieren und Beispiele von HTML- und JSON-Ausgaben anzeigen können.
 
-Die [„We.Retail“ Referenz-Site](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html) zeigt außerdem, wie die Kernkomponenten verwendet werden können.
+The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html) also illustrates how the core components can be used.
 
 ## Kernkomponenten - Kernfunktionen {#core-components-core-features}
 
@@ -57,6 +57,7 @@ Die aktuelle Version der Kernkomponenten enthält die folgenden Komponenten.
 * [Inhaltsfragment](content-fragment-component.md)
 * [Inhaltsfragmentliste](content-fragment-list.md)
 * [Download](download.md)
+* [Experience Fragment](experience-fragment.md)
 * [Formularschaltfläche](form-button.md)
 * [Formular-Container](form-container.md)
 * [Ausgeblendetes Formular](form-hidden.md)
@@ -76,7 +77,7 @@ Die aktuelle Version der Kernkomponenten enthält die folgenden Komponenten.
 
 >[!NOTE]
 >
->Kernkomponenten sind für Autoren nicht sofort verfügbar. Das [Entwicklerteam muss sie zuerst in Ihre Umgebung integrieren](using.md). Nach der Integration können sie über den [Vorlagen-Editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) oder im [Entwurfsmodus](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-designmode.html) bereitgestellt und vorkonfiguriert werden.
+>Kernkomponenten sind für Autoren nicht sofort verfügbar. Das [Entwicklerteam muss sie zuerst in Ihre Umgebung integrieren](using.md). Once integrated, they may be made available and pre-configured via the [template editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) or in [design mode](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-designmode.html).
 
 >[!CAUTION]
 >
@@ -92,13 +93,13 @@ Informationen zu spezifischen Empfehlungen der Nutzung finden Sie unter [Wann Ke
 
 ## Überblick über die Gems-Sitzung {#gems-session-overview}
 
-Um eine Einführung in die Kernkomponenten, die angebotenen Funktionen und ihre Nutzung in AEM zu erhalten, sehen Sie sich die AEM-Gems-Sitzung [AEM-Kernkomponenten](https://helpx.adobe.com/de/experience-manager/de/eseminars/gems/AEM-Core-Components.html) an.
+Um eine Einführung in die Kernkomponenten, die angebotenen Funktionen und ihre Nutzung in AEM zu erhalten, sehen Sie sich die AEM-Gems-Sitzung [AEM-Kernkomponenten](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
 
-[Gems zu Adobe Experience Manager](https://helpx.adobe.com/experience-manager/de/eseminars/gems/aem-index.html) ist eine Reihe technischer Vertiefungen, die von Adobe-Experten angeboten werden. Diese Reihe ergänzt die Produktdokumentation und alle anderen technischen Kanäle und ermöglicht es Entwicklern, in Kontakt zu treten und ein bestimmtes Thema zu vertiefen.
+[Gems on Adobe Experience Manager](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) ist eine Reihe von technischen Tiefstellungen von Adobe-Experten. Diese Reihe ergänzt die Produktdokumentation und alle anderen technischen Kanäle und ermöglicht es Entwicklern, in Kontakt zu treten und ein bestimmtes Thema zu vertiefen.
 
 ## WKND-Entwickler-Tutorial {#wknd-developer-tutorial}
 
-Beginnen Sie mit der Entwicklung von AEM Sites mit Kernkomponenten, indem Sie [dieses Tutorial schrittweise befolgen.](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/using/getting-started.html) befolgen.
+Beginnen Sie mit der Entwicklung von AEM Sites mit Kernkomponenten, indem Sie [dieses Tutorial schrittweise befolgen.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
 ## Support für Kernkomponenten {#core-components-support}
 
@@ -119,4 +120,4 @@ Weitere Informationen zum Support von Komponentenanpassungen finden Sie auf der 
 
 Da die Foundation-Komponenten aufgrund vieler Versionen als Grundlage für so viele Projekte bereitgestellt wurden, werden sie in absehbarer Zukunft weiterhin unterstützt.
 
-Der Entwicklungsschwerpunkt von Adobe wurde jedoch auf die Kernkomponenten verschoben, und neue Funktionen werden zu ihnen hinzugefügt, während [fast alle Foundation-Komponenten mit AEM 6.5 als veraltet gelten](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) und jetzt nur noch Fehlerkorrekturen an den Foundation-Komponenten vorgenommen werden.
+However, Adobe's development emphasis has shifted to the Core Components and new features will be added to them, whereas [nearly all Foundation Components have been deprecated with AEM 6.5](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) and only bug fixes will be made to the Foundation Components going forward.
