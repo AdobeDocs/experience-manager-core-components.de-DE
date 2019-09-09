@@ -5,7 +5,7 @@ sub-product: Kernkomponenten in Adobe Experience Manager
 archetype: Administrator
 user-guide-title: AEM-Kernkomponenten
 translation-type: tm+mt
-source-git-commit: 63e75079e41d3091ca57bfc3129e700675bf4939
+source-git-commit: fb56cf9323ab0872c59563728f5947ced33c0658
 
 ---
 
@@ -18,6 +18,7 @@ source-git-commit: 63e75079e41d3091ca57bfc3129e700675bf4939
 + Erste Schritte {#get-started}
    + [Authoring mit Kernkomponenten ](authoring.md)
    + [Verwenden von Kernkomponenten](using.md)
+   + [Lokalisierungsfunktionen](localization.md)
 + Die Komponenten {#components}
    + [Akkordeon](accordion.md)
    + [Breadcrumb](breadcrumb.md)
