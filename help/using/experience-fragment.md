@@ -6,7 +6,7 @@ seo-description: Mit der Experience Fragment-Komponente kann der Inhaltsautor ei
 content-type: Referenz
 topic-tags: Kernkomponenten
 translation-type: tm+mt
-source-git-commit: 12d18a31c5507f5bbc713383f4d194d8ab8c4d58
+source-git-commit: 9f4f97713d20b6343b78f8046d96752fa0b0a07d
 
 ---
 
@@ -90,7 +90,7 @@ Die Experience Fragment-Komponente versucht, eine entsprechende lokalisierte Kom
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die aktuelle Version der Experience Fragment-Komponente ist v 1, die mit Version 2.6.0 der Kernkomponenten im August 2019 eingeführt wurde und in diesem Dokument beschrieben wird.
+Die aktuelle Version der Experience Fragment-Komponente ist v 1, die mit Version 2.6.0 der Kernkomponenten im September 2019 eingeführt wurde und in diesem Dokument beschrieben wird.
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
