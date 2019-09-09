@@ -10,7 +10,7 @@ topic-tags: Einführung
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: a3a98b2f-65bf-4493-82ad-01717938fdbc
 translation-type: tm+mt
-source-git-commit: 63e75079e41d3091ca57bfc3129e700675bf4939
+source-git-commit: 9f4f97713d20b6343b78f8046d96752fa0b0a07d
 
 ---
 
@@ -63,7 +63,7 @@ Die folgende Tabelle, deren Inhalt [auf GitHub mit vollständigen Veröffentlich
 
 | Version | Beschreibung | AEM 6.3 | AEM 6.4 | AEM 6.5 | Java | Veröffentlichungsdatum |
 |---|---|---|---|---|---|---|
-| [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | Mit dieser Version wurde die neue Experience Fragment-Komponente eingeführt. | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | September 2019 |
+| [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | Mit dieser Version wurde die neue Experience Fragment-Komponente eingeführt. | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 6. September 2019 |
 | [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | In dieser Version wurden die neuen Komponenten Akkordeon, Schaltfläche, Container und Herunterladen eingeführt. | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 25. Juni 2019 |
 | [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | Mit dieser Version wurde die Inhaltsfragmentlisten-Komponente eingeführt. | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 7. Mai 2019 |
 | [2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2) | Diese Version konzentriert sich auf Verfeinerungen in der Komponentenbibliothek, enthält aber auch einige Funktionsverbesserungen für die Trennzeichenkomponente | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8 | 14. März 2019 |
