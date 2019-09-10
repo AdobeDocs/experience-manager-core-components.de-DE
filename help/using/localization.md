@@ -8,7 +8,7 @@ topic-tags: Kernkomponenten
 index: y
 internal: n
 translation-type: tm+mt
-source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
+source-git-commit: c8041e855386b7195fe32dd5dc53458f1d8270b8
 
 ---
 
@@ -23,7 +23,7 @@ Die meisten Sites benötigen eine Fußzeile, die für alle Seiten vorhanden ist.
 
 Entsprechend muss eine Navigationskomponente normalerweise auf allen Seiten angezeigt werden. Sie muss jedoch auch den Inhalt der lokalisierten Seiten widerspiegeln.
 
-Mit den Lokalisierungsfunktionen der [Navigation Core Component und](navigation.md) [der Experience Fragment Core Component](experience-fragment.md) zusammen mit den [bearbeitbaren Vorlagen von AEM](https://docs.adobe.com/content/help/en/experience-manager-64/authoring/siteandpage/templates.html)wird dies zu einer lähmenden Aufgabe.
+Mit den Lokalisierungsfunktionen der [Navigation Core Component und](navigation.md) [der Experience Fragment Core Component](experience-fragment.md) zusammen mit den [bearbeitbaren Vorlagen von AEM](https://docs.adobe.com/content/help/en/experience-manager-64/authoring/siteandpage/templates.html)wird dies zu einer lähmenden Aufgabe. Das Beispiel könnte auch weiter erweitert werden, um die [Sprachnavigationskomponente](language-navigation.md) zu verwenden.
 
 ## Die Inhaltsstruktur {#content-structure}
 
