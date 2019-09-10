@@ -6,7 +6,7 @@ seo-description: Mit der Experience Fragment-Komponente kann der Inhaltsautor ei
 content-type: Referenz
 topic-tags: Kernkomponenten
 translation-type: tm+mt
-source-git-commit: 9f4f97713d20b6343b78f8046d96752fa0b0a07d
+source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
 
 ---
 
@@ -33,6 +33,9 @@ Die Experience Fragment-Komponente ist adaptive Site-Struktur und gibt das richt
 In diesem Fall wird das Fragment mit derselben Lokalisierung (Sprache, Blueprint oder Live Copy) als aktuelle Seite wiedergegeben.
 
 Dieses Verhalten ist auf Erlebnisfragmentkomponenten beschränkt, die zu Vorlagen hinzugefügt werden. Erlebnisfragmentkomponenten, die einzelnen Inhaltsseiten hinzugefügt werden, rendern die exakten Erlebnisfragmentdarstellungen, die innerhalb der Komponente konfiguriert wurden.
+
+* Ein Beispiel zur Funktionsweise der Lokalisierungsfunktionen der Experience Fragment-Komponente finden Sie [im folgenden Abschnitt](#example).
+* Ein Beispiel dafür, wie die Lokalisierungsfunktionen der Kernkomponenten zusammen funktionieren, finden Sie in den [Lokalisierungsfunktionen der Seite Kernkomponenten](localization.md).
 
 ### Beispiel {#example}
 
