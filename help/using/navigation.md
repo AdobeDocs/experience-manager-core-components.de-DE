@@ -18,7 +18,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 48d23edbcdf4c4ed70d590cf6c6e4ac1db14f852
+source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
 
 ---
 
@@ -38,6 +38,9 @@ Das Dialogfeld [„Bearbeiten“](#edit-dialog) ermöglicht es dem Inhaltsautor,
 ## Unterstützung lokalisierter Site-Struktur {#localized-site-structure}
 
 Webseiten werden oft in verschiedenen Sprachen für verschiedene Regionen angeboten. In der Regel enthält jede lokalisierte Seite ein navagation-Element, das Teil der Seitenvorlage ist. Die Navigationskomponente ermöglicht es Ihnen, sie einmal auf einer Vorlage für alle Seiten Ihrer Site zu platzieren, und wird dann automatisch auf die einzelnen lokalisierten Seiten basierend auf Ihrer globalen Site-Struktur angepasst.
+
+* Ein Beispiel zur Funktionsweise der Lokalisierungsfunktion der Navigationskomponente finden Sie [im folgenden Abschnitt](#example-localiatzion).
+* Ein Beispiel dafür, wie die Lokalisierungsfunktionen der Kernkomponenten zusammen funktionieren, finden Sie in den [Lokalisierungsfunktionen der Seite Kernkomponenten](localization.md).
 
 ### Beispiel {#example-localization}
 
