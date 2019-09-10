@@ -18,7 +18,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ee6976f39894b4e67b42503503a51589224583f5
+source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
 
 ---
 
@@ -30,6 +30,9 @@ Die Sprachnavigationskomponente stellt eine Sprache/Ländernavigation für eine 
 ## Nutzung {#usage}
 
 Webseiten werden oft in verschiedenen Sprachen für verschiedene Regionen angeboten. Mit der Sprachnavigationskomponente kann ein Besucher dieselbe Seite in verschiedenen Sprachen/Gebietsschemata anzeigen. Wenn Sie ein Leser auf der schweizerischen deutschen Version der Website sind, können Sie einfach zur US-englischen Version der gleichen Seite wechseln. Die Sprachnavigationskomponente verarbeitet die Sprache der Site-Sprache und findet die zugehörige Seite automatisch.
+
+* Ein Beispiel zur Funktionsweise der Lokalisierungsfunktion der Sprachnavigationskomponente finden Sie [im folgenden Abschnitt](#example).
+* Ein Beispiel dafür, wie die Lokalisierungsfunktionen der anderen Hauptkomponenten zusammen funktionieren, finden Sie in den [Lokalisierungsfunktionen der Seite Kernkomponenten](localization.md).
 
 Das Dialogfeld [Bearbeiten](#edit-dialog) ermöglicht die Definition des globalen Site-Navigationsstamms sowie die Festlegung, wie tief in die Struktur die Navigation gehen soll. Im Dialogfeld [Design](#design-dialog)kann der Vorlagenautor die Standardwerte für dieselben Optionen festlegen.
 
