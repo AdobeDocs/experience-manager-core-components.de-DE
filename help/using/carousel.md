@@ -16,7 +16,7 @@ modalsize: 426x240
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d37cde072dea612ccb55ad31b4aaf42f17839cb4
 
 ---
@@ -50,7 +50,7 @@ Um die Karussellkomponente zu erleben und Beispiele für ihre Konfigurationsopti
 
 ### Technische Details {#technical-details}
 
-Die aktuellste technische Dokumentation zur Karussellkomponente [finden Sie unter github](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/carousel/v1/carousel).
+Die aktuelle technische Dokumentation zur Karussellkomponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/carousel/v1/carousel).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
 
@@ -81,17 +81,17 @@ Auf der Registerkarte **Eigenschaften** kann der Inhaltsautor die Folien auf aut
 
 >[!NOTE]
 >
->Die Steuerelemente für die Abfolge der Folien werden im Modus **Bearbeiten** nicht aktiviert. Verwenden [**Sie** den Vorschaumodus](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html) **[oder die](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** Option "Als veröffentlicht anzeigen" , um mit dem Karussell als Leser des veröffentlichten Inhalts zu interagieren.
+>Die Steuerelemente für die Abfolge der Folien werden im Modus **Bearbeiten** nicht aktiviert. Verwenden Sie den Modus [**Vorschau**](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/editing-content.html) oder die Option **[Als veröffentlicht anzeigen](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/editing-content.html)**, um mit dem Karussell so zu interagieren, wie es ein Leser der veröffentlichten Inhalte tun würde.
 >
->Die Funktion des automatischen Übergangs ist im Modus **Bearbeiten** nicht aktiviert. Use **[View as Published](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** option to see the auto-advance feature as a reader of the published content would.
+>Die Funktion des automatischen Übergangs ist im Modus **Bearbeiten** nicht aktiviert. Verwenden Sie die Option **[Als veröffentlicht anzeigen](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/editing-content.html)**, um die Funktion des automatischen Übergangs so anzuzeigen, wie es ein Leser der veröffentlichten Inhalte tun würde.
 
-### Registerkarte "Ein-/Ausgabehilfe « {#accessibility-tab}
+### Registerkarte „Barrierefreiheit“ {#accessibility-tab}
 
 ![](assets/screen-shot-2019-08-29-12.02.22.png)
 
-Auf der **Registerkarte Ein-/Ausgabehilfe** können Werte für [ARIA-Barrierefreiheitsbeschriftungen](https://www.w3.org/WAI/standards-guidelines/aria/) für die Komponente festgelegt werden.
+Auf der Registerkarte **Barrierefreiheit** können Werte für die [ARIA-Barrierefreiheits](https://www.w3.org/WAI/standards-guidelines/aria/)-Bezeichnungen für die Komponente festgelegt werden.
 
-* **Beschriftung** - Wert eines ARIA-Label-Attributs für die Komponente
+* **Bezeichnung** - Wert eines ARIA-Bezeichnungs-Attributs für die Komponente
 
 ## Bedienfeld auswählen {#select-panel}
 
@@ -127,7 +127,7 @@ Im Dialogfeld „Design“ kann der Vorlagenautor definieren, welche Komponenten
 
 Über die Registerkarte **Zugelassene Komponenten** können Sie definieren, welche Komponenten der Karussellkomponente vom Inhaltsautor als Folien hinzugefügt werden können.
 
-Die Registerkarte „Zugelassene Komponenten“ funktioniert auf die gleiche Weise wie die Registerkarte desselben Namens beim [Definieren der Richtlinie und Eigenschaften eines Layoutcontainers im Vorlageneditor.](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+Die Registerkarte „Zugelassene Komponenten“ funktioniert auf die gleiche Weise wie die Registerkarte desselben Namens beim [Definieren der Richtlinie und Eigenschaften eines Layoutcontainers im Vorlageneditor.](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/templates.html)
 
 ### Registerkarte „Stile“{#styles-tab}
 
