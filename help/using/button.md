@@ -9,7 +9,7 @@ content-type: Referenz
 topic-tags: Authoring
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d37cde072dea612ccb55ad31b4aaf42f17839cb4
 
 ---
@@ -44,7 +44,7 @@ Um die Schaltflächen-Komponente sowie Beispiele für die Konfigurationsoptionen
 
 ## Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Schaltflächenkomponente [finden Sie unter github](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button).
+Die aktuelle technische Dokumentation zur Schaltflächen-Komponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
 
@@ -52,7 +52,7 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 
 Mit dem Dialogfeld „Konfigurieren“ kann der Inhaltsautor die Schaltfläche und ihr Verhalten und Aussehen für einen Besucher der Seite definieren.
 
-### Registerkarte „Eigenschaften“{#properties-tab}
+### Registerkarte „Eigenschaften“ {#properties-tab}
 
 ![](assets/screen-shot-2019-08-29-12.19.32.png)
 
@@ -61,13 +61,13 @@ Mit dem Dialogfeld „Konfigurieren“ kann der Inhaltsautor die Schaltfläche u
    * Wählen Sie im Dialogfeld **Auswahl** einen Pfad in AEM aus.
 * **Symbol** - Bezeichner für die Anzeige eines Symbols auf der Schaltfläche
 
-### Registerkarte "Ein-/Ausgabehilfe « {#accessibility-tab}
+### Registerkarte „Barrierefreiheit“ {#accessibility-tab}
 
 ![](assets/screen-shot-2019-08-29-12.19.43.png)
 
-Auf der **Registerkarte Ein-/Ausgabehilfe** können Werte für [ARIA-Barrierefreiheitsbeschriftungen](https://www.w3.org/WAI/standards-guidelines/aria/) für die Komponente festgelegt werden.
+Auf der Registerkarte **Barrierefreiheit** können Werte für die [ARIA-Barrierefreiheits](https://www.w3.org/WAI/standards-guidelines/aria/)-Bezeichnungen für die Komponente festgelegt werden.
 
-* **Beschriftung** - Wert eines ARIA-Label-Attributs für die Komponente
+* **Bezeichnung** - Wert eines ARIA-Bezeichnungs-Attributs für die Komponente
 
 ## Dialogfeld „Design“ {#design-dialog}
 
