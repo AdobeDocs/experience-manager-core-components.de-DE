@@ -8,8 +8,8 @@ content-type: Referenz
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: a028ebef-2957-410c-9bab-a7040c350f2f
 index: n
-translation-type: ht
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
+translation-type: tm+mt
+source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 ---
 
@@ -43,7 +43,7 @@ In der folgenden Tabelle ist die Kompatibilität von v1 der Titelkomponente aufg
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Folgendes Beispiel wurde von [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html) übernommen.
+The following is sample taken from We.Retail.[](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)
 
 ### Screenshot {#screenshot}
 
@@ -94,8 +94,8 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die standardmäßi
 
 ## Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Titelkomponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/title/v1/title).
+The latest technical documentation about the Title Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/title/v1/title).
 
 Das gesamte Kernkomponentenprojekt kann von GitHub heruntergeladen werden.
 
-Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
+Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation von Kernkomponenten für Entwickler](developing.md).
