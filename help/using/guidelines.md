@@ -9,8 +9,8 @@ content-type: Referenz
 topic-tags: entwickeln
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 170dba8f-a2ed-442e-a56e-1126b338c36e
-translation-type: ht
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
+translation-type: tm+mt
+source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
 
 ---
 
@@ -35,7 +35,7 @@ Wenn Sie diesen Schritt weiter durchführen möchten, wenn Komponenten über meh
 
 ### Problemtrennung {#separation-of-concerns}
 
-Es empfiehlt sich, die Logik (oder das Modell) einer Komponente getrennt von der Markup-Vorlage (oder der Ansicht) zu halten. Es gibt mehrere Möglichkeiten, dies zu erreichen. Empfohlen wird jedoch die Verwendung von [Sling-Modellen](https://sling.apache.org/documentation/bundles/models.html) für die Logik und von [HTML Template Languagel](https://helpx.adobe.com/de/experience-manager/htl/using/overview.html) (HTL) für das Markup, was die Kernkomponenten ebenfalls tun.
+Es empfiehlt sich, die Logik (oder das Modell) einer Komponente getrennt von der Markup-Vorlage (oder der Ansicht) zu halten. There are several ways to achieve that, however the recommended one is to use [Sling Models](https://sling.apache.org/documentation/bundles/models.html) for the logic and the [HTML Template Language](https://helpx.adobe.com/experience-manager/htl/using/overview.html) (HTL) for the markup, like the Core Components also do.
 
 Sling-Modelle sind eine Reihe von Java-Anmerkungen, um schnell auf benötigte Variablen von POJOs zuzugreifen und daher eine einfache, leistungsstarke und effiziente Möglichkeit, Java-Logik für Komponenten zu implementieren.
 
@@ -47,7 +47,7 @@ Die Richtlinien in diesem Abschnitt können für jede Art von Komponente ebenfal
 
 ### Vorkonfigurierbare Funktionen {#pre-configurable-capabilities}
 
-Neben dem Bearbeitungsdialogfeld, das von den Seitenautoren verwendet wird, können Komponenten auch ein Dialogfeld „Design“ für Vorlagenautoren haben, um diese vorkonfigurieren zu können. Mit dem [Vorlageneditor](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/templates.htm) können alle diese Vorkonfigurationen eingerichtet werden, die als „Richtlinien“ bezeichnet werden.
+Neben dem Bearbeitungsdialogfeld, das von den Seitenautoren verwendet wird, können Komponenten auch ein Dialogfeld „Design“ für Vorlagenautoren haben, um diese vorkonfigurieren zu können. Der [Vorlageneditor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) ermöglicht das Einrichten aller Vorkonfigurationen, die als "Richtlinien"bezeichnet werden.
 
 Um Komponenten so wiederverwendbar wie möglich zu machen, sollten sie mit aussagekräftigen Optionen zur Vorkonfiguration bereitgestellt werden. Dies ermöglicht das Aktivieren oder Deaktivieren von Funktionen der Komponenten, die den spezifischen Anforderungen verschiedener Sites entsprechen.
 
@@ -69,7 +69,7 @@ Damit die projektspezifischen Komponenten jedoch keinen Code duplizieren, sollte
 
 ### Komponentenversionierung {#component-versioning}
 
-Komponenten sollten im Laufe der Zeit vollständig kompatibel bleiben. Doch manchmal sind Änderungen, die nicht kompatibel bleiben können, erforderlich. Eine Lösung für diese gegensätzlichen Anforderungen ist die Einführung der Komponentenversionierung durch Hinzufügen einer Nummer in ihrem Ressourcentyppfad und in den voll qualifizierten Java-Klassennamen ihrer Implementierungen. Diese Versionsnummer stellt eine Hauptversion dar, wie sie von den [Richtlinien zur semantischen Versionierung](https://semver.org/) definiert wird. Diese Version wird nur für Änderungen inkrementiert, die nicht abwärtskompatibel sind.
+Komponenten sollten im Laufe der Zeit vollständig kompatibel bleiben. Doch manchmal sind Änderungen, die nicht kompatibel bleiben können, erforderlich. Eine Lösung für diese gegensätzlichen Anforderungen ist die Einführung der Komponentenversionierung durch Hinzufügen einer Nummer in ihrem Ressourcentyppfad und in den voll qualifizierten Java-Klassennamen ihrer Implementierungen. This version number represents a major version as defined by [semantic versioning guidelines](https://semver.org/), which is incremented only for changes that are not backward-compatible.
 
 Inkompatible Änderungen an den folgenden Aspekten von Komponenten führen zu einer neuen Version der Komponenten:
 
@@ -79,7 +79,7 @@ Inkompatible Änderungen an den folgenden Aspekten von Komponenten führen zu ei
 * JSON-Darstellung
 * Dialogfelder
 
-Weitere Informationen finden Sie im Dokument [Versionierungsrichtlinien](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-Policies) auf GitHub.
+For further details, see the [Versioning Policies](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-Policies) document in GitHub.
 
 Die Komponentenversionierung schafft eine Art Vertrag, der für Upgrades wichtig ist, da sie klärt, wann etwas möglicherweise refaktoriert werden muss. Siehe auch den Abschnitt [Upgrade-Kompatibilität von Anpassungen](customizing.md#upgrade-compatibility-of-customizations), der erklärt, welche Überlegungen verschiedene Formen von Anpassungen für ein Upgrade erfordern.
 
@@ -96,11 +96,11 @@ In Kombination mit dem oben beschriebenen [Proxy-Komponentenmuster](#proxy-compo
 
 ## Alles zusammenbringen {#putting-it-all-together}
 
-Im Folgenden finden Sie eine Übersicht über die gesamte Ressourcentyp-Bindungsstruktur, die sich auf die Titel-Kernkomponente bezieht. Es zeigt, wie eine Site-spezifische Proxy-Komponente die Versionierung der Komponenten auflösen lässt, um zu vermeiden, dass die Inhaltsressource eine Versionsnummer enthält. Anschließend wird gezeigt, wie die `title.html`[HTL](https://helpx.adobe.com/de/experience-manager/htl/using/overview.html)-Datei der Komponente die Modellschnittstelle verwendet, während die Implementierung durch die Anmerkungen des [Sling-Modells](https://sling.apache.org/documentation/bundles/models.html) an die spezifische Version der Komponente gebunden ist.
+Im Folgenden finden Sie eine Übersicht über die gesamte Ressourcentyp-Bindungsstruktur, die sich auf die Titel-Kernkomponente bezieht. Es zeigt, wie eine Site-spezifische Proxy-Komponente die Versionierung der Komponenten auflösen lässt, um zu vermeiden, dass die Inhaltsressource eine Versionsnummer enthält. It then shows how the component's `title.html` [HTL](https://helpx.adobe.com/experience-manager/htl/using/overview.html) file uses to the model interface, while the implementation binds to the specific version of the component through [Sling Model](https://sling.apache.org/documentation/bundles/models.html) annotations.
 
 ![Überblick über die Ressourcenbindung](assets/chlimage_1-32.png)
 
-Im Folgenden finden Sie eine weitere Übersicht, die nicht die Details der POJO-Implementierung anzeigt, aber zeigt, wie die zugehörigen [Vorlagen und Richtlinien](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/using/page-templates-editable.html) referenziert werden.
+Below is another overview, which doesn't show the details of the implementation POJO, but reveals how the associated [templates and policies](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-editable.html) are referenced.
 
 Die `cq:allowedTemplates`-Eigenschaft gibt an, welche Vorlagen für eine Site verwendet werden können, und die `cq:template` informiert für jede Seite, was die zugehörige Vorlage ist. Jede Vorlage besteht aus den folgenden drei Teilen:
 
