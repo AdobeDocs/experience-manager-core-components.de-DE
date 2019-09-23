@@ -9,15 +9,15 @@ content-type: Referenz
 topic-tags: Authoring
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
-translation-type: ht
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
+translation-type: tm+mt
+source-git-commit: 548972c65751b594cd62234d4681634a60fa41e2
 
 ---
 
 
 # Inhaltsfragment-Komponente{#content-fragment-component}
 
-Die Kernkomponente „Inhaltsfragment-Komponente“ ermöglicht die Anzeige eines [Inhaltsfragments](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html).
+The Core Component Content Fragment component allows for the display of a [content fragment](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html).
 
 >[!NOTE]
 >
@@ -25,11 +25,11 @@ Die Kernkomponente „Inhaltsfragment-Komponente“ ermöglicht die Anzeige eine
 
 ## Nutzung {#usage}
 
-Die Kernkomponente „Inhaltsfragment-Komponente“ ermöglicht die Einbeziehung eines [Inhaltsfragments](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/content-fragments.html) auf einer Seite.
+The Core Component Content Fragment Component allows for the inclusion of a [content fragment](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html) on a page.
 
 * Das Fragment und seine Eigenschaften können im [Dialogfeld „Konfigurieren“](#configure-dialog) ausgewählt werden.
 * Ressourcentypen zum Verarbeiten bestimmter Bilder und Raster können im [Dialogfeld „Design“](#design-dialog) definiert werden.
-* Mit der Option „Bearbeiten“ wird das ausgewählte Fragment im [Inhaltsfragments-Editor](https://helpx.adobe.com/content/help/de/experience-manager/6-5/assets/using/content-fragments.html) geöffnet.
+* Mit der Option "Bearbeiten"wird das ausgewählte Fragment im [Inhaltsfragmenteditor](https://helpx.adobe.com/content/help/en/experience-manager/6-5/assets/using/content-fragments.html)geöffnet.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
@@ -57,7 +57,7 @@ Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in d
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Um die Inhaltsfragment-Komponente zu erleben und Beispiele für ihre Konfigurationsoptionen sowie die HTML- und JSON-Ausgabe zu sehen, besuchen Sie die [Komponentenbibliothek](http://opensource.adobe.com/de/aem-core-wcm-components/library/content-fragment.html).
+To experience the Content Fragment Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html).
 
 ## Technische Details {#technical-details}
 
