@@ -44,7 +44,7 @@ Die Kernkomponenten sind:
 | Erweiterbar | Um benutzerdefinierte Anforderungen zu behandeln, ohne komplett neu beginnen zu müssen, können Sie alles erweitern. |
 | Open Source | Wenn etwas nicht so ist, wie es sein sollte, können Sie auf GitHub (Apache License) Verbesserungsvorschläge einreichen. |
 | Versionierung | Die Kernkomponenten werden Ihre Website nicht beschädigen, wenn Sie Dinge verbessern, die sich möglicherweise auf Sie auswirken. |
-| [Lokalisiert](localization.md) | Mit der intelligenten Referenz-Resoltuion können bestimmte Komponenten automatisch lokalisierte Inhalte suchen und wiedergeben. |
+| [Lokalisiert](localization.md) | Intelligente Referenzauflösung ermöglicht es bestimmten Komponenten, entsprechende lokalisierte Inhalte automatisch zu finden und wiederzugeben |
 
 ## Verfügbare Komponenten {#available-components}
 
@@ -96,7 +96,7 @@ Informationen zu spezifischen Empfehlungen der Nutzung finden Sie unter [Wann Ke
 
 Um eine Einführung in die Kernkomponenten, die angebotenen Funktionen und ihre Nutzung in AEM zu erhalten, sehen Sie sich die AEM-Gems-Sitzung [AEM-Kernkomponenten](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
 
-[Gems on Adobe Experience Manager](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) ist eine Reihe von technischen Tiefstellungen von Adobe-Experten. Diese Reihe ergänzt die Produktdokumentation und alle anderen technischen Kanäle und ermöglicht es Entwicklern, in Kontakt zu treten und ein bestimmtes Thema zu vertiefen.
+[Gems on Adobe Experience Manager](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) ist eine Reihe technischer Tauchgänge, die von Adobe-Experten durchgeführt werden. Diese Reihe ergänzt die Produktdokumentation und alle anderen technischen Kanäle und ermöglicht es Entwicklern, in Kontakt zu treten und ein bestimmtes Thema zu vertiefen.
 
 ## WKND-Entwickler-Tutorial {#wknd-developer-tutorial}
 
