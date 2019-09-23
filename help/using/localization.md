@@ -1,8 +1,8 @@
 ---
-title: Lokalisierungsfunktionen der Kernkomponenten
-seo-title: Lokalisierungsfunktionen der Kernkomponenten
-description: Lokalisierungsfunktionen der Kernkomponenten
-seo-description: Lokalisierungsfunktionen der Kernkomponenten
+title: Lokalisierungsfunktionen der Hauptkomponenten
+seo-title: Lokalisierungsfunktionen der Hauptkomponenten
+description: Lokalisierungsfunktionen der Hauptkomponenten
+seo-description: Lokalisierungsfunktionen der Hauptkomponenten
 content-type: Referenz
 topic-tags: Kernkomponenten
 index: y
@@ -13,21 +13,21 @@ source-git-commit: c8041e855386b7195fe32dd5dc53458f1d8270b8
 ---
 
 
-# Lokalisierungsfunktionen der Kernkomponenten {#localization-features-of-the-core-components}
+# Lokalisierungsfunktionen der Hauptkomponenten {#localization-features-of-the-core-components}
 
-Viele Websites benötigen Inhalte, die in einem lokalisierten Format über mehrere Sprachen und Länder bereitgestellt werden sollen. Die intelligente Referenzreferenz-Funktion für Kernkomponenten soll eine einfache Vorlage für alle lokalisierten Inhalte erstellen, die basierend auf Ihrer lokalisierten Site-Struktur automatisch angepasst werden.
+Viele Websites erfordern, dass Inhalte in einem lokalisierten Format in mehreren Sprachen und Regionen bereitgestellt werden. Die ausgewählten Kernkomponenten verfügen über eine intelligente Referenzauflösung, um die Erstellung einer einheitlichen Vorlage für all Ihre lokalisierten Inhalte zu vereinfachen, die sich automatisch an Ihre lokalisierte Site-Struktur anpasst.
 
-## Beispiel: Lokalisierte Seite mit Navigations- und Fußzeilen {#example}
+## Beispiel: Lokalisierte Seite mit Navigation und Fußzeilen {#example}
 
-Die meisten Sites benötigen eine Fußzeile, die für alle Seiten vorhanden ist. Diese Fußzeilen sind im Allgemeinen konsistent über den gesamten Inhalt der Seite hinweg. Für eine lokalisierte Inhaltsseite muss eine lokalisierte Version dieser Kopf- oder Fußzeile angezeigt werden.
+Most sites require a footer to be present across all pages. These footers are generally consistent across all content of the page. However for a localized content page, a localized version of that header or footer needs to be displayed.
 
-Entsprechend muss eine Navigationskomponente normalerweise auf allen Seiten angezeigt werden. Sie muss jedoch auch den Inhalt der lokalisierten Seiten widerspiegeln.
+Similarly a navigation component usually must be displayed across all pages. However it will need to reflect the content of the localized pages as well.
 
-Mit den Lokalisierungsfunktionen der [Navigation Core Component und](navigation.md) [der Experience Fragment Core Component](experience-fragment.md) zusammen mit den [bearbeitbaren Vorlagen von AEM](https://docs.adobe.com/content/help/en/experience-manager-64/authoring/siteandpage/templates.html)wird dies zu einer lähmenden Aufgabe. Das Beispiel könnte auch weiter erweitert werden, um die [Sprachnavigationskomponente](language-navigation.md) zu verwenden.
+Using the localization features of the Navigation Core Component and Experience Fragment Core Component along with the editable templates of AEM, this becomes a smiple task. [](navigation.md)[](experience-fragment.md)[](https://docs.adobe.com/content/help/en/experience-manager-64/authoring/siteandpage/templates.html) The example could be further extended to use the Language Navigation Component as well.[](language-navigation.md)
 
-## Die Inhaltsstruktur {#content-structure}
+## The Content Structure {#content-structure}
 
-Alle Lokalisierungsfunktionen von AEM und seinen Core-Komponenten basieren auf einer klaren und logischen Inhaltsstruktur für Ihren lokalisierten Inhalt.
+Alle Lokalisierungsfunktionen von AEM und seinen Core-Komponenten basieren auf einer klaren und logischen Inhaltsstruktur für Ihre lokalisierten Inhalte.
 
 Nehmen wir an, Ihre Site wird einfach aufgerufen `my-site` und befindet sich hier:
 
@@ -35,7 +35,7 @@ Nehmen wir an, Ihre Site wird einfach aufgerufen `my-site` und befindet sich hie
 /content/my-site
 ```
 
-Nehmen wir an, Sie erstellen Ihre Site auf Englisch und bieten sie auch auf Französisch an. Wenn Sie also eine einfache Seite namens `my-page` sie in zwei Lokalisierungsverzweigungen in der Inhaltsstruktur Ihrer Site finden:
+Nehmen wir auch an, dass Sie Ihre Website auf Englisch verfassen und auch auf Französisch anbieten. Wenn Sie also eine einfache Seite namens `my-page` haben, würde sie in zwei Lokalisierungszweigen in der Inhaltsstruktur Ihrer Site gefunden werden:
 
 ```
 /content
@@ -46,9 +46,9 @@ Nehmen wir an, Sie erstellen Ihre Site auf Englisch und bieten sie auch auf Fran
        \-- my-page
 ```
 
-Sie befindet sich unter diesen Lokalisierungsverzweigungen, in denen Sie weitere Seiten der Site erstellen.
+Unter diesen Lokalisierungszweigen erstellen Sie weitere Siteseiten.
 
-Seitenfußzeilen werden meist mit Erlebnisfragmenten erstellt, damit Sie eine englische und französische Version genau wie Ihre Seiten benötigen. Erlebnisfragmente sind jedoch keine Seiten, sondern dienen eher der Wiederverwendbarkeit vonseiten, die über mehrere Seiten hinweg wiederverwendet werden können, sodass sie nicht direkt wie `/content` der Rest Ihrer Seiten funktionieren. Stattdessen leben sie in ihrem eigenen Ordner, da sie jedoch auch lokalisiert werden müssen, muss ihre Struktur die Lokalisierungsstruktur Ihrer Site widerspiegeln.
+Seitenfußzeilen werden im Allgemeinen mit Erlebnisfragmenten erstellt, sodass Sie eine englische und französische Version wie Ihre Seiten benötigen. However Experience Fragments are not pages, but are rather parts of pages that can be reused across pages, so they do not live directly under `/content` as the rest of your pages. Stattdessen leben sie in ihrem eigenen Ordner, müssen aber auch lokalisiert werden, ihre Struktur muss der Lokalisierungsstruktur Ihrer Site entsprechen.
 
 ```
 /content
@@ -64,13 +64,13 @@ Seitenfußzeilen werden meist mit Erlebnisfragmenten erstellt, damit Sie eine en
       \-- my-page
 ```
 
-Durch die gespiegelte Lokalisierungsstruktur können die Kernkomponenten den erforderlichen lokalisierten Inhalt für eine entsprechende Seite finden.
+Durch die gespiegelte Lokalisierungsstruktur können die Kernkomponenten die erforderlichen lokalisierten Inhalte für eine entsprechende Seite finden.
 
-## Seitenfußzeile - Erlebnisfragment {#xf-footer}
+## Page Footer - Experience Fragment {#xf-footer}
 
-Die Experience Fragment-Komponente ist sehr flexibel und eignet sich gut für eine Seitenkopf- oder -fußzeile.
+Die Komponente "Erlebnisfragment"ist sehr flexibel und eignet sich gut für eine Kopfzeile oder Fußzeile.
 
-Da unsere hypothetische Website auf Englisch und Französisch angeboten wird, müssen wir zwei Erlebnisfragmente erstellen, die `footer`[beide an den zuvor beschriebenen Orten aufgerufen haben.](#content-structure)
+Da unsere hypothetische Website in Englisch und Französisch angeboten wird, müssen wir zwei Erlebnisfragmente erstellen, die beide `footer` an den zuvor beschriebenen Orten [genannt werden.](#content-structure)
 
 ![](assets/screen-shot-2019-09-09-11.08.28.png)
 
@@ -78,7 +78,7 @@ Da unsere hypothetische Website auf Englisch und Französisch angeboten wird, m�
 
 Da die Fußzeile auf jeder Seite angezeigt wird, müssen wir das Erlebnisfragment zu unserer Standardseitenvorlage hinzufügen.
 
-Unsere Vorlage wird einfach aufgerufen `my-template` und befindet sich mit unseren anderen Vorlagen:
+Unsere Vorlage wird einfach aufgerufen `my-template` und befindet sich in unseren anderen Vorlagen:
 
 ```
 /conf/my-site/settings/wcm/templates/my-template
@@ -87,28 +87,28 @@ Unsere Vorlage wird einfach aufgerufen `my-template` und befindet sich mit unser
 Zu dieser Vorlage fügen wir die grundlegenden Komponenten hinzu, auf denen unsere Seiten basieren sollen.
 
 * [Navigationskomponente](navigation.md)
-   * Die Navigationskomponente wird oben auf jeder Seite angezeigt.
-   * In der Navigationskomponente definieren wir den Navigationsstamm und teilen ihm mit, wo die Navigationsstruktur der Site beginnt.
+   * The Navigation Component will appear at the top of every page.
+   * In der Navigationskomponente definieren wir den Navigationsstamm und teilen die Komponente mit, wo die Navigationsstruktur der Site beginnt.
    * Basierend auf dem Navigationsstamm kann die Komponente den entsprechenden lokalisierten Inhalt automatisch finden.
 * [Container-Komponente](container.md)
-   * Jede Seite enthält eine editierbare Container-Komponente, damit Autoren zusätzliche Inhalte auf der Seite platzieren können.
+   * Every page will contain an editable Container Component so that authors can place additional content on the page.
 * [Experience Fragment](experience-fragment.md)
-   * Die Experteninece Fragment-Komponente verweist auf den Fragmentpfad in unserer Authoring-Sprache des Fragments, das die Fußzeile darstellt.
-   * Basierend auf dem Pfad des Fragments und der Struktur der Erlebnisfragmente, die die lokalisierte Seitenstruktur reflektieren, kann die Komponente den entsprechenden lokalisierten Inhalt automatisch finden.
+   * Wir verweisen die Komponente "Expertenfragment"auf den Fragmentpfad in unserer Authoring-Sprache des Fragments, das die Fußzeile darstellt.
+   * Based on that fragment's path and the structure of the experience fragments that mirrors the localized page structure, the component can find the corresponding localized content automatically.
    ![](assets/screen-shot-2019-09-09-11.20.10.png)
 
 ## Seiten {#pages}
 
-Durch die harte Arbeit beim Einrichten der Site-Struktur und -vorlage muss der Inhaltsautor einfach den erforderlichen Inhalt den Seiten hinzufügen. Dank der Vorlagen und der Lokalisierungslogik der Komponenten werden die Navigations- und Fußzeilen automatisch der Seite hinzugefügt und lokalisiert.
+By doing the hard work in setting up the site structure and template, the content author simply needs to add the necessary content to the pages. Thanks to the templates and the localization logic of the components, the navigation and footers will be automatically added to the page and localized.
 
-Der Autor würde beispielsweise nur Inhalte wie eine Textkomponente der englischen und französischen Seite hinzufügen (blau unten dargestellt).
+Der Autor müsste beispielsweise nur Inhalte wie Textkomponenten zu den englischen und französischen Seiten hinzufügen (unten blau dargestellt).
 
-Die Komponente "Navigationskomponente und Erlebnisfragment" stammt aus der Seitenvorlage und erkennt, dass der richtige Inhalt basierend auf der Lokalisierungsstruktur und dem Speicherort der Seite automatisch angezeigt wird (siehe White Unten).
+Die Komponenten "Navigationskomponente"und "Erlebnisfragment"stammen aus der Seitenvorlage und wissen, dass der richtige Inhalt automatisch basierend auf der Lokalisierungsstruktur und der Position der Seite selbst angezeigt wird (unten in Weiß dargestellt).
 
 ![](assets/screen-shot-2019-09-09-11.22.14.png)
 
-## Alle zusammenpassen {#fitting-it-all-together}
+## Zusammenpassen {#fitting-it-all-together}
 
-Hier ist das vollständige Bild, wie diese einfachen, aber leistungsstarken Elemente zusammenarbeiten, um lokalisierte Seiten für die Autoren bereitzustellen.
+Im Folgenden finden Sie ein vollständiges Bild davon, wie diese einfachen, aber leistungsstarken Elemente zusammenarbeiten, um lokalisierte Seiten für Autoren bereitzustellen.
 
 ![](assets/screen-shot-2019-09-09-11.27.58.png)
