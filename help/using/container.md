@@ -9,7 +9,7 @@ content-type: Referenz
 topic-tags: Authoring
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3e2e7a297c6ee1d6c8d092c619df8febdc900e25
 
 ---
@@ -56,7 +56,7 @@ Mit dem Dialogfeld „Konfigurieren“ kann der Inhaltsautor das Container-Eleme
 
 * **Layout** - Diese Option definiert das Verhalten oder das Layout-Verhalten der Container-Komponente.
    * **Einfach** - Definiert einen Container als einfache Sammlung von Komponenten
-   * **Responsives Raster** - Definiert einen Container als [responsives AEM-Raster](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/responsive-layout.html)
+   * **Responsive Grid** - Definiert einen Container als [AEM Responsive Grid](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/responsive-layout.html)
 * **ID** - Verwenden Sie diese Option, um das HTML-ID-Attribut zu definieren, das auf die Komponente angewendet werden soll.
 * **Hintergrundfarbe** - Definierbar entweder als freie RGB-Werte oder mithilfe der Farbauswahl, [je nach Konfiguration](#background-tab).
 * **Hintergrundbild** - Definiert eine Hintergrundfarbe für den Container, [je nach Konfiguration](#background-tab).
@@ -69,7 +69,7 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Optionen für 
 
 Über die Registerkarte **Zugelassene Komponenten** können Sie definieren, welche Komponenten der Container-Komponente vom Inhaltsautor als Elemente hinzugefügt werden können.
 
-Die Registerkarte „Zugelassene Komponenten“ funktioniert auf die gleiche Weise wie die Registerkarte desselben Namens beim [Definieren der Richtlinie und Eigenschaften eines Layoutcontainers im Vorlageneditor.](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/templates.html)
+Die Registerkarte „Zugelassene Komponenten“ funktioniert auf die gleiche Weise wie die Registerkarte desselben Namens beim [Definieren der Richtlinie und Eigenschaften eines Layoutcontainers im Vorlageneditor.](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
 
 ### Registerkarte „Standardkomponenten“ {#default-components-tab}
 
