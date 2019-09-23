@@ -8,8 +8,8 @@ content-type: Referenz
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: d35f4e71-ec7f-4128-9123-b997dbb5f0cf
 index: n
-translation-type: ht
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
+translation-type: tm+mt
+source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 ---
 
@@ -43,7 +43,7 @@ In der folgenden Tabelle ist die Kompatibilität von v1 der Komponente für ausg
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Folgendes Beispiel wurde von [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html) übernommen.
+Im Folgenden finden Sie ein Beispiel von [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### HTML {#html}
 
@@ -101,8 +101,8 @@ Es gibt kein Dialogfeld „Design“ für die Komponente für ausgeblendetes For
 
 ## Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Komponente für ausgeblendetes Formular [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v1/hidden).
+Die aktuelle technische Dokumentation zur Komponente "Form Hidden" [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v1/hidden).
 
 Das gesamte Kernkomponentenprojekt kann von GitHub heruntergeladen werden.
 
-Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
+Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation von Kernkomponenten für Entwickler](developing.md).
