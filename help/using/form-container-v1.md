@@ -8,8 +8,8 @@ content-type: Referenz
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 800c064e-2ad5-41f3-9cef-b025a555efd9
 index: n
-translation-type: ht
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
+translation-type: tm+mt
+source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 
 ---
 
@@ -22,7 +22,7 @@ Die Kernkomponente „Formularcontainer-Komponente“ ermöglicht die Erstellung
 
 Die Formularcontainer-Komponente ermöglicht den Aufbau einfacher Formulare und Funktionen zur Informationsübermittlung, indem sie einfache WCM-Formulare unterstützt und eine verschachtelte Struktur verwendet, um zusätzliche Formularkomponenten zu ermöglichen.
 
-Mithilfe des [Dialogfelds „Einstellungen“](form-container-v1.md#main-pars_title) kann der Inhaltseditor definieren, welche Art von Aktion durch eine Formularübermittlung ausgelöst wird, wo der gesendete Inhalt gespeichert werden soll und ob ein Workflow ausgelöst werden soll. Der Vorlagenautor kann das [Dialogfeld „Design“](form-container-v1.md#main-pars_title_1995166862) verwenden, um die zulässigen Komponenten und deren Zuordnungen ähnlich dem Dialogfeld „Design“ für den [Standard-Layout-Container im Vorlageneditor](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1754153843) zu definieren.
+Mithilfe des [Dialogfelds „Einstellungen“](form-container-v1.md#main-pars_title) kann der Inhaltseditor definieren, welche Art von Aktion durch eine Formularübermittlung ausgelöst wird, wo der gesendete Inhalt gespeichert werden soll und ob ein Workflow ausgelöst werden soll. The template author can use the [design dialog](form-container-v1.md#main-pars_title_1995166862) to define the allow components and their mappings similar to the design dialog for the [standard layout container in the template editor](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1754153843).
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
@@ -107,12 +107,12 @@ Der Benutzer wird nach Abschluss der Formularübermittlung zur angegebenen Seite
 
 ## Dialogfeld „Design“ {#design-dialog}
 
-Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die zulässigen Komponenten und deren Zuordnungen für den Container ähnlich dem Dialogfeld „Design“ für den [Standard-Layout-Container im Vorlageneditor](https://helpx.adobe.com/de/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1754153843) zu definieren.
+The design dialog allows the template author to define the allowed components and their mappings for the container similar to the design dialog for the [standard layout container in the template editor](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1754153843).
 
 ## Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Formularcontainer-Komponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/container/v1/container).
+Die aktuelle technische Dokumentation zur Form Container-Komponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/container/v1/container).
 
 Das gesamte Kernkomponentenprojekt kann von GitHub heruntergeladen werden.
 
-Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
+Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation von Kernkomponenten für Entwickler](developing.md).
