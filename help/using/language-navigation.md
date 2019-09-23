@@ -31,8 +31,8 @@ Die Sprachnavigationskomponente stellt eine Sprache/Ländernavigation für eine 
 
 Webseiten werden oft in verschiedenen Sprachen für verschiedene Regionen angeboten. Mit der Sprachnavigationskomponente kann ein Besucher dieselbe Seite in verschiedenen Sprachen/Gebietsschemata anzeigen. Wenn Sie ein Leser auf der schweizerischen deutschen Version der Website sind, können Sie einfach zur US-englischen Version der gleichen Seite wechseln. Die Sprachnavigationskomponente verarbeitet die Sprache der Site-Sprache und findet die zugehörige Seite automatisch.
 
-* Ein Beispiel zur Funktionsweise der Lokalisierungsfunktion der Sprachnavigationskomponente finden Sie [im folgenden Abschnitt](#example).
-* Ein Beispiel dafür, wie die Lokalisierungsfunktionen der anderen Hauptkomponenten zusammen funktionieren, finden Sie in den [Lokalisierungsfunktionen der Seite Kernkomponenten](localization.md).
+* Ein Beispiel für die Funktionsweise der Lokalisierungsfunktion der Sprachnavigationskomponente finden Sie [im folgenden](#example)Abschnitt.
+* Ein Beispiel dafür, wie die Lokalisierungsfunktionen der anderen Kernkomponenten zusammenarbeiten, finden Sie auf der Seite "Hauptkomponenten"unter [Lokalisierungsfunktionen](localization.md).
 
 Das Dialogfeld [Bearbeiten](#edit-dialog) ermöglicht die Definition des globalen Site-Navigationsstamms sowie die Festlegung, wie tief in die Struktur die Navigation gehen soll. Im Dialogfeld [Design](#design-dialog)kann der Vorlagenautor die Standardwerte für dieselben Optionen festlegen.
 
@@ -54,7 +54,7 @@ To experience the Language Navigation Component as well as see examples of its c
 
 ## Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Sprachnavigationskomponente [finden Sie unter github](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/languagenavigation/v1/languagenavigation).
+Die aktuelle technische Dokumentation zur Sprachnavigationskomponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/languagenavigation/v1/languagenavigation).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
 
@@ -96,7 +96,7 @@ Nehmen wir an, dass Ihr Inhalt wie folgt aussieht:
 \-- wknd-shop
 ```
 
-Für die Site „We.Retail“ möchten Sie wahrscheinlich die Sprachnavigationskomponente auf einer Seitenvorlage als Teil der Kopfzeile platzieren. Once part of the template, you can set the **Navigation Root** of the component to `/content/we-retail` since that is where your localized content for that site begins. Sie möchten sicher auch die **Sprachstrukturtiefe** auf `2` festlegen, da Ihre Struktur aus zwei Ebenen besteht (erst Land, dann Sprache).
+Für die Site „We.Retail“ möchten Sie wahrscheinlich die Sprachnavigationskomponente auf einer Seitenvorlage als Teil der Kopfzeile platzieren. Sobald die Komponente ein Teil der Vorlage ist, können Sie den **Navigationsstamm** der Komponente auf `/content/we-retail` festlegen, da dort der lokalisierte Inhalt für diese Site beginnt. Sie möchten sicher auch die **Sprachstrukturtiefe** auf `2` festlegen, da Ihre Struktur aus zwei Ebenen besteht (erst Land, dann Sprache).
 
 Mit dem **Navigationsstamm**-Wert weiß die Sprachkomponente, dass nach `/content/we-retail` die Navigation beginnt und dass sie Sprachnavigationsoptionen generieren kann, indem die nächsten beiden Ebenen in der Inhaltsstruktur als Sprachnavigationsstruktur der Site erkannt werden (wie durch den Wert **der Sprachstruktur** definiert).
 
