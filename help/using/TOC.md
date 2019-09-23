@@ -18,7 +18,7 @@ source-git-commit: fb56cf9323ab0872c59563728f5947ced33c0658
 + Erste Schritte {#get-started}
    + [Authoring mit Kernkomponenten ](authoring.md)
    + [Verwenden von Kernkomponenten](using.md)
-   + [Lokalisierungsfunktionen](localization.md)
+   + [Localization Features](localization.md)
 + Die Komponenten {#components}
    + [Akkordeon](accordion.md)
    + [Breadcrumb](breadcrumb.md)
