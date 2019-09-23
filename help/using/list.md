@@ -18,7 +18,7 @@ modalsize: 426x240
 index: y
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ---
@@ -51,7 +51,7 @@ Um die Listenkomponente sowie Beispiele für die Konfigurationsoptionen sowie HT
 
 ### Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Listenkomponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/list/v2/list).
+Die aktuelle technische Dokumentation zur List Component [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/list/v2/list).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
 
