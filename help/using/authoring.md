@@ -21,7 +21,7 @@ Die Kernkomponenten bieten eine flexible und funktionsreiche Authoring-Funktiona
 
 To experience the Core Components and see examples of their configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html).
 
-Eine detailliertere Entwicklerorientierte Einführung zur Implementierung der Kernkomponenten in einem AEM-Projekt bietet das [WKND-Tutorial.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+Für eine tiefer gehende, entwicklungsorientierte Einführung in die Implementierung der Kernkomponenten in einem AEM-Projekt lesen Sie [das WKND-Lernprogramm.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ Eine detailliertere Entwicklerorientierte Einführung zur Implementierung der Ke
 
 >[!CAUTION]
 >
->Core-Komponenten [erfordern AEM 6.3 oder höher](versions.md) und erfordern [bearbeitbare Vorlagen](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html). Sie funktionieren weder mit der klassischen Benutzeroberfläche noch mit statischen Vorlagen.
+>Hauptkomponenten [erfordern AEM 6.3 oder höher](versions.md) und müssen [bearbeitbare Vorlagen](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)verwenden. Sie funktionieren weder mit der klassischen Benutzeroberfläche noch mit statischen Vorlagen.
 
 ## Authoring mit Kernkomponenten {#authoring-with-core-components}
 
@@ -37,15 +37,15 @@ Als Autor werden Sie einige Vorteile der Kernkomponenten bemerken, wie beispiels
 
 * Simple to use and well-integrated with the [page editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)
 
-* Funktionsreiche Funktionen für zahlreiche Anwendungsfälle, [wie in "We. Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) " und in der [Komponentenbibliothek gezeigt](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html)
+* Funktionsreiche Funktionen zur Unterstützung vieler Anwendungsfälle, wie [in We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) sowie in der [Komponentenbibliothek dargestellt](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html)
 
-* [Vorkonfigurierbar](#pre-configuring-core-components) , um zu definieren, welche Funktionen für Seitenautoren über den [Vorlageneditor verfügbar sind](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+* [Vorkonfigurierbar](#pre-configuring-core-components) zur Definition der Funktionen, die Seitenautoren über den [Vorlageneditor zur Verfügung stehen](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
 
 * Built around [accessibility guidelines](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
 
 * Built to support [responsive layout](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/responsive-layout.html)
 
-* Erstellung [einfacher Lokalisierung](localization.md)
+* Die [einfache Lokalisierung wird unterstützt](localization.md)
 
 Components are available on the **Components** tab of the side panel of the page editor when [editing a page](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html).
 
@@ -81,7 +81,7 @@ Die Stile der meisten Kernkomponenten können mithilfe des AEM-Stilsystems defin
 * Ein Vorlagenautor kann festlegen, welche Stile für eine bestimmte Komponente im Dialogfeld „Design“ dieser Komponente verfügbar sind.
 * Der Inhaltsautor kann dann festlegen, welche Stile angewendet werden sollen, wenn er die Komponente hinzufügt und Inhalte erstellt.
 
-Weitere Informationen finden Sie in der [Dokumentation zum Stilsystem](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/style-system.html) .
+Weitere Informationen finden Sie in der Dokumentation zum [Stilsystem](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/style-system.html) .
 
 >[!NOTE]
 >
