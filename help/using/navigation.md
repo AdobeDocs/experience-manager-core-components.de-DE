@@ -29,18 +29,18 @@ Mit der Navigationskomponente können Benutzer leicht durch eine globalisierten 
 
 ## Nutzung {#usage}
 
-In den Navigationskomponentenlisten wird eine Reihe vonseiten aufgelistet, sodass Benutzer einer Site einfach die Site-Struktur navigieren können.
+In der Navigationskomponente wird ein Seitenbaum aufgelistet, sodass Benutzer einer Website problemlos in der Site-Struktur navigieren können.
 
-Die Navigationskomponente kann die globale Site-Struktur Ihrer Site automatisch erkennen und [automatisch an eine lokalisierte Seite anpassen.](#localized-site-strucutre) Darüber hinaus kann eine beliebige Sitestruktur durch die Verwendung [von Schattenumleitungsseiten](#shadow-structure) zur Darstellung einer anderen Struktur als der Hauptinhaltsstruktur unterstützt werden.
+Die Navigationskomponente kann die globale Site-Struktur Ihrer Site automatisch erkennen und [automatisch an eine lokalisierte Site anpassen.](#localized-site-strucutre) Darüber hinaus kann eine beliebige Site-Struktur durch die Verwendung von [Shadow-Umleitungsseiten](#shadow-structure) zur Darstellung einer anderen Struktur als Ihrer Hauptinhaltsstruktur unterstützt werden.
 
 Das Dialogfeld [„Bearbeiten“](#edit-dialog) ermöglicht es dem Inhaltsautor, die Navigationsstammseite zusammen mit der Navigationstiefe zu definieren. Das [Dialogfeld „Design“](#design-dialog) ermöglicht es dem Vorlagenautor, Standardwerte für den Navigationsstamm und die Tiefe zu definieren.
 
-## Unterstützung lokalisierter Site-Struktur {#localized-site-structure}
+## Unterstützung für lokalisierte Site-Strukturen {#localized-site-structure}
 
-Webseiten werden oft in verschiedenen Sprachen für verschiedene Regionen angeboten. In der Regel enthält jede lokalisierte Seite ein navagation-Element, das Teil der Seitenvorlage ist. Die Navigationskomponente ermöglicht es Ihnen, sie einmal auf einer Vorlage für alle Seiten Ihrer Site zu platzieren, und wird dann automatisch auf die einzelnen lokalisierten Seiten basierend auf Ihrer globalen Site-Struktur angepasst.
+Webseiten werden oft in verschiedenen Sprachen für verschiedene Regionen angeboten. Normalerweise enthält jede lokalisierte Seite ein Navigationselement, das als Teil der Seitenvorlage enthalten ist. Mit der Navigationskomponente können Sie sie einmal in einer Vorlage für alle Seiten Ihrer Site platzieren. Sie wird dann, basierend auf Ihrer globalisierten Site-Struktur, automatisch an die einzelnen lokalisierten Seiten angepasst.
 
-* Ein Beispiel zur Funktionsweise der Lokalisierungsfunktion der Navigationskomponente finden Sie [im folgenden Abschnitt](#example-localiatzion).
-* Ein Beispiel dafür, wie die Lokalisierungsfunktionen der Kernkomponenten zusammen funktionieren, finden Sie in den [Lokalisierungsfunktionen der Seite Kernkomponenten](localization.md).
+* Ein Beispiel für die Funktionsweise der Lokalisierungsfunktion der Navigationskomponente finden Sie [im Abschnitt unten](#example-localiatzion).
+* Ein Beispiel dafür, wie die Lokalisierungsfunktionen der Hauptkomponenten zusammenarbeiten, finden Sie auf der Seite "Hauptkomponenten"unter [Lokalisierungsfunktionen](localization.md).
 
 ### Beispiel {#example-localization}
 
@@ -74,32 +74,32 @@ Nehmen wir an, dass Ihr Inhalt wie folgt aussieht:
 \-- wknd-shop
 ```
 
-Für die Site We. Retail möchten Sie wahrscheinlich die Navigationskomponente als Teil der Kopfzeile auf einer Seitenvorlage platzieren. Once part of the template, you can set the **Navigation Root** of the component to `/content/we-retail/language-masters/en` since that is where your master content for that site begins. Vielleicht möchten Sie auch die **Navigationsstruktur für** die Navigation festlegen, da Sie `2` wahrscheinlich nicht möchten, dass die gesamte Inhaltsstruktur durch die Komponente angezeigt wird, sondern die ersten beiden Ebenen, sodass sie als Übersicht dienen.
+Für die Site „We.Retail“ möchten Sie wahrscheinlich die Navigationskomponente auf einer Seitenvorlage als Teil der Kopfzeile platzieren. Sobald die Komponente ein Teil der Vorlage ist, können Sie den **Navigationsstamm** der Komponente auf `/content/we-retail/language-masters/en` festlegen, da dort Ihr Master-Inhalt für diese Site beginnt. Eventuell möchten Sie auch die **Tiefe der Navigationsstruktur** auf `2` festlegen, da Sie wahrscheinlich nicht möchten, dass die gesamte Inhaltsstruktur durch die Komponente angezeigt wird, sondern die ersten beiden Ebenen, sodass dies als Übersicht dient.
 
-Mit dem **Navigationsstamm-** Wert weiß die Navigationskomponente, dass die `/content/we-retail/language-masters/en` Navigation beginnt, und sie kann Navigationsoptionen generieren, indem sie die Struktur der Site auf zwei Ebenen nach unten (laut Definition durch den Wert **der Navigationsstruktur)** wiederherstellen.
+Anhand des Wertes des **Navigationsstamms** weiß die Navigationskomponente, dass nach `/content/we-retail/language-masters/en` die Navigation beginnt, und sie kann somit Navigationsoptionen generieren, indem sie die Struktur der Site auf zwei Ebenen nach unten (wie durch den Wert der **Navigationsstrukturtiefe** vorgegeben) rekursiv darstellt.
 
-Unabhängig davon, welche lokalisierte Seite ein Benutzer ansieht, kann die Navigationskomponente die entsprechende lokalisierte Seite finden, indem sie den Ort der aktuellen Seite kennen, rückwärts bis zum Stamm arbeiten und dann zur entsprechenden Seite weiterleitet.
+Unabhängig davon, welche lokalisierte Seite ein Benutzer ansieht, kann die Navigationskomponente die entsprechende lokalisierte Seite finden, indem sie den Speicherort der aktuellen Seite kennt, zum Stammverzeichnis zurückkehrt und sich dann zur entsprechenden Seite vorarbeitet.
 
-Wenn sich ein Besucher also ansieht `/content/ch/de/experience/arctic-surfing-in-lofoten`, weiß die Komponente, dass die Navigationsstruktur basiert `/content/we-retail/language-masters/de`. Gleichermaßen weiß die Komponente, ob der Besucher die `/content/us/en/experience/arctic-surfing-in-lofoten`Navigationsstruktur `/content/we-retail/language-masters/en`generiert.
+Wenn ein Besucher also `/content/ch/de/experience/arctic-surfing-in-lofoten` anzeigt, kann die Komponente die Navigationsstruktur basierend auf `/content/we-retail/language-masters/de` generieren. Wenn der Besucher `/content/us/en/experience/arctic-surfing-in-lofoten` anzeigt, kann die Komponente dementsprechend die Navigationsstruktur basierend auf `/content/we-retail/language-masters/en` generieren.
 
-## Unterstützung der Schatten-Site-Struktur {#shadow-structure}
+## Unterstützung für Shadow Site-Struktur {#shadow-structure}
 
-Manchmal ist es erforderlich, ein Navigationsmenü für den Besucher zu erstellen, das sich von der tatsächlichen Site-Struktur unterscheidet. Vielleicht sollte eine Promotion bestimmte Inhalte im Menü hervorheben, indem Sie die Inhaltsauflistung neu anordnen. Mithilfe von Shadow-Seiten, die einfach zu anderen Inhaltsseiten umgeleitet werden, kann die Navigationskomponente beliebige erforderliche Navigationsstruktur generieren.
+Manchmal ist es notwendig, ein Navigationsmenü für den Besucher zu erstellen, welches sich von der tatsächlichen Site-Struktur unterscheidet. Vielleicht soll eine Promotion bestimmte Inhalte im Menü hervorheben, indem die Liste der Inhalte neu angeordnet werden. Mithilfe von Shadow-Seiten, die einfach zu anderen Inhaltsseiten umleiten, kann die Navigationskomponente eine beliebige erforderliche Navigationsstruktur generieren.
 
-Hierfür müssen Sie:
+Dazu müssen Sie Folgendes tun:
 
-1. Erstellen Sie Schatten-Seiten als emtpy-Seiten, die Ihre gewünschte Site-Struktur repräsentieren. Dies wird häufig als Shadow-Site-Struktur bezeichnet.
-1. Legen Sie **die Umleitungswerte** in den Seitenprorperties auf diesen Seiten fest, um auf die tatsächlichen Inhaltsseiten zu verweisen.
-1. Legen Sie **die Option "In der Navigationsleiste** ausblenden" in den Seiteneigenschaften der Schatten fest.
+1. Erstellen Sie Shadow-Seiten als leere Seiten, die Ihre gewünschte Site-Struktur repräsentieren. Dies wird häufig als Shadow-Standortstruktur bezeichnet.
+1. Legen Sie die Werte für die **Umleitung** in den Seiteneinstellungen auf diesen Seiten fest, um auf die tatsächlichen Inhaltsseiten zu verweisen.
+1. Legen Sie die Option **In der Navigation ausblenden** in den Seiteneigenschaften der Shadow-Seiten fest.
 1. Legen Sie den **Navigationsstammwert** der Navigationskomponente fest, um auf den Stamm der neuen Shadow-Site-Struktur zu verweisen.
 
-Die Navigationskomponente rendert das Menü dann basierend auf der Shadow-Site-Struktur. Die von der Komponente gerenderten Links beziehen sich auf die tatsächlichen Inhaltsseiten, auf die die Schatten umgeleitet werden, und nicht auf die Schatten-Seiten selbst. Darüber hinaus zeigt die Komponente die Namen der tatsächlichen Seiten an sowie die aktive Seite, auch wenn die Navigation auf Schatten-Seiten basiert. Die Navigationskomponente macht die Schattenseiten für den Besucher vollkommen transparent.
+Die Navigationskomponente rendert dann das Menü basierend auf der Shadow-Site-Struktur. Die von der Komponente gerenderten Links beziehen sich auf die tatsächlichen Inhaltsseiten, auf die die Shadow-Seiten umleiten, und nicht auf die Shadow-Seiten selbst. Darüber hinaus zeigt die Komponente die Namen der tatsächlichen Seiten an und hebt die aktive Seite korrekt hervor, auch wenn die Navigation auf Shadow-Seiten basiert. Die Navigationskomponente macht die Shadow-Seiten für den Besucher vollständig transparent.
 
 >[!NOTE]
->Durch Schattenseiten können Ihre Navigationsoptionen viel flexibler werden, denken Sie jedoch daran, dass die Aktivierung dieser Struktur vollständig manuell ist. Wenn Sie Ihren tatsächlichen Site-Inhalt neu anordnen oder Inhalte hinzufügen/entfernen, müssen Sie die Schattenstruktur nach Bedarf manuell aktualisieren.
+>Durch Shadow-Seiten werden Ihre Navigationsoptionen wesentlich flexibler. Beachten Sie jedoch, dass diese Struktur dann vollständig manuell verwaltet wird. Wenn Sie den Inhalt Ihren tatsächlichen Site neu anordnen oder Inhalte hinzufügen/entfernen, müssen Sie die Shadow-Struktur nach Bedarf manuell aktualisieren.
 
 >[!NOTE]
->Beim Rendern einer Shadow-Site-Struktur werden nur die Schatten-Seiten von der Navigationslogik wiederholt. Die Logik stellt die Struktur der Umleitungsziele nicht wieder her.
+>Beim Rendern einer Shadow-Site-Struktur werden nur die Shadow-Seiten von der Navigationslogik rekursiv dargestellt. Die Logik führt keine Rekursion der Struktur der Umleitungsziele aus.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
@@ -119,7 +119,7 @@ Um die Navigationskomponente sowie Beispiele für die Konfigurationsoptionen sow
 
 ## Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Navigationskomponente [finden Sie unter github](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/navigation/v1/navigation).
+Die neueste technische Dokumentation zur Navigationskomponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/navigation/v1/navigation).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
 
@@ -131,7 +131,7 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 
 Im Dialogfeld „Bearbeiten“ kann der Inhaltsautor die Stammseite für die Navigation und die Tiefe der Navigationsstruktur definieren.
 
-### Registerkarte „Eigenschaften“{#properties-tab}
+### Registerkarte „Eigenschaften“ {#properties-tab}
 
 ![](assets/screen-shot-2019-08-29-12.23.45.png)
 
@@ -144,19 +144,19 @@ Sammeln Sie alle untergeordneten Seiten, die sich auf dem Navigationsstamm befin
 * **Navigationsstrukturtiefe**
 Definiert, wie viele Ebenen die Komponente in der Navigationsstruktur im Verhältnis zum Navigationsstamm anzeigen soll (nur verfügbar, wenn **Sammlung aller untergeordneten Seiten** nicht ausgewählt sind).
 
-### Registerkarte "Ein-/Ausgabehilfe « {#accessibility-tab}
+### Registerkarte „Barrierefreiheit“ {#accessibility-tab}
 
 ![](assets/screen-shot-2019-08-29-12.23.53.png)
 
-Auf der **Registerkarte Ein-/Ausgabehilfe** können Werte für [ARIA-Barrierefreiheitsbeschriftungen](https://www.w3.org/WAI/standards-guidelines/aria/) für die Komponente festgelegt werden.
+On the **Accessibility** tab, values can be set for [ARIA accessibility](https://www.w3.org/WAI/standards-guidelines/aria/) labels for the component.
 
-* **Beschriftung** - Wert eines ARIA-Label-Attributs für die Komponente
+* **Bezeichnung** - Wert eines ARIA-Bezeichnungs-Attributs für die Komponente
 
 ## Dialogfeld „Design“ {#design-dialog}
 
 Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Standardwerte für die Navigationsstammseite und die Navigationstiefe festzulegen, die den Inhaltsautoren angezeigt werden.
 
-### Registerkarte „Eigenschaften“{#properties-tab-design}
+### Registerkarte „Eigenschaften“ {#properties-tab-design}
 
 ![](assets/screen_shot_2018-04-03at112357.png)
 
