@@ -9,8 +9,8 @@ content-type: Referenz
 topic-tags: entwickeln
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 3c9e0ade-1ce0-4e34-ae04-8da63f9b6c4f
-translation-type: ht
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
+translation-type: tm+mt
+source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
 
 ---
 
@@ -40,9 +40,9 @@ Und alle Kernkomponenten implementieren das [Stilsystem](customizing.md).
 
 Es ist möglicherweise sinnvoll, die in einem Kernkomponentendialogfeld verfügbaren Konfigurationsoptionen anzupassen, entweder [im Dialogfeld „Design“ oder im Dialogfeld „Bearbeiten“](authoring.md).
 
-Jedes Dialogfeld hat eine einheitliche Knotenstruktur. Es wird empfohlen, diese Struktur in einer erbenden Komponente zu replizieren, sodass der [Sling Resource Merger](https://helpx.adobe.com/de/experience-manager/6-4/sites/developing/using/sling-resource-merger.html) und [Ausblendebedingungen](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/using/hide-conditions.html) zum Ausblenden, Ersetzen oder Neuordnen von Abschnitten des ursprünglichen Dialogfelds verwendet werden können. Die zu replizierende Struktur ist als beliebiger Wert bis zur Registerkartenelement-Knotenebene definiert.
+Jedes Dialogfeld hat eine einheitliche Knotenstruktur. It is recommended that this structure is replicated in an inheriting component so that [Sling Resource Merger](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/sling-resource-merger.html) and [Hide Conditions](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/hide-conditions.html) can be used to hide, replace, or reorder sections of the original dialog. Die zu replizierende Struktur ist als beliebiger Wert bis zur Registerkartenelement-Knotenebene definiert.
 
-Damit alle Änderungen an einem Dialogfeld in seiner aktuellen Version vollständig kompatibel sind, ist es äußerst wichtig, dass Strukturen unterhalb der Registerkartenelementebene nicht angerührt werden (ausgeblendet, hinzugefügt, ersetzt, neu angeordnet usw.). Stattdessen sollte ein Tabulatorelement aus der übergeordneten Eigenschaft über die `sling:hideResource`-Eigenschaft ausgeblendet werden (siehe [Sling Resource Merger-Eigenschaften](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/using/sling-resource-merger.html)) und neue Registerkartenelemente hinzugefügt werden, die die spezifischen Konfigurationsfelder enthalten. `sling:orderBefore` kann verwendet werden, um die Registerkartenelemente bei Bedarf neu anzuordnen.
+Damit alle Änderungen an einem Dialogfeld in seiner aktuellen Version vollständig kompatibel sind, ist es äußerst wichtig, dass Strukturen unterhalb der Registerkartenelementebene nicht angerührt werden (ausgeblendet, hinzugefügt, ersetzt, neu angeordnet usw.). Instead, a tab item from the parent should be hidden via the `sling:hideResource` property (see [Sling Resource Merger Properties](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/sling-resource-merger.html)), and new tab items added that contain the bespoke configuration fields. `sling:orderBefore` kann verwendet werden, um die Registerkartenelemente bei Bedarf neu anzuordnen.
 
 Das folgende Dialogfeld zeigt die empfohlene Dialogfeldstruktur sowie das Ausblenden und Ersetzen einer vererbten Registerkarte wie oben beschrieben:
 
@@ -118,7 +118,7 @@ public class PageHeadline implements Title {
 }
 ```
 
-Weitere Informationen zum Delegationsmuster finden Sie im GitHub-Wiki-Artikel zu Kernkomponenten [Delegationsmuster für Sling-Modelle](https://github.com/adobe/aem-core-wcm-components/wiki/Delegation-Pattern-for-Sling-Models).
+For further details about the delegation pattern see the Core Components GitHub Wiki article [Delegation Pattern for Sling Models](https://github.com/adobe/aem-core-wcm-components/wiki/Delegation-Pattern-for-Sling-Models).
 
 ### Anpassen des Markup {#customizing-the-markup}
 
@@ -151,9 +151,9 @@ Should we provide guidance on how to name their CSS classes, etc. to align to co
 
 Die erste Art der Anpassung besteht darin, CSS-Stile anzuwenden.
 
-Um dies zu vereinfachen, rendern die Kernkomponenten das Semantik-Markup und folgen einer standardisierten Benennungskonvention, die von [Bootstrap](https://getbootstrap.com/) inspiriert wurde. Um die Stile für die einzelnen Komponenten einfach zu erreichen und zu benennen, wird jede Kernkomponente in ein DIV-Element mit den Klassen `cmp` und `cmp-<name>` eingeschlossen.
+Um dies zu vereinfachen, rendern die Kernkomponenten das Semantik-Markup und folgen einer standardisierten Benennungskonvention, die von [Bootstrap](https://getbootstrap.com/) / inspiriert wurde. Um die Stile für die einzelnen Komponenten einfach zu erreichen und zu benennen, wird jede Kernkomponente in ein DIV-Element mit den Klassen `cmp` und `cmp-<name>` eingeschlossen.
 
-Beispielsweise die HTL-Datei der Breadcrumb-Kernkomponente von v1: [breadcrumb.html](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb/breadcrumb.html). Wir sehen, dass die Hierarchie der Elementausgabe `ol.breadcrumb > li.breadcrumb-item > a` ist. Um sicherzustellen, dass eine CSS-Regel nur die Breadcrumb-Klasse dieser Komponente betrifft, sollten alle Regeln in einem Namensbereich angeordnet werden, wie unten dargestellt:
+For instance, looking at the HTL file of the v1 Core Breadcrumb Component: [breadcrumb.html](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb/breadcrumb.html), we see that the hierarchy of elements output are `ol.breadcrumb > li.breadcrumb-item > a`. Um sicherzustellen, dass eine CSS-Regel nur die Breadcrumb-Klasse dieser Komponente betrifft, sollten alle Regeln in einem Namensbereich angeordnet werden, wie unten dargestellt:
 
 ```shell
 .cmp-breadcrumb .breadcrumb {}  
@@ -161,7 +161,7 @@ Beispielsweise die HTL-Datei der Breadcrumb-Kernkomponente von v1: [breadcrumb.h
 .cmp-breadcrumb a {}
 ```
 
-Darüber hinaus nutzen alle Kernkomponenten das [Stilsystem](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/style-system.htm) von AEM, das es Vorlagenautoren ermöglicht, zusätzliche CSS-Klassennamen zu definieren, die von den Seitenautoren auf die Komponente angewendet werden können. Auf diese Weise können Sie für jede Vorlage eine Liste der zulässigen Komponentenstile definieren und festlegen, ob eine dieser Komponenten standardmäßig auf alle Komponenten dieser Art angewendet werden soll.
+Additionally, each of the Core Components leverage the AEM [Style System feature](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/style-system.html) that allows template authors to define additional CSS class names that can be applied to the component by the page authors. Auf diese Weise können Sie für jede Vorlage eine Liste der zulässigen Komponentenstile definieren und festlegen, ob eine dieser Komponenten standardmäßig auf alle Komponenten dieser Art angewendet werden soll.
 
 ## Upgrade-Kompatibilität von Anpassungen {#upgrade-compatibility-of-customizations}
 
@@ -171,7 +171,7 @@ Es gibt drei verschiedene Arten von Upgrades:
 * Upgrade der Kernkomponenten auf eine neue Unterversion
 * Upgrade der Kernkomponenten auf eine Hauptversion
 
-Im Allgemeinen wirkt sich das Aktualisieren von AEM auf eine neue Version nicht auf die Kernkomponenten oder die vorgenommenen Anpassungen aus, sofern die Versionen der Komponenten auch die neue AEM-Version unterstützen, die migriert wird, und diese Anpassungen keine APIs verwenden, die [nicht mehr unterstützt werden oder entfernt wurden](https://helpx.adobe.com/de/experience-manager/6-5/release-notes/deprecated-removed-features.html).
+Generally, upgrading AEM to a new version won't impact the Core Components or the customizations done, provided that the components' versions also support the new AEM version that is being migrated to, and that customizations don't use APIs that have been [deprecated or removed](https://helpx.adobe.com/experience-manager/6-5/release-notes/deprecated-removed-features.html).
 
 Das Aktualisieren der Kernkomponenten ohne Wechseln zu einer neueren Hauptversion sollte sich nicht auf Anpassungen auswirken, solange die auf dieser Seite beschriebenen Anpassungsmuster verwendet werden.
 
@@ -191,7 +191,7 @@ Wie bei jeder AEM-Komponente gibt es einige Aspekte hinsichtlich der Anpassungen
 
 1. **Achten Sie auf veraltete und entfernte Funktionen.**
 
-   Stellen Sie bei jeder neuen AEM-Version, auf die ein Upgrade erfolgt, sicher, dass alle verwendeten APIs noch aktuell sind, indem Sie die Seite [Veraltete und entfernte Funktionen](https://helpx.adobe.com/de/experience-manager/6-5/release-notes/deprecated-removed-features.html) prüfen.
+   With each new AEM version being upgraded to, ensure that all API used are still topical by keeping an eye on the [Deprecated and Removed Features](https://helpx.adobe.com/experience-manager/6-5/release-notes/deprecated-removed-features.html) page.
 
 Siehe auch Abschnitt zur [Kernkomponentenunterstützung](developing.md#core-component-support).
 
