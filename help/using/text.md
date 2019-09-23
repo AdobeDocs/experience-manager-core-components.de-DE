@@ -8,7 +8,7 @@ contentOwner: Benutzer
 content-type: Referenz
 topic-tags: Kernkomponenten
 discoiquuid: 9a290584-565e-4392-999c-999ee4a93da1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ---
@@ -39,23 +39,23 @@ Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in d
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Um die Textkomponente zu erleben und Beispiele für ihre Konfigurationsoptionen sowie die HTML- und JSON-Ausgabe zu sehen, besuchen Sie die [Komponentenbibliothek](http://opensource.adobe.com/de/aem-core-wcm-components/library/text.html).
+To experience the Text Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/text.html).
 
 ### Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Textkomponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/text/v2/text).
+The latest technical documentation about the Text Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/text/v2/text).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
 
 ## Die Textkomponente und der Rich-Text-Editor {#the-text-component-and-the-rich-text-editor}
 
-Die Textkomponente der Kernkomponenten nutzt den AEM-Rich-Text-Editor (RTE). Der Rich-Text-Editor (RTE) bietet Inhaltsautoren eine große Bandbreite an Funktionen zum Bearbeiten von ihren Textinhalten. Der RTE ist in seiner Konfiguration sehr flexibel und bietet eine Reihe von Optionen. Weitere Informationen zum Konfigurieren des RTE finden Sie in den Artikeln [Konfigurieren des Rich-Text-Editors](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/rich-text-editor.html) und [Konfigurieren der Plug-ins des Rich-Text-Editors](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/configure-rich-text-editor-plug-ins.html) finden.
+Die Textkomponente der Kernkomponenten nutzt den AEM-Rich-Text-Editor (RTE). Der Rich-Text-Editor (RTE) bietet Inhaltsautoren eine große Bandbreite an Funktionen zum Bearbeiten von ihren Textinhalten. Der RTE ist in seiner Konfiguration sehr flexibel und bietet eine Reihe von Optionen. Further details about how the RTE can be configured can be found in the articles [Configure the Rich Text Editor](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/rich-text-editor.html) and [Configure the Rich Text Editor plug-ins](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/configure-rich-text-editor-plug-ins.html).
 
 Der Rest dieses Artikels zeigt die Standardkonfiguration der Textkomponente der Kernkomponenten mit der vordefinierten RTE-Konfiguration.
 
 >[!NOTE]
 >
->In der Textkomponente sind nur Optionen verfügbar, die durch die [Benutzeroberflächenkonfigurationen des RTE](https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/6-5/sites/administering/using/rich-text-editor.html) aktiviert sind.
+>Only options enabled by [UI configurations of the RTE](https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/6-5/sites/administering/using/rich-text-editor.html) are available by in the Text Component.
 
 ## Dialogfeld „Bearbeiten“ {#edit-dialog}
 
@@ -263,7 +263,7 @@ Die Beschriftung der Tabelle
 
 Wird verwendet, um die Rechtschreibung des Textinhalts zu überprüfen. Mögliche Rechtschreibfehler sind durch gestrichelte rote Linien unterstrichen.
 
-Weitere Details zur Rechtschreibprüfung und zum Anpassen von Rechtschreibprüfungswörterbüchern finden Sie im Dokument [Konfigurieren der Plug-ins des Rich-Text-Editors](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/configure-rich-text-editor-plug-ins.html).
+Further details about spell checking and customizing spell check dictionaries can be found in the document [Configure the Rich Text Editor Plug-Ins](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/configure-rich-text-editor-plug-ins.html).
 
 ### Sonderzeichen {#special-characters}
 
