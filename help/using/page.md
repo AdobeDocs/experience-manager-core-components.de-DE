@@ -9,15 +9,15 @@ content-type: Referenz
 topic-tags: Authoring
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: cb1a745a-30c4-4ad6-a04f-fefb3666cd95
-translation-type: ht
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
+translation-type: tm+mt
+source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 ---
 
 
 # Seitenkomponente{#page-component}
 
-Die Seitenkomponente ist eine Erweiterungskomponente für Seiten, die den Einsatz mit dem [Vorlageneditor](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/templates.html) arbeitet und es ermöglicht, Seitenkopf/Fußzeile und Strukturkomponenten mit dem Vorlageneditor zusammenzufügen.
+The Page Component is an extensible page component designed to work with the [template editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) and allows page header/footer and structure components to be assembled with the template editor.
 
 ## Nutzung {#usage}
 
@@ -40,11 +40,11 @@ Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in d
 
 >[!NOTE]
 >
->Um die Umleitung auf `cq:Page`-Ebene für Version 2 der Seitenkomponente und AEM 6.3 zu aktivieren, ist [Service Pack 2](https://helpx.adobe.com/de/experience-manager/6-3/release-notes/sp2-release-notes.html) oder höher erforderlich. Diese Umleitung war in früheren Versionen nicht verfügbar.
+>To enable redirect at `cq:Page` level for verison 2 of the page component and AEM 6.3, [service pack 2](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp2-release-notes.html) or later is required. Diese Umleitung war in früheren Versionen nicht verfügbar.
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Folgendes Beispiel wurde von [We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) übernommen.
+Im Folgenden finden Sie ein Beispiel von [We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
 
 ### Screenshot {#screenshot}
 
@@ -58,7 +58,7 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 
 ## Dialogfeld „Bearbeiten“ {#edit-dialog}
 
-Da die Komponente die gesamte Seite darstellt, befinden sich Einstellungen, die normalerweise in einem Dialogfeld „Bearbeiten“ enthalten wären, im Fenster [„Seiteneigenschaften“](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/editing-page-properties.html).
+Because the component represents the entire page, settings that would normally be in an edit dialog are found in the [Page Properties](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-page-properties.html) window.
 
 ## Dialogfeld „Design“{#design-dialog}
 
@@ -92,7 +92,7 @@ Bibliotheken können wie folgt für die beiden Felder **Client-Bibliotheken** un
 * Um ein Feld zu entfernen, klicken oder tippen Sie neben dem Feld, das entfernt werden soll, auf das Papierkorbsymbol.
 * Um die Ladereihenfolge neu anzuordnen, klicken oder tippen Sie auf den Griff neben dem Feld, das verschoben werden soll, und ziehen Sie es.
 
-Weitere Informationen zur Verwendung Client-seitiger Bibliotheken finden Sie unter [Verwendung von Client-seitigen Bibliotheken](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/using/clientlibs.html).
+Weitere Informationen zur Verwendung clientseitiger Bibliotheken finden Sie unter [Verwenden clientseitiger Bibliotheken](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html).
 
 >[!CAUTION]
 >
