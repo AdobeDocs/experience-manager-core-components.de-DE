@@ -18,8 +18,8 @@ modalsize: 426x240
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
+translation-type: tm+mt
+source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 ---
 
@@ -47,7 +47,7 @@ Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in d
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Folgendes Beispiel wurde von [We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) übernommen.
+Im Folgenden finden Sie ein Beispiel von [We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
 
 ### Screenshot {#screenshot}
 
@@ -88,7 +88,7 @@ Folgendes Beispiel wurde von [We.Retail](https://helpx.adobe.com/experience-mana
 
 ### Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Formulartext-Komponente[ finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v2/text).
+Die aktuelle technische Dokumentation zur Form Text Component [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v2/text).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
 
@@ -143,4 +143,4 @@ Wenn ausgewählt, kann der Benutzer den Wert des Felds nicht ändern
 
 ## Dialogfeld „Design“ {#design-dialog}
 
-Es gibt kein Dialogfeld „Design“ für die Formulartext-Komponente
+Es gibt kein Dialogfeld „Design“ für die Formulartext-Komponente.
