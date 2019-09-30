@@ -10,7 +10,7 @@ topic-tags: Einführung
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: c44bb0d7-5d91-4659-878e-a0658fe29aa2
 translation-type: tm+mt
-source-git-commit: b6fbef1cff2908533df6573cd3a92266857ba93f
+source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
 
 ---
 
@@ -44,7 +44,7 @@ Die Kernkomponenten sind:
 | Erweiterbar | Um benutzerdefinierte Anforderungen zu behandeln, ohne komplett neu beginnen zu müssen, können Sie alles erweitern. |
 | Open Source | Wenn etwas nicht so ist, wie es sein sollte, können Sie auf GitHub (Apache License) Verbesserungsvorschläge einreichen. |
 | Versionierung | Die Kernkomponenten werden Ihre Website nicht beschädigen, wenn Sie Dinge verbessern, die sich möglicherweise auf Sie auswirken. |
-| [Lokalisiert](localization.md) | Intelligente Referenzauflösung ermöglicht es bestimmten Komponenten, entsprechende lokalisierte Inhalte automatisch zu finden und wiederzugeben |
+| [Lokalisiert](localization.md) | Mit der intelligenten Referenzauflösung ist es bestimmten Komponenten möglich, entsprechende lokalisierte Inhalte automatisch zu finden und anzuzeigen |
 
 ## Verfügbare Komponenten {#available-components}
 
@@ -58,6 +58,7 @@ Die aktuelle Version der Kernkomponenten enthält die folgenden Komponenten.
 * [Inhaltsfragment](content-fragment-component.md)
 * [Inhaltsfragmentliste](content-fragment-list.md)
 * [Download](download.md)
+* [Einbetten](embed.md)
 * [Experience Fragment](experience-fragment.md)
 * [Formularschaltfläche](form-button.md)
 * [Formular-Container](form-container.md)
