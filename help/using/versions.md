@@ -10,14 +10,14 @@ topic-tags: Einführung
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: a3a98b2f-65bf-4493-82ad-01717938fdbc
 translation-type: tm+mt
-source-git-commit: 9f4f97713d20b6343b78f8046d96752fa0b0a07d
+source-git-commit: 6882a0d8247328c403dc11a25ed9d079aefede69
 
 ---
 
 
 # Kernkomponenten-Versionen{#core-components-versions}
 
-Die aktuelle Version der Kernkomponenten ist 2.6.0 und ist mit AEM 6.5 kompatibel. Sie wurde im September 2019 als wichtige Aktualisierung der Version 2.0.0 veröffentlicht. Mit Version 2.0.0 wurden neue Komponenten zusammen mit v2-Aktualisierungen der vorhandenen Komponenten eingeführt.
+Die aktuelle Version der Kernkomponenten ist 2.7.0 und ist mit AEM 6.5 kompatibel. Sie wurde im September 2019 als wichtige Aktualisierung der Version 2.0.0 veröffentlicht. Mit Version 2.0.0 wurden neue Komponenten zusammen mit v2-Aktualisierungen der vorhandenen Komponenten eingeführt.
 
 Weitere Informationen finden Sie im Abschnitt [Versionsverlauf und Kompatibilität](#versions-and-releases) dieses Dokuments.
 
@@ -63,8 +63,9 @@ Die folgende Tabelle, deren Inhalt [auf GitHub mit vollständigen Veröffentlich
 
 | Version | Beschreibung | AEM 6.3 | AEM 6.4 | AEM 6.5 | Java | Veröffentlichungsdatum |
 |---|---|---|---|---|---|---|
+| [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | This release introduced the new Embed component | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 25. September 2019 |
 | [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | Mit dieser Version wurde die neue Experience Fragment-Komponente eingeführt. | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 6. September 2019 |
-| [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | In dieser Version wurden die neuen Komponenten Akkordeon, Schaltfläche, Container und Herunterladen eingeführt. | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 25. Juni 2019 |
+| [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | This release introduced the new Accordion, Button, Container, and Download components. | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 25. Juni 2019 |
 | [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | Mit dieser Version wurde die Inhaltsfragmentlisten-Komponente eingeführt. | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | 7. Mai 2019 |
 | [2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2) | Diese Version konzentriert sich auf Verfeinerungen in der Komponentenbibliothek, enthält aber auch einige Funktionsverbesserungen für die Trennzeichenkomponente | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8 | 14. März 2019 |
 | [2.3.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.0) | Diese Version konzentriert sich sowohl auf die Komponentenbibliothek als auch auf die Einführung der neuen Trennzeichenkomponente, enthält jedoch auch einige Funktionsverbesserungen für die Bild-Komponente. | 6.3.3.0+ | 6.4.2.0+ | - | 8 | 11. Februar 2019 |
@@ -89,34 +90,43 @@ Die folgende Tabelle, deren Inhalt [auf GitHub mit vollständigen Veröffentlich
 
 Die folgende Tabelle zeigt, welche Versionen welcher Komponenten in welchen Freigaben der Kernkomponenten enthalten sind.
 
-|  | Freigabe 1.0.0 - 1.0.6 | Freigabe 1.1.0 | Freigabe 2.0.0 - 2.0.8 | Freigabe 2.1.0 | Freigabe 2.2.-2.2.0 | 2.3.0 |
-|---|---|---|---|---|---|---|
-| **[Seite](page.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[Titel](title.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[Bild](image.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[Liste](list.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[Breadcrumb](breadcrumb.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[Freigabe in Social Media](sharing.md)** | v1 | v1 | v1 | v1 | v1 | v1 |
-| **[Formular-Container](form-container.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[Formulartext](form-text.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[Formularoptionen](form-options.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[Ausgeblendetes Formular](form-hidden.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[Formularschaltfläche](form-button.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
-| **[Inhaltsfragment](content-fragment-component.md)** |  | Sandbox | v1 | v1 | v1 | v1 |
-| **[Navigation](navigation.md)** |  |  | v1 | v1 | v1 | v1 |
-| **[Sprachnavigation](language-navigation.md)** |  |  | v1 | v1 | v1 | v1 |
-| **[Schnellsuche](quick-search.md)** |  |  | v1 | v1 | v1 | v1 |
-| **[Teaser](teaser.md)** |  |  |  | v1 | v1 | v1 |
-| **[Registerkarten](tabs.md)** |  |  |  |  | v1 | v1 |
-| **[Karussell](carousel.md)** |  |  |  |  | v1 | v1 |
-| **[Trennzeichen](separator.md)** |  |  |  |  |  | v1 |
+|  | Freigabe 1.0.0 - 1.0.6 | Freigabe 1.1.0 | Freigabe 2.0.0 - 2.0.8 | Freigabe 2.1.0 | Release 2.2.0-2.2.0 | Version 2.3.0-2.3.2 | Freigabe 2.4.0 | Freigabe 2.5.0 | Freigabe 2.6.0 | Freigabe 2.7.0+ |
+|---|---|---|---|---|---|---|---|---|---|---|
+| **[Seite](page.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
+| **[Titel](title.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
+| **[Bild](image.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
+| **[Liste](list.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
+| **[Breadcrumb](breadcrumb.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
+| **[Freigabe in Social Media](sharing.md)** | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[Formular-Container](form-container.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
+| **[Formulartext](form-text.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
+| **[Formularoptionen](form-options.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
+| **[Ausgeblendetes Formular](form-hidden.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
+| **[Formularschaltfläche](form-button.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
+| **[Inhaltsfragment](content-fragment-component.md)** |  | Sandbox | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[Navigation](navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[Sprachnavigation](language-navigation.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[Schnellsuche](quick-search.md)** |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[Teaser](teaser.md)** |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[Registerkarten](tabs.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[Karussell](carousel.md)** |  |  |  |  | v1 | v1 | v1 | v1 | v1 | v1 |
+| **[Trennzeichen](separator.md)** |  |  |  |  |  | v1 | v1 | v1 | v1 | v1 |
+| **[Inhaltsfragmentliste](content-fragment-list.md)** |  |  |  |  |  |  | v1 | v1 | v1 | v1 |
+| **[Akkordeon](accordion.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
+| **[Schaltfläche](button.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
+| **[Container](separator.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
+| **[Download](separator.md)** |  |  |  |  |  |  |  | v1 | v1 | v1 |
+| **[Experience Fragment](separator.md)** |  |  |  |  |  |  |  |  | v1 | v1 |
+| **[Einbetten](separator.md)** |  |  |  |  |  |  |  |  |  | v1 |
 
 ## Dokumentation {#documentation}
 
 [Authoring mit Kernkomponenten](authoring.md) beschreibt die Nutzung der Kernkomponenten und der Funktionen, die für Inhaltsautoren und Vorlagenautoren verfügbar sind. Jede Komponente wird detailliert dokumentiert.
 
-[Die Komponentenbibliothek](http://opensource.adobe.com/aem-core-wcm-components/library.html) ist ein Beispiel für die aktuelle Version der meisten Kernkomponenten und zeigt, wie sie verwendet werden können.
+[Component Library](http://opensource.adobe.com/aem-core-wcm-components/library.html) is a showcase of the current version of most Core Components, illustrating how they can be used.
 
 [Entwicklung von Kernkomponenten](developing.md) beschreibt die technischen Funktionen der Kernkomponenten, deren Verwendung in Ihren Projekten, die Anpassung und Best Practices.
 
 [Einführung zu den Kernkomponenten](introduction.md) bietet eine Übersicht über die Kompatibilität der Kernkomponenten zwischen verschiedenen Versionen, Anwendungsfällen und Unterstützung.
+
+[The WKND Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) is a great step-by-step introduction to developing for AEM including using the Core Components.
