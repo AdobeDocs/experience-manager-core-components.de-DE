@@ -8,7 +8,7 @@ content-type: Referenz
 topic-tags: Authoring
 discoiquuid: 8751e490-d427-44f2-b767-51935afda988
 translation-type: tm+mt
-source-git-commit: b6fbef1cff2908533df6573cd3a92266857ba93f
+source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
 
 ---
 
@@ -21,7 +21,7 @@ Die Kernkomponenten bieten eine flexible und funktionsreiche Authoring-Funktiona
 
 To experience the Core Components and see examples of their configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html).
 
-Für eine tiefer gehende, entwicklungsorientierte Einführung in die Implementierung der Kernkomponenten in einem AEM-Projekt lesen Sie [das WKND-Lernprogramm.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+Eine tiefergehende und entwicklerorientierte Einführung in die Implementierung der Kernkomponenten in ein AEM-Projekt finden Sie im [WKND-Tutorial.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ Für eine tiefer gehende, entwicklungsorientierte Einführung in die Implementie
 
 >[!CAUTION]
 >
->Hauptkomponenten [erfordern AEM 6.3 oder höher](versions.md) und müssen [bearbeitbare Vorlagen](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)verwenden. Sie funktionieren weder mit der klassischen Benutzeroberfläche noch mit statischen Vorlagen.
+>Core Components require AEM 6.3 or higher and require the use of editable templates. [](versions.md)[](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) Sie funktionieren weder mit der klassischen Benutzeroberfläche noch mit statischen Vorlagen.
 
 ## Authoring mit Kernkomponenten {#authoring-with-core-components}
 
@@ -45,7 +45,7 @@ Als Autor werden Sie einige Vorteile der Kernkomponenten bemerken, wie beispiels
 
 * Built to support [responsive layout](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/responsive-layout.html)
 
-* Die [einfache Lokalisierung wird unterstützt](localization.md)
+* Entwickelt als Hilfe für die [einfache Lokalisierung](localization.md)
 
 Components are available on the **Components** tab of the side panel of the page editor when [editing a page](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html).
 
@@ -101,6 +101,7 @@ Die aktuelle Version der Kernkomponenten enthält die folgenden Komponenten.
 * [Inhaltsfragment](content-fragment-component.md)
 * [Inhaltsfragmentliste](content-fragment-list.md)
 * [Download](download.md)
+* [Einbetten](embed.md)
 * [Experience Fragment](experience-fragment.md)
 * [Formularschaltfläche](form-button.md)
 * [Formular-Container](form-container.md)
