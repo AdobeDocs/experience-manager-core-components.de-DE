@@ -10,7 +10,7 @@ topic-tags: entwickeln
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 157a2ec3-9fca-4fad-977a-d93013eeb218
 translation-type: tm+mt
-source-git-commit: 63e75079e41d3091ca57bfc3129e700675bf4939
+source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
 
 ---
 
@@ -32,7 +32,7 @@ Die Kernkomponenten bieten leistungsfähige und erweiterbare Basiskomponenten un
    * [Sicherstellung der Kompatibilität innerhalb einer Version](#upgrade-of-core-components), wobei die Komponenten trotzdem weiterentwickelt werden können.
    * Zulassen, dass mehrere Versionen einer Komponente in derselben Umgebung koexistieren können
 * Moderne Implementierung
-   * Markup defined in [HTML Template Language](https://helpx.adobe.com/experience-manager/htl/using/overview.html) (HTL)
+   * Markup defined in HTML Template Language (HTL)[](https://helpx.adobe.com/experience-manager/htl/using/overview.html)
    * Content model logic implemented with [Sling Models](https://sling.apache.org/documentation/bundles/models.html)
 * Schlankes Markup
    * Following [Block Element Modifier](https://getbem.com/) (BEM) notation as of Release 2.0.0
@@ -41,7 +41,7 @@ Die Kernkomponenten bieten leistungsfähige und erweiterbare Basiskomponenten un
    * Kann für responsive und mobile Sites eingesetzt werden.
 * Möglichkeit, das Inhaltsmodell für Headless-CMS-Anwendungsfälle als JSON zu serialisieren
 * Barrierefrei
-   * Compliant with the WCAG 2.0 AA standard[](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
+   * Übereinstimmung mit dem [WCAG 2.0 AA-Standard](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
 
 >[!CAUTION]
 >
@@ -53,7 +53,7 @@ Die Kernkomponenten bieten leistungsfähige und erweiterbare Basiskomponenten un
 
 Um eine Einführung in die Kernkomponenten, die angebotenen Funktionen und ihre Nutzung in AEM zu erhalten, sehen Sie sich die AEM-Gems-Sitzung [AEM-Kernkomponenten](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
 
-[Gems on Adobe Experience Manager is a series of technical deep dives delivered by Adobe experts. ](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) Diese Reihe ergänzt die Produktdokumentation und alle anderen technischen Kanäle und ermöglicht es Entwicklern, in Kontakt zu treten und ein bestimmtes Thema zu vertiefen.
+[Gems on Adobe Experience Manager](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) ist eine Reihe technischer Tauchgänge, die von Adobe-Experten durchgeführt werden. Diese Reihe ergänzt die Produktdokumentation und alle anderen technischen Kanäle und ermöglicht es Entwicklern, in Kontakt zu treten und ein bestimmtes Thema zu vertiefen.
 
 ## WKND-Entwickler-Tutorial {#wknd-developer-tutorial}
 
@@ -99,15 +99,15 @@ Einzelheiten zu ihren Authoring-Fähigkeiten und Optionen zu ihrer Vorkonfigurat
 | **Funktion** | **Kernkomponente** | **Foundation-Komponente** |
 |-----|---|---|
 | Logikimplementierung | Java POJOs with [Sling Models](https://sling.apache.org/documentation/bundles/models.html) annotations | JSP-Code |
-| Markup-Definition | [HTML Template Language](https://helpx.adobe.com/experience-manager/htl/user-guide.html) (HTL) syntax | JSP-Code |
+| Markup-Definition | [Syntax der HTML-Vorlagensprache](https://helpx.adobe.com/experience-manager/htl/user-guide.html) (HTL) | JSP-Code |
 | XSS-Bereinigung | Automatisiert durch HTL | Hauptsächlich manuell |
 | CSS-Klassen-Benennung | Standardized naming convention based on [Block Element Modifier](https://getbem.com/) (BEM) notation (as of release 2.0.0) | Benutzerdefinierte Schemata |
-| Dialogfeld-Definition | [Coral 3](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Coral 2 + Klassische Benutzeroberfläche |
-| JSON-Ausgabe | [Sling Models Exporter with Jackson serialization](https://sling.apache.org/documentation/bundles/models.html#exporter-framework-since-130) | Standard-Sling-Servlet |
+| Dialogfeld-Definition | [Koralle 3](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Coral 2 + Klassische Benutzeroberfläche |
+| JSON-Ausgabe | [Sling Models Exporter mit Jackson-Serialisierung](https://sling.apache.org/documentation/bundles/models.html#exporter-framework-since-130) | Standard-Sling-Servlet |
 | Versionierung | [Für das Modell und die HTL](guidelines.md) | Keine |
 | Testen | Unit-Tests und Integrationstests | Integrationstests |
-| Bereitstellung | [Via public GitHub](https://github.com/adobe/aem-core-wcm-components) | Über Quickstart |
-| Lizenz | [Apache License](https://www.apache.org/licenses/LICENSE-2.0) | Adobe-geschützt |
+| Bereitstellung | [Über öffentliche GitHub](https://github.com/adobe/aem-core-wcm-components) | Über Quickstart |
+| Lizenz | [Apache-Lizenz](https://www.apache.org/licenses/LICENSE-2.0) | Adobe-geschützt |
 | Beitrag | Über Pull-Anfrage | Nicht möglich |
 | Barrierefreiheit | Fully compliant with the WCAG 2.0 AA standard[](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html) | Only partially compliant with the [WCAG 2.0 AA standard](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html) |
 
@@ -143,6 +143,7 @@ In der folgenden Tabelle sind die verfügbaren Kernkomponenten mit Links zu ihre
 | [Schaltfläche](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button) | Erstellen einer Schaltfläche auf einer Seite | `-` |
 | [Download](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/download/v1/download) | Hinzufügen eines herunterladbaren Assets zu einer Seite | `-` |
 | [Experience Fragment](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/experience-fragment/v1/experience-fragment) | Hinzufügen eines Experience Fragment zu einer Seite | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
+| [Einbetten](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed) | Einbetten einer externen Ressource in eine Seite | - |
 
 ### Künftige Komponenten {#upcoming-components}
 
