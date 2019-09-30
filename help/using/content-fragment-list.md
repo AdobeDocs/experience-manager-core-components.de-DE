@@ -8,7 +8,7 @@ content-type: Referenz
 topic-tags: Authoring
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 translation-type: tm+mt
-source-git-commit: d683f8110b514860bba11e08e6923be49e92652f
+source-git-commit: 6882a0d8247328c403dc11a25ed9d079aefede69
 
 ---
 
@@ -42,7 +42,7 @@ Rufen Sie die [Komponentenbibliothek](http://opensource.adobe.com/aem-core-wcm-c
 
 ## Technische Details {#technical-details}
 
-The latest technical documentation about the Content Fragment List Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/contentfragmentlist/v1/contentfragmentlist).
+Die neueste technische Dokumentation zur Inhaltsfragmentlistenkomponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/contentfragmentlist/v1/contentfragmentlist).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
 
@@ -54,27 +54,35 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 
 Auf der Registerkarte **Eigenschaften** wird festgelegt, welche Inhaltsfragmente in der Liste enthalten sind. Dies basiert hauptsächlich auf einem ausgewählten Inhaltsfragment-Modell, es stehen aber auch andere Filteroptionen zur Verfügung.
 
-![](assets/screen-shot-2019-05-08-10.47.19.png)
+![](assets/screen-shot-2019-09-25-10.32.10.png)
 
 * **Modell** - Pfad zum Inhaltsfragment-Modell, auf dem die Liste basiert.
    * Standardmäßig sind alle Inhaltsfragmente des Modells, das als **Modellpfad** definiert ist, in der Liste enthalten.
 * **Übergeordneter Pfad** - Übergeordneter Pfad, aus dem die Liste erstellt werden soll.
    * Die auf dem ausgewählten **Modellpfad** basierenden Inhaltsfragmente werden nach den im **Übergeordneten Pfad** enthaltenen gefiltert.
-   * Klicken oder tippen Sie auf die Schaltfläche **Auswahl-Dialogfeld öffnen** auf der rechten Seite des Feldes, um den Pfad anzugeben.
+      * Klicken oder tippen Sie auf die Schaltfläche **Auswahl-Dialogfeld öffnen** auf der rechten Seite des Feldes, um den Pfad anzugeben.
 * **Tags** - Nur die Inhaltsfragmente mit den angegebenen Tags werden in die Liste aufgenommen.
    * Klicken oder tippen Sie auf die Schaltfläche **Auswahl-Dialogfeld öffnen** auf der rechten Seite des Feldes, um die Tags anzugeben.
    * Klicken oder tippen Sie auf das X neben den ausgewählten Tags, um sie zu entfernen.
+* **Reihenfolge nach** - Feld des Inhaltsfragmentmodells, nach dem die Liste angeordnet werden soll
+   * Es können nur Textfelder (einschließlich numerisch, Datum und Uhrzeit) ausgewählt werden.
+* **Sortierreihenfolge** - Sortieren der Liste nach dem Feld **Reihenfolge**
+   * Aufsteigend oder absteigend
+* **Max. Elemente** - Maximale Anzahl der in der Liste anzuzeigenden Elemente
+   * Kein Wert gibt alle Elemente zurück.
 
+>[!NOTE]
+>Die **Optionen "Reihenfolge nach**", " **Sortierreihenfolge**"und " **Max. Elemente** "wurden mit Version 2.7.0 der Kernkomponenten eingeführt.
 
 ### Registerkarte „Elemente“
 
-Standardmäßig werden alle Elemente des Inhaltsfragmentmodells in die Liste aufgenommen. Unter **Elemente** können Sie nur bestimmte Elemente angeben, die einbezogen werden sollen.
+Standardmäßig werden alle Elemente des Inhaltsfragmentmodells in die Liste aufgenommen (sofern sie nicht durch das Feld " **Max. Elemente** "eingeschränkt sind). The **Elements** tab allows you to specify only specific elements to include.
 
 ![](assets/screen-shot-2019-05-08-10.47.34.png)
 
 * **Elemente** - Es werden nur die Elemente der Inhaltsfragmente in der angegebenen Liste angezeigt.
-   * Klicken oder tippen Sie auf die Schaltfläche **Hinzufügen**, um ein neues Element hinzuzufügen.
-   * Klicken oder tippen Sie auf die Schaltfläche **Entfernen**, um ein ausgewähltes Element zu entfernen.
+   * Klicken oder tippen Sie auf die Schaltfläche **Hinzufügen**, um ein neues Element hinzuzufügen..
+   * Click or tap the **Delete** button to remove a selected element.
    * Ziehen Sie den Ziehgriff **Reihenfolge**, um die Reihenfolge der Elemente zu ändern.
 
 ## Dialogfeld „Design“ {#design-dialog}
