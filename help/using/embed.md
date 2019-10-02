@@ -1,30 +1,30 @@
 ---
-title: Embed Component
-seo-title: Embed Component
-description: The Embed Component enables embedding external content in an AEM content page.
-seo-description: he Embed Component enables embedding external content in an AEM content page.
+title: Komponente einbetten
+seo-title: Komponente einbetten
+description: Die Einbettungskomponente ermöglicht das Einbetten externer Inhalte in eine AEM-Inhaltsseite.
+seo-description: Die Einbettungskomponente ermöglicht das Einbetten externer Inhalte in eine AEM-Inhaltsseite.
 content-type: Referenz
 topic-tags: Kernkomponenten
 translation-type: tm+mt
-source-git-commit: 6882a0d8247328c403dc11a25ed9d079aefede69
+source-git-commit: 97f1461b57079806f9f96d325d9b763538e32127
 
 ---
 
 
-# Embed Component{#embed-component}
+# Komponente einbetten{#embed-component}
 
 Die Komponente "Core-Komponenten einbetten"ermöglicht das Einbetten externer Inhalte in eine AEM-Inhaltsseite.
 
 ## Nutzung {#usage}
 
-The Core Component Embed Component allows the content author to define selected external content to be embedded within an AEM content page. In addition, there is an option to define free-form HTML to be embedded as well.
+Mit der Komponente "Einbettung der Kernkomponente"kann der Inhaltsersteller ausgewählte externe Inhalte definieren, die in eine AEM-Inhaltsseite eingebettet werden sollen. Darüber hinaus gibt es die Möglichkeit, frei formbares HTML zu definieren, das ebenfalls eingebettet werden soll.
 
-* Die Eigenschaften der Komponente können im Dialogfeld [Konfigurieren](#configure-dialog) definiert werden.
+* The component's properties can be defined in the [configure dialog](#configure-dialog).
 * Die Standardeinstellungen für die Komponente beim Hinzufügen zu einer Seite können im Dialogfeld [Design](#design-dialog) definiert werden.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die aktuelle Version der Einbettungskomponente ist Version 1, die mit Version 2.7.0 der Kernkomponenten im September 2019 eingeführt wurde und in diesem Dokument beschrieben wird.
+The current version of the Embed Component is v1, which was introduced with release 2.7.0 of the Core Components in September 2019, and is described in this document.
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
@@ -40,43 +40,43 @@ To experience the Embed Component as well as see examples of its configuration o
 
 ## Technische Details {#technical-details}
 
-The latest technical documentation about the Embed Component can be found on GitHub.[](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed)
+Die aktuelle technische Dokumentation zur Embed-Komponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
 
 ## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
-The configure dialog allows the content author to define the external resource to be embedded on the page. Wählen Sie zunächst aus, welche Ressource eingebettet werden soll: **URL**, **Einbettbar** oder **HTML**.
+The configure dialog allows the content author to define the external resource to be embedded on the page. First choose which type of resource should be embedded: **URL**, **Embeddable**, or **HTML**.
 
 ### URL {#url}
 
-Die einfachste Einbettung ist die URL. Fügen Sie einfach die URL der Ressource ein, die Sie in das Feld **URL** einbetten möchten. Die Komponente versucht, auf die Ressource zuzugreifen. Wenn sie von einem der Prozessoren wiedergegeben werden kann, wird eine Bestätigungsmeldung unter dem Feld " **URL** "angezeigt. Andernfalls wird das Feld mit Fehler gekennzeichnet.
+The simplest embed is the URL. Simply paste the URL of the resource you wish to embed in the URL field. **** The component will attempt to access the resource and if it can be rendered by one of the processors, it will display a confirmation message below the URL field. **** If not, the field will be marked in error.
 
-Die Einbettungskomponente wird mit Prozessoren für die folgenden Arten von Ressourcen geliefert:
+The Embed Component ships with processors for the following types of resources:
 
-* Ressourcen, die dem [oEmbed-Standard](https://oembed.com/) entsprechen, einschließlich Facebook Post, Instagram, SoundCloud, Twitter und YouTube
+* Resources that comply with the oEmbed standard including Facebook Post, Instagram, SoundCloud, Twitter, and YouTube[](https://oembed.com/)
 * Pinterest
 
-Entwickler können zusätzliche URL-Prozessoren hinzufügen, indem sie der Entwicklerdokumentation der Einbettungskomponente [folgen.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
+Developers can add additional URL processors by [following the developer documentation of the Embed Component.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
 
 ![](assets/screen-shot-2019-09-25-10.08.29.png)
 
-### Einbetten {#embeddable}
+### Einbettbar {#embeddable}
 
-Einbettbare ermöglichen eine stärkere Anpassung der eingebetteten Ressource, die parametrisiert werden kann und zusätzliche Informationen enthält. Ein Autor kann aus vorkonfigurierten vertrauenswürdigen Einbettbaren auswählen und die Komponente wird mit einem YouTube-Prozessor geliefert.
+Embeddables allow for more customization of the embedded resource, which can be parameterized and include additional information. An author is able to select from pre-configured trusted embeddables and the component ships with a Youtube embeddable out-of-the-box.
 
-Das Feld **Einbetten** definiert den zu verwendenden Prozessortyp. Im Falle des YouTube-Prozessors können Sie dann Folgendes definieren:
+The **Embeddable** field defines the type of processor you want to use. Im Falle der YouTube-Einbettung können Sie dann Folgendes definieren:
 
-* **Video-ID** - Die eindeutige Video-ID von YouTube der Ressource, die Sie einbetten möchten
+* **Video ID - The unique video ID from YouTube of the resource you want to embed**
 * **Breite** - Die Breite des eingebetteten Videos
 * **Höhe** - Die Höhe des eingebetteten Videos
 
-Andere Prozessoren bieten ähnliche Felder an und können von einem Entwickler anhand der Entwicklerdokumentation der Einbettungskomponente definiert [werden.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
+Andere Einbettungsvariablen bieten ähnliche Felder an und können von einem Entwickler anhand der Entwicklerdokumentation der Einbettungskomponente definiert werden. [Dies gilt auch für Einbettungselemente.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
 
 ![](assets/screen-shot-2019-09-25-10.15.00.png)
 
 >[!NOTE]
->Eingebettete Prozessoren müssen auf Vorlagenebene über das [Designdialogfeld](#design-dialog) aktiviert werden, damit sie dem Seitenautor zur Verfügung stehen.
+>Einbettbare müssen auf Vorlagenebene über das [Designdialogfeld](#design-dialog) aktiviert werden, damit sie dem Seitenautor zur Verfügung stehen.
 
 ### HTML {#html}
 
@@ -94,6 +94,6 @@ Im Dialogfeld "Entwurf"kann der Vorlagenautor die Optionen festlegen, die dem In
 ![](assets/screen-shot-2019-09-25-10.25.28.png)
 
 * **URL** deaktivieren - Deaktiviert die Option " **URL** "für den Inhaltsautor, wenn ausgewählt
-* **Disable Embeddables - Disables the Embeddable option for the content author when selected, regardless of which embeddable processors are allowed.******
-* **Disable HTML - Disables the HTML option for the content author when selected.******
-* **Allowed Embeddables - Multislect that defines which embeddable processors are avaiable to the content author, provided that the Embeddable option is active.******
+* **Einbettbare** deaktivieren: Deaktiviert die Option " **Einbetten** "für den Inhaltsersteller, sofern ausgewählt, unabhängig davon, welche Prozessoren einbetten können.
+* **HTML** deaktivieren - Deaktiviert die **HTML** -Option für den Inhaltsautor, wenn diese ausgewählt ist.
+* **Zulässige Einbettungen** - Diese Option definiert, welche einbettbaren Prozessoren für den Inhaltsersteller verfügbar sind, sofern die Option **Einbetten** aktiv ist.
