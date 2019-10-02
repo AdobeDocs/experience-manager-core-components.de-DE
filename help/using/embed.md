@@ -1,23 +1,23 @@
 ---
-title: Komponente einbetten
-seo-title: Komponente einbetten
-description: Die Einbettungskomponente ermöglicht das Einbetten externer Inhalte in eine AEM-Inhaltsseite.
-seo-description: Die Einbettungskomponente ermöglicht das Einbetten externer Inhalte in eine AEM-Inhaltsseite.
+title: Embed Component
+seo-title: Embed Component
+description: The Embed Component enables embedding external content in an AEM content page.
+seo-description: The Embed Component enables embedding external content in an AEM content page.
 content-type: Referenz
 topic-tags: Kernkomponenten
 translation-type: tm+mt
-source-git-commit: 97f1461b57079806f9f96d325d9b763538e32127
+source-git-commit: d748bf211ec36d12cac016ca9bf707f24db1ce48
 
 ---
 
 
-# Komponente einbetten{#embed-component}
+# Embed Component{#embed-component}
 
-Die Komponente "Core-Komponenten einbetten"ermöglicht das Einbetten externer Inhalte in eine AEM-Inhaltsseite.
+The Core Components Embed Component allows embedding external content in an AEM content page.
 
 ## Nutzung {#usage}
 
-Mit der Komponente "Einbettung der Kernkomponente"kann der Inhaltsersteller ausgewählte externe Inhalte definieren, die in eine AEM-Inhaltsseite eingebettet werden sollen. Darüber hinaus gibt es die Möglichkeit, frei formbares HTML zu definieren, das ebenfalls eingebettet werden soll.
+The Core Component Embed Component allows the content author to define selected external content to be embedded within an AEM content page. In addition, there is an option to define free-form HTML to be embedded as well.
 
 * The component's properties can be defined in the [configure dialog](#configure-dialog).
 * Die Standardeinstellungen für die Komponente beim Hinzufügen zu einer Seite können im Dialogfeld [Design](#design-dialog) definiert werden.
@@ -40,21 +40,21 @@ To experience the Embed Component as well as see examples of its configuration o
 
 ## Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Embed-Komponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed).
+The latest technical documentation about the Embed Component can be found on GitHub.[](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed)
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
 
 ## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
-The configure dialog allows the content author to define the external resource to be embedded on the page. First choose which type of resource should be embedded: **URL**, **Embeddable**, or **HTML**.
+Im Dialogfeld "Konfigurieren"kann der Inhaltsersteller die externe Ressource definieren, die auf der Seite eingebettet werden soll. First choose which type of resource should be embedded: URL, Embeddable, or HTML.************
 
 ### URL {#url}
 
-The simplest embed is the URL. Simply paste the URL of the resource you wish to embed in the URL field. **** The component will attempt to access the resource and if it can be rendered by one of the processors, it will display a confirmation message below the URL field. **** If not, the field will be marked in error.
+Die einfachste Einbettung ist die URL. Fügen Sie einfach die URL der Ressource ein, die Sie in das Feld **URL** einbetten möchten. The component will attempt to access the resource and if it can be rendered by one of the processors, it will display a confirmation message below the URL field. **** Andernfalls wird das Feld mit Fehler gekennzeichnet.
 
-The Embed Component ships with processors for the following types of resources:
+Die Einbettungskomponente wird mit Prozessoren für die folgenden Arten von Ressourcen geliefert:
 
-* Resources that comply with the oEmbed standard including Facebook Post, Instagram, SoundCloud, Twitter, and YouTube[](https://oembed.com/)
+* Ressourcen, die dem [oEmbed-Standard](https://oembed.com/) entsprechen, einschließlich Facebook Post, Instagram, SoundCloud, Twitter und YouTube
 * Pinterest
 
 Developers can add additional URL processors by [following the developer documentation of the Embed Component.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
@@ -63,11 +63,11 @@ Developers can add additional URL processors by [following the developer documen
 
 ### Einbettbar {#embeddable}
 
-Embeddables allow for more customization of the embedded resource, which can be parameterized and include additional information. An author is able to select from pre-configured trusted embeddables and the component ships with a Youtube embeddable out-of-the-box.
+Einbettbare ermöglichen eine stärkere Anpassung der eingebetteten Ressource, die parametrisiert werden kann und zusätzliche Informationen enthält. Ein Autor kann aus vorkonfigurierten vertrauenswürdigen Einbettungsvariablen auswählen und die Komponente wird mit einer YouTube-Einbettung geliefert, die standardmäßig installiert werden kann.
 
-The **Embeddable** field defines the type of processor you want to use. Im Falle der YouTube-Einbettung können Sie dann Folgendes definieren:
+Das Feld **Einbetten** definiert den zu verwendenden Prozessortyp. Im Falle der YouTube-Einbettung können Sie dann Folgendes definieren:
 
-* **Video ID - The unique video ID from YouTube of the resource you want to embed**
+* **Video-ID** - Die eindeutige Video-ID von YouTube der Ressource, die Sie einbetten möchten
 * **Breite** - Die Breite des eingebetteten Videos
 * **Höhe** - Die Höhe des eingebetteten Videos
 
@@ -89,7 +89,7 @@ Mit der Einbettungskomponente können Sie Ihrer Seite Freiform-HTML hinzufügen.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
-Im Dialogfeld "Entwurf"kann der Vorlagenautor die Optionen festlegen, die dem Inhaltsautor, der die Einbettungskomponente verwendet, zur Verfügung stehen, sowie die beim Platzieren der Einbettungskomponente festgelegten Standardwerte.
+The design dialog allows the template author to define the options available to the content author who uses the Embed Component and the defaults set when placing the Embed Component.
 
 ![](assets/screen-shot-2019-09-25-10.25.28.png)
 
