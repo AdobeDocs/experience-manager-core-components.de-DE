@@ -7,10 +7,10 @@ uuid: a916a923-8c5e-456a-84b5-b52228e21434
 contentOwner: Benutzer
 content-type: Referenz
 topic-tags: Einführung
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS
 discoiquuid: a3a98b2f-65bf-4493-82ad-01717938fdbc
 translation-type: tm+mt
-source-git-commit: 97f1461b57079806f9f96d325d9b763538e32127
+source-git-commit: d748bf211ec36d12cac016ca9bf707f24db1ce48
 
 ---
 
@@ -123,7 +123,7 @@ Die folgende Tabelle zeigt, welche Versionen welcher Komponenten in welchen Frei
 
 [Authoring mit Kernkomponenten](authoring.md) beschreibt die Nutzung der Kernkomponenten und der Funktionen, die für Inhaltsautoren und Vorlagenautoren verfügbar sind. Jede Komponente wird detailliert dokumentiert.
 
-[Component Library is a showcase of the current version of most Core Components, illustrating how they can be used.](http://opensource.adobe.com/aem-core-wcm-components/library.html)
+[Die Komponentenbibliothek](http://opensource.adobe.com/aem-core-wcm-components/library.html) ist ein Beispiel für die aktuelle Version der meisten Kernkomponenten und zeigt, wie sie verwendet werden können.
 
 [Entwicklung von Kernkomponenten](developing.md) beschreibt die technischen Funktionen der Kernkomponenten, deren Verwendung in Ihren Projekten, die Anpassung und Best Practices.
 
