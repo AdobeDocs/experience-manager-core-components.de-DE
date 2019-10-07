@@ -6,7 +6,7 @@ seo-description: Die Einbettungskomponente ermöglicht das Einbetten externer In
 content-type: Referenz
 topic-tags: Kernkomponenten
 translation-type: tm+mt
-source-git-commit: e4fdefd392281f4f9101b28a15846c922e3a52c1
+source-git-commit: 648a54d3ab76ec9a9dee10dc97a3f91e6b7509df
 
 ---
 
@@ -95,12 +95,14 @@ Mit der Einbettungskomponente können Sie Ihrer Seite Freiform-HTML hinzufügen.
 
 Das HTML-Markup, das der Autor eingeben kann, wird aus Sicherheitsgründen gefiltert, um Site-übergreifende Skriptangriffe zu vermeiden, die Autoren z. B. Administratorrechte zuweisen könnten.
 
-Im Allgemeinen werden alle Skripten und `style` -Elemente sowie alle `on*` und `style` Attribute aus der Ausgabe entfernt.
+*Im Allgemeinen* werden alle Skript- und `style` -Elemente sowie alle `on*` und `style` Attribute aus der Ausgabe entfernt.
 
-Die Regeln sind jedoch komplizierter als die, da die Einbettungskomponente dem globalen HTML-AntiSami-Filterregelsatz von AEM folgt, der unter `/libs/cq/xssprotection/config.xml`finden wird. Dies kann bei Bedarf von einem Entwickler für eine projektspezifische Konfiguration überlagert werden.
+Die Regeln sind jedoch komplizierter, da die Einbettungskomponente dem globalen Filtersatz für HTML AntiSamy-Sanitärrahmen von AEM folgt, der unter `/libs/cq/xssprotection/config.xml`finden wird. Dies kann bei Bedarf von einem Entwickler für eine projektspezifische Konfiguration überlagert werden.
+
+Weitere Sicherheitsinformationen finden Sie in der [AEM-Entwicklerdokumentation.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/security.html)
 
 >[!NOTE]
->Obwohl die AntiSamy-Regeln durch Überlagerung konfiguriert werden können, wirken sich diese Änderungen auf das gesamte Verhalten von HTL und JSP aus und nicht nur auf die Komponente "Core einbetten". `/libs/cq/xssprotection/config.xml`
+>Obwohl die AntiSamy Sanitation Framework-Regeln durch Überlagerung konfiguriert werden können `/libs/cq/xssprotection/config.xml`, wirken sich diese Änderungen nicht nur auf die Embed Core-Komponente, sondern auf das gesamte HTL- und JSP-Verhalten aus.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
