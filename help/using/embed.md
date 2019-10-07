@@ -1,30 +1,30 @@
 ---
-title: Embed Component
-seo-title: Embed Component
-description: The Embed Component enables embedding external content in an AEM content page.
-seo-description: The Embed Component enables embedding external content in an AEM content page.
+title: Komponente einbetten
+seo-title: Komponente einbetten
+description: Die Einbettungskomponente ermöglicht das Einbetten externer Inhalte in eine AEM-Inhaltsseite.
+seo-description: Die Einbettungskomponente ermöglicht das Einbetten externer Inhalte in eine AEM-Inhaltsseite.
 content-type: Referenz
 topic-tags: Kernkomponenten
 translation-type: tm+mt
-source-git-commit: d748bf211ec36d12cac016ca9bf707f24db1ce48
+source-git-commit: e4fdefd392281f4f9101b28a15846c922e3a52c1
 
 ---
 
 
-# Embed Component{#embed-component}
+# Komponente einbetten{#embed-component}
 
-The Core Components Embed Component allows embedding external content in an AEM content page.
+Die Komponente "Core-Komponenten einbetten"ermöglicht das Einbetten externer Inhalte in eine AEM-Inhaltsseite.
 
 ## Nutzung {#usage}
 
-The Core Component Embed Component allows the content author to define selected external content to be embedded within an AEM content page. In addition, there is an option to define free-form HTML to be embedded as well.
+Mit der Komponente "Einbettung der Kernkomponente"kann der Inhaltsersteller ausgewählte externe Inhalte definieren, die in eine AEM-Inhaltsseite eingebettet werden sollen. Darüber hinaus gibt es die Möglichkeit, frei formbares HTML zu definieren, das ebenfalls eingebettet werden soll.
 
 * The component's properties can be defined in the [configure dialog](#configure-dialog).
 * Die Standardeinstellungen für die Komponente beim Hinzufügen zu einer Seite können im Dialogfeld [Design](#design-dialog) definiert werden.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-The current version of the Embed Component is v1, which was introduced with release 2.7.0 of the Core Components in September 2019, and is described in this document.
+Die aktuelle Version der Einbettungskomponente ist Version 1, die mit Version 2.7.0 der Kernkomponenten im September 2019 eingeführt wurde und in diesem Dokument beschrieben wird.
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
@@ -40,24 +40,28 @@ To experience the Embed Component as well as see examples of its configuration o
 
 ## Technische Details {#technical-details}
 
-The latest technical documentation about the Embed Component can be found on GitHub.[](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed)
+Die aktuelle technische Dokumentation zur Embed-Komponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
 
 ## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
-Im Dialogfeld "Konfigurieren"kann der Inhaltsersteller die externe Ressource definieren, die auf der Seite eingebettet werden soll. First choose which type of resource should be embedded: URL, Embeddable, or HTML.************
+Im Dialogfeld "Konfigurieren"kann der Inhaltsersteller die externe Ressource definieren, die auf der Seite eingebettet werden soll. Wählen Sie zunächst aus, welche Ressource eingebettet werden soll:
+
+* [URL](#url)
+* [Einbettbar](#embeddable)
+* [HTML](#html)
 
 ### URL {#url}
 
-Die einfachste Einbettung ist die URL. Fügen Sie einfach die URL der Ressource ein, die Sie in das Feld **URL** einbetten möchten. The component will attempt to access the resource and if it can be rendered by one of the processors, it will display a confirmation message below the URL field. **** Andernfalls wird das Feld mit Fehler gekennzeichnet.
+Die einfachste Einbettung ist die URL. Fügen Sie einfach die URL der Ressource ein, die Sie in das Feld **URL** einbetten möchten. Die Komponente versucht, auf die Ressource zuzugreifen. Wenn sie von einem der Prozessoren wiedergegeben werden kann, wird eine Bestätigungsmeldung unter dem Feld " **URL** "angezeigt. Andernfalls wird das Feld mit Fehler gekennzeichnet.
 
 Die Einbettungskomponente wird mit Prozessoren für die folgenden Arten von Ressourcen geliefert:
 
 * Ressourcen, die dem [oEmbed-Standard](https://oembed.com/) entsprechen, einschließlich Facebook Post, Instagram, SoundCloud, Twitter und YouTube
 * Pinterest
 
-Developers can add additional URL processors by [following the developer documentation of the Embed Component.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
+Entwickler können zusätzliche URL-Prozessoren hinzufügen, indem sie der Entwicklerdokumentation der Einbettungskomponente [folgen.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
 
 ![](assets/screen-shot-2019-09-25-10.08.29.png)
 
@@ -87,9 +91,20 @@ Mit der Einbettungskomponente können Sie Ihrer Seite Freiform-HTML hinzufügen.
 >[!NOTE]
 >Unsichere Tags wie Skripten werden aus dem eingegebenen HTML gefiltert und nicht auf der resultierenden Seite wiedergegeben.
 
+#### Sicherheit {#security}
+
+Das HTML-Markup, das der Autor eingeben kann, wird aus Sicherheitsgründen gefiltert, um Site-übergreifende Skriptangriffe zu vermeiden, die Autoren z. B. Administratorrechte zuweisen könnten.
+
+Im Allgemeinen werden alle Skripten und `style` -Elemente sowie alle `on*` und `style` Attribute aus der Ausgabe entfernt.
+
+Die Regeln sind jedoch komplizierter als die, da die Einbettungskomponente dem globalen HTML-AntiSami-Filterregelsatz von AEM folgt, der unter `/libs/cq/xssprotection/config.xml`finden wird. Dies kann bei Bedarf von einem Entwickler für eine projektspezifische Konfiguration überlagert werden.
+
+>[!NOTE]
+>Obwohl die AntiSamy-Regeln durch Überlagerung konfiguriert werden können, wirken sich diese Änderungen auf das gesamte Verhalten von HTL und JSP aus und nicht nur auf die Komponente "Core einbetten". `/libs/cq/xssprotection/config.xml`
+
 ## Dialogfeld „Design“ {#design-dialog}
 
-The design dialog allows the template author to define the options available to the content author who uses the Embed Component and the defaults set when placing the Embed Component.
+Im Dialogfeld "Entwurf"kann der Vorlagenautor die Optionen festlegen, die dem Inhaltsautor, der die Einbettungskomponente verwendet, zur Verfügung stehen, sowie die beim Platzieren der Einbettungskomponente festgelegten Standardwerte.
 
 ![](assets/screen-shot-2019-09-25-10.25.28.png)
 
