@@ -1,6 +1,6 @@
 ---
 cloud: experience-cloud
-solution-title: Learn & Support
+solution-title: Lernen und Support
 solution-hub-url: https://helpx.adobe.com/de/support/experience-manager/6-4.html
 solution-image: null
 getting-started-title: Erste Schritte
@@ -9,7 +9,7 @@ tutorials-title: Tutorials
 tutorials-url: https://helpx.adobe.com/experience-manager/kt/index/aem-6-4-videos.html
 git-repo: https://github.com/AdobeDocs/experience-manager-cloud-manager.en
 index: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e5f7fa578f19ed2eb1207c200556d9ac955162d0
 
 ---
