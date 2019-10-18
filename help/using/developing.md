@@ -10,7 +10,7 @@ topic-tags: entwickeln
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 157a2ec3-9fca-4fad-977a-d93013eeb218
 translation-type: tm+mt
-source-git-commit: cbfc96bd215260e902f96c035a7889c968814e39
+source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
 
 ---
 
@@ -61,7 +61,7 @@ Beginnen Sie mit der Entwicklung von AEM Sites mit Kernkomponenten, indem Sie [d
 
 ## AEM-Projektarchetyp {#aem-project-archetype}
 
-[Der AEM Project Archetype](archetype.md) erstellt ein Adobe Experience Manager-Minimalprojekt als Ausgangspunkt für Ihre eigenen Projekte, einschließlich eines Helloworld-Beispiels für benutzerdefinierte HTML-Komponenten mit SlingModels, um die Logik und ordnungsgemäße Implementierung der Core-Komponenten mit dem empfohlenen Proxymuster zu gewährleisten.
+[Der AEM Project Archetype](overview.md) erstellt ein Adobe Experience Manager-Minimalprojekt als Ausgangspunkt für Ihre eigenen Projekte, einschließlich eines Helloworld-Beispiels für benutzerdefinierte HTML-Komponenten mit SlingModels, um die Logik und ordnungsgemäße Implementierung der Core-Komponenten mit dem empfohlenen Proxymuster zu gewährleisten.
 
 ## Über GitHub bereitgestellt {#delivered-over-github}
 
