@@ -10,7 +10,7 @@ topic-tags: entwickeln
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 3c9e0ade-1ce0-4e34-ae04-8da63f9b6c4f
 translation-type: tm+mt
-source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
+source-git-commit: e3b5eb14a8172c2172b936dd8713befd17f17524
 
 ---
 
@@ -34,6 +34,10 @@ Die Kernkomponenten wurden von Anfang an so entworfen, dass sie flexibel und erw
 
 Und alle Kernkomponenten implementieren das [Stilsystem](customizing.md).
 
+## AEM-Projektarchetyp {#aem-project-archetype}
+
+[Der AEM Project Archetype](archetype.md) erstellt ein Adobe Experience Manager-Minimalprojekt als Ausgangspunkt für Ihre eigenen Projekte, einschließlich eines Helloworld-Beispiels für benutzerdefinierte HTML-Komponenten mit SlingModels, um die Logik und ordnungsgemäße Implementierung der Core-Komponenten mit dem empfohlenen Proxymuster zu gewährleisten.
+
 ## Anpassungsmuster {#customization-patterns}
 
 ### Anpassen von Dialogen {#customizing-dialogs}
@@ -45,25 +49,6 @@ Jedes Dialogfeld hat eine einheitliche Knotenstruktur. It is recommended that th
 Damit alle Änderungen an einem Dialogfeld in seiner aktuellen Version vollständig kompatibel sind, ist es äußerst wichtig, dass Strukturen unterhalb der Registerkartenelementebene nicht angerührt werden (ausgeblendet, hinzugefügt, ersetzt, neu angeordnet usw.). Instead, a tab item from the parent should be hidden via the `sling:hideResource` property (see [Sling Resource Merger Properties](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/sling-resource-merger.html)), and new tab items added that contain the bespoke configuration fields. `sling:orderBefore` kann verwendet werden, um die Registerkartenelemente bei Bedarf neu anzuordnen.
 
 Das folgende Dialogfeld zeigt die empfohlene Dialogfeldstruktur sowie das Ausblenden und Ersetzen einer vererbten Registerkarte wie oben beschrieben:
-
-<!-- 
-
-Comment Type: annotation
-Last Modified By: ims-author-CE1E2CE451D1F0680A490D45@AdobeID
-Last Modified Date: 2017-04-17T17:43:20.265-0400
-
-Should we provide guidance on how to name their CSS classes, etc. to align to component re-usability best-practices? We tout that we follow bootstrap css naming, should we be counseling customers to align similarly? .cmp- 
-<component name="">
-  -- 
- <element>
-   - 
-  <element descriptor="">
-    ? 
-  </element> 
- </element> 
-</component>
-
- -->
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -127,25 +112,6 @@ Manchmal erfordert erweitertes Formatieren eine andere Markup-Struktur der Kompo
 Hierfür können Sie ganz einfach die zu ändernden HTL-Dateien aus der Kernkomponente in die Proxy-Komponente kopieren.
 
 Wenn Sie das Beispiel der Breadcrumb-Kernkomponente erneut aufrufen, um die Markup-Ausgabe anzupassen, muss die `breadcrumb.html`-Datei in die Site-spezifische Komponente kopiert werden, die über ein `sling:resourceSuperTypes` verfügt, das auf die Breadcrumb-Kernkomponente zeigt.
-
-<!-- 
-
-Comment Type: annotation
-Last Modified By: ims-author-CE1E2CE451D1F0680A490D45@AdobeID
-Last Modified Date: 2017-04-17T17:43:20.265-0400
-
-Should we provide guidance on how to name their CSS classes, etc. to align to component re-usability best-practices? We tout that we follow bootstrap css naming, should we be counseling customers to align similarly? .cmp- 
-<component name="">
-  -- 
- <element>
-   - 
-  <element descriptor="">
-    ? 
-  </element> 
- </element> 
-</component>
-
- -->
 
 ### Formatieren der Komponenten {#styling-the-components}
 
