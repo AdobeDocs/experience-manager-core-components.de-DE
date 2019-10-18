@@ -7,7 +7,7 @@ contentOwner: Bohnert
 content-type: Referenz
 topic-tags: Kernkomponenten
 translation-type: tm+mt
-source-git-commit: 0a61f4e6d1ad8b4d5e3778018838dc70d496e1fc
+source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
 
 ---
 
@@ -18,7 +18,7 @@ Das Core-Maven-Modul (`<src-directory>/<project>/core`) enthält den gesamten Ja
 
 Das im `<src-directory>/<project>/core/pom.xml` definierten Maven Bundle-Plugin ist für die Kompilierung des Java-Codes in ein OSGi-Bundle verantwortlich, das vom AEM OSGi-Container erkannt werden kann. Beachten Sie, dass hier der Speicherort der Sling-Modelle definiert wird.
 
-Obwohl es selten vorkommt, dass das Kernpaket unabhängig vom ui.apps-Modul in Umgebungen auf der obersten Ebene bereitgestellt werden muss, ist die direkte Bereitstellung des Kernpakets während der lokalen Entwicklung/Tests nützlich. Das Maven Sling Plugin ermöglicht die Bereitstellung des Core Bundles in AEM, wobei das `autoInstallBundle` Profil, wie im [übergeordneten POM](archetype.md#parent-pom)definiert, direkt genutzt wird.
+Obwohl es selten vorkommt, dass das Kernpaket unabhängig vom ui.apps-Modul in Umgebungen auf der obersten Ebene bereitgestellt werden muss, ist die direkte Bereitstellung des Kernpakets während der lokalen Entwicklung/Tests nützlich. Das Maven Sling Plugin ermöglicht die Bereitstellung des Core Bundles in AEM, wobei das `autoInstallBundle` Profil, wie im [übergeordneten POM](overview.md#parent-pom)definiert, direkt genutzt wird.
 
 ```
 mvn -PautoInstallBundle clean install
