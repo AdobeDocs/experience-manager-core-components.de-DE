@@ -10,7 +10,7 @@ topic-tags: entwickeln
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 157a2ec3-9fca-4fad-977a-d93013eeb218
 translation-type: tm+mt
-source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
+source-git-commit: cbfc96bd215260e902f96c035a7889c968814e39
 
 ---
 
@@ -32,7 +32,7 @@ Die Kernkomponenten bieten leistungsfähige und erweiterbare Basiskomponenten un
    * [Sicherstellung der Kompatibilität innerhalb einer Version](#upgrade-of-core-components), wobei die Komponenten trotzdem weiterentwickelt werden können.
    * Zulassen, dass mehrere Versionen einer Komponente in derselben Umgebung koexistieren können
 * Moderne Implementierung
-   * Markup defined in HTML Template Language (HTL)[](https://helpx.adobe.com/experience-manager/htl/using/overview.html)
+   * Markup definiert in [HTML-Vorlagensprache](https://helpx.adobe.com/experience-manager/htl/using/overview.html) (HTL)
    * Content model logic implemented with [Sling Models](https://sling.apache.org/documentation/bundles/models.html)
 * Schlankes Markup
    * Following [Block Element Modifier](https://getbem.com/) (BEM) notation as of Release 2.0.0
@@ -58,6 +58,10 @@ Um eine Einführung in die Kernkomponenten, die angebotenen Funktionen und ihre 
 ## WKND-Entwickler-Tutorial {#wknd-developer-tutorial}
 
 Beginnen Sie mit der Entwicklung von AEM Sites mit Kernkomponenten, indem Sie [dieses Schritt-für-Schritt-Tutorial](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+
+## AEM-Projektarchetyp {#aem-project-archetype}
+
+[Der AEM Project Archetype](archetype.md) erstellt ein Adobe Experience Manager-Minimalprojekt als Ausgangspunkt für Ihre eigenen Projekte, einschließlich eines Helloworld-Beispiels für benutzerdefinierte HTML-Komponenten mit SlingModels, um die Logik und ordnungsgemäße Implementierung der Core-Komponenten mit dem empfohlenen Proxymuster zu gewährleisten.
 
 ## Über GitHub bereitgestellt {#delivered-over-github}
 
@@ -109,7 +113,7 @@ Einzelheiten zu ihren Authoring-Fähigkeiten und Optionen zu ihrer Vorkonfigurat
 | Bereitstellung | [Über öffentliche GitHub](https://github.com/adobe/aem-core-wcm-components) | Über Quickstart |
 | Lizenz | [Apache-Lizenz](https://www.apache.org/licenses/LICENSE-2.0) | Adobe-geschützt |
 | Beitrag | Über Pull-Anfrage | Nicht möglich |
-| Barrierefreiheit | Fully compliant with the WCAG 2.0 AA standard[](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html) | Only partially compliant with the [WCAG 2.0 AA standard](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html) |
+| Barrierefreiheit | Vollständig konform mit dem [WCAG 2.0 AA-Standard](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html) | Only partially compliant with the [WCAG 2.0 AA standard](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html) |
 
 ## Komponentenliste {#component-list}
 
