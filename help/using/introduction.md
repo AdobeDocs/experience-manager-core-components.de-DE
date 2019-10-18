@@ -4,13 +4,13 @@ seo-title: Einführung in Kernkomponenten
 description: 'Kernkomponenten wurden eingeführt, um robuste und erweiterbare Basiskomponenten bereitzustellen, die auf aktueller Technologie und Best Practices basieren. '
 seo-description: 'Kernkomponenten wurden eingeführt, um robuste und erweiterbare Basiskomponenten bereitzustellen, die auf aktueller Technologie und Best Practices basieren. '
 uuid: b815c7d1-fbb0-4480-bd23-42606ff8b1eb
-contentOwner: Benutzer
-content-type: Referenz
-topic-tags: Einführung
+contentOwner: User
+content-type: reference
+topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: c44bb0d7-5d91-4659-878e-a0658fe29aa2
 translation-type: tm+mt
-source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
+source-git-commit: cbfc96bd215260e902f96c035a7889c968814e39
 
 ---
 
@@ -99,9 +99,13 @@ Um eine Einführung in die Kernkomponenten, die angebotenen Funktionen und ihre 
 
 [Gems on Adobe Experience Manager](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) ist eine Reihe technischer Tauchgänge, die von Adobe-Experten durchgeführt werden. Diese Reihe ergänzt die Produktdokumentation und alle anderen technischen Kanäle und ermöglicht es Entwicklern, in Kontakt zu treten und ein bestimmtes Thema zu vertiefen.
 
-## WKND-Entwickler-Tutorial {#wknd-developer-tutorial}
+## Entwicklung mit den Kernkomponenten {#developing-core-components}
+
+Die Core-Komponenten bieten robuste und erweiterbare Basiskomponenten, die verschiedene Muster implementieren, die eine einfache Anpassung ermöglichen, von der einfachen Formatierung bis zur erweiterten Funktionswiederverwendung. See the [Core Components developing documentation](developing.md) for more information.
 
 Beginnen Sie mit der Entwicklung von AEM Sites mit Kernkomponenten, indem Sie [dieses Tutorial schrittweise befolgen.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+
+Vergessen Sie nicht, Ihr eigenes AEM-Projekt mit dem [AEM-Projektarchetyp](archetype.md) zu starten, mit den neuesten integrierten Kernkomponenten!
 
 ## Support für Kernkomponenten {#core-components-support}
 
