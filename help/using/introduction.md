@@ -10,7 +10,7 @@ topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: c44bb0d7-5d91-4659-878e-a0658fe29aa2
 translation-type: tm+mt
-source-git-commit: cbfc96bd215260e902f96c035a7889c968814e39
+source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
 
 ---
 
@@ -105,7 +105,7 @@ Die Core-Komponenten bieten robuste und erweiterbare Basiskomponenten, die versc
 
 Beginnen Sie mit der Entwicklung von AEM Sites mit Kernkomponenten, indem Sie [dieses Tutorial schrittweise befolgen.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
-Vergessen Sie nicht, Ihr eigenes AEM-Projekt mit dem [AEM-Projektarchetyp](archetype.md) zu starten, mit den neuesten integrierten Kernkomponenten!
+Vergessen Sie nicht, Ihr eigenes AEM-Projekt mit dem [AEM-Projektarchetyp](overview.md) zu starten, mit den neuesten integrierten Kernkomponenten!
 
 ## Support für Kernkomponenten {#core-components-support}
 
