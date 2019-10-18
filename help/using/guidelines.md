@@ -10,7 +10,7 @@ topic-tags: entwickeln
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 170dba8f-a2ed-442e-a56e-1126b338c36e
 translation-type: tm+mt
-source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
+source-git-commit: e3b5eb14a8172c2172b936dd8713befd17f17524
 
 ---
 
@@ -112,6 +112,10 @@ Enthält den anfänglichen Inhalt, der beim Erstellen der Seite auf sie duplizie
 Enthält für jede Komponente die Zuordnung zu einer Richtlinie, die die Vorkonfiguration der Komponente ist. Diese Zuordnung ermöglicht die Wiederverwendung von Richtlinien über Vorlagen hinweg, sodass sie zentral verwaltet werden können.
 
 ![Vorlagen und Richtlinien - Übersicht](assets/screen_shot_2018-12-07at093102.png)
+
+## AEM-Projektarchetyp {#aem-project-archetype}
+
+[Der AEM Project Archetype](archetype.md) erstellt ein Adobe Experience Manager-Minimalprojekt als Ausgangspunkt für Ihre eigenen Projekte, einschließlich eines Helloworld-Beispiels für benutzerdefinierte HTML-Komponenten mit SlingModels, um die Logik und ordnungsgemäße Implementierung der Core-Komponenten mit dem empfohlenen Proxymuster zu gewährleisten.
 
 **Lesen Sie als Nächstes:**
 
