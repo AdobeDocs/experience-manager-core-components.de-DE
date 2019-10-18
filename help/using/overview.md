@@ -7,7 +7,7 @@ contentOwner: Bohnert
 content-type: Referenz
 topic-tags: Kernkomponenten
 translation-type: tm+mt
-source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
+source-git-commit: 488132fdc077985cdc3f369e1e127e8bff8e80c7
 
 ---
 
@@ -53,7 +53,7 @@ Der AEM-Archetyp besteht aus Modulen:
 * **[ui.content](uicontent.md)**: enthält Beispielinhalt mit den Komponenten des Moduls ui.apps.
 * **ui.tests**: ist ein Java-Bundle, das JUnit-Tests enthält, die serverseitig ausgeführt werden. Dieses Bundle soll nicht in der Produktion bereitgestellt werden.
 * **ui.launcher**: enthält Klebercode, der das ui.tests-Bundle (und die abhängigen Bundles) auf dem Server bereitstellt und die Ausführung von JUnit auslöst.
-* **[ui.frontend](front-end-build.md)**: [optional] enthält die Artefakte, die zur Verwendung des webpack-basierten Front-End-Buildmoduls erforderlich sind.
+* **[ui.frontend](front-end-build.md)**: **(optional)** enthält die Artefakte, die zur Verwendung des webpack-basierten Front-End-Buildmoduls erforderlich sind.
 
 ![](assets/project-pom.png)
 
