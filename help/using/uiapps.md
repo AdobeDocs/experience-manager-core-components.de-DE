@@ -7,7 +7,7 @@ contentOwner: Bohnert
 content-type: Referenz
 topic-tags: Kernkomponenten
 translation-type: tm+mt
-source-git-commit: 3c37b57eb72d1d662cdbd41ca54cdc592919203c
+source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
 
 ---
 
@@ -20,7 +20,7 @@ Das Apache Jackrabbit FileVault-Paket-Plugin wird verwendet, um den Inhalt des M
 
 ## Übergeordnete POM {#parent-pom}
 
-[Das übergeordnete POM](archetype.md#parent-pom) (`<src>/<project>/pom.xml`) enthält `<plugin>` Abschnitte, die verschiedene Konfigurationen für die im Projekt verwendeten Plugins definieren. Dies beinhaltet eine Konfiguration für das `filterSource` Jackrabbit FileVault Package Plugin. Der `filterSource` Verweis auf den Speicherort der `filter.xml` Datei, die zum Definieren der jcr-Pfade verwendet wird, die im Paket enthalten sind.
+[Das übergeordnete POM](overview.md#parent-pom) (`<src>/<project>/pom.xml`) enthält `<plugin>` Abschnitte, die verschiedene Konfigurationen für die im Projekt verwendeten Plugins definieren. Dies beinhaltet eine Konfiguration für das `filterSource` Jackrabbit FileVault Package Plugin. Der `filterSource` Verweis auf den Speicherort der `filter.xml` Datei, die zum Definieren der jcr-Pfade verwendet wird, die im Paket enthalten sind.
 
 Zusätzlich zum Jackrabbit FileVault Package Plugin ist eine Definition des Content Package Plugins, das verwendet wird, um das Paket in AEM zu verschieben. Beachten Sie, dass Variablen für `aem.host`, `aem.port`, `vault.user`und `vault.password` verwendet werden, die den globalen Eigenschaften entsprechen, die in demselben übergeordneten POM definiert sind.
 
@@ -30,7 +30,7 @@ Das ui.apps pom (`<src>/<project>/ui.apps/pom.xml`) stellt die `embedded` Tags f
 
 Beachten Sie, dass die Pakete core.wcm.components.all und core.wcm.components.example als Unterpaket enthalten sind. Dadurch wird jedes Mal das Kernkomponenten-Paket zusammen mit dem WKND-Code bereitgestellt.
 
-Die Beispiele "core.wcm.components.all"und "core.wcm.components.example"werden als Abhängigkeiten in die Abhängigkeitsliste aufgenommen. Als bewährtes Verfahren werden jedoch Versionen für Abhängigkeiten hier weggelassen und in der [übergeordneten Pom-Datei](archetype.md#core-components)verwaltet.
+Die Beispiele "core.wcm.components.all"und "core.wcm.components.example"werden als Abhängigkeiten in die Abhängigkeitsliste aufgenommen. Als bewährtes Verfahren werden jedoch Versionen für Abhängigkeiten hier weggelassen und in der [übergeordneten Pom-Datei](overview.md#core-components)verwaltet.
 
 ## filter.xml {#filter}
 
