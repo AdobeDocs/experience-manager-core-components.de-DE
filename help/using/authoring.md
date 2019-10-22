@@ -7,7 +7,7 @@ uuid: 4a54cd4c-3d89-4683-8301-bf1e634736e3
 content-type: Referenz
 topic-tags: Authoring
 discoiquuid: 8751e490-d427-44f2-b767-51935afda988
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
 
 ---
@@ -17,39 +17,39 @@ source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
 
 In Adobe Experience Manager sind Komponenten die strukturellen Elemente, aus denen der Inhalt von bearbeiteten Seiten besteht.
 
-Die Kernkomponenten bieten eine flexible und funktionsreiche Authoring-Funktionalität. The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) illustrates how the core components can be used.
+Die Kernkomponenten bieten eine flexible und funktionsreiche Authoring-Funktionalität. Die [Referenz-Website We.Retail](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/using/we-retail.html) veranschaulicht, wie die Kernkomponenten verwendet werden können.
 
-To experience the Core Components and see examples of their configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html).
+Um die Kernkomponenten auszuprobieren und Beispiele für ihre Konfigurationsoptionen sowie die HTML- und JSON-Ausgabe zu sehen, besuchen Sie die [Komponentenbibliothek](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html).
 
-Eine tiefergehende und entwicklerorientierte Einführung in die Implementierung der Kernkomponenten in ein AEM-Projekt finden Sie im [WKND-Tutorial.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+Eine tiefergehende und entwicklerorientierte Einführung in die Implementierung der Kernkomponenten in einem AEM-Projekt finden Sie im [WKND-Tutorial](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/using/getting-started.html).
 
 >[!NOTE]
 >
->Kernkomponenten sind für Autoren nicht sofort verfügbar. Das [Entwicklerteam muss sie zuerst in Ihre Umgebung integrieren](using.md). Once integrated, they may be made available and pre-configured via the [template editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html).
+>Kernkomponenten sind für Autoren nicht sofort verfügbar. Das [Entwicklerteam muss sie zuerst in Ihre Umgebung integrieren](using.md). Nach der Integration können sie über den [Vorlageneditor](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/templates.html) bereitgestellt und vorkonfiguriert werden.
 
 >[!CAUTION]
 >
->Core Components require AEM 6.3 or higher and require the use of editable templates. [](versions.md)[](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) Sie funktionieren weder mit der klassischen Benutzeroberfläche noch mit statischen Vorlagen.
+>Kernkomponenten [erfordern AEM 6.3 oder höher](versions.md) und setzen [bearbeitbare Vorlagen](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/templates.html) voraus. Sie funktionieren weder mit der klassischen Benutzeroberfläche noch mit statischen Vorlagen.
 
 ## Authoring mit Kernkomponenten {#authoring-with-core-components}
 
 Als Autor werden Sie einige Vorteile der Kernkomponenten bemerken, wie beispielsweise:
 
-* Simple to use and well-integrated with the [page editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)
+* Einfach zu verwenden und gut in den [Seiteneditor](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/editing-content.html) integriert
 
-* Funktionsreiche Funktionen zur Unterstützung vieler Anwendungsfälle, wie [in We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) sowie in der [Komponentenbibliothek dargestellt](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html)
+* Breit gefächerte Funktionen zur Unterstützung vieler Anwendungsfälle, wie in [We.Retail](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/using/we-retail.html) sowie der [Komponentenbibliothek](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html) dargestellt
 
-* [Vorkonfigurierbar](#pre-configuring-core-components) zur Definition der Funktionen, die Seitenautoren über den [Vorlageneditor zur Verfügung stehen](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+* [Vorkonfigurierbar](#pre-configuring-core-components), um zu definieren, welche Funktionen für Seitenautoren über den [Vorlageneditor](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/templates.html) verfügbar sind
 
-* Built around [accessibility guidelines](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
+* Erstellt entsprechend den [Richtlinien für Eingabehilfen](https://helpx.adobe.com/de/experience-manager/6-5/managing/using/web-accessibility.html)
 
-* Built to support [responsive layout](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/responsive-layout.html)
+* Entwickelt zur Unterstützung von [responsivem Layout](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/responsive-layout.html)
 
 * Entwickelt als Hilfe für die [einfache Lokalisierung](localization.md)
 
-Components are available on the **Components** tab of the side panel of the page editor when [editing a page](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html).
+Komponenten sind beim [Bearbeiten einer Seite](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/editing-content.html) auf der Registerkarte **Komponenten** im seitlichen Bedienfeld des Seiteneditors verfügbar.
 
-Komponenten werden nach Kategorien gruppiert, die Komponentengruppen genannt werden, um die Komponenten mühelos zu organisieren und zu filtern. The component group name is displayed with the component in the [component browser](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html) and it is also possible to filter by group to easily find the right component.
+Komponenten werden nach Kategorien gruppiert, die Komponentengruppen genannt werden, um die Komponenten mühelos zu organisieren und zu filtern. Der Name der Komponentengruppe wird mit der Komponente im [Komponenten-Browser](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/editing-content.html) angezeigt; außerdem ist es möglich, nach Gruppen zu filtern, um mühelos die richtige Komponente zu finden.
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ Die Konfiguration von Foundation-Komponenten war Auftrag eines Entwicklers. Mit 
 
 Wenn beispielsweise eine Bild-Komponente keine Bilduploads vom Dateisystem zulassen soll oder wenn eine Textkomponente nur bestimmte Absatzformatierungen zulassen soll, können diese Funktionen mit einem einfachen Klick aktiviert oder deaktiviert werden.
 
-See [Creating Page Templates](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) for more information.
+Weitere Informationen finden Sie unter [Entwickeln von Seitenvorlagen](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/templates.html).
 
 ### Dialogfelder „Bearbeiten“ und „Design“ {#edit-and-design-dialogs}
 
@@ -81,7 +81,7 @@ Die Stile der meisten Kernkomponenten können mithilfe des AEM-Stilsystems defin
 * Ein Vorlagenautor kann festlegen, welche Stile für eine bestimmte Komponente im Dialogfeld „Design“ dieser Komponente verfügbar sind.
 * Der Inhaltsautor kann dann festlegen, welche Stile angewendet werden sollen, wenn er die Komponente hinzufügt und Inhalte erstellt.
 
-Weitere Informationen finden Sie in der Dokumentation zum [Stilsystem](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/style-system.html) .
+Weitere Informationen finden Sie in der Dokumentation zum [Stilsystem](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/style-system.html).
 
 >[!NOTE]
 >
