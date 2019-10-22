@@ -7,7 +7,7 @@ contentOwner: Bohnert
 content-type: Referenz
 topic-tags: Authoring
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6882a0d8247328c403dc11a25ed9d079aefede69
 
 ---
@@ -15,11 +15,11 @@ source-git-commit: 6882a0d8247328c403dc11a25ed9d079aefede69
 
 # Inhaltsfragmentlisten-Komponente{#content-fragment-list-component}
 
-The Core Component Content Fragment List component allows for the display of a list of [content fragments](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html).
+Die Inhaltsfragmentlisten-Kernkomponente ermöglicht die Anzeige einer Liste von [Inhaltsfragmenten](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/content-fragments.html).
 
 ## Nutzung {#usage}
 
-The Core Component Content Fragment List Component allows for the inclusion of a list of [content fragments](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html) on a page based on a Content Fragment model. This can be especially useful for creating [headless content](https://helpx.adobe.com/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) that can be easily consumed by other applications.
+Die Inhaltsfragmentlisten-Kernkomponente ermöglicht die Einbeziehung einer Liste von [Inhaltsfragmenten](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/content-fragments.html) auf einer Seite basierend auf einem Inhaltsfragmentmodell. Dies kann besonders für die Erstellung von [Headless Content](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) nützlich sein, der leicht von anderen Anwendungen genutzt werden kann.
 
 * Die Liste und ihre Eigenschaften können im [Dialogfeld „Konfigurieren“](#configure-dialog) ausgewählt werden.
 * Stile können auf die Komponente im [Dialogfeld „Design“](#design-dialog) angewendet werden.
@@ -38,17 +38,17 @@ Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in d
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Rufen Sie die [Komponentenbibliothek](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment-list.html) auf, um die Inhaltsfragmentlisten-Komponente sowie die Beispiele für die Konfigurationsoptionen und die HTML- und JSON-Ausgabe zu testen.
+Rufen Sie die [Komponentenbibliothek](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment-list.html) auf, um die Inhaltsfragmentlisten-Komponente sowie die Beispiele für ihre Konfigurationsoptionen und die HTML- und JSON-Ausgabe zu testen.
 
 ## Technische Details {#technical-details}
 
-Die neueste technische Dokumentation zur Inhaltsfragmentlistenkomponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/contentfragmentlist/v1/contentfragmentlist).
+Die neueste technische Dokumentation zur Inhaltsfragmentlisten-Komponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/contentfragmentlist/v1/contentfragmentlist).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
 
 ## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
-Über das Dialogfeld „Konfigurieren“ kann der Inhaltsautor festlegen, welche Inhaltsfragmente die Liste und die Elemente dieser Fragmente enthalten sollen.
+Über den Dialogfeld „Konfigurieren“ kann der Inhaltsautor festlegen, welche Inhaltsfragmente die Liste und die Elemente dieser Fragmente enthalten sollen.
 
 ### Registerkarte „Eigenschaften“
 
@@ -64,25 +64,25 @@ Auf der Registerkarte **Eigenschaften** wird festgelegt, welche Inhaltsfragmente
 * **Tags** - Nur die Inhaltsfragmente mit den angegebenen Tags werden in die Liste aufgenommen.
    * Klicken oder tippen Sie auf die Schaltfläche **Auswahl-Dialogfeld öffnen** auf der rechten Seite des Feldes, um die Tags anzugeben.
    * Klicken oder tippen Sie auf das X neben den ausgewählten Tags, um sie zu entfernen.
-* **Reihenfolge nach** - Feld des Inhaltsfragmentmodells, nach dem die Liste angeordnet werden soll
+* **Sortieren nach** – Feld des Inhaltsfragmentmodells, anhand dessen die Liste sortiert werden soll
    * Es können nur Textfelder (einschließlich numerisch, Datum und Uhrzeit) ausgewählt werden.
-* **Sortierreihenfolge** - Sortieren der Liste nach dem Feld **Reihenfolge**
+* **Sortierreihenfolge** – Wie die Liste anhand des Felds **Sortieren nach** sortiert wird
    * Aufsteigend oder absteigend
-* **Max. Elemente** - Maximale Anzahl der in der Liste anzuzeigenden Elemente
-   * Kein Wert gibt alle Elemente zurück.
+* **Max. Elemente** – Maximale Anzahl der in der Liste anzuzeigenden Elemente
+   * Bei keinem Wert werden alle Elemente zurückgegeben.
 
 >[!NOTE]
->Die **Optionen "Reihenfolge nach**", " **Sortierreihenfolge**"und " **Max. Elemente** "wurden mit Version 2.7.0 der Kernkomponenten eingeführt.
+>Die Optionen **Sortieren nach**, **Sortierreihenfolge** und **Max. Elemente** wurden mit Version 2.7.0 der Kernkomponenten eingeführt.
 
 ### Registerkarte „Elemente“
 
-Standardmäßig werden alle Elemente des Inhaltsfragmentmodells in die Liste aufgenommen (sofern sie nicht durch das Feld " **Max. Elemente** "eingeschränkt sind). The **Elements** tab allows you to specify only specific elements to include.
+Standardmäßig werden alle Elemente des Inhaltsfragmentmodells in die Liste aufgenommen (sofern sie nicht durch das Feld **Max. Elemente** eingeschränkt sind). Auf der Registerkarte **Elemente** können Sie nur bestimmte Elemente angeben, die einbezogen werden sollen.
 
 ![](assets/screen-shot-2019-05-08-10.47.34.png)
 
 * **Elemente** - Es werden nur die Elemente der Inhaltsfragmente in der angegebenen Liste angezeigt.
    * Klicken oder tippen Sie auf die Schaltfläche **Hinzufügen**, um ein neues Element hinzuzufügen..
-   * Click or tap the **Delete** button to remove a selected element.
+   * Klicken oder tippen Sie auf die Schaltfläche **Löschen**, um ein ausgewähltes Element zu entfernen.
    * Ziehen Sie den Ziehgriff **Reihenfolge**, um die Reihenfolge der Elemente zu ändern.
 
 ## Dialogfeld „Design“ {#design-dialog}
