@@ -1,30 +1,30 @@
 ---
-title: Komponente einbetten
-seo-title: Komponente einbetten
+title: Einbettungskomponente
+seo-title: Einbettungskomponente
 description: Die Einbettungskomponente ermöglicht das Einbetten externer Inhalte in eine AEM-Inhaltsseite.
 seo-description: Die Einbettungskomponente ermöglicht das Einbetten externer Inhalte in eine AEM-Inhaltsseite.
 content-type: Referenz
 topic-tags: Kernkomponenten
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 648a54d3ab76ec9a9dee10dc97a3f91e6b7509df
 
 ---
 
 
-# Komponente einbetten{#embed-component}
+# Einbettungskomponente{#embed-component}
 
-Die Komponente "Core-Komponenten einbetten"ermöglicht das Einbetten externer Inhalte in eine AEM-Inhaltsseite.
+Die Einbettungskomponente der Kernkomponenten ermöglicht das Einbetten externer Inhalte in eine AEM-Inhaltsseite.
 
 ## Nutzung {#usage}
 
-Mit der Komponente "Einbettung der Kernkomponente"kann der Inhaltsersteller ausgewählte externe Inhalte definieren, die in eine AEM-Inhaltsseite eingebettet werden sollen. Darüber hinaus gibt es die Möglichkeit, frei formbares HTML zu definieren, das ebenfalls eingebettet werden soll.
+Mit der Einbettungskomponente der Kernkomponenten kann der Inhaltsautor ausgewählte externe Inhalte definieren, die in eine AEM-Inhaltsseite eingebettet werden sollen. Darüber hinaus gibt es die Möglichkeit, einzubettende Freiform-HTML zu definieren.
 
-* The component's properties can be defined in the [configure dialog](#configure-dialog).
-* Die Standardeinstellungen für die Komponente beim Hinzufügen zu einer Seite können im Dialogfeld [Design](#design-dialog) definiert werden.
+* Die Eigenschaften der Komponente können im [Dialogfeld „Konfigurieren“](#configure-dialog) definiert werden.
+* Die Standardeinstellungen für die Komponente beim Hinzufügen zu einer Seite können im [Dialogfeld „Design“](#design-dialog) definiert werden.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die aktuelle Version der Einbettungskomponente ist Version 1, die mit Version 2.7.0 der Kernkomponenten im September 2019 eingeführt wurde und in diesem Dokument beschrieben wird.
+Die aktuelle Version der Einbettungskomponente ist v1. Sie wurde mit Version 2.7.0 der Kernkomponenten im September 2019 eingeführt und wird in diesem Dokument beschrieben.
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
@@ -36,51 +36,51 @@ Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in d
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-To experience the Embed Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/embed.html).
+Um die Einbettungskomponente auszuprobieren sowie Beispiele für ihre Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](http://opensource.adobe.com/aem-core-wcm-components/library/embed.html).
 
 ## Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Embed-Komponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed).
+Die aktuelle technische Dokumentation zur Einbettungskomponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
 
 ## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
-Im Dialogfeld "Konfigurieren"kann der Inhaltsersteller die externe Ressource definieren, die auf der Seite eingebettet werden soll. Wählen Sie zunächst aus, welche Ressource eingebettet werden soll:
+Im Dialogfeld „Konfigurieren“ kann der Inhaltsautor die externe Ressource definieren, die auf der Seite eingebettet werden soll. Wählen Sie zunächst, welche Ressource eingebettet werden soll:
 
 * [URL](#url)
-* [Einbettbar](#embeddable)
+* [Einbettbare Prozessoren](#embeddable)
 * [HTML](#html)
 
 ### URL {#url}
 
-Die einfachste Einbettung ist die URL. Fügen Sie einfach die URL der Ressource ein, die Sie in das Feld **URL** einbetten möchten. Die Komponente versucht, auf die Ressource zuzugreifen. Wenn sie von einem der Prozessoren wiedergegeben werden kann, wird eine Bestätigungsmeldung unter dem Feld " **URL** "angezeigt. Andernfalls wird das Feld mit Fehler gekennzeichnet.
+Die einfachste Form von Einbettung ist die URL. Fügen Sie im Feld **URL** einfach die URL der Ressource ein, die Sie einbetten möchten. Die Komponente wird versuchen, auf die Ressource zuzugreifen. Wenn sie von einem der Prozessoren wiedergegeben werden kann, wird eine Bestätigungsmeldung unter dem Feld **URL** angezeigt. Andernfalls wird das Feld mit einem Fehler markiert.
 
-Die Einbettungskomponente wird mit Prozessoren für die folgenden Arten von Ressourcen geliefert:
+Die Einbettungskomponente wird mit Prozessoren für die folgenden Arten von Ressourcen bereitgestellt:
 
 * Ressourcen, die dem [oEmbed-Standard](https://oembed.com/) entsprechen, einschließlich Facebook Post, Instagram, SoundCloud, Twitter und YouTube
 * Pinterest
 
-Entwickler können zusätzliche URL-Prozessoren hinzufügen, indem sie der Entwicklerdokumentation der Einbettungskomponente [folgen.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
+Entwickler können zusätzliche URL-Prozessoren hinzufügen, indem sie der [Entwicklerdokumentation der Einbettungskomponente folgen](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component).
 
 ![](assets/screen-shot-2019-09-25-10.08.29.png)
 
-### Einbettbar {#embeddable}
+### Einbettbare Prozessoren {#embeddable}
 
-Einbettbare ermöglichen eine stärkere Anpassung der eingebetteten Ressource, die parametrisiert werden kann und zusätzliche Informationen enthält. Ein Autor kann aus vorkonfigurierten vertrauenswürdigen Einbettungsvariablen auswählen und die Komponente wird mit einer YouTube-Einbettung geliefert, die standardmäßig installiert werden kann.
+Einbettbare Prozessoren ermöglichen eine bessere Anpassung der eingebetteten Ressource, die parametrisiert werden und zusätzliche Informationen enthalten kann. Ein Autor kann aus vorkonfigurierten vertrauenswürdigen einbettbaren Prozessoren wählen; die Komponente wird standardmäßig mit einem einbettbaren YouTube-Prozessor ausgeliefert.
 
-Das Feld **Einbetten** definiert den zu verwendenden Prozessortyp. Im Falle der YouTube-Einbettung können Sie dann Folgendes definieren:
+Im Feld **Einbettbare Prozessoren** wird der zu verwendende Prozessortyp definiert. Im Falle des einbettbaren YouTube-Prozessors können Sie dann Folgendes definieren:
 
-* **Video-ID** - Die eindeutige Video-ID von YouTube der Ressource, die Sie einbetten möchten
+* **Video-ID** - Die eindeutige Video-ID der YouTube-Ressource, die Sie einbetten möchten
 * **Breite** - Die Breite des eingebetteten Videos
 * **Höhe** - Die Höhe des eingebetteten Videos
 
-Andere Einbettungsvariablen bieten ähnliche Felder an und können von einem Entwickler anhand der Entwicklerdokumentation der Einbettungskomponente definiert werden. [Dies gilt auch für Einbettungselemente.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
+Andere einbettbare Prozessoren weisen ähnliche Felder auf und können von einem Entwickler [unter Beachtung der Entwicklerdokumentation der Einbettungskomponente definiert werden](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component).
 
 ![](assets/screen-shot-2019-09-25-10.15.00.png)
 
 >[!NOTE]
->Einbettbare müssen auf Vorlagenebene über das [Designdialogfeld](#design-dialog) aktiviert werden, damit sie dem Seitenautor zur Verfügung stehen.
+>Einbettbare Prozessoren müssen auf der Vorlagenebene über den [Dialogfeld „Design“](#design-dialog) aktiviert werden, damit sie dem Seitenautor zur Verfügung stehen.
 
 ### HTML {#html}
 
@@ -89,28 +89,28 @@ Mit der Einbettungskomponente können Sie Ihrer Seite Freiform-HTML hinzufügen.
 ![](assets/screen-shot-2019-09-25-10.20.00.png)
 
 >[!NOTE]
->Unsichere Tags wie Skripten werden aus dem eingegebenen HTML gefiltert und nicht auf der resultierenden Seite wiedergegeben.
+>Unsichere Tags wie Skripte werden aus der eingegebenen HTML gefiltert und auf der resultierenden Seite nicht wiedergegeben.
 
 #### Sicherheit {#security}
 
-Das HTML-Markup, das der Autor eingeben kann, wird aus Sicherheitsgründen gefiltert, um Site-übergreifende Skriptangriffe zu vermeiden, die Autoren z. B. Administratorrechte zuweisen könnten.
+Das HTML-Markup, das der Autor eingeben kann, wird aus Sicherheitsgründen gefiltert, um siteübergreifende Skriptangriffe zu verhindern, die es Autoren z. B. erlauben würden, sich Administratorrechte zu verschaffen.
 
-*Im Allgemeinen* werden alle Skript- und `style` -Elemente sowie alle `on*` und `style` Attribute aus der Ausgabe entfernt.
+*Im Allgemeinen* werden alle Skript- und `style`-Elemente sowie alle `on*`- und `style`-Attribute aus der Ausgabe entfernt.
 
-Die Regeln sind jedoch komplizierter, da die Einbettungskomponente dem globalen Filtersatz für HTML AntiSamy-Sanitärrahmen von AEM folgt, der unter `/libs/cq/xssprotection/config.xml`finden wird. Dies kann bei Bedarf von einem Entwickler für eine projektspezifische Konfiguration überlagert werden.
+Die Regeln sind jedoch komplizierter, da die Einbettungskomponente dem Filterregelsatz des globalen HTML-AntiSamy-Bereinigungs-Frameworks von AEM folgt, der unter `/libs/cq/xssprotection/config.xml` zu finden ist. Dies kann bei Bedarf von einem Entwickler für eine projektspezifische Konfiguration überlagert werden.
 
-Weitere Sicherheitsinformationen finden Sie in der [AEM-Entwicklerdokumentation.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/security.html)
+Weitere Sicherheitsinformationen finden Sie in der [AEM-Entwicklerdokumentation.](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/using/security.html)
 
 >[!NOTE]
->Obwohl die AntiSamy Sanitation Framework-Regeln durch Überlagerung konfiguriert werden können `/libs/cq/xssprotection/config.xml`, wirken sich diese Änderungen nicht nur auf die Embed Core-Komponente, sondern auf das gesamte HTL- und JSP-Verhalten aus.
+>Obwohl die Regeln des AntiSamy-Bereinigungs-Frameworks durch eine Überlagerung von `/libs/cq/xssprotection/config.xml` konfiguriert werden können, wirken sich diese Änderungen nicht nur auf die Einbettungs-Kernkomponente, sondern auf das gesamte HTL- und JSP-Verhalten aus.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
-Im Dialogfeld "Entwurf"kann der Vorlagenautor die Optionen festlegen, die dem Inhaltsautor, der die Einbettungskomponente verwendet, zur Verfügung stehen, sowie die beim Platzieren der Einbettungskomponente festgelegten Standardwerte.
+Der Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Optionen, die für den Inhaltsautor bei Verwendung der Einbettungskomponente verfügbar sind, sowie die Standardeinstellungen bei Platzierung der Einbettungskomponente zu definieren.
 
 ![](assets/screen-shot-2019-09-25-10.25.28.png)
 
-* **URL** deaktivieren - Deaktiviert die Option " **URL** "für den Inhaltsautor, wenn ausgewählt
-* **Einbettbare** deaktivieren: Deaktiviert die Option " **Einbetten** "für den Inhaltsersteller, sofern ausgewählt, unabhängig davon, welche Prozessoren einbetten können.
-* **HTML** deaktivieren - Deaktiviert die **HTML** -Option für den Inhaltsautor, wenn diese ausgewählt ist.
-* **Zulässige Einbettungen** - Diese Option definiert, welche einbettbaren Prozessoren für den Inhaltsersteller verfügbar sind, sofern die Option **Einbetten** aktiv ist.
+* **URL deaktivieren** - Deaktiviert bei Auswahl die Option **URL** für den Inhaltsautor.
+* **Einbettbare Prozessoren deaktivieren** - Deaktiviert bei Auswahl die Option **Einbettbare Prozessoren** für den Inhaltsautor, unabhängig davon, welche einbettbaren Prozessoren zulässig sind.
+* **HTML deaktivieren** - Deaktiviert bei Auswahl die **HTML**-Option für den Inhaltsautor.
+* **Zulässige einbettbare Prozessoren** - Mehrfachauswahl, die definiert, welche einbettbaren Prozessoren für den Inhaltsautor verfügbar sind, sofern die Option **Einbettbare Prozessoren** aktiviert ist.
