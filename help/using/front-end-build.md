@@ -1,18 +1,18 @@
 ---
-title: AEM Project Archetype Front-End-Build
-seo-title: AEM Project Archetype Front-End-Build
+title: AEM Projektarchetyp Front-End-Build
+seo-title: AEM Projektarchetyp Front-End-Build
 description: Eine Projektvorlage für AEM-basierte Anwendungen
 seo-description: Eine Projektvorlage für AEM-basierte Anwendungen
 contentOwner: Bohnert
 content-type: Referenz
 topic-tags: Kernkomponenten
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0a61f4e6d1ad8b4d5e3778018838dc70d496e1fc
 
 ---
 
 
-# AEM Project Archetype Front-End-Build {#aem-project-archetype-front-end-build}
+# AEM Projektarchetyp Front-End-Build {#aem-project-archetype-front-end-build}
 
 Der AEM-Projektarchiv enthält einen optionalen, dedizierten Front-End-Build-Mechanismus, der auf Webpack basiert und die folgenden Funktionen enthält.
 
@@ -42,7 +42,7 @@ Der AEM-Projektarchiv enthält einen optionalen, dedizierten Front-End-Build-Mec
 
 Die folgenden npm-Skripten verhelfen zum Frontend-Arbeitsablauf:
 
-* `npm run dev` - Vollständige Erstellung mit deaktivierter JS-Optimierung (Baum-Shaking usw.) und aktivierten Quellkarten und deaktivierter CSS-Optimierung.
+* `npm run dev` -Vollständige Erstellung mit deaktivierter JS-Optimierung (Baum-Shaking usw.) und aktivierten Quellkarten und deaktivierter CSS-Optimierung.
 * `npm run prod` - Vollständige Erstellung mit aktivierter JS-Optimierung (Baum-Shaking usw.), deaktivierter Quellzuordnung und aktivierter CSS-Optimierung.
 
 ## Ausgabe {#output}
@@ -60,7 +60,8 @@ Die folgenden npm-Skripten verhelfen zum Frontend-Arbeitsablauf:
 
 * Autoprefixierung - Alle CSS werden über einen Präfixer ausgeführt und alle Eigenschaften, für die Präfix erforderlich ist, werden automatisch in das CSS eingefügt.
 * Optimierung: Beim Posten wird das gesamte CSS über einen Optimierer (cssnano) ausgeführt, der es gemäß den folgenden Standardregeln normalisiert:
-   * Reduziert den CSS-Calc-Ausdruck, wo immer dies möglich ist, und stellt sowohl die Browserkompatibilität als auch die Komprimierung sicherKonvertiert Werte für die äquivalente Länge, Zeit und Winkel. Beachten Sie, dass Längenwerte standardmäßig nicht konvertiert werden.
+   * Reduziert den CSS-Calc-Ausdruck, wo immer dies möglich ist, und stellt sowohl die Browserkompatibilität als auch die Komprimierung sicher
+Konvertiert Werte für die äquivalente Länge, Zeit und Winkel. Beachten Sie, dass Längenwerte standardmäßig nicht konvertiert werden.
    * Entfernt Kommentare in und um Regeln, Selektoren und Deklarationen
    * Entfernt duplizierte Regeln, at-Regeln und Deklarationen
       * Beachten Sie, dass dies nur bei exakten Duplikaten funktioniert.
