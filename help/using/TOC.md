@@ -4,7 +4,7 @@ product: Adobe Experience Manager
 sub-product: adobe experience manager core components
 archetype: Administrator
 user-guide-title: AEM Core Components
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b9bbfcf34737b7a8794e611d102a45f26e9e6fae
 
 ---
@@ -63,7 +63,7 @@ source-git-commit: b9bbfcf34737b7a8794e611d102a45f26e9e6fae
          + [Formulartext (v1)](form-text-v1.md)
 + Entwickeln {#developing}
    + [Entwickeln von Kernkomponenten](developing.md)
-   + [WKND-Entwickler-Tutorial](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+   + [WKND-Entwickler-Tutorial](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/using/getting-started.html)
    + [Anpassen der Kernkomponenten](customizing.md)
    + [Komponentenrichtlinien](guidelines.md)
    + AEM-Projektarchetyp {#archetype}
