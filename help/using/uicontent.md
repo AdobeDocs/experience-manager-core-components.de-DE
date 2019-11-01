@@ -6,7 +6,7 @@ seo-description: ui.content-Modul des AEM-Projektarchetyps
 contentOwner: Bohnert
 content-type: Referenz
 topic-tags: Kernkomponenten
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3c37b57eb72d1d662cdbd41ca54cdc592919203c
 
 ---
@@ -18,7 +18,7 @@ Das Modul ui.content maven (`<src-directory>/<project>/ui.content`) umfasst Ausg
 
 ## filter.xml {#filter}
 
-Die `filter.xml` Datei für das Modul ui.content befindet sich unter `<src>/<project>/ui.content/src/main/content/META-INF/vault/filter.xml` und enthält die Pfade, die mit dem Paket ui.content eingeschlossen und installiert werden. Beachten Sie, dass dem Pfad ein `mode="merge"` Attribut hinzugefügt wird. Dadurch wird sichergestellt, dass die mit einer Codebereitstellung bereitgestellten Konfigurationen nicht automatisch Inhalte oder Konfigurationen außer Kraft setzen, die direkt auf der AEM-Instanz erstellt wurden.
+Die `filter.xml`-Datei für das Modul ui.content befindet sich unter `<src>/<project>/ui.content/src/main/content/META-INF/vault/filter.xml` und enthält die Pfade, die mit dem Paket ui.content eingeschlossen und installiert werden. Beachten Sie, dass dem Pfad ein `mode="merge"` Attribut hinzugefügt wird. Dadurch wird sichergestellt, dass die mit einer Codebereitstellung bereitgestellten Konfigurationen nicht automatisch Inhalte oder Konfigurationen außer Kraft setzen, die direkt auf der AEM-Instanz erstellt wurden.
 
 ## ui.content/pom.xml
 
