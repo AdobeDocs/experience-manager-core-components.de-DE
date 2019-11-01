@@ -6,7 +6,7 @@ seo-description: ui.apps-Modul des AEM-Projektarchetyps
 contentOwner: Bohnert
 content-type: Referenz
 topic-tags: Kernkomponenten
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
 
 # ui.apps-Modul des AEM-Projektarchetyps {#uiapps-module}
 
-Das Maven-Modul (`<src-directory>/<project>/ui.apps`) ui.apps enthält den gesamten Rendercode, der für die unten stehende Site benötigt wird `/apps`. Dazu gehört auch CSS/JS, das im AEM-Format "clientlibs"gespeichert wird. Dazu gehören auch HTML-Skripten zum Rendern von dynamischem HTML. Sie können sich das Modul ui.apps als Zuordnung zur Struktur im JCR vorstellen, jedoch in einem Format, das auf einem Dateisystem gespeichert und der Quellcodeverwaltung verpflichtet werden kann.
+Das Maven-Modul (`<src-directory>/<project>/ui.apps`) ui.apps enthält den gesamten Rendercode, der für die unten stehende Site benötigt wird `/apps`. Dazu gehört auch CSS/JS, das im AEM-Format "clientlibs" gespeichert wird. Dazu gehören auch HTML-Skripte zum Rendern von dynamischem HTML. Sie können sich das Modul ui.apps als Zuordnung zur Struktur im JCR vorstellen, jedoch in einem Format, das auf einem Dateisystem gespeichert und der Quellcodeverwaltung verpflichtet werden kann. 
 
 Das Apache Jackrabbit FileVault-Paket-Plugin wird verwendet, um den Inhalt des Moduls ui.apps in ein AEM-Paket zu kompilieren, das für AEM bereitgestellt werden kann. Die globalen Konfigurationen für das Plugin werden in der übergeordneten Datei pom.xml definiert.
 
@@ -30,7 +30,7 @@ Das ui.apps pom (`<src>/<project>/ui.apps/pom.xml`) stellt die `embedded` Tags f
 
 Beachten Sie, dass die Pakete core.wcm.components.all und core.wcm.components.example als Unterpaket enthalten sind. Dadurch wird jedes Mal das Kernkomponenten-Paket zusammen mit dem WKND-Code bereitgestellt.
 
-Die Beispiele "core.wcm.components.all"und "core.wcm.components.example"werden als Abhängigkeiten in die Abhängigkeitsliste aufgenommen. Als bewährtes Verfahren werden jedoch Versionen für Abhängigkeiten hier weggelassen und in der [übergeordneten Pom-Datei](overview.md#core-components)verwaltet.
+Die Beispiele "core.wcm.components.all" und "core.wcm.components.example" werden als Abhängigkeiten in die Abhängigkeitsliste aufgenommen. Als bewährtes Verfahren werden jedoch Versionen für Abhängigkeiten hier weggelassen und in der [übergeordneten Pom-Datei](overview.md#core-components)verwaltet.
 
 ## filter.xml {#filter}
 
