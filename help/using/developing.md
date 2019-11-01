@@ -9,7 +9,7 @@ content-type: Referenz
 topic-tags: entwickeln
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 157a2ec3-9fca-4fad-977a-d93013eeb218
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
 
 ---
@@ -27,41 +27,41 @@ Die Kernkomponenten bieten leistungsfähige und erweiterbare Basiskomponenten un
 * Kontinuierliche Bereitstellung
    * Häufige inkrementelle Verbesserungen bei der Funktionalität
    * Verfügbarkeit des [Quellcodes auf GitHub](https://github.com/adobe/aem-core-wcm-components), damit die Entwickler-Community Feedback abgeben und Beiträge hinzufügen kann
-   * Installation through a [separately released content package](https://github.com/adobe/aem-core-wcm-components/releases) for component upgrades to be done independently from AEM upgrades
+   * Installation durch [das separat veröffentlichte Inhaltspaket](https://github.com/adobe/aem-core-wcm-components/releases), sodass Komponentenaktualisierungen unabhängig von AEM-Aktualisierungen erfolgen
 * [Komponentenversionierung](guidelines.md#component-versioning)
    * [Sicherstellung der Kompatibilität innerhalb einer Version](#upgrade-of-core-components), wobei die Komponenten trotzdem weiterentwickelt werden können.
    * Zulassen, dass mehrere Versionen einer Komponente in derselben Umgebung koexistieren können
 * Moderne Implementierung
-   * Markup definiert in [HTML-Vorlagensprache](https://helpx.adobe.com/experience-manager/htl/using/overview.html) (HTL)
-   * Content model logic implemented with [Sling Models](https://sling.apache.org/documentation/bundles/models.html)
+   * Markup definiert in [HTML Template Language](https://helpx.adobe.com/de/experience-manager/htl/using/overview.html) (HTL)
+   * Mit [Sling-Modellen](https://sling.apache.org/documentation/bundles/models.html) implementierte Inhaltsmodelllogik
 * Schlankes Markup
-   * Following [Block Element Modifier](https://getbem.com/) (BEM) notation as of Release 2.0.0
-      * Prior release follow [Bootstrap](https://getbootstrap.com/css/) naming conventions
-   * Built around [accessibility guidelines](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
+   * Folgt der [Block Element Modifier](https://getbem.com/) (BEM)-Notation ab Version 2.0.0
+      * Frühere Versionen folgen den [Bootstrap](https://getbootstrap.com/css/)-Benennungskonventionen
+   * Erstellt entsprechend den [Richtlinien für Eingabehilfen](https://helpx.adobe.com/de/experience-manager/6-5/managing/using/web-accessibility.html)
    * Kann für responsive und mobile Sites eingesetzt werden.
 * Möglichkeit, das Inhaltsmodell für Headless-CMS-Anwendungsfälle als JSON zu serialisieren
 * Barrierefrei
-   * Übereinstimmung mit dem [WCAG 2.0 AA-Standard](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
+   * Konform mit dem [WCAG 2.0 AA-Standard](https://helpx.adobe.com/de/experience-manager/6-5/managing/using/web-accessibility.html)
 
 >[!CAUTION]
 >
->Core Components require AEM 6.3 or later and Java 8 and and require the use of [editable templates](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+>Kernkomponenten erfordern AEM 6.3 oder höher und Java 8 sowie die Verwendung [bearbeitbarer Vorlagen](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/templates.html)
 >
 >Kernkomponenten funktionieren weder mit der klassischen Benutzeroberfläche noch mit statischen Vorlagen.
 
 ## Überblick über die Gems-Sitzung {#gems-session-overview}
 
-Um eine Einführung in die Kernkomponenten, die angebotenen Funktionen und ihre Nutzung in AEM zu erhalten, sehen Sie sich die AEM-Gems-Sitzung [AEM-Kernkomponenten](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
+Um eine Einführung in die Kernkomponenten, die angebotenen Funktionen und ihre Nutzung in AEM zu erhalten, sehen Sie sich die AEM-Gems-Sitzung [AEM-Kernkomponenten](https://helpx.adobe.com/de/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
 
-[Gems on Adobe Experience Manager](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) ist eine Reihe technischer Tauchgänge, die von Adobe-Experten durchgeführt werden. Diese Reihe ergänzt die Produktdokumentation und alle anderen technischen Kanäle und ermöglicht es Entwicklern, in Kontakt zu treten und ein bestimmtes Thema zu vertiefen.
+[Gems zu Adobe Experience Manager](https://helpx.adobe.com/de/experience-manager/kt/eseminars/gems/aem-index.html) ist eine Reihe technischer Vertiefungen, die von Adobe-Experten angeboten werden. Diese Reihe ergänzt die Produktdokumentation und alle anderen technischen Kanäle und ermöglicht es Entwicklern, in Kontakt zu treten und ein bestimmtes Thema zu vertiefen.
 
 ## WKND-Entwickler-Tutorial {#wknd-developer-tutorial}
 
-Beginnen Sie mit der Entwicklung von AEM Sites mit Kernkomponenten, indem Sie [dieses Schritt-für-Schritt-Tutorial](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+Beginnen Sie mit der Entwicklung von AEM Sites mit Kernkomponenten, indem Sie [dieses Schritt-für-Schritt-Tutorial](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/using/getting-started.html)
 
 ## AEM-Projektarchetyp {#aem-project-archetype}
 
-[Der AEM Project Archetype](overview.md) erstellt ein Adobe Experience Manager-Minimalprojekt als Ausgangspunkt für Ihre eigenen Projekte, einschließlich eines Helloworld-Beispiels für benutzerdefinierte HTML-Komponenten mit SlingModels, um die Logik und ordnungsgemäße Implementierung der Core-Komponenten mit dem empfohlenen Proxymuster zu gewährleisten.
+[Der AEM-Projektarchetyp](overview.md) erstellt ein Adobe Experience Manager-Minimalprojekt als Ausgangspunkt für Ihre eigenen Projekte, einschließlich eines Helloworld-Beispiels für benutzerdefinierte HTML-Komponenten mit SlingModels, um die Logik und ordnungsgemäße Implementierung der Core-Komponenten mit dem empfohlenen Proxymuster zu gewährleisten.
 
 ## Über GitHub bereitgestellt {#delivered-over-github}
 
@@ -71,8 +71,8 @@ CODE AUF GITHUB
 
 Den Code dieser Seite finden Sie auf GitHub
 
-* [Open aem-core-wcm-components project on GitHub](https://github.com/adobe/aem-core-wcm-components)
-* Download the project as [a ZIP file](https://github.com/adobe/aem-core-wcm-components/archive/master.zip)
+* [Öffnen Sie das Projekt aem-core-wcm-components auf GitHub](https://github.com/adobe/aem-core-wcm-components)
+* Laden Sie das Projekt als [ZIP-Datei](https://github.com/adobe/aem-core-wcm-components/archive/master.zip) herunter
 
 Öffnen Sie die Dokumentationsseite [Verwendung von Kernkomponenten](using.md), um zu erfahren, wie Sie damit in Ihrem Projekt beginnen können.
 
@@ -84,11 +84,11 @@ Die Verwendung der Kernkomponenten auf GitHub ermöglicht es Ihnen, häufige Akt
 
 ## Komponentenbibliothek
 
-Check out the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library.html), which showcases the current release of the Core Components and gives examples of their usage.
+Sehen Sie sich die [Komponentenbibliothek](http://opensource.adobe.com/aem-core-wcm-components/library.html) an, in der die aktuelle Version der Kernkomponenten präsentiert wird und Beispiele für deren Nutzung enthalten sind.
 
 ### Ausführungsmodus für Beispielinhalte {#sample-content-run-mode}
 
-The Core Components are visible in the Quickstart when the sample content is present, because the [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) uses them. Bei Ausführung in der Produktion (im Ausführungsmodus `nosamplecontent`, ohne aktivierten Beispielinhalt) sind die Kernkomponenten jedoch nicht mehr vorhanden und müssen vom Entwicklungs- und/oder Betriebsteam auf den AEM-Instanzen installiert werden.
+Die Kernkomponenten sind im Schnellstart-Menü sichtbar, wenn der Beispielinhalt vorhanden ist, da sie von der [Referenz-Site „We.Retail“](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/using/we-retail.html) verwendet werden. Bei Ausführung in der Produktion (im Ausführungsmodus `nosamplecontent`, ohne aktivierten Beispielinhalt) sind die Kernkomponenten jedoch nicht mehr vorhanden und müssen vom Entwicklungs- und/oder Betriebsteam auf den AEM-Instanzen installiert werden.
 
 >[!NOTE]
 >
@@ -102,18 +102,18 @@ Einzelheiten zu ihren Authoring-Fähigkeiten und Optionen zu ihrer Vorkonfigurat
 
 | **Funktion** | **Kernkomponente** | **Foundation-Komponente** |
 |-----|---|---|
-| Logikimplementierung | Java POJOs with [Sling Models](https://sling.apache.org/documentation/bundles/models.html) annotations | JSP-Code |
-| Markup-Definition | [Syntax der HTML-Vorlagensprache](https://helpx.adobe.com/experience-manager/htl/user-guide.html) (HTL) | JSP-Code |
+| Logikimplementierung | Java POJOs mit Anmerkungen zu [Sling-Modellen](https://sling.apache.org/documentation/bundles/models.html) | JSP-Code |
+| Markup-Definition | [HTML Template Language](https://helpx.adobe.com/de/experience-manager/htl/user-guide.html) (HTL)-Syntax | JSP-Code |
 | XSS-Bereinigung | Automatisiert durch HTL | Hauptsächlich manuell |
-| CSS-Klassen-Benennung | Standardized naming convention based on [Block Element Modifier](https://getbem.com/) (BEM) notation (as of release 2.0.0) | Benutzerdefinierte Schemata |
-| Dialogfeld-Definition | [Koralle 3](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Coral 2 + Klassische Benutzeroberfläche |
-| JSON-Ausgabe | [Sling Models Exporter mit Jackson-Serialisierung](https://sling.apache.org/documentation/bundles/models.html#exporter-framework-since-130) | Standard-Sling-Servlet |
+| CSS-Klassen-Benennung | Standardisierte Benennungskonvention basierend auf der [Block Element Modifier](https://getbem.com/) (BEM)-Notation (ab Version 2.0.0) | Benutzerdefinierte Schemata |
+| Dialogfeld-Definition | [Coral 3](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Coral 2 + Klassische Benutzeroberfläche |
+| JSON-Ausgabe | [Sling Model Exporter mit Jackson-Serialisierung](https://sling.apache.org/documentation/bundles/models.html#exporter-framework-since-130) | Standard-Sling-Servlet |
 | Versionierung | [Für das Modell und die HTL](guidelines.md) | Keine |
 | Testen | Unit-Tests und Integrationstests | Integrationstests |
-| Bereitstellung | [Über öffentliche GitHub](https://github.com/adobe/aem-core-wcm-components) | Über Quickstart |
+| Bereitstellung | [Über öffentliches GitHub](https://github.com/adobe/aem-core-wcm-components) | Über Quickstart |
 | Lizenz | [Apache-Lizenz](https://www.apache.org/licenses/LICENSE-2.0) | Adobe-geschützt |
 | Beitrag | Über Pull-Anfrage | Nicht möglich |
-| Barrierefreiheit | Vollständig konform mit dem [WCAG 2.0 AA-Standard](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html) | Only partially compliant with the [WCAG 2.0 AA standard](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html) |
+| Barrierefreiheit | Vollständig konform mit dem [WCAG 2.0 AA-Standard](https://helpx.adobe.com/de/experience-manager/6-5/managing/using/web-accessibility.html) | Nur teilweise konform mit dem [WCAG 2.0 AA-Standard](https://helpx.adobe.com/de/experience-manager/6-5/managing/using/web-accessibility.html) |
 
 ## Komponentenliste {#component-list}
 
@@ -136,14 +136,14 @@ In der folgenden Tabelle sind die verfügbaren Kernkomponenten mit Links zu ihre
 | [Navigation](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/navigation/v1/navigation) | Eine Site-Navigationskomponente, die die verschachtelte Seitenhierarchie auflistet | `/libs/foundation/components/topnav /libs/foundation/components/mobiletopnav` |
 | [Sprachnavigation](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/languagenavigation/v1/languagenavigation) | Ein Umschalter zwischen Sprachen und Ländern, der die globale Sprachstruktur auflistet | `-` |
 | [Schnellsuche](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/search/v1/search) | Eine Suchkomponente, die die Ergebnisse als ersetzende Vorschläge in einem Dropdown-Menü anzeigt | `/libs/foundation/components/search` |
-| [Teaser](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/teaser/v1/teaser) | Ermöglicht es dem Inhaltsautor, mühelos einen Teaser für weitere Inhalte zu erstellen, indem er ein Bild, einen Titel oder einen Rich-Text verwendet und Links zu weiteren Inhalten oder anderen Aktionen erstellt. | `-` |
+| [Teaser](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/teaser/v1/teaser) | Ermöglicht es dem Inhaltsautor, mühelos einen Teaser für weitere Inhalte zu erstellen, indem er ein Bild, einen Titel oder Rich-Text verwendet und Links zu weiteren Inhalten oder anderen Aktionen erstellt | `-` |
 | [Registerkarten](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/tabs/v1/tabs) | Ermöglicht es dem Inhaltsautor, Seiteninhalte innerhalb mehrerer Registerkarten zu organisieren | `-` |
 | [Karussell](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/carousel/v1/carousel) | Ermöglicht es dem Inhaltsautor, Inhalte in einem drehbaren Karussell der Folien zu organisieren | `/libs/foundation/components/carousel` |
 | [Inhaltsfragment](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragment/v1/contentfragment) | Ermöglicht die Anzeige eines Inhaltsfragments | `-` |
 | [Inhaltsfragmentliste](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragmentlist/v1/contentfragmentlist) | Ermöglicht die Anzeige einer Liste mit Inhaltsfragmenten | `-` |
 | [Trennzeichen](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator) | Trennt Inhalt auf einer Seite | `-` |
 | [Akkordeon](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/accordion/v1/accordion) | Organisieren von Inhalts-Bedienfeldern in einem ausblendbaren Akkordeon | `-` |
-| [Container](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/container/v1/container) | Organisieren von Komponenten in einem Behälter | `-` |
+| [Container](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/container/v1/container) | Organisieren von Komponenten in einem Container | `-` |
 | [Schaltfläche](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button) | Erstellen einer Schaltfläche auf einer Seite | `-` |
 | [Download](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/download/v1/download) | Hinzufügen eines herunterladbaren Assets zu einer Seite | `-` |
 | [Experience Fragment](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/experience-fragment/v1/experience-fragment) | Hinzufügen eines Experience Fragment zu einer Seite | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
@@ -151,13 +151,13 @@ In der folgenden Tabelle sind die verfügbaren Kernkomponenten mit Links zu ihre
 
 ### Künftige Komponenten {#upcoming-components}
 
-For an overview of the upcoming Core Componente roadmap see the [project wiki on GitHub](https://github.com/adobe/aem-core-wcm-components/wiki/home).
+Einen Überblick über geplante Kernkomponenten finden Sie im [Projekt-Wiki auf GitHub](https://github.com/adobe/aem-core-wcm-components/wiki/home).
 
 ## Aktualisierung der Kernkomponenten {#upgrade-of-core-components}
 
 Ein Vorteil versionierter Komponenten besteht darin, dass die Migration auf eine neue AEM-Version von der Migration auf neue Komponentenversionen getrennt werden kann. Wenn neue Komponentenversionen verfügbar sind, wird außerdem die einzelne Migration jeder Komponente zur neuen Version ermöglicht.
 
-Die Migration zu einer neuen AEM-Version wirkt sich nicht auf die Funktionsweise der Kernkomponenten aus, sofern ihre Versionen auch die neue AEM-Version unterstützen, auf die migriert wird. Customizations made to the Core Components should not be affected either, as long as they don't use APIs that have been [deprecated or removed](https://helpx.adobe.com/experience-manager/6-5/release-notes/deprecated-removed-features.html).
+Die Migration zu einer neuen AEM-Version wirkt sich nicht auf die Funktionsweise der Kernkomponenten aus, sofern ihre Versionen auch die neue AEM-Version unterstützen, auf die migriert wird. An den Kernkomponenten vorgenommene Anpassungen sollten ebenfalls nicht beeinträchtigt werden, sofern sie keine [veralteten oder entfernten](https://helpx.adobe.com/de/experience-manager/6-5/release-notes/deprecated-removed-features.html) APIs verwenden.
 
 Migrationen auf neue Versionen der Kernkomponenten wirken sich nicht auf die Funktionsweise der Komponente aus, aber es können ggf. neue Funktionen für Seitenautoren eingeführt werden, was möglicherweise einige Konfigurationen durch einen Vorlageneditor erfordert, falls das Standardverhalten nicht gewünscht wird. Anpassungen müssen jedoch ggf. angepasst werden. Weitere Informationen finden Sie auf der Seite [Anpassen von Kernkomponenten](customizing.md#upgrade-compatibility-of-customizations).
 
@@ -185,14 +185,14 @@ Jedes neue Projekt sollte mit Kernkomponenten implementiert werden. Bestehende P
 
 Eine größere Arbeit an einem vorhandenen Projekt (z. B. ein Rebranding oder eine Gesamtrefaktorierung) bietet oft eine Möglichkeit, zu den Kernkomponenten zu migrieren. Um diese Migration zu erleichtern, stellt Adobe eine Reihe von Migrationswerkzeugen bereit, um die Akzeptanz der Kernkomponenten und der neuesten AEM-Technologie zu fördern.
 
-[Die AEM-Modernisierungstools](http://opensource.adobe.com/aem-modernize-tools/) ermöglichen die einfache Konvertierung von:
+[Die AEM-Modernisierungs-Tools](http://opensource.adobe.com/aem-modernize-tools/) ermöglichen eine einfache Konvertierung von:
 
 * Statischen Vorlagen in bearbeitbare Vorlagen
 * Designkonfigurationen in Richtlinien
 * Foundation-Komponenten in Kernkomponenten
 * Klassische Benutzeroberfläche in Touch-optimierte Benutzeroberfläche
 
-Weitere Informationen zur Verwendung dieser Tools finden Sie [in der entsprechenden Dokumentation](http://opensource.adobe.com/aem-modernize-tools/).
+Weitere Informationen zur Verwendung dieser Werkzeuge finden Sie [in der entsprechenden Dokumentation](http://opensource.adobe.com/aem-modernize-tools/).
 
 >[!NOTE]
 >
@@ -212,7 +212,7 @@ Weitere Informationen zur Unterstützung von Komponentenanpassungen finden Sie a
 
 Da die Foundation-Komponenten über viele AEM-Versionen hinweg als Grundlage für so viele Projekte gedient haben, werden sie in absehbarer Zukunft weiterhin unterstützt.
 
-However, Adobe's development emphasis has shifted to the Core Components and new features will be added to them, whereas [nearly all Foundation Components have been deprecated with AEM 6.5](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) and only bug fixes will be made to the Foundation Components going forward.
+Der Entwicklungsschwerpunkt von Adobe wurde jedoch auf die Kernkomponenten verschoben, und neue Funktionen werden zu ihnen hinzugefügt, während [fast alle Foundation-Komponenten mit AEM 6.5 als veraltet gelten](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) und jetzt nur noch Fehlerkorrekturen an den Foundation-Komponenten vorgenommen werden.
 
 **Lesen Sie als Nächstes:**
 
