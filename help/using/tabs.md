@@ -8,7 +8,7 @@ content-type: Referenz
 topic-tags: Kernkomponenten
 discoiquuid: 966d47fb-d35d-4103-b29d-4ef0aa739f24
 translation-type: tm+mt
-source-git-commit: 48d23edbcdf4c4ed70d590cf6c6e4ac1db14f852
+source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
 
 ---
 
@@ -47,7 +47,7 @@ To experience the Tabs Component as well as see examples of its configuration op
 
 ### Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Tabs-Komponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/tabs/v1/tabs).
+The latest technical documentation about the Tabs Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/tabs/v1/tabs).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
 
@@ -65,6 +65,10 @@ Verwenden Sie die Schaltfläche **Hinzufügen**, um die Komponentenauswahl zu ö
 * **Beschreibung** - Die Beschreibung, die als Text der Registerkarte verwendet wird und standardmäßig den Namen der für die Registerkarte ausgewählten Komponente enthält.
 * **Entfernen** - Tippen oder klicken Sie darauf, um die Registerkarte aus der Registerkarten-Komponente zu löschen.
 * **Neu anordnen** - Tippen oder klicken Sie darauf, um die Reihenfolge der Registerkarten neu anzuordnen.
+
+>[!TIP]
+>
+>Wenn der Viewport der Seite so verringert wird, dass das Bearbeitungsdialogfeld im Vollbildmodus angezeigt wird, wird die Schaltfläche " **Hinzufügen** "ausgeblendet. Komponenten können weiterhin der Tabs-Komponente hinzugefügt werden, indem Sie aus dem Komponenten-Browser [ziehen und die Tabs-Komponente im Seiteneditor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)ablegen.
 
 ### Registerkarte „Eigenschaften“{#properties-tab}
 
