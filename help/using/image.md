@@ -10,7 +10,7 @@ topic-tags: Authoring
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: d4684f33-2fb5-4f32-866f-7136cf1800d7
 translation-type: tm+mt
-source-git-commit: 34ae30ca8be3ad290924b986acfac11d960f2ee0
+source-git-commit: ddc970cc3ca21fac5d1f0078837cfd091ec0dccb
 
 ---
 
@@ -66,7 +66,7 @@ To experience the Image Component as well as see examples of its configuration o
 
 ### Technische Details {#technical-details}
 
-Die neueste technische Dokumentation zur Bildkomponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image).
+The latest technical documentation about the Image Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
 
@@ -292,3 +292,13 @@ Last Modified Date: 2017-11-20T05:51:34.378-0500
 ### Registerkarte „Stile“ {#styles-tab-1}
 
 Die Bildkomponente unterstützt das AEM-[Stilsystem](authoring.md#component-styling).
+
+## Adaptives Image-Servlet {#adaptive-image-servlet}
+
+Die Image-Komponente verwendet das adaptive Image-Servlet der Core-Komponente. [Das adaptive Image Servlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) ist für die Bildverarbeitung und das Streaming verantwortlich und kann von Entwicklern bei der [Anpassung der Kernkomponenten](customizing.md)genutzt werden.
+
+>[!NOTE]
+>
+>Bedingte Anforderungen über den `Last-Modified` Header werden vom adaptiven Image-Servlet unterstützt, aber die Zwischenspeicherung des `Last-Modified` Headers [muss im Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers)aktiviert werden.
+>
+>[Die Musterkonfiguration des AEM-Projektarchetyps](overview.md)enthält diese Konfiguration bereits.
