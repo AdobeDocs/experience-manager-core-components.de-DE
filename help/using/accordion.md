@@ -10,7 +10,7 @@ topic-tags: Authoring
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
 translation-type: tm+mt
-source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
+source-git-commit: ac88c3bb608be4fff70ad23d48ad0852347eff4a
 
 ---
 
@@ -64,6 +64,10 @@ Verwenden Sie die Schaltfläche **Hinzufügen**, um die Komponentenauswahl zu ö
 * **Entfernen** - Tippen oder klicken Sie, um das Bedienfeld aus der Akkordeon-Komponente zu löschen.
 * **Neu anordnen** - Tippen oder klicken und ziehen Sie, um die Reihenfolge der Bedienfelder neu anzuordnen.
 
+>[!TIP]
+>
+>Wenn der Viewport der Seite so verringert wird, dass das Bearbeitungsdialogfeld im Vollbildmodus angezeigt wird, wird die Schaltfläche " **Hinzufügen** "ausgeblendet. Komponenten können weiterhin der Akkordeon-Komponente hinzugefügt werden, indem Sie aus dem Komponenten-Browser [ziehen und die Akkordeon-Komponente im Seiteneditor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)ablegen.
+
 ### Registerkarte „Eigenschaften“{#properties-tab}
 
 ![](assets/screen-shot-2019-06-21-08.26.53.png)
@@ -72,10 +76,6 @@ Verwenden Sie die Schaltfläche **Hinzufügen**, um die Komponentenauswahl zu ö
 * **Erweiterte Elemente** - Diese Option definiert die Elemente, die standardmäßig beim Laden der Seite eingeblendet werden.
    * Wenn **Einzelelement-Erweiterung** ausgewählt ist, muss ein Bedienfeld ausgewählt werden. Standardmäßig wird das erste Bedienfeld ausgewählt.
    * Wenn **Einzelelement-Erweiterung** nicht ausgewählt ist, ist diese Option eine Mehrfachauswahl und optional.
-
->[!TIP]
->
->Wenn der Viewport der Seite so verringert wird, dass das Bearbeitungsdialogfeld im Vollbildmodus angezeigt wird, wird die Schaltfläche " **Hinzufügen** "ausgeblendet. Komponenten können weiterhin der Akkordeon-Komponente hinzugefügt werden, indem Sie aus dem Komponenten-Browser [ziehen und die Akkordeon-Komponente im Seiteneditor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)ablegen.
 
 ## Popover zur Bedienfeldauswahl{#seelct-panel-popover}
 
