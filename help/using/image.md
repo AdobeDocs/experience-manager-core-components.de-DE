@@ -9,7 +9,7 @@ content-type: Referenz
 topic-tags: Authoring
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: d4684f33-2fb5-4f32-866f-7136cf1800d7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ddc970cc3ca21fac5d1f0078837cfd091ec0dccb
 
 ---
@@ -58,15 +58,15 @@ Aus Sicherheitsgründen wird die ursprüngliche SVG niemals direkt vom Bild-Edit
 
 >[!CAUTION]
 >
->Für die SVG-Unterstützung ist Version 2.1.0 der Core-Komponenten oder höher zusammen mit [Service Pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) für AEM 6.4 oder [Service Pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) für AEM 6.3 oder höher erforderlich, um [neue Bildbearbeitungsfunktionen](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) in AEM zu unterstützen.
+>Für die SVG-Unterstützung sind die Kernkomponenten in Version 2.1.0 oder höher zusammen mit AEM 6.4 [Service Pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) bzw. AEM 6.3 [Service Pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) oder höher erforderlich, damit [neue Bildbearbeitungsfunktionen](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) in AEM unterstützt werden.
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-To experience the Image Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/image.html).
+Um die Bildkomponente zu erleben und Beispiele für ihre Konfigurationsoptionen sowie die HTML- und JSON-Ausgabe zu sehen, besuchen Sie die [Komponentenbibliothek](http://opensource.adobe.com/aem-core-wcm-components/library/image.html).
 
 ### Technische Details {#technical-details}
 
-The latest technical documentation about the Image Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image).
+Die aktuelle technische Dokumentation zur Bildkomponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
 
@@ -83,9 +83,9 @@ Zusätzlich zum standardmäßigen [Dialogfeld „Bearbeiten“](#edit-dialog) un
 ![](assets/screen_shot_2018-01-08at114245.png)
 
 * **Bild-Asset**
-   * Drop an asset from the [asset browser](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) or tap the **browse** option to upload from a local file system.
+   * Ziehen Sie ein Asset aus dem [Asset-Browser](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) oder tippen Sie auf die Option **Durchsuchen**, um es von einem lokalen Dateisystem hochzuladen.
    * Tippen oder klicken Sie auf **Löschen**, um das aktuell ausgewählte Bild zu deaktivieren.
-   * Tap or click **Edit** to [mange the renditions of the asset](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) in the asset editor.
+   * Tippen oder klicken Sie auf **Bearbeiten**, um die [Darstellungen des Assets](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) im Asset-Editor zu verwalten.
 
 ### Registerkarte „Metadaten“ {#metadata-tab}
 
@@ -149,7 +149,7 @@ Das Dialogfeld „Bearbeiten“ ermöglicht dem Inhaltsautor das Zuschneiden, Ä
 
    >[!CAUTION]
    >
-   >Die Funktion "Startkarte"erfordert Version 2.1.0 der Core-Komponenten oder höher zusammen mit [Service Pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) für AEM 6.4 oder [Service Pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) für AEM 6.3 oder höher, um [neue Bildbearbeitungsfunktionen](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) in AEM zu unterstützen.
+   >Die Funktion „Startkarte“ erfordert die Kernkomponenten in Version 2.1.0 oder höher zusammen mit AEM 6.4 [Service Pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) bzw. AEM 6.3 [Service Pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) oder höher, um [neue Bildbearbeitungsfunktionen](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) in AEM zu unterstützen.
 
    ![](assets/chlimage_1-12.png)
 
@@ -293,12 +293,12 @@ Last Modified Date: 2017-11-20T05:51:34.378-0500
 
 Die Bildkomponente unterstützt das AEM-[Stilsystem](authoring.md#component-styling).
 
-## Adaptives Image-Servlet {#adaptive-image-servlet}
+## Adaptives Bildservlet {#adaptive-image-servlet}
 
-Die Image-Komponente verwendet das adaptive Image-Servlet der Core-Komponente. [Das adaptive Image Servlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) ist für die Bildverarbeitung und das Streaming verantwortlich und kann von Entwicklern bei der [Anpassung der Kernkomponenten](customizing.md)genutzt werden.
+Die Bildkomponente verwendet das Adaptive Bildservlet der Kernkomponente. [Das Adaptive Bildservlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) übernimmt die Bildverarbeitung sowie das Streaming und kann von Entwicklern bei der [Anpassung der Kernkomponenten](customizing.md) genutzt werden.
 
 >[!NOTE]
 >
->Bedingte Anforderungen über den `Last-Modified` Header werden vom adaptiven Image-Servlet unterstützt, aber die Zwischenspeicherung des `Last-Modified` Headers [muss im Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers)aktiviert werden.
+>Bedingte Anforderungen über den `Last-Modified`-Header werden vom Adaptiven Bildservlet unterstützt, aber die Zwischenspeicherung des `Last-Modified`-Headers [muss im Ereignisauslöser](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers) aktiviert werden.
 >
->[Die Musterkonfiguration des AEM-Projektarchetyps](overview.md)enthält diese Konfiguration bereits.
+>Die [Ereignisauslöser-Musterkonfiguration des AEM-Projektarchetyps](overview.md) enthält diese Konfiguration bereits.
