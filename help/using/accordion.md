@@ -9,7 +9,7 @@ content-type: Referenz
 topic-tags: Authoring
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ac88c3bb608be4fff70ad23d48ad0852347eff4a
 
 ---
@@ -45,7 +45,7 @@ Um die Akkordeon-Komponente sowie Beispiele für die Konfigurationsoptionen sowi
 
 ## Technische Details {#technical-details}
 
-The latest technical documentation about the Accordion Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/accordion/v1/accordion).
+Die aktuelle technische Dokumentation zur Akkordeon-Komponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/accordion/v1/accordion).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
 
@@ -66,7 +66,7 @@ Verwenden Sie die Schaltfläche **Hinzufügen**, um die Komponentenauswahl zu ö
 
 >[!TIP]
 >
->Wenn der Viewport der Seite so verringert wird, dass das Bearbeitungsdialogfeld im Vollbildmodus angezeigt wird, wird die Schaltfläche " **Hinzufügen** "ausgeblendet. Komponenten können weiterhin der Akkordeon-Komponente hinzugefügt werden, indem Sie aus dem Komponenten-Browser [ziehen und die Akkordeon-Komponente im Seiteneditor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)ablegen.
+>Wenn der Viewport der Seite so reduziert wird, dass das Bearbeitungsdialogfeld im Vollbildmodus angezeigt wird, ist die Schaltfläche **Hinzufügen** ausgeblendet. Sie können der Akkordeon-Komponente weiterhin Komponenten hinzufügen, indem Sie sie [per Drag-and-Drop aus dem Komponenten-Browser ziehen und im Seiteneditor auf der Akkordeon-Komponente ablegen](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent).
 
 ### Registerkarte „Eigenschaften“{#properties-tab}
 
@@ -107,7 +107,7 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Optionen zu de
 
 Über die Registerkarte **Zugelassene Komponenten** können Sie definieren, welche Komponenten der Akkordeon-Komponente vom Inhaltsautor als Elemente in Bedienfeldern hinzugefügt werden können.
 
-Die Registerkarte „Zugelassene Komponenten“ funktioniert auf die gleiche Weise wie die Registerkarte desselben Namens beim [Definieren der Richtlinie und Eigenschaften eines Layoutcontainers im Vorlageneditor.](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+Die Registerkarte „Zugelassene Komponenten“ funktioniert auf die gleiche Weise wie die Registerkarte desselben Namens beim [Definieren der Richtlinie und Eigenschaften eines Layoutcontainers im Vorlageneditor.](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/templates.html)
 
 ### Registerkarte „Stile“ {#styles-tab}
 
