@@ -7,7 +7,7 @@ contentOwner: bohnert
 content-type: reference
 topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: 5f905b0231b5f07924a55dd3d79d347e019f76f4
+source-git-commit: ac1bcbdedd1567ed44809da8d78a7c8a5bd9156d
 
 ---
 
@@ -88,6 +88,10 @@ Der AEM-Projektarchiv enthält einen optionalen, dedizierten Front-End-Build-Mec
    * Anbieter (Abhängigkeiten js/css)
 * Vollständige Unterstützung von Sass/Scss (Sass wird über Webpack zu CSS kompiliert)
 * Static Webpack-Entwicklungsserver mit integriertem Proxy zu einer lokalen Instanz von AEM
+
+>[!NOTE]
+>
+>Weitere technische Informationen zum ui.frontend Modul finden Sie in der [Dokumentation zu GitHub](https://github.com/adobe/aem-project-archetype/blob/master/src/main/archetype/ui.frontend/README.md).
 
 ## Installation {#installation}
 
