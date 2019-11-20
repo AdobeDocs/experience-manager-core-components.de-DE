@@ -3,11 +3,11 @@ title: Kernmodul des AEM-Projektarchetyps
 seo-title: Kernmodul des AEM-Projektarchetyps
 description: Kernmodul des AEM-Projektarchetyps
 seo-description: Kernmodul des AEM-Projektarchetyps
-contentOwner: Bohnert
-content-type: Referenz
-topic-tags: Kernkomponenten
-translation-type: ht
-source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
+contentOwner: bohnert
+content-type: reference
+topic-tags: core-components
+translation-type: tm+mt
+source-git-commit: ca7a47d8ac91516659c115a3f27c09f0ee4b8b33
 
 ---
 
@@ -24,4 +24,4 @@ Obwohl es selten vorkommt, dass das Kernpaket unabhängig vom ui.apps-Modul in U
 mvn -PautoInstallBundle clean install
 ```
 
-Nach erfolgreicher Ausführung sollte die Bundels-Konsole angezeigt werden können unter `http://<host>:<port>/system/console/bundles`.
+Once successfully executed, you should be able to see the Bundles Console at `http://<host>:<port>/system/console/bundles`.
