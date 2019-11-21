@@ -4,9 +4,9 @@ seo-title: Container-Komponente
 description: 'null'
 seo-description: Die Kernkomponente „Container-Komponente“ ermöglicht die Erstellung eines Containers für diverse zusätzliche Komponenten auf einer Seite.
 uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
-contentOwner: Benutzer
-content-type: Referenz
-topic-tags: Authoring
+contentOwner: User
+content-type: reference
+topic-tags: authoring
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
 translation-type: tm+mt
@@ -44,7 +44,7 @@ Um die Container-Komponente sowie Beispiele für die Konfigurationsoptionen sowi
 
 ## Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Container-Komponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/container/v1/container).
+The latest technical documentation about the Container Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/container/v1/container).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
 
