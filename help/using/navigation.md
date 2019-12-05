@@ -4,13 +4,13 @@ seo-title: Navigationskomponente
 description: 'null'
 seo-description: Mit der Navigationskomponente können Benutzer leicht durch eine globalisierten Site-Struktur navigieren.
 uuid: 616c03fb-39b3-402a-b990-f56c87bc6df4
-content-type: Referenz
-topic-tags: Authoring
+content-type: reference
+topic-tags: authoring
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: da8d67d7-b65e-4041-bc0e-e998f24a68f9
 disttype: dist5
 gnavtheme: light
-groupsectionnavitems: keine
+groupsectionnavitems: false
 hidemerchandisingbar: inherit
 hidepromocomponent: inherit
 modalsize: 426x240
@@ -18,7 +18,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
+source-git-commit: 9718a1075b5789db9b71d25b3146f9643bb69ad0
 
 ---
 
@@ -31,7 +31,7 @@ Mit der Navigationskomponente können Benutzer leicht durch eine globalisierten 
 
 In der Navigationskomponente wird ein Seitenbaum aufgelistet, sodass Benutzer einer Website problemlos in der Site-Struktur navigieren können.
 
-Die Navigationskomponente kann die globale Site-Struktur Ihrer Site automatisch erkennen und [automatisch an eine lokalisierte Site anpassen.](#localized-site-strucutre) Darüber hinaus kann eine beliebige Site-Struktur durch die Verwendung von [Shadow-Umleitungsseiten](#shadow-structure) zur Darstellung einer anderen Struktur als Ihrer Hauptinhaltsstruktur unterstützt werden.
+Die Navigationskomponente kann die globale Site-Struktur Ihrer Site automatisch erkennen und [automatisch an eine lokalisierte Site anpassen.](#localized-site-structure) Darüber hinaus kann eine beliebige Site-Struktur durch die Verwendung von [Shadow-Umleitungsseiten](#shadow-structure) zur Darstellung einer anderen Struktur als Ihrer Hauptinhaltsstruktur unterstützt werden.
 
 Das Dialogfeld [„Bearbeiten“](#edit-dialog) ermöglicht es dem Inhaltsautor, die Navigationsstammseite zusammen mit der Navigationstiefe zu definieren. Das [Dialogfeld „Design“](#design-dialog) ermöglicht es dem Vorlagenautor, Standardwerte für den Navigationsstamm und die Tiefe zu definieren.
 
@@ -39,8 +39,8 @@ Das Dialogfeld [„Bearbeiten“](#edit-dialog) ermöglicht es dem Inhaltsautor,
 
 Webseiten werden oft in verschiedenen Sprachen für verschiedene Regionen angeboten. Normalerweise enthält jede lokalisierte Seite ein Navigationselement, das als Teil der Seitenvorlage enthalten ist. Mit der Navigationskomponente können Sie sie einmal in einer Vorlage für alle Seiten Ihrer Site platzieren. Sie wird dann, basierend auf Ihrer globalisierten Site-Struktur, automatisch an die einzelnen lokalisierten Seiten angepasst.
 
-* Ein Beispiel für die Funktionsweise der Lokalisierungsfunktion der Navigationskomponente finden Sie [im Abschnitt unten](#example-localiatzion).
-* Ein Beispiel dafür, wie die Lokalisierungsfunktionen der Hauptkomponenten zusammenarbeiten, finden Sie auf der Seite "Hauptkomponenten"unter [Lokalisierungsfunktionen](localization.md).
+* Ein Beispiel dafür, wie die Lokalisierungsfunktion der Navigationskomponente funktioniert, finden Sie [unten](#example-localization).
+* Ein Beispiel dafür, wie die Lokalisierungsfunktionen der Kernkomponenten zusammenarbeiten, finden Sie auf der Seite [Kernkomponenten](localization.md) unter „Lokalisierungsfunktionen“.
 
 ### Beispiel {#example-localization}
 
@@ -88,15 +88,15 @@ Manchmal ist es notwendig, ein Navigationsmenü für den Besucher zu erstellen, 
 
 Dazu müssen Sie Folgendes tun:
 
-1. Erstellen Sie Shadow-Seiten als leere Seiten, die Ihre gewünschte Site-Struktur repräsentieren. Dies wird häufig als Shadow-Standortstruktur bezeichnet.
-1. Legen Sie die Werte für die **Umleitung** in den Seiteneinstellungen auf diesen Seiten fest, um auf die tatsächlichen Inhaltsseiten zu verweisen.
+1. Erstellen Sie Schattenseiten als leere Seiten, die Ihre gewünschte Site-Struktur darstellen. Dies wird häufig als Shadow-Standortstruktur bezeichnet.
+1. Set the **Redirect** values in the page properties on these pages to point to the actual content pages.
 1. Legen Sie die Option **In der Navigation ausblenden** in den Seiteneigenschaften der Shadow-Seiten fest.
 1. Legen Sie den **Navigationsstammwert** der Navigationskomponente fest, um auf den Stamm der neuen Shadow-Site-Struktur zu verweisen.
 
 Die Navigationskomponente rendert dann das Menü basierend auf der Shadow-Site-Struktur. Die von der Komponente gerenderten Links beziehen sich auf die tatsächlichen Inhaltsseiten, auf die die Shadow-Seiten umleiten, und nicht auf die Shadow-Seiten selbst. Darüber hinaus zeigt die Komponente die Namen der tatsächlichen Seiten an und hebt die aktive Seite korrekt hervor, auch wenn die Navigation auf Shadow-Seiten basiert. Die Navigationskomponente macht die Shadow-Seiten für den Besucher vollständig transparent.
 
 >[!NOTE]
->Durch Shadow-Seiten werden Ihre Navigationsoptionen wesentlich flexibler. Beachten Sie jedoch, dass diese Struktur dann vollständig manuell verwaltet wird. Wenn Sie den Inhalt Ihren tatsächlichen Site neu anordnen oder Inhalte hinzufügen/entfernen, müssen Sie die Shadow-Struktur nach Bedarf manuell aktualisieren.
+>Schattenseiten machen Ihre Navigationsoptionen viel flexibler, aber beachten Sie, dass die Pflege dieser Struktur dann komplett manuell erfolgt. Wenn Sie den Inhalt Ihren tatsächlichen Site neu anordnen oder Inhalte hinzufügen/entfernen, müssen Sie die Shadow-Struktur nach Bedarf manuell aktualisieren.
 
 >[!NOTE]
 >Beim Rendern einer Shadow-Site-Struktur werden nur die Shadow-Seiten von der Navigationslogik rekursiv dargestellt. Die Logik führt keine Rekursion der Struktur der Umleitungsziele aus.
@@ -119,7 +119,7 @@ Um die Navigationskomponente sowie Beispiele für die Konfigurationsoptionen sow
 
 ## Technische Details {#technical-details}
 
-Die neueste technische Dokumentation zur Navigationskomponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/navigation/v1/navigation).
+The latest technical documentation about the Navigation Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/navigation/v1/navigation).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
 
@@ -133,22 +133,22 @@ Im Dialogfeld „Bearbeiten“ kann der Inhaltsautor die Stammseite für die Nav
 
 ### Registerkarte „Eigenschaften“ {#properties-tab}
 
-![](assets/screen-shot-2019-08-29-12.23.45.png)
+![](assets/screen-shot-2019-12-04at12.50.51.png)
 
-* **Navigationsstamm**
-Die Stammseite, die zum Generieren der Navigationsstruktur verwendet wird.
-* **Navigationsstamm ausschließen**
-Navigationsstamm in der Ausgabestruktur ausschließen, nur untergeordnete Elemente einschließen.
-* **Sammlung aller untergeordneten Seiten**
-Sammeln Sie alle untergeordneten Seiten, die sich auf dem Navigationsstamm befinden.
-* **Navigationsstrukturtiefe**
-Definiert, wie viele Ebenen die Komponente in der Navigationsstruktur im Verhältnis zum Navigationsstamm anzeigen soll (nur verfügbar, wenn **Sammlung aller untergeordneten Seiten** nicht ausgewählt sind).
+* **Navigationsstamm** - Die Stammseite, die zum Generieren des Navigationsbaums verwendet wird.
+* **Stammebenen** ausschließen - Oft sollte der Stamm nicht in die Navigation einbezogen werden. Mit dieser Option können Sie festlegen, wie viele Ebenen bis zum Stamm, den Sie ausschließen möchten, liegen. Beispiel:
+   * 0 = Wurzelebene anzeigen
+   * 1 = Ausschließen der Stammebene
+   * 2 = Ausschließen der Stamm- und 1 weitere Ebene nach oben
+   * verwenden.
+* **Alle untergeordneten Seiten** erfassen - Sammelt alle Seiten, die untergeordnete Elemente des Navigationsstamms sind.
+* **Tiefe** der Navigationsstruktur - Definiert, wie viele Ebenen in der Navigationsstruktur die Komponente relativ zum Navigationsstamm anzeigen soll (nur verfügbar, wenn " **Alle untergeordneten Seiten** sammeln"nicht ausgewählt ist).
 
 ### Registerkarte „Barrierefreiheit“ {#accessibility-tab}
 
 ![](assets/screen-shot-2019-08-29-12.23.53.png)
 
-On the **Accessibility** tab, values can be set for [ARIA accessibility](https://www.w3.org/WAI/standards-guidelines/aria/) labels for the component.
+Auf der Registerkarte **Barrierefreiheit** können Werte für die [ARIA-Barrierefreiheits-Bezeichungen](https://www.w3.org/WAI/standards-guidelines/aria/) für die Komponente festgelegt werden.
 
 * **Bezeichnung** - Wert eines ARIA-Bezeichnungs-Attributs für die Komponente
 
@@ -158,16 +158,16 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Standardwerte 
 
 ### Registerkarte „Eigenschaften“ {#properties-tab-design}
 
-![](assets/screen_shot_2018-04-03at112357.png)
+![](assets/screen-shot-2019-12-04at12.53.32.png)
 
-* **Navigationsstamm**
-Der Standardwert der Stammseite der Navigationsstruktur, die zum Generieren der Navigationsstruktur verwendet und standardmäßig verwendet wird, wenn der Inhaltsautor die Komponente der Seite hinzufügt.
-* **Navigationsstamm ausschließen**
-Der Standardwert der Option, um den Navigationsstamm in der resultierenden Struktur auszuschließen.
-* **Sammlung aller untergeordneten Seiten**
-Der Standardwert der Option zur Sammlung aller Seiten, die sich auf dem Navigationsstamm befinden.
-* **Navigationsstruktur der Tiefe**
-Standardwert der Navigationsstruktur der Tiefe.
+* **Navigationsstamm** : Der Standardwert der Stammseite der Navigationsstruktur, der zum Generieren der Navigationsstruktur verwendet wird und standardmäßig verwendet wird, wenn der Inhaltsersteller die Komponente zur Seite hinzufügt.
+* **Stammebenen** ausschließen - Oft sollte der Stamm nicht in die Navigation einbezogen werden. Mit dieser Option können Sie die Standardeinstellung für die Anzahl der Ebenen festlegen, die von dem Stamm, den Sie ausschließen möchten, entfernt werden sollen. Beispiel:
+   * 0 = Wurzelebene anzeigen
+   * 1 = Ausschließen der Stammebene
+   * 2 = Ausschließen der Stamm- und 1 weitere Ebene nach oben
+   * verwenden.
+* **Alle untergeordneten Seiten** erfassen - Der Standardwert der Option zum Erfassen aller Seiten, die untergeordnete Elemente des Navigationsstamms sind.
+* **Navigationsstrukturtiefe** : Der Standardwert der Navigationsstrukturtiefe.
 
 ### Registerkarte „Stile“ {#styles-tab}
 
