@@ -7,7 +7,7 @@ contentOwner: bohnert
 content-type: reference
 topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: 6616db2e76d35716cb37052afca8ca2cc2379548
+source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 ---
 
@@ -22,7 +22,7 @@ Der AEM-Projektarchetyp erstellt ein Adobe Experience Manager-Projekt mit minima
 
 >[!NOTE]
 >
->See the [Getting Started with AEM Sites - WKND Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) in the AEM documentation for a practical example that walks you through using the archetype to implement a simple project.
+>In der AEM-Dokumentation finden Sie das Tutorial [Erste Schritte mit AEM Sites - WKND (Erste Schritte mit AEM Sites)](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html), in dem Sie anhand eines praktischen Beispiels erfahren, wie Sie mit dem Archetyp ein einfaches Projekt implementieren.
 
 ## Funktionen {#features}
 
@@ -57,7 +57,7 @@ Der AEM-Archetyp besteht aus Modulen:
 
 ![](assets/archetype-structure.png)
 
-Die in Maven dargestellten Module von AEM Archetype werden als Inhaltspakete für die Anwendung, den Inhalt und die erforderlichen OSGi-Pakete in AEM bereitgestellt.
+Die in Maven dargestellten Module des AEM-Archetyps werden als Inhaltspakete bereitgestellt, die die Anwendung, den Inhalt und die erforderlichen OSGi-Pakete darstellen.
 
 ## Voraussetzungen {#requirements}
 
@@ -207,7 +207,7 @@ Um die Kernkomponenten in allen Implementierungen zu nutzen, empfiehlt es sich d
 
 >[!NOTE]
 >
->Nach jeder Version der Kernkomponenten wird im Allgemeinen eine Version des AEM-Projektarchetyps veröffentlicht, sodass der neueste Archetyp die neueste Version der Kernkomponenten verwendet.
+>Nach jeder Version der Kernkomponenten wird im Allgemeinen eine Version des AEM-Projektarchivs veröffentlicht, sodass der neueste Archetyp die neueste Version der Kernkomponenten verwendet.
 >
 >Eine neue Version des Archetyps folgt möglicherweise nicht direkt einer neuen Version der Core-Komponenten, daher sollten Sie die Abhängigkeit von den Core-Komponenten auf die neueste Version aktualisieren.
 
@@ -231,9 +231,9 @@ Es gibt drei Testebenen im Projekt, und da es sich bei ihnen um unterschiedliche
 
 ## Nächste Schritte {#next-steps}
 
-So haben Sie den AEM Project Archetype erstellt und installiert. Was jetzt? Der Archetyp ist klein, besteht aber aus vielen Beispielen leistungsfähiger AEM-Funktionen, die gemäß empfohlenen Best Practices konfiguriert wurden. Verwenden Sie diese, um anzuzeigen, wie Sie diese Funktionen in Ihrem Projekt nutzen können. Für jedes Projekt, das Sie wahrscheinlich benötigen:
+Sie haben den AEM-Projektarchetyp erstellt und installiert. Was jetzt? Der Archetyp ist klein, besteht aber aus vielen Beispielen leistungsfähiger AEM-Funktionen, die gemäß empfohlenen Best Practices konfiguriert wurden. Verwenden Sie diese, um anzuzeigen, wie Sie diese Funktionen in Ihrem Projekt nutzen können. Bei jedem Projekt müssen Sie wahrscheinlich folgende Aufgaben durchführen:
 
-* [Anpassen von Komponenten durch Erweiterung der vorhandenen Kernkomponenten](customizing.md)
+* [Komponenten durch Erweiterung der vorhandenen Core-Komponenten anpassen](customizing.md)
 * [Zusätzliche Vorlagen hinzufügen](https://helpx.adobe.com/content/help/en/experience-manager/6-5/sites/authoring/using/templates.html)
-* [Anpassen der Lokalisierungsstruktur](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html)
-* [Informationen zum Front-End-Build-Modul](uifrontend.md)
+* [Lokalisierungsstruktur anpassen](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html)
+* [Informationen zum Front-End-Build-Modul abrufen](uifrontend.md)
