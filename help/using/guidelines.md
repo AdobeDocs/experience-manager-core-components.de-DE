@@ -4,13 +4,13 @@ seo-title: Komponentenrichtlinien
 description: Die Kernkomponenten folgen modernen Implementierungsmustern, die sich stark von den Foundation-Komponenten unterscheiden.
 seo-description: Die Kernkomponenten folgen modernen Implementierungsmustern, die sich stark von den Foundation-Komponenten unterscheiden.
 uuid: b1daea89-da3c-454f-8ab5-d75a19412954
-contentOwner: Benutzer
-content-type: Referenz
-topic-tags: entwickeln
+contentOwner: User
+content-type: reference
+topic-tags: developing
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 170dba8f-a2ed-442e-a56e-1126b338c36e
-translation-type: ht
-source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
+translation-type: tm+mt
+source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 ---
 
@@ -35,9 +35,9 @@ Wenn Sie diesen Schritt weiter durchführen möchten, wenn Komponenten über meh
 
 ### Problemtrennung {#separation-of-concerns}
 
-Es empfiehlt sich, die Logik (oder das Modell) einer Komponente getrennt von der Markup-Vorlage (oder der Ansicht) zu halten. Es gibt verschiedene Möglichkeiten, dies zu erreichen. Es wird jedoch empfohlen, [ Sling-Modelle ](https://sling.apache.org/documentation/bundles/models.html) für die Logik und [ HTML-Vorlagensprache ](https://helpx.adobe.com/de/experience-manager/htl/using/overview.html) (HTL) für das Markup zu verwenden, wie dies auch die Kernkomponenten tun.
+Es empfiehlt sich, die Logik (oder das Modell) einer Komponente getrennt von der Markup-Vorlage (oder der Ansicht) zu halten. Es gibt verschiedene Möglichkeiten, dies zu erreichen. Es wird jedoch empfohlen, [ Sling-Modelle ](https://sling.apache.org/documentation/bundles/models.html) für die Logik und [ HTML-Vorlagensprache ](https://helpx.adobe.com/experience-manager/htl/using/overview.html) (HTL) für das Markup zu verwenden, wie dies auch die Kernkomponenten tun.
 
-Sling-Modelle sind eine Reihe von Java-Anmerkungen, um schnell auf benötigte Variablen von POJOs zuzugreifen und daher eine einfache, leistungsstarke und effiziente Möglichkeit, Java-Logik für Komponenten zu implementieren.
+Sling-Modelle sind eine Reihe von Java-Anmerkungen, um leicht auf benötigte Variablen von POJOs zugreifen zu können und bieten daher eine einfache, leistungsstarke und effiziente Möglichkeit, Java-Logik für Komponenten zu implementieren.
 
 HTL wurde als sichere und einfache Vorlagensprache entwickelt, die auf AEM zugeschnitten ist. Es kann viele Formen der Logik aufrufen, was es sehr flexibel macht.
 
@@ -47,19 +47,9 @@ Die Richtlinien in diesem Abschnitt können für jede Art von Komponente ebenfal
 
 ### Vorkonfigurierbare Funktionen {#pre-configurable-capabilities}
 
-Neben dem Bearbeitungsdialogfeld, das von den Seitenautoren verwendet wird, können Komponenten auch ein Dialogfeld „Design“ für Vorlagenautoren haben, um diese vorkonfigurieren zu können. Der [Vorlageneditor](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/templates.html) ermöglicht das Einrichten aller Vorkonfigurationen, die als "Richtlinien" bezeichnet werden.
+Neben dem Bearbeitungsdialogfeld, das von den Seitenautoren verwendet wird, können Komponenten auch ein Dialogfeld „Design“ für Vorlagenautoren haben, um diese vorkonfigurieren zu können. Der [Vorlageneditor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) ermöglicht das Einrichten aller Vorkonfigurationen, die als "Richtlinien" bezeichnet werden.
 
 Um Komponenten so wiederverwendbar wie möglich zu machen, sollten sie mit aussagekräftigen Optionen zur Vorkonfiguration bereitgestellt werden. Dies ermöglicht das Aktivieren oder Deaktivieren von Funktionen der Komponenten, die den spezifischen Anforderungen verschiedener Sites entsprechen.
-
-<!-- 
-
-Comment Type: annotation
-Last Modified By: ims-author-CE1E2CE451D1F0680A490D45@AdobeID
-Last Modified Date: 2017-04-17T17:49:04.584-0400
-
-Unclear how I can add my own capability toggle (for example, if i extend a component and want to toggle that extended functionality ... )
-
- -->
 
 ### Proxy-Komponentenmuster {#proxy-component-pattern}
 
@@ -96,7 +86,7 @@ In Kombination mit dem oben beschriebenen [Proxy-Komponentenmuster](#proxy-compo
 
 ## Alles zusammenbringen {#putting-it-all-together}
 
-Im Folgenden finden Sie eine Übersicht über die gesamte Ressourcentyp-Bindungsstruktur, die sich auf die Titel-Kernkomponente bezieht. Es zeigt, wie eine Site-spezifische Proxy-Komponente die Versionierung der Komponenten auflösen lässt, um zu vermeiden, dass die Inhaltsressource eine Versionsnummer enthält. Anschließend wird gezeigt, wie die Datei `title.html` [HTL](https://helpx.adobe.com/de/experience-manager/htl/using/overview.html) der Komponente für die Modellschnittstelle verwendet wird, während die Implementierung über [Sling Model ](https://sling.apache.org/documentation/bundles/models.html)-Anmerkungen an die bestimmte Version der Komponente gebunden wird.
+Im Folgenden finden Sie eine Übersicht über die gesamte Ressourcentyp-Bindungsstruktur, die sich auf die Titel-Kernkomponente bezieht. Es zeigt, wie eine Site-spezifische Proxy-Komponente die Versionierung der Komponenten auflösen lässt, um zu vermeiden, dass die Inhaltsressource eine Versionsnummer enthält. Anschließend wird gezeigt, wie die Datei `title.html` [HTL](https://helpx.adobe.com/experience-manager/htl/using/overview.html) der Komponente für die Modellschnittstelle verwendet wird, während die Implementierung über [Sling Model ](https://sling.apache.org/documentation/bundles/models.html)-Anmerkungen an die bestimmte Version der Komponente gebunden wird.
 
 ![Überblick über die Ressourcenbindung](assets/chlimage_1-32.png)
 
@@ -104,18 +94,15 @@ Im Folgenden finden Sie eine weitere Übersicht, in der keine Details zur Implem
 
 Die `cq:allowedTemplates`-Eigenschaft gibt an, welche Vorlagen für eine Site verwendet werden können, und die `cq:template` informiert für jede Seite, was die zugehörige Vorlage ist. Jede Vorlage besteht aus den folgenden drei Teilen:
 
-* **structure**
-Enthält die Ressourcen, die auf jeder Seite erzwungen werden sollen und die der Seitenautor nicht löschen kann, z. B. die Kopf- und Fußzeilenkomponenten der Seite.
-* **Initial**
-Enthält den anfänglichen Inhalt, der beim Erstellen der Seite auf sie dupliziert wird.
-* **Richtlinien**
-Enthält für jede Komponente die Zuordnung zu einer Richtlinie, die die Vorkonfiguration der Komponente ist. Diese Zuordnung ermöglicht die Wiederverwendung von Richtlinien über Vorlagen hinweg, sodass sie zentral verwaltet werden können.
+* **structure** - Enthält die Ressourcen, die auf jeder Seite vorhanden sein müssen und die der Seitenautor nicht löschen kann, z. B. die Komponenten "Kopfzeile"und "Fußzeile".
+* **initial** - Enthält den ursprünglichen Inhalt, der bei der Erstellung auf der Seite dupliziert wird.
+* **policies** - Enthält für jede Komponente die Zuordnung zu einer Richtlinie, bei der es sich um die Vorkonfiguration der Komponente handelt. Diese Zuordnung ermöglicht die Wiederverwendung von Richtlinien über Vorlagen hinweg, sodass sie zentral verwaltet werden können.
 
 ![Vorlagen und Richtlinien - Übersicht](assets/screen_shot_2018-12-07at093102.png)
 
 ## AEM-Projektarchetyp {#aem-project-archetype}
 
-[Der AEM-Projektarchetyp](overview.md) erstellt ein Adobe Experience Manager-Minimalprojekt als Ausgangspunkt für Ihre eigenen Projekte, einschließlich eines Helloworld-Beispiels für benutzerdefinierte HTML-Komponenten mit SlingModels, um die Logik und ordnungsgemäße Implementierung der Core-Komponenten mit dem empfohlenen Proxymuster zu gewährleisten.
+[Der AEM Project Archetype](overview.md) erstellt ein Adobe Experience Manager-Minimalprojekt als Ausgangspunkt für Ihre eigenen Projekte, einschließlich eines Helloworld-Beispiels für benutzerdefinierte HTML-Komponenten mit SlingModels, um die Logik und ordnungsgemäße Implementierung der Core-Komponenten mit dem empfohlenen Proxymuster zu gewährleisten.
 
 **Lesen Sie als Nächstes:**
 
