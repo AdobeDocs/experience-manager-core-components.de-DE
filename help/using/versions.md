@@ -4,20 +4,20 @@ seo-title: Kernkomponenten-Versionen
 description: Kernkomponenten werden als Versionen veröffentlicht, die mehr als eine Version derselben Kernkomponenten enthalten können. In diesem Dokument wird erläutert, welche Versionen veröffentlicht werden und wie die Kompatibilität mit Kernkomponenten und AEM verstanden werden kann.
 seo-description: Kernkomponenten werden als Versionen veröffentlicht, die mehr als eine Version derselben Kernkomponenten enthalten können. In diesem Dokument wird erläutert, welche Versionen veröffentlicht werden und wie die Kompatibilität mit Kernkomponenten und AEM verstanden werden kann.
 uuid: a916a923-8c5e-456a-84b5-b52228e21434
-contentOwner: Bohnert
+contentOwner: bohnert
 content-type: reference
 topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS
 discoiquuid: a3a98b2f-65bf-4493-82ad-01717938fdbc
-translation-type: ht
-source-git-commit: 03fc420e9576302e92504f41998b323f9bfc36e9
+translation-type: tm+mt
+source-git-commit: b1b69e9e1ba18dd0f9d8059a79537ad2bf7db066
 
 ---
 
 
-# Kernkomponenten-Versionen{#core-components-versions}
+# Kernkomponenten-Versionen {#core-components-versions}
 
-Die aktuelle Version der Kernkomponenten ist 2.7.0 und ist mit AEM 6.5 kompatibel. Sie wurde im September 2019 als wichtige Aktualisierung der Version 2.0.0 veröffentlicht. Mit Version 2.0.0 wurden neue Komponenten zusammen mit v2-Aktualisierungen der vorhandenen Komponenten eingeführt.
+Die aktuelle Version der Core-Komponenten ist 2.8.0 und mit AEM 6.5 kompatibel. Es wurde im Dezember 2019 als eine wichtige Aktualisierung veröffentlicht 2.0.0. In Version 2.0.0 wurden neue Komponenten sowie v2-Aktualisierungen vorhandener Komponenten eingeführt.
 
 Weitere Informationen finden Sie im Abschnitt [Versionsverlauf und Kompatibilität](#versions-and-releases) dieses Dokuments.
 
@@ -63,6 +63,7 @@ Die folgende Tabelle, deren Inhalt [auf GitHub mit vollständigen Versionsinform
 
 | Version | Beschreibung | AEM 6.3 | AEM 6.4 | AEM 6.5 | Java | Veröffentlichungsdatum |
 |---|---|---|---|---|---|---|
+| [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | Diese Version konzentrierte sich auf Fehlerbehebungen mit kleinen Verbesserungen der Navigationskomponente | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 8, 11 | 5. Dezember 2019 |
 | [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | Mit dieser Version wurde die neue Einbettungskomponente eingeführt. | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 8, 11 | &amp;#x200B;25. September 2019 |
 | [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | Mit dieser Version wurde die neue Experience Fragment-Komponente eingeführt. | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | 8, 11 | &amp;#x200B;6. September 2019 |
 | [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | Mit dieser Version wurden die neuen Komponenten Akkordeon, Schaltfläche, Container und Download eingeführt. | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | 8, 11 | &amp;#x200B;25. Juni 2019 |
