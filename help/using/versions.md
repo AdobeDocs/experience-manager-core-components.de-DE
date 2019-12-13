@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS
 discoiquuid: a3a98b2f-65bf-4493-82ad-01717938fdbc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1a78794d95b9fb4932c9560c167cf41d9b17470b
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 1a78794d95b9fb4932c9560c167cf41d9b17470b
 
 # Kernkomponenten-Versionen {#core-components-versions}
 
-Die aktuelle Version der Core-Komponenten ist 2.8.0 und mit AEM 6.5 kompatibel. Es wurde im Dezember 2019 als eine wichtige Aktualisierung veröffentlicht 2.0.0. In Version 2.0.0 wurden neue Komponenten sowie v2-Aktualisierungen vorhandener Komponenten eingeführt.
+Die aktuelle Version der Kernkomponenten ist 2.8.0 und ist mit AEM 6.5 kompatibel. Sie wurde im Dezember 2019 als wichtige Aktualisierung der Version 2.0.0 veröffentlicht. Mit Version 2.0.0 wurden neue Komponenten zusammen mit v2-Aktualisierungen der vorhandenen Komponenten eingeführt.
 
 Weitere Informationen finden Sie im Abschnitt [Versionsverlauf und Kompatibilität](#versions-and-releases) dieses Dokuments.
 
