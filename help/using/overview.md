@@ -6,7 +6,7 @@ seo-description: Eine Projektvorlage für AEM-basierte Anwendungen
 contentOwner: bohnert
 content-type: reference
 topic-tags: core-components
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 ---
@@ -31,7 +31,7 @@ Der Archetyp verfügt über eine Reihe von Funktionen, die einen bequemen Ausgan
 * Englisch und Französisch Seiten mit Beispielinhalt
 * Eine Inhaltsvorlage, die auf der Funktion einer bearbeitbaren Vorlage mit einer Beispielinhaltsrichtlinie basiert
 * Seitenkomponente basierend auf der [AEM-Seitenkomponente](page.md)
-* Beispiele für Inhaltskomponenten, die mit dem empfohlenen Proxymuster und einer Beispielkomponente "helloworld"implementiert wurden, basieren alle auf [AEM-Core-Komponenten](introduction.md).
+* Beispiele für Inhaltskomponenten, die mit dem empfohlenen Proxy-Muster und einer Beispielkomponente "helloworld"implementiert wurden, basieren alle auf [AEM-Kernkomponenten](introduction.md).
 * Beispiele für [Formularkomponenten](form-container.md)
 * Konfigurationen für Geräteemulatoren, Drag &amp; Drop-Einrichtung und Internationalisierung
 * Client-Bibliotheken nach BEM-Benennungskonventionen sowie komponentenspezifische Stile
@@ -65,7 +65,7 @@ Für die aktuelle Version des Archetyps gelten folgende Anforderungen:
 
 * Adobe Experience Manager 6.3.3.0 oder höher
 * Apache Maven (3.3.9 oder höher)
-* Adobe Public Maven Repository in Ihren Maven-Einstellungen. Weitere Informationen finden Sie in diesem [Knowledge Base-Artikel](https://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html).
+* Adobe Public Maven Repository in Ihren Maven-Einstellungen. Weitere Informationen finden Sie in diesem [Knowledge Base-Artikel](https://helpx.adobe.com/de/experience-manager/kb/SetUpTheAdobeMavenRepository.html).
 
 Eine Liste der unterstützten AEM-Versionen früherer Archetypversionen finden Sie in den [historisch unterstützten AEM-Versionen](https://github.com/adobe/aem-project-archetype/blob/master/VERSIONS.md).
 
@@ -77,7 +77,7 @@ Beim Erstellen des Projekts mit Maven werden die Artefakte (Pakete und OSGi-Pake
 
 ### Erstellen eines Projekts {#create-project}
 
-Für den Einstieg können Sie die [AEM Eclipse-Erweiterung](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/aem-eclipse.html) verwenden und dem Assistenten für neue Projekte folgen. Wählen Sie dann **AEM Sample Multi-Module Project** , um eine veröffentlichte Version des Archetyps zu verwenden.
+Für den Einstieg können Sie die [AEM Eclipse-Erweiterung](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/using/aem-eclipse.html) verwenden und dem Assistenten für neue Projekte folgen. Wählen Sie dann **AEM Sample Multi-Module Project** , um eine veröffentlichte Version des Archetyps zu verwenden.
 
 Natürlich können Sie auch direkt Maven aufrufen.
 
@@ -94,7 +94,7 @@ Hierbei `XX` handelt es sich um die [Versionsnummer](https://github.com/adobe/ae
 >
 >Es empfiehlt sich, das `adobe-public` Profil Ihrer Maven- `settings.xml` Datei hinzuzufügen, um repo.adobe.com automatisch zum Maven-Build-Prozess hinzuzufügen.
 >
->Ein Beispiel für POM [finden Sie hier](https://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html).
+>Ein Beispiel für POM [finden Sie hier](https://helpx.adobe.com/de/experience-manager/kb/SetUpTheAdobeMavenRepository.html).
 
 ### Eigenschaften {#properties}
 
@@ -191,7 +191,7 @@ Im `<dependencyManagement>` Abschnitt des übergeordneten POM werden alle Abhän
 
 #### Uber-Jar {#uber-jar}
 
-Eine der wichtigsten Abhängigkeiten ist die [AEM uber-jar](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/ht-projects-maven.html#ExperienceManagerAPIDependencies). Dies umfasst alle AEM-APIs mit nur einem einzigen Abhängigkeitseintrag für die Version von AEM.
+Eine der wichtigsten Abhängigkeiten ist die [AEM uber-jar](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/using/ht-projects-maven.html#ExperienceManagerAPIDependencies). Dies umfasst alle AEM-APIs mit nur einem einzigen Abhängigkeitseintrag für die Version von AEM.
 
 >[!NOTE]
 >
@@ -201,15 +201,15 @@ Eine der wichtigsten Abhängigkeiten ist die [AEM uber-jar](https://helpx.adobe.
 
 Der AEM-Projektarchiv nutzt natürlich die Kernkomponenten.
 
-Die Core-Komponenten werden in AEM automatisch im Standard-Ausführungsmodus installiert und von der Web.Retail-Beispielsite verwendet. In einem [Produktions-Runmode](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/production-ready.html) (`nosamplecontent`) sind die Core-Komponenten nicht verfügbar.
+Die Kernkomponenten werden in AEM automatisch im Standard-Ausführungsmodus installiert und von der Web.Retail-Beispiel-Site verwendet. In einem [Produktions-Ausführungsmodus](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/production-ready.html) (`nosamplecontent`) sind die Kernkomponenten nicht verfügbar.
 
 Um die Kernkomponenten in allen Implementierungen zu nutzen, empfiehlt es sich daher, sie in das Maven-Projekt einzubeziehen.
 
 >[!NOTE]
 >
->Nach jeder Version der Kernkomponenten wird im Allgemeinen eine Version des AEM-Projektarchivs veröffentlicht, sodass der neueste Archetyp die neueste Version der Kernkomponenten verwendet.
+>Nach jeder Version der Kernkomponenten wird im Allgemeinen eine Version des AEM-Projektarchetyps veröffentlicht, sodass der neueste Archetyp die neueste Version der Kernkomponenten verwendet.
 >
->Eine neue Version des Archetyps folgt möglicherweise nicht direkt einer neuen Version der Core-Komponenten, daher sollten Sie die Abhängigkeit von den Core-Komponenten auf die neueste Version aktualisieren.
+>Eine neue Version des Archetyps folgt möglicherweise nicht direkt einer neuen Version der Kernkomponenten, daher sollten Sie die Abhängigkeit von den Kernkomponenten auf die neueste Version aktualisieren.
 
 >[!NOTE]
 >
@@ -225,7 +225,7 @@ Es gibt drei Testebenen im Projekt, und da es sich bei ihnen um unterschiedliche
    * `mvn clean verify -PintegrationTests`
 * Clientseitige Hobbes.js-Tests: Hierbei handelt es sich um JavaScript-basierte Browser-basierte Tests, die das Verhalten auf der Browserseite überprüfen. So testen Sie:
    1. Laden Sie AEM genau wie eine Seite in Ihren Browser.
-   1. Öffnen Sie die Seite im [Entwicklermodus](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/developer-mode.html) .
+   1. Öffnen Sie die Seite im [Entwicklermodus](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/using/developer-mode.html) .
    1. Öffnen Sie das linke Bedienfeld und wechseln Sie zur Registerkarte **Tests** .
    1. Suchen Sie die generierten **MyName-Tests** und führen Sie sie aus.
 
@@ -233,7 +233,7 @@ Es gibt drei Testebenen im Projekt, und da es sich bei ihnen um unterschiedliche
 
 Sie haben den AEM-Projektarchetyp erstellt und installiert. Was jetzt? Der Archetyp ist klein, besteht aber aus vielen Beispielen leistungsfähiger AEM-Funktionen, die gemäß empfohlenen Best Practices konfiguriert wurden. Verwenden Sie diese, um anzuzeigen, wie Sie diese Funktionen in Ihrem Projekt nutzen können. Bei jedem Projekt müssen Sie wahrscheinlich folgende Aufgaben durchführen:
 
-* [Komponenten durch Erweiterung der vorhandenen Core-Komponenten anpassen](customizing.md)
-* [Zusätzliche Vorlagen hinzufügen](https://helpx.adobe.com/content/help/en/experience-manager/6-5/sites/authoring/using/templates.html)
+* [Komponenten durch Erweiterung der vorhandenen Kernkomponenten anpassen](customizing.md)
+* [Zusätzliche Vorlagen hinzufügen](https://helpx.adobe.com/content/help/de/experience-manager/6-5/sites/authoring/using/templates.html)
 * [Lokalisierungsstruktur anpassen](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html)
 * [Informationen zum Front-End-Build-Modul abrufen](uifrontend.md)
