@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: core-components
 index: y
 internal: n
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 # Lokalisierungsfunktionen der Kernkomponenten {#localization-features-of-the-core-components}
 
-Bei vielen Websites müssen Inhalte in einem lokalisierten Format für mehrere Sprachen und Regionen bereitgestellt werden. Die ausgewählten Core-Komponenten verfügen über eine intelligente Referenzauflösung, um die Erstellung einer einheitlichen Vorlage für all Ihre lokalisierten Inhalte zu vereinfachen, die sich automatisch an Ihre lokalisierte Site-Struktur anpasst.
+Bei vielen Websites müssen Inhalte in einem lokalisierten Format für mehrere Sprachen und Regionen bereitgestellt werden. Die ausgewählten Kernkomponenten verfügen über eine intelligente Referenzauflösung für die einfache Erstellung einer einheitlichen Vorlage für alle Ihre lokalisierten Inhalte, die sich automatisch an Ihre lokalisierte Site-Struktur anpasst.
 
 ## Beispiel: Lokalisierte Seite mit Navigation und Fußzeilen {#example}
 
@@ -23,7 +23,7 @@ Bei den meisten Sites ist eine Fußzeile erforderlich, die auf allen Seiten vorh
 
 Auf ähnliche Weise muss auch eine Navigationskomponente auf allen Seiten angezeigt werden. Diese muss aber auch den Inhalt der lokalisierten Seiten widerspiegeln.
 
-Using the localization features of the [Navigation Core Component](navigation.md) and [Experience Fragment Core Component](experience-fragment.md) along with the [editable templates of AEM](https://docs.adobe.com/content/help/en/experience-manager-64/authoring/siteandpage/templates.html), this becomes a simple task. Das Beispiel könnte noch um die [Sprachnavigationskomponente](language-navigation.md) erweitert werden.
+Mithilfe der Lokalisierungsfunktionen der [Navigations-Kernkomponente](navigation.md) und der [Experience Fragment-Kernkomponente](experience-fragment.md) sowie der [bearbeitbaren AEM-Vorlagen](https://docs.adobe.com/content/help/de/experience-manager-64/authoring/siteandpage/templates.html) ist dies ganz einfach. Das Beispiel könnte noch um die [Sprachnavigationskomponente](language-navigation.md) erweitert werden.
 
 ## Die Inhaltsstruktur {#content-structure}
 
@@ -93,7 +93,7 @@ Zu dieser Vorlage fügen wir die Standardkomponenten hinzu, auf denen unsere Sei
 * [Container-Komponente](container.md)
    * Jede Seite enthält eine bearbeitbare Container-Komponente, sodass der Autor weitere Inhalte auf der Seite platzieren kann.
 * [Experience Fragment](experience-fragment.md)
-   * Wir verweisen die Komponente "Erlebnisfragment"auf den Fragmentpfad in unserer Authoring-Sprache des Fragments, das die Fußzeile darstellt.
+   * Wir weisen die Experience Fragment-Komponente dem Fragmentpfad des in unserer Autorensprache verfassten Fragments zu, das die Fußzeile enthält.
    * Basierend auf diesem Fragmentpfad und der Struktur der Experience Fragments, die die lokalisierte Seitenstruktur widerspiegeln, kann die Komponente den entsprechenden lokalisierten Inhalt dann automatisch finden.
    ![](assets/screen-shot-2019-09-09-11.20.10.png)
 
