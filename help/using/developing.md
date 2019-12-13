@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: developing
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 157a2ec3-9fca-4fad-977a-d93013eeb218
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 ---
@@ -32,36 +32,36 @@ Die Kernkomponenten bieten leistungsfähige und erweiterbare Basiskomponenten un
    * [Sicherstellung der Kompatibilität innerhalb einer Version](#upgrade-of-core-components), wobei die Komponenten trotzdem weiterentwickelt werden können.
    * Zulassen, dass mehrere Versionen einer Komponente in derselben Umgebung koexistieren können
 * Moderne Implementierung
-   * Markup definiert in [HTML Template Language](https://helpx.adobe.com/experience-manager/htl/using/overview.html) (HTL)
+   * Markup definiert in [HTML Template Language](https://helpx.adobe.com/de/experience-manager/htl/using/overview.html) (HTL)
    * Mit [Sling-Modellen](https://sling.apache.org/documentation/bundles/models.html) implementierte Inhaltsmodelllogik
 * Schlankes Markup
    * Folgt der [Block Element Modifier](https://getbem.com/) (BEM)-Notation ab Version 2.0.0
       * Frühere Versionen folgen den [Bootstrap](https://getbootstrap.com/css/)-Benennungskonventionen
-   * Erstellt entsprechend den [Richtlinien für Eingabehilfen](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
+   * Erstellt entsprechend den [Richtlinien für Eingabehilfen](https://helpx.adobe.com/de/experience-manager/6-5/managing/using/web-accessibility.html)
    * Kann für responsive und mobile Sites eingesetzt werden.
 * Möglichkeit, das Inhaltsmodell für Headless-CMS-Anwendungsfälle als JSON zu serialisieren
 * Barrierefrei
-   * Konform mit dem [WCAG 2.0 AA-Standard](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
+   * Konform mit dem [WCAG 2.0 AA-Standard](https://helpx.adobe.com/de/experience-manager/6-5/managing/using/web-accessibility.html)
 
 >[!CAUTION]
 >
->Kernkomponenten erfordern AEM 6.3 oder höher und Java 8 sowie die Verwendung [bearbeitbarer Vorlagen](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+>Kernkomponenten erfordern AEM 6.3 oder höher und Java 8 sowie die Verwendung [bearbeitbarer Vorlagen](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/templates.html)
 >
 >Kernkomponenten funktionieren weder mit der klassischen Benutzeroberfläche noch mit statischen Vorlagen.
 
 ## Überblick über die Gems-Sitzung {#gems-session-overview}
 
-Um eine Einführung in die Kernkomponenten, die angebotenen Funktionen und ihre Nutzung in AEM zu erhalten, sehen Sie sich die AEM-Gems-Sitzung [AEM-Kernkomponenten](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
+Um eine Einführung in die Kernkomponenten, die angebotenen Funktionen und ihre Nutzung in AEM zu erhalten, sehen Sie sich die AEM-Gems-Sitzung [AEM-Kernkomponenten](https://helpx.adobe.com/de/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
 
-[Gems zu Adobe Experience Manager](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) ist eine Reihe technischer Vertiefungen, die von Adobe-Experten angeboten werden. Diese Reihe ergänzt die Produktdokumentation und alle anderen technischen Kanäle und ermöglicht es Entwicklern, in Kontakt zu treten und ein bestimmtes Thema zu vertiefen.
+[Gems zu Adobe Experience Manager](https://helpx.adobe.com/de/experience-manager/kt/eseminars/gems/aem-index.html) ist eine Reihe technischer Vertiefungen, die von Adobe-Experten angeboten werden. Diese Reihe ergänzt die Produktdokumentation und alle anderen technischen Kanäle und ermöglicht es Entwicklern, in Kontakt zu treten und ein bestimmtes Thema zu vertiefen.
 
 ## WKND-Entwickler-Tutorial {#wknd-developer-tutorial}
 
-Beginnen Sie mit der Entwicklung von AEM Sites mit Kernkomponenten, indem Sie [dieses Schritt-für-Schritt-Tutorial](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+Beginnen Sie mit der Entwicklung von AEM Sites mit Kernkomponenten, indem Sie [dieses Schritt-für-Schritt-Tutorial](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/using/getting-started.html)
 
 ## AEM-Projektarchetyp {#aem-project-archetype}
 
-[Der AEM Project Archetype](overview.md) erstellt ein Adobe Experience Manager-Minimalprojekt als Ausgangspunkt für Ihre eigenen Projekte, einschließlich eines Helloworld-Beispiels für benutzerdefinierte HTML-Komponenten mit SlingModels, um die Logik und ordnungsgemäße Implementierung der Core-Komponenten mit dem empfohlenen Proxymuster zu gewährleisten.
+[Der AEM-Projektarchetyp](overview.md) erstellt ein Adobe Experience Manager-Minimalprojekt als Ausgangspunkt für Ihre eigenen Projekte, einschließlich eines Helloworld-Beispiels für benutzerdefinierte HTML-Komponenten mit SlingModels, um die Logik und ordnungsgemäße Implementierung der Kernkomponenten mit dem empfohlenen Proxy-Muster zu gewährleisten.
 
 ## Über GitHub bereitgestellt {#delivered-over-github}
 
@@ -88,7 +88,7 @@ Sehen Sie sich die [Komponentenbibliothek](http://opensource.adobe.com/aem-core-
 
 ### Ausführungsmodus für Beispielinhalte {#sample-content-run-mode}
 
-Die Kernkomponenten sind im Schnellstart-Menü sichtbar, wenn der Beispielinhalt vorhanden ist, da sie von der [Referenz-Site „We.Retail“](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) verwendet werden. Bei Ausführung in der Produktion (im Ausführungsmodus `nosamplecontent`, ohne aktivierten Beispielinhalt) sind die Kernkomponenten jedoch nicht mehr vorhanden und müssen vom Entwicklungs- und/oder Betriebsteam auf den AEM-Instanzen installiert werden.
+Die Kernkomponenten sind im Schnellstart-Menü sichtbar, wenn der Beispielinhalt vorhanden ist, da sie von der [Referenz-Site „We.Retail“](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/using/we-retail.html) verwendet werden. Bei Ausführung in der Produktion (im Ausführungsmodus `nosamplecontent`, ohne aktivierten Beispielinhalt) sind die Kernkomponenten jedoch nicht mehr vorhanden und müssen vom Entwicklungs- und/oder Betriebsteam auf den AEM-Instanzen installiert werden.
 
 >[!NOTE]
 >
@@ -103,17 +103,17 @@ Einzelheiten zu ihren Authoring-Fähigkeiten und Optionen zu ihrer Vorkonfigurat
 | **Funktion** | **Kernkomponente** | **Foundation-Komponente** |
 |-----|---|---|
 | Logikimplementierung | Java POJOs mit Anmerkungen zu [Sling-Modellen](https://sling.apache.org/documentation/bundles/models.html) | JSP-Code |
-| Markup-Definition | [HTML Template Language](https://helpx.adobe.com/experience-manager/htl/user-guide.html) (HTL)-Syntax | JSP-Code |
+| Markup-Definition | [HTML Template Language](https://helpx.adobe.com/de/experience-manager/htl/user-guide.html) (HTL)-Syntax | JSP-Code |
 | XSS-Bereinigung | Automatisiert durch HTL | Hauptsächlich manuell |
 | CSS-Klassen-Benennung | Standardisierte Benennungskonvention basierend auf der [Block Element Modifier](https://getbem.com/) (BEM)-Notation (ab Version 2.0.0) | Benutzerdefinierte Schemata |
-| Dialogfeld-Definition | [Coral 3](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Coral 2 + Klassische Benutzeroberfläche |
+| Dialogfeld-Definition | [Coral 3](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Coral 2 + Klassische Benutzeroberfläche |
 | JSON-Ausgabe | [Sling Model Exporter mit Jackson-Serialisierung](https://sling.apache.org/documentation/bundles/models.html#exporter-framework-since-130) | Standard-Sling-Servlet |
 | Versionierung | [Für das Modell und die HTL](guidelines.md) | Keine |
 | Testen | Unit-Tests und Integrationstests | Integrationstests |
 | Bereitstellung | [Über öffentliches GitHub](https://github.com/adobe/aem-core-wcm-components) | Über Quickstart |
 | Lizenz | [Apache-Lizenz](https://www.apache.org/licenses/LICENSE-2.0) | Adobe-geschützt |
 | Beitrag | Über Pull-Anfrage | Nicht möglich |
-| Barrierefreiheit | Vollständig konform mit dem [WCAG 2.0 AA-Standard](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html) | Nur teilweise konform mit dem [WCAG 2.0 AA-Standard](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html) |
+| Barrierefreiheit | Vollständig konform mit dem [WCAG 2.0 AA-Standard](https://helpx.adobe.com/de/experience-manager/6-5/managing/using/web-accessibility.html) | Nur teilweise konform mit dem [WCAG 2.0 AA-Standard](https://helpx.adobe.com/de/experience-manager/6-5/managing/using/web-accessibility.html) |
 
 ## Komponentenliste {#component-list}
 
@@ -151,13 +151,13 @@ In der folgenden Tabelle sind die verfügbaren Kernkomponenten mit Links zu ihre
 
 ### Künftige Komponenten {#upcoming-components}
 
-For an overview of the upcoming Core Component road map see the [project wiki on GitHub](https://github.com/adobe/aem-core-wcm-components/wiki/home).
+Einen Überblick über geplante Kernkomponenten finden Sie im [Projekt-Wiki auf GitHub](https://github.com/adobe/aem-core-wcm-components/wiki/home).
 
 ## Aktualisierung der Kernkomponenten {#upgrade-of-core-components}
 
 Ein Vorteil versionierter Komponenten besteht darin, dass die Migration auf eine neue AEM-Version von der Migration auf neue Komponentenversionen getrennt werden kann. Wenn neue Komponentenversionen verfügbar sind, wird außerdem die einzelne Migration jeder Komponente zur neuen Version ermöglicht.
 
-Die Migration zu einer neuen AEM-Version wirkt sich nicht auf die Funktionsweise der Kernkomponenten aus, sofern ihre Versionen auch die neue AEM-Version unterstützen, auf die migriert wird. An den Kernkomponenten vorgenommene Anpassungen sollten ebenfalls nicht beeinträchtigt werden, sofern sie keine [veralteten oder entfernten](https://helpx.adobe.com/experience-manager/6-5/release-notes/deprecated-removed-features.html) APIs verwenden.
+Die Migration zu einer neuen AEM-Version wirkt sich nicht auf die Funktionsweise der Kernkomponenten aus, sofern ihre Versionen auch die neue AEM-Version unterstützen, auf die migriert wird. An den Kernkomponenten vorgenommene Anpassungen sollten ebenfalls nicht beeinträchtigt werden, sofern sie keine [veralteten oder entfernten](https://helpx.adobe.com/de/experience-manager/6-5/release-notes/deprecated-removed-features.html) APIs verwenden.
 
 Migrationen auf neue Versionen der Kernkomponenten wirken sich nicht auf die Funktionsweise der Komponente aus, aber es können ggf. neue Funktionen für Seitenautoren eingeführt werden, was möglicherweise einige Konfigurationen durch einen Vorlageneditor erfordert, falls das Standardverhalten nicht gewünscht wird. Anpassungen müssen jedoch ggf. angepasst werden. Weitere Informationen finden Sie auf der Seite [Anpassen von Kernkomponenten](customizing.md#upgrade-compatibility-of-customizations).
 
@@ -212,7 +212,7 @@ Weitere Informationen zur Unterstützung von Komponentenanpassungen finden Sie a
 
 Da die Foundation-Komponenten über viele AEM-Versionen hinweg als Grundlage für so viele Projekte gedient haben, werden sie in absehbarer Zukunft weiterhin unterstützt.
 
-Der Entwicklungsschwerpunkt von Adobe wurde jedoch auf die Kernkomponenten verschoben, und neue Funktionen werden zu ihnen hinzugefügt, während [fast alle Foundation-Komponenten mit AEM 6.5 als veraltet gelten](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) und jetzt nur noch Fehlerkorrekturen an den Foundation-Komponenten vorgenommen werden.
+Der Entwicklungsschwerpunkt von Adobe wurde jedoch auf die Kernkomponenten verschoben, und neue Funktionen werden zu ihnen hinzugefügt, während [fast alle Foundation-Komponenten mit AEM 6.5 als veraltet gelten](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) und jetzt nur noch Fehlerkorrekturen an den Foundation-Komponenten vorgenommen werden.
 
 **Lesen Sie als Nächstes:**
 
