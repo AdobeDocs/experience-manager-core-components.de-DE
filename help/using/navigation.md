@@ -17,7 +17,7 @@ modalsize: 426x240
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9718a1075b5789db9b71d25b3146f9643bb69ad0
 
 ---
@@ -88,15 +88,15 @@ Manchmal ist es notwendig, ein Navigationsmenü für den Besucher zu erstellen, 
 
 Dazu müssen Sie Folgendes tun:
 
-1. Erstellen Sie Schattenseiten als leere Seiten, die Ihre gewünschte Site-Struktur darstellen. Dies wird häufig als Shadow-Standortstruktur bezeichnet.
-1. Set the **Redirect** values in the page properties on these pages to point to the actual content pages.
+1. Erstellen Sie Shadow-Seiten als leere Seiten, die Ihre gewünschte Site-Struktur repräsentieren. Dies wird häufig als Shadow-Standortstruktur bezeichnet.
+1. Legen Sie die Werte für die **Umleitung** in den Seiteneinstellungen auf diesen Seiten fest, um auf die tatsächlichen Inhaltsseiten zu verweisen.
 1. Legen Sie die Option **In der Navigation ausblenden** in den Seiteneigenschaften der Shadow-Seiten fest.
 1. Legen Sie den **Navigationsstammwert** der Navigationskomponente fest, um auf den Stamm der neuen Shadow-Site-Struktur zu verweisen.
 
 Die Navigationskomponente rendert dann das Menü basierend auf der Shadow-Site-Struktur. Die von der Komponente gerenderten Links beziehen sich auf die tatsächlichen Inhaltsseiten, auf die die Shadow-Seiten umleiten, und nicht auf die Shadow-Seiten selbst. Darüber hinaus zeigt die Komponente die Namen der tatsächlichen Seiten an und hebt die aktive Seite korrekt hervor, auch wenn die Navigation auf Shadow-Seiten basiert. Die Navigationskomponente macht die Shadow-Seiten für den Besucher vollständig transparent.
 
 >[!NOTE]
->Schattenseiten machen Ihre Navigationsoptionen viel flexibler, aber beachten Sie, dass die Pflege dieser Struktur dann komplett manuell erfolgt. Wenn Sie den Inhalt Ihren tatsächlichen Site neu anordnen oder Inhalte hinzufügen/entfernen, müssen Sie die Shadow-Struktur nach Bedarf manuell aktualisieren.
+>Durch Shadow-Seiten werden Ihre Navigationsoptionen wesentlich flexibler. Beachten Sie jedoch, dass diese Struktur dann vollständig manuell verwaltet wird. Wenn Sie den Inhalt Ihren tatsächlichen Site neu anordnen oder Inhalte hinzufügen/entfernen, müssen Sie die Shadow-Struktur nach Bedarf manuell aktualisieren.
 
 >[!NOTE]
 >Beim Rendern einer Shadow-Site-Struktur werden nur die Shadow-Seiten von der Navigationslogik rekursiv dargestellt. Die Logik führt keine Rekursion der Struktur der Umleitungsziele aus.
@@ -119,7 +119,7 @@ Um die Navigationskomponente sowie Beispiele für die Konfigurationsoptionen sow
 
 ## Technische Details {#technical-details}
 
-The latest technical documentation about the Navigation Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/navigation/v1/navigation).
+Die aktuelle technische Dokumentation zur Navigationskomponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/navigation/v1/navigation).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
 
@@ -135,14 +135,14 @@ Im Dialogfeld „Bearbeiten“ kann der Inhaltsautor die Stammseite für die Nav
 
 ![](assets/screen-shot-2019-12-04at12.50.51.png)
 
-* **Navigationsstamm** - Die Stammseite, die zum Generieren des Navigationsbaums verwendet wird.
-* **Stammebenen** ausschließen - Oft sollte der Stamm nicht in die Navigation einbezogen werden. Mit dieser Option können Sie festlegen, wie viele Ebenen bis zum Stamm, den Sie ausschließen möchten, liegen. Beispiel:
-   * 0 = Wurzelebene anzeigen
-   * 1 = Ausschließen der Stammebene
-   * 2 = Ausschließen der Stamm- und 1 weitere Ebene nach oben
-   * verwenden.
-* **Alle untergeordneten Seiten** erfassen - Sammelt alle Seiten, die untergeordnete Elemente des Navigationsstamms sind.
-* **Tiefe** der Navigationsstruktur - Definiert, wie viele Ebenen in der Navigationsstruktur die Komponente relativ zum Navigationsstamm anzeigen soll (nur verfügbar, wenn " **Alle untergeordneten Seiten** sammeln"nicht ausgewählt ist).
+* **Navigationsstamm** – Die Stammseite, die zum Generieren der Navigationsstruktur verwendet wird.
+* **Stammebenen ausschließen** - Häufig soll der Stamm nicht in die Navigation eingeschlossen werden. Mit dieser Option können Sie festlegen, wie viele Ebenen oberhalb des Stamms Sie ausschließen möchten. Beispiel:
+   * 0 = Stammebene anzeigen
+   * 1 = Stammebene ausschließen
+   * 2 = Stammebene und Ebene oberhalb ausschließen
+   * usw.
+* **Sammlung aller untergeordneten Seiten** – Sammeln Sie alle untergeordneten Seiten, die sich auf dem Navigationsstamm befinden.
+* **Navigationsstrukturtiefe** – Definiert, wie viele Ebenen die Komponente in der Navigationsstruktur im Verhältnis zum Navigationsstamm anzeigen soll (nur verfügbar, wenn **Sammlung aller untergeordneten Seiten** nicht ausgewählt sind).
 
 ### Registerkarte „Barrierefreiheit“ {#accessibility-tab}
 
@@ -160,14 +160,14 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Standardwerte 
 
 ![](assets/screen-shot-2019-12-04at12.53.32.png)
 
-* **Navigationsstamm** : Der Standardwert der Stammseite der Navigationsstruktur, der zum Generieren der Navigationsstruktur verwendet wird und standardmäßig verwendet wird, wenn der Inhaltsersteller die Komponente zur Seite hinzufügt.
-* **Stammebenen** ausschließen - Oft sollte der Stamm nicht in die Navigation einbezogen werden. Mit dieser Option können Sie die Standardeinstellung für die Anzahl der Ebenen festlegen, die von dem Stamm, den Sie ausschließen möchten, entfernt werden sollen. Beispiel:
-   * 0 = Wurzelebene anzeigen
-   * 1 = Ausschließen der Stammebene
-   * 2 = Ausschließen der Stamm- und 1 weitere Ebene nach oben
-   * verwenden.
-* **Alle untergeordneten Seiten** erfassen - Der Standardwert der Option zum Erfassen aller Seiten, die untergeordnete Elemente des Navigationsstamms sind.
-* **Navigationsstrukturtiefe** : Der Standardwert der Navigationsstrukturtiefe.
+* **Navigationsstamm** – Der Standardwert der Stammseite der Navigationsstruktur, die zum Generieren der Navigationsstruktur verwendet und standardmäßig verwendet wird, wenn der Inhaltsautor die Komponente der Seite hinzufügt.
+* **Stammebenen ausschließen** - Häufig soll der Stamm nicht in die Navigation eingeschlossen werden. Mit dieser Option können Sie den Standard dafür festlegen, wie viele Ebenen oberhalb des Stamms Sie ausschließen möchten. Beispiel:
+   * 0 = Stammebene anzeigen
+   * 1 = Stammebene ausschließen
+   * 2 = Stammebene und Ebene oberhalb ausschließen
+   * usw.
+* **Sammlung aller untergeordneten Seiten** – Der Standardwert der Option zur Sammlung aller Seiten, die sich auf dem Navigationsstamm befinden.
+* **Navigationsstruktur der Tiefe** – Standardwert der Navigationsstruktur der Tiefe.
 
 ### Registerkarte „Stile“ {#styles-tab}
 
