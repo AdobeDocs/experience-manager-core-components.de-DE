@@ -1,15 +1,9 @@
 ---
 title: Formularcontainer-Komponente (v1)
-seo-title: Formularcontainer-Komponente (v1)
 description: Die Kernkomponente „Formularcontainer-Komponente“ ermöglicht die Erstellung einfacher Übermittlungsformulare.
-seo-description: Die Kernkomponente „Formularcontainer-Komponente“ ermöglicht die Erstellung einfacher Übermittlungsformulare.
-uuid: 075d83ed-de40-414e-a18f-46b3a857acba
-content-type: Referenz
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 800c064e-2ad5-41f3-9cef-b025a555efd9
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -111,7 +105,7 @@ The design dialog allows the template author to define the allowed components an
 
 ## Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Form Container-Komponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/container/v1/container).
+The latest technical documentation about the Form Container Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/container/v1/container).
 
 Das gesamte Kernkomponentenprojekt kann von GitHub heruntergeladen werden.
 
