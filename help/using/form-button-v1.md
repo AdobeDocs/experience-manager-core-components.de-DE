@@ -1,21 +1,9 @@
 ---
 title: Formularschaltflächen-Komponente (v1)
-seo-title: Formularschaltflächen-Komponente (v1)
-description: 'null'
-seo-description: Die Kernkomponente „Komponente für ausgeblendetes Formular“ ermöglicht die Einbeziehung eines ausgeblendeten Felds in ein Formular.
-uuid: 0525e70f-294f-4d35-bf96-fc0e4ec225e9
-content-type: Referenz
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: ea06acc0-38e2-4252-ac29-07332835b7c4
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: keine
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
-modalsize: 426x240
+description: Die Kernkomponente „Komponente für ausgeblendetes Formular“ ermöglicht die Einbeziehung eines ausgeblendeten Felds in ein Formular.
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -117,7 +105,7 @@ Es gibt kein Dialogfeld „Design“ für die Formularschaltflächen-Komponente.
 
 ## Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Form Button-Komponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v1/button).
+The latest technical documentation about the Form Button Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v1/button).
 
 Das gesamte Kernkomponentenprojekt kann von GitHub heruntergeladen werden.
 
