@@ -1,30 +1,52 @@
 ---
-cloud: experience-cloud
-solution-title: Lernen und Support
-solution-hub-url: https://helpx.adobe.com/de/support/experience-manager/6-4.html
-solution-image: null
-getting-started-title: Erste Schritte
-getting-started-url: https://helpx.adobe.com/experience-manager/get-started.html
-tutorials-title: Tutorials
-tutorials-url: https://helpx.adobe.com/experience-manager/kt/index/aem-6-4-videos.html
+product: Adobe Experience Manager
 git-repo: https://github.com/AdobeDocs/experience-manager-cloud-manager.en
 index: y
-translation-type: ht
-source-git-commit: e5f7fa578f19ed2eb1207c200556d9ac955162d0
+solution-title: Training und Support für AEM
+solution-hub-url: https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/home.html
+getting-started-title: Erste Schritte - Entwicklung für AEM
+getting-started-url: https://docs.adobe.com/content/help/en/experience-manager-cloud-service/core-concepts/home.html
+tutorials-title: AEM-Tutorials
+tutorials-url: https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/overview.html
+translation-type: tm+mt
+source-git-commit: a3085d266baf32649fda528a7f4703e133d03ab7
 
 ---
 
 
 # Metadaten für die interne Verwendung
 
-Die metadata.md-Datei enthält Metadaten auf Repo-Ebene, die über die TOC.md-Dateien des Benutzerhandbuchs zu Repo weitergegeben werden. Wenn Sie den Inhalt von metadata.md für ein beliebiges Benutzerhandbuch ändern möchten, tun Sie dies in einer TOC.md-Datei.
+Die Metadaten im GitHub-Authoring-System sind hierarchisch aufgebaut und werden in den folgenden, sich verstärkenden Ebenen definiert.
 
-| metadata | Funktion |
-|--- |--- |
-| solution-title | Wird in der Artikelkopfzeile als Link verwendet |
-| solution-hub-url | Öffnet die helpx-Hub-Seite |
-| solution-icon | Zeigt das Lösungssymbol neben Lösungstitel an. Noch nicht implementiert |
-| getting-started-url | Link zur helpx-Seite „Erste Schritte“ |
-| tutorials-url | Link zu Videotutorials – entweder helpx-Tutorials oder KT-Tutorials |
-| mini-toc-levels | Legt die Anzahl der Überschriftenebenen fest, die in der rechten Leiste angezeigt werden. Standard ist 2 |
-| git-repo | Gibt den Speicherort des Master-Repo für die interne Verwendung an. |
+1. metadata.md
+1. ToC
+1. Artikel
+
+Die in der Datei &quot;metadata.md&quot;definierten Metadaten gelten für den gesamten Bericht, können jedoch auf den Ebenen &quot;ToC&quot;und &quot;article&quot;überschrieben werden. Das Überschreiben der Metadaten sollte auf der niedrigstmöglichen Ebene erfolgen.
+
+Die Metadaten im Experience-Manager-core-components.en-Repo sind das erforderliche Minimum.
+
+metadata.md
+
+* `product`
+* `git-repo`
+* `index: y`
+* `solution-title`
+* `solution-hub-url`
+* `getting-started-title`
+* `getting-started-url`
+* `tutorials-title`
+* `tutorials-url`
+
+ToCs
+
+* `sub-product`
+* `user-guide-title`
+
+Artikel
+
+* `title`
+* `description`
+* `index: n` (nur für ältere Versionen von Komponenten)
+
+Weitere Informationen zu den Metadaten finden Sie im [internen Authoring-Handbuch.](https://docs.adobe.com/help/en/collaborative-doc-instructions/collaboration-guide/markdown/metadata.html#solution-metadata)
