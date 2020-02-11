@@ -1,24 +1,9 @@
 ---
 title: Formularoptionen-Komponente (v1)
-seo-title: Formularoptionen-Komponente (v1)
-description: 'null'
-seo-description: Die Kernkomponente „Formularoptionen“ ermöglicht die Auswahl aus vordefinierten Optionen in verschiedenen Formaten.
-uuid: a22ed77c-c9f3-46f4-8afe-e478383c1251
-content-type: Referenz
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: e1975bfe-2bda-409a-998e-1ff4f9f23b94
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: keine
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
-modalsize: 426x240
-noindex: 'true'
+description: Die Kernkomponente „Formularoptionen“ ermöglicht die Auswahl aus vordefinierten Optionen in verschiedenen Formaten.
 index: n
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -161,7 +146,7 @@ Es gibt kein Dialogfeld „Design“ für die Formularoptionen-Komponente.
 
 ## Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Komponente "Formularoptionen" [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v1/options).
+The latest technical documentation about the Form Options Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v1/options).
 
 Das gesamte Kernkomponentenprojekt kann von GitHub heruntergeladen werden.
 
