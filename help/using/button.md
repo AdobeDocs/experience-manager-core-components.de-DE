@@ -1,16 +1,8 @@
 ---
 title: Schaltflächenkomponente
-seo-title: Schaltflächenkomponente
-description: 'null'
-seo-description: Die Kernkomponente „Schaltflächenkomponente“ ermöglicht die Erstellung und Anzeige einer Schaltfläche.
-uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
-contentOwner: Benutzer
-content-type: Referenz
-topic-tags: Authoring
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
+description: Die Kernkomponente „Schaltflächenkomponente“ ermöglicht die Erstellung und Anzeige einer Schaltfläche.
 translation-type: tm+mt
-source-git-commit: d37cde072dea612ccb55ad31b4aaf42f17839cb4
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -32,19 +24,19 @@ Die aktuelle Version der Schaltflächenkomponente ist v1, die mit Version 2.5.0 
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
-| Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |---|
-| v1 | Kompatibel | Kompatibel | Kompatibel |
+| Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM als Cloud-Dienst |
+|--- |--- |--- |---|---|
+| v1 | Kompatibel | Kompatibel | Kompatibel | Kompatibel |
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](versions.md).
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Um die Schaltflächen-Komponente sowie Beispiele für die Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](http://opensource.adobe.com/aem-core-wcm-components/library/button.html).
+Um die Schaltflächen-Komponente sowie Beispiele für die Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_button).
 
 ## Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Button-Komponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button).
+The latest technical documentation about the Button Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_button_v1).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
 
@@ -65,7 +57,7 @@ Mit dem Dialogfeld „Konfigurieren“ kann der Inhaltsautor die Schaltfläche u
 
 ![](assets/screen-shot-2019-08-29-12.19.43.png)
 
-On the **Accessibility** tab, values can be set for [ARIA accessibility](https://www.w3.org/WAI/standards-guidelines/aria/) labels for the component.
+Auf der Registerkarte **Barrierefreiheit** können Werte für die [ARIA-Barrierefreiheits-Bezeichungen](https://www.w3.org/WAI/standards-guidelines/aria/) für die Komponente festgelegt werden.
 
 * **Bezeichnung** - Wert eines ARIA-Bezeichnungs-Attributs für die Komponente
 
