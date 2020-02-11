@@ -1,15 +1,9 @@
 ---
 title: Formulartext-Komponente (v1)
-seo-title: Formulartext-Komponente (v1)
-description: 'null'
-seo-description: Die Kernkomponente „Formulartext-Komponente“ ermöglicht die Eingabe von Formulartext zur Übermittlung.
-uuid: 30123aba-57a8-4ed4-93cb-6a3d2edff9a7
-content-type: Referenz
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: bd4e9930-4d81-49ae-a3d1-9a8740418dae
+description: Die Kernkomponente „Formulartext-Komponente“ ermöglicht die Eingabe von Formulartext zur Übermittlung.
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -43,7 +37,7 @@ In der folgenden Tabelle ist die Kompatibilität der Version 1 der Formulartext-
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-The following is sample taken from We.Retail.[](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)
+Im Folgenden finden Sie ein Beispiel von [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Screenshot {#screenshot}
 
@@ -143,7 +137,7 @@ Es gibt kein Dialogfeld „Design“ für die Formulartext-Komponente.
 
 ## Technische Details {#technical-details}
 
-The latest technical documentation about the Form Text Component can be found on GitHub.[](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v1/text)
+The latest technical documentation about the Form Text Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v1/text).
 
 Das gesamte Kernkomponentenprojekt kann von GitHub heruntergeladen werden.
 
