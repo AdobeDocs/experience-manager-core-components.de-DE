@@ -1,24 +1,8 @@
 ---
 title: Sprachnavigationskomponente
-seo-title: Sprachnavigationskomponente
-description: 'null'
-seo-description: Die Sprachnavigationskomponente stellt eine Sprache/Ländernavigation für eine Site bereit, sodass Besucher zur gleichen Seite in einem anderen Gebietsschema navigieren können.
-uuid: ce736458-9cdf-4bc2-b90f-9c5a62fe1ca0
-content-type: Referenz
-topic-tags: Authoring
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 8f232eb0-65d5-4075-8668-75f1366882c8
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: keine
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
-modalsize: 426x240
-index: y
-internal: n
-snippet: y
+description: Die Sprachnavigationskomponente stellt eine Sprache/Ländernavigation für eine Site bereit, sodass Besucher zur gleichen Seite in einem anderen Gebietsschema navigieren können.
 translation-type: tm+mt
-source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -29,10 +13,10 @@ Die Sprachnavigationskomponente stellt eine Sprache/Ländernavigation für eine 
 
 ## Nutzung {#usage}
 
-Webseiten werden oft in verschiedenen Sprachen für verschiedene Regionen angeboten. Mit der Sprachnavigationskomponente kann ein Besucher dieselbe Seite in verschiedenen Sprachen/Gebietsschemata anzeigen. Wenn Sie ein Leser auf der schweizerischen deutschen Version der Website sind, können Sie einfach zur US-englischen Version der gleichen Seite wechseln. Die Sprachnavigationskomponente verarbeitet die Sprache der Site-Sprache und findet die zugehörige Seite automatisch.
+Webseiten werden oft in verschiedenen Sprachen für verschiedene Regionen angeboten. Mit der Sprachnavigationskomponente kann ein Besucher dieselbe Seite in verschiedenen Sprachen/Gebietsschemata anzeigen. Wenn Sie ein Leser auf der schweizerischen deutschen Version der Website sind, können Sie einfach zur US-englischen Version der gleichen Seite wechseln. Die Komponente &quot;Sprachnavigation&quot;versteht die Sprachstruktur der Site und findet die entsprechende Seite automatisch.
 
-* Ein Beispiel für die Funktionsweise der Lokalisierungsfunktion der Sprachnavigationskomponente finden Sie [im folgenden](#example)Abschnitt.
-* Ein Beispiel dafür, wie die Lokalisierungsfunktionen der anderen Kernkomponenten zusammenarbeiten, finden Sie auf der Seite "Hauptkomponenten"unter [Lokalisierungsfunktionen](localization.md).
+* Ein Beispiel dafür, wie die Lokalisierungsfunktion der Sprachnavigationskomponente funktioniert, finden Sie [unten](#example).
+* Ein Beispiel dafür, wie die Lokalisierungsfunktionen der anderen Kernkomponenten zusammenarbeiten, finden Sie auf der Seite [Kernkomponenten](localization.md) unter „Lokalisierungsfunktionen“.
 
 Das Dialogfeld [Bearbeiten](#edit-dialog) ermöglicht die Definition des globalen Site-Navigationsstamms sowie die Festlegung, wie tief in die Struktur die Navigation gehen soll. Im Dialogfeld [Design](#design-dialog)kann der Vorlagenautor die Standardwerte für dieselben Optionen festlegen.
 
@@ -42,19 +26,19 @@ Die aktuelle Version der Sprachnavigationskomponente ist v1, die mit Version 2.0
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
-| Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v1 | Kompatibel | Kompatibel | Kompatibel |
+| Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM als Cloud-Dienst |
+|--- |--- |--- |--- |---|
+| v1 | Kompatibel | Kompatibel | Kompatibel | Kompatibel |
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](versions.md).
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-To experience the Language Navigation Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/language-navigation/language-structure/us/en/language-navigation.html).
+To experience the Language Navigation Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_langnav).
 
 ## Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Sprachnavigationskomponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/languagenavigation/v1/languagenavigation).
+The latest technical documentation about the Language Navigation Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_langnav_v1).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
 
@@ -62,7 +46,7 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 
 Das Dialogfeld „Bearbeiten“ ermöglicht die Definition des globalen Site-Navigationsstamms sowie die Festlegung, wie tief in die Struktur die Navigation gehen soll.
 
-In der Regel müssen diese Konfigurationen nur auf der Seitenvorlage vorgenommen werden. Sie können jedoch auch über das [Dialogfeld „Bearbeiten“](#edit-dialog) auf der Seitenebene geändert werden.
+Normalerweise müssen diese Konfigurationen nur auf der Ebene der Seitenvorlage durchgeführt werden. Sie können jedoch auch über das [Dialogfeld „Bearbeiten“](#edit-dialog) auf der Seitenebene geändert werden.
 
 ### Registerkarte „Eigenschaften“{#properties-tab}
 
@@ -74,8 +58,8 @@ In der Regel müssen diese Konfigurationen nur auf der Seitenvorlage vorgenommen
 * **Sprachstrukturtiefe**
    * So stellen die zahlreichen Ebenen der Inhaltsstruktur unter dem **Navigationsstamm** die Sprachstruktur der Site dar. Beispiele:
       * `1` bedeutet normalerweise, dass Sie nur die Sprache auswählen können.
-      * `2` bedeutet normalerweise, dass Sie eine Sprache und ein Land auswählen können.
-      * `3` bedeutet normalerweise, dass Sie Sprache, Land und Region auswählen können.
+      * `2` bedeutet in der Regel, dass Sie eine Auswahl an Sprache und Land haben.
+      * `3` bedeutet in der Regel, dass Sie eine Auswahl an Sprache, Land und Region haben.
 
 #### Beispiel {#example}
 
