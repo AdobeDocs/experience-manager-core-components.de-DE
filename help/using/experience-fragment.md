@@ -1,12 +1,8 @@
 ---
 title: Experience Fragment-Komponente
-seo-title: Experience Fragment-Komponente
 description: Mit der Experience Fragment-Komponente kann der Inhaltsautor einer Seite eine Experience Fragment-Variation hinzufügen.
-seo-description: Mit der Experience Fragment-Komponente kann der Inhaltsautor einer Seite eine Experience Fragment-Variation hinzufügen.
-content-type: Referenz
-topic-tags: Kernkomponenten
 translation-type: tm+mt
-source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -17,10 +13,10 @@ Mit der Kernkomponente Experience Fragment-Komponente kann der Inhaltsautor eine
 
 ## Nutzung {#usage}
 
-Mit der Kernkomponente Experience Fragment-Komponente kann der Inhaltsautor aus vorhandenen Experience Fragment-Variationen auswählen und eine davon auf der Inhaltsseite platzieren. Die Experience Fragment-Komponente unterstützt außerdem eine lokalisierte Site-Struktur.
+Mit der Komponente &quot;Erlebnisfragment für Kernkomponenten&quot;kann der Inhaltsersteller aus vorhandenen Varianten von Erlebnisfragmenten auswählen und eine auf der Inhaltsseite platzieren. Die Experience Fragment-Komponente unterstützt außerdem eine lokalisierte Site-Struktur.
 
-* Die Eigenschaften der Komponente können im Dialogfeld [Konfigurieren](#configure-dialog) definiert werden.
-* Die Standardeinstellungen für die Komponente beim Hinzufügen zu einer Seite können im Dialogfeld [Design](#design-dialog) definiert werden.
+* Die Eigenschaften der Komponente können im [Dialogfeld „Konfigurieren“](#configure-dialog) definiert werden.
+* Die Standardeinstellungen für die Komponente beim Hinzufügen zu einer Seite können im [Dialogfeld „Design“](#design-dialog) definiert werden.
 
 ## Unterstützung für lokalisierte Site-Strukturen {#localized-site-structure}
 
@@ -34,8 +30,8 @@ In diesem Fall wird das Fragment mit derselben Lokalisierung (Sprache, Blueprint
 
 Dieses Verhalten ist auf Experience Fragment-Komponenten beschränkt, die zu Vorlagen hinzugefügt werden. Experience Fragment-Komponenten, die einzelnen Inhaltsseiten hinzugefügt werden, rendern die exakten Experience Fragment-Komponenten, die innerhalb der Komponente konfiguriert wurden.
 
-* Ein Beispiel für die Funktionsweise der Lokalisierungsfunktionen der Experience Fragment-Komponente finden Sie [im folgenden](#example)Abschnitt.
-* Ein Beispiel dafür, wie die Lokalisierungsfunktionen der Hauptkomponenten zusammenarbeiten, finden Sie auf der Seite "Hauptkomponenten"unter [Lokalisierungsfunktionen](localization.md).
+* Ein Beispiel dafür, wie die Lokalisierungsfunktion der Experience Fragment-Komponente funktioniert, finden Sie [unten](#example).
+* Ein Beispiel dafür, wie die Lokalisierungsfunktionen der Kernkomponenten zusammenarbeiten, finden Sie auf der Seite [Kernkomponenten](localization.md) unter „Lokalisierungsfunktionen“.
 
 ### Beispiel {#example}
 
@@ -86,30 +82,30 @@ Wenn Sie also zu einer Inhaltsseite unter `/content/we-retail/ch/de` navigieren,
 
 Die Experience Fragment-Komponente wird wie folgt versuchen, eine entsprechende lokalisierte Komponente zu finden.
 
-1. Zuerst wird versucht, einen Sprachstamm zu finden.
+1. Zuerst versucht es, eine Sprachwurzel zu finden.
 1. Wird dieser nicht gefunden, wird versucht, ein Blueprint zu finden.
 1. Wenn auch dieses nicht gefunden werden, versucht sie, eine Live Copy zu finden.
 1. Falls keine Live-Copy gefunden wurde, wird standardmäßig das in der Komponente konfigurierte Experience Fragment verwendet.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die aktuelle Version der Experience Fragment-Komponente ist Version 1, die mit Version 2.6.0 der Core-Komponenten im September 2019 eingeführt wurde und in diesem Dokument beschrieben wird.
+Die aktuelle Version der Experience Fragment-Komponente ist v1. Sie wurde mit Version 2.6.0 der Kernkomponenten im September 2019 eingeführt und wird in diesem Dokument beschrieben.
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
-| Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |---|
-| v1 | Kompatibel | Kompatibel | Kompatibel |
+| Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM als Cloud-Dienst |
+|--- |--- |--- |---|---|
+| v1 | Kompatibel | Kompatibel | Kompatibel | Kompatibel |
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](versions.md).
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-To experience the Experience Fragment Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/experience-fragment.html).
+To experience the Experience Fragment Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_xf).
 
 ## Technische Details {#technical-details}
 
-Die neueste technische Dokumentation zur Experience Fragment-Komponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/experience-fragment/v1/experience-fragment).
+The latest technical documentation about the Experience Fragment Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_xf_v1).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
 
