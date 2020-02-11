@@ -1,15 +1,9 @@
 ---
 title: Seitenkomponente (v1)
-seo-title: Seitenkomponente (v1)
 description: Die Seitenkomponente ist eine Erweiterungskomponente für Seiten, die mit dem Vorlageneditor arbeitet und es ermöglicht, Seitenkopf-/Fußzeilen- und Strukturkomponenten mit dem Vorlageneditor zusammenzustellen.
-seo-description: Die Seitenkomponente ist eine Erweiterungskomponente für Seiten, die mit dem Vorlageneditor arbeitet und es ermöglicht, Seitenkopf-/Fußzeilen- und Strukturkomponenten mit dem Vorlageneditor zusammenzustellen.
-uuid: dd1b1e58-ae14-4818-afbe-8bcff0de2c32
-content-type: Referenz
-topic-tags: Kernkomponenten
-discoiquuid: b3f1775d-743d-4f72-a1e5-198303007a8e
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -689,7 +683,7 @@ Because the component represents the entire page, settings that would normally b
 
 ## Dialogfeld „Design“ {#design-dialog}
 
-Da die Komponente die gesamte Seite darstellt, wird über **Seiteninformationen -&gt; Seitenentwurf** auf das Dialogfeld „Design“ zugegriffen.
+Da die Komponente die gesamte Seite darstellt, wird über **Seiteninformationen -> Seitenentwurf** auf das Dialogfeld „Design“ zugegriffen.
 
 ![](assets/chlimage_1-94.png)
 
@@ -705,7 +699,7 @@ Weitere Informationen zur Verwendung clientseitiger Bibliotheken finden Sie unte
 
 ## Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Seitenkomponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v1/page).
+The latest technical documentation about the Page Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v1/page).
 
 Das gesamte Kernkomponentenprojekt kann von GitHub heruntergeladen werden.
 
