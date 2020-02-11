@@ -1,15 +1,8 @@
 ---
 title: Teaser-Komponente
-seo-title: Teaser-Komponente
 description: Die Teaser-Komponente kann ein Bild, einen Titel, Rich-Text und optional einen Link zu weiteren Inhalten anzeigen.
-seo-description: Die Teaser-Komponente kann ein Bild, einen Titel, Rich-Text und optional einen Link zu weiteren Inhalten anzeigen.
-uuid: 46989314-df37-448b-8562-c707043f2160
-contentOwner: Bohnert
-content-type: Referenz
-topic-tags: Kernkomponenten
-discoiquuid: e597c18e-3643-41be-9878-4a7872f1ab90
 translation-type: tm+mt
-source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -30,17 +23,17 @@ Die aktuelle Version der Teaser-Komponente ist v1, die mit Version 2.1.0 der Ker
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
-| Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|---|---|---|---|
-| v1 | Kompatibel | Kompatibel | Kompatibel |
+| Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM als Cloud-Dienst |
+|---|---|---|---|---|
+| v1 | Kompatibel | Kompatibel | Kompatibel | Kompatibel |
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-To experience the Teaser Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/teaser.html).
+To experience the Teaser Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_teaser).
 
 ### Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Teaser-Komponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/teaser/v1/teaser).
+The latest technical documentation about the Teaser Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_teaser_v1).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
 
@@ -53,9 +46,9 @@ Der Inhaltsautor kann das Dialogfeld „Konfigurieren“ verwenden, um die Eigen
 ![](assets/screen_shot_2018-07-03at104125.png)
 
 * **Bild-Asset**
-   * Drop an asset from the [asset browser](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) or tap the **browse** option to upload from a local file system.
+   * Ziehen Sie ein Asset aus dem [Asset-Browser](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) oder tippen Sie auf die Option **Durchsuchen**, um es von einem lokalen Dateisystem hochzuladen.
    * Tippen oder klicken Sie auf **Löschen**, um das aktuell ausgewählte Bild zu deaktivieren.
-   * Tap or click **Edit** to [mange the renditions of the asset](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) in the asset editor.
+   * Tippen oder klicken Sie auf **Bearbeiten**, um die [Darstellungen des Assets](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) im Asset-Editor zu verwalten.
 
 ### Text {#text}
 
