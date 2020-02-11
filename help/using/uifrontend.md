@@ -1,13 +1,8 @@
 ---
 title: AEM Projektarchetyp Front-End-Build
-seo-title: AEM Projektarchetyp Front-End-Build
 description: Eine Projektvorlage für AEM-basierte Anwendungen
-seo-description: Eine Projektvorlage für AEM-basierte Anwendungen
-contentOwner: bohnert
-content-type: reference
-topic-tags: core-components
-translation-type: ht
-source-git-commit: 277359d2c0ba624353d5cf4addc6fe0d8dfdf2d0
+translation-type: tm+mt
+source-git-commit: 0e1f26e1032812a36ea6a30532ce40dafa903536
 
 ---
 
@@ -29,12 +24,12 @@ Da sich diese beiden Entwicklungsprozesse auf verschiedene Teile des Projekts ko
 
 Jedes daraus resultierende Projekt muss jedoch die Ergebnisse beider Entwicklungsmaßnahmen nutzen, d. h. sowohl für das Back-End als auch das Front-End.
 
-Beim Ausführen von `npm run dev` wird der Front-End-Build-Prozess gestartet, der die im ui.frontend-Modul gespeicherten JavaScript- und CSS-Dateien erfasst und die beiden minimierten Client-Bibliotheken (oder Clientlibs) `clientlib-site` sowie `clientlib-dependencies` erzeugt und im ui.apps-Modul ablegt. Clientlibs können in AEM bereitgestellt werden und ermöglichen Ihnen die Speicherung des Client-seitigen Codes im Repository.
+Running `npm run dev` starts the front-end build process that gathers the JavaScript and CSS files stored in the ui.frontend module and produces two minified client libraries or clientlibs called `clientlib-site` and `clientlib-dependencies` and deposits them in the ui.apps module. Clientlibs können in AEM bereitgestellt werden und ermöglichen Ihnen die Speicherung des Client-seitigen Codes im Repository.
 
 Wenn der gesamte AEM-Projektarchetyp mit `mvn clean install -PautoInstallPackage` ausgeführt wird, werden alle Projektartefakte einschließlich der Clientlibs an die AEM-Instanz gesendet.
 
 >[!TIP]
->In der [AEM-Entwicklungsdokumentation](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/using/clientlibs.html) erfahren Sie mehr über Clientlibs und darüber, [wie das ui.frontend-Modul diese verwendet](#clientlib-generation).
+>In der [AEM-Entwicklungsdokumentation](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) erfahren Sie mehr über Clientlibs und darüber, [wie das ui.frontend-Modul diese verwendet](#clientlib-generation).
 
 ## Mögliche Front-End-Entwicklungs-Workflows {#possible-workflows}
 
@@ -53,7 +48,7 @@ In diesem Workflow kann ein AEM-Entwickler die Schritte 1 und 2 ausführen sow
 
 >[!TIP]
 >
->Man kann auch mit der [Komponentenbibliothek](https://opensource.adobe.com/aem-core-wcm-components/library.html) Beispiele der Markup-Ausgabe jeder Komponente erfassen, um auf Komponentenebene und nicht auf Seitenebene zu arbeiten.
+>Man kann auch mit der [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library) Beispiele der Markup-Ausgabe jeder Komponente erfassen, um auf Komponentenebene und nicht auf Seitenebene zu arbeiten.
 
 ### Verwenden von Storybook {#using-storybook}
 
@@ -65,7 +60,7 @@ Mit [Storybook](https://storybook.js.org) können Sie mehr atomare Front-End-Ent
 
 ### Bestimmen des Markups {#determining-markup}
 
-Unabhängig davon, welchen Front-End-Entwicklungs-Workflow Sie für Ihr Projekt implementieren, müssen sich die Back-End-Entwickler und Front-End-Entwickler zunächst auf das Markup einigen. In der Regel definiert AEM das Markup, das von den Core-Komponenten bereitgestellt wird. [Dies kann jedoch bei Bedarf angepasst werden.](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/customizing.html#customizing-the-markup)
+Unabhängig davon, welchen Front-End-Entwicklungs-Workflow Sie für Ihr Projekt implementieren, müssen sich die Back-End-Entwickler und Front-End-Entwickler zunächst auf das Markup einigen. In der Regel definiert AEM das Markup, das von den Core-Komponenten bereitgestellt wird. [Dies kann jedoch bei Bedarf angepasst werden.](customizing.md#customizing-the-markup)
 
 ## Das ui.frontend-Modul {#ui-frontend-module}
 
@@ -91,7 +86,7 @@ Das AEM-Projektarchiv enthält einen optionalen, dedizierten Front-End-Build-Mec
 
 >[!NOTE]
 >
->Weitere technische Informationen zum ui.frontend-Modul finden Sie in der [Dokumentation zu GitHub](https://github.com/adobe/aem-project-archetype/blob/master/src/main/archetype/ui.frontend/README.md).
+>Weitere technische Informationen zum ui.frontend-Modul finden Sie in der [Dokumentation zu GitHub](https://github.com/adobe/aem-project-archetype/blob/master/src/main/archetype/ui.frontend.general/README.md).
 
 ## Installation {#installation}
 
@@ -150,9 +145,9 @@ Der Prozess zum Erstellen des ui.frontend-Moduls nutzt das Plugin [aem-clientlib
 
 ### Einbinden von Client-Bibliotheken auf Seiten {#clientlib-inclusion}
 
-Die Kategorien `clientlib-site` und `clientlib-dependencies` sind auf den Seiten über die [Seitenrichtlinien-Konfiguration](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-editable.html#TemplateDefinitions) als Teil der Standardvorlage enthalten. Um die Richtlinie anzuzeigen, bearbeiten Sie die **Inhaltsseitenvorlage &gt; Seiteninformationen &gt; Seitenrichtlinie**.
+Die Kategorien `clientlib-site` und `clientlib-dependencies` sind auf den Seiten über die [Seitenrichtlinien-Konfiguration](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html#template-definitions) als Teil der Standardvorlage enthalten. Um die Richtlinie anzuzeigen, bearbeiten Sie die **Inhaltsseitenvorlage > Seiteninformationen > Seitenrichtlinie**.
 
-Die endgültige Einbindung von Client-Bibliotheken auf der Seite "Sites" erfolgt wie folgt:
+Die endgültige Einbindung von Client-Bibliotheken auf der Seite &quot;Sites&quot; erfolgt wie folgt:
 
 ```
 <HTML>
