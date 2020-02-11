@@ -1,16 +1,8 @@
 ---
 title: Container-Komponente
-seo-title: Container-Komponente
-description: 'null'
-seo-description: Die Kernkomponente „Container-Komponente“ ermöglicht die Erstellung eines Containers für diverse zusätzliche Komponenten auf einer Seite.
-uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
-contentOwner: User
-content-type: reference
-topic-tags: authoring
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
-translation-type: ht
-source-git-commit: 3e2e7a297c6ee1d6c8d092c619df8febdc900e25
+description: Die Kernkomponente „Container-Komponente“ ermöglicht die Erstellung eines Containers für diverse zusätzliche Komponenten auf einer Seite.
+translation-type: tm+mt
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -32,19 +24,19 @@ Die aktuelle Version der Container-Komponente ist v1, die mit Version 2.5.0 der 
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
-| Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |---|
-| v1 | Kompatibel | Kompatibel | Kompatibel |
+| Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM als Cloud-Dienst |
+|--- |--- |--- |---|---|
+| v1 | Kompatibel | Kompatibel | Kompatibel | Kompatibel |
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](versions.md).
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Um die Container-Komponente sowie Beispiele für die Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](http://opensource.adobe.com/aem-core-wcm-components/library/container.html).
+Um die Container-Komponente sowie Beispiele für die Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_container).
 
 ## Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Container-Komponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/container/v1/container).
+Die aktuelle technische Dokumentation zur Container-Komponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_container_v1).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
 
@@ -56,7 +48,7 @@ Mit dem Dialogfeld „Konfigurieren“ kann der Inhaltsautor das Container-Eleme
 
 * **Layout** - Diese Option definiert das Verhalten oder das Layout-Verhalten der Container-Komponente.
    * **Einfach** - Definiert einen Container als einfache Sammlung von Komponenten
-   * **Responsives Raster** - Definiert einen Container als [responsives AEM-Raster](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/responsive-layout.html)
+   * **Responsive Grid** - Definiert einen Container als [AEM Responsive Layout](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
 * **ID** - Verwenden Sie diese Option, um das HTML-ID-Attribut zu definieren, das auf die Komponente angewendet werden soll.
 * **Hintergrundfarbe** - Definierbar entweder als freie RGB-Werte oder mithilfe der Farbauswahl, [je nach Konfiguration](#background-tab).
 * **Hintergrundbild** - Definiert eine Hintergrundfarbe für den Container, [je nach Konfiguration](#background-tab).
@@ -69,11 +61,11 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Optionen für 
 
 Über die Registerkarte **Zugelassene Komponenten** können Sie definieren, welche Komponenten der Container-Komponente vom Inhaltsautor als Elemente hinzugefügt werden können.
 
-Die Registerkarte „Zugelassene Komponenten“ funktioniert auf die gleiche Weise wie die Registerkarte desselben Namens beim [Definieren der Richtlinie und Eigenschaften eines Layoutcontainers im Vorlageneditor.](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/templates.html)
+Die Registerkarte „Zugelassene Komponenten“ funktioniert auf die gleiche Weise wie die Registerkarte desselben Namens beim [Definieren der Richtlinie und Eigenschaften eines Layoutcontainers im Vorlageneditor.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### Registerkarte „Standardkomponenten“ {#default-components-tab}
 
-Mit der Registerkarte „Standardkomponenten“ wird definiert, welche Komponente der Komponente hinzugefügt wird, wenn ein bestimmter Assettyp im Container abgelegt wird, ähnlich wie unter [So werden Standardkomponenten in der Seitenvorlage definiert](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/templates.html#EditingTemplatesTemplateAuthors) erläutert.
+Mit der Registerkarte „Standardkomponenten“ wird definiert, welche Komponente der Komponente hinzugefügt wird, wenn ein bestimmter Assettyp im Container abgelegt wird, ähnlich wie unter [So werden Standardkomponenten in der Seitenvorlage definiert](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) erläutert.
 
 ### Registerkarte „Responsive Einstellungen“ {#responsive-settings-tab}
 
