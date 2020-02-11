@@ -1,24 +1,9 @@
 ---
 title: Listenkomponente (v1)
-seo-title: Listenkomponente (v1)
-description: 'null'
-seo-description: Die Kernkomponente „Listenkomponente“ ermöglicht die einfache Erstellung dynamischer sowie statischer Listen.
-uuid: 06658c9d-cbf2-4bfe-b425-d980d1181908
-content-type: Referenz
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 7c130ccc-83ff-464d-b58f-d581f4365dbd
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: keine
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
-modalsize: 426x240
-noindex: 'true'
+description: Die Kernkomponente „Listenkomponente“ ermöglicht die einfache Erstellung dynamischer sowie statischer Listen.
 index: n
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -272,7 +257,7 @@ Auf der Registerkarte **Elementeinstellungen** können die Formatierungsoptionen
 
 ## Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur List Component [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/list/v1/list).
+The latest technical documentation about the List Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/list/v1/list).
 
 Das gesamte Kernkomponentenprojekt kann von GitHub heruntergeladen werden.
 
