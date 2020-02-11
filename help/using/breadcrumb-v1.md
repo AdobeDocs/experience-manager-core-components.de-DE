@@ -1,20 +1,9 @@
 ---
 title: Breadcrumb-Komponente (v1)
-seo-title: Breadcrumb-Komponente (v1)
 description: Die Kernkomponente „Breadcrumb-Komponente“ ist eine Navigationskomponente, die einen Breadcrumb von Links basierend auf der Position der Seite in der Inhaltshierarchie erstellt.
-seo-description: Die AEM-Kernkomponente „Breadcrumb-Komponente“ ist eine Navigationskomponente, die eine Breadcrumb von Links basierend auf der Position der Seite in der Inhaltshierarchie erstellt.
-uuid: c1f20a82-b6ff-4a3c-920a-6710084a69f2
-content-type: Referenz
-topic-tags: Kernkomponenten
-discoiquuid: 0b3a7d8f-d110-424f-b531-ff88c9a09128
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: keine
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -125,7 +114,7 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Standardwerte 
 
 ## Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Breadcrumb-Komponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v1/breadcrumb).
+The latest technical documentation about the Breadcrumb Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v1/breadcrumb).
 
 Das gesamte Kernkomponentenprojekt kann von GitHub heruntergeladen werden.
 
