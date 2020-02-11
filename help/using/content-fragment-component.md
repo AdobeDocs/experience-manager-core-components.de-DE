@@ -1,23 +1,15 @@
 ---
 title: Inhaltsfragment-Komponente
-seo-title: Inhaltsfragment-Komponente
-description: 'null'
-seo-description: Die Kernkomponente „Inhaltsfragment-Komponente“ ermöglicht die Anzeige eines Inhaltsfragments.
-uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
-contentOwner: Benutzer
-content-type: Referenz
-topic-tags: Authoring
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
+description: Die Kernkomponente „Inhaltsfragment-Komponente“ ermöglicht die Anzeige eines Inhaltsfragments.
 translation-type: tm+mt
-source-git-commit: 548972c65751b594cd62234d4681634a60fa41e2
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
 
 # Inhaltsfragment-Komponente{#content-fragment-component}
 
-The Core Component Content Fragment component allows for the display of a [content fragment](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html).
+The Core Component Content Fragment component allows for the display of a [content fragment](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html).
 
 >[!NOTE]
 >
@@ -25,11 +17,11 @@ The Core Component Content Fragment component allows for the display of a [conte
 
 ## Nutzung {#usage}
 
-The Core Component Content Fragment Component allows for the inclusion of a [content fragment](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html) on a page.
+The Core Component Content Fragment Component allows for the inclusion of a [content fragment](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) on a page.
 
 * Das Fragment und seine Eigenschaften können im [Dialogfeld „Konfigurieren“](#configure-dialog) ausgewählt werden.
 * Ressourcentypen zum Verarbeiten bestimmter Bilder und Raster können im [Dialogfeld „Design“](#design-dialog) definiert werden.
-* Mit der Option "Bearbeiten"wird das ausgewählte Fragment im [Inhaltsfragmenteditor](https://helpx.adobe.com/content/help/en/experience-manager/6-5/assets/using/content-fragments.html)geöffnet.
+* Mit der Option &quot;Bearbeiten&quot;wird das ausgewählte Fragment im [Inhaltsfragmenteditor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html)geöffnet.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
@@ -37,9 +29,9 @@ Die aktuelle Version der Inhaltsfragment-Komponente ist v1, die mit Version 1.1.
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
-| Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |---|
-| v1 | Kompatibel | Kompatibel | Kompatibel |
+| Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM als Cloud-Dienst |
+|--- |--- |--- |---|---|
+| v1 | Kompatibel | Kompatibel | Kompatibel | Kompatibel |
 
 >[!NOTE]
 >
@@ -57,11 +49,11 @@ Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in d
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-To experience the Content Fragment Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html).
+To experience the Content Fragment Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_cf).
 
 ## Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Inhaltsfragment-Komponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/contentfragment/v1/contentfragment).
+The latest technical documentation about the Content Fragment Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_cf_v1).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
 
@@ -102,3 +94,4 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Ressourcentype
 * **Internes responsives Raster**
 
    * Der Sling-Ressourcentyp, der für das interne responsive Raster verwendet wird
+
