@@ -1,16 +1,8 @@
 ---
 title: Einführung in Kernkomponenten
-seo-title: Einführung in Kernkomponenten
 description: 'Kernkomponenten wurden eingeführt, um robuste und erweiterbare Basiskomponenten bereitzustellen, die auf aktueller Technologie und Best Practices basieren. '
-seo-description: 'Kernkomponenten wurden eingeführt, um robuste und erweiterbare Basiskomponenten bereitzustellen, die auf aktueller Technologie und Best Practices basieren. '
-uuid: b815c7d1-fbb0-4480-bd23-42606ff8b1eb
-contentOwner: User
-content-type: reference
-topic-tags: introduction
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: c44bb0d7-5d91-4659-878e-a0658fe29aa2
-translation-type: ht
-source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
+translation-type: tm+mt
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -23,9 +15,9 @@ Kernkomponenten wurden eingeführt, um stabile und erweiterbare Basiskomponenten
 
 ## Testen der Kernkomponenten
 
-Wenn Sie sofort anfangen möchten, die Kernkomponenten auszuprobieren, wechseln Sie zur [Komponentenbibliothek](http://opensource.adobe.com/aem-core-wcm-components/library.html). Die Komponentenbibliothek ist eine Online-Präsentation der aktuellen Version der meisten Kernkomponenten, mit der Sie mit Variationen der Komponenten interagieren und Beispiele von HTML- und JSON-Ausgaben anzeigen können.
+Wenn Sie sofort anfangen möchten, die Kernkomponenten auszuprobieren, wechseln Sie zur [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library). Die Komponentenbibliothek ist eine Online-Präsentation der aktuellen Version der meisten Kernkomponenten, mit der Sie mit Variationen der Komponenten interagieren und Beispiele von HTML- und JSON-Ausgaben anzeigen können.
 
-Die [Referenz-Site We.Retail](https://helpx.adobe.com/de/experience-manager/6-4/sites/developing/using/we-retail.html) zeigt außerdem, wie die Kernkomponenten verwendet werden können.
+The [WKND tutorial](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html) also illustrates how the core components can be used.
 
 ## Kernkomponenten - Kernfunktionen {#core-components-core-features}
 
@@ -79,7 +71,7 @@ Die aktuelle Version der Kernkomponenten enthält die folgenden Komponenten.
 
 >[!NOTE]
 >
->Kernkomponenten sind für Autoren nicht sofort verfügbar. Das [Entwicklerteam muss sie zuerst in Ihre Umgebung integrieren](using.md). Nach der Integration können sie über den [Vorlageneditor](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/templates.html) oder im [Entwurfsmodus](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/default-components-designmode.html) bereitgestellt und vorkonfiguriert werden.
+>Kernkomponenten sind für Autoren nicht sofort verfügbar. Das [Entwicklerteam muss sie zuerst in Ihre Umgebung integrieren](using.md). Nach der Integration können sie über den [Vorlageneditor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) bereitgestellt und vorkonfiguriert werden.
 
 >[!CAUTION]
 >
@@ -95,15 +87,15 @@ Informationen zu spezifischen Empfehlungen der Nutzung finden Sie unter [Wann Ke
 
 ## Überblick über die Gems-Sitzung {#gems-session-overview}
 
-Um eine Einführung in die Kernkomponenten, die angebotenen Funktionen und ihre Nutzung in AEM zu erhalten, sehen Sie sich die AEM-Gems-Sitzung [AEM-Kernkomponenten](https://helpx.adobe.com/de/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
+Um eine Einführung in die Kernkomponenten, die angebotenen Funktionen und ihre Nutzung in AEM zu erhalten, sehen Sie sich die AEM-Gems-Sitzung [AEM-Kernkomponenten](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
 
-[Gems zu Adobe Experience Manager](https://helpx.adobe.com/de/experience-manager/kt/eseminars/gems/aem-index.html) ist eine Reihe technischer Vertiefungen, die von Adobe-Experten angeboten werden. Diese Reihe ergänzt die Produktdokumentation und alle anderen technischen Kanäle und ermöglicht es Entwicklern, in Kontakt zu treten und ein bestimmtes Thema zu vertiefen.
+[Gems zu Adobe Experience Manager](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) ist eine Reihe technischer Vertiefungen, die von Adobe-Experten angeboten werden. Diese Reihe ergänzt die Produktdokumentation und alle anderen technischen Kanäle und ermöglicht es Entwicklern, in Kontakt zu treten und ein bestimmtes Thema zu vertiefen.
 
 ## Entwicklung mit den Kernkomponenten {#developing-core-components}
 
 Die Kernkomponenten bieten robuste und erweiterbare Basiskomponenten, die verschiedene Muster implementieren, die eine einfache Anpassung ermöglichen, von der einfachen Formatierung bis zur erweiterten Funktionswiederverwendung. Weitere Informationen finden Sie in der [ Entwicklungsdokumentation für Kernkomponenten ](developing.md).
 
-Beginnen Sie mit der Entwicklung von AEM Sites mit Kernkomponenten, indem Sie [dieses Tutorial schrittweise befolgen.](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/using/getting-started.html)
+Get started developing AEM Sites with Core Components by following [the WKND tutorial.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
 Vergessen Sie nicht, Ihr eigenes AEM-Projekt mit dem [AEM-Projektarchetyp](overview.md) zu starten, mit den neuesten integrierten Kernkomponenten!
 
@@ -126,4 +118,4 @@ Weitere Informationen zum Support von Komponentenanpassungen finden Sie auf der 
 
 Da die Foundation-Komponenten aufgrund vieler Versionen als Grundlage für so viele Projekte bereitgestellt wurden, werden sie in absehbarer Zukunft weiterhin unterstützt.
 
-Der Entwicklungsschwerpunkt von Adobe wurde jedoch auf die Kernkomponenten verschoben, und neue Funktionen werden zu ihnen hinzugefügt, während [fast alle Foundation-Komponenten mit AEM 6.5 als veraltet gelten](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) und jetzt nur noch Fehlerkorrekturen an den Foundation-Komponenten vorgenommen werden.
+Der Entwicklungsschwerpunkt von Adobe wurde jedoch auf die Kernkomponenten verschoben, und neue Funktionen werden zu ihnen hinzugefügt, während [fast alle Foundation-Komponenten mit AEM 6.5 als veraltet gelten](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html) und jetzt nur noch Fehlerkorrekturen an den Foundation-Komponenten vorgenommen werden.
