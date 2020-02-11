@@ -1,13 +1,8 @@
 ---
 title: Trennzeichenkomponente
-seo-title: Trennzeichenkomponente
 description: Die Trennzeichen-Komponente erstellt einen Umbruch zwischen Komponenten auf einer Seite
-seo-description: Die Trennzeichen-Komponente erstellt einen Umbruch zwischen Komponenten auf einer Seite
-contentOwner: Bohnert
-content-type: Referenz
-topic-tags: Kernkomponenten
 translation-type: tm+mt
-source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -26,17 +21,17 @@ Die aktuelle Version der Trennzeichenkomponente ist v1, die mit Version 2.3.0 de
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
-| Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|---|---|---|---|
-| v1 | Kompatibel | Kompatibel | Kompatibel |
+| Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM als Cloud-Dienst |
+|---|---|---|---|---|
+| v1 | Kompatibel | Kompatibel | Kompatibel | Kompatibel |
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-To experience the Separator Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/separator.html).
+To experience the Separator Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_separator).
 
 ### Technische Details {#technical-details}
 
-Die neueste technische Dokumentation zur Separatorkomponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator).
+The latest technical documentation about the Separator Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_separator_v1).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](developing.md).
 
