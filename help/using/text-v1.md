@@ -1,24 +1,9 @@
 ---
 title: Textkomponente (v1)
-seo-title: Textkomponente (v1)
-description: 'null'
-seo-description: Die Textkomponente ist eine Komponente zur Bearbeitung und Zusammensetzung von Rich-Texten, die eine direkte Bearbeitung ermöglicht.
-uuid: b787ebac-fa85-416a-b96b-9d2ee85428ec
-content-type: Referenz
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: d5e37dc7-dfd4-4a44-89b6-c15651472c43
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: keine
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
-modalsize: 426x240
-noindex: 'true'
+description: Die Textkomponente ist eine Komponente zur Bearbeitung und Zusammensetzung von Rich-Texten, die eine direkte Bearbeitung ermöglicht.
 index: n
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 945381996db443c227aa31f0aacb963071165681
 
 ---
 
@@ -52,7 +37,7 @@ In der folgenden Tabelle ist die Kompatibilität von v1 der Textkomponente aufge
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-The following is sample taken from We.Retail.[](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)
+Im Folgenden finden Sie ein Beispiel von [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Screenshot {#screenshot}
 
@@ -377,7 +362,7 @@ Die Option zum Einfügen von Sonderzeichen kann für die Komponente aktiviert od
 
 ## Technische Details {#technical-details}
 
-The latest technical documentation about the Text Component can be found on GitHub.[](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v1/text)
+The latest technical documentation about the Text Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v1/text).
 
 Das gesamte Kernkomponentenprojekt kann von GitHub heruntergeladen werden.
 
