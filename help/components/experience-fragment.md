@@ -1,0 +1,128 @@
+---
+title: Experience Fragment-Komponente
+description: Mit der Experience Fragment-Komponente kann der Inhaltsautor einer Seite eine Experience Fragment-Variation hinzufügen.
+translation-type: tm+mt
+source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+
+---
+
+
+# Experience Fragment-Komponente{#experience-fragment-component}
+
+Mit der Kernkomponente Experience Fragment-Komponente kann der Inhaltsautor eine Experience Fragment-Variation auf einer Seite platzieren, während er eine lokalisierte Site-Struktur unterstützt.
+
+## Nutzung {#usage}
+
+Mit der Komponente &quot;Erlebnisfragment für Kernkomponenten&quot;kann der Inhaltsersteller aus vorhandenen Varianten von Erlebnisfragmenten auswählen und eine auf der Inhaltsseite platzieren. Die Experience Fragment-Komponente unterstützt außerdem eine lokalisierte Site-Struktur.
+
+* Die Eigenschaften der Komponente können im [Dialogfeld „Konfigurieren“](#configure-dialog) definiert werden.
+* Die Standardeinstellungen für die Komponente beim Hinzufügen zu einer Seite können im [Dialogfeld „Design“](#design-dialog) definiert werden.
+
+## Unterstützung für lokalisierte Site-Strukturen {#localized-site-structure}
+
+Die Experience Fragment-Komponente ist an lokalisierte Site-Strukturen anpassbar und gibt das richtige Experience-Fragment basierend auf der Lokalisierung der Seite wieder. Hierfür muss das Experience Fragment die folgenden Bedingungen erfüllen:
+
+* Die Experience Fragment-Komponente wird zu einer Vorlage hinzugefügt.
+* Diese Vorlage wird verwendet, um eine neue Inhaltsseite zu erstellen, die Teil einer lokalisierten Struktur unter `/content/<site>` ist.
+* Das auf einer Inhaltsseite referenzierte Experience Fragment ist Teil einer lokalisierten Experience Fragment-Struktur unter `/content/experience-fragments`; dieselben Muster wie bei der Site unter `/content/<site>` werden befolgt, einschließlich der gleichen Komponentennamen.
+
+In diesem Fall wird das Fragment mit derselben Lokalisierung (Sprache, Blueprint oder Live Copy) wie die aktuelle Seite als Teil der Vorlage gerendert.
+
+Dieses Verhalten ist auf Experience Fragment-Komponenten beschränkt, die zu Vorlagen hinzugefügt werden. Experience Fragment-Komponenten, die einzelnen Inhaltsseiten hinzugefügt werden, rendern die exakten Experience Fragment-Komponenten, die innerhalb der Komponente konfiguriert wurden.
+
+* Ein Beispiel dafür, wie die Lokalisierungsfunktion der Experience Fragment-Komponente funktioniert, finden Sie [unten](#example).
+* Ein Beispiel dafür, wie die Lokalisierungsfunktionen der Kernkomponenten zusammenarbeiten, finden Sie auf der Seite [Kernkomponenten](/help/get-started/localization.md) unter „Lokalisierungsfunktionen“.
+
+### Beispiel {#example}
+
+Nehmen wir an, dass Ihr Inhalt wie folgt aussieht:
+
+```
+/content
++-- experience-fragments
+   \-- we-retail
+      +-- language-masters
+      +-- us
+         +-- en
+            +-- footerTextXf
+            \-- headerTextXf
+         \-- es
+            +-- footerTextXf
+            \-- headerTextXf
+      \-- ch
+         +-- de
+            +-- footerTextXf
+            \-- headerTextXf
+         +-- fr
+            +-- footerTextXf
+            \-- headerTextXf
+         \-- it
+            +-- footerTextXf
+            \-- headerTextXf
++-- we-retail
+   +-- language-masters
+   +-- us
+      +-- en
+      \-- es
+   +-- ch
+      +-- de
+      +-- fr
+      \-- it
++-- wknd-events
+\-- wknd-shop
+```
+
+Beachten Sie, dass sich die Struktur unter `/content/experience-fragments/we-retail` auf die Struktur von `/content/we-retail` auswirkt.
+
+Wenn die Experience Fragment-Komponente `/content/experience-fragments/we-retail/us/en/footerTextXf` in einer Vorlage platziert wird, rendern die lokalisierten Seiten, die basierend auf dieser Vorlage erstellt wurden, automatisch das lokalisierte Experience Fragment, welches der lokalisierten Inhaltsseite entspricht.
+
+Wenn Sie also zu einer Inhaltsseite unter `/content/we-retail/ch/de` navigieren, welche dieselbe Vorlage verwendet, wird `/content/experience-fragments/we-retail/ch/de/footerTextXf` anstatt von `/content/experience-fragments/we-retail/us/en/footerTextXf` gerendert.
+
+### Notfallversorgung {#fallback}
+
+Die Experience Fragment-Komponente wird wie folgt versuchen, eine entsprechende lokalisierte Komponente zu finden.
+
+1. Zuerst versucht es, eine Sprachwurzel zu finden.
+1. Wird dieser nicht gefunden, wird versucht, ein Blueprint zu finden.
+1. Wenn auch dieses nicht gefunden werden, versucht sie, eine Live Copy zu finden.
+1. Falls keine Live-Copy gefunden wurde, wird standardmäßig das in der Komponente konfigurierte Experience Fragment verwendet.
+
+## Version und Kompatibilität {#version-and-compatibility}
+
+Die aktuelle Version der Experience Fragment-Komponente ist v1. Sie wurde mit Version 2.6.0 der Kernkomponenten im September 2019 eingeführt und wird in diesem Dokument beschrieben.
+
+Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
+
+| Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM als Cloud Service |
+|--- |--- |--- |---|---|
+| v1 | Kompatibel | Kompatibel | Kompatibel | Kompatibel |
+
+Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
+
+## Musterkomponentenausgabe {#sample-component-output}
+
+To experience the Experience Fragment Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_xf).
+
+## Technische Details {#technical-details}
+
+The latest technical documentation about the Experience Fragment Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_xf_v1).
+
+Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
+
+## Dialogfeld „Konfigurieren“ {#configure-dialog}
+
+Das Dialogfeld „Konfigurieren“ ermöglicht dem Inhaltsautor die Auswahl der Experience Fragment-Variation, die auf der Seite gerendert werden soll.
+
+![](/help/assets/screen-shot-2019-08-23-10.49.21.png)
+
+Verwenden Sie die Schaltfläche **Auswahldialog öffnen**, um die Komponentenauswahl zu öffnen und auszuwählen, welche Variation der Experience Fragment-Komponente zur Inhaltsseite hinzugefügt werden soll.
+
+Wenn Sie die Experience Fragment-Komponente zu einer Vorlage hinzufügen, wird sie automatisch lokalisiert, sofern die Experience Fragments lokalisiert sind. Was auf der Seite gerendert wird, kann sich daher von der Komponente unterscheiden, die Sie explizit auswählen. Weitere Informationen finden Sie im [oben stehenden Beispiel](#example).
+
+## Dialogfeld „Design“ {#design-dialog}
+
+Über das Dialogfeld „Design“ kann der Vorlagenautor die Optionen definieren, die dem Inhaltsautor zur Verfügung stehen, der die Experience Fragment-Komponente verwendet, sowie auch die Standardeinstellungen, die beim Platzieren der Experience Fragment-Komponente festgelegt wurden.
+
+![](/help/assets/screen-shot-2019-08-23-10.48.36.png)
+
+Die Experience Fragment-Komponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
