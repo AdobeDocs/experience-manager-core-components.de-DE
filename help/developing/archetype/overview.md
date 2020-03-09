@@ -2,7 +2,7 @@
 title: AEM-Projektarchetyp
 description: Eine Projektvorlage für AEM-basierte Anwendungen
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
 
 ---
 
@@ -26,7 +26,7 @@ Der Archetyp verfügt über eine Reihe von Funktionen, die einen bequemen Ausgan
 * Beispiele für [Formularkomponenten](/help/components/forms/form-container.md)
 * Konfigurationen für Geräteemulatoren, Drag &amp; Drop-Einrichtung und Internationalisierung
 * Client-Bibliotheken nach BEM-Benennungskonventionen sowie komponentenspezifische Stile
-* Beispielpakete mit Beispielmodellen, Servelets, Filtern und Schedulern
+* Beispielpakete einschließlich Beispielmodellen, -serven, -filtern und -planern
 * Einheiten-, Integrations- und clientseitige Tests
 * Beispiele für SPA-Implementierungen in &quot;React&quot;oder &quot;Angular&quot;(optional)
 
@@ -42,14 +42,14 @@ Der Projektarchiv erleichtert die Entwicklung auf AEM. Sie können Ihre ersten S
 
 * WKND-Tutorial - Eine großartige Einführung in die Entwicklung von AEM, einschließlich der Nutzung des Archetyps, finden Sie im Tutorial [Erste Schritte mit AEM-Sites - WKND-Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) , in dem Sie anhand des Archetyps ein einfaches Projekt implementieren können.
 * WKND Events Tutorial - Wenn Sie besonders an der Entwicklung von Einzelseitenanwendungen (SPA) auf AEM interessiert sind, sollten Sie sich das entsprechende [WKND Events Tutorial](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)ansehen.
-* Downloaden und starten Sie selbst! - Sie können den aktuellen Projektarchiv, der auf GitHub verfügbar ist, einfach herunterladen und Ihr erstes Projekt erstellen, indem Sie die [folgenden](#how-to-use-the-archetype)Schritte ausführen.
+* Laden Sie es selbst herunter und starten Sie es! - Sie können den aktuellen Projektarchiv, der auf GitHub verfügbar ist, einfach herunterladen und Ihr erstes Projekt erstellen, indem Sie die [folgenden](#how-to-use-the-archetype)Schritte ausführen.
 
 ## Was Sie mit dem Archetyp erhalten {#what-you-get}
 
 Der AEM-Archetyp besteht aus Modulen:
 
 * **[core](core.md)**: ist ein Java-Bundle, das alle Kernfunktionen wie OSGi-Dienste, Listener und Scheduler sowie komponentenbezogenen Java-Code wie Servlets und Anforderungsfilter enthält.
-* **[ui.apps](uiapps.md)**: enthält die`/apps`und`/etc`Teile des Projekts, d.h. JS- und CSS-clientlibs, Komponenten, Vorlagen, runmode-spezifische Konfigurationen sowie Hobbes-Tests.
+* **[ui.apps](uiapps.md)**: enthält die`/apps`und`/etc`Teile des Projekts, d. h. JS- und CSS-clientlibs, Komponenten, Vorlagen, runmode-spezifische Konfigurationen sowie Hobbes-Tests.
 * **[ui.content](uicontent.md)**: enthält Beispielinhalt mit den Komponenten des Moduls ui.apps.
 * **[ui.tests](uitests.md)**: ist ein Java-Bundle, das JUnit-Tests enthält, die serverseitig ausgeführt werden. Dieses Bundle soll nicht in der Produktion bereitgestellt werden.
 * **ui.launcher**: enthält Klebercode, der das ui.tests-Bundle (und die abhängigen Bundles) auf dem Server bereitstellt und die Ausführung von JUnit auslöst.
@@ -117,7 +117,7 @@ Die folgenden Eigenschaften sind beim Erstellen eines Projekts mit dem Archetyp 
 | `includeErrorHandler` | n | Eine benutzerdefinierte 404-Antwortseite einschließen |
 | `frontendModule` | none | Schließen Sie ein dediziertes Frontend-Modul ein (eines von `none`, [`general`](uifrontend.md), [`angular`](uifrontend-angular.md), [`react`](uifrontend-react.md)) |
 | `singleCountry` | y | Erstellen einer Sprach-Master-Struktur in Beispielinhalt |
-| `includeDispatcherConfig` | n | Definiert, ob eine Dispatcher-Konfiguration für das Projekt generiert wird, auf das <br> beim Erstellen eines Projekts für [`cloud`](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.cloud)AEM als Cloud-Dienst[ festgelegt wird, auf ](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) <br> [`ams`](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) den beim Erstellen eines Projekts für Adobe Managed Services |
+| `includeDispatcherConfig` | n | Definiert, ob eine Dispatcher-Konfiguration für das Projekt generiert wird, auf das <br> beim Erstellen eines Projekts für [`cloud`](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.cloud) AEM als Cloud-Dienst [festgelegt wird, auf](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) <br> [`ams`](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) den beim Erstellen eines Projekts für Adobe Managed Services |
 
 >[!NOTE]
 > Wenn der Archetyp zum ersten Mal im interaktiven Modus ausgeführt wird, können Eigenschaften mit Standardwerten nicht geändert werden (weitere Informationen finden Sie unter [ARCHETYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) ). Der Wert kann geändert werden, wenn die Eigenschaftsbestätigung am Ende verweigert und der Fragebogen wiederholt wird oder indem der Parameter in der Befehlszeile (z. `-DoptionIncludeExamples=n`).
