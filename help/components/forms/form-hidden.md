@@ -2,7 +2,7 @@
 title: Komponente für ausgeblendetes Formular
 description: Die Kernkomponente „Komponente für ausgeblendetes Formular“ ermöglicht die Anzeige eines ausgeblendeten Felds.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
 
 ---
 
@@ -23,7 +23,7 @@ Die aktuelle Version der Komponente für ausgeblendetes Formular ist v2, die mit
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
-| Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM als Cloud Service |
+| Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |--- |---|
 | v2 | Kompatibel | Kompatibel | Kompatibel | Kompatibel |
 | [v1](/help/components/v1/form-hidden-v1.md) | Kompatibel | Kompatibel | Kompatibel | - |
@@ -32,47 +32,11 @@ Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in d
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Im Folgenden finden Sie ein Beispiel von [We.Retail](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html).
-
-### HTML {#html}
-
-```
-<div class="cmp cmp-form aem-GridColumn aem-GridColumn--default--12">
- <form method="POST" action="/content/we-retail/us/en/experience.html" id="new_form" name="new_form" enctype="multipart/form-data" class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
-  <input type="hidden" name=":formstart" value="/content/we-retail/us/en/experience/jcr:content/root/responsivegrid/container">
-   <div class="visible aem-GridColumn aem-GridColumn--default--12">
-    <input type="hidden" id="ghostToast" name="Invisible Toast" value="ghostToast">
-   </div>
- </form>
-</div>
-```
-
-### JSON {#json}
-
-```
-"container": {
-              "columnClassNames": "aem-GridColumn aem-GridColumn--default--12",
-              "columnCount": 12,
-              "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
-              ":items": {
-                "hidden": {
-                  "columnClassNames": "aem-GridColumn aem-GridColumn--default--12",
-                  ":type": "weretail/components/form/hidden",
-                  "name": "Invisible Toast",
-                  "id": "ghostToast",
-                  "value": "ghostToast"
-                }
-              },
-              ":itemsOrder": [
-                "hidden"
-              ],
-              ":type": "weretail/components/form/container"
-            }
-```
+To experience the Form Hidden Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_form_hidden).
 
 ### Technische Details {#technical-details}
 
-The latest technical documentation about the Form Hidden Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_form_hidden_v2).
+Die neueste technische Dokumentation zur Komponente für ausgeblendetes Formular [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_form_hidden_v2).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
