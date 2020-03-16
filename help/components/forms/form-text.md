@@ -2,7 +2,7 @@
 title: Formulartext-Komponente
 description: Die Kernkomponente „Formulartext-Komponente“ ermöglicht die Eingabe von Formulartext zur Übermittlung.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
 
 ---
 
@@ -21,7 +21,7 @@ Die aktuelle Version der Formulartext-Komponente ist v2, die mit Version 2.0.0 d
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
-| Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM als Cloud Service |
+| Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |--- |---|
 | v2 | Kompatibel | Kompatibel | Kompatibel | Kompatibel |
 | [v1](/help/components/v1/form-text-v1.md) | Kompatibel | Kompatibel | Kompatibel | - |
@@ -30,48 +30,11 @@ Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in d
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Im Folgenden finden Sie ein Beispiel von [We.Retail](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html).
-
-### Screenshot {#screenshot}
-
-![](/help/assets/chlimage_1-22.png)
-
-### HTML {#html}
-
-```
-<div class="text aem-GridColumn aem-GridColumn--default--12">
-   <div class="cmp-form-text">
-      <label for="form-text-2146967">How many pieces of toast would you like?
-      </label>
-   <input class="cmp-form-text__text" type="number" id="form-text-2146967" name="pieces">
-   </div>
-</div>
-```
-
-### JSON {#json}
-
-```
-"text":{  
-                     "columnClassNames":"aem-GridColumn aem-GridColumn--default--12",
-                     "id":"form-text-2146967",
-                     "title":"How many pieces of toast would you like?",
-                     "name":"pieces",
-                     "value":"",
-                     "helpMessage":"",
-                     "type":"number",
-                     "readOnly":false,
-                     "required":false,
-                     "requiredMessage":"",
-                     "constraintMessage":"",
-                     "rows":2,
-                     "defaultValue":"",
-                     ":type":"core/wcm/components/form/text/v2/text"
-                  }
-```
+To experience the Form Text Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_form_text).
 
 ### Technische Details {#technical-details}
 
-The latest technical documentation about the Form Text Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_form_text_v2).
+Die neueste technische Dokumentation zur Formulartext-Komponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_form_text_v2).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
@@ -79,7 +42,7 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 
 Das Dialogfeld „Konfigurieren“ ermöglicht es dem Inhaltsautor, den Texttyp sowie Standardwerte und Beschriftungen zu definieren.
 
-### Hauptregisterkarte {#main-tab}
+### Registerkarte „Allgemein“ {#main-tab}
 
 ![](/help/assets/chlimage_1-23.png)
 
