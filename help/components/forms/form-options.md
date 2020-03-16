@@ -2,7 +2,7 @@
 title: Formularoptionen-Komponente
 description: Die Kernkomponente „Formularoptionen“ ermöglicht die Auswahl aus vordefinierten Optionen in verschiedenen Formaten.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
 
 ---
 
@@ -23,7 +23,7 @@ Die aktuelle Version der Formularoptionen-Komponente ist v2, die mit Version 2.0
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
-| Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM als Cloud Service |
+| Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |--- |---|
 | v2 | Kompatibel | Kompatibel | Kompatibel | Kompatibel |
 | [v1](/help/components/v1/form-options-v1.md) | Kompatibel | Kompatibel | Kompatibel | - |
@@ -32,106 +32,11 @@ Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in d
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Im Folgenden finden Sie ein Beispiel von [We.Retail](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html).
-
-### Screenshot {#screenshot}
-
-![](/help/assets/screen_shot_2018-01-12at113648.png)
-
-### HTML {#html}
-
-```
-<form method="POST" action="/content/we-retail/us/en/experience.html" id="new_form" name="new_form" enctype="multipart/form-data" class="cmp-form aem-Grid aem-Grid--12 aem-Grid--default--12">
-    <input type="hidden" name=":formstart" value="/content/we-retail/us/en/experience/jcr:content/root/responsivegrid/container">
-    
-    <div class="hidden aem-GridColumn aem-GridColumn--default--12">
-<input type="hidden" id="form-hidden-66464844" name="hidden">
-
-</div>
-<div class="hidden aem-GridColumn aem-GridColumn--default--12">
-<input type="hidden" id="form-hidden-858231075" name="hidden">
-
-</div>
-<div class="hidden aem-GridColumn aem-GridColumn--default--12">
-<input type="hidden" id="form-hidden-862566768" name="hidden">
-
-</div>
-<div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
-
-    <input type="hidden" name=":formstart" value="/content/we-retail/us/en/experience/jcr:content/root/responsivegrid/container/container">
-    
-    <div class="options aem-GridColumn aem-GridColumn--default--12">
-
-    <fieldset class="cmp-form-options">
-        
-            <legend class="cmp-form-options__legend">What is your favorite type of toast?</legend>
-            <label class="cmp-form-options__field-label">
-                <input class="cmp-form-options__field cmp-form-options__field--radio" type="radio" name="favToast" value="dryToast">
-                Plain dry toast
-            </label>
-<label class="cmp-form-options__field-label">
-                <input class="cmp-form-options__field cmp-form-options__field--radio" type="radio" name="favToast" value="frenchToast">
-                French Toast
-            </label>
-<label class="cmp-form-options__field-label">
-                <input class="cmp-form-options__field cmp-form-options__field--radio" type="radio" name="favToast" value="texasToast">
-                Texas Toast
-            </label>
-
-    </fieldset>
-
-</div>
-
-</div></form>
-```
-
-### JSON {#json}
-
-```
-"container":{  
-                           "columnClassNames":"aem-GridColumn aem-GridColumn--default--12",
-                           "columnCount":12,
-                           "gridClassNames":"aem-Grid aem-Grid--12 aem-Grid--default--12",
-                           ":items":{  
-                              "options_816658469":{  
-                                 "columnClassNames":"aem-GridColumn aem-GridColumn--default--12",
-                                 "id":"form-options-269951232",
-                                 "title":"What is your favorite type of toast?",
-                                 "name":"favToast",
-                                 "type":"RADIO",
-                                 "items":[  
-                                    {  
-                                       "value":"dryToast",
-                                       "text":"Plain dry toast",
-                                       "selected":false,
-                                       "disabled":false
-                                    },
-                                    {  
-                                       "value":"frenchToast",
-                                       "text":"French Toast",
-                                       "selected":false,
-                                       "disabled":false
-                                    },
-                                    {  
-                                       "value":"texasToast",
-                                       "text":"Texas Toast",
-                                       "selected":false,
-                                       "disabled":false
-                                    }
-                                 ],
-                                 ":type":"core/wcm/sandbox/components/form/options/v2/options"
-                              }
-                           },
-                           ":itemsOrder":[  
-                              "options_816658469"
-                           ],
-                           ":type":"core/wcm/sandbox/components/form/container/v2/container"
-                        }
-```
+To experience the Form Options Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_form_options).
 
 ### Technische Details {#technical-details}
 
-The latest technical documentation about the Form Options Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_form_options_v2).
+Die neueste technische Dokumentation zur Formularoptionen-Komponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_form_options_v2).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
