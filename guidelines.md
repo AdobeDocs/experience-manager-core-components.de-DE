@@ -1,6 +1,6 @@
 ---
-source-git-commit: 1273505a2b00913a89606b856d2e7c3811a3bd72
-translation-type: ht
+source-git-commit: 926ecdff624327b0937ec643ce9d8fab957699ef
+translation-type: tm+mt
 
 ---
 # Richtlinien für die Teilnahme an der AEM-Dokumentation
@@ -17,7 +17,7 @@ Zur stetigen Verbesserung der AEM-Dokumentation ist die gesamte Community von AE
 
 ## Dokumentationsstandards
 
-Auch wenn wir Beiträge zu unserer Dokumentation begrüßen, muss jeder Beitrag zur AEM-Dokumentation in Form einer Pull-Anforderung oder eines Problems mit unseren Beitrags- und Dokumentationsstandards übereinstimmen.
+Während wir Beiträge zu unserer Dokumentation begrüßen, sollte jeder Beitrag zur AEM-Dokumentation, entweder in Form einer Pull-Anfrage oder einer Ausgabe, unseren Beitrags- und Dokumentationsstandards entsprechen.
 
 Beiträge, die diesen Standards nicht entsprechen, können abgelehnt werden.
 
@@ -25,15 +25,17 @@ Beiträge, die diesen Standards nicht entsprechen, können abgelehnt werden.
 
 Die AEM-Dokumentation umfasst Standard-Anwendungsfälle. Anwendungsfälle, die über den Umfang der standardmäßigen Installation und Nutzung des Produkts hinausgehen, sind nicht Teil der AEM-Dokumentation.
 
-### Wir dokumentieren keine Bugs oder ihre Umgehungslösungen.
+### Im Allgemeinen werden keine Fehler oder Problemumgehungen von uns Dokument.
 
-Da die AEM-Dokumentation Standard-Anwendungsfälle behandelt, werden Bugs oder Effekte, die durch Bugs verursacht wurden, und Umgehungslösungen für Fehler nicht dokumentiert.
+Die AEM-Dokumentation umfasst Standard-Anwendungsfälle. Aus diesem Grund werden Fehler, durch Fehler verursachte Effekte und Problemumgehungen im Allgemeinen nicht dokumentiert.
+
+Ausnahmen von dieser Regel gelten für die Versionshinweise, in denen bekannte Probleme mit möglichen Lösungen aufgelistet werden können, die von AEM Product Management genehmigt wurden.
 
 ### Dokumentationsbeiträge sind nicht zur Beantwortung technischer Fragen geeignet.
 
-Alle Ideen, die Sie möglicherweise zur Verbesserung der AEM-Dokumentation haben, sind als Beiträge willkommen. Kommentare, Probleme und Pull-Anforderungen sind jedoch nur für *Beiträge* vorgesehen. Sie sollen nicht zur Beantwortung Ihrer Fragen über die Verwendung von AEM oder die Lösung technischer Probleme verwendet werden.
+Alle Ideen, die Sie möglicherweise zur Verbesserung der AEM-Dokumentation haben, sind als Beiträge willkommen. Kommentare, Probleme und Pull-Anforderungen sind jedoch nur für *Beiträge* vorgesehen. Sie sind nicht für die Beantwortung Ihrer Fragen zur Verwendung von AEM, zur Implementierung Ihres AEM-Projekts oder zur Lösung technischer Probleme vorgesehen.
 
-Fragen zur Verwendung von AEM oder technischen Fehlern, die möglicherweise bei Ihnen auftreten, sollten entsprechend dem herkömmlichen Support-Vorgang über das [Support-Portal für Experience Manager](https://daycare.day.com/home.html) gemeldet oder oder in der [Experience Manager-Community](http://help-forums.adobe.com/content/adobeforums/en/experience-manager-forum/adobe-experience-manager.html) diskutiert werden.
+Any questions about the usage of AEM or technical errors you may have should be reported through the normal support process via the [Experience Manager Support Portal](https://daycare.day.com/home.html) or discussed in the [Experience Manager community](http://help-forums.adobe.com/content/adobeforums/en/experience-manager-forum/adobe-experience-manager.html).
 
 ***AEM-Dokumentationsbeiträge sind kein Ersatz für den Adobe Support.*** Beiträge, die um Antworten bezüglich Support-bedingter Fragen bitten, werden abgelehnt.
 
@@ -41,13 +43,13 @@ Fragen zur Verwendung von AEM oder technischen Fehlern, die möglicherweise bei 
 
 Wenn Sie ein Problem erstellen, um Verbesserungen an der Dokumentation vorzuschlagen, müssen Sie Links zu den betroffenen Seiten einbeziehen. Wenn Sie ein Problem mit dem Link zum **Bearbeiten dieser Seite** auf einer Dokumentationsseite erstellen, wird das Problem automatisch mit einem Link zur Seite erstellt.
 
-Dies gilt nicht für Pull-Anforderungen, da Pull-Anforderungen die betroffenen Seiten definitionsgemäß enthalten.
+Dies gilt nicht für Pull-Anfragen, da Pull-Anfragen von ihrer Natur auf die betroffene(n) Seite(n) verweisen.
 
 ## Dokumentationsrichtlinien
 
 Wir bitten darum, dass alle Beiträge zu unserer Dokumentation bestimmten Stilrichtlinien folgen.
 
-Indem Sie diese Richtlinien befolgen, erleichtern Sie die Überprüfung Ihres Beitrags und beschleunigen somit dessen Aufnahme in unsere Dokumentation. Die Nichteinhaltung oder unvollständige Einhaltung dieser Richtlinien bedeutet jedoch nicht, dass der Beitrag abgelehnt wird.
+Indem Sie diese Richtlinien befolgen, erleichtern Sie die Überprüfung Ihres Beitrags und beschleunigen somit dessen Aufnahme in unsere Dokumentation.
 
 ### Sprache und Stil
 
@@ -61,7 +63,7 @@ Denken Sie daran, dass die wir internationale Leser der AEM-Dokumentation haben 
 
 #### Befolgen Sie das Stil-Handbuch von Microsoft.
 
-[Das Manual of Style von Microsoft](https://docs.microsoft.com/en-us/style-guide/welcome/) ist ein kostenloses Stil-Handbuch zur Dokumentation von Software und die AEM-Dokumentation folgt diesem Modell.
+[Das Microsoft Manual of Style](https://docs.microsoft.com/en-us/style-guide/welcome/) ist ein frei verfügbarer Dokumentationsstil-Leitfaden, der sich auf die Softwaredokumentation konzentriert und nach Möglichkeit dieser Anleitung folgt.
 
 ### Formatierung
 
