@@ -1,9 +1,9 @@
 ---
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
-translation-type: ht
+source-git-commit: aa978d6ddf04912e3fc108f86450fac6a90d2caf
+translation-type: tm+mt
 
 ---
-# Dokumentation zu AEM-Kernkomponenten
+# Dokumentation zu Adobe Experience Manager-Kernkomponenten
 
 ## Dokumentation zu Kernkomponenten
 
@@ -15,6 +15,6 @@ Ihre Beiträge zur Dokumentation sind willkommen. Sehen Sie sich die folgenden R
 * [guidelines.md](guidelines.md) Ein Überblick darüber, was in Beiträgen erwartet wird und wie Sie Ihre Beiträge zur Dokumentation zusammenstellen können.
 * [code-of-behavior. md](code-of-conduct.md) Ein Überblick über die Verhaltensstandards, die wir erwarten, wenn Sie zu diesem Dokumentationsprojekt beitragen.
 
-## AEM-Kernkomponenten
+## Hauptkomponenten-Repository
 
-Die [Kernkomponenten von Adobe Experience Manager](https://github.com/adobe/aem-core-wcm-components) werden als separates Repository verwaltet. Sehen Sie sich dieses Projekt an, wenn Sie technische Dokumentation/Entwicklerdokumentation zu den Komponenten benötigen, zu den Komponenten selbst beitragen möchten oder ein Problem mit der Funktionalität oder den Merkmalen der Kernkomponenten haben.
+Die [Adobe Experience Manager Core-Komponenten](https://github.com/adobe/aem-core-wcm-components) selbst werden als Projekt in einem separaten Repository verwaltet. Sehen Sie sich dieses Projekt an, wenn Sie technische Dokumentation/Entwicklerdokumentation zu den Komponenten benötigen, zu den Komponenten selbst beitragen möchten oder ein Problem mit der Funktionalität oder den Merkmalen der Kernkomponenten haben.
