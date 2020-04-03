@@ -2,7 +2,7 @@
 title: Textkomponente
 description: Die Textkomponente ist eine Komponente zur Bearbeitung und Zusammensetzung von Rich-Texten, die eine direkte Bearbeitung ermöglicht.
 translation-type: tm+mt
-source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
+source-git-commit: 4df8e147fc9d0151c3a211473b067c78b807e52e
 
 ---
 
@@ -23,7 +23,7 @@ Die aktuelle Version der Textkomponente ist v2, die mit Version 2.0.0 der Kernko
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
-| Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM als Cloud Service |
+| Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|---|---|
 | v2 | Kompatibel | Kompatibel | Kompatibel | Kompatibel |
 | [v1](v1/text-v1.md) | Kompatibel | Kompatibel | Kompatibel | - |
@@ -32,23 +32,23 @@ Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in d
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-To experience the Text Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_text).
+Um die Textkomponente sowie Beispiele für die Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_text).
 
 ### Technische Details {#technical-details}
 
-The latest technical documentation about the Text Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_text_v2).
+Die aktuelle technische Dokumentation zur Textkomponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_text_v2).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
 ## Die Textkomponente und der Rich-Text-Editor {#the-text-component-and-the-rich-text-editor}
 
-Die Textkomponente der Kernkomponenten nutzt den AEM-Rich-Text-Editor (RTE). Der Rich-Text-Editor (RTE) bietet Inhaltsautoren eine große Bandbreite an Funktionen zum Bearbeiten von ihren Textinhalten. Der RTE ist in seiner Konfiguration sehr flexibel und bietet eine Reihe von Optionen. Weitere Informationen zur Konfiguration des RTE finden Sie in den Artikeln Rich Text Editor [konfigurieren](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/rich-text-editor.html) und Rich Text Editor Plug-Ins [konfigurieren](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html).
+Die Textkomponente der Kernkomponenten nutzt den AEM-Rich-Text-Editor (RTE). Der Rich-Text-Editor (RTE) bietet Inhaltsautoren eine große Bandbreite an Funktionen zum Bearbeiten von ihren Textinhalten. Der RTE ist in seiner Konfiguration sehr flexibel und bietet eine Reihe von Optionen. Weitere Informationen dazu, wie der RTE konfiguriert werden kann, finden Sie in den Artikeln [Konfigurieren des Rich-Text-Editors](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/rich-text-editor.html) und [Konfigurieren der Plug-ins für Rich-Text-Editor](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html).
 
 Der Rest dieses Artikels zeigt die Standardkonfiguration der Textkomponente der Kernkomponenten mit der vordefinierten RTE-Konfiguration.
 
 >[!NOTE]
 >
->Only options enabled by [UI configurations of the RTE](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html) are available by in the Text Component.
+>In der Textkomponente sind nur Optionen verfügbar, die durch die [Benutzeroberflächenkonfigurationen des RTE](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html) aktiviert sind.
 
 ## Dialogfeld „Bearbeiten“ {#edit-dialog}
 
@@ -172,6 +172,10 @@ Wenn eine Übereinstimmung gefunden wird, wird sie hervorgehoben und das Suchdia
 
 Wählen Sie **Alle ersetzen** aus, um alle Vorkommen des Texts gleichzeitig zu ersetzen.
 
+Bei Verwendung der Funktion zum Ersetzen sollte die zu ersetzende Zeichenfolge gleichzeitig mit der Zeichenfolge Suchen eingegeben werden. Sie können jedoch noch auf Suchen klicken, um nach der Zeichenfolge zu suchen, bevor Sie sie ersetzen. Wenn die Zeichenfolge zum Ersetzen eingegeben wird, nachdem auf Suchen geklickt wurde, wird die Suche auf den Anfang des Textes zurückgesetzt.
+
+Das Dialogfeld „Suchen und ersetzen“ wird transparent, wenn auf „Suchen“ geklickt wird, und undurchsichtig, wenn auf „Ersetzen“ geklickt wird. Dadurch kann der Autor den Text überprüfen, den der Autor ersetzen wird.
+
 ### Text links ausrichten
 
 ![](/help/assets/screen_shot_2018-01-11at142012.png)
@@ -256,7 +260,7 @@ Die Beschriftung der Tabelle
 
 Wird verwendet, um die Rechtschreibung des Textinhalts zu überprüfen. Mögliche Rechtschreibfehler sind durch gestrichelte rote Linien unterstrichen.
 
-Further details about spell checking and customizing spell check dictionaries can be found in the document [Configure the Rich Text Editor Plug-Ins](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html).
+Weitere Details zur Rechtschreibprüfung und zum Anpassen von Rechtschreibprüfungswörterbüchern finden Sie im Dokument [Konfigurieren der Plug-ins für Rich-Text-Editor](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html).
 
 ### Sonderzeichen {#special-characters}
 
