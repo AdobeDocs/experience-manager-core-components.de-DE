@@ -2,243 +2,103 @@
 title: AEM-Projektarchetyp
 description: Eine Projektvorlage für AEM-basierte Anwendungen
 translation-type: tm+mt
-source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
+source-git-commit: 2faa092a075ab0512e9bd5654884534936c0ad53
 
 ---
 
 
 # AEM-Projektarchetyp {#aem-project-archetype}
 
-Der AEM-Projektarchetyp erstellt ein Adobe Experience Manager-Projekt mit minimalen Best Practices als Ausgangspunkt für Ihre eigenen AEM-Projekte. Die Eigenschaften, die bei Verwendung dieses Archetyps angegeben werden müssen, ermöglichen es Ihnen, die Namen für alle Teile dieses Projekts anzugeben und bestimmte optionale Funktionen zu steuern.
+Der AEM Project Archetype ist eine Maven-Vorlage, die ein minimales, auf Best Practices basierendes Adobe Experience Manager (AEM)-Projekt als Ausgangspunkt für Ihre Website erstellt.
 
 >[!TIP]
 >
->Der neueste AEM Project Archetype [kann auf GitHub](https://github.com/adobe/aem-project-archetype)gefunden werden.
+>Der neueste AEM-Projektarchetyp [ist auf GitHub zu finden](https://github.com/adobe/aem-project-archetype).
+
+## Ressourcen {#resources}
+
+* **Archetypdokumentation (dieses Dokument):** Überblick über die Architektur des Archetyps und die verschiedenen Module.
+   * **[Verwenden des Archetyps:](using.md)**Weitere Informationen zur Verwendung des Archetyps und der verfügbaren Module
+   * **[ui.frontend:](uifrontend.md)**Verwenden des Front-End-Buildmoduls
+* Die folgenden Übungen basieren auf diesem Archetyp:
+   * **[WKND-Site:](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)**Erfahren Sie, wie eine neue Website Beginn wird.
+   * **[WKND-Einzelseitenanwendung:](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)**Erfahren Sie, wie Sie eine React- oder Angular-Webapp erstellen, die in AEM vollständig autorisiert ist.
 
 ## Funktionen {#features}
 
-Der Archetyp verfügt über eine Reihe von Funktionen, die einen bequemen Ausgangspunkt für neue AEM-Projekte bieten sollen:
+* **Best Practice:** Bootstrapping Ihrer Site mit allen von Adobe empfohlenen Vorgehensweisen.
+* **Low-Code:** Bearbeiten Sie Ihre Vorlagen, erstellen Sie Inhalte, stellen Sie Ihre CSS bereit und Ihre Site kann live geschaltet werden.
+* **Cloud-bereit:** Falls gewünscht, verwenden Sie [AEM als Cloud-Dienst](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/landing/home.translate.html) , um in wenigen Tagen live zu gehen und Skalierbarkeit und Wartung zu erleichtern.
+* **Dispatcher:** Ein Projekt ist nur mit einer [Dispatcher-Konfiguration](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/dispatcher.html) abgeschlossen, die Geschwindigkeit und Sicherheit gewährleistet.
+* **Multi-Site:** Bei Bedarf generiert der Archetyp die Inhaltsstruktur für ein [mehrsprachiges und mehrregionales Setup](https://docs.adobe.com/content/help/en/experience-manager-65/administering/introduction/msm.html).
+* **Hauptkomponenten:** Autoren können nahezu jedes Layout mit unserem vielseitigen [Satz standardisierter Komponenten](/help/introduction.md)erstellen.
+* **Bearbeitbare Vorlagen:** Stellen Sie praktisch jede [Vorlage ohne Code](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html)zusammen und definieren Sie, was die Autoren bearbeiten dürfen.
+* **Responsive Layout:** Auf Vorlagen oder einzelnen Seiten [definieren Sie, wie die Elemente für die definierten Haltepunkte umfließen](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/responsive-layout.html) .
+* **Kopf- und Fußzeile:** Stellen Sie sie mithilfe der [lokale Anpassung-Funktionen der Komponenten](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/get-started/localization.html)ohne Code zusammen und lokalisieren Sie sie.
+* **Stilsystem:** Vermeiden Sie das Erstellen benutzerdefinierter Komponenten, indem Autoren verschiedene Stile [anwenden](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/style-system.html) können.
+* **Front-End-Build:** Front-End-Entwickler können [AEM-Seiten](uifrontend.md#webpack-dev-server) mit dem Modell abgleichen und Client-Bibliotheken [mit Webpack, TypeScript und SASS](uifrontend.md) erstellen.
+* **WebApp-bereit:** Verwenden Sie für Sites, die [React](uifrontend-react.md) oder [Angular](uifrontend-angular.md)verwenden, das [SPA-SDK](https://docs.adobe.com/content/help/en/experience-manager-64/developing/headless/spas/spa-architecture.html) , um das Authoring [im Kontext der App](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)beizubehalten.
+* **Beispielcode:** Sehen Sie sich die Komponente HelloWorld und die Beispielmodelle, Servelets, Filter und Planungen an.
+* **Open Source:** Wenn etwas nicht so ist, wie es sollte, [tragen](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) Sie Ihre Verbesserungen!
 
-* Englisch und Französisch Seiten mit Beispielinhalt
-* Eine Inhaltsvorlage, die auf der Funktion einer bearbeitbaren Vorlage mit einer Beispielinhaltsrichtlinie basiert
-* Seitenkomponente basierend auf der [AEM-Seitenkomponente](/help/components/page.md)
-* Beispiele für Inhaltskomponenten, die mit dem empfohlenen Proxy-Muster und einer Beispielkomponente &quot;helloworld&quot;implementiert wurden, basieren alle auf [AEM-Kernkomponenten](/help/introduction.md).
-* Beispiele für [Formularkomponenten](/help/components/forms/form-container.md)
-* Konfigurationen für Geräteemulatoren, Drag &amp; Drop-Einrichtung und Internationalisierung
-* Client-Bibliotheken nach BEM-Benennungskonventionen sowie komponentenspezifische Stile
-* Beispielpakete einschließlich Beispielmodellen, -serven, -filtern und -planern
-* Einheiten-, Integrations- und clientseitige Tests
-* Beispiele für SPA-Implementierungen in &quot;React&quot;oder &quot;Angular&quot;(optional)
+## Nutzung
 
-## Warum Archetyp verwenden {#why-use-the-archetype}
-
-Mithilfe des AEM-Projektarchetyps können Sie auf dem Weg zum Aufbau eines AEM-Projekts mit bewährten Verfahren und nur wenigen Tastenanschlägen beginnen. Durch Verwendung des Archetyps werden alle Teile bereits vorhanden sein, sodass das resultierende Projekt minimal ist, es jedoch bereits alle [Schlüsselfunktionen](#features) von AEM implementiert, sodass Sie nur auf dem Aufbau aufbauen und erweitern müssen.
-
-Natürlich gibt es viele Elemente, die in ein erfolgreiches AEM-Projekt eingehen, aber die Verwendung des AEM-Projektarchetyps ist eine solide Grundlage und wird dringend für jedes AEM-Projekt empfohlen.
-
-## Erste Schritte {#getting-started}
-
-Der Projektarchiv erleichtert die Entwicklung auf AEM. Sie können Ihre ersten Schritte auf verschiedene Weise durchführen.
-
-* WKND-Tutorial - Eine großartige Einführung in die Entwicklung von AEM, einschließlich der Nutzung des Archetyps, finden Sie im Tutorial [Erste Schritte mit AEM-Sites - WKND-Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) , in dem Sie anhand des Archetyps ein einfaches Projekt implementieren können.
-* WKND Events Tutorial - Wenn Sie besonders an der Entwicklung von Einzelseitenanwendungen (SPA) auf AEM interessiert sind, sollten Sie sich das entsprechende [WKND Events Tutorial](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)ansehen.
-* Laden Sie es selbst herunter und starten Sie es! - Sie können den aktuellen Projektarchiv, der auf GitHub verfügbar ist, einfach herunterladen und Ihr erstes Projekt erstellen, indem Sie die [folgenden](#how-to-use-the-archetype)Schritte ausführen.
-
-## Was Sie mit dem Archetyp erhalten {#what-you-get}
-
-Der AEM-Archetyp besteht aus Modulen:
-
-* **[core](core.md)**: ist ein Java-Bundle, das alle Kernfunktionen wie OSGi-Dienste, Listener und Scheduler sowie komponentenbezogenen Java-Code wie Servlets und Anforderungsfilter enthält.
-* **[ui.apps](uiapps.md)**: enthält die`/apps`und`/etc`Teile des Projekts, d. h. JS- und CSS-clientlibs, Komponenten, Vorlagen, runmode-spezifische Konfigurationen sowie Hobbes-Tests.
-* **[ui.content](uicontent.md)**: enthält Beispielinhalt mit den Komponenten des Moduls ui.apps.
-* **[ui.tests](uitests.md)**: ist ein Java-Bundle, das JUnit-Tests enthält, die serverseitig ausgeführt werden. Dieses Bundle soll nicht in der Produktion bereitgestellt werden.
-* **ui.launcher**: enthält Klebercode, der das ui.tests-Bundle (und die abhängigen Bundles) auf dem Server bereitstellt und die Ausführung von JUnit auslöst.
-* **[ui.frontend.general](uifrontend.md)**:**(optional)**enthält die Artefakte, die zur Verwendung des allgemeinen Webpack-basierten Front-End-Buildmoduls erforderlich sind.
-* **[ui.frontend.response](uifrontend-react.md)**:**(optional)**enthält die Artefakte, die erforderlich sind, wenn der Archetyp zum Erstellen eines SPA-Projekts auf der Grundlage von React verwendet wird.
-* **[ui.frontend.angular](uifrontend-angular.md)**:**(optional)**enthält die Artefakte, die erforderlich sind, wenn der Archetyp zum Erstellen eines auf Angular basierenden SPA-Projekts verwendet wird.
-
-![](/help/assets/archetype-structure.png)
-
-Die in Maven dargestellten Module des AEM-Archetyps werden als Inhaltspakete bereitgestellt, die die Anwendung, den Inhalt und die erforderlichen OSGi-Pakete darstellen.
-
-## Voraussetzungen {#requirements}
-
-Für die aktuelle Version des Archetyps gelten folgende Anforderungen:
-
-* Adobe Experience Manager 6.3.3.0 oder höher (6.4.2 oder höher beim Generieren eines Projekts mit den Optionen zum Erstellen eines Angular- oder React-Front-End-Builds) oder [AEM als Cloud-Dienst](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)
-* Apache Maven (3.3.9 oder höher)
-* Adobe Public Maven Repository in Ihren Maven-Einstellungen. Weitere Informationen finden Sie in diesem [Knowledge Base-Artikel](https://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html).
-
-Eine Liste der unterstützten AEM-Versionen früherer Archetypversionen finden Sie in den [historisch unterstützten AEM-Versionen](https://github.com/adobe/aem-project-archetype/blob/master/VERSIONS.md).
-
-## Verwendung des Archetyps {#how-to-use-the-archetype}
-
-Um den Archetyp zu verwenden, müssen Sie zunächst ein Projekt erstellen, das die Module in einer lokalen Dateistruktur wie [zuvor beschrieben](#what-you-get)generiert. Im Rahmen der Projekterstellung können mehrere Eigenschaften für Ihr Projekt definiert werden, z. B. Projektname, Version usw.
-
-Beim Erstellen des Projekts mit Maven werden die Artefakte (Pakete und OSGi-Pakete) erstellt, die in AEM bereitgestellt werden können. Zusätzliche Maven-Befehle und -Profile können verwendet werden, um die Projektartefakte auf einer AEM-Instanz bereitzustellen.
-
-### Erstellen eines Projekts {#create-project}
-
-Für den Einstieg können Sie die [AEM Eclipse-Erweiterung](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/aem-eclipse.html) verwenden und dem Assistenten für neue Projekte folgen. Wählen Sie dann **AEM Sample Multi-Module Project** , um eine veröffentlichte Version des Archetyps zu verwenden.
-
-Natürlich können Sie auch direkt Maven aufrufen.
+Um ein Projekt zu erstellen, passen Sie die folgende Befehlszeile an Ihre Anforderungen an:
 
 ```
-mvn archetype:generate \
- -DarchetypeGroupId=com.adobe.granite.archetypes \
- -DarchetypeArtifactId=aem-project-archetype \
- -DarchetypeVersion=XX
+mvn -B archetype:generate \
+ -D archetypeGroupId=com.adobe.granite.archetypes \
+ -D archetypeArtifactId=aem-project-archetype \
+ -D archetypeVersion=23 \
+ -D aemVersion=cloud \
+ -D appTitle="My Site" \
+ -D appId="mysite" \
+ -D groupId="com.mysite" \
+ -D frontendModule=general \
+ -D includeExamples=n
 ```
 
-Hierbei `XX` handelt es sich um die [Versionsnummer](https://github.com/adobe/aem-project-archetype/blob/master/VERSIONS.md) des neuesten AEM-Projektarchetyps.
+* Set `aemVersion=cloud` for [AEM as a Cloud Service](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/landing/home.translate.html);\
+   Wird `aemVersion=6.5.0` für [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)oder lokal eingestellt.
+Die Abhängigkeit der Kernkomponenten wird nur für Nicht-Cloud-AEM-Versionen hinzugefügt, da die Kernkomponenten OOTB für AEM als Cloud-Dienst bereitgestellt werden.
+* Passen Sie `appTitle="My Site"` die Definition des Website-Titels und der Komponenten-Gruppen an.
+* Passen Sie `appId="mysite"` die Definition von &quot;Maven artifactId&quot;, die Namen der Komponenten-, Konfigurations- und Inhaltsordner sowie die Namen der Client-Bibliothek an.
+* Passen Sie `groupId="com.mysite"` die Definition der Maven groupId und des Java Source-Pakets an.
+* Suchen Sie die Liste der verfügbaren Eigenschaften, um zu sehen, ob Sie mehr anpassen möchten.
 
->[!NOTE]
->
->Es empfiehlt sich, das `adobe-public` Profil Ihrer Maven- `settings.xml` Datei hinzuzufügen, um repo.adobe.com automatisch zum Maven-Build-Prozess hinzuzufügen.
->
->Ein Beispiel für POM [finden Sie hier](https://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html).
-
-### Eigenschaften {#properties}
-
-Die folgenden Eigenschaften sind beim Erstellen eines Projekts mit dem Archetyp verfügbar.
+## Verfügbare Eigenschaften
 
 | Name | Default | Beschreibung |
-----------------------------|---------|--------------------
-| `groupId` |  | Maven-Basis `groupId` |
-| `artifactId` |  | Maven-Basis ArtefaktId |
-| `version` |  | Version |
-| `package` |  | Java-Quellpaket |
-| `appID` |  | Anwendungs-ID für Komponenten-, Konfigurations- und Inhaltsordner und CSS-IDs |
-| `appTitle` |  | Antragstitel für den Titel der Website und die Komponentengruppen |
-| `aemVersion` | 6.5.0 | Target AEM-Version |
-| `sdkVersion` |  |
-| `languageCountry` | en_us | Sprach- und Ländercode zur Erstellung der lokalisierten Inhaltsstruktur (z. `en_us`) |
-| `includeExamples` | y | Beispielsite Komponentenbibliothek einschließen |
-| `includeErrorHandler` | n | Eine benutzerdefinierte 404-Antwortseite einschließen |
-| `frontendModule` | none | Schließen Sie ein dediziertes Frontend-Modul ein (eines von `none`, [`general`](uifrontend.md), [`angular`](uifrontend-angular.md), [`react`](uifrontend-react.md)) |
-| `singleCountry` | y | Erstellen einer Sprach-Master-Struktur in Beispielinhalt |
-| `includeDispatcherConfig` | n | Definiert, ob eine Dispatcher-Konfiguration für das Projekt generiert wird, auf das <br> beim Erstellen eines Projekts für [`cloud`](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.cloud) AEM als Cloud-Dienst [festgelegt wird, auf](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) <br> [`ams`](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) den beim Erstellen eines Projekts für Adobe Managed Services |
+--------------------------|----------------|--------------------
+| `appTitle` |  | Der Titel der Anwendung wird für den Titel der Website und für die Gruppen der Komponenten (z. `"My Site"`). |
+| `appId` |  | Technischer Name, wird für Komponenten-, Konfigurations- und Inhaltsordnernamen sowie Client-Bibliotheksnamen (z. `"mysite"`). |
+| `artifactId` | *`${appId}`* | Base Maven artifact ID (e.g. `"mysite"`). |
+| `groupId` |  | Base Maven group ID (e.g. `"com.mysite"`). |
+| `package` | *`${groupId}`* | Java Source Package (z. `"com.mysite"`). |
+| `version` | `1.0-SNAPSHOT` | Projektversion (z. `1.0-SNAPSHOT`). |
+| `aemVersion` | `6.5.0` | Zielgruppe AEM-Version (kann `cloud` für [AEM als Cloud-Dienst](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/landing/home.translate.html)verwendet werden; oder `6.5.0`, `6.4.4`oder `6.3.3` für [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) oder lokale Dienste). |
+| `sdkVersion` | `latest` | Wenn `aemVersion=cloud` eine [SDK](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) -Version angegeben werden kann (z. `2020.02.2265.20200217T222518Z-200130`). |
+| `includeDispatcherConfig` | `y` | Umfasst eine Dispatcher-Konfiguration für Cloud oder für AMS/On-Premise, je nach Wert von `aemVersion` (kann `y` oder `n`). |
+| `frontendModule` | `none` | Enthält ein WebPack-Frontend-Build-Modul, das die Client-Bibliotheken generiert (kann für normale Sites `general` oder `none` für normale Sites verwendet werden; kann `angular` oder `react` für eine Einzelseitenanwendung verwendet werden, die den [SPA-Editor](https://docs.adobe.com/content/help/en/experience-manager-65/developing/headless/spas/spa-overview.html)implementiert. |
+| `languageCountry` | `en_us` | Language and country code to create the content structure from (e.g. `en_us`). |
+| `singleCountry` | `y` | Umfasst eine Struktur für den Inhalt von SprachMaster (kann `y`oder `n`). |
+| `includeExamples` | `y` | Enthält eine Beispielsite für die [Komponentenbibliothek](https://www.aemcomponents.dev/) (kann `y`oder `n`). |
+| `includeErrorHandler` | `n` | Enthält eine benutzerdefinierte 404-Antwortseite, die für die gesamte Instanz global ist (kann `y` oder `n`). |
 
->[!NOTE]
-> Wenn der Archetyp zum ersten Mal im interaktiven Modus ausgeführt wird, können Eigenschaften mit Standardwerten nicht geändert werden (weitere Informationen finden Sie unter [ARCHETYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) ). Der Wert kann geändert werden, wenn die Eigenschaftsbestätigung am Ende verweigert und der Fragebogen wiederholt wird oder indem der Parameter in der Befehlszeile (z. `-DoptionIncludeExamples=n`).
+## Systemanforderungen
 
->[!NOTE]
->Bei Ausführung unter Windows und Generierung der Dispatcher-Konfiguration sollten Sie an einer erhöhten Eingabeaufforderung oder im Windows-Subsystem für Linux ausgeführt werden (siehe [Problem 329](https://github.com/adobe/aem-project-archetype/issues/329)).
+| Archetyp | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | AEM 6.3 | Java SE | Maven |
+---------|---------|---------|---------|---------|---------|---------
+| [23](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-23) | Kontinuierlich | 6.5.0.0+ | 6.4.4.0+ | 6.3.3.4+ | 8, 11 | 3.3.9+ |
 
-### Profile {#profiles}
+Richten Sie Ihre lokale Entwicklungs-Umgebung für [AEM als Cloud-Dienst-SDK](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) oder für [ältere Versionen von AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html)ein.
 
-Das generierte Maven-Projekt unterstützt bei der Ausführung verschiedene Bereitstellungsprofile `mvn install`.
+### Bekannte Probleme
 
-| Profil-ID | Beschreibung |
---------------------------|------------------------------
-| `autoInstallBundle` | Installieren Sie das Kernpaket mit dem maven-sling-Plug-In in der felix-Konsole |
-| `autoInstallPackage` | Installieren Sie das Inhaltspaket ui.content und ui.apps mit dem content-package-maven-plugin im Package Manager, um die Standard-Autoreninstanz auf localhost, Port 4502, zu installieren. Hostname and port can be changed with the `aem.host` and `aem.port` user defined properties. |
-| `autoInstallPackagePublish` | Installieren Sie das Inhaltspaket ui.content und ui.apps mit dem content-package-maven-plugin im Package Manager, um die standardmäßige Veröffentlichungsinstanz auf localhost, Port 4503, zu aktivieren. Hostname and port can be changed with the `aem.host` and `aem.port` user defined properties. |
-| `autoInstallSinglePackage` | Install the `all` content package with the content-package-maven-plugin to the package manager to default author instance on localhost, port 4502. Hostname and port can be changed with the `aem.host` and `aem.port` user defined properties. |
-| `autoInstallSinglePackagePublish` | Install the `all` content package with the content-package-maven-plugin to the package manager to default publish instance on localhost, port 4503. Hostname and port can be changed with the `aem.host` and `aem.port` user defined properties. |
-| `integrationTests` | Führt die bereitgestellten Integrationstests auf der AEM-Instanz aus (nur für die `verify` Phase) |
+When running on Windows and generating the dispatcher configuration, you should be running in an elevated command prompt or the Windows Subsystem for Linux (see [#329](https://github.com/adobe/aem-project-archetype/issues/329)).
 
-### Erstellen und Installieren {#building-and-installing}
+Beim Ausführen des Archetyps im interaktiven Modus (ohne `-B` Parameter) können die Eigenschaften mit den Standardwerten nicht geändert werden, es sei denn, die letzte Bestätigung wird verworfen. Dadurch werden die Fragen wiederholt, indem die Eigenschaften mit den Standardwerten in die Fragen aufgenommen werden (Einzelheiten siehe[ARCHETYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) ).
 
-Um alle im Projektstammordner ausgeführten Module zu erstellen, verwenden Sie den folgenden Maven-Befehl.
+## Weiterführende Literatur {#further-reading}
 
-```
-mvn clean install
-```
-
-Wenn Sie über eine ausgeführte AEM-Instanz verfügen, können Sie das gesamte Projekt erstellen und verpacken und mit dem folgenden Maven-Befehl in AEM bereitstellen.
-
-```
-mvn clean install -PautoInstallPackage
-```
-
-Führen Sie zum Bereitstellen auf einer Veröffentlichungsinstanz diesen Befehl aus.
-
-```
-mvn clean install -PautoInstallPackagePublish
-```
-
-Sie können diesen Befehl auch ausführen, um eine Bereitstellung in einer Veröffentlichungsinstanz durchzuführen.
-
-```
-mvn clean install -PautoInstallPackage -Daem.port=4503
-```
-
-Sie können auch nur das Bundle für den Autor bereitstellen, indem Sie diesen Befehl ausführen.
-
-```
-mvn clean install -PautoInstallBundle
-```
-
-## Übergeordnete POM {#parent-pom}
-
-Die `pom.xml` am Stamm des Projekts (`<src-directory>/<project>/pom.xml`) wird als übergeordneter POM bezeichnet und treibt die Struktur des Projekts sowie Abhängigkeiten und bestimmte globale Eigenschaften des Projekts.
-
-### Globale Projekteigenschaften {#global-properties}
-
-Im `<properties>` Abschnitt des übergeordneten POM werden verschiedene globale Eigenschaften definiert, die für die Bereitstellung Ihres Projekts auf einer AEM-Instanz wichtig sind, z. B. Benutzername/Kennwort, Hostname/Anschluss usw.
-
-Diese Eigenschaften sind für die Bereitstellung auf einer lokalen AEM-Instanz eingerichtet, da dies der häufigste Build ist, den Entwickler ausführen. Beachten Sie, dass Eigenschaften für eine Autoreninstanz sowie für eine Veröffentlichungsinstanz bereitgestellt werden müssen. An dieser Stelle werden die Anmeldeinformationen auch für die Authentifizierung mit der AEM-Instanz festgelegt. Es werden die standardmäßigen admin:admin-Anmeldeinformationen verwendet.
-
-Diese Eigenschaften werden so eingerichtet, dass sie bei der Bereitstellung in Umgebungen mit höherer Ebene überschrieben werden können. Auf diese Weise müssen sich die POM-Dateien nicht ändern, aber Variablen wie `aem.host` `sling.password` und können über Befehlszeilenargumente überschrieben werden:
-
-````
-mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.password=productionpasswd
-````
-
-### Modulstruktur {#module-structure}
-
-Der `<modules>` Abschnitt des übergeordneten POM definiert die Module, die das Projekt erstellen wird. Standardmäßig erstellt das Projekt [die zuvor definierten](#what-you-get)Standardmodule: core, ui.apps, ui.content, ui.tests und it.launcher. Im Laufe der Entwicklung eines Projekts können immer mehr Module hinzugefügt werden.
-
-### Abhängigkeiten {#dependencies}
-
-Im `<dependencyManagement>` Abschnitt des übergeordneten POM werden alle Abhängigkeiten und Versionen der im Projekt verwendeten APIs definiert. Versionen sollten im übergeordneten POM verwaltet werden. Untermodule wie core und ui.apps sollten keine Versionsinformationen enthalten.
-
-#### Uber-Jar {#uber-jar}
-
-Eine der wichtigsten Abhängigkeiten ist die [AEM uber-jar](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/ht-projects-maven.html#ExperienceManagerAPIDependencies). Dies umfasst alle AEM-APIs mit nur einem einzigen Abhängigkeitseintrag für die Version von AEM.
-
->[!NOTE]
->
->Als Best Practice sollten Sie die Version uber-jar aktualisieren, um sie an die Zielversion von AEM anzupassen. Wenn Sie beispielsweise eine Bereitstellung auf AEM 6.4 planen, sollten Sie die Version der uber-jar auf 6.4.0 aktualisieren.
-
-#### Kernkomponenten {#core-components}
-
-Der AEM-Projektarchiv nutzt natürlich die Kernkomponenten.
-
-Die Kernkomponenten werden in AEM automatisch im Standard-Ausführungsmodus installiert und von der Web.Retail-Beispiel-Site verwendet. In einem [Produktions-Ausführungsmodus](https://docs.adobe.com/content/help/en/experience-manager-65/administering/security/production-ready.html) (`nosamplecontent`) sind die Kernkomponenten nicht verfügbar.
-
-Um die Kernkomponenten in allen Implementierungen zu nutzen, empfiehlt es sich daher, sie in das Maven-Projekt einzubeziehen.
-
->[!NOTE]
->
->Nach jeder Version der Kernkomponenten wird im Allgemeinen eine Version des AEM-Projektarchetyps veröffentlicht, sodass der neueste Archetyp die neueste Version der Kernkomponenten verwendet.
->
->Eine neue Version des Archetyps folgt möglicherweise nicht direkt einer neuen Version der Kernkomponenten, daher sollten Sie die Abhängigkeit von den Kernkomponenten auf die neueste Version aktualisieren.
-
->[!NOTE]
->
->Die Datei &quot;core.wcm.components.example&quot;enthält eine Reihe von Beispielseiten, die Beispiele für die Kernkomponenten illustrieren. Als Best Practice sollten Sie bei der Bereitstellung eines Projekts für die Produktion diese Abhängigkeit und die Einbeziehung von Unterpaketen entfernen.
-
-## Testen {#testing}
-
-Es gibt drei Testebenen im Projekt, und da es sich bei ihnen um unterschiedliche Testtypen handelt, werden sie auf unterschiedliche Weise oder an verschiedenen Orten durchgeführt.
-
-* Komponententest im Kern: Hier werden klassische Komponententests des im Bundle enthaltenen Codes vorgestellt. Führen Sie zum Testen Folgendes aus:
-   * `mvn clean test`
-* Serverseitige Integrationstests: Diese führen geräteähnliche Tests in der AEM-Umgebung, d. h. auf dem AEM-Server, aus. Führen Sie zum Testen Folgendes aus:
-   * `mvn clean verify -PintegrationTests`
-* Clientseitige Hobbes.js-Tests: Hierbei handelt es sich um JavaScript-basierte Browser-basierte Tests, die das Verhalten auf der Browserseite überprüfen. So testen Sie:
-   1. Laden Sie AEM genau wie eine Seite in Ihren Browser.
-   1. Öffnen Sie die Seite im [Entwicklermodus](https://docs.adobe.com/content/help/en/experience-manager-65/developing/components/developer-mode.html) .
-   1. Öffnen Sie das linke Bedienfeld und wechseln Sie zur Registerkarte **Tests** .
-   1. Suchen Sie die generierten **MyName-Tests** und führen Sie sie aus.
-
-## Nächste Schritte {#next-steps}
-
-Sie haben den AEM-Projektarchetyp erstellt und installiert. Was jetzt? Der Archetyp ist klein, besteht aber aus vielen Beispielen leistungsfähiger AEM-Funktionen, die gemäß empfohlenen Best Practices konfiguriert wurden. Verwenden Sie diese, um anzuzeigen, wie Sie diese Funktionen in Ihrem Projekt nutzen können. Bei jedem Projekt müssen Sie wahrscheinlich folgende Aufgaben durchführen:
-
-* [Komponenten durch Erweiterung der vorhandenen Kernkomponenten anpassen](/help/developing/customizing.md)
-* [Zusätzliche Vorlagen hinzufügen](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
-* [Lokalisierungsstruktur anpassen](https://docs.adobe.com/content/help/en/experience-manager-65/administering/introduction/tc-prep.html)
-* [Informationen zum Front-End-Build-Modul abrufen](uifrontend.md)
+Weitere Informationen zur Verwendung des Archetyps, einschließlich der Vorteile, Optionen und der Funktionsweise der Module, finden Sie im Dokument [Verwenden des Archetyps.](using.md)
