@@ -2,7 +2,7 @@
 sub-product: AEM Core Components
 user-guide-title: AEM Core Components
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 2faa092a075ab0512e9bd5654884534936c0ad53
 
 ---
 
@@ -10,6 +10,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 # Hilfe zu AEM-Kernkomponenten {#using}
 
 + [Einführung in Kernkomponenten](introduction.md)
++ [Erfolgspfade](developing/success.md)
 + [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library)
 + [Kernkomponenten-Versionen](versions.md)
 + Erste Schritte {#get-started}
@@ -60,15 +61,17 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
          + [Formulartext (v1)](components/v1/form-text-v1.md)
 + Entwickeln {#developing}
    + [Entwickeln von Kernkomponenten](developing/overview.md)
+   + [Erfolgspfade](developing/success.md)
    + [WKND-Entwickler-Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [Anpassen der Kernkomponenten](developing/customizing.md)
    + [Komponentenrichtlinien](developing/guidelines.md)
    + AEM-Projektarchetyp {#archetype}
       + [Archetyp-Übersicht](developing/archetype/overview.md)
+      + [Verwenden des Archetyps](developing/archetype/using.md)
       + [Hauptmodul](developing/archetype/core.md)
       + [ui.apps-Modul](developing/archetype/uiapps.md)
       + [ui.content-Modul](developing/archetype/uicontent.md)
-      + [ui.frontend.general Module](developing/archetype/uifrontend.md)
-      + [ui.frontend.response-Modul](developing/archetype/uifrontend-react.md)
-      + [ui.frontend.angular Module](developing/archetype/uifrontend-angular.md)
-      + [ui.tests Module](developing/archetype/uitests.md)
+      + [ui.frontend.general-Modul](developing/archetype/uifrontend.md)
+      + [ui.frontend.react-Modul](developing/archetype/uifrontend-react.md)
+      + [ui.frontend.angular-Modul](developing/archetype/uifrontend-angular.md)
+      + [ui.tests-Modul](developing/archetype/uitests.md)
