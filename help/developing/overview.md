@@ -2,97 +2,64 @@
 title: Entwickeln von Kernkomponenten
 description: Die Kernkomponenten bieten leistungsfähige und erweiterbare Basiskomponenten mit umfangreichen Funktionen, kontinuierlicher Bereitstellung, Komponentenversionierung, moderner Implementierung, schlankem Markup und JSON-Export von Inhalten.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: c338428a681f652d17bb972fb6a2abf216a338c3
 
 ---
 
 
 # Entwickeln von Kernkomponenten {#developing-core-components}
 
-## Überblick {#overview}
+## Wann sollten die Kernkomponenten verwendet werden? {#when-to-use-the-core-components}
 
-Die Kernkomponenten bieten leistungsfähige und erweiterbare Basiskomponenten und ihre Highlights sind:
+Da die Kernkomponenten völlig neu sind und mehrere Vorteile bieten, wird empfohlen, sie für neue AEM-Projekte zu verwenden. Bei vorhandenen Projekten sollte eine Migration Teil einer größeren Projektaufgabe sein, z. B. ein Rebranding oder eine Gesamtrefaktorierung.
 
-* Umfangreiche Funktionen
-   * [Flexible Konfigurationsoptionen](/help/get-started/authoring.md), um zahlreiche Anwendungsfälle abzudecken
-   * [Vorkonfigurierbare Funktionen](/help/get-started/authoring.md#pre-configuring-core-components), um festzulegen, welche Funktionen Seitenautoren zur Verfügung stehen sollen
-* Kontinuierliche Bereitstellung
-   * Häufige inkrementelle Verbesserungen bei der Funktionalität
-   * Verfügbarkeit des [Quellcodes auf GitHub](https://github.com/adobe/aem-core-wcm-components), damit die Entwickler-Community Feedback abgeben und Beiträge hinzufügen kann
-   * Installation durch [das separat veröffentlichte Inhaltspaket](https://github.com/adobe/aem-core-wcm-components/releases), sodass Komponentenaktualisierungen unabhängig von AEM-Aktualisierungen erfolgen
-* [Komponentenversionierung](guidelines.md#component-versioning)
-   * [Sicherstellung der Kompatibilität innerhalb einer Version](#upgrade-of-core-components), wobei die Komponenten trotzdem weiterentwickelt werden können.
-   * Zulassen, dass mehrere Versionen einer Komponente in derselben Umgebung koexistieren können
-* Moderne Implementierung
-   * Markup definiert in [HTML Template Language](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html) (HTL)
-   * Mit [Sling-Modellen](https://sling.apache.org/documentation/bundles/models.html) implementierte Inhaltsmodelllogik
-* Schlankes Markup
-   * Folgt der [Block Element Modifier](https://getbem.com/) (BEM)-Notation ab Version 2.0.0
-      * Frühere Versionen folgen den [Bootstrap](https://getbootstrap.com/css/)-Benennungskonventionen
-   * Erstellt entsprechend den [Richtlinien für Eingabehilfen](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)
-   * Kann für responsive und mobile Sites eingesetzt werden.
-* Möglichkeit, das Inhaltsmodell für Headless-CMS-Anwendungsfälle als JSON zu serialisieren
-* Barrierefrei
-   * Konform mit dem [WCAG 2.0 AA-Standard](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)
+Daher bietet Adobe folgende Empfehlungen:
 
->[!CAUTION]
->
->Kernkomponenten erfordern AEM 6.3 oder höher und Java 8 sowie die Verwendung [bearbeitbarer Vorlagen](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
->
->Kernkomponenten funktionieren weder mit der klassischen Benutzeroberfläche noch mit statischen Vorlagen.
+* **Neue Projekte**
+Neue Projekte sollten immer versuchen, Kernkomponenten zu verwenden. Wenn Kernkomponenten nicht direkt oder [erweitert](customizing.md) verwendet werden können, um die Projektanforderungen zu erfüllen, erstellen Sie eine benutzerdefinierte Komponente gemäß der Komponentenarchitektur, die in den Kernkomponenten festgelegt ist. Vermeiden Sie die Verwendung der [Foundation-Komponenten](#foundation-component-support), sofern möglich.
+* **Existierende Projekte**
+Empfohlen wird, weiterhin die [Foundation-Komponenten](#foundation-component-support) zu verwenden, es sei denn, es ist eine Refaktorierung von Sites oder Komponenten geplant.\
+   Da sie sehr häufig von den meisten vorhandenen Projekten verwendet werden, werden die Foundation-Komponenten [weiterhin unterstützt](#foundation-component-support).
+* **Neue benutzerdefinierte Komponenten**
+Überprüfen Sie, ob eine vorhandene [Kernkomponente angepasst werden kann](customizing.md).\
+   Wenn nicht, wird empfohlen, eine neue benutzerdefinierte Komponente zu erstellen, die den [Komponentenrichtlinien](guidelines.md) folgt.
+* **Vorhandene benutzerdefinierte Komponenten**
+Wenn Ihre Komponenten erwartungsgemäß funktionieren, behalten Sie sie unverändert bei.\
+   Falls nicht, siehe oben „Neue benutzerdefinierte Komponenten“.
 
-## Überblick über die Gems-Sitzung {#gems-session-overview}
+## Wie Sie mit den Kernkomponenten erfolgreich sein können {#how-to-succeed}
 
-Um eine Einführung in die Kernkomponenten, die angebotenen Funktionen und ihre Nutzung in AEM zu erhalten, sehen Sie sich die AEM-Gems-Sitzung [AEM-Kernkomponenten](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
+Die Kernkomponenten sind leistungsfähig, flexibel und einfach zu verwenden und anzupassen. [Die Einhaltung einiger wichtiger Richtlinien](success.md) stellt sicher, dass Ihr Projekt mit den Kernkomponenten ein Erfolg ist.
 
-[Gems zu Adobe Experience Manager](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) ist eine Reihe technischer Vertiefungen, die von Adobe-Experten angeboten werden. Diese Reihe ergänzt die Produktdokumentation und alle anderen technischen Kanäle und ermöglicht es Entwicklern, in Kontakt zu treten und ein bestimmtes Thema zu vertiefen.
+## Migration zu den Kernkomponenten
 
-## WKND-Entwickler-Tutorial {#wknd-developer-tutorial}
+Jedes neue Projekt sollte mit Kernkomponenten implementiert werden. Bestehende Projekte verfügen jedoch meist über umfassende Implementierungen der Foundation-Komponenten.
 
-Beginnen Sie mit der Entwicklung von AEM Sites mit Kernkomponenten, indem Sie [dieses Schritt-für-Schritt-Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+Eine größere Arbeit an einem vorhandenen Projekt (z. B. ein Rebranding oder eine Gesamtrefaktorierung) bietet oft eine Möglichkeit, zu den Kernkomponenten zu migrieren. Um diese Migration zu erleichtern, stellt Adobe eine Reihe von Migrationswerkzeugen bereit, um die Akzeptanz der Kernkomponenten und der neuesten AEM-Technologie zu fördern.
 
-## AEM-Projektarchetyp {#aem-project-archetype}
+[Die AEM-Modernisierungs-Tools](http://opensource.adobe.com/aem-modernize-tools/) ermöglichen eine einfache Konvertierung von:
 
-[Der AEM-Projektarchiv](/help/developing/archetype/overview.md) erstellt ein Adobe Experience Manager-Minimalprojekt als Ausgangspunkt für Ihre eigenen Projekte, einschließlich eines Beispiels für benutzerdefinierte HTML-Komponenten mit SlingModels für die Logik und ordnungsgemäße Implementierung der Core-Komponenten mit dem empfohlenen Proxymuster.
+* Statischen Vorlagen in bearbeitbare Vorlagen
+* Designkonfigurationen in Richtlinien
+* Foundation-Komponenten in Kernkomponenten
+* Klassische Benutzeroberfläche in Touch-optimierte Benutzeroberfläche
 
-## Über GitHub bereitgestellt {#delivered-over-github}
-
-Die Kernkomponenten werden in GitHub entwickelt und durch GitHub bereitgestellt.
-
-CODE AUF GITHUB
-
-Den Code dieser Seite finden Sie auf GitHub
-
-* [Öffnen Sie das Projekt aem-core-wcm-components auf GitHub](https://github.com/adobe/aem-core-wcm-components)
-* Laden Sie das Projekt als [ZIP-Datei](https://github.com/adobe/aem-core-wcm-components/archive/master.zip) herunter
-
-Öffnen Sie die Dokumentationsseite [Verwendung von Kernkomponenten](/help/get-started/using.md), um zu erfahren, wie Sie damit in Ihrem Projekt beginnen können.
-
-Die Verwendung der Kernkomponenten auf GitHub ermöglicht es Ihnen, häufige Aktualisierungen durchzuführen und das Feedback der AEM-Entwickler-Community zu verfolgen. Dies sollte außerdem Kunden und Partnern dabei helfen, ähnliche Muster beim Erstellen benutzerdefinierter Komponenten zu befolgen.
+Weitere Informationen zur Verwendung dieser Werkzeuge finden Sie [in der entsprechenden Dokumentation](http://opensource.adobe.com/aem-modernize-tools/).
 
 >[!NOTE]
 >
->Um über die neuesten Änderungen an den Kernkomponenten auf dem Laufenden zu bleiben, können Sie sich das [Kernkomponenten-Repository](https://github.com/adobe/aem-core-wcm-components) auf GitHub ansehen.
+>Die AEM-Modernisierung-Tools werden von der Community gesammelt, Adobe bietet keinerlei Unterstützung oder Garantie dafür.
 
-## Komponentenbibliothek
+## Kernkomponentenunterstützung {#core-component-support}
 
-Sehen Sie sich die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library) an, in der die aktuelle Version der Kernkomponenten präsentiert wird und Beispiele für deren Nutzung enthalten sind.
+Kernkomponenten sind ein integraler Bestandteil von AEM und werden ohne Mängelgewähr unterstützt, zu den gleichen Bedingungen und Konditionen, als ob sie im Rahmen des Quickstarts geliefert würden.
 
-### Standardmäßige Kernkomponenten {#out-of-the-box}
+Wie andere AEM-Produktmerkmale lautet die allgemeine Regel: Komponenten werden zunächst als veraltet angekündigt und frühestens in der folgenden AEM-Version entfernt. Dadurch erhalten Kunden mindestens einen Versionszyklus, um zur neuen Version der Komponente zu wechseln, bevor deren Unterstützung eingestellt wird.
 
-Die Hauptkomponenten werden je nach Ausführung von AEM möglicherweise nicht automatisch installiert.
+Die Version jeder Komponente gibt eindeutig die AEM-Versionen an, die sie unterstützt. Wenn der Support für eine Version von AEM eingestellt wird, gilt das auch für die Unterstützung der Kernkomponenten für diese Version von AEM.
 
-#### AEM als Cloud Service {#aem-cloud-service}
+Weitere Informationen zur Unterstützung von Komponentenanpassungen finden Sie auf der Seite [Anpassen von Kernkomponenten](customizing.md).
 
-Obwohl die Hauptkomponenten vollständig mit [AEM als Cloud-Dienst](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)kompatibel sind, müssen die Hauptkomponenten manuell installiert werden und sind nicht standardmäßig verfügbar.
-
-#### AEM On-Premise {#on-premise}
-
-In on-premise installations, the Core Components are visible in the Quickstart when the sample content is present, because the [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) uses them. However, when running in production (in `nosamplecontent` runmode, without sample content enabled), the core components won&#39;t be present anymore and must be installed on the AEM instance.
-
->[!NOTE]
->
->In on-premise production environments, always run the Quickstart in `nosamplecontent` runmode. Um die Kernkomponenten im Ausführungsmodus `nosamplecontent` zu verwenden, befolgen Sie die Anweisungen in der Dokumentation zur [Verwendung von Kernkomponenten](/help/get-started/using.md).
 
 ## Technische Funktionen {#technical-capabilities}
 
@@ -103,17 +70,17 @@ Einzelheiten zu ihren Authoring-Fähigkeiten und Optionen zu ihrer Vorkonfigurat
 | **Funktion** | **Kernkomponente** | **Foundation-Komponente** |
 |-----|---|---|
 | Logikimplementierung | Java POJOs mit Anmerkungen zu [Sling-Modellen](https://sling.apache.org/documentation/bundles/models.html) | JSP-Code |
-| Markup-Definition | [HTML Template Language](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html) (HTL)-Syntax | JSP-Code |
+| Markup-Definition | [HTML Template Language](https://docs.adobe.com/content/help/de-DE/experience-manager-htl/using/overview.html) (HTL)-Syntax | JSP-Code |
 | XSS-Bereinigung | Automatisiert durch HTL | Hauptsächlich manuell |
 | CSS-Klassen-Benennung | Standardisierte Benennungskonvention basierend auf der [Block Element Modifier](https://getbem.com/) (BEM)-Notation (ab Version 2.0.0) | Benutzerdefinierte Schemata |
-| Dialogfeld-Definition | [Coral 3](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Coral 2 + Klassische Benutzeroberfläche |
+| Dialogfeld-Definition | [Coral 3](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Coral 2 + Klassische Benutzeroberfläche |
 | JSON-Ausgabe | [Sling Model Exporter mit Jackson-Serialisierung](https://sling.apache.org/documentation/bundles/models.html#exporter-framework-since-130) | Standard-Sling-Servlet |
 | Versionierung | [Für das Modell und die HTL](guidelines.md) | Keine |
 | Testen | Unit-Tests und Integrationstests | Integrationstests |
 | Bereitstellung | [Über öffentliches GitHub](https://github.com/adobe/aem-core-wcm-components) | Über Quickstart |
 | Lizenz | [Apache-Lizenz](https://www.apache.org/licenses/LICENSE-2.0) | Adobe-geschützt |
 | Beitrag | Über Pull-Anfrage | Nicht möglich |
-| Barrierefreiheit | Vollständig konform mit dem [WCAG 2.0 AA-Standard](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html | Nur teilweise konform mit dem [WCAG 2.0 AA-Standard](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
+| Barrierefreiheit | Vollständig konform mit dem [WCAG 2.0 AA-Standard](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html | Nur teilweise konform mit dem [WCAG 2.0 AA-Standard](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.translate.html) |
 
 ## Komponentenliste {#component-list}
 
@@ -157,64 +124,6 @@ Einen Überblick über geplante Kernkomponenten finden Sie im [Projekt-Wiki auf 
 
 Ein Vorteil versionierter Komponenten besteht darin, dass die Migration auf eine neue AEM-Version von der Migration auf neue Komponentenversionen getrennt werden kann. Wenn neue Komponentenversionen verfügbar sind, wird außerdem die einzelne Migration jeder Komponente zur neuen Version ermöglicht.
 
-Die Migration zu einer neuen AEM-Version wirkt sich nicht auf die Funktionsweise der Kernkomponenten aus, sofern ihre Versionen auch die neue AEM-Version unterstützen, auf die migriert wird. An den Kernkomponenten vorgenommene Anpassungen sollten ebenfalls nicht beeinträchtigt werden, sofern sie keine [veralteten oder entfernten](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html) APIs verwenden.
+Die Migration zu einer neuen AEM-Version wirkt sich nicht auf die Funktionsweise der Kernkomponenten aus, sofern ihre Versionen auch die neue AEM-Version unterstützen, auf die migriert wird. An den Kernkomponenten vorgenommene Anpassungen sollten ebenfalls nicht beeinträchtigt werden, sofern sie keine [veralteten oder entfernten](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/release-notes/deprecated-removed-features.translate.html) APIs verwenden.
 
 Migrationen auf neue Versionen der Kernkomponenten wirken sich nicht auf die Funktionsweise der Komponente aus, aber es können ggf. neue Funktionen für Seitenautoren eingeführt werden, was möglicherweise einige Konfigurationen durch einen Vorlageneditor erfordert, falls das Standardverhalten nicht gewünscht wird. Anpassungen müssen jedoch ggf. angepasst werden. Weitere Informationen finden Sie auf der Seite [Anpassen von Kernkomponenten](customizing.md#upgrade-compatibility-of-customizations).
-
-## Wann sollten die Kernkomponenten verwendet werden? {#when-to-use-the-core-components}
-
-Da die Kernkomponenten völlig neu sind und mehrere Vorteile bieten, wird empfohlen, sie für neue AEM-Projekte zu verwenden. Bei vorhandenen Projekten sollte eine Migration Teil einer größeren Projektaufgabe sein, z. B. ein Rebranding oder eine Gesamtrefaktorierung.
-
-Daher bietet Adobe folgende Empfehlungen:
-
-* **Neue Projekte**
-Neue Projekte sollten immer versuchen, Kernkomponenten zu verwenden. Wenn Kernkomponenten nicht direkt oder [erweitert](customizing.md) verwendet werden können, um die Projektanforderungen zu erfüllen, erstellen Sie eine benutzerdefinierte Komponente gemäß der Komponentenarchitektur, die in den Kernkomponenten festgelegt ist. Vermeiden Sie die Verwendung der [Foundation-Komponenten](#foundation-component-support), sofern möglich.
-* **Existierende Projekte**
-Empfohlen wird, weiterhin die [Foundation-Komponenten](#foundation-component-support) zu verwenden, es sei denn, es ist eine Refaktorierung von Sites oder Komponenten geplant.\
-   Da sie sehr häufig von den meisten vorhandenen Projekten verwendet werden, werden die Foundation-Komponenten [weiterhin unterstützt](#foundation-component-support).
-* **Neue benutzerdefinierte Komponenten**
-Überprüfen Sie, ob eine vorhandene [Kernkomponente angepasst werden kann](customizing.md).\
-   Wenn nicht, wird empfohlen, eine neue benutzerdefinierte Komponente zu erstellen, die den [Komponentenrichtlinien](guidelines.md) folgt.
-* **Vorhandene benutzerdefinierte Komponenten**
-Wenn Ihre Komponenten erwartungsgemäß funktionieren, behalten Sie sie unverändert bei.\
-   Falls nicht, siehe oben „Neue benutzerdefinierte Komponenten“.
-
-## Migration zu den Kernkomponenten
-
-Jedes neue Projekt sollte mit Kernkomponenten implementiert werden. Bestehende Projekte verfügen jedoch meist über umfassende Implementierungen der Foundation-Komponenten.
-
-Eine größere Arbeit an einem vorhandenen Projekt (z. B. ein Rebranding oder eine Gesamtrefaktorierung) bietet oft eine Möglichkeit, zu den Kernkomponenten zu migrieren. Um diese Migration zu erleichtern, stellt Adobe eine Reihe von Migrationswerkzeugen bereit, um die Akzeptanz der Kernkomponenten und der neuesten AEM-Technologie zu fördern.
-
-[Die AEM-Modernisierungs-Tools](http://opensource.adobe.com/aem-modernize-tools/) ermöglichen eine einfache Konvertierung von:
-
-* Statischen Vorlagen in bearbeitbare Vorlagen
-* Designkonfigurationen in Richtlinien
-* Foundation-Komponenten in Kernkomponenten
-* Klassische Benutzeroberfläche in Touch-optimierte Benutzeroberfläche
-
-Weitere Informationen zur Verwendung dieser Werkzeuge finden Sie [in der entsprechenden Dokumentation](http://opensource.adobe.com/aem-modernize-tools/).
-
->[!NOTE]
->
->Die AEM-Modernisierung-Tools werden von der Community gesammelt, Adobe bietet keinerlei Unterstützung oder Garantie dafür.
-
-## Kernkomponentenunterstützung {#core-component-support}
-
-Kernkomponenten sind ein integraler Bestandteil von AEM und werden ohne Mängelgewähr unterstützt, zu den gleichen Bedingungen und Konditionen, als ob sie im Rahmen des Quickstarts geliefert würden.
-
-Wie andere AEM-Produktmerkmale lautet die allgemeine Regel: Komponenten werden zunächst als veraltet angekündigt und frühestens in der folgenden AEM-Version entfernt. Dadurch erhalten Kunden mindestens einen Versionszyklus, um zur neuen Version der Komponente zu wechseln, bevor deren Unterstützung eingestellt wird.
-
-Die Version jeder Komponente gibt eindeutig die AEM-Versionen an, die sie unterstützt. Wenn der Support für eine Version von AEM eingestellt wird, gilt das auch für die Unterstützung der Kernkomponenten für diese Version von AEM.
-
-Weitere Informationen zur Unterstützung von Komponentenanpassungen finden Sie auf der Seite [Anpassen von Kernkomponenten](customizing.md).
-
-## Unterstützung von Foundation-Komponenten {#foundation-component-support}
-
-Da die Foundation-Komponenten über viele AEM-Versionen hinweg als Grundlage für so viele Projekte gedient haben, werden sie in absehbarer Zukunft weiterhin unterstützt.
-
-Der Entwicklungsschwerpunkt von Adobe wurde jedoch auf die Kernkomponenten verschoben, und neue Funktionen werden zu ihnen hinzugefügt, während [fast alle Foundation-Komponenten mit AEM 6.5 als veraltet gelten](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html) und jetzt nur noch Fehlerkorrekturen an den Foundation-Komponenten vorgenommen werden.
-
-**Lesen Sie als Nächstes:**
-
-* [Verwenden von Kernkomponenten](/help/get-started/using.md) - Starten Sie mit Kernkomponenten in Ihrem eigenen Projekt.
-* [Komponentenrichtlinien](guidelines.md) - Lernen Sie die Implementierungsmuster der Kernkomponenten kennen.
