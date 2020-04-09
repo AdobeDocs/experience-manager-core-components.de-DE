@@ -2,46 +2,14 @@
 title: Kernkomponenten-Versionen
 description: Kernkomponenten werden als Versionen veröffentlicht, die mehr als eine Version derselben Kernkomponenten enthalten können. In diesem Dokument wird erläutert, welche Versionen veröffentlicht werden und wie die Kompatibilität mit Kernkomponenten und AEM verstanden werden kann.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 6c0dcfbe4af6aeb3bfa69bdbb43edaab273207be
 
 ---
 
 
 # Kernkomponenten-Versionen {#core-components-versions}
 
-Die aktuelle Version der Core-Komponenten ist 2.8.0 und mit [AEM als Cloud-Dienst](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) und [lokalen AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) -Installationen kompatibel. Es wurde im Dezember 2019 als eine wichtige Aktualisierung veröffentlicht 2.0.0. In Version 2.0.0 wurden neue Komponenten sowie v2-Aktualisierungen vorhandener Komponenten eingeführt.
-
-Weitere Informationen finden Sie im Abschnitt [Versionsverlauf und Kompatibilität](#versions-and-releases) dieses Dokuments.
-
-Sie können auch die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library) besuchen, in der Sie die aktuelle Version der Kernkomponenten und Beispiele für ihre Verwendung finden.
-
-## Versionen {#versions-and-releases}
-
-Kernkomponenten werden über GitHub verteilt. Dadurch kann Adobe den Komponenten schneller Funktionen hinzufügen und die Community-Eingabe außerhalb des AEM-Versionszyklus zulassen.
-
-Die Kernkomponenten werden mit definierten AEM-Versionen bereitgestellt, mit denen sie kompatibel sind. Dies bedeutet, dass eine AEM-Version mehrere Versionen der Kernkomponenten unterstützt. Dies bietet mehr Flexibilität als die früheren Foundation-Komponenten, die an eine bestimmte Version von AEM gebunden waren.
-
-### Versionen {#versions}
-
-Die Hauptiteration der Kernkomponenten sind die **Versionen**. Jede Komponente hat eine Version. Versionen werden mit dem Zusatz **v** bezeichnet und es ihnen eine positive Ganzzahl ungleich Null angehängt, z. B. v1 und v2. Versionen werden nur für Änderungen inkrementiert, die nicht abwärtskompatibel sind. Dies gilt normalerweise für die Einführung neuer Funktionen und Funktionalitäten.
-
-Entwickler und Administratoren können Versionen der Kernkomponenten anhand einer Zahl in ihren Ressourcentyppfaden und in den vollständig qualifizierten Java-Klassennamen ihrer Implementierungen erkennen. Diese Versionsnummer stellt eine Hauptversion dar, wie in [der semantischen Versionierung der Richtlinien](https://semver.org/) dargestellt wird.
-
-Weitere Informationen zu Kernkomponentenversionen finden Sie in der [Entwicklerdokumentation der Kernkomponenten](developing/guidelines.md).
-
-### Versionen {#releases}
-
-Die Kernkomponenten werden über **Versionen** verfügbar gemacht. Sie [stellen die tatsächlichen veröffentlichten Artefakte dar, die auf GitHub verfügbar sind](https://github.com/adobe/aem-core-wcm-components/releases). Versionen werden mit einer Dezimalzahl im Format X.Y.Z gekennzeichnet und alle Kernkomponenten werden zusammen als bereitstellbares Paket erfasst.
-
-* **Hauptversionen** können neue Versionen vorhandener Komponenten sowie völlig neue Komponenten sowie Standardfehlerbehebungen einführen. Dies wird durch eine Inkrementierung der X-Komponente der Versionsnummer dargestellt.
-* **Wichtige Versionen** können neue Funktionen für vorhandene Versionen von Komponenten zusammen mit Fehlerbehebungen einführen. Dies wird durch eine Inkrementierung der Y-Komponente der Versionsnummer dargestellt.
-* **Nebenversionen** enthalten nur Fehlerkorrekturen. Dies wird durch eine schrittweise Erhöhung in der Z-Komponente der Release-Nummer dargestellt.
-
->[!NOTE]
->
->Versionen können mehrere Versionen derselben Komponente enthalten.
->
->Dieselbe Version einer Komponente kann in mehreren Versionen angezeigt werden.
+Die aktuelle Version der Kernkomponenten ist 2.8.0 und ist mit [AEM as a Cloud Service-](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/landing/home.translate.html) und [lokalen AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html)-Installationen kompatibel. Diese Version wurde im Dezember 2019 als eine wichtige Aktualisierung zu Version 2.0.0 veröffentlicht. In Version 2.0.0 wurden neue Komponenten sowie v2-Aktualisierungen vorhandener Komponenten eingeführt.
 
 ## Versionsverlauf und Kompatibilität {#release-history-and-compatibility}
 
@@ -49,11 +17,11 @@ Die Kernkomponenten wurden zuerst mit AEM 6.3 veröffentlicht und sind so ausgel
 
 Die folgenden Tabellen zeigen die Kompatibilität der Versionen der Kernkomponenten mit den Komponentenversionen an, in denen Versionen enthalten sind.
 
-### Versionsverlauf und unterstützte AEM-Versionen {#release-history-supported-aem-versions}
+### Versionshinweise und Anforderungen {#release-history-requirements}
 
 Die folgende Tabelle, deren Inhalt [auf GitHub mit vollständigen Versionsinformationen](https://github.com/adobe/aem-core-wcm-components/releases) verfügbar ist, bietet einen Überblick über die Versionen der Kernkomponenten und deren Kompatibilität mit AEM-Versionen und Java-Versionen.
 
-| Version | Beschreibung | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM als Cloud Service | Java | Veröffentlichungsdatum |
+| Version | Beschreibung | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Veröffentlichungsdatum |
 |---|---|---|---|---|---|---|---|
 | [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | Diese Version konzentrierte sich auf Fehlerbehebungen mit kleinen Verbesserungen. | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | Kontinuierlich | 8, 11 | 5. Dezember 2019 |
 | [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | Mit dieser Version wurde die neue Einbettungskomponente eingeführt. | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | Kontinuierlich | 8, 11 | &amp;#x200B;25. September 2019 |
@@ -112,14 +80,51 @@ Die folgende Tabelle zeigt, welche Versionen welcher Komponenten in welchen Frei
 | **[Experience Fragment](components/experience-fragment.md)** |  |  |  |  |  |  |  |  | v1 | v1 |
 | **[Einbetten](components/embed.md)** |  |  |  |  |  |  |  |  |  | v1 |
 
-## Dokumentation {#documentation}
+## Versionen {#versions-and-releases}
 
-[Authoring mit Kernkomponenten](get-started/authoring.md) beschreibt die Nutzung der Kernkomponenten und der Funktionen, die für Inhaltsautoren und Vorlagenautoren verfügbar sind. Jede Komponente wird detailliert dokumentiert.
+Kernkomponenten werden über GitHub verteilt. Dadurch kann Adobe den Komponenten schneller Funktionen hinzufügen und die Community-Eingabe außerhalb des AEM-Versionszyklus zulassen.
 
-[Komponentenbibliothek](https://adobe.com/go/aem_cmp_library) ist eine Präsentation der aktuellen Version der meisten Kernkomponenten und zeigt, wie sie verwendet werden können.
+Die Kernkomponenten werden mit definierten AEM-Versionen bereitgestellt, mit denen sie kompatibel sind. Dies bedeutet, dass eine AEM-Version mehrere Versionen der Kernkomponenten unterstützt. Dies bietet mehr Flexibilität als die früheren Foundation-Komponenten, die an eine bestimmte Version von AEM gebunden waren.
 
-[Entwicklung von Kernkomponenten](developing/overview.md) beschreibt die technischen Funktionen der Kernkomponenten, deren Verwendung in Ihren Projekten, die Anpassung und Best Practices.
+### Versionen {#versions}
 
-[Einführung zu den Kernkomponenten](introduction.md) bietet eine Übersicht über die Kompatibilität der Kernkomponenten zwischen verschiedenen Versionen, Anwendungsfällen und Unterstützung.
+Die Hauptiteration der Kernkomponenten sind die **Versionen**. Jede Komponente hat eine Version. Versionen werden mit dem Zusatz **v** bezeichnet und es ihnen eine positive Ganzzahl ungleich Null angehängt, z. B. v1 und v2. Versionen werden nur für Änderungen inkrementiert, die nicht abwärtskompatibel sind. Dies gilt normalerweise für die Einführung neuer Funktionen und Funktionalitäten.
 
-Das [WKND-Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) ist eine hervorragende Einführung in die Entwicklung für AEM, einschließlich der Verwendung der Kernkomponenten.
+Entwickler und Administratoren können Versionen der Kernkomponenten anhand einer Zahl in ihren Ressourcentyppfaden und in den vollständig qualifizierten Java-Klassennamen ihrer Implementierungen erkennen. Diese Versionsnummer stellt eine Hauptversion dar, wie in [der semantischen Versionierung der Richtlinien](https://semver.org/) dargestellt wird.
+
+Weitere Informationen zu Kernkomponentenversionen finden Sie in der [Entwicklerdokumentation der Kernkomponenten](developing/guidelines.md).
+
+### Versionen {#releases}
+
+Die Kernkomponenten werden über **Versionen** verfügbar gemacht. Sie [stellen die tatsächlichen veröffentlichten Artefakte dar, die auf GitHub verfügbar sind](https://github.com/adobe/aem-core-wcm-components/releases). Versionen werden mit einer Dezimalzahl im Format X.Y.Z gekennzeichnet und alle Kernkomponenten werden zusammen als bereitstellbares Paket erfasst.
+
+* **Hauptversionen** können neue Versionen vorhandener Komponenten sowie völlig neue Komponenten sowie Standardfehlerbehebungen einführen. Dies wird durch eine Inkrementierung der X-Komponente der Versionsnummer dargestellt.
+* **Wichtige Versionen** können neue Funktionen für vorhandene Versionen von Komponenten zusammen mit Fehlerbehebungen einführen. Dies wird durch eine Inkrementierung der Y-Komponente der Versionsnummer dargestellt.
+* **Nebenversionen** enthalten nur Fehlerkorrekturen. Dies wird durch eine schrittweise Erhöhung in der Z-Komponente der Release-Nummer dargestellt.
+
+>[!NOTE]
+>
+>Versionen können mehrere Versionen derselben Komponente enthalten.
+>
+>Dieselbe Version einer Komponente kann in mehreren Versionen angezeigt werden.
+
+## Support für Kernkomponenten {#core-components-support}
+
+Kernkomponenten sind ein integraler Bestandteil von AEM und werden ohne Mängelgewähr unterstützt, zu den gleichen Bedingungen und Konditionen, als ob sie im Rahmen des Quickstarts geliefert würden.
+
+Wie bei anderen Produktmerkmalen gilt für das Ende der Lebensdauer die allgemeine Regel:
+
+* Komponenten werden zuerst als veraltet angekündigt, bevor sie entfernt werden.
+* Sie werden dann frühestens nach Ankündigung aus dem AEM-Release entfernt.
+
+Dadurch erhalten Kunden mindestens einen Versionszyklus, um zur neuen Version der Komponente zu wechseln, bevor die Unterstützung endet.
+
+Die Version jeder Komponente gibt eindeutig die AEM-Versionen an, die sie unterstützt. Wenn der Support für eine Version von AEM eingestellt wird, gilt das auch für die Unterstützung der Kernkomponenten für diese Version von AEM.
+
+Weitere Informationen zum Support von Komponentenanpassungen finden Sie auf der Seite [Anpassen von Kernkomponenten](developing/customizing.md) der entsprechenden Kernkomponentenversion.
+
+## Unterstützung von Foundation-Komponenten {#foundation-component-support}
+
+Da die Foundation-Komponenten aufgrund vieler Versionen als Grundlage für so viele Projekte bereitgestellt wurden, werden sie in absehbarer Zukunft weiterhin unterstützt.
+
+Der Entwicklungsschwerpunkt von Adobe wurde jedoch auf die Kernkomponenten verschoben, und neue Funktionen werden zu ihnen hinzugefügt, während [fast alle Foundation-Komponenten mit AEM 6.5 als veraltet gelten](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html) und jetzt nur noch Fehlerkorrekturen an den Foundation-Komponenten vorgenommen werden.
