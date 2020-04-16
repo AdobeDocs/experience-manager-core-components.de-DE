@@ -1,7 +1,7 @@
 ---
 title: Verwenden von Kernkomponenten
 description: '„Um mit Kernkomponenten in Ihrem eigenen Projekt produktiv zu werden, sind drei Schritte erforderlich: herunterladen und installieren, Proxy-Komponenten erstellen, die Kernstile laden und die Komponenten in Ihren Vorlagen zulassen.“'
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ---
@@ -25,9 +25,9 @@ Um mit Kernkomponenten in Ihrem eigenen Projekt produktiv zu werden, sind vier S
 
 Einer der treibenden Ideen hinter den Kernkomponenten ist Flexibilität. Durch die häufigere Veröffentlichung neuer Versionen der Kernkomponenten kann Adobe bei der Bereitstellung neuer Funktionen flexibler sein. Entwickler wiederum können flexibel entscheiden, welche Komponenten sie in ihre Projekte integrieren und wie oft sie diese aktualisieren möchten.
 
-Aus diesem Grund sind die Kernkomponenten nicht Teil des Schnellstarts, wenn Sie im Produktionsmodus (ohne Beispielinhalt) beginnen. Therefore, your first step is to [download the latest released content package from GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest) and to install it on your AEM environments.
+Aus diesem Grund sind die Kernkomponenten nicht Teil des Schnellstarts, wenn Sie im Produktionsmodus (ohne Beispielinhalt) beginnen. Der erste Schritt besteht darin, [das neueste veröffentlichte Inhaltspaket von GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest) herunterzuladen und es in Ihren AEM-Umgebungen zu installieren.
 
-There are several ways to automate this, but the simplest way to quickly install a content package on an instance is by using the Package Manager; see [Install Packages](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#installing-packages). Also, once you&#39;ll have a publish instance running as well, you&#39;ll need to replicate that package to the publisher; see [Replicating Packages](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#replicating-packages).
+Es gibt verschiedene Möglichkeiten, dies zu automatisieren, aber die einfachste Möglichkeit, ein Inhaltspaket schnell auf einer Instanz zu installieren, erfolgt über den Package Manager; siehe [Installieren von Paketen](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#installing-packages). Sobald Sie außerdem eine Veröffentlichungsinstanz ausgeführt haben, müssen Sie dieses Paket für den Herausgeber replizieren. Siehe [Replizieren von Paketen](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#replicating-packages).
 
 <!-- 
 
@@ -69,7 +69,7 @@ Fügen Sie folgende Eigenschaften hinzu:
    jcr:description="Section Heading"
    ```
 
-For instance, look at the [title component of the We.Retail reference site](https://github.com/Adobe-Marketing-Cloud/aem-sample-we-retail/blob/master/ui.apps/src/main/content/jcr_root/apps/weretail/components/content/title/.content.xml), which is a good example of a proxy component that is built that way.
+Betrachten Sie beispielsweise die [Titelkomponente der Referenz-Site „We.Retail“](https://github.com/Adobe-Marketing-Cloud/aem-sample-we-retail/blob/master/ui.apps/src/main/content/jcr_root/apps/weretail/components/content/title/.content.xml). Dies ist ein gutes Beispiel für eine Proxy-Komponente, die auf diese Weise aufgebaut ist.
 
 ## Laden der Kernstile {#load-the-core-styles}
 
@@ -103,7 +103,7 @@ Load the Core Client Libraries sounds way better
 
  -->
 
-1. If not done yet, create a [Client Library](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) that contains all of the CSS and JS files that are needed for your site.
+1. Erstellen Sie eine [Client-Bibliothek](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html), die alle CSS- und JS-Dateien enthält, die für Ihre Site benötigt werden, falls noch nicht geschehen.
 1. Fügen Sie in der Client-Bibliothek Ihrer Site die Abhängigkeiten zu den Kernkomponenten hinzu, die möglicherweise benötigt werden. Dies geschieht durch Hinzufügen einer `embed` Eigenschaft.
 
    Um beispielsweise die Client-Bibliotheken aller v1 Kernkomponenten einzubeziehen, lautet die hinzuzufügende Eigenschaft:
@@ -122,7 +122,7 @@ Stellen Sie sicher, dass Ihre Proxy-Komponenten und Client-Bibliotheken in Ihrer
 
 ## Komponenten zulassen {#allow-the-components}
 
-Die folgenden Schritte werden im [Vorlageneditor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)ausgeführt.
+Die folgenden Schritte werden im [Vorlageneditor](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/features/templates.translate.html) ausgeführt.
 
 1. Wählen Sie im Vorlageneditor den Layout-Container aus und öffnen Sie seine Richtlinie.
 1. Wählen Sie in der Liste der zulässigen Komponenten die zuvor erstellten Proxy-Komponenten aus, die unter der ihnen zugewiesenen Komponentengruppe angezeigt werden sollen. Übernehmen Sie anschließend die Änderungen.
