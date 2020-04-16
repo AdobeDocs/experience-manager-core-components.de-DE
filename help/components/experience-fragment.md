@@ -1,7 +1,7 @@
 ---
 title: Experience Fragment-Komponente
 description: Mit der Experience Fragment-Komponente kann der Inhaltsautor einer Seite eine Experience Fragment-Variation hinzufügen.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ---
@@ -13,7 +13,7 @@ Mit der Kernkomponente Experience Fragment-Komponente kann der Inhaltsautor eine
 
 ## Nutzung {#usage}
 
-Mit der Komponente &quot;Erlebnisfragment für Kernkomponenten&quot;kann der Inhaltsersteller aus vorhandenen Varianten von Erlebnisfragmenten auswählen und eine auf der Inhaltsseite platzieren. Die Experience Fragment-Komponente unterstützt außerdem eine lokalisierte Site-Struktur.
+Mit der Kernkomponente Experience Fragment-Komponente kann der Inhaltsautor aus vorhandenen Experience Fragment-Variationen auswählen und eine davon auf der Inhaltsseite platzieren. Die Experience Fragment-Komponente unterstützt außerdem eine lokalisierte Site-Struktur.
 
 * Die Eigenschaften der Komponente können im [Dialogfeld „Konfigurieren“](#configure-dialog) definiert werden.
 * Die Standardeinstellungen für die Komponente beim Hinzufügen zu einer Seite können im [Dialogfeld „Design“](#design-dialog) definiert werden.
@@ -82,7 +82,7 @@ Wenn Sie also zu einer Inhaltsseite unter `/content/we-retail/ch/de` navigieren,
 
 Die Experience Fragment-Komponente wird wie folgt versuchen, eine entsprechende lokalisierte Komponente zu finden.
 
-1. Zuerst versucht es, eine Sprachwurzel zu finden.
+1. Zuerst wird versucht, einen Sprachstamm zu finden.
 1. Wird dieser nicht gefunden, wird versucht, ein Blueprint zu finden.
 1. Wenn auch dieses nicht gefunden werden, versucht sie, eine Live Copy zu finden.
 1. Falls keine Live-Copy gefunden wurde, wird standardmäßig das in der Komponente konfigurierte Experience Fragment verwendet.
@@ -93,7 +93,7 @@ Die aktuelle Version der Experience Fragment-Komponente ist v1. Sie wurde mit Ve
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
-| Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM als Cloud Service |
+| Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|---|
 | v1 | Kompatibel | Kompatibel | Kompatibel | Kompatibel |
 
@@ -101,11 +101,11 @@ Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in d
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-To experience the Experience Fragment Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_xf).
+Rufen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_xf) auf, um die Experience Fragment-Komponente sowie die Beispiele für ihre Konfigurationsoptionen und die HTML- und JSON-Ausgabe zu testen.
 
 ## Technische Details {#technical-details}
 
-The latest technical documentation about the Experience Fragment Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_xf_v1).
+Die neueste technische Dokumentation zur Experience Fragment-Komponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_xf_v1).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
