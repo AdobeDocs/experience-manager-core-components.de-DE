@@ -1,19 +1,19 @@
 ---
-title: ui.tests Module von AEM Project Archetype
-description: Verwendung von AEM Project Archetype JUnit-Tests
-translation-type: tm+mt
+title: ui.tests-Modul des AEM-Projektarchetyps
+description: Verwendung des AEM-Projektarchetyps JUnit Tests
+translation-type: ht
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ---
 
 
-# ui.tests Module of the AEM Project Archetype {#uitests-module}
+# ui.tests-Modul des AEM-Projektarchetyps {#uitests-module}
 
 Das Projekt umfasst drei Teststufen:
 
-## Komponententests {#unit-tests}
+## Unit-Tests {#unit-tests}
 
-The unit test in the [core module](core.md) showcases classic unit testing of the code contained in the bundle. Führen Sie zum Testen Folgendes aus:
+Die Unit-Tests im [Kernmodul](core.md) stellen klassische Komponententests des im Bundle enthaltenen Codes vor. Führen Sie zum Testen Folgendes aus:
 
 ```
 mvn clean test
@@ -21,14 +21,14 @@ mvn clean test
 
 ## Integrationstests {#integration-tests}
 
-Die serverseitigen Integrationstests ermöglichen die Ausführung von Komponententests in der AEM-Umgebung, d. h. auf dem AEM-Server. Führen Sie zum Testen Folgendes aus:
+Die Server-seitigen Integrationstests ermöglichen die Ausführung von Komponententests in der AEM-Umgebung, d. h. auf dem AEM-Server. Führen Sie zum Testen Folgendes aus:
 
 ```
 mvn clean verify -PintegrationTests
 ```
 
-## Clientseitige Tests {#client-side-tests}
+## Client-seitige Tests {#client-side-tests}
 
-Bei den `client-side Hobbes.js` Tests handelt es sich um JavaScript-basierte Browser-basierte Tests zur Überprüfung des Browser-seitigen Verhaltens.
+Bei den `client-side Hobbes.js` Tests handelt es sich um JavaScript-basierte Browser-seitige Tests zur Überprüfung des Browser-seitigen Verhaltens.
 
-Um zu testen, öffnen Sie beim Anzeigen einer AEM-Seite, die Sie im Browser testen möchten, die Seite im **Entwicklermodus** , indem Sie das linke Bedienfeld öffnen und zur Registerkarte &quot; **Tests** &quot;wechseln. Suchen Sie dann die generierten **MyName-Tests** und führen Sie sie aus.
+Sie führen Tests wie folgt durch: Wenn Sie eine AEM-Seite anzeigen, die Sie im Browser testen möchten, öffnen Sie diese Seite im **Entwicklermodus**. Dazu öffnen Sie das linke Bedienfeld und wechseln zur Registerkarte „**Tests**“. Suchen Sie dann die generierten **MyName-Tests** und führen Sie sie aus.
