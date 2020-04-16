@@ -1,7 +1,7 @@
 ---
 title: Navigationskomponente
-description: Mit der Navigationskomponente können Benutzer leicht durch eine globalisierten Site-Struktur navigieren.
-translation-type: tm+mt
+description: Mit der Navigationskomponente können Benutzer leicht durch eine globalisierte Site-Struktur navigieren.
+translation-type: ht
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ---
@@ -9,7 +9,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 # Navigationskomponente{#navigation-component}
 
-Mit der Navigationskomponente können Benutzer leicht durch eine globalisierten Site-Struktur navigieren.
+Mit der Navigationskomponente können Benutzer leicht durch eine globalisierte Site-Struktur navigieren.
 
 ## Nutzung {#usage}
 
@@ -91,7 +91,7 @@ Die aktuelle Version der Navigationskomponente ist v1, die mit Version 2.0.0 der
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
-| Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM als Cloud Service |
+| Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |--- |---|
 | v1 | Kompatibel | Kompatibel | Kompatibel | Kompatibel |
 
