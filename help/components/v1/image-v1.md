@@ -2,7 +2,7 @@
 title: Bildkomponente (v1)
 description: Die Kernkomponente „Bildkomponente“ ist eine anpassungsfähige Bildkomponente mit Funktionen zur Bearbeitung im Kontext.
 index: n
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
 
 ---
@@ -37,7 +37,7 @@ In der folgenden Tabelle ist die Kompatibilität der Bildkomponente v1 aufgefüh
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Im Folgenden finden Sie ein Beispiel von [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+Im Folgenden finden Sie ein Beispiel von [We.Retail](https://helpx.adobe.com/de/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Screenshot {#screenshot}
 
@@ -145,7 +145,7 @@ Alternative Beschreibung des Pfadziels
          * **Neue Registerkarte**
          * **Übergeordneter Frame**
          * **Top-Frame**
-   Tippen oder klicken Sie auf das blaue Häkchen zum Speichern, auf das schwarze X zum Abbrechen und auf den roten Papierkorb zum Löschen der Map.
+   Tippen oder klicken Sie auf das blaue Häkchen zum Speichern, auf das schwarze X zum Abbrechen oder auf den roten Papierkorb, um die Karte zu löschen.
 
    ![](/help/assets/chlimage_1-14.png)
 
@@ -175,7 +175,7 @@ Der Editor für die Bearbeitung im Kontext kann auch zum Ändern des Bildes verw
 
 Das Dialogfeld „Design“ ermöglicht dem Vorlagenautor die Definition von Zuschnitt, Upload und Rotations-Upload, die vom Inhalts-Autor bei der Verwendung dieser Komponente genutzt werden.
 
-### Haupt {#main}
+### Allgemein {#main}
 
 In dieser Registerkarte **Allgemein** können Sie eine Liste der zulässigen Breiten in Pixel definieren, damit das Bild automatisch die angemessenste Breite aus der Liste laden wird.
 
