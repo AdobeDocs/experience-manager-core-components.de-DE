@@ -1,7 +1,7 @@
 ---
 title: AEM Projektarchetyp Front-End-Build
 description: Eine Projektvorlage für AEM-basierte Anwendungen
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ---
@@ -22,26 +22,26 @@ Da sich diese beiden Entwicklungsprozesse auf verschiedene Teile des Projekts ko
 
 ![Diagramm zum Front-End-Workflow](/help/assets/front-end-flow.png)
 
-Jedes daraus resultierende Projekt muss jedoch die Ergebnisse beider Entwicklungsmaßnahmen nutzen, d. h. sowohl für das Back-End als auch das Front-End.
+Jedes daraus resultierende Projekt muss jedoch die Ergebnisse beider Entwicklungsmaßnahmen nutzen, d. h. sowohl für das Back-End als auch für das Front-End.
 
-Running `npm run dev` starts the front-end build process that gathers the JavaScript and CSS files stored in the ui.frontend module and produces two minified client libraries or ClientLibs called `clientlib-site` and `clientlib-dependencies` and deposits them in the ui.apps module. ClientLibs sind für AEM bereitstellbar und ermöglichen es Ihnen, den clientseitigen Code im Repository zu speichern.
+Beim Ausführen von `npm run dev` wird der Front-End-Build-Prozess gestartet, der die im ui.frontend-Modul gespeicherten JavaScript- und CSS-Dateien erfasst und zwei minimierte Client-Bibliotheken (oder ClientLibs) namens `clientlib-site` und `clientlib-dependencies` erzeugt und im ui.apps-Modul ablegt. ClientLibs können in AEM bereitgestellt werden und ermöglichen die Speicherung des Client-seitigen Codes im Repository.
 
-When the entire AEM project archetype is run using `mvn clean install -PautoInstallPackage` all project artifacts including the ClientLibs are then pushed to the AEM instance.
+Wenn der gesamte AEM-Projektarchetyp mit `mvn clean install -PautoInstallPackage` ausgeführt wird, werden alle Projektartefakte einschließlich der ClientLibs an die AEM-Instanz gesendet.
 
 >[!TIP]
->Learn more about ClientLibs in the [AEM development documentation](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) and [how the ui.frontend module uses them below](#clientlib-generation).
+>In der [AEM-Entwicklungsdokumentation](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) erfahren Sie mehr über ClientLibs und darüber, [wie sie vom ui.frontend-Modul verwendet werden](#clientlib-generation).
 
 ## Überblick über ClientLibs {#clientlibs}
 
-Das Frontend-Modul wird mit einer [AEM ClientLib](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html)bereitgestellt. Beim Ausführen des NPM Build-Skripts wird die App erstellt und das aem-clientlib-generator-Paket nimmt die resultierende Buildausgabe und wandelt sie in eine solche ClientLib um.
+Das Frontend-Modul wird mithilfe einer [AEM ClientLib](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/using/clientlibs.html) bereitgestellt. Beim Ausführen des NPM Build-Skripts wird die App erstellt und das aem-clientlib-generator-Paket nimmt die resultierende Buildausgabe entgegen und wandelt sie in eine solche ClientLib um.
 
 Eine ClientLib besteht aus den folgenden Dateien und Verzeichnissen:
 
 * `css/`: CSS-Dateien, die im HTML-Code angefordert werden können
-* `css.txt`: Weist AEM die Reihenfolge und Namen der Dateien zu, `css/` damit sie zusammengeführt werden können
+* `css.txt`: Teilt AEM die Reihenfolge und Namen der Dateien in `css/` mit, damit sie zusammengeführt werden können
 * `js/`: JavaScript-Dateien, die im HTML-Code angefordert werden können
-* `js.txt` Weist AEM die Reihenfolge und Namen der Dateien zu, `js/` damit sie zusammengeführt werden können
-* `resources/`: Quellzuordnungen, nicht-Einstiegspunkt-Codeabschnitte (die aus der Codeteilung resultieren), statische Assets (z. B. Symbole) usw.
+* `js.txt`: Teilt AEM die Reihenfolge und Namen der Dateien in `js/` mit, damit sie zusammengeführt werden können
+* `resources/`: Quellzuordnungen, Nicht-Einstiegspunkt-Codeblöcke (die aus der Codeaufteilung resultieren), statische Kreativelemente (z. B. Symbole) usw.
 
 ## Mögliche Front-End-Entwicklungs-Workflows {#possible-workflows}
 
@@ -54,7 +54,7 @@ Mit Webpack können Sie auf Basis der statischen Ausgabe von AEM-Webseiten inner
 1. Zeigen Sie eine Vorschau der Seite in AEM an oder geben Sie `wcmmode=disabled` in die URL ein.
 1. Zeigen Sie die Seitenquelle an und speichern Sie diese als statischen HTML-Code im ui.frontend-Modul.
 1. [Starten Sie Webpack](#webpack-dev-server) und beginnen Sie mit der Formatierung und Generierung des erforderlichen JavaScript- und CSS-Codes.
-1. Run `npm run dev` to generate the ClientLibs
+1. Führen Sie `npm run dev` zum Generieren der ClientLibs aus.
 
 In diesem Workflow kann ein AEM-Entwickler die Schritte 1 und 2 ausführen sowie den statischen HTML-Code an den Front-End-Entwickler weiterleiten, der die AEM-HTML-Ausgabe zur Entwicklung nutzt.
 
@@ -64,7 +64,7 @@ In diesem Workflow kann ein AEM-Entwickler die Schritte 1 und 2 ausführen sow
 
 ### Verwenden von Storybook {#using-storybook}
 
-Mit [Storybook](https://storybook.js.org) können Sie mehr atomare Front-End-Entwicklung durchführen. Obwohl Storybook nicht im AEM-Projektarchetyp enthalten ist, können Sie die Anwendung installieren und Ihre Storybook-Artefakte im ui.frontend-Modul speichern. When ready for testing within AEM, they can be deployed as ClientLibs by running `npm run dev`.
+Mit [Storybook](https://storybook.js.org) können Sie mehr atomare Front-End-Entwicklung durchführen. Obwohl Storybook nicht im AEM-Projektarchetyp enthalten ist, können Sie die Anwendung installieren und Ihre Storybook-Artefakte im ui.frontend-Modul speichern. Sobald diese für Tests in AEM bereit sind, können sie durch Ausführen von `npm run dev` als ClientLibs bereitgestellt werden.
 
 >[!NOTE]
 >
