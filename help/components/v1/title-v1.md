@@ -2,7 +2,7 @@
 title: Titelkomponente (v1)
 description: Die Kernkomponente „Titelkomponente“ ist eine Komponente für Abschnittsüberschriften, die eine Bearbeitung im Kontext ermöglicht.
 index: n
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ---
@@ -37,7 +37,7 @@ In der folgenden Tabelle ist die Kompatibilität von v1 der Titelkomponente aufg
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Im Folgenden finden Sie ein Beispiel von [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+Im Folgenden finden Sie ein Beispiel von [We.Retail](https://helpx.adobe.com/de/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Screenshot {#screenshot}
 
@@ -88,7 +88,7 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die standardmäßi
 
 ## Technische Details {#technical-details}
 
-The latest technical documentation about the Title Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/title/v1/title).
+Die aktuelle technische Dokumentation zur Titelkomponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/title/v1/title).
 
 Das gesamte Kernkomponentenprojekt kann von GitHub heruntergeladen werden.
 
