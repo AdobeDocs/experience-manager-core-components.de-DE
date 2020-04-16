@@ -1,7 +1,7 @@
 ---
 title: Front-End-Build für Angular-SPAs
-description: Beschreibung des Front-End-Build-Prozesses für angular-basierte SPA-Projekte
-translation-type: tm+mt
+description: Beschreibung des Front-End-Build-Prozesses für Angular-basierte SPA-Projekte
+translation-type: ht
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ---
@@ -9,15 +9,15 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 # Front-End-Build für Angular-SPAs {#frontend-angular}
 
-In diesem Dokument werden die Details des Projekts erläutert, das beim Erstellen einer Einzelseitenanwendung (SPA) auf Basis des Angular-Frameworks mit dem Archetyp erstellt wurde. Das heißt, wenn Sie die `frontendModule` Option auf `angular`.
+In diesem Dokument werden die Details des Projekts erläutert, das erstellt wird, wenn mithilfe des Archetyps eine Single Page Application (SPA) basierend auf dem Angular Framework erstellt wird, das heißt, wenn Sie die Option `frontendModule` auf `angular` festlegen.
 
 ## Überblick {#overview}
 
-Dieses Projekt wurde mit der [Angular-CLI](https://github.com/angular/angular-cli)ausgestattet.
+Dieses Projekt nutzt die [Angular-CLI](https://github.com/angular/angular-cli) per Bootstrapping.
 
-Diese Anwendung wurde entwickelt, um das AEM-Modell einer Site zu verwenden. Das Layout wird automatisch mit den Hilfekomponenten aus dem Paket [@adobe/cq-angular-editable-components](https://www.npmjs.com/package/@adobe/cq-angular-editable-components) generiert.
+Diese Anwendung verarbeitet das AEM-Modell einer Site und generiert automatisch das Layout mit den Hilfekomponenten des Pakets [@adobe/cq-angular-editable-components](https://www.npmjs.com/package/@adobe/cq-angular-editable-components).
 
-## Skripten {#scripts}
+## Skripte {#scripts}
 
 Im Projektverzeichnis können Sie die folgenden Befehle ausführen.
 
@@ -27,26 +27,26 @@ Im Projektverzeichnis können Sie die folgenden Befehle ausführen.
 npm start
 ```
 
-Mit diesem Befehl wird die App im Entwicklungsmodus ausgeführt, indem das JSON-Modell von einer lokalen AEM-Instanz proxiert wird, die unter http://localhost:4502 ausgeführt wird. Hierbei wird davon ausgegangen, dass das gesamte Projekt mindestens einmal (`mvn clean install -PautoInstallPackage` im Projektstamm) in AEM bereitgestellt wurde.
+Mit diesem Befehl wird die App im Entwicklungsmodus ausgeführt, indem eine lokale AEM-Instanz, die unter http://localhost:4502 ausgeführt wird, als Proxy des JSON-Modells fungiert. Dabei wird davon ausgegangen, dass das gesamte Projekt mindestens einmal in AEM bereitgestellt wurde (`mvn clean install -PautoInstallPackage` im Projektstamm).
 
-Nachdem Sie npm im Verzeichnis ui.frontend ausgeführt haben, wird Ihre App automatisch im Browser geöffnet (unter dem Pfad http://localhost:4200/content/${appId}/${country}/${language}/home.html). Wenn Sie Änderungen vornehmen, wird die Seite neu geladen.
+Nachdem Sie „npm start“ im ui.frontend-Verzeichnis ausgeführt haben, wird Ihre App automatisch im Browser geöffnet (unter dem Pfad http://localhost:4200/content/${appId}/${country}/${language}/home.html). Wenn Sie Änderungen vornehmen, wird die Seite neu geladen.
 
-Wenn Sie Fehler im Zusammenhang mit CORS erhalten, sollten Sie AEM wie folgt konfigurieren:
+Falls Fehler im Zusammenhang mit CORS auftreten, sollten Sie AEM wie folgt konfigurieren:
 
-1. Navigieren Sie zum Configuration Manager (http://localhost:4502/system/console/configMgr).
-1. Öffnen Sie die Konfiguration für &quot;Adobe Granite Cross-Origin Resource Sharing Policy&quot;
+1. Navigieren Sie zum Konfigurations-Manager (http://localhost:4502/system/console/configMgr).
+1. Öffnen Sie die Konfiguration für „Adobe Granite Cross-Origin Resource Sharing Policy“.
 1. Erstellen Sie eine neue Konfiguration mit den folgenden zusätzlichen Werten:
-   * Zulässige Herkunft: http://localhost:4200
-   * Unterstützte Kopfzeilen: Genehmigung
-   * Zulässige Methoden: OPTIONEN
+   * Zulässiger Ursprung: http://localhost:4200
+   * Unterstützte Header: Authorization
+   * Zulässige Methoden: OPTIONS
 
-### npm-Test {#npm-test}
+### npm test {#npm-test}
 
 ```
 npm test
 ```
 
-Mit diesem Befehl wird der Karma-Testlauf gestartet. Weitere Informationen finden Sie in der [Angular-Dokumentation zum Ausführen von Tests](https://angular.io/guide/testing) .
+Mit diesem Befehl wird der Karma-Test-Runner gestartet. Weitere Informationen finden Sie in der [Angular-Dokumentation zum Ausführen von Tests](https://angular.io/guide/testing).
 
 ### npm run test:debug {#npm-run-test-debug}
 
@@ -54,7 +54,7 @@ Mit diesem Befehl wird der Karma-Testlauf gestartet. Weitere Informationen finde
 npm run test:debug
 ```
 
-Mit diesem Befehl wird der Karma-Test-Läufer im interaktiven Überwachungsmodus gestartet.
+Mit diesem Befehl wird der Karma-Test-Runner im interaktiven Überwachungsmodus gestartet.
 
 ### npm run build {#npm-run-build}
 
@@ -62,12 +62,12 @@ Mit diesem Befehl wird der Karma-Test-Läufer im interaktiven Überwachungsmodus
 npm run build
 ```
 
-Mit diesem Befehl wird die App für die Produktion im Ordner Build erstellt. Es bündelt Angular im Produktionsmodus und optimiert den Build für die beste Leistung. Weitere Informationen finden Sie in der [Angular-Dokumentation zur Bereitstellung](https://angular.io/guide/deployment) .
+Mit diesem Befehl wird die App für die Produktion im Build-Ordner erstellt. Er integriert Angular im Produktionsmodus und optimiert den Build für die beste Leistung. Weitere Informationen finden Sie in der [Angular-Dokumentation zur Bereitstellung](https://angular.io/guide/deployment).
 
-Darüber hinaus wird eine AEM ClientLib aus der App mithilfe des [aem-clientlib-generator](https://github.com/wcm-io-frontend/aem-clientlib-generator) -Pakets generiert.
+Darüber hinaus wird eine AEM ClientLib aus der App mithilfe des Pakets [aem-clientlib-generator](https://github.com/wcm-io-frontend/aem-clientlib-generator) generiert.
 
-Weitere Informationen zur Verwendung von AEM ClientLibs durch den Projektarchiv finden Sie in der allgemeinen Dokumentation[ zum Modul ](uifrontend.md#clientlibs)ui.frontend.
+Weitere Informationen zur Verwendung von AEM ClientLibs durch den Projektarchetyp finden Sie in der allgemeinen [Dokumentation zum ui.frontend-Modul](uifrontend.md#clientlibs).
 
 ## Browserunterstützung {#browser-support}
 
-Standardmäßig verwendet dieses Projekt die Standardoption von [BrowserList](https://github.com/browserslist/browserslist), um Zielbrowser zu identifizieren. Zusätzlich enthält es Polyfills für moderne Sprachfunktionen, um ältere Browser (z.B. Internet Explorer 11) zu unterstützen. Wenn die Unterstützung solcher Browser nicht erforderlich ist, können die Polyfill-Abhängigkeiten und Importe entfernt werden.
+Standardmäßig verwendet dieses Projekt die Standardoption von [Browserslist](https://github.com/browserslist/browserslist), um Zielbrowser zu identifizieren. Zusätzlich enthält es Polyfills für moderne Sprachfunktionen, um ältere Browser (z. B. Internet Explorer 11) zu unterstützen. Wenn die Unterstützung solcher Browser nicht erforderlich ist, können die Polyfill-Abhängigkeiten und Importe entfernt werden.
