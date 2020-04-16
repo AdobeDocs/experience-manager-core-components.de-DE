@@ -1,7 +1,7 @@
 ---
 title: Anpassen der Kernkomponenten
 description: Die Kernkomponenten implementieren verschiedene Muster, die eine einfache Anpassung ermöglichen, von einfachen Stilen bis hin zur Wiederverwendung erweiterter Funktionen.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
 
 ---
@@ -28,7 +28,7 @@ Und alle Kernkomponenten implementieren das [Stilsystem](#styling-the-components
 
 ## AEM-Projektarchetyp {#aem-project-archetype}
 
-[Der AEM-Projektarchiv](/help/developing/archetype/overview.md) erstellt ein Adobe Experience Manager-Minimalprojekt als Ausgangspunkt für Ihre eigenen Projekte, einschließlich eines Beispiels für benutzerdefinierte HTML-Komponenten mit SlingModels für die Logik und ordnungsgemäße Implementierung der Core-Komponenten mit dem empfohlenen Proxymuster.
+[Der AEM-Projektarchetyp](/help/developing/archetype/overview.md) erstellt ein Adobe Experience Manager-Minimalprojekt als Ausgangspunkt für Ihre eigenen Projekte, einschließlich eines Beispiels für eine benutzerdefinierte HTML-Komponente mit SlingModels, um die Logik und ordnungsgemäße Implementierung der Kernkomponenten mit dem empfohlenen Proxy-Muster zu gewährleisten.
 
 ## Anpassungsmuster {#customization-patterns}
 
@@ -36,9 +36,9 @@ Und alle Kernkomponenten implementieren das [Stilsystem](#styling-the-components
 
 Es ist möglicherweise sinnvoll, die in einem Kernkomponentendialogfeld verfügbaren Konfigurationsoptionen anzupassen, entweder [im Dialogfeld „Design“ oder im Dialogfeld „Bearbeiten“](/help/get-started/authoring.md).
 
-Jedes Dialogfeld hat eine einheitliche Knotenstruktur. Es wird empfohlen, dass diese Struktur in einer inhärenten Komponente repliziert wird, sodass[Sling Ressource Merger](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/sling-resource-merger.html) und [Ausblende-Bedingungen](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/hide-conditions.html) genutzt werden können, um Bereiche des Originaldialogs auszublenden, zu ersetzen oder neu anzuordnen. Die zu replizierende Struktur ist als beliebiger Wert bis zur Registerkartenelement-Knotenebene definiert.
+Jedes Dialogfeld hat eine einheitliche Knotenstruktur. Es wird empfohlen, dass diese Struktur in einer inhärenten Komponente repliziert wird, sodass[Sling Ressource Merger](https://helpx.adobe.com/de/experience-manager/6-4/sites/developing/using/sling-resource-merger.html) und [Ausblende-Bedingungen](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/using/hide-conditions.html) genutzt werden können, um Bereiche des Originaldialogs auszublenden, zu ersetzen oder neu anzuordnen. Die zu replizierende Struktur ist als beliebiger Wert bis zur Registerkartenelement-Knotenebene definiert.
 
-Damit alle Änderungen an einem Dialogfeld in seiner aktuellen Version vollständig kompatibel sind, ist es äußerst wichtig, dass Strukturen unterhalb der Registerkartenelementebene nicht angerührt werden (ausgeblendet, hinzugefügt, ersetzt, neu angeordnet usw.). Stattdessen sollte ein übergeordnetes Tab-Element über die Eigenschaft `sling:hideResource` ausgeblendet werden (siehe [ Eigenschaften der Zusammenführung von Sling-Ressourcen ](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/sling-resource-merger.html)) und neue Tab-Elemente hinzugefügt werden, die die maßgeschneiderten Konfigurationsfelder enthalten. `sling:orderBefore` kann verwendet werden, um die Registerkartenelemente bei Bedarf neu anzuordnen.
+Damit alle Änderungen an einem Dialogfeld in seiner aktuellen Version vollständig kompatibel sind, ist es äußerst wichtig, dass Strukturen unterhalb der Registerkartenelementebene nicht angerührt werden (ausgeblendet, hinzugefügt, ersetzt, neu angeordnet usw.). Stattdessen sollte ein übergeordnetes Tab-Element über die Eigenschaft `sling:hideResource` ausgeblendet werden (siehe [ Eigenschaften der Zusammenführung von Sling-Ressourcen ](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/using/sling-resource-merger.html)) und neue Tab-Elemente hinzugefügt werden, die die maßgeschneiderten Konfigurationsfelder enthalten. `sling:orderBefore` kann verwendet werden, um die Registerkartenelemente bei Bedarf neu anzuordnen.
 
 Das folgende Dialogfeld zeigt die empfohlene Dialogfeldstruktur sowie das Ausblenden und Ersetzen einer vererbten Registerkarte wie oben beschrieben:
 
@@ -119,7 +119,7 @@ Betrachtet man beispielsweise die HTL-Datei der v1-Kern-Breadcrumb-Komponente: [
 .cmp-breadcrumb a {}
 ```
 
-Darüber hinaus nutzt jede der Kernkomponenten die AEM-Funktion [ Style System ](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/style-system.html), mit der Vorlagenautoren zusätzliche CSS-Klassennamen definieren können, die von den Seitenautoren auf die Komponente angewendet werden können. Auf diese Weise können Sie für jede Vorlage eine Liste der zulässigen Komponentenstile definieren und festlegen, ob eine dieser Komponenten standardmäßig auf alle Komponenten dieser Art angewendet werden soll.
+Darüber hinaus nutzt jede der Kernkomponenten die AEM-Funktion [ Style System ](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/features/style-system.translate.html), mit der Vorlagenautoren zusätzliche CSS-Klassennamen definieren können, die von den Seitenautoren auf die Komponente angewendet werden können. Auf diese Weise können Sie für jede Vorlage eine Liste der zulässigen Komponentenstile definieren und festlegen, ob eine dieser Komponenten standardmäßig auf alle Komponenten dieser Art angewendet werden soll.
 
 ## Upgrade-Kompatibilität von Anpassungen {#upgrade-compatibility-of-customizations}
 
@@ -129,7 +129,7 @@ Es gibt drei verschiedene Arten von Upgrades:
 * Upgrade der Kernkomponenten auf eine neue Unterversion
 * Upgrade der Kernkomponenten auf eine Hauptversion
 
-Im Allgemeinen wirkt sich ein Upgrade von AEM auf eine neue Version nicht auf die Kernkomponenten oder die vorgenommenen Anpassungen aus, vorausgesetzt, die Komponentenversionen unterstützen auch die neue AEM-Version, auf die migriert wird, und Anpassungen verwenden keine APIs, die [veraltet oder entfernt](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html).
+Im Allgemeinen wirkt sich ein Upgrade von AEM auf eine neue Version nicht auf die Kernkomponenten oder die vorgenommenen Anpassungen aus, vorausgesetzt, die Komponentenversionen unterstützen auch die neue AEM-Version, auf die migriert wird, und Anpassungen verwenden keine APIs, die [veraltet oder entfernt](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/release-notes/deprecated-removed-features.translate.html).
 
 Das Aktualisieren der Kernkomponenten ohne Wechseln zu einer neueren Hauptversion sollte sich nicht auf Anpassungen auswirken, solange die auf dieser Seite beschriebenen Anpassungsmuster verwendet werden.
 
@@ -149,7 +149,7 @@ Wie bei jeder AEM-Komponente gibt es einige Aspekte hinsichtlich der Anpassungen
 
 1. **Achten Sie auf veraltete und entfernte Funktionen.**
 
-   Stellen Sie bei jedem Upgrade jeder neuen AEM-Version sicher, dass alle verwendeten APIs immer aktuell sind, indem Sie die Seite [Veraltete und entfernte Funktionen](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html) im Auge behalten.
+   Stellen Sie bei jedem Upgrade jeder neuen AEM-Version sicher, dass alle verwendeten APIs immer aktuell sind, indem Sie die Seite [Veraltete und entfernte Funktionen](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/release-notes/deprecated-removed-features.translate.html) im Auge behalten.
 
 Siehe auch Abschnitt zur [Kernkomponentenunterstützung](overview.md#core-component-support).
 
