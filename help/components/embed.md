@@ -1,7 +1,7 @@
 ---
 title: Einbettungskomponente
 description: Die Einbettungskomponente ermöglicht das Einbetten externer Inhalte in eine AEM-Inhaltsseite.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ---
@@ -24,7 +24,7 @@ Die aktuelle Version der Einbettungskomponente ist v1. Sie wurde mit Version 2.7
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
-| Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM als Cloud Service |
+| Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|---|
 | v1 | Kompatibel | Kompatibel | Kompatibel | Kompatibel |
 
@@ -95,7 +95,7 @@ Das HTML-Markup, das der Autor eingeben kann, wird aus Sicherheitsgründen gefil
 
 Die Regeln sind jedoch komplizierter, da die Einbettungskomponente dem Filterregelsatz des globalen HTML-AntiSamy-Bereinigungs-Frameworks von AEM folgt, der unter `/libs/cq/xssprotection/config.xml` zu finden ist. Dies kann bei Bedarf von einem Entwickler für eine projektspezifische Konfiguration überlagert werden.
 
-Weitere Sicherheitsinformationen finden Sie in der [AEM-Entwicklerdokumentation für lokale Installationen](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/security.html) sowie in [AEM als Cloud-Service-Installationen.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/security/home.html)
+Weitere Sicherheitsinformationen finden Sie in der [AEM-Entwicklerdokumentation für lokale Installationen](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/security.html) sowie in [AEM as a Cloud Service-Installationen.](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/security/home.translate.html)
 
 >[!NOTE]
 >Obwohl die Regeln des AntiSamy-Bereinigungs-Frameworks durch eine Überlagerung von `/libs/cq/xssprotection/config.xml` konfiguriert werden können, wirken sich diese Änderungen nicht nur auf die Einbettungs-Kernkomponente, sondern auf das gesamte HTL- und JSP-Verhalten aus.
