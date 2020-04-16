@@ -2,7 +2,7 @@
 title: Seitenkomponente (v1)
 description: Die Seitenkomponente ist eine Erweiterungskomponente für Seiten, die mit dem Vorlageneditor arbeitet und es ermöglicht, Seitenkopf-/Fußzeilen- und Strukturkomponenten mit dem Vorlageneditor zusammenzustellen.
 index: n
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ---
@@ -10,7 +10,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 # Seitenkomponente (v1) {#page-component-v}
 
-The Page Component is an extensible page component designed to work with the [template editor](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html) and allow page header/footer and structure components to be assembled with the template editor.
+Die Seitenkomponente ist eine Erweiterungskomponente für Seiten, die mit dem [Vorlageneditor](https://helpx.adobe.com/de/experience-manager/6-4/sites/authoring/using/templates.html) arbeitet und es ermöglicht, Seitenkopf-/Fußzeilen- und Strukturkomponenten mit dem Vorlageneditor zusammenzustellen.
 
 ## Nutzung {#usage}
 
@@ -41,7 +41,7 @@ In der folgenden Tabelle ist die Kompatibilität von v1 der Seitenkomponente auf
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Im Folgenden finden Sie ein Beispiel von [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+Im Folgenden finden Sie ein Beispiel von [We.Retail](https://helpx.adobe.com/de/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Screenshot {#screenshot}
 
@@ -679,7 +679,7 @@ Im Folgenden finden Sie ein Beispiel von [We.Retail](https://helpx.adobe.com/exp
 
 ## Dialogfeld „Bearbeiten“ {#edit-dialog}
 
-Because the component represents the entire page, settings that would normally be in an edit dialog are found in the [Page Properties](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-page-properties.html) window.
+Da die Komponente die gesamte Seite darstellt, befinden sich Einstellungen, die normalerweise in einem Dialogfeld „Bearbeiten“ enthalten wären, im Fenster [Seiteneigenschaften](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-page-properties.html).
 
 ## Dialogfeld „Design“ {#design-dialog}
 
@@ -693,13 +693,13 @@ Mit dem Fenster Seitendesign können Sie Client-seitige Bibliotheken definieren,
 * Um ein Feld zu entfernen, klicken oder tippen Sie neben dem Feld, das entfernt werden soll, auf das Papierkorbsymbol.
 * Um die Ladereihenfolge neu anzuordnen, klicken oder tippen Sie auf den Griff neben dem Feld, das verschoben werden soll, und ziehen Sie es.
 
-Weitere Informationen zur Verwendung clientseitiger Bibliotheken finden Sie unter [Verwenden clientseitiger Bibliotheken](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/clientlibs.html).
+Weitere Informationen zur Verwendung clientseitiger Bibliotheken finden Sie unter [Verwendung clientseitiger Bibliotheken](https://helpx.adobe.com/de/experience-manager/6-3/sites/developing/using/clientlibs.html).
 
 ![](/help/assets/chlimage_1-95.png)
 
 ## Technische Details {#technical-details}
 
-The latest technical documentation about the Page Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v1/page).
+Die aktuelle technische Dokumentation zur Seitenkomponente [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v1/page).
 
 Das gesamte Kernkomponentenprojekt kann von GitHub heruntergeladen werden.
 
