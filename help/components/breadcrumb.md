@@ -1,7 +1,7 @@
 ---
 title: Breadcrumb-Komponente
 description: Die Kernkomponente „Breadcrumb-Komponente“ ist eine Navigationskomponente, die einen Breadcrumb von Links basierend auf der Position der Seite in der Inhaltshierarchie erstellt.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ---
@@ -23,7 +23,7 @@ Die aktuelle Version der Breadcrumb-Komponente ist v2, die mit Version 2.0.0 der
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
-| Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM als Cloud Service |
+| Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |--- |---|
 | v2 | Kompatibel | Kompatibel | Kompatibel | Kompatibel |
 | [v1](v1/breadcrumb-v1.md) | Kompatibel | Kompatibel | Kompatibel | - |
@@ -32,15 +32,15 @@ Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in d
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-To experience the Breadcrumb Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_breadcrumb).
+Um die Breadcrumb-Komponente und Beispiele für die Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_breadcrumb).
 
 >[!NOTE]
 >
->As of Core Components release 2.1.0, the Breadcrumb Component supports [schema.org microdata](https://schema.org/BreadcrumbList).
+>Ab Version 2.1.0 der Kernkomponenten unterstützt die Breadcrumb-Komponente [schema.org-Mikrodaten](https://schema.org/BreadcrumbList).
 
 ## Technische Details {#technical-details}
 
-The latest technical documentation about the Breadcrumb Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_breadcrumb_v2).
+Die aktuelle technische Dokumentation zur Breadcrumb-Komponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_breadcrumb_v2).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
@@ -63,11 +63,11 @@ Das Dialogfeld „Bearbeiten“ ermöglicht es dem Inhaltsautor, ausgeblendete u
 
 Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Standardwerte für die Optionen festzulegen, um ausgeblendete und aktive Seiten in den Breadcrumbs zu unterdrücken, sowie die Tiefe der anzuzeigenden Hierarchie zu definieren.
 
-### Hauptregisterkarte {#main-tab}
+### Registerkarte „Allgemein“ {#main-tab}
 
 ![](/help/assets/screen_shot_2018-01-12at124437.png)
 
-* **Startebene für die Navigation** – Definiert den Standardwert, für den in der Hierarchie die Breadcrumb-Komponente aufgerufen werden soll, wenn die Breadcrumb-Komponente zu einer Seite hinzugefügt wird.
+* **Start-Level für die Navigation** – Definiert den Standardwert, für den in der Hierarchie die Breadcrumb-Komponente aufgerufen werden soll, wenn die Breadcrumb-Komponente zu einer Seite hinzugefügt wird.
 * **Verborgene Navigationselemente anzeigen** – Definiert den Standardwert der Option **Verborgene Navigationselemente anzeigen**, wenn der Seite die Breadcrumb-Komponente hinzugefügt wird.
 
    * Die Option für den Autor wird dadurch nicht aktiviert oder deaktiviert. Es wird nur der Standardwert festgelegt.
