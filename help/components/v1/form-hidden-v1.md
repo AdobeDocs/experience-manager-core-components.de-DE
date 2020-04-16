@@ -2,7 +2,7 @@
 title: Komponente für ausgeblendetes Formular (v1)
 description: Die Kernkomponente „Komponente für ausgeblendetes Formular“ ermöglicht die Anzeige eines ausgeblendeten Felds.
 index: n
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
 
 ---
@@ -37,7 +37,7 @@ In der folgenden Tabelle ist die Kompatibilität von v1 der Komponente für ausg
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Im Folgenden finden Sie ein Beispiel von [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+Im Folgenden finden Sie ein Beispiel von [We.Retail](https://helpx.adobe.com/de/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### HTML {#html}
 
@@ -95,7 +95,7 @@ Es gibt kein Dialogfeld „Design“ für die Komponente für ausgeblendetes For
 
 ## Technische Details {#technical-details}
 
-The latest technical documentation about the Form Hidden Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v1/hidden).
+Die neueste technische Dokumentation zur Komponente für ausgeblendetes Formular [finden Sie auf GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v1/hidden).
 
 Das gesamte Kernkomponentenprojekt kann von GitHub heruntergeladen werden.
 
