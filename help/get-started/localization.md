@@ -1,7 +1,7 @@
 ---
 title: Lokalisierungsfunktionen der Kernkomponenten
 description: Lokalisierungsfunktionen der Kernkomponenten
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 ---
@@ -17,7 +17,7 @@ Bei den meisten Sites ist eine Fußzeile erforderlich, die auf allen Seiten vorh
 
 Auf ähnliche Weise muss auch eine Navigationskomponente auf allen Seiten angezeigt werden. Diese muss aber auch den Inhalt der lokalisierten Seiten widerspiegeln.
 
-Mithilfe der Lokalisierungsfunktionen der [Navigations-Kernkomponente](/help/components/navigation.md) und der [Experience Fragment-Kernkomponente](/help/components/experience-fragment.md) sowie der [bearbeitbaren AEM-Vorlagen](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) ist dies ganz einfach. Das Beispiel könnte noch um die [Sprachnavigationskomponente](/help/components/language-navigation.md) erweitert werden.
+Mithilfe der Lokalisierungsfunktionen der [Navigations-Kernkomponente](/help/components/navigation.md) und der [Experience Fragment-Kernkomponente](/help/components/experience-fragment.md) sowie der [bearbeitbaren AEM-Vorlagen](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/features/templates.translate.html) ist dies ganz einfach. Das Beispiel könnte noch um die [Sprachnavigationskomponente](/help/components/language-navigation.md) erweitert werden.
 
 ## Die Inhaltsstruktur {#content-structure}
 
