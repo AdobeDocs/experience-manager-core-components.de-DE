@@ -1,7 +1,7 @@
 ---
-sub-product: AEM Core Components
-user-guide-title: AEM Core Components
-translation-type: tm+mt
+sub-product: AEM-Kernkomponenten
+user-guide-title: AEM-Kernkomponenten
+translation-type: ht
 source-git-commit: 2faa092a075ab0512e9bd5654884534936c0ad53
 
 ---
@@ -10,8 +10,8 @@ source-git-commit: 2faa092a075ab0512e9bd5654884534936c0ad53
 # Hilfe zu AEM-Kernkomponenten {#using}
 
 + [Einführung in Kernkomponenten](introduction.md)
-+ [Erfolgspfade](developing/success.md)
-+ [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library)
++ [Wege zum Erfolg](developing/success.md)
++ [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_de)
 + [Kernkomponenten-Versionen](versions.md)
 + Erste Schritte {#get-started}
    + [Authoring mit Kernkomponenten ](get-started/authoring.md)
@@ -61,7 +61,7 @@ source-git-commit: 2faa092a075ab0512e9bd5654884534936c0ad53
          + [Formulartext (v1)](components/v1/form-text-v1.md)
 + Entwickeln {#developing}
    + [Entwickeln von Kernkomponenten](developing/overview.md)
-   + [Erfolgspfade](developing/success.md)
+   + [Wege zum Erfolg](developing/success.md)
    + [WKND-Entwickler-Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [Anpassen der Kernkomponenten](developing/customizing.md)
    + [Komponentenrichtlinien](developing/guidelines.md)
