@@ -1,7 +1,7 @@
 ---
-title: Verwenden des AEM-Projektarchivs
-description: Detaillierte Gebrauchsanweisungen für den AEM-Projektarchiv
-translation-type: tm+mt
+title: Verwenden des AEM-Projektarchetyps
+description: Detaillierte Nutzungsanleitungen für den AEM-Projektarchetyp
+translation-type: ht
 source-git-commit: 477a1774a856725f52b9db7a978c534de4700661
 
 ---
@@ -67,14 +67,14 @@ mvn -B archetype:generate \
  -D includeExamples=n
 ```
 
-* Set `XX` to the [version number](https://github.com/adobe/aem-project-archetype/blob/master/VERSIONS.md) of the latest AEM Project Archetype.
-* Set `aemVersion=cloud` for [AEM as a Cloud Service](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/landing/home.translate.html);\
-   Wird `aemVersion=6.5.0` für [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)oder lokal eingestellt.
-Die Abhängigkeit der Kernkomponenten wird nur für Nicht-Cloud-AEM-Versionen hinzugefügt, da die Kernkomponenten OOTB für AEM als Cloud-Dienst bereitgestellt werden.
-* Passen Sie `appTitle="My Site"` die Definition des Website-Titels und der Komponenten-Gruppen an.
-* Passen Sie `appId="mysite"` die Definition von &quot;Maven artifactId&quot;, die Namen der Komponenten-, Konfigurations- und Inhaltsordner sowie die Namen der Client-Bibliothek an.
-* Passen Sie `groupId="com.mysite"` die Definition der Maven groupId und des Java Source-Pakets an.
-* Suchen Sie die Liste der verfügbaren Eigenschaften, um zu sehen, ob Sie mehr anpassen möchten.
+* Legen Sie `XX` auf die [Versionsnummer](https://github.com/adobe/aem-project-archetype/blob/master/VERSIONS.md) des neuesten AEM-Projektarchetyps fest.
+* Legen Sie `aemVersion=cloud` für [AEM as a Cloud Service](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/landing/home.translate.html) fest.\
+   Legen Sie `aemVersion=6.5.0` für [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) oder On-Premise fest.
+Die Abhängigkeit der Kernkomponenten wird nur für AEM-Versionen ohne Cloud Service hinzugefügt, da die Kernkomponenten für AEM as a Cloud Service standardmäßig bereitgestellt werden.
+* Passen Sie `appTitle="My Site"` an, um den Titel der Website und die Komponentengruppen festzulegen.
+* Passen Sie `appId="mysite"` an, um die Maven-Artefakt-ID (artifactId), die Namen der Komponenten-, Konfigurations- und Inhaltsordner sowie die Namen der Client-Bibliotheken festzulegen.
+* Passen Sie `groupId="com.mysite"` an, um die Maven-Gruppen-ID (groupId) und das Java-Quellpaket festzulegen.
+* Durchsuchen Sie die Liste der verfügbaren Eigenschaften, um festzustellen, ob Sie weitere anpassen möchten.
 
 >[!NOTE]
 >
@@ -88,20 +88,20 @@ Die folgenden Eigenschaften sind beim Erstellen eines Projekts mit dem Archetyp 
 
 | Name | Default | Beschreibung |
 --------------------------|----------------|--------------------
-| `appTitle` |  | Der Titel der Anwendung wird für den Titel der Website und für die Gruppen der Komponenten (z. `"My Site"`). |
-| `appId` |  | Technischer Name, wird für Komponenten-, Konfigurations- und Inhaltsordnernamen sowie Client-Bibliotheksnamen (z. `"mysite"`). |
-| `artifactId` | *`${appId}`* | Base Maven artifact ID (e.g. `"mysite"`). |
-| `groupId` |  | Base Maven group ID (e.g. `"com.mysite"`). |
-| `package` | *`${groupId}`* | Java Source Package (z. `"com.mysite"`). |
-| `version` | `1.0-SNAPSHOT` | Projektversion (z. `1.0-SNAPSHOT`). |
-| `aemVersion` | `6.5.0` | Zielgruppe AEM-Version (kann `cloud` für [AEM als Cloud-Dienst](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/landing/home.translate.html)verwendet werden; oder `6.5.0`, `6.4.4`oder `6.3.3` für [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) oder lokale Dienste). |
-| `sdkVersion` | `latest` | Wenn `aemVersion=cloud` eine [SDK](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) -Version angegeben werden kann (z. `2020.02.2265.20200217T222518Z-200130`). |
-| `includeDispatcherConfig` | `y` | Umfasst eine Dispatcher-Konfiguration für Cloud oder für AMS/On-Premise, je nach Wert von `aemVersion` (kann `y` oder `n`). |
-| `frontendModule` | `none` | Enthält ein WebPack-Frontend-Build-Modul, das die Client-Bibliotheken generiert (kann für normale Sites `general` oder `none` für normale Sites verwendet werden; kann `angular` oder `react` für eine Einzelseitenanwendung verwendet werden, die den [SPA-Editor](https://docs.adobe.com/content/help/en/experience-manager-65/developing/headless/spas/spa-overview.html)implementiert. |
-| `languageCountry` | `en_us` | Language and country code to create the content structure from (e.g. `en_us`). |
-| `singleCountry` | `y` | Umfasst eine Struktur für den Inhalt von SprachMaster (kann `y`oder `n`). |
-| `includeExamples` | `y` | Enthält eine Beispielsite für die [Komponentenbibliothek](https://www.aemcomponents.dev/) (kann `y`oder `n`). |
-| `includeErrorHandler` | `n` | Enthält eine benutzerdefinierte 404-Antwortseite, die für die gesamte Instanz global ist (kann `y` oder `n`). |
+| `appTitle` |  | Der Titel der App; wird für den Titel der Website und die Komponentengruppen verwendet (z. B. `"My Site"`). |
+| `appId` |  | Technischer Name; wird für Komponenten-, Konfigurations- und Inhaltsordnernamen sowie die Namen der Client-Bibliotheken verwendet (z. B. `"mysite"`). |
+| `artifactId` | *`${appId}`* | Maven-Basisartefakt-ID (z. B. `"mysite"`). |
+| `groupId` |  | Maven-Basisgruppen-ID (z. B. `"com.mysite"`). |
+| `package` | *`${groupId}`* | Java-Quellpaket (z. B. `"com.mysite"`). |
+| `version` | `1.0-SNAPSHOT` | Projektversion (z. B. `1.0-SNAPSHOT`). |
+| `aemVersion` | `6.5.0` | Ziel-AEM-Version (kann `cloud` für [AEM as a Cloud Service](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/landing/home.translate.html) sein; oder `6.5.0`, `6.4.4` oder `6.3.3` für [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) oder On-Premise). |
+| `sdkVersion` | `latest` | Wenn `aemVersion=cloud`, dann kann eine [SDK](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html)-Version angegeben werden (z. B. `2020.02.2265.20200217T222518Z-200130`). |
+| `includeDispatcherConfig` | `y` | Enthält eine Dispatcher-Konfiguration für Cloud oder für AMS/On-Premise, je nach dem Wert von `aemVersion` (kann `y` oder `n` sein). |
+| `frontendModule` | `none` | Enthält ein WebPack-Frontend-Build-Modul, das die Client-Bibliotheken generiert (kann `general` oder `none` für reguläre Websites sein; kann `angular` oder `react` für eine Single Page App sein, die den [SPA-Editor](https://docs.adobe.com/content/help/de-DE/experience-manager-65/developing/headless/spas/spa-overview.html) implementiert). |
+| `languageCountry` | `en_us` | Sprach- und Länder-Code zur Erstellung der Inhaltsstruktur (z. B. `en_us`). |
+| `singleCountry` | `y` | Enthält eine Inhaltsstruktur für den Sprach-Master (kann `y`oder `n` sein). |
+| `includeExamples` | `y` | Enthält eine Beispiel-Website für die [Komponentenbibliothek](https://www.aemcomponents.dev/) (kann `y` oder `n` sein). |
+| `includeErrorHandler` | `n` | Enthält eine benutzerdefinierte 404-Antwortseite, die für die gesamte Instanz global ist (kann `y` oder `n` sein). |
 
 >[!NOTE]
 > Wenn der Archetyp zum ersten Mal im interaktiven Modus ausgeführt wird, können Eigenschaften mit Standardwerten nicht geändert werden (weitere Informationen finden Sie unter [ARCHETYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) ). Der Wert kann geändert werden, wenn die Eigenschaftsbestätigung am Ende verweigert und der Fragebogen wiederholt wird oder indem der Parameter in der Befehlszeile (z. `-DoptionIncludeExamples=n`).
