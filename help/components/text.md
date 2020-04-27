@@ -1,7 +1,7 @@
 ---
 title: Textkomponente
 description: Die Textkomponente ist eine Komponente zur Bearbeitung und Zusammensetzung von Rich-Texten, die eine direkte Bearbeitung ermöglicht.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4df8e147fc9d0151c3a211473b067c78b807e52e
 
 ---
@@ -32,11 +32,11 @@ Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in d
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Um die Textkomponente sowie Beispiele für die Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_text).
+Um die Textkomponente sowie Beispiele für die Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_text_de).
 
 ### Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Textkomponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_text_v2).
+Die aktuelle technische Dokumentation zur Textkomponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_text_v2_de).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
@@ -172,7 +172,7 @@ Wenn eine Übereinstimmung gefunden wird, wird sie hervorgehoben und das Suchdia
 
 Wählen Sie **Alle ersetzen** aus, um alle Vorkommen des Texts gleichzeitig zu ersetzen.
 
-Bei Verwendung der Funktion zum Ersetzen sollte die zu ersetzende Zeichenfolge gleichzeitig mit der Zeichenfolge Suchen eingegeben werden. Sie können jedoch noch auf Suchen klicken, um nach der Zeichenfolge zu suchen, bevor Sie sie ersetzen. Wenn die Zeichenfolge zum Ersetzen eingegeben wird, nachdem auf Suchen geklickt wurde, wird die Suche auf den Anfang des Textes zurückgesetzt.
+Bei Verwendung der Funktion zum Ersetzen sollte die Zeichenfolge zum Ersetzen gleichzeitig mit der Suchzeichenfolge eingegeben werden. Sie können jedoch weiterhin auf „Suchen“ klicken, um nach der Zeichenfolge zu suchen, bevor Sie sie ersetzen. Wenn die Zeichenfolge zum Ersetzen eingegeben wird, nachdem auf „Suchen“ geklickt wurde, wird die Suche auf den Anfang des Textes zurückgesetzt.
 
 Das Dialogfeld „Suchen und ersetzen“ wird transparent, wenn auf „Suchen“ geklickt wird, und undurchsichtig, wenn auf „Ersetzen“ geklickt wird. Dadurch kann der Autor den Text überprüfen, den der Autor ersetzen wird.
 
