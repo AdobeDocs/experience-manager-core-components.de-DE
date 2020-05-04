@@ -1,8 +1,8 @@
 ---
 title: Verwenden des AEM-Projektarchetyps
 description: Detaillierte Nutzungsanleitungen für den AEM-Projektarchetyp
-translation-type: ht
-source-git-commit: 477a1774a856725f52b9db7a978c534de4700661
+translation-type: tm+mt
+source-git-commit: 0d8089c53d2ef95e88379e6f381738cd137e6b33
 
 ---
 
@@ -166,9 +166,9 @@ Diese Eigenschaften sind für die Bereitstellung auf einer lokalen AEM-Instanz e
 
 Diese Eigenschaften werden so eingerichtet, dass sie bei der Bereitstellung in Umgebungen mit höherer Ebene überschrieben werden können. Auf diese Weise müssen sich die POM-Dateien nicht ändern, aber Variablen wie `aem.host` `sling.password` und können über Befehlszeilenargumente überschrieben werden:
 
-````
+```
 mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.password=productionpasswd
-````
+```
 
 ### Modulstruktur {#module-structure}
 
