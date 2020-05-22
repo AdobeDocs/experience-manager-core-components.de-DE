@@ -1,7 +1,7 @@
 ---
 title: Einführung in Kernkomponenten
 description: 'Kernkomponenten wurden eingeführt, um robuste und erweiterbare Basiskomponenten bereitzustellen, die auf aktueller Technologie und Best Practices basieren. '
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c6e27c163f72fd66336e8db883144dc4dd60510
 
 ---
@@ -27,19 +27,19 @@ Die Kernkomponenten sind eine Reihe standardisierter Web-Content-Management-Komp
 
 |  |  |
 |---|---|
-| Produktionsbereit | Die Core-Komponenten sind 27 robuste Komponenten, die gut getestet, weit verbreitet und gut funktionieren. |
-| Cloud-bereit | Whether on [AEM as a Cloud Service](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/landing/home.translate.html), on [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams), or on-premise, they just work. |
+| Produktionsbereit | Die Kernkomponenten sind 27 robuste Komponenten, die gut getestet und weit verbreitet sind und eine gute Leistung erbringen. |
+| Cloud-fähig | Ob in [AEM as a Cloud Service](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/landing/home.translate.html), in [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) oder On-Premise – sie funktionieren einfach. |
 | Vielseitig | Die Komponenten stellen allgemeine Konzepte dar, mit denen die Autoren nahezu jedes Layout zusammenstellen können. |
-| Konfigurierbar | Template-level [content policies](https://docs.adobe.com/content/help/de-DE/experience-manager-65/developing/platform/templates/page-templates-editable.html#content-policies) define which features the page authors are allowed to use or not use. |
-| Barrierefrei | They comply [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), provide ARIA labels, and support keyboard navigation ([known issues](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)). |
-| SEO-freundlich | The HTML output is semantic and provides [schema.org](https://schema.org) microdata annotations. |
-| WebApp-bereit | The [streamlined JSON output](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) allows client-side rendering, still with a possibility of [in-context editing](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html). |
-| Designkit | A [UI kit for Adobe XD](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_Wireframe.xd) allows designers to create wireframes that they can then [style as needed](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_WKND.xd). |
-| Themable | The components implement the [Style System](https://docs.adobe.com/content/help/de-DE/experience-manager-65/developing/components/style-system.html), and the markup follows [BEM CSS conventions](http://getbem.com/). |
-| Anpassbar | Several patterns allow [easy customization](developing/customizing.md), from adjusting the HTML to advanced functionality reuse. |
-| Versionierung | The [versioning policy](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) ensures that the Core Components won&#39;t break your site when improving things that might impact you. |
-| Lokalisierbar | Smart reference resolution allows certain components to find and [render corresponding localized content automatically](get-started/localization.md). |
-| Open Sourcing | If something is not as it should, [contribute your improvements!](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) |
+| Konfigurierbar | [Inhaltsrichtlinien](https://docs.adobe.com/content/help/de-DE/experience-manager-65/developing/platform/templates/page-templates-editable.html#content-policies) auf Vorlagenebene definieren, welche Funktionen die Seitenautoren verwenden dürfen oder nicht. |
+| Barrierefrei | Sie erfüllen [WCAG 2.1-Standards](https://www.w3.org/TR/WCAG21/), bieten ARIA-Beschriftungen und unterstützen die Tastennavigation ([bekannte Probleme](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)). |
+| SEO-freundlich | Die HTML-Ausgabe ist schematisch und stellt [schema.org](https://schema.org)-Mikrodatenanmerkungen bereit. |
+| WebApp-fähig | Die [optimierte JSON-Ausgabe](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) ermöglicht das Client-seitige Rendern, wobei die [kontextbezogene Bearbeitung](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html) weiterhin möglich ist. |
+| Design-Kit | Mit einem [Benutzeroberflächen-Kit für Adobe XD](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_Wireframe.xd) können Designer Wireframes erstellen, die sie dann [nach Bedarf formatieren](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_WKND.xd) können. |
+| Themen-fähig | Die Komponenten implementieren das [Stilsystem](https://docs.adobe.com/content/help/de-DE/experience-manager-65/developing/components/style-system.html) und das Markup folgt den [BEM-CSS-Konventionen](http://getbem.com/). |
+| Anpassbar | Verschiedene Muster ermöglichen eine [einfache Anpassung](developing/customizing.md), von der Anpassung des HTML-Codes bis hin zur Wiederverwendung erweiterter Funktionen. |
+| Versionierung | Die [Versionierungsrichtlinie](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) stellt sicher, dass die Kernkomponenten Ihre Website nicht beschädigen, wenn Funktionen verbessert werden, die sich auf Sie auswirken könnten. |
+| Lokalisierbar | Mit der intelligenten Referenzauflösung ist es bestimmten Komponenten möglich, [entsprechende lokalisierte Inhalte automatisch zu finden und anzuzeigen](get-started/localization.md). |
+| Open Source | Wenn etwas nicht so ist, wie es sein sollte, [bringen Sie Ihre Verbesserungen ein!](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) |
 
 ## Die Komponenten {#the-components}
 
