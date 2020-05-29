@@ -2,10 +2,10 @@
 title: Einführung in Kernkomponenten
 description: 'Kernkomponenten wurden eingeführt, um robuste und erweiterbare Basiskomponenten bereitzustellen, die auf aktueller Technologie und Best Practices basieren. '
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: c07dc21b1973ec541a1d96047f8a30aca8cfb886
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 100%
+source-wordcount: '841'
+ht-degree: 97%
 
 ---
 
@@ -20,6 +20,7 @@ Die Kernkomponenten sind eine Reihe standardisierter Web-Content-Management-Komp
 
 * **[Komponentenbibliothek:](https://www.adobe.com/go/aem_cmp_library_de)**Eine Sammlung von Beispielen zum Anzeigen der Komponenten in ihren verschiedenen Konfigurationen.
 * **Komponentendokumentation (dieses Dokument):** Für Entwickler und Autoren mit Details zu den einzelnen Komponenten.
+* **[Hauptkomponenten GitHub-Repository:](https://github.com/adobe/aem-core-wcm-components)**Für Details zum Entwickler zu den einzelnen Komponenten und zum Projektdownload.
 * Erste Schritte:
    * **[Erfolg mit den Kernkomponenten:](/help/developing/success.md)**Richtlinien, die rechtzeitig vor Beginn eines Projekts zu berücksichtigen sind, bei dem die Kernkomponenten verwendet werden.
    * **[WKND-Tutorial:](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)**Ein zweitägiges Tutorial zum Erstellen einer neuen Website.
@@ -43,6 +44,7 @@ Die Kernkomponenten sind eine Reihe standardisierter Web-Content-Management-Komp
 | Versionierung | Die [Versionierungsrichtlinie](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) stellt sicher, dass die Kernkomponenten Ihre Website nicht beschädigen, wenn Funktionen verbessert werden, die sich auf Sie auswirken könnten. |
 | Lokalisierbar | Mit der intelligenten Referenzauflösung ist es bestimmten Komponenten möglich, [entsprechende lokalisierte Inhalte automatisch zu finden und anzuzeigen](get-started/localization.md). |
 | Open Source | Wenn etwas nicht so ist, wie es sein sollte, [bringen Sie Ihre Verbesserungen ein!](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) |
+| verfolgbar | Hauptkomponenten sind in die Adobe Client Data Layer [integriert.](/help/developing/data-layer/overview.md) |
 
 ## Die Komponenten {#the-components}
 
