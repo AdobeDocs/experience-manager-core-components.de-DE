@@ -1,8 +1,11 @@
 ---
 title: Formularschaltflächen-Komponente
 description: Die Kernkomponente „Komponente für ausgeblendetes Formular“ ermöglicht die Einbeziehung eines ausgeblendeten Felds in ein Formular.
-translation-type: ht
-source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '414'
+ht-degree: 81%
 
 ---
 
@@ -25,7 +28,7 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 
 | Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |--- |---|
-| v2 | Kompatibel | Kompatibel | Kompatibel | Kompatibel |
+| v2 | - | Kompatibel | Kompatibel | Kompatibel |
 | [v1](/help/components/v1/form-button-v1.md) | Kompatibel | Kompatibel | Kompatibel | - |
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
@@ -46,7 +49,7 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 
 ### Registerkarte „Eigenschaften“{#properties-tab}
 
-![](/help/assets/screen_shot_2018-01-12at120433.png)
+![Dialogfeld &quot;Bearbeiten&quot;der Schaltfläche &quot;Formular&quot;](/help/assets/form-button-edit.png)
 
 * **Typ**
 
@@ -59,6 +62,11 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 
 * **Name** - Der Name der Schaltfläche, der mit den Formulardaten übermittelt wird.
 * **Wert** - Der Wert der Schaltfläche, der mit den Formulardaten übermittelt wird.
+
+* **ID** - Diese Option ermöglicht die Steuerung des eindeutigen Bezeichners der Komponente im HTML und in der [Datenschicht](/help/developing/data-layer/overview.md).
+   * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert und Sie können die resultierende Seite überprüfen.
+   * Wenn eine ID angegeben wird, muss der Autor sicherstellen, dass sie eindeutig ist.
+   * Eine Änderung der ID kann sich auf die Verfolgung von CSS, JS und Datenschichten auswirken.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
