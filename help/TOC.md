@@ -2,10 +2,10 @@
 sub-product: AEM-Kernkomponenten
 user-guide-title: AEM-Kernkomponenten
 translation-type: tm+mt
-source-git-commit: afd846b1f124ac9b326e59ff71b145f7b9efeb11
+source-git-commit: c07dc21b1973ec541a1d96047f8a30aca8cfb886
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 90%
+source-wordcount: '181'
+ht-degree: 91%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 90%
    + [WKND-Entwickler-Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [Anpassen der Kernkomponenten](developing/customizing.md)
    + [Komponentenrichtlinien](developing/guidelines.md)
-   + [Verwenden der Adobe Client-Datenschicht]{#data-layer}
+   + Adobe Client-Datenschicht {#data-layer}
       + [Hauptkomponenten und Adobe Client-Datenschicht](developing/data-layer/overview.md)
       + [Integration mit Adobe Launch](developing/data-layer/launch-integration.md)
       + [Integration in Adobe Analytics](developing/data-layer/analytics-integration.md)
