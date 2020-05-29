@@ -1,13 +1,16 @@
 ---
 title: Registerkarten-Komponente
 description: Die Registerkarten-Komponente ermöglicht die Erstellung mehrerer Registerkarten zum Anordnen von Inhalten auf einer Seite.
-translation-type: ht
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '1026'
+ht-degree: 78%
 
 ---
 
 
-# Registerkarten-Komponente
+# Registerkarten-Komponente {#tabs-component}
 
 Die Kernkomponente Registerkarten-Komponente ermöglicht die Organisation von Inhalten auf mehrere Registerkarten.
 
@@ -17,11 +20,25 @@ Mit der Registerkarten-Komponente kann der Inhaltsautor Seiteninhalte über mehr
 
 Im [Dialogfeld „Bearbeiten“](#edit-dialog) kann der Inhaltsautor mehrere Registerkarten definieren sowie die aktive Registerkarte festlegen. Mithilfe des [Dialogfelds „Design“](#design-dialog) kann der Vorlagenautor definieren, welche Komponenten zu Registerkarten hinzugefügt werden können, und die Stile anpassen.
 
->[!NOTE]
+>[!TIP]
 >
 >Verschachtelte Registerkarten-Komponenten (Registerkarten innerhalb Registerkarten) werden unterstützt.
 >
 >Einfache (nicht verschachtelte) Registerkarten-Komponenten können mithilfe des [Inhaltsbaums](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.translate.html#content-tree) lokalisiert/ausgewählt werden, verschachtelte Registerkarten jedoch nicht.
+
+## Deep Linking to a Panel {#deep-linking}
+
+Die Registerkarten- und [Akkordeon-Komponenten](accordion.md) unterstützen die direkte Verknüpfung zu einem Bereich innerhalb der Komponente.
+
+Gehen Sie hierfür wie folgt vor:
+
+1. Ansicht der Seite mit der Komponente mithilfe der Option &quot; **[Ansicht als veröffentlicht](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/authoring/editing-content.html#view-as-published)**&quot;im Seiteneditor.
+1. Überprüfen Sie den Inhalt der Seite und identifizieren Sie die ID des Bereichs.
+   * Beispiel `id="accordion-86196c94d3-item-ca319dbb0b"`
+1. Die ID wird der Anker, den Sie mit einem Hash (`#`) an die URL anhängen können.
+   * Beispiel `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
+
+Wenn der Browser mit der Bedienfeld-ID als Anker zur URL navigiert, wird er direkt zur jeweiligen Komponente blättern und das angegebene Bedienfeld anzeigen. Wenn das Bedienfeld so konfiguriert ist, dass es standardmäßig nicht erweitert wird, wird es automatisch erweitert.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
@@ -29,9 +46,9 @@ Die aktuelle Version der Registerkarten-Komponente ist v1, die mit Version 2.2.0
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
-| Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |--- |---|
-| v1 | Kompatibel | Kompatibel | Kompatibel | Kompatibel |
+| Komponentenversion | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |--- |---|
+| v1 | Kompatibel | Kompatibel | Kompatibel |
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
 
@@ -51,7 +68,7 @@ Im Dialogfeld „Bearbeiten“ kann der Inhaltsautor Registerkarten erstellen, u
 
 ### Registerkarte „Elemente“ {#items-tab}
 
-![](/help/assets/screen-shot-2019-08-29-12.28.16.png)
+![Registerkarte &quot;Elemente im Dialogfeld &quot;Bearbeiten&quot;der Tabulatorkomponente](/help/assets/tabs-edit-items.png)
 
 Verwenden Sie die Schaltfläche **Hinzufügen**, um die Komponentenauswahl zu öffnen und dort auszuwählen, welche Komponente als Registerkarte hinzugefügt werden soll. Nach dem Hinzufügen wird der Liste ein Eintrag hinzugefügt, der die folgenden Spalten enthält:
 
@@ -64,15 +81,20 @@ Verwenden Sie die Schaltfläche **Hinzufügen**, um die Komponentenauswahl zu ö
 >
 >Wenn der Viewport der Seite so reduziert wird, dass das Bearbeitungsdialogfeld im Vollbildmodus angezeigt wird, ist die Schaltfläche **Hinzufügen** ausgeblendet. Sie können der Registerkarten-Komponente weiterhin Komponenten hinzufügen, indem Sie sie [per Drag-and-Drop aus dem Komponenten-Browser ziehen und im Seiteneditor auf der Registerkarten-Komponente ablegen](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.translate.html#inserting-a-component).
 
-### Registerkarte „Eigenschaften“{#properties-tab}
+### Registerkarte „Eigenschaften“ {#properties-tab}
 
-![](/help/assets/screen-shot-2019-08-29-12.28.32.png)
+![Eigenschaften des Dialogfelds &quot;Bearbeiten&quot; der Tabulatorkomponente](/help/assets/tabs-edit-properties.png)
 
-Auf der Registerkarte **Eigenschaften** kann der Inhaltsautor definieren, welche Registerkarte aktiv ist, wenn die Seite geladen wird. Mit der Option **Standard** wird die erste Registerkarte ausgewählt.
+* **Aktives Element** - Der Inhaltsautor kann definieren, welche Registerkarte aktiv ist, wenn die Seite geladen wird.
+   * Mit der Option **Standard** wird die erste Registerkarte ausgewählt.
+* **ID** - Diese Option ermöglicht die Steuerung des eindeutigen Bezeichners der Komponente im HTML und in der [Datenschicht](/help/developing/data-layer/overview.md).
+   * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert und Sie können die resultierende Seite überprüfen.
+   * Wenn eine ID angegeben wird, muss der Autor sicherstellen, dass sie eindeutig ist.
+   * Eine Änderung der ID kann sich auf die Verfolgung von CSS, JS und Datenschichten auswirken.
 
 ### Registerkarte „Barrierefreiheit“ {#accessibility-tab}
 
-![](/help/assets/screen-shot-2019-08-29-12.28.40.png)
+![Registerkarte &quot;Barrierefreiheit&quot;des Dialogfelds &quot;Bearbeiten&quot;der Tabulatorkomponente](/help/assets/tabs-edit-accessibility.png)
 
 Auf der Registerkarte **Barrierefreiheit** können Werte für die [ARIA-Barrierefreiheits-Bezeichungen](https://www.w3.org/WAI/standards-guidelines/aria/) für die Komponente festgelegt werden.
 
@@ -82,14 +104,14 @@ Auf der Registerkarte **Barrierefreiheit** können Werte für die [ARIA-Barriere
 
 Der Inhaltsautor kann in der Komponenten-Symbolleiste die Option **Bedienfeld auswählen** verwenden, um zu einem anderes Bedienfeld zu wechseln, um es zu bearbeiten, und auch um die Reihenfolge der Registerkarten einfach zu ändern.
 
-![](/help/assets/screenshot_2018-10-11at165417.png)
+![Bedienfeldsymbol auswählen](/help/assets/select-panel-icon.png)
 
 Nach Auswahl der Option **Bedienfeld auswählen** in der Komponenten-Symbolleiste werden die konfigurierten Registerkarten als Dropdown-Liste angezeigt.
 
 * Die Liste wird im Sinne der zugewiesenen Anordnung der Registerkarten geordnet, was sich auch in der Nummerierung zeigt.
 * Der Komponententyp der Registerkarte wird zuerst angezeigt, gefolgt von der Beschreibung der Registerkarte in hellerer Schriftart.
 
-![](/help/assets/screenshot_2018-10-11at165154.png)
+![Bedienfeld-Popup auswählen](/help/assets/select-panel-popover.png)
 
 * Durch Tippen oder Klicken auf einen Eintrag in der Dropdown-Liste wird die Ansicht im Editor auf diese Registerkarte verschoben.
 * Die Registerkarten können direkt mithilfe der Ziehgriffe neu angeordnet werden.
