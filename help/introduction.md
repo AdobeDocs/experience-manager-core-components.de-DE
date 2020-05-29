@@ -1,8 +1,11 @@
 ---
 title: Einführung in Kernkomponenten
 description: 'Kernkomponenten wurden eingeführt, um robuste und erweiterbare Basiskomponenten bereitzustellen, die auf aktueller Technologie und Best Practices basieren. '
-translation-type: ht
-source-git-commit: 1c6e27c163f72fd66336e8db883144dc4dd60510
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '813'
+ht-degree: 100%
 
 ---
 
@@ -27,7 +30,7 @@ Die Kernkomponenten sind eine Reihe standardisierter Web-Content-Management-Komp
 
 |  |  |
 |---|---|
-| Produktionsbereit | Die Kernkomponenten sind 27 robuste Komponenten, die gut getestet und weit verbreitet sind und eine gute Leistung erbringen. |
+| Produktionsbereit | Die Kernkomponenten sind 28 robuste Komponenten, die gut getestet und weit verbreitet sind und eine gute Leistung erbringen. |
 | Cloud-fähig | Ob in [AEM as a Cloud Service](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/landing/home.translate.html), in [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) oder On-Premise – sie funktionieren einfach. |
 | Vielseitig | Die Komponenten stellen allgemeine Konzepte dar, mit denen die Autoren nahezu jedes Layout zusammenstellen können. |
 | Konfigurierbar | [Inhaltsrichtlinien](https://docs.adobe.com/content/help/de-DE/experience-manager-65/developing/platform/templates/page-templates-editable.html#content-policies) auf Vorlagenebene definieren, welche Funktionen die Seitenautoren verwenden dürfen oder nicht. |
@@ -68,6 +71,7 @@ Die aktuelle Version der Kernkomponenten enthält die folgenden Komponenten.
 * [Einbetten](components/embed.md)
 * [Freigabe in Social Media](components/sharing.md)
 * [Trennzeichen](components/separator.md)
+* [Fortschrittsleiste](components/progress-bar.md)
 
 ### Container-Komponenten {#container-components}
 
@@ -96,9 +100,9 @@ Die aktuelle Version der Kernkomponenten enthält die folgenden Komponenten.
 
 ## Systemanforderungen {#system-requirements}
 
-| Kernkomponenten | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | AEM 6.3 | Java SE | Maven |
----------|---------|---------|---------|---------|---------|---------
-| [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | Kontinuierlich | 6.5.0.0+ | 6.4.4.0+ | 6.3.3.4+ | 8, 11 | 3.3.9+ |
+| Kernkomponenten | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven |
+---------|---------|---------|---------|---------|---------
+| [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | Kontinuierlich | 6.5.0.0+ | 6.4.4.0+ | 8, 11 | 3.3.9+ |
 
 Die Anforderungen aus früheren Kernkomponenten-Versionen finden Sie unter [Kernkomponenten-Versionen](versions.md).
 
