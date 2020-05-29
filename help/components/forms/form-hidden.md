@@ -1,8 +1,11 @@
 ---
 title: Komponente für ausgeblendetes Formular
 description: Die Kernkomponente „Komponente für ausgeblendetes Formular“ ermöglicht die Anzeige eines ausgeblendeten Felds.
-translation-type: ht
-source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '430'
+ht-degree: 78%
 
 ---
 
@@ -25,7 +28,7 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 
 | Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |--- |---|
-| v2 | Kompatibel | Kompatibel | Kompatibel | Kompatibel |
+| v2 | - | Kompatibel | Kompatibel | Kompatibel |
 | [v1](/help/components/v1/form-hidden-v1.md) | Kompatibel | Kompatibel | Kompatibel | - |
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
@@ -44,19 +47,21 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 
 Über das Dialogfeld „Konfigurieren“ kann der Inhaltsautor die Parameter des ausgeblendeten Felds definieren.
 
-![](/help/assets/chlimage_1-26.png)
+![Dialogfeld für ausgeblendete Formulare](/help/assets/form-hidden-edit.png)
 
-* **Name**
-Der Name des mit den Formulardaten gesendeten Felds
-* **Wert**
-Der Wert des mit den Formulardaten gesendeten Felds
-* **Kennung**
-Die Kennung muss auf der Seite eindeutig sein und kann genutzt werden, um Skripte in dieses Formularfeld einzubinden.
+* **Name** - Der Name des mit den Formulardaten gesendeten Felds
+* **Wert** - Der Wert des mit den Formulardaten gesendeten Felds
+* **ID** - Diese Option ermöglicht die Steuerung des eindeutigen Bezeichners der Komponente im HTML und in der [Datenschicht](/help/developing/data-layer/overview.md).
+   * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert und Sie können die resultierende Seite überprüfen.
+   * Wenn eine ID angegeben wird, muss der Autor sicherstellen, dass sie eindeutig ist.
+   * Eine Änderung der ID kann sich auf die Verfolgung von CSS, JS und Datenschichten auswirken.
 
 Da die Komponente für ausgeblendetes Formular normalerweise keine sichtbaren Attribute aufweist, zeigt der Platzhalter der Komponente im Editor die Feldwerte **Name** und **Wert** an, wenn sie zugewiesen werden, um dem Autor zu helfen, die passende Komponente für ausgeblendetes Formular zu identifizieren.
 
-![](/help/assets/screenshot_2018-10-19at094927.png)
+![Beispiel für eine ausgeblendete Komponente des Formulars](/help/assets/form-hidden-example.png)
 
 ## Dialogfeld „Design“ {#design-dialog}
 
-Es gibt kein Dialogfeld „Design“ für die Komponente für ausgeblendetes Formular.
+### Registerkarte „Stile“ {#styles-tab}
+
+The Form Hidden Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
