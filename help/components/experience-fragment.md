@@ -1,8 +1,11 @@
 ---
 title: Experience Fragment-Komponente
 description: Mit der Experience Fragment-Komponente kann der Inhaltsautor einer Seite eine Experience Fragment-Variation hinzufügen.
-translation-type: ht
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '816'
+ht-degree: 89%
 
 ---
 
@@ -40,7 +43,7 @@ Nehmen wir an, dass Ihr Inhalt wie folgt aussieht:
 ```
 /content
 +-- experience-fragments
-   \-- we-retail
+   \-- wknd
       +-- language-masters
       +-- us
          +-- en
@@ -59,7 +62,7 @@ Nehmen wir an, dass Ihr Inhalt wie folgt aussieht:
          \-- it
             +-- footerTextXf
             \-- headerTextXf
-+-- we-retail
++-- wknd
    +-- language-masters
    +-- us
       +-- en
@@ -72,11 +75,11 @@ Nehmen wir an, dass Ihr Inhalt wie folgt aussieht:
 \-- wknd-shop
 ```
 
-Beachten Sie, dass sich die Struktur unter `/content/experience-fragments/we-retail` auf die Struktur von `/content/we-retail` auswirkt.
+Beachten Sie, dass sich die Struktur unter `/content/experience-fragments/wknd` auf die Struktur von `/content/wknd` auswirkt.
 
-Wenn die Experience Fragment-Komponente `/content/experience-fragments/we-retail/us/en/footerTextXf` in einer Vorlage platziert wird, rendern die lokalisierten Seiten, die basierend auf dieser Vorlage erstellt wurden, automatisch das lokalisierte Experience Fragment, welches der lokalisierten Inhaltsseite entspricht.
+Wenn die Experience Fragment-Komponente `/content/experience-fragments/wknd/us/en/footerTextXf` in einer Vorlage platziert wird, rendern die lokalisierten Seiten, die basierend auf dieser Vorlage erstellt wurden, automatisch das lokalisierte Experience Fragment, welches der lokalisierten Inhaltsseite entspricht.
 
-Wenn Sie also zu einer Inhaltsseite unter `/content/we-retail/ch/de` navigieren, welche dieselbe Vorlage verwendet, wird `/content/experience-fragments/we-retail/ch/de/footerTextXf` anstatt von `/content/experience-fragments/we-retail/us/en/footerTextXf` gerendert.
+Wenn Sie also zu einer Inhaltsseite unter `/content/wknd/ch/de` navigieren, welche dieselbe Vorlage verwendet, wird `/content/experience-fragments/wknd/ch/de/footerTextXf` anstatt von `/content/experience-fragments/wknd/us/en/footerTextXf` gerendert.
 
 ### Notfallversorgung {#fallback}
 
@@ -93,9 +96,9 @@ Die aktuelle Version der Experience Fragment-Komponente ist v1. Sie wurde mit Ve
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
-| Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|---|
-| v1 | Kompatibel | Kompatibel | Kompatibel | Kompatibel |
+| Komponentenversion | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |---|---|
+| v1 | Kompatibel | Kompatibel | Kompatibel |
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
 
@@ -113,16 +116,22 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 
 Das Dialogfeld „Konfigurieren“ ermöglicht dem Inhaltsautor die Auswahl der Experience Fragment-Variation, die auf der Seite gerendert werden soll.
 
-![](/help/assets/screen-shot-2019-08-23-10.49.21.png)
+![Dialogfeld &quot;Bearbeiten&quot;der Erlebnisfragment-Komponente](/help/assets/experience-fragment-edit.png)
 
 Verwenden Sie die Schaltfläche **Auswahldialog öffnen**, um die Komponentenauswahl zu öffnen und auszuwählen, welche Variation der Experience Fragment-Komponente zur Inhaltsseite hinzugefügt werden soll.
 
 Wenn Sie die Experience Fragment-Komponente zu einer Vorlage hinzufügen, wird sie automatisch lokalisiert, sofern die Experience Fragments lokalisiert sind. Was auf der Seite gerendert wird, kann sich daher von der Komponente unterscheiden, die Sie explizit auswählen. Weitere Informationen finden Sie im [oben stehenden Beispiel](#example).
 
+Sie können auch eine **ID** definieren. Diese Option ermöglicht die Steuerung des eindeutigen Bezeichners der Komponente im HTML und in der [Datenschicht](/help/developing/data-layer/overview.md).
+
+* Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert und Sie können die resultierende Seite überprüfen.
+* Wenn eine ID angegeben wird, muss der Autor sicherstellen, dass sie eindeutig ist.
+* Eine Änderung der ID kann sich auf die Verfolgung von CSS, JS und Datenschichten auswirken.
+
 ## Dialogfeld „Design“ {#design-dialog}
 
 Über das Dialogfeld „Design“ kann der Vorlagenautor die Optionen definieren, die dem Inhaltsautor zur Verfügung stehen, der die Experience Fragment-Komponente verwendet, sowie auch die Standardeinstellungen, die beim Platzieren der Experience Fragment-Komponente festgelegt wurden.
 
-![](/help/assets/screen-shot-2019-08-23-10.48.36.png)
+### Registerkarte „Stile“ {#styles-tab}
 
 Die Experience Fragment-Komponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
