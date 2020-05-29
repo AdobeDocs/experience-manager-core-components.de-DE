@@ -1,8 +1,11 @@
 ---
 title: Teaser-Komponente
 description: Die Teaser-Komponente kann ein Bild, einen Titel, Rich-Text und optional einen Link zu weiteren Inhalten anzeigen.
-translation-type: ht
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '751'
+ht-degree: 64%
 
 ---
 
@@ -23,9 +26,9 @@ Die aktuelle Version der Teaser-Komponente ist v1, die mit Version 2.1.0 der Ker
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
-| Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|---|---|
-| v1 | Kompatibel | Kompatibel | Kompatibel | Kompatibel |
+| Komponentenversion | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|---|---|---|---|
+| v1 | Kompatibel | Kompatibel | Kompatibel |
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
@@ -43,7 +46,7 @@ Der Inhaltsautor kann das Dialogfeld „Konfigurieren“ verwenden, um die Eigen
 
 ### Bild{#image}
 
-![](/help/assets/screen_shot_2018-07-03at104125.png)
+![Registerkarte &quot;Bearbeitungsdialogfeld&quot;der Teaser-Komponente](/help/assets/teaser-edit-image.png)
 
 * **Bild-Asset**
    * Ziehen Sie ein Asset aus dem [Asset-Browser](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.translate.html) oder tippen Sie auf die Option **Durchsuchen**, um es von einem lokalen Dateisystem hochzuladen.
@@ -52,25 +55,24 @@ Der Inhaltsautor kann das Dialogfeld „Konfigurieren“ verwenden, um die Eigen
 
 ### Text {#text}
 
-![](/help/assets/screen_shot_2018-07-03at104138.png)
+![Registerkarte &quot;Dialogfeld bearbeiten&quot;der Teaser-Komponente](/help/assets/teaser-edit-text.png)
 
-* **Titel**
-Definiert einen Titel, der als Überschrift für den Teaser angezeigt wird.
-* **Titel von verknüpfter Seite abrufen**
-Wenn aktiviert, wird der Titel mit dem Titel der verknüpften Seite ausgefüllt.
-* **Beschreibung**
-Definiert eine Beschreibung, die als Untertitel des Teasers angezeigt wird.
-* **Beschreibung von verknüpfter Seite erhalten**
-Wenn aktiviert, wird die Beschreibung mit der Beschreibung der verknüpften Seite ausgefüllt.
+* **Vortitel** - Der Vortitel wird vor dem Titel des Teasers angezeigt.
+* **Titel** - Definiert einen Titel, der als Überschrift für den Teaser angezeigt werden soll.
+   * **Titel von verknüpfter Seite** abrufen - Wenn diese Option aktiviert ist, wird der Titel mit dem Titel der verknüpften Seite gefüllt.
+* **Beschreibung** - Definiert eine Beschreibung, die als Unterüberschrift des Teasers angezeigt werden soll.
+   * **Beschreibung von verknüpfter Seite** abrufen: Wenn diese Option aktiviert ist, wird die Beschreibung der verknüpften Seite mit der Beschreibung der verknüpften Seite gefüllt.
+* **ID** - Diese Option ermöglicht die Steuerung des eindeutigen Bezeichners der Komponente im HTML und in der [Datenschicht](/help/developing/data-layer/overview.md).
+   * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert und Sie können die resultierende Seite überprüfen.
+   * Wenn eine ID angegeben wird, muss der Autor sicherstellen, dass sie eindeutig ist.
+   * Eine Änderung der ID kann sich auf die Verfolgung von CSS, JS und Datenschichten auswirken.
 
 ### Links und Aktionen {#links-actions}
 
-![](/help/assets/screen_shot_2018-07-03at104146.png)
+![Registerkarte &quot;Link zum Bearbeiten&quot;der Teaser-Komponente](/help/assets/teaser-edit-link.png)
 
-* **Link**
-Link, der auf den Teaser angewendet wird. Verwenden Sie den Pfad-Browser, um das Link-Ziel auszuwählen.
-* **Aktivieren von Aktionsaufrufen**
-Wenn aktiviert, ermöglicht die Definition von Aktionsaufrufen. Der erste Link zu Aktionsaufrufen in der Liste wird als Link für andere Teaser-Elemente verwendet.
+* **Link** : Link, der auf den Teaser angewendet wird. Verwenden Sie den Pfad-Browser, um das Link-Ziel auszuwählen.
+* **Aktionsaufruf** aktivieren - Wenn diese Option aktiviert ist, wird die Definition von Aktionsaufrufen aktiviert. Der erste Link zu Aktionsaufrufen in der Liste wird als Link für andere Teaser-Elemente verwendet.
 
 ## Dialogfeld „Bearbeiten“ {#edit-dialog}
 
@@ -82,24 +84,20 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Teaser-Optione
 
 ### Registerkarte „Teaser“ {#teaser-tab}
 
-![](/help/assets/screen_shot_2018-07-03at105958.png)
+![Design-Dialogfeld der Teaser-Komponente](/help/assets/teaser-design.png)
 
 * **Aktionsaufrufe**
-   * **Deaktivieren von Aktionsaufrufen**
-Blendet die Option**Aktionsaufrufe** für Inhaltsautoren aus.
+   * **Aktionsaufruf** deaktivieren - Option &quot; **Aktionsaufruf** &quot;für Inhaltsersteller ausblenden
 * **Elemente**
-   * **Titel ausblenden**
-      * Blendet die Option **Titel** für Inhaltsautoren aus
+   * **Untertitel** ausblenden - Blendet die Option &quot; **Vortitel** &quot;für Inhaltsersteller aus
+   * **Titel** ausblenden - Blendet die Option **Titel** für Inhaltsersteller aus
       * Nach der Auswahl wird der **Titeltyp** ausgeblendet
-   * **Beschreibung ausblenden**
-Versteckt die Option **Beschreibung** für Inhaltsautoren
-* **Titeltyp**
-Definiert das H-Tag, das vom Titel des Teasers verwendet werden soll.
+   * **Beschreibung** ausblenden - Option &quot; **Beschreibung** &quot;für Inhaltsersteller ausblenden
+* **Titeltyp** - Definiert das H-Tag, das vom Titel des Teasers verwendet werden soll.
 * **Links**
-   * **Das Bild nicht verknüpfen**
-Wenn ausgewählt, wird das Teaser-Bild nicht verknüpft.
-   * **Den Titel nicht verknüpfen**
-Wenn ausgewählt, wird der Teaser-Titel nicht verknüpft.
+   * **Bild** nicht verknüpfen - Wenn diese Option aktiviert ist, wird das Teaser-Bild nicht verknüpft
+   * **Titel** nicht verknüpfen - Bei Auswahl dieser Option ist der Teaser-Titel nicht verknüpft
+* **Image-Delegate** - Informationsanzeige, die angibt, an welche Komponente der Teaser die Bildbearbeitung delegiert.
 
 ### Registerkarte „Stile“ {#styles-tab}
 
