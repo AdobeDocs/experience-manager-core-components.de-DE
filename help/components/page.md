@@ -1,8 +1,11 @@
 ---
 title: Seitenkomponente
 description: Die Seitenkomponente ist eine Erweiterungskomponente für Seiten, die mit dem Vorlageneditor arbeitet und es ermöglicht, Seitenkopf-/Fußzeilen- und Strukturkomponenten mit dem Vorlageneditor zusammenzustellen.
-translation-type: ht
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '666'
+ht-degree: 89%
 
 ---
 
@@ -25,7 +28,7 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 
 | Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|---|---|
-| v2 | Kompatibel | Kompatibel | Kompatibel | Kompatibel |
+| v2 | - | Kompatibel | Kompatibel | Kompatibel |
 | [v1](v1/page-v1.md) | Kompatibel | Kompatibel | Kompatibel | - |
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
@@ -33,14 +36,6 @@ Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in d
 >[!NOTE]
 >
 >Um die Umleitung auf `cq:Page`-Ebene für Version 2 der Seitenkomponente und AEM 6.3 zu aktivieren, ist [Service Pack 2](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp2-release-notes.html) oder höher erforderlich. Diese Umleitung war in früheren Versionen nicht verfügbar.
-
-## Musterkomponentenausgabe {#sample-component-output}
-
-Im Folgenden finden Sie ein Beispiel von [We.Retail](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html).
-
-### Screenshot {#screenshot}
-
-![](/help/assets/chlimage_1.png)
 
 ### Technische Details {#technical-details}
 
@@ -56,7 +51,7 @@ Da die Komponente die gesamte Seite darstellt, befinden sich Einstellungen, die 
 
 Da die Komponente die gesamte Seite darstellt, wird das Dialogfeld „Design“ über **Seiteninformationen > Seitenrichtlinien** aufgerufen, wenn Sie die Seitenvorlage bearbeiten.
 
-![](/help/assets/screen_shot_2018-04-03at113410.png)
+![Seitenrichtlinie](/help/assets/page-policy.png)
 
 >[!NOTE]
 >
@@ -66,17 +61,16 @@ Da die Komponente die gesamte Seite darstellt, wird das Dialogfeld „Design“ 
 
 Mithilfe des Fensters „Seitendesign“ können Sie die zu ladenden Client-Bibliotheken sowie die Webressourcenbibliothek für die Seite definieren.
 
-* **Client-Bibliothek**
-Dies definiert die Kategorien der Client-Bibliothek, die geladen werden sollen. JavaScript wird am Textende hinzugefügt und die CSS wird dem Seitenkopf hinzugefügt.
-* **Seitenkopf Client-Bibliotheken JavaScript**
-Dies definiert die JavaScript-Client-Bibliothekskategorien, die im Seitenkopf geladen werden.
+* **Client-Bibliotheken** : Hiermit werden die zu ladenden Client-Bibliotheks-Kategorien definiert. JavaScript wird am Textende hinzugefügt und die CSS wird dem Seitenkopf hinzugefügt.
+* **Client Libraries JavaScript Page Head** - Hiermit werden die JavaScript-Client-Bibliotheks-Kategorien definiert, die im Seitenkopf geladen werden sollen.
    * Kategorien, die hier definiert werden und auch im Feld **Client-Bibliotheken** vorhanden sind, haben JavaScript, das anstelle am Textende in der Seitenkopfzeile geladen wird.
    * Es wird keine CSS geladen, es sei denn, die Kategorie ist ebenfalls im Feld **Client-Bibliotheken** enthalten.
 
-* **Webressourcen Client-Bibliothek**
-Die Kategorie der Client-Bibliothek, die verwendet wird, um Webressourcen wie etwa Favicons zu bedienen.
+* **Webressourcen-Client-Bibliothek** - Die Client-Bibliotheks-Kategorie, mit der Webressourcen wie z. B. Favicons bereitgestellt werden.
 
-![](/help/assets/screenshot_2018-10-19at104949.png)
+* **Zu Hauptinhaltselementauswahl** überspringen - Wird als Barrierefreiheitsfunktion verwendet, um direkt zum Hauptinhalt der Seite zu springen
+
+![Dialogfeld &quot;Entwurf von Seitenkomponenten&quot;](/help/assets/page-design.png)
 
 Bibliotheken können wie folgt für die beiden Felder **Client-Bibliotheken** und **Seitenkopf Client-Bibliotheken JavaScript** konfiguriert werden:
 
