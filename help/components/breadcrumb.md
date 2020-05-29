@@ -1,8 +1,11 @@
 ---
 title: Breadcrumb-Komponente
 description: Die Kernkomponente „Breadcrumb-Komponente“ ist eine Navigationskomponente, die einen Breadcrumb von Links basierend auf der Position der Seite in der Inhaltshierarchie erstellt.
-translation-type: ht
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '713'
+ht-degree: 81%
 
 ---
 
@@ -25,7 +28,7 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 
 | Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |--- |---|
-| v2 | Kompatibel | Kompatibel | Kompatibel | Kompatibel |
+| v2 | - | Kompatibel | Kompatibel | Kompatibel |
 | [v1](v1/breadcrumb-v1.md) | Kompatibel | Kompatibel | Kompatibel | - |
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
@@ -48,16 +51,21 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 
 Das Dialogfeld „Bearbeiten“ ermöglicht es dem Inhaltsautor, ausgeblendete und aktive Seiten in den Breadcrumbs zu unterdrücken sowie die Tiefe der anzuzeigenden Hierarchie zu wählen.
 
-![](/help/assets/screen_shot_2018-01-12at124250.png)
+![Dialogfeld zum Bearbeiten von Breadcrumb-Komponenten](/help/assets/breadcrumb-edit.png)
 
 * **Navigations-Level für Anfang** - Wo in der Hierarchie die Breadcrumb-Komponente beginnen soll, um zur aktuellen Seite zu gelangen. Beispiel in We.Retail:
 
    * 0 beginnt bei `/content`
-   * 1 beginnt bei `/content/we-retail`
-   * 2 beginnt bei `/content/we-retail/<country>`
+   * 1 beginnt bei `/content/<yourSite>`
+   * 2 beginnt bei `/content/<yourSite>/<country>`
 
 * **Verborgene Navigationselemente anzeigen** – Zeigt Seiten an, die im Breadcrumb als ausgeblendet markiert sind (standardmäßig werden sie nicht angezeigt)
 * **Aktuelle Seite ausblenden** - Unterdrücken der aktuellen Seite im Breadcrumb (standardmäßig wird sie angezeigt)
+* **Schatten** deaktivieren - Wenn es sich bei der Seite in der Hierarchie um eine Umleitung handelt, wird anstelle der Zielgruppe der Name der Umleitungsseite angezeigt. Weitere Informationen finden Sie unter Unterstützung [der](navigation.md#shadow-structure) Schatten-Site-Struktur der Navigationskomponente.
+* **ID** - Diese Option ermöglicht die Steuerung des eindeutigen Bezeichners der Komponente im HTML und in der [Datenschicht](/help/developing/data-layer/overview.md).
+   * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert und Sie können die resultierende Seite überprüfen.
+   * Wenn eine ID angegeben wird, muss der Autor sicherstellen, dass sie eindeutig ist.
+   * Eine Änderung der ID kann sich auf die Verfolgung von CSS, JS und Datenschichten auswirken.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
@@ -65,7 +73,7 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Standardwerte 
 
 ### Registerkarte „Allgemein“ {#main-tab}
 
-![](/help/assets/screen_shot_2018-01-12at124437.png)
+![](/help/assets/breadcrumb-design.png)
 
 * **Start-Level für die Navigation** – Definiert den Standardwert, für den in der Hierarchie die Breadcrumb-Komponente aufgerufen werden soll, wenn die Breadcrumb-Komponente zu einer Seite hinzugefügt wird.
 * **Verborgene Navigationselemente anzeigen** – Definiert den Standardwert der Option **Verborgene Navigationselemente anzeigen**, wenn der Seite die Breadcrumb-Komponente hinzugefügt wird.
@@ -75,6 +83,8 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Standardwerte 
 * **Aktuelle Seite ausblenden** – Definiert den Standardwert der Option **Aktuelle Seite ausblenden**, wenn die Breadcrumb-Komponente einer Seite hinzugefügt wird.
 
    * Die Option für den Autor wird dadurch nicht aktiviert oder deaktiviert. Es wird nur der Standardwert festgelegt.
+
+* **Schatten** deaktivieren - Definiert den Standardwert der Option &quot;Schatten **deaktivieren** &quot;, wenn einer Seite die Breadcrumb-Komponente hinzugefügt wird.
 
 ### Registerkarte „Stile“ {#styles-tab}
 
