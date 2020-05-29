@@ -1,8 +1,11 @@
 ---
 title: Formularoptionen-Komponente
 description: Die Kernkomponente „Formularoptionen“ ermöglicht die Auswahl aus vordefinierten Optionen in verschiedenen Formaten.
-translation-type: ht
-source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '547'
+ht-degree: 81%
 
 ---
 
@@ -25,7 +28,7 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 
 | Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |--- |---|
-| v2 | Kompatibel | Kompatibel | Kompatibel | Kompatibel |
+| v2 | - | Kompatibel | Kompatibel | Kompatibel |
 | [v1](/help/components/v1/form-options-v1.md) | Kompatibel | Kompatibel | Kompatibel | - |
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
@@ -44,41 +47,32 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 
 Im Dialogfeld „Konfigurieren“ kann der Inhaltsautor den Typ der Optionen festlegen, die angezeigt werden sollen, Beschriftungen definieren und festlegen, welche Optionen verfügbar sind.
 
-![](/help/assets/screen_shot_2018-01-12at113153.png)
+![Dialogfeld &quot;Bearbeiten&quot;der Komponente &quot;Formularoptionen&quot;](/help/assets/form-options-edit.png)
 
 * **Typen** - Wie die Optionen angezeigt werden
    * **Kontrollkästchen**
    * **Optionsfelder**
    * **Dropdown**
    * **Dropdown für mehrere Auswahlen**
-* **Titel**
-Der Titel, der als Beschriftung für die Optionen angezeigt werden wird
-* **Name**
-Der Name des Feldes, das mit den Formulardaten übermittelt wurde.
-* **Quelle**
-Wo die Optionen definiert sind
-   * **Lokal**
-Definiert innerhalb der Komponente
+* **Titel** - Der Titel, der als Beschriftung für die Optionen angezeigt wird
+* **Name** - Der Name des mit den Formulardaten gesendeten Felds
+* **Quelle** - Wo die Optionen definiert sind
+   * **Lokal** - Definiert in der Komponente
       * Tippen oder klicken Sie auf die Schaltfläche **Hinzufügen**, um einen Wert hinzuzufügen, und auf **Entfernen**, um einen Wert zu entfernen.
-      * **Wert**
-Der Wert, der gespeichert wird, wenn diese Option beim Übermitteln des Formulars ausgewählt wird
-      * **Text**
-Der Beschriftung der im Formular angezeigten Option
-      * **Aktiv**
-Diese Option wird als ausgewählt markiert, wenn das Formular geladen wird.
-      * **Deaktiviert**
-Die Option ist nicht auswählbar, wird aber trotzdem angezeigt
-      * **Liste**
-Eine statische Liste, die anderswo in AEM definiert ist, wird für die Optionen verwendet
-         * **Liste**
-Der Pfad der statischen Liste in AEM
-            * Verwenden Sie die Schaltfläche „Durchsuchen“, um die Listenressource zu finden.
-      * **Datenquelle**
-Eine Datenquelle wird für die Optionen verwendet.
-         * **Datenquelle**
-Ressourcentyp der Datenquelle
-* **Hilfemeldung**
-Ein Hinweis für den Benutzer, was in das Feld eingegeben werden kann
+         * **Wert** - Der Wert, der gespeichert wird, wenn diese Option beim Senden des Formulars ausgewählt wird.
+         * **Text** - Die Bezeichnung für die Option, die im Formular angezeigt wird
+         * **Aktiv** - Die Option wird als ausgewählt markiert, wenn das Formular geladen wird
+         * **Deaktiviert** - Die Option ist nicht auswählbar, wird aber trotzdem angezeigt
+   * **Liste** - Für die Optionen wird eine an anderer Stelle in AEM definierte statische Liste verwendet
+      * **Liste** - Der Pfad der statischen Liste in AEM
+         * Verwenden Sie die Schaltfläche „Durchsuchen“, um die Listenressource zu finden.
+   * **Datenquelle** - Eine Datenquelle wird für die Optionen verwendet
+      * **Datenquelle** - Ressourcentyp der Datenquelle
+* **Hilfenachricht** - Ein Hinweis für den Benutzer dahingehend, was im Feld eingegeben werden kann
+* **ID** - Diese Option ermöglicht die Steuerung des eindeutigen Bezeichners der Komponente im HTML und in der [Datenschicht](/help/developing/data-layer/overview.md).
+   * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert und Sie können die resultierende Seite überprüfen.
+   * Wenn eine ID angegeben wird, muss der Autor sicherstellen, dass sie eindeutig ist.
+   * Eine Änderung der ID kann sich auf die Verfolgung von CSS, JS und Datenschichten auswirken.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
