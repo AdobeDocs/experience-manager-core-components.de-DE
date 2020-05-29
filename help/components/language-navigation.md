@@ -1,8 +1,11 @@
 ---
 title: Sprachnavigationskomponente
 description: Die Sprachnavigationskomponente stellt eine Sprache/Ländernavigation für eine Site bereit, sodass Besucher zur gleichen Seite in einem anderen Gebietsschema navigieren können.
-translation-type: ht
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '832'
+ht-degree: 86%
 
 ---
 
@@ -26,9 +29,9 @@ Die aktuelle Version der Sprachnavigationskomponente ist v1, die mit Version 2.0
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
-| Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |--- |---|
-| v1 | Kompatibel | Kompatibel | Kompatibel | Kompatibel |
+| Komponentenversion | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |--- |---|
+| v1 | Kompatibel | Kompatibel | Kompatibel |
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
 
@@ -50,7 +53,7 @@ In der Regel müssen diese Konfigurationen nur auf der Seitenvorlage vorgenommen
 
 ### Registerkarte „Eigenschaften“{#properties-tab}
 
-![](/help/assets/screen_shot_2018-01-12at133642.png)
+![Dialogfeld &quot;Sprachnavigationskomponente&quot;](/help/assets/language-navigation-design.png)
 
 * **Navigationsstamm**
    * Hier sollte die Sprachnavigation der Site beginnen.
@@ -67,7 +70,7 @@ Nehmen wir an, dass Ihr Inhalt wie folgt aussieht:
 
 ```
 /content
-+-- we-retail
++-- wknd
    +-- language-masters
    +-- us
       +-- en
@@ -80,9 +83,9 @@ Nehmen wir an, dass Ihr Inhalt wie folgt aussieht:
 \-- wknd-shop
 ```
 
-Für die Site „We.Retail“ möchten Sie wahrscheinlich die Sprachnavigationskomponente auf einer Seitenvorlage als Teil der Kopfzeile platzieren. Sobald die Komponente ein Teil der Vorlage ist, können Sie den **Navigationsstamm** der Komponente auf `/content/we-retail` festlegen, da dort der lokalisierte Inhalt für diese Site beginnt. Sie sollten auch die **Sprachstrukturtiefe** auf `2` festlegen, da Ihre Struktur aus zwei Ebenen besteht (erst Land, dann Sprache).
+Für die Site-WKND sollten Sie die Komponente &quot;Sprachnavigation&quot;wahrscheinlich in eine Seitenvorlage als Teil der Kopfzeile einfügen. Sobald die Komponente ein Teil der Vorlage ist, können Sie den **Navigationsstamm** der Komponente auf `/content/wknd` festlegen, da dort der lokalisierte Inhalt für diese Site beginnt. Sie sollten auch die **Sprachstrukturtiefe** auf `2` festlegen, da Ihre Struktur aus zwei Ebenen besteht (erst Land, dann Sprache).
 
-Mit dem **Navigationsstamm**-Wert weiß die Sprachkomponente, dass nach `/content/we-retail` die Navigation beginnt und dass sie Sprachnavigationsoptionen generieren kann, indem die nächsten beiden Ebenen in der Inhaltsstruktur als Sprachnavigationsstruktur der Site erkannt werden (wie durch den Wert **der Sprachstruktur** definiert).
+Mit dem **Navigationsstamm**-Wert weiß die Sprachkomponente, dass nach `/content/wknd` die Navigation beginnt und dass sie Sprachnavigationsoptionen generieren kann, indem die nächsten beiden Ebenen in der Inhaltsstruktur als Sprachnavigationsstruktur der Site erkannt werden (wie durch den Wert **der Sprachstruktur** definiert).
 
 Unabhängig davon, welche Seite ein Benutzer ansieht, kann die Sprachnavigationskomponente die entsprechende Seite in einer anderen Sprache finden, indem sie den Speicherort der aktuellen Seite kennt, den Stamm rückwärts entlang arbeitet und dann auf die entsprechende Seite weiterleitet.
 
@@ -94,4 +97,10 @@ Die Sprachnavigationskomponente unterstützt das AEM-[Stilsystem](/help/get-star
 
 Normalerweise muss die Sprachnavigationskomponente nur zu den Seitenvorlagen einer Site hinzugefügt und konfiguriert werden. Wenn die Sprachnavigationskomponente zu einer einzelnen Inhaltsseite hinzugefügt werden muss, erlaubt das Dialogfeld „Bearbeiten“ dem Inhaltsautor die Konfiguration derselben Werte wie im [Design-Dialogfeld](#design-dialog) beschrieben.
 
-![](/help/assets/screen_shot_2018-01-12at133353.png)
+Zusätzlich können Sie eine **ID** festlegen. Diese Option ermöglicht die Steuerung des eindeutigen Bezeichners der Komponente im HTML und in der [Datenschicht](/help/developing/data-layer/overview.md).
+
+* Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert und Sie können die resultierende Seite überprüfen.
+* Wenn eine ID angegeben wird, muss der Autor sicherstellen, dass sie eindeutig ist.
+* Eine Änderung der ID kann sich auf die Verfolgung von CSS, JS und Datenschichten auswirken.
+
+![Dialogfeld &quot;Bearbeiten&quot;der Sprachnavigationskomponente](/help/assets/language-navigation-edit.png)
