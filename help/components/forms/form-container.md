@@ -1,8 +1,11 @@
 ---
 title: Formularcontainer-Komponente
 description: Die Kernkomponente „Formularcontainer-Komponente“ ermöglicht die Erstellung einfacher Übermittlungsformulare.
-translation-type: ht
-source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '805'
+ht-degree: 84%
 
 ---
 
@@ -29,7 +32,7 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 
 | Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |--- |---|
-| v2 | Kompatibel | Kompatibel | Kompatibel | Kompatibel |
+| v2 | - | Kompatibel | Kompatibel | Kompatibel |
 | [v1](/help/components/v1/form-container-v1.md) | Kompatibel | Kompatibel | Kompatibel | - |
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
@@ -48,14 +51,10 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 
 Über das Dialogfeld „Konfigurieren“ können Sie festlegen, welche Aktionen beim Senden der Komponente durchgeführt werden.
 
-![](/help/assets/screen_shot_2018-01-12at122046.png)
-
 Je nach ausgewähltem **Aktionstyp** werden die verfügbaren Optionen im Container geändert. Die verfügbaren Aktionstypen sind:
 
 * [E-Mail](#mail)
 * [Inhalt speichern](#store-content)
-* [Bestellung absenden](#submit-order)
-* [Auftrag aktualisieren](#update-order)
 
 Unabhängig vom Typ gibt es [allgemeine Einstellungen](#general-settings), die für jede Aktion gelten.
 
@@ -63,19 +62,14 @@ Unabhängig vom Typ gibt es [allgemeine Einstellungen](#general-settings), die f
 
 Wenn das Formular gesendet wird, sendet der Mail-Aktionstyp eine E-Mail an bestimmte Empfänger.
 
-![](/help/assets/screen_shot_2018-01-12at122554.png)
+![E-Mail-Optionen im Dialogfeld &quot;Bearbeiten&quot;der Form Container-Komponente](/help/assets/form-container-edit-mail.png)
 
-* **Betreff**
-Betreffzeile der E-Mail, die bei der Übermittlung des Formulars gesendet wird
-* **Von**
-die Absenderadresse der E-Mail, die bei der Übermittlung des Formulars gesendet wird
-* **An**
-die Adressen der Empfänger, die eine E-Mail bei der Formularübermittlung erhalten
-
+* **Betreff** - Betreffzeile der E-Mail, die beim Übermitteln des Formulars gesendet wird
+* **Von** - die Absenderadresse der E-Mail, die beim Übermitteln des Formulars gesendet wird
+* **An** - Die Adressen der Empfänger, die eine E-Mail bei der Formularübermittlung erhalten
    * Tippen oder klicken Sie auf die Schaltfläche **Hinzufügen**, um weitere Adressen hinzuzufügen.
    * Tippen oder klicken Sie auf die Schaltfläche **Löschen**, um eine E-Mail-Adresse zu entfernen.
-* **CC**
-Die Adressen der Empfänger, die eine Kopie der E-Mail erhalten, die bei der Formularübermittlung gesendet wird
+* **CC** - Die Adressen der Empfänger, die eine Kopie der E-Mail erhalten, die beim Übermitteln des Formulars gesendet wird
    * Tippen oder klicken Sie auf die Schaltfläche **Hinzufügen**, um weitere Adressen hinzuzufügen.
    * Tippen oder klicken Sie auf die Schaltfläche **Löschen**, um eine E-Mail-Adresse zu entfernen.
 
@@ -83,39 +77,31 @@ Die Adressen der Empfänger, die eine Kopie der E-Mail erhalten, die bei der For
 
 Wenn das Formular übermittelt wird, wird der Inhalt des Formulars in einem bestimmten Repository gespeichert.
 
-![](/help/assets/screen_shot_2018-01-12at122538.png)
+![Inhaltsoptionen im Dialogfeld &quot;Bearbeiten&quot;des Formular-Containers speichern](/help/assets/form-container-edit-store.png)
 
-* **Inhaltspfad**
-Content Repository-Pfad, in dem die übermittelten Inhalte gespeichert sind.
-* **Daten anzeigen**
-Tippen oder Klicken, um gespeicherte gesendete Daten als JSON anzuzeigen
-* **Workflow starten**
-Konfigurieren, um einen Workflow mit dem gespeicherten Inhalt als Nutzlast bei der Formularübertragung zu starten.
-
-### Bestellung absenden {#submit-order}
-
-Wenn das Formular übermittelt wird, wird die Bestellung übermittelt.
-
-![](/help/assets/chlimage_1-3.png)
-
-### Auftrag aktualisieren {#update-order}
-
-Wenn das Formular übermittelt wird, wird die Bestellung aktualisiert.
-
-![](/help/assets/chlimage_1-4.png)
+* **Inhalts-Pfad** - Inhalts-Repository-Pfad, in dem der übermittelte Inhalt gespeichert wird
+* **Daten anzeigen** - Tippen oder klicken Sie, um gespeicherte gesendete Daten als JSON anzuzeigen.
+* **Workflow starten** - Konfigurieren Sie den Start eines Workflows mit dem gespeicherten Inhalt als Nutzlast bei Formularübermittlung.
 
 ### Allgemeine Einstellungen {#general-settings}
 
 Unabhängig vom ausgewählten Aktionstyp kann eine Dankeseite immer definiert werden.
 
-![](/help/assets/chlimage_1-5.png)
+![Allgemeine Optionen im Dialogfeld &quot;Bearbeiten&quot;der Form Container-Komponente](/help/assets/form-container-edit-general.png)
 
-Der Benutzer wird nach Abschluss der Formularübermittlung zur angegebenen Seite weitergeleitet.
-
-* Verwenden Sie das Dialogfeld „Auswahl“, um eine Ressource in AEM auszuwählen.
-* Wenn die Dankeseite nicht in AEM enthalten ist, geben Sie die absolute URL an. Nicht absolute URLs werden relativ zu AEM interpretiert.
-* Leer lassen, damit das Formular nach der Übermittlung wieder angezeigt wird.
+* **Dankeseite** - Der Benutzer wird nach Abschluss der Formularübermittlung zur angegebenen Seite weitergeleitet.
+   * Verwenden Sie das Dialogfeld „Auswahl“, um eine Ressource in AEM auszuwählen.
+   * Wenn die Dankeseite nicht in AEM enthalten ist, geben Sie die absolute URL an. Nicht absolute URLs werden relativ zu AEM interpretiert.
+   * Leer lassen, damit das Formular nach der Übermittlung wieder angezeigt wird.
+* **ID** - Diese Option ermöglicht die Steuerung des eindeutigen Bezeichners der Komponente im HTML und in der [Datenschicht](/help/developing/data-layer/overview.md).
+   * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert und Sie können die resultierende Seite überprüfen.
+   * Wenn eine ID angegeben wird, muss der Autor sicherstellen, dass sie eindeutig ist.
+   * Eine Änderung der ID kann sich auf die Verfolgung von CSS, JS und Datenschichten auswirken.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
 Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die zulässigen Komponenten und deren Zuordnungen für den Container ähnlich dem Dialogfeld „Design“ für den [Standard-Layout-Container im Vorlageneditor](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/features/templates.translate.html) zu definieren.
+
+### Registerkarte „Stile“ {#styles-tab}
+
+The Form Container Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
