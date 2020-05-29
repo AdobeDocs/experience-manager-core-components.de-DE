@@ -1,8 +1,11 @@
 ---
 title: Inhaltsfragment-Komponente
 description: Die Kernkomponente „Inhaltsfragment-Komponente“ ermöglicht die Anzeige eines Inhaltsfragments.
-translation-type: ht
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '659'
+ht-degree: 78%
 
 ---
 
@@ -29,9 +32,9 @@ Die aktuelle Version der Inhaltsfragment-Komponente ist v1, die mit Version 1.1.
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
-| Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|---|
-| v1 | Kompatibel | Kompatibel | Kompatibel | Kompatibel |
+| Komponentenversion | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |---|---|
+| v1 | Kompatibel | Kompatibel | Kompatibel |
 
 >[!NOTE]
 >
@@ -61,14 +64,19 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 
 Über das Dialogfeld „Konfigurieren“ kann der Inhaltsautor das gewünschte Inhaltsfragment und die zu verwendenden Elemente dieses Fragments definieren.
 
-![](/help/assets/chlimage_1-87.png)
+### Registerkarte „Eigenschaften“ {#properties-tab}
+
+![Inhaltsfragment-Komponente](/help/assets/content-fragment-edit-properties.png)
 
 * **Inhaltsfragment**
 
    * Pfad zum gewünschten Inhaltsfragment
    * Das **Dialogfeld „Auswahl“** kann zum Suchen des Fragments verwendet werden.
 
-* **Element** - Das Element des Inhaltsfragments, das eingefügt werden soll
+* **Anzeigemodus**
+   * **EinzelTextelement** - Aktiviert die Auswahl eines mehrzeiligen Textelement und aktiviert Optionen für die Absatzkontrolle
+   * **Mehrere Elemente** - Ermöglicht die Auswahl eines oder mehrerer Elemente des ausgewählten Inhaltsfragments
+* **Element** - Das Element bzw. die Elemente des Inhaltsfragments, das bzw. die das
 * **Variation** - Welche Variante des Inhaltsfragments zu verwenden ist (standardmäßig **Master**)
 
 * **Absätze**
@@ -78,18 +86,25 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 
       * Festlegen von Bereichen der anzuzeigenden Absätze, durch ein Semikolon getrennt
       * So können Sie z. B. mit `1;3-5;7;9-*` den 1., den 3. bis 5., den 7. und den 9. bis zum letzten Absatz einbeziehen.
+* **ID** - Diese Option ermöglicht die Steuerung des eindeutigen Bezeichners der Komponente im HTML und in der [Datenschicht](/help/developing/data-layer/overview.md).
+   * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert und Sie können die resultierende Seite überprüfen.
+   * Wenn eine ID angegeben wird, muss der Autor sicherstellen, dass sie eindeutig ist.
+   * Eine Änderung der ID kann sich auf die Verfolgung von CSS, JS und Datenschichten auswirken.
 
+### Registerkarte &quot;Absatzsteuerung&quot; {#paragraph-control-tab}
+
+Diese Registerkarte ist nicht verfügbar, wenn der Modus **Mehrere Elemente** ausgewählt ist.
+
+![Inhaltsfragment-Komponente](/help/assets/content-fragment-edit-paragraph.png)
+
+* **Absätze** - Auswahl aller Absätze oder eines Bereichs zulassen
 * **Überschriften als separate Absätze behandeln**
 
 ## Dialogfeld „Design“ {#design-dialog}
 
 Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Ressourcentypen zu definieren, mit denen gemischte Medienbilder und responsive Raster verarbeitet werden.
 
-![](/help/assets/chlimage_1-88.png)
-
-* **Bildtyp für gemischte Medien**
-
-   * Ein Sling-Ressourcentyp, der für das Rendern von Bildern mit gemischten Medien verwendet wird.
+![Design-Dialogfeld der Komponente &quot;Inhaltsfragment&quot;](/help/assets/content-fragment-design.png)
 
 * **Internes responsives Raster**
 
