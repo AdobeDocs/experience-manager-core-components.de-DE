@@ -1,8 +1,11 @@
 ---
 title: Listenkomponente
 description: Die Kernkomponente „Listenkomponente“ ermöglicht die einfache Erstellung dynamischer sowie statischer Listen.
-translation-type: ht
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '968'
+ht-degree: 80%
 
 ---
 
@@ -23,7 +26,7 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 
 | Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |--- |---|
-| v2 | Kompatibel | Kompatibel | Kompatibel | Kompatibel |
+| v2 | - | Kompatibel | Kompatibel | Kompatibel |
 | [v1](v1/list-v1.md) | Kompatibel | Kompatibel | Kompatibel | - |
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
@@ -51,9 +54,9 @@ Die Liste kann auf verschiedene Weise erstellt werden.
 * [Suchen](#search-options)
 * [Tags](#tags)
 
-Unabhängig davon, wie die Liste erstellt wurde, gibt es [Sortieroptionen](#sort-options), die immer konfiguriert werden können.
+Regardless of how the list is built, there are [Sort and ID Options](#sort-options) that can always be configured.
 
-![](/help/assets/chlimage_1-38.png)
+![Dialogfeld &quot;Bearbeiten&quot;der Liste](/help/assets/list-edit.png)
 
 Je nachdem, wie der Inhaltsautor die Liste erstellt, werden die zusätzlichen Konfigurationsoptionen geändert.
 
@@ -61,7 +64,7 @@ Je nachdem, wie der Inhaltsautor die Liste erstellt, werden die zusätzlichen Ko
 
 Die Liste kann aus den untergeordneten Seiten der aktuellen Seite oder einer anderen Seite bestehen.
 
-![](/help/assets/chlimage_1-39.png)
+![Untergeordnete Seitenoptionen](/help/assets/list-edit-child-pages.png)
 
 * **Übergeordnete Seite**
    * Die Seite, deren untergeordnete Seiten in die Liste aufgenommen werden sollen
@@ -74,7 +77,7 @@ Wie viele Ebenen in der Hierarchie angelegt werden sollten
 
 Die Liste kann mit einer Liste mit festen Elementen erstellt werden.
 
-![](/help/assets/chlimage_1-40.png)
+![Optionen für behobene Liste](/help/assets/list-edit-fixed.png)
 
 Tippen oder klicken Sie auf die Schaltfläche **Hinzufügen**, um ein neues Element in die Liste einzufügen.
 
@@ -86,7 +89,7 @@ Tippen oder klicken Sie auf die Schaltfläche **Hinzufügen**, um ein neues Elem
 
 Die Liste kann mithilfe der Ergebnisse einer Suche aus AEM-Inhalten erstellt werden.
 
-![](/help/assets/chlimage_1-41.png)
+![Suchoptionen für Listen](/help/assets/list-edit-search.png)
 
 * **Suchabfrage**
 Die Zeichenfolge, für die eine Volltextsuche ausgeführt wird, um die Listenelemente zu generieren
@@ -99,7 +102,7 @@ Wo die Suche ausgeführt werden soll
 
 Die Liste kann mithilfe von Seiten erstellt werden, die bestimmten Tags unter einem bestimmten Ort entsprechen.
 
-![](/help/assets/chlimage_1-42.png)
+![Optionen zur Liste von Tags](/help/assets/list-edit-tags.png)
 
 * **Übergeordnete Seite**
 Where the tag matching should startWo die Tag-Übereinstimmung beginnen sollte
@@ -117,7 +120,7 @@ Definieren, welche Art von Übereinstimmung eine Seite qualifizieren soll, damit
 
 Unabhängig davon, wie Sie die Liste erstellen, gibt es bestimmte Sortieroptionen, die immer definiert werden können.
 
-![](/help/assets/chlimage_1-43.png)
+![Sortieroptionen](/help/assets/list-edit-sort-options.png)
 
 * **Reihenfolge**
 Anordnung der Elemente
@@ -130,12 +133,16 @@ Die Reihenfolge, in der die Elemente angeordnet werden sollen
 * **Maximale Elementanzahl**
 Maximale Anzahl der in der Liste angezeigten Elemente
    * Leer lassen, um alle Elemente zurückzugeben.
+* **ID** - Diese Option ermöglicht die Steuerung des eindeutigen Bezeichners der Komponente im HTML und in der [Datenschicht](/help/developing/data-layer/overview.md).
+   * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert und Sie können die resultierende Seite überprüfen.
+   * Wenn eine ID angegeben wird, muss der Autor sicherstellen, dass sie eindeutig ist.
+   * Eine Änderung der ID kann sich auf die Verfolgung von CSS, JS und Datenschichten auswirken.
 
 ### Registerkarte „Elementeinstellungen“ {#item-settings-tab}
 
 Auf der Registerkarte „Elementeinstellungen“ kann die Formatierung der Listenelemente konfiguriert werden.
 
-![](/help/assets/chlimage_1-44.png)
+![Elementeinstellungen](/help/assets/list-edit-items.png)
 
 * **Elemente verknüpfen**
 Elemente mit der entsprechenden Seite verknüpfen
@@ -152,31 +159,24 @@ Beschreibung des Link-Elements anzeigen
 
 Auf der Registerkarte **Listeneinstellungen** kann das Datumsformat sowie der Listentyp definiert werden, der in der Komponente den Inhaltsautoren zur Verfügung stehen soll.
 
-![](/help/assets/chlimage_1-45.png)
+![Einstellung der Liste des Designdialogs der Liste-Komponente](/help/assets/list-design-list-settings.png)
 
 * **Datumsformat**
 Format für die Anzeige des letzten Änderungsdatums
-* **Deaktivierung der untergeordneten Liste**
-Untergeordnete Listentypen in der Komponente deaktivieren
-* **Statischen Listentyp deaktivieren**
-Deaktivierung des statischen Listentyps in der Komponente
-* **Suche deaktivieren**
-Deaktivieren des Suchlistentyps in der Komponente
-* **Deaktivierung von Tags**
-Deaktivieren des Tags-Listentyps in der Komponente
+* **Untergeordnete Elemente** deaktivieren Der Typ der untergeordneten Liste in der Komponente
+* **Deaktivieren Sie static** Deaktivieren Sie den Typ der statischen Liste in der Komponente
+* **Suche** deaktivierenDeaktivieren Sie den Liste-Typ der Suche in der Komponente
+* **Tags** deaktivieren Sie den Listen-Typ der Tags in der Komponente
 
 ### Element-Einstellungen {#item-settings}
 
 Auf der Registerkarte **Elementeinstellungen** können die Formatierungsoptionen für die einzelnen Listenelemente definiert werden, die in der Komponente für die Inhaltsautoren verfügbar sein sollten.
 
-![](/help/assets/chlimage_1-46.png)
+![Einstellungen des Designdialogfelds der Liste-Komponente](/help/assets/list-design-item-settings.png)
 
-* **Link-Elemente**
-Option „Link-Elemente“ im [Dialogfeld „Bearbeiten“ aktivieren](#edit-dialog)
-* **Beschreibungen anzeigen**
-Option „Beschreibungen anzeigen“ im Dialogfeld [ „Bearbeiten“ aktivieren](#edit-dialog)
-* **Datum anzeigen**
-Option „Datum anzeigen“ im [Dialogfeld „Bearbeiten“ aktivieren](#edit-dialog)
+* **Verknüpfungselemente** Option &quot;Verknüpfungselemente aktivieren&quot;im Dialogfeld &quot; [Bearbeiten&quot;](#edit-dialog)
+* **Beschreibungen** anzeigenOption &quot;Beschreibungen anzeigen&quot;im Dialogfeld &quot; [Bearbeiten&quot;anzeigen](#edit-dialog)
+* **Datum** anzeigenOption Datum anzeigen im Dialogfeld [bearbeiten](#edit-dialog)
 
 ### Registerkarte „Stile“ {#styles-tab}
 
