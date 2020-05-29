@@ -1,8 +1,11 @@
 ---
 title: Download-Komponente
 description: Die Kernkomponente „Download-Komponente“ ermöglicht die Erstellung einer Download-Option auf einer Seite.
-translation-type: ht
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '687'
+ht-degree: 86%
 
 ---
 
@@ -24,9 +27,9 @@ Die aktuelle Version der Download-Komponente ist v1, die mit Version 2.5.0 der K
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
-| Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|---|
-| v1 | Kompatibel | Kompatibel | Kompatibel | Kompatibel |
+| Komponentenversion | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |---|---|
+| v1 | Kompatibel | Kompatibel | Kompatibel |
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
 
@@ -44,7 +47,7 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 
 Mit dem Dialogfeld „Konfigurieren“ kann der Inhaltsautor das Download-Element und sein Verhalten und Aussehen für einen Besucher der Seite definieren.
 
-![](/help/assets/screen-shot-2019-06-17-09.49.14.png)
+![Registerkarte &quot;Asset&quot;des Dialogfelds &quot;Bearbeiten&quot;der Komponente herunterladen](/help/assets/download-edit-asset.png)
 
 ### Asset-Registerkarte {#asset-tab}
 
@@ -55,9 +58,9 @@ Die Auswahl eines Download-Assets ähnelt der Funktionalität der [Bildkomponent
    * Tippen oder klicken Sie auf **Löschen**, um das aktuell ausgewählte Bild zu deaktivieren.
    * Tippen oder klicken Sie auf **Bearbeiten**, um die [Darstellungen des Assets](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/assets/manage/manage-digital-assets.translate.html) im Asset-Editor zu verwalten.
 
-### Registerkarte „Eigenschaften“{#properties-tab}
+### Registerkarte „Eigenschaften“ {#properties-tab}
 
-![](/help/assets/screen-shot-2019-06-17-09.49.51.png)
+![Registerkarte &quot;Eigenschaften&quot;des Dialogfelds &quot;Bearbeiten&quot;der Komponente &quot;Herunterladen&quot;](/help/assets/download-edit-properties.png)
 
 * **Titel** - Wird als Überschrift für das Download-Element angezeigt
    * **Titel von DAM-Asset abrufen** - Wenn ausgewählt, wird der Titel automatisch mit dem Titel des DAM-Assets ausgefüllt.
@@ -66,6 +69,10 @@ Die Auswahl eines Download-Assets ähnelt der Funktionalität der [Bildkomponent
 * **Aktionstext** - Zeigt Aktionstext für das Download-Element an
    * Dieses Feld ist beim Hochladen eines Assets aus dem Dateisystem erforderlich. 
    * **Inline-Anzeige** - Wenn ausgewählt, wird der angegebene **Aktionstext** inline angezeigt.
+* **ID** - Diese Option ermöglicht die Steuerung des eindeutigen Bezeichners der Komponente im HTML und in der [Datenschicht](/help/developing/data-layer/overview.md).
+   * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert und Sie können die resultierende Seite überprüfen.
+   * Wenn eine ID angegeben wird, muss der Autor sicherstellen, dass sie eindeutig ist.
+   * Eine Änderung der ID kann sich auf die Verfolgung von CSS, JS und Datenschichten auswirken.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
@@ -73,9 +80,8 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Optionen für 
 
 ### Registerkarte „Eigenschaften“{#properties-tab-design}
 
-![](/help/assets/screen-shot-2019-06-17-10.04.31.png)
+![Design-Dialogfeld der Komponente &quot;Herunterladen&quot;](/help/assets/download-design.png)
 
-* **Standardaktionstext** - Definiert den standardmäßigen **Aktionstext**, der angegeben wird, wenn ein Autor die Download-Komponente einer Seite hinzufügt.
 * **Upload aus Dateisystem zulassen** - Ermöglicht dem Inhaltsautor das Hochladen eines Assets aus seinem lokalen Dateisystem als Download-Asset.
    * Der Standardwert ist nicht ausgewählt.
 * **Titeltyp** - Das HTML-Element, das für den Titel der Download-Komponente verwendet wird.
