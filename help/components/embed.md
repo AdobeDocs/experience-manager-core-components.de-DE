@@ -1,8 +1,11 @@
 ---
 title: Einbettungskomponente
 description: Die Einbettungskomponente ermöglicht das Einbetten externer Inhalte in eine AEM-Inhaltsseite.
-translation-type: ht
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '944'
+ht-degree: 88%
 
 ---
 
@@ -24,9 +27,9 @@ Die aktuelle Version der Einbettungskomponente ist v1. Sie wurde mit Version 2.7
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
-| Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|---|
-| v1 | Kompatibel | Kompatibel | Kompatibel | Kompatibel |
+| Komponentenversion | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |---|---|
+| v1 | Kompatibel | Kompatibel | Kompatibel |
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
 
@@ -48,6 +51,12 @@ Im Dialogfeld „Konfigurieren“ kann der Inhaltsautor die externe Ressource de
 * [Einbettbare Prozessoren](#embeddable)
 * [HTML](#html)
 
+Für jeden Typ der Einbettungsmöglichkeit können Sie die Anzeigen- **ID** definieren. Diese Option ermöglicht die Steuerung des eindeutigen Bezeichners der Komponente im HTML und in der [Datenschicht](/help/developing/data-layer/overview.md).
+
+* Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert und Sie können die resultierende Seite überprüfen.
+* Wenn eine ID angegeben wird, muss der Autor sicherstellen, dass sie eindeutig ist.
+* Eine Änderung der ID kann sich auf die Verfolgung von CSS, JS und Datenschichten auswirken.
+
 ### URL {#url}
 
 Die einfachste Form von Einbettung ist die URL. Fügen Sie im Feld **URL** einfach die URL der Ressource ein, die Sie einbetten möchten. Die Komponente wird versuchen, auf die Ressource zuzugreifen. Wenn sie von einem der Prozessoren wiedergegeben werden kann, wird eine Bestätigungsmeldung unter dem Feld **URL** angezeigt. Andernfalls wird das Feld mit einem Fehler markiert.
@@ -59,7 +68,7 @@ Die Einbettungskomponente wird mit Prozessoren für die folgenden Arten von Ress
 
 Entwickler können zusätzliche URL-Prozessoren hinzufügen, indem sie der [Entwicklerdokumentation der Einbettungskomponente folgen](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component).
 
-![](/help/assets/screen-shot-2019-09-25-10.08.29.png)
+![Dialogfeld &quot;Bearbeiten&quot;der Komponente für URL einbetten](/help/assets/embed-url.png)
 
 ### Einbettbare Prozessoren {#embeddable}
 
@@ -73,7 +82,7 @@ Im Feld **Einbettbare Prozessoren** wird der zu verwendende Prozessortyp definie
 
 Andere einbettbare Prozessoren weisen ähnliche Felder auf und können von einem Entwickler [unter Beachtung der Entwicklerdokumentation der Einbettungskomponente definiert werden](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component).
 
-![](/help/assets/screen-shot-2019-09-25-10.15.00.png)
+![Dialogfeld &quot;Bearbeiten&quot;der Komponente für &quot;Einbetten&quot;](/help/assets/embed-embeddable.png)
 
 >[!NOTE]
 >Einbettbare Prozessoren müssen auf der Vorlagenebene über den [Dialogfeld „Design“](#design-dialog) aktiviert werden, damit sie dem Seitenautor zur Verfügung stehen.
@@ -82,7 +91,7 @@ Andere einbettbare Prozessoren weisen ähnliche Felder auf und können von einem
 
 Mit der Einbettungskomponente können Sie Ihrer Seite Freiform-HTML hinzufügen.
 
-![](/help/assets/screen-shot-2019-09-25-10.20.00.png)
+![Dialogfeld &quot;Bearbeiten&quot;der Komponente für HTML einbetten](/help/assets/embed-html.png)
 
 >[!NOTE]
 >Unsichere Tags wie Skripte werden aus der eingegebenen HTML gefiltert und auf der resultierenden Seite nicht wiedergegeben.
@@ -104,7 +113,7 @@ Weitere Sicherheitsinformationen finden Sie in der [AEM-Entwicklerdokumentation 
 
 Der Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Optionen, die für den Inhaltsautor bei Verwendung der Einbettungskomponente verfügbar sind, sowie die Standardeinstellungen bei Platzierung der Einbettungskomponente zu definieren.
 
-![](/help/assets/screen-shot-2019-09-25-10.25.28.png)
+![Dialogfeld &quot;Entwurf der Komponente einbetten&quot;](/help/assets/embed-design.png)
 
 * **URL deaktivieren** - Deaktiviert bei Auswahl die Option **URL** für den Inhaltsautor.
 * **Einbettbare Prozessoren deaktivieren** - Deaktiviert bei Auswahl die Option **Einbettbare Prozessoren** für den Inhaltsautor, unabhängig davon, welche einbettbaren Prozessoren zulässig sind.
