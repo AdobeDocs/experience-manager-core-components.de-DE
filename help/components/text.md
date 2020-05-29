@@ -1,8 +1,11 @@
 ---
 title: Textkomponente
 description: Die Textkomponente ist eine Komponente zur Bearbeitung und Zusammensetzung von Rich-Texten, die eine direkte Bearbeitung ermöglicht.
-translation-type: ht
-source-git-commit: 4df8e147fc9d0151c3a211473b067c78b807e52e
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '2202'
+ht-degree: 89%
 
 ---
 
@@ -25,7 +28,7 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 
 | Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|---|---|
-| v2 | Kompatibel | Kompatibel | Kompatibel | Kompatibel |
+| v2 | - | Kompatibel | Kompatibel | Kompatibel |
 | [v1](v1/text-v1.md) | Kompatibel | Kompatibel | Kompatibel | - |
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
@@ -54,11 +57,11 @@ Der Rest dieses Artikels zeigt die Standardkonfiguration der Textkomponente der 
 
 Das Dialogfeld „Bearbeiten“ bietet die standardmäßigen Rich-Text-Formatierungswerkzeuge, die ein Benutzer wahrscheinlich erwarten würde, um Text zu verfassen.
 
-![](/help/assets/screen_shot_2018-01-11at143025.png)
+![Dialogfeld &quot;Bearbeiten&quot;der Textkomponente](/help/assets/text-edit.png)
 
 ### Fett
 
-![](/help/assets/screen_shot_2018-01-11at125602.png)
+![Fettsymbol](/help/assets/text-bold.png)
 
 Wird verwendet, um eine fette Formatierung auf den ausgewählten Text anzuwenden oder den nach dem Cursor eingegebenen Text fett zu formatieren.
 
@@ -66,7 +69,7 @@ Wird verwendet, um eine fette Formatierung auf den ausgewählten Text anzuwenden
 
 ### Kursiv
 
-![](/help/assets/screen_shot_2018-01-11at125609.png)
+![Kursivsymbol](/help/assets/text-italic.png)
 
 Wird verwendet, um eine kursive Formatierung auf den ausgewählten Text anzuwenden oder nach dem Cursor eingegebenen Text kursiv zu formatieren.
 
@@ -74,7 +77,7 @@ Wird verwendet, um eine kursive Formatierung auf den ausgewählten Text anzuwend
 
 ### Unterstrichen
 
-![](/help/assets/screen_shot_2018-01-11at125615.png)
+![Symbol &quot;Unterstreichen&quot;](/help/assets/text-underline.png)
 
 Wird verwendet, um eine unterstrichene Formatierung auf den ausgewählten Text anzuwenden oder Text, der nach dem Cursor eingegeben wird, zu unterstreichen.
 
@@ -82,45 +85,46 @@ Wird verwendet, um eine unterstrichene Formatierung auf den ausgewählten Text a
 
 ### Tiefgestellt
 
-![](/help/assets/screen_shot_2018-01-11at125703.png)
+![Symbol &quot;Unterschrift&quot;](/help/assets/text-subscript.png)
 
 Wird verwendet, um ausgewählten Text oder Text, der nach dem Cursor eingegeben wird, als tiefgestellt zu formatieren.
 
 ### Hochgestellt
 
-![](/help/assets/screen_shot_2018-01-11at125708.png)
+![Symbol &quot;Hochgestellt&quot;](/help/assets/text-superscript.png)
 
 Wird verwendet, um ausgewählten Text oder Text, der nach dem Cursor eingegeben wird, als hochgestellt zu formatieren.
 
 ### Als Text einfügen
 
-![](/help/assets/screen_shot_2018-01-11at125713.png)
+![Als Textsymbol einfügen](/help/assets/text-paste-text.png)
 
 Fügt einen kopierten Text als normalen Text ohne Formatierung ein.
 
 Wenn Sie diese Option wählen, wird ein Fenster geöffnet, in dem der Text als normaler Text ohne Formatierung eingefügt werden kann, bevor er in den Text eingefügt wird. Akzeptieren durch Tippen oder Klicken auf das Häkchen, abbrechen durch Tippen oder Klicken auf das x.
 
-![](/help/assets/screen_shot_2018-01-11at143234.png)
+![Als Textbeispiel einfügen](/help/assets/text-paste-text-example.png)
 
 ### Aus Word einfügen
 
-![](/help/assets/screen_shot_2018-01-11at125717.png)
+![Aus Word-Symbol einfügen](/help/assets/text-paste-word.png)
 
 Wenn Sie diese Option wählen, wird ein Fenster geöffnet, in dem der formatierte Text als Vorschau eingefügt werden kann, bevor er in den Text eingefügt wird. Akzeptieren durch Tippen oder Klicken auf das Häkchen, abbrechen durch Tippen oder Klicken auf das x.
 
-![](/help/assets/screen_shot_2018-01-11at143250.png)
+![Beispiel zum Einfügen aus Word](/help/assets/text-paste-word-example.png)
 
 ### Hyperlink
 
-![](/help/assets/screen_shot_2018-01-11at125839.png)
+![Hyperlink-Symbol](/help/assets/text-hyperlink.png)
 
 Mit dieser Option können Sie den ausgewählten Text in einen Hyperlink konvertieren oder einen bereits definierten Link ändern. Diese Option ist nur aktiv, wenn bereits Text ausgewählt ist, und öffnet ein Fenster mit zusätzlichen Optionen zum Festlegen des Links.
 
-![](/help/assets/screen_shot_2018-01-11at130003.png)
+![Hyperlink-Beispiel](/help/assets/text-hyperlink-example.png)
 
-* Adresse eingeben
+* Pfad eingeben
    * Wählen Sie im Dialogfeld „Auswahl öffnen“ einen Pfad in AEM aus.
-   * Wenn sich der Link nicht in AEM befindet, geben Sie die absolute URL ein (nicht absolute Pfade werden als relativ zu AEM interpretiert)
+   * Wenn sich der Link nicht in AEM befindet, geben Sie die absolute URL ein
+      * Nicht absolute Pfade werden als relativ zu AEM interpretiert
 * Alternativen beschreibenden Text für den Link eingeben
 * Linkverhalten auswählen
    * Target
@@ -132,71 +136,72 @@ Mit dieser Option können Sie den ausgewählten Text in einen Hyperlink konverti
 
 ### Verknüpfung aufheben
 
-![](/help/assets/screen_shot_2018-01-11at125901.png)
+![Symbol &quot;Verknüpfung aufheben&quot;](/help/assets/text-unlink.png)
 
 Mit dieser Option können Sie einen bereits auf den ausgewählten Text angewendeten Link entfernen. Diese Option ist nur aktiv, wenn bereits ein Link ausgewählt ist.
 
 ### Suchen
 
-![](/help/assets/screen_shot_2018-01-11at125906.png)
+![Symbol suchen](/help/assets/text-find.png)
 
 Verwenden Sie diese Option, um den Text nach dem Vorkommen einer angegebenen Textzeichenfolge zu durchsuchen. Wenn Sie diese Option auswählen, wird ein Fenster zum Festlegen der Suchoptionen geöffnet.
 
-![](/help/assets/screen_shot_2018-01-11at130107.png)
+![Beispiel](/help/assets/text-find-example.png)
 
 Geben Sie den Text ein, nach dem Sie suchen möchten, und tippen oder klicken Sie auf **Suchen**, um die Suche zu starten. Tippen Sie auf das x, um abzubrechen.
 Wenn Sie eine genaue Übereinstimmung der Groß- und Kleinschreibung möchten, wählen Sie die Option **Groß-/Kleinschreibung berücksichtigen**, bevor Sie die Suche starten.
 Wenn eine Übereinstimmung gefunden wird, wird sie hervorgehoben und das Suchdialogfeld wird abgeblendet. Tippen oder klicken Sie im abgeblendeten Dialogfeld erneut auf die Schaltfläche **Suchen**, um nach dem nächsten Vorkommen zu suchen.
 
-![](/help/assets/screen_shot_2018-01-11at130145.png)
+![Beispiel gefunden](/help/assets/text-find-example-found.png)
 
 Wenn keine weiteren Vorkommen gefunden werden, wird eine Meldung angezeigt und die Suche wird am Anfang des Texts neu gestartet.
 
-![](/help/assets/screen_shot_2018-01-11at130241.png)
+![Beispiel nicht mehr vorkommen suchen](/help/assets/text-find-example-found-end.png)
 
 ### Ersetzen
 
-![](/help/assets/screen_shot_2018-01-11at125910.png)
+![Symbol ersetzen](/help/assets/text-replace.png)
 
 Verwenden Sie diese Option, um den Text nach dem Vorkommen einer angegebenen Textzeichenfolge zu durchsuchen und die Übereinstimmungen durch eine andere Zeichenfolge zu ersetzen. Wenn Sie diese Option auswählen, wird ein Fenster zum Festlegen der Optionen für Suchen und Ersetzen geöffnet.
 
-![](/help/assets/screen_shot_2018-01-11at130441.png)
+![Beispiel ersetzen](/help/assets/text-replace-example.png)
 
 Geben Sie den Text ein, für den Sie eine Suche durchführen möchten, sowie den Text, durch den er ersetzt werden soll.
 
-Tippen oder klicken Sie auf **Suchen**, um mit der Suche zu beginnen. Klicken oder tippen Sie auf das x, um abzubrechen.
-
-Wenn Sie eine genaue Übereinstimmung der Groß- und Kleinschreibung möchten, wählen Sie die Option **Groß-/Kleinschreibung berücksichtigen**, bevor Sie die Suche starten.
+* Tippen oder klicken Sie auf **Suchen**, um mit der Suche zu beginnen. Klicken oder tippen Sie auf das x, um abzubrechen.
+* Wenn Sie eine genaue Übereinstimmung der Groß- und Kleinschreibung möchten, wählen Sie die Option **Groß-/Kleinschreibung berücksichtigen**, bevor Sie die Suche starten.
+* Wählen Sie **Alle ersetzen** aus, um alle Vorkommen des Texts gleichzeitig zu ersetzen.
 
 Wenn eine Übereinstimmung gefunden wird, wird sie hervorgehoben und das Suchdialogfeld wird abgeblendet. Klicken Sie erneut im abgeblendeten Dialogfeld auf die Schaltfläche **Suchen**, um nach dem nächsten Vorkommen zu suchen, oder klicken Sie auf **Ersetzen**, um den markierten, übereinstimmenden Text zu ersetzen. Beachten Sie, dass die Schaltfläche **Ersetzen** nur aktiv ist, nachdem der Suchtext gefunden wurde.
 
-Wählen Sie **Alle ersetzen** aus, um alle Vorkommen des Texts gleichzeitig zu ersetzen.
-
-Bei Verwendung der Funktion zum Ersetzen sollte die Zeichenfolge zum Ersetzen gleichzeitig mit der Suchzeichenfolge eingegeben werden. Sie können jedoch weiterhin auf „Suchen“ klicken, um nach der Zeichenfolge zu suchen, bevor Sie sie ersetzen. Wenn die Zeichenfolge zum Ersetzen eingegeben wird, nachdem auf „Suchen“ geklickt wurde, wird die Suche auf den Anfang des Textes zurückgesetzt.
-
 Das Dialogfeld „Suchen und ersetzen“ wird transparent, wenn auf „Suchen“ geklickt wird, und undurchsichtig, wenn auf „Ersetzen“ geklickt wird. Dadurch kann der Autor den Text überprüfen, den der Autor ersetzen wird.
+
+>[!NOTE]
+>
+>Bei Verwendung der Funktion zum Ersetzen sollte die Zeichenfolge zum Ersetzen gleichzeitig mit der Suchzeichenfolge eingegeben werden. Sie können jedoch weiterhin auf „Suchen“ klicken, um nach der Zeichenfolge zu suchen, bevor Sie sie ersetzen. Wenn die Zeichenfolge zum Ersetzen eingegeben wird, nachdem auf „Suchen“ geklickt wurde, wird die Suche auf den Anfang des Textes zurückgesetzt.
+
 
 ### Text links ausrichten
 
-![](/help/assets/screen_shot_2018-01-11at142012.png)
+![Symbol &quot;Linksbündig&quot;](/help/assets/text-left.png)
 
 Wird verwendet, um den Text am linken Rand auszurichten.
 
 ### Text zentrieren
 
-![](/help/assets/screen_shot_2018-01-11at142017.png)
+![Symbol für zentrierten Text](/help/assets/text-center.png)
 
 Wird zum Zentrieren des Texts verwendet.
 
 ### Text rechts ausrichten
 
-![](/help/assets/screen_shot_2018-01-11at142021.png)
+![Rechtes Symbol ausrichten](/help/assets/text-right.png)
 
 Wird verwendet, um den Text am rechten Rand auszurichten.
 
 ### Aufzählungszeichen
 
-![](/help/assets/screen_shot_2018-01-11at142025.png)
+![Aufzählungszeichen](/help/assets/text-bullet.png)
 
 Wird verwendet, um den ausgewählten Text als Liste mit Aufzählungszeichen zu formatieren oder eine Liste mit Aufzählungszeichen nach dem Cursor einzufügen.
 
@@ -204,7 +209,7 @@ Um eine Liste mit Aufzählungszeichen zu beenden, tippen oder klicken Sie erneut
 
 ### Nummeriert
 
-![](/help/assets/screen_shot_2018-01-11at142030.png)
+![Symbol für nummerierte Liste](/help/assets/text-numbered.png)
 
 Wird verwendet, um den ausgewählten Text als nummerierte Liste zu formatieren oder eine nummerierte Liste nach dem Cursor einzufügen.
 
@@ -212,7 +217,7 @@ Um eine nummerierte Liste zu beenden, tippen oder klicken Sie erneut auf die Sch
 
 ### Ausrücken
 
-![](/help/assets/screen_shot_2018-01-11at141917.png)
+![Symbol &quot;Negativeinzug&quot;](/help/assets/text-outdent.png)
 
 Wird verwendet, um den Einzug des ausgewählten Texts oder des nach dem Cursor eingegebenen Texts zu verringern.
 
@@ -220,43 +225,35 @@ Nur aktiv, wenn der ausgewählte Text bzw. die ausgewählte Position bereits ein
 
 ### Einzug
 
-![](/help/assets/screen_shot_2018-01-11at141922.png)
+![Einzugssymbol](/help/assets/text-outdent.png)
 
 Wird verwendet, um den Einzug des ausgewählten Texts oder des nach dem Cursor eingegebenen Textes zu erhöhen.
 
 ### Tabelle
 
-![](/help/assets/screen_shot_2018-01-11at141928.png)
+![Tabellensymbol](/help/assets/text-table.png)
 
 Wird verwendet, um eine Tabelle in den Text einzufügen. Wenn Sie diese Option auswählen, wird ein Fenster zum Festlegen der Details der Tabelle geöffnet.
 
-![](/help/assets/screen_shot_2018-01-11at142405.png)
+![Tabellenbeispiel](/help/assets/text-table-example.png)
 
-* **Spalten**
-Die Anzahl der Spalten der Tabelle (erforderlich)
-* **Zeilen**
-Die Anzahl der Zeilen der Tabelle (erforderlich)
-* **Breite**
-Die Gesamtbreite der Tabelle
-* **Höhe**
-Die Gesamthöhe der Tabelle
-* **Zellumrandung**
-Der Abstand um den Zelleninhalt
-* **Zellenabstand**
-Der Abstand zwischen Zellen
-* **Rand**
-Die Stärke der Rahmenlinien der Tabelle
-* Für die Kopfzeile der Tabelle:
-   * Die erste Zeile sollte verwendet werden
-   * Die erste Spalte sollte verwendet werden
-   * Die erste Zeile und erste Spalte sollten verwendet werden
-   * Oder es sollte keine Kopfzeile verwendet werden.
-* **Beschriftung**
-Die Beschriftung der Tabelle
+* **Spalten** - Die Anzahl der Spalten der Tabelle (erforderlich)
+* **Zeilen** - Die Anzahl der Zeilen der Tabelle (erforderlich)
+* **Breite** - Die Gesamtbreite der Tabelle
+* **Höhe** - Die Gesamthöhe der Tabelle
+* **Zellauffüllung** - Der Abstand um den Zellinhalt
+* **Zellenabstand** - Der Abstand zwischen Zellen
+* **Rand** - Die Stärke der Randlinien der Tabelle
+   * Für die Kopfzeile der Tabelle:
+      * Die erste Zeile sollte verwendet werden
+      * Die erste Spalte sollte verwendet werden
+      * Die erste Zeile und erste Spalte sollten verwendet werden
+      * Oder es sollte keine Kopfzeile verwendet werden.
+* **Beschriftung** - Beschriftung der Tabelle
 
 ### Rechtschreibprüfung
 
-![](/help/assets/screen_shot_2018-01-11at141935.png)
+![Rechtschreibprüfung, Symbol](/help/assets/text-spellcheck.png)
 
 Wird verwendet, um die Rechtschreibung des Textinhalts zu überprüfen. Mögliche Rechtschreibfehler sind durch gestrichelte rote Linien unterstrichen.
 
@@ -264,17 +261,17 @@ Weitere Details zur Rechtschreibprüfung und zum Anpassen von Rechtschreibprüfu
 
 ### Sonderzeichen {#special-characters}
 
-![](/help/assets/screen_shot_2018-01-11at142600.png)
+![Sonderzeichen, Symbol](/help/assets/text-special-characters.png)
 
 Wird verwendet, um Sonderzeichen in den Text einzufügen. Wenn Sie diese Option auswählen, wird ein Fenster geöffnet, in dem die verfügbaren Zeichen angezeigt werden.
 
-![](/help/assets/screen_shot_2018-01-11at142635.png)
+![Sonderzeichen, Beispiel](/help/assets/text-special-characters-example.png)
 
 Tippen oder klicken Sie auf das gewünschte Zeichen, um es nach dem Cursor in den Text einzufügen. Es können mehrere Zeichen eingefügt werden. Tippen oder klicken Sie auf das x, um das Auswahlfenster zu schließen.
 
 ### Quellenbearbeitung
 
-![](/help/assets/screen_shot_2018-01-11at142746.png)
+![Quellbearbeitungssymbol](/help/assets/text-source.png)
 
 Wird verwendet, um die HTML-Quelle des Texts anzuzeigen und zu ändern.
 
@@ -292,15 +289,25 @@ Tippen oder klicken Sie auf das Symbol **Quellbearbeitung**, um den Inhalt des T
 
 ### Absatzformat
 
-![](/help/assets/screen_shot_2018-01-11at142752.png)
+![Absatzformatsymbol](/help/assets/text-paragraph.png)
 
 Wird verwendet, um Absatzformatierung auf den ausgewählten Text anzuwenden oder auf Text, der nach dem Cursor eingefügt wird. Durch Auswahl dieser Optionen wird eine Dropdown-Liste geöffnet, in der das Absatzformat ausgewählt ist.
 
-![](/help/assets/screen_shot_2018-01-11at142828.png)
+![Beispiel für ein Absatzformat](/help/assets/text-paragraph-example.png)
+
+### Inline-Bearbeitung {#in-line-editing}
 
 Die Textkomponente kann auch inline bearbeitet werden, aufgrund von Platzbeschränkungen sind jedoch nicht alle Formatierungsoptionen inline verfügbar. Um alle Optionen anzuzeigen, wechseln Sie zum Vollbildmodus.
 
-![](/help/assets/screen_shot_2018-01-11at142921.png)
+![Beispiel für die Inline-Bearbeitung](/help/assets/text-edit-inline-example.png)
+
+### Einstellung und ID {#setting-id}
+
+Diese Option ermöglicht die Steuerung des eindeutigen Bezeichners der Komponente im HTML und in der [Datenschicht](/help/developing/data-layer/overview.md).
+
+* Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert und Sie können die resultierende Seite überprüfen.
+* Wenn eine ID angegeben wird, muss der Autor sicherstellen, dass sie eindeutig ist.
+* Eine Änderung der ID kann sich auf die Verfolgung von CSS, JS und Datenschichten auswirken.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
@@ -312,7 +319,7 @@ Im Dialogfeld „Design“ kann der Vorlagenautor festlegen, welche Textformatie
 
 ### Funktionen {#features}
 
-![](/help/assets/chlimage_1-28.png)
+![Designdialogfunktionen](/help/assets/text-design-features.png)
 
 Die folgenden Funktionen können für die Komponente aktiviert oder deaktiviert werden.
 
@@ -320,24 +327,25 @@ Die folgenden Funktionen können für die Komponente aktiviert oder deaktiviert 
 * Aus Word einfügen
 * Suchen und Ersetzen
 * Rechtschreibprüfung
-* Quellbearbeitung
+* Optionen für die Änderung eingefügter Bilder
+* HTML-Quellbearbeitung
 
 ### Formatierung {#formatting}
 
-![](/help/assets/chlimage_1-29.png)
+![Design-Dialogfeld-Formatierung](/help/assets/text-design-formatting.png)
 
 Die folgenden Formatierungsoptionen können für die Komponente aktiviert oder deaktiviert werden.
 
 * Tabelle
-* Listen
-* Ausrichtung
+* Listen (Aufzählungszeichen, Nummer, Einzug, Negativeinzug)
+* Ausrichtung (links, rechts, zentriert)
 * Fett, kursiv, unterstrichen
-* Links
+* Verknüpfen (und Aufheben der Verknüpfung)
 * Tiefgestellt/hochgestellt
 
 ### Absatzformate {#paragraph-styles}
 
-![](/help/assets/chlimage_1-30.png)
+![Absatzformate für Design-Dialogfeld](/help/assets/text-design-paragraph.png)
 
 Absatzstile können für die Komponente aktiviert oder deaktiviert werden. Bei Aktivierung können die zulässigen Formate definiert werden.
 
@@ -346,9 +354,9 @@ Absatzstile können für die Komponente aktiviert oder deaktiviert werden. Bei A
 * Um einen Stil zu entfernen, tippen Sie auf die Schaltfläche **Löschen**.
 * Um die Reihenfolge der Formate zu ändern, tippen oder klicken Sie und ziehen Sie die Griffe.
 
-### Konfigurieren von Sonderzeichen {#configuring-special-characters}
+### Sonderzeichen {#configuring-special-characters}
 
-![](/help/assets/chlimage_1-31.png)
+![Sonderzeichen für Design-Dialogfelder](/help/assets/text-design-special-characters.png)
 
 Die Option zum Einfügen von Sonderzeichen kann für die Komponente aktiviert oder deaktiviert werden. Bei Aktivierung können die zulässigen Zeichen definiert werden.
 
