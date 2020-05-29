@@ -1,8 +1,11 @@
 ---
 title: Authoring mit Kernkomponenten
 description: In AEM sind Komponenten die Strukturelemente, die den Inhalt der zu erstellenden Seiten ausmachen. Kernkomponenten bieten flexible und funktionsreiche Authoring-Funktionalität.
-translation-type: ht
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+translation-type: tm+mt
+source-git-commit: 4281f6421482682f603f6a7f5e18df61f9a6d98c
+workflow-type: tm+mt
+source-wordcount: '778'
+ht-degree: 100%
 
 ---
 
@@ -80,50 +83,6 @@ Weitere Informationen finden Sie in der Dokumentation zum [Stilsystem](https://d
 >[!NOTE]
 >
 >In AEM 6.3 ist Service Pack 2 (6.3.2.0) oder neuer erforderlich, um die Stilsystemfunktion zu aktivieren.
-
-## Liste der verfügbaren Kernkomponenten {#list-of-core-components-available}
-
-Im Folgenden finden Sie eine Liste der verfügbaren Kernkomponenten und Links zu Seiten, auf denen ihre Dialogfelder zum Bearbeiten und Design im Detail beschrieben werden.
-
-Die aktuelle Version der Kernkomponenten enthält die folgenden Komponenten.
-
-* [Akkordeon](/help/components/accordion.md)
-* [Breadcrumb](/help/components/breadcrumb.md)
-* [Schaltfläche](/help/components/button.md)
-* [Container](/help/components/container.md)
-* [Karussell](/help/components/carousel.md)
-* [Inhaltsfragment](/help/components/content-fragment-component.md)
-* [Inhaltsfragmentliste](/help/components/content-fragment-list.md)
-* [Download](/help/components/download.md)
-* [Einbetten](/help/components/embed.md)
-* [Experience Fragment](/help/components/experience-fragment.md)
-* [Formularschaltfläche](/help/components/forms/form-button.md)
-* [Formular-Container](/help/components/forms/form-container.md)
-* [Ausgeblendetes Formular](/help/components/forms/form-hidden.md)
-* [Formularoptionen](/help/components/forms/form-options.md)
-* [Formulartext](/help/components/forms/form-text.md)
-* [Bild](/help/components/image.md)
-* [Sprachnavigation](/help/components/language-navigation.md)
-* [Liste](/help/components/list.md)
-* [Navigation](/help/components/navigation.md)
-* [Seite](/help/components/page.md)
-* [Schnellsuche](/help/components/quick-search.md)
-* [Trennzeichen](/help/components/separator.md)
-* [Freigabe in Social Media](/help/components/sharing.md)
-* [Registerkarten](/help/components/tabs.md)
-* [Text](/help/components/text.md)
-* [Titel](/help/components/title.md)
-
->[!CAUTION]
->
->Einige Versionen einzelner Kernkomponenten sind möglicherweise nur mit bestimmten Versionen von AEM kompatibel.
->
->Weitere Informationen zu Kompatibilitätsinformationen finden Sie auf der Hilfeseite für die jeweilige Komponente (Links in der vorherigen Liste) oder im Dokument [Kernkomponentenversionen](/help/versions.md).
-
->[!NOTE]
->
->Abhängig von Ihrer Instanz besitzen Sie möglicherweise benutzerdefinierte Komponenten, die speziell für Ihre Anforderungen entwickelt wurden. Möglicherweise haben diese sogar denselben Namen wie die hier behandelten Komponenten.
->Die Formular-Kernkomponenten hängen nicht mit AEM Forms zusammen.
 
 ## Entwicklungsressourcen {#developer-resources}
 
