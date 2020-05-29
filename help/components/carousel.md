@@ -1,8 +1,11 @@
 ---
 title: Karussellkomponente
 description: Mit der Karussellkomponente kann der Inhaltsautor Inhalte in einem drehbaren Karussell präsentieren.
-translation-type: ht
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '1112'
+ht-degree: 89%
 
 ---
 
@@ -23,9 +26,9 @@ Die aktuelle Version der Karussellkomponente ist v1, die mit Version 2.2.0 der K
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
-| Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |--- |---|
-| v1 | Kompatibel | Kompatibel | Kompatibel | Kompatibel |
+| Komponentenversion | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |--- |---|
+| v1 | Kompatibel | Kompatibel | Kompatibel |
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
 
@@ -45,7 +48,7 @@ Im Dialogfeld „Bearbeiten“ kann der Inhaltsautor Folien hinzufügen, umbenen
 
 ### Registerkarte „Elemente“ {#items-tab}
 
-![](/help/assets/screen-shot-2019-08-29-12.01.39.png)
+![Registerkarte &quot;Elemente&quot;des Dialogfelds &quot;Bearbeiten&quot;der Karussell-Komponente](/help/assets/carousel-edit-items.png)
 
 Verwenden Sie die Schaltfläche **Hinzufügen**, um die Komponentenauswahl zu öffnen und dort auszuwählen, welche Komponente als Registerkarte hinzugefügt werden soll. Nach dem Hinzufügen wird der Liste ein Eintrag hinzugefügt, der die folgenden Spalten enthält:
 
@@ -58,15 +61,19 @@ Verwenden Sie die Schaltfläche **Hinzufügen**, um die Komponentenauswahl zu ö
 >
 >Wenn der Viewport der Seite so reduziert wird, dass das Bearbeitungsdialogfeld im Vollbildmodus angezeigt wird, ist die Schaltfläche **Hinzufügen** ausgeblendet. Sie können der Karussellkomponente weiterhin Komponenten hinzufügen, indem Sie sie [per Drag-and-Drop aus dem Komponenten-Browser ziehen und im Seiteneditor auf der Karussellkomponente ablegen](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.translate.html#inserting-a-component-from-the-components-browser).
 
-### Registerkarte „Eigenschaften“{#properties-tab}
+### Registerkarte „Eigenschaften“ {#properties-tab}
 
-![](/help/assets/screen-shot-2019-08-29-12.01.57.png)
+![Registerkarte &quot;Eigenschaften&quot;des Dialogfelds &quot;Bearbeiten&quot;der Karussell-Komponente](/help/assets/carousel-edit-properties.png)
 
 Auf der Registerkarte **Eigenschaften** kann der Inhaltsautor die Folien auf automatische Übergänge einstellen.
 
 * **Automatische Folienübergänge** – Wenn diese Option aktiviert ist, wechselt die Komponente nach einer festgelegten Verzögerungszeit automatisch zur nächsten Folie.
 * **Übergangsverzögerung** – Wenn die Option „Automatische Folienübergänge“ ausgewählt wird, wird dieser Wert verwendet, um die Verzögerung zwischen Übergängen (in Millisekunden) zu definieren.
 * **Automatische Pause beim Bewegen der Maus deaktivieren** - Wenn die Option **Automatische Folienübergänge** ausgewählt ist, wird der Karussell-Übergang automatisch angehalten, sobald die Maus über das Karussell bewegt wird; Wählen Sie diese Option, damit der Übergang nicht angehalten wird.
+* **ID** - Diese Option ermöglicht die Steuerung des eindeutigen Bezeichners der Komponente im HTML und in der [Datenschicht](/help/developing/data-layer/overview.md).
+   * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert und Sie können die resultierende Seite überprüfen.
+   * Wenn eine ID angegeben wird, muss der Autor sicherstellen, dass sie eindeutig ist.
+   * Eine Änderung der ID kann sich auf die Verfolgung von CSS, JS und Datenschichten auswirken.
 
 >[!NOTE]
 >
@@ -76,7 +83,7 @@ Auf der Registerkarte **Eigenschaften** kann der Inhaltsautor die Folien auf aut
 
 ### Registerkarte „Barrierefreiheit“ {#accessibility-tab}
 
-![](/help/assets/screen-shot-2019-08-29-12.02.22.png)
+![Registerkarte &quot;Ein-/Ausgabehilfe&quot;des Dialogfelds &quot;Bearbeiten&quot;der Karussell-Komponente](/help/assets/carousel-edit-accessibility.png)
 
 Auf der Registerkarte **Barrierefreiheit** können Werte für die [ARIA-Barrierefreiheits-Bezeichungen](https://www.w3.org/WAI/standards-guidelines/aria/) für die Komponente festgelegt werden.
 
@@ -86,14 +93,14 @@ Auf der Registerkarte **Barrierefreiheit** können Werte für die [ARIA-Barriere
 
 Der Inhaltsautor kann die Option **Bedienfeld auswählen** in der Komponentensymbolleiste verwenden, um zu einer anderen Folie zu wechseln und die Reihenfolge der Folien einfach neu zu ordnen.
 
-![](/help/assets/screenshot_2018-10-11at165417.png)
+![Bedienfeldsymbol auswählen](/help/assets/select-panel-icon.png)
 
 Nach Auswahl der Option **Bedienfeld auswählen** in der Komponentensymbolleiste werden die konfigurierten Folien als Dropdown-Liste angezeigt.
 
 * Die Liste wird durch die zugewiesene Anordnung der Folien angeordnet und entsprechend nummeriert.
 * Der Komponententyp der Folie wird zuerst angezeigt, gefolgt von der Beschreibung der Folie in heller Schrift.
 
-![](/help/assets/opera_snapshot_2018-11-28141537localhost.png)
+![Bedienfeld auswählen](/help/assets/select-panel-popover.png)
 
 * Durch Tippen oder Klicken auf einen Eintrag in der Dropdown-Liste wird die Ansicht im Editor auf diese Folie umgestellt.
 * Die Folie kann mithilfe der Ziehpunkte neu angeordnet werden.
@@ -106,7 +113,7 @@ Im Dialogfeld „Design“ kann der Vorlagenautor definieren, welche Komponenten
 
 Über die Registerkarte **Eigenschaften** werden die Standardeinstellungen für die Folienübergänge definiert, wenn ein Inhaltsautor die Karussellkomponente einer Seite hinzufügt.
 
-![](/help/assets/screenshot_2018-11-28at141824.png)
+![Design-Dialogfeld der Karussell-Komponente](/help/assets/carousel-design.png)
 
 * **Automatische Folienübergänge** – Definiert, ob die Option, automatisch das Karussell auf die nächste Folie zu verschieben, aktiviert ist, wenn der Inhaltsautor die Karussellkomponente einer Seite hinzufügt.
 * **Übergangsverzögerung** – Definiert den Standardwert der Übergangsverzögerung zwischen Folien (in Millisekunden), wenn ein Inhaltsautor die Karussellkomponente einer Seite hinzufügt.
