@@ -1,8 +1,11 @@
 ---
 title: Navigationskomponente
 description: Mit der Navigationskomponente können Benutzer leicht durch eine globalisierte Site-Struktur navigieren.
-translation-type: ht
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '1369'
+ht-degree: 89%
 
 ---
 
@@ -32,7 +35,7 @@ Nehmen wir an, dass Ihr Inhalt wie folgt aussieht:
 
 ```
 /content
-+-- we-retail
++-- wknd
    +-- language-masters
       +-- de
          \-- experience
@@ -58,13 +61,13 @@ Nehmen wir an, dass Ihr Inhalt wie folgt aussieht:
 \-- wknd-shop
 ```
 
-Für die Site „We.Retail“ möchten Sie wahrscheinlich die Navigationskomponente auf einer Seitenvorlage als Teil der Kopfzeile platzieren. Sobald die Komponente ein Teil der Vorlage ist, können Sie den **Navigationsstamm** der Komponente auf `/content/we-retail/language-masters/en` festlegen, da dort Ihr Master-Inhalt für diese Site beginnt. Eventuell möchten Sie auch die **Tiefe der Navigationsstruktur** auf `2` festlegen, da Sie wahrscheinlich nicht möchten, dass die gesamte Inhaltsstruktur durch die Komponente angezeigt wird, sondern die ersten beiden Ebenen, sodass dies als Übersicht dient.
+Für die Site „We.Retail“ möchten Sie wahrscheinlich die Navigationskomponente auf einer Seitenvorlage als Teil der Kopfzeile platzieren. Sobald die Komponente ein Teil der Vorlage ist, können Sie den **Navigationsstamm** der Komponente auf `/content/wknd/language-masters/en` festlegen, da dort Ihr Master-Inhalt für diese Site beginnt. Eventuell möchten Sie auch die **Tiefe der Navigationsstruktur** auf `2` festlegen, da Sie wahrscheinlich nicht möchten, dass die gesamte Inhaltsstruktur durch die Komponente angezeigt wird, sondern die ersten beiden Ebenen, sodass dies als Übersicht dient.
 
-Anhand des Wertes des **Navigationsstamms** weiß die Navigationskomponente, dass nach `/content/we-retail/language-masters/en` die Navigation beginnt, und sie kann somit Navigationsoptionen generieren, indem sie die Struktur der Site auf zwei Ebenen nach unten (wie durch den Wert der **Navigationsstrukturtiefe** vorgegeben) rekursiv darstellt.
+Anhand des Wertes des **Navigationsstamms** weiß die Navigationskomponente, dass nach `/content/wknd/language-masters/en` die Navigation beginnt, und sie kann somit Navigationsoptionen generieren, indem sie die Struktur der Site auf zwei Ebenen nach unten (wie durch den Wert der **Navigationsstrukturtiefe** vorgegeben) rekursiv darstellt.
 
 Unabhängig davon, welche lokalisierte Seite ein Benutzer ansieht, kann die Navigationskomponente die entsprechende lokalisierte Seite finden, indem sie den Speicherort der aktuellen Seite kennt, zum Stammverzeichnis zurückkehrt und sich dann zur entsprechenden Seite vorarbeitet.
 
-Wenn ein Besucher also `/content/ch/de/experience/arctic-surfing-in-lofoten` anzeigt, kann die Komponente die Navigationsstruktur basierend auf `/content/we-retail/language-masters/de` generieren. Wenn der Besucher `/content/us/en/experience/arctic-surfing-in-lofoten` anzeigt, kann die Komponente dementsprechend die Navigationsstruktur basierend auf `/content/we-retail/language-masters/en` generieren.
+Wenn ein Besucher also `/content/ch/de/experience/arctic-surfing-in-lofoten` anzeigt, kann die Komponente die Navigationsstruktur basierend auf `/content/wknd/language-masters/de` generieren. Wenn der Besucher `/content/us/en/experience/arctic-surfing-in-lofoten` anzeigt, kann die Komponente dementsprechend die Navigationsstruktur basierend auf `/content/wknd/language-masters/en` generieren.
 
 ## Unterstützung für Shadow Site-Struktur {#shadow-structure}
 
@@ -91,9 +94,9 @@ Die aktuelle Version der Navigationskomponente ist v1, die mit Version 2.0.0 der
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
-| Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |--- |---|
-| v1 | Kompatibel | Kompatibel | Kompatibel | Kompatibel |
+| Komponentenversion | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |--- |---|
+| v1 | Kompatibel | Kompatibel | Kompatibel |
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
 
@@ -117,7 +120,7 @@ Im Dialogfeld „Bearbeiten“ kann der Inhaltsautor die Stammseite für die Nav
 
 ### Registerkarte „Eigenschaften“ {#properties-tab}
 
-![](/help/assets/screen-shot-2019-12-04at12.50.51.png)
+![Eigenschaften des Dialogfelds &quot;Bearbeiten&quot;der Navigationskomponente](/help/assets/navigation-edit-properties.png)
 
 * **Navigationsstamm** – Die Stammseite, die zum Generieren der Navigationsstruktur verwendet wird.
 * **Stammebenen ausschließen** - Häufig soll der Stamm nicht in die Navigation eingeschlossen werden. Mit dieser Option können Sie festlegen, wie viele Ebenen oberhalb des Stamms Sie ausschließen möchten. Beispiel:
@@ -127,10 +130,15 @@ Im Dialogfeld „Bearbeiten“ kann der Inhaltsautor die Stammseite für die Nav
    * usw.
 * **Sammlung aller untergeordneten Seiten** – Sammeln Sie alle untergeordneten Seiten, die sich auf dem Navigationsstamm befinden.
 * **Navigationsstrukturtiefe** – Definiert, wie viele Ebenen die Komponente in der Navigationsstruktur im Verhältnis zum Navigationsstamm anzeigen soll (nur verfügbar, wenn **Sammlung aller untergeordneten Seiten** nicht ausgewählt sind).
+* **Schatten** deaktivieren - Wenn es sich bei der Seite in der Hierarchie um eine Umleitung handelt, wird anstelle der Zielgruppe der Name der Umleitungsseite angezeigt. Weitere Informationen finden Sie unter [Unterstützung](#shadow-structure) der Schatten-Site-Struktur.
+* **ID** - Diese Option ermöglicht die Steuerung des eindeutigen Bezeichners der Komponente im HTML und in der [Datenschicht](/help/developing/data-layer/overview.md).
+   * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert und Sie können die resultierende Seite überprüfen.
+   * Wenn eine ID angegeben wird, muss der Autor sicherstellen, dass sie eindeutig ist.
+   * Eine Änderung der ID kann sich auf die Verfolgung von CSS, JS und Datenschichten auswirken.
 
 ### Registerkarte „Barrierefreiheit“ {#accessibility-tab}
 
-![](/help/assets/screen-shot-2019-08-29-12.23.53.png)
+![Registerkarte &quot;Eingabehilfen-Dialogfeld&quot;der Navigationskomponente](/help/assets/navigation-edit-accessibility.png)
 
 Auf der Registerkarte **Barrierefreiheit** können Werte für die [ARIA-Barrierefreiheits-Bezeichungen](https://www.w3.org/WAI/standards-guidelines/aria/) für die Komponente festgelegt werden.
 
@@ -142,7 +150,7 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Standardwerte 
 
 ### Registerkarte „Eigenschaften“ {#properties-tab-design}
 
-![](/help/assets/screen-shot-2019-12-04at12.53.32.png)
+![Design-Dialogfeld der Navigationskomponente](/help/assets/navigation-design.png)
 
 * **Navigationsstamm** – Der Standardwert der Stammseite der Navigationsstruktur, die zum Generieren der Navigationsstruktur verwendet und standardmäßig verwendet wird, wenn der Inhaltsautor die Komponente der Seite hinzufügt.
 * **Stammebenen ausschließen** - Häufig soll der Stamm nicht in die Navigation eingeschlossen werden. Mit dieser Option können Sie den Standard dafür festlegen, wie viele Ebenen oberhalb des Stamms Sie ausschließen möchten. Beispiel:
@@ -152,6 +160,7 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Standardwerte 
    * usw.
 * **Sammlung aller untergeordneten Seiten** – Der Standardwert der Option zur Sammlung aller Seiten, die sich auf dem Navigationsstamm befinden.
 * **Navigationsstruktur der Tiefe** – Standardwert der Navigationsstruktur der Tiefe.
+* **Schatten deaktivieren** - Der Standardwert für &quot;if shadowing&quot;sollte beim Hinzufügen einer Navigationskomponente deaktiviert werden
 
 ### Registerkarte „Stile“ {#styles-tab}
 
