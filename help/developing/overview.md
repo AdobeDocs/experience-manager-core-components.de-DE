@@ -1,8 +1,11 @@
 ---
 title: Entwickeln von Kernkomponenten
 description: Die Kernkomponenten bieten leistungsfähige und erweiterbare Basiskomponenten mit umfangreichen Funktionen, kontinuierlicher Bereitstellung, Komponentenversionierung, moderner Implementierung, schlankem Markup und JSON-Export von Inhalten.
-translation-type: ht
-source-git-commit: c338428a681f652d17bb972fb6a2abf216a338c3
+translation-type: tm+mt
+source-git-commit: 6f7166c46940ed451721e0760d565d58efe412ab
+workflow-type: tm+mt
+source-wordcount: '1425'
+ht-degree: 98%
 
 ---
 
@@ -16,10 +19,10 @@ Da die Kernkomponenten völlig neu sind und mehrere Vorteile bieten, wird empfoh
 Daher bietet Adobe folgende Empfehlungen:
 
 * **Neue Projekte**
-Neue Projekte sollten immer versuchen, Kernkomponenten zu verwenden. Wenn Kernkomponenten nicht direkt oder [erweitert](customizing.md) verwendet werden können, um die Projektanforderungen zu erfüllen, erstellen Sie eine benutzerdefinierte Komponente gemäß der Komponentenarchitektur, die in den Kernkomponenten festgelegt ist. Vermeiden Sie die Verwendung der [Foundation-Komponenten](#foundation-component-support), sofern möglich.
+Neue Projekte sollten immer versuchen, Kernkomponenten zu verwenden. Wenn Kernkomponenten nicht direkt oder [erweitert](customizing.md) verwendet werden können, um die Projektanforderungen zu erfüllen, erstellen Sie eine benutzerdefinierte Komponente gemäß der Komponentenarchitektur, die in den Kernkomponenten festgelegt ist. Vermeiden Sie die Verwendung der [Foundation-Komponenten](/help/versions.md#foundation-component-support), sofern möglich.
 * **Existierende Projekte**
-Empfohlen wird, weiterhin die [Foundation-Komponenten](#foundation-component-support) zu verwenden, es sei denn, es ist eine Refaktorierung von Sites oder Komponenten geplant.\
-   Da sie sehr häufig von den meisten vorhandenen Projekten verwendet werden, werden die Foundation-Komponenten [weiterhin unterstützt](#foundation-component-support).
+Empfohlen wird, weiterhin die [Foundation-Komponenten](/help/versions.md#foundation-component-support) zu verwenden, es sei denn, es ist eine Refaktorierung von Sites oder Komponenten geplant.\
+   Da sie sehr häufig von den meisten vorhandenen Projekten verwendet werden, werden die Foundation-Komponenten [weiterhin unterstützt](/help/versions.md#foundation-component-support).
 * **Neue benutzerdefinierte Komponenten**
 Überprüfen Sie, ob eine vorhandene [Kernkomponente angepasst werden kann](customizing.md).\
    Wenn nicht, wird empfohlen, eine neue benutzerdefinierte Komponente zu erstellen, die den [Komponentenrichtlinien](guidelines.md) folgt.
@@ -115,6 +118,7 @@ In der folgenden Tabelle sind die verfügbaren Kernkomponenten mit Links zu ihre
 | [Download](https://adobe.com/go/aem_cmp_tech_download_v1_de) | Hinzufügen eines herunterladbaren Assets zu einer Seite | `-` |
 | [Experience Fragment](https://adobe.com/go/aem_cmp_tech_xf_v1_de) | Hinzufügen eines Experience Fragment zu einer Seite | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
 | [Einbetten](https://adobe.com/go/aem_cmp_tech_embed_v1_de) | Einbetten einer externen Ressource in eine Seite | - |
+| [Fortschrittsleiste](https://adobe.com/go/aem_cmp_tech_progress_v1) | Visuelle Darstellung der Fortschritte auf dem Weg zu einem Ziel | - |
 
 ### Künftige Komponenten {#upcoming-components}
 
