@@ -1,8 +1,11 @@
 ---
 title: Formulartext-Komponente
 description: Die Kernkomponente „Formulartext-Komponente“ ermöglicht die Eingabe von Formulartext zur Übermittlung.
-translation-type: ht
-source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '579'
+ht-degree: 81%
 
 ---
 
@@ -23,7 +26,7 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 
 | Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |--- |---|
-| v2 | Kompatibel | Kompatibel | Kompatibel | Kompatibel |
+| v2 | - | Kompatibel | Kompatibel | Kompatibel |
 | [v1](/help/components/v1/form-text-v1.md) | Kompatibel | Kompatibel | Kompatibel | - |
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
@@ -42,12 +45,11 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 
 Das Dialogfeld „Konfigurieren“ ermöglicht es dem Inhaltsautor, den Texttyp sowie Standardwerte und Beschriftungen zu definieren.
 
-### Registerkarte „Allgemein“ {#main-tab}
+### Registerkarte „Eigenschaften“ {#properties-tab}
 
-![](/help/assets/chlimage_1-23.png)
+![Registerkarte „Eigenschaften“](/help/assets/form-text-edit-properties.png)
 
-* **Einschränkung**
-Die Art des Textes, der eingegeben und anhand dem validiert wird
+* **Einschränkungen** - Der Typ des einzustellenden Texts und der validiert wird mit
    * **Text**
    * **Textbereich**
    * **E-Mail**
@@ -55,38 +57,36 @@ Die Art des Textes, der eingegeben und anhand dem validiert wird
    * **Datum**
    * **Nummer**
    * **Kennwort**
-* **Textzeile**
-Anzahl der Zeilen, die im Textbereich angezeigt werden sollen (nur angezeigt, wenn **Beschränkung** auf **Textbereich** festgelegt ist)
-* **Beschriftung**
-Die Beschriftung, die für das Feld angezeigt wird
-* **Beschriftung ausblenden**
-Erforderlich, wenn die Beschriftung nur für Zugangszwecke erforderlich ist und keine weiteren visuellen Informationen über das Feld vermittelt
-* **Element Name**
-Der Name des mit den Formulardaten gesendeten Felds
-* **Wert,**
-Der im Feld vorbelegte Standardwert
+* **Textzeilen** - Anzahl der im Textbereich anzuzeigenden Zeilen (nur angezeigt, wenn **Einschränkung** auf **Textbereich** festgelegt ist).
+* **Beschriftung** - Die Beschriftung, die für das Feld angezeigt wird
+* **Beschriftung ausblenden** - Erforderlich, wenn die Beschriftung nur für Ein-/Ausgabehilfe erforderlich ist und keine zusätzlichen visuellen Informationen über das Feld enthält.
+* **Elementname** - Der Name des mit den Formulardaten gesendeten Felds.
+* **Wert** - Standardwert, der im Feld vorausgefüllt wird
+* **ID** - Diese Option ermöglicht die Steuerung des eindeutigen Bezeichners der Komponente im HTML und in der [Datenschicht](/help/developing/data-layer/overview.md).
+   * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert und Sie können die resultierende Seite überprüfen.
+   * Wenn eine ID angegeben wird, muss der Autor sicherstellen, dass sie eindeutig ist.
+   * Eine Änderung der ID kann sich auf die Verfolgung von CSS, JS und Datenschichten auswirken.
 
 ### Registerkarte „Info“ {#about-tab}
 
-![](/help/assets/chlimage_1-24.png)
+![Info, Registerkarte](/help/assets/form-text-edit-about.png)
 
-* **Hilfemeldung**
-: Sie weist den Benutzer darauf hin, was im Feld eingegeben werden kann
-* **Bestimmt, ob die Hilfemeldung in der Formulareingabe angezeigt wird, wenn sie leer ist und sich nicht im Fokus befindet**
-
+* **Hilfemeldung** - Ein Hinweis für den Benutzer dahingehend, was im Feld eingegeben werden kann
+* **Hilfemeldung als Platzhalter anzeigen** - Bestimmt, ob die Hilfemeldung in der Formulareingabe angezeigt wird, wenn sie leer ist und sich nicht im Fokus befindet
 
 ### Registerkarte „Beschränkungen“{#constraints-tab}
 
-![](/help/assets/chlimage_1-25.png)
+![Einschränkungen, Registerkarte](/help/assets/form-text-edit-constraints.png)
 
 * **Beschränkungsmeldung**
    * Meldung wird beim Senden des Formulars als QuickInfo angezeigt, wenn der Wert den ausgewählten Typ nicht validiert
    * Wird nicht für Beschränkungstypen **Text** und **Textbereich** angezeigt
-* **Erforderlich**
-Wenn ausgewält, muss der Benutzer einen Wert ausfüllen, bevor das Formular gesendet werden kann
-* **Schreibgeschützt**
-Wenn ausgewählt, kann der Benutzer den Wert des Felds nicht ändern
+* **Erforderlich** - Gibt an, ob der Benutzer einen Wert ausfüllen muss, bevor das Formular senden kann
+   * **Erforderliche Nachricht** - Meldung, die als QuickInfo angezeigt wird, wenn das Feld leer gelassen wird
+* **Schreibgeschützt:** Wenn ausgewählt, kann der Benutzer den Wert des Felds nicht ändern
 
 ## Dialogfeld „Design“ {#design-dialog}
 
-Es gibt kein Dialogfeld „Design“ für die Formulartext-Komponente.
+### Registerkarte „Stile“ {#styles-tab}
+
+The Form Text Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
