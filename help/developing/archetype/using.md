@@ -1,9 +1,9 @@
 ---
 title: Verwenden des AEM-Projektarchetyps
 description: Detaillierte Nutzungsanleitungen für den AEM-Projektarchetyp
-translation-type: ht
-source-git-commit: 0d8089c53d2ef95e88379e6f381738cd137e6b33
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6f7166c46940ed451721e0760d565d58efe412ab
+workflow-type: tm+mt
 source-wordcount: '2057'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ Der AEM-Projektarchetyp erstellt ein Adobe Experience Manager-Projekt mit minima
 
 ## Warum Archetyp verwenden {#why-use-the-archetype}
 
-Mithilfe des AEM-Projektarchetyps können Sie auf dem Weg zum Aufbau eines AEM-Projekts mit bewährten Verfahren und nur wenigen Tastenanschlägen beginnen. Durch Verwendung des Archetyps werden alle Teile bereits vorhanden sein, sodass das resultierende Projekt minimal ist, es jedoch bereits alle [Schlüsselfunktionen](#features) von AEM implementiert, sodass Sie nur auf dem Aufbau aufbauen und erweitern müssen.
+Mithilfe des AEM-Projektarchetyps können Sie auf dem Weg zum Aufbau eines AEM-Projekts mit bewährten Verfahren und nur wenigen Tastenanschlägen beginnen. Durch Verwendung des Archetyps werden alle Teile bereits vorhanden sein, sodass das resultierende Projekt minimal ist, es jedoch bereits alle [Schlüsselfunktionen](#what-you-get) von AEM implementiert, sodass Sie nur auf dem Aufbau aufbauen und erweitern müssen.
 
 Natürlich gibt es viele Elemente, die in ein erfolgreiches AEM-Projekt eingehen, aber die Verwendung des AEM-Projektarchetyps ist eine solide Grundlage und wird dringend für jedes AEM-Projekt empfohlen.
 
