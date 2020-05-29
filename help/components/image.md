@@ -1,8 +1,11 @@
 ---
 title: Bildkomponente
 description: Die Kernkomponente „Bildkomponente“ ist eine anpassungsfähige Bildkomponente mit Funktionen zur Bearbeitung im Kontext.
-translation-type: ht
-source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '1934'
+ht-degree: 92%
 
 ---
 
@@ -31,7 +34,7 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 
 | Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |--- |---|
-| v2 | Kompatibel | Kompatibel | Kompatibel | Kompatibel |
+| v2 | - | Kompatibel | Kompatibel | Kompatibel |
 | [v1](v1/image-v1.md) | Kompatibel | Kompatibel | Kompatibel | - |
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
@@ -72,7 +75,7 @@ Zusätzlich zum standardmäßigen [Dialogfeld „Bearbeiten“](#edit-dialog) un
 
 ### Asset-Registerkarte {#asset-tab}
 
-![](/help/assets/screen_shot_2018-01-08at114245.png)
+![Registerkarte &quot;Asset&quot;des Dialogfelds &quot;Konfiguration&quot;der Bildkomponente](/help/assets/image-configure-asset.png)
 
 * **Bild-Asset**
    * Ziehen Sie ein Asset aus dem [Asset-Browser](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.translate.html) oder tippen Sie auf die Option **Durchsuchen**, um es von einem lokalen Dateisystem hochzuladen.
@@ -81,7 +84,7 @@ Zusätzlich zum standardmäßigen [Dialogfeld „Bearbeiten“](#edit-dialog) un
 
 ### Registerkarte „Metadaten“ {#metadata-tab}
 
-![](/help/assets/screen_shot_2018-01-08at114527.png)
+![Registerkarte &quot;Metadaten&quot;des Dialogfelds &quot;Konfiguration&quot;der Bildkomponente](/help/assets/image-configure-metadata.png)
 
 * **Bild ist dekorativ**,
 Option aktivieren, wenn das Bild von Hilfstechnologien ignoriert werden soll und daher kein alternativer Text benötigt wird. Dies gilt nur für dekorative Bilder.
@@ -101,15 +104,20 @@ Wenn die Option aktiviert ist, wird die Beschriftung nicht unter dem Bild angeze
    * Verwenden Sie das Dialogfeld „Auswahl“, um eine Verknüpfung zu einer anderen AEM-Ressource herzustellen.
    * Geben Sie die absolute URL ein, wenn Sie keine Verknüpfung zu einer AEM-Ressource erstellen. Nicht absolute URLs werden als relativ zu AEM interpretiert.
 
+* **ID** - Diese Option ermöglicht die Steuerung des eindeutigen Bezeichners der Komponente im HTML und in der [Datenschicht](/help/developing/data-layer/overview.md).
+   * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert und Sie können die resultierende Seite überprüfen.
+   * Wenn eine ID angegeben wird, muss der Autor sicherstellen, dass sie eindeutig ist.
+   * Eine Änderung der ID kann sich auf die Verfolgung von CSS, JS und Datenschichten auswirken.
+
 ## Dialogfeld „Bearbeiten“ {#edit-dialog}
 
 Das Dialogfeld „Bearbeiten“ ermöglicht dem Inhaltsautor das Zuschneiden, Ändern der Startkarte und das Zoomen des Bildes.
 
-![](/help/assets/chlimage_1-8.png)
+![Dialogfeld &quot;Bearbeiten&quot;der Bildkomponente](/help/assets/image-edit.png)
 
 * Zuschneiden beginnen
 
-   ![](/help/assets/chlimage_1-9.png)
+   ![Symbol zum Beschneiden von Beginn](/help/assets/image-start-crop.png)
 
    Wenn Sie diese Option auswählen, wird eine Dropdown-Liste für vordefinierte Zuschneideproportionen geöffnet.
 
@@ -117,77 +125,43 @@ Das Dialogfeld „Bearbeiten“ ermöglicht dem Inhaltsautor das Zuschneiden, Ä
    * Wählen Sie **Zuschnitt entfernen**, um das ursprüngliche Asset anzuzeigen.
    Nachdem Sie eine Zuschnittoption ausgewählt haben, verwenden Sie die blauen Griffe, um die Beschneidung auf dem Bild anzupassen.
 
-   ![](/help/assets/chlimage_1-10.png)
+   ![Optionen für das Zuschneiden](/help/assets/image-crop-options.png)
 
 * Nach rechts drehen
 
-   ![](/help/assets/chlimage_1-11.png)
+   ![Symbol rechts drehen](/help/assets/image-rotate-right.png)
 
    Verwenden Sie diese Option, um das Bild um 90° nach rechts (im Uhrzeigersinn) zu drehen.
 
 * Horizontal spiegeln
 
-   ![](/help/assets/screen_shot_2018-04-16at091404.png)
+   ![Symbol &quot;Horizontal spiegeln&quot;](/help/assets/image-flip-horizontal.png)
 
    Verwenden Sie diese Option, um das Bild horizontal zu spiegeln oder um 180° entlang der y-Achse zu drehen.
 
 * Vertikal spiegeln
 
-   ![](/help/assets/screen_shot_2018-04-16at091410.png)
+   ![Symbol &quot;Vertikal spiegeln&quot;](/help/assets/image-flip-vertical.png)
 
    Verwenden Sie diese Option, um das Bild vertikal zu spiegeln oder um 180° entlang der x-Achse zu drehen.
 
-* Startkarte
-
-   >[!CAUTION]
-   >
-   >Die Funktion „Startkarte“ erfordert die Kernkomponenten in Version 2.1.0 oder höher zusammen mit AEM 6.4 [Service Pack 2](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) bzw. AEM 6.3 [Service Pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) oder höher, um [neue Bildbearbeitungsfunktionen](https://docs.adobe.com/content/help/en/experience-manager-64/developing/components/image-editor.html) in AEM zu unterstützen.
-
-   ![](/help/assets/chlimage_1-12.png)
-
-   Verwenden Sie diese Option, um eine Startkarte auf das Bild anzuwenden. Wenn der Benutzer diese Option auswählt, wird ein neues Fenster geöffnet, in dem er die Form der Karte auswählen kann:
-
-   * **Rechteckige Karte hinzufügen**
-   * **Kreisdiagramm hinzufügen**
-   * **Polygon-Karte hinzufügen**
-      * Standardmäßig wird eine Dreieckskarte hinzugefügt. Doppelklicken Sie auf eine Linie der Form, um zu einer neuen Seite einen neuen blauen Griff zur Größenanpassung hinzuzufügen.
-   Nachdem eine Karten-Form ausgewählt wurde, wird sie mit dem Bild überlagert, sodass die Größe geändert werden kenn. Ziehen Sie die blauen Größenänderungsgriffe per Drag-and-Drop, um die Form anzupassen.
-
-   ![](/help/assets/chlimage_1-13.png)
-
-   Nachdem Sie die Größe der Startkarte angepasst haben, klicken Sie darauf, um eine schwebende Symbolleiste zu öffnen, um den Pfad des Links zu definieren.
-
-   * **Pfad**
-      * Verwenden Sie die Option „Pfadwähler“, um einen Pfad in AEM auszuwählen.
-      * Wenn der Pfad sich nicht in AEM befindet, verwenden Sie die absolute URL. Nicht absolute Pfade werden relativ zu AEM interpretiert.
-   * **Alternativer Text**
-Alternative Beschreibung des Pfadziels
-   * **Target**
-      * **Selbe Registerkarte**
-      * **Neue Registerkarte**
-      * **Übergeordneter Frame**
-      * **Top-Frame**
-   Tippen oder klicken Sie auf das blaue Häkchen zum Speichern, auf das schwarze X zum Abbrechen oder auf den roten Papierkorb, um die Karte zu löschen.
-
-   ![](/help/assets/chlimage_1-14.png)
-
 * Zoom zurücksetzen
 
-   ![](/help/assets/chlimage_1-15.png)
+   ![Zoomsymbol zurücksetzen](/help/assets/image-reset-zoom.png)
 
    Wenn das Bild bereits gezoomt wurde, verwenden Sie diese Option, um den Zoomgrad zurückzusetzen.
 
 * Zoom-Regler öffnen
 
-   ![](/help/assets/chlimage_1-16.png)
+   ![Symbol für Zoom-Schieberegler öffnen](/help/assets/image-zoom.png)
 
    Mit dieser Option können Sie einen Schieberegler anzeigen, um den Zoomgrad des Bildes zu steuern.
 
-   ![](/help/assets/chlimage_1-17.png)
+   ![Zoom-Regler](/help/assets/image-zoom-slider.png)
 
 Der Editor für die Bearbeitung im Kontext kann auch zum Ändern des Bildes verwendet werden. Aus Platzgründen sind nur einfache Optionen inline verfügbar. Für vollständige Bearbeitungsoptionen verwenden Sie den Vollbildmodus.
 
-![](/help/assets/chlimage_1-18.png)
+![Optionen zur Bearbeitung von Bildern an Ort und Stelle](/help/assets/image-in-place-edit.png)
 
 >[!NOTE]
 >
@@ -203,7 +177,7 @@ Auf der Registerkarte **Main** können Sie eine Liste der Breiten in Pixel für 
 
 Darüber hinaus können Sie festlegen, welche allgemeinen Komponentenoptionen automatisch aktiviert oder deaktiviert werden, wenn der Autor die Komponente zu einer Seite hinzufügt.
 
-![](/help/assets/screenshot_2018-10-19at102756.png)
+![Hauptregisterkarte des Dialogfelds &quot;Design&quot;der Bildkomponente](/help/assets/image-design-main.png)
 
 * **Verzögertes Laden aktivieren**
 Festlegen, ob die Option für verzögertes Laden automatisch aktiviert ist, wenn die Bildkomponente zu einer Seite hinzugefügt wird.
@@ -228,7 +202,7 @@ Definiert eine Liste der Breiten in Pixel für das Bild, und die Komponente läd
 * **JPEG-Qualität**
 Der Qualitätsfaktor (in Prozent von 0 bis 100) für umgewandelte (z. B. skalierte oder zugeschnittene) JPEG-Bilder.
 
->[!CAUTION]
+>[!NOTE]
 >
 >Die Option JPEG-Qualität ist ab Version 2.2.0 der Kernkomponenten verfügbar.
 
@@ -242,13 +216,13 @@ Auf der Registerkarte **Funktionen** können Sie festlegen, welche Optionen den 
 
 * Quelle
 
-   ![](/help/assets/chlimage_1-19.png)
+   ![Registerkarte &quot;Designfunktionen&quot;des Dialogfelds &quot;Bildkomponente&quot;](/help/assets/image-design-features-source.png)
 
    Wählen Sie die Option **Asset-Uploads aus Dateisystem zulassen**, damit Inhaltsautoren Bilder von ihrem lokalen Computer hochladen können. Wenn Sie erzwingen möchten, dass Autoren nur Assets aus AEM auswählen, wählen Sie diese Option ab.
 
 * Ausrichtung
 
-   ![](/help/assets/chlimage_1-20.png)
+   ![Registerkarte &quot;Designfunktionen&quot;des Dialogfelds &quot;Bildkomponente&quot;](/help/assets/image-design-features-orientation.png)
 
 * **Drehen**
 Verwenden Sie diese Option, damit der Inhaltsautor die Option **Rechts drehen** verwenden kann.
@@ -261,7 +235,7 @@ Verwenden Sie diese Option, damit der Inhaltsautor die Option **Horizontal spieg
 
 * Beschneiden
 
-   ![](/help/assets/chlimage_1-21.png)
+   ![Registerkarte &quot;Designfunktionen&quot;des Dialogfelds &quot;Bildkomponente&quot;](/help/assets/image-design-features-cropping.png)
 
    Wählen Sie die Option **Beschneiden zulassen** aus, damit der Inhaltsautor das Bild in der Komponente im Dialogfeld „Bearbeiten“ beschneiden kann.
    * Klicken Sie auf **Hinzufügen**, um ein vordefiniertes Bildseitenverhältnis hinzuzufügen.
