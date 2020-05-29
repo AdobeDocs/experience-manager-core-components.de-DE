@@ -1,8 +1,11 @@
 ---
 title: Container-Komponente
 description: Die Kernkomponente „Container-Komponente“ ermöglicht die Erstellung eines Containers für diverse zusätzliche Komponenten auf einer Seite.
-translation-type: ht
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '792'
+ht-degree: 87%
 
 ---
 
@@ -24,9 +27,9 @@ Die aktuelle Version der Container-Komponente ist v1, die mit Version 2.5.0 der 
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
-| Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|---|
-| v1 | Kompatibel | Kompatibel | Kompatibel | Kompatibel |
+| Komponentenversion | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |---|---|
+| v1 | Kompatibel | Kompatibel | Kompatibel |
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
 
@@ -44,14 +47,17 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 
 Mit dem Dialogfeld „Konfigurieren“ kann der Inhaltsautor das Container-Element und sein Verhalten und Aussehen für einen Besucher der Seite definieren.
 
-![](/help/assets/screen-shot-2019-06-21-13.59.26.png)
+![Dialogfeld &quot;Container-Komponente bearbeiten&quot;](/help/assets/container-edit.png)
 
 * **Layout** - Diese Option definiert das Verhalten oder das Layout-Verhalten der Container-Komponente.
    * **Einfach** - Definiert einen Container als einfache Sammlung von Komponenten
    * **Responsives Raster** – Definiert einen Container als [responsives AEM-Layout](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/features/responsive-layout.translate.html)
-* **ID** - Verwenden Sie diese Option, um das HTML-ID-Attribut zu definieren, das auf die Komponente angewendet werden soll.
 * **Hintergrundfarbe** - Definierbar entweder als freie RGB-Werte oder mithilfe der Farbauswahl, [je nach Konfiguration](#background-tab).
 * **Hintergrundbild** - Definiert eine Hintergrundfarbe für den Container, [je nach Konfiguration](#background-tab).
+* **ID** - Diese Option ermöglicht die Steuerung des eindeutigen Bezeichners der Komponente im HTML und in der [Datenschicht](/help/developing/data-layer/overview.md).
+   * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert und Sie können die resultierende Seite überprüfen.
+   * Wenn eine ID angegeben wird, muss der Autor sicherstellen, dass sie eindeutig ist.
+   * Eine Änderung der ID kann sich auf die Verfolgung von CSS, JS und Datenschichten auswirken.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
@@ -69,13 +75,13 @@ Mit der Registerkarte „Standardkomponenten“ wird definiert, welche Komponent
 
 ### Registerkarte „Responsive Einstellungen“ {#responsive-settings-tab}
 
-![](/help/assets/screen-shot-2019-06-21-09.33.03.png)
+![Registerkarte &quot;Responsive Settings&quot;des Designdialogs der Komponente &quot;Container&quot;](/help/assets/container-design-responsive.png)
 
 * **Spalten** - Definiert die Anzahl der Spalten im Raster des resultierenden Containers.
 
 ### Registerkarte „Hintergrund“ {#background-tab}
 
-![](/help/assets/screen-shot-2019-06-21-09.42.42.png)
+![Registerkarte &quot;Hintergrund&quot;des Dialogfelds &quot;Design&quot;der Komponente &quot;Container&quot;](/help/assets/container-design-background.png)
 
 * **Hintergrundbild**
    * **Hintergrundbild aktivieren** - Wählen Sie diese Option, um dem Inhaltsautor die Möglichkeit zu bieten, ein Hintergrundbild für den Container zu definieren.
