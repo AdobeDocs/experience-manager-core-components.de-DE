@@ -1,8 +1,11 @@
 ---
 title: Inhaltsfragmentlisten-Komponente
 description: Die Inhaltsfragmentlisten-Kernkomponente ermöglicht die Anzeige einer Liste von Inhaltsfragmenten.
-translation-type: ht
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+translation-type: tm+mt
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '762'
+ht-degree: 87%
 
 ---
 
@@ -24,9 +27,9 @@ Die aktuelle Version der Inhaltsfragment-Komponente ist v1, die mit Version 2.4.
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
-| Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|---|
-| v1 | Kompatibel | Kompatibel | Kompatibel | Kompatibel |
+| Komponentenversion | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |---|---|
+| v1 | Kompatibel | Kompatibel | Kompatibel |
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
 
@@ -48,7 +51,7 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 
 Auf der Registerkarte **Eigenschaften** wird festgelegt, welche Inhaltsfragmente in der Liste enthalten sind. Dies basiert hauptsächlich auf einem ausgewählten Inhaltsfragment-Modell, es stehen aber auch andere Filteroptionen zur Verfügung.
 
-![](/help/assets/screen-shot-2019-09-25-10.32.10.png)
+![Registerkarte &quot;Eigenschaften&quot;des Dialogfelds &quot;Bearbeiten&quot;der Komponente &quot;Inhaltsfragment-Liste&quot;](/help/assets/content-fragment-list-properties.png)
 
 * **Modell** - Pfad zum Inhaltsfragment-Modell, auf dem die Liste basiert.
    * Standardmäßig sind alle Inhaltsfragmente des Modells, das als **Modellpfad** definiert ist, in der Liste enthalten.
@@ -64,6 +67,10 @@ Auf der Registerkarte **Eigenschaften** wird festgelegt, welche Inhaltsfragmente
    * Aufsteigend oder absteigend
 * **Max. Elemente** – Maximale Anzahl der in der Liste anzuzeigenden Elemente
    * Bei keinem Wert werden alle Elemente zurückgegeben.
+* **ID** - Diese Option ermöglicht die Steuerung des eindeutigen Bezeichners der Komponente im HTML und in der [Datenschicht](/help/developing/data-layer/overview.md).
+   * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert und Sie können die resultierende Seite überprüfen.
+   * Wenn eine ID angegeben wird, muss der Autor sicherstellen, dass sie eindeutig ist.
+   * Eine Änderung der ID kann sich auf die Verfolgung von CSS, JS und Datenschichten auswirken.
 
 >[!NOTE]
 >Die Optionen **Sortieren nach**, **Sortierreihenfolge** und **Max. Elemente** wurden mit Version 2.7.0 der Kernkomponenten eingeführt.
@@ -72,7 +79,7 @@ Auf der Registerkarte **Eigenschaften** wird festgelegt, welche Inhaltsfragmente
 
 Standardmäßig werden alle Elemente des Inhaltsfragmentmodells in die Liste aufgenommen (sofern sie nicht durch das Feld **Max. Elemente** eingeschränkt sind). Auf der Registerkarte **Elemente** können Sie nur bestimmte Elemente angeben, die einbezogen werden sollen.
 
-![](/help/assets/screen-shot-2019-05-08-10.47.34.png)
+![Registerkarte &quot;Elemente&quot;des Dialogfelds &quot;Bearbeiten&quot;der Komponente &quot;Inhaltsfragment-Liste&quot;](/help/assets/content-fragment-list-elements.png)
 
 * **Elemente** - Es werden nur die Elemente der Inhaltsfragmente in der angegebenen Liste angezeigt.
    * Klicken oder tippen Sie auf die Schaltfläche **Hinzufügen**, um ein neues Element hinzuzufügen..
