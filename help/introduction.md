@@ -2,10 +2,10 @@
 title: Einführung in Kernkomponenten
 description: 'Kernkomponenten wurden eingeführt, um robuste und erweiterbare Basiskomponenten bereitzustellen, die auf aktueller Technologie und Best Practices basieren. '
 translation-type: tm+mt
-source-git-commit: c07dc21b1973ec541a1d96047f8a30aca8cfb886
+source-git-commit: b7e864686f31be8c0342b3f16750d276f554d219
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 97%
+source-wordcount: '846'
+ht-degree: 96%
 
 ---
 
@@ -35,6 +35,7 @@ Die Kernkomponenten sind eine Reihe standardisierter Web-Content-Management-Komp
 | Cloud-fähig | Ob in [AEM as a Cloud Service](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/landing/home.translate.html), in [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) oder On-Premise – sie funktionieren einfach. |
 | Vielseitig | Die Komponenten stellen allgemeine Konzepte dar, mit denen die Autoren nahezu jedes Layout zusammenstellen können. |
 | Konfigurierbar | [Inhaltsrichtlinien](https://docs.adobe.com/content/help/de-DE/experience-manager-65/developing/platform/templates/page-templates-editable.html#content-policies) auf Vorlagenebene definieren, welche Funktionen die Seitenautoren verwenden dürfen oder nicht. |
+| verfolgbar | Die [Adobe Client Data Layer-Integration](/help/developing/data-layer/overview.md) ermöglicht die Verfolgung aller Aspekte des Besuchers. |
 | Barrierefrei | Sie erfüllen [WCAG 2.1-Standards](https://www.w3.org/TR/WCAG21/), bieten ARIA-Beschriftungen und unterstützen die Tastennavigation ([bekannte Probleme](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)). |
 | SEO-freundlich | Die HTML-Ausgabe ist schematisch und stellt [schema.org](https://schema.org)-Mikrodatenanmerkungen bereit. |
 | WebApp-fähig | Die [optimierte JSON-Ausgabe](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) ermöglicht das Client-seitige Rendern, wobei die [kontextbezogene Bearbeitung](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html) weiterhin möglich ist. |
@@ -44,7 +45,6 @@ Die Kernkomponenten sind eine Reihe standardisierter Web-Content-Management-Komp
 | Versionierung | Die [Versionierungsrichtlinie](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) stellt sicher, dass die Kernkomponenten Ihre Website nicht beschädigen, wenn Funktionen verbessert werden, die sich auf Sie auswirken könnten. |
 | Lokalisierbar | Mit der intelligenten Referenzauflösung ist es bestimmten Komponenten möglich, [entsprechende lokalisierte Inhalte automatisch zu finden und anzuzeigen](get-started/localization.md). |
 | Open Source | Wenn etwas nicht so ist, wie es sein sollte, [bringen Sie Ihre Verbesserungen ein!](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) |
-| verfolgbar | Hauptkomponenten sind in die Adobe Client Data Layer [integriert.](/help/developing/data-layer/overview.md) |
 
 ## Die Komponenten {#the-components}
 
