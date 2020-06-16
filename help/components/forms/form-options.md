@@ -1,11 +1,11 @@
 ---
 title: Formularoptionen-Komponente
 description: Die Kernkomponente „Formularoptionen“ ermöglicht die Auswahl aus vordefinierten Optionen in verschiedenen Formaten.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '547'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 81%
 
 Die Kernkomponente „Formularoptionen“ ermöglicht die Auswahl aus vordefinierten Optionen in verschiedenen Formaten.
 
-## Nutzung {#usage}
+## Verwendung {#usage}
 
 Die Kernkomponente „Formularoptionen-Komponente“ ermöglicht die Übermittlung verschiedener Arten von Optionen, die auf vielerlei Arten präsentiert werden und die zusammen mit der [Formularcontainer-Komponente](form-container.md) verwendet werden sollten.
 
@@ -47,7 +47,7 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 
 Im Dialogfeld „Konfigurieren“ kann der Inhaltsautor den Typ der Optionen festlegen, die angezeigt werden sollen, Beschriftungen definieren und festlegen, welche Optionen verfügbar sind.
 
-![Dialogfeld &quot;Bearbeiten&quot;der Komponente &quot;Formularoptionen&quot;](/help/assets/form-options-edit.png)
+![Dialogfeld „Bearbeiten“ der Formularoptionen-Komponente](/help/assets/form-options-edit.png)
 
 * **Typen** - Wie die Optionen angezeigt werden
    * **Kontrollkästchen**
@@ -63,16 +63,16 @@ Im Dialogfeld „Konfigurieren“ kann der Inhaltsautor den Typ der Optionen fes
          * **Text** - Die Bezeichnung für die Option, die im Formular angezeigt wird
          * **Aktiv** - Die Option wird als ausgewählt markiert, wenn das Formular geladen wird
          * **Deaktiviert** - Die Option ist nicht auswählbar, wird aber trotzdem angezeigt
-   * **Liste** - Für die Optionen wird eine an anderer Stelle in AEM definierte statische Liste verwendet
+   * **Liste** – Eine an anderer Stelle in AEM definierte statische Liste wird für die Option verwendet
       * **Liste** - Der Pfad der statischen Liste in AEM
          * Verwenden Sie die Schaltfläche „Durchsuchen“, um die Listenressource zu finden.
    * **Datenquelle** - Eine Datenquelle wird für die Optionen verwendet
-      * **Datenquelle** - Ressourcentyp der Datenquelle
-* **Hilfenachricht** - Ein Hinweis für den Benutzer dahingehend, was im Feld eingegeben werden kann
-* **ID** - Diese Option ermöglicht die Steuerung des eindeutigen Bezeichners der Komponente im HTML und in der [Datenschicht](/help/developing/data-layer/overview.md).
-   * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert und Sie können die resultierende Seite überprüfen.
-   * Wenn eine ID angegeben wird, muss der Autor sicherstellen, dass sie eindeutig ist.
-   * Eine Änderung der ID kann sich auf die Verfolgung von CSS, JS und Datenschichten auswirken.
+      * **Datenquelle** – Der Ressourcentyp der Datenquelle.
+* **Hilfemeldung** – Ein Hinweis für den Benutzer dahingehend, was im Feld eingegeben werden kann.
+* **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
+   * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
+   * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
+   * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
