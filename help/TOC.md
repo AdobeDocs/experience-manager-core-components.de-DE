@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: c07dc21b1973ec541a1d96047f8a30aca8cfb886
 workflow-type: tm+mt
 source-wordcount: '181'
-ht-degree: 91%
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 91%
    + [Verwenden von Kernkomponenten](get-started/using.md)
    + [Lokalisierungsfunktionen](get-started/localization.md)
 + Die Komponenten {#components}
-   + [Akkordeon](components/accordion.md)
+   + [Accordion](components/accordion.md)
    + [Breadcrumb](components/breadcrumb.md)
    + [Schaltfläche](components/button.md)
    + [Karussell](components/carousel.md)
@@ -70,9 +70,9 @@ ht-degree: 91%
    + [Anpassen der Kernkomponenten](developing/customizing.md)
    + [Komponentenrichtlinien](developing/guidelines.md)
    + Adobe Client-Datenschicht {#data-layer}
-      + [Hauptkomponenten und Adobe Client-Datenschicht](developing/data-layer/overview.md)
-      + [Integration mit Adobe Launch](developing/data-layer/launch-integration.md)
-      + [Integration in Adobe Analytics](developing/data-layer/analytics-integration.md)
+      + [Kernkomponenten und die Adobe Client-Datenschicht](developing/data-layer/overview.md)
+      + [Integration mit Adobe Experience Platform Launch ](developing/data-layer/launch-integration.md)
+      + [Integration mit Adobe Analytics](developing/data-layer/analytics-integration.md)
    + AEM-Projektarchetyp {#archetype}
       + [Archetyp-Übersicht](developing/archetype/overview.md)
       + [Verwenden des Archetyps](developing/archetype/using.md)
