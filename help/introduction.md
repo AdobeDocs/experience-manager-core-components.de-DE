@@ -80,7 +80,7 @@ Die aktuelle Version der Kernkomponenten enthält die folgenden Komponenten.
 * [Container](components/container.md)
 * [Karussell](components/carousel.md)
 * [Registerkarten](components/tabs.md)
-* [Akkordeon](components/accordion.md)
+* [Accordion](components/accordion.md)
 
 ### Formularkomponenten {#form-components}
 
