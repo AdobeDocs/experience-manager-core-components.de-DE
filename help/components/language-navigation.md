@@ -1,11 +1,11 @@
 ---
 title: Sprachnavigationskomponente
 description: Die Sprachnavigationskomponente stellt eine Sprache/Ländernavigation für eine Site bereit, sodass Besucher zur gleichen Seite in einem anderen Gebietsschema navigieren können.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '832'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 86%
 
 Die Sprachnavigationskomponente stellt eine Sprache/Ländernavigation für eine Site bereit, sodass Besucher zur gleichen Seite in einem anderen Gebietsschema navigieren können.
 
-## Nutzung {#usage}
+## Verwendung {#usage}
 
 Webseiten werden oft in verschiedenen Sprachen für verschiedene Regionen angeboten. Mit der Sprachnavigationskomponente kann ein Besucher dieselbe Seite in verschiedenen Sprachen/Gebietsschemata anzeigen. Wenn Sie ein Leser auf der schweizerischen deutschen Version der Website sind, können Sie einfach zur US-englischen Version der gleichen Seite wechseln. Die Sprachnavigationskomponente verarbeitet die Struktur der Site-Sprache und findet die zugehörige Seite automatisch.
 
@@ -37,11 +37,11 @@ Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in d
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Um die Sprachnavigationskomponente und Beispiele für die Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_langnav).
+Um die Sprachnavigationskomponente und Beispiele für die Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_langnav_de).
 
 ## Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Sprachnavigationskomponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_langnav_v1).
+Die aktuelle technische Dokumentation zur Sprachnavigationskomponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_langnav_v1_de).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
@@ -51,9 +51,9 @@ Das Dialogfeld „Bearbeiten“ ermöglicht die Definition des globalen Site-Nav
 
 In der Regel müssen diese Konfigurationen nur auf der Seitenvorlage vorgenommen werden. Sie können jedoch auch über das [Dialogfeld „Bearbeiten“](#edit-dialog) auf der Seitenebene geändert werden.
 
-### Registerkarte „Eigenschaften“{#properties-tab}
+### Registerkarte „Eigenschaften“ {#properties-tab}
 
-![Dialogfeld &quot;Sprachnavigationskomponente&quot;](/help/assets/language-navigation-design.png)
+![Dialogfeld „Design“ der Sprachnavigationskomponente](/help/assets/language-navigation-design.png)
 
 * **Navigationsstamm**
    * Hier sollte die Sprachnavigation der Site beginnen.
@@ -83,7 +83,7 @@ Nehmen wir an, dass Ihr Inhalt wie folgt aussieht:
 \-- wknd-shop
 ```
 
-Für die Site-WKND sollten Sie die Komponente &quot;Sprachnavigation&quot;wahrscheinlich in eine Seitenvorlage als Teil der Kopfzeile einfügen. Sobald die Komponente ein Teil der Vorlage ist, können Sie den **Navigationsstamm** der Komponente auf `/content/wknd` festlegen, da dort der lokalisierte Inhalt für diese Site beginnt. Sie sollten auch die **Sprachstrukturtiefe** auf `2` festlegen, da Ihre Struktur aus zwei Ebenen besteht (erst Land, dann Sprache).
+Für die Site „WKND“ möchten Sie auf einer Seitenvorlage womöglich die Sprachnavigationskomponente als Teil der Kopfzeile platzieren. Sobald die Komponente ein Teil der Vorlage ist, können Sie den **Navigationsstamm** der Komponente auf `/content/wknd` festlegen, da dort der lokalisierte Inhalt für diese Site beginnt. Sie sollten auch die **Sprachstrukturtiefe** auf `2` festlegen, da Ihre Struktur aus zwei Ebenen besteht (erst Land, dann Sprache).
 
 Mit dem **Navigationsstamm**-Wert weiß die Sprachkomponente, dass nach `/content/wknd` die Navigation beginnt und dass sie Sprachnavigationsoptionen generieren kann, indem die nächsten beiden Ebenen in der Inhaltsstruktur als Sprachnavigationsstruktur der Site erkannt werden (wie durch den Wert **der Sprachstruktur** definiert).
 
@@ -97,10 +97,10 @@ Die Sprachnavigationskomponente unterstützt das AEM-[Stilsystem](/help/get-star
 
 Normalerweise muss die Sprachnavigationskomponente nur zu den Seitenvorlagen einer Site hinzugefügt und konfiguriert werden. Wenn die Sprachnavigationskomponente zu einer einzelnen Inhaltsseite hinzugefügt werden muss, erlaubt das Dialogfeld „Bearbeiten“ dem Inhaltsautor die Konfiguration derselben Werte wie im [Design-Dialogfeld](#design-dialog) beschrieben.
 
-Zusätzlich können Sie eine **ID** festlegen. Diese Option ermöglicht die Steuerung des eindeutigen Bezeichners der Komponente im HTML und in der [Datenschicht](/help/developing/data-layer/overview.md).
+Zusätzlich können Sie eine **ID** festlegen. Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
 
-* Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert und Sie können die resultierende Seite überprüfen.
-* Wenn eine ID angegeben wird, muss der Autor sicherstellen, dass sie eindeutig ist.
-* Eine Änderung der ID kann sich auf die Verfolgung von CSS, JS und Datenschichten auswirken.
+* Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
+* Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
+* Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
-![Dialogfeld &quot;Bearbeiten&quot;der Sprachnavigationskomponente](/help/assets/language-navigation-edit.png)
+![Dialogfeld „Bearbeiten“ der Sprachnavigationskomponente](/help/assets/language-navigation-edit.png)
