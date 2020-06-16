@@ -1,11 +1,11 @@
 ---
 title: Seitenkomponente
 description: Die Seitenkomponente ist eine Erweiterungskomponente für Seiten, die mit dem Vorlageneditor arbeitet und es ermöglicht, Seitenkopf-/Fußzeilen- und Strukturkomponenten mit dem Vorlageneditor zusammenzustellen.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '666'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 89%
 
 Die Seitenkomponente ist eine Erweiterungskomponente für Seiten, die mit dem [Vorlageneditor](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/features/templates.translate.html) arbeitet und es ermöglicht, Seitenkopf-/Fußzeilen- und Strukturkomponenten mit dem Vorlageneditor zusammenzustellen.
 
-## Nutzung {#usage}
+## Verwendung {#usage}
 
 Die Seitenkomponente bildet die Grundlage aller Seiten, die mit den Kernkomponenten entworfen wurden, sowie bearbeitbarer Vorlagen. Mithilfe der Seitenkomponente können Kopfzeilen, Fußzeilen und der Struktur der Seite als Vorlage unter Verwendung der anderen Kernkomponenten definiert werden.
 
@@ -39,7 +39,7 @@ Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in d
 
 ### Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Seitenkomponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_page_v2).
+Die aktuelle technische Dokumentation zur Seitenkomponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_page_v2_de).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
@@ -47,7 +47,7 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 
 Da die Komponente die gesamte Seite darstellt, befinden sich Einstellungen, die normalerweise in einem Dialogfeld „Bearbeiten“ enthalten wären, im Fenster [Seiteneigenschaften](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.translate.html).
 
-## Dialogfeld „Design“{#design-dialog}
+## Dialogfeld „Design“ {#design-dialog}
 
 Da die Komponente die gesamte Seite darstellt, wird das Dialogfeld „Design“ über **Seiteninformationen > Seitenrichtlinien** aufgerufen, wenn Sie die Seitenvorlage bearbeiten.
 
@@ -57,20 +57,22 @@ Da die Komponente die gesamte Seite darstellt, wird das Dialogfeld „Design“ 
 >
 >In früheren Versionen von AEM hieß die **Seitenrichtlinie** noch **Seitendesign**.
 
-### Registerkarte „Eigenschaften“{#properties-tab}
+### Registerkarte „Eigenschaften“ {#properties-tab}
 
 Mithilfe des Fensters „Seitendesign“ können Sie die zu ladenden Client-Bibliotheken sowie die Webressourcenbibliothek für die Seite definieren.
 
-* **Client-Bibliotheken** : Hiermit werden die zu ladenden Client-Bibliotheks-Kategorien definiert. JavaScript wird am Textende hinzugefügt und die CSS wird dem Seitenkopf hinzugefügt.
-* **Client Libraries JavaScript Page Head** - Hiermit werden die JavaScript-Client-Bibliotheks-Kategorien definiert, die im Seitenkopf geladen werden sollen.
+* **Client-Bibliotheken** – Damit werden Kategorien der Client-Bibliothek definiert, die geladen werden. JavaScript wird am Textende hinzugefügt und das CSS wird dem Seitenkopf hinzugefügt.
+* **JavaScript-Seitenkopf der Client-Bibliotheken**
+Definiert die Kategorien der JavaScript-Client-Bibliothek, die im Seitenkopf geladen werden.
    * Kategorien, die hier definiert werden und auch im Feld **Client-Bibliotheken** vorhanden sind, haben JavaScript, das anstelle am Textende in der Seitenkopfzeile geladen wird.
    * Es wird keine CSS geladen, es sei denn, die Kategorie ist ebenfalls im Feld **Client-Bibliotheken** enthalten.
 
-* **Webressourcen-Client-Bibliothek** - Die Client-Bibliotheks-Kategorie, mit der Webressourcen wie z. B. Favicons bereitgestellt werden.
+* **Client-Bibliothek der Web-Ressourcen**
+Die Kategorie der Client-Bibliothek, die verwendet wird, um Web-Ressourcen wie etwa Favicons zu bedienen.
 
-* **Zu Hauptinhaltselementauswahl** überspringen - Wird als Barrierefreiheitsfunktion verwendet, um direkt zum Hauptinhalt der Seite zu springen
+* **Zur Elementauswahl des Hauptinhalts wechseln** – Wird als Barrierefreiheitsfunktion verwendet, um direkt zum Hauptinhalt der Seite zu springen.
 
-![Dialogfeld &quot;Entwurf von Seitenkomponenten&quot;](/help/assets/page-design.png)
+![Dialogfeld „Design“ der Seitenkomponente](/help/assets/page-design.png)
 
 Bibliotheken können wie folgt für die beiden Felder **Client-Bibliotheken** und **Seitenkopf Client-Bibliotheken JavaScript** konfiguriert werden:
 
