@@ -1,50 +1,50 @@
 ---
-title: Verwenden der Adobe Client-Datenschicht mit den Kernkomponenten
-description: Verwenden der Adobe Client-Datenschicht mit den Kernkomponenten
-translation-type: tm+mt
+title: Verwenden der Adobe Client-Datenschicht in Verbindung mit den Kernkomponenten
+description: Verwenden der Adobe Client-Datenschicht in Verbindung mit den Kernkomponenten
+translation-type: ht
 source-git-commit: 539a4250c954ac830731a9ecf010e129b2cf9c3a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '416'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
 
-# Verwenden der Adobe Client-Datenschicht mit den Kernkomponenten {#data-layer-core-components}
+# Verwenden der Adobe Client-Datenschicht in Verbindung mit den Kernkomponenten {#data-layer-core-components}
 
-Ziel der Adobe Client Data Layer ist es, den Aufwand für die Instrumentierung von Websites zu verringern, indem eine standardisierte Methode zur Offenlegung und zum Zugriff auf alle Arten von Daten für Skripten bereitgestellt wird.
+Ziel der Adobe Client-Datenschicht ist es, für beliebige Skripte anhand einer standardisierten Methode für die Bereitstellung und den Zugriff auf alle Arten von Daten den Aufwand für die Instrumentierung von Websites zu reduzieren.
 
-Die Adobe Client-Datenschicht ist plattformunabhängig, aber vollständig in die Kernkomponenten integriert und kann mit AEM verwendet werden.
+Die Adobe Client-Datenschicht ist plattformunabhängig, aber für die Verwendung mit AEM vollständig in die Kernkomponenten integriert.
 
-Wie die Core-Komponenten ist auch der Code für die Adobe Client-Datenschicht auf GitHub zusammen mit der Entwicklerdokumentation verfügbar. Dieses Dokument gibt einen Überblick darüber, wie die Kernkomponenten mit der Datenschicht interagieren, jedoch werden alle technischen Details der GitHub-Dokumentation zurückgestellt.
+Wie auch die Kernkomponenten ist der Code für die Adobe Client-Datenschicht auf GitHub zusammen mit der zugehörigen Entwicklerdokumentation verfügbar. Das vorliegende Dokument gibt einen Überblick darüber, wie die Kernkomponenten mit der Datenschicht interagieren, für vollständige technische Details ist jedoch die Dokumentation auf GitHub zu konsultieren.
 
 >[!TIP]
 >
->Weitere Informationen zur Adobe Client-Datenschicht [finden Sie in den Ressourcen in ihrem GitHub-Repository.](https://github.com/adobe/adobe-client-data-layer)
+>Weitere Informationen zur Adobe Client-Datenschicht finden Sie in den Ressourcen des entsprechenden [GitHub-Repositorys](https://github.com/adobe/adobe-client-data-layer)
 >
->Weitere technische Details zur Integration der Adobe Client-Datenschicht mit den Core-Komponenten finden Sie in der [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) Datei im Core-Komponenten-Repository.
+>Weitere technische Details zur Integration der Adobe Client-Datenschicht mit den Kernkomponenten finden Sie in der Datei [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) im Kernkomponenten-Repository.
 
 
 ## Installation und Aktivierung {#installation-activation}
 
-Ab Version 2.9.0 der Core-Komponenten wird die Datenschicht mit den Core-Komponenten als clientlib verteilt. Es ist keine Installation erforderlich.
+Ab Version 2.9.0 der Kernkomponenten wird die Datenschicht zusammen mit den Kernkomponenten als clientlib bereitgestellt. Es ist keine Installation erforderlich.
 
-Die Datenschicht ist jedoch nicht standardmäßig aktiviert. So aktivieren Sie die Datenschicht
+Die Datenschicht ist jedoch nicht standardmäßig aktiviert. Gehen Sie wie folgt vor, um die Datenschicht zu aktivieren:
 
-1. Erstellen Sie die folgende Struktur unter dem `/conf` Knoten:
+1. Erstellen Sie unterhalb des Knotens `/conf` die folgende Struktur:
    * `/conf/<mySite>/sling:configs/com.adobe.cq.wcm.core.components.internal.DataLayerConfig`
-1. Hinzufügen einer booleschen Eigenschaft mit dem Namen `enabled` und legen Sie sie auf `true`.
-1. Hinzufügen Sie eine `sling:configRef` Eigenschaft auf den `jcr:content` Knoten Ihrer Site unten `/content` (z. `/content/<mySite>/jcr:content`) und legen Sie es auf `/conf/<mySite>`.
+1. Fügen Sie eine boolesche Eigenschaft mit dem Namen `enabled` hinzu und legen Sie sie auf `true` fest.
+1. Fügen Sie eine `sling:configRef`-Eigenschaft zum Knoten `jcr:content` Ihrer Site hinzu, dies unterhalb von `/content` (z. B. `/content/<mySite>/jcr:content`), und legen Sie für sie `/conf/<mySite>` fest.
 
-Nach der Aktivierung können Sie die Aktivierung überprüfen, indem Sie eine Seite der Site außerhalb des Editors laden. Wenn Sie die Seite überprüfen, sehen Sie, dass die Adobe Client-Datenschicht geladen wird.
+Sie können verifizieren, ob die Aktivierung erfolgreich war, indem Sie eine Seite der Site außerhalb des Editors laden. Durch Überprüfen der Seite können Sie feststellen, dass die Adobe Client-Datenschicht geladen wurde.
 
-## Schemas zu Hauptkomponenten {#data-schemas}
+## Datenschemas der Hauptkomponenten {#data-schemas}
 
-Im Folgenden finden Sie eine Liste von Schemas, die die Kernkomponenten mit der Datenschicht verwenden.
+Nachfolgend sind die Schemas aufgeführt, die die Kernkomponenten in Verbindung mit der Datenschicht verwenden.
 
-### Schema für Komponenten/Container {#item}
+### Komponenten-/Container-Element-Schema{#item}
 
-Das Schema Komponente/Container-Element wird in den folgenden Komponenten verwendet:
+Das Komponenten-/Container-Element-Schema wird in den folgenden Komponenten verwendet:
 
 * [Breadcrumb](/help/components/breadcrumb.md)
 * [Schaltfläche](/help/components/button.md)
@@ -55,7 +55,7 @@ Das Schema Komponente/Container-Element wird in den folgenden Komponenten verwen
 * [Text](/help/components/text.md)
 * [Titel](/help/components/title.md)
 
-Das Schema Component/Container Item wird wie folgt definiert.
+Das Komponenten-/Container-Element-Schema wird wie folgt definiert:
 
 ```
 id: {                   // component ID
@@ -72,11 +72,11 @@ id: {                   // component ID
 
 ### Seiten-Schema {#page}
 
-Das Schema &quot;Seite&quot;wird von der folgenden Komponente verwendet:
+Das Seiten-Schema wird von der folgenden Komponente verwendet:
 
 * [Seite](/help/components/page.md)
 
-Das Schema Seite wird wie folgt definiert.
+Das Seiten-Schema wird wie folgt definiert:
 
 ```
 id: {
@@ -98,11 +98,11 @@ id: {
 
 Das Container-Schema wird von den folgenden Komponenten verwendet:
 
-* [Akkordeon](/help/components/accordion.md)
+* [Accordion](/help/components/accordion.md)
 * [Registerkarten](/help/components/tabs.md)
 * [Karussell](/help/components/carousel.md)
 
-Das Container-Schema wird wie folgt definiert.
+Das Container-Schema wird wie folgt definiert:
 
 ```
 id: {
@@ -117,13 +117,13 @@ id: {
 }
 ```
 
-### Image-Schema {#image}
+### Bild-Schema {#image}
 
-Das Image-Schema wird von der folgenden Komponente verwendet:
+Das Bild-Schema wird von der folgenden Komponente verwendet:
 
-* [Image](/help/components/image.md)
+* [Bild](/help/components/image.md)
 
-Das Image-Schema wird wie folgt definiert:
+Das Bild-Schema wird wie folgt definiert:
 
 ```
 id: {
@@ -140,9 +140,9 @@ id: {
 
 ### Asset-Schema {#asset}
 
-Das Asset-Schema wird innerhalb der [Image-Komponente verwendet.](/help/components/image.md)
+Das Asset-Schema wird innerhalb der [Bild-Komponente](/help/components/image.md) verwendet:
 
-Das Asset-Schema ist wie folgt definiert.
+Das Asset-Schema wird wie folgt definiert:
 
 ```
 id: {
