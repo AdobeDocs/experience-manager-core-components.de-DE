@@ -1,11 +1,11 @@
 ---
 title: Formularcontainer-Komponente
 description: Die Kernkomponente „Formularcontainer-Komponente“ ermöglicht die Erstellung einfacher Übermittlungsformulare.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '805'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 84%
 
 Die Kernkomponente „Formularcontainer-Komponente“ ermöglicht die Erstellung einfacher Übermittlungsformulare.
 
-## Nutzung {#usage}
+## Verwendung {#usage}
 
 Die Formularcontainer-Komponente ermöglicht das Erstellen einfacher Informationsübermittlungsformulare und -funktionen, indem einfache WCM-Formulare unterstützt werden und eine verschachtelte Struktur verwendet wird, um zusätzliche Formularkomponenten zuzulassen.
 
@@ -62,7 +62,7 @@ Unabhängig vom Typ gibt es [allgemeine Einstellungen](#general-settings), die f
 
 Wenn das Formular gesendet wird, sendet der Mail-Aktionstyp eine E-Mail an bestimmte Empfänger.
 
-![E-Mail-Optionen im Dialogfeld &quot;Bearbeiten&quot;der Form Container-Komponente](/help/assets/form-container-edit-mail.png)
+![E-Mail-Optionen im Dialogfeld „Bearbeiten“ der Formular-Container-Komponente ](/help/assets/form-container-edit-mail.png)
 
 * **Betreff** - Betreffzeile der E-Mail, die beim Übermitteln des Formulars gesendet wird
 * **Von** - die Absenderadresse der E-Mail, die beim Übermitteln des Formulars gesendet wird
@@ -77,7 +77,7 @@ Wenn das Formular gesendet wird, sendet der Mail-Aktionstyp eine E-Mail an besti
 
 Wenn das Formular übermittelt wird, wird der Inhalt des Formulars in einem bestimmten Repository gespeichert.
 
-![Inhaltsoptionen im Dialogfeld &quot;Bearbeiten&quot;des Formular-Containers speichern](/help/assets/form-container-edit-store.png)
+![Optionen zum Speichern von Inhalten im Dialogfeld „Bearbeiten“ des Formular-Containers](/help/assets/form-container-edit-store.png)
 
 * **Inhalts-Pfad** - Inhalts-Repository-Pfad, in dem der übermittelte Inhalt gespeichert wird
 * **Daten anzeigen** - Tippen oder klicken Sie, um gespeicherte gesendete Daten als JSON anzuzeigen.
@@ -87,16 +87,16 @@ Wenn das Formular übermittelt wird, wird der Inhalt des Formulars in einem best
 
 Unabhängig vom ausgewählten Aktionstyp kann eine Dankeseite immer definiert werden.
 
-![Allgemeine Optionen im Dialogfeld &quot;Bearbeiten&quot;der Form Container-Komponente](/help/assets/form-container-edit-general.png)
+![Allgemeine Optionen im Dialogfeld „Bearbeiten“ der Formular-Container-Komponente ](/help/assets/form-container-edit-general.png)
 
-* **Dankeseite** - Der Benutzer wird nach Abschluss der Formularübermittlung zur angegebenen Seite weitergeleitet.
+* **Dankeseite** – Der Benutzer wird nach Abschluss der Formularübermittlung zur angegebenen Seite weitergeleitet.
    * Verwenden Sie das Dialogfeld „Auswahl“, um eine Ressource in AEM auszuwählen.
    * Wenn die Dankeseite nicht in AEM enthalten ist, geben Sie die absolute URL an. Nicht absolute URLs werden relativ zu AEM interpretiert.
    * Leer lassen, damit das Formular nach der Übermittlung wieder angezeigt wird.
-* **ID** - Diese Option ermöglicht die Steuerung des eindeutigen Bezeichners der Komponente im HTML und in der [Datenschicht](/help/developing/data-layer/overview.md).
-   * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert und Sie können die resultierende Seite überprüfen.
-   * Wenn eine ID angegeben wird, muss der Autor sicherstellen, dass sie eindeutig ist.
-   * Eine Änderung der ID kann sich auf die Verfolgung von CSS, JS und Datenschichten auswirken.
+* **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
+   * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
+   * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
+   * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
@@ -104,4 +104,4 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die zulässigen Ko
 
 ### Registerkarte „Stile“ {#styles-tab}
 
-The Form Container Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
+Die Formular-Container-Komponente unterstützt das [Stilsystem](/help/get-started/authoring.md#component-styling) von AEM.
