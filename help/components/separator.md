@@ -1,11 +1,11 @@
 ---
 title: Trennzeichenkomponente
 description: Die Trennzeichen-Komponente erstellt einen Umbruch zwischen Komponenten auf einer Seite
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '304'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 74%
 
 Die Kernkomponente Trennzeichenkomponente zeigt eine horizontale Linie zum Trennen von Inhalten an.
 
-## Nutzung {#usage}
+## Verwendung {#usage}
 
 Mit der Trennzeichenkomponente kann der Inhaltsautor einfach eine horizontale Linie als Trennlinie zwischen Inhalten erstellen, um Informationen auf einer Seite besser zu organisieren.
 
@@ -30,22 +30,22 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Um die Trennzeichenkomponente sowie Beispiele für die Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_separator).
+Um die Trennzeichenkomponente sowie Beispiele für die Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_separator_de).
 
 ### Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Trennzeichenkomponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_separator_v1).
+Die aktuelle technische Dokumentation zur Trennzeichenkomponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_separator_v1_de).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
 ## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
-![Dialogfeld &quot;Bearbeiten&quot;der Trennzeichenkomponente](/help/assets/separator-edit.png)
+![Dialogfeld „Bearbeiten“ der Trennzeichenkomponente](/help/assets/separator-edit.png)
 
-* **ID** - Diese Option ermöglicht die Steuerung des eindeutigen Bezeichners der Komponente im HTML und in der [Datenschicht](/help/developing/data-layer/overview.md).
-   * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert und Sie können die resultierende Seite überprüfen.
-   * Wenn eine ID angegeben wird, muss der Autor sicherstellen, dass sie eindeutig ist.
-   * Eine Änderung der ID kann sich auf die Verfolgung von CSS, JS und Datenschichten auswirken.
+* **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
+   * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
+   * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
+   * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
