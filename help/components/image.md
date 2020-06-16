@@ -1,11 +1,11 @@
 ---
 title: Bildkomponente
 description: Die Kernkomponente „Bildkomponente“ ist eine anpassungsfähige Bildkomponente mit Funktionen zur Bearbeitung im Kontext.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1934'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 92%
 
 Die Kernkomponente „Bildkomponente“ ist eine adaptive Bildkomponente, die eine direkte Bearbeitung ermöglicht.
 
-## Nutzung {#usage}
+## Verwendung {#usage}
 
 Die Bildkomponente bietet adaptive Bildauswahl und reaktionsfähiges Verhalten mit verzögertem Laden für den Seitenbesucher sowie einfache Bildplatzierung und Zuschneiden für den Inhaltsautor.
 
@@ -73,9 +73,9 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 
 Zusätzlich zum standardmäßigen [Dialogfeld „Bearbeiten“](#edit-dialog) und zum [Dialogfeld „Design“](#design-dialog) bietet die Bildkomponente ein Dialogfeld für die Konfiguration, bei dem das Bild selbst mit seiner Beschreibung und den grundlegenden Eigenschaften definiert wird.
 
-### Asset-Registerkarte {#asset-tab}
+### Registerkarte „Asset“{#asset-tab}
 
-![Registerkarte &quot;Asset&quot;des Dialogfelds &quot;Konfiguration&quot;der Bildkomponente](/help/assets/image-configure-asset.png)
+![Registerkarte „Asset“ im Dialogfeld „Konfigurieren“ der Bildkomponente](/help/assets/image-configure-asset.png)
 
 * **Bild-Asset**
    * Ziehen Sie ein Asset aus dem [Asset-Browser](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.translate.html) oder tippen Sie auf die Option **Durchsuchen**, um es von einem lokalen Dateisystem hochzuladen.
@@ -84,7 +84,7 @@ Zusätzlich zum standardmäßigen [Dialogfeld „Bearbeiten“](#edit-dialog) un
 
 ### Registerkarte „Metadaten“ {#metadata-tab}
 
-![Registerkarte &quot;Metadaten&quot;des Dialogfelds &quot;Konfiguration&quot;der Bildkomponente](/help/assets/image-configure-metadata.png)
+![Registerkarte „Metadaten“ auf dem Dialogfeld „Konfigurieren“ der Bildkomponente](/help/assets/image-configure-metadata.png)
 
 * **Bild ist dekorativ**,
 Option aktivieren, wenn das Bild von Hilfstechnologien ignoriert werden soll und daher kein alternativer Text benötigt wird. Dies gilt nur für dekorative Bilder.
@@ -104,20 +104,20 @@ Wenn die Option aktiviert ist, wird die Beschriftung nicht unter dem Bild angeze
    * Verwenden Sie das Dialogfeld „Auswahl“, um eine Verknüpfung zu einer anderen AEM-Ressource herzustellen.
    * Geben Sie die absolute URL ein, wenn Sie keine Verknüpfung zu einer AEM-Ressource erstellen. Nicht absolute URLs werden als relativ zu AEM interpretiert.
 
-* **ID** - Diese Option ermöglicht die Steuerung des eindeutigen Bezeichners der Komponente im HTML und in der [Datenschicht](/help/developing/data-layer/overview.md).
-   * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert und Sie können die resultierende Seite überprüfen.
-   * Wenn eine ID angegeben wird, muss der Autor sicherstellen, dass sie eindeutig ist.
-   * Eine Änderung der ID kann sich auf die Verfolgung von CSS, JS und Datenschichten auswirken.
+* **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
+   * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
+   * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
+   * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
 ## Dialogfeld „Bearbeiten“ {#edit-dialog}
 
 Das Dialogfeld „Bearbeiten“ ermöglicht dem Inhaltsautor das Zuschneiden, Ändern der Startkarte und das Zoomen des Bildes.
 
-![Dialogfeld &quot;Bearbeiten&quot;der Bildkomponente](/help/assets/image-edit.png)
+![Dialogfeld „Bearbeiten“ der Bildkomponente](/help/assets/image-edit.png)
 
 * Zuschneiden beginnen
 
-   ![Symbol zum Beschneiden von Beginn](/help/assets/image-start-crop.png)
+   ![Symbol „Zuschneiden beginnen“](/help/assets/image-start-crop.png)
 
    Wenn Sie diese Option auswählen, wird eine Dropdown-Liste für vordefinierte Zuschneideproportionen geöffnet.
 
@@ -129,39 +129,39 @@ Das Dialogfeld „Bearbeiten“ ermöglicht dem Inhaltsautor das Zuschneiden, Ä
 
 * Nach rechts drehen
 
-   ![Symbol rechts drehen](/help/assets/image-rotate-right.png)
+   ![Symbol „Nach rechts drehen“](/help/assets/image-rotate-right.png)
 
    Verwenden Sie diese Option, um das Bild um 90° nach rechts (im Uhrzeigersinn) zu drehen.
 
 * Horizontal spiegeln
 
-   ![Symbol &quot;Horizontal spiegeln&quot;](/help/assets/image-flip-horizontal.png)
+   ![Symbol „Horizontal spiegeln“](/help/assets/image-flip-horizontal.png)
 
    Verwenden Sie diese Option, um das Bild horizontal zu spiegeln oder um 180° entlang der y-Achse zu drehen.
 
 * Vertikal spiegeln
 
-   ![Symbol &quot;Vertikal spiegeln&quot;](/help/assets/image-flip-vertical.png)
+   ![Symbol „Vertikal spiegeln“](/help/assets/image-flip-vertical.png)
 
    Verwenden Sie diese Option, um das Bild vertikal zu spiegeln oder um 180° entlang der x-Achse zu drehen.
 
 * Zoom zurücksetzen
 
-   ![Zoomsymbol zurücksetzen](/help/assets/image-reset-zoom.png)
+   ![Symbol „Zoom zurücksetzen“](/help/assets/image-reset-zoom.png)
 
    Wenn das Bild bereits gezoomt wurde, verwenden Sie diese Option, um den Zoomgrad zurückzusetzen.
 
 * Zoom-Regler öffnen
 
-   ![Symbol für Zoom-Schieberegler öffnen](/help/assets/image-zoom.png)
+   ![Symbol „Zoom-Regler öffnen“](/help/assets/image-zoom.png)
 
-   Mit dieser Option können Sie einen Schieberegler anzeigen, um den Zoomgrad des Bildes zu steuern.
+   Mit dieser Option können Sie einen Schieberegler anzeigen, um den Zoom-Grad des Bildes zu steuern.
 
-   ![Zoom-Regler](/help/assets/image-zoom-slider.png)
+   ![Steuerelement des Zoom-Reglers](/help/assets/image-zoom-slider.png)
 
 Der Editor für die Bearbeitung im Kontext kann auch zum Ändern des Bildes verwendet werden. Aus Platzgründen sind nur einfache Optionen inline verfügbar. Für vollständige Bearbeitungsoptionen verwenden Sie den Vollbildmodus.
 
-![Optionen zur Bearbeitung von Bildern an Ort und Stelle](/help/assets/image-in-place-edit.png)
+![Optionen für die Bildbearbeitung im Kontext](/help/assets/image-in-place-edit.png)
 
 >[!NOTE]
 >
@@ -173,11 +173,11 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Beschneidungs-
 
 ### Registerkarte „Allgemein“ {#main-tab}
 
-Auf der Registerkarte **Main** können Sie eine Liste der Breiten in Pixel für das Bild definieren, und die Komponente lädt automatisch die passende Breite basierend auf der Browsergröße. Dies ist ein wichtiger Teil der [responsiven Funktionen](#responsive-features) der Bildkomponente.
+Auf der Registerkarte **Allgemein** können Sie eine Liste der Breiten in Pixel für das Bild definieren, und die Komponente lädt automatisch die passende Breite basierend auf der Browser-Größe. Dies ist ein wichtiger Teil der [responsiven Funktionen](#responsive-features) der Bildkomponente.
 
 Darüber hinaus können Sie festlegen, welche allgemeinen Komponentenoptionen automatisch aktiviert oder deaktiviert werden, wenn der Autor die Komponente zu einer Seite hinzufügt.
 
-![Hauptregisterkarte des Dialogfelds &quot;Design&quot;der Bildkomponente](/help/assets/image-design-main.png)
+![Registerkarte „Allgemein“ im Dialogfeld „Design“ der Bildkomponente](/help/assets/image-design-main.png)
 
 * **Verzögertes Laden aktivieren**
 Festlegen, ob die Option für verzögertes Laden automatisch aktiviert ist, wenn die Bildkomponente zu einer Seite hinzugefügt wird.
@@ -216,13 +216,13 @@ Auf der Registerkarte **Funktionen** können Sie festlegen, welche Optionen den 
 
 * Quelle
 
-   ![Registerkarte &quot;Designfunktionen&quot;des Dialogfelds &quot;Bildkomponente&quot;](/help/assets/image-design-features-source.png)
+   ![Registerkarte „Funktionen“ im Dialogfeld „Design“ der Bildkomponente](/help/assets/image-design-features-source.png)
 
    Wählen Sie die Option **Asset-Uploads aus Dateisystem zulassen**, damit Inhaltsautoren Bilder von ihrem lokalen Computer hochladen können. Wenn Sie erzwingen möchten, dass Autoren nur Assets aus AEM auswählen, wählen Sie diese Option ab.
 
 * Ausrichtung
 
-   ![Registerkarte &quot;Designfunktionen&quot;des Dialogfelds &quot;Bildkomponente&quot;](/help/assets/image-design-features-orientation.png)
+   ![Registerkarte „Funktionen“ im Dialogfeld „Design“ der Bildkomponente](/help/assets/image-design-features-orientation.png)
 
 * **Drehen**
 Verwenden Sie diese Option, damit der Inhaltsautor die Option **Rechts drehen** verwenden kann.
@@ -235,7 +235,7 @@ Verwenden Sie diese Option, damit der Inhaltsautor die Option **Horizontal spieg
 
 * Beschneiden
 
-   ![Registerkarte &quot;Designfunktionen&quot;des Dialogfelds &quot;Bildkomponente&quot;](/help/assets/image-design-features-cropping.png)
+   ![Registerkarte „Funktionen“ im Dialogfeld „Design“ der Bildkomponente](/help/assets/image-design-features-cropping.png)
 
    Wählen Sie die Option **Beschneiden zulassen** aus, damit der Inhaltsautor das Bild in der Komponente im Dialogfeld „Bearbeiten“ beschneiden kann.
    * Klicken Sie auf **Hinzufügen**, um ein vordefiniertes Bildseitenverhältnis hinzuzufügen.
