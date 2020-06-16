@@ -1,11 +1,11 @@
 ---
 title: Navigationskomponente
 description: Mit der Navigationskomponente können Benutzer leicht durch eine globalisierte Site-Struktur navigieren.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1369'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 89%
 
 Mit der Navigationskomponente können Benutzer leicht durch eine globalisierte Site-Struktur navigieren.
 
-## Nutzung {#usage}
+## Verwendung {#usage}
 
 In der Navigationskomponente wird ein Seitenbaum aufgelistet, sodass Benutzer einer Website problemlos in der Site-Struktur navigieren können.
 
@@ -102,11 +102,11 @@ Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in d
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Um die Navigationskomponente sowie Beispiele für die Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_navigation).
+Um die Navigationskomponente sowie Beispiele für die Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_navigation_de).
 
 ## Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Navigationskomponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_navigation_v1).
+Die aktuelle technische Dokumentation zur Navigationskomponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_navigation_v1_de).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
@@ -120,7 +120,7 @@ Im Dialogfeld „Bearbeiten“ kann der Inhaltsautor die Stammseite für die Nav
 
 ### Registerkarte „Eigenschaften“ {#properties-tab}
 
-![Eigenschaften des Dialogfelds &quot;Bearbeiten&quot;der Navigationskomponente](/help/assets/navigation-edit-properties.png)
+![Registerkarte „Eigenschaften“ im Dialogfeld „Bearbeiten“ der Navigationskomponente](/help/assets/navigation-edit-properties.png)
 
 * **Navigationsstamm** – Die Stammseite, die zum Generieren der Navigationsstruktur verwendet wird.
 * **Stammebenen ausschließen** - Häufig soll der Stamm nicht in die Navigation eingeschlossen werden. Mit dieser Option können Sie festlegen, wie viele Ebenen oberhalb des Stamms Sie ausschließen möchten. Beispiel:
@@ -130,15 +130,15 @@ Im Dialogfeld „Bearbeiten“ kann der Inhaltsautor die Stammseite für die Nav
    * usw.
 * **Sammlung aller untergeordneten Seiten** – Sammeln Sie alle untergeordneten Seiten, die sich auf dem Navigationsstamm befinden.
 * **Navigationsstrukturtiefe** – Definiert, wie viele Ebenen die Komponente in der Navigationsstruktur im Verhältnis zum Navigationsstamm anzeigen soll (nur verfügbar, wenn **Sammlung aller untergeordneten Seiten** nicht ausgewählt sind).
-* **Schatten** deaktivieren - Wenn es sich bei der Seite in der Hierarchie um eine Umleitung handelt, wird anstelle der Zielgruppe der Name der Umleitungsseite angezeigt. Weitere Informationen finden Sie unter [Unterstützung](#shadow-structure) der Schatten-Site-Struktur.
-* **ID** - Diese Option ermöglicht die Steuerung des eindeutigen Bezeichners der Komponente im HTML und in der [Datenschicht](/help/developing/data-layer/overview.md).
-   * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert und Sie können die resultierende Seite überprüfen.
-   * Wenn eine ID angegeben wird, muss der Autor sicherstellen, dass sie eindeutig ist.
-   * Eine Änderung der ID kann sich auf die Verfolgung von CSS, JS und Datenschichten auswirken.
+* **Shadowing deaktivieren** – Wenn es sich bei der Seite in der Hierarchie um einen Redirect handelt, wird anstelle der Zielseite der Name der umleitenden (Redirect)-Seite angezeigt. Weitere Informationen finden Sie unter [Unterstützung für Shadow Site-Struktur](#shadow-structure).
+* **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
+   * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
+   * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
+   * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
 ### Registerkarte „Barrierefreiheit“ {#accessibility-tab}
 
-![Registerkarte &quot;Eingabehilfen-Dialogfeld&quot;der Navigationskomponente](/help/assets/navigation-edit-accessibility.png)
+![Registerkarte „Barrierefreiheit“ im Dialogfeld „Bearbeiten“ der Navigationskomponente](/help/assets/navigation-edit-accessibility.png)
 
 Auf der Registerkarte **Barrierefreiheit** können Werte für die [ARIA-Barrierefreiheits-Bezeichungen](https://www.w3.org/WAI/standards-guidelines/aria/) für die Komponente festgelegt werden.
 
@@ -150,7 +150,7 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Standardwerte 
 
 ### Registerkarte „Eigenschaften“ {#properties-tab-design}
 
-![Design-Dialogfeld der Navigationskomponente](/help/assets/navigation-design.png)
+![Dialogfeld „Design“ der Navigationskomponente](/help/assets/navigation-design.png)
 
 * **Navigationsstamm** – Der Standardwert der Stammseite der Navigationsstruktur, die zum Generieren der Navigationsstruktur verwendet und standardmäßig verwendet wird, wenn der Inhaltsautor die Komponente der Seite hinzufügt.
 * **Stammebenen ausschließen** - Häufig soll der Stamm nicht in die Navigation eingeschlossen werden. Mit dieser Option können Sie den Standard dafür festlegen, wie viele Ebenen oberhalb des Stamms Sie ausschließen möchten. Beispiel:
@@ -160,7 +160,7 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Standardwerte 
    * usw.
 * **Sammlung aller untergeordneten Seiten** – Der Standardwert der Option zur Sammlung aller Seiten, die sich auf dem Navigationsstamm befinden.
 * **Navigationsstruktur der Tiefe** – Standardwert der Navigationsstruktur der Tiefe.
-* **Schatten deaktivieren** - Der Standardwert für &quot;if shadowing&quot;sollte beim Hinzufügen einer Navigationskomponente deaktiviert werden
+* **Shadowing deaktivieren** – Der Standardwert dafür, wann das Shadowing beim Hinzufügen einer Navigationskomponente deaktiviert werden soll
 
 ### Registerkarte „Stile“ {#styles-tab}
 
