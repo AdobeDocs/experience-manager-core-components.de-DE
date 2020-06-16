@@ -1,26 +1,26 @@
 ---
 title: Fortschrittsleistenkomponente
-description: Die Komponente "Fortschrittsleiste"stellt visuell den Fortschritt in Richtung eines Ziels dar
+description: Die Fortschrittsleistenkomponente visualisiert den Fortschritt bei der Erreichung eines Ziels.
 translation-type: tm+mt
 source-git-commit: cba1d898d7789af7f4045ef9aa052b4da6a6b33a
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 22%
+ht-degree: 97%
 
 ---
 
 
 # Fortschrittsleistenkomponente {#progress-bar-component}
 
-Die Komponente &quot;Core Component Progress Bar&quot;stellt visuell den Fortschritt in Richtung eines Ziels dar.
+Die Kernkomponente „Fortschrittsleistenkomponente“ visualisiert den Fortschritt bei der Erreichung eines Ziels.
 
-## Nutzung {#usage}
+## Verwendung {#usage}
 
-Die Fortschrittsleistenkomponente ermöglicht es dem Inhaltsautor, eine Fortschrittsleiste einfach zu erstellen, indem ein Prozentsatz der Fertigstellung definiert wird, was eine intuitive visuelle Anzeige des Fortschritts in Richtung eines Ziels ermöglicht.
+Mit der Fortschrittsleistenkomponente können Inhaltsautoren eine Fortschrittsleiste einfach durch Festlegen eines Prozentsatzes für die Fertigstellung erstellen, was eine intuitive visuelle Anzeige des Fortschritts bei der Erreichung eines Ziels ermöglicht.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die aktuelle Version der Fortschrittsleistenkomponente ist Version 1, die mit Version 2.9.0 der Kernkomponenten im Mai 2020 eingeführt wurde und in diesem Dokument beschrieben wird.
+Die in diesem Dokument beschriebene Fortschrittsleistenkomponente liegt aktuell in der Version v1 vor, die im Mai 2020im Rahmen von Version 2.9.0 der Kernkomponenten vorgestellt wurde.
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
@@ -30,28 +30,28 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-To experience the Progress Bar Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_progressbar).
+Näheres zur Fortschrittsleistenkomponente und Beispiele für zugehörige Konfigurationsoptionen sowie HTML- und JSON-Ausgaben finden Sie in der [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_progressbar).
 
 ### Technische Details {#technical-details}
 
-The latest technical documentation about the Progress Bar Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_progress_v1).
+Die aktuelle technische Dokumentation zur Fortschrittsleistenkomponente finden Sie auf [GitHub](https://adobe.com/go/aem_cmp_tech_progress_v1_de).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
 ## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
-![Dialogfeld &quot;Bearbeiten&quot;der Fortschrittsleistenkomponente](/help/assets/progress-bar-edit.png)
+![Dialogfeld „Bearbeiten“ der Fortschrittsleistenkomponente](/help/assets/progress-bar-edit.png)
 
-* **Abschluss** - Der Fortschritt in Prozent
-* **ID** - Diese Option ermöglicht die Steuerung des eindeutigen Bezeichners der Komponente im HTML und in der [Datenschicht](/help/developing/data-layer/overview.md).
-   * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert und Sie können die resultierende Seite überprüfen.
-   * Wenn eine ID angegeben wird, muss der Autor sicherstellen, dass sie eindeutig ist.
-   * Eine Änderung der ID kann sich auf die Verfolgung von CSS, JS und Datenschichten auswirken.
+* **Abschluss** – Der Fortschritt in Prozent
+* **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
+   * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
+   * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
+   * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
-Im Designdialogfeld kann der Vorlagenautor die Stile definieren, die auf die Fortschrittsleistenkomponente angewendet werden.
+Über das Dialogfeld „Design“ können Vorlagenautoren die Stile definieren, die auf die Fortschrittsleiste angewendet werden.
 
 ### Registerkarte „Stile“ {#styles-tab}
 
-The Progress Bar Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
+Die Fortschrittsleistenkomponente unterstützt das [Stilsystem](/help/get-started/authoring.md#component-styling) von AEM.
