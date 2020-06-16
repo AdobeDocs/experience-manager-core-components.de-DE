@@ -1,11 +1,11 @@
 ---
 title: Registerkarten-Komponente
 description: Die Registerkarten-Komponente ermöglicht die Erstellung mehrerer Registerkarten zum Anordnen von Inhalten auf einer Seite.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1026'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 78%
 
 Die Kernkomponente Registerkarten-Komponente ermöglicht die Organisation von Inhalten auf mehrere Registerkarten.
 
-## Nutzung {#usage}
+## Verwendung {#usage}
 
 Mit der Registerkarten-Komponente kann der Inhaltsautor Seiteninhalte über mehrere Registerkarten organisieren.
 
@@ -26,19 +26,19 @@ Im [Dialogfeld „Bearbeiten“](#edit-dialog) kann der Inhaltsautor mehrere Reg
 >
 >Einfache (nicht verschachtelte) Registerkarten-Komponenten können mithilfe des [Inhaltsbaums](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.translate.html#content-tree) lokalisiert/ausgewählt werden, verschachtelte Registerkarten jedoch nicht.
 
-## Deep Linking to a Panel {#deep-linking}
+## Deep-Link auf ein Bedienfeld {#deep-linking}
 
-Die Registerkarten- und [Akkordeon-Komponenten](accordion.md) unterstützen die direkte Verknüpfung zu einem Bereich innerhalb der Komponente.
+Die Registerkarten- und [Accordion-Komponenten](accordion.md) unterstützen Deep-Links zu einem Bedienfeld innerhalb der Komponente.
 
 Gehen Sie hierfür wie folgt vor:
 
-1. Ansicht der Seite mit der Komponente mithilfe der Option &quot; **[Ansicht als veröffentlicht](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/authoring/editing-content.html#view-as-published)**&quot;im Seiteneditor.
-1. Überprüfen Sie den Inhalt der Seite und identifizieren Sie die ID des Bereichs.
+1. Zeigen Sie die Seite mit der Komponente über die Option **[Als veröffentlicht anzeigen](https://docs.adobe.com/content/help/de-DE/experience-manager-65/authoring/authoring/editing-content.translate.html#view-as-published)**im Seiteneditor an.
+1. Überprüfen Sie den Inhalt der Seite und halten Sie die ID des Bedienfeldes fest.
    * Beispiel `id="accordion-86196c94d3-item-ca319dbb0b"`
-1. Die ID wird der Anker, den Sie mit einem Hash (`#`) an die URL anhängen können.
+1. Die ID wird der Anker, den Sie über einen Hash (`#`) an die URL anhängen können.
    * Beispiel `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
 
-Wenn der Browser mit der Bedienfeld-ID als Anker zur URL navigiert, wird er direkt zur jeweiligen Komponente blättern und das angegebene Bedienfeld anzeigen. Wenn das Bedienfeld so konfiguriert ist, dass es standardmäßig nicht erweitert wird, wird es automatisch erweitert.
+Wird zu der URL mit der Bereichs-ID navigiert, scrollt der Browser direkt zur jeweiligen Komponente und zeigt das angegebene Bedienfeld an. Wenn das Bedienfeld so konfiguriert ist, dass es nicht standardmäßig eingeblendet wird, wird es automatisch eingeblendet.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
@@ -54,11 +54,11 @@ Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in d
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Um die Registerkarten-Komponente auszuprobieren sowie Beispiele für ihre Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_tabs).
+Um die Registerkarten-Komponente auszuprobieren sowie Beispiele für ihre Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_tabs_de).
 
 ### Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Registerkarten-Komponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_tabs_v1).
+Die aktuelle technische Dokumentation zur Registerkarten-Komponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_tabs_v1_de).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
@@ -68,7 +68,7 @@ Im Dialogfeld „Bearbeiten“ kann der Inhaltsautor Registerkarten erstellen, u
 
 ### Registerkarte „Elemente“ {#items-tab}
 
-![Registerkarte &quot;Elemente im Dialogfeld &quot;Bearbeiten&quot;der Tabulatorkomponente](/help/assets/tabs-edit-items.png)
+![Registerkarte „Bearbeiten“ im Dialogfeld „Elemente“ der Registerkarten-Komponente](/help/assets/tabs-edit-items.png)
 
 Verwenden Sie die Schaltfläche **Hinzufügen**, um die Komponentenauswahl zu öffnen und dort auszuwählen, welche Komponente als Registerkarte hinzugefügt werden soll. Nach dem Hinzufügen wird der Liste ein Eintrag hinzugefügt, der die folgenden Spalten enthält:
 
@@ -83,18 +83,18 @@ Verwenden Sie die Schaltfläche **Hinzufügen**, um die Komponentenauswahl zu ö
 
 ### Registerkarte „Eigenschaften“ {#properties-tab}
 
-![Eigenschaften des Dialogfelds &quot;Bearbeiten&quot; der Tabulatorkomponente](/help/assets/tabs-edit-properties.png)
+![Registerkarte „Eigenschaften“ im Dialogfeld „Bearbeiten“ der Registerkarten-Komponente](/help/assets/tabs-edit-properties.png)
 
-* **Aktives Element** - Der Inhaltsautor kann definieren, welche Registerkarte aktiv ist, wenn die Seite geladen wird.
+* **Aktives Element** – Der Inhaltsautor kann definieren, welche Registerkarte beim Laden der Seite aktiv ist.
    * Mit der Option **Standard** wird die erste Registerkarte ausgewählt.
-* **ID** - Diese Option ermöglicht die Steuerung des eindeutigen Bezeichners der Komponente im HTML und in der [Datenschicht](/help/developing/data-layer/overview.md).
-   * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert und Sie können die resultierende Seite überprüfen.
-   * Wenn eine ID angegeben wird, muss der Autor sicherstellen, dass sie eindeutig ist.
-   * Eine Änderung der ID kann sich auf die Verfolgung von CSS, JS und Datenschichten auswirken.
+* **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
+   * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
+   * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
+   * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
 ### Registerkarte „Barrierefreiheit“ {#accessibility-tab}
 
-![Registerkarte &quot;Barrierefreiheit&quot;des Dialogfelds &quot;Bearbeiten&quot;der Tabulatorkomponente](/help/assets/tabs-edit-accessibility.png)
+![Registerkarte „Barrierefreiheit“ im Dialogfeld „Bearbeiten“ der Registerkarten-Komponente](/help/assets/tabs-edit-accessibility.png)
 
 Auf der Registerkarte **Barrierefreiheit** können Werte für die [ARIA-Barrierefreiheits-Bezeichungen](https://www.w3.org/WAI/standards-guidelines/aria/) für die Komponente festgelegt werden.
 
@@ -104,21 +104,21 @@ Auf der Registerkarte **Barrierefreiheit** können Werte für die [ARIA-Barriere
 
 Der Inhaltsautor kann in der Komponenten-Symbolleiste die Option **Bedienfeld auswählen** verwenden, um zu einem anderes Bedienfeld zu wechseln, um es zu bearbeiten, und auch um die Reihenfolge der Registerkarten einfach zu ändern.
 
-![Bedienfeldsymbol auswählen](/help/assets/select-panel-icon.png)
+![Symbol „Bedienfeld auswählen“](/help/assets/select-panel-icon.png)
 
 Nach Auswahl der Option **Bedienfeld auswählen** in der Komponenten-Symbolleiste werden die konfigurierten Registerkarten als Dropdown-Liste angezeigt.
 
 * Die Liste wird im Sinne der zugewiesenen Anordnung der Registerkarten geordnet, was sich auch in der Nummerierung zeigt.
 * Der Komponententyp der Registerkarte wird zuerst angezeigt, gefolgt von der Beschreibung der Registerkarte in hellerer Schriftart.
 
-![Bedienfeld-Popup auswählen](/help/assets/select-panel-popover.png)
+![Popover „Bedienfeld auswählen“](/help/assets/select-panel-popover.png)
 
 * Durch Tippen oder Klicken auf einen Eintrag in der Dropdown-Liste wird die Ansicht im Editor auf diese Registerkarte verschoben.
 * Die Registerkarten können direkt mithilfe der Ziehgriffe neu angeordnet werden.
 
 >[!NOTE]
 >
->Registerkarten können vom Autor im **Bearbeiten**-Modus nicht ausgewählt werden. Verwenden Sie den **[](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.translate.html#preview-mode)Vorschaumodus **oder die Option**[Als veröffentlicht anzeigen](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**, um so mit den Registerkarten zu interagieren, wie es ein Leser des veröffentlichten Inhalts tun würde.
+>Registerkarten können vom Autor im **Bearbeiten**-Modus nicht ausgewählt werden. Verwenden Sie den **[](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.translate.html#preview-mode)Vorschaumodus **oder die Option**[Als veröffentlicht anzeigen](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**, um so mit den Registerkarten zu interagieren, wie es ein Leser des veröffentlichten Inhalts tun würde.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
