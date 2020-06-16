@@ -1,11 +1,11 @@
 ---
 title: Einbettungskomponente
 description: Die Einbettungskomponente ermöglicht das Einbetten externer Inhalte in eine AEM-Inhaltsseite.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '944'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 88%
 
 Die Einbettungskomponente der Kernkomponenten ermöglicht das Einbetten externer Inhalte in eine AEM-Inhaltsseite.
 
-## Nutzung {#usage}
+## Verwendung {#usage}
 
 Mit der Einbettungskomponente der Kernkomponenten kann der Inhaltsautor ausgewählte externe Inhalte definieren, die in eine AEM-Inhaltsseite eingebettet werden sollen. Darüber hinaus gibt es die Möglichkeit, einzubettende Freiform-HTML zu definieren.
 
@@ -35,11 +35,11 @@ Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in d
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Um die Einbettungskomponente auszuprobieren sowie Beispiele für ihre Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_embed).
+Um die Einbettungskomponente auszuprobieren sowie Beispiele für ihre Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_embed_de).
 
 ## Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Einbettungskomponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_embed_v1).
+Die aktuelle technische Dokumentation zur Einbettungskomponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_embed_v1_de).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
@@ -51,11 +51,11 @@ Im Dialogfeld „Konfigurieren“ kann der Inhaltsautor die externe Ressource de
 * [Einbettbare Prozessoren](#embeddable)
 * [HTML](#html)
 
-Für jeden Typ der Einbettungsmöglichkeit können Sie die Anzeigen- **ID** definieren. Diese Option ermöglicht die Steuerung des eindeutigen Bezeichners der Komponente im HTML und in der [Datenschicht](/help/developing/data-layer/overview.md).
+Für jeden Typ von einbettbarem Element können Sie die **Anzeigen-ID** festlegen. Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
 
-* Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert und Sie können die resultierende Seite überprüfen.
-* Wenn eine ID angegeben wird, muss der Autor sicherstellen, dass sie eindeutig ist.
-* Eine Änderung der ID kann sich auf die Verfolgung von CSS, JS und Datenschichten auswirken.
+* Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
+* Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
+* Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
 ### URL {#url}
 
@@ -68,7 +68,7 @@ Die Einbettungskomponente wird mit Prozessoren für die folgenden Arten von Ress
 
 Entwickler können zusätzliche URL-Prozessoren hinzufügen, indem sie der [Entwicklerdokumentation der Einbettungskomponente folgen](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component).
 
-![Dialogfeld &quot;Bearbeiten&quot;der Komponente für URL einbetten](/help/assets/embed-url.png)
+![Dialogfeld „Bearbeiten“ der Einbettungskomponente mit Auswahl der Option „URL“](/help/assets/embed-url.png)
 
 ### Einbettbare Prozessoren {#embeddable}
 
@@ -82,16 +82,16 @@ Im Feld **Einbettbare Prozessoren** wird der zu verwendende Prozessortyp definie
 
 Andere einbettbare Prozessoren weisen ähnliche Felder auf und können von einem Entwickler [unter Beachtung der Entwicklerdokumentation der Einbettungskomponente definiert werden](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component).
 
-![Dialogfeld &quot;Bearbeiten&quot;der Komponente für &quot;Einbetten&quot;](/help/assets/embed-embeddable.png)
+![Dialogfeld „Bearbeiten“ der Einbettungskomponente mit Auswahl der Option „Einbettbare Prozessoren“](/help/assets/embed-embeddable.png)
 
 >[!NOTE]
->Einbettbare Prozessoren müssen auf der Vorlagenebene über den [Dialogfeld „Design“](#design-dialog) aktiviert werden, damit sie dem Seitenautor zur Verfügung stehen.
+>Einbettbare Prozessoren müssen auf der Vorlagenebene über das [Dialogfeld „Design“](#design-dialog) aktiviert werden, damit sie dem Seitenautor zur Verfügung stehen.
 
 ### HTML {#html}
 
 Mit der Einbettungskomponente können Sie Ihrer Seite Freiform-HTML hinzufügen.
 
-![Dialogfeld &quot;Bearbeiten&quot;der Komponente für HTML einbetten](/help/assets/embed-html.png)
+![Dialogfeld „Bearbeiten“ der Einbettungskomponente mit Auswahl der Option „HTML“](/help/assets/embed-html.png)
 
 >[!NOTE]
 >Unsichere Tags wie Skripte werden aus der eingegebenen HTML gefiltert und auf der resultierenden Seite nicht wiedergegeben.
@@ -113,7 +113,7 @@ Weitere Sicherheitsinformationen finden Sie in der [AEM-Entwicklerdokumentation 
 
 Der Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Optionen, die für den Inhaltsautor bei Verwendung der Einbettungskomponente verfügbar sind, sowie die Standardeinstellungen bei Platzierung der Einbettungskomponente zu definieren.
 
-![Dialogfeld &quot;Entwurf der Komponente einbetten&quot;](/help/assets/embed-design.png)
+![Dialogfeld „Design“ der Einbettungskomponente](/help/assets/embed-design.png)
 
 * **URL deaktivieren** - Deaktiviert bei Auswahl die Option **URL** für den Inhaltsautor.
 * **Einbettbare Prozessoren deaktivieren** - Deaktiviert bei Auswahl die Option **Einbettbare Prozessoren** für den Inhaltsautor, unabhängig davon, welche einbettbaren Prozessoren zulässig sind.
