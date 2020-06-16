@@ -1,11 +1,11 @@
 ---
 title: Teaser-Komponente
 description: Die Teaser-Komponente kann ein Bild, einen Titel, Rich-Text und optional einen Link zu weiteren Inhalten anzeigen.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '751'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 64%
 
 Die Kernkomponente Teaser-Komponente kann ein Bild, einen Titel, Rich-Text und optional einen Link zu weiteren Inhalten anzeigen.
 
-## Nutzung {#usage}
+## Verwendung {#usage}
 
 Mit der Teaser-Komponente kann der Inhaltsautor problemlos einen Teaser für weitere Inhalte erstellen, indem er ein Bild, einen Titel oder einen Rich Text verwendet und Links zu weiteren Inhalten oder anderen Aktionen erstellt.
 
@@ -32,11 +32,11 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Um die Teaser-Komponente sowie Beispiele für die Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_teaser).
+Um die Teaser-Komponente sowie Beispiele für die Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_teaser_de).
 
 ### Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Teaser-Komponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_teaser_v1).
+Die aktuelle technische Dokumentation zur Teaser-Komponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_teaser_v1_de).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
@@ -46,7 +46,7 @@ Der Inhaltsautor kann das Dialogfeld „Konfigurieren“ verwenden, um die Eigen
 
 ### Bild{#image}
 
-![Registerkarte &quot;Bearbeitungsdialogfeld&quot;der Teaser-Komponente](/help/assets/teaser-edit-image.png)
+![Registerkarte „Bild“ im Dialogfeld „Bearbeiten“ der Teaser-Komponente](/help/assets/teaser-edit-image.png)
 
 * **Bild-Asset**
    * Ziehen Sie ein Asset aus dem [Asset-Browser](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.translate.html) oder tippen Sie auf die Option **Durchsuchen**, um es von einem lokalen Dateisystem hochzuladen.
@@ -55,24 +55,24 @@ Der Inhaltsautor kann das Dialogfeld „Konfigurieren“ verwenden, um die Eigen
 
 ### Text {#text}
 
-![Registerkarte &quot;Dialogfeld bearbeiten&quot;der Teaser-Komponente](/help/assets/teaser-edit-text.png)
+![Registerkarte „Text“ im Dialogfeld „Bearbeiten“ der Teaser-Komponente](/help/assets/teaser-edit-text.png)
 
-* **Vortitel** - Der Vortitel wird vor dem Titel des Teasers angezeigt.
-* **Titel** - Definiert einen Titel, der als Überschrift für den Teaser angezeigt werden soll.
-   * **Titel von verknüpfter Seite** abrufen - Wenn diese Option aktiviert ist, wird der Titel mit dem Titel der verknüpften Seite gefüllt.
-* **Beschreibung** - Definiert eine Beschreibung, die als Unterüberschrift des Teasers angezeigt werden soll.
-   * **Beschreibung von verknüpfter Seite** abrufen: Wenn diese Option aktiviert ist, wird die Beschreibung der verknüpften Seite mit der Beschreibung der verknüpften Seite gefüllt.
-* **ID** - Diese Option ermöglicht die Steuerung des eindeutigen Bezeichners der Komponente im HTML und in der [Datenschicht](/help/developing/data-layer/overview.md).
-   * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert und Sie können die resultierende Seite überprüfen.
-   * Wenn eine ID angegeben wird, muss der Autor sicherstellen, dass sie eindeutig ist.
-   * Eine Änderung der ID kann sich auf die Verfolgung von CSS, JS und Datenschichten auswirken.
+* **Vortitel** – Der Vortitel wird vor dem Titel des Teasers angezeigt.
+* **Titel** – Definiert einen Titel, der als Überschrift für den Teaser angezeigt wird.
+   * **Titel von verknüpfter Seite übernehmen** – Bei Aktivierung dieser Option wird der Titel mit dem Titel der verknüpften Seite ausgefüllt.
+* **Beschreibung** – Definiert eine Beschreibung, die als Unter-Überschrift für den Teaser angezeigt wird.
+   * **Beschreibung von verknüpfter Seite übernehmen** – Bei Aktivierung dieser Option wird die Beschreibung mit der Beschreibung der verknüpften Seite ausgefüllt.
+* **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
+   * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
+   * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
+   * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
 ### Links und Aktionen {#links-actions}
 
-![Registerkarte &quot;Link zum Bearbeiten&quot;der Teaser-Komponente](/help/assets/teaser-edit-link.png)
+![Registerkarte „Link“ im Dialogfeld „Bearbeiten“ der Teaser-Komponente](/help/assets/teaser-edit-link.png)
 
-* **Link** : Link, der auf den Teaser angewendet wird. Verwenden Sie den Pfad-Browser, um das Link-Ziel auszuwählen.
-* **Aktionsaufruf** aktivieren - Wenn diese Option aktiviert ist, wird die Definition von Aktionsaufrufen aktiviert. Der erste Link zu Aktionsaufrufen in der Liste wird als Link für andere Teaser-Elemente verwendet.
+* **Link** – Link, der auf den Teaser angewendet wird. Verwenden Sie den Pfad-Browser, um das Link-Ziel auszuwählen.
+* **Aktionsaufrufe ermöglichen** – Bei Aktivierung dieser Option können Aktionsaufrufe definiert werden. Der erste Link zu Aktionsaufrufen in der Liste wird als Link für andere Teaser-Elemente verwendet.
 
 ## Dialogfeld „Bearbeiten“ {#edit-dialog}
 
@@ -84,20 +84,20 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Teaser-Optione
 
 ### Registerkarte „Teaser“ {#teaser-tab}
 
-![Design-Dialogfeld der Teaser-Komponente](/help/assets/teaser-design.png)
+![Dialogfeld „Design“ der Teaser-Komponente](/help/assets/teaser-design.png)
 
 * **Aktionsaufrufe**
-   * **Aktionsaufruf** deaktivieren - Option &quot; **Aktionsaufruf** &quot;für Inhaltsersteller ausblenden
+   * **Aktionsaufrufe deaktivieren** – Blendet die Option **Aktionsaufrufe** für Inhaltsautoren aus.
 * **Elemente**
-   * **Untertitel** ausblenden - Blendet die Option &quot; **Vortitel** &quot;für Inhaltsersteller aus
-   * **Titel** ausblenden - Blendet die Option **Titel** für Inhaltsersteller aus
-      * Nach der Auswahl wird der **Titeltyp** ausgeblendet
-   * **Beschreibung** ausblenden - Option &quot; **Beschreibung** &quot;für Inhaltsersteller ausblenden
-* **Titeltyp** - Definiert das H-Tag, das vom Titel des Teasers verwendet werden soll.
+   * **Vortitel ausblenden** – Blendet die Option **Vortitel** für Inhaltsautoren aus.
+   * **Titel ausblenden** – Blendet die Option **Titel** für Inhaltsautoren aus.
+      * Bei Auswahl der Option wird der **Titeltyp** ausgeblendet.
+   * **Beschreibung ausblenden** – Blendet die Option **Beschreibung** für Inhaltsautoren aus.
+* **Titeltyp** – Definiert das H-Tag, das vom Titel des Teasers verwendet werden soll.
 * **Links**
-   * **Bild** nicht verknüpfen - Wenn diese Option aktiviert ist, wird das Teaser-Bild nicht verknüpft
-   * **Titel** nicht verknüpfen - Bei Auswahl dieser Option ist der Teaser-Titel nicht verknüpft
-* **Image-Delegate** - Informationsanzeige, die angibt, an welche Komponente der Teaser die Bildbearbeitung delegiert.
+   * **Bild nicht verknüpfen** – Bei Auswahl dieser Option wird das Teaser-Bild nicht verknüpft.
+   * **Titel nicht verknüpfen** – Bei Auswahl dieser Option wird der Teaser-Titel nicht verknüpft.
+* **Bilddelegat** – Information, die anzeigt, an welche Komponente der Teaser die Bildverarbeitung delegiert.
 
 ### Registerkarte „Stile“ {#styles-tab}
 
