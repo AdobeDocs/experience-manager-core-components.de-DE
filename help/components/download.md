@@ -1,11 +1,11 @@
 ---
 title: Download-Komponente
 description: Die Kernkomponente „Download-Komponente“ ermöglicht die Erstellung einer Download-Option auf einer Seite.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '687'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 86%
 
 Die Kernkomponente „Download-Komponente“ ermöglicht die Erstellung einer Download-Option auf einer Seite.
 
-## Nutzung {#usage}
+## Verwendung {#usage}
 
 Die Kernkomponente „Download-Komponente“ ermöglicht die Erstellung einer Download-Option und zugehöriger Elemente auf einer Seite.
 
@@ -35,11 +35,11 @@ Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in d
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Um die Download-Komponente sowie Beispiele für die Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_download).
+Um die Download-Komponente sowie Beispiele für die Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_download_de).
 
 ## Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Download-Komponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_download_v1).
+Die aktuelle technische Dokumentation zur Download-Komponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_download_v1_de).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
@@ -47,9 +47,9 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 
 Mit dem Dialogfeld „Konfigurieren“ kann der Inhaltsautor das Download-Element und sein Verhalten und Aussehen für einen Besucher der Seite definieren.
 
-![Registerkarte &quot;Asset&quot;des Dialogfelds &quot;Bearbeiten&quot;der Komponente herunterladen](/help/assets/download-edit-asset.png)
+![Registerkarte „Asset“ auf dem Dialogfeld „Bearbeiten“ der Download-Komponente](/help/assets/download-edit-asset.png)
 
-### Asset-Registerkarte {#asset-tab}
+### Registerkarte „Asset“{#asset-tab}
 
 Die Auswahl eines Download-Assets ähnelt der Funktionalität der [Bildkomponente](image.md) und nutzt gleichermaßen das AEM-DAM.
 
@@ -60,7 +60,7 @@ Die Auswahl eines Download-Assets ähnelt der Funktionalität der [Bildkomponent
 
 ### Registerkarte „Eigenschaften“ {#properties-tab}
 
-![Registerkarte &quot;Eigenschaften&quot;des Dialogfelds &quot;Bearbeiten&quot;der Komponente &quot;Herunterladen&quot;](/help/assets/download-edit-properties.png)
+![Registerkarte „Eigenschaften“ auf dem Dialogfeld „Bearbeiten“ der Download-Komponente](/help/assets/download-edit-properties.png)
 
 * **Titel** - Wird als Überschrift für das Download-Element angezeigt
    * **Titel von DAM-Asset abrufen** - Wenn ausgewählt, wird der Titel automatisch mit dem Titel des DAM-Assets ausgefüllt.
@@ -69,18 +69,18 @@ Die Auswahl eines Download-Assets ähnelt der Funktionalität der [Bildkomponent
 * **Aktionstext** - Zeigt Aktionstext für das Download-Element an
    * Dieses Feld ist beim Hochladen eines Assets aus dem Dateisystem erforderlich. 
    * **Inline-Anzeige** - Wenn ausgewählt, wird der angegebene **Aktionstext** inline angezeigt.
-* **ID** - Diese Option ermöglicht die Steuerung des eindeutigen Bezeichners der Komponente im HTML und in der [Datenschicht](/help/developing/data-layer/overview.md).
-   * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert und Sie können die resultierende Seite überprüfen.
-   * Wenn eine ID angegeben wird, muss der Autor sicherstellen, dass sie eindeutig ist.
-   * Eine Änderung der ID kann sich auf die Verfolgung von CSS, JS und Datenschichten auswirken.
+* **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
+   * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
+   * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
+   * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
 Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Optionen für den Inhaltsautor zu definieren, der die Download-Komponente verwendet.
 
-### Registerkarte „Eigenschaften“{#properties-tab-design}
+### Registerkarte „Eigenschaften“ {#properties-tab-design}
 
-![Design-Dialogfeld der Komponente &quot;Herunterladen&quot;](/help/assets/download-design.png)
+![Dialogfeld „Design“ der Download-Komponente](/help/assets/download-design.png)
 
 * **Upload aus Dateisystem zulassen** - Ermöglicht dem Inhaltsautor das Hochladen eines Assets aus seinem lokalen Dateisystem als Download-Asset.
    * Der Standardwert ist nicht ausgewählt.
