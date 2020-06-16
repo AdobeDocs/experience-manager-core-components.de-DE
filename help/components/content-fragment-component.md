@@ -1,11 +1,11 @@
 ---
 title: Inhaltsfragment-Komponente
 description: Die Kernkomponente „Inhaltsfragment-Komponente“ ermöglicht die Anzeige eines Inhaltsfragments.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '659'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Die Kernkomponente „Inhaltsfragment-Komponente“ ermöglicht die Anzeige eine
 >
 >Vor Version 2.4.0 der Kernkomponenten war die Komponente „Inhaltsfragment“ als Erweiterung für die Kernkomponenten verfügbar und musste separat heruntergeladen und explizit aktiviert werden.
 
-## Nutzung {#usage}
+## Verwendung {#usage}
 
 Die Kernkomponente „Inhaltsfragment-Komponente“ ermöglicht die Einbeziehung eines [Inhaltsfragments](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/assets/content-fragments/content-fragments.translate.html) auf einer Seite.
 
@@ -52,11 +52,11 @@ Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in d
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Rufen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_cf) auf, um die Inhaltsfragment-Komponente sowie die Beispiele für ihre Konfigurationsoptionen und die HTML- und JSON-Ausgabe zu testen.
+Rufen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_cf_de) auf, um die Inhaltsfragment-Komponente sowie die Beispiele für ihre Konfigurationsoptionen und die HTML- und JSON-Ausgabe zu testen.
 
 ## Technische Details {#technical-details}
 
-Die neueste technische Dokumentation zur Inhaltsfragment-Komponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_cf_v1).
+Die neueste technische Dokumentation zur Inhaltsfragment-Komponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_cf_v1_de).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
@@ -74,9 +74,9 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
    * Das **Dialogfeld „Auswahl“** kann zum Suchen des Fragments verwendet werden.
 
 * **Anzeigemodus**
-   * **EinzelTextelement** - Aktiviert die Auswahl eines mehrzeiligen Textelement und aktiviert Optionen für die Absatzkontrolle
-   * **Mehrere Elemente** - Ermöglicht die Auswahl eines oder mehrerer Elemente des ausgewählten Inhaltsfragments
-* **Element** - Das Element bzw. die Elemente des Inhaltsfragments, das bzw. die das
+   * **Einzelnes Textelement** – Ermöglicht die Auswahl eines mehrzeiligen Textelements und aktiviert Optionen für die Absatzsteuerung.
+   * **Mehrere Elemente** – Ermöglicht die Auswahl eines oder mehrerer Elemente des ausgewählten Inhaltsfragments
+* **Element** – Die Elemente des Inhaltsfragments, die eingefügt werden sollen.
 * **Variation** - Welche Variante des Inhaltsfragments zu verwenden ist (standardmäßig **Master**)
 
 * **Absätze**
@@ -86,25 +86,25 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 
       * Festlegen von Bereichen der anzuzeigenden Absätze, durch ein Semikolon getrennt
       * So können Sie z. B. mit `1;3-5;7;9-*` den 1., den 3. bis 5., den 7. und den 9. bis zum letzten Absatz einbeziehen.
-* **ID** - Diese Option ermöglicht die Steuerung des eindeutigen Bezeichners der Komponente im HTML und in der [Datenschicht](/help/developing/data-layer/overview.md).
-   * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert und Sie können die resultierende Seite überprüfen.
-   * Wenn eine ID angegeben wird, muss der Autor sicherstellen, dass sie eindeutig ist.
-   * Eine Änderung der ID kann sich auf die Verfolgung von CSS, JS und Datenschichten auswirken.
+* **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
+   * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
+   * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
+   * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
-### Registerkarte &quot;Absatzsteuerung&quot; {#paragraph-control-tab}
+### Registerkarte „Absatzsteuerung“ {#paragraph-control-tab}
 
 Diese Registerkarte ist nicht verfügbar, wenn der Modus **Mehrere Elemente** ausgewählt ist.
 
 ![Inhaltsfragment-Komponente](/help/assets/content-fragment-edit-paragraph.png)
 
-* **Absätze** - Auswahl aller Absätze oder eines Bereichs zulassen
+* **Absätze** – Ermöglicht die Auswahl aller Absätze oder eines Bereichs.
 * **Überschriften als separate Absätze behandeln**
 
 ## Dialogfeld „Design“ {#design-dialog}
 
 Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Ressourcentypen zu definieren, mit denen gemischte Medienbilder und responsive Raster verarbeitet werden.
 
-![Design-Dialogfeld der Komponente &quot;Inhaltsfragment&quot;](/help/assets/content-fragment-design.png)
+![Dialogfeld „Design“ der Inhaltsfragment-Komponente](/help/assets/content-fragment-design.png)
 
 * **Internes responsives Raster**
 
