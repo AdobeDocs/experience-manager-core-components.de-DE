@@ -1,9 +1,9 @@
 ---
 title: Authoring mit Kernkomponenten
 description: In AEM sind Komponenten die Strukturelemente, die den Inhalt der zu erstellenden Seiten ausmachen. Kernkomponenten bieten flexible und funktionsreiche Authoring-Funktionalität.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4281f6421482682f603f6a7f5e18df61f9a6d98c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '778'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ In Adobe Experience Manager sind Komponenten die strukturellen Elemente, aus den
 
 Die Kernkomponenten bieten eine flexible und funktionsreiche Authoring-Funktionalität. Die [Referenz-Site „WKND“](https://wknd.site) zeigt, wie die Kernkomponenten zur Implementierung eines umfassenden Website-Erlebnisses verwendet werden können.
 
-Um die Kernkomponenten auszuprobieren und Beispiele für ihre Konfigurationsoptionen sowie die HTML- und JSON-Ausgabe zu sehen, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library).
+Um die Kernkomponenten auszuprobieren und Beispiele für ihre Konfigurationsoptionen sowie die HTML- und JSON-Ausgabe zu sehen, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_de).
 
 Um eine tiefergehende und entwicklerorientierte Einführung in die Implementierung der Kernkomponenten in einem AEM-Projekt zu erhalten, sehen Sie sich den [AEM-Projektarchetyp](/help/developing/archetype/overview.md) im [ WKND-Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) an.
 
@@ -34,7 +34,7 @@ Als Autor werden Sie einige Vorteile der Kernkomponenten bemerken, wie beispiels
 
 * Einfach zu verwenden und gut in den [Seiteneditor](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.translate.html) integriert
 
-* Breit gefächerte Funktionen zur Unterstützung vieler Anwendungsfälle, wie auf der [Referenz-Site „WKND“](https://wknd.site) sowie der [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library) dargestellt
+* Breit gefächerte Funktionen zur Unterstützung vieler Anwendungsfälle, wie auf der [Referenz-Site „WKND“](https://wknd.site) sowie der [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_de) dargestellt
 
 * [Vorkonfigurierbar](#pre-configuring-core-components), um zu definieren, welche Funktionen für Seitenautoren über den [Vorlageneditor](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/features/templates.translate.html) verfügbar sind
 
