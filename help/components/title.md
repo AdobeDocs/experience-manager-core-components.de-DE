@@ -1,11 +1,11 @@
 ---
 title: Titelkomponente
 description: Die Kernkomponente „Titelkomponente“ ist eine Komponente für Abschnittsüberschriften, die eine Bearbeitung im Kontext ermöglicht.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '558'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 84%
 
 Die Kernkomponente „Titelkomponente“ ist eine Komponente für Abschnittsüberschriften, die eine Bearbeitung im Kontext ermöglicht.
 
-## Nutzung {#usage}
+## Verwendung {#usage}
 
 Die Titelkomponente soll als Titel oder Überschrift eines Inhaltsabschnitts verwendet werden. Die verfügbaren Überschriftenebenen können vom Vorlagenautor im [Dialogfeld „Design“](#design-dialog) definiert werden. Der Inhaltseditor kann aus verfügbaren Überschriftenebenen im [Dialogfeld „Bearbeiten“](#edit-dialog) auswählen. Für zusätzlichen Komfort steht auch eine einfache direkte Bearbeitung des Überschriftentexts zur Verfügung.
 
@@ -33,11 +33,11 @@ Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in d
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Um die Titelkomponente sowie Beispiele für die Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_title).
+Um die Titelkomponente sowie Beispiele für die Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_title_de).
 
 ### Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Titelkomponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_title_v2).
+Die aktuelle technische Dokumentation zur Titelkomponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_title_v2_de).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
@@ -48,12 +48,12 @@ Im Dialogfeld „Bearbeiten“ kann der Inhaltsautor den Titeltext definieren so
 * **Titel** - Wenn leer, wird der Seitentitel verwendet
 * **Typ/Größe** - Definiert die Überschriftenebene des Titels
 * **Link** - Definiert den Inhalt, auf den der Titel verweist. Dies kann ein Pfad zu einer Inhaltsseite, eine externe URL oder ein Seitenanker sein.
-* **ID** - Diese Option ermöglicht die Steuerung des eindeutigen Bezeichners der Komponente im HTML und in der [Datenschicht](/help/developing/data-layer/overview.md).
-   * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert und Sie können die resultierende Seite überprüfen.
-   * Wenn eine ID angegeben wird, muss der Autor sicherstellen, dass sie eindeutig ist.
-   * Eine Änderung der ID kann sich auf die Verfolgung von CSS, JS und Datenschichten auswirken.
+* **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
+   * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
+   * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
+   * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
-![Dialogfeld &quot;Bearbeiten&quot;der Titelkomponente](/help/assets/title-edit.png)
+![Dialogfeld „Bearbeiten“ der Titelkomponente](/help/assets/title-edit.png)
 
 >[!NOTE]
 >
@@ -61,7 +61,7 @@ Im Dialogfeld „Bearbeiten“ kann der Inhaltsautor den Titeltext definieren so
 
 Der Editor für die Bearbeitung im Kontext kann auch verwendet werden, um den Text der Titelkomponente zu bearbeiten.
 
-![Ersetzende Bearbeitung der Titelkomponente](/help/assets/title-edit-inline.png)
+![In-Kontext-Bearbeitung der Titelkomponente](/help/assets/title-edit-inline.png)
 
 ## Dialogfeld „Design“ {#design-dialog}
 
@@ -69,7 +69,7 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die standardmäßi
 
 ### Registerkarte „Größen“{#sizes-tab}
 
-![Entwurfsdialogfeld der Titelkomponente](/help/assets/title-design.png)
+![Dialogfeld „Design“ der Titelkomponente](/help/assets/title-design.png)
 
 * **Zulässige Typen/Größen für Autoren** - Aktiviert oder deaktiviert die Überschrifttypen, die für Inhaltsautoren verfügbar sind, wenn sie die Titelkomponente verwenden.
 * **Standardtyp/-größe** - Definieren Sie den Überschrifttyp, der automatisch zugewiesen wird, wenn ein Inhaltsautor die Titelkomponente zu einer Seite hinzufügt.
