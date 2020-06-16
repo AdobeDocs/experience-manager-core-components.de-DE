@@ -1,11 +1,11 @@
 ---
 title: Experience Fragment-Komponente
 description: Mit der Experience Fragment-Komponente kann der Inhaltsautor einer Seite eine Experience Fragment-Variation hinzufügen.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '816'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 89%
 
 Mit der Kernkomponente Experience Fragment-Komponente kann der Inhaltsautor eine Experience Fragment-Variation auf einer Seite platzieren, während er eine lokalisierte Site-Struktur unterstützt.
 
-## Nutzung {#usage}
+## Verwendung {#usage}
 
 Mit der Kernkomponente Experience Fragment-Komponente kann der Inhaltsautor aus vorhandenen Experience Fragment-Variationen auswählen und eine davon auf der Inhaltsseite platzieren. Die Experience Fragment-Komponente unterstützt außerdem eine lokalisierte Site-Struktur.
 
@@ -104,11 +104,11 @@ Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in d
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Rufen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_xf) auf, um die Experience Fragment-Komponente sowie die Beispiele für ihre Konfigurationsoptionen und die HTML- und JSON-Ausgabe zu testen.
+Rufen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_xf_de) auf, um die Experience Fragment-Komponente sowie die Beispiele für ihre Konfigurationsoptionen und die HTML- und JSON-Ausgabe zu testen.
 
 ## Technische Details {#technical-details}
 
-Die neueste technische Dokumentation zur Experience Fragment-Komponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_xf_v1).
+Die neueste technische Dokumentation zur Experience Fragment-Komponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_xf_v1_de).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
@@ -116,17 +116,17 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 
 Das Dialogfeld „Konfigurieren“ ermöglicht dem Inhaltsautor die Auswahl der Experience Fragment-Variation, die auf der Seite gerendert werden soll.
 
-![Dialogfeld &quot;Bearbeiten&quot;der Erlebnisfragment-Komponente](/help/assets/experience-fragment-edit.png)
+![Dialogfeld „Bearbeiten“ der Experience Fragment-Komponente](/help/assets/experience-fragment-edit.png)
 
 Verwenden Sie die Schaltfläche **Auswahldialog öffnen**, um die Komponentenauswahl zu öffnen und auszuwählen, welche Variation der Experience Fragment-Komponente zur Inhaltsseite hinzugefügt werden soll.
 
 Wenn Sie die Experience Fragment-Komponente zu einer Vorlage hinzufügen, wird sie automatisch lokalisiert, sofern die Experience Fragments lokalisiert sind. Was auf der Seite gerendert wird, kann sich daher von der Komponente unterscheiden, die Sie explizit auswählen. Weitere Informationen finden Sie im [oben stehenden Beispiel](#example).
 
-Sie können auch eine **ID** definieren. Diese Option ermöglicht die Steuerung des eindeutigen Bezeichners der Komponente im HTML und in der [Datenschicht](/help/developing/data-layer/overview.md).
+Sie können auch eine **ID** festlegen. Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
 
-* Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert und Sie können die resultierende Seite überprüfen.
-* Wenn eine ID angegeben wird, muss der Autor sicherstellen, dass sie eindeutig ist.
-* Eine Änderung der ID kann sich auf die Verfolgung von CSS, JS und Datenschichten auswirken.
+* Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
+* Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
+* Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
