@@ -1,11 +1,11 @@
 ---
 title: Breadcrumb-Komponente
 description: Die Kernkomponente „Breadcrumb-Komponente“ ist eine Navigationskomponente, die einen Breadcrumb von Links basierend auf der Position der Seite in der Inhaltshierarchie erstellt.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '713'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 81%
 
 Die Kernkomponente „Breadcrumb-Komponente“ ist eine Navigationskomponente, die einen Breadcrumb von Links basierend auf der Position der Seite in der Inhaltshierarchie erstellt.
 
-## Nutzung {#usage}
+## Verwendung {#usage}
 
 Die Breadcrumb-Komponente zeigt die Position der aktuellen Seite innerhalb der Site-Hierarchie an, wodurch Seitenbesucher von ihrer aktuellen Position aus durch die Seitenhierarchie navigieren können. Dies ist oft in Kopf- oder Fußzeilen von Seiten integriert.
 
@@ -35,7 +35,7 @@ Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in d
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Um die Breadcrumb-Komponente und Beispiele für die Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_breadcrumb).
+Um die Breadcrumb-Komponente und Beispiele für die Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_breadcrumb_de).
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ Um die Breadcrumb-Komponente und Beispiele für die Konfigurationsoptionen sowie
 
 ## Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Breadcrumb-Komponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_breadcrumb_v2).
+Die aktuelle technische Dokumentation zur Breadcrumb-Komponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_breadcrumb_v2_de).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
@@ -51,21 +51,21 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 
 Das Dialogfeld „Bearbeiten“ ermöglicht es dem Inhaltsautor, ausgeblendete und aktive Seiten in den Breadcrumbs zu unterdrücken sowie die Tiefe der anzuzeigenden Hierarchie zu wählen.
 
-![Dialogfeld zum Bearbeiten von Breadcrumb-Komponenten](/help/assets/breadcrumb-edit.png)
+![Dialogfeld „Bearbeiten“ der Breadcrumb-Komponente](/help/assets/breadcrumb-edit.png)
 
-* **Navigations-Level für Anfang** - Wo in der Hierarchie die Breadcrumb-Komponente beginnen soll, um zur aktuellen Seite zu gelangen. Beispiel in We.Retail:
+* **Startebene für die Navigation** – Wo in der Hierarchie die Breadcrumb-Komponente beginnen soll, um zur aktuellen Seite zu gelangen. Beispiel in We.Retail:
 
    * 0 beginnt bei `/content`
    * 1 beginnt bei `/content/<yourSite>`
    * 2 beginnt bei `/content/<yourSite>/<country>`
 
 * **Verborgene Navigationselemente anzeigen** – Zeigt Seiten an, die im Breadcrumb als ausgeblendet markiert sind (standardmäßig werden sie nicht angezeigt)
-* **Aktuelle Seite ausblenden** - Unterdrücken der aktuellen Seite im Breadcrumb (standardmäßig wird sie angezeigt)
-* **Schatten** deaktivieren - Wenn es sich bei der Seite in der Hierarchie um eine Umleitung handelt, wird anstelle der Zielgruppe der Name der Umleitungsseite angezeigt. Weitere Informationen finden Sie unter Unterstützung [der](navigation.md#shadow-structure) Schatten-Site-Struktur der Navigationskomponente.
-* **ID** - Diese Option ermöglicht die Steuerung des eindeutigen Bezeichners der Komponente im HTML und in der [Datenschicht](/help/developing/data-layer/overview.md).
-   * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert und Sie können die resultierende Seite überprüfen.
-   * Wenn eine ID angegeben wird, muss der Autor sicherstellen, dass sie eindeutig ist.
-   * Eine Änderung der ID kann sich auf die Verfolgung von CSS, JS und Datenschichten auswirken.
+* **Aktuelle Seite ausblenden** – Unterdrücken der aktuellen Seite im Breadcrumb (standardmäßig wird sie angezeigt)
+* **Shadowing deaktivieren** – Wenn es sich bei der Seite in der Hierarchie um einen Redirect handelt, wird anstelle der Zielseite der Name der umleitenden (Redirect)-Seite angezeigt. Weitere Informationen finden Sie unter [Unterstützung für Shadow Site-Struktur](navigation.md#shadow-structure) der Navigationskomponente.
+* **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
+   * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
+   * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
+   * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
@@ -75,7 +75,7 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Standardwerte 
 
 ![](/help/assets/breadcrumb-design.png)
 
-* **Start-Level für die Navigation** – Definiert den Standardwert, für den in der Hierarchie die Breadcrumb-Komponente aufgerufen werden soll, wenn die Breadcrumb-Komponente zu einer Seite hinzugefügt wird.
+* **Startebene für die Navigation** – Definiert den Standardwert, für den in der Hierarchie die Breadcrumb-Komponente aufgerufen werden soll, wenn die Breadcrumb-Komponente zu einer Seite hinzugefügt wird.
 * **Verborgene Navigationselemente anzeigen** – Definiert den Standardwert der Option **Verborgene Navigationselemente anzeigen**, wenn der Seite die Breadcrumb-Komponente hinzugefügt wird.
 
    * Die Option für den Autor wird dadurch nicht aktiviert oder deaktiviert. Es wird nur der Standardwert festgelegt.
@@ -84,7 +84,7 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Standardwerte 
 
    * Die Option für den Autor wird dadurch nicht aktiviert oder deaktiviert. Es wird nur der Standardwert festgelegt.
 
-* **Schatten** deaktivieren - Definiert den Standardwert der Option &quot;Schatten **deaktivieren** &quot;, wenn einer Seite die Breadcrumb-Komponente hinzugefügt wird.
+* **Shadowing deaktivieren** – Definiert den Standardwert der Option **Shadowing deaktivieren**, wenn die Breadcrumb-Komponente einer Seite hinzugefügt wird.
 
 ### Registerkarte „Stile“ {#styles-tab}
 
