@@ -1,11 +1,11 @@
 ---
 title: Entwickeln von Kernkomponenten
 description: Die Kernkomponenten bieten leistungsfähige und erweiterbare Basiskomponenten mit umfangreichen Funktionen, kontinuierlicher Bereitstellung, Komponentenversionierung, moderner Implementierung, schlankem Markup und JSON-Export von Inhalten.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6f7166c46940ed451721e0760d565d58efe412ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1425'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -112,13 +112,13 @@ In der folgenden Tabelle sind die verfügbaren Kernkomponenten mit Links zu ihre
 | [Inhaltsfragment](https://adobe.com/go/aem_cmp_tech_cf_v1_de) | Ermöglicht die Anzeige eines Inhaltsfragments | `-` |
 | [Inhaltsfragmentliste](https://adobe.com/go/aem_cmp_tech_cflist_v1_de) | Ermöglicht die Anzeige einer Liste mit Inhaltsfragmenten | `-` |
 | [Trennzeichen](https://adobe.com/go/aem_cmp_tech_separator_v1_de) | Trennt Inhalt auf einer Seite | `-` |
-| [Akkordeon](https://adobe.com/go/aem_cmp_tech_accordion_v1_de) | Organisieren von Inhalts-Bedienfeldern in einem ausblendbaren Akkordeon | `-` |
+| [Accordion](https://adobe.com/go/aem_cmp_tech_accordion_v1_de) | Organisieren von Inhalts-Bedienfeldern in einem ausblendbaren Accordion | `-` |
 | [Container](https://adobe.com/go/aem_cmp_tech_container_v1_de) | Organisieren von Komponenten in einem Container | `-` |
 | [Schaltfläche](https://adobe.com/go/aem_cmp_tech_button_v1_de) | Erstellen einer Schaltfläche auf einer Seite | `-` |
 | [Download](https://adobe.com/go/aem_cmp_tech_download_v1_de) | Hinzufügen eines herunterladbaren Assets zu einer Seite | `-` |
 | [Experience Fragment](https://adobe.com/go/aem_cmp_tech_xf_v1_de) | Hinzufügen eines Experience Fragment zu einer Seite | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
 | [Einbetten](https://adobe.com/go/aem_cmp_tech_embed_v1_de) | Einbetten einer externen Ressource in eine Seite | - |
-| [Fortschrittsleiste](https://adobe.com/go/aem_cmp_tech_progress_v1) | Visuelle Darstellung der Fortschritte auf dem Weg zu einem Ziel | - |
+| [Fortschrittsleiste](https://adobe.com/go/aem_cmp_tech_progress_v1_de) | Visualisierung des Fortschritts beim Erreichen eines Ziels | - |
 
 ### Künftige Komponenten {#upcoming-components}
 
