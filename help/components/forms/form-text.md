@@ -1,11 +1,11 @@
 ---
 title: Formulartext-Komponente
 description: Die Kernkomponente „Formulartext-Komponente“ ermöglicht die Eingabe von Formulartext zur Übermittlung.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '579'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 81%
 
 Die Kernkomponente „Formulartext-Komponente“ ermöglicht die Eingabe von Formulartext zur Übermittlung.
 
-## Nutzung {#usage}
+## Verwendung {#usage}
 
 Die Formulartext-Komponente ermöglicht die Übermittlung verschiedener Texttypen und sollte zusammen mit der [Formularcontainer-Komponente](form-container.md) verwendet werden. Der Typ der Textvalidierung, Beschriftung und Hilfemeldungen kann vom Inhaltseditor im [Dialogfeld „Konfigurieren“](#configure-dialog) definiert werden.
 
@@ -61,32 +61,32 @@ Das Dialogfeld „Konfigurieren“ ermöglicht es dem Inhaltsautor, den Texttyp 
 * **Beschriftung** - Die Beschriftung, die für das Feld angezeigt wird
 * **Beschriftung ausblenden** - Erforderlich, wenn die Beschriftung nur für Ein-/Ausgabehilfe erforderlich ist und keine zusätzlichen visuellen Informationen über das Feld enthält.
 * **Elementname** - Der Name des mit den Formulardaten gesendeten Felds.
-* **Wert** - Standardwert, der im Feld vorausgefüllt wird
-* **ID** - Diese Option ermöglicht die Steuerung des eindeutigen Bezeichners der Komponente im HTML und in der [Datenschicht](/help/developing/data-layer/overview.md).
-   * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert und Sie können die resultierende Seite überprüfen.
-   * Wenn eine ID angegeben wird, muss der Autor sicherstellen, dass sie eindeutig ist.
-   * Eine Änderung der ID kann sich auf die Verfolgung von CSS, JS und Datenschichten auswirken.
+* **Wert** – Der Standardwert, mit dem das Feld vorausgefüllt wird
+* **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
+   * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
+   * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
+   * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
 ### Registerkarte „Info“ {#about-tab}
 
-![Info, Registerkarte](/help/assets/form-text-edit-about.png)
+![Registerkarte „Info“](/help/assets/form-text-edit-about.png)
 
 * **Hilfemeldung** - Ein Hinweis für den Benutzer dahingehend, was im Feld eingegeben werden kann
 * **Hilfemeldung als Platzhalter anzeigen** - Bestimmt, ob die Hilfemeldung in der Formulareingabe angezeigt wird, wenn sie leer ist und sich nicht im Fokus befindet
 
 ### Registerkarte „Beschränkungen“{#constraints-tab}
 
-![Einschränkungen, Registerkarte](/help/assets/form-text-edit-constraints.png)
+![Registerkarte „Beschränkungen“](/help/assets/form-text-edit-constraints.png)
 
 * **Beschränkungsmeldung**
    * Meldung wird beim Senden des Formulars als QuickInfo angezeigt, wenn der Wert den ausgewählten Typ nicht validiert
    * Wird nicht für Beschränkungstypen **Text** und **Textbereich** angezeigt
 * **Erforderlich** - Gibt an, ob der Benutzer einen Wert ausfüllen muss, bevor das Formular senden kann
-   * **Erforderliche Nachricht** - Meldung, die als QuickInfo angezeigt wird, wenn das Feld leer gelassen wird
+   * **Erforderliche Meldung** – Meldung, die als QuickInfo angezeigt wird, wenn das Feld leer gelassen wird
 * **Schreibgeschützt:** Wenn ausgewählt, kann der Benutzer den Wert des Felds nicht ändern
 
 ## Dialogfeld „Design“ {#design-dialog}
 
 ### Registerkarte „Stile“ {#styles-tab}
 
-The Form Text Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
+Die Formulartext-Komponente unterstützt das [Stilsystem](/help/get-started/authoring.md#component-styling) von AEM.
