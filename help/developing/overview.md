@@ -2,9 +2,9 @@
 title: Entwickeln von Kernkomponenten
 description: Die Kernkomponenten bieten leistungsfähige und erweiterbare Basiskomponenten mit umfangreichen Funktionen, kontinuierlicher Bereitstellung, Komponentenversionierung, moderner Implementierung, schlankem Markup und JSON-Export von Inhalten.
 translation-type: tm+mt
-source-git-commit: bbbd918c7caf508866ae6dadbb8c815dca4e900b
+source-git-commit: b08fc5ec49126f7be19b7433a3d71de877d9e442
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1442'
 ht-degree: 98%
 
 ---
@@ -27,8 +27,7 @@ Empfohlen wird, weiterhin die [Foundation-Komponenten](/help/versions.md#foundat
 Überprüfen Sie, ob eine vorhandene [Kernkomponente angepasst werden kann](customizing.md).\
    Wenn nicht, wird empfohlen, eine neue benutzerdefinierte Komponente zu erstellen, die den [Komponentenrichtlinien](guidelines.md) folgt.
 * **Vorhandene benutzerdefinierte Komponenten**
-Wenn Ihre Komponenten erwartungsgemäß funktionieren, behalten Sie sie unverändert bei.
-\
+Wenn Ihre Komponenten erwartungsgemäß funktionieren, behalten Sie sie unverändert bei.\
    Falls nicht, siehe oben „Neue benutzerdefinierte Komponenten“.
 
 ## So haben Sie Erfolg mit den Kernkomponenten {#how-to-succeed}
@@ -120,7 +119,7 @@ In der folgenden Tabelle sind die verfügbaren Kernkomponenten mit Links zu ihre
 | [Experience Fragment](https://adobe.com/go/aem_cmp_tech_xf_v1_de) | Hinzufügen eines Experience Fragment zu einer Seite | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
 | [Einbetten](https://adobe.com/go/aem_cmp_tech_embed_v1_de) | Einbetten einer externen Ressource in eine Seite | - |
 | [Fortschrittsleiste](https://adobe.com/go/aem_cmp_tech_progress_v1_de) | Visualisierung des Fortschritts beim Erreichen eines Ziels | - |
-| [PDF Viewer](https://adobe.com/go/aem_cmp_tech_pdf_viewer_v1) | Stellt ein PDF-Dokument auf einer Seite dar | - |
+| [PDF Viewer](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1) | Stellt ein PDF-Dokument auf einer Seite dar | - |
 
 ### Künftige Komponenten {#upcoming-components}
 
