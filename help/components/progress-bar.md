@@ -1,11 +1,11 @@
 ---
 title: Fortschrittsleistenkomponente
 description: Die Fortschrittsleistenkomponente visualisiert den Fortschritt bei der Erreichung eines Ziels.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cba1d898d7789af7f4045ef9aa052b4da6a6b33a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '324'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Näheres zur Fortschrittsleistenkomponente und Beispiele für zugehörige Konfigurationsoptionen sowie HTML- und JSON-Ausgaben finden Sie in der [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_progressbar).
+Näheres zur Fortschrittsleistenkomponente und Beispiele für zugehörige Konfigurationsoptionen sowie HTML- und JSON-Ausgaben finden Sie in der [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_progressbar_de).
 
 ### Technische Details {#technical-details}
 
