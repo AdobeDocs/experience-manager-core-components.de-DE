@@ -2,7 +2,7 @@
 title: Kernkomponenten-Versionen
 description: Kernkomponenten werden als Versionen veröffentlicht, die mehr als eine Version derselben Kernkomponenten enthalten können. In diesem Dokument wird erläutert, welche Versionen veröffentlicht werden und wie die Kompatibilität mit Kernkomponenten und AEM verstanden werden kann.
 translation-type: tm+mt
-source-git-commit: cef65c3fdf99130086136fe9019ca759bbf1926c
+source-git-commit: 5a953588f83e13e50924a2bd9afa2466e3ef6f4d
 workflow-type: tm+mt
 source-wordcount: '1717'
 ht-degree: 98%
@@ -26,8 +26,8 @@ Die folgende Tabelle, deren Inhalt [auf GitHub mit vollständigen Versionsinform
 
 | Version | Beschreibung | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Veröffentlichungsdatum |
 |---|---|---|---|---|---|---|---|
-| [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | In dieser Version wurde die Komponente &quot;PDF Viewer&quot;vorgestellt. | - | 6.4.4.0+ | 6.5.0.0+ | Kontinuierlich | 8, 11 | 17. Juni 2020 |
-| [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | Die Version ermöglichte die Integration mit der Adobe Client-Datenschicht und führte die Fortschrittleistenkomponente ein. | - | 6.4.4.0+ | 6.5.0.0+ | Kontinuierlich | 8, 11 | 29. Mai 2020 |
+| [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | In dieser Version wurde die Komponente &quot;PDF Viewer&quot;vorgestellt. | - | 6.4.8.1+ | 6.5.5.0+ | Kontinuierlich | 8, 11 | 17. Juni 2020 |
+| [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | Die Version ermöglichte die Integration mit der Adobe Client-Datenschicht und führte die Fortschrittleistenkomponente ein. | - | 6.4.8.0+ | 6.5.4.0+ | Kontinuierlich | 8, 11 | 29. Mai 2020 |
 | [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | Diese Version konzentrierte sich auf Fehlerbehebungen mit kleinen Verbesserungen. | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | Kontinuierlich | 8, 11 | 5. Dezember 2019 |
 | [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | Mit dieser Version wurde die neue Einbettungskomponente eingeführt. | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | Kontinuierlich | 8, 11 | 25. September 2019 |
 | [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | Mit dieser Version wurde die neue Experience Fragment-Komponente eingeführt. | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | Kontinuierlich | 8, 11 | 6. September 2019 |
@@ -85,7 +85,7 @@ Die folgende Tabelle zeigt, welche Versionen welcher Komponenten in welchen Rele
 | **[Experience Fragment](components/experience-fragment.md)** |  |  |  |  |  |  |  |  | v1 | v1 | v1 |
 | **[Einbetten](components/embed.md)** |  |  |  |  |  |  |  |  |  | v1 | v1 |
 | **[Fortschrittsleiste](components/progress-bar.md)** |  |  |  |  |  |  |  |  |  |  | v1 |
-| **[PDF Viewer](components/pdf-viewer.md)** |  |  |  |  |  |  |  |  |  |  | v1 |
+| **[PDF-Viewer](components/pdf-viewer.md)** |  |  |  |  |  |  |  |  |  |  | v1 |
 
 ## Versionen {#versions-and-releases}
 
