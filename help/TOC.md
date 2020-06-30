@@ -1,11 +1,11 @@
 ---
 sub-product: AEM-Kernkomponenten
 user-guide-title: AEM-Kernkomponenten
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d344b5bf90099f9df6284cb097e006feac4973a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '183'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 98%
    + [Liste](components/list.md)
    + [Navigation](components/navigation.md)
    + [Seite](components/page.md)
-   + [PDF Viewer](components/pdf-viewer.md)
+   + [PDF-Viewer](components/pdf-viewer.md)
    + [Fortschrittsleiste](components/progress-bar.md)
    + [Schnellsuche](components/quick-search.md)
    + [Trennzeichen](components/separator.md)
