@@ -1,27 +1,27 @@
 ---
-title: PDF Viewer-Komponente
+title: PDF-Viewer-Komponente
 description: Die PDF-Viewer-Komponente ermöglicht die Anzeige eines PDF-Dokuments.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b08fc5ec49126f7be19b7433a3d71de877d9e442
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '644'
-ht-degree: 13%
+ht-degree: 100%
 
 ---
 
 
-# PDF Viewer-Komponente {#pdf-viewer-component}
+# PDF-Viewer-Komponente {#pdf-viewer-component}
 
 
-Die Komponente &quot;PDF Viewer für die Hauptkomponente&quot;ermöglicht die Einbindung eines PDF-Dokuments in eine Seite.
+Die Kernkomponente „PDF-Viewer-Komponente“ ermöglicht die Integration eines PDF-Dokuments in eine Seite.
 
 ## Verwendung {#usage}
 
-Die Komponente &quot;PDF Viewer für die Hauptkomponente&quot;bettet einen Viewer ein, um PDF-Dateien anzuzeigen, die als Assets auf der Seite gespeichert wurden.
+Die Kernkomponente „PDF-Viewer-Komponente“ bettet einen Viewer zur Anzeige von PDF-Dateien ein, die als Assets auf der Seite gespeichert werden.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die aktuelle Version der PDF Viewer-Komponente ist Version 1, die mit Version 2.10.0 der Core-Komponenten im Juni 2020 eingeführt wurde und in diesem Dokument beschrieben wird.
+Die aktuelle Version der PDF-Viewer-Komponente ist v1, die mit Version 2.10.0 der Kernkomponenten im Juni 2020 eingeführt wurde und in diesem Dokument beschrieben wird.
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
@@ -33,76 +33,76 @@ Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in d
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-To experience the PDF Viewer Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_pdfviewer).
+Näheres zur PDF-Viewer-Komponente und Beispiele für zugehörige Konfigurationsoptionen sowie HTML- und JSON-Ausgaben finden Sie in der [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_pdfviewer_de).
 
 ## Technische Details {#technical-details}
 
-The latest technical documentation about the PDF Viewer Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1).
+Die aktuelle technische Dokumentation zur PDF-Viewer-Komponente finden Sie auf [GitHub](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1_de).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
 ## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
-Im Dialogfeld &quot;Konfigurieren&quot;kann der Inhaltsersteller den Viewer definieren und festlegen, wie er sich verhalten und für einen Besucher zur Seite angezeigt werden soll.
+Mit dem Dialogfeld „Konfigurieren“ kann der Inhaltsautor den Viewer und sein Verhalten und Aussehen für einen Besucher der Seite definieren.
 
-### Configuration Tab {#configuration-tab}
+### Registerkarte „Konfiguration“{#configuration-tab}
 
-Auf der Registerkarte &quot;Konfiguration&quot;kann der Autor festlegen, welche PDF-Datei angezeigt werden soll. Der Pfad kann als Asset in AEM oder als absoluter Pfad zu einer anderen Ressource definiert werden.
+Auf der Registerkarte „Konfiguration“ kann der Autor festlegen, welche PDF-Datei angezeigt werden soll. Der Pfad kann als Asset in AEM oder als absoluter Pfad zu einer anderen Ressource definiert werden.
 
-![Registerkarte &quot;Konfiguration&quot;des Dialogfelds &quot;Bearbeiten&quot;der PDF Viewer-Komponente](/help/assets/pdf-viewer-edit-configuration.png)
+![Registerkarte „Konfiguration“ im Dialogfeld „Bearbeiten“ der PDF-Viewer-Komponente](/help/assets/pdf-viewer-edit-configuration.png)
 
-### Registerkarte anpassen {#customize-tab}
+### Registerkarte „Anpassen“ {#customize-tab}
 
-Auf der Registerkarte &quot;Anpassen&quot;kann der Autor festlegen, welche Optionen im Viewer für den Leser verfügbar sind und wie der Viewer angezeigt werden soll.
+Auf der Registerkarte „Anpassen“ kann der Autor festlegen, welche Optionen im Viewer für den Leser verfügbar sind und wie der Viewer angezeigt wird.
 
-![Registerkarte &quot;Bearbeiten&quot;des Dialogfelds &quot;PDF Viewer-Komponente&quot;anpassen](/help/assets/pdf-viewer-edit-customize.png)
+![Registerkarte „Anpassen“ im Dialogfeld „Bearbeiten“ der PDF-Viewer-Komponente](/help/assets/pdf-viewer-edit-customize.png)
 
 Die Anzahl der verfügbaren Optionen hängt vom ausgewählten **Typ** ab.
 
-* [Volles Fenster](#full-window) - Der Anzeigebereich wird im gesamten Browser gerendert. Dies eignet sich am besten für Datenspeicherung- und Produktivitätsanwendungen.
-* [Größter Container](#sized-container) - Der Anzeigebereich wird im gesamten Browser gerendert. Dies eignet sich am besten für Datenspeicherung- und Produktivitätsanwendungen.
-* [Inline](#in-line) - Alle PDF-Seiten, die in einer Webseite in einer Zeile wiedergegeben werden. Dies eignet sich am besten zum Lesen von Anwendungen.
+* [Vollbild](#full-window) - Der Anzeigebereich wird im vollständigen Browser gerendert. Dies eignet sich am besten für Speicher- und Produktivitätsanwendungen.
+* [Größenangepasster Container](#sized-container) - Der Anzeigebereich wird im vollständigen Browser gerendert. Dies eignet sich am besten für Speicher- und Produktivitätsanwendungen.
+* [In Zeilen](#in-line) - Alle PDF-Seiten werden auf einer Web-Seite in Zeilen gerendert. Dies eignet sich am besten für Leseanwendungen.
 
-#### Vollständiges Fenster {#full-window}
+#### Vollbild {#full-window}
 
-Der Anzeigebereich wird im vollständigen Browser gerendert. Dies eignet sich am besten für Datenspeicherung- und Produktivitätsanwendungen.
+Der Anzeigebereich wird im vollständigen Browser gerendert. Dies eignet sich am besten für Speicher- und Produktivitätsanwendungen.
 
-![Option für das vollständige Fenster der Registerkarte im Bearbeitungsdialogfeld der PDF Viewer-Komponente anpassen](/help/assets/pdf-viewer-edit-customize-full.png)
+![Registerkarte „Anpassen“ für die Vollbildoption im Dialogfeld „Bearbeiten“ der PDF-Viewer-Komponente](/help/assets/pdf-viewer-edit-customize-full.png)
 
-* **Standardmodus** der Ansicht: Wie der Viewer auf die Seite passt, auf der er angezeigt wird
-   * Fenstergröße
-   * Fensterbreite
-* **Vollbild** - Bei Aktivierung nimmt der Viewer die volle Höhe/Breite des Viewports ein.
-* **Anmerkungswerkzeuge** - Wenn diese Option aktiviert ist, stehen die Anmerkungswerkzeuge zur Verfügung.
-* **Linke Hand - Wenn diese Option aktiviert ist, wird der linke Bereich angezeigt** .
-* **PDF** herunterladen: Wenn diese Option aktiviert ist, wird die Schaltfläche zum Herunterladen angezeigt.
-* **PDF** drucken: Wenn diese Option aktiviert ist, wird die Drucken-Schaltfläche angezeigt.
-* **Seitensteuerelemente** : Schaltet das Verhalten der Seitensteuerelemente um.
-   * Dock
-   * Dock
+* **Standardanzeigemodus**: Wie der Viewer in die Seite eingepasst wird, auf der er angezeigt wird
+   * Seite anpassen
+   * Breite anpassen
+* **Vollbild** - Wenn diese Option aktiviert ist, nutzt der Viewer die volle Höhe/Breite des Viewports.
+* **Anmerkungs-Tools** - Wenn diese Option aktiviert ist, stehen die Anmerkungs-Tools zur Verfügung.
+* **Linkes Bedienfeld** - Wenn diese Option aktiviert ist, wird das linke Bedienfeld angezeigt.
+* **PDF herunterladen** – Wenn diese Option aktiviert ist, wird die Download-Schaltfläche angezeigt.
+* **PDF drucken**: Wenn diese Option aktiviert ist, wird die Druck-Schaltfläche angezeigt.
+* **Seitensteuerungen** – Schaltet das Verhalten der Seitensteuerungen um.
+   * Andocken
+   * Abdocken
 
-#### Größter Container {#sized-container}
+#### Größenangepasster Container {#sized-container}
 
-Der Anzeigebereich wird im vollständigen Browser gerendert. Dies eignet sich am besten für Datenspeicherung- und Produktivitätsanwendungen.
+Der Anzeigebereich wird im vollständigen Browser gerendert. Dies eignet sich am besten für Speicher- und Produktivitätsanwendungen.
 
-![Option &quot;Container in Registerkartengröße&quot;im Dialogfeld &quot;Bearbeiten&quot;der PDF Viewer-Komponente anpassen](/help/assets/pdf-viewer-edit-customize-sized-container.png)
+![Registerkarte „Anpassen“ für den größenangepassten Container im Dialogfeld „Bearbeiten“ der PDF-Viewer-Komponente](/help/assets/pdf-viewer-edit-customize-sized-container.png)
 
-* **Vollbild** - Bei Aktivierung nimmt der Viewer die volle Höhe/Breite des Viewports ein.
-* **PDF** herunterladen: Wenn diese Option aktiviert ist, wird die Schaltfläche zum Herunterladen angezeigt.
-* **PDF** drucken: Wenn diese Option aktiviert ist, wird die Drucken-Schaltfläche angezeigt.
-* **Seitensteuerelemente** : Schaltet das Verhalten der Seitensteuerelemente um.
-   * Dock
-   * Dock
+* **Vollbild** - Wenn diese Option aktiviert ist, nutzt der Viewer die volle Höhe/Breite des Viewports.
+* **PDF herunterladen** – Wenn diese Option aktiviert ist, wird die Download-Schaltfläche angezeigt.
+* **PDF drucken**: Wenn diese Option aktiviert ist, wird die Druck-Schaltfläche angezeigt.
+* **Seitensteuerungen** – Schaltet das Verhalten der Seitensteuerungen um.
+   * Andocken
+   * Abdocken
 
-#### Inline {#in-line}
+#### In Zeilen {#in-line}
 
-Alle PDF-Seiten, die innerhalb einer Webseite in Linie gerendert werden. Dies eignet sich am besten zum Lesen von Anwendungen.
+Alle PDF-Seiten werden auf einer Web-Seite in Zeilen gerendert. Dies eignet sich am besten für Leseanwendungen.
 
-![Option &quot;Container in Registerkartengröße&quot;im Dialogfeld &quot;Bearbeiten&quot;der PDF Viewer-Komponente anpassen](/help/assets/pdf-viewer-edit-customize-inline.png)
+![Registerkarte „Anpassen“ für den größenangepassten Container im Dialogfeld „Bearbeiten“ der PDF-Viewer-Komponente](/help/assets/pdf-viewer-edit-customize-inline.png)
 
-* **PDF** herunterladen: Wenn diese Option aktiviert ist, wird die Schaltfläche zum Herunterladen angezeigt.
-* **PDF** drucken: Wenn diese Option aktiviert ist, wird die Drucken-Schaltfläche angezeigt.
+* **PDF herunterladen** – Wenn diese Option aktiviert ist, wird die Download-Schaltfläche angezeigt.
+* **PDF drucken**: Wenn diese Option aktiviert ist, wird die Druck-Schaltfläche angezeigt.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
-Für die PDF-Viewer-Komponente gibt es kein Dialogfeld &quot;Design&quot;.
+Es gibt kein Dialogfeld „Design“ für die PDF-Viewer-Komponente.
