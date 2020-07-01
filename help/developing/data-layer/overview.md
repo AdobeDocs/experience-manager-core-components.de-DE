@@ -1,11 +1,11 @@
 ---
 title: Verwenden der Adobe Client-Datenschicht in Verbindung mit den Kernkomponenten
 description: Verwenden der Adobe Client-Datenschicht in Verbindung mit den Kernkomponenten
-translation-type: ht
-source-git-commit: 539a4250c954ac830731a9ecf010e129b2cf9c3a
-workflow-type: ht
-source-wordcount: '416'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 57116fa8f8a71259400881609775af4047cd2225
+workflow-type: tm+mt
+source-wordcount: '418'
+ht-degree: 99%
 
 ---
 
@@ -33,6 +33,7 @@ Die Datenschicht ist jedoch nicht standardmäßig aktiviert. Gehen Sie wie folgt
 
 1. Erstellen Sie unterhalb des Knotens `/conf` die folgende Struktur:
    * `/conf/<mySite>/sling:configs/com.adobe.cq.wcm.core.components.internal.DataLayerConfig`
+   * Knotentyp: `nt:unstructured`
 1. Fügen Sie eine boolesche Eigenschaft mit dem Namen `enabled` hinzu und legen Sie sie auf `true` fest.
 1. Fügen Sie eine `sling:configRef`-Eigenschaft zum Knoten `jcr:content` Ihrer Site hinzu, dies unterhalb von `/content` (z. B. `/content/<mySite>/jcr:content`), und legen Sie für sie `/conf/<mySite>` fest.
 
