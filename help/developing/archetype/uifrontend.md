@@ -1,8 +1,11 @@
 ---
 title: AEM Projektarchetyp Front-End-Build
 description: Eine Projektvorlage für AEM-basierte Anwendungen
-translation-type: ht
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+translation-type: tm+mt
+source-git-commit: 55b4dde320dcb38935b55b273d4df8d0cc2f16e6
+workflow-type: tm+mt
+source-wordcount: '1613'
+ht-degree: 100%
 
 ---
 
@@ -29,6 +32,7 @@ Beim Ausführen von `npm run dev` wird der Front-End-Build-Prozess gestartet, de
 Wenn der gesamte AEM-Projektarchetyp mit `mvn clean install -PautoInstallPackage` ausgeführt wird, werden alle Projektartefakte einschließlich der ClientLibs an die AEM-Instanz gesendet.
 
 >[!TIP]
+>
 >In der [AEM-Entwicklungsdokumentation](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) erfahren Sie mehr über ClientLibs und darüber, [wie sie vom ui.frontend-Modul verwendet werden](#clientlib-generation).
 
 ## Überblick über ClientLibs {#clientlibs}
@@ -146,6 +150,7 @@ Konvertiert Werte für die äquivalente Länge, Zeit und Winkel. Beachten Sie, d
 * Quellzuordnung - nur Entwicklungs-Build
 
 >[!NOTE]
+>
 >Die Option zum Erstellen des Front-End verwendet Konfigurationsdateien des nur dev- und prod-only webpack, die eine gemeinsame Konfigurationsdatei gemeinsam haben. Auf diese Weise können Entwicklungs- und Produktionseinstellungen unabhängig verändert werden.
 
 ### Generieren der Client-Bibliothek {#clientlib-generation}
