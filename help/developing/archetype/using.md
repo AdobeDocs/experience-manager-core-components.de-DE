@@ -1,9 +1,9 @@
 ---
 title: Verwenden des AEM-Projektarchetyps
 description: Detaillierte Nutzungsanleitungen für den AEM-Projektarchetyp
-translation-type: ht
-source-git-commit: 6f7166c46940ed451721e0760d565d58efe412ab
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 55b4dde320dcb38935b55b273d4df8d0cc2f16e6
+workflow-type: tm+mt
 source-wordcount: '2057'
 ht-degree: 100%
 
@@ -107,9 +107,11 @@ Die folgenden Eigenschaften sind beim Erstellen eines Projekts mit dem Archetyp 
 | `includeErrorHandler` | `n` | Enthält eine benutzerdefinierte 404-Antwortseite, die für die gesamte Instanz global ist (kann `y` oder `n` sein). |
 
 >[!NOTE]
+>
 > Wenn der Archetyp zum ersten Mal im interaktiven Modus ausgeführt wird, können Eigenschaften mit Standardwerten nicht geändert werden (weitere Informationen finden Sie unter [ARCHETYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) ). Der Wert kann geändert werden, wenn die Eigenschaftsbestätigung am Ende verweigert und der Fragebogen wiederholt wird oder indem der Parameter in der Befehlszeile (z. `-DoptionIncludeExamples=n`).
 
 >[!NOTE]
+>
 >Bei Ausführung unter Windows und Generierung der Dispatcher-Konfiguration sollte die Ausführung in einer Eingabeaufforderung mit erhöhten Rechten oder im Windows-Subsystem für Linux erfolgen (siehe [Problem 329](https://github.com/adobe/aem-project-archetype/issues/329)).
 
 ### Profile {#profiles}
