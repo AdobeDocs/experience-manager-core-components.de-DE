@@ -1,11 +1,11 @@
 ---
 title: Einführung in Kernkomponenten
 description: 'Kernkomponenten wurden eingeführt, um robuste und erweiterbare Basiskomponenten bereitzustellen, die auf aktueller Technologie und Best Practices basieren. '
-translation-type: ht
-source-git-commit: 5a953588f83e13e50924a2bd9afa2466e3ef6f4d
-workflow-type: ht
-source-wordcount: '848'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6d21773dbf09b5e6622c51c662c4070e0242b7d6
+workflow-type: tm+mt
+source-wordcount: '863'
+ht-degree: 98%
 
 ---
 
@@ -39,6 +39,7 @@ Die Kernkomponenten sind eine Reihe standardisierter Web-Content-Management-Komp
 | Barrierefrei | Sie erfüllen [WCAG 2.1-Standards](https://www.w3.org/TR/WCAG21/), bieten ARIA-Beschriftungen und unterstützen die Tastennavigation ([bekannte Probleme](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)). |
 | SEO-freundlich | Die HTML-Ausgabe ist schematisch und stellt [schema.org](https://schema.org)-Mikrodatenanmerkungen bereit. |
 | WebApp-fähig | Die [optimierte JSON-Ausgabe](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) ermöglicht das Client-seitige Rendern, wobei die [kontextbezogene Bearbeitung](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html) weiterhin möglich ist. |
+| AMP-Unterstützung | Die Komponenten verfügen über integrierte [Unterstützung für den AMP-Standard,](/help/developing/amp.md) wodurch Ihre mobilen Erlebnisse beschleunigt werden. |
 | Design-Kit | Mit einem [Benutzeroberflächen-Kit für Adobe XD](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_Wireframe.xd) können Designer Wireframes erstellen, die sie dann [nach Bedarf formatieren](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_WKND.xd) können. |
 | Themen-fähig | Die Komponenten implementieren das [Stilsystem](https://docs.adobe.com/content/help/de-DE/experience-manager-65/developing/components/style-system.html) und das Markup folgt den [BEM-CSS-Konventionen](http://getbem.com/). |
 | Anpassbar | Verschiedene Muster ermöglichen eine [einfache Anpassung](developing/customizing.md), von der Anpassung des HTML-Codes bis hin zur Wiederverwendung erweiterter Funktionen. |
@@ -105,7 +106,7 @@ Die aktuelle Version der Kernkomponenten enthält die folgenden Komponenten.
 
 | Kernkomponenten | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven |
 ---------|---------|---------|---------|---------|---------
-| [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | Kontinuierlich | 6.5.5.0+ | 6.4.8.1+ | 8, 11 | 3.3.9+ |
+| [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | Kontinuierlich | 6.5.5.0+ | 6.4.8.1+ | 8, 11 | 3.3.9+ |
 
 Die Anforderungen aus früheren Kernkomponenten-Versionen finden Sie unter [Kernkomponenten-Versionen](versions.md).
 
