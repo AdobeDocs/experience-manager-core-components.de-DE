@@ -1,9 +1,9 @@
 ---
 title: Integration von Kernkomponenten und Adobe Experience Platform Launch über die Adobe Client-Datenschicht
 description: 'Konfigurieren von Adobe Experience Platform Launch für die Registrierung von Kernkomponenten-Ereignissen mit Adobe Experience Platform Launch '
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 85fb3612aed12b7bfdc05f0a569ae7c7364e6121
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1160'
 ht-degree: 100%
 
