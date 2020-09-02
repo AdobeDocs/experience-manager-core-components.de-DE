@@ -1,11 +1,11 @@
 ---
 title: AMP-Unterstützung für die Kernkomponenten
 description: Die Kernkomponenten unterstützen AMP (Accelerated Mobile Pages)
-translation-type: ht
-source-git-commit: 905096d909d4fbf624152ba3b5cbc1d80637245f
-workflow-type: ht
-source-wordcount: '493'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 24a810ff634f8846881dfa0095e879476d0f16f0
+workflow-type: tm+mt
+source-wordcount: '534'
+ht-degree: 82%
 
 ---
 
@@ -26,26 +26,18 @@ Die Unterstützung für AMP in den Kernkomponenten ist [vollständig konfigurier
 
 Die Kernkomponenten nutzen `amp` als Sling-Selektor zum Rendern von AMP-Seiten. Zum Beispiel würde mit `example.html` die normale Seite und mit `example.amp.html` die AMP-Version gerendert.
 
-### Voraussetzungen {#requirements}
-
-Bei Verwendung von AMP mit den Kernkomponenten besteht der Hauptunterschied darin, dass für AMP alle CSS-Anweisungen inline im `<head>`-Element referenziert und optimiert werden müssen.
-
-Zu diesem Zweck wird eine angepasste Seitenkomponente verwendet, die nur AMP-spezifische CSS-Anweisungen für die Komponenten lädt, die auf der Seite vorhanden sind.
-
-Weitere Anforderungen und technische Details finden Sie in der [GitHub-Entwicklerdokumentation](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp).
-
-### Verwenden von AMP in den Kernkomponenten {#using-amp}
-
 Sie können für jedes Projekt einzeln festlegen, ob AMP genutzt wird oder nicht. Da AMP- und Standard-HTML-Seiten parallel bereitgestellt werden können, kann AMP auch nur auf bestimmten Seiten eines Projekts verwendet werden.
 
-### Installieren der AMP-Unterstützung {#installing-amp}
+## Erste Schritte mit AMP-Unterstützung in Ihrem Projekt {#getting-started}
 
-Da AMP optional ist, wird es als Erweiterung für die Kernkomponenten bereitgestellt.
+Obwohl AMP Angebot sehr flexibel unterstützen, sind für einen schnellen Einstieg nur wenige Schritte erforderlich:
 
-* Bei AEM as a Cloud Service-Projekten ist die Erweiterung automatisch verfügbar.
-* Bei lokalen und AMS-Projekten muss die Erweiterung bei der Installation der Kernkomponenten explizit installiert werden.
-
-Nachdem die Erweiterung installiert wurde, muss der Komponentenautor einfach die Supertypen der Komponente auf jene in der Erweiterung verweisen.
+1. Installieren Sie bei Bedarf die AMP-Unterstützungserweiterung.
+   * Für AEM als Cloud Service-Projekte ist die Erweiterung automatisch mit den Core-Komponenten verfügbar und es ist keine Installation erforderlich.
+   * Bei lokalen und AMS-Projekten muss die Erweiterung bei der Installation der Kernkomponenten explizit installiert werden.
+1. Nachdem die AMP-Erweiterung installiert wurde, muss der Komponentenautor die Komponenten-Supertypen einfach auf die in der Erweiterung enthaltenen verweisen.
+1. [Aktivieren Sie die AMP-Unterstützung](#enabling-amp) auf Vorlagenebene oder auf Ihren einzelnen Seiten.
+1. [Stellen Sie ggf. eingebettete CSS](#css-requirements) bereit.
 
 ### Aktivieren von AMP für Seiten {#enabling-amp}
 
@@ -65,3 +57,11 @@ Die AMP-Einstellungen für eine Seite können auch in den [Seiteneigenschaften](
 * **Kein AMP**: Die Seite wird nur als Standard-HTML bereitgestellt.
 * **Gepaartes AMP**: Die Seite wird sowohl als AMP als auch als HTML bereitgestellt.
 * **Nur AMP**: Die Seite wird nur als AMP bereitgestellt.
+
+### CSS-Anforderungen {#css-requirements}
+
+Bei Verwendung von AMP mit den Kernkomponenten besteht der Hauptunterschied darin, dass für AMP alle CSS-Anweisungen inline im `<head>`-Element referenziert und optimiert werden müssen.
+
+Zu diesem Zweck wird eine angepasste Seitenkomponente verwendet, die nur AMP-spezifische CSS-Anweisungen für die Komponenten lädt, die auf der Seite vorhanden sind.
+
+Weitere Anforderungen und technische Details finden Sie in der [GitHub-Entwicklerdokumentation](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp).
