@@ -1,11 +1,11 @@
 ---
 title: Verwenden der Adobe Client-Datenschicht in Verbindung mit den Kernkomponenten
 description: Verwenden der Adobe Client-Datenschicht in Verbindung mit den Kernkomponenten
-translation-type: ht
-source-git-commit: 57116fa8f8a71259400881609775af4047cd2225
-workflow-type: ht
-source-wordcount: '418'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 24a810ff634f8846881dfa0095e879476d0f16f0
+workflow-type: tm+mt
+source-wordcount: '426'
+ht-degree: 98%
 
 ---
 
@@ -24,12 +24,11 @@ Wie auch die Kernkomponenten ist der Code für die Adobe Client-Datenschicht auf
 >
 >Weitere technische Details zur Integration der Adobe Client-Datenschicht mit den Kernkomponenten finden Sie in der Datei [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) im Kernkomponenten-Repository.
 
-
 ## Installation und Aktivierung {#installation-activation}
 
 Ab Version 2.9.0 der Kernkomponenten wird die Datenschicht zusammen mit den Kernkomponenten als clientlib bereitgestellt. Es ist keine Installation erforderlich.
 
-Die Datenschicht ist jedoch nicht standardmäßig aktiviert. Gehen Sie wie folgt vor, um die Datenschicht zu aktivieren:
+Die Datenschicht ist jedoch nicht standardmäßig aktiviert. Gehen Sie wie folgt vor, um die Datenschicht zu aktivieren: Sie müssen dafür eine [kontextabhängige Konfiguration](/help/developing/context-aware-configs.md) erstellen:
 
 1. Erstellen Sie unterhalb des Knotens `/conf` die folgende Struktur:
    * `/conf/<mySite>/sling:configs/com.adobe.cq.wcm.core.components.internal.DataLayerConfig`
