@@ -2,11 +2,11 @@
 sub-product: AEM-Kernkomponenten
 user-guide-title: AEM-Kernkomponenten
 user-guide-description: Use the extensible Core Components to let authors easily create content.
-translation-type: ht
-source-git-commit: dc8d63bca14996f230d4f8e68b7706d315955e06
-workflow-type: ht
-source-wordcount: '185'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 77123951c73f41f1673c7ca04f3af87f08e73775
+workflow-type: tm+mt
+source-wordcount: '191'
+ht-degree: 97%
 
 ---
 
@@ -72,10 +72,12 @@ ht-degree: 100%
    + [Anpassen der Kernkomponenten](developing/customizing.md)
    + [Komponentenrichtlinien](developing/guidelines.md)
    + [AMP-Unterstützung](developing/amp.md)
+   + [Kontextabhängige Konfigurationen](developing/context-aware-configs.md)
    + Adobe Client-Datenschicht {#data-layer}
       + [Kernkomponenten und die Adobe Client-Datenschicht](developing/data-layer/overview.md)
       + [Integration mit Adobe Experience Platform Launch ](developing/data-layer/launch-integration.md)
       + [Integration mit Adobe Analytics](developing/data-layer/analytics-integration.md)
+      + [Erweitern der Datenschicht](developing/data-layer/extending.md)
    + AEM-Projektarchetyp {#archetype}
       + [Archetyp-Übersicht](developing/archetype/overview.md)
       + [Verwenden des Archetyps](developing/archetype/using.md)
