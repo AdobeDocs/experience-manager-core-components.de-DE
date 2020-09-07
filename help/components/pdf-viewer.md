@@ -1,11 +1,11 @@
 ---
 title: PDF-Viewer-Komponente
 description: Die PDF-Viewer-Komponente ermöglicht die Anzeige eines PDF-Dokuments.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 24a810ff634f8846881dfa0095e879476d0f16f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '705'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 
 >[!NOTE]
 >
->Die PDF Viewer-Komponente nutzt die Dokument Services-APIs [der](https://www.adobe.io/apis/documentcloud/dcsdk.html) Adobe und erfordert, dass Ihr Administrator eine [kontextbezogene Konfiguration](/help/developing/context-aware-configs.md) für die Verwendung dieser Dienste konfiguriert. In der technischen Dokumentation der Komponente finden Sie [Einzelheiten zu dieser Konfiguration.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/pdfviewer/v1/pdfviewer#context-aware-config)
+>Die PDF Viewer-Komponente nutzt die [Document Services-APIs von Adobe](https://www.adobe.io/apis/documentcloud/dcsdk.html). Ihr Administrator muss für die Verwendung dieser Services eine [kontextbezogene Konfiguration](/help/developing/context-aware-configs.md) einrichten. In der technischen Dokumentation zu der Komponente finden Sie [Einzelheiten zu dieser Konfiguration](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/pdfviewer/v1/pdfviewer#context-aware-config).
 
 ## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
