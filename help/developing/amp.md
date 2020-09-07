@@ -1,11 +1,11 @@
 ---
 title: AMP-Unterstützung für die Kernkomponenten
 description: Die Kernkomponenten unterstützen AMP (Accelerated Mobile Pages)
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 24a810ff634f8846881dfa0095e879476d0f16f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '534'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -30,14 +30,14 @@ Sie können für jedes Projekt einzeln festlegen, ob AMP genutzt wird oder nicht
 
 ## Erste Schritte mit AMP-Unterstützung in Ihrem Projekt {#getting-started}
 
-Obwohl AMP Angebot sehr flexibel unterstützen, sind für einen schnellen Einstieg nur wenige Schritte erforderlich:
+Obwohl AMP-Unterstützung umfangreiche Flexibilität bietet, müssen Sie für den Einstieg nur wenige einfache Schritte befolgen:
 
-1. Installieren Sie bei Bedarf die AMP-Unterstützungserweiterung.
-   * Für AEM als Cloud Service-Projekte ist die Erweiterung automatisch mit den Core-Komponenten verfügbar und es ist keine Installation erforderlich.
+1. Installieren Sie bei Bedarf die Erweiterung für die AMP-Unterstützung.
+   * Für AEM as a Cloud Service-Projekte ist die Erweiterung automatisch mit den Kernkomponenten verfügbar und es ist keine Installation erforderlich.
    * Bei lokalen und AMS-Projekten muss die Erweiterung bei der Installation der Kernkomponenten explizit installiert werden.
-1. Nachdem die AMP-Erweiterung installiert wurde, muss der Komponentenautor die Komponenten-Supertypen einfach auf die in der Erweiterung enthaltenen verweisen.
-1. [Aktivieren Sie die AMP-Unterstützung](#enabling-amp) auf Vorlagenebene oder auf Ihren einzelnen Seiten.
-1. [Stellen Sie ggf. eingebettete CSS](#css-requirements) bereit.
+1. Nachdem die AMP-Erweiterung installiert wurde, muss der Komponentenautor einfach die Supertypen der Komponente auf jene in der Erweiterung verweisen.
+1. [Aktivieren Sie die AMP-Unterstützung](#enabling-amp) auf Vorlagenebene oder auf den einzelnen Seiten.
+1. [Stellen Sie ggf. eingebettetes CSS bereit](#css-requirements).
 
 ### Aktivieren von AMP für Seiten {#enabling-amp}
 
