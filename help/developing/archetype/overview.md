@@ -1,8 +1,11 @@
 ---
 title: AEM-Projektarchetyp
 description: Eine Projektvorlage für AEM-basierte Anwendungen
-translation-type: ht
-source-git-commit: 2faa092a075ab0512e9bd5654884534936c0ad53
+translation-type: tm+mt
+source-git-commit: ed8c4609683d8e43ebc6859694ff7b9578fb07ff
+workflow-type: tm+mt
+source-wordcount: '989'
+ht-degree: 95%
 
 ---
 
@@ -18,11 +21,11 @@ Der AEM-Projektarchetyp ist eine Maven-Vorlage, anhand derer ein minimales, auf 
 ## Ressourcen {#resources}
 
 * **Dokumentation zum Archetyp (dieses Dokument):** Überblick über die Architektur des Archetyps und die verschiedenen Module.
-   * **[Verwenden des Archetyps:](using.md)**Weitere Informationen zur Verwendung des Archetyps und der verfügbaren Module
-   * **[ui.frontend:](uifrontend.md)**Verwendung des Frontend-Build-Moduls
+   * **[Verwenden des Archetyps:](using.md)** Weitere Informationen zur Verwendung des Archetyps und der verfügbaren Module
+   * **[ui.frontend:](uifrontend.md)** Verwendung des Frontend-Build-Moduls
 * Die folgenden Tutorials basieren auf diesem Archetyp:
-   * **[WKND-Site:](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)**Erfahren Sie, wie eine neue Website beginnen.
-   * **[WKND Single Page App:](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)**Erfahren Sie, wie Sie eine Web-App für React oder Angular erstellen, die vollständig in AEM erstellt werden kann.
+   * **[WKND-Site:](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** Erfahren Sie, wie eine neue Website beginnen.
+   * **[WKND Single Page App:](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)** Erfahren Sie, wie Sie eine Web-App für React oder Angular erstellen, die vollständig in AEM erstellt werden kann.
 
 ## Funktionen {#features}
 
@@ -84,12 +87,16 @@ Die Abhängigkeit der Kernkomponenten wird nur für AEM-Versionen ohne Cloud Ser
 | `singleCountry` | `y` | Enthält eine Inhaltsstruktur für den Sprach-Master (kann `y`oder `n` sein). |
 | `includeExamples` | `y` | Enthält eine Beispiel-Website für die [Komponentenbibliothek](https://www.aemcomponents.dev/) (kann `y` oder `n` sein). |
 | `includeErrorHandler` | `n` | Enthält eine benutzerdefinierte 404-Antwortseite, die für die gesamte Instanz global ist (kann `y` oder `n` sein). |
+| `includeCommerce` | `n` | Umfasst [CIF-Kernkomponenten](https://github.com/adobe/aem-core-cif-components) -Abhängigkeiten und generiert entsprechende Artefakte. |
+| `commerceEndpoint` |  | Nur für CIF erforderlich. Optionaler Endpunkt des zu verwendenden GraphQL-Dienstes (z. `https://hostname.com/grapql`). |
+| `datalayer` | `y` | Aktivieren Sie die Integration mit der [Adobe Client-Datenschicht](/help/developing/data-layer/overview.md). |
+| `amp` | `n` | Aktivieren Sie [AMP](/help/developing/amp.md) -Unterstützung für erstellte Projektvorlagen. |
 
 ## Systemanforderungen
 
-| Archetyp | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | AEM 6.3 | Java SE | Maven |
+| Archetyp | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven |
 ---------|---------|---------|---------|---------|---------|---------
-| [23](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-23) | Kontinuierlich | 6.5.0.0+ | 6.4.4.0+ | 6.3.3.4+ | 8, 11 | 3.3.9+ |
+| [24](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-24) | Kontinuierlich | 6.5.5.0+ | 6.4.8.1+ | 8, 11 | 3.3.9+ |
 
 Richten Sie Ihre lokale Entwicklungsumgebung für das [AEM as a Cloud Service-SDK](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) oder [ältere Versionen von AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html) ein.
 
