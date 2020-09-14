@@ -1,11 +1,11 @@
 ---
 title: Einführung in Kernkomponenten
-description: 'Kernkomponenten wurden eingeführt, um robuste und erweiterbare Basiskomponenten bereitzustellen, die auf aktueller Technologie und Best Practices basieren. '
+description: 'Die Kernkomponenten bieten robuste und erweiterbare Basiskomponenten, die auf der neuesten Technologie und Best Practices basieren. '
 translation-type: tm+mt
-source-git-commit: 4e68b1c293f4e6553aa5888ac26ee76c1a569ff3
+source-git-commit: f94b9e8757295ba25f11a0e60fc864a85db5c765
 workflow-type: tm+mt
-source-wordcount: '863'
-ht-degree: 100%
+source-wordcount: '861'
+ht-degree: 98%
 
 ---
 
