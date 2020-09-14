@@ -1,9 +1,9 @@
 ---
 title: Einführung in Kernkomponenten
 description: 'Kernkomponenten wurden eingeführt, um robuste und erweiterbare Basiskomponenten bereitzustellen, die auf aktueller Technologie und Best Practices basieren. '
-translation-type: ht
-source-git-commit: 6d21773dbf09b5e6622c51c662c4070e0242b7d6
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 4e68b1c293f4e6553aa5888ac26ee76c1a569ff3
+workflow-type: tm+mt
 source-wordcount: '863'
 ht-degree: 100%
 
@@ -18,14 +18,14 @@ Die Kernkomponenten sind eine Reihe standardisierter Web-Content-Management-Komp
 
 ## Ressourcen {#resources}
 
-* **[Komponentenbibliothek:](https://www.adobe.com/go/aem_cmp_library_de)**Eine Sammlung von Beispielen zum Anzeigen der Komponenten in ihren verschiedenen Konfigurationen.
+* **[Komponentenbibliothek:](https://www.adobe.com/go/aem_cmp_library_de)** Eine Sammlung von Beispielen zum Anzeigen der Komponenten in ihren verschiedenen Konfigurationen.
 * **Komponentendokumentation (dieses Dokument):** Für Entwickler und Autoren mit Details zu den einzelnen Komponenten.
-* **[GitHub-Repository für Kernkomponenten:](https://github.com/adobe/aem-core-wcm-components)**Für Entwicklerdetails zu den einzelnen Komponenten und Projekt-Download.
+* **[GitHub-Repository für Kernkomponenten:](https://github.com/adobe/aem-core-wcm-components)** Für Entwicklerdetails zu den einzelnen Komponenten und Projekt-Download.
 * Erste Schritte:
-   * **[Erfolg mit den Kernkomponenten:](/help/developing/success.md)**Richtlinien, die rechtzeitig vor Beginn eines Projekts zu berücksichtigen sind, bei dem die Kernkomponenten verwendet werden.
-   * **[WKND-Tutorial:](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)**Ein zweitägiges Tutorial zum Erstellen einer neuen Website.
-   * **[Summit-Tutorial:](https://expleague.azureedge.net/labs/L767/index.html)**Ein zweistündiges Tutorial zum Erstellen einer neuen Website (von einem Lab beim US Summit 2019).
-   * **[Gems-Webinar:](https://helpx.adobe.com/de/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)**Eine Führung durch die Kernkomponenten (aufgenommen am Dezember 2018).
+   * **[Erfolg mit den Kernkomponenten:](/help/developing/success.md)** Richtlinien, die rechtzeitig vor Beginn eines Projekts zu berücksichtigen sind, bei dem die Kernkomponenten verwendet werden.
+   * **[WKND-Tutorial:](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** Ein zweitägiges Tutorial zum Erstellen einer neuen Website.
+   * **[Summit-Tutorial:](https://expleague.azureedge.net/labs/L767/index.html)** Ein zweistündiges Tutorial zum Erstellen einer neuen Website (von einem Lab beim US Summit 2019).
+   * **[Gems-Webinar:](https://helpx.adobe.com/de/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)** Eine Führung durch die Kernkomponenten (aufgenommen am Dezember 2018).
 
 ## Funktionen {#features}
 
@@ -105,7 +105,7 @@ Die aktuelle Version der Kernkomponenten enthält die folgenden Komponenten.
 ## Systemanforderungen {#system-requirements}
 
 | Kernkomponenten | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven |
----------|---------|---------|---------|---------|---------
+|---------|---------|---------|---------|---------|---------|
 | [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | Kontinuierlich | 6.5.5.0+ | 6.4.8.1+ | 8, 11 | 3.3.9+ |
 
 Die Anforderungen aus früheren Kernkomponenten-Versionen finden Sie unter [Kernkomponenten-Versionen](versions.md).
