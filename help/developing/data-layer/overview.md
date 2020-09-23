@@ -1,11 +1,11 @@
 ---
 title: Verwenden der Adobe Client-Datenschicht in Verbindung mit den Kernkomponenten
 description: Verwenden der Adobe Client-Datenschicht in Verbindung mit den Kernkomponenten
-translation-type: ht
-source-git-commit: 24a810ff634f8846881dfa0095e879476d0f16f0
-workflow-type: ht
-source-wordcount: '426'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 4a44a5f584efa736320556f6b4e2f4126d058a48
+workflow-type: tm+mt
+source-wordcount: '575'
+ht-degree: 76%
 
 ---
 
@@ -57,7 +57,7 @@ Das Komponenten-/Container-Element-Schema wird in den folgenden Komponenten verw
 
 Das Komponenten-/Container-Element-Schema wird wie folgt definiert:
 
-```
+```javascript
 id: {                   // component ID
     @type               // resource type
     repo:modifyDate     // last modified date
@@ -69,6 +69,9 @@ id: {                   // component ID
 }
 ```
 
+Das folgende [Ereignis](#events) ist für das Schema Komponente/Container-Element relevant:
+
+* `cmp:click`
 
 ### Seiten-Schema {#page}
 
@@ -78,7 +81,7 @@ Das Seiten-Schema wird von der folgenden Komponente verwendet:
 
 Das Seiten-Schema wird wie folgt definiert:
 
-```
+```javascript
 id: {
     @type
     repo:modifyDate
@@ -104,7 +107,7 @@ Das Container-Schema wird von den folgenden Komponenten verwendet:
 
 Das Container-Schema wird wie folgt definiert:
 
-```
+```javascript
 id: {
     @type
     repo:modifyDate
@@ -117,6 +120,12 @@ id: {
 }
 ```
 
+Die folgenden [Ereignis](#events) sind für das Container-Schema relevant:
+
+* `cmp:click`
+* `cmp:show`
+* `cmp:hide`
+
 ### Bild-Schema {#image}
 
 Das Bild-Schema wird von der folgenden Komponente verwendet:
@@ -125,7 +134,7 @@ Das Bild-Schema wird von der folgenden Komponente verwendet:
 
 Das Bild-Schema wird wie folgt definiert:
 
-```
+```javascript
 id: {
     @type
     repo:modifyDate
@@ -138,13 +147,17 @@ id: {
 }
 ```
 
+Das folgende [Ereignis](#events) ist für das Image-Schema relevant:
+
+* `cmp:click`
+
 ### Asset-Schema {#asset}
 
 Das Asset-Schema wird innerhalb der [Bild-Komponente](/help/components/image.md) verwendet:
 
 Das Asset-Schema wird wie folgt definiert:
 
-```
+```javascript
 id: {
     repo:id             // asset UUID
     repo:path           // asset path
@@ -154,3 +167,28 @@ id: {
 }
 ```
 
+Das folgende [Ereignis](#events) ist für das Asset-Schema relevant:
+
+* `cmp:click`
+
+## Ereignisse {#events}
+
+Die Datenschicht löst eine Reihe von Ereignissen aus.
+
+* **`cmp:click`** - Durch Klicken auf ein anklickbares Element (ein Element mit einem `data-cmp-clickable` Attribut) löst die Datenschicht ein `cmp:click` Ereignis aus.
+* **`cmp:show`** und **`cmp:hide`** - Durch Bearbeiten des Akkordeons (erweitern/reduzieren), des Karussells (nächste/vorherige Schaltflächen) und der Registerkarten (Registerkartenauswahl) wird die Datenschicht ausgelöst `cmp:show` bzw. ein `cmp:hide` Ereignis.
+* **`cmp:loaded`** - Sobald die Datenschicht mit den Hauptkomponenten auf der Seite gefüllt ist, löst die Datenschicht ein `cmp:loaded` Ereignis aus.
+
+### Von Komponente ausgelöste Ereignis {#events-components}
+
+In den folgenden Tabellen sind die Standard-Kernkomponenten Liste, die Ereignis zusammen mit diesen Ereignissen auslösen.
+
+| Komponente | Ereignis(e) |
+|---|---|
+| [Navigation](/help/components/navigation.md) | `cmp:click` |
+| [Sprachnavigation](/help/components/language-navigation.md) | `cmp:click` |
+| [Breadcrumb](/help/components/breadcrumb.md) | `cmp:click` |
+| [Schaltfläche](/help/components/button.md) | `cmp:click` |
+| [Karussell](/help/components/carousel.md) | `cmp:show` und `cmp:hide` |
+| [Registerkarten](/help/components/tabs.md) | `cmp:show` und `cmp:hide` |
+| [Accordion](/help/components/accordion.md) | `cmp:show` und `cmp:hide` |
