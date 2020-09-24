@@ -1,11 +1,11 @@
 ---
 title: AEM Projektarchetyp Front-End-Build
 description: Eine Projektvorlage für AEM-basierte Anwendungen
-translation-type: ht
-source-git-commit: 55b4dde320dcb38935b55b273d4df8d0cc2f16e6
-workflow-type: ht
-source-wordcount: '1613'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d8503d92c2d4948e54b2ad7d5407e4c7c98ebf83
+workflow-type: tm+mt
+source-wordcount: '1621'
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,7 @@ Wenn der gesamte AEM-Projektarchetyp mit `mvn clean install -PautoInstallPackage
 
 >[!TIP]
 >
->In der [AEM-Entwicklungsdokumentation](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) erfahren Sie mehr über ClientLibs und darüber, [wie sie vom ui.frontend-Modul verwendet werden](#clientlib-generation).
+>Erfahren Sie mehr darüber, wie AEM mit ClientLibs umgeht, in der [AEM Entwicklungsdokumentation](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html), wie sie [eingeschlossen](/help/developing/including-clientlibs.md)werden, oder sehen Sie unten, [wie das ui.frontend-Modul sie verwendet.](#clientlib-generation)
 
 ## Überblick über ClientLibs {#clientlibs}
 
