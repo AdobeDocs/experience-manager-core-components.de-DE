@@ -1,11 +1,11 @@
 ---
 title: AEM-Projektarchetyp
 description: Eine Projektvorlage für AEM-basierte Anwendungen
-translation-type: ht
-source-git-commit: 1e95666ee58c63fc5dc98821e6424be6acfe4e04
-workflow-type: ht
-source-wordcount: '989'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 8b8f0ad528c77cfb6080981438786275bd9fbef1
+workflow-type: tm+mt
+source-wordcount: '1001'
+ht-degree: 91%
 
 ---
 
@@ -25,7 +25,7 @@ Der AEM-Projektarchetyp ist eine Maven-Vorlage, anhand derer ein minimales, auf 
    * **[ui.frontend:](uifrontend.md)** Verwendung des Frontend-Build-Moduls
 * Die folgenden Tutorials basieren auf diesem Archetyp:
    * **[WKND-Site:](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** Erfahren Sie, wie eine neue Website beginnen.
-   * **[WKND Single Page App:](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)** Erfahren Sie, wie Sie eine Web-App für React oder Angular erstellen, die vollständig in AEM erstellt werden kann.
+   * **[WKND Single Page App:](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)** Erfahren Sie, wie Sie eine Web-App für React oder Angular erstellen, die vollständig in AEM erstellt werden kann.
 
 ## Funktionen {#features}
 
@@ -36,12 +36,12 @@ Der AEM-Projektarchetyp ist eine Maven-Vorlage, anhand derer ein minimales, auf 
 * **Mehrere Websites:** Bei Bedarf generiert der Archetyp die Inhaltsstruktur für eine [Konfigurationen mit mehreren Sprachen und Regionen](https://docs.adobe.com/content/help/de-DE/experience-manager-65/administering/introduction/msm.html).
 * **Kernkomponenten:** Autoren können mit unserem vielseitigen [Satz standardisierter Komponenten](/help/introduction.md) nahezu jedes Layout erstellen.
 * **Bearbeitbare Vorlagen:** Stellen Sie praktisch jede [Vorlage ohne Code](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html) zusammen und legen Sie fest, was die Autoren bearbeiten dürfen.
-* **Responsives Layout:** Definieren Sie auf Vorlagen oder einzelnen Seiten, [wie die Elemente die definierten Breakpoints umfließen](https://docs.adobe.com/content/help/de-DE/experience-manager-65/authoring/siteandpage/responsive-layout.html).
+* **Responsives Layout:** Definieren Sie auf Vorlagen oder einzelnen Seiten, [wie die Elemente die definierten Breakpoints umfließen](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/features/responsive-layout.translate.html).
 * **Kopf- und Fußzeile:** Stellen Sie sie mithilfe der [Lokalisierungsfunktionen der Komponenten](https://docs.adobe.com/content/help/de-DE/experience-manager-core-components/using/get-started/localization.html) ohne Code zusammen und lokalisieren Sie sie.
 * **Stilsystem:** Vermeiden Sie das Erstellen benutzerdefinierter Komponenten, indem Autoren [verschiedene Stile anwenden](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/style-system.html) können.
-* **Frontend-Build:** Frontend-Entwickler können mithilfe von Webpack, TypeScript und SASS [Modelle von AEM-Seiten](uifrontend.md#webpack-dev-server) und [Client-Bibliotheken erstellen](uifrontend.md).
-* **Web-App-fähig:** Verwenden Sie für Websites, die [React](uifrontend-react.md) oder [Angular](uifrontend-angular.md) verwenden, das [SPA-SDK](https://docs.adobe.com/content/help/de-DE/experience-manager-64/developing/headless/spas/spa-architecture.html), um die [kontextbezogene Inhaltserstellung der App](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html) beizubehalten.
-* **Beispiel-Code:** Sehen Sie sich die Komponente „HelloWorld“ und die Beispielmodelle, -Servelets, -filter und -planungen an.
+* **Front-End-Build:** Front-End-Entwickler können AEM Seiten [](uifrontend.md#webpack-dev-server) mocken und Client-Bibliotheken [mit Webpack, TypeScript und SASS](uifrontend.md) erstellen.
+* **Web-App-fähig:** Verwenden Sie für Websites, die [React](uifrontend-react.md) oder [Angular](uifrontend-angular.md) verwenden, das [SPA-SDK](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/developing.html), um die [kontextbezogene Inhaltserstellung der App](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html) beizubehalten.
+* **Beispielcode:** Sehen Sie sich die Komponente HelloWorld und die Mustermodelle, Servlets, Filter und Planungen an.
 * **Open Source:** Wenn etwas nicht so ist, wie es sein sollte, [bringenSie Ihre Verbesserungen ein](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md)!
 
 ## Nutzung
@@ -50,15 +50,12 @@ Passen Sie die folgende Befehlszeile an Ihre Anforderungen an, um ein Projekt zu
 
 ```
 mvn -B archetype:generate \
- -D archetypeGroupId=com.adobe.granite.archetypes \
+ -D archetypeGroupId=com.adobe.aem \
  -D archetypeArtifactId=aem-project-archetype \
- -D archetypeVersion=23 \
- -D aemVersion=cloud \
+ -D archetypeVersion=24 \
  -D appTitle="My Site" \
  -D appId="mysite" \
  -D groupId="com.mysite" \
- -D frontendModule=general \
- -D includeExamples=n
 ```
 
 * Legen Sie `aemVersion=cloud` für [AEM as a Cloud Service](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/landing/home.translate.html) fest.\
@@ -79,13 +76,14 @@ Die Abhängigkeit der Kernkomponenten wird nur für AEM-Versionen ohne Cloud Ser
 | `groupId` |  | Maven-Basisgruppen-ID (z. B. `"com.mysite"`). |
 | `package` | *`${groupId}`* | Java-Quellpaket (z. B. `"com.mysite"`). |
 | `version` | `1.0-SNAPSHOT` | Projektversion (z. B. `1.0-SNAPSHOT`). |
-| `aemVersion` | `6.5.0` | Ziel-AEM-Version (kann `cloud` für [AEM as a Cloud Service](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/landing/home.translate.html) sein; oder `6.5.0`, `6.4.4` oder `6.3.3` für [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) oder On-Premise). |
+| `aemVersion` | `cloud` | Target AEM version (can be `cloud` for [AEM as a Cloud Service](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/landing/home.translate.html); or `6.5.0`, or `6.4.4` for [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) or on-premise). |
 | `sdkVersion` | `latest` | Wenn `aemVersion=cloud`, dann kann eine [SDK](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html)-Version angegeben werden (z. B. `2020.02.2265.20200217T222518Z-200130`). |
 | `includeDispatcherConfig` | `y` | Enthält eine Dispatcher-Konfiguration für Cloud oder für AMS/On-Premise, je nach dem Wert von `aemVersion` (kann `y` oder `n` sein). |
-| `frontendModule` | `none` | Enthält ein WebPack-Frontend-Build-Modul, das die Client-Bibliotheken generiert (kann `general` oder `none` für reguläre Websites sein; kann `angular` oder `react` für eine Single Page App sein, die den [SPA-Editor](https://docs.adobe.com/content/help/de-DE/experience-manager-65/developing/headless/spas/spa-overview.html) implementiert). |
-| `languageCountry` | `en_us` | Sprach- und Länder-Code zur Erstellung der Inhaltsstruktur (z. B. `en_us`). |
+| `frontendModule` | `general` | Enthält ein WebPack-Frontend-Build-Modul, das die Client-Bibliotheken generiert (kann `general` oder `none` für reguläre Websites sein; kann `angular` oder `react` für eine Single Page App sein, die den [SPA-Editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html) implementiert). |
+| `language` | `en` | Sprachcode (ISO 639-1) zur Erstellung der Inhaltsstruktur aus (z.B. `en`, `deu`). |
+| `country` | `us` | Ländercode (ISO 3166-1) zur Erstellung der Inhaltsstruktur aus (z.B. `US`). |
 | `singleCountry` | `y` | Enthält eine Inhaltsstruktur für den Sprach-Master (kann `y`oder `n` sein). |
-| `includeExamples` | `y` | Enthält eine Beispiel-Website für die [Komponentenbibliothek](https://www.aemcomponents.dev/) (kann `y` oder `n` sein). |
+| `includeExamples` | `n` | Enthält eine Beispiel-Website für die [Komponentenbibliothek](https://www.aemcomponents.dev/) (kann `y` oder `n` sein). |
 | `includeErrorHandler` | `n` | Enthält eine benutzerdefinierte 404-Antwortseite, die für die gesamte Instanz global ist (kann `y` oder `n` sein). |
 | `includeCommerce` | `n` | Enthält [CIF-Kernkomponenten](https://github.com/adobe/aem-core-cif-components)-Abhängigkeiten und generiert entsprechende Artefakte. |
 | `commerceEndpoint` |  | Nur für CIF erforderlich. Optionaler Endpunkt des zu verwendenden GraphQL-Service (z. B. `https://hostname.com/grapql`). |
