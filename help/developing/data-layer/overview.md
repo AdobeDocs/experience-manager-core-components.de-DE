@@ -1,11 +1,11 @@
 ---
 title: Verwenden der Adobe Client-Datenschicht in Verbindung mit den Kernkomponenten
 description: Verwenden der Adobe Client-Datenschicht in Verbindung mit den Kernkomponenten
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4a44a5f584efa736320556f6b4e2f4126d058a48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '575'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Wie auch die Kernkomponenten ist der Code für die Adobe Client-Datenschicht auf
 
 Ab Version 2.9.0 der Kernkomponenten wird die Datenschicht zusammen mit den Kernkomponenten als clientlib bereitgestellt. Es ist keine Installation erforderlich.
 
-Die Datenschicht ist jedoch nicht standardmäßig aktiviert. Gehen Sie wie folgt vor, um die Datenschicht zu aktivieren:  Sie müssen dafür eine [kontextabhängige Konfiguration](/help/developing/context-aware-configs.md) erstellen:
+Die Datenschicht ist jedoch nicht standardmäßig aktiviert. Gehen Sie wie folgt vor, um die Datenschicht zu aktivieren:   Sie müssen dafür eine [kontextabhängige Konfiguration](/help/developing/context-aware-configs.md) erstellen:
 
 1. Erstellen Sie unterhalb des Knotens `/conf` die folgende Struktur:
    * `/conf/<mySite>/sling:configs/com.adobe.cq.wcm.core.components.internal.DataLayerConfig`
@@ -69,7 +69,7 @@ id: {                   // component ID
 }
 ```
 
-Das folgende [Ereignis](#events) ist für das Schema Komponente/Container-Element relevant:
+Das folgende [Ereignis](#events) ist für das Komponenten-/Container-Element-Schema relevant:
 
 * `cmp:click`
 
@@ -101,7 +101,7 @@ id: {
 
 Das Container-Schema wird von den folgenden Komponenten verwendet:
 
-* [Accordion](/help/components/accordion.md)
+* [Akkordeon](/help/components/accordion.md)
 * [Registerkarten](/help/components/tabs.md)
 * [Karussell](/help/components/carousel.md)
 
@@ -120,7 +120,7 @@ id: {
 }
 ```
 
-Die folgenden [Ereignis](#events) sind für das Container-Schema relevant:
+Die folgenden [Ereignisse](#events) sind für das Container-Schema relevant:
 
 * `cmp:click`
 * `cmp:show`
@@ -147,7 +147,7 @@ id: {
 }
 ```
 
-Das folgende [Ereignis](#events) ist für das Image-Schema relevant:
+Das folgende [Ereignis](#events) ist für das Bild-Schema relevant:
 
 * `cmp:click`
 
@@ -175,15 +175,15 @@ Das folgende [Ereignis](#events) ist für das Asset-Schema relevant:
 
 Die Datenschicht löst eine Reihe von Ereignissen aus.
 
-* **`cmp:click`** - Durch Klicken auf ein anklickbares Element (ein Element mit einem `data-cmp-clickable` Attribut) löst die Datenschicht ein `cmp:click` Ereignis aus.
-* **`cmp:show`** und **`cmp:hide`** - Durch Bearbeiten des Akkordeons (erweitern/reduzieren), des Karussells (nächste/vorherige Schaltflächen) und der Registerkarten (Registerkartenauswahl) wird die Datenschicht ausgelöst `cmp:show` bzw. ein `cmp:hide` Ereignis.
-* **`cmp:loaded`** - Sobald die Datenschicht mit den Hauptkomponenten auf der Seite gefüllt ist, löst die Datenschicht ein `cmp:loaded` Ereignis aus.
+* **`cmp:click`**: Beim Klicken auf ein klickbares Element (ein Element mit einem `data-cmp-clickable`-Attribut) löst die Datenschicht ein `cmp:click`-Ereignis aus.
+* **`cmp:show`** und **`cmp:hide`**: Beim Manipulieren des Akkordeons (Erweitern/Reduzieren), des Karussells (nächste/vorherige Schaltflächen) und der Registerkarten (Registerkartenauswahl) löst die Datenschicht ein `cmp:show`- bzw. ein `cmp:hide`-Ereignis aus.
+* **`cmp:loaded`**: Sobald die Datenschicht mit den Kernkomponenten auf der Seite gefüllt ist, löst die Datenschicht ein `cmp:loaded`-Ereignis aus.
 
-### Von Komponente ausgelöste Ereignis {#events-components}
+### Von der {#events-components}-Komponente ausgelöste Ereignisse
 
-In den folgenden Tabellen sind die Standard-Kernkomponenten Liste, die Ereignis zusammen mit diesen Ereignissen auslösen.
+In den folgenden Tabellen sind die standardmäßigen Kernkomponenten, die Ereignisse auslösen, zusammen mit diesen Ereignissen aufgeführt.
 
-| Komponente | Ereignis(e) |
+| Komponente | Ereignis(se) |
 |---|---|
 | [Navigation](/help/components/navigation.md) | `cmp:click` |
 | [Sprachnavigation](/help/components/language-navigation.md) | `cmp:click` |
@@ -191,4 +191,4 @@ In den folgenden Tabellen sind die Standard-Kernkomponenten Liste, die Ereignis 
 | [Schaltfläche](/help/components/button.md) | `cmp:click` |
 | [Karussell](/help/components/carousel.md) | `cmp:show` und `cmp:hide` |
 | [Registerkarten](/help/components/tabs.md) | `cmp:show` und `cmp:hide` |
-| [Accordion](/help/components/accordion.md) | `cmp:show` und `cmp:hide` |
+| [Akkordeon](/help/components/accordion.md) | `cmp:show` und `cmp:hide` |
