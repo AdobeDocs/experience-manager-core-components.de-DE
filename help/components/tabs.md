@@ -1,10 +1,10 @@
 ---
 title: Registerkarten-Komponente
 description: Die Registerkarten-Komponente ermöglicht die Erstellung mehrerer Registerkarten zum Anordnen von Inhalten auf einer Seite.
-translation-type: ht
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: ht
-source-wordcount: '1026'
+translation-type: tm+mt
+source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
+workflow-type: tm+mt
+source-wordcount: '1027'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,7 @@ Die Registerkarten- und [Accordion-Komponenten](accordion.md) unterstützen Deep
 
 Gehen Sie hierfür wie folgt vor:
 
-1. Zeigen Sie die Seite mit der Komponente über die Option **[Als veröffentlicht anzeigen](https://docs.adobe.com/content/help/de-DE/experience-manager-65/authoring/authoring/editing-content.translate.html#view-as-published)**im Seiteneditor an.
+1. Zeigen Sie die Seite mit der Komponente über die Option **[Als veröffentlicht anzeigen](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** im Seiteneditor an.
 1. Überprüfen Sie den Inhalt der Seite und halten Sie die ID des Bedienfeldes fest.
    * Beispiel `id="accordion-86196c94d3-item-ca319dbb0b"`
 1. Die ID wird der Anker, den Sie über einen Hash (`#`) an die URL anhängen können.
@@ -118,7 +118,7 @@ Nach Auswahl der Option **Bedienfeld auswählen** in der Komponenten-Symbolleist
 
 >[!NOTE]
 >
->Registerkarten können vom Autor im **Bearbeiten**-Modus nicht ausgewählt werden. Verwenden Sie den **[](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.translate.html#preview-mode)Vorschaumodus **oder die Option**[Als veröffentlicht anzeigen](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**, um so mit den Registerkarten zu interagieren, wie es ein Leser des veröffentlichten Inhalts tun würde.
+>Registerkarten können vom Autor im **Bearbeiten**-Modus nicht ausgewählt werden. Verwenden Sie den **[](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.translate.html#preview-mode)Vorschaumodus** oder die Option **[Als veröffentlicht anzeigen](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**, um so mit den Registerkarten zu interagieren, wie es ein Leser des veröffentlichten Inhalts tun würde.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
