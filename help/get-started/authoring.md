@@ -1,10 +1,10 @@
 ---
 title: Authoring mit Kernkomponenten
 description: In AEM sind Komponenten die Strukturelemente, die den Inhalt der zu erstellenden Seiten ausmachen. Kernkomponenten bieten flexible und funktionsreiche Authoring-Funktionalität.
-translation-type: ht
-source-git-commit: 4281f6421482682f603f6a7f5e18df61f9a6d98c
-workflow-type: ht
-source-wordcount: '778'
+translation-type: tm+mt
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+workflow-type: tm+mt
+source-wordcount: '764'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ Um eine tiefergehende und entwicklerorientierte Einführung in die Implementieru
 
 >[!CAUTION]
 >
->Kernkomponenten [erfordern AEM 6.3 oder höher](/help/versions.md) und setzen [bearbeitbare Vorlagen](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/features/templates.translate.html) voraus. Sie funktionieren weder mit der klassischen Benutzeroberfläche noch mit statischen Vorlagen.
+>Kernkomponenten [erfordern AEM 6.4 oder höher](/help/versions.md) und setzen [bearbeitbare Vorlagen](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/features/templates.translate.html) voraus. Sie funktionieren weder mit der klassischen Benutzeroberfläche noch mit statischen Vorlagen.
 
 ## Authoring mit Kernkomponenten {#authoring-with-core-components}
 
@@ -79,10 +79,6 @@ Die Stile der meisten Kernkomponenten können mithilfe des AEM-Stilsystems defin
 * Der Inhaltsautor kann dann festlegen, welche Stile angewendet werden sollen, wenn er die Komponente hinzufügt und Inhalte erstellt.
 
 Weitere Informationen finden Sie in der Dokumentation zum [Stilsystem](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/features/style-system.translate.html).
-
->[!NOTE]
->
->In AEM 6.3 ist Service Pack 2 (6.3.2.0) oder neuer erforderlich, um die Stilsystemfunktion zu aktivieren.
 
 ## Entwicklungsressourcen {#developer-resources}
 
