@@ -1,8 +1,11 @@
 ---
 title: Komponentenrichtlinien
 description: Die Kernkomponenten folgen modernen Implementierungsmustern, die sich stark von den Foundation-Komponenten unterscheiden.
-translation-type: ht
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+translation-type: tm+mt
+source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
+workflow-type: tm+mt
+source-wordcount: '1259'
+ht-degree: 99%
 
 ---
 
@@ -82,7 +85,7 @@ Im Folgenden finden Sie eine Übersicht über die gesamte Ressourcentyp-Bindungs
 
 ![Überblick über die Ressourcenbindung](/help/assets/chlimage_1-32.png)
 
-Im Folgenden finden Sie eine weitere Übersicht, in der keine Details zur Implementierung von POJO angezeigt werden, jedoch die Referenzierung der zugehörigen [Vorlagen und Richtlinien](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html).
+Im Folgenden finden Sie eine weitere Übersicht, in der keine Details zur Implementierung von POJO angezeigt werden, jedoch die Referenzierung der zugehörigen [Vorlagen und Richtlinien](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/templates.html).
 
 Die `cq:allowedTemplates`-Eigenschaft gibt an, welche Vorlagen für eine Site verwendet werden können, und die `cq:template` informiert für jede Seite, was die zugehörige Vorlage ist. Jede Vorlage besteht aus den folgenden drei Teilen:
 
