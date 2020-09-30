@@ -1,11 +1,11 @@
 ---
 title: Verwenden der Adobe Client-Datenschicht in Verbindung mit den Kernkomponenten
 description: Verwenden der Adobe Client-Datenschicht in Verbindung mit den Kernkomponenten
-translation-type: ht
-source-git-commit: 4a44a5f584efa736320556f6b4e2f4126d058a48
-workflow-type: ht
-source-wordcount: '575'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 7b0edac1b5ffd068443cc4805a0fa97d243b6e9e
+workflow-type: tm+mt
+source-wordcount: '868'
+ht-degree: 53%
 
 ---
 
@@ -26,17 +26,42 @@ Wie auch die Kernkomponenten ist der Code für die Adobe Client-Datenschicht auf
 
 ## Installation und Aktivierung {#installation-activation}
 
-Ab Version 2.9.0 der Kernkomponenten wird die Datenschicht zusammen mit den Kernkomponenten als clientlib bereitgestellt. Es ist keine Installation erforderlich.
+Ab Version 2.9.0 der Core-Komponenten wird die Datenschicht mit den Core-Komponenten als AEM Client-Bibliothek verteilt und es ist keine Installation erforderlich. Alle vom [AEM Projektarchiv v v. 24+](/help/developing/archetype/overview.md) generierten Projekte enthalten standardmäßig eine aktivierte Datenschicht.
 
-Die Datenschicht ist jedoch nicht standardmäßig aktiviert. Gehen Sie wie folgt vor, um die Datenschicht zu aktivieren:   Sie müssen dafür eine [kontextabhängige Konfiguration](/help/developing/context-aware-configs.md) erstellen:
+Um die Datenschicht manuell zu aktivieren, müssen Sie eine [kontextabhängige Konfiguration](/help/developing/context-aware-configs.md) erstellen:
 
-1. Erstellen Sie unterhalb des Knotens `/conf` die folgende Struktur:
+1. Erstellen Sie die folgende Struktur unter dem `/conf/<mySite>` Ordner, in dem der Name des Projekts Ihrer Site `<mySite>` steht:
    * `/conf/<mySite>/sling:configs/com.adobe.cq.wcm.core.components.internal.DataLayerConfig`
-   * Knotentyp: `nt:unstructured`
+   * Jeder Knoten hat eine `jcr:primaryType` Einstellung auf `nt:unstructured`.
 1. Fügen Sie eine boolesche Eigenschaft mit dem Namen `enabled` hinzu und legen Sie sie auf `true` fest.
-1. Fügen Sie eine `sling:configRef`-Eigenschaft zum Knoten `jcr:content` Ihrer Site hinzu, dies unterhalb von `/content` (z. B. `/content/<mySite>/jcr:content`), und legen Sie für sie `/conf/<mySite>` fest.
 
-Sie können verifizieren, ob die Aktivierung erfolgreich war, indem Sie eine Seite der Site außerhalb des Editors laden. Durch Überprüfen der Seite können Sie feststellen, dass die Adobe Client-Datenschicht geladen wurde.
+   ![Position von DataLayerConfig in der WKND-Referenz-Website](../../assets/datalayer-contextaware-sling-config.png)
+
+   *Position von DataLayerConfig in der WKND-Referenz-Website*
+
+1. Add a `sling:configRef` property to the `jcr:content` node of your site below `/content` (e.g. `/content/<mySite>/jcr:content`) and set it to `/conf/<mySite>` from the previous step.
+
+1. Sie können verifizieren, ob die Aktivierung erfolgreich war, indem Sie eine Seite der Site außerhalb des Editors laden. Inspect, die Seitenquelle und das `<body>` Tag sollten ein Attribut enthalten `data-cmp-data-layer-enabled`
+
+   ```html
+   <body class="page basicpage" id="page-id" data-cmp-data-layer-enabled>
+       <script>
+         window.adobeDataLayer = window.adobeDataLayer || [];
+         adobeDataLayer.push({
+             page: JSON.parse("{\x22page\u002D6c5d4b9fdd\x22:{\x22xdm:language\x22:\x22en\x22,\x22repo:path\x22:\x22\/content\/wknd\/language\u002Dmasters\/en.html\x22,\x22xdm:tags\x22:[],\x22xdm:template\x22:\x22\/conf\/wknd\/settings\/wcm\/templates\/landing\u002Dpage\u002Dtemplate\x22,\x22@type\x22:\x22wknd\/components\/page\x22,\x22dc:description\x22:\x22WKND is a collective of outdoors, music, crafts, adventure sports, and travel enthusiasts that want to share our experiences, connections, and expertise with the world.\x22,\x22dc:title\x22:\x22WKND Adventures and Travel\x22,\x22repo:modifyDate\x22:\x222020\u002D09\u002D29T07:50:13Z\x22}}"),
+             event:'cmp:show',
+             eventInfo: {
+                 path: 'page.page\u002D6c5d4b9fdd'
+             }
+         });
+       </script>
+   ```
+
+1. Sie können auch die Entwicklerwerkzeuge Ihres Browsers öffnen, und in der Konsole sollte das `adobeDataLayer` JavaScript-Objekt verfügbar sein. Geben Sie den folgenden Befehl ein, um den Status der Datenschicht auf Ihrer aktuellen Seite abzurufen:
+
+   ```js
+   window.adobeDataLayer.getState();
+   ```
 
 ## Datenschemas der Hauptkomponenten {#data-schemas}
 
@@ -96,6 +121,8 @@ id: {
     xdm:language        // page language
 }
 ```
+
+Beim Laden der Seite wird ein `cmp:show` Ereignis ausgelöst. Dieses Ereignis wird von Inline-JavaScript direkt unterhalb des öffnenden `<body>` -Tags ausgelöst und ist damit das früheste Ereignis in der Ereignisschlange &quot;Datenschicht&quot;.
 
 ### Container-Schema {#container}
 
@@ -171,24 +198,61 @@ Das folgende [Ereignis](#events) ist für das Asset-Schema relevant:
 
 * `cmp:click`
 
-## Ereignisse {#events}
+## Ereignis der Hauptkomponenten {#events}
 
-Die Datenschicht löst eine Reihe von Ereignissen aus.
+Es gibt eine Reihe von Ereignissen, die Kernkomponenten über die Datenschicht auslösen. Die beste Methode für die Interaktion mit der Datenschicht besteht darin, einen Ereignis-Listener [zu](https://github.com/adobe/adobe-client-data-layer/wiki#addeventlistener) registrieren und *dann* eine Aktion auf Grundlage des Ereignistyps und/oder der Komponente zu ergreifen, die das Ereignis ausgelöst hat. Dadurch werden potenzielle Racebedingungen mit asynchronen Skripten vermieden.
+
+Im Folgenden finden Sie die vordefinierten Ereignis von AEM Kernkomponenten:
 
 * **`cmp:click`**: Beim Klicken auf ein klickbares Element (ein Element mit einem `data-cmp-clickable`-Attribut) löst die Datenschicht ein `cmp:click`-Ereignis aus.
-* **`cmp:show`** und **`cmp:hide`**: Beim Manipulieren des Akkordeons (Erweitern/Reduzieren), des Karussells (nächste/vorherige Schaltflächen) und der Registerkarten (Registerkartenauswahl) löst die Datenschicht ein `cmp:show`- bzw. ein `cmp:hide`-Ereignis aus.
-* **`cmp:loaded`**: Sobald die Datenschicht mit den Kernkomponenten auf der Seite gefüllt ist, löst die Datenschicht ein `cmp:loaded`-Ereignis aus.
+* **`cmp:show`** und **`cmp:hide`**: Beim Manipulieren des Akkordeons (Erweitern/Reduzieren), des Karussells (nächste/vorherige Schaltflächen) und der Registerkarten (Registerkartenauswahl) löst die Datenschicht ein `cmp:show`- bzw. ein `cmp:hide`-Ereignis aus. Ein `cmp:show` Ereignis wird auch beim Laden der Seite ausgelöst und wird als erstes Ereignis erwartet.
+* **`cmp:loaded`** - Sobald die Datenschicht mit den Hauptkomponenten auf der Seite gefüllt ist, löst die Datenschicht ein `cmp:loaded` Ereignis aus.
 
-### Von der -Komponente ausgelöste Ereignisse{#events-components}
+### Von der {#events-components}-Komponente ausgelöste Ereignisse
 
 In den folgenden Tabellen sind die standardmäßigen Kernkomponenten, die Ereignisse auslösen, zusammen mit diesen Ereignissen aufgeführt.
 
 | Komponente | Ereignis(se) |
 |---|---|
-| [Navigation](/help/components/navigation.md) | `cmp:click` |
-| [Sprachnavigation](/help/components/language-navigation.md) | `cmp:click` |
-| [Breadcrumb](/help/components/breadcrumb.md) | `cmp:click` |
-| [Schaltfläche](/help/components/button.md) | `cmp:click` |
-| [Karussell](/help/components/carousel.md) | `cmp:show` und `cmp:hide` |
-| [Registerkarten](/help/components/tabs.md) | `cmp:show` und `cmp:hide` |
 | [Akkordeon](/help/components/accordion.md) | `cmp:show` und `cmp:hide` |
+| [Schaltfläche](/help/components/button.md) | `cmp:click` |
+| [Breadcrumb](/help/components/breadcrumb.md) | `cmp:click` |
+| [Karussell](/help/components/carousel.md) | `cmp:show` und `cmp:hide` |
+| [Sprachnavigation](/help/components/language-navigation.md) | `cmp:click` |
+| [Navigation](/help/components/navigation.md) | `cmp:click` |
+| [Seite](/help/components/page.md) | `cmp:show` |
+| [Registerkarten](/help/components/tabs.md) | `cmp:show` und `cmp:hide` |
+| [Teaser](/help/components/teaser.md) | `cmp:click` |
+
+### Ereignis-Pfadinformationen {#event-path-info}
+
+Jedes Data Layer-Ereignis, das von einer AEM Core-Komponente ausgelöst wird, enthält eine Nutzlast mit dem folgenden JSON-Objekt:
+
+```json
+eventInfo: {
+    path: '<component-path>'
+}
+```
+
+Hierbei `<component-path>` handelt es sich um den JSON-Pfad zur Komponente in der Datenschicht, die das Ereignis ausgelöst hat.  Der Wert, der über `event.eventInfo.path`verfügbar ist, ist wichtig, da er als Parameter verwendet werden kann, `adobeDataLayer.getState(<component-path>)` der den aktuellen Status der Komponente abruft, die das Ereignis ausgelöst hat, sodass benutzerdefinierter Code auf zusätzliche Daten zugreifen und sie der Datenschicht hinzufügen kann.
+
+Beispiel:
+
+```js
+function logEventObject(event) {
+    if(event.hasOwnProperty("eventInfo") && event.eventInfo.hasOwnProperty("path")) {
+        var dataObject = window.adobeDataLayer.getState(event.eventInfo.path);
+        console.debug("The component that triggered this event: ");
+        console.log(dataObject);
+    }
+}
+
+window.adobeDataLayer = window.adobeDataLayer || [];
+window.adobeDataLayer.push(function (dl) {
+     dl.addEventListener("cmp:show", logEventObject);
+});
+```
+
+## Tutorial
+
+Möchten Sie die Datenschicht und die Kernkomponenten genauer untersuchen? [Sehen Sie sich dieses praktische Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html)an.
