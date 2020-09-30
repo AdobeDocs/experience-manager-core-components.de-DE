@@ -1,11 +1,11 @@
 ---
 title: Formularschaltflächen-Komponente
 description: Die Kernkomponente „Komponente für ausgeblendetes Formular“ ermöglicht die Einbeziehung eines ausgeblendeten Felds in ein Formular.
-translation-type: ht
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: ht
-source-wordcount: '414'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,10 +26,10 @@ Die aktuelle Version der Formularschaltflächenkomponente ist v2, die mit Versio
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
-| Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |--- |---|
-| v2 | - | Kompatibel | Kompatibel | Kompatibel |
-| [v1](/help/components/v1/form-button-v1.md) | Kompatibel | Kompatibel | Kompatibel | - |
+| Komponentenversion | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |--- |---|
+| v2 | Kompatibel | Kompatibel | Kompatibel |
+| [v1](/help/components/v1/form-button-v1.md) | Kompatibel | Kompatibel | - |
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
 
