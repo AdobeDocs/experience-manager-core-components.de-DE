@@ -2,8 +2,11 @@
 title: Bildkomponente (v1)
 description: Die Kernkomponente „Bildkomponente“ ist eine anpassungsfähige Bildkomponente mit Funktionen zur Bearbeitung im Kontext.
 index: n
-translation-type: ht
-source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
+translation-type: tm+mt
+source-git-commit: 78202dc777b90f795f66873921c55e21ef8a239c
+workflow-type: tm+mt
+source-wordcount: '1229'
+ht-degree: 98%
 
 ---
 
@@ -107,6 +110,7 @@ Das Dialogfeld „Bearbeiten“ ermöglicht dem Inhaltsautor das Zuschneiden, Ä
 
    * Wählen Sie die Option **Freihand**, um Ihre eigene Zuschnittsart zu definieren.
    * Wählen Sie **Zuschnitt entfernen**, um das ursprüngliche Asset anzuzeigen.
+
    Nachdem Sie eine Zuschnittoption ausgewählt haben, verwenden Sie die blauen Griffe, um die Beschneidung auf dem Bild anzupassen.
 
    ![](/help/assets/chlimage_1-10.png)
@@ -128,6 +132,7 @@ Das Dialogfeld „Bearbeiten“ ermöglicht dem Inhaltsautor das Zuschneiden, Ä
    * **Polygon-Karte hinzufügen**
 
       * Standardmäßig wird eine Dreieckskarte hinzugefügt. Doppelklicken Sie auf eine Linie der Form, um zu einer neuen Seite einen neuen blauen Griff zur Größenanpassung hinzuzufügen.
+
    Nachdem eine Karten-Form ausgewählt wurde, wird sie mit dem Bild überlagert, sodass die Größe geändert werden kenn. Ziehen Sie die blauen Größenänderungsgriffe per Drag-and-Drop, um die Form anzupassen.
 
    ![](/help/assets/chlimage_1-13.png)
@@ -145,6 +150,7 @@ Alternative Beschreibung des Pfadziels
          * **Neue Registerkarte**
          * **Übergeordneter Frame**
          * **Top-Frame**
+
    Tippen oder klicken Sie auf das blaue Häkchen zum Speichern, auf das schwarze X zum Abbrechen oder auf den roten Papierkorb, um die Karte zu löschen.
 
    ![](/help/assets/chlimage_1-14.png)
@@ -203,19 +209,11 @@ Auf der Registerkarte **Funktionen** können Sie festlegen, welche Optionen den 
    ![](/help/assets/chlimage_1-20.png)
 
    * **Drehen** - Verwenden Sie diese Option, damit der Inhaltsautor die Option **Nach Rechts drehen** verwenden kann.
-   * **Spiegeln**
-Verwenden Sie diese Option, damit der Inhaltsautor die Option **Horizontal spiegeln** und **Vertikal spiegeln** verwenden kann.
+   * **Flip** Verwenden Sie diese Option, damit der Autor des Inhalts die 
+**Optionen &quot;Horizontal** spiegeln&quot;und &quot; **Vertikal** spiegeln&quot;
    >[!CAUTION]
    >
    >Die Option **Spiegeln** ist standardmäßig deaktiviert. Durch Aktivieren werden im Dialogfeld „Bearbeiten“ der Bildkomponente die Felder **Vertikal spiegeln** und **Horizontal spiegeln** angezeigt. Die Funktion wird jedoch derzeit nicht von AEM unterstützt, und die Änderungen, die mit diesen Optionen vorgenommen werden, bleiben nicht erhalten.
-
-<!-- 
-Comment Type: remark
-Last Modified By: Chris Bohnert (bohnert)
-Last Modified Date: 2017-11-20T05:51:34.378-0500
-
-<p>Added caution based on CQDOC-11457. Hid the flip options in the procedure using the <strong>Draft</strong> option so that when this feature is implemented in CQ-4221539, the <strong>Draft</strong> property can simply be removed along with the caution.</p>
--->
 
 * Beschneiden
 
@@ -227,6 +225,7 @@ Last Modified Date: 2017-11-20T05:51:34.378-0500
    * Geben Sie das numerische Seitenverhältnis des Bildes ein.
    * Verwenden Sie die Ziehpunkte, um die Reihenfolge der Seitenverhältnisse neu anzuordnen.
    * Verwenden Sie das Papierkorbsymbol, um ein Seitenverhältnis zu löschen.
+
    >[!CAUTION]
    >
    >Beachten Sie, dass die Beschneidungsverhältnisse als **Höhe/Breite** definiert sind. Dies unterscheidet sich von der herkömmlichen Definition als Breite/Höhe und erfolgt aus Gründen der Legacy-Kompatibilität. Den Inhaltsautoren wird kein Unterschied bewusst werden, solange Sie einen klaren Namen für das Verhältnis angeben, da nur der Name in der Benutzeroberfläche angezeigt wird und nicht das Verhältnis selbst.
