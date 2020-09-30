@@ -1,11 +1,11 @@
 ---
 title: Breadcrumb-Komponente
 description: Die Kernkomponente „Breadcrumb-Komponente“ ist eine Navigationskomponente, die einen Breadcrumb von Links basierend auf der Position der Seite in der Inhaltshierarchie erstellt.
-translation-type: ht
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: ht
-source-wordcount: '713'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ff943aeca0333b13e2b9aaf11f316457f001d507
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,10 +26,10 @@ Die aktuelle Version der Breadcrumb-Komponente ist v2, die mit Version 2.0.0 der
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
-| Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |--- |---|
-| v2 | - | Kompatibel | Kompatibel | Kompatibel |
-| [v1](v1/breadcrumb-v1.md) | Kompatibel | Kompatibel | Kompatibel | - |
+| Komponentenversion | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- | --- |--- |---|
+| v2 | Kompatibel | Kompatibel | Kompatibel |
+| [v1](v1/breadcrumb-v1.md) | Kompatibel | Kompatibel | - |
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
 
@@ -53,7 +53,7 @@ Das Dialogfeld „Bearbeiten“ ermöglicht es dem Inhaltsautor, ausgeblendete u
 
 ![Dialogfeld „Bearbeiten“ der Breadcrumb-Komponente](/help/assets/breadcrumb-edit.png)
 
-* **Startebene für die Navigation** – Wo in der Hierarchie die Breadcrumb-Komponente beginnen soll, um zur aktuellen Seite zu gelangen. Beispiel in We.Retail:
+* **Startebene für die Navigation** – Wo in der Hierarchie die Breadcrumb-Komponente beginnen soll, um zur aktuellen Seite zu gelangen. Beispiel:
 
    * 0 beginnt bei `/content`
    * 1 beginnt bei `/content/<yourSite>`
