@@ -2,10 +2,10 @@
 title: AMP-Unterstützung für die Kernkomponenten
 description: Die Kernkomponenten unterstützen AMP (Accelerated Mobile Pages)
 translation-type: tm+mt
-source-git-commit: d8503d92c2d4948e54b2ad7d5407e4c7c98ebf83
+source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -41,7 +41,7 @@ Obwohl AMP-Unterstützung umfangreiche Flexibilität bietet, müssen Sie für de
 
 ### Aktivieren von AMP für Seiten {#enabling-amp}
 
-Um AMP für eine Seite zu aktivieren, müssen Sie den **AMP-Modus** in der [Seitenrichtlinie](https://docs.adobe.com/content/help/de-DE/experience-manager-65/authoring/siteandpage/templates.html#editingatemplatepagepolicies) auswählen.
+Um AMP für eine Seite zu aktivieren, müssen Sie den **AMP-Modus** in der [Seitenrichtlinie](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-page-policy-template-author-developer) auswählen.
 
 ![Optionen für AMP-Seitenrichtlinien](/help/assets/amp-policy.png)
 
@@ -49,7 +49,7 @@ Um AMP für eine Seite zu aktivieren, müssen Sie den **AMP-Modus** in der [Seit
 * **Gepaartes AMP**: Die Seite wird sowohl als AMP als auch als HTML bereitgestellt.
 * **Nur AMP**: Die Seite wird nur als AMP bereitgestellt.
 
-Die AMP-Einstellungen für eine Seite können auch in den [Seiteneigenschaften](https://docs.adobe.com/content/help/de-DE/experience-manager-65/authoring/authoring/editing-page-properties.html) einer einzelnen Seite überschrieben werden.
+Die AMP-Einstellungen für eine Seite können auch in den [Seiteneigenschaften](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.translate.html) einer einzelnen Seite überschrieben werden.
 
 ![Eigenschaften der AMP-Seite](/help/assets/amp-page-properties.png)
 
