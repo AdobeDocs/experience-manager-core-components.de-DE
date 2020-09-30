@@ -1,11 +1,11 @@
 ---
 title: Accordion-Komponente
 description: Die Kernkomponente „Accordion“ ermöglicht die Erstellung einer Sammlung von Bedienfeldern, die auf der Seite in einem Accordion angeordnet sind.
-translation-type: ht
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: ht
-source-wordcount: '1051'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ Die Accordion- und [Registerkarten-Komponenten](tabs.md) unterstützen Direkt-Li
 
 Gehen Sie hierfür wie folgt vor:
 
-1. Zeigen Sie die Seite mit der Komponente über die Option **[Als veröffentlicht anzeigen](https://docs.adobe.com/content/help/de-DE/experience-manager-65/authoring/authoring/editing-content.translate.html#view-as-published)**im Seiteneditor an.
+1. Zeigen Sie die Seite mit der Komponente über die Option **[Als veröffentlicht anzeigen](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** im Seiteneditor an.
 1. Überprüfen Sie den Inhalt der Seite und halten Sie die ID des Bedienfeldes fest.
    * Beispiel `id="accordion-86196c94d3-item-ca319dbb0b"`
 1. Die ID wird der Anker, den Sie über einen Hash (`#`) an die URL anhängen können.
@@ -120,7 +120,7 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Optionen zu de
 
 Über die Registerkarte **Zugelassene Komponenten** können Sie definieren, welche Komponenten der Accordion-Komponente vom Inhaltsautor als Elemente in Bedienfeldern hinzugefügt werden können.
 
-Die Registerkarte „Zugelassene Komponenten“ funktioniert auf die gleiche Weise wie die Registerkarte desselben Namens beim [Definieren der Richtlinie und Eigenschaften eines Layoutcontainers im Vorlageneditor.](https://docs.adobe.com/content/help/de/experience-manager-65/authoring/siteandpage/templates.html)
+Die Registerkarte „Zugelassene Komponenten“ funktioniert auf die gleiche Weise wie die Registerkarte desselben Namens beim [Definieren der Richtlinie und Eigenschaften eines Layoutcontainers im Vorlageneditor.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-layout-template-author)
 
 ### Registerkarte „Stile“ {#styles-tab}
 
