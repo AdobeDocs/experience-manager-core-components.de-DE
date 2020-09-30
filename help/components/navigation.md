@@ -1,11 +1,11 @@
 ---
 title: Navigationskomponente
 description: Mit der Navigationskomponente können Benutzer leicht durch eine globalisierte Site-Struktur navigieren.
-translation-type: ht
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ff943aeca0333b13e2b9aaf11f316457f001d507
+workflow-type: tm+mt
 source-wordcount: '1369'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -61,7 +61,7 @@ Nehmen wir an, dass Ihr Inhalt wie folgt aussieht:
 \-- wknd-shop
 ```
 
-Für die Site „We.Retail“ möchten Sie wahrscheinlich die Navigationskomponente auf einer Seitenvorlage als Teil der Kopfzeile platzieren. Sobald die Komponente ein Teil der Vorlage ist, können Sie den **Navigationsstamm** der Komponente auf `/content/wknd/language-masters/en` festlegen, da dort Ihr Master-Inhalt für diese Site beginnt. Eventuell möchten Sie auch die **Tiefe der Navigationsstruktur** auf `2` festlegen, da Sie wahrscheinlich nicht möchten, dass die gesamte Inhaltsstruktur durch die Komponente angezeigt wird, sondern die ersten beiden Ebenen, sodass dies als Übersicht dient.
+Für die Site-WKND sollten Sie die Navigationskomponente wahrscheinlich in eine Seitenvorlage als Teil der Kopfzeile einfügen. Sobald die Komponente ein Teil der Vorlage ist, können Sie den **Navigationsstamm** der Komponente auf `/content/wknd/language-masters/en` festlegen, da dort Ihr Master-Inhalt für diese Site beginnt. Eventuell möchten Sie auch die **Tiefe der Navigationsstruktur** auf `2` festlegen, da Sie wahrscheinlich nicht möchten, dass die gesamte Inhaltsstruktur durch die Komponente angezeigt wird, sondern die ersten beiden Ebenen, sodass dies als Übersicht dient.
 
 Anhand des Wertes des **Navigationsstamms** weiß die Navigationskomponente, dass nach `/content/wknd/language-masters/en` die Navigation beginnt, und sie kann somit Navigationsoptionen generieren, indem sie die Struktur der Site auf zwei Ebenen nach unten (wie durch den Wert der **Navigationsstrukturtiefe** vorgegeben) rekursiv darstellt.
 
