@@ -2,7 +2,7 @@
 title: Verwenden der Adobe Client-Datenschicht in Verbindung mit den Kernkomponenten
 description: Verwenden der Adobe Client-Datenschicht in Verbindung mit den Kernkomponenten
 translation-type: tm+mt
-source-git-commit: 7b0edac1b5ffd068443cc4805a0fa97d243b6e9e
+source-git-commit: 79a063951a790261e2f00c33d8a76f31f781da0c
 workflow-type: tm+mt
 source-wordcount: '868'
 ht-degree: 53%
@@ -35,7 +35,7 @@ Um die Datenschicht manuell zu aktivieren, müssen Sie eine [kontextabhängige K
    * Jeder Knoten hat eine `jcr:primaryType` Einstellung auf `nt:unstructured`.
 1. Fügen Sie eine boolesche Eigenschaft mit dem Namen `enabled` hinzu und legen Sie sie auf `true` fest.
 
-   ![Position von DataLayerConfig in der WKND-Referenz-Website](../../assets/datalayer-contextaware-sling-config.png)
+   ![Position von DataLayerConfig in der WKND-Referenz-Website](/help/assets/datalayer-contextaware-sling-config.png)
 
    *Position von DataLayerConfig in der WKND-Referenz-Website*
 
@@ -59,7 +59,7 @@ Um die Datenschicht manuell zu aktivieren, müssen Sie eine [kontextabhängige K
 
 1. Sie können auch die Entwicklerwerkzeuge Ihres Browsers öffnen, und in der Konsole sollte das `adobeDataLayer` JavaScript-Objekt verfügbar sein. Geben Sie den folgenden Befehl ein, um den Status der Datenschicht auf Ihrer aktuellen Seite abzurufen:
 
-   ```js
+   ```javascript
    window.adobeDataLayer.getState();
    ```
 
@@ -238,7 +238,7 @@ Hierbei `<component-path>` handelt es sich um den JSON-Pfad zur Komponente in de
 
 Beispiel:
 
-```js
+```javascript
 function logEventObject(event) {
     if(event.hasOwnProperty("eventInfo") && event.eventInfo.hasOwnProperty("path")) {
         var dataObject = window.adobeDataLayer.getState(event.eventInfo.path);
