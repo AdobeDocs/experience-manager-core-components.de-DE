@@ -1,11 +1,11 @@
 ---
 title: Bildkomponente
 description: Die Kernkomponente „Bildkomponente“ ist eine anpassungsfähige Bildkomponente mit Funktionen zur Bearbeitung im Kontext.
-translation-type: ht
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: ht
-source-wordcount: '1934'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+workflow-type: tm+mt
+source-wordcount: '1921'
+ht-degree: 95%
 
 ---
 
@@ -32,10 +32,10 @@ Die aktuelle Version der Bildkomponente ist v2, die mit Version 2.0.0 der Kernko
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
-| Komponentenversion | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |--- |---|
-| v2 | - | Kompatibel | Kompatibel | Kompatibel |
-| [v1](v1/image-v1.md) | Kompatibel | Kompatibel | Kompatibel | - |
+| Komponentenversion | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |--- |---|
+| v2 | Kompatibel | Kompatibel | Kompatibel |
+| [v1](v1/image-v1.md) | Kompatibel | Kompatibel | - |
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
 
@@ -53,7 +53,7 @@ Aus Sicherheitsgründen wird die ursprüngliche SVG niemals direkt vom Bild-Edit
 
 >[!CAUTION]
 >
->Für die SVG-Unterstützung sind die Kernkomponenten in Version 2.1.0 oder höher zusammen mit AEM 6.4 [Service Pack 2](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) bzw. AEM 6.3 [Service Pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) oder höher erforderlich, damit [neue Bildbearbeitungsfunktionen](https://docs.adobe.com/content/help/en/experience-manager-64/developing/components/image-editor.html) in AEM unterstützt werden.
+>SVG support requires release 2.1.0 of the Core Components or higher along with [service pack 2](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) for AEM 6.4 or higher to support the [image editor features](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/image-editor.html) within AEM.
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
@@ -94,8 +94,8 @@ Textalternative der Bedeutung oder Funktion des Bilds für visuell beeinträchti
 
 * **Beschriftung**
 Zusätzliche Informationen über das Bild, die standardmäßig unter dem Bild angezeigt werden.
-   * **Beschriftung von DAM abrufen**
-Wenn die Option aktiviert ist, wird der Beschriftungstext des Bildes mit dem Wert der `dc:title` Metadaten in DAM gefüllt.
+   * **Bildunterschrift von DAM** abrufen Wenn aktiviert, wird der Bilduntertiteltext mit dem Wert des 
+`dc:title` Metadaten in DAM.
    * **Beschriftung als Pop-up anzeigen**
 Wenn die Option aktiviert ist, wird die Beschriftung nicht unter dem Bild angezeigt, sondern von einigen Browsern als Pop-up, sobald der Mauszeiger über das Bild bewegt wird.
 
@@ -123,6 +123,7 @@ Das Dialogfeld „Bearbeiten“ ermöglicht dem Inhaltsautor das Zuschneiden, Ä
 
    * Wählen Sie die Option **Freihand**, um Ihre eigene Zuschnittsart zu definieren.
    * Wählen Sie **Zuschnitt entfernen**, um das ursprüngliche Asset anzuzeigen.
+
    Nachdem Sie eine Zuschnittoption ausgewählt haben, verwenden Sie die blauen Griffe, um die Beschneidung auf dem Bild anzupassen.
 
    ![Optionen für das Zuschneiden](/help/assets/image-crop-options.png)
@@ -224,10 +225,10 @@ Auf der Registerkarte **Funktionen** können Sie festlegen, welche Optionen den 
 
    ![Registerkarte „Funktionen“ im Dialogfeld „Design“ der Bildkomponente](/help/assets/image-design-features-orientation.png)
 
-* **Drehen**
-Verwenden Sie diese Option, damit der Inhaltsautor die Option **Rechts drehen** verwenden kann.
-* **Spiegeln**
-Verwenden Sie diese Option, damit der Inhaltsautor die Option **Horizontal spiegeln** und **Vertikal spiegeln** verwenden kann.
+* **Drehen** Verwenden Sie diese Option, um dem Autor zu ermöglichen, die 
+**Option &quot;Nach rechts** drehen&quot;.
+* **Flip** Verwenden Sie diese Option, damit der Autor des Inhalts die 
+**Optionen &quot;Horizontal** spiegeln&quot;und &quot; **Vertikal** spiegeln&quot;
 
    >[!CAUTION]
    >
@@ -243,6 +244,7 @@ Verwenden Sie diese Option, damit der Inhaltsautor die Option **Horizontal spieg
    * Geben Sie das numerische Seitenverhältnis des Bildes ein.
    * Verwenden Sie die Ziehpunkte, um die Reihenfolge der Seitenverhältnisse neu anzuordnen.
    * Verwenden Sie das Papierkorbsymbol, um ein Seitenverhältnis zu löschen.
+
    >[!CAUTION]
    >
    >Beachten Sie, dass die Beschneidungsverhältnisse als **Höhe/Breite** definiert sind. Dies unterscheidet sich von der herkömmlichen Definition als Breite/Höhe und erfolgt aus Gründen der Legacy-Kompatibilität. Den Inhaltsautoren wird kein Unterschied bewusst werden, solange Sie einen klaren Namen für das Verhältnis angeben, da nur der Name in der Benutzeroberfläche angezeigt wird und nicht das Verhältnis selbst.
