@@ -4,8 +4,8 @@ description: Die Kernkomponenten unterstützen AMP (Accelerated Mobile Pages)
 translation-type: tm+mt
 source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '536'
+ht-degree: 97%
 
 ---
 
@@ -60,7 +60,7 @@ Die AMP-Einstellungen für eine Seite können auch in den [Seiteneigenschaften](
 
 ### CSS-Anforderungen {#css-requirements}
 
-When using AMP with the Core Components, the main difference is that AMP requires all [CSS to be inlined](including-clientlibs.md#inlining) in the `<head>` element as well as optimized.
+Bei Verwendung von AMP mit den Kernkomponenten besteht der Hauptunterschied darin, dass für AMP alle [CSS-Anweisungen inline](including-clientlibs.md#inlining) im Element `<head>` referenziert und optimiert werden müssen.
 
 Zu diesem Zweck wird eine angepasste Seitenkomponente verwendet, die nur AMP-spezifische CSS-Anweisungen für die Komponenten lädt, die auf der Seite vorhanden sind.
 
