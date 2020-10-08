@@ -1,11 +1,11 @@
 ---
 title: Einschließen von Client-Bibliotheken
 description: Je nach Nutzungsszenario gibt es verschiedene Möglichkeiten, Client-Bibliotheken einzuschließen.
-translation-type: ht
-source-git-commit: 24f718be2ba66113eda970c213c6ce4baec51752
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 87e39566617f64b91bd8e98b3779b9b5c426c31c
+workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -48,8 +48,8 @@ Um dies für mehrere Client-Bibliothek-Kategorien gleichzeitig zu tun, kann ein 
 
 ## Nur CSS oder JS {#css-js-only}
 
-Häufig möchte man die CSS-Einfügungen im HTML-Element `head` platzieren und die JS-Einfügungen direkt vor dem Ende des Elements `body`.
-&#x200B;
+Frequently, one wants to place the CSS includes in the HTML `head` element, and the JS includes just before the closing of the `body` element.
+
 Um im Element `head` nur das CSS und nicht das JS einzuschließen, verwenden Sie `cssIncludes`:
 
 ```html
@@ -84,7 +84,9 @@ Um Attribute auf die generierten CSS-`link`-Elemente und/oder JS-`script`-Elemen
 
 CSS-`link`-Attribute, die an `jsAndCssIncludes` und `cssIncludes` weitergegeben werden können:
 
-* `media`: Zeichenfolgen-JS-`script`-Attribute, die an `jsAndCssIncludes` und `jsIncludes` weitergegeben werden können:
+* `media`: Zeichenfolge
+
+JS `script` attributes that can be passed to `jsAndCssIncludes` and `jsIncludes`:
 
 * `async`: Boolesch
 * `defer`: Boolesch
@@ -94,7 +96,7 @@ CSS-`link`-Attribute, die an `jsAndCssIncludes` und `cssIncludes` weitergegeben 
 ## Inline {#inlining}
 
 In einigen Fällen – zur Optimierung oder für E-Mail oder für [AMP](amp.md) – ist es möglicherweise erforderlich, das CSS oder JS inline in der HTML-Ausgabe zu referenzieren.
-&#x200B;
+
 Um das CSS inline zu referenzieren, kann `cssInline` verwendet werden. In diesem Fall müssen Sie dieses umliegende `style`-Element schreiben:
 
 ```html
