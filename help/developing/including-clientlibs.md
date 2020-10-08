@@ -2,7 +2,7 @@
 title: Einschließen von Client-Bibliotheken
 description: Je nach Nutzungsszenario gibt es verschiedene Möglichkeiten, Client-Bibliotheken einzuschließen.
 translation-type: tm+mt
-source-git-commit: 87e39566617f64b91bd8e98b3779b9b5c426c31c
+source-git-commit: f74883359561e5ff6ca679d58bedbdeb100f7b0b
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 90%
@@ -84,10 +84,7 @@ Um Attribute auf die generierten CSS-`link`-Elemente und/oder JS-`script`-Elemen
 
 CSS-`link`-Attribute, die an `jsAndCssIncludes` und `cssIncludes` weitergegeben werden können:
 
-* `media`: Zeichenfolge
-
-JS `script` attributes that can be passed to `jsAndCssIncludes` and `jsIncludes`:
-
+* `media`: String JS- `script` Attribute, die an `jsAndCssIncludes` und `jsIncludes`:
 * `async`: Boolesch
 * `defer`: Boolesch
 * `onload`: Zeichenfolge
