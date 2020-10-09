@@ -208,7 +208,7 @@ Im Folgenden finden Sie die vordefinierten Ereignis von AEM Kernkomponenten:
 * **`cmp:show`** und **`cmp:hide`**: Beim Manipulieren des Akkordeons (Erweitern/Reduzieren), des Karussells (nächste/vorherige Schaltflächen) und der Registerkarten (Registerkartenauswahl) löst die Datenschicht ein `cmp:show`- bzw. ein `cmp:hide`-Ereignis aus. Ein `cmp:show` Ereignis wird auch beim Laden der Seite ausgelöst und wird als erstes Ereignis erwartet.
 * **`cmp:loaded`** - Sobald die Datenschicht mit den Hauptkomponenten auf der Seite gefüllt ist, löst die Datenschicht ein `cmp:loaded` Ereignis aus.
 
-### Von der {#events-components}-Komponente ausgelöste Ereignisse
+### Von der -Komponente ausgelöste Ereignisse{#events-components}
 
 In den folgenden Tabellen sind die standardmäßigen Kernkomponenten, die Ereignisse auslösen, zusammen mit diesen Ereignissen aufgeführt.
 
