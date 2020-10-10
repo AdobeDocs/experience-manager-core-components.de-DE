@@ -1,11 +1,11 @@
 ---
 title: AEM Projektarchetyp Front-End-Build
 description: Eine Projektvorlage für AEM-basierte Anwendungen
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1622'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -33,11 +33,11 @@ Wenn der gesamte AEM-Projektarchetyp mit `mvn clean install -PautoInstallPackage
 
 >[!TIP]
 >
->In der [AEM Entwicklungsdokumentation](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) erfahren Sie mehr darüber, wie AEM mit ClientLibs umgeht und wie sie [eingeschlossen](/help/developing/including-clientlibs.md) werden. Außerdem erfahren Sie weiter unten, [wie das ui.frontend-Modul sie verwendet](#clientlib-generation).
+>In der [AEM Entwicklungsdokumentation](https://docs.adobe.com/content/help/de-DE/experience-manager-65/developing/introduction/clientlibs.html) erfahren Sie mehr darüber, wie AEM mit ClientLibs umgeht und wie sie [eingeschlossen](/help/developing/including-clientlibs.md) werden. Außerdem erfahren Sie weiter unten, [wie das ui.frontend-Modul sie verwendet](#clientlib-generation).
 
 ## Überblick über ClientLibs {#clientlibs}
 
-Das Frontend-Modul wird mithilfe einer [AEM ClientLib](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) bereitgestellt. Beim Ausführen des NPM Build-Skripts wird die App erstellt und das aem-clientlib-generator-Paket nimmt die resultierende Buildausgabe entgegen und wandelt sie in eine solche ClientLib um.
+Das Frontend-Modul wird mithilfe einer [AEM ClientLib](https://docs.adobe.com/content/help/de-DE/experience-manager-65/developing/introduction/clientlibs.html) bereitgestellt. Beim Ausführen des NPM Build-Skripts wird die App erstellt und das aem-clientlib-generator-Paket nimmt die resultierende Buildausgabe entgegen und wandelt sie in eine solche ClientLib um.
 
 Eine ClientLib besteht aus den folgenden Dateien und Verzeichnissen:
 
@@ -64,7 +64,7 @@ In diesem Workflow kann ein AEM-Entwickler die Schritte 1 und 2 ausführen sow
 
 >[!TIP]
 >
->Man kann auch mit der [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library) Beispiele der Markup-Ausgabe jeder Komponente erfassen, um auf Komponentenebene und nicht auf Seitenebene zu arbeiten.
+>Man kann auch mit der [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_de) Beispiele der Markup-Ausgabe jeder Komponente erfassen, um auf Komponentenebene und nicht auf Seitenebene zu arbeiten.
 
 ### Verwenden von Storybook {#using-storybook}
 
@@ -113,7 +113,7 @@ Das AEM-Projektarchiv enthält einen optionalen, dedizierten Front-End-Build-Mec
 >
 >Um den ui.frontend-Ordner zu füllen, müssen Sie den [Archetyp ausführen](overview.md) und dabei die Option `-DoptionIncludeFrontendModule=y` verwenden.
 
-## Nutzung {#usage}
+## Verwendung {#usage}
 
 Die folgenden npm-Skripten verhelfen zum Frontend-Arbeitsablauf:
 
@@ -162,7 +162,7 @@ Der Prozess zum Erstellen des ui.frontend-Moduls nutzt das Plugin [aem-clientlib
 
 ### Einbinden von Client-Bibliotheken auf Seiten {#clientlib-inclusion}
 
-Die Kategorien `clientlib-site` und `clientlib-dependencies` sind auf den Seiten über die [Seitenrichtlinien-Konfiguration](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/templates.html#template-definitions) als Teil der Standardvorlage enthalten. Um die Richtlinie anzuzeigen, bearbeiten Sie die **Inhaltsseitenvorlage > Seiteninformationen > Seitenrichtlinie**.
+Die Kategorien `clientlib-site` und `clientlib-dependencies` sind auf den Seiten über die [Seitenrichtlinien-Konfiguration](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/implementing/components-templates/templates.html#template-definitions) als Teil der Standardvorlage enthalten. Um die Richtlinie anzuzeigen, bearbeiten Sie die **Inhaltsseitenvorlage > Seiteninformationen > Seitenrichtlinie**.
 
 Die endgültige Einbindung von Client-Bibliotheken auf der Seite &quot;Sites&quot; erfolgt wie folgt:
 
