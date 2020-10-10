@@ -1,18 +1,18 @@
 ---
 title: Accordion-Komponente
 description: Die Kernkomponente „Accordion“ ermöglicht die Erstellung einer Sammlung von Bedienfeldern, die auf der Seite in einem Accordion angeordnet sind.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1054'
+ht-degree: 100%
 
 ---
 
 
 # Accordion-Komponente{#accordion-component}
 
-Dier Kernkomponente „Accordion“ ermöglicht die Erstellung einer Sammlung von Bedienfeldern, die auf der Seite in einem Accordion angeordnet sind.
+Die Kernkomponente „Accordion“ ermöglicht die Erstellung einer Sammlung von Bedienfeldern, die auf der Seite in einem Accordion angeordnet sind.
 
 ## Verwendung {#usage}
 
@@ -90,7 +90,7 @@ Verwenden Sie die Schaltfläche **Hinzufügen**, um die Komponentenauswahl zu ö
    * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
-## Popover zur Bedienfeldauswahl{#select-panel-popover}
+## Popover „Bedienfeld auswählen“{#select-panel-popover}
 
 Der Inhaltsautor kann in der Komponenten-Symbolleiste die Option **Bedienfeld auswählen** verwenden, um zu einem anderes Bedienfeld zu wechseln, um es zu bearbeiten, und auch um die Reihenfolge der Registerkarten innerhalb des Accordions einfach zu ändern.
 
@@ -120,7 +120,7 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Optionen zu de
 
 Über die Registerkarte **Zugelassene Komponenten** können Sie definieren, welche Komponenten der Accordion-Komponente vom Inhaltsautor als Elemente in Bedienfeldern hinzugefügt werden können.
 
-Die Registerkarte „Zugelassene Komponenten“ funktioniert auf die gleiche Weise wie die Registerkarte desselben Namens beim [Definieren der Richtlinie und Eigenschaften eines Layoutcontainers im Vorlageneditor.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-layout-template-author)
+Die Registerkarte „Zugelassene Komponenten“ funktioniert auf die gleiche Weise wie die Registerkarte desselben Namens beim [Definieren der Richtlinie und Eigenschaften eines Layoutcontainers im Vorlageneditor.](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-layout-template-author)
 
 ### Registerkarte „Stile“ {#styles-tab}
 
