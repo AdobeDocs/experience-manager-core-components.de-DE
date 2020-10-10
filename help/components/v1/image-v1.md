@@ -2,11 +2,11 @@
 title: Bildkomponente (v1)
 description: Die Kernkomponente „Bildkomponente“ ist eine anpassungsfähige Bildkomponente mit Funktionen zur Bearbeitung im Kontext.
 index: n
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78202dc777b90f795f66873921c55e21ef8a239c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1229'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 Die Kernkomponente „Bildkomponente“ ist eine anpassungsfähige Bildkomponente mit Funktionen zur Bearbeitung im Kontext.
 
-## Nutzung {#usage}
+## Verwendung {#usage}
 
 Die Bildkomponente ermöglicht das einfache Platzieren von Bildmaterial und bietet die Möglichkeit zur direkten Bearbeitung. Es bietet eine anpassungsfähige Bildauswahl mit verzögertem Laden sowie Beschneiden für den Inhaltsautor.
 
@@ -159,13 +159,13 @@ Alternative Beschreibung des Pfadziels
 
    ![](/help/assets/chlimage_1-15.png)
 
-   Wenn das Bild bereits gezoomt wurde, verwenden Sie diese Option, um den Zoomgrad zurückzusetzen.
+   Wenn das Bild bereits gezoomt wurde, verwenden Sie diese Option, um den Zoom-Grad zurückzusetzen.
 
 * Zoom-Regler öffnen
 
    ![](/help/assets/chlimage_1-16.png)
 
-   Mit dieser Option können Sie einen Schieberegler anzeigen, um den Zoomgrad des Bildes zu steuern.
+   Mit dieser Option können Sie einen Schieberegler anzeigen, um den Zoom-Grad des Bildes zu steuern.
 
    ![](/help/assets/chlimage_1-17.png)
 
@@ -209,8 +209,9 @@ Auf der Registerkarte **Funktionen** können Sie festlegen, welche Optionen den 
    ![](/help/assets/chlimage_1-20.png)
 
    * **Drehen** - Verwenden Sie diese Option, damit der Inhaltsautor die Option **Nach Rechts drehen** verwenden kann.
-   * **Flip** Verwenden Sie diese Option, damit der Autor des Inhalts die 
-**Optionen &quot;Horizontal** spiegeln&quot;und &quot; **Vertikal** spiegeln&quot;
+   * **Spiegeln**
+Verwenden Sie diese Option, damit der Inhaltsautor die Optionen 
+**Horizontal spiegeln** und **Vertikal spiegeln** verwenden kann.
    >[!CAUTION]
    >
    >Die Option **Spiegeln** ist standardmäßig deaktiviert. Durch Aktivieren werden im Dialogfeld „Bearbeiten“ der Bildkomponente die Felder **Vertikal spiegeln** und **Horizontal spiegeln** angezeigt. Die Funktion wird jedoch derzeit nicht von AEM unterstützt, und die Änderungen, die mit diesen Optionen vorgenommen werden, bleiben nicht erhalten.
@@ -236,4 +237,4 @@ Die aktuelle technische Dokumentation zur Bildkomponente [finden Sie auf GitHub]
 
 Das gesamte Kernkomponentenprojekt kann von GitHub heruntergeladen werden.
 
-Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation von Kernkomponenten für Entwickler](/help/developing/overview.md).
+Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
