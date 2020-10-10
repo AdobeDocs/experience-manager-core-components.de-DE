@@ -1,11 +1,11 @@
 ---
 title: Verwenden des AEM-Projektarchetyps
 description: Detaillierte Nutzungsanleitungen für den AEM-Projektarchetyp
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2057'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -97,10 +97,10 @@ Die folgenden Eigenschaften sind beim Erstellen eines Projekts mit dem Archetyp 
 | `groupId` |  | Maven-Basisgruppen-ID (z. B. `"com.mysite"`). |
 | `package` | *`${groupId}`* | Java-Quellpaket (z. B. `"com.mysite"`). |
 | `version` | `1.0-SNAPSHOT` | Projektversion (z. B. `1.0-SNAPSHOT`). |
-| `aemVersion` | `6.5.0` | Target AEM version (can be `cloud` for [AEM as a Cloud Service](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/landing/home.translate.html); or `6.5.0`, or `6.4.4` for [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) or on-premise). |
+| `aemVersion` | `6.5.0` | Ziel-AEM-Version (kann `cloud` für [AEM as a Cloud Service](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/landing/home.translate.html) sein; oder `6.5.0` oder `6.4.4` für [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) oder On-Premise). |
 | `sdkVersion` | `latest` | Wenn `aemVersion=cloud`, dann kann eine [SDK](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html)-Version angegeben werden (z. B. `2020.02.2265.20200217T222518Z-200130`). |
 | `includeDispatcherConfig` | `y` | Enthält eine Dispatcher-Konfiguration für Cloud oder für AMS/On-Premise, je nach dem Wert von `aemVersion` (kann `y` oder `n` sein). |
-| `frontendModule` | `none` | Enthält ein WebPack-Frontend-Build-Modul, das die Client-Bibliotheken generiert (kann `general` oder `none` für reguläre Websites sein; kann `angular` oder `react` für eine Single Page App sein, die den [SPA-Editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/introduction.html) implementiert). |
+| `frontendModule` | `none` | Enthält ein WebPack-Frontend-Build-Modul, das die Client-Bibliotheken generiert (kann `general` oder `none` für reguläre Websites sein; kann `angular` oder `react` für eine Single Page App sein, die den [SPA-Editor](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/implementing/headless/spa/introduction.html) implementiert). |
 | `languageCountry` | `en_us` | Sprach- und Länder-Code zur Erstellung der Inhaltsstruktur (z. B. `en_us`). |
 | `singleCountry` | `y` | Enthält eine Inhaltsstruktur für den Sprach-Master (kann `y`oder `n` sein). |
 | `includeExamples` | `y` | Enthält eine Beispiel-Website für die [Komponentenbibliothek](https://www.aemcomponents.dev/) (kann `y` oder `n` sein). |
@@ -195,7 +195,7 @@ Eine der wichtigsten Abhängigkeiten ist die [AEM uber-jar](https://docs.adobe.c
 
 Der AEM-Projektarchiv nutzt natürlich die Kernkomponenten.
 
-Die Core-Komponenten werden in AEM automatisch im Standard-Runmode installiert und von der WKND-Beispielsite verwendet. In einem [Produktions-Ausführungsmodus](https://docs.adobe.com/content/help/en/experience-manager-65/administering/security/production-ready.html) (`nosamplecontent`) sind die Kernkomponenten nicht verfügbar.
+Die Kernkomponenten werden in AEM automatisch im Standard-Ausführungsmodus installiert und von der WKND-Beispiel-Site verwendet. In einem [Produktions-Ausführungsmodus](https://docs.adobe.com/content/help/en/experience-manager-65/administering/security/production-ready.html) (`nosamplecontent`) sind die Kernkomponenten nicht verfügbar.
 
 Um die Kernkomponenten in allen Implementierungen zu nutzen, empfiehlt es sich daher, sie in das Maven-Projekt einzubeziehen.
 
