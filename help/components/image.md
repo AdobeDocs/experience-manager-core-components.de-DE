@@ -1,11 +1,11 @@
 ---
 title: Bildkomponente
 description: Die Kernkomponente „Bildkomponente“ ist eine anpassungsfähige Bildkomponente mit Funktionen zur Bearbeitung im Kontext.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1921'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ Aus Sicherheitsgründen wird die ursprüngliche SVG niemals direkt vom Bild-Edit
 
 >[!CAUTION]
 >
->SVG support requires release 2.1.0 of the Core Components or higher along with [service pack 2](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) for AEM 6.4 or higher to support the [image editor features](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/image-editor.html) within AEM.
+>Für die SVG-Unterstützung sind die Kernkomponenten in Version 2.1.0 oder höher zusammen mit [Service Pack 2](https://docs.adobe.com/content/help/de-DE/experience-manager-64/release-notes/sp-release-notes.html) für AEM 6.4 oder höher erforderlich, damit [neue Bildbearbeitungsfunktionen](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/implementing/components-templates/image-editor.html) in AEM unterstützt werden.
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
@@ -94,8 +94,9 @@ Textalternative der Bedeutung oder Funktion des Bilds für visuell beeinträchti
 
 * **Beschriftung**
 Zusätzliche Informationen über das Bild, die standardmäßig unter dem Bild angezeigt werden.
-   * **Bildunterschrift von DAM** abrufen Wenn aktiviert, wird der Bilduntertiteltext mit dem Wert des 
-`dc:title` Metadaten in DAM.
+   * **Beschriftung von DAM abrufen**
+Wenn die Option aktiviert ist, wird der Beschriftungstext des Bildes mit dem Wert der  
+`dc:title` Metadaten in DAM gefüllt.
    * **Beschriftung als Pop-up anzeigen**
 Wenn die Option aktiviert ist, wird die Beschriftung nicht unter dem Bild angezeigt, sondern von einigen Browsern als Pop-up, sobald der Mauszeiger über das Bild bewegt wird.
 
@@ -150,7 +151,7 @@ Das Dialogfeld „Bearbeiten“ ermöglicht dem Inhaltsautor das Zuschneiden, Ä
 
    ![Symbol „Zoom zurücksetzen“](/help/assets/image-reset-zoom.png)
 
-   Wenn das Bild bereits gezoomt wurde, verwenden Sie diese Option, um den Zoomgrad zurückzusetzen.
+   Wenn das Bild bereits gezoomt wurde, verwenden Sie diese Option, um den Zoom-Grad zurückzusetzen.
 
 * Zoom-Regler öffnen
 
@@ -225,10 +226,12 @@ Auf der Registerkarte **Funktionen** können Sie festlegen, welche Optionen den 
 
    ![Registerkarte „Funktionen“ im Dialogfeld „Design“ der Bildkomponente](/help/assets/image-design-features-orientation.png)
 
-* **Drehen** Verwenden Sie diese Option, um dem Autor zu ermöglichen, die 
-**Option &quot;Nach rechts** drehen&quot;.
-* **Flip** Verwenden Sie diese Option, damit der Autor des Inhalts die 
-**Optionen &quot;Horizontal** spiegeln&quot;und &quot; **Vertikal** spiegeln&quot;
+* **Drehen**
+Verwenden Sie diese Option, damit der Inhaltsautor die Option  
+**Nach rechts drehen** verwenden kann.
+* **Spiegeln**
+Verwenden Sie diese Option, damit der Inhaltsautor die Optionen 
+**Horizontal spiegeln** und **Vertikal spiegeln** verwenden kann.
 
    >[!CAUTION]
    >
@@ -259,6 +262,6 @@ Die Bildkomponente verwendet das Adaptive Bildservlet der Kernkomponente. [Das A
 
 >[!NOTE]
 >
->Bedingte Anforderungen über den `Last-Modified`-Header werden vom Adaptiven Bildservlet unterstützt, aber die Zwischenspeicherung des `Last-Modified`-Headers [muss im Ereignisauslöser](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers) aktiviert werden.
+>Bedingte Anforderungen über den `Last-Modified`-Header werden vom Adaptiven Bildservlet unterstützt, aber die Zwischenspeicherung des `Last-Modified`-Headers [muss im Dispatcher aktiviert werden](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers).
 >
->Die [Ereignisauslöser-Musterkonfiguration des AEM-Projektarchetyps](/help/developing/archetype/overview.md) enthält diese Konfiguration bereits.
+>Die Dispatcher-Musterkonfiguration des [AEM-Projektarchetyps](/help/developing/archetype/overview.md) enthält diese Konfiguration bereits.
