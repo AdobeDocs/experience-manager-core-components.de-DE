@@ -1,11 +1,11 @@
 ---
 title: Verwenden von Kernkomponenten
 description: '„Um mit Kernkomponenten in Ihrem eigenen Projekt produktiv zu werden, sind drei Schritte erforderlich: herunterladen und installieren, Proxy-Komponenten erstellen, die Kernstile laden und die Komponenten in Ihren Vorlagen zulassen.“'
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78202dc777b90f795f66873921c55e21ef8a239c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '758'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -62,11 +62,11 @@ Fügen Sie folgende Eigenschaften hinzu:
    jcr:description="Section Heading"
    ```
 
-For instance, look at the [title component of the WKND site](https://github.com/adobe/aem-guides-wknd/blob/master/ui.apps/src/main/content/jcr_root/apps/wknd/components/title/.content.xml), which is a good example of a proxy component that is built that way.
+Betrachten Sie beispielsweise die [Titelkomponente der WKND-Site](https://github.com/adobe/aem-guides-wknd/blob/master/ui.apps/src/main/content/jcr_root/apps/wknd/components/title/.content.xml). Dies ist ein gutes Beispiel für eine Proxy-Komponente, die auf diese Weise aufgebaut ist.
 
 ## Laden der Kernstile {#load-the-core-styles}
 
-1. Erstellen Sie eine [Client-Bibliothek](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html), die alle CSS- und JS-Dateien enthält, die für Ihre Site benötigt werden, falls noch nicht geschehen.
+1. Erstellen Sie eine [Client-Bibliothek](https://docs.adobe.com/content/help/de-DE/experience-manager-65/developing/introduction/clientlibs.html), die alle CSS- und JS-Dateien enthält, die für Ihre Site benötigt werden, falls noch nicht geschehen.
 1. Fügen Sie in der Client-Bibliothek Ihrer Site die Abhängigkeiten zu den Kernkomponenten hinzu, die möglicherweise benötigt werden. Dies geschieht durch Hinzufügen einer `embed` Eigenschaft.
 
    Um beispielsweise die Client-Bibliotheken aller v1 Kernkomponenten einzubeziehen, lautet die hinzuzufügende Eigenschaft:
