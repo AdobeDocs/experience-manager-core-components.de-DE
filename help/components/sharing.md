@@ -1,11 +1,11 @@
 ---
 title: Social-Sharing-Komponente
 description: Die Kernkomponente „Social-Sharing-Komponente“ ist ein Widget zum Teilen auf Facebook und Pinterest.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '427'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Im Gegensatz zu anderen Komponenten erfolgen die Einstellungen für die Social-S
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die aktuelle Version der Social Sharing-Komponente ist Version 1, die mit Version 1.0.0 der Core-Komponenten eingeführt wurde und in diesem Dokument beschrieben wird.
+Die aktuelle Version der Social-Sharing-Komponente ist v1, die mit Version 1.0.0 der Kernkomponenten eingeführt wurde und in diesem Dokument beschrieben wird.
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente und die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind.
 
