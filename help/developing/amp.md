@@ -1,11 +1,11 @@
 ---
 title: AMP-Unterstützung für die Kernkomponenten
 description: Die Kernkomponenten unterstützen AMP (Accelerated Mobile Pages)
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '536'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Obwohl AMP-Unterstützung umfangreiche Flexibilität bietet, müssen Sie für de
 
 ### Aktivieren von AMP für Seiten {#enabling-amp}
 
-Um AMP für eine Seite zu aktivieren, müssen Sie den **AMP-Modus** in der [Seitenrichtlinie](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-page-policy-template-author-developer) auswählen.
+Um AMP für eine Seite zu aktivieren, müssen Sie den **AMP-Modus** in der [Seitenrichtlinie](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-page-policy-template-author-developer) auswählen.
 
 ![Optionen für AMP-Seitenrichtlinien](/help/assets/amp-policy.png)
 
