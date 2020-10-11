@@ -1,11 +1,11 @@
 ---
 title: AEM-Projektarchetyp
 description: Eine Projektvorlage für AEM-basierte Anwendungen
-translation-type: ht
-source-git-commit: 8b8f0ad528c77cfb6080981438786275bd9fbef1
-workflow-type: ht
-source-wordcount: '1001'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 52f2c4dbba54261863a98fa2b992fe4690da3511
+workflow-type: tm+mt
+source-wordcount: '1035'
+ht-degree: 97%
 
 ---
 
@@ -41,6 +41,7 @@ Der AEM-Projektarchetyp ist eine Maven-Vorlage, anhand derer ein minimales, auf 
 * **Stilsystem:** Vermeiden Sie das Erstellen benutzerdefinierter Komponenten, indem Autoren [verschiedene Stile anwenden](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/style-system.html) können.
 * **Frontend-Build:** Mit Webpack, TypeScript und SASS können Frontend-Entwickler [AEM-Seiten modellieren](uifrontend.md#webpack-dev-server) und [Client-Bibliotheken erstellen](uifrontend.md).
 * **Web-App-fähig:** Verwenden Sie für Websites, die [React](uifrontend-react.md) oder [Angular](uifrontend-angular.md) verwenden, das [SPA-SDK](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/implementing/headless/spa/developing.html), um die [kontextbezogene Inhaltserstellung der App](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html) beizubehalten.
+* **Commerce aktiviert:** Für Projekte, die [AEM Commerce](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/commerce/home.html) mit Commerce-Lösungen wie [Magento](https://magento.com/) mit den [Commerce-Kernkomponenten](https://github.com/adobe/aem-core-cif-components)integrieren möchten.
 * **Beispiel-Code:** Sehen Sie sich die Komponente „HelloWorld“ und die Beispielmodelle, -Servlets, -filter und -planungen an.
 * **Open Source:** Wenn etwas nicht so ist, wie es sein sollte, [bringenSie Ihre Verbesserungen ein](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md)!
 
