@@ -1,11 +1,11 @@
 ---
 title: Einschließen von Client-Bibliotheken
 description: Je nach Nutzungsszenario gibt es verschiedene Möglichkeiten, Client-Bibliotheken einzuschließen.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f74883359561e5ff6ca679d58bedbdeb100f7b0b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '333'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Um dies für mehrere Client-Bibliothek-Kategorien gleichzeitig zu tun, kann ein 
 
 ## Nur CSS oder JS {#css-js-only}
 
-Frequently, one wants to place the CSS includes in the HTML `head` element, and the JS includes just before the closing of the `body` element.
+Häufig sollen die CSS-Einfügungen im HTML-Element `head` platziert werden und die JS-Einfügungen direkt vor dem Ende des Elements `body`.
 
 Um im Element `head` nur das CSS und nicht das JS einzuschließen, verwenden Sie `cssIncludes`:
 
@@ -84,7 +84,7 @@ Um Attribute auf die generierten CSS-`link`-Elemente und/oder JS-`script`-Elemen
 
 CSS-`link`-Attribute, die an `jsAndCssIncludes` und `cssIncludes` weitergegeben werden können:
 
-* `media`: String JS- `script` Attribute, die an `jsAndCssIncludes` und `jsIncludes`:
+* `media`: Zeichenfolgen-JS-`script`-Attribute, die an `jsAndCssIncludes` und `jsIncludes` weitergegeben werden können:
 * `async`: Boolesch
 * `defer`: Boolesch
 * `onload`: Zeichenfolge
