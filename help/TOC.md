@@ -1,13 +1,13 @@
 ---
 sub-product: AEM-Kernkomponenten
 user-guide-title: AEM-Kernkomponenten
-breadcrumb-title: Core Components Guide
-user-guide-description: Use the extensible Core Components to let authors easily create content.
-translation-type: ht
+breadcrumb-title: Anleitung zu den Hauptkomponenten
+user-guide-description: Nutzen Sie die erweiterbaren Hauptkomponenten, damit Autoren mühelos Inhalte erstellen können.
+translation-type: tm+mt
 source-git-commit: 81d2282d33ef3f20e4115e38abbd0c801e03c974
-workflow-type: ht
-source-wordcount: '188'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
