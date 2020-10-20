@@ -1,11 +1,11 @@
 ---
 title: Kontextabhängige Konfigurationen von Sling und Kernkomponenten
 description: Die Kernkomponenten nutzen kontextabhängige Konfigurationen von Sling für bestimmte Funktionen
-translation-type: ht
-source-git-commit: 24a810ff634f8846881dfa0095e879476d0f16f0
-workflow-type: ht
-source-wordcount: '185'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 11e2c6da0fa93084b601437fd45fd65dd8d73231
+workflow-type: tm+mt
+source-wordcount: '194'
+ht-degree: 83%
 
 ---
 
@@ -16,9 +16,9 @@ Kontextabhängige Konfigurationen sind eine Funktion von Sling und sind Konfigur
 
 ## Kontextabhängige Konfigurationen von Sling {#context-aware-configurations}
 
-Ihre Site benötigt möglicherweise unterschiedliche Konfigurationen für verschiedene Site-Bereiche, z. B. wenn einige Parameter freigegeben werden, die eine Vererbung für verschachtelte Kontexte und globale Ausweichwerte erfordern. Die kontextabhängigen Konfigurationen von Sling machen dies möglich.
+Ihre Site benötigt möglicherweise unterschiedliche Konfigurationen für verschiedene Site-Bereiche, z. B. wenn einige Parameter freigegeben werden, die eine Vererbung für verschachtelte Kontexte und globale Ausweichwerte erfordern. AEM nutzt kontextabhängige Sling Konfigurationen, die diese Möglichkeit ermöglichen.
 
-Ausführliche Informationen zu den kontextabhängigen Konfigurationen von Sling finden Sie in der [Apache-Dokumentation](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html).
+Weitere Informationen zu Konfigurationen in AEM [finden Sie in der Dokumentation zu Konfigurationen und Konfigurationsbrowsern.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/configurations.html)
 
 ## Verwendung in den Kernkomponenten {#core-components}
 
