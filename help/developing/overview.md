@@ -1,9 +1,9 @@
 ---
 title: Entwickeln von Kernkomponenten
 description: Die Kernkomponenten bieten leistungsfähige und erweiterbare Basiskomponenten mit umfangreichen Funktionen, kontinuierlicher Bereitstellung, Komponentenversionierung, moderner Implementierung, schlankem Markup und JSON-Export von Inhalten.
-translation-type: ht
-source-git-commit: b08fc5ec49126f7be19b7433a3d71de877d9e442
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: d2e69e5657ed32cc0579579df49ee083212b9333
+workflow-type: tm+mt
 source-wordcount: '1442'
 ht-degree: 100%
 
@@ -84,7 +84,7 @@ Einzelheiten zu ihren Authoring-Fähigkeiten und Optionen zu ihrer Vorkonfigurat
 | Bereitstellung | [Über öffentliches GitHub](https://github.com/adobe/aem-core-wcm-components) | Über Quickstart |
 | Lizenz | [Apache-Lizenz](https://www.apache.org/licenses/LICENSE-2.0) | Adobe-geschützt |
 | Beitrag | Über Pull-Anfrage | Nicht möglich |
-| Barrierefreiheit | Vollständig konform mit dem [WCAG 2.0 AA-Standard](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html | Nur teilweise konform mit dem [WCAG 2.0 AA-Standard](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.translate.html) |
+| Barrierefreiheit | Vollständig konform mit dem [WCAG 2.0 AA-Standard](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.translate.html) | Nur teilweise konform mit dem [WCAG 2.0 AA-Standard](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.translate.html) |
 
 ## Komponentenliste {#component-list}
 
