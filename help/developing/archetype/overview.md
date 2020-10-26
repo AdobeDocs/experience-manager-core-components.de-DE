@@ -1,11 +1,11 @@
 ---
 title: AEM-Projektarchetyp
 description: Eine Projektvorlage für AEM-basierte Anwendungen
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 52f2c4dbba54261863a98fa2b992fe4690da3511
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1035'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -41,9 +41,9 @@ Der AEM-Projektarchetyp ist eine Maven-Vorlage, anhand derer ein minimales, auf 
 * **Stilsystem:** Vermeiden Sie das Erstellen benutzerdefinierter Komponenten, indem Autoren [verschiedene Stile anwenden](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/style-system.html) können.
 * **Frontend-Build:** Mit Webpack, TypeScript und SASS können Frontend-Entwickler [AEM-Seiten modellieren](uifrontend.md#webpack-dev-server) und [Client-Bibliotheken erstellen](uifrontend.md).
 * **Web-App-fähig:** Verwenden Sie für Websites, die [React](uifrontend-react.md) oder [Angular](uifrontend-angular.md) verwenden, das [SPA-SDK](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/implementing/headless/spa/developing.html), um die [kontextbezogene Inhaltserstellung der App](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html) beizubehalten.
-* **Commerce aktiviert:** Für Projekte, die [AEM Commerce](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/commerce/home.html) mit Commerce-Lösungen wie [Magento](https://magento.com/) mit den [Commerce-Kernkomponenten](https://github.com/adobe/aem-core-cif-components)integrieren möchten.
+* **Commerce aktiviert:** Für Projekte, die [AEM Commerce](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/commerce/home.html) mithilfe der [Commerce-Kernkomponenten](https://github.com/adobe/aem-core-cif-components) mit Commerce-Lösungen wie [Magento](https://magento.com/de) integrieren möchten.
 * **Beispiel-Code:** Sehen Sie sich die Komponente „HelloWorld“ und die Beispielmodelle, -Servlets, -filter und -planungen an.
-* **Open Source:** Wenn etwas nicht so ist, wie es sein sollte, [bringenSie Ihre Verbesserungen ein](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md)!
+* **Open Source:** Wenn etwas nicht so ist, wie es sein sollte, [bringen](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) Sie Ihre Verbesserungen ein!
 
 ## Nutzung
 
@@ -83,7 +83,7 @@ Die Abhängigkeit der Kernkomponenten wird nur für AEM-Versionen ohne Cloud Ser
 | `frontendModule` | `general` | Enthält ein WebPack-Frontend-Build-Modul, das die Client-Bibliotheken generiert (kann `general` oder `none` für reguläre Websites sein; kann `angular` oder `react` für eine Single Page App sein, die den [SPA-Editor](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html) implementiert). |
 | `language` | `en` | Sprachcode (ISO 639-1) zur Erstellung der Inhaltsstruktur (z. B. aus `en`, `deu`). |
 | `country` | `us` | Ländercode (ISO 3166-1) zur Erstellung der Inhaltsstruktur (z. B. aus `US`). |
-| `singleCountry` | `y` | Enthält eine Inhaltsstruktur für den Sprach-Master (kann `y`oder `n` sein). |
+| `singleCountry` | `y` | Enthält eine Inhaltsstruktur für den Sprach-Master (kann `y` oder `n` sein). |
 | `includeExamples` | `n` | Enthält eine Beispiel-Website für die [Komponentenbibliothek](https://www.aemcomponents.dev/) (kann `y` oder `n` sein). |
 | `includeErrorHandler` | `n` | Enthält eine benutzerdefinierte 404-Antwortseite, die für die gesamte Instanz global ist (kann `y` oder `n` sein). |
 | `includeCommerce` | `n` | Enthält [CIF-Kernkomponenten](https://github.com/adobe/aem-core-cif-components)-Abhängigkeiten und generiert entsprechende Artefakte. |
