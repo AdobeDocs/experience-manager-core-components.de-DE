@@ -1,11 +1,11 @@
 ---
 title: Einschließen von Client-Bibliotheken
 description: Je nach Nutzungsszenario gibt es verschiedene Möglichkeiten, Client-Bibliotheken einzuschließen.
-translation-type: ht
-source-git-commit: f74883359561e5ff6ca679d58bedbdeb100f7b0b
-workflow-type: ht
-source-wordcount: '333'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: afce571ada011c38c83830628f09a9e268658965
+workflow-type: tm+mt
+source-wordcount: '394'
+ht-degree: 84%
 
 ---
 
@@ -111,3 +111,26 @@ In ähnlicher Weise kann `jsInline` verwendet werden, um JS inline zu referenzie
     ${clientlibs.jsInline @ context="unsafe"}
 </script>
 ```
+
+## Laden von kontextsensitiver CSS und JavaScript {#context-aware-loading}
+
+Die [Seitenkomponente](/help/components/page.md) unterstützt auch das Laden von CSS-, JavaScript- oder Meta-Tags, die vom Entwickler definiert wurden.
+
+Dies geschieht durch Erstellen einer [kontextsensitiven Ressource](context-aware-configs.md) zur `com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig` Verwendung der folgenden Struktur:
+
+```text
+com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig
+    - prefixPath="/some/path"
+    + item01
+        - element=["link"|"script"|"meta"]
+        - location=["header"|"footer"]
+        + attributes
+            - attributeName01="attributeValue01"
+            - attributeName02="attributeValue02"
+            ...
+    + item02
+        ...
+    ...
+```
+
+[Weitere Informationen finden Sie in der technischen Dokumentation zur Seitenkomponente.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v2/page#loading-of-context-aware-cssjs)
