@@ -1,11 +1,11 @@
 ---
 title: Verwenden der Adobe Client-Datenschicht in Verbindung mit den Kernkomponenten
 description: Verwenden der Adobe Client-Datenschicht in Verbindung mit den Kernkomponenten
-translation-type: ht
-source-git-commit: 79a063951a790261e2f00c33d8a76f31f781da0c
-workflow-type: ht
-source-wordcount: '868'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1ada05d5089ccef95d41d47468776654e397f31d
+workflow-type: tm+mt
+source-wordcount: '893'
+ht-degree: 97%
 
 ---
 
@@ -256,3 +256,7 @@ window.adobeDataLayer.push(function (dl) {
 ## Tutorial
 
 Möchten Sie mehr über die Datenschicht und die Kernkomponenten erfahren? [Sehen Sie sich dieses praxisorientierte Tutorial an.](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html)
+
+>[!TIP]
+>
+>Um die Flexibilität der Datenschicht weiter zu untersuchen, sollten Sie sich mit den Integrationsoptionen vertraut machen, einschließlich der Aktivierung der Datenschicht für Ihre benutzerdefinierten Komponenten.
