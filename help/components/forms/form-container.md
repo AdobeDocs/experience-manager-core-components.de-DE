@@ -1,11 +1,11 @@
 ---
 title: Formularcontainer-Komponente
 description: Die Kernkomponente „Formularcontainer-Komponente“ ermöglicht die Erstellung einfacher Übermittlungsformulare.
-translation-type: ht
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
-workflow-type: ht
-source-wordcount: '803'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 499047a8c15a6423a56b370f41fd020740481f80
+workflow-type: tm+mt
+source-wordcount: '956'
+ht-degree: 80%
 
 ---
 
@@ -18,7 +18,7 @@ Die Kernkomponente „Formularcontainer-Komponente“ ermöglicht die Erstellung
 
 Die Formularcontainer-Komponente ermöglicht das Erstellen einfacher Informationsübermittlungsformulare und -funktionen, indem einfache WCM-Formulare unterstützt werden und eine verschachtelte Struktur verwendet wird, um zusätzliche Formularkomponenten zuzulassen.
 
-Mithilfe des [Dialogfelds „Konfigurieren“](#configure-dialog) kann der Inhaltsbearbeiter die durch die Formularübermittlung ausgelöste Aktion definieren und festlegen, wo der gesendete Inhalt gespeichert werden soll und ob ein Workflow ausgelöst werden soll. Der Vorlagenautor kann das [Dialogfeld „Design“](#design-dialog) verwenden, um die zulässigen Komponenten und deren Zuordnungen ähnlich dem Dialogfeld „Design“ für den [Standard-Layout-Container im Vorlageneditor](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/features/templates.translate.html) zu definieren.
+By using the [configure dialog](#configure-dialog) the content editor can define the action triggered by form submission, the URl that should handle the submission, and whether a workflow should be triggered. Der Vorlagenautor kann das [Dialogfeld „Design“](#design-dialog) verwenden, um die zulässigen Komponenten und deren Zuordnungen ähnlich dem Dialogfeld „Design“ für den [Standard-Layout-Container im Vorlageneditor](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/features/templates.translate.html) zu definieren.
 
 >[!NOTE]
 >
@@ -53,10 +53,23 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 
 Je nach ausgewähltem **Aktionstyp** werden die verfügbaren Optionen im Container geändert. Die verfügbaren Aktionstypen sind:
 
+* [Formulardaten posten](#post-data)
 * [E-Mail](#mail)
 * [Inhalt speichern](#store-content)
 
 Unabhängig vom Typ gibt es [allgemeine Einstellungen](#general-settings), die für jede Aktion gelten.
+
+### Formulardaten posten {#post-data}
+
+Wenn das Formular gesendet wird, übergibt der Aktionstyp für Formulardaten die gesendeten Daten zur Verarbeitung als JSON an einen Drittanbieter.
+
+![Optionen für Formulardaten im Dialogfeld &quot;Bearbeiten&quot;der Form Container-Komponente](/help/assets/form-container-edit-post.png)
+
+* **Endpunkt** - Der vollständig qualifizierte HTTPS-Dienst, der die Daten verarbeitet
+* **Fehlermeldung** - Meldung, die angezeigt wird, wenn die Übermittlung nicht erfolgreich war
+
+>[!TIP]
+>Es gibt zusätzliche Timeout-Optionen, die ein Systemadministrator an die Verarbeitung weitergeleiteter Formulardaten anpassen kann. [Weitere Informationen finden Sie in der technischen Dokumentation zu GitHub.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
 
 ### E-Mail {#mail}
 
@@ -82,6 +95,12 @@ Wenn das Formular übermittelt wird, wird der Inhalt des Formulars in einem best
 * **Inhalts-Pfad** - Inhalts-Repository-Pfad, in dem der übermittelte Inhalt gespeichert wird
 * **Daten anzeigen** - Tippen oder klicken Sie, um gespeicherte gesendete Daten als JSON anzuzeigen.
 * **Workflow starten** - Konfigurieren Sie den Start eines Workflows mit dem gespeicherten Inhalt als Nutzlast bei Formularübermittlung.
+
+>[!NOTE]
+>
+>Um die Verwaltung von Benutzerdaten zu vereinfachen und die Trennung von Problemen zu erzwingen, wird im Allgemeinen nicht empfohlen, benutzerdefinierte Inhalte im Repository zu speichern.
+>
+>Verwenden Sie stattdessen den Aktionstyp &quot; [Formulardaten](#post-data) veröffentlichen&quot;, um Benutzerinhalte an einen dedizierten Dienstleister weiterzuleiten.
 
 ### Allgemeine Einstellungen {#general-settings}
 
