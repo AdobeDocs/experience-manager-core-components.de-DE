@@ -1,11 +1,11 @@
 ---
 title: Erweitern der Adobe Client-Datenschicht
 description: Die Adobe Client-Datenschicht kann nach anhand von grundlegenden Mustern erweitert werden
-translation-type: ht
-source-git-commit: 896ed679ed3351cb309a34b38bf97fe81adc2cfe
-workflow-type: ht
-source-wordcount: '251'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1ada05d5089ccef95d41d47468776654e397f31d
+workflow-type: tm+mt
+source-wordcount: '276'
+ht-degree: 90%
 
 ---
 
@@ -25,3 +25,7 @@ Eine Kernomponente wie die [Titelkomponente](https://github.com/adobe/aem-core-w
 Daher verfügt Ihr benutzerdefiniertes Sling-Modell möglicherweise über eine `getData`-Methode, die ein Objekt zurückgibt, das `ComponentData` so erweitert, dass weitere Felder zurückgegeben werden.
 
 Hierdurch wird dem HTML-Element Ihrer Komponente ein `data-cmp-data-layer`-Attribut hinzugefügt mit dem JSON der Daten, die in die Datenschicht eingefügt werden. An dieser Stelle können Sie Skripte implementieren, die nach diesen DAten oder verwandten Ereignissen suchen.
+
+>[!TIP]
+>
+>Um die Flexibilität der Datenschicht weiter zu untersuchen, sollten Sie sich mit den Integrationsoptionen vertraut machen, einschließlich der Aktivierung der Datenschicht für Ihre benutzerdefinierten Komponenten.
