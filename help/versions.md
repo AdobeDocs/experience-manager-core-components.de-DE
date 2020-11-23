@@ -2,9 +2,9 @@
 title: Kernkomponenten-Versionen
 description: Kernkomponenten werden als Versionen veröffentlicht, die mehr als eine Version derselben Kernkomponenten enthalten können. In diesem Dokument wird erläutert, welche Versionen veröffentlicht werden und wie die Kompatibilität mit Kernkomponenten und AEM verstanden werden kann.
 translation-type: tm+mt
-source-git-commit: c64276bb95aeaef4223fc2a0dc2c3cfdf8609f5a
+source-git-commit: 850fbeec3cb31f4ea6873daa2555953684fd5a8d
 workflow-type: tm+mt
-source-wordcount: '1848'
+source-wordcount: '1870'
 ht-degree: 78%
 
 ---
@@ -26,7 +26,8 @@ Die folgende Tabelle, deren Inhalt [auf GitHub mit vollständigen Versionsinform
 
 | Version | Beschreibung | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Veröffentlichungsdatum |
 |---|---|---|---|---|---|---|
-| [2.12.1](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.1) | Dies war ein Patch Release für 2.12.0, das einen wichtigen Fehler in der Image-Komponente behebt. | 6.4.8.1+ * | 6.5.5.0+ * | Kontinuierlich | 8, 11 | 5. November 2020 |
+| [2.12.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.2) | Dies war ein Patch Release für 2.12.0 inklusive kleinere Fehlerbehebungen. | 6.4.8.1+ * | 6.5.5.0+ * | Kontinuierlich | 8, 11 | 11. November 2020 |
+| [2.12.1](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.1) | Es handelt sich um eine Patch-Version für 2.12.0, die einen wichtigen Fehler in der [Image-Komponente behebt.](/help/components/image.md) | 6.4.8.1+ * | 6.5.5.0+ * | Kontinuierlich | 8, 11 | 5. November 2020 |
 | [2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | Mit dieser Version wurde [ein neuer POST-Formularhandler eingeführt.](/help/components/forms/form-container.md#post-data) die Möglichkeit, benutzerdefinierte CSS-, JavaScript- und Metadaten- [Tags über eine kontextbezogene Konfiguration einzuschließen;](/help/developing/including-clientlibs.md#context-aware-loading) und ein `DataLayerBuilder` Dienstprogramm zur [Vereinfachung der Datenschichtintegration in benutzerdefinierten Komponenten.](/help/developing/data-layer/integrations.md#enabling-custom-components) | 6.4.8.1+ * | 6.5.5.0+ * | Kontinuierlich | 8, 11 | 29. Oktober 2020 |
 | [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | This release introduced [AMP support.](/help/developing/amp.md) | 6.4.8.1+ * | 6.5.5.0+ * | Kontinuierlich | 8, 11 | 20. Juli 2020 |
 | [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | This release introduced the [PDF Viewer component.](/help/components/pdf-viewer.md) | 6.4.8.1+ | 6.5.5.0+ | Kontinuierlich | 8, 11 | 17. Juni 2020 |
