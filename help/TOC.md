@@ -4,10 +4,10 @@ user-guide-title: AEM-Kernkomponenten
 breadcrumb-title: Anleitung zu den Hauptkomponenten
 user-guide-description: Nutzen Sie die erweiterbaren Hauptkomponenten, damit Autoren mühelos Inhalte erstellen können.
 translation-type: tm+mt
-source-git-commit: 81d2282d33ef3f20e4115e38abbd0c801e03c974
+source-git-commit: e32521f35f33897cd72892de393073b01ad963f1
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 100%
+source-wordcount: '206'
+ht-degree: 98%
 
 ---
 
@@ -89,3 +89,4 @@ ht-degree: 100%
       + [ui.frontend.react-Modul](developing/archetype/uifrontend-react.md)
       + [ui.frontend.angular-Modul](developing/archetype/uifrontend-angular.md)
       + [ui.tests-Modul](developing/archetype/uitests.md)
+      + [Build Analyzer Maven Plugin](developing/archetype/build-analyzer-maven-plugin.md)
