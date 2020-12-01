@@ -1,8 +1,11 @@
 ---
 title: Wege zum Erfolg mit den Kernkomponenten
 description: So implementieren Sie Ihr Projekt erfolgreich mit den Kernkomponenten
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c338428a681f652d17bb972fb6a2abf216a338c3
+workflow-type: tm+mt
+source-wordcount: '570'
+ht-degree: 100%
 
 ---
 
