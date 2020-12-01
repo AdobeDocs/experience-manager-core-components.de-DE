@@ -1,9 +1,9 @@
 ---
 title: Fortschrittsleistenkomponente
 description: Die Fortschrittsleistenkomponente visualisiert den Fortschritt bei der Erreichung eines Ziels.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: cba1d898d7789af7f4045ef9aa052b4da6a6b33a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 100%
 
