@@ -2,8 +2,11 @@
 title: Textkomponente (v1)
 description: Die Textkomponente ist eine Komponente zur Bearbeitung und Zusammensetzung von Rich-Texten, die eine direkte Bearbeitung ermöglicht.
 index: n
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+workflow-type: tm+mt
+source-wordcount: '1657'
+ht-degree: 100%
 
 ---
 
@@ -147,6 +150,7 @@ Das Dialogfeld „Bearbeiten“ bietet die standardmäßigen Rich-Text-Formatier
       * Neue Registerkarte
       * Übergeordneter Frame
       * Top-Frame
+
    Tippen oder klicken Sie auf das Häkchen, um den Link anzuwenden, oder auf das x, um abzubrechen.
 
 * Verknüpfung aufheben
@@ -366,4 +370,4 @@ Die aktuelle technische Dokumentation zur Textkomponente [finden Sie auf GitHub]
 
 Das gesamte Kernkomponentenprojekt kann von GitHub heruntergeladen werden.
 
-Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation von Kernkomponenten für Entwickler](/help/developing/overview.md).
+Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
