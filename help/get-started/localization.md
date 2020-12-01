@@ -1,8 +1,11 @@
 ---
 title: Lokalisierungsfunktionen der Kernkomponenten
 description: Lokalisierungsfunktionen der Kernkomponenten
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+workflow-type: tm+mt
+source-wordcount: '725'
+ht-degree: 100%
 
 ---
 
@@ -89,6 +92,7 @@ Zu dieser Vorlage fügen wir die Standardkomponenten hinzu, auf denen unsere Sei
 * [Experience Fragment](/help/components/experience-fragment.md)
    * Wir weisen die Experience Fragment-Komponente dem Fragmentpfad des in unserer Autorensprache verfassten Fragments zu, das die Fußzeile enthält.
    * Basierend auf diesem Fragmentpfad und der Struktur der Experience Fragments, die die lokalisierte Seitenstruktur widerspiegeln, kann die Komponente den entsprechenden lokalisierten Inhalt dann automatisch finden.
+
    ![](/help/assets/screen-shot-2019-09-09-11.20.10.png)
 
 ## Seiten {#pages}
