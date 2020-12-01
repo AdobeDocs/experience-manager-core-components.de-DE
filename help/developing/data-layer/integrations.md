@@ -21,15 +21,15 @@ Die Adobe Client Data Layer kann in Ihre benutzerdefinierten Komponenten integri
 So fügen Sie der Datenschicht automatisch eine benutzerdefinierte Komponente hinzu:
 
 1. Definieren Sie die Eigenschaften des benutzerdefinierten Komponentenmodells, das verfolgt werden muss.
-1. hinzufügen das `data-cmp-data-layer` Attribut der benutzerdefinierten Komponente HTL. E.g. `data-cmp-data-layer="${mycomponent.data.json}"`.
+1. hinzufügen Sie das `data-cmp-data-layer`-Attribut der benutzerdefinierten Komponente HTL. z. B. `data-cmp-data-layer="${mycomponent.data.json}"`.
 
-Damit die Datenschicht jedes Mal, wenn auf ein bestimmtes Element der benutzerdefinierten Komponente geklickt wird, automatisch ein `cmp:click` Ereignis auslöst, fügen Sie das `data-cmp-clickable` Attribut dem Element hinzu, das in der benutzerdefinierten Komponente HTL verfolgt werden soll.
+Damit die Datenschicht jedes Mal, wenn auf ein bestimmtes Element der benutzerdefinierten Komponente geklickt wird, automatisch ein `cmp:click`-Ereignis auslöst, fügen Sie das `data-cmp-clickable`-Attribut dem Element hinzu, das in der benutzerdefinierten Komponente HTL verfolgt werden soll.
 
-Das `data-cmp-data-layer-enabled` Attribut kann clientseitig abgefragt werden, um zu prüfen, ob die Datenschicht aktiviert ist.
+Das Attribut `data-cmp-data-layer-enabled` kann clientseitig abgefragt werden, um zu prüfen, ob die Datenschicht aktiviert ist.
 
 >[!TIP]
 >
->Weitere technische Informationen zur Integration der Adobe Client Data Layer mit den Core Components und zur Aktivierung der Datenschicht in Ihren benutzerdefinierten Komponenten finden Sie in der [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) Datei im Core Components Repository.
+>Weitere technische Informationen zur Integration der Adobe Client Data Layer mit den Core Components und zur Aktivierung der Datenschicht in Ihren benutzerdefinierten Komponenten finden Sie in der Datei [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) im Core Components-Repository.
 
 ## Integration mit Adobe Analytics und Adobe Target {#analytics-target}
 
