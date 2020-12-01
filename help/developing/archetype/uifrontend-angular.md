@@ -1,8 +1,11 @@
 ---
 title: Front-End-Build für Angular-SPAs
 description: Beschreibung des Front-End-Build-Prozesses für Angular-basierte SPA-Projekte
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+workflow-type: tm+mt
+source-wordcount: '404'
+ht-degree: 100%
 
 ---
 
