@@ -1,9 +1,9 @@
 ---
 title: Kernmodul des AEM-Projektarchetyps
 description: Kernmodul des AEM-Projektarchetyps
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6f7166c46940ed451721e0760d565d58efe412ab
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 100%
 
