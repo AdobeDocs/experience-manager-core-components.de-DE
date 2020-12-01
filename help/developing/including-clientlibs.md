@@ -116,7 +116,7 @@ In ähnlicher Weise kann `jsInline` verwendet werden, um JS inline zu referenzie
 
 Die [Seitenkomponente](/help/components/page.md) unterstützt auch das Laden von CSS-, JavaScript- oder Meta-Tags, die vom Entwickler definiert wurden.
 
-Dies geschieht durch Erstellen einer [kontextsensitiven Ressource](context-aware-configs.md) zur `com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig` Verwendung der folgenden Struktur:
+Dies geschieht durch Erstellen einer [kontextsensitiven Ressource](context-aware-configs.md) für `com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig` mithilfe der folgenden Struktur:
 
 ```text
 com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig
