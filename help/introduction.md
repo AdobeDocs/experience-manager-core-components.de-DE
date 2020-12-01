@@ -106,11 +106,11 @@ Die aktuelle Version der Kernkomponenten enthält die folgenden Komponenten.
 
 | Kernkomponenten | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven |
 |---------|---------|---------|---------|---------|---------|
-| [2.12.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.2) | Kontinuierlich | 6.5.5.0+ * | 6.4.8.1+ * | 8, 11 | 3.3.9+ |
+| [2,12,2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.2) | Kontinuierlich | 6.5.5.0+ * | 6.4.8.1+ * | 8, 11 | 3.3.9+ |
 
 >[!NOTE]
 >
->(*) Seit Version 2.11.0 ist `org.apache.sling.models.impl` Version 1.4.12 oder höher erforderlich (aufgrund von [SLING-8781](https://issues.apache.org/jira/browse/SLING-8781)). Dies wird für AEM 6.4 und 6.5 in einem zukünftigen Service Pack bereitgestellt. Bis dahin ist das Paket Sling Models im `core.wcm.components.all` Paket enthalten.
+>(*) Seit Version 2.11.0 ist `org.apache.sling.models.impl` Version 1.4.12 oder höher erforderlich (aufgrund von [SLING-8781](https://issues.apache.org/jira/browse/SLING-8781)). Dies wird für AEM 6.4 und 6.5 in einem zukünftigen Service Pack bereitgestellt. Bis dahin ist das Paket Sling Models im Paket `core.wcm.components.all` enthalten.
 
 Die Anforderungen aus früheren Kernkomponenten-Versionen finden Sie unter [Kernkomponenten-Versionen](versions.md).
 
