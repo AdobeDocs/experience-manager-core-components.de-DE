@@ -1,9 +1,9 @@
 ---
 title: Navigationskomponente
 description: Mit der Navigationskomponente können Benutzer leicht durch eine globalisierte Site-Struktur navigieren.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ff943aeca0333b13e2b9aaf11f316457f001d507
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1369'
 ht-degree: 100%
 
