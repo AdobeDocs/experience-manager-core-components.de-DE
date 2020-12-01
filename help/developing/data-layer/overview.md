@@ -214,7 +214,7 @@ In den folgenden Tabellen sind die standardmäßigen Kernkomponenten, die Ereign
 
 | Komponente | Ereignis(se) |
 |---|---|
-| [Accordion](/help/components/accordion.md) | `cmp:show` und `cmp:hide` |
+| [Akkordeon](/help/components/accordion.md) | `cmp:show` und `cmp:hide` |
 | [Schaltfläche](/help/components/button.md) | `cmp:click` |
 | [Breadcrumb](/help/components/breadcrumb.md) | `cmp:click` |
 | [Karussell](/help/components/carousel.md) | `cmp:show` und `cmp:hide` |
