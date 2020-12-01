@@ -18,7 +18,7 @@ Die Kernkomponente „Formularcontainer-Komponente“ ermöglicht die Erstellung
 
 Die Formularcontainer-Komponente ermöglicht das Erstellen einfacher Informationsübermittlungsformulare und -funktionen, indem einfache WCM-Formulare unterstützt werden und eine verschachtelte Struktur verwendet wird, um zusätzliche Formularkomponenten zuzulassen.
 
-By using the [configure dialog](#configure-dialog) the content editor can define the action triggered by form submission, the URl that should handle the submission, and whether a workflow should be triggered. Der Vorlagenautor kann das [Dialogfeld „Design“](#design-dialog) verwenden, um die zulässigen Komponenten und deren Zuordnungen ähnlich dem Dialogfeld „Design“ für den [Standard-Layout-Container im Vorlageneditor](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/features/templates.translate.html) zu definieren.
+Durch Verwendung des Dialogfelds [configure](#configure-dialog) kann der Content Editor die durch Formularübermittlung ausgelöste Aktion, die URL, die die Übermittlung verarbeiten soll, und ob ein Workflow ausgelöst werden soll, definieren. Der Vorlagenautor kann das [Dialogfeld „Design“](#design-dialog) verwenden, um die zulässigen Komponenten und deren Zuordnungen ähnlich dem Dialogfeld „Design“ für den [Standard-Layout-Container im Vorlageneditor](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/features/templates.translate.html) zu definieren.
 
 >[!NOTE]
 >
@@ -59,14 +59,14 @@ Je nach ausgewähltem **Aktionstyp** werden die verfügbaren Optionen im Contain
 
 Unabhängig vom Typ gibt es [allgemeine Einstellungen](#general-settings), die für jede Aktion gelten.
 
-### Formulardaten posten {#post-data}
+### Formulardaten für Beiträge {#post-data}
 
 Wenn das Formular gesendet wird, übergibt der Aktionstyp für Formulardaten die gesendeten Daten zur Verarbeitung als JSON an einen Drittanbieter.
 
 ![Optionen für Formulardaten im Dialogfeld &quot;Bearbeiten&quot;der Form Container-Komponente](/help/assets/form-container-edit-post.png)
 
-* **Endpunkt** - Der vollständig qualifizierte HTTPS-Dienst, der die Daten verarbeitet
-* **Fehlermeldung** - Meldung, die angezeigt wird, wenn die Übermittlung nicht erfolgreich war
+* **Endpunkt**  - Der vollständig qualifizierte HTTPS-Dienst, der die Daten verarbeitet
+* **Fehlermeldung** : Die Meldung wird angezeigt, wenn die Übermittlung nicht erfolgreich war
 
 >[!TIP]
 >Es gibt zusätzliche Timeout-Optionen, die ein Systemadministrator an die Verarbeitung weitergeleiteter Formulardaten anpassen kann. [Weitere Informationen finden Sie in der technischen Dokumentation zu GitHub.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
@@ -100,7 +100,7 @@ Wenn das Formular übermittelt wird, wird der Inhalt des Formulars in einem best
 >
 >Um die Verwaltung von Benutzerdaten zu vereinfachen und die Trennung von Problemen zu erzwingen, wird im Allgemeinen nicht empfohlen, benutzerdefinierte Inhalte im Repository zu speichern.
 >
->Verwenden Sie stattdessen den Aktionstyp &quot; [Formulardaten](#post-data) veröffentlichen&quot;, um Benutzerinhalte an einen dedizierten Dienstleister weiterzuleiten.
+>Verwenden Sie stattdessen den Aktionstyp [Formulardaten posten](#post-data), um Benutzerinhalte an einen dedizierten Dienstleister weiterzuleiten.
 
 ### Allgemeine Einstellungen {#general-settings}
 
@@ -119,7 +119,7 @@ Unabhängig vom ausgewählten Aktionstyp kann eine Dankeseite immer definiert we
 
 ## Dialogfeld „Design“ {#design-dialog}
 
-Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die zulässigen Komponenten und deren Zuordnungen für den Container ähnlich dem Dialogfeld „Design“ für den [Standard-Layout-Container im Vorlageneditor](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/features/templates.translate.html) zu definieren.
+Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die zulässigen Komponenten und deren Zuordnungen für den Container ähnlich dem Dialogfeld „Design“ für den [Standard-Layout-Container im Vorlageneditor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) zu definieren.
 
 ### Registerkarte „Stile“ {#styles-tab}
 
