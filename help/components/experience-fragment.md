@@ -1,9 +1,9 @@
 ---
 title: Experience Fragment-Komponente
 description: Mit der Experience Fragment-Komponente kann der Inhaltsautor einer Seite eine Experience Fragment-Variation hinzufügen.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 100%
 
