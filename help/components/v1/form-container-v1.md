@@ -2,8 +2,11 @@
 title: Formularcontainer-Komponente (v1)
 description: Die Kernkomponente „Formularcontainer-Komponente“ ermöglicht die Erstellung einfacher Übermittlungsformulare.
 index: n
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 68472ab548fb6ebb443a06c12e7b37797a0c1302
+workflow-type: tm+mt
+source-wordcount: '638'
+ht-degree: 100%
 
 ---
 
@@ -109,4 +112,4 @@ Die neueste technische Dokumentation zur Formularcontainer-Komponente [finden Si
 
 Das gesamte Kernkomponentenprojekt kann von GitHub heruntergeladen werden.
 
-Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation von Kernkomponenten für Entwickler](/help/developing/overview.md).
+Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
