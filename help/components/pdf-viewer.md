@@ -1,9 +1,9 @@
 ---
 title: PDF-Viewer-Komponente
 description: Die PDF-Viewer-Komponente ermöglicht die Anzeige eines PDF-Dokuments.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 24a810ff634f8846881dfa0095e879476d0f16f0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 100%
 
