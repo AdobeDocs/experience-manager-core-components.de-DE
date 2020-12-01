@@ -1,8 +1,11 @@
 ---
 title: Anpassen der Kernkomponenten
 description: Die Kernkomponenten implementieren verschiedene Muster, die eine einfache Anpassung ermöglichen, von einfachen Stilen bis hin zur Wiederverwendung erweiterter Funktionen.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
+workflow-type: tm+mt
+source-wordcount: '1106'
+ht-degree: 100%
 
 ---
 
@@ -149,7 +152,7 @@ Wie bei jeder AEM-Komponente gibt es einige Aspekte hinsichtlich der Anpassungen
 
 1. **Achten Sie auf veraltete und entfernte Funktionen.**
 
-   Stellen Sie bei jedem Upgrade jeder neuen AEM-Version sicher, dass alle verwendeten APIs immer aktuell sind, indem Sie die Seite [Veraltete und entfernte Funktionen](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/release-notes/deprecated-removed-features.translate.html) im Auge behalten.
+   Stellen Sie bei jedem Upgrade jeder neuen AEM-Version sicher, dass alle verwendeten APIs immer aktuell sind, indem Sie die Seite [Veraltete und entfernte Funktionen](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html) im Auge behalten.
 
 Siehe auch Abschnitt zur [Kernkomponentenunterstützung](overview.md#core-component-support).
 
