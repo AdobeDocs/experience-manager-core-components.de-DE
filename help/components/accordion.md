@@ -1,9 +1,9 @@
 ---
 title: Accordion-Komponente
 description: Die Kernkomponente „Accordion“ ermöglicht die Erstellung einer Sammlung von Bedienfeldern, die auf der Seite in einem Accordion angeordnet sind.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 100%
 
