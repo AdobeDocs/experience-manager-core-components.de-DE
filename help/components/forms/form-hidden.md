@@ -1,9 +1,9 @@
 ---
 title: Komponente für ausgeblendetes Formular
 description: Die Kernkomponente „Komponente für ausgeblendetes Formular“ ermöglicht die Anzeige eines ausgeblendeten Felds.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 100%
 
