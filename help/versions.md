@@ -2,9 +2,9 @@
 title: Kernkomponenten-Versionen
 description: Kernkomponenten werden als Versionen veröffentlicht, die mehr als eine Version derselben Kernkomponenten enthalten können. In diesem Dokument wird erläutert, welche Versionen veröffentlicht werden und wie die Kompatibilität mit Kernkomponenten und AEM verstanden werden kann.
 translation-type: tm+mt
-source-git-commit: 2f3d2499e9f6c88453b633c20e49703eac25eff4
+source-git-commit: 882c67a5a1b0d52c21180d4100f16aa663385c86
 workflow-type: tm+mt
-source-wordcount: '1870'
+source-wordcount: '1894'
 ht-degree: 78%
 
 ---
@@ -26,6 +26,7 @@ Die folgende Tabelle, deren Inhalt [auf GitHub mit vollständigen Versionsinform
 
 | Version | Beschreibung | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Veröffentlichungsdatum |
 |---|---|---|---|---|---|---|
+| [2,13,0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.0) | Diese Version enthält neue Funktionen für dynamische Medien für die [Bildkomponente.](/help/components/image.md) | 6.4.8.1+ * | 6.5.5.0+ * | Kontinuierlich | 8, 11 | November 2020 |
 | [2,12,2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.2) | Dies war ein Patch Release für 2.12.0 inklusive kleinere Fehlerbehebungen. | 6.4.8.1+ * | 6.5.5.0+ * | Kontinuierlich | 8, 11 | 11. November 2020 |
 | [2,12,1](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.1) | Dies war eine Patch-Version für 2.12.0, die einen wichtigen Fehler in der [Image-Komponente behebt.](/help/components/image.md) | 6.4.8.1+ * | 6.5.5.0+ * | Kontinuierlich | 8, 11 | 5. November 2020 |
 | [2,12,0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.0) | Mit dieser Version wurde [ein neuer Formularhandler für POST;](/help/components/forms/form-container.md#post-data) die Möglichkeit eingeführt, benutzerdefinierte CSS-, Javascript- und Metadaten [Tags über eine kontextabhängige Konfiguration einzuschließen;](/help/developing/including-clientlibs.md#context-aware-loading) und ein `DataLayerBuilder`-Dienstprogramm für [die Datenschichtintegration in benutzerdefinierten Komponenten zu vereinfachen.](/help/developing/data-layer/integrations.md#enabling-custom-components) | 6.4.8.1+ * | 6.5.5.0+ * | Kontinuierlich | 8, 11 | 29. Oktober 2020 |
