@@ -1,16 +1,12 @@
 ---
-source-git-commit: 68b8587bc943d30229d8be742904ebc4b93da9d4
-workflow-type: ht
-translation-type: ht
-source-wordcount: '233'
+source-git-commit: d1ab5eb1b3de07ccdf095b03f7c2e760dfc3d413
+workflow-type: tm+mt
+translation-type: tm+mt
+source-wordcount: '151'
 ht-degree: 100%
 
 ---
 # Dokumentation zu Kernkomponenten in Adobe Experience Manager
-
-| EXL-PR | EXL | Vorschau | Aktivieren | Veröffentlicht | Hilfe |
-|--- |--- |--- |--- |--- |--- |
-| [![Build-Status](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-core-components.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-core-components.en_pr-exl/lastBuild/) | [![Build-Status](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-core-components.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-core-components.en_exl/lastBuild/lastBuild) | [Vorschau-URL](https://experienceleague.corp.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [Live-URL](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=en) | [Authoring-Handbuch](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
 ## Dokumentation zu Kernkomponenten
 
