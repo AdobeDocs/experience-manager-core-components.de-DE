@@ -2,10 +2,10 @@
 title: Einführung in Kernkomponenten
 description: 'Die Kernkomponenten wurden eingeführt, um robuste und erweiterbare Basiskomponenten bereitzustellen, die auf aktueller Technologie und Best Practices basieren. '
 translation-type: tm+mt
-source-git-commit: 882c67a5a1b0d52c21180d4100f16aa663385c86
+source-git-commit: 456bd449f5776355923bcd859a2afb6b00f33d5c
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 96%
+source-wordcount: '889'
+ht-degree: 94%
 
 ---
 
@@ -40,7 +40,7 @@ Die Kernkomponenten sind eine Reihe standardisierter Web-Content-Management-Komp
 | SEO-freundlich | Die HTML-Ausgabe ist schematisch und stellt [schema.org](https://schema.org)-Mikrodatenanmerkungen bereit. |
 | WebApp-fähig | Die [optimierte JSON-Ausgabe](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) ermöglicht das Client-seitige Rendern, wobei die [kontextbezogene Bearbeitung](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html) weiterhin möglich ist. |
 | AMP-Unterstützung | Die Komponenten verfügen über integrierte [Unterstützung für den AMP-Standard](/help/developing/amp.md), wodurch mobile Erlebnisse beschleunigt werden. |
-| Design-Kit | Mit einem [Benutzeroberflächen-Kit für Adobe XD](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_Wireframe.xd) können Designer Wireframes erstellen, die sie dann [nach Bedarf formatieren](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_WKND.xd) können. |
+| Design-Kit | Mit einem [Benutzeroberflächen-Kit für Adobe XD](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) können Designer Wireframes erstellen, die sie dann [nach Bedarf formatieren](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd) können. |
 | Themen-fähig | Die Komponenten implementieren das [Stilsystem](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/implementing/components-templates/style-system.html) und das Markup folgt den [BEM-CSS-Konventionen](http://getbem.com/). |
 | Anpassbar | Verschiedene Muster ermöglichen eine [einfache Anpassung](developing/customizing.md), von der Anpassung des HTML-Codes bis hin zur Wiederverwendung erweiterter Funktionen. |
 | Versionierung | Die [Versionierungsrichtlinie](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) stellt sicher, dass die Kernkomponenten Ihre Website nicht beschädigen, wenn Funktionen verbessert werden, die sich auf Sie auswirken könnten. |
