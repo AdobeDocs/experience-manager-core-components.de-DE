@@ -2,10 +2,10 @@
 title: Schaltflächenkomponente
 description: Die Kernkomponente „Schaltflächenkomponente“ ermöglicht die Erstellung und Anzeige einer Schaltfläche.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: df42f9e3fa26cbb26aa44688e26e5c9a7de4752e
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -72,4 +72,4 @@ Auf der Registerkarte **Barrierefreiheit** können Werte für die [ARIA-Barriere
 
 ### Registerkarte „Stile“ {#styles-tab}
 
-Die Bildkomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
+Die Schaltflächenkomponente unterstützt das AEM [Stilsystem](/help/get-started/authoring.md#component-styling).
