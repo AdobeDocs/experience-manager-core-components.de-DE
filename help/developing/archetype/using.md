@@ -2,7 +2,7 @@
 title: Verwenden des AEM-Projektarchetyps
 description: Detaillierte Nutzungsanleitungen für den AEM-Projektarchetyp
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: 794408e8b643de2234664e69e59e1108cf286cd7
 workflow-type: tm+mt
 source-wordcount: '2057'
 ht-degree: 100%
@@ -57,9 +57,9 @@ Für den Einstieg können Sie die [AEM Eclipse-Erweiterung](https://docs.adobe.c
 
 Natürlich können Sie auch direkt Maven aufrufen.
 
-```
+```shell
 mvn -B archetype:generate \
- -D archetypeGroupId=com.adobe.granite.archetypes \
+ -D archetypeGroupId=com.adobe.aem \
  -D archetypeArtifactId=aem-project-archetype \
  -D archetypeVersion=XX \
  -D aemVersion=cloud \
@@ -131,31 +131,31 @@ Das generierte Maven-Projekt unterstützt bei der Ausführung verschiedene Berei
 
 Um alle im Projektstammordner ausgeführten Module zu erstellen, verwenden Sie den folgenden Maven-Befehl.
 
-```
+```shell
 mvn clean install
 ```
 
 Wenn Sie über eine ausgeführte AEM-Instanz verfügen, können Sie das gesamte Projekt erstellen und verpacken und mit dem folgenden Maven-Befehl in AEM bereitstellen.
 
-```
+```shell
 mvn clean install -PautoInstallPackage
 ```
 
 Führen Sie zum Bereitstellen auf einer Veröffentlichungsinstanz diesen Befehl aus.
 
-```
+```shell
 mvn clean install -PautoInstallPackagePublish
 ```
 
 Sie können diesen Befehl auch ausführen, um eine Bereitstellung in einer Veröffentlichungsinstanz durchzuführen.
 
-```
+```shell
 mvn clean install -PautoInstallPackage -Daem.port=4503
 ```
 
 Sie können auch nur das Bundle für den Autor bereitstellen, indem Sie diesen Befehl ausführen.
 
-```
+```shell
 mvn clean install -PautoInstallBundle
 ```
 
@@ -171,7 +171,7 @@ Diese Eigenschaften sind für die Bereitstellung auf einer lokalen AEM-Instanz e
 
 Diese Eigenschaften werden so eingerichtet, dass sie bei der Bereitstellung in Umgebungen mit höherer Ebene überschrieben werden können. Auf diese Weise müssen sich die POM-Dateien nicht ändern, aber Variablen wie `aem.host` `sling.password` und können über Befehlszeilenargumente überschrieben werden:
 
-```
+```shell
 mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.password=productionpasswd
 ```
 
