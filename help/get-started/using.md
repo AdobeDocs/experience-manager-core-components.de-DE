@@ -2,10 +2,10 @@
 title: Verwenden von Kernkomponenten
 description: '„Um mit Kernkomponenten in Ihrem eigenen Projekt produktiv zu werden, sind drei Schritte erforderlich: herunterladen und installieren, Proxy-Komponenten erstellen, die Kernstile laden und die Komponenten in Ihren Vorlagen zulassen.“'
 translation-type: tm+mt
-source-git-commit: 78202dc777b90f795f66873921c55e21ef8a239c
+source-git-commit: 10090b836397af3c9428f99bba72313263f34596
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 100%
+source-wordcount: '757'
+ht-degree: 98%
 
 ---
 
@@ -66,7 +66,7 @@ Betrachten Sie beispielsweise die [Titelkomponente der WKND-Site](https://github
 
 ## Laden der Kernstile {#load-the-core-styles}
 
-1. Erstellen Sie eine [Client-Bibliothek](https://docs.adobe.com/content/help/de-DE/experience-manager-65/developing/introduction/clientlibs.html), die alle CSS- und JS-Dateien enthält, die für Ihre Site benötigt werden, falls noch nicht geschehen.
+1. Erstellen Sie eine [Client-Bibliothek](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html), die alle CSS- und JS-Dateien enthält, die für Ihre Site benötigt werden, falls noch nicht geschehen.
 1. Fügen Sie in der Client-Bibliothek Ihrer Site die Abhängigkeiten zu den Kernkomponenten hinzu, die möglicherweise benötigt werden. Dies geschieht durch Hinzufügen einer `embed` Eigenschaft.
 
    Um beispielsweise die Client-Bibliotheken aller v1 Kernkomponenten einzubeziehen, lautet die hinzuzufügende Eigenschaft:
