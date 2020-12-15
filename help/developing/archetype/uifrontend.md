@@ -2,10 +2,10 @@
 title: AEM Projektarchetyp Front-End-Build
 description: Eine Projektvorlage für AEM-basierte Anwendungen
 translation-type: tm+mt
-source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
+source-git-commit: 10090b836397af3c9428f99bba72313263f34596
 workflow-type: tm+mt
-source-wordcount: '1622'
-ht-degree: 100%
+source-wordcount: '1620'
+ht-degree: 99%
 
 ---
 
@@ -33,11 +33,11 @@ Wenn der gesamte AEM-Projektarchetyp mit `mvn clean install -PautoInstallPackage
 
 >[!TIP]
 >
->In der [AEM Entwicklungsdokumentation](https://docs.adobe.com/content/help/de-DE/experience-manager-65/developing/introduction/clientlibs.html) erfahren Sie mehr darüber, wie AEM mit ClientLibs umgeht und wie sie [eingeschlossen](/help/developing/including-clientlibs.md) werden. Außerdem erfahren Sie weiter unten, [wie das ui.frontend-Modul sie verwendet](#clientlib-generation).
+>In der [AEM Entwicklungsdokumentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html) erfahren Sie mehr darüber, wie AEM mit ClientLibs umgeht und wie sie [eingeschlossen](/help/developing/including-clientlibs.md) werden. Außerdem erfahren Sie weiter unten, [wie das ui.frontend-Modul sie verwendet](#clientlib-generation).
 
 ## Überblick über ClientLibs {#clientlibs}
 
-Das Frontend-Modul wird mithilfe einer [AEM ClientLib](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) bereitgestellt. Beim Ausführen des NPM Build-Skripts wird die App erstellt und das aem-clientlib-generator-Paket nimmt die resultierende Buildausgabe entgegen und wandelt sie in eine solche ClientLib um.
+Das Frontend-Modul wird mithilfe einer [AEM ClientLib](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html) bereitgestellt. Beim Ausführen des NPM Build-Skripts wird die App erstellt und das aem-clientlib-generator-Paket nimmt die resultierende Buildausgabe entgegen und wandelt sie in eine solche ClientLib um.
 
 Eine ClientLib besteht aus den folgenden Dateien und Verzeichnissen:
 
