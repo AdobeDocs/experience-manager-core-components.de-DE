@@ -10,7 +10,7 @@ ht-degree: 94%
 ---
 
 
-# Einführung in Kernkomponenten{#core-components-introduction}
+# Einführung in Kernkomponenten {#core-components-introduction}
 
 In Adobe Experience Manager sind Komponenten die strukturellen Elemente, aus denen der Inhalt von bearbeiteten Seiten besteht. Komponenten waren immer ein Grundelement des AEM-Erlebnisses, wodurch die Seitenerstellung einfach, aber für den Autor und die Entwicklung von Komponenten flexibel und erweiterbar ist.
 
@@ -18,12 +18,12 @@ Die Kernkomponenten sind eine Reihe standardisierter Web-Content-Management-Komp
 
 ## Ressourcen {#resources}
 
-* **[Komponentenbibliothek:](https://www.adobe.com/go/aem_cmp_library_de)** Eine Sammlung von Beispielen zum Anzeigen der Komponenten in ihren verschiedenen Konfigurationen.
+* **[Komponentenbibliothek:](https://www.adobe.com/go/aem_cmp_library)** Eine Sammlung von Beispielen zum Anzeigen der Komponenten in ihren verschiedenen Konfigurationen.
 * **Komponentendokumentation (dieses Dokument):** Für Entwickler und Autoren mit Details zu den einzelnen Komponenten.
 * **[GitHub-Repository für Kernkomponenten:](https://github.com/adobe/aem-core-wcm-components)** Für Entwicklerdetails zu den einzelnen Komponenten und Projekt-Download.
 * Erste Schritte:
    * **[Erfolg mit den Kernkomponenten:](/help/developing/success.md)** Richtlinien, die rechtzeitig vor Beginn eines Projekts zu berücksichtigen sind, bei dem die Kernkomponenten verwendet werden.
-   * **[WKND-Tutorial:](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** Ein zweitägiges Tutorial zum Erstellen einer neuen Website.
+   * **[WKND-Tutorial:](https://docs.adobe.com/content/help/de-DE/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** Ein zweitägiges Tutorial zum Erstellen einer neuen Website.
    * **[Summit-Tutorial:](https://expleague.azureedge.net/labs/L767/index.html)** Ein zweistündiges Tutorial zum Erstellen einer neuen Website (von einem Lab beim US Summit 2019).
    * **[Gems-Webinar:](https://helpx.adobe.com/de/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)** Eine Führung durch die Kernkomponenten (aufgenommen am Dezember 2018).
 
@@ -38,7 +38,7 @@ Die Kernkomponenten sind eine Reihe standardisierter Web-Content-Management-Komp
 | Verfolgbar | Die [Adobe Client-Datenschicht-Integration](/help/developing/data-layer/overview.md) ermöglicht die Verfolgung aller Aspekte des Besuchererlebnisses. |
 | Barrierefrei | Sie erfüllen [WCAG 2.1-Standards](https://www.w3.org/TR/WCAG21/), bieten ARIA-Beschriftungen und unterstützen die Tastennavigation ([bekannte Probleme](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)). |
 | SEO-freundlich | Die HTML-Ausgabe ist schematisch und stellt [schema.org](https://schema.org)-Mikrodatenanmerkungen bereit. |
-| WebApp-fähig | Die [optimierte JSON-Ausgabe](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) ermöglicht das Client-seitige Rendern, wobei die [kontextbezogene Bearbeitung](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html) weiterhin möglich ist. |
+| WebApp-fähig | Die [optimierte JSON-Ausgabe](https://docs.adobe.com/content/help/de-DE/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) ermöglicht das Client-seitige Rendern, wobei die [kontextbezogene Bearbeitung](https://docs.adobe.com/content/help/de-DE/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html) weiterhin möglich ist. |
 | AMP-Unterstützung | Die Komponenten verfügen über integrierte [Unterstützung für den AMP-Standard](/help/developing/amp.md), wodurch mobile Erlebnisse beschleunigt werden. |
 | Design-Kit | Mit einem [Benutzeroberflächen-Kit für Adobe XD](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) können Designer Wireframes erstellen, die sie dann [nach Bedarf formatieren](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd) können. |
 | Themen-fähig | Die Komponenten implementieren das [Stilsystem](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/implementing/components-templates/style-system.html) und das Markup folgt den [BEM-CSS-Konventionen](http://getbem.com/). |
@@ -114,6 +114,6 @@ Die aktuelle Version der Kernkomponenten enthält die folgenden Komponenten.
 
 Die Anforderungen aus früheren Kernkomponenten-Versionen finden Sie unter [Kernkomponenten-Versionen](versions.md).
 
-Die Kernkomponenten erfordern die Verwendung [bearbeitbarer Vorlagen](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html) und unterstützen weder die klassische Benutzeroberfläche noch statische Vorlagen. Sehen Sie sich bei Bedarf die [AEM-Modernisierungs-Tools](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html) an, um Ihr Projekt mit diesen modernen AEM-Funktionen zu aktualisieren.
+Die Kernkomponenten erfordern die Verwendung [bearbeitbarer Vorlagen](https://docs.adobe.com/content/help/de-DE/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html) und unterstützen weder die klassische Benutzeroberfläche noch statische Vorlagen. Sehen Sie sich bei Bedarf die [AEM-Modernisierungs-Tools](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html) an, um Ihr Projekt mit diesen modernen AEM-Funktionen zu aktualisieren.
 
-Informationen zum Einrichten Ihrer lokalen Entwicklungsumgebung finden Sie [in dieser Übersicht für das AEM as a Cloud Service-SDK](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) oder in diesem Dokument [für ältere Versionen von AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
+Informationen zum Einrichten Ihrer lokalen Entwicklungsumgebung finden Sie [in dieser Übersicht für das AEM as a Cloud Service-SDK](https://docs.adobe.com/content/help/de-DE/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) oder in diesem Dokument [für ältere Versionen von AEM](https://docs.adobe.com/content/help/de-DE/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
