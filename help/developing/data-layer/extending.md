@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 1ada05d5089ccef95d41d47468776654e397f31d
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Eine Kernomponente wie die [Titelkomponente](https://github.com/adobe/aem-core-w
 
 Daher verfügt Ihr benutzerdefiniertes Sling-Modell möglicherweise über eine `getData`-Methode, die ein Objekt zurückgibt, das `ComponentData` so erweitert, dass weitere Felder zurückgegeben werden.
 
-Hierdurch wird dem HTML-Element Ihrer Komponente ein `data-cmp-data-layer`-Attribut hinzugefügt mit dem JSON der Daten, die in die Datenschicht eingefügt werden. An dieser Stelle können Sie Skripte implementieren, die nach diesen DAten oder verwandten Ereignissen suchen.
+Hierdurch wird dem HTML-Element Ihrer Komponente ein `data-cmp-data-layer`-Attribut hinzugefügt mit dem JSON der Daten, die in die Datenschicht eingefügt werden. An dieser Stelle können Sie Skripte implementieren, die nach diesen Daten oder verwandten Ereignissen suchen.
 
 >[!TIP]
 >
