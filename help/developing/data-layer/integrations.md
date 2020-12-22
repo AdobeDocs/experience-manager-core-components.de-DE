@@ -1,11 +1,11 @@
 ---
 title: Integrationen und die Adobe Client-Datenschicht
-description: Erfahren Sie, wie die Adobe Client Data Layer in Ihre benutzerdefinierten Komponenten integriert werden kann und wie Sie durch Integrationen mit Adobe Analytics und Adobe Target Einblicke in Ihre Website gewinnen können.
+description: Erfahren Sie, wie die Adobe Client-Datenschicht in Ihre benutzerdefinierten Komponenten integriert werden kann und wie Sie durch Integrationen mit Adobe Analytics und Adobe Target Erkenntnisse über Ihre Website gewinnen können.
 translation-type: tm+mt
 source-git-commit: ea7a0e08ea1b769b400fce275c8ce7e0db6f9407
 workflow-type: tm+mt
 source-wordcount: '416'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
@@ -14,22 +14,22 @@ ht-degree: 53%
 
 Die Adobe Client-Datenschicht reduziert Aufwand für die Instrumentierung von Websites, indem sie für jedes Skript eine standardisierte Methode für die Darstellung von und den Zugriff auf jede Art von Daten bietet.
 
-Die Adobe Client Data Layer kann in Ihre benutzerdefinierten Komponenten integriert werden und Integrationen mit Adobe Analytics und Adobe Target können Ihnen dabei helfen, Einblicke in Ihre Website zu gewinnen.
+Die Adobe Client-Datenschicht kann in Ihre benutzerdefinierten Komponenten integriert werden und Integrationen mit Adobe Analytics und Adobe Target können Ihnen dabei helfen, Erkenntnisse über Ihre Website zu gewinnen.
 
 ## Aktivieren der Datenschicht für benutzerdefinierte Komponenten {#enabling-custom-components}
 
 So fügen Sie der Datenschicht automatisch eine benutzerdefinierte Komponente hinzu:
 
-1. Definieren Sie die Eigenschaften des benutzerdefinierten Komponentenmodells, das verfolgt werden muss.
-1. hinzufügen Sie das `data-cmp-data-layer`-Attribut der benutzerdefinierten Komponente HTL. z. B. `data-cmp-data-layer="${mycomponent.data.json}"`.
+1. Definieren Sie die Eigenschaften des Modells für benutzerdefinierte Komponenten, das verfolgt werden soll.
+1. Fügen Sie das `data-cmp-data-layer`-Attribut der HTL der benutzerdefinierten Komponente hinzu. Beispiel: `data-cmp-data-layer="${mycomponent.data.json}"`
 
-Damit die Datenschicht jedes Mal, wenn auf ein bestimmtes Element der benutzerdefinierten Komponente geklickt wird, automatisch ein `cmp:click`-Ereignis auslöst, fügen Sie das `data-cmp-clickable`-Attribut dem Element hinzu, das in der benutzerdefinierten Komponente HTL verfolgt werden soll.
+Damit die Datenschicht jedes Mal, wenn auf ein bestimmtes Element der benutzerdefinierten Komponente geklickt wird, automatisch ein `cmp:click`-Ereignis auslöst, fügen Sie in der HTL der benutzerdefinierten Komponente das `data-cmp-clickable`-Attribut dem Element hinzu, das verfolgt werden soll.
 
-Das Attribut `data-cmp-data-layer-enabled` kann clientseitig abgefragt werden, um zu prüfen, ob die Datenschicht aktiviert ist.
+Das `data-cmp-data-layer-enabled`-Attribut kann Client-seitig abgefragt werden, um zu prüfen, ob die Datenschicht aktiviert ist.
 
 >[!TIP]
 >
->Weitere technische Informationen zur Integration der Adobe Client Data Layer mit den Core Components und zur Aktivierung der Datenschicht in Ihren benutzerdefinierten Komponenten finden Sie in der Datei [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) im Core Components-Repository.
+>Weitere technische Informationen zur Integration der Adobe Client-Datenschicht mit den Kernkomponenten und zur Aktivierung der Datenschicht in Ihren benutzerdefinierten Komponenten finden Sie in der Datei [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) im Repository der Kernkomponenten.
 
 ## Integration mit Adobe Analytics und Adobe Target {#analytics-target}
 
@@ -39,10 +39,10 @@ In Verbindung mit Adobe Analytics und Adobe Target bildet die Adobe Client-Daten
 
 Erfahren Sie, wie Sie die integrierten Funktionen der Adobe Client-Datenschicht mit den AEM-Kernkomponenten verwenden können, um Daten zu einer Seite in Adobe Experience Manager Sites zu erfassen. Experience Platform Launch und die Adobe Analytics-Erweiterung werden verwendet, um Regeln zum Senden von Seitendaten an Adobe Analytics zu erstellen.
 
-[Sehen Sie sich das Tutorial hier an.](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/analytics/collect-data-analytics.html)
+[Sehen Sie sich das Tutorial hier an.](https://docs.adobe.com/content/help/de-DE/experience-manager-learn/sites/integrations/analytics/collect-data-analytics.html)
 
 ### Verfolgen geklickter Komponenten mit Adobe Analytics {#track-clicked-components}
 
 Verwenden Sie die ereignisbasierte Adobe Client-Datenschicht mit den AEM-Kernkomponenten, um Klicks auf bestimmte Komponenten auf einer Adobe Experience Manager-Site zu verfolgen. Erfahren Sie, wie Sie Regeln in Experience Platform Launch verwenden, um Klick-Ereignisse zu überwachen, nach Komponenten zu filtern und die Daten mit einem Verfolgungs-Linkbeacon an Adobe Analytics zu senden.
 
-[Sehen Sie sich das Tutorial hier an.](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/analytics/track-clicked-component.html)
+[Sehen Sie sich das Tutorial hier an.](https://docs.adobe.com/content/help/de-DE/experience-manager-learn/sites/integrations/analytics/track-clicked-component.html)
