@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 499047a8c15a6423a56b370f41fd020740481f80
 workflow-type: tm+mt
 source-wordcount: '956'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Die Kernkomponente „Formularcontainer-Komponente“ ermöglicht die Erstellung
 
 Die Formularcontainer-Komponente ermöglicht das Erstellen einfacher Informationsübermittlungsformulare und -funktionen, indem einfache WCM-Formulare unterstützt werden und eine verschachtelte Struktur verwendet wird, um zusätzliche Formularkomponenten zuzulassen.
 
-Durch Verwendung des Dialogfelds [configure](#configure-dialog) kann der Content Editor die durch Formularübermittlung ausgelöste Aktion, die URL, die die Übermittlung verarbeiten soll, und ob ein Workflow ausgelöst werden soll, definieren. Der Vorlagenautor kann das [Dialogfeld „Design“](#design-dialog) verwenden, um die zulässigen Komponenten und deren Zuordnungen ähnlich dem Dialogfeld „Design“ für den [Standard-Layout-Container im Vorlageneditor](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/features/templates.translate.html) zu definieren.
+Mithilfe des [Dialogfelds „Konfigurieren“](#configure-dialog) kann der Inhaltsbearbeiter die durch die Formularübermittlung ausgelöste Aktion definieren sowie die URL, die die Übermittlung handhaben soll, und ob ein Workflow ausgelöst werden soll. Der Vorlagenautor kann das [Dialogfeld „Design“](#design-dialog) verwenden, um die zulässigen Komponenten und deren Zuordnungen ähnlich dem Dialogfeld „Design“ für den [Standard-Layout-Container im Vorlageneditor](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/features/templates.translate.html) zu definieren.
 
 >[!NOTE]
 >
@@ -39,11 +39,11 @@ Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in d
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Um die Formular-Container-Komponente kennenzulernen und Beispiele für die Konfigurationsoptionen sowie HTML- und JSON-Ausgaben anzuzeigen, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_form_container_de).
+Um die Formular-Container-Komponente kennenzulernen und Beispiele für die Konfigurationsoptionen sowie HTML- und JSON-Ausgaben anzuzeigen, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_form_container).
 
 ## Technische Details {#technical-details}
 
-Die neueste technische Dokumentation zur Formularcontainer-Komponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_form_container_v2_de).
+Die neueste technische Dokumentation zur Formularcontainer-Komponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_form_container_v2).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
@@ -59,17 +59,17 @@ Je nach ausgewähltem **Aktionstyp** werden die verfügbaren Optionen im Contain
 
 Unabhängig vom Typ gibt es [allgemeine Einstellungen](#general-settings), die für jede Aktion gelten.
 
-### Formulardaten für Beiträge {#post-data}
+### Formulardaten posten {#post-data}
 
-Wenn das Formular gesendet wird, übergibt der Aktionstyp für Formulardaten die gesendeten Daten zur Verarbeitung als JSON an einen Drittanbieter.
+Wenn das Formular übermittelt wird, übergibt der Aktionstyp für Formulardaten die übermittelten Daten zur Verarbeitung als JSON an einen Drittanbieter.
 
-![Optionen für Formulardaten im Dialogfeld &quot;Bearbeiten&quot;der Form Container-Komponente](/help/assets/form-container-edit-post.png)
+![Optionen zum Posten von Formulardaten im Dialogfeld „Bearbeiten“ der Formular-Container-Komponente](/help/assets/form-container-edit-post.png)
 
-* **Endpunkt**  - Der vollständig qualifizierte HTTPS-Dienst, der die Daten verarbeitet
-* **Fehlermeldung** : Die Meldung wird angezeigt, wenn die Übermittlung nicht erfolgreich war
+* **Endpunkt** – Der vollständig qualifizierte HTTPS-Dienst, der die Daten verarbeitet
+* **Fehlermeldung** – Meldung, die angezeigt wird, wenn die Übermittlung nicht erfolgreich war
 
 >[!TIP]
->Es gibt zusätzliche Timeout-Optionen, die ein Systemadministrator an die Verarbeitung weitergeleiteter Formulardaten anpassen kann. [Weitere Informationen finden Sie in der technischen Dokumentation zu GitHub.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
+>Es gibt zusätzliche Timeout-Optionen, die ein Systemadministrator einstellen kann, um die Verarbeitung der weitergeleiteten Formulardaten zu handhaben. [Weitere Informationen finden Sie in der technischen Dokumentation zu GitHub.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
 
 ### E-Mail {#mail}
 
@@ -98,7 +98,7 @@ Wenn das Formular übermittelt wird, wird der Inhalt des Formulars in einem best
 
 >[!NOTE]
 >
->Um die Verwaltung von Benutzerdaten zu vereinfachen und die Trennung von Problemen zu erzwingen, wird im Allgemeinen nicht empfohlen, benutzerdefinierte Inhalte im Repository zu speichern.
+>Um die Verwaltung von Benutzerdaten zu vereinfachen und die Trennung von Problemen zu erzwingen, wird im Allgemeinen nicht empfohlen, von Benutzern erstellte Inhalte im Repository zu speichern.
 >
 >Verwenden Sie stattdessen den Aktionstyp [Formulardaten posten](#post-data), um Benutzerinhalte an einen dedizierten Dienstleister weiterzuleiten.
 
