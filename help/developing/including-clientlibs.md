@@ -5,18 +5,18 @@ translation-type: tm+mt
 source-git-commit: afce571ada011c38c83830628f09a9e268658965
 workflow-type: tm+mt
 source-wordcount: '394'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 
 # Einschließen von Client-Bibliotheken {#including-client-libraries}
 
-Je nach Nutzungsszenario gibt es verschiedene Möglichkeiten, [Client-Bibliotheken](/help/developing/archetype/uifrontend.md#clientlibs) einzuschließen. Dieses Dokument enthält besipielhafte [HTML-Snippets](https://docs.adobe.com/content/help/de-DE/experience-manager-htl/using/overview.html) für alle diese Möglichkeiten.
+Je nach Nutzungsszenario gibt es verschiedene Möglichkeiten, [Client-Bibliotheken](/help/developing/archetype/uifrontend.md#clientlibs) einzuschließen. Dieses Dokument enthält besipielhafte [HTL-Snippets](https://docs.adobe.com/content/help/de-DE/experience-manager-htl/using/overview.html) für alle diese Möglichkeiten.
 
 ## Empfohlene Standardverwendung {#recommended-default-usage}
 
-Wenn Sie keine Zeit haben, die beste Lösung für Ihre Sitution zu ermitteln, schließen Sie Ihre Client-Bibliotheken mit ein, indem Sie die folgenden HTML-Zeilen in Ihr Seitenelement `head` einfügen:
+Wenn Sie keine Zeit haben, die beste Lösung für Ihre Sitution zu ermitteln, schließen Sie Ihre Client-Bibliotheken mit ein, indem Sie die folgenden HTL-Zeilen in Ihr Seitenelement `head` einfügen:
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @
@@ -112,11 +112,11 @@ In ähnlicher Weise kann `jsInline` verwendet werden, um JS inline zu referenzie
 </script>
 ```
 
-## Laden von kontextsensitiver CSS und JavaScript {#context-aware-loading}
+## Laden von kontextsensitivem CSS und JavaScript {#context-aware-loading}
 
-Die [Seitenkomponente](/help/components/page.md) unterstützt auch das Laden von CSS-, JavaScript- oder Meta-Tags, die vom Entwickler definiert wurden.
+Die [Seitenkomponente](/help/components/page.md) unterstützt auch das Laden von kontextsensitivem CSS, JavaScript oder von Meta-Tags, die vom Entwickler definiert wurden.
 
-Dies geschieht durch Erstellen einer [kontextsensitiven Ressource](context-aware-configs.md) für `com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig` mithilfe der folgenden Struktur:
+Dies geschieht durch Erstellen einer [kontextsensitiven Ressource](context-aware-configs.md) für `com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig` unter Verwendung der folgenden Struktur:
 
 ```text
 com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig
