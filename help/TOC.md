@@ -3,11 +3,11 @@ sub-product: AEM-Kernkomponenten
 user-guide-title: AEM-Kernkomponenten
 breadcrumb-title: Anleitung zu den Hauptkomponenten
 user-guide-description: Nutzen Sie die erweiterbaren Hauptkomponenten, damit Autoren mühelos Inhalte erstellen können.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e32521f35f33897cd72892de393073b01ad963f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '206'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 + [Einführung in Kernkomponenten](introduction.md)
 + [Wege zum Erfolg](developing/success.md)
-+ [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_de)
++ [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library)
 + [Kernkomponenten-Versionen](versions.md)
 + Erste Schritte {#get-started}
    + [Authoring mit Kernkomponenten ](get-started/authoring.md)
@@ -69,7 +69,7 @@ ht-degree: 98%
 + Entwickeln {#developing}
    + [Entwickeln von Kernkomponenten](developing/overview.md)
    + [Wege zum Erfolg](developing/success.md)
-   + [WKND-Entwickler-Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+   + [WKND-Entwickler-Tutorial](https://docs.adobe.com/content/help/de-DE/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [Anpassen der Kernkomponenten](developing/customizing.md)
    + [Komponentenrichtlinien](developing/guidelines.md)
    + [AMP-Unterstützung](developing/amp.md)
@@ -89,4 +89,4 @@ ht-degree: 98%
       + [ui.frontend.react-Modul](developing/archetype/uifrontend-react.md)
       + [ui.frontend.angular-Modul](developing/archetype/uifrontend-angular.md)
       + [ui.tests-Modul](developing/archetype/uitests.md)
-      + [Build Analyzer Maven Plugin](developing/archetype/build-analyzer-maven-plugin.md)
+      + [Build Analyzer-Maven-Plug-in](developing/archetype/build-analyzer-maven-plugin.md)
