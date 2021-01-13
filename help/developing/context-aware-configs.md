@@ -1,18 +1,18 @@
 ---
 title: Kontextabhängige Konfigurationen von Sling und Kernkomponenten
 description: Die Kernkomponenten nutzen kontextabhängige Konfigurationen von Sling für bestimmte Funktionen
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aff9046008dcea6c0cbda4b3de400df77a507097
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '200'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 
 # Kontextabhängige Konfigurationen von Sling und Kernkomponenten {#sling-context-aware-configurations}
 
-Kontextsensitive Konfigurationen sind eine [Funktion von Sling](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html). Es handelt sich dabei um Konfigurationen, die sich auf eine Inhaltsressource oder eine Ressourcenstruktur beziehen und von den Core-Komponenten genutzt werden, um siteweite Konfigurationen zu ermöglichen.
+Kontextabhängige Konfigurationen sind eine [Funktion von Sling](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html). Es handelt sich um Konfigurationen, die sich auf eine Inhaltsressource oder eine Ressourcenstruktur beziehen und von den Kernkomponenten genutzt werden, um Site-übergreifende Konfigurationen zu ermöglichen.
 
 ## Kontextabhängige Konfigurationen von Sling {#context-aware-configurations}
 
