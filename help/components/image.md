@@ -1,16 +1,16 @@
 ---
 title: Bildkomponente
 description: Die Kernkomponente „Bildkomponente“ ist eine anpassungsfähige Bildkomponente mit Funktionen zur Bearbeitung im Kontext.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c20d02aa93cce60b583a2d22c77b08ca7eb9b765
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2157'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
 
-# Bildkomponente{#image-component}
+# Bildkomponente {#image-component}
 
 Die Kernkomponente „Bildkomponente“ ist eine adaptive Bildkomponente, die eine direkte Bearbeitung ermöglicht.
 
@@ -26,11 +26,11 @@ Die Bildkomponente verfügt über robuste responsive Funktionen, die direkt sofo
 
 Darüber hinaus unterstützt die Bildkomponente verzögertes Laden, um das Laden des tatsächlichen Bild-Assets zu verzögern, bis es im Browser sichtbar ist, wodurch die Reaktionsgeschwindigkeit Ihrer Seiten zunimmt.
 
-## Unterstützung für dynamische Medien {#dynamic-media}
+## Dynamic Media-Unterstützung {#dynamic-media}
 
-Die Image-Komponente (ab [Version 2.13.0](/help/versions.md)) unterstützt [Dynamische Medien](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=en#dynamicmedia)-Assets. [Wenn diese Funktionen aktiviert sind, können Sie ](#design-dialog) mit einem Drag &amp; Drop oder über den Asset-Browser dynamische Medien-Bild-Assets hinzufügen, genau wie bei jedem anderen Bild. Darüber hinaus werden auch Bildmodifikatoren, Bildvorgaben und intelligente Anbaumethoden unterstützt.
+Die Bildkomponente (ab [Version 2.13.0](/help/versions.md)) unterstützt [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=de#dynamicmedia)-Assets. [Wenn diese Funktionen aktiviert sind](#design-dialog), können Sie Dynamic Media-Bild-Assets per Drag-and-Drop oder über den Assets-Browser hinzufügen, wie Sie es mit jedem anderen Bild tun würden. Darüber hinaus werden auch Bild-Modifikatoren, Bildvorgaben und Smartes Zuschneiden unterstützt.
 
-Ihre mit Core-Komponenten erstellten Web-Erlebnisse können keine leistungsstarken, leistungsstarken, plattformübergreifenden Funktionen für dynamische Medienbilder bieten.
+Ihre mit Kernkomponenten erstellten Web-Erlebnisse können jetzt funktionsreiche, Sensei-gestützte, robuste, leistungsstarke und plattformübergreifende Dynamic Media-Bildfunktionen enthalten.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
@@ -63,21 +63,21 @@ Aus Sicherheitsgründen wird die ursprüngliche SVG niemals direkt vom Bild-Edit
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Um die Bildkomponente zu erleben und Beispiele für ihre Konfigurationsoptionen sowie die HTML- und JSON-Ausgabe zu sehen, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_image_de).
+Um die Bildkomponente zu erleben und Beispiele für ihre Konfigurationsoptionen sowie die HTML- und JSON-Ausgabe zu sehen, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_image).
 
 ### Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Bildkomponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_image_v2_de).
+Die aktuelle technische Dokumentation zur Bildkomponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_image_v2).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
-Die Image-Komponente unterstützt [Schema.org microdata](https://schema.org).
+Die Bildkomponente unterstützt [Schema.org-Mikrodaten](https://schema.org).
 
 ## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
 Zusätzlich zum standardmäßigen [Dialogfeld „Bearbeiten“](#edit-dialog) und zum [Dialogfeld „Design“](#design-dialog) bietet die Bildkomponente ein Dialogfeld für die Konfiguration, bei dem das Bild selbst mit seiner Beschreibung und den grundlegenden Eigenschaften definiert wird.
 
-### Registerkarte „Asset“{#asset-tab}
+### Registerkarte „Asset“ {#asset-tab}
 
 ![Registerkarte „Asset“ im Dialogfeld „Konfigurieren“ der Bildkomponente](/help/assets/image-configure-asset.png)
 
@@ -90,17 +90,17 @@ Zusätzlich zum standardmäßigen [Dialogfeld „Bearbeiten“](#edit-dialog) un
 
 ![Registerkarte „Metadaten“ auf dem Dialogfeld „Konfigurieren“ der Bildkomponente](/help/assets/image-configure-metadata.png)
 
-* **Vorgabentyp** : Hiermit werden die verfügbaren Bildvorgaben definiert, entweder  **Bildvorgaben** oder  **Smart-Zuschnitte**. Sie sind nur verfügbar, wenn  [dynamische Medienfunktionen ](#dynamic-meida) aktiviert sind.
-   * **Bildvorgabe** : Wenn  **Vorgabe-** Typ der  **Bildvorgabe ausgewählt ist, ist die Dropdown-Liste** Bildvorgabe  **** verfügbar, sodass aus den verfügbaren Vorgaben für dynamische Medien ausgewählt werden kann. Dies ist nur verfügbar, wenn Vorgaben für das ausgewählte Asset definiert sind.
-   * **Intelligente Beschneidung** : Wenn  **Vorgabe-** Typen  **intelligenter** Kulturen ausgewählt sind, ist die Dropdown- **** Darstellung verfügbar, sodass eine Auswahl aus den verfügbaren Darstellungen des ausgewählten Assets möglich ist. Dies ist nur verfügbar, wenn Darstellungen für das ausgewählte Asset definiert sind.
-   * **Bildmodifikatoren** : Hier können zusätzliche Befehle zum Image Serving für dynamische Medien definiert werden,  `&`unabhängig davon, welche  **Vorgabentypen ausgewählt** werden.
+* **Vorgabetyp** – Hier wird der Typ der verfügbaren Bildvorgaben festgelegt, entweder **Bildvorgabe** oder **Smartes Zuschneiden**. Dies ist nur verfügbar, wenn die [Dynamic Media-Funktionen](#dynamic-meida) aktiviert sind.
+   * **Bildvorgabe** – Wenn der **Vorgabetyp** **Bildvorgabe** ausgewählt ist, ist die Dropdown-Liste **Bildvorgabe** verfügbar, sodass aus den verfügbaren Dynamic Media-Vorgaben ausgewählt werden kann. Dies ist nur verfügbar, wenn für das ausgewählte Asset Vorgaben definiert sind.
+   * **Smartes Zuschneiden** – Wenn der **Vorgabetyp** **Smartes Zuschneiden** ausgewählt ist, ist die Dropdown-Liste **Ausgabedarstellung** verfügbar, sodass aus den verfügbaren Ausgabedarstellungen des ausgewählten Assets werden kann. Dies ist nur verfügbar, wenn für das ausgewählte Asset Ausgabedarstellungen definiert sind.
+   * **Bild-Modifikatoren** – Hier können zusätzliche Befehle zur Dynamic Media-Bildbereitstellung definiert werden, die durch `&` getrennt sind, unabhängig davon, welcher **Vorgabetyp** ausgewählt ist.
 * **Bild ist dekorativ** - Überprüfen Sie, ob das Bild von Hilfstechnologien ignoriert werden soll und daher keinen alternativen Text erfordert. Dies gilt nur für dekorative Bilder.
 * **Alternativer Text** - Textalternativen zur Bedeutung oder Funktion des Bildes für sehbeeinträchtigte Leser.
-   * **** Alternativen Text von DAM abrufen: Wenn die Option aktiviert ist, wird der Alternativtext des Bilds mit dem Wert der `dc:description` Metadaten in DAM gefüllt.
-* **Beschriftung** : Zusätzliche Informationen zum Bild, die standardmäßig unter dem Bild angezeigt werden.
-   * **Bildunterschrift von DAM**  abrufen: Wenn diese Option aktiviert ist, wird der Bilduntertiteltext mit dem Wert der  `dc:title` Metadaten in DAM gefüllt.
-   * **Beschriftung als Pop-up anzeigen** - Wenn die Option aktiviert ist, wird die Beschriftung nicht unter dem Bild angezeigt, sondern von einigen Browsern als Pop-up, wenn der Mauszeiger über das Bild bewegt wird.
-* **Link** : Verknüpfen Sie das Bild mit einer anderen Ressource.
+   * **Alternativtext von DAM abrufen** – Wenn die Option aktiviert ist, wird der Alternativtext des Bildes mit dem Wert der `dc:description`-Metadaten in DAM gefüllt.
+* **Beschriftung** – Zusätzliche Informationen über das Bild, die standardmäßig unter dem Bild angezeigt werden.
+   * **Beschriftung aus DAM abrufen** – Wenn die Option aktiviert ist, wird der Beschriftungstext des Bildes mit dem Wert der `dc:title`-Metadaten in DAM gefüllt.
+   * **Beschriftung als Pop-up anzeigen** – Wenn die Option aktiviert ist, wird die Beschriftung nicht unter dem Bild angezeigt, sondern von einigen Browsern als Popup, wenn der Mauszeiger über das Bild bewegt wird.
+* **Verknüpfung** – Verknüpfen Sie das Bild mit einer anderen Ressource.
    * Verwenden Sie das Dialogfeld „Auswahl“, um eine Verknüpfung zu einer anderen AEM-Ressource herzustellen.
    * Geben Sie die absolute URL ein, wenn Sie keine Verknüpfung zu einer AEM-Ressource erstellen. Nicht absolute URLs werden als relativ zu AEM interpretiert.
 * **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
@@ -110,7 +110,7 @@ Zusätzlich zum standardmäßigen [Dialogfeld „Bearbeiten“](#edit-dialog) un
 
 >[!TIP]
 >
->**Smart** Cropand  **Image** Presetare schließen sich gegenseitig aus. Wenn ein Autor eine Bildvorgabe zusammen mit einer Smart-Schnittdarstellung verwenden muss, muss der Autor **Bildmodifikatoren** verwenden, um Vorgaben manuell hinzuzufügen.
+>**Smartes Zuschneiden** und **Bildvorgabe** sind Optionen, die sich gegenseitig ausschließen. Wenn ein Autor eine Bildvorgabe zusammen mit einer Ausgabedarstellung von Typ „Smartes Zuschneiden“ verwenden muss, muss der Autor **Bild-Modifikatoren** verwenden, um Vorgaben manuell hinzuzufügen.
 
 ## Dialogfeld „Bearbeiten“ {#edit-dialog}
 
@@ -118,7 +118,7 @@ Das Dialogfeld „Bearbeiten“ ermöglicht dem Inhaltsautor das Zuschneiden, Ä
 
 >[!NOTE]
 >
->Funktionen zum Beschneiden, Drehen und Zoomen gelten nicht für dynamische Medienelemente. Wenn die [Funktionen für dynamische Medien](#dynamic-media) aktiviert sind, sollte eine solche Bearbeitung von Dynamischen Medien-Assets über das Dialogfeld [Konfigurieren durchgeführt werden.](#configure-dialog)
+>Funktionen zum Zuschneiden, Drehen und Zoomen gelten nicht für Dynamic Media-Assets. Wenn die [Dynamic Media-Funktionen](#dynamic-media) aktiviert sind, sollten solche Bearbeitungen an Dynamic Media-Assets über das Dialogfeld [Konfigurieren](#configure-dialog) vorgenommen werden.
 
 ![Dialogfeld „Bearbeiten“ der Bildkomponente](/help/assets/image-edit.png)
 
@@ -179,28 +179,28 @@ Der Editor für die Bearbeitung im Kontext kann auch zum Ändern des Bildes verw
 
 Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Beschneidungs-, Drehungs- und Upload-Optionen zu definieren, die der Inhaltsautor bei Verwendung dieser Komponente hat.
 
-### Registerkarte „Allgemein“ {#main-tab}
+### Registerkarte „Haupt“ {#main-tab}
 
-Auf der Registerkarte **Allgemein** können Sie eine Liste der Breiten in Pixel für das Bild definieren, und die Komponente lädt automatisch die passende Breite basierend auf der Browser-Größe. Dies ist ein wichtiger Teil der [responsiven Funktionen](#responsive-features) der Bildkomponente.
+Auf der Registerkarte **Haupt** können Sie eine Liste der Breiten in Pixel für das Bild definieren, und die Komponente lädt automatisch die passende Breite basierend auf der Browser-Größe. Dies ist ein wichtiger Teil der [responsiven Funktionen](#responsive-features) der Bildkomponente.
 
 Darüber hinaus können Sie festlegen, welche allgemeinen Komponentenoptionen automatisch aktiviert oder deaktiviert werden, wenn der Autor die Komponente zu einer Seite hinzufügt.
 
-![Registerkarte „Allgemein“ im Dialogfeld „Design“ der Bildkomponente](/help/assets/image-design-main.png)
+![Registerkarte „Haupt“ im Dialogfeld „Design“ der Bildkomponente](/help/assets/image-design-main.png)
 
-* **Aktivieren Sie DM-Funktionen** . Wenn diese Option aktiviert ist, sind die  [dynamischen Medienfunktionen ](#dynamic-media) verfügbar.
-* **Verzögertes Laden**  aktivieren: Legen Sie fest, ob beim Hinzufügen der Bildkomponente zu einer Seite die Option &quot;Verzögertes Laden&quot;automatisch aktiviert ist.
-* **Bild ist dekorativ**  - Legen Sie fest, ob die Option für dekoratives Bild automatisch aktiviert wird, wenn die Bildkomponente einer Seite hinzugefügt wird.
-* **Alternativtext aus DAM** abrufen: Legen Sie fest, ob die Option zum Abrufen des alternativen Textes aus dem DAM automatisch aktiviert ist, wenn die Bildkomponente einer Seite hinzugefügt wird.
-* **Bildunterschrift aus DAM**  abrufen: Legen Sie fest, ob die Option zum Abrufen der Bildunterschrift aus dem DAM automatisch aktiviert ist, wenn die Bildkomponente einer Seite hinzugefügt wird.
-* **Bildunterschrift als Popup**  anzeigen: Legen Sie fest, ob die Option zum Anzeigen der Bildunterschrift als Popup beim Hinzufügen der Bildkomponente zu einer Seite automatisch aktiviert ist.
-* **UUID-Verfolgung**  deaktivieren: Aktivieren Sie diese Option, um die Verfolgung der UUID des Bild-Assets zu deaktivieren.
-* **Breite** : Definiert eine Liste der Breite in Pixel für das Bild und lädt die Komponente automatisch die am besten geeignete Breite je nach Browsergröße.
+* **DM-Funktionen aktivieren** – Wenn diese Option aktiviert ist, sind die [Dynamic Media-Funktionen](#dynamic-media) verfügbar.
+* **Lazy Loading aktivieren** – Festlegen, ob die Option für verzögertes Laden (Lazy Loading) automatisch aktiviert ist, wenn die Bildkomponente einer Seite hinzugefügt wird.
+* **Bild ist dekorativ** – Festlegen, ob die Option für dekorative Bilder automatisch aktiviert ist, wenn die Bildkomponente einer Seite hinzugefügt wird.
+* **Alternativtext von DAM abrufen** – Festlegen, ob die Option zum Abrufen des Alternativtexts aus DAM automatisch aktiviert ist, wenn die Bildkomponente einer Seite hinzugefügt wird.
+* **Beschriftung aus DAM abrufen** – Festlegen, ob die Option zum Abrufen der Beschriftung aus DAM automatisch aktiviert ist, wenn die Bildkomponente einer Seite hinzugefügt wird.
+* **Beschriftung als Pop-up anzeigen** – Festlegen, ob die Option zum Anzeigen der Bildbeschriftung als Popup automatisch aktiviert ist, wenn die Bildkomponente einer Seite hinzugefügt wird.
+* **UUID-Tracking deaktivieren** – Option aktivieren, um das Tracking der UUID des Bild-Assets zu deaktivieren.
+* **Breiten** – Definiert eine Liste der Breiten in Pixel für das Bild und die Komponente lädt automatisch die passende Breite basierend auf der Größe des Browsers.
    * Tippen oder klicken Sie auf die Schaltfläche **Hinzufügen**, um eine weitere Größe hinzuzufügen.
       * Verwenden Sie die Griffpunkte, um die Reihenfolge der Größen neu anzuordnen.
       * Verwenden Sie das Symbol **Löschen**, um eine Breite zu entfernen.
    * Standardmäßig wird das Laden von Bildern verzögert, bis sie sichtbar werden.
-      * Wählen Sie die Option **Lazy Loading deaktivieren**, um die Bilder schon beim Laden der Seite zu laden.
-* **JPEG-Qualität** : Der Qualitätsfaktor (in Prozent zwischen 0 und 100) für transformierte (z. B. skalierte oder zugeschnittene) JPEG-Bilder.
+      * Wählen Sie die Option **Lazy Loading deaktivieren** aus, um die Bilder schon beim Laden der Seite zu laden.
+* **JPEG-Qualität** – Der Qualitätsfaktor (in Prozent von 0 bis 100) für umgewandelte (z. B. skalierte oder zugeschnittene) JPEG-Bilder.
 
 ### Registerkarte „Funktionen“ {#features-tab}
 
@@ -217,7 +217,7 @@ Auf der Registerkarte **Funktionen** können Sie festlegen, welche Optionen den 
    ![Registerkarte „Funktionen“ im Dialogfeld „Design“ der Bildkomponente](/help/assets/image-design-features-orientation.png)
 
 * **Drehen**
-Verwenden Sie diese Option, damit der Inhaltsautor die Option  
+Verwenden Sie diese Option, damit der Inhaltsautor die Option 
 **Nach rechts drehen** verwenden kann.
 * **Spiegeln**
 Verwenden Sie diese Option, damit der Inhaltsautor die Optionen 
@@ -252,6 +252,6 @@ Die Bildkomponente verwendet das Adaptive Bildservlet der Kernkomponente. [Das A
 
 >[!NOTE]
 >
->Bedingte Anforderungen über den `Last-Modified`-Header werden vom Adaptiven Bildservlet unterstützt, aber die Zwischenspeicherung des `Last-Modified`-Headers [muss im Dispatcher aktiviert werden](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#caching-http-response-headers).
+>Bedingte Anforderungen über den `Last-Modified`-Header werden vom Adaptiven Bildservlet unterstützt, aber die Zwischenspeicherung des `Last-Modified`-Headers [muss im Dispatcher aktiviert werden](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=de#caching-http-response-headers).
 >
 >Die Dispatcher-Musterkonfiguration des [AEM-Projektarchetyps](/help/developing/archetype/overview.md) enthält diese Konfiguration bereits.
