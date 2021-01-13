@@ -1,11 +1,11 @@
 ---
 title: Verwenden des AEM-Projektarchetyps
 description: Detaillierte Nutzungsanleitungen für den AEM-Projektarchetyp
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 10090b836397af3c9428f99bba72313263f34596
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2055'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,8 +24,8 @@ Natürlich gibt es viele Elemente, die in ein erfolgreiches AEM-Projekt eingehen
 
 Der Projektarchetyp erleichtert die ersten Schritte der Entwicklung in AEM. Sie haben dabei mehrere Möglichkeiten.
 
-* WKND-Tutorial: Eine hervorragende Einführung in die Entwicklung in AEM, einschließlich der Nutzung des Archetyps, finden Sie im Tutorial [Erste Schritte mit AEM Sites - WKND-Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html). Es bietet ein praktisches Beispiel dafür, wie Sie mithilfe des Archetyps ein einfaches Projekt implementieren können.
-* WKND Events Tutorial: Wenn Sie besonders an der Entwicklung von Single Page Applications (SPA) in AEM interessiert sind, sollten Sie sich das entsprechende [WKND Events Tutorial](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html) ansehen.
+* WKND-Tutorial: Eine hervorragende Einführung in die Entwicklung in AEM, einschließlich der Nutzung des Archetyps, finden Sie im Tutorial [Erste Schritte mit AEM Sites - WKND-Tutorial](https://docs.adobe.com/content/help/de-DE/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html). Es bietet ein praktisches Beispiel dafür, wie Sie mithilfe des Archetyps ein einfaches Projekt implementieren können.
+* WKND Events Tutorial: Wenn Sie besonders an der Entwicklung von Single Page Applications (SPA) in AEM interessiert sind, sollten Sie sich das entsprechende [WKND Events Tutorial](https://helpx.adobe.com/de/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html) ansehen.
 * Herunterladen und selbst starten: Sie können den aktuellen Projektarchetyp, der auf GitHub verfügbar ist, einfach herunterladen und Ihr erstes Projekt erstellen, indem Sie [die folgenden einfachen Schritte ausführen](#how-to-use-the-archetype).
 
 ## Was Sie mit dem Archetyp erhalten {#what-you-get}
@@ -47,13 +47,13 @@ Die in Maven dargestellten Module des AEM-Archetyps werden als Inhaltspakete ber
 
 ## Verwendung des Archetyps {#how-to-use-the-archetype}
 
-Um den Archetyp zu verwenden, müssen Sie zunächst ein Projekt erstellen, das die Module in einer lokalen Dateistruktur wie [zuvor beschrieben](#what-you-get)generiert. Im Rahmen der Projekterstellung können mehrere Eigenschaften für Ihr Projekt definiert werden, z. B. Projektname, Version usw.
+Um den Archetyp zu verwenden, müssen Sie zunächst ein Projekt erstellen, das die Module in einer lokalen Dateistruktur wie [zuvor beschrieben](#what-you-get) generiert. Im Rahmen der Projekterstellung können mehrere Eigenschaften für Ihr Projekt definiert werden, z. B. Projektname, Version usw.
 
 Beim Erstellen des Projekts mit Maven werden die Artefakte (Pakete und OSGi-Pakete) erstellt, die in AEM bereitgestellt werden können. Zusätzliche Maven-Befehle und -Profile können verwendet werden, um die Projektartefakte auf einer AEM-Instanz bereitzustellen.
 
 ### Erstellen eines Projekts {#create-project}
 
-Für den Einstieg können Sie die [AEM Eclipse-Erweiterung](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developer-tools/eclipse.html) verwenden und dem Assistenten für neue Projekte folgen. Wählen Sie dann **AEM Sample Multi-Module Project** , um eine veröffentlichte Version des Archetyps zu verwenden.
+Für den Einstieg können Sie die [AEM Eclipse-Erweiterung](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developer-tools/eclipse.html?lang=de-DE) verwenden und dem Assistenten für neue Projekte folgen. Wählen Sie dann **AEM Sample Multi-Module Project**, um eine veröffentlichte Version des Archetyps zu verwenden.
 
 Natürlich können Sie auch direkt Maven aufrufen.
 
@@ -97,7 +97,7 @@ Die folgenden Eigenschaften sind beim Erstellen eines Projekts mit dem Archetyp 
 | `groupId` |  | Maven-Basisgruppen-ID (z. B. `"com.mysite"`). |
 | `package` | *`${groupId}`* | Java-Quellpaket (z. B. `"com.mysite"`). |
 | `version` | `1.0-SNAPSHOT` | Projektversion (z. B. `1.0-SNAPSHOT`). |
-| `aemVersion` | `6.5.0` | Ziel-AEM-Version (kann `cloud` für [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) sein; oder `6.5.0` oder `6.4.4` für [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) oder On-Premise). |
+| `aemVersion` | `6.5.0` | Ziel-AEM-Version (kann `cloud` für [AEM as a Cloud Service](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/landing/home.translate.html) sein; oder `6.5.0` oder `6.4.4` für [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) oder On-Premise). |
 | `sdkVersion` | `latest` | Wenn `aemVersion=cloud`, dann kann eine [SDK](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html)-Version angegeben werden (z. B. `2020.02.2265.20200217T222518Z-200130`). |
 | `includeDispatcherConfig` | `y` | Enthält eine Dispatcher-Konfiguration für Cloud oder für AMS/On-Premise, je nach dem Wert von `aemVersion` (kann `y` oder `n` sein). |
 | `frontendModule` | `none` | Enthält ein WebPack-Frontend-Build-Modul, das die Client-Bibliotheken generiert (kann `general` oder `none` für reguläre Websites sein; kann `angular` oder `react` für eine Single Page App sein, die den [SPA-Editor](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/implementing/headless/spa/introduction.html) implementiert). |
@@ -177,7 +177,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 ### Modulstruktur {#module-structure}
 
-Der `<modules>` Abschnitt des übergeordneten POM definiert die Module, die das Projekt erstellen wird. Standardmäßig erstellt das Projekt [die zuvor definierten](#what-you-get)Standardmodule: core, ui.apps, ui.content, ui.tests und it.launcher. Im Laufe der Entwicklung eines Projekts können immer mehr Module hinzugefügt werden.
+Der `<modules>` Abschnitt des übergeordneten POM definiert die Module, die das Projekt erstellen wird. Standardmäßig erstellt das Projekt [die zuvor definierten](#what-you-get) Standardmodule: core, ui.apps, ui.content, ui.tests und it.launcher. Im Laufe der Entwicklung eines Projekts können immer mehr Module hinzugefügt werden.
 
 ### Abhängigkeiten {#dependencies}
 
@@ -185,7 +185,7 @@ Im `<dependencyManagement>` Abschnitt des übergeordneten POM werden alle Abhän
 
 #### Uber-Jar {#uber-jar}
 
-Eine der wichtigsten Abhängigkeiten ist die [AEM uber-jar](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/ht-projects-maven.html#ExperienceManagerAPIDependencies). Dies umfasst alle AEM-APIs mit nur einem einzigen Abhängigkeitseintrag für die Version von AEM.
+Eine der wichtigsten Abhängigkeiten ist die [AEM uber-jar](https://docs.adobe.com/content/help/de-DE/experience-manager-65/developing/devtools/ht-projects-maven.html#ExperienceManagerAPIDependencies). Dies umfasst alle AEM-APIs mit nur einem einzigen Abhängigkeitseintrag für die Version von AEM.
 
 >[!NOTE]
 >
@@ -195,7 +195,7 @@ Eine der wichtigsten Abhängigkeiten ist die [AEM uber-jar](https://docs.adobe.c
 
 Der AEM-Projektarchiv nutzt natürlich die Kernkomponenten.
 
-Die Kernkomponenten werden in AEM automatisch im Standard-Ausführungsmodus installiert und von der WKND-Beispiel-Site verwendet. In einem [Produktions-Ausführungsmodus](https://docs.adobe.com/content/help/en/experience-manager-65/administering/security/production-ready.html) (`nosamplecontent`) sind die Kernkomponenten nicht verfügbar.
+Die Kernkomponenten werden in AEM automatisch im Standard-Ausführungsmodus installiert und von der WKND-Beispiel-Site verwendet. In einem [Produktions-Ausführungsmodus](https://docs.adobe.com/content/help/de-DE/experience-manager-65/administering/security/production-ready.html) (`nosamplecontent`) sind die Kernkomponenten nicht verfügbar.
 
 Um die Kernkomponenten in allen Implementierungen zu nutzen, empfiehlt es sich daher, sie in das Maven-Projekt einzubeziehen.
 
@@ -207,7 +207,7 @@ Um die Kernkomponenten in allen Implementierungen zu nutzen, empfiehlt es sich d
 
 >[!NOTE]
 >
->Die Datei &quot;core.wcm.components.example&quot;enthält eine Reihe von Beispielseiten, die Beispiele für die Kernkomponenten illustrieren. Als Best Practice sollten Sie bei der Bereitstellung eines Projekts für die Produktion diese Abhängigkeit und die Einbeziehung von Unterpaketen entfernen.
+>Die Datei „core.wcm.components.example“enthält eine Reihe von Beispielseiten, die Beispiele für die Kernkomponenten illustrieren. Als Best Practice sollten Sie bei der Bereitstellung eines Projekts für die Produktion diese Abhängigkeit und die Einbeziehung von Unterpaketen entfernen.
 
 ## Testen {#testing}
 
@@ -219,8 +219,8 @@ Es gibt drei Testebenen im Projekt, und da es sich bei ihnen um unterschiedliche
    * `mvn clean verify -PintegrationTests`
 * Clientseitige Hobbes.js-Tests: Hierbei handelt es sich um JavaScript-basierte Browser-basierte Tests, die das Verhalten auf der Browserseite überprüfen. So testen Sie:
    1. Laden Sie AEM genau wie eine Seite in Ihren Browser.
-   1. Öffnen Sie die Seite im [Entwicklermodus](https://docs.adobe.com/content/help/en/experience-manager-65/developing/components/developer-mode.html) .
-   1. Öffnen Sie das linke Bedienfeld und wechseln Sie zur Registerkarte **Tests** .
+   1. Öffnen Sie die Seite im [Entwicklermodus](https://docs.adobe.com/content/help/de-DE/experience-manager-65/developing/components/developer-mode.html).
+   1. Öffnen Sie das linke Bedienfeld und wechseln Sie zur Registerkarte **Tests**.
    1. Suchen Sie die generierten **MyName-Tests** und führen Sie sie aus.
 
 ## Nächste Schritte {#next-steps}
@@ -229,5 +229,5 @@ Sie haben den AEM-Projektarchetyp erstellt und installiert. Was jetzt? Der Arche
 
 * [Komponenten durch Erweiterung der vorhandenen Kernkomponenten anpassen](/help/developing/customizing.md)
 * [Zusätzliche Vorlagen hinzufügen](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/features/templates.translate.html)
-* [Lokalisierungsstruktur anpassen](https://docs.adobe.com/content/help/en/experience-manager-65/administering/introduction/tc-prep.html)
+* [Lokalisierungsstruktur anpassen](https://docs.adobe.com/content/help/de-DE/experience-manager-65/administering/introduction/tc-prep.html)
 * [Informationen zum Front-End-Build-Modul abrufen](uifrontend.md)
