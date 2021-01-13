@@ -1,16 +1,16 @@
 ---
 title: Schaltflächenkomponente
 description: Die Kernkomponente „Schaltflächenkomponente“ ermöglicht die Erstellung und Anzeige einer Schaltfläche.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: df42f9e3fa26cbb26aa44688e26e5c9a7de4752e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '438'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Schaltflächenkomponente{#button-component}
+# Schaltflächenkomponente {#button-component}
 
 Die Kernkomponente „Schaltflächenkomponente“ ermöglicht die Erstellung und Anzeige eines Schaltflächen-Elements auf einer Seite.
 
@@ -35,11 +35,11 @@ Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in d
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Um die Schaltflächen-Komponente sowie Beispiele für die Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_button_de).
+Um die Schaltflächen-Komponente sowie Beispiele für die Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_button).
 
 ## Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Schaltflächenkomponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_button_v1_de).
+Die aktuelle technische Dokumentation zur Schaltflächenkomponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_button_v1).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
@@ -60,16 +60,16 @@ Mit dem Dialogfeld „Konfigurieren“ kann der Inhaltsautor die Schaltfläche u
    * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
-### Registerkarte „Barrierefreiheit“ {#accessibility-tab}
+### Registerkarte „Erreichbarkeit“ {#accessibility-tab}
 
-![Registerkarte „Barrierefreiheit“ im Dialogfeld „Bearbeiten“ der Schaltflächenkomponente](/help/assets/button-edit-accessibility.png)
+![Registerkarte „Erreichbarkeit“ im Dialogfeld „Bearbeiten“ der Schaltflächenkomponente](/help/assets/button-edit-accessibility.png)
 
-Auf der Registerkarte **Barrierefreiheit** können Werte für die [ARIA-Barrierefreiheits-Bezeichungen](https://www.w3.org/WAI/standards-guidelines/aria/) für die Komponente festgelegt werden.
+Auf der Registerkarte **Erreichbarkeit** können Werte für die [ARIA-Erreichbarkeits-Beschriftungen](https://www.w3.org/WAI/standards-guidelines/aria/) für die Komponente festgelegt werden.
 
-* **Bezeichnung** - Wert eines ARIA-Bezeichnungs-Attributs für die Komponente
+* **Beschriftung** - Wert eines ARIA-Beschriftungs-Attributs für die Komponente
 
 ## Dialogfeld „Design“ {#design-dialog}
 
 ### Registerkarte „Stile“ {#styles-tab}
 
-Die Schaltflächenkomponente unterstützt das AEM [Stilsystem](/help/get-started/authoring.md#component-styling).
+Die Schaltflächenkomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
