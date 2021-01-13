@@ -1,16 +1,16 @@
 ---
 title: Verwenden von Kernkomponenten
 description: '„Um mit Kernkomponenten in Ihrem eigenen Projekt produktiv zu werden, sind drei Schritte erforderlich: herunterladen und installieren, Proxy-Komponenten erstellen, die Kernstile laden und die Komponenten in Ihren Vorlagen zulassen.“'
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 10090b836397af3c9428f99bba72313263f34596
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '757'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Verwenden von Kernkomponenten{#using-core-components}
+# Verwenden von Kernkomponenten {#using-core-components}
 
 Um mit Kernkomponenten in Ihrem eigenen Projekt produktiv zu werden, sind vier Schritte erforderlich, die in den folgenden Abschnitten einzeln detailliert sind:
 
@@ -22,7 +22,7 @@ Um mit Kernkomponenten in Ihrem eigenen Projekt produktiv zu werden, sind vier S
 >[!NOTE]
 >
 >Alternativ kann auch das folgende mehrteilige Tutorial von Interesse sein, um zu erfahren, wie Sie mit der Projekteinrichtung, den Kernkomponenten, den bearbeitbaren Vorlagen, den Client-Bibliotheken und der Komponentenentwicklung von Grund auf neu beginnen können:\
->[Erste Schritte mit AEM Sites - WKND-Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+>[Erste Schritte mit AEM Sites - WKND-Tutorial](https://docs.adobe.com/content/help/de-DE/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
 
 ## Herunterladen und installieren {#download-and-install}
 
@@ -30,13 +30,13 @@ Einer der treibenden Ideen hinter den Kernkomponenten ist Flexibilität. Durch d
 
 Aus diesem Grund sind die Kernkomponenten nicht Teil des Schnellstarts, wenn Sie im Produktionsmodus (ohne Beispielinhalt) beginnen. Der erste Schritt besteht darin, [das neueste veröffentlichte Inhaltspaket von GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest) herunterzuladen und es in Ihren AEM-Umgebungen zu installieren.
 
-Es gibt verschiedene Möglichkeiten, dies zu automatisieren, aber die einfachste Möglichkeit, ein Inhaltspaket schnell auf einer Instanz zu installieren, erfolgt über den Package Manager; siehe [Installieren von Paketen](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#installing-packages). Sobald Sie außerdem eine Veröffentlichungsinstanz ausgeführt haben, müssen Sie dieses Paket für den Herausgeber replizieren. Siehe [Replizieren von Paketen](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#replicating-packages).
+Es gibt verschiedene Möglichkeiten, dies zu automatisieren, aber die einfachste Möglichkeit, ein Inhaltspaket schnell auf einer Instanz zu installieren, erfolgt über den Package Manager; siehe [Installieren von Paketen](https://docs.adobe.com/content/help/de-DE/experience-manager-65/administering/contentmanagement/package-manager.html#installing-packages). Sobald Sie außerdem eine Veröffentlichungsinstanz ausgeführt haben, müssen Sie dieses Paket für den Herausgeber replizieren. Siehe [Replizieren von Paketen](https://docs.adobe.com/content/help/de-DE/experience-manager-65/administering/contentmanagement/package-manager.html#replicating-packages).
 
 ## Proxy-Komponenten erstellen {#create-proxy-components}
 
 Aus den im Abschnitt [Proxy-Komponentenmuster](/help/developing/guidelines.md#proxy-component-pattern) erläuterten Gründen dürfen Kernkomponenten nicht direkt über den Inhalt referenziert werden. Um dies zu vermeiden, gehören alle zu einer ausgeblendeten Komponentengruppe ( `.core-wcm` oder `.core-wcm-form`), was verhindert, dass sie direkt im Editor angezeigt werden.
 
-Stattdessen müssen Site-spezifische Komponenten erstellt werden, die den gewünschten Komponentennamen und die gewünschte Gruppe definieren, die für Seitenautoren angezeigt werden sollen, und jede auf eine Kernkomponente als ihren übergeordneten Typ verweisen. Diese Site-spezifischen Komponenten werden manchmal als „Proxy-Komponenten“ bezeichnet, da sie nichts enthalten und hauptsächlich zur Definition der Version einer Komponente dienen, die für die Site verwendet werden soll. Beim Anpassen der [Kernkomponenten](/help/developing/customizing.md)spielen diese Proxy-Komponenten jedoch eine wesentliche Rolle für die Anpassung von Markup und Logik.
+Stattdessen müssen Site-spezifische Komponenten erstellt werden, die den gewünschten Komponentennamen und die gewünschte Gruppe definieren, die für Seitenautoren angezeigt werden sollen, und jede auf eine Kernkomponente als ihren übergeordneten Typ verweisen. Diese Site-spezifischen Komponenten werden manchmal als „Proxy-Komponenten“ bezeichnet, da sie nichts enthalten und hauptsächlich zur Definition der Version einer Komponente dienen, die für die Site verwendet werden soll. Beim Anpassen der [Kernkomponenten](/help/developing/customizing.md) spielen diese Proxy-Komponenten jedoch eine wesentliche Rolle für die Anpassung von Markup und Logik.
 
 Für jede Kernkomponente, die für eine Site verwendet werden soll, müssen Sie also Folgendes tun:
 
@@ -66,7 +66,7 @@ Betrachten Sie beispielsweise die [Titelkomponente der WKND-Site](https://github
 
 ## Laden der Kernstile {#load-the-core-styles}
 
-1. Erstellen Sie eine [Client-Bibliothek](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html), die alle CSS- und JS-Dateien enthält, die für Ihre Site benötigt werden, falls noch nicht geschehen.
+1. Erstellen Sie eine [Client-Bibliothek](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=de-DE), die alle CSS- und JS-Dateien enthält, die für Ihre Site benötigt werden, falls noch nicht geschehen.
 1. Fügen Sie in der Client-Bibliothek Ihrer Site die Abhängigkeiten zu den Kernkomponenten hinzu, die möglicherweise benötigt werden. Dies geschieht durch Hinzufügen einer `embed` Eigenschaft.
 
    Um beispielsweise die Client-Bibliotheken aller v1 Kernkomponenten einzubeziehen, lautet die hinzuzufügende Eigenschaft:
