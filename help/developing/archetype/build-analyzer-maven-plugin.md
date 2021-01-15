@@ -1,11 +1,11 @@
 ---
 title: Build Analyzer-Maven-Plug-in des AEM as a Cloud Service-SDK
 description: Dokumentation für das lokale Build Analyzer-Maven-Plug-in
-translation-type: ht
-source-git-commit: b95515dba74486add7f50bc8984f4358090e735c
-workflow-type: ht
-source-wordcount: '416'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 37ec5c245d3806d98dd8a8538c81fc10154a2dfc
+workflow-type: tm+mt
+source-wordcount: '425'
+ht-degree: 98%
 
 ---
 
@@ -26,3 +26,4 @@ Nachstehend finden Sie eine Tabelle mit den Analyzern, die im Rahmen dieses Schr
 | `bundle-resources` | Gibt eine Warnung aus, wenn ein Bundle Ressourcen enthält, die mit dem Sling-Bundle-Resources-Header angegeben wurden, was in der AEM as a Cloud Service-Cluster-Umgebung problematisch ist. Die Warnung sieht folgendermaßen aus:<p> </p> `[WARNING] org.acme:mybundle:0.0.1-SNAPSHOT: Found bundle resources : [/libs/sling/explorer!/resources/explorer]`<p> </p> Informationen zur Fehlerbehebung beim Konvertieren der Ressourcen in Repoinit-Anweisungen finden Sie in der [Repoinit-Dokumentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=de#repo-init). | Ja | Ja |
 | `api-regions`<p> </p>`api-regions-check-order`<p> </p>`api-regions-dependencies`<p> </p>`api-regions-duplicates` | Diese Analyzer überprüfen einige Details im Zusammenhang mit der [Konvertierung des Inhaltspakets in Feature-Modelle](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=de#deploying), wodurch Artefakte erstellt werden, die dem Sling-Feature-Modell entsprechen. Alle Fehler sollten dem Adobe-Support gemeldet werden. | Ja | Ja |
 | `api-regions-crossfeature-dups` | Überprüft, dass Kunden-OSGI-Bundles keine Export-Paketdeklarationen haben, die die öffentliche API von AEM as a Cloud Service außer Kraft setzen.<p> </p>`[WARNING] org.acme:mybundle:0.0.1-SNAPSHOT: Package overlap found between region global and bundle org.acme:mybundle:0.0.1.SNAPSHOT which comes from feature: [org.acme:myproject.analyse:slingosgifeature:0.0.1-SNAPSHOT]. Both export package: com.day.util`<p> </p>Um dieses Problem zu beheben, beenden Sie den Export eines Pakets, das Teil der öffentlichen AEM-API ist. | Ja | Ja |
+| `repoinit` | Prüft die Syntax aller Abschnitte in &quot;repoinit&quot; | Ja | Ja |
