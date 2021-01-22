@@ -2,10 +2,10 @@
 title: AMP-Unterstützung für die Kernkomponenten
 description: Die Kernkomponenten unterstützen AMP (Accelerated Mobile Pages)
 translation-type: tm+mt
-source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
+source-git-commit: a4df0c8603614cf831ffd66cbcfc1f7ef964c25b
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 100%
+source-wordcount: '558'
+ht-degree: 96%
 
 ---
 
@@ -63,5 +63,9 @@ Die AMP-Einstellungen für eine Seite können auch in den [Seiteneigenschaften](
 Bei Verwendung von AMP mit den Kernkomponenten besteht der Hauptunterschied darin, dass für AMP alle [CSS-Anweisungen inline](including-clientlibs.md#inlining) im Element `<head>` referenziert und optimiert werden müssen.
 
 Zu diesem Zweck wird eine angepasste Seitenkomponente verwendet, die nur AMP-spezifische CSS-Anweisungen für die Komponenten lädt, die auf der Seite vorhanden sind.
+
+>[!NOTE]
+>
+>Aufgrund von Einschränkungen des AMP-Designs unterstützt Adobe die Verwendung des Responsive Grid mit der AMP-Version Ihrer Seite nicht.
 
 Weitere Anforderungen und technische Details finden Sie in der [GitHub-Entwicklerdokumentation](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp).
