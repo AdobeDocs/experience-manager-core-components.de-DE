@@ -1,11 +1,11 @@
 ---
 title: AMP-Unterstützung für die Kernkomponenten
 description: Die Kernkomponenten unterstützen AMP (Accelerated Mobile Pages)
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a4df0c8603614cf831ffd66cbcfc1f7ef964c25b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '558'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -66,6 +66,6 @@ Zu diesem Zweck wird eine angepasste Seitenkomponente verwendet, die nur AMP-spe
 
 >[!NOTE]
 >
->Aufgrund von Einschränkungen des AMP-Designs unterstützt Adobe die Verwendung des Responsive Grid mit der AMP-Version Ihrer Seite nicht.
+>Aufgrund von Einschränkungen des AMP-Designs unterstützt Adobe die Verwendung des responsiven Rasters mit der AMP-Version Ihrer Seite nicht.
 
 Weitere Anforderungen und technische Details finden Sie in der [GitHub-Entwicklerdokumentation](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp).
