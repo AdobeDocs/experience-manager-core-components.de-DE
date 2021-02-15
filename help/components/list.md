@@ -2,10 +2,10 @@
 title: Listenkomponente
 description: Die Kernkomponente „Listenkomponente“ ermöglicht die einfache Erstellung dynamischer sowie statischer Listen.
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 100%
+source-wordcount: '979'
+ht-degree: 99%
 
 ---
 
@@ -188,3 +188,7 @@ Aktiviert die Option „Datum anzeigen“ im [Dialogfeld „Bearbeiten“](#edit
 ### Registerkarte „Stile“ {#styles-tab}
 
 Die Bildkomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
+
+## Adobe Client-Datenschicht {#data-layer}
+
+Die Liste-Komponente unterstützt die Client-Datenschicht der Adobe [.](/help/developing/data-layer/overview.md)
