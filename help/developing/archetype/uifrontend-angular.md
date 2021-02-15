@@ -2,7 +2,7 @@
 title: Front-End-Build für Angular-SPAs
 description: Beschreibung des Front-End-Build-Prozesses für Angular-basierte SPA-Projekte
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 100%
@@ -45,7 +45,7 @@ Falls Fehler im Zusammenhang mit CORS auftreten, sollten Sie AEM wie folgt konfi
 
 ### npm test {#npm-test}
 
-```
+```shell
 npm test
 ```
 
@@ -53,7 +53,7 @@ Mit diesem Befehl wird der Karma-Test-Runner gestartet. Weitere Informationen fi
 
 ### npm run test:debug {#npm-run-test-debug}
 
-```
+```shell
 npm run test:debug
 ```
 
@@ -61,7 +61,7 @@ Mit diesem Befehl wird der Karma-Test-Runner im interaktiven Überwachungsmodus 
 
 ### npm run build {#npm-run-build}
 
-```
+```shell
 npm run build
 ```
 
