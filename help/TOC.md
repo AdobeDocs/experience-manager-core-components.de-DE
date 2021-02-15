@@ -3,11 +3,11 @@ sub-product: AEM-Kernkomponenten
 user-guide-title: AEM-Kernkomponenten
 breadcrumb-title: Anleitung zu den Hauptkomponenten
 user-guide-description: Nutzen Sie die erweiterbaren Hauptkomponenten, damit Autoren mühelos Inhalte erstellen können.
-translation-type: ht
-source-git-commit: e32521f35f33897cd72892de393073b01ad963f1
-workflow-type: ht
-source-wordcount: '206'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: f4bed5d9d0f5387259d083fe46220208347052b3
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 96%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 100%
          + [Formulartext (v1)](components/v1/form-text-v1.md)
 + Entwickeln {#developing}
    + [Entwickeln von Kernkomponenten](developing/overview.md)
-   + [Wege zum Erfolg](developing/success.md)
+   + [Wege zum Erfolg](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
    + [WKND-Entwickler-Tutorial](https://docs.adobe.com/content/help/de-DE/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [Anpassen der Kernkomponenten](developing/customizing.md)
    + [Komponentenrichtlinien](developing/guidelines.md)
@@ -89,4 +89,5 @@ ht-degree: 100%
       + [ui.frontend.react-Modul](developing/archetype/uifrontend-react.md)
       + [ui.frontend.angular-Modul](developing/archetype/uifrontend-angular.md)
       + [ui.tests-Modul](developing/archetype/uitests.md)
+      + [it.tests-Modul](developing/archetype/ittests.md)
       + [Build Analyzer-Maven-Plug-in](developing/archetype/build-analyzer-maven-plugin.md)
