@@ -2,10 +2,10 @@
 title: Karussellkomponente
 description: Mit der Karussellkomponente kann der Inhaltsautor Inhalte in einem drehbaren Karussell präsentieren.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 100%
+source-wordcount: '1125'
+ht-degree: 99%
 
 ---
 
@@ -85,9 +85,9 @@ Auf der Registerkarte **Eigenschaften** kann der Inhaltsautor die Folien auf aut
 
 ![Registerkarte „Barrierefreiheit“ im Dialogfeld „Bearbeiten“ der Karussellkomponente](/help/assets/carousel-edit-accessibility.png)
 
-Auf der Registerkarte **Barrierefreiheit** können Werte für die [ARIA-Barrierefreiheits-Bezeichungen](https://www.w3.org/WAI/standards-guidelines/aria/) für die Komponente festgelegt werden.
+Auf der Registerkarte **Erreichbarkeit** können Werte für die [ARIA-Erreichbarkeits-Beschriftungen](https://www.w3.org/WAI/standards-guidelines/aria/) für die Komponente festgelegt werden.
 
-* **Bezeichnung** - Wert eines ARIA-Bezeichnungs-Attributs für die Komponente
+* **Beschriftung** - Wert eines ARIA-Beschriftungs-Attributs für die Komponente
 
 ## Bedienfeld auswählen {#select-panel}
 
@@ -128,3 +128,7 @@ Die Registerkarte „Zugelassene Komponenten“ funktioniert auf die gleiche Wei
 ### Registerkarte „Stile“ {#styles-tab}
 
 Die Karussellkomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
+
+## Adobe Client-Datenschicht {#data-layer}
+
+Die Karussellkomponente unterstützt die Client-Datenschicht der Adobe [a1/>](/help/developing/data-layer/overview.md)
