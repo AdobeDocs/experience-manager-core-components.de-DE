@@ -1,9 +1,9 @@
 ---
 title: AEM Projektarchetyp Front-End-Build
 description: Eine Projektvorlage für AEM-basierte Anwendungen
-translation-type: ht
-source-git-commit: 10090b836397af3c9428f99bba72313263f34596
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
+workflow-type: tm+mt
 source-wordcount: '1620'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Wenn der gesamte AEM-Projektarchetyp mit `mvn clean install -PautoInstallPackage
 
 ## Überblick über ClientLibs {#clientlibs}
 
-Das Frontend-Modul wird mithilfe einer [AEM ClientLib](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=de-DE) bereitgestellt. Beim Ausführen des NPM Build-Skripts wird die App erstellt und das aem-clientlib-generator-Paket nimmt die resultierende Buildausgabe entgegen und wandelt sie in eine solche ClientLib um.
+Das Frontend-Modul wird mithilfe einer [AEM ClientLib](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html) bereitgestellt. Beim Ausführen des NPM Build-Skripts wird die App erstellt und das aem-clientlib-generator-Paket nimmt die resultierende Buildausgabe entgegen und wandelt sie in eine solche ClientLib um.
 
 Eine ClientLib besteht aus den folgenden Dateien und Verzeichnissen:
 
@@ -166,7 +166,7 @@ Die Kategorien `clientlib-site` und `clientlib-dependencies` sind auf den Seiten
 
 Die endgültige Einbindung von Client-Bibliotheken auf der Seite „Sites“ erfolgt wie folgt:
 
-```
+```html
 <HTML>
     <head>
         <link rel="stylesheet" href="clientlib-base.css" type="text/css">
