@@ -2,10 +2,10 @@
 title: Sprachnavigationskomponente
 description: Die Sprachnavigationskomponente stellt eine Sprache/Ländernavigation für eine Site bereit, sodass Besucher zur gleichen Seite in einem anderen Gebietsschema navigieren können.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 100%
+source-wordcount: '846'
+ht-degree: 98%
 
 ---
 
@@ -104,3 +104,7 @@ Zusätzlich können Sie eine **ID** festlegen. Diese Option dient zur Kontrolle 
 * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
 ![Dialogfeld „Bearbeiten“ der Sprachnavigationskomponente](/help/assets/language-navigation-edit.png)
+
+## Adobe Client-Datenschicht {#data-layer}
+
+Die Sprachnavigationskomponente unterstützt die Client-Datenschicht der Adobe [.](/help/developing/data-layer/overview.md)
