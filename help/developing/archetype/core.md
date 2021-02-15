@@ -24,7 +24,7 @@ mvn -PautoInstallBundle clean install
 
 Nach der Ausführung sollte die Bundles-Konsole unter `http://<host>:<port>/system/console/bundles` angezeigt werden.
 
-##  Unit-Tests {#unit-tests}
+## Unit-Tests {#unit-tests}
 
 Die Unit-Tests im Kernmodul stellen klassische Komponententests des im Bundle enthaltenen Codes vor. Führen Sie zum Testen Folgendes aus:
 
