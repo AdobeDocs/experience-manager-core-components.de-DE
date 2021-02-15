@@ -2,10 +2,10 @@
 title: Inhaltsfragment-Komponente
 description: Die Kernkomponente „Inhaltsfragment-Komponente“ ermöglicht die Anzeige eines Inhaltsfragments.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 100%
+source-wordcount: '673'
+ht-degree: 98%
 
 ---
 
@@ -110,3 +110,6 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Ressourcentype
 
    * Der Sling-Ressourcentyp, der für das interne responsive Raster verwendet wird
 
+## Adobe Client-Datenschicht {#data-layer}
+
+Die Inhaltsfragment-Komponente unterstützt die Client-Datenschicht der Adobe [a1/>](/help/developing/data-layer/overview.md)
