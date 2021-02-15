@@ -1,11 +1,11 @@
 ---
 title: Bildkomponente
 description: Die Kernkomponente „Bildkomponente“ ist eine anpassungsfähige Bildkomponente mit Funktionen zur Bearbeitung im Kontext.
-translation-type: ht
-source-git-commit: c20d02aa93cce60b583a2d22c77b08ca7eb9b765
-workflow-type: ht
-source-wordcount: '2157'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
+workflow-type: tm+mt
+source-wordcount: '2170'
+ht-degree: 99%
 
 ---
 
@@ -255,3 +255,7 @@ Die Bildkomponente verwendet das Adaptive Bildservlet der Kernkomponente. [Das A
 >Bedingte Anforderungen über den `Last-Modified`-Header werden vom Adaptiven Bildservlet unterstützt, aber die Zwischenspeicherung des `Last-Modified`-Headers [muss im Dispatcher aktiviert werden](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=de#caching-http-response-headers).
 >
 >Die Dispatcher-Musterkonfiguration des [AEM-Projektarchetyps](/help/developing/archetype/overview.md) enthält diese Konfiguration bereits.
+
+## Adobe Client-Datenschicht {#data-layer}
+
+Die Image-Komponente unterstützt die Client-Datenschicht der Adobe [.](/help/developing/data-layer/overview.md)
