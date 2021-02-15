@@ -2,10 +2,10 @@
 title: Registerkarten-Komponente
 description: Die Registerkarten-Komponente ermöglicht die Erstellung mehrerer Registerkarten zum Anordnen von Inhalten auf einer Seite.
 translation-type: tm+mt
-source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '1027'
-ht-degree: 100%
+source-wordcount: '1040'
+ht-degree: 99%
 
 ---
 
@@ -96,9 +96,9 @@ Verwenden Sie die Schaltfläche **Hinzufügen**, um die Komponentenauswahl zu ö
 
 ![Registerkarte „Barrierefreiheit“ im Dialogfeld „Bearbeiten“ der Registerkarten-Komponente](/help/assets/tabs-edit-accessibility.png)
 
-Auf der Registerkarte **Barrierefreiheit** können Werte für die [ARIA-Barrierefreiheits-Bezeichungen](https://www.w3.org/WAI/standards-guidelines/aria/) für die Komponente festgelegt werden.
+Auf der Registerkarte **Erreichbarkeit** können Werte für die [ARIA-Erreichbarkeits-Beschriftungen](https://www.w3.org/WAI/standards-guidelines/aria/) für die Komponente festgelegt werden.
 
-* **Bezeichnung** - Wert eines ARIA-Bezeichnungs-Attributs für die Komponente
+* **Beschriftung** - Wert eines ARIA-Beschriftungs-Attributs für die Komponente
 
 ## Bedienfeld auswählen {#select-panel}
 
@@ -133,3 +133,7 @@ Die Registerkarte „Zugelassene Komponenten“ funktioniert auf die gleiche Wei
 ### Registerkarte „Stile“ {#styles-tab}
 
 Die Registerkarten-Komponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
+
+## Adobe Client-Datenschicht {#data-layer}
+
+Die Tabs-Komponente unterstützt die Client-Datenschicht der Adobe [.](/help/developing/data-layer/overview.md)
