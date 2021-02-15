@@ -2,10 +2,10 @@
 title: Accordion-Komponente
 description: Die Kernkomponente „Accordion“ ermöglicht die Erstellung einer Sammlung von Bedienfeldern, die auf der Seite in einem Accordion angeordnet sind.
 translation-type: tm+mt
-source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 100%
+source-wordcount: '1067'
+ht-degree: 99%
 
 ---
 
@@ -125,3 +125,7 @@ Die Registerkarte „Zugelassene Komponenten“ funktioniert auf die gleiche Wei
 ### Registerkarte „Stile“ {#styles-tab}
 
 Die Accordion-Komponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
+
+## Adobe Client-Datenschicht {#data-layer}
+
+Die Akkordeon-Komponente unterstützt die Client-Datenschicht der Adobe [.](/help/developing/data-layer/overview.md)
