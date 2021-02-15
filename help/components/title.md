@@ -2,10 +2,10 @@
 title: Titelkomponente
 description: Die Kernkomponente „Titelkomponente“ ist eine Komponente für Abschnittsüberschriften, die eine Bearbeitung im Kontext ermöglicht.
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 100%
+source-wordcount: '569'
+ht-degree: 98%
 
 ---
 
@@ -82,3 +82,7 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die standardmäßi
 ### Registerkarte „Stile“ {#styles-tab}
 
 Die Titelkomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
+
+## Adobe Client-Datenschicht {#data-layer}
+
+Die Title-Komponente unterstützt die Client-Datenschicht der Adobe [.](/help/developing/data-layer/overview.md)
