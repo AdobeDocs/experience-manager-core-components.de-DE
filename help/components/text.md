@@ -2,10 +2,10 @@
 title: Textkomponente
 description: Die Textkomponente ist eine Komponente zur Bearbeitung und Zusammensetzung von Rich-Texten, die eine direkte Bearbeitung ermöglicht.
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '2200'
-ht-degree: 100%
+source-wordcount: '2213'
+ht-degree: 99%
 
 ---
 
@@ -369,3 +369,7 @@ Die Option zum Einfügen von Sonderzeichen kann für die Komponente aktiviert od
 ## Registerkarte „Stile“ {#styles-tab}
 
 Die Textkomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
+
+## Adobe Client-Datenschicht {#data-layer}
+
+Die Textkomponente unterstützt die Client-Datenschicht der Adobe [.](/help/developing/data-layer/overview.md)
