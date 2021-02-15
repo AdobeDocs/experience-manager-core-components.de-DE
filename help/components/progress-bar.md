@@ -2,10 +2,10 @@
 title: Fortschrittsleistenkomponente
 description: Die Fortschrittsleistenkomponente visualisiert den Fortschritt bei der Erreichung eines Ziels.
 translation-type: tm+mt
-source-git-commit: cba1d898d7789af7f4045ef9aa052b4da6a6b33a
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 100%
+source-wordcount: '338'
+ht-degree: 97%
 
 ---
 
@@ -55,3 +55,7 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 ### Registerkarte „Stile“ {#styles-tab}
 
 Die Fortschrittsleistenkomponente unterstützt das [Stilsystem](/help/get-started/authoring.md#component-styling) von AEM.
+
+## Adobe Client-Datenschicht {#data-layer}
+
+Die Fortschrittsleistenkomponente unterstützt die Client-Datenschicht der Adobe [.](/help/developing/data-layer/overview.md)
