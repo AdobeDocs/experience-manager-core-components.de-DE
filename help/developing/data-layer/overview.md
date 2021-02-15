@@ -2,10 +2,10 @@
 title: Verwenden der Adobe Client-Datenschicht in Verbindung mit den Kernkomponenten
 description: Verwenden der Adobe Client-Datenschicht in Verbindung mit den Kernkomponenten
 translation-type: tm+mt
-source-git-commit: 1ada05d5089ccef95d41d47468776654e397f31d
+source-git-commit: 57582c5c938e0f345b27785bd6fd6d5ed5454bd0
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 100%
+source-wordcount: '974'
+ht-degree: 91%
 
 ---
 
@@ -41,7 +41,7 @@ Um die Datenschicht manuell zu aktivieren, müssen Sie eine [kontextabhängige K
 
 1. Fügen Sie eine `sling:configRef`-Eigenschaft zum Knoten `jcr:content` Ihrer Site hinzu, dies unterhalb von `/content` (z. B. `/content/<mySite>/jcr:content`), und legen Sie für sie `/conf/<mySite>` fest.
 
-1. Sie können verifizieren, ob die Aktivierung erfolgreich war, indem Sie eine Seite der Site außerhalb des Editors laden. Überprüfen Sie die Seitenquelle. Das Tag `<body>` sollte das Attribut `data-cmp-data-layer-enabled` enthalten. 
+1. Nach der Aktivierung können Sie die Aktivierung überprüfen, indem Sie eine Seite der Site außerhalb des Editors laden, z. B. indem Sie die Option **Ansicht als Veröffentlicht** im Editor verwenden. Überprüfen Sie die Seitenquelle. Das Tag `<body>` sollte das Attribut `data-cmp-data-layer-enabled` enthalten. 
 
    ```html
    <body class="page basicpage" id="page-id" data-cmp-data-layer-enabled>
@@ -62,6 +62,28 @@ Um die Datenschicht manuell zu aktivieren, müssen Sie eine [kontextabhängige K
    ```javascript
    window.adobeDataLayer.getState();
    ```
+
+## Unterstützte Komponenten {#supported-components}
+
+Die folgenden Komponenten unterstützen die Datenschicht.
+
+* [Akkordeon](/help/components/accordion.md)
+* [Breadcrumb](/help/components/breadcrumb.md)
+* [Schaltfläche](/help/components/button.md)
+* [Karussell](/help/components/carousel.md)
+* [Inhaltsfragment](/help/components/content-fragment-component.md)
+* [Bild](/help/components/image.md)
+* [Sprachnavigation](/help/components/language-navigation.md)
+* [Liste](/help/components/list.md)
+* [Navigation](/help/components/navigation.md)
+* [Seite](/help/components/page.md)
+* [Fortschrittsleiste](/help/components/progress-bar.md)
+* [Registerkarten](/help/components/tabs.md)
+* [Teaser](/help/components/teaser.md)
+* [Text](/help/components/text.md)
+* [Titel](/help/components/title.md)
+
+Siehe auch die von den Komponenten ausgelösten [Ereignis.](#events-components)
 
 ## Datenschemas der Hauptkomponenten {#data-schemas}
 
@@ -197,6 +219,34 @@ id: {
 Das folgende [Ereignis](#events) ist für das Asset-Schema relevant:
 
 * `cmp:click`
+
+### Inhaltsfragment-Schema {#content-fragment}
+
+Das Inhaltsfragment-Schema wird von der Komponente [Inhaltsfragment verwendet.](/help/components/content-fragment-component.md)
+
+Das Inhaltsfragment-Schema wird wie folgt definiert:
+
+```javascript
+id: {
+    @type
+    repo:modifyDate
+    dc:title
+    dc:description
+    xdm:text
+    xdm:linkURL
+    parentId
+    elements            // array of the Content Fragment elements
+}
+```
+
+Das für das Inhaltsfragment-Element verwendete Schema lautet wie folgt:
+
+```javascript
+{
+    xdm:title           // title
+    xdm:text            // text
+}
+```
 
 ## Kernkomponenten-Ereignisse {#events}
 
