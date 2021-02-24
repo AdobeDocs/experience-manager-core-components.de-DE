@@ -2,7 +2,7 @@
 title: Kernkomponenten-Versionen
 description: Kernkomponenten werden als Versionen veröffentlicht, die mehr als eine Version derselben Kernkomponenten enthalten können. In diesem Dokument wird erläutert, welche Versionen veröffentlicht werden und wie die Kompatibilität mit Kernkomponenten und AEM verstanden werden kann.
 translation-type: tm+mt
-source-git-commit: 0f188a1d380e29674c8c8c6a6c9e773e0276743f
+source-git-commit: 3c5749d6660af1ad94f4911f261951e0369fa139
 workflow-type: tm+mt
 source-wordcount: '1971'
 ht-degree: 97%
@@ -12,7 +12,7 @@ ht-degree: 97%
 
 # Kernkomponenten-Versionen {#core-components-versions}
 
-Die aktuelle Version der Kernkomponenten ist 2.14.0 und mit [AEM as a Cloud Service](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/landing/home.translate.html)- und [On-Premise-AEM](https://docs.adobe.com/content/help/de-DE/experience-manager-65/user-guide/home.html)-Installationen kompatibel.
+Die aktuelle Version der Kernkomponenten ist 2.15.0 und mit [AEM as a Cloud Service](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/landing/home.translate.html)- und [On-Premise-AEM](https://docs.adobe.com/content/help/de-DE/experience-manager-65/user-guide/home.html)-Installationen kompatibel.
 
 ## Versionsverlauf und Kompatibilität {#release-history-and-compatibility}
 
