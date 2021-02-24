@@ -2,10 +2,10 @@
 title: Seitenkomponente
 description: Die Seitenkomponente ist eine Erweiterungskomponente für Seiten, die mit dem Vorlageneditor arbeitet und es ermöglicht, Seitenkopf-/Fußzeilen- und Strukturkomponenten mit dem Vorlageneditor zusammenzustellen.
 translation-type: tm+mt
-source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
+source-git-commit: 2748fea0aca82b1262585b3f8c191f61607f7735
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 98%
+source-wordcount: '691'
+ht-degree: 81%
 
 ---
 
@@ -16,9 +16,13 @@ Die Seitenkomponente ist eine Erweiterungskomponente für Seiten, die mit dem [V
 
 ## Verwendung {#usage}
 
-Die Seitenkomponente bildet die Grundlage aller Seiten, die mit den Kernkomponenten entworfen wurden, sowie bearbeitbarer Vorlagen. Mithilfe der Seitenkomponente können Kopfzeilen, Fußzeilen und der Struktur der Seite als Vorlage unter Verwendung der anderen Kernkomponenten definiert werden.
+Die Seitenkomponente bildet die Grundlage für alle Seiten, die mit den Core-Komponenten und editierbaren Vorlagen entworfen wurden. Mithilfe der Seitenkomponente können Kopf- und Fußzeilen sowie die Seitenstruktur mithilfe der anderen Kernkomponenten als Vorlage definiert werden.
 
-Im [Dialogfeld „Design“](#design-dialog) können benutzerdefinierte Client-seitige Bibliotheken für die Seite definiert werden. Im Gegensatz zu anderen Komponenten, die ein Dialogfeld „Bearbeiten“ haben, auf das direkt von der Komponente aus zugegriffen werden kann, weil die Komponente die Seite selbst ist, ist das [Dialogfeld „Bearbeiten“](#edit-dialog) der Seitenkomponente das Fenster „Seiteneigenschaften“.
+Im [Dialogfeld „Design“](#design-dialog) können benutzerdefinierte Client-seitige Bibliotheken für die Seite definiert werden. Im Gegensatz zu anderen Komponenten, bei denen ein Bearbeitungsdialogfeld direkt von der Komponente aus aufgerufen werden kann, da die Seitenkomponente die Seite selbst ist, ist das Dialogfeld [Bearbeiten](#edit-dialog) der Seitenkomponente das Fenster mit den Seiteneigenschaften.
+
+## Progressive Web-App-Unterstützung {#pwa-support}
+
+In Version 2.15.0 der Core-Komponenten wurde die Unterstützung für AEM integrierten [Progressive Web Apps (PWA) Features](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html) in der Seitenkomponente eingeführt. Mit einer einfachen Konfiguration auf Site-Ebene, verwandeln Sie Ihre AEM Erlebnis in eine PWA!
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
