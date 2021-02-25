@@ -2,9 +2,9 @@
 title: Seitenkomponente
 description: Die Seitenkomponente ist eine Erweiterungskomponente für Seiten, die mit dem Vorlageneditor arbeitet und es ermöglicht, Seitenkopf-/Fußzeilen- und Strukturkomponenten mit dem Vorlageneditor zusammenzustellen.
 translation-type: tm+mt
-source-git-commit: 2748fea0aca82b1262585b3f8c191f61607f7735
+source-git-commit: f4a45b2af87e5a5f0396b335c65856ce821455c9
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '683'
 ht-degree: 81%
 
 ---
@@ -22,7 +22,7 @@ Im [Dialogfeld „Design“](#design-dialog) können benutzerdefinierte Client-s
 
 ## Progressive Web-App-Unterstützung {#pwa-support}
 
-In Version 2.15.0 der Core-Komponenten wurde die Unterstützung für AEM integrierten [Progressive Web Apps (PWA) Features](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html) in der Seitenkomponente eingeführt. Mit einer einfachen Konfiguration auf Site-Ebene, verwandeln Sie Ihre AEM Erlebnis in eine PWA!
+Mit Version 2.15.0 der Core-Komponenten wurde die Unterstützung für AEM als integrierte progressive Web-Apps (PWA)-Funktionen des Cloud Service eingeführt. Mit einer einfachen Konfiguration auf Site-Ebene, verwandeln Sie Ihre AEM Erlebnis in eine PWA!
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
