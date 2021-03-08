@@ -1,11 +1,11 @@
 ---
 title: Registerkarten-Komponente
 description: Die Registerkarten-Komponente ermöglicht die Erstellung mehrerer Registerkarten zum Anordnen von Inhalten auf einer Seite.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1040'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Im [Dialogfeld „Bearbeiten“](#edit-dialog) kann der Inhaltsautor mehrere Reg
 
 ## Deep-Link auf ein Bedienfeld {#deep-linking}
 
-Die Registerkarten- und [Accordion-Komponenten](accordion.md) unterstützen Deep-Links zu einem Bedienfeld innerhalb der Komponente.
+Die Registerkarten- und [Akkordeon-Komponenten](accordion.md) unterstützen Deep-Links zu einem Bedienfeld innerhalb der Komponente.
 
 Gehen Sie hierfür wie folgt vor:
 
@@ -79,15 +79,15 @@ Verwenden Sie die Schaltfläche **Hinzufügen**, um die Komponentenauswahl zu ö
 
 >[!TIP]
 >
->Wenn der Viewport der Seite so reduziert wird, dass das Bearbeitungsdialogfeld im Vollbildmodus angezeigt wird, ist die Schaltfläche **Hinzufügen** ausgeblendet. Sie können der Registerkarten-Komponente weiterhin Komponenten hinzufügen, indem Sie sie [per Drag-and-Drop aus dem Komponenten-Browser ziehen und im Seiteneditor auf der Registerkarten-Komponente ablegen](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.translate.html#inserting-a-component).
+>Wenn der Viewport der Seite so reduziert wird, dass das Bearbeitungsdialogfeld im Vollbildmodus angezeigt wird, ist die Schaltfläche **Hinzufügen** ausgeblendet. Sie können der Registerkarten-Komponente weiterhin Komponenten hinzufügen, indem Sie sie [per Drag-and-Drop aus dem Komponenten-Browser ziehen und im Seiteneditor auf der Registerkarten-Komponente ablegen](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component).
 
 ### Registerkarte „Eigenschaften“ {#properties-tab}
 
 ![Registerkarte „Eigenschaften“ im Dialogfeld „Bearbeiten“ der Registerkarten-Komponente](/help/assets/tabs-edit-properties.png)
 
-* **Aktives Element** – Der Inhaltsautor kann definieren, welche Registerkarte beim Laden der Seite aktiv ist.
+* **Aktives Element** - Der Inhaltsautor kann definieren, welche Registerkarte beim Laden der Seite aktiv ist.
    * Mit der Option **Standard** wird die erste Registerkarte ausgewählt.
-* **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
+* **ID** - Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
    * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
    * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
@@ -96,7 +96,7 @@ Verwenden Sie die Schaltfläche **Hinzufügen**, um die Komponentenauswahl zu ö
 
 ![Registerkarte „Barrierefreiheit“ im Dialogfeld „Bearbeiten“ der Registerkarten-Komponente](/help/assets/tabs-edit-accessibility.png)
 
-Auf der Registerkarte **Erreichbarkeit** können Werte für die [ARIA-Erreichbarkeits-Beschriftungen](https://www.w3.org/WAI/standards-guidelines/aria/) für die Komponente festgelegt werden.
+Auf der Registerkarte **Barrierefreiheit** können Werte für die [ARIA-Barrierefreiheits-Beschriftungen](https://www.w3.org/WAI/standards-guidelines/aria/) für die Komponente festgelegt werden.
 
 * **Beschriftung** - Wert eines ARIA-Beschriftungs-Attributs für die Komponente
 
@@ -118,13 +118,13 @@ Nach Auswahl der Option **Bedienfeld auswählen** in der Komponenten-Symbolleist
 
 >[!NOTE]
 >
->Registerkarten können vom Autor im **Bearbeiten**-Modus nicht ausgewählt werden. Verwenden Sie den **[](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.translate.html#preview-mode)Vorschaumodus** oder die Option **[Als veröffentlicht anzeigen](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**, um so mit den Registerkarten zu interagieren, wie es ein Leser des veröffentlichten Inhalts tun würde.
+>Registerkarten können vom Autor im **Bearbeiten**-Modus nicht ausgewählt werden. Verwenden Sie den **[](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)Vorschaumodus** oder die Option **[Als veröffentlicht anzeigen](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**, um so mit den Registerkarten zu interagieren, wie es ein Leser des veröffentlichten Inhalts tun würde.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
 Im Dialogfeld „Design“ kann der Vorlagenautor definieren, welche Komponenten zu der Registerkarten-Komponente als Elemente hinzugefügt werden können. Außerdem kann er festlegen, welche benutzerdefinierten Stile dem Inhaltsautor zur Verfügung stehen.
 
-### Registerkarte „Zugelassene Komponenten“{#allowed-components-tab}
+### Registerkarte „Zugelassene Komponenten“ {#allowed-components-tab}
 
 Über die Registerkarte **Zulässige Komponenten** können Sie definieren, welche Komponenten vom Inhaltsautor als Elemente zur Registerkarten-Komponente hinzugefügt werden können.
 
@@ -136,4 +136,4 @@ Die Registerkarten-Komponente unterstützt das AEM-[Stilsystem](/help/get-starte
 
 ## Adobe Client-Datenschicht {#data-layer}
 
-Die Tabs-Komponente unterstützt die Client-Datenschicht der Adobe [.](/help/developing/data-layer/overview.md)
+Die Registerkarten-Komponente unterstützt die [Adobe Client-Datenschicht](/help/developing/data-layer/overview.md).
