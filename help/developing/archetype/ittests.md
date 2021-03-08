@@ -1,24 +1,24 @@
 ---
-title: it.tests Module of AEM Project Archetype
-description: Verwendung der AEM Project Archetype-Integrationstests
-translation-type: tm+mt
+title: it.tests-Modul des AEM-Projektarchetyps
+description: Verwendung der Integrationstests des AEM-Projektarchetyps
+translation-type: ht
 source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '75'
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
 
-# it.tests Module of the AEM Project Archetype {#ittests-module}
+# it.tests-Modul des AEM-Projektarchetyps {#ittests-module}
 
 Das Projekt umfasst drei Teststufen:
 
 * [Unit-Tests](core.md#unit-tests)
 * Integrationstests
-* [UI-Tests](uitests.md)
+* [Benutzeroberflächentests](uitests.md)
 
-In diesem Artikel werden die Integrationstests beschrieben, die im Rahmen des Moduls &quot;it.tests&quot;verfügbar sind.
+In diesem Artikel werden die im it.tests-Modul verfügbaren Integrationstests beschrieben.
 
 ## Ausführen von Integrationstests {#running-tests}
 
