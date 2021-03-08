@@ -1,11 +1,11 @@
 ---
 title: Fortschrittsleistenkomponente
 description: Die Fortschrittsleistenkomponente visualisiert den Fortschritt bei der Erreichung eines Ziels.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '338'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Mit der Fortschrittsleistenkomponente können Inhaltsautoren eine Fortschrittsle
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die in diesem Dokument beschriebene Fortschrittsleistenkomponente liegt aktuell in der Version v1 vor, die im Mai 2020im Rahmen von Version 2.9.0 der Kernkomponenten vorgestellt wurde.
+Die in diesem Dokument beschriebene Fortschrittsleistenkomponente liegt aktuell in der Version v1 vor, die im Mai 2020 im Rahmen von Version 2.9.0 der Kernkomponenten vorgestellt wurde.
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
@@ -42,8 +42,8 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 
 ![Dialogfeld „Bearbeiten“ der Fortschrittsleistenkomponente](/help/assets/progress-bar-edit.png)
 
-* **Abschluss** – Der Fortschritt in Prozent
-* **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
+* **Abschluss** - Der Fortschritt in Prozent
+* **ID** - Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
    * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
    * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
@@ -58,4 +58,4 @@ Die Fortschrittsleistenkomponente unterstützt das [Stilsystem](/help/get-starte
 
 ## Adobe Client-Datenschicht {#data-layer}
 
-Die Fortschrittsleistenkomponente unterstützt die Client-Datenschicht der Adobe [.](/help/developing/data-layer/overview.md)
+Die Fortschrittsleistenkomponente unterstützt die [Adobe Client-Datenschicht](/help/developing/data-layer/overview.md).
