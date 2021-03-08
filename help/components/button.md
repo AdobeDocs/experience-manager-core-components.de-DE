@@ -1,11 +1,11 @@
 ---
 title: Schaltflächenkomponente
 description: Die Kernkomponente „Schaltflächenkomponente“ ermöglicht die Erstellung und Anzeige einer Schaltfläche.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '451'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -55,16 +55,16 @@ Mit dem Dialogfeld „Konfigurieren“ kann der Inhaltsautor die Schaltfläche u
 * **Link** - Link zu einer Inhaltsseite in AEM, einer externen Ressource oder einem Anker
    * Wählen Sie im Dialogfeld **Auswahl** einen Pfad in AEM aus.
 * **Symbol** - Bezeichner für die Anzeige eines Symbols auf der Schaltfläche
-* **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
+* **ID** - Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
    * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
    * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
-### Registerkarte „Erreichbarkeit“ {#accessibility-tab}
+### Registerkarte „Barrierefreiheit“ {#accessibility-tab}
 
-![Registerkarte „Erreichbarkeit“ im Dialogfeld „Bearbeiten“ der Schaltflächenkomponente](/help/assets/button-edit-accessibility.png)
+![Registerkarte „Barrierefreiheit“ im Dialogfeld „Bearbeiten“ der Schaltflächenkomponente](/help/assets/button-edit-accessibility.png)
 
-Auf der Registerkarte **Erreichbarkeit** können Werte für die [ARIA-Erreichbarkeits-Beschriftungen](https://www.w3.org/WAI/standards-guidelines/aria/) für die Komponente festgelegt werden.
+Auf der Registerkarte **Barrierefreiheit** können Werte für die [ARIA-Barrierefreiheits-Beschriftungen](https://www.w3.org/WAI/standards-guidelines/aria/) für die Komponente festgelegt werden.
 
 * **Beschriftung** - Wert eines ARIA-Beschriftungs-Attributs für die Komponente
 
@@ -76,4 +76,4 @@ Die Schaltflächenkomponente unterstützt das AEM-[Stilsystem](/help/get-started
 
 ## Adobe Client-Datenschicht {#data-layer}
 
-Die Schaltflächenkomponente unterstützt die Client-Datenschicht der Adobe [.](/help/developing/data-layer/overview.md)
+Die Schaltflächenkomponente unterstützt die [Adobe Client-Datenschicht](/help/developing/data-layer/overview.md).
