@@ -1,16 +1,16 @@
 ---
 title: Sprachnavigationskomponente
 description: Die Sprachnavigationskomponente stellt eine Sprache/Ländernavigation für eine Site bereit, sodass Besucher zur gleichen Seite in einem anderen Gebietsschema navigieren können.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '846'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Sprachnavigationskomponente{#language-navigation-component}
+# Sprachnavigationskomponente {#language-navigation-component}
 
 Die Sprachnavigationskomponente stellt eine Sprache/Ländernavigation für eine Site bereit, sodass Besucher zur gleichen Seite in einem anderen Gebietsschema navigieren können.
 
@@ -21,7 +21,7 @@ Webseiten werden oft in verschiedenen Sprachen für verschiedene Regionen angebo
 * Ein Beispiel dafür, wie die Lokalisierungsfunktion der Sprachnavigationskomponente funktioniert, finden Sie [unten](#example).
 * Ein Beispiel dafür, wie die Lokalisierungsfunktionen der anderen Kernkomponenten zusammenarbeiten, finden Sie auf der Seite [Kernkomponenten](/help/get-started/localization.md) unter „Lokalisierungsfunktionen“.
 
-Das Dialogfeld [Bearbeiten](#edit-dialog) ermöglicht die Definition des globalen Site-Navigationsstamms sowie die Festlegung, wie tief in die Struktur die Navigation gehen soll. Im Dialogfeld [Design](#design-dialog)kann der Vorlagenautor die Standardwerte für dieselben Optionen festlegen.
+Das Dialogfeld [Bearbeiten](#edit-dialog) ermöglicht die Definition des globalen Site-Navigationsstamms sowie die Festlegung, wie tief in die Struktur die Navigation gehen soll. Im Dialogfeld [Design](#design-dialog) kann der Vorlagenautor die Standardwerte für dieselben Optionen festlegen.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
@@ -107,4 +107,4 @@ Zusätzlich können Sie eine **ID** festlegen. Diese Option dient zur Kontrolle 
 
 ## Adobe Client-Datenschicht {#data-layer}
 
-Die Sprachnavigationskomponente unterstützt die Client-Datenschicht der Adobe [.](/help/developing/data-layer/overview.md)
+Die Sprachnavigationskomponente unterstützt die [Adobe Client-Datenschicht](/help/developing/data-layer/overview.md).
