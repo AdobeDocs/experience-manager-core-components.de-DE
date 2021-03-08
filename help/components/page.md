@@ -1,28 +1,28 @@
 ---
 title: Seitenkomponente
 description: Die Seitenkomponente ist eine Erweiterungskomponente für Seiten, die mit dem Vorlageneditor arbeitet und es ermöglicht, Seitenkopf-/Fußzeilen- und Strukturkomponenten mit dem Vorlageneditor zusammenzustellen.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f4a45b2af87e5a5f0396b335c65856ce821455c9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '683'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 
-# Seitenkomponente{#page-component}
+# Seitenkomponente {#page-component}
 
 Die Seitenkomponente ist eine Erweiterungskomponente für Seiten, die mit dem [Vorlageneditor](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/features/templates.translate.html) arbeitet und es ermöglicht, Seitenkopf-/Fußzeilen- und Strukturkomponenten mit dem Vorlageneditor zusammenzustellen.
 
 ## Verwendung {#usage}
 
-Die Seitenkomponente bildet die Grundlage für alle Seiten, die mit den Core-Komponenten und editierbaren Vorlagen entworfen wurden. Mithilfe der Seitenkomponente können Kopf- und Fußzeilen sowie die Seitenstruktur mithilfe der anderen Kernkomponenten als Vorlage definiert werden.
+Die Seitenkomponente bildet die Grundlage aller Seiten, die mit den Kernkomponenten entworfen wurden, sowie bearbeitbarer Vorlagen. Mithilfe der Seitenkomponente können Kopfzeilen, Fußzeilen und die Struktur der Seite unter Verwendung der anderen Kernkomponenten als Vorlage definiert werden.
 
-Im [Dialogfeld „Design“](#design-dialog) können benutzerdefinierte Client-seitige Bibliotheken für die Seite definiert werden. Im Gegensatz zu anderen Komponenten, bei denen ein Bearbeitungsdialogfeld direkt von der Komponente aus aufgerufen werden kann, da die Seitenkomponente die Seite selbst ist, ist das Dialogfeld [Bearbeiten](#edit-dialog) der Seitenkomponente das Fenster mit den Seiteneigenschaften.
+Im [Dialogfeld „Design“](#design-dialog) können benutzerdefinierte Client-seitige Bibliotheken für die Seite definiert werden. Im Gegensatz zu anderen Komponenten, die ein Dialogfeld „Bearbeiten“ haben, auf das direkt von der Komponente aus zugegriffen werden kann, weil die Komponente die Seite selbst ist, ist das [Dialogfeld „Bearbeiten“](#edit-dialog) der Seitenkomponente das Fenster „Seiteneigenschaften“.
 
-## Progressive Web-App-Unterstützung {#pwa-support}
+## Unterstützung Progressiver Web Apps {#pwa-support}
 
-Mit Version 2.15.0 der Core-Komponenten wurde die Unterstützung für AEM als integrierte progressive Web-Apps (PWA)-Funktionen des Cloud Service eingeführt. Mit einer einfachen Konfiguration auf Site-Ebene, verwandeln Sie Ihre AEM Erlebnis in eine PWA!
+Mit Version 2.15.0 der Kernkomponenten wurde die Unterstützung für die in AEM as a Cloud Service integrierten Funktionen für Progressive Web Apps (PWA) eingeführt. Mit einer einfachen Konfiguration auf Site-Ebene verwandeln Sie Ihr AEM-Erlebnis in eine PWA!
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
@@ -61,7 +61,7 @@ Da die Komponente die gesamte Seite darstellt, wird das Dialogfeld „Design“ 
 
 Mithilfe des Fensters „Seitendesign“ können Sie die zu ladenden Client-Bibliotheken sowie die Webressourcenbibliothek für die Seite definieren.
 
-* **Client-Bibliotheken** – Damit werden Kategorien der Client-Bibliothek definiert, die geladen werden. JavaScript wird am Textende hinzugefügt und das CSS wird dem Seitenkopf hinzugefügt.
+* **Client-Bibliotheken** - Damit werden Kategorien der Client-Bibliothek definiert, die geladen werden. JavaScript wird am Textende hinzugefügt und das CSS wird dem Seitenkopf hinzugefügt.
 * **JavaScript-Seitenkopf der Client-Bibliotheken**
 Definiert die Kategorien der JavaScript-Client-Bibliothek, die im Seitenkopf geladen werden.
    * Kategorien, die hier definiert werden und auch im Feld **Client-Bibliotheken** vorhanden sind, haben JavaScript, das anstelle am Textende in der Seitenkopfzeile geladen wird.
@@ -70,7 +70,7 @@ Definiert die Kategorien der JavaScript-Client-Bibliothek, die im Seitenkopf gel
 * **Client-Bibliothek der Web-Ressourcen**
 Die Kategorie der Client-Bibliothek, die verwendet wird, um Web-Ressourcen wie etwa Favicons zu bedienen.
 
-* **Zur Elementauswahl des Hauptinhalts wechseln** – Wird als Barrierefreiheitsfunktion verwendet, um direkt zum Hauptinhalt der Seite zu springen.
+* **Zur Elementauswahl des Hauptinhalts wechseln** - Wird als Barrierefreiheitsfunktion verwendet, um direkt zum Hauptinhalt der Seite zu springen.
 
 ![Dialogfeld „Design“ der Seitenkomponente](/help/assets/page-design.png)
 
@@ -92,4 +92,4 @@ Die Seitenkomponente unterstützt das AEM-[Stilsystem](/help/get-started/authori
 
 ## Adobe Client-Datenschicht {#data-layer}
 
-Die Seitenkomponente unterstützt die Client-Datenschicht der Adobe [.](/help/developing/data-layer/overview.md)
+Die Seitenkomponente unterstützt die [Adobe Client-Datenschicht](/help/developing/data-layer/overview.md).
