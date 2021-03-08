@@ -1,11 +1,11 @@
 ---
 title: ui.tests-Modul des AEM-Projektarchetyps
-description: Verwendung der AEM Projektarchiv-UI-Tests
-translation-type: tm+mt
+description: Verwendung der Benutzeroberflächentests des AEM-Projektarchetyps
+translation-type: ht
 source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '112'
-ht-degree: 26%
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ Das Projekt umfasst drei Teststufen:
 
 * [Unit-Tests](core.md#unit-tests)
 * [Integrationstests](ittests.md)
-* UI-Tests
+* Benutzeroberflächentests
 
-In diesem Artikel werden die im Modul ui.tests verfügbaren UI-Tests beschrieben.
+In diesem Artikel werden die im ui.tests-Modul verfügbaren Benutzeroberflächentests beschrieben.
 
-## Ausführen von UI-Tests {#running-tests}
+## Ausführen von Benutzeroberflächentests {#running-tests}
 
 Führen Sie zum Testen Folgendes aus:
 
@@ -32,4 +32,4 @@ Nach der Ausführung sind Berichte und Protokolle im Ordner `target/reports` ver
 
 ## Zusätzliche Optionen {#additional-options}
 
-UI-Tests können mit vielen verschiedenen Optionen ausgeführt werden, unter anderem zum kostenlosen Testen mit einem lokalen Browser und als Docker-Bild. Weitere Informationen finden Sie in der Datei [README.md des Moduls ui.tests](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/ui.tests).
+Benutzeroberflächentests können mit vielen verschiedenen Optionen ausgeführt werden, unter anderem für Headless-Tests mit einem lokalen Browser und als Docker-Image. Weitere Informationen finden Sie in der [Datei README.md des ui.tests-Moduls](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/ui.tests).
