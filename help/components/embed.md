@@ -1,16 +1,16 @@
 ---
 title: Einbettungskomponente
 description: Die Einbettungskomponente ermöglicht das Einbetten externer Inhalte in eine AEM-Inhaltsseite.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 601bee9df2a82255c92fcf30b8dacde70b0583dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1341'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
 
-# Einbettungskomponente{#embed-component}
+# Einbettungskomponente {#embed-component}
 
 Die Einbettungskomponente der Kernkomponenten ermöglicht das Einbetten externer Inhalte in eine AEM-Inhaltsseite.
 
@@ -35,7 +35,7 @@ Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in d
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Um die Einbettungskomponente auszuprobieren sowie Beispiele für ihre Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_embed_de).
+Um die Einbettungskomponente auszuprobieren sowie Beispiele für ihre Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_embed).
 
 ## Technische Details {#technical-details}
 
@@ -72,22 +72,22 @@ Entwickler können zusätzliche URL-Prozessoren hinzufügen, indem sie der [Entw
 
 ### Einbettbare Prozessoren {#embeddable}
 
-Einbettbare Prozessoren ermöglichen eine bessere Anpassung der eingebetteten Ressource, die parametrisiert werden und zusätzliche Informationen enthalten kann. Ein Autor kann aus vorkonfigurierten vertrauenswürdigen Einbettungsvariablen wählen und die Komponente wird mit einer YouTube-Einbettungsoption ausgeliefert.
+Einbettbare Prozessoren ermöglichen eine bessere Anpassung der eingebetteten Ressource, die parametrisiert werden und zusätzliche Informationen enthalten kann. Ein Autor kann aus vorkonfigurierten vertrauenswürdigen einbettbaren Prozessoren auswählen und die Komponente wird standardmäßig mit einem einbettbaren YouTube-Prozessor ausgeliefert.
 
 Im Feld **Einbettbare Prozessoren** wird der zu verwendende Prozessortyp definiert. Im Falle des einbettbaren YouTube-Prozessors können Sie dann Folgendes definieren:
 
 * **Video-ID** - Die eindeutige Video-ID der YouTube-Ressource, die Sie einbetten möchten
 * **Breite** - Die Breite des eingebetteten Videos
 * **Höhe** - Die Höhe des eingebetteten Videos
-* **Mute**  aktivieren: Dieser Parameter gibt an, ob das Video standardmäßig stummgeschaltet abgespielt wird. Durch Aktivierung dieser Funktion erhöht sich die Wahrscheinlichkeit, dass Autoplay in modernen Browsern funktioniert.
-* **Automatische Wiedergabe**  aktivieren: Dieser Parameter gibt an, ob beim Laden des Players automatisch der Beginn für das erste Video abgespielt wird. Dies ist nur bei der Veröffentlichungsinstanz oder bei Verwendung der Option **Ansicht als Veröffentlicht** in der Authoring-Instanz wirksam.
-* **Schleife**  aktivieren: Bei einem einzelnen Video gibt dieser Parameter an, ob der Player das erste Video wiederholt abspielen soll. Bei einer Wiedergabeliste spielt der Player die gesamte Wiedergabeliste ab, und beim ersten Video wird erneut der Beginn abgespielt.
-* **Inline-Wiedergabe aktivieren (iOS)**  - Dieser Parameter steuert, ob Videos unter iOS im Inline-Modus (ein) oder Vollbild (aus) in einem HTML5-Player abgespielt werden.
-* **Uneingeschränkte Videos**  - Wenn diese Option deaktiviert ist, werden verwandte Videos vom gleichen Kanal wie das gerade abgespielte Video stammen, andernfalls werden sie von einem beliebigen Kanal gesendet.
+* **Stummschaltung aktivieren** - Dieser Parameter gibt an, ob das Video standardmäßig stummgeschaltet abgespielt werden soll. Durch Aktivierung dieser Funktion erhöht sich die Wahrscheinlichkeit, dass die automatische Wiedergabe in modernen Browsern funktioniert.
+* **Automatische Wiedergabe aktivieren** - Dieser Parameter gibt an, ob das erste Video beim Laden des Players automatisch wiedergegeben wird. Dies ist nur in der Veröffentlichungsinstanz oder bei Verwendung der Option **Als veröffentlicht anzeigen** in der Autoreninstanz wirksam.
+* **Schleife aktivieren** - Bei einem einzelnen Video gibt dieser Parameter an, ob der Player das erste Video wiederholt abspielen soll. Bei einer Wiedergabeliste spielt der Player die gesamte Wiedergabeliste ab und beginnt dann wieder beim ersten Video.
+* **Inline-Wiedergabe (iOS) aktivieren** - Mit diesem Parameter wird gesteuert, ob Videos in einem HTML5-Player unter iOS inline (ein) oder im Vollbildmodus (aus) wiedergegeben werden.
+* **Unbeschränkte zugehörige Videos** - Wenn diese Option deaktiviert ist, kommen verwandte Videos aus demselben Kanal wie das gerade abgespielte Video, andernfalls kommen sie aus einem beliebigen Kanal.
 
-Beachten Sie, dass die Optionen zum Aktivieren über das [Designdialogfeld](#design-dialog) aktiviert werden müssen und als Standardwerte festgelegt werden können.
+Beachten Sie, dass die Optionen zum Aktivieren über das [Dialogfeld „Design“](#design-dialog) aktiviert werden müssen und als Standardwerte festgelegt werden können.
 
-Andere einbettbare Prozessoren weisen ähnliche Felder auf und können von einem Entwickler [unter Beachtung der Entwicklerdokumentation der Einbettungskomponente definiert werden](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component).
+Andere einbettbare Prozessoren weisen ähnliche Felder auf und können von einem Entwickler [unter Beachtung der Entwicklerdokumentation der Einbettungskomponente](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component) definiert werden.
 
 ![Dialogfeld „Bearbeiten“ der Einbettungskomponente mit Auswahl der Option „Einbettbare Prozessoren“](/help/assets/embed-embeddable.png)
 
@@ -109,9 +109,9 @@ Das HTML-Markup, das der Autor eingeben kann, wird aus Sicherheitsgründen gefil
 
 *Im Allgemeinen* werden alle Skript- und `style`-Elemente sowie alle `on*`- und `style`-Attribute aus der Ausgabe entfernt.
 
-Die Regeln sind jedoch komplizierter, da die Einbettungskomponente AEM globalen HTML AntiSamy-Filterregelsatz des Sanitärrahmens folgt, der unter `/libs/cq/xssprotection/config.xml` zu finden ist. Dies kann bei Bedarf von einem Entwickler für eine projektspezifische Konfiguration überlagert werden.
+Die Regeln sind jedoch komplizierter, da die Einbettungskomponente dem Filterregelsatz des globalen HTML-AntiSamy-Bereinigungs-Frameworks von AEM folgt, der unter `/libs/cq/xssprotection/config.xml` zu finden ist. Dies kann bei Bedarf von einem Entwickler für eine projektspezifische Konfiguration überlagert werden.
 
-Weitere Sicherheitsinformationen finden Sie in der [AEM-Entwicklerdokumentation für lokale Installationen](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/security.html) sowie in [AEM as a Cloud Service-Installationen.](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/security/home.translate.html)
+Weitere Sicherheitsinformationen finden Sie in der [AEM-Entwicklerdokumentation für lokale Installationen](https://docs.adobe.com/content/help/de-DE/experience-manager-65/developing/introduction/security.html) sowie in [AEM as a Cloud Service-Installationen.](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/security/home.translate.html)
 
 >[!NOTE]
 >Obwohl die Regeln des AntiSamy-Bereinigungs-Frameworks durch eine Überlagerung von `/libs/cq/xssprotection/config.xml` konfiguriert werden können, wirken sich diese Änderungen nicht nur auf die Einbettungs-Kernkomponente, sondern auf das gesamte HTL- und JSP-Verhalten aus.
@@ -120,26 +120,26 @@ Weitere Sicherheitsinformationen finden Sie in der [AEM-Entwicklerdokumentation 
 
 Der Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Optionen, die für den Inhaltsautor bei Verwendung der Einbettungskomponente verfügbar sind, sowie die Standardeinstellungen bei Platzierung der Einbettungskomponente zu definieren.
 
-### Registerkarte &quot;Einbettbare Typen&quot; {#embeddable-types-tab}
+### Registerkarte „Typen einbettbarer Prozessoren“ {#embeddable-types-tab}
 
 ![Dialogfeld „Design“ der Einbettungskomponente](/help/assets/embed-design.png)
 
 * **URL deaktivieren** - Deaktiviert bei Auswahl die Option **URL** für den Inhaltsautor.
 * **Einbettbare Prozessoren deaktivieren** - Deaktiviert bei Auswahl die Option **Einbettbare Prozessoren** für den Inhaltsautor, unabhängig davon, welche einbettbaren Prozessoren zulässig sind.
 * **HTML deaktivieren** - Deaktiviert bei Auswahl die **HTML**-Option für den Inhaltsautor.
-* **Zulässige Einbettungen**  - Multiselect, das definiert, welche einbettbaren Prozessoren für den Inhaltsersteller verfügbar sind, sofern die Option  **** Einbetten aktiv ist.
+* **Zulässige einbettbare Prozessoren** - Mehrfachauswahl, die definiert, welche einbettbaren Prozessoren für den Inhaltsautor verfügbar sind, sofern die Option **Einbettbare Prozessoren** aktiviert ist.
 
-### YouTube-Registerkarte {#youtube-tab}
+### Registerkarte „YouTube“ {#youtube-tab}
 
-![Registerkarte &quot;YouTube&quot;des Dialogfelds &quot;Design&quot;der Komponente &quot;Einbetten&quot;](/help/assets/embed-design-youtube.png)
+![Registerkarte „YouTube“ im Dialogfeld „Design“ der Einbettungskomponente](/help/assets/embed-design-youtube.png)
 
-* **Konfiguration des Ton-Verhaltens**  zulassen - Ermöglicht dem Inhaltsersteller, die Option &quot; **Multimedia** aktivieren&quot;in der Komponente zu konfigurieren, wenn der YouTube-Einbettungstyp ausgewählt ist
-   * **Standardwert von stumm**  - Legt bei Auswahl des YouTube-Einbettungstyps automatisch die Option  **Muteaktivieren** fest
-* **Konfiguration des autoplay-Verhaltens**  zulassen - Ermöglicht dem Inhaltsersteller die Konfiguration der Option &quot; **Autoplay** aktivieren&quot;in der Komponente, wenn der YouTube-Einbettungstyp ausgewählt ist
-   * **Standardwert der automatischen Wiedergabe** : Legt bei Auswahl des YouTube-Einbettungstyps automatisch die Option &quot; **Autoplayage** aktivieren&quot;fest
-* **Konfiguration des Schleifenverhaltens**  zulassen: Ermöglicht dem Inhaltsersteller, die Option &quot;Loopoption  **** aktivieren&quot;in der Komponente zu konfigurieren, wenn der YouTube-Einbettungstyp ausgewählt ist
-   * **Standardwert für Schleife**  - Legt die Option &quot;Schleife  **** aktivieren&quot;automatisch fest, wenn der YouTube-Einbettungstyp ausgewählt ist.
-* **Konfiguration der Inline-Wiedergabe zulassen (iOS)**  - Ermöglicht dem Inhaltsersteller, die  **Option &quot;Inline-Wiedergabe** aktivieren&quot;(iOS)in der Komponente zu konfigurieren, wenn der YouTube-Einbettungstyp ausgewählt ist
-   * **Standardwert der Inline-Wiedergabe (iOS)**  - Legt die  **Option &quot;Inline-Wiedergabe** aktivieren&quot;(iOS)automatisch fest, wenn der YouTube-Einbettungstyp ausgewählt ist
-* **Konfiguration von Inline-Videos**  zulassen - Ermöglicht es Inhaltsautoren, die Option &quot; **Uneingeschränkte verwandte** Videos&quot;in der Komponente zu konfigurieren, wenn der YouTube-Einbettungstyp ausgewählt ist
-   * **Standardwert von unbeschränkten zugehörigen Videos**  - Legt automatisch die Option &quot; **Uneingeschränkte verwandte** Videos&quot;fest, wenn der YouTube-Einbettungstyp ausgewählt ist
+* **Konfiguration des Stummschaltungsverhaltens zulassen** - Erlaubt es dem Autor von Inhalten, die Option **Stummschaltung aktivieren** in der Komponente zu konfigurieren, wenn der YouTube-Einbettungstyp ausgewählt ist.
+   * **Standardwert für die Stummschaltung** - Legt bei Auswahl des YouTube-Einbettungstyps automatisch die Option **Stummschalten aktivieren** fest.
+* **Konfiguration des automatischen Wiedergabeverhaltens zulassen** - Erlaubt es dem Autor von Inhalten, die Option **Automatische Wiedergabe aktivieren** in der Komponente zu konfigurieren, wenn der YouTube-Einbettungstyp ausgewählt ist.
+   * **Standardwert für die automatische Wiedergabe** - Legt bei Auswahl des YouTube-Einbettungstyps automatisch die Option **Automatische Wiedergabe aktivieren** fest.
+* **Konfiguration des Schleifenverhaltens zulassen** - Erlaubt es dem Autor von Inhalten, die Option **Schleife aktivieren** in der Komponente zu konfigurieren, wenn der YouTube-Einbettungstyp ausgewählt ist.
+   * **Standardwert für Schleifen** - Legt bei Auswahl des YouTube-Einbettungstyps automatisch die Option **Schleife aktivieren** fest.
+* **Konfiguration der Inline-Wiedergabe (iOS) zulassen** - Erlaubt es dem Autor von Inhalten, die Option **Inline-Wiedergabe (iOS) aktivieren** in der Komponente zu konfigurieren, wenn der YouTube-Einbettungstyp ausgewählt ist.
+   * **Standardwert für die Inline-Wiedergabe (iOS)** - Legt bei Auswahl des YouTube-Einbettungstyps automatisch die Option **Inline-Wiedergabe (iOS) aktivieren** fest.
+* **Konfiguration zugehöriger Videos zulassen** - Erlaubt es dem Autor von Inhalten, die Option **Unbeschränkte zugehörige Videos** in der Komponente zu konfigurieren, wenn der YouTube-Einbettungstyp ausgewählt ist.
+   * **Standardwert für unbeschränkte zugehörige Videos** - Legt bei Auswahl des YouTube-Einbettungstyps automatisch die Option **Unbeschränkte zugehörige Videos** fest.
