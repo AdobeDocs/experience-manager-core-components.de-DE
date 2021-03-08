@@ -1,16 +1,16 @@
 ---
 title: Breadcrumb-Komponente
 description: Die Kernkomponente „Breadcrumb-Komponente“ ist eine Navigationskomponente, die einen Breadcrumb von Links basierend auf der Position der Seite in der Inhaltshierarchie erstellt.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '722'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Breadcrumb-Komponente{#breadcrumb-component}
+# Breadcrumb-Komponente {#breadcrumb-component}
 
 Die Kernkomponente „Breadcrumb-Komponente“ ist eine Navigationskomponente, die einen Breadcrumb von Links basierend auf der Position der Seite in der Inhaltshierarchie erstellt.
 
@@ -53,16 +53,16 @@ Das Dialogfeld „Bearbeiten“ ermöglicht es dem Inhaltsautor, ausgeblendete u
 
 ![Dialogfeld „Bearbeiten“ der Breadcrumb-Komponente](/help/assets/breadcrumb-edit.png)
 
-* **Startebene für die Navigation** – Wo in der Hierarchie die Breadcrumb-Komponente beginnen soll, um zur aktuellen Seite zu gelangen. Beispiel:
+* **Startebene für die Navigation** - Wo in der Hierarchie die Breadcrumb-Komponente beginnen soll, um zur aktuellen Seite zu gelangen. Beispiel:
 
    * 0 beginnt bei `/content`
    * 1 beginnt bei `/content/<yourSite>`
    * 2 beginnt bei `/content/<yourSite>/<country>`
 
-* **Verborgene Navigationselemente anzeigen** – Zeigt Seiten an, die im Breadcrumb als ausgeblendet markiert sind (standardmäßig werden sie nicht angezeigt)
-* **Aktuelle Seite ausblenden** – Unterdrücken der aktuellen Seite im Breadcrumb (standardmäßig wird sie angezeigt)
-* **Shadowing deaktivieren** – Wenn es sich bei der Seite in der Hierarchie um einen Redirect handelt, wird anstelle der Zielseite der Name der umleitenden (Redirect)-Seite angezeigt. Weitere Informationen finden Sie unter [Unterstützung für Shadow Site-Struktur](navigation.md#shadow-structure) der Navigationskomponente.
-* **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
+* **Verborgene Navigationselemente anzeigen** - Zeigt Seiten an, die im Breadcrumb als ausgeblendet markiert sind (standardmäßig werden sie nicht angezeigt)
+* **Aktuelle Seite ausblenden** - Unterdrücken der aktuellen Seite im Breadcrumb (standardmäßig wird sie angezeigt)
+* **Shadowing deaktivieren** - Wenn es sich bei der Seite in der Hierarchie um einen Redirect handelt, wird anstelle der Zielseite der Name der umleitenden (Redirect)-Seite angezeigt. Weitere Informationen finden Sie unter [Unterstützung für Shadow Site-Struktur](navigation.md#shadow-structure) der Navigationskomponente.
+* **ID** - Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
    * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
    * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
@@ -75,16 +75,16 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Standardwerte 
 
 ![](/help/assets/breadcrumb-design.png)
 
-* **Startebene für die Navigation** – Definiert den Standardwert, für den in der Hierarchie die Breadcrumb-Komponente aufgerufen werden soll, wenn die Breadcrumb-Komponente zu einer Seite hinzugefügt wird.
-* **Verborgene Navigationselemente anzeigen** – Definiert den Standardwert der Option **Verborgene Navigationselemente anzeigen**, wenn der Seite die Breadcrumb-Komponente hinzugefügt wird.
+* **Startebene für die Navigation** - Definiert den Standardwert, für den in der Hierarchie die Breadcrumb-Komponente aufgerufen werden soll, wenn die Breadcrumb-Komponente zu einer Seite hinzugefügt wird.
+* **Verborgene Navigationselemente anzeigen** - Definiert den Standardwert der Option **Verborgene Navigationselemente anzeigen**, wenn der Seite die Breadcrumb-Komponente hinzugefügt wird.
 
    * Die Option für den Autor wird dadurch nicht aktiviert oder deaktiviert. Es wird nur der Standardwert festgelegt.
 
-* **Aktuelle Seite ausblenden** – Definiert den Standardwert der Option **Aktuelle Seite ausblenden**, wenn die Breadcrumb-Komponente einer Seite hinzugefügt wird.
+* **Aktuelle Seite ausblenden** - Definiert den Standardwert der Option **Aktuelle Seite ausblenden**, wenn die Breadcrumb-Komponente einer Seite hinzugefügt wird.
 
    * Die Option für den Autor wird dadurch nicht aktiviert oder deaktiviert. Es wird nur der Standardwert festgelegt.
 
-* **Shadowing deaktivieren** – Definiert den Standardwert der Option **Shadowing deaktivieren**, wenn die Breadcrumb-Komponente einer Seite hinzugefügt wird.
+* **Shadowing deaktivieren** - Definiert den Standardwert der Option **Shadowing deaktivieren**, wenn die Breadcrumb-Komponente einer Seite hinzugefügt wird.
 
 ### Registerkarte „Stile“ {#styles-tab}
 
@@ -92,4 +92,4 @@ Die Breadcrumb-Komponente unterstützt das AEM-[Stilsystem](/help/get-started/au
 
 ## Adobe Client-Datenschicht {#data-layer}
 
-Die Breadcrumb-Komponente unterstützt die Client-Datenschicht der Adobe [.](/help/developing/data-layer/overview.md)
+Die Breadcrumb-Komponente unterstützt die [Adobe Client-Datenschicht](/help/developing/data-layer/overview.md).
