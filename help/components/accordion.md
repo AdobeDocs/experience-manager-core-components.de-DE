@@ -1,30 +1,30 @@
 ---
-title: Accordion-Komponente
-description: Die Kernkomponente „Accordion“ ermöglicht die Erstellung einer Sammlung von Bedienfeldern, die auf der Seite in einem Accordion angeordnet sind.
-translation-type: tm+mt
+title: Akkordeon-Komponente
+description: Die Kernkomponente „Akkordeon“ ermöglicht die Erstellung einer Sammlung von Bedienfeldern, die auf der Seite in einem Akkordeon angeordnet sind.
+translation-type: ht
 source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1067'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Accordion-Komponente{#accordion-component}
+# Akkordeon-Komponente {#accordion-component}
 
-Die Kernkomponente „Accordion“ ermöglicht die Erstellung einer Sammlung von Bedienfeldern, die auf der Seite in einem Accordion angeordnet sind.
+Die Kernkomponente „Akkordeon“ ermöglicht die Erstellung einer Sammlung von Bedienfeldern, die auf der Seite in einem Akkordeon angeordnet sind.
 
 ## Verwendung {#usage}
 
-Die Kernkomponente „Accordion“ ermöglicht die Erstellung einer Sammlung von Komponenten in Form von Bedienfeldern, die auf einer Seite in einem Accordion angeordnet sind, ähnlich der [Registerkarten-Komponente](tabs.md), jedoch mit der Möglichkeit, die Bedienfelder ein- und auszublenden.
+Die Kernkomponente „Akkordeon“ ermöglicht die Erstellung einer Sammlung von Komponenten in Form von Bedienfeldern, die auf einer Seite in einem Akkordeon angeordnet sind, ähnlich der [Registerkarten-Komponente](tabs.md), jedoch mit der Möglichkeit, die Bedienfelder ein- und auszublenden.
 
-* Die Eigenschaften des Accordions können im [Dialogfeld „Konfigurieren“](#configure-dialog) definiert werden.
-* Die Reihenfolge der Bedienfelder im Accordion kann im Dialogfeld „Konfigurieren“ und im [Popover zur Bedienfeldauswahl](#select-panel-popover) definiert werden.
-* Standardwerte für die Accordion-Komponente können beim Hinzufügen zu einer Seite im [Dialogfeld „Design“](#design-dialog) konfiguriert werden.
+* Die Eigenschaften des Akkordeons können im [Dialogfeld „Konfigurieren“](#configure-dialog) definiert werden.
+* Die Reihenfolge der Bedienfelder im Akkordeon kann im Dialogfeld „Konfigurieren“ und im [Popover zur Bedienfeldauswahl](#select-panel-popover) definiert werden.
+* Standardwerte für die Akkordeon-Komponente können beim Hinzufügen zu einer Seite im [Dialogfeld „Design“](#design-dialog) konfiguriert werden.
 
 ## Deep-Link auf ein Bedienfeld {#deep-linking}
 
-Die Accordion- und [Registerkarten-Komponenten](tabs.md) unterstützen Direkt-Links zu einem Bedienfeld innerhalb der Komponente.
+Die Akkordeon- und [Registerkarten-Komponenten](tabs.md) unterstützen Direkt-Links zu einem Bedienfeld innerhalb der Komponente.
 
 Gehen Sie hierfür wie folgt vor:
 
@@ -38,7 +38,7 @@ Wird zu der URL mit der Bereichs-ID navigiert, scrollt der Browser direkt zur je
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die aktuelle Version der Accordion-Komponente ist v1, die mit Version 2.5.0 der Kernkomponenten im Juni 2019 eingeführt wurde und in diesem Dokument beschrieben wird.
+Die aktuelle Version der Akkordeon-Komponente ist v1, die mit Version 2.5.0 der Kernkomponenten im Juni 2019 eingeführt wurde und in diesem Dokument beschrieben wird.
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
@@ -50,53 +50,53 @@ Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in d
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Um die Accordion-Komponente sowie Beispiele für die Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_accordion_de).
+Um die Akkordeon-Komponente sowie Beispiele für die Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_accordion_de).
 
 ## Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Accordion-Komponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_accordion_v1_de).
+Die aktuelle technische Dokumentation zur Akkordeon-Komponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_accordion_v1_de).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
 ## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
-Mit dem Dialogfeld „Konfigurieren“ kann die Accordion-Elemente, die Bedienfelder und sein Verhalten und Aussehen für einen Besucher der Seite definieren.
+Mit dem Dialogfeld „Konfigurieren“ kann die Akkordeon-Elemente, die Bedienfelder und sein Verhalten und Aussehen für einen Besucher der Seite definieren.
 
 ### Registerkarte „Elemente“ {#items-tab}
 
-![Registerkarte „Elemente“ im Dialogfeld „Bearbeiten“ der Accordion-Komponente](/help/assets/accordion-edit-items.png)
+![Registerkarte „Elemente“ im Dialogfeld „Bearbeiten“ der Akkordeon-Komponente](/help/assets/accordion-edit-items.png)
 
 Verwenden Sie die Schaltfläche **Hinzufügen**, um die Komponentenauswahl zu öffnen und dort auszuwählen, welche Komponente als Bedienfeld hinzugefügt werden soll. Nach dem Hinzufügen wird der Liste ein Eintrag hinzugefügt, der die folgenden Spalten enthält:
 
 * **Symbol** - Das Symbol des Komponententyps des Bedienfelds zur einfachen Identifizierung in der Liste. Bewegen Sie den Mauszeiger darüber, um den vollständigen Komponentennamen als QuickInfo zu sehen.
 * **Beschreibung** - Die Beschreibung, die als Text des Bedienfelds verwendet wird und standardmäßig den Namen der für das Bedienfeld ausgewählten Komponente enthält.
-* **Entfernen** - Tippen oder klicken Sie, um das Bedienfeld aus der Accordion-Komponente zu löschen.
+* **Entfernen** - Tippen oder klicken Sie, um das Bedienfeld aus der Akkordeon-Komponente zu löschen.
 * **Neu anordnen** - Tippen oder klicken und ziehen Sie, um die Reihenfolge der Bedienfelder neu anzuordnen.
 
 >[!TIP]
 >
->Wenn der Viewport der Seite so reduziert wird, dass das Bearbeitungsdialogfeld im Vollbildmodus angezeigt wird, ist die Schaltfläche **Hinzufügen** ausgeblendet. Sie können der Accordion-Komponente weiterhin Komponenten hinzufügen, indem Sie sie [per Drag-and-Drop aus dem Komponenten-Browser ziehen und im Seiteneditor auf der Accordion-Komponente ablegen](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent).
+>Wenn der Viewport der Seite so reduziert wird, dass das Bearbeitungsdialogfeld im Vollbildmodus angezeigt wird, ist die Schaltfläche **Hinzufügen** ausgeblendet. Sie können der Akkordeon-Komponente weiterhin Komponenten hinzufügen, indem Sie sie [per Drag-and-Drop aus dem Komponenten-Browser ziehen und im Seiteneditor auf der Akkordeon-Komponente ablegen](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent).
 
 ### Registerkarte „Eigenschaften“ {#properties-tab}
 
-![Registerkarte „Hintergrund“ im Dialogfeld „Design“ der Accordion-Komponente](/help/assets/accordion-edit-properties.png)
+![Registerkarte „Hintergrund“ im Dialogfeld „Design“ der Akkordeon-Komponente](/help/assets/accordion-edit-properties.png)
 
-* **Einzelelement-Erweiterung** - Wenn diese Option ausgewählt ist, wird jeweils ein einzelnes Accordion-Element eingeblendet. Wenn Sie ein Element einblenden, werden alle anderen ausgeblendet.
+* **Einzelelement-Erweiterung** - Wenn diese Option ausgewählt ist, wird jeweils ein einzelnes Akkordeon-Element eingeblendet. Wenn Sie ein Element einblenden, werden alle anderen ausgeblendet.
 * **Erweiterte Elemente** - Diese Option definiert die Elemente, die standardmäßig beim Laden der Seite eingeblendet werden.
    * Wenn **Einzelelement-Erweiterung** ausgewählt ist, muss ein Bedienfeld ausgewählt werden. Standardmäßig wird das erste Bedienfeld ausgewählt.
    * Wenn **Einzelelement-Erweiterung** nicht ausgewählt ist, ist diese Option eine Mehrfachauswahl und optional.
-* **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
+* **ID** - Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
    * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
    * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
-## Popover „Bedienfeld auswählen“{#select-panel-popover}
+## Popover „Bedienfeld auswählen“ {#select-panel-popover}
 
-Der Inhaltsautor kann in der Komponenten-Symbolleiste die Option **Bedienfeld auswählen** verwenden, um zu einem anderes Bedienfeld zu wechseln, um es zu bearbeiten, und auch um die Reihenfolge der Registerkarten innerhalb des Accordions einfach zu ändern.
+Der Inhaltsautor kann in der Komponenten-Symbolleiste die Option **Bedienfeld auswählen** verwenden, um zu einem anderes Bedienfeld zu wechseln, um es zu bearbeiten, und auch um die Reihenfolge der Registerkarten innerhalb des Akkordeons einfach zu ändern.
 
 ![Symbol „Bedienfeld auswählen“](/help/assets/select-panel-icon.png)
 
-Nach Auswahl der Option **Bedienfeld auswählen** in der Komponentensymbolleiste werden die konfigurierten Accordion-Bedienfelder als Dropdown-Liste angezeigt.
+Nach Auswahl der Option **Bedienfeld auswählen** in der Komponentensymbolleiste werden die konfigurierten Akkordeon-Bedienfelder als Dropdown-Liste angezeigt.
 
 ![Popover „Bedienfeld auswählen“](/help/assets/select-panel-popover.png)
 
@@ -107,25 +107,25 @@ Nach Auswahl der Option **Bedienfeld auswählen** in der Komponentensymbolleiste
 
 ## Dialogfeld „Design“ {#design-dialog}
 
-Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Optionen zu definieren, die für den Inhaltsautor bei Verwendung der Accordion-Komponente verfügbar sind, sowie die Standardeinstellungen bei Platzierung der Accordion-Komponente.
+Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Optionen zu definieren, die für den Inhaltsautor bei Verwendung der Akkordeon-Komponente verfügbar sind, sowie die Standardeinstellungen bei Platzierung der Akkordeon-Komponente.
 
 ### Registerkarte „Eigenschaften“ {#properties-tab-design}
 
 ![Registerkarte „Eigenschaften“ im Dialogfeld „Design“](/help/assets/accordion-design-properties.png)
 
-* **Zulässige Überschriftenelemente** - Diese Mehrfachauswahl-Dropdown-Liste definiert die HTML-Elemente für die Überschrift des Accordion-Elements, die von einem Autor ausgewählt werden können.
-* **Standard-Überschriftenelement** - Diese Dropdown-Liste definiert das Standard-HTML-Überschriftenelement für das Accordion-Element.
+* **Zulässige Überschriftenelemente** - Diese Mehrfachauswahl-Dropdown-Liste definiert die HTML-Elemente für die Überschrift des Akkordeon-Elements, die von einem Autor ausgewählt werden können.
+* **Standard-Überschriftenelement** - Diese Dropdown-Liste definiert das Standard-HTML-Überschriftenelement für das Akkordeon-Element.
 
-### Registerkarte „Zugelassene Komponenten“{#allowed-components-tab}
+### Registerkarte „Zugelassene Komponenten“ {#allowed-components-tab}
 
-Über die Registerkarte **Zugelassene Komponenten** können Sie definieren, welche Komponenten der Accordion-Komponente vom Inhaltsautor als Elemente in Bedienfeldern hinzugefügt werden können.
+Über die Registerkarte **Zugelassene Komponenten** können Sie definieren, welche Komponenten der Akkordeon-Komponente vom Inhaltsautor als Elemente in Bedienfeldern hinzugefügt werden können.
 
 Die Registerkarte „Zugelassene Komponenten“ funktioniert auf die gleiche Weise wie die Registerkarte desselben Namens beim [Definieren der Richtlinie und Eigenschaften eines Layoutcontainers im Vorlageneditor.](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-layout-template-author)
 
 ### Registerkarte „Stile“ {#styles-tab}
 
-Die Accordion-Komponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
+Die Akkordeon-Komponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
 ## Adobe Client-Datenschicht {#data-layer}
 
-Die Akkordeon-Komponente unterstützt die Client-Datenschicht der Adobe [.](/help/developing/data-layer/overview.md)
+Die Akkordeon-Komponente unterstützt die [Adobe Client-Datenschicht](/help/developing/data-layer/overview.md).
