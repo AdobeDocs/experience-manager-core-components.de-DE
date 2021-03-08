@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: f4bed5d9d0f5387259d083fe46220208347052b3
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 96%
 
 + [Einführung in Kernkomponenten](introduction.md)
 + [Wege zum Erfolg](developing/success.md)
-+ [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library)
++ [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_de)
 + [Kernkomponenten-Versionen](versions.md)
 + Erste Schritte {#get-started}
    + [Authoring mit Kernkomponenten ](get-started/authoring.md)
@@ -68,7 +68,7 @@ ht-degree: 96%
          + [Formulartext (v1)](components/v1/form-text-v1.md)
 + Entwickeln {#developing}
    + [Entwickeln von Kernkomponenten](developing/overview.md)
-   + [Wege zum Erfolg](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
+   + [Wege zum Erfolg](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=de)
    + [WKND-Entwickler-Tutorial](https://docs.adobe.com/content/help/de-DE/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [Anpassen der Kernkomponenten](developing/customizing.md)
    + [Komponentenrichtlinien](developing/guidelines.md)
