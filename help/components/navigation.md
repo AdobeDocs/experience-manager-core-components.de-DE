@@ -1,16 +1,16 @@
 ---
 title: Navigationskomponente
 description: Mit der Navigationskomponente können Benutzer leicht durch eine globalisierte Site-Struktur navigieren.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1382'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Navigationskomponente{#navigation-component}
+# Navigationskomponente {#navigation-component}
 
 Mit der Navigationskomponente können Benutzer leicht durch eine globalisierte Site-Struktur navigieren.
 
@@ -122,16 +122,16 @@ Im Dialogfeld „Bearbeiten“ kann der Inhaltsautor die Stammseite für die Nav
 
 ![Registerkarte „Eigenschaften“ im Dialogfeld „Bearbeiten“ der Navigationskomponente](/help/assets/navigation-edit-properties.png)
 
-* **Navigationsstamm** – Die Stammseite, die zum Generieren der Navigationsstruktur verwendet wird.
+* **Navigationsstamm** - Die Stammseite, die zum Generieren der Navigationsstruktur verwendet wird.
 * **Stammebenen ausschließen** - Häufig soll der Stamm nicht in die Navigation eingeschlossen werden. Mit dieser Option können Sie festlegen, wie viele Ebenen oberhalb des Stamms Sie ausschließen möchten. Beispiel:
    * 0 = Stammebene anzeigen
    * 1 = Stammebene ausschließen
    * 2 = Stammebene und Ebene oberhalb ausschließen
    * usw.
-* **Sammlung aller untergeordneten Seiten** – Sammeln Sie alle untergeordneten Seiten, die sich auf dem Navigationsstamm befinden.
-* **Navigationsstrukturtiefe** – Definiert, wie viele Ebenen die Komponente in der Navigationsstruktur im Verhältnis zum Navigationsstamm anzeigen soll (nur verfügbar, wenn **Sammlung aller untergeordneten Seiten** nicht ausgewählt sind).
-* **Shadowing deaktivieren** – Wenn es sich bei der Seite in der Hierarchie um einen Redirect handelt, wird anstelle der Zielseite der Name der umleitenden (Redirect)-Seite angezeigt. Weitere Informationen finden Sie unter [Unterstützung für Shadow Site-Struktur](#shadow-structure).
-* **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
+* **Sammlung aller untergeordneten Seiten** - Sammeln Sie alle untergeordneten Seiten, die sich auf dem Navigationsstamm befinden.
+* **Navigationsstrukturtiefe** - Definiert, wie viele Ebenen die Komponente in der Navigationsstruktur im Verhältnis zum Navigationsstamm anzeigen soll (nur verfügbar, wenn **Sammlung aller untergeordneten Seiten** nicht ausgewählt sind).
+* **Shadowing deaktivieren** - Wenn es sich bei der Seite in der Hierarchie um einen Redirect handelt, wird anstelle der Zielseite der Name der umleitenden (Redirect)-Seite angezeigt. Weitere Informationen finden Sie unter [Unterstützung für Shadow Site-Struktur](#shadow-structure).
+* **ID** - Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
    * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
    * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
@@ -140,7 +140,7 @@ Im Dialogfeld „Bearbeiten“ kann der Inhaltsautor die Stammseite für die Nav
 
 ![Registerkarte „Barrierefreiheit“ im Dialogfeld „Bearbeiten“ der Navigationskomponente](/help/assets/navigation-edit-accessibility.png)
 
-Auf der Registerkarte **Erreichbarkeit** können Werte für die [ARIA-Erreichbarkeits-Beschriftungen](https://www.w3.org/WAI/standards-guidelines/aria/) für die Komponente festgelegt werden.
+Auf der Registerkarte **Barrierefreiheit** können Werte für die [ARIA-Barrierefreiheits-Beschriftungen](https://www.w3.org/WAI/standards-guidelines/aria/) für die Komponente festgelegt werden.
 
 * **Beschriftung** - Wert eines ARIA-Beschriftungs-Attributs für die Komponente
 
@@ -152,15 +152,15 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Standardwerte 
 
 ![Dialogfeld „Design“ der Navigationskomponente](/help/assets/navigation-design.png)
 
-* **Navigationsstamm** – Der Standardwert der Stammseite der Navigationsstruktur, die zum Generieren der Navigationsstruktur verwendet und standardmäßig verwendet wird, wenn der Inhaltsautor die Komponente der Seite hinzufügt.
+* **Navigationsstamm** - Der Standardwert der Stammseite der Navigationsstruktur, die zum Generieren der Navigationsstruktur verwendet und standardmäßig verwendet wird, wenn der Inhaltsautor die Komponente der Seite hinzufügt.
 * **Stammebenen ausschließen** - Häufig soll der Stamm nicht in die Navigation eingeschlossen werden. Mit dieser Option können Sie den Standard dafür festlegen, wie viele Ebenen oberhalb des Stamms Sie ausschließen möchten. Beispiel:
    * 0 = Stammebene anzeigen
    * 1 = Stammebene ausschließen
    * 2 = Stammebene und Ebene oberhalb ausschließen
    * usw.
-* **Sammlung aller untergeordneten Seiten** – Der Standardwert der Option zur Sammlung aller Seiten, die sich auf dem Navigationsstamm befinden.
-* **Navigationsstruktur der Tiefe** – Standardwert der Navigationsstruktur der Tiefe.
-* **Shadowing deaktivieren** – Der Standardwert dafür, wann das Shadowing beim Hinzufügen einer Navigationskomponente deaktiviert werden soll
+* **Sammlung aller untergeordneten Seiten** - Der Standardwert der Option zur Sammlung aller Seiten, die sich auf dem Navigationsstamm befinden.
+* **Navigationsstruktur der Tiefe** - Standardwert der Navigationsstruktur der Tiefe.
+* **Shadowing deaktivieren** - Der Standardwert dafür, wann das Shadowing beim Hinzufügen einer Navigationskomponente deaktiviert werden soll
 
 ### Registerkarte „Stile“ {#styles-tab}
 
@@ -168,4 +168,4 @@ Die Navigationskomponente unterstützt das AEM-[Stilsystem](/help/get-started/au
 
 ## Adobe Client-Datenschicht {#data-layer}
 
-Die Navigationskomponente unterstützt die Client-Datenschicht der Adobe [.](/help/developing/data-layer/overview.md)
+Die Navigationskomponente unterstützt die [Adobe Client-Datenschicht](/help/developing/data-layer/overview.md).
