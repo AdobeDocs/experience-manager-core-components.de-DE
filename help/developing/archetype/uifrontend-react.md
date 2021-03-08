@@ -1,9 +1,9 @@
 ---
 title: Front-End-Build für React-SPAs
 description: Beschreibung des Front-End-Build-Prozesses für React-basierte SPA-Projekte
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '512'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ In diesem Dokument werden die Details des Projekts erläutert, das erstellt wird
 
 Dieses Projekt nutzt die [create-react-app](https://github.com/facebook/create-react-app) per Bootstrapping.
 
-Diese Anwendung verarbeitet das AEM-Modell einer Site und generiert automatisch das Layout mit den Hilfekomponenten des Pakets [@adobe/cq-response-editable-components](https://www.npmjs.com/package/@adobe/cq-react-editable-components).
+Dieses Programm verarbeitet das AEM-Modell einer Site und generiert automatisch das Layout mit den Hilfekomponenten des Pakets [@adobe/cq-response-editable-components](https://www.npmjs.com/package/@adobe/cq-react-editable-components).
 
 ## Skripte {#scripts}
 
