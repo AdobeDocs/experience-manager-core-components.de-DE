@@ -1,9 +1,9 @@
 ---
 title: AEM Projektarchetyp Front-End-Build
-description: Eine Projektvorlage für AEM-basierte Anwendungen
-translation-type: tm+mt
+description: Eine Projektvorlage für AEM-basierte Programme
+translation-type: ht
 source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1620'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Wenn der gesamte AEM-Projektarchetyp mit `mvn clean install -PautoInstallPackage
 
 ## Überblick über ClientLibs {#clientlibs}
 
-Das Frontend-Modul wird mithilfe einer [AEM ClientLib](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html) bereitgestellt. Beim Ausführen des NPM Build-Skripts wird die App erstellt und das aem-clientlib-generator-Paket nimmt die resultierende Buildausgabe entgegen und wandelt sie in eine solche ClientLib um.
+Das Frontend-Modul wird mithilfe einer [AEM ClientLib](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=de-DE) bereitgestellt. Beim Ausführen des NPM Build-Skripts wird das Programm erstellt und das aem-clientlib-generator-Paket nimmt die resultierende Buildausgabe entgegen und wandelt sie in eine solche ClientLib um.
 
 Eine ClientLib besteht aus den folgenden Dateien und Verzeichnissen:
 
@@ -64,15 +64,15 @@ In diesem Workflow kann ein AEM-Entwickler die Schritte 1 und 2 ausführen sow
 
 >[!TIP]
 >
->Man kann auch mit der [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library) Beispiele der Markup-Ausgabe jeder Komponente erfassen, um auf Komponentenebene und nicht auf Seitenebene zu arbeiten.
+>Man kann auch mit der [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_de) Beispiele der Markup-Ausgabe jeder Komponente erfassen, um auf Komponentenebene und nicht auf Seitenebene zu arbeiten.
 
 ### Verwenden von Storybook {#using-storybook}
 
-Mit [Storybook](https://storybook.js.org) können Sie mehr atomare Front-End-Entwicklung durchführen. Obwohl Storybook nicht im AEM-Projektarchetyp enthalten ist, können Sie die Anwendung installieren und Ihre Storybook-Artefakte im ui.frontend-Modul speichern. Sobald diese für Tests in AEM bereit sind, können sie durch Ausführen von `npm run dev` als ClientLibs bereitgestellt werden.
+Mit [Storybook](https://storybook.js.org) können Sie mehr atomare Front-End-Entwicklung durchführen. Obwohl Storybook nicht im AEM-Projektarchetyp enthalten ist, können Sie das Programm installieren und Ihre Storybook-Artefakte im ui.frontend-Modul speichern. Sobald diese für Tests in AEM bereit sind, können sie durch Ausführen von `npm run dev` als ClientLibs bereitgestellt werden.
 
 >[!NOTE]
 >
->[Storybook](https://storybook.js.org) ist nicht im AEM-Projektarchetyp enthalten. Wenn Sie die Anwendung verwenden möchten, müssen Sie sie separat installieren.
+>[Storybook](https://storybook.js.org) ist nicht im AEM-Projektarchetyp enthalten. Wenn Sie das Programm verwenden möchten, müssen Sie es separat installieren.
 
 ### Bestimmen des Markups {#determining-markup}
 
@@ -155,7 +155,7 @@ Konvertiert Werte für die äquivalente Länge, Zeit und Winkel. Beachten Sie, d
 
 ### Generieren der Client-Bibliothek {#clientlib-generation}
 
-Der Prozess zum Erstellen des ui.frontend-Moduls nutzt das Plugin [aem-clientlib-generator](https://www.npmjs.com/package/aem-clientlib-generator), um den kompilierten CSS- und JS-Code sowie alle Ressourcen in das ui.apps-Modul zu verschieben. Die Konfiguration von aem-clientlib-generator ist in `clientlib.config.js` definiert. Die folgenden Client-Bibliotheken werden generiert:
+Der Prozess zum Erstellen des ui.frontend-Moduls nutzt das Plug-in [aem-clientlib-generator](https://www.npmjs.com/package/aem-clientlib-generator), um den kompilierten CSS- und JS-Code sowie alle Ressourcen in das ui.apps-Modul zu verschieben. Die Konfiguration von aem-clientlib-generator ist in `clientlib.config.js` definiert. Die folgenden Client-Bibliotheken werden generiert:
 
 * **clientlib-site** - `ui.apps/src/main/content/jcr_root/apps/<app>/clientlibs/clientlib-site`
 * **clientlib-dependencies** - `ui.apps/src/main/content/jcr_root/apps/<app>/clientlibs/clientlib-dependencies`
