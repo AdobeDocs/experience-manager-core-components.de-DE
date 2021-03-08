@@ -1,11 +1,11 @@
 ---
 title: Verwenden der Adobe Client-Datenschicht in Verbindung mit den Kernkomponenten
 description: Verwenden der Adobe Client-Datenschicht in Verbindung mit den Kernkomponenten
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57582c5c938e0f345b27785bd6fd6d5ed5454bd0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '974'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Um die Datenschicht manuell zu aktivieren, müssen Sie eine [kontextabhängige K
 
 1. Fügen Sie eine `sling:configRef`-Eigenschaft zum Knoten `jcr:content` Ihrer Site hinzu, dies unterhalb von `/content` (z. B. `/content/<mySite>/jcr:content`), und legen Sie für sie `/conf/<mySite>` fest.
 
-1. Nach der Aktivierung können Sie die Aktivierung überprüfen, indem Sie eine Seite der Site außerhalb des Editors laden, z. B. indem Sie die Option **Ansicht als Veröffentlicht** im Editor verwenden. Überprüfen Sie die Seitenquelle. Das Tag `<body>` sollte das Attribut `data-cmp-data-layer-enabled` enthalten. 
+1. Nach der Aktivierung können Sie diese überprüfen, indem Sie eine Seite der Site außerhalb des Editors laden, z. B. mit der Option **Als veröffentlicht anzeigen** im Editor. Überprüfen Sie die Seitenquelle. Das Tag `<body>` sollte das Attribut `data-cmp-data-layer-enabled` enthalten. 
 
    ```html
    <body class="page basicpage" id="page-id" data-cmp-data-layer-enabled>
@@ -83,7 +83,7 @@ Die folgenden Komponenten unterstützen die Datenschicht.
 * [Text](/help/components/text.md)
 * [Titel](/help/components/title.md)
 
-Siehe auch die von den Komponenten ausgelösten [Ereignis.](#events-components)
+Siehe auch die [von den Komponenten ausgelösten Ereignisse](#events-components).
 
 ## Datenschemas der Hauptkomponenten {#data-schemas}
 
@@ -222,9 +222,9 @@ Das folgende [Ereignis](#events) ist für das Asset-Schema relevant:
 
 ### Inhaltsfragment-Schema {#content-fragment}
 
-Das Inhaltsfragment-Schema wird von der Komponente [Inhaltsfragment verwendet.](/help/components/content-fragment-component.md)
+Das Inhaltsfragment-Schema wird von der [Inhaltsfragment-Komponente](/help/components/content-fragment-component.md) verwendet.
 
-Das Inhaltsfragment-Schema wird wie folgt definiert:
+Das Inhaltsfragment-Schema ist wie folgt definiert:
 
 ```javascript
 id: {
@@ -276,7 +276,7 @@ In den folgenden Tabellen sind die standardmäßigen Kernkomponenten, die Ereign
 
 ### Ereignis-Pfadinformationen {#event-path-info}
 
-Jedes Datenschicht-EReignis, das von einer AEM-Kernkomponente ausgelöst wird, enthält eine Payload mit dem folgenden JSON-Objekt:
+Jedes Datenschicht-Ereignis, das von einer AEM-Kernkomponente ausgelöst wird, enthält eine Payload mit dem folgenden JSON-Objekt:
 
 ```json
 eventInfo: {
