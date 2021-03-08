@@ -1,16 +1,16 @@
 ---
 title: Inhaltsfragment-Komponente
 description: Die Kernkomponente „Inhaltsfragment-Komponente“ ermöglicht die Anzeige eines Inhaltsfragments.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '673'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Inhaltsfragment-Komponente{#content-fragment-component}
+# Inhaltsfragment-Komponente {#content-fragment-component}
 
 Die Kernkomponente „Inhaltsfragment-Komponente“ ermöglicht die Anzeige eines [Inhaltsfragments](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/assets/content-fragments/content-fragments.translate.html).
 
@@ -20,7 +20,7 @@ Die Kernkomponente „Inhaltsfragment-Komponente“ ermöglicht die Anzeige eine
 
 ## Verwendung {#usage}
 
-Die Kernkomponente „Inhaltsfragment-Komponente“ ermöglicht die Einbeziehung eines [Inhaltsfragments](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) auf einer Seite.
+Die Kernkomponente „Inhaltsfragment-Komponente“ ermöglicht die Einbeziehung eines [Inhaltsfragments](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/assets/content-fragments/content-fragments.translate.html) auf einer Seite.
 
 * Das Fragment und seine Eigenschaften können im [Dialogfeld „Konfigurieren“](#configure-dialog) ausgewählt werden.
 * Ressourcentypen zum Verarbeiten bestimmter Bilder und Raster können im [Dialogfeld „Design“](#design-dialog) definiert werden.
@@ -74,9 +74,9 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
    * Das **Dialogfeld „Auswahl“** kann zum Suchen des Fragments verwendet werden.
 
 * **Anzeigemodus**
-   * **Einzelnes Textelement** – Ermöglicht die Auswahl eines mehrzeiligen Textelements und aktiviert Optionen für die Absatzsteuerung.
-   * **Mehrere Elemente** – Ermöglicht die Auswahl eines oder mehrerer Elemente des ausgewählten Inhaltsfragments
-* **Element** – Die Elemente des Inhaltsfragments, die eingefügt werden sollen.
+   * **Einzelnes Textelement** - Ermöglicht die Auswahl eines mehrzeiligen Textelements und aktiviert Optionen für die Absatzsteuerung.
+   * **Mehrere Elemente** - Ermöglicht die Auswahl eines oder mehrerer Elemente des ausgewählten Inhaltsfragments
+* **Element** - Die Elemente des Inhaltsfragments, die eingefügt werden sollen.
 * **Variation** - Welche Variante des Inhaltsfragments zu verwenden ist (standardmäßig **Master**)
 
 * **Absätze**
@@ -86,7 +86,7 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 
       * Festlegen von Bereichen der anzuzeigenden Absätze, durch ein Semikolon getrennt
       * So können Sie z. B. mit `1;3-5;7;9-*` den 1., den 3. bis 5., den 7. und den 9. bis zum letzten Absatz einbeziehen.
-* **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
+* **ID** - Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
    * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
    * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
@@ -97,7 +97,7 @@ Diese Registerkarte ist nicht verfügbar, wenn der Modus **Mehrere Elemente** au
 
 ![Inhaltsfragment-Komponente](/help/assets/content-fragment-edit-paragraph.png)
 
-* **Absätze** – Ermöglicht die Auswahl aller Absätze oder eines Bereichs.
+* **Absätze** - Ermöglicht die Auswahl aller Absätze oder eines Bereichs.
 * **Überschriften als separate Absätze behandeln**
 
 ## Dialogfeld „Design“ {#design-dialog}
@@ -112,4 +112,4 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Ressourcentype
 
 ## Adobe Client-Datenschicht {#data-layer}
 
-Die Inhaltsfragment-Komponente unterstützt die Client-Datenschicht der Adobe [a1/>](/help/developing/data-layer/overview.md)
+Die Inhaltsfragment-Komponente unterstützt die [Adobe Client-Datenschicht](/help/developing/data-layer/overview.md).
