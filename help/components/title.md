@@ -1,16 +1,16 @@
 ---
 title: Titelkomponente
 description: Die Kernkomponente „Titelkomponente“ ist eine Komponente für Abschnittsüberschriften, die eine Bearbeitung im Kontext ermöglicht.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '569'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Titelkomponente{#title-component}
+# Titelkomponente {#title-component}
 
 Die Kernkomponente „Titelkomponente“ ist eine Komponente für Abschnittsüberschriften, die eine Bearbeitung im Kontext ermöglicht.
 
@@ -48,7 +48,7 @@ Im Dialogfeld „Bearbeiten“ kann der Inhaltsautor den Titeltext definieren so
 * **Titel** - Wenn leer, wird der Seitentitel verwendet
 * **Typ/Größe** - Definiert die Überschriftenebene des Titels
 * **Link** - Definiert den Inhalt, auf den der Titel verweist. Dies kann ein Pfad zu einer Inhaltsseite, eine externe URL oder ein Seitenanker sein.
-* **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
+* **ID** - Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
    * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
    * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
@@ -67,7 +67,7 @@ Der Editor für die Bearbeitung im Kontext kann auch verwendet werden, um den Te
 
 Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die standardmäßige Überschriftenebene zu definieren, die Titelkomponenten bei der Erstellung durch Inhaltsautoren haben.
 
-### Registerkarte „Größen“{#sizes-tab}
+### Registerkarte „Größen“ {#sizes-tab}
 
 ![Dialogfeld „Design“ der Titelkomponente](/help/assets/title-design.png)
 
@@ -85,4 +85,4 @@ Die Titelkomponente unterstützt das AEM-[Stilsystem](/help/get-started/authorin
 
 ## Adobe Client-Datenschicht {#data-layer}
 
-Die Title-Komponente unterstützt die Client-Datenschicht der Adobe [.](/help/developing/data-layer/overview.md)
+Die Titelkomponente unterstützt die [Adobe Client-Datenschicht](/help/developing/data-layer/overview.md).
