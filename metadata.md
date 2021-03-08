@@ -8,12 +8,12 @@ solution-hub-url: https://docs.adobe.com/content/help/de-DE/experience-manager-c
 getting-started-title: Erste Schritte bei der Entwicklung für AEM
 getting-started-url: https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/core-concepts/home.translate.html
 tutorials-title: AEM-Tutorials
-tutorials-url: https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/overview.html
-translation-type: tm+mt
+tutorials-url: https://docs.adobe.com/content/help/de/experience-manager-learn/cloud-service/overview.html
+translation-type: ht
 source-git-commit: f109463f1942349c300600acf6b94f268e8aa60e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '147'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -53,4 +53,4 @@ Artikel
 * `description`
 * `index: n` (nur für ältere Komponentenversionen)
 
-Weitere Informationen zu den Metadaten finden Sie im [internen Authoring-Handbuch.](https://docs.adobe.com/help/en/collaborative-doc-instructions/collaboration-guide/markdown/metadata.html#solution-metadata)
+Weitere Informationen zu den Metadaten finden Sie im [internen Authoring-Handbuch.](https://docs.adobe.com/help/de-DE/collaborative-doc-instructions/collaboration-guide/markdown/metadata.html#solution-metadata)
