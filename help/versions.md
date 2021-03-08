@@ -1,11 +1,11 @@
 ---
 title: Kernkomponenten-Versionen
 description: Kernkomponenten werden als Versionen veröffentlicht, die mehr als eine Version derselben Kernkomponenten enthalten können. In diesem Dokument wird erläutert, welche Versionen veröffentlicht werden und wie die Kompatibilität mit Kernkomponenten und AEM verstanden werden kann.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3c5749d6660af1ad94f4911f261951e0369fa139
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1971'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -26,8 +26,8 @@ Die folgende Tabelle, deren Inhalt [auf GitHub mit vollständigen Versionsinform
 
 | Version | Beschreibung | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Veröffentlichungsdatum |
 |---|---|---|---|---|---|---|
-| [2,15,0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.0) | Diese Version unterstützt progressive Web-Apps in der [Seitenkomponente](/help/components/page.md) und unterstützt Version 2.0.0 der [Adobe-Datenschicht.](/help/developing/data-layer/overview.md) | 6.4.8.1+ * | 6.5.5.0+ * | Kontinuierlich | 8, 11 | 23. Februar 2021 |
-| [2,14,0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.14.0) | Diese Version enthält neue Optionen für die Komponente [Einbetten](/help/components/embed.md) und stellt die Markenanalyse auf der [Seite](/help/components/page.md)-Ebene vor sowie viele Probleme in Angriff. | 6.4.8.1+ * | 6.5.5.0+ * | Kontinuierlich | 8, 11 | 9. Februar 2021 |
+| [2.15.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.0) | Diese Version unterstützt Progressive Web Apps in der [Seitenkomponente](/help/components/page.md) und Version 2.0.0 der [Adobe-Datenschicht](/help/developing/data-layer/overview.md). | 6.4.8.1+ * | 6.5.5.0+ * | Kontinuierlich | 8, 11 | 23. Februar 2021 |
+| [2.14.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.14.0) | Diese Version enthält neue Optionen für die [Einbettungskomponente](/help/components/embed.md), führt den Marken-Slug auf der [Seitenebene](/help/components/page.md) ein und behebt viele Probleme. | 6.4.8.1+ * | 6.5.5.0+ * | Kontinuierlich | 8, 11 | 9. Februar 2021 |
 | [2.13.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.2) | Dies war eine Patch-Version, die ein Problem mit dem RTE bei Verwendung in AEMaaCS behob. | 6.4.8.1+ * | 6.5.5.0+ * | Kontinuierlich | 8, 11 | 16. Dezember 2020 |
 | [2.13.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.0) | Diese Version enthält neue Dynamic Media-Funktionen für die [Bildkomponente](/help/components/image.md). | 6.4.8.1+ * | 6.5.5.0+ * | Kontinuierlich | 8, 11 | 4. Dezember 2020 |
 | [2.12.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.2) | Dies war eine Patch-Version für 2.12.0 mit kleineren Fehlerbehebungen. | 6.4.8.1+ * | 6.5.5.0+ * | Kontinuierlich | 8, 11 | 11. November 2020 |
@@ -68,7 +68,7 @@ Die folgende Tabelle, deren Inhalt [auf GitHub mit vollständigen Versionsinform
 
 Die folgende Tabelle zeigt, welche Versionen welcher Komponenten in welchen Releases der Kernkomponenten enthalten sind.
 
-|  | Release 1.0.0–1.0.6 | Release 1.1.0 | Release 2.0.0–2.0.8 | Release 2.1.0 | Release 2.2.0–2.2.0 | Release 2.3.0–2.3.2 | Release 2.4.0 | Release 2.5.0 | Release 2.6.0 | Release 2.7.0-2.8.0 | Release 2.9.0+ |
+|  | Release 1.0.0-1.0.6 | Release 1.1.0 | Release 2.0.0-2.0.8 | Release 2.1.0 | Release 2.2.0-2.2.0 | Release 2.3.0-2.3.2 | Release 2.4.0 | Release 2.5.0 | Release 2.6.0 | Release 2.7.0-2.8.0 | Release 2.9.0+ |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | **[Seite](components/page.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
 | **[Titel](components/title.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
