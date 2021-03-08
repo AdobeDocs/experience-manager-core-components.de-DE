@@ -1,9 +1,9 @@
 ---
 title: Front-End-Build für Angular-SPAs
 description: Beschreibung des Front-End-Build-Prozesses für Angular-basierte SPA-Projekte
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '404'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ In diesem Dokument werden die Details des Projekts erläutert, das erstellt wird
 
 Dieses Projekt nutzt die [Angular-CLI](https://github.com/angular/angular-cli) per Bootstrapping.
 
-Diese Anwendung verarbeitet das AEM-Modell einer Site und generiert automatisch das Layout mit den Hilfekomponenten des Pakets [@adobe/cq-angular-editable-components](https://www.npmjs.com/package/@adobe/cq-angular-editable-components).
+Dieses Programm verarbeitet das AEM-Modell einer Site und generiert automatisch das Layout mit den Hilfekomponenten des Pakets [@adobe/cq-angular-editable-components](https://www.npmjs.com/package/@adobe/cq-angular-editable-components).
 
 ## Skripte {#scripts}
 
