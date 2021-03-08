@@ -1,16 +1,16 @@
 ---
 title: Listenkomponente
 description: Die Kernkomponente „Listenkomponente“ ermöglicht die einfache Erstellung dynamischer sowie statischer Listen.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '979'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Listenkomponente{#list-component}
+# Listenkomponente {#list-component}
 
 Die Kernkomponente „Listenkomponente“ ermöglicht die einfache Erstellung dynamischer sowie statischer Listen.
 
@@ -85,7 +85,7 @@ Tippen oder klicken Sie auf die Schaltfläche **Hinzufügen**, um ein neues Elem
 * Mit dem Ziehpunkt können Sie die Elemente in der Liste neu anordnen.
 * Verwenden Sie das Papierkorbsymbol, um Elemente in der Liste zu löschen.
 
-#### Suche{#search-options}
+#### Suche {#search-options}
 
 Die Liste kann mithilfe der Ergebnisse einer Suche aus AEM-Inhalten erstellt werden.
 
@@ -105,7 +105,7 @@ Die Liste kann mithilfe von Seiten erstellt werden, die bestimmten Tags unter ei
 ![Optionen für die Tag-Liste](/help/assets/list-edit-tags.png)
 
 * **Übergeordnete Seite**
-Where the tag matching should startWo die Tag-Übereinstimmung beginnen sollte
+Wo die Tag-Übereinstimmung beginnen sollte
    * Wählen Sie im **Dialogfeld „Auswahl“** den Speicherort in AEM aus
    * Aktuelle Seite verwenden, wenn leer
 * **Tags**,
@@ -131,9 +131,9 @@ Die Reihenfolge, in der die Elemente angeordnet werden sollen
    * **Aufsteigend**
    * **Absteigend**
 * **Maximale Elementanzahl**
-Maximale Anzahl der in der Liste angezeigten Elemente
+Maximale Anzahl der in der Liste angezeigten Elemente.
    * Leer lassen, um alle Elemente zurückzugeben.
-* **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
+* **ID** - Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
    * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
    * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
@@ -191,4 +191,4 @@ Die Bildkomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring
 
 ## Adobe Client-Datenschicht {#data-layer}
 
-Die Liste-Komponente unterstützt die Client-Datenschicht der Adobe [.](/help/developing/data-layer/overview.md)
+Die Listenkomponente unterstützt die [Adobe Client-Datenschicht](/help/developing/data-layer/overview.md).
