@@ -1,11 +1,12 @@
 ---
 title: Entwickeln von Kernkomponenten
 description: Die Kernkomponenten bieten leistungsfähige und erweiterbare Basiskomponenten mit umfangreichen Funktionen, kontinuierlicher Bereitstellung, Komponentenversionierung, moderner Implementierung, schlankem Markup und JSON-Export von Inhalten.
+role: Architekt, Entwickler, Administrator
 translation-type: tm+mt
-source-git-commit: d2e69e5657ed32cc0579579df49ee083212b9333
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '1442'
-ht-degree: 100%
+source-wordcount: '1445'
+ht-degree: 99%
 
 ---
 
