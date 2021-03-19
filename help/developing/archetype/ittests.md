@@ -1,11 +1,13 @@
 ---
 title: it.tests-Modul des AEM-Projektarchetyps
 description: Verwendung der Integrationstests des AEM-Projektarchetyps
-translation-type: ht
-source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
-workflow-type: ht
-source-wordcount: '75'
-ht-degree: 100%
+feature: Hauptkomponenten, AEM Projektarchiv
+role: Architekt, Entwickler, Administrator
+translation-type: tm+mt
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+workflow-type: tm+mt
+source-wordcount: '83'
+ht-degree: 90%
 
 ---
 
