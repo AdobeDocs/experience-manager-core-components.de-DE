@@ -1,11 +1,12 @@
 ---
 title: Seitenkomponente
 description: Die Seitenkomponente ist eine Erweiterungskomponente für Seiten, die mit dem Vorlageneditor arbeitet und es ermöglicht, Seitenkopf-/Fußzeilen- und Strukturkomponenten mit dem Vorlageneditor zusammenzustellen.
-translation-type: ht
-source-git-commit: f4a45b2af87e5a5f0396b335c65856ce821455c9
-workflow-type: ht
-source-wordcount: '683'
-ht-degree: 100%
+role: Architektur, Entwickler, Administrator, Geschäftspraktiker
+translation-type: tm+mt
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+workflow-type: tm+mt
+source-wordcount: '688'
+ht-degree: 99%
 
 ---
 
