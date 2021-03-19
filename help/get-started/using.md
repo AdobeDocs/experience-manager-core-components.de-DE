@@ -1,11 +1,12 @@
 ---
 title: Verwenden von Kernkomponenten
 description: '„Um mit Kernkomponenten in Ihrem eigenen Projekt produktiv zu werden, sind drei Schritte erforderlich: herunterladen und installieren, Proxy-Komponenten erstellen, die Kernstile laden und die Komponenten in Ihren Vorlagen zulassen.“'
-translation-type: ht
-source-git-commit: 10090b836397af3c9428f99bba72313263f34596
-workflow-type: ht
-source-wordcount: '757'
-ht-degree: 100%
+role: Architektur, Entwickler, Administrator, Geschäftspraktiker
+translation-type: tm+mt
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+workflow-type: tm+mt
+source-wordcount: '762'
+ht-degree: 99%
 
 ---
 
