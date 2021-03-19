@@ -2,11 +2,12 @@
 title: Listenkomponente (v1)
 description: Die Kernkomponente „Listenkomponente“ ermöglicht die einfache Erstellung dynamischer sowie statischer Listen.
 index: n
+role: Architektur, Entwickler, Administrator, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 100%
+source-wordcount: '859'
+ht-degree: 99%
 
 ---
 
@@ -178,7 +179,7 @@ Tippen oder klicken Sie auf die Schaltfläche **Hinzufügen**, um ein neues Elem
 * Mit dem Ziehpunkt können Sie die Elemente in der Liste neu anordnen.
 * Verwenden Sie das Papierkorbsymbol, um Elemente in der Liste zu löschen.
 
-#### Suche{#search-list}
+#### Suche {#search-list}
 
 Die Liste kann mithilfe der Ergebnisse einer Suche aus AEM-Inhalten erstellt werden.
 
