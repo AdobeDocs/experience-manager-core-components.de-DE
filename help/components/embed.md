@@ -1,11 +1,12 @@
 ---
 title: Einbettungskomponente
 description: Die Einbettungskomponente ermöglicht das Einbetten externer Inhalte in eine AEM-Inhaltsseite.
-translation-type: ht
-source-git-commit: 601bee9df2a82255c92fcf30b8dacde70b0583dc
-workflow-type: ht
-source-wordcount: '1341'
-ht-degree: 100%
+role: Architektur, Entwickler, Administrator, Geschäftspraktiker
+translation-type: tm+mt
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+workflow-type: tm+mt
+source-wordcount: '1346'
+ht-degree: 99%
 
 ---
 
