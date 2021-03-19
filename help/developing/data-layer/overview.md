@@ -1,11 +1,13 @@
 ---
 title: Verwenden der Adobe Client-Datenschicht in Verbindung mit den Kernkomponenten
 description: Verwenden der Adobe Client-Datenschicht in Verbindung mit den Kernkomponenten
-translation-type: ht
-source-git-commit: 57582c5c938e0f345b27785bd6fd6d5ed5454bd0
-workflow-type: ht
-source-wordcount: '974'
-ht-degree: 100%
+feature: Hauptkomponenten, Adobe Client-Datenschicht
+role: Architekt, Entwickler, Administrator
+translation-type: tm+mt
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+workflow-type: tm+mt
+source-wordcount: '983'
+ht-degree: 99%
 
 ---
 
