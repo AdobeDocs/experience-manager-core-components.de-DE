@@ -2,11 +2,12 @@
 title: Bildkomponente (v1)
 description: Die Kernkomponente „Bildkomponente“ ist eine anpassungsfähige Bildkomponente mit Funktionen zur Bearbeitung im Kontext.
 index: n
+role: Architektur, Entwickler, Administrator, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 78202dc777b90f795f66873921c55e21ef8a239c
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '1229'
-ht-degree: 100%
+source-wordcount: '1234'
+ht-degree: 99%
 
 ---
 
@@ -84,7 +85,7 @@ Zusätzlich zum standardmäßigen [Dialogfeld „Bearbeiten“](#edit-dialog) un
 * **Bild-Asset**
    * Ziehen Sie ein Asset aus dem [Asset-Browser](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/author-environment-tools.html#main-pars_title) oder tippen Sie auf die Option **Durchsuchen**, um es von einem lokalen Dateisystem hochzuladen.
    * Tippen oder klicken Sie auf **Löschen**, um das aktuell ausgewählte Bild zu deaktivieren.
-   * Tippen oder klicken Sie auf **Bearbeiten**, um die [Darstellungen des Assets](https://helpx.adobe.com/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19) im Asset-Editor zu verwalten.
+   * Tippen oder klicken Sie auf **Bearbeiten**, um die [Ausgabedarstellungen des Assets](https://helpx.adobe.com/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19) im Asset-Editor zu verwalten.
 
 * **Bild ist dekorativ** - Überprüfen Sie, ob das Bild von Hilfstechnologien ignoriert werden soll und daher keinen alternativen Text erfordert. Dies gilt nur für dekorative Bilder.
 * **Alternativer Text** - Textalternativen zur Bedeutung oder Funktion des Bildes für sehbeeinträchtigte Leser.
