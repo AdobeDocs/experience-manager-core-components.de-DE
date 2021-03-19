@@ -2,11 +2,12 @@
 title: Formularoptionen-Komponente (v1)
 description: Die Kernkomponente „Formularoptionen“ ermöglicht die Auswahl aus vordefinierten Optionen in verschiedenen Formaten.
 index: n
+role: Architektur, Entwickler, Administrator, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 100%
+source-wordcount: '481'
+ht-degree: 98%
 
 ---
 
