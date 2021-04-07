@@ -1,13 +1,13 @@
 ---
 title: ui.content-Modul des AEM-Projektarchetyps
 description: ui.content-Modul des AEM-Projektarchetyps
-feature: Hauptkomponenten, AEM Projektarchiv
+feature: Kernkomponenten, AEM-Projektarchetyp
 role: Architekt, Entwickler, Administrator
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '226'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -22,4 +22,4 @@ Die `filter.xml`-Datei für das Modul ui.content befindet sich unter `<src>/<pro
 
 ## ui.content/pom.xml
 
-Das Modul ui.content verwendet, wie das Modul ui.apps, das FileVault-Paket-Plugin. Das ui.content pom (`<src>/<project>/ui.content/pom.xml`) enthält jedoch eine zusätzliche Konfigurationseigenschaft namens `acHandling`&quot;set to `merge_preserve`. Dies ist der Fall, weil das Modul ui.content Zugriffssteuerungslisten (ACLs) enthält, die Berechtigungen sind und bestimmen, wer die Vorlagen bearbeiten kann. Damit diese ACLs in AEM importiert werden können, ist die `acHandling` Eigenschaft erforderlich.
+Das Modul ui.content verwendet, wie das Modul ui.apps, das FileVault-Paket-Plugin. Das ui.content pom (`<src>/<project>/ui.content/pom.xml`) enthält jedoch eine zusätzliche Konfigurationseigenschaft namens `acHandling` mit dem Wert `merge_preserve`. Dies ist der Fall, weil das Modul ui.content Zugriffssteuerungslisten (ACLs) enthält, die Berechtigungen sind und bestimmen, wer die Vorlagen bearbeiten kann. Damit diese ACLs in AEM importiert werden können, ist die `acHandling` Eigenschaft erforderlich.
