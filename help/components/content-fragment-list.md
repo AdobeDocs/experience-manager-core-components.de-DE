@@ -1,23 +1,23 @@
 ---
 title: Inhaltsfragmentlisten-Komponente
 description: Die Inhaltsfragmentlisten-Kernkomponente ermöglicht die Anzeige einer Liste von Inhaltsfragmenten.
-role: Architektur, Entwickler, Administrator, Geschäftspraktiker
-translation-type: tm+mt
+role: Architekt, Entwickler, Administrator, Geschäftspraktiker
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '767'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Inhaltsfragmentlisten-Komponente{#content-fragment-list-component}
+# Inhaltsfragmentlisten-Komponente {#content-fragment-list-component}
 
 Die Inhaltsfragmentlisten-Kernkomponente ermöglicht die Anzeige einer Liste von [Inhaltsfragmenten](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/assets/content-fragments/content-fragments.translate.html).
 
 ## Verwendung {#usage}
 
-Die Inhaltsfragmentlisten-Kernkomponente ermöglicht die Einbeziehung einer Liste von [Inhaltsfragmenten](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) auf einer Seite basierend auf einem Inhaltsfragmentmodell. Dies kann besonders für die Erstellung von [Headless Content](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) nützlich sein, der leicht von anderen Anwendungen genutzt werden kann.
+Die Inhaltsfragmentlisten-Kernkomponente ermöglicht die Einbeziehung einer Liste von [Inhaltsfragmenten](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/assets/content-fragments/content-fragments.translate.html) auf einer Seite basierend auf einem Inhaltsfragmentmodell. Dies kann besonders für die Erstellung von [Headless Content](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) nützlich sein, der leicht von anderen Programmen genutzt werden kann.
 
 * Die Liste und ihre Eigenschaften können im [Dialogfeld „Konfigurieren“](#configure-dialog) ausgewählt werden.
 * Stile können auf die Komponente im [Dialogfeld „Design“](#design-dialog) angewendet werden.
@@ -54,19 +54,19 @@ Auf der Registerkarte **Eigenschaften** wird festgelegt, welche Inhaltsfragmente
 
 ![Registerkarte „Eigenschaften“ im Dialogfeld „Bearbeiten“ der Inhaltsfragmentlisten-Komponente](/help/assets/content-fragment-list-properties.png)
 
-* **Modell** - Pfad zum Inhaltsfragment-Modell, auf dem die Liste basiert.
+* **Modell** – Pfad zum Inhaltsfragment-Modell, auf dem die Liste basiert.
    * Standardmäßig sind alle Inhaltsfragmente des Modells, das als **Modellpfad** definiert ist, in der Liste enthalten.
-* **Übergeordneter Pfad** - Übergeordneter Pfad, aus dem die Liste erstellt werden soll.
+* **Übergeordneter Pfad** – Übergeordneter Pfad, aus dem die Liste erstellt werden soll.
    * Die auf dem ausgewählten **Modellpfad** basierenden Inhaltsfragmente werden nach den im **Übergeordneten Pfad** enthaltenen gefiltert.
       * Klicken oder tippen Sie auf die Schaltfläche **Auswahl-Dialogfeld öffnen** auf der rechten Seite des Feldes, um den Pfad anzugeben.
-* **Tags** - Nur die Inhaltsfragmente mit den angegebenen Tags werden in die Liste aufgenommen.
+* **Tags** – Nur die Inhaltsfragmente mit den angegebenen Tags werden in die Liste aufgenommen.
    * Klicken oder tippen Sie auf die Schaltfläche **Auswahl-Dialogfeld öffnen** auf der rechten Seite des Feldes, um die Tags anzugeben.
    * Klicken oder tippen Sie auf das X neben den ausgewählten Tags, um sie zu entfernen.
 * **Sortieren nach** – Feld des Inhaltsfragmentmodells, anhand dessen die Liste sortiert werden soll
    * Es können nur Textfelder (einschließlich numerisch, Datum und Uhrzeit) ausgewählt werden.
 * **Sortierreihenfolge** – Wie die Liste anhand des Felds **Sortieren nach** sortiert wird
    * Aufsteigend oder absteigend
-* **Max. Elemente** – Maximale Anzahl der in der Liste anzuzeigenden Elemente
+* **Maximale Elemente** – Maximale Anzahl der in der Liste anzuzeigenden Elemente
    * Bei keinem Wert werden alle Elemente zurückgegeben.
 * **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
    * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
@@ -74,11 +74,11 @@ Auf der Registerkarte **Eigenschaften** wird festgelegt, welche Inhaltsfragmente
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
 >[!NOTE]
->Die Optionen **Sortieren nach**, **Sortierreihenfolge** und **Max. Elemente** wurden mit Version 2.7.0 der Kernkomponenten eingeführt.
+>Die Optionen **Sortieren nach**, **Sortierreihenfolge** und **Maximale Elemente** wurden mit Version 2.7.0 der Kernkomponenten eingeführt.
 
 ### Registerkarte „Elemente“
 
-Standardmäßig werden alle Elemente des Inhaltsfragmentmodells in die Liste aufgenommen (sofern sie nicht durch das Feld **Max. Elemente** eingeschränkt sind). Auf der Registerkarte **Elemente** können Sie nur bestimmte Elemente angeben, die einbezogen werden sollen.
+Standardmäßig werden alle Elemente des Inhaltsfragmentmodells in die Liste aufgenommen (sofern sie nicht durch das Feld **Maximale Elemente** eingeschränkt sind). Auf der Registerkarte **Elemente** können Sie nur bestimmte Elemente angeben, die einbezogen werden sollen.
 
 ![Registerkarte „Elemente“ im Dialogfeld „Bearbeiten“ der Inhaltsfragmentlisten-Komponente](/help/assets/content-fragment-list-elements.png)
 
