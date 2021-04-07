@@ -1,17 +1,17 @@
 ---
 title: Experience Fragment-Komponente
 description: Mit der Experience Fragment-Komponente kann der Inhaltsautor einer Seite eine Experience Fragment-Variation hinzufügen.
-role: Architektur, Entwickler, Administrator, Geschäftspraktiker
-translation-type: tm+mt
+role: Architekt, Entwickler, Administrator, Geschäftspraktiker
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '821'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Experience Fragment-Komponente{#experience-fragment-component}
+# Experience Fragment-Komponente {#experience-fragment-component}
 
 Mit der Kernkomponente Experience Fragment-Komponente kann der Inhaltsautor eine Experience Fragment-Variation auf einer Seite platzieren, während er eine lokalisierte Site-Struktur unterstützt.
 
@@ -105,7 +105,7 @@ Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in d
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Rufen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_xf_de) auf, um die Experience Fragment-Komponente sowie die Beispiele für ihre Konfigurationsoptionen und die HTML- und JSON-Ausgabe zu testen.
+Rufen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_xf) auf, um die Experience Fragment-Komponente sowie die Beispiele für ihre Konfigurationsoptionen und die HTML- und JSON-Ausgabe zu testen.
 
 ## Technische Details {#technical-details}
 
