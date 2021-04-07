@@ -1,12 +1,12 @@
 ---
 title: Bildkomponente
 description: Die Kernkomponente „Bildkomponente“ ist eine anpassungsfähige Bildkomponente mit Funktionen zur Bearbeitung im Kontext.
-role: Architektur, Entwickler, Administrator, Geschäftspraktiker
-translation-type: tm+mt
+role: Architekt, Entwickler, Administrator, Geschäftspraktiker
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2175'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ Um die Bildkomponente zu erleben und Beispiele für ihre Konfigurationsoptionen 
 
 ### Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Bildkomponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_image_v2).
+Die aktuelle technische Dokumentation zur Bildkomponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_image_v2_de).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
@@ -96,7 +96,7 @@ Zusätzlich zum standardmäßigen [Dialogfeld „Bearbeiten“](#edit-dialog) un
    * **Smartes Zuschneiden** - Wenn der **Vorgabetyp** **Smartes Zuschneiden** ausgewählt ist, ist die Dropdown-Liste **Ausgabedarstellung** verfügbar, sodass aus den verfügbaren Ausgabedarstellungen des ausgewählten Assets werden kann. Dies ist nur verfügbar, wenn für das ausgewählte Asset Ausgabedarstellungen definiert sind.
    * **Bild-Modifikatoren** - Hier können zusätzliche Befehle zur Dynamic Media-Bildbereitstellung definiert werden, die durch `&` getrennt sind, unabhängig davon, welcher **Vorgabetyp** ausgewählt ist.
 * **Bild ist dekorativ** - Überprüfen Sie, ob das Bild von Hilfstechnologien ignoriert werden soll und daher keinen alternativen Text erfordert. Dies gilt nur für dekorative Bilder.
-* **Alternativer Text** - Textalternativen zur Bedeutung oder Funktion des Bildes für sehbeeinträchtigte Leser.
+* **Alternativtext** - Textalternativen zur Bedeutung oder Funktion des Bildes für sehbeeinträchtigte Leser.
    * **Alternativtext von DAM abrufen** - Wenn die Option aktiviert ist, wird der Alternativtext des Bildes mit dem Wert der `dc:description`-Metadaten in DAM gefüllt.
 * **Beschriftung** - Zusätzliche Informationen über das Bild, die standardmäßig unter dem Bild angezeigt werden.
    * **Beschriftung aus DAM abrufen** - Wenn die Option aktiviert ist, wird der Beschriftungstext des Bildes mit dem Wert der `dc:title`-Metadaten in DAM gefüllt.
@@ -217,11 +217,9 @@ Auf der Registerkarte **Funktionen** können Sie festlegen, welche Optionen den 
 
    ![Registerkarte „Funktionen“ im Dialogfeld „Design“ der Bildkomponente](/help/assets/image-design-features-orientation.png)
 
-* **Drehen**
-Verwenden Sie diese Option, damit der Inhaltsautor die Option 
+* **Drehen** – Verwenden Sie diese Option, damit der Inhaltsautor die Option 
 **Nach rechts drehen** verwenden kann.
-* **Spiegeln**
-Verwenden Sie diese Option, damit der Inhaltsautor die Optionen 
+* **Spiegeln** – Verwenden Sie diese Option, damit der Inhaltsautor die Optionen 
 **Horizontal spiegeln** und **Vertikal spiegeln** verwenden kann.
 
    >[!CAUTION]
