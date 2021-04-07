@@ -1,12 +1,12 @@
 ---
 title: Karussellkomponente
 description: Mit der Karussellkomponente kann der Inhaltsautor Inhalte in einem drehbaren Karussell präsentieren.
-role: Architektur, Entwickler, Administrator, Geschäftspraktiker
-translation-type: tm+mt
+role: Architekt, Entwickler, Administrator, Geschäftspraktiker
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1130'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -68,9 +68,9 @@ Verwenden Sie die Schaltfläche **Hinzufügen**, um die Komponentenauswahl zu ö
 
 Auf der Registerkarte **Eigenschaften** kann der Inhaltsautor die Folien auf automatische Übergänge einstellen.
 
-* **Automatische Folienübergänge** - Wenn diese Option aktiviert ist, wechselt die Komponente nach einer festgelegten Verzögerungszeit automatisch zur nächsten Folie.
-* **Übergangsverzögerung** - Wenn die Option „Automatische Folienübergänge“ ausgewählt wird, wird dieser Wert verwendet, um die Verzögerung zwischen Übergängen (in Millisekunden) zu definieren.
-* **Automatische Pause beim Bewegen der Maus deaktivieren** - Wenn die Option **Automatische Folienübergänge** ausgewählt ist, wird der Karussell-Übergang automatisch angehalten, sobald die Maus über das Karussell bewegt wird; Wählen Sie diese Option, damit der Übergang nicht angehalten wird.
+* **Automatisch zwischen Folien wechseln** - Wenn diese Option aktiviert ist, wechselt die Komponente nach einer festgelegten Verzögerungszeit automatisch zur nächsten Folie.
+* **Übergangsverzögerung** - Wenn die Option „Automatisch zwischen Folien wechseln“ ausgewählt wird, wird dieser Wert verwendet, um die Verzögerung zwischen Übergängen (in Millisekunden) zu definieren.
+* **Automatisches Pausieren beim Bewegen des Mauszeigers deaktivieren** - Wenn die Option **Automatisch zwischen Folien wechseln** ausgewählt ist, wird der Karussell-Übergang automatisch angehalten, sobald die Maus über das Karussell bewegt wird; Wählen Sie diese Option, damit der Übergang nicht angehalten wird.
 * **ID** - Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
    * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
    * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
@@ -80,13 +80,13 @@ Auf der Registerkarte **Eigenschaften** kann der Inhaltsautor die Folien auf aut
 >
 >Die Steuerelemente für die Abfolge der Folien werden im Modus **Bearbeiten** nicht aktiviert. Verwenden Sie den [**Vorschaumodus**](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode) oder die Option **[Als veröffentlicht anzeigen](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**, um so mit dem Karussell zu interagieren, wie es ein Leser des veröffentlichten Inhalts tun würde.
 >
->Die Funktion des automatischen Übergangs ist im Modus **Bearbeiten** nicht aktiviert. Verwenden Sie die Option **[Als veröffentlicht anzeigen](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**, um die Funktion des automatischen Übergangs so anzuzeigen, wie es ein Leser der veröffentlichten Inhalte tun würde.
+>Die Funktion des automatischen Übergangs ist im Modus **Bearbeiten** nicht aktiviert. Verwenden Sie die Option **[Als veröffentlicht anzeigen](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**, um die Funktion des automatischen Übergangs so anzuzeigen, wie es ein Leser der veröffentlichten Inhalte tun würde.
 
-### Registerkarte „Barrierefreiheit“ {#accessibility-tab}
+### Registerkarte „Erreichbarkeit“ {#accessibility-tab}
 
-![Registerkarte „Barrierefreiheit“ im Dialogfeld „Bearbeiten“ der Karussellkomponente](/help/assets/carousel-edit-accessibility.png)
+![Registerkarte „Erreichbarkeit“ im Dialogfeld „Bearbeiten“ der Karussellkomponente](/help/assets/carousel-edit-accessibility.png)
 
-Auf der Registerkarte **Barrierefreiheit** können Werte für die [ARIA-Barrierefreiheits-Beschriftungen](https://www.w3.org/WAI/standards-guidelines/aria/) für die Komponente festgelegt werden.
+Auf der Registerkarte **Erreichbarkeit** können Werte für die [ARIA-Barrierefreiheits-Beschriftungen](https://www.w3.org/WAI/standards-guidelines/aria/) für die Komponente festgelegt werden.
 
 * **Beschriftung** - Wert eines ARIA-Beschriftungs-Attributs für die Komponente
 
@@ -116,9 +116,9 @@ Im Dialogfeld „Design“ kann der Vorlagenautor definieren, welche Komponenten
 
 ![Dialogfeld „Design“ der Karusselkomponente](/help/assets/carousel-design.png)
 
-* **Automatische Folienübergänge** - Definiert, ob die Option, automatisch das Karussell auf die nächste Folie zu verschieben, aktiviert ist, wenn der Inhaltsautor die Karussellkomponente einer Seite hinzufügt.
+* **Automatisch zwischen Folien wechseln** - Definiert, ob die Option, automatisch das Karussell auf die nächste Folie zu verschieben, aktiviert ist, wenn der Inhaltsautor die Karussellkomponente einer Seite hinzufügt.
 * **Übergangsverzögerung** - Definiert den Standardwert der Übergangsverzögerung zwischen Folien (in Millisekunden), wenn ein Inhaltsautor die Karussellkomponente einer Seite hinzufügt.
-* **Automatische Pause beim Bewegen der Maus deaktivieren** - Definiert, ob standardmäßig die Option zum Deaktivieren der automatischen Pause der Folie aktiviert ist, wenn **Automatische Folienübergänge** vom Inhaltsautor ausgewählt wird.
+* **Automatisches Pausieren beim Bewegen des Mauszeigers deaktivieren** - Definiert, ob standardmäßig die Option zum Deaktivieren der automatischen Pause der Folie aktiviert ist, wenn **Automatisch zwischen Folien wechseln** vom Inhaltsautor ausgewählt wird.
 
 ### Registerkarte „Zugelassene Komponenten“ {#allowed-components-tab}
 
