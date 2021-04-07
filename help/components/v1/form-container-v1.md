@@ -2,12 +2,12 @@
 title: Formularcontainer-Komponente (v1)
 description: Die Kernkomponente „Formularcontainer-Komponente“ ermöglicht die Erstellung einfacher Übermittlungsformulare.
 index: n
-role: Architektur, Entwickler, Administrator, Geschäftspraktiker
-translation-type: tm+mt
+role: Architekt, Entwickler, Administrator, Geschäftspraktiker
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '643'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Je nach ausgewähltem **Aktionstyp** werden die verfügbaren Optionen im Contain
 
 * [E-Mail](#mail)
 * [Inhalt speichern](#store-content)
-* [Bestellung absenden](#submit-order)
+* [Bestellung übermitteln](#submit-order)
 * [Auftrag aktualisieren](#update-order)
 
 Unabhängig vom Typ gibt es [allgemeine Einstellungen](#general-settings), die für jede Aktion gelten.
@@ -62,7 +62,7 @@ Wenn das Formular gesendet wird, sendet der Mail-Aktionstyp eine E-Mail an besti
 
 * **Betreff** - Betreffzeile der E-Mail, die beim Übermitteln des Formulars gesendet wird
 * **Von** - die Absenderadresse der E-Mail, die beim Übermitteln des Formulars gesendet wird
-* **An** - Die Adressen der Empfänger, die eine E-Mail bei der Formularübermittlung erhalten
+* **Bis** - Die Adressen der Empfänger, die eine E-Mail bei der Formularübermittlung erhalten
    * Tippen oder klicken Sie auf die Schaltfläche **Hinzufügen**, um weitere Adressen hinzuzufügen.
    * Tippen oder klicken Sie auf die Schaltfläche **Löschen**, um eine E-Mail-Adresse zu entfernen.
 * **CC** - Die Adressen der Empfänger, die eine Kopie der E-Mail erhalten, die beim Übermitteln des Formulars gesendet wird
@@ -79,7 +79,7 @@ Wenn das Formular übermittelt wird, wird der Inhalt des Formulars in einem best
 * **Daten anzeigen** - Tippen oder klicken Sie, um gespeicherte gesendete Daten als JSON anzuzeigen.
 * **Workflow starten** - Konfigurieren Sie den Start eines Workflows mit dem gespeicherten Inhalt als Nutzlast bei Formularübermittlung.
 
-### Bestellung absenden {#submit-order}
+### Bestellung übermitteln {#submit-order}
 
 Wenn das Formular übermittelt wird, wird die Bestellung übermittelt.
 
