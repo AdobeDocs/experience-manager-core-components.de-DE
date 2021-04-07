@@ -1,17 +1,17 @@
 ---
 title: Container-Komponente
 description: Die Kernkomponente „Container-Komponente“ ermöglicht die Erstellung eines Containers für diverse zusätzliche Komponenten auf einer Seite.
-role: Architektur, Entwickler, Administrator, Geschäftspraktiker
-translation-type: tm+mt
+role: Architekt, Entwickler, Administrator, Geschäftspraktiker
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '797'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Container-Komponente{#container-component}
+# Container-Komponente {#container-component}
 
 Die Kernkomponente „Container-Komponente“ ermöglicht die Erstellung eines Containers für diverse zusätzliche Komponenten auf einer Seite.
 
@@ -64,7 +64,7 @@ Mit dem Dialogfeld „Konfigurieren“ kann der Inhaltsautor das Container-Eleme
 
 Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Optionen für den Inhaltsautor zu definieren, der die Container-Komponente verwendet.
 
-### Registerkarte „Zugelassene Komponenten“{#allowed-components-tab}
+### Registerkarte „Zugelassene Komponenten“ {#allowed-components-tab}
 
 Über die Registerkarte **Zugelassene Komponenten** können Sie definieren, welche Komponenten der Container-Komponente vom Inhaltsautor als Elemente hinzugefügt werden können.
 
@@ -72,7 +72,7 @@ Die Registerkarte „Zugelassene Komponenten“ funktioniert auf die gleiche Wei
 
 ### Registerkarte „Standardkomponenten“ {#default-components-tab}
 
-Mit der Registerkarte „Standardkomponenten“ wird definiert, welche Komponente der Komponente hinzugefügt wird, wenn ein bestimmter Assettyp im Container abgelegt wird, ähnlich wie unter [So werden Standardkomponenten in der Seitenvorlage definiert](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) erläutert.
+Mit der Registerkarte „Standardkomponenten“ wird definiert, welche Komponente der Komponente hinzugefügt wird, wenn ein bestimmter Assettyp im Container abgelegt wird, ähnlich wie unter [So werden Standardkomponenten in der Seitenvorlage definiert](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/features/templates.translate.html) erläutert.
 
 ### Registerkarte „Responsive Einstellungen“ {#responsive-settings-tab}
 
@@ -90,7 +90,7 @@ Mit der Registerkarte „Standardkomponenten“ wird definiert, welche Komponent
    * **Hintergrundfarbe aktivieren** - Wählen Sie diese Option, um dem Inhaltsautor die Möglichkeit zu bieten, eine Hintergrundfarbe für den Container zu definieren.
    * **Nur Farbmuster** - Wählen Sie diese Option, um dem Inhaltsautor nur die Auswahl aus vordefinierten Farbmustern für die Container-Hintergrundfarbe zu ermöglichen.
       * Nur verfügbar, wenn die Option **Hintergrundfarbe aktivieren** ausgewählt ist
-* **Zulässige Farbmuster** - Definieren Sie vordefinierte Farben, aus denen der Inhaltsautor die Hintergrundfarbe des Containers auswählen kann
+* **Zulässige Farbfelder** - Definieren Sie vordefinierte Farben, aus denen der Inhaltsautor die Hintergrundfarbe des Containers auswählen kann
    * Verwenden Sie die Schaltfläche **Hinzufügen**, um ein vordefiniertes Farbmuster hinzuzufügen. Nach dem Hinzufügen wird der Liste ein Eintrag hinzugefügt, der die folgenden Spalten enthält:
    * **Wert** - Definieren Sie die Farbe manuell über RGB-Werte.
       * Tippen oder klicken Sie auf die Farbauswahl, um eine Farbe leichter auszuwählen, indem Sie einzelne RGB-Werte anpassen oder einen hexadezimalen Wert definieren.
