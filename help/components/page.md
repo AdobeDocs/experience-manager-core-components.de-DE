@@ -1,15 +1,15 @@
 ---
 title: Seitenkomponente
 description: Die Seitenkomponente ist eine Erweiterungskomponente für Seiten, die mit dem Vorlageneditor arbeitet und es ermöglicht, Seitenkopf-/Fußzeilen- und Strukturkomponenten mit dem Vorlageneditor zusammenzustellen.
-role: Architektur, Entwickler, Administrator, Geschäftspraktiker
+role: Architect, Developer, Administrator, Business Practitioner
+exl-id: 2503e067-abed-427d-8a54-8b79e3451487
 translation-type: tm+mt
-source-git-commit: fa8ead438093681071b6b6f8ccfbba523f6d3bee
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 95%
+source-wordcount: '691'
+ht-degree: 96%
 
 ---
-
 
 # Seitenkomponente {#page-component}
 
@@ -71,7 +71,7 @@ Definiert die Kategorien der JavaScript-Client-Bibliothek, die im Seitenkopf gel
 * **Client-Bibliothek der Web-Ressourcen**
 Die Kategorie der Client-Bibliothek, die verwendet wird, um Web-Ressourcen wie etwa Favicons zu bedienen.
 
-* **Zur Elementauswahl des Hauptinhalts wechseln** - Wird als Barrierefreiheitsfunktion verwendet, um direkt zum Hauptinhalt der Seite zu springen.
+* **Zur Auswahl des Hauptinhaltselements wechseln** - Wird als Barrierefreiheitsfunktion verwendet, um direkt zum Hauptinhalt der Seite zu springen.
 
 ![Dialogfeld „Design“ der Seitenkomponente](/help/assets/page-design.png)
 
