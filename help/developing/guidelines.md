@@ -2,11 +2,11 @@
 title: Komponentenrichtlinien
 description: Die Kernkomponenten folgen modernen Implementierungsmustern, die sich stark von den Foundation-Komponenten unterscheiden.
 role: Architekt, Entwickler, Administrator
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1262'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 99%
 
 Die [Kernkomponenten](overview.md) folgen modernen Implementierungsmustern, die sich stark von den Foundation-Komponenten unterscheiden.
 
-Diese Seite erklärt diese Muster und wann Sie sie verwenden müssen, um Ihre eigenen autorenfähigen Komponenten zu erstellen. Der erste Abschnitt [Allgemeine Komponentenmuster](#general-component-patterns)gilt für jede beliebige Komponente, während der zweite Abschnitt [Wiederverwendbare Komponentenmuster](#reusable-component-patterns) für Komponenten gilt, die für alle Sites oder Projekte wiederverwendet werden sollen, wie z. B. die Kernkomponenten.
+Diese Seite erklärt diese Muster und wann Sie sie verwenden müssen, um Ihre eigenen autorenfähigen Komponenten zu erstellen. Der erste Abschnitt [Allgemeine Komponentenmuster](#general-component-patterns) gilt für jede beliebige Komponente, während der zweite Abschnitt [Wiederverwendbare Komponentenmuster](#reusable-component-patterns) für Komponenten gilt, die für alle Sites oder Projekte wiederverwendet werden sollen, wie z. B. die Kernkomponenten.
 
 ## Allgemeine Komponentenmuster {#general-component-patterns}
 
@@ -31,7 +31,7 @@ Wenn Sie diesen Schritt weiter durchführen möchten, wenn Komponenten über meh
 
 ### Problemtrennung {#separation-of-concerns}
 
-Es empfiehlt sich, die Logik (oder das Modell) einer Komponente getrennt von der Markup-Vorlage (oder der Ansicht) zu halten. Es gibt verschiedene Möglichkeiten, dies zu erreichen. Es wird jedoch empfohlen, [ Sling-Modelle ](https://sling.apache.org/documentation/bundles/models.html) für die Logik und [ HTML-Vorlagensprache ](https://docs.adobe.com/content/help/de-DE/experience-manager-htl/using/overview.html) (HTL) für das Markup zu verwenden, wie dies auch die Kernkomponenten tun.
+Es empfiehlt sich, die Logik (oder das Modell) einer Komponente getrennt von der Markup-Vorlage (oder der Ansicht) zu halten. Es gibt verschiedene Möglichkeiten, dies zu erreichen. Es wird jedoch empfohlen, [Sling-Modelle](https://sling.apache.org/documentation/bundles/models.html) für die Logik und [HTML-Vorlagensprache](https://docs.adobe.com/content/help/de-DE/experience-manager-htl/using/overview.html) (HTL) für das Markup zu verwenden, wie dies auch die Kernkomponenten tun.
 
 Sling-Modelle sind eine Reihe von Java-Anmerkungen, um schnell auf benötigte Variablen von POJOs zuzugreifen und daher eine einfache, leistungsstarke und effiziente Möglichkeit, Java-Logik für Komponenten zu implementieren.
 
@@ -82,7 +82,7 @@ In Kombination mit dem oben beschriebenen [Proxy-Komponentenmuster](#proxy-compo
 
 ## Alles zusammenbringen {#putting-it-all-together}
 
-Im Folgenden finden Sie eine Übersicht über die gesamte Ressourcentyp-Bindungsstruktur, die sich auf die Titel-Kernkomponente bezieht. Es zeigt, wie eine Site-spezifische Proxy-Komponente die Versionierung der Komponenten auflösen lässt, um zu vermeiden, dass die Inhaltsressource eine Versionsnummer enthält. Anschließend wird gezeigt, wie die Datei `title.html` [HTL](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html) der Komponente für die Modellschnittstelle verwendet wird, während die Implementierung über [Sling Model ](https://sling.apache.org/documentation/bundles/models.html)-Anmerkungen an die bestimmte Version der Komponente gebunden wird.
+Im Folgenden finden Sie eine Übersicht über die gesamte Ressourcentyp-Bindungsstruktur, die sich auf die Titel-Kernkomponente bezieht. Es zeigt, wie eine Site-spezifische Proxy-Komponente die Versionierung der Komponenten auflösen lässt, um zu vermeiden, dass die Inhaltsressource eine Versionsnummer enthält. Anschließend wird gezeigt, wie die Datei `title.html` [HTL](https://docs.adobe.com/content/help/de-DE/experience-manager-htl/using/overview.html) der Komponente für die Modellschnittstelle verwendet wird, während die Implementierung über [Sling Model ](https://sling.apache.org/documentation/bundles/models.html)-Anmerkungen an die bestimmte Version der Komponente gebunden wird.
 
 ![Überblick über die Ressourcenbindung](/help/assets/chlimage_1-32.png)
 
@@ -98,7 +98,7 @@ Die `cq:allowedTemplates`-Eigenschaft gibt an, welche Vorlagen für eine Site ve
 
 ## AEM-Projektarchetyp {#aem-project-archetype}
 
-[Der AEM-Projektarchetyp](/help/developing/archetype/overview.md) erstellt ein Adobe Experience Manager-Minimalprojekt als Ausgangspunkt für Ihre eigenen Projekte, einschließlich eines Beispiels für benutzerdefinierte HTML-Komponenten mit SlingModels, um die Logik und ordnungsgemäße Implementierung der Kernkomponenten mit dem empfohlenen Proxy-Muster zu gewährleisten.
+[Der AEM-Projektarchetyp](/help/developing/archetype/overview.md) erstellt ein Adobe Experience Manager-Minimalprojekt als Ausgangspunkt für Ihre eigenen Projekte, einschließlich eines Beispiels für benutzerdefinierte HTL-Komponenten mit SlingModels, um die Logik und ordnungsgemäße Implementierung der Kernkomponenten mit dem empfohlenen Proxy-Muster zu gewährleisten.
 
 **Lesen Sie als Nächstes:**
 
