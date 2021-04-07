@@ -2,12 +2,12 @@
 title: Textkomponente (v1)
 description: Die Textkomponente ist eine Komponente zur Bearbeitung und Zusammensetzung von Rich-Texten, die eine direkte Bearbeitung ermöglicht.
 index: n
-role: Architektur, Entwickler, Administrator, Geschäftspraktiker
-translation-type: tm+mt
+role: Architekt, Entwickler, Administrator, Geschäftspraktiker
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1662'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -170,7 +170,6 @@ Das Dialogfeld „Bearbeiten“ bietet die standardmäßigen Rich-Text-Formatier
 
    Geben Sie den Text ein, nach dem Sie suchen möchten, und tippen oder klicken Sie auf **Suchen**, um die Suche zu starten. Tippen Sie auf das x, um abzubrechen.
 
-
    Wenn Sie eine genaue Übereinstimmung der Groß- und Kleinschreibung möchten, wählen Sie die Option **Groß-/Kleinschreibung berücksichtigen**, bevor Sie die Suche starten.
 
    Wenn eine Übereinstimmung gefunden wird, wird sie hervorgehoben und das Suchdialogfeld wird abgeblendet. Tippen oder klicken Sie im abgeblendeten Dialogfeld erneut auf die Schaltfläche **Suchen**, um nach dem nächsten Vorkommen zu suchen.
@@ -199,7 +198,7 @@ Das Dialogfeld „Bearbeiten“ bietet die standardmäßigen Rich-Text-Formatier
 
    Wählen Sie **Alle ersetzen** aus, um alle Vorkommen des Texts gleichzeitig zu ersetzen.
 
-* Text links ausrichten
+* Text linksbündig ausrichten
 
    ![](/help/assets/chlimage_1-71.png)
 
@@ -211,7 +210,7 @@ Das Dialogfeld „Bearbeiten“ bietet die standardmäßigen Rich-Text-Formatier
 
    Wird zum Zentrieren des Texts verwendet.
 
-* Text rechts ausrichten
+* Text rechtsbündig ausrichten
 
    ![](/help/assets/chlimage_1-73.png)
 
@@ -259,9 +258,9 @@ Das Dialogfeld „Bearbeiten“ bietet die standardmäßigen Rich-Text-Formatier
    * **Zeilen** - Die Anzahl der Zeilen der Tabelle (erforderlich)
    * **Breite** - Die Gesamtbreite der Tabelle
    * **Höhe** - Die Gesamthöhe der Tabelle
-   * **Zellauffüllung**- Der Abstand um den Zellinhalt
+   * **Textabstand**- Der Abstand um den Zellinhalt
    * **Zellenabstand** - Der Abstand zwischen Zellen
-   * **Rand** - Die Stärke der Randlinien der Tabelle
+   * **Rahmen** - Die Stärke der Randlinien der Tabelle
    * Für die Kopfzeile der Tabelle:
 
       * Die erste Zeile sollte verwendet werden
