@@ -1,12 +1,12 @@
 ---
 title: PDF-Viewer-Komponente
 description: Die PDF-Viewer-Komponente ermöglicht die Anzeige eines PDF-Dokuments.
-role: Architektur, Entwickler, Administrator, Geschäftspraktiker
-translation-type: tm+mt
+role: Architekt, Entwickler, Administrator, Geschäftspraktiker
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '710'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 
 Mit dem Dialogfeld „Konfigurieren“ kann der Inhaltsautor den Viewer und sein Verhalten und Aussehen für einen Besucher der Seite definieren.
 
-### Registerkarte „Konfiguration“{#configuration-tab}
+### Registerkarte „Konfiguration“ {#configuration-tab}
 
 Auf der Registerkarte „Konfiguration“ kann der Autor festlegen, welche PDF-Datei angezeigt werden soll. Der Pfad kann als Asset in AEM oder als absoluter Pfad zu einer anderen Ressource definiert werden.
 
@@ -63,49 +63,49 @@ Auf der Registerkarte „Anpassen“ kann der Autor festlegen, welche Optionen i
 
 Die Anzahl der verfügbaren Optionen hängt vom ausgewählten **Typ** ab.
 
-* [Vollbild](#full-window) - Der Anzeigebereich wird im vollständigen Browser gerendert. Dies eignet sich am besten für Speicher- und Produktivitätsanwendungen.
-* [Größenangepasster Container](#sized-container) - Der Anzeigebereich wird im vollständigen Browser gerendert. Dies eignet sich am besten für Speicher- und Produktivitätsanwendungen.
-* [In Zeilen](#in-line) - Alle PDF-Seiten werden auf einer Web-Seite in Zeilen gerendert. Dies eignet sich am besten für Leseanwendungen.
+* [Vollbild](#full-window) - Der Anzeigebereich wird im vollständigen Browser gerendert. Dies eignet sich am besten für Speicher- und Produktivitätsprogramme.
+* [Größenangepasster Container](#sized-container) - Der Anzeigebereich wird im vollständigen Browser gerendert. Dies eignet sich am besten für Speicher- und Produktivitätsprogramme.
+* [In Zeilen](#in-line) - Alle PDF-Seiten werden auf einer Web-Seite in Zeilen gerendert. Dies eignet sich am besten für Leseprogramme.
 
 #### Vollbild {#full-window}
 
-Der Anzeigebereich wird im vollständigen Browser gerendert. Dies eignet sich am besten für Speicher- und Produktivitätsanwendungen.
+Der Anzeigebereich wird im vollständigen Browser gerendert. Dies eignet sich am besten für Speicher- und Produktivitätsprogramme.
 
 ![Registerkarte „Anpassen“ für die Vollbildoption im Dialogfeld „Bearbeiten“ der PDF-Viewer-Komponente](/help/assets/pdf-viewer-edit-customize-full.png)
 
-* **Standardanzeigemodus**: Wie der Viewer in die Seite eingepasst wird, auf der er angezeigt wird
+* **Standardanzeigemodus** – Wie der Viewer in die Seite eingepasst wird, auf der er angezeigt wird
    * Seite anpassen
    * Breite anpassen
-* **Vollbild** - Wenn diese Option aktiviert ist, nutzt der Viewer die volle Höhe/Breite des Viewports.
-* **Anmerkungs-Tools** - Wenn diese Option aktiviert ist, stehen die Anmerkungs-Tools zur Verfügung.
-* **Linkes Bedienfeld** - Wenn diese Option aktiviert ist, wird das linke Bedienfeld angezeigt.
+* **Vollbild** – Wenn diese Option aktiviert ist, nutzt der Viewer die volle Höhe/Breite des Viewports.
+* **Anmerkungs-Tools** – Wenn diese Option aktiviert ist, stehen die Anmerkungs-Tools zur Verfügung.
+* **Linkes Bedienfeld** – Wenn diese Option aktiviert ist, wird das linke Bedienfeld angezeigt.
 * **PDF herunterladen** – Wenn diese Option aktiviert ist, wird die Download-Schaltfläche angezeigt.
-* **PDF drucken**: Wenn diese Option aktiviert ist, wird die Druck-Schaltfläche angezeigt.
+* **PDF drucken** – Wenn diese Option aktiviert ist, wird die Druck-Schaltfläche angezeigt.
 * **Seitensteuerungen** – Schaltet das Verhalten der Seitensteuerungen um.
    * Andocken
    * Abdocken
 
 #### Größenangepasster Container {#sized-container}
 
-Der Anzeigebereich wird im vollständigen Browser gerendert. Dies eignet sich am besten für Speicher- und Produktivitätsanwendungen.
+Der Anzeigebereich wird im vollständigen Browser gerendert. Dies eignet sich am besten für Speicher- und Produktivitätsprogramme.
 
 ![Registerkarte „Anpassen“ für den größenangepassten Container im Dialogfeld „Bearbeiten“ der PDF-Viewer-Komponente](/help/assets/pdf-viewer-edit-customize-sized-container.png)
 
-* **Vollbild** - Wenn diese Option aktiviert ist, nutzt der Viewer die volle Höhe/Breite des Viewports.
+* **Vollbild** – Wenn diese Option aktiviert ist, nutzt der Viewer die volle Höhe/Breite des Viewports.
 * **PDF herunterladen** – Wenn diese Option aktiviert ist, wird die Download-Schaltfläche angezeigt.
-* **PDF drucken**: Wenn diese Option aktiviert ist, wird die Druck-Schaltfläche angezeigt.
+* **PDF drucken** – Wenn diese Option aktiviert ist, wird die Druck-Schaltfläche angezeigt.
 * **Seitensteuerungen** – Schaltet das Verhalten der Seitensteuerungen um.
    * Andocken
    * Abdocken
 
 #### In Zeilen {#in-line}
 
-Alle PDF-Seiten werden auf einer Web-Seite in Zeilen gerendert. Dies eignet sich am besten für Leseanwendungen.
+Alle PDF-Seiten werden auf einer Web-Seite in Zeilen gerendert. Dies eignet sich am besten für Leseprogramme.
 
 ![Registerkarte „Anpassen“ für den größenangepassten Container im Dialogfeld „Bearbeiten“ der PDF-Viewer-Komponente](/help/assets/pdf-viewer-edit-customize-inline.png)
 
 * **PDF herunterladen** – Wenn diese Option aktiviert ist, wird die Download-Schaltfläche angezeigt.
-* **PDF drucken**: Wenn diese Option aktiviert ist, wird die Druck-Schaltfläche angezeigt.
+* **PDF drucken** – Wenn diese Option aktiviert ist, wird die Druck-Schaltfläche angezeigt.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
