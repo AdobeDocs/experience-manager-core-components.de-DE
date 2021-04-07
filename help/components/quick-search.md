@@ -1,12 +1,12 @@
 ---
 title: Schnellsuch-Komponente
 description: Die Schnellsuch-Komponente bietet Suchfunktionen für eine Website und zeigt Suchergebnisse an, damit Besucher die Site durchsuchen und die Ergebnisse filtern können.
-role: Architektur, Entwickler, Administrator, Geschäftspraktiker
-translation-type: tm+mt
+role: Architekt, Entwickler, Administrator, Geschäftspraktiker
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '597'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -67,16 +67,16 @@ Im Dialogfeld „Design“ kann der Vorlagenautor den Standardwert festlegen, an
 Der Standardwert des Suchstamms, wenn ein Inhaltsautor die Komponente „Schnellsuche“ auf einer Inhaltsseite platziert
 * **Ergebnisgröße**
 Die maximale Anzahl von Ergebnissen, die durch eine Suchanfrage abgerufen werden
-* **Mindestlänge des Suchbegriffs**
+* **Minimale Länge für Suchbegriff**
 Mindestlänge des Suchbegriffs, um die Suche zu starten
 
 >[!NOTE]
 >
->**Die Größe der Ergebnisse** und **die Mindestlänge des Suchbegriffs** können nur im Designmodus festgelegt werden und daher nur auf Vorlagenebene, d. h. Inhaltsautoren können diese Werte nicht ändern.
+>**Die Größe der Ergebnisse** und die **Minimale Länge für Suchbegriff** können nur im Designmodus festgelegt werden und daher nur auf Vorlagenebene, d. h. Inhaltsautoren können diese Werte nicht ändern.
 
 >[!CAUTION]
 >
->**Die Größe der Ergebnisse** und **die Mindestlänge des Suchbegriffs** können Auswirkungen auf die Leistung haben, wenn sie zu hoch oder zu niedrig eingestellt sind.
+>**Die Größe der Ergebnisse** und die **Minimale Länge für Suchbegriff** können Auswirkungen auf die Leistung haben, wenn sie zu hoch oder zu niedrig eingestellt sind.
 
 ### Registerkarte „Stile“ {#styles-tab}
 
