@@ -1,12 +1,12 @@
 ---
 title: Schaltflächenkomponente
 description: Die Kernkomponente „Schaltflächenkomponente“ ermöglicht die Erstellung und Anzeige einer Schaltfläche.
-role: Architektur, Entwickler, Administrator, Geschäftspraktiker
-translation-type: tm+mt
+role: Architekt, Entwickler, Administrator, Geschäftspraktiker
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '456'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ Mit dem Dialogfeld „Konfigurieren“ kann der Inhaltsautor die Schaltfläche u
 ![Registerkarte „Eigenschaften“ im Dialogfeld „Design“ der Schaltflächenkomponente](/help/assets/button-edit-properties.png)
 
 * **Text** - Der Text, der auf der Schaltfläche angezeigt werden soll
-* **Link** - Link zu einer Inhaltsseite in AEM, einer externen Ressource oder einem Anker
+* **Verknüpfung** - Link zu einer Inhaltsseite in AEM, einer externen Ressource oder einem Anker
    * Wählen Sie im Dialogfeld **Auswahl** einen Pfad in AEM aus.
 * **Symbol** - Bezeichner für die Anzeige eines Symbols auf der Schaltfläche
 * **ID** - Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
@@ -61,11 +61,11 @@ Mit dem Dialogfeld „Konfigurieren“ kann der Inhaltsautor die Schaltfläche u
    * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
-### Registerkarte „Barrierefreiheit“ {#accessibility-tab}
+### Registerkarte „Erreichbarkeit“ {#accessibility-tab}
 
-![Registerkarte „Barrierefreiheit“ im Dialogfeld „Bearbeiten“ der Schaltflächenkomponente](/help/assets/button-edit-accessibility.png)
+![Registerkarte „Erreichbarkeit“ im Dialogfeld „Bearbeiten“ der Schaltflächenkomponente](/help/assets/button-edit-accessibility.png)
 
-Auf der Registerkarte **Barrierefreiheit** können Werte für die [ARIA-Barrierefreiheits-Beschriftungen](https://www.w3.org/WAI/standards-guidelines/aria/) für die Komponente festgelegt werden.
+Auf der Registerkarte **Erreichbarkeit** können Werte für die [ARIA-Barrierefreiheits-Beschriftungen](https://www.w3.org/WAI/standards-guidelines/aria/) für die Komponente festgelegt werden.
 
 * **Beschriftung** - Wert eines ARIA-Beschriftungs-Attributs für die Komponente
 
