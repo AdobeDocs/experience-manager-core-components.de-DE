@@ -1,12 +1,12 @@
 ---
 title: Listenkomponente
 description: Die Kernkomponente „Listenkomponente“ ermöglicht die einfache Erstellung dynamischer sowie statischer Listen.
-role: Architektur, Entwickler, Administrator, Geschäftspraktiker
-translation-type: tm+mt
+role: Architekt, Entwickler, Administrator, Geschäftspraktiker
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '984'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -123,7 +123,7 @@ Unabhängig davon, wie Sie die Liste erstellen, gibt es bestimmte Sortieroptione
 
 ![Sortieroptionen](/help/assets/list-edit-sort-options.png)
 
-* **Reihenfolge**
+* **Sortieren nach**
 Anordnung der Elemente
    * **Titel**
    * **Datum der letzten Änderung**
@@ -131,7 +131,7 @@ Anordnung der Elemente
 Die Reihenfolge, in der die Elemente angeordnet werden sollen
    * **Aufsteigend**
    * **Absteigend**
-* **Maximale Elementanzahl**
+* **Maximale Elemente**
 Maximale Anzahl der in der Liste angezeigten Elemente.
    * Leer lassen, um alle Elemente zurückzugeben.
 * **ID** - Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
