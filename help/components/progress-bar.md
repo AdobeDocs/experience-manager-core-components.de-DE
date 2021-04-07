@@ -1,12 +1,12 @@
 ---
 title: Fortschrittsleistenkomponente
 description: Die Fortschrittsleistenkomponente visualisiert den Fortschritt bei der Erreichung eines Ziels.
-role: Architektur, Entwickler, Administrator, Geschäftspraktiker
-translation-type: tm+mt
+role: Architekt, Entwickler, Administrator, Geschäftspraktiker
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Näheres zur Fortschrittsleistenkomponente und Beispiele für zugehörige Konfig
 
 ### Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Fortschrittsleistenkomponente finden Sie auf [GitHub](https://adobe.com/go/aem_cmp_tech_progress_v1_de).
+Die aktuelle technische Dokumentation zur Fortschrittsleistenkomponente finden Sie auf [GitHub](https://adobe.com/go/aem_cmp_tech_progress_v1).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
