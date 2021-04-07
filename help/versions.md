@@ -1,15 +1,15 @@
 ---
 title: Kernkomponenten-Versionen
 description: Kernkomponenten werden als Versionen veröffentlicht, die mehr als eine Version derselben Kernkomponenten enthalten können. In diesem Dokument wird erläutert, welche Versionen veröffentlicht werden und wie die Kompatibilität mit Kernkomponenten und AEM verstanden werden kann.
-role: Architektur, Entwickler, Administrator, Geschäftspraktiker
+role: Architect, Developer, Administrator, Business Practitioner
+exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 translation-type: tm+mt
-source-git-commit: fa8ead438093681071b6b6f8ccfbba523f6d3bee
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: tm+mt
-source-wordcount: '2009'
-ht-degree: 98%
+source-wordcount: '2004'
+ht-degree: 99%
 
 ---
-
 
 # Kernkomponenten-Versionen {#core-components-versions}
 
