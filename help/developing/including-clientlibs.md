@@ -2,11 +2,11 @@
 title: Einschließen von Client-Bibliotheken
 description: Je nach Nutzungsszenario gibt es verschiedene Möglichkeiten, Client-Bibliotheken einzuschließen.
 role: Architekt, Entwickler, Administrator
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '397'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
