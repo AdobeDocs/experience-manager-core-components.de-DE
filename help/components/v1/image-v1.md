@@ -2,12 +2,12 @@
 title: Bildkomponente (v1)
 description: Die Kernkomponente „Bildkomponente“ ist eine anpassungsfähige Bildkomponente mit Funktionen zur Bearbeitung im Kontext.
 index: n
-role: Architektur, Entwickler, Administrator, Geschäftspraktiker
-translation-type: tm+mt
+role: Architekt, Entwickler, Administrator, Geschäftspraktiker
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1234'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Die Kernkomponente „Bildkomponente“ ist eine anpassungsfähige Bildkomponent
 
 Die Bildkomponente ermöglicht das einfache Platzieren von Bildmaterial und bietet die Möglichkeit zur direkten Bearbeitung. Es bietet eine anpassungsfähige Bildauswahl mit verzögertem Laden sowie Beschneiden für den Inhaltsautor.
 
-Die zulässigen Bildbreiten sowie das Zuschneiden und zusätzliche Einstellungen können hier vom Vorlagenautor definiert werden [Designdialogfeld ](#design-dialog). Der Inhaltseditor kann Assets im [Dialogfeld „Konfigurieren“](#configure-dialog) hochladen oder auswählen und das Bild im [Dialogfeld „Bearbeiten“](#edit-dialog) beschneiden. Für zusätzlichen Komfort ist auch eine einfache, ersetzende Änderung des Bildes verfügbar.
+Die zulässigen Bildbreiten sowie das Zuschneiden und zusätzliche Einstellungen können hier vom Vorlagenautor definiert werden [Designdialogfeld](#design-dialog). Der Inhaltseditor kann Assets im [Dialogfeld „Konfigurieren“](#configure-dialog) hochladen oder auswählen und das Bild im [Dialogfeld „Bearbeiten“](#edit-dialog) beschneiden. Für zusätzlichen Komfort ist auch eine einfache, ersetzende Änderung des Bildes verfügbar.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
@@ -37,7 +37,7 @@ In der folgenden Tabelle ist die Kompatibilität der Bildkomponente v1 aufgefüh
 >
 >In diesem Dokument wird die Bildkomponente v1 beschrieben.
 >
->Weitere Informationen zur aktuellen Version der Bildkomponente finden Sie im Dokument [ Bildkomponente ](/help/components/image.md) .
+>Weitere Informationen zur aktuellen Version der Bildkomponente finden Sie im Dokument [Bildkomponente](/help/components/image.md).
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
@@ -88,7 +88,7 @@ Zusätzlich zum standardmäßigen [Dialogfeld „Bearbeiten“](#edit-dialog) un
    * Tippen oder klicken Sie auf **Bearbeiten**, um die [Ausgabedarstellungen des Assets](https://helpx.adobe.com/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19) im Asset-Editor zu verwalten.
 
 * **Bild ist dekorativ** - Überprüfen Sie, ob das Bild von Hilfstechnologien ignoriert werden soll und daher keinen alternativen Text erfordert. Dies gilt nur für dekorative Bilder.
-* **Alternativer Text** - Textalternativen zur Bedeutung oder Funktion des Bildes für sehbeeinträchtigte Leser.
+* **Alternativtext** - Textalternativen zur Bedeutung oder Funktion des Bildes für sehbeeinträchtigte Leser.
 * **Verknüpfung**
    * Verknüpfen Sie das Bild mit einer anderen Ressource.
    * Verwenden Sie das Dialogfeld „Auswahl“, um eine Verknüpfung zu einer anderen AEM-Ressource herzustellen.
@@ -209,9 +209,8 @@ Auf der Registerkarte **Funktionen** können Sie festlegen, welche Optionen den 
 
    ![](/help/assets/chlimage_1-20.png)
 
-   * **Drehen** - Verwenden Sie diese Option, damit der Inhaltsautor die Option **Nach Rechts drehen** verwenden kann.
-   * **Spiegeln**
-Verwenden Sie diese Option, damit der Inhaltsautor die Optionen 
+   * **Drehen** – Verwenden Sie diese Option, damit der Inhaltsautor die Option **Nach Rechts drehen** verwenden kann.
+   * **Spiegeln** – Verwenden Sie diese Option, damit der Inhaltsautor die Optionen 
 **Horizontal spiegeln** und **Vertikal spiegeln** verwenden kann.
    >[!CAUTION]
    >
