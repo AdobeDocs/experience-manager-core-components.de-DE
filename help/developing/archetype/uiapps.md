@@ -1,20 +1,20 @@
 ---
 title: ui.apps-Modul des AEM-Projektarchetyps
 description: ui.apps-Modul des AEM-Projektarchetyps
-feature: Hauptkomponenten, AEM Projektarchiv
+feature: Kernkomponenten, AEM-Projektarchetyp
 role: Architekt, Entwickler, Administrator
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
 # ui.apps-Modul des AEM-Projektarchetyps {#uiapps-module}
 
-Das Maven-Modul (`<src-directory>/<project>/ui.apps`) ui.apps enthält den gesamten Rendercode, der für die unten stehende Site benötigt wird `/apps`. Dazu gehört auch CSS/JS, das im AEM-Format [clientlibs](uifrontend.md#clientlibs) gespeichert wird. Dazu gehören auch HTML-Skripte zum Rendern von dynamischem HTML. Sie können sich das Modul ui.apps als Zuordnung zur Struktur im JCR vorstellen, jedoch in einem Format, das in einem Dateisystem gespeichert und an die Quell-Code-Verwaltung übermittelt werden kann.
+Das Maven-Modul (`<src-directory>/<project>/ui.apps`) ui.apps enthält den gesamten Rendercode, der für die unten stehende Site benötigt wird `/apps`. Dazu gehört auch CSS/JS, das im AEM-Format [clientlibs](uifrontend.md#clientlibs) gespeichert wird. Dazu gehören auch HTL-Skripte zum Rendern von dynamischem HTML. Sie können sich das Modul ui.apps als Zuordnung zur Struktur im JCR vorstellen, jedoch in einem Format, das in einem Dateisystem gespeichert und an die Quell-Code-Verwaltung übermittelt werden kann.
 
 Das Apache Jackrabbit FileVault-Paket-Plugin wird verwendet, um den Inhalt des Moduls ui.apps in ein AEM-Paket zu kompilieren, das für AEM bereitgestellt werden kann. Die globalen Konfigurationen für das Plugin werden in der übergeordneten Datei pom.xml definiert.
 
@@ -30,7 +30,7 @@ Das ui.apps pom (`<src>/<project>/ui.apps/pom.xml`) stellt die `embedded` Tags f
 
 Beachten Sie, dass die Pakete core.wcm.components.all und core.wcm.components.example als Unterpaket enthalten sind. Dadurch wird jedes Mal das Kernkomponenten-Paket zusammen mit dem WKND-Code bereitgestellt.
 
-Die Beispiele &quot;core.wcm.components.all&quot; und &quot;core.wcm.components.example&quot; werden als Abhängigkeiten in die Abhängigkeitsliste aufgenommen. Als bewährtes Verfahren werden jedoch Versionen für Abhängigkeiten hier weggelassen und in der [übergeordneten Pom-Datei](/help/developing/archetype/using.md#core-components)verwaltet.
+Die Beispiele &quot;core.wcm.components.all&quot; und &quot;core.wcm.components.example&quot; werden als Abhängigkeiten in die Abhängigkeitsliste aufgenommen. Als bewährtes Verfahren werden jedoch Versionen für Abhängigkeiten hier weggelassen und in der [übergeordneten Pom-Datei](/help/developing/archetype/using.md#core-components) verwaltet.
 
 ## filter.xml {#filter}
 
