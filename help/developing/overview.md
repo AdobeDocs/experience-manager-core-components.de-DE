@@ -2,11 +2,11 @@
 title: Entwickeln von Kernkomponenten
 description: Die Kernkomponenten bieten leistungsfähige und erweiterbare Basiskomponenten mit umfangreichen Funktionen, kontinuierlicher Bereitstellung, Komponentenversionierung, moderner Implementierung, schlankem Markup und JSON-Export von Inhalten.
 role: Architekt, Entwickler, Administrator
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1445'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ Einzelheiten zu ihren Authoring-Fähigkeiten und Optionen zu ihrer Vorkonfigurat
 | Bereitstellung | [Über öffentliches GitHub](https://github.com/adobe/aem-core-wcm-components) | Über Quickstart |
 | Lizenz | [Apache-Lizenz](https://www.apache.org/licenses/LICENSE-2.0) | Adobe-geschützt |
 | Beitrag | Über Pull-Anfrage | Nicht möglich |
-| Barrierefreiheit | Vollständig konform mit dem [WCAG 2.0 AA-Standard](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.translate.html) | Nur teilweise konform mit dem [WCAG 2.0 AA-Standard](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
+| Erreichbarkeit | Vollständig konform mit dem [WCAG 2.0 AA-Standard](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.translate.html) | Nur teilweise konform mit dem [WCAG 2.0 AA-Standard](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.translate.html) |
 
 ## Komponentenliste {#component-list}
 
@@ -93,35 +93,35 @@ In der folgenden Tabelle sind die verfügbaren Kernkomponenten mit Links zu ihre
 
 | Kernkomponente | Beschreibung | Ersetzte Foundation-Komponente(n) |
 |---|---|---|
-| [Seite](https://adobe.com/go/aem_cmp_tech_page_v2) | Responsive Seite, die mit dem Vorlageneditor arbeitet | `/libs/foundation/components/page /libs/wcm/foundation/components/page` |
-| [Breadcrumb](https://adobe.com/go/aem_cmp_tech_breadcrumb_v2) | Navigation der Seitenhierarchie | `/libs/foundation/components/breadcrumb` |
-| [Titel](https://adobe.com/go/aem_cmp_tech_title_v2) | H1-H6-Titel | `/libs/foundation/components/title /libs/wcm/foundation/components/title` |
+| [Seite](https://adobe.com/go/aem_cmp_tech_page_v2_de) | Responsive Seite, die mit dem Vorlageneditor arbeitet | `/libs/foundation/components/page /libs/wcm/foundation/components/page` |
+| [Breadcrumb](https://adobe.com/go/aem_cmp_tech_breadcrumb_v2_de) | Navigation der Seitenhierarchie | `/libs/foundation/components/breadcrumb` |
+| [Titel](https://adobe.com/go/aem_cmp_tech_title_v2_de) | H1-H6-Titel | `/libs/foundation/components/title /libs/wcm/foundation/components/title` |
 | [Text](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v2/text) | Rich-Text | `/libs/foundation/components/text /libs/foundation/components/table /libs/wcm/foundation/components/text` |
-| [Bild](https://adobe.com/go/aem_cmp_tech_image_v2) | Intelligentes und entspanntes Laden der optimalen Wiedergabegröße | `/libs/foundation/components/image /libs/foundation/components/adaptiveimage /libs/foundation/components/logo /libs/foundation/components/mobileimage  /libs/foundation/components/mobilelogo /libs/wcm/foundation/components/image` |
-| [Liste](https://adobe.com/go/aem_cmp_tech_list_v2) | Liste der Seiten | `/libs/foundation/components/list /libs/foundation/components/mobilelist /libs/wcm/foundation/components/list` |
-| [Freigabe in Social Media](https://adobe.com/go/aem_cmp_tech_sharing_v1) | Widget zum Teilen auf Facebook und Pinterest | `-` |
-| [Formular-Container](https://adobe.com/go/aem_cmp_tech_form_container_v2) | Responsives Formular-Absatzsystem | `/libs/foundation/components/form/start /libs/foundation/components/form/end` |
-| [Formulartext](https://adobe.com/go/aem_cmp_tech_form_text_v2) | Texteingabefeld | `/libs/foundation/components/form/text /libs/foundation/components/form/password` |
-| [Formularoptionen](https://adobe.com/go/aem_cmp_tech_form_options_v2) | Eingabefeld für mehrere Optionen | `/libs/foundation/components/form/checkbox /libs/foundation/components/form/radio /libs/foundation/components/form/dropdown` |
-| [Ausgeblendetes Formular](https://adobe.com/go/aem_cmp_tech_form_hidden_v2) | Ausgeblendetes Eingabefeld | `/libs/foundation/components/form/hidden` |
-| [Formularschaltfläche](https://adobe.com/go/aem_cmp_tech_form_button_v2) | Schaltfläche zum Absenden oder benutzerdefinierte Schaltfläche | `/libs/foundation/components/form/submit` |
-| [Navigation](https://adobe.com/go/aem_cmp_tech_navigation_v1) | Eine Site-Navigationskomponente, die die verschachtelte Seitenhierarchie auflistet | `/libs/foundation/components/topnav /libs/foundation/components/mobiletopnav` |
-| [Sprachnavigation](https://adobe.com/go/aem_cmp_tech_langnav_v1) | Ein Umschalter zwischen Sprachen und Ländern, der die globale Sprachstruktur auflistet | `-` |
-| [Schnellsuche](https://adobe.com/go/aem_cmp_tech_search_v1) | Eine Suchkomponente, die die Ergebnisse als ersetzende Vorschläge in einem Dropdown-Menü anzeigt | `/libs/foundation/components/search` |
-| [Teaser](https://adobe.com/go/aem_cmp_tech_teaser_v1) | Ermöglicht es dem Inhaltsautor, mühelos einen Teaser für weitere Inhalte zu erstellen, indem er ein Bild, einen Titel oder Rich-Text verwendet und Links zu weiteren Inhalten oder anderen Aktionen erstellt | `-` |
-| [Registerkarten](https://adobe.com/go/aem_cmp_tech_tabs_v1) | Ermöglicht es dem Inhaltsautor, Seiteninhalte innerhalb mehrerer Registerkarten zu organisieren | `-` |
-| [Karussell](https://adobe.com/go/aem_cmp_tech_carousel_v1) | Ermöglicht es dem Inhaltsautor, Inhalte in einem drehbaren Karussell der Folien zu organisieren | `/libs/foundation/components/carousel` |
-| [Inhaltsfragment](https://adobe.com/go/aem_cmp_tech_cf_v1) | Ermöglicht die Anzeige eines Inhaltsfragments | `-` |
-| [Inhaltsfragmentliste](https://adobe.com/go/aem_cmp_tech_cflist_v1) | Ermöglicht die Anzeige einer Liste mit Inhaltsfragmenten | `-` |
-| [Trennzeichen](https://adobe.com/go/aem_cmp_tech_separator_v1) | Trennt Inhalt auf einer Seite | `-` |
+| [Bild](https://adobe.com/go/aem_cmp_tech_image_v2_de) | Intelligentes und entspanntes Laden der optimalen Wiedergabegröße | `/libs/foundation/components/image /libs/foundation/components/adaptiveimage /libs/foundation/components/logo /libs/foundation/components/mobileimage  /libs/foundation/components/mobilelogo /libs/wcm/foundation/components/image` |
+| [Liste](https://adobe.com/go/aem_cmp_tech_list_v2_de) | Liste der Seiten | `/libs/foundation/components/list /libs/foundation/components/mobilelist /libs/wcm/foundation/components/list` |
+| [Freigabe in Social Media](https://adobe.com/go/aem_cmp_tech_sharing_v1_de) | Widget zum Teilen auf Facebook und Pinterest | `-` |
+| [Formular-Container](https://adobe.com/go/aem_cmp_tech_form_container_v2_de) | Responsives Formular-Absatzsystem | `/libs/foundation/components/form/start /libs/foundation/components/form/end` |
+| [Formulartext](https://adobe.com/go/aem_cmp_tech_form_text_v2_de) | Texteingabefeld | `/libs/foundation/components/form/text /libs/foundation/components/form/password` |
+| [Formularoptionen](https://adobe.com/go/aem_cmp_tech_form_options_v2_de) | Eingabefeld für mehrere Optionen | `/libs/foundation/components/form/checkbox /libs/foundation/components/form/radio /libs/foundation/components/form/dropdown` |
+| [Ausgeblendetes Formular](https://adobe.com/go/aem_cmp_tech_form_hidden_v2_de) | Ausgeblendetes Eingabefeld | `/libs/foundation/components/form/hidden` |
+| [Formularschaltfläche](https://adobe.com/go/aem_cmp_tech_form_button_v2_de) | Schaltfläche zum Absenden oder benutzerdefinierte Schaltfläche | `/libs/foundation/components/form/submit` |
+| [Navigation](https://adobe.com/go/aem_cmp_tech_navigation_v1_de) | Eine Site-Navigationskomponente, die die verschachtelte Seitenhierarchie auflistet | `/libs/foundation/components/topnav /libs/foundation/components/mobiletopnav` |
+| [Sprachnavigation](https://adobe.com/go/aem_cmp_tech_langnav_v1_de) | Ein Umschalter zwischen Sprachen und Ländern, der die globale Sprachstruktur auflistet | `-` |
+| [Schnellsuche](https://adobe.com/go/aem_cmp_tech_search_v1_de) | Eine Suchkomponente, die die Ergebnisse als ersetzende Vorschläge in einem Dropdown-Menü anzeigt | `/libs/foundation/components/search` |
+| [Teaser](https://adobe.com/go/aem_cmp_tech_teaser_v1_de) | Ermöglicht es dem Inhaltsautor, mühelos einen Teaser für weitere Inhalte zu erstellen, indem er ein Bild, einen Titel oder Rich-Text verwendet und Links zu weiteren Inhalten oder anderen Aktionen erstellt | `-` |
+| [Registerkarten](https://adobe.com/go/aem_cmp_tech_tabs_v1_de) | Ermöglicht es dem Inhaltsautor, Seiteninhalte innerhalb mehrerer Registerkarten zu organisieren | `-` |
+| [Karussell](https://adobe.com/go/aem_cmp_tech_carousel_v1_de) | Ermöglicht es dem Inhaltsautor, Inhalte in einem drehbaren Karussell der Folien zu organisieren | `/libs/foundation/components/carousel` |
+| [Inhaltsfragment](https://adobe.com/go/aem_cmp_tech_cf_v1_de) | Ermöglicht die Anzeige eines Inhaltsfragments | `-` |
+| [Inhaltsfragmentliste](https://adobe.com/go/aem_cmp_tech_cflist_v1_de) | Ermöglicht die Anzeige einer Liste mit Inhaltsfragmenten | `-` |
+| [Trennzeichen](https://adobe.com/go/aem_cmp_tech_separator_v1_de) | Trennt Inhalt auf einer Seite | `-` |
 | [Accordion](https://adobe.com/go/aem_cmp_tech_accordion_v1) | Organisieren von Inhalts-Bedienfeldern in einem ausblendbaren Accordion | `-` |
-| [Container](https://adobe.com/go/aem_cmp_tech_container_v1) | Organisieren von Komponenten in einem Container | `-` |
+| [Container](https://adobe.com/go/aem_cmp_tech_container_v1_de) | Organisieren von Komponenten in einem Container | `-` |
 | [Schaltfläche](https://adobe.com/go/aem_cmp_tech_button_v1) | Erstellen einer Schaltfläche auf einer Seite | `-` |
 | [Download](https://adobe.com/go/aem_cmp_tech_download_v1) | Hinzufügen eines herunterladbaren Assets zu einer Seite | `-` |
-| [Experience Fragment](https://adobe.com/go/aem_cmp_tech_xf_v1) | Hinzufügen eines Experience Fragment zu einer Seite | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
+| [Experience Fragment](https://adobe.com/go/aem_cmp_tech_xf_v1_de) | Hinzufügen eines Experience Fragment zu einer Seite | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
 | [Einbetten](https://adobe.com/go/aem_cmp_tech_embed_v1) | Einbetten einer externen Ressource in eine Seite | - |
 | [Fortschrittsleiste](https://adobe.com/go/aem_cmp_tech_progress_v1) | Visualisierung des Fortschritts beim Erreichen eines Ziels | - |
-| [PDF-Viewer](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1) | Zeigt ein PDF-Dokument auf einer Seite an | - |
+| [PDF-Viewer](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1_de) | Zeigt ein PDF-Dokument auf einer Seite an | - |
 
 ### Künftige Komponenten {#upcoming-components}
 
