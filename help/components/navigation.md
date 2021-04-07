@@ -1,12 +1,12 @@
 ---
 title: Navigationskomponente
 description: Mit der Navigationskomponente können Benutzer leicht durch eine globalisierte Site-Struktur navigieren.
-role: Architektur, Entwickler, Administrator, Geschäftspraktiker
-translation-type: tm+mt
+role: Architekt, Entwickler, Administrator, Geschäftspraktiker
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1387'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -62,9 +62,9 @@ Nehmen wir an, dass Ihr Inhalt wie folgt aussieht:
 \-- wknd-shop
 ```
 
-Für die WKND-Site möchten Sie auf einer Seitenvorlage womöglich die Navigationskomponente als Teil der Kopfzeile platzieren. Sobald die Komponente ein Teil der Vorlage ist, können Sie den **Navigationsstamm** der Komponente auf `/content/wknd/language-masters/en` festlegen, da dort Ihr Master-Inhalt für diese Site beginnt. Eventuell möchten Sie auch die **Tiefe der Navigationsstruktur** auf `2` festlegen, da Sie wahrscheinlich nicht möchten, dass die gesamte Inhaltsstruktur durch die Komponente angezeigt wird, sondern die ersten beiden Ebenen, sodass dies als Übersicht dient.
+Für die WKND-Site möchten Sie auf einer Seitenvorlage womöglich die Navigationskomponente als Teil der Kopfzeile platzieren. Sobald die Komponente ein Teil der Vorlage ist, können Sie den **Navigationsstamm** der Komponente auf `/content/wknd/language-masters/en` festlegen, da dort Ihr Master-Inhalt für diese Site beginnt. Eventuell möchten Sie auch die **Strukturtiefe der Navigation** auf `2` festlegen, da Sie wahrscheinlich nicht möchten, dass die gesamte Inhaltsstruktur durch die Komponente angezeigt wird, sondern die ersten beiden Ebenen, sodass dies als Übersicht dient.
 
-Anhand des Wertes des **Navigationsstamms** weiß die Navigationskomponente, dass nach `/content/wknd/language-masters/en` die Navigation beginnt, und sie kann somit Navigationsoptionen generieren, indem sie die Struktur der Site auf zwei Ebenen nach unten (wie durch den Wert der **Navigationsstrukturtiefe** vorgegeben) rekursiv darstellt.
+Anhand des Wertes des **Navigationsstamms** weiß die Navigationskomponente, dass nach `/content/wknd/language-masters/en` die Navigation beginnt, und sie kann somit Navigationsoptionen generieren, indem sie die Struktur der Site auf zwei Ebenen nach unten (wie durch den Wert der **Strukturtiefe der Navigation** vorgegeben) rekursiv darstellt.
 
 Unabhängig davon, welche lokalisierte Seite ein Benutzer ansieht, kann die Navigationskomponente die entsprechende lokalisierte Seite finden, indem sie den Speicherort der aktuellen Seite kennt, zum Stammverzeichnis zurückkehrt und sich dann zur entsprechenden Seite vorarbeitet.
 
@@ -129,19 +129,19 @@ Im Dialogfeld „Bearbeiten“ kann der Inhaltsautor die Stammseite für die Nav
    * 1 = Stammebene ausschließen
    * 2 = Stammebene und Ebene oberhalb ausschließen
    * usw.
-* **Sammlung aller untergeordneten Seiten** - Sammeln Sie alle untergeordneten Seiten, die sich auf dem Navigationsstamm befinden.
-* **Navigationsstrukturtiefe** - Definiert, wie viele Ebenen die Komponente in der Navigationsstruktur im Verhältnis zum Navigationsstamm anzeigen soll (nur verfügbar, wenn **Sammlung aller untergeordneten Seiten** nicht ausgewählt sind).
-* **Shadowing deaktivieren** - Wenn es sich bei der Seite in der Hierarchie um einen Redirect handelt, wird anstelle der Zielseite der Name der umleitenden (Redirect)-Seite angezeigt. Weitere Informationen finden Sie unter [Unterstützung für Shadow Site-Struktur](#shadow-structure).
+* **Alle untergeordneten Seiten erfassen** - Sammeln Sie alle untergeordneten Seiten, die sich auf dem Navigationsstamm befinden.
+* **Strukturtiefe der Navigation** - Definiert, wie viele Ebenen die Komponente in der Navigationsstruktur im Verhältnis zum Navigationsstamm anzeigen soll (nur verfügbar, wenn **Alle untergeordneten Seiten erfassen** nicht ausgewählt sind).
+* **Schatten deaktivieren** - Wenn es sich bei der Seite in der Hierarchie um einen Redirect handelt, wird anstelle der Zielseite der Name der umleitenden (Redirect)-Seite angezeigt. Weitere Informationen finden Sie unter [Unterstützung für Shadow Site-Struktur](#shadow-structure).
 * **ID** - Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
    * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
    * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
-### Registerkarte „Barrierefreiheit“ {#accessibility-tab}
+### Registerkarte „Erreichbarkeit“ {#accessibility-tab}
 
 ![Registerkarte „Barrierefreiheit“ im Dialogfeld „Bearbeiten“ der Navigationskomponente](/help/assets/navigation-edit-accessibility.png)
 
-Auf der Registerkarte **Barrierefreiheit** können Werte für die [ARIA-Barrierefreiheits-Beschriftungen](https://www.w3.org/WAI/standards-guidelines/aria/) für die Komponente festgelegt werden.
+Auf der Registerkarte **Erreichbarkeit** können Werte für die [ARIA-Barrierefreiheits-Beschriftungen](https://www.w3.org/WAI/standards-guidelines/aria/) für die Komponente festgelegt werden.
 
 * **Beschriftung** - Wert eines ARIA-Beschriftungs-Attributs für die Komponente
 
@@ -159,9 +159,9 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Standardwerte 
    * 1 = Stammebene ausschließen
    * 2 = Stammebene und Ebene oberhalb ausschließen
    * usw.
-* **Sammlung aller untergeordneten Seiten** - Der Standardwert der Option zur Sammlung aller Seiten, die sich auf dem Navigationsstamm befinden.
-* **Navigationsstruktur der Tiefe** - Standardwert der Navigationsstruktur der Tiefe.
-* **Shadowing deaktivieren** - Der Standardwert dafür, wann das Shadowing beim Hinzufügen einer Navigationskomponente deaktiviert werden soll
+* **Alle untergeordneten Seiten erfassen** - Der Standardwert der Option zur Sammlung aller Seiten, die sich auf dem Navigationsstamm befinden.
+* **Strukturtiefe der Navigation** - Standardwert der Navigationsstruktur der Tiefe.
+* **Schatten deaktivieren** - Der Standardwert dafür, wann das Shadowing beim Hinzufügen einer Navigationskomponente deaktiviert werden soll
 
 ### Registerkarte „Stile“ {#styles-tab}
 
