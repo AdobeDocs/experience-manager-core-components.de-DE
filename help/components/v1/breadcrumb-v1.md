@@ -2,12 +2,12 @@
 title: Breadcrumb-Komponente (v1)
 description: Die Kernkomponente „Breadcrumb-Komponente“ ist eine Navigationskomponente, die einen Breadcrumb von Links basierend auf der Position der Seite in der Inhaltshierarchie erstellt.
 index: n
-role: Architektur, Entwickler, Administrator, Geschäftspraktiker
-translation-type: tm+mt
+role: Architekt, Entwickler, Administrator, Geschäftspraktiker
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '551'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
