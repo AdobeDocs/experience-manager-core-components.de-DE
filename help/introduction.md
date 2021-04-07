@@ -1,15 +1,15 @@
 ---
 title: Einführung in Kernkomponenten
 description: 'Die Kernkomponenten wurden eingeführt, um robuste und erweiterbare Basiskomponenten bereitzustellen, die auf aktueller Technologie und Best Practices basieren. '
-role: Architektur, Entwickler, Administrator, Geschäftspraktiker
+role: Architect, Developer, Administrator, Business Practitioner
+exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 translation-type: tm+mt
-source-git-commit: fa8ead438093681071b6b6f8ccfbba523f6d3bee
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 99%
+source-wordcount: '889'
+ht-degree: 100%
 
 ---
-
 
 # Einführung in Kernkomponenten {#core-components-introduction}
 
@@ -19,7 +19,7 @@ Die Kernkomponenten sind eine Reihe standardisierter Web Content Management (WCM
 
 ## Ressourcen {#resources}
 
-* **[Komponentenbibliothek:](https://www.adobe.com/go/aem_cmp_library)** Eine Sammlung von Beispielen zum Anzeigen der Komponenten in ihren verschiedenen Konfigurationen.
+* **[Komponentenbibliothek:](https://www.adobe.com/go/aem_cmp_library_de)** Eine Sammlung von Beispielen zum Anzeigen der Komponenten in ihren verschiedenen Konfigurationen.
 * **Komponentendokumentation (dieses Dokument):** Für Entwickler und Autoren mit Details zu den einzelnen Komponenten.
 * **[GitHub-Repository für Kernkomponenten:](https://github.com/adobe/aem-core-wcm-components)** Für Entwicklerdetails zu den einzelnen Komponenten und Projekt-Download.
 * Erste Schritte:
