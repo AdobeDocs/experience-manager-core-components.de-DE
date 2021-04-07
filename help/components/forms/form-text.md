@@ -1,17 +1,17 @@
 ---
 title: Formulartext-Komponente
 description: Die Kernkomponente „Formulartext-Komponente“ ermöglicht die Eingabe von Formulartext zur Übermittlung.
-role: Architektur, Entwickler, Administrator, Geschäftspraktiker
-translation-type: tm+mt
+role: Architekt, Entwickler, Administrator, Geschäftspraktiker
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '582'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Formulartext-Komponente{#form-text-component}
+# Formulartext-Komponente {#form-text-component}
 
 Die Kernkomponente „Formulartext-Komponente“ ermöglicht die Eingabe von Formulartext zur Übermittlung.
 
@@ -50,7 +50,7 @@ Das Dialogfeld „Konfigurieren“ ermöglicht es dem Inhaltsautor, den Texttyp 
 
 ![Registerkarte „Eigenschaften“](/help/assets/form-text-edit-properties.png)
 
-* **Einschränkungen** - Der Typ des einzustellenden Texts und der validiert wird mit
+* **Beschränkung** - Der Typ des einzustellenden Texts und der validiert wird mit
    * **Text**
    * **Textbereich**
    * **E-Mail**
@@ -58,7 +58,7 @@ Das Dialogfeld „Konfigurieren“ ermöglicht es dem Inhaltsautor, den Texttyp 
    * **Datum**
    * **Nummer**
    * **Kennwort**
-* **Textzeilen** - Anzahl der im Textbereich anzuzeigenden Zeilen (nur angezeigt, wenn **Einschränkung** auf **Textbereich** festgelegt ist).
+* **Textzeilen** - Anzahl der im Textbereich anzuzeigenden Zeilen (nur angezeigt, wenn **Beschränkung** auf **Textbereich** festgelegt ist).
 * **Beschriftung** - Die Beschriftung, die für das Feld angezeigt wird
 * **Beschriftung ausblenden** - Erforderlich, wenn die Beschriftung nur für Ein-/Ausgabehilfe erforderlich ist und keine zusätzlichen visuellen Informationen über das Feld enthält.
 * **Elementname** - Der Name des mit den Formulardaten gesendeten Felds.
@@ -72,10 +72,10 @@ Das Dialogfeld „Konfigurieren“ ermöglicht es dem Inhaltsautor, den Texttyp 
 
 ![Registerkarte „Info“](/help/assets/form-text-edit-about.png)
 
-* **Hilfemeldung** - Ein Hinweis für den Benutzer dahingehend, was im Feld eingegeben werden kann
+* **Hilfemeldung** – Ein Hinweis für den Benutzer dahingehend, was im Feld eingegeben werden kann
 * **Hilfemeldung als Platzhalter anzeigen** - Bestimmt, ob die Hilfemeldung in der Formulareingabe angezeigt wird, wenn sie leer ist und sich nicht im Fokus befindet
 
-### Registerkarte „Beschränkungen“{#constraints-tab}
+### Registerkarte „Beschränkungen“ {#constraints-tab}
 
 ![Registerkarte „Beschränkungen“](/help/assets/form-text-edit-constraints.png)
 
