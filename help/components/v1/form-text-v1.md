@@ -2,12 +2,12 @@
 title: Formulartext-Komponente (v1)
 description: Die Kernkomponente „Formulartext-Komponente“ ermöglicht die Eingabe von Formulartext zur Übermittlung.
 index: n
-role: Architektur, Entwickler, Administrator, Geschäftspraktiker
-translation-type: tm+mt
+role: Architekt, Entwickler, Administrator, Geschäftspraktiker
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '496'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -99,7 +99,7 @@ Das Dialogfeld „Konfigurieren“ ermöglicht es dem Inhaltsautor, den Texttyp 
 
 ![](/help/assets/chlimage_1-23.png)
 
-* **Einschränkungen** - Der Typ des einzustellenden Texts und der validiert wird mit
+* **Beschränkung** - Der Typ des einzustellenden Texts und der validiert wird mit
 
    * **Text**
    * **Textbereich**
@@ -109,7 +109,7 @@ Das Dialogfeld „Konfigurieren“ ermöglicht es dem Inhaltsautor, den Texttyp 
    * **Nummer**
    * **Kennwort**
 
-* **Textzeilen** - Anzahl der im Textbereich anzuzeigenden Zeilen (nur angezeigt, wenn **Einschränkung** auf **Textbereich** festgelegt ist).
+* **Textzeilen** - Anzahl der im Textbereich anzuzeigenden Zeilen (nur angezeigt, wenn **Beschränkung** auf **Textbereich** festgelegt ist).
 
 * **Beschriftung** - Die Beschriftung, die für das Feld angezeigt wird
 * **Beschriftung ausblenden** - Erforderlich, wenn die Beschriftung nur für Ein-/Ausgabehilfe erforderlich ist und keine zusätzlichen visuellen Informationen über das Feld enthält.
@@ -120,10 +120,10 @@ Das Dialogfeld „Konfigurieren“ ermöglicht es dem Inhaltsautor, den Texttyp 
 
 ![](/help/assets/chlimage_1-24.png)
 
-* **Hilfemeldung** - Ein Hinweis für den Benutzer dahingehend, was im Feld eingegeben werden kann
+* **Hilfemeldung** – Ein Hinweis für den Benutzer dahingehend, was im Feld eingegeben werden kann
 * **Hilfemeldung als Platzhalter anzeigen** - Bestimmt, ob die Hilfemeldung in der Formulareingabe angezeigt wird, wenn sie leer ist und sich nicht im Fokus befindet
 
-### Einschränkungen {#constraints}
+### Beschränkungen {#constraints}
 
 ![](/help/assets/chlimage_1-25.png)
 
