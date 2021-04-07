@@ -1,12 +1,12 @@
 ---
 title: Textkomponente
 description: Die Textkomponente ist eine Komponente zur Bearbeitung und Zusammensetzung von Rich-Texten, die eine direkte Bearbeitung ermöglicht.
-role: Architektur, Entwickler, Administrator, Geschäftspraktiker
-translation-type: tm+mt
+role: Architekt, Entwickler, Administrator, Geschäftspraktiker
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2218'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Der Rest dieses Artikels zeigt die Standardkonfiguration der Textkomponente der 
 
 >[!NOTE]
 >
->In der Textkomponente sind nur Optionen verfügbar, die durch die [Benutzeroberflächenkonfigurationen des RTE](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) aktiviert sind.
+>In der Textkomponente sind nur Optionen verfügbar, die durch die [Benutzeroberflächenkonfigurationen des RTE](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) aktiviert sind.
 
 ## Dialogfeld „Bearbeiten“ {#edit-dialog}
 
@@ -76,9 +76,9 @@ Wird verwendet, um eine kursive Formatierung auf den ausgewählten Text anzuwend
 
 **Strg+I** kann als Tastaturbefehl verwendet werden.
 
-### Unterstreichen
+### Unterstrichen
 
-![Symbol „Unterstreichen“](/help/assets/text-underline.png)
+![Symbol „Unterstrichen“](/help/assets/text-underline.png)
 
 Wird verwendet, um eine unterstrichene Formatierung auf den ausgewählten Text anzuwenden oder Text, der nach dem Cursor eingegeben wird, zu unterstreichen.
 
@@ -245,7 +245,7 @@ Wird verwendet, um eine Tabelle in den Text einzufügen. Wenn Sie diese Option a
 * **Höhe** - Die Gesamthöhe der Tabelle
 * **Textabstand** - Der Abstand um den Zelleninhalt
 * **Zellenabstand** - Der Abstand zwischen Zellen
-* **Rand** - Die Stärke der Randlinien der Tabelle
+* **Rahmen** - Die Stärke der Randlinien der Tabelle
    * Für die Kopfzeile der Tabelle:
       * Die erste Zeile sollte verwendet werden
       * Die erste Spalte sollte verwendet werden
@@ -259,7 +259,7 @@ Wird verwendet, um eine Tabelle in den Text einzufügen. Wenn Sie diese Option a
 
 Wird verwendet, um die Rechtschreibung des Textinhalts zu überprüfen. Mögliche Rechtschreibfehler sind durch gestrichelte rote Linien unterstrichen.
 
-Weitere Details zur Rechtschreibprüfung und zum Anpassen von Rechtschreibprüfungswörterbüchern finden Sie im Dokument [Konfigurieren der Plug-ins für Rich-Text-Editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
+Weitere Details zur Rechtschreibprüfung und zum Anpassen von Rechtschreibprüfungswörterbüchern finden Sie im Dokument [Konfigurieren der Plug-ins für Rich-Text-Editor](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
 
 ### Sonderzeichen {#special-characters}
 
@@ -341,7 +341,7 @@ Die folgenden Formatierungsoptionen können für die Komponente aktiviert oder d
 * Tabelle
 * Listen (Aufzählungszeichen, Nummer, Einzug, Ausrücken)
 * Ausrichtung (links, rechts, zentriert)
-* Fett, kursiv, unterstreichen
+* Fett, kursiv, unterstrichen
 * Verknüpfen (und Verknüpfung aufheben)
 * Tiefgestellt/hochgestellt
 
