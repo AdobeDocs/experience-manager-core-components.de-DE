@@ -2,12 +2,12 @@
 title: Listenkomponente (v1)
 description: Die Kernkomponente „Listenkomponente“ ermöglicht die einfache Erstellung dynamischer sowie statischer Listen.
 index: n
-role: Architektur, Entwickler, Administrator, Geschäftspraktiker
-translation-type: tm+mt
+role: Architekt, Entwickler, Administrator, Geschäftspraktiker
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '859'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -165,7 +165,7 @@ Die Liste kann aus den untergeordneten Seiten der aktuellen Seite oder einer and
 * **Übergeordnete Seite**
    * Die Seite, deren untergeordnete Seiten in die Liste aufgenommen werden sollen
    * Frei lassen, um aktuelle Seite zu verwenden
-* **Untergeordnete Tiefe** - Wie viele Ebenen in der Hierarchie verwendet werden sollten
+* **Untergeordnete Tiefe** – Wie viele Ebenen in der Hierarchie verwendet werden sollten
 
 #### Liste fester Werte {#fixed-list}
 
@@ -185,8 +185,8 @@ Die Liste kann mithilfe der Ergebnisse einer Suche aus AEM-Inhalten erstellt wer
 
 ![](/help/assets/chlimage_1-41.png)
 
-* **Suchabfrage** - Die Zeichenfolge, für die eine Volltextsuche ausgeführt wird, um die Listenelemente zu generieren
-* **Suchen in** - Wo die Suche ausgeführt werden soll
+* **Suchabfrage** – Die Zeichenfolge, für die eine Volltextsuche ausgeführt wird, um die Listenelemente zu generieren
+* **Suchen in** – Wo die Suche ausgeführt werden soll
    * Wählen Sie im **Dialogfeld „Auswahl“** den Speicherort in AEM aus
    * Aktuelle Seite verwenden, wenn leer
 
@@ -196,12 +196,12 @@ Die Liste kann mithilfe von Seiten erstellt werden, die bestimmten Tags unter ei
 
 ![](/help/assets/chlimage_1-42.png)
 
-* **Übergeordnete Seite** - Wo das Tag-Matching beginnen sollte
+* **Übergeordnete Seite** – Wo das Tag-Matching beginnen sollte
    * Wählen Sie im **Dialogfeld „Auswahl“** den Speicherort in AEM aus
    * Aktuelle Seite verwenden, wenn leer
-* **Tags** - Welche Tags sollten abgestimmt werden
+* **Tags** – Welche Tags sollten abgestimmt werden
    * Verwenden Sie das Dialogfeld **Durchsuchen**, um die Tags auszuwählen.
-* **Übereinstimmung** - Definieren Sie, welche Art von Übereinstimmung eine Seite dazu qualifizieren soll, damit sie in die Liste aufgenommen wird.
+* **Übereinstimmung** – Definieren Sie, welche Art von Übereinstimmung eine Seite dazu qualifizieren soll, damit sie in die Liste aufgenommen wird.
    * **beliebiges Tag**
    * **alle Tags**
 
@@ -211,13 +211,13 @@ Unabhängig davon, wie Sie die Liste erstellen, gibt es bestimmte Sortieroptione
 
 ![](/help/assets/chlimage_1-43.png)
 
-* **Reihenfolge nach** - Gewünschte Reihenfolge der Elemente
+* **Sortieren nach** – Gewünschte Reihenfolge der Elemente
    * **Titel**
    * **Datum der letzten Änderung**
-* **Sortierreihenfolge** - Reihenfolge, in der die Elemente angeordnet werden sollen
+* **Sortierreihenfolge** – Reihenfolge, in der die Elemente angeordnet werden sollen
    * **Aufsteigend**
    * **Absteigend**
-* **Maximale Elemente** - die maximale Anzahl der in der Liste angezeigten Elementen.
+* **Maximale Elemente** – die maximale Anzahl der in der Liste angezeigten Elementen.
    * Leer lassen, um alle Elemente zurückzugeben.
 
 ### Element-Einstellungen {#item-settings}
@@ -243,11 +243,11 @@ Auf der Registerkarte **Listeneinstellungen** kann das Datumsformat sowie der Li
 
 ![](/help/assets/chlimage_1-45.png)
 
-* **Datumsformat** - Format für die Anzeige des letzten Bearbeitungsdatums
-* **Untergeordnete deaktivieren** - Deaktiviert den untergeordneten Listentyp in der Komponente.
-* **Statisch deaktivieren** - Deaktiviert den statischen Listentyp in der Komponente
-* **Suche deaktivieren** - Deaktiviert den Suchlistentyp in der Komponente.
-* **Tags deaktivieren** - Deaktiviert den Tag-Listentyp in der Komponente
+* **Datumsformat** – Format für die Anzeige des letzten Bearbeitungsdatums
+* **Untergeordnete deaktivieren** – Deaktiviert den untergeordneten Listentyp in der Komponente.
+* **Statisch deaktivieren** – Deaktiviert den statischen Listentyp in der Komponente
+* **Suche deaktivieren** – Deaktiviert den Suchlistentyp in der Komponente.
+* **Tags deaktivieren** – Deaktiviert den Tag-Listentyp in der Komponente
 
 ### Element-Einstellungen {#item-settings-1}
 
@@ -255,9 +255,9 @@ Auf der Registerkarte **Elementeinstellungen** können die Formatierungsoptionen
 
 ![](/help/assets/chlimage_1-46.png)
 
-* **Verknüpfungselemente** - Aktivieren Sie die Option Verknüpfungselemente im [Dialogfeld „Bearbeiten“](#edit-dialog)
-* **Beschreibungen anzeigen** - Aktivieren Sie die Option „Beschreibungen anzeigen“ im [Dialogfeld „Bearbeiten“](#edit-dialog)
-* **Datum anzeigen** - Aktivieren Sie die Option „Datum anzeigen“ im [Dialogfeld „Bearbeiten“](#edit-dialog)
+* **Elemente verknüpfen** – Aktivieren Sie die Option Verknüpfungselemente im [Dialogfeld „Bearbeiten“](#edit-dialog)
+* **Beschreibungen anzeigen** – Aktivieren Sie die Option „Beschreibungen anzeigen“ im [Dialogfeld „Bearbeiten“](#edit-dialog)
+* **Datum anzeigen** – Aktivieren Sie die Option „Datum anzeigen“ im [Dialogfeld „Bearbeiten“](#edit-dialog)
 
 ## Technische Details {#technical-details}
 
