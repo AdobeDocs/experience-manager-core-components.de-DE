@@ -2,19 +2,19 @@
 title: Formularoptionen-Komponente (v1)
 description: Die Kernkomponente „Formularoptionen“ ermöglicht die Auswahl aus vordefinierten Optionen in verschiedenen Formaten.
 index: n
-role: Architektur, Entwickler, Administrator, Geschäftspraktiker
-translation-type: tm+mt
+role: Architekt, Entwickler, Administrator, Geschäftspraktiker
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '481'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
 # Formularoptionen-Komponente (v1) {#form-options-component-v}
 
-Die Kernkomponente „Formularoptionen-Komponente“ ermöglicht die Auswahl aus vordefinierten Optionen in verschiedenen Formaten.
+Die Kernkomponente „Formularoptionen“ ermöglicht die Auswahl aus vordefinierten Optionen in verschiedenen Formaten.
 
 ## Nutzung {#usage}
 
@@ -141,8 +141,8 @@ Wie die Optionen angezeigt werden
          * **Liste** - Der Pfad der statischen Liste in AEM
             * Verwenden Sie die Schaltfläche „Durchsuchen“, um die Listenressource zu finden.
       * **Datenquelle** - Eine Datenquelle wird für die Optionen verwendet
-         * **Datenquelle** - Ressourcentyp der Datenquelle
-* **Hilfenachricht** - Ein Hinweis für den Benutzer dahingehend, was im Feld eingegeben werden kann
+         * **Datenquelle** – Der Ressourcentyp der Datenquelle
+* **Hilfemeldung** – Ein Hinweis für den Benutzer dahingehend, was im Feld eingegeben werden kann
 
 ## Dialogfeld „Design“ {#design-dialog}
 
