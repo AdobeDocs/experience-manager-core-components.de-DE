@@ -1,12 +1,12 @@
 ---
 title: Formularcontainer-Komponente
 description: Die Kernkomponente „Formularcontainer-Komponente“ ermöglicht die Erstellung einfacher Übermittlungsformulare.
-role: Architektur, Entwickler, Administrator, Geschäftspraktiker
-translation-type: tm+mt
+role: Architekt, Entwickler, Administrator, Geschäftspraktiker
+translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '961'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -40,11 +40,11 @@ Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in d
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Um die Formular-Container-Komponente kennenzulernen und Beispiele für die Konfigurationsoptionen sowie HTML- und JSON-Ausgaben anzuzeigen, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_form_container).
+Um die Formular-Container-Komponente kennenzulernen und Beispiele für die Konfigurationsoptionen sowie HTML- und JSON-Ausgaben anzuzeigen, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_form_container_de).
 
 ## Technische Details {#technical-details}
 
-Die neueste technische Dokumentation zur Formularcontainer-Komponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_form_container_v2).
+Die neueste technische Dokumentation zur Formularcontainer-Komponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_form_container_v2_de).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
@@ -80,7 +80,7 @@ Wenn das Formular gesendet wird, sendet der Mail-Aktionstyp eine E-Mail an besti
 
 * **Betreff** - Betreffzeile der E-Mail, die beim Übermitteln des Formulars gesendet wird
 * **Von** - die Absenderadresse der E-Mail, die beim Übermitteln des Formulars gesendet wird
-* **An** - Die Adressen der Empfänger, die eine E-Mail bei der Formularübermittlung erhalten
+* **Bis** - Die Adressen der Empfänger, die eine E-Mail bei der Formularübermittlung erhalten
    * Tippen oder klicken Sie auf die Schaltfläche **Hinzufügen**, um weitere Adressen hinzuzufügen.
    * Tippen oder klicken Sie auf die Schaltfläche **Löschen**, um eine E-Mail-Adresse zu entfernen.
 * **CC** - Die Adressen der Empfänger, die eine Kopie der E-Mail erhalten, die beim Übermitteln des Formulars gesendet wird
@@ -120,7 +120,7 @@ Unabhängig vom ausgewählten Aktionstyp kann eine Dankeseite immer definiert we
 
 ## Dialogfeld „Design“ {#design-dialog}
 
-Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die zulässigen Komponenten und deren Zuordnungen für den Container ähnlich dem Dialogfeld „Design“ für den [Standard-Layout-Container im Vorlageneditor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) zu definieren.
+Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die zulässigen Komponenten und deren Zuordnungen für den Container ähnlich dem Dialogfeld „Design“ für den [Standard-Layout-Container im Vorlageneditor](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/features/templates.translate.html) zu definieren.
 
 ### Registerkarte „Stile“ {#styles-tab}
 
