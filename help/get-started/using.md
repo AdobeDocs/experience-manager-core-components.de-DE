@@ -1,15 +1,15 @@
 ---
 title: Verwenden von Kernkomponenten
 description: '„Um mit Kernkomponenten in Ihrem eigenen Projekt produktiv zu werden, sind drei Schritte erforderlich: herunterladen und installieren, Proxy-Komponenten erstellen, die Kernstile laden und die Komponenten in Ihren Vorlagen zulassen.“'
-role: Architekt, Entwickler, Administrator, Geschäftspraktiker
-translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: ht
-source-wordcount: '762'
-ht-degree: 100%
+role: Architect, Developer, Administrator, Business Practitioner
+exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
+translation-type: tm+mt
+source-git-commit: 45a17fe42146516f351f897e85a4a48dcf3aadab
+workflow-type: tm+mt
+source-wordcount: '977'
+ht-degree: 72%
 
 ---
-
 
 # Verwenden von Kernkomponenten {#using-core-components}
 
@@ -20,16 +20,36 @@ Um mit Kernkomponenten in Ihrem eigenen Projekt produktiv zu werden, sind vier S
 1. [Laden der Kernstile](#load-the-core-styles)
 1. [Komponenten aktivieren](#allow-the-components)
 
->[!NOTE]
+>[!TIP]
 >
->Alternativ kann auch das folgende mehrteilige Tutorial von Interesse sein, um zu erfahren, wie Sie mit der Projekteinrichtung, den Kernkomponenten, den bearbeitbaren Vorlagen, den Client-Bibliotheken und der Komponentenentwicklung von Grund auf neu beginnen können:\
+>Für umfassendere Anleitungen zu den ersten Schritten mit der Projekteinrichtung, den Core-Komponenten, bearbeitbaren Vorlagen, Client-Bibliotheken und der Komponentenentwicklung könnte das folgende mehrteilige Lernprogramm von Interesse sein:\
 >[Erste Schritte mit AEM Sites - WKND-Tutorial](https://docs.adobe.com/content/help/de-DE/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+
+>[!TIP]
+>
+>Wenn Sie den Projektarchiv [AEM verwenden, werden die Hauptkomponenten automatisch entsprechend den Best Practices der Adobe in Ihr Projekt aufgenommen.](/help/developing/archetype/overview.md)
 
 ## Herunterladen und installieren {#download-and-install}
 
-Einer der treibenden Ideen hinter den Kernkomponenten ist Flexibilität. Durch die häufigere Veröffentlichung neuer Versionen der Kernkomponenten kann Adobe bei der Bereitstellung neuer Funktionen flexibler sein. Entwickler wiederum können flexibel entscheiden, welche Komponenten sie in ihre Projekte integrieren und wie oft sie diese aktualisieren möchten.
+Einer der treibenden Ideen hinter den Kernkomponenten ist Flexibilität. Durch die häufigere Veröffentlichung neuer Versionen der Kernkomponenten kann Adobe bei der Bereitstellung neuer Funktionen flexibler sein. Entwickler wiederum können flexibel entscheiden, welche Komponenten sie in ihre Projekte integrieren und wie oft sie diese aktualisieren möchten. Dies führt zu einem separaten Veröffentlichungsprozess für AEM und die Kernkomponenten.
 
-Aus diesem Grund sind die Kernkomponenten nicht Teil des Schnellstarts, wenn Sie im Produktionsmodus (ohne Beispielinhalt) beginnen. Der erste Schritt besteht darin, [das neueste veröffentlichte Inhaltspaket von GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest) herunterzuladen und es in Ihren AEM-Umgebungen zu installieren.
+Die Installationsschritte werden daher bestimmt, ob Sie AEM als Cloud-Dienst oder lokal ausführen.
+
+### AEM as a Cloud Service {#aemaacs}
+
+Es gibt keinen Schritt! AEM als Cloud Service wird automatisch mit der neuesten Version der Kernkomponenten geliefert. Genau wie AEMaaCS die neuesten Funktionen von AEM Angebot, hält AEMaaCS Sie automatisch auf dem neuesten Stand über die neuesten Versionen der Kernkomponenten.
+
+Bei der Verwendung der Hauptkomponenten in AEMaaCS sind einige Punkte zu beachten:
+
+* Die Kernkomponenten sind in `/libs` enthalten.
+* Die Projekterstellungspipeline generiert Warnungen im Protokoll, wenn sie die Kernkomponenten erneut als Teil von `/apps` enthält, und ignoriert die als Teil Ihres Projekts eingebettete Version.
+   * In einer kommenden Version wird der Pipeline-Build auch bei den Core-Komponenten fehlschlagen.
+* Wenn Ihr Projekt zuvor die Kernkomponenten in `/apps`, [enthalten hat, müssen Sie Ihr Projekt möglicherweise anpassen.](/help/developing/overview.md#via-aemaacs)
+* Auch wenn sich die Kernkomponenten jetzt in `/libs` befinden, wird nicht empfohlen, Überlagerungen desselben Pfads in `/apps` zu erstellen. [Stattdessen sollte das ](/help/developing/guidelines.md#proxy-component-pattern) Muster der Proxykomponente verwendet werden, wenn ein Aspekt der Komponenten angepasst werden muss.
+
+### AEM 6.5 und älter {#aem-65}
+
+Die Core-Komponenten sind nicht Teil des Schnellstarts, wenn Sie im Produktionsmodus beginnen (ohne Beispielinhalt). Der erste Schritt besteht darin, [das neueste veröffentlichte Inhaltspaket von GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest) herunterzuladen und es in Ihren AEM-Umgebungen zu installieren.
 
 Es gibt verschiedene Möglichkeiten, dies zu automatisieren, aber die einfachste Möglichkeit, ein Inhaltspaket schnell auf einer Instanz zu installieren, erfolgt über den Package Manager; siehe [Installieren von Paketen](https://docs.adobe.com/content/help/de-DE/experience-manager-65/administering/contentmanagement/package-manager.html#installing-packages). Sobald Sie außerdem eine Veröffentlichungsinstanz ausgeführt haben, müssen Sie dieses Paket für den Herausgeber replizieren. Siehe [Replizieren von Paketen](https://docs.adobe.com/content/help/de-DE/experience-manager-65/administering/contentmanagement/package-manager.html#replicating-packages).
 
