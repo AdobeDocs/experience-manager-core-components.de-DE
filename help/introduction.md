@@ -4,10 +4,10 @@ description: 'Die Kernkomponenten wurden eingeführt, um robuste und erweiterbar
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 translation-type: tm+mt
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: b5b77f21cbeaa46622cef85f3bbaa549f17f1a06
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 100%
+source-wordcount: '936'
+ht-degree: 94%
 
 ---
 
@@ -118,3 +118,9 @@ Die Anforderungen aus früheren Kernkomponenten-Versionen finden Sie unter [Kern
 Die Kernkomponenten erfordern die Verwendung [bearbeitbarer Vorlagen](https://docs.adobe.com/content/help/de-DE/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html) und unterstützen weder die klassische Benutzeroberfläche noch statische Vorlagen. Sehen Sie sich bei Bedarf die [AEM-Modernisierungs-Tools](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html) an, um Ihr Projekt mit diesen modernen AEM-Funktionen zu aktualisieren.
 
 Informationen zum Einrichten Ihrer lokalen Entwicklungsumgebung finden Sie [in dieser Übersicht für das AEM as a Cloud Service-SDK](https://docs.adobe.com/content/help/de-DE/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) oder in diesem Dokument [für ältere Versionen von AEM](https://docs.adobe.com/content/help/de-DE/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
+
+>[!TIP]
+>
+>Die Kernkomponenten sind automatisch Teil von AEM als Cloud Service und Sie haben immer die neueste Version der Kernkomponenten.
+>
+>Weitere Informationen zu den ersten Schritten mit den Hauptkomponenten in AEMaaCS und in den Räumlichkeiten finden Sie im Dokument [Verwenden von Kernkomponenten](/help/get-started/using.md).
