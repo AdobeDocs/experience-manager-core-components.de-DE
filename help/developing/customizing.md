@@ -1,15 +1,15 @@
 ---
 title: Anpassen der Kernkomponenten
 description: Die Kernkomponenten implementieren verschiedene Muster, die eine einfache Anpassung ermöglichen, von einfachen Stilen bis hin zur Wiederverwendung erweiterter Funktionen.
-role: Architekt, Entwickler, Administrator
-translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: ht
-source-wordcount: '1109'
-ht-degree: 100%
+role: Architect, Developer, Administrator
+exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
+translation-type: tm+mt
+source-git-commit: b5b77f21cbeaa46622cef85f3bbaa549f17f1a06
+workflow-type: tm+mt
+source-wordcount: '1106'
+ht-degree: 97%
 
 ---
-
 
 # Anpassen der Kernkomponenten {#customizing-core-components}
 
@@ -105,7 +105,7 @@ Weitere Informationen zum Delegierungsmuster finden Sie im GitHub Wiki-Artikel [
 
 Manchmal erfordert erweitertes Formatieren eine andere Markup-Struktur der Komponente.
 
-Hierfür können Sie ganz einfach die zu ändernden HTL-Dateien aus der Kernkomponente in die Proxy-Komponente kopieren.
+Hierzu können Sie einfach die HTL-Dateien kopieren, die von der Core-Komponente in die [Proxy-Komponente geändert werden müssen.](guidelines.md#proxy-component-pattern)
 
 Wenn Sie das Beispiel der Breadcrumb-Kernkomponente erneut aufrufen, um die Markup-Ausgabe anzupassen, muss die `breadcrumb.html`-Datei in die Site-spezifische Komponente kopiert werden, die über ein `sling:resourceSuperTypes` verfügt, das auf die Breadcrumb-Kernkomponente zeigt.
 
@@ -153,7 +153,7 @@ Wie bei jeder AEM-Komponente gibt es einige Aspekte hinsichtlich der Anpassungen
 
 1. **Achten Sie auf veraltete und entfernte Funktionen.**
 
-   Stellen Sie bei jedem Upgrade jeder neuen AEM-Version sicher, dass alle verwendeten APIs immer aktuell sind, indem Sie die Seite [Veraltete und entfernte Funktionen](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/release-notes/deprecated-removed-features.translate.html) im Auge behalten.
+   Stellen Sie bei jedem Upgrade jeder neuen AEM-Version sicher, dass alle verwendeten APIs immer aktuell sind, indem Sie die Seite [Veraltete und entfernte Funktionen](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html) im Auge behalten.
 
 Siehe auch Abschnitt zur [Kernkomponentenunterstützung](overview.md#core-component-support).
 
