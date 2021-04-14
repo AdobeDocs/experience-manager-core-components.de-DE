@@ -1,15 +1,15 @@
 ---
 title: Entwickeln von Kernkomponenten
 description: Die Kernkomponenten bieten leistungsfähige und erweiterbare Basiskomponenten mit umfangreichen Funktionen, kontinuierlicher Bereitstellung, Komponentenversionierung, moderner Implementierung, schlankem Markup und JSON-Export von Inhalten.
-role: Architekt, Entwickler, Administrator
-translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: ht
-source-wordcount: '1445'
-ht-degree: 100%
+role: Architect, Developer, Administrator
+exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
+translation-type: tm+mt
+source-git-commit: b01fdc7ab6b4d4bb4200d28aaa3706c58ccdea9f
+workflow-type: tm+mt
+source-wordcount: '1591'
+ht-degree: 90%
 
 ---
-
 
 # Entwickeln von Kernkomponenten {#developing-core-components}
 
@@ -40,6 +40,8 @@ Die Kernkomponenten sind leistungsstark, flexibel und einfach zu verwenden und a
 
 Jedes neue Projekt sollte mit Kernkomponenten implementiert werden. Bestehende Projekte verfügen jedoch meist über umfassende Implementierungen der Foundation-Komponenten.
 
+### Migration von Foundation-Komponenten {#from-foundation}
+
 Eine größere Arbeit an einem vorhandenen Projekt (z. B. ein Rebranding oder eine Gesamtrefaktorierung) bietet oft eine Möglichkeit, zu den Kernkomponenten zu migrieren. Um diese Migration zu erleichtern, stellt Adobe eine Reihe von Migrationswerkzeugen bereit, um die Akzeptanz der Kernkomponenten und der neuesten AEM-Technologie zu fördern.
 
 [Die AEM-Modernisierungs-Tools](http://opensource.adobe.com/aem-modernize-tools/) ermöglichen eine einfache Konvertierung von:
@@ -54,6 +56,23 @@ Weitere Informationen zur Verwendung dieser Werkzeuge finden Sie [in der entspre
 >[!NOTE]
 >
 >Die AEM-Modernisierung-Tools werden von der Community gesammelt, Adobe bietet keinerlei Unterstützung oder Garantie dafür.
+
+## Migration über Verschieben in AEM als Cloud Service {#via-aemaacs}
+
+Da AEM Cloud Service automatisch die neueste Version der Kernkomponenten verwenden, müssen Sie beim Wechsel von einer lokalen AEM-Installation alle Abhängigkeiten zu den Kernkomponenten in Ihrer Projektdatei `pom.xml` entfernen.
+
+Ihre Proxy-Komponenten funktionieren weiterhin wie zuvor, weil   proxies verweisen auf den notwendigen Supertyp und der Supertyppfad hat die Version darin. Auf diese Weise ermöglicht die einfache Beseitigung der Abhängigkeit den Kern-Komponenten, in AEMaaCS zu arbeiten, genau wie sie dies in den Räumlichkeiten taten.
+
+Wie bei jedem anderen AEMaaCS-Projekt müssen Sie auch eine Abhängigkeit zur AEM SDK-JAR-Datei hinzufügen. Dies ist nicht spezifisch für die Kernkomponenten, sondern erforderlich.
+
+```xml
+<dependency>
+   <groupId>com.adobe.aem</groupId>
+   <artifactId>aem-sdk-api</artifactId>
+</dependency>
+```
+
+Weitere Informationen zu AEMaaCS-Projekten finden Sie im Dokument [AEM Projektstruktur](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html).
 
 ## Kernkomponentenunterstützung {#core-component-support}
 
@@ -85,7 +104,7 @@ Einzelheiten zu ihren Authoring-Fähigkeiten und Optionen zu ihrer Vorkonfigurat
 | Bereitstellung | [Über öffentliches GitHub](https://github.com/adobe/aem-core-wcm-components) | Über Quickstart |
 | Lizenz | [Apache-Lizenz](https://www.apache.org/licenses/LICENSE-2.0) | Adobe-geschützt |
 | Beitrag | Über Pull-Anfrage | Nicht möglich |
-| Erreichbarkeit | Vollständig konform mit dem [WCAG 2.0 AA-Standard](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.translate.html) | Nur teilweise konform mit dem [WCAG 2.0 AA-Standard](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.translate.html) |
+| Erreichbarkeit | Vollständig konform mit dem [WCAG 2.0 AA-Standard](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.translate.html) | Nur teilweise konform mit dem [WCAG 2.0 AA-Standard](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
 
 ## Komponentenliste {#component-list}
 
