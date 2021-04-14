@@ -1,15 +1,15 @@
 ---
 title: Komponentenrichtlinien
 description: Die Kernkomponenten folgen modernen Implementierungsmustern, die sich stark von den Foundation-Komponenten unterscheiden.
-role: Architekt, Entwickler, Administrator
-translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: ht
-source-wordcount: '1262'
-ht-degree: 100%
+role: Architect, Developer, Administrator
+exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
+translation-type: tm+mt
+source-git-commit: b5b77f21cbeaa46622cef85f3bbaa549f17f1a06
+workflow-type: tm+mt
+source-wordcount: '1272'
+ht-degree: 98%
 
 ---
-
 
 # Komponentenrichtlinien {#component-guidelines}
 
@@ -53,6 +53,10 @@ Da jede Inhalts-Ressource eine `sling:resourceType` Eigenschaft aufweist, die au
 
 Damit die projektspezifischen Komponenten jedoch keinen Code duplizieren, sollten sie jeweils auf die freigegebene übergeordnete Komponente mit der `sling:resourceSuperType`-Eigenschaft verweisen. Diese projektspezifischen Komponenten, die überwiegend einfach auf die übergeordneten Komponenten verweisen, werden als „Proxy-Komponenten“ bezeichnet. Proxy-Komponenten können vollständig leer sein, wenn sie die Funktionalität vollständig übernehmen, oder sie können einige Aspekte der Komponente neu definieren.
 
+>[!TIP]
+>
+>Weitere Informationen zum Erstellen von Proxykomponenten finden Sie unter [Verwenden von Kernkomponenten](/help/get-started/using.md#create-proxy-components).
+
 ### Komponentenversionierung {#component-versioning}
 
 Komponenten sollten im Laufe der Zeit vollständig kompatibel bleiben. Doch manchmal sind Änderungen, die nicht kompatibel bleiben können, erforderlich. Eine Lösung für diese gegensätzlichen Anforderungen ist die Einführung der Komponentenversionierung durch Hinzufügen einer Nummer in ihrem Ressourcentyppfad und in den voll qualifizierten Java-Klassennamen ihrer Implementierungen. Diese Versionsnummer stellt eine Hauptversion im Sinne der [Richtlinien für die semantische Versionierung](https://semver.org/) dar, die nur für Änderungen erhöht wird, die nicht abwärtskompatibel sind.
@@ -82,7 +86,7 @@ In Kombination mit dem oben beschriebenen [Proxy-Komponentenmuster](#proxy-compo
 
 ## Alles zusammenbringen {#putting-it-all-together}
 
-Im Folgenden finden Sie eine Übersicht über die gesamte Ressourcentyp-Bindungsstruktur, die sich auf die Titel-Kernkomponente bezieht. Es zeigt, wie eine Site-spezifische Proxy-Komponente die Versionierung der Komponenten auflösen lässt, um zu vermeiden, dass die Inhaltsressource eine Versionsnummer enthält. Anschließend wird gezeigt, wie die Datei `title.html` [HTL](https://docs.adobe.com/content/help/de-DE/experience-manager-htl/using/overview.html) der Komponente für die Modellschnittstelle verwendet wird, während die Implementierung über [Sling Model ](https://sling.apache.org/documentation/bundles/models.html)-Anmerkungen an die bestimmte Version der Komponente gebunden wird.
+Im Folgenden finden Sie eine Übersicht über die gesamte Ressourcentyp-Bindungsstruktur, die sich auf die Titel-Kernkomponente bezieht. Es zeigt, wie eine Site-spezifische Proxy-Komponente die Versionierung der Komponenten auflösen lässt, um zu vermeiden, dass die Inhaltsressource eine Versionsnummer enthält. Anschließend wird gezeigt, wie die Datei `title.html` [HTL](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html) der Komponente für die Modellschnittstelle verwendet wird, während die Implementierung über [Sling Model ](https://sling.apache.org/documentation/bundles/models.html)-Anmerkungen an die bestimmte Version der Komponente gebunden wird.
 
 ![Überblick über die Ressourcenbindung](/help/assets/chlimage_1-32.png)
 
