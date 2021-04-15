@@ -4,10 +4,10 @@ description: Die Schnellsuch-Komponente bietet Suchfunktionen für eine Website 
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
 translation-type: tm+mt
-source-git-commit: 72b8864a5dca24b938cecd808ab4cdededb1abec
+source-git-commit: 6eff0c8584605e034fc6516416783715fce10095
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 96%
+ht-degree: 93%
 
 ---
 
@@ -50,7 +50,7 @@ Im Dialogfeld „Bearbeiten“ kann der Verfasser des Inhalts festlegen, wo die 
 ![Dialogfeld „Bearbeiten“ der Schnellsuch-Komponente](/help/assets/quick-search-edit.png)
 
 **Suchstamm** - Die Stammseite, von der aus die Suche gestartet werden soll. Der Suchstamm kann ein Blueprint-Master, ein Sprachen-Master oder eine normale Seite sein.
-* **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
+* **ID** : Diese Option ermöglicht die Steuerung des eindeutigen Bezeichners der Komponente im HTML und in der  [Datenschicht.](/help/developing/data-layer/overview.md)
    * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
    * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
