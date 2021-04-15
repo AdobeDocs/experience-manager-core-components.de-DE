@@ -1,15 +1,15 @@
 ---
 title: Schnellsuch-Komponente
 description: Die Schnellsuch-Komponente bietet Suchfunktionen für eine Website und zeigt Suchergebnisse an, damit Besucher die Site durchsuchen und die Ergebnisse filtern können.
-role: Architekt, Entwickler, Administrator, Geschäftspraktiker
-translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
-workflow-type: ht
-source-wordcount: '597'
-ht-degree: 100%
+role: Architect, Developer, Administrator, Business Practitioner
+exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
+translation-type: tm+mt
+source-git-commit: 72b8864a5dca24b938cecd808ab4cdededb1abec
+workflow-type: tm+mt
+source-wordcount: '614'
+ht-degree: 96%
 
 ---
-
 
 # Schnellsuch-Komponente {#quick-search-component}
 
@@ -54,6 +54,10 @@ Im Dialogfeld „Bearbeiten“ kann der Verfasser des Inhalts festlegen, wo die 
    * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
    * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
+
+>[!NOTE]
+>
+>Wenn der **Suchstamm** nicht konfiguriert ist oder nicht aufgelöst werden kann, lautet die Schnellsuche standardmäßig die Suche unterhalb der aktuellen Seite.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
