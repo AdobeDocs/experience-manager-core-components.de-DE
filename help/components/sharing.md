@@ -1,7 +1,7 @@
 ---
 title: Social-Sharing-Komponente
 description: Die Kernkomponente „Social-Sharing-Komponente“ ist ein Widget zum Teilen auf Facebook und Pinterest.
-role: Architekt, Entwickler, Administrator, Geschäftspraktiker
+role: Architect, Developer, Administrator, Business Practitioner
 translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: ht

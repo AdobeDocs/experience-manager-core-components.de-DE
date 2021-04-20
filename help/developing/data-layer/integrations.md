@@ -1,8 +1,8 @@
 ---
 title: Integrationen und die Adobe Client-Datenschicht
 description: Erfahren Sie, wie die Adobe Client-Datenschicht in Ihre benutzerdefinierten Komponenten integriert werden kann und wie Sie durch Integrationen mit Adobe Analytics und Adobe Target Erkenntnisse über Ihre Website gewinnen können.
-feature: Kernkomponenten, Adobe Client-Datenschicht
-role: Architekt, Entwickler, Administrator
+feature: Core Components, Adobe Client Data Layer
+role: Architect, Developer, Administrator
 translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: ht

@@ -2,7 +2,7 @@
 title: Formularschaltflächen-Komponente (v1)
 description: Die Kernkomponente „Komponente für ausgeblendetes Formular“ ermöglicht die Einbeziehung eines ausgeblendeten Felds in ein Formular.
 index: n
-role: Architekt, Entwickler, Administrator, Geschäftspraktiker
+role: Architect, Developer, Administrator, Business Practitioner
 translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: ht

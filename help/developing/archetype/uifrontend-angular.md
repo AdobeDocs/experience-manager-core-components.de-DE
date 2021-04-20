@@ -1,8 +1,8 @@
 ---
 title: Front-End-Build für Angular-SPAs
 description: Beschreibung des Front-End-Build-Prozesses für Angular-basierte SPA-Projekte
-feature: Kernkomponenten, AEM-Projektarchetyp
-role: Architekt, Entwickler, Administrator
+feature: Core Components, AEM Project Archetype
+role: Architect, Developer, Administrator
 translation-type: ht
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: ht

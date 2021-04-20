@@ -1,8 +1,8 @@
 ---
 title: AEM-Projektarchetyp
 description: Eine Projektvorlage für AEM-basierte Programme
-feature: Kernkomponenten, AEM-Projektarchetyp
-role: Architekt, Entwickler, Administrator
+feature: Core Components, AEM Project Archetype
+role: Architect, Developer, Administrator
 translation-type: ht
 source-git-commit: 0e737fc766225e00c6d9f5a4c2240e05b49a9a62
 workflow-type: ht
