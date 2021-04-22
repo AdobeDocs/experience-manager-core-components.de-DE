@@ -2,14 +2,14 @@
 title: Akkordeon-Komponente
 description: Die Kernkomponente „Akkordeon“ ermöglicht die Erstellung einer Sammlung von Bedienfeldern, die auf der Seite in einem Akkordeon angeordnet sind.
 role: Architect, Developer, Administrator, Business Practitioner
+exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
 translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: ht
-source-wordcount: '1072'
+source-wordcount: '1067'
 ht-degree: 100%
 
 ---
-
 
 # Akkordeon-Komponente {#accordion-component}
 
