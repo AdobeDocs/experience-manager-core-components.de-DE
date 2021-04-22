@@ -2,14 +2,14 @@
 title: Listenkomponente
 description: Die Kernkomponente „Listenkomponente“ ermöglicht die einfache Erstellung dynamischer sowie statischer Listen.
 role: Architect, Developer, Administrator, Business Practitioner
+exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
 translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: ht
-source-wordcount: '984'
+source-wordcount: '979'
 ht-degree: 100%
 
 ---
-
 
 # Listenkomponente {#list-component}
 
