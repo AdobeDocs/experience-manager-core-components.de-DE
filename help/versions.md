@@ -3,11 +3,11 @@ title: Kernkomponenten-Versionen
 description: Kernkomponenten werden als Versionen veröffentlicht, die mehr als eine Version derselben Kernkomponenten enthalten können. In diesem Dokument wird erläutert, welche Versionen veröffentlicht werden und wie die Kompatibilität mit Kernkomponenten und AEM verstanden werden kann.
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2004'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Die folgende Tabelle, deren Inhalt [auf GitHub mit vollständigen Versionsinform
 
 | Version | Beschreibung | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Veröffentlichungsdatum |
 |---|---|---|---|---|---|---|
-| [2,15,2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.2) | Es handelt sich hierbei um eine Patch-Version, die hauptsächlich Probleme mit der Abwärtskompatibilität von [Datenschicht](/help/developing/data-layer/overview.md) und IT-Tests, die in bestimmten Situationen fehlschlugen, behebt. | 6.4.8.1+ * | 6.5.5.0+ * | Kontinuierlich | 8, 11 | 16. März 2021 |
+| [2.15.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.2) | Es handelte sich hierbei um eine Patch-Version, die hauptsächlich Probleme mit der Abwärtskompatibilität von [Datenschicht](/help/developing/data-layer/overview.md) und IT-Tests, die in bestimmten Situationen fehlschlugen, behebt. | 6.4.8.1+ * | 6.5.5.0+ * | Kontinuierlich | 8, 11 | 16. März 2021 |
 | [2.15.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.0) | Diese Version unterstützt Progressive Web Apps in der [Seitenkomponente](/help/components/page.md) und Version 2.0.0 der [Adobe-Datenschicht](/help/developing/data-layer/overview.md). | 6.4.8.1+ * | 6.5.5.0+ * | Kontinuierlich | 8, 11 | 23. Februar 2021 |
 | [2.14.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.14.0) | Diese Version enthält neue Optionen für die [Einbettungskomponente](/help/components/embed.md), führt den Marken-Slug auf der [Seitenebene](/help/components/page.md) ein und behebt viele Probleme. | 6.4.8.1+ * | 6.5.5.0+ * | Kontinuierlich | 8, 11 | 9. Februar 2021 |
 | [2.13.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.2) | Dies war eine Patch-Version, die ein Problem mit dem RTE bei Verwendung in AEMaaCS behob. | 6.4.8.1+ * | 6.5.5.0+ * | Kontinuierlich | 8, 11 | 16. Dezember 2020 |
