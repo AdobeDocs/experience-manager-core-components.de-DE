@@ -43,7 +43,7 @@ Die Richtlinien in diesem Abschnitt können für jede Art von Komponente ebenfal
 
 ### Vorkonfigurierbare Funktionen {#pre-configurable-capabilities}
 
-Neben dem Bearbeitungsdialogfeld, das von den Seitenautoren verwendet wird, können Komponenten auch ein Dialogfeld „Design“ für Vorlagenautoren haben, um diese vorkonfigurieren zu können. Der [Vorlageneditor](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/features/templates.translate.html) ermöglicht das Einrichten aller Vorkonfigurationen, die als &quot;Richtlinien&quot; bezeichnet werden.
+Neben dem Bearbeitungsdialogfeld, das von den Seitenautoren verwendet wird, können Komponenten auch ein Dialogfeld „Design“ für Vorlagenautoren haben, um diese vorkonfigurieren zu können. Der [Vorlageneditor](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/features/templates.translate.html) ermöglicht das Einrichten aller Vorkonfigurationen, die als „Richtlinien“ bezeichnet werden.
 
 Um Komponenten so wiederverwendbar wie möglich zu machen, sollten sie mit aussagekräftigen Optionen zur Vorkonfiguration bereitgestellt werden. Dies ermöglicht das Aktivieren oder Deaktivieren von Funktionen der Komponenten, die den spezifischen Anforderungen verschiedener Sites entsprechen.
 
