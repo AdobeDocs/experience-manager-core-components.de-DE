@@ -2,14 +2,14 @@
 title: Teaser-Komponente
 description: Die Teaser-Komponente kann ein Bild, einen Titel, Rich-Text und optional einen Link zu weiteren Inhalten anzeigen.
 role: Architect, Developer, Administrator, Business Practitioner
+exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
 translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: ht
-source-wordcount: '780'
+source-wordcount: '775'
 ht-degree: 100%
 
 ---
-
 
 # Teaser-Komponente {#teaser-component}
 
