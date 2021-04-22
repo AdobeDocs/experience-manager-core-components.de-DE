@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: b01fdc7ab6b4d4bb4200d28aaa3706c58ccdea9f
 workflow-type: tm+mt
 source-wordcount: '1591'
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
@@ -72,7 +72,7 @@ Wie bei jedem anderen AEMaaCS-Projekt müssen Sie auch eine Abhängigkeit zur AE
 </dependency>
 ```
 
-Weitere Informationen zu AEMaaCS-Projekten finden Sie im Dokument [AEM Projektstruktur](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html).
+Weitere Informationen zu AEMaaCS-Projekten finden Sie im Dokument [AEM Projektstruktur](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=de).
 
 ## Kernkomponentenunterstützung {#core-component-support}
 
