@@ -1,16 +1,16 @@
 ---
 title: ui.apps-Modul des AEM-Projektarchetyps
 description: ui.apps-Modul des AEM-Projektarchetyps
-feature: Core Components, AEM Project Archetype
+feature: Kernkomponenten, AEM-Projektarchetyp
 role: Architect, Developer, Administrator
+exl-id: fc63a19a-3253-44ee-96e2-bb5544c2235b
 translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: ht
-source-wordcount: '343'
+source-wordcount: '340'
 ht-degree: 100%
 
 ---
-
 
 # ui.apps-Modul des AEM-Projektarchetyps {#uiapps-module}
 
@@ -30,7 +30,7 @@ Das ui.apps pom (`<src>/<project>/ui.apps/pom.xml`) stellt die `embedded` Tags f
 
 Beachten Sie, dass die Pakete core.wcm.components.all und core.wcm.components.example als Unterpaket enthalten sind. Dadurch wird jedes Mal das Kernkomponenten-Paket zusammen mit dem WKND-Code bereitgestellt.
 
-Die Beispiele &quot;core.wcm.components.all&quot; und &quot;core.wcm.components.example&quot; werden als Abhängigkeiten in die Abhängigkeitsliste aufgenommen. Als bewährtes Verfahren werden jedoch Versionen für Abhängigkeiten hier weggelassen und in der [übergeordneten Pom-Datei](/help/developing/archetype/using.md#core-components) verwaltet.
+Die Beispiele „core.wcm.components.all“ und „core.wcm.components.example“ werden als Abhängigkeiten in die Abhängigkeitsliste aufgenommen. Als bewährtes Verfahren werden jedoch Versionen für Abhängigkeiten hier weggelassen und in der [übergeordneten Pom-Datei](/help/developing/archetype/using.md#core-components) verwaltet.
 
 ## filter.xml {#filter}
 
