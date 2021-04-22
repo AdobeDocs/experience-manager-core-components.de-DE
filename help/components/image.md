@@ -2,14 +2,14 @@
 title: Bildkomponente
 description: Die Kernkomponente „Bildkomponente“ ist eine anpassungsfähige Bildkomponente mit Funktionen zur Bearbeitung im Kontext.
 role: Architect, Developer, Administrator, Business Practitioner
+exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: ht
-source-wordcount: '2175'
+source-wordcount: '2170'
 ht-degree: 100%
 
 ---
-
 
 # Bildkomponente {#image-component}
 
