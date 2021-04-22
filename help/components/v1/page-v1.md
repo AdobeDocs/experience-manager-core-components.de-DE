@@ -3,14 +3,14 @@ title: Seitenkomponente (v1)
 description: Die Seitenkomponente ist eine Erweiterungskomponente für Seiten, die mit dem Vorlageneditor arbeitet und es ermöglicht, Seitenkopf-/Fußzeilen- und Strukturkomponenten mit dem Vorlageneditor zusammenzustellen.
 index: n
 role: Architect, Developer, Administrator, Business Practitioner
+exl-id: 522f32f0-fc06-4ca0-ada2-61bdbc8761e0
 translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: ht
-source-wordcount: '495'
+source-wordcount: '490'
 ht-degree: 100%
 
 ---
-
 
 # Seitenkomponente (v1) {#page-component-v}
 
@@ -683,7 +683,7 @@ Im Folgenden finden Sie ein Beispiel von [We.Retail](https://helpx.adobe.com/de/
 
 ## Dialogfeld „Bearbeiten“ {#edit-dialog}
 
-Da die Komponente die gesamte Seite darstellt, befinden sich Einstellungen, die normalerweise in einem Dialogfeld „Bearbeiten“ enthalten wären, im Fenster [Seiteneigenschaften](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-page-properties.html).
+Da die Komponente die gesamte Seite darstellt, befinden sich Einstellungen, die normalerweise in einem Dialogfeld „Bearbeiten“ enthalten wären, im Fenster [Seiteneigenschaften](https://helpx.adobe.com/de/experience-manager/6-4/sites/authoring/using/editing-page-properties.html).
 
 ## Dialogfeld „Design“ {#design-dialog}
 
