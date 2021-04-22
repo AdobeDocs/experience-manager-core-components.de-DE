@@ -2,14 +2,14 @@
 title: Karussellkomponente
 description: Mit der Karussellkomponente kann der Inhaltsautor Inhalte in einem drehbaren Karussell präsentieren.
 role: Architect, Developer, Administrator, Business Practitioner
+exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
 translation-type: ht
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
 workflow-type: ht
-source-wordcount: '1130'
+source-wordcount: '1125'
 ht-degree: 100%
 
 ---
-
 
 # Karussellkomponente {#carousel-component}
 
