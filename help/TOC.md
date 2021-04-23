@@ -5,10 +5,10 @@ breadcrumb-title: Anleitung zu den Hauptkomponenten
 user-guide-description: Nutzen Sie die erweiterbaren Hauptkomponenten, damit Autoren mühelos Inhalte erstellen können.
 feature-set: Experience Manager Sites
 translation-type: tm+mt
-source-git-commit: 74cbb94c35e7b62332f88245ed48c72d1ac07796
+source-git-commit: 15aa2145a4872a9e9c46e639f42f212363823d75
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 99%
+source-wordcount: '214'
+ht-degree: 100%
 
 ---
 
@@ -92,4 +92,3 @@ ht-degree: 99%
       + [ui.tests-Modul](developing/archetype/uitests.md)
       + [it.tests-Modul](developing/archetype/ittests.md)
       + [Build Analyzer-Maven-Plug-in](developing/archetype/build-analyzer-maven-plugin.md)
-+ [Ausgeblendete Seite](hidden.md)
