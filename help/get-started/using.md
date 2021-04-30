@@ -3,11 +3,11 @@ title: Verwenden von Kernkomponenten
 description: '„Um mit Kernkomponenten in Ihrem eigenen Projekt produktiv zu werden, sind drei Schritte erforderlich: herunterladen und installieren, Proxy-Komponenten erstellen, die Kernstile laden und die Komponenten in Ihren Vorlagen zulassen.“'
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 45a17fe42146516f351f897e85a4a48dcf3aadab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '977'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -22,34 +22,34 @@ Um mit Kernkomponenten in Ihrem eigenen Projekt produktiv zu werden, sind vier S
 
 >[!TIP]
 >
->Für umfassendere Anleitungen zu den ersten Schritten mit der Projekteinrichtung, den Core-Komponenten, bearbeitbaren Vorlagen, Client-Bibliotheken und der Komponentenentwicklung könnte das folgende mehrteilige Lernprogramm von Interesse sein:\
+>Das folgende mehrteilige Tutorial bietet eine ausführliche Anleitung, wie Sie mit der Projekteinrichtung, den Kernkomponenten, den bearbeitbaren Vorlagen, den Client-Bibliotheken und der Komponentenentwicklung von Grund auf neu beginnen können:\
 >[Erste Schritte mit AEM Sites - WKND-Tutorial](https://docs.adobe.com/content/help/de-DE/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
 
 >[!TIP]
 >
->Wenn Sie den Projektarchiv [AEM verwenden, werden die Hauptkomponenten automatisch entsprechend den Best Practices der Adobe in Ihr Projekt aufgenommen.](/help/developing/archetype/overview.md)
+>Wenn Sie den [AEM-Projektarchetyp](/help/developing/archetype/overview.md) verwenden, werden die Kernkomponenten automatisch in Ihr Projekt aufgenommen, basierend auf den Empfehlungen für Best Practices von Adobe.
 
 ## Herunterladen und installieren {#download-and-install}
 
 Einer der treibenden Ideen hinter den Kernkomponenten ist Flexibilität. Durch die häufigere Veröffentlichung neuer Versionen der Kernkomponenten kann Adobe bei der Bereitstellung neuer Funktionen flexibler sein. Entwickler wiederum können flexibel entscheiden, welche Komponenten sie in ihre Projekte integrieren und wie oft sie diese aktualisieren möchten. Dies führt zu einem separaten Veröffentlichungsprozess für AEM und die Kernkomponenten.
 
-Die Installationsschritte werden daher bestimmt, ob Sie AEM als Cloud-Dienst oder lokal ausführen.
+Daher hängen die Installationsschritten davon ab, ob Sie AEM as a Cloud Service oder On-Premise ausführen.
 
 ### AEM as a Cloud Service {#aemaacs}
 
-Es gibt keinen Schritt! AEM als Cloud Service wird automatisch mit der neuesten Version der Kernkomponenten geliefert. Genau wie AEMaaCS die neuesten Funktionen von AEM Angebot, hält AEMaaCS Sie automatisch auf dem neuesten Stand über die neuesten Versionen der Kernkomponenten.
+Es gibt keinen Schritt eins! AEM as a Cloud Service wird automatisch mit der neuesten Version der Kernkomponenten geliefert. AEMaaCS bietet Ihnen nicht nur die neuesten Funktionen von AEM, sondern hält Sie auch automatisch mit der neuesten Version der Kernkomponenten auf dem aktuellen Stand.
 
-Bei der Verwendung der Hauptkomponenten in AEMaaCS sind einige Punkte zu beachten:
+Einige Punkte, die Sie beachten sollten, wenn Sie die Kernkomponenten in AEMaaCS verwenden:
 
 * Die Kernkomponenten sind in `/libs` enthalten.
-* Die Projekterstellungspipeline generiert Warnungen im Protokoll, wenn sie die Kernkomponenten erneut als Teil von `/apps` enthält, und ignoriert die als Teil Ihres Projekts eingebettete Version.
-   * In einer kommenden Version wird der Pipeline-Build auch bei den Core-Komponenten fehlschlagen.
-* Wenn Ihr Projekt zuvor die Kernkomponenten in `/apps`, [enthalten hat, müssen Sie Ihr Projekt möglicherweise anpassen.](/help/developing/overview.md#via-aemaacs)
-* Auch wenn sich die Kernkomponenten jetzt in `/libs` befinden, wird nicht empfohlen, Überlagerungen desselben Pfads in `/apps` zu erstellen. [Stattdessen sollte das ](/help/developing/guidelines.md#proxy-component-pattern) Muster der Proxykomponente verwendet werden, wenn ein Aspekt der Komponenten angepasst werden muss.
+* Die Projekt-Build-Pipeline erzeugt Warnungen im Protokoll, wenn sie die Kernkomponenten erneut als Teil von `/apps` einbindet, und ignoriert die als Teil Ihres Projekts eingebettete Version.
+   * In einer kommenden Version wird das Einbinden der Kernkomponenten den Pipeline-Build erneut fehlschlagen lassen.
+* Wenn Ihr Projekt zuvor die Kernkomponenten in `/apps` enthielt, [müssen Sie Ihr Projekt möglicherweise anpassen.](/help/developing/overview.md#via-aemaacs)
+* Auch wenn sich die Kernkomponenten jetzt in `/libs` befinden, ist es nicht empfehlenswert, ein Overlay des gleichen Pfades in `/apps` zu erstellen. Stattdessen sollte [das Proxy-Komponentenmuster](/help/developing/guidelines.md#proxy-component-pattern) verwendet werden, wenn irgendein Aspekt der Komponenten angepasst werden muss.
 
 ### AEM 6.5 und älter {#aem-65}
 
-Die Core-Komponenten sind nicht Teil des Schnellstarts, wenn Sie im Produktionsmodus beginnen (ohne Beispielinhalt). Der erste Schritt besteht darin, [das neueste veröffentlichte Inhaltspaket von GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest) herunterzuladen und es in Ihren AEM-Umgebungen zu installieren.
+Die Kernkomponenten sind nicht Teil des Schnellstarts, wenn Sie im Produktionsmodus (ohne Beispielinhalt) beginnen. Der erste Schritt besteht darin, [das neueste veröffentlichte Inhaltspaket von GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest) herunterzuladen und es in Ihren AEM-Umgebungen zu installieren.
 
 Es gibt verschiedene Möglichkeiten, dies zu automatisieren, aber die einfachste Möglichkeit, ein Inhaltspaket schnell auf einer Instanz zu installieren, erfolgt über den Package Manager; siehe [Installieren von Paketen](https://docs.adobe.com/content/help/de-DE/experience-manager-65/administering/contentmanagement/package-manager.html#installing-packages). Sobald Sie außerdem eine Veröffentlichungsinstanz ausgeführt haben, müssen Sie dieses Paket für den Herausgeber replizieren. Siehe [Replizieren von Paketen](https://docs.adobe.com/content/help/de-DE/experience-manager-65/administering/contentmanagement/package-manager.html#replicating-packages).
 
