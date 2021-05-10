@@ -3,11 +3,11 @@ title: Wege zum Erfolg mit den Kernkomponenten
 description: So implementieren Sie Ihr Projekt erfolgreich mit den Kernkomponenten
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 1ea8cd1c-8435-4ded-82dc-5a7896c53e0c
-translation-type: ht
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
-source-wordcount: '570'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 056c5bc15ac9e669c3bf6d5da7f060d6eef02608
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -41,7 +41,7 @@ Berücksichtigen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_li
 
 ### Nutzung des Benutzeroberflächen-Kits für Adobe XD {#ui-kit}
 
-Sobald eine benutzerdefinierte Komponente nachweislich benötigt wird, verwenden Sie das [Benutzeroberflächen-Kit für Adobe XD](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_Wireframe.xd), damit die Designer die Kernkomponenten beim Erstellen der Wireframes und Designs als Bausteine verwenden können.
+Sobald eine benutzerdefinierte Komponente nachweislich benötigt wird, verwenden Sie das [Benutzeroberflächen-Kit für Adobe XD](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd), damit die Designer die Kernkomponenten beim Erstellen der Wireframes und Designs als Bausteine verwenden können.
 
 ## Leistungsstarke Funktionen nicht übersehen {#powerful-features}
 
@@ -59,4 +59,4 @@ Wenn ein Autor Teile einer Seite (die sogenannten Fragmente eines Erlebnisses) w
 
 ### Die Einbettungskomponente {#embed-component}
 
-[Die Einbettungskomponente](/help/components/embed.md) ermöglicht nicht nur die einfache Einbindung externer Ressourcen wie YouTube-Videoinhalte, sondern ist auch erweiterbar, um Inhalte aufzunehmen, die auf die Bedürfnisse eines Projekts zugeschnitten sind.
+[Die ](/help/components/embed.md) Komponente &quot;Embed&quot;ermöglicht nicht nur die einfache Einbeziehung externer Ressourcen wie z.B. YouTube-Videoinhalte, sondern ist auch erweiterbar, damit sie für projektspezifische Inhalte geeignet ist.
