@@ -3,10 +3,10 @@ title: Kernkomponenten-Versionen
 description: Kernkomponenten werden als Versionen veröffentlicht, die mehr als eine Version derselben Kernkomponenten enthalten können. In diesem Dokument wird erläutert, welche Versionen veröffentlicht werden und wie die Kompatibilität mit Kernkomponenten und AEM verstanden werden kann.
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 46d97324ed1b903c315725429fe36b11a1856aa9
+source-git-commit: 6dc5c5959410f643ff169989d4d98c6f65f98076
 workflow-type: tm+mt
-source-wordcount: '2067'
-ht-degree: 98%
+source-wordcount: '2072'
+ht-degree: 97%
 
 ---
 
@@ -26,10 +26,10 @@ Die folgende Tabelle, deren Inhalt [auf GitHub mit vollständigen Versionsinform
 
 | Version | Beschreibung | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Veröffentlichungsdatum |
 |---|---|---|---|---|---|---|
-| [2,16,2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.2) | Dieses Patch-Release wurde veröffentlicht, um Probleme im Zusammenhang mit dem Link-Handler zu beheben. Auch beim PWA wurden geringfügige Verbesserungen vorgenommen. | 6.4.8.1+ * | 6.5.5.0+ * | Kontinuierlich | 8, 11 | 15. Mai 2021 |
+| [2,16,2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.2) | Dieses Patch-Release behob hauptsächlich ein Problem mit dem neuen Link-Handler und fügte eine Verbesserung hinzu, um mehrseitige Anwendungen für [PWA zu unterstützen.](/help/components/page.md#pwa-support) | 6.4.8.1+ * | 6.5.5.0+ * | Kontinuierlich | 8, 11 | 15. Mai 2021 |
 | [2.16.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.0) | Diese Version konzentrierte sich auf Verbesserungen der Barrierefreiheit sowie die Einführung eines neuen Link-Handlers für bestehende Komponenten. | 6.4.8.1+ * | 6.5.5.0+ * | Kontinuierlich | 8, 11 | 22. April 2021 |
 | [2.15.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.2) | Es handelte sich hierbei um eine Patch-Version, die hauptsächlich Probleme mit der Abwärtskompatibilität von [Datenschicht](/help/developing/data-layer/overview.md) und IT-Tests, die in bestimmten Situationen fehlschlugen, behebt. | 6.4.8.1+ * | 6.5.5.0+ * | Kontinuierlich | 8, 11 | 16. März 2021 |
-| [2.15.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.0) | Diese Version unterstützt Progressive Web Apps in der [Seitenkomponente](/help/components/page.md) und Version 2.0.0 der [Adobe-Datenschicht](/help/developing/data-layer/overview.md). | 6.4.8.1+ * | 6.5.5.0+ * | Kontinuierlich | 8, 11 | 23. Februar 2021 |
+| [2.15.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.0) | Diese Version unterstützt [progressive Web-Apps (PWA) in der Seitenkomponente](/help/components/page.md#pwa-support) und Version 2.0.0 der [Adobe Data Layer.](/help/developing/data-layer/overview.md) | 6.4.8.1+ * | 6.5.5.0+ * | Kontinuierlich | 8, 11 | 23. Februar 2021 |
 | [2.14.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.14.0) | Diese Version enthält neue Optionen für die [Einbettungskomponente](/help/components/embed.md), führt den Marken-Slug auf der [Seitenebene](/help/components/page.md) ein und behebt viele Probleme. | 6.4.8.1+ * | 6.5.5.0+ * | Kontinuierlich | 8, 11 | 9. Februar 2021 |
 | [2.13.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.2) | Dies war eine Patch-Version, die ein Problem mit dem RTE bei Verwendung in AEMaaCS behob. | 6.4.8.1+ * | 6.5.5.0+ * | Kontinuierlich | 8, 11 | 16. Dezember 2020 |
 | [2.13.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.0) | Diese Version enthält neue Dynamic Media-Funktionen für die [Bildkomponente](/help/components/image.md). | 6.4.8.1+ * | 6.5.5.0+ * | Kontinuierlich | 8, 11 | 4. Dezember 2020 |
