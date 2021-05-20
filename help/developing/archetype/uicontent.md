@@ -4,9 +4,8 @@ description: ui.content-Modul des AEM-Projektarchetyps
 feature: Kernkomponenten, AEM-Projektarchetyp
 role: Architect, Developer, Administrator
 exl-id: af019cd8-c733-4b53-bb57-321dd9451178
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 100%
 
