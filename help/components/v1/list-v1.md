@@ -4,9 +4,8 @@ description: Die Kernkomponente „Listenkomponente“ ermöglicht die einfache 
 index: n
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 510d059c-e60a-40aa-9032-66a901109f6e
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 100%
 
