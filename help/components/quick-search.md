@@ -3,9 +3,8 @@ title: Schnellsuch-Komponente
 description: Die Schnellsuch-Komponente bietet Suchfunktionen für eine Website und zeigt Suchergebnisse an, damit Besucher die Site durchsuchen und die Ergebnisse filtern können.
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
-translation-type: ht
 source-git-commit: 6eff0c8584605e034fc6516416783715fce10095
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 100%
 
@@ -15,7 +14,7 @@ ht-degree: 100%
 
 Die Schnellsuch-Komponente bietet Suchfunktionen für eine Website und zeigt Suchergebnisse an, damit Besucher mühelos übereinstimmende Inhalte finden und Ergebnisse anzeigen können.
 
-## Verwendung {#usage}
+## Nutzung {#usage}
 
 Die Schnellsuch-Komponente bietet Site-Besuchern die Möglichkeit, nach Inhalten zu suchen, die Ergebnisse unmittelbar anzuzeigen und leicht zu den passenden Seiten zu navigieren. Neue Ergebnisse werden dynamisch abgerufen, wenn der Benutzer die Suchergebnisse durchblättert.
 
