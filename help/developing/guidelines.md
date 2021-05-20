@@ -3,9 +3,8 @@ title: Komponentenrichtlinien
 description: Die Kernkomponenten folgen modernen Implementierungsmustern, die sich stark von den Foundation-Komponenten unterscheiden.
 role: Architect, Developer, Administrator
 exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
-translation-type: ht
 source-git-commit: b5b77f21cbeaa46622cef85f3bbaa549f17f1a06
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1272'
 ht-degree: 100%
 
@@ -86,7 +85,7 @@ In Kombination mit dem oben beschriebenen [Proxy-Komponentenmuster](#proxy-compo
 
 ## Alles zusammenbringen {#putting-it-all-together}
 
-Im Folgenden finden Sie eine Übersicht über die gesamte Ressourcentyp-Bindungsstruktur, die sich auf die Titel-Kernkomponente bezieht. Es zeigt, wie eine Site-spezifische Proxy-Komponente die Versionierung der Komponenten auflösen lässt, um zu vermeiden, dass die Inhaltsressource eine Versionsnummer enthält. Anschließend wird gezeigt, wie die Datei `title.html` [HTL](https://docs.adobe.com/content/help/de-DE/experience-manager-htl/using/overview.html) der Komponente für die Modellschnittstelle verwendet wird, während die Implementierung über [Sling Model ](https://sling.apache.org/documentation/bundles/models.html)-Anmerkungen an die bestimmte Version der Komponente gebunden wird.
+Im Folgenden finden Sie eine Übersicht über die gesamte Ressourcentyp-Bindungsstruktur, die sich auf die Titel-Kernkomponente bezieht. Es zeigt, wie eine Site-spezifische Proxy-Komponente die Versionierung der Komponenten auflösen lässt, um zu vermeiden, dass die Inhaltsressource eine Versionsnummer enthält. Anschließend wird gezeigt, wie die Datei `title.html` [HTL](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html) der Komponente für die Modellschnittstelle verwendet wird, während die Implementierung über [Sling Model ](https://sling.apache.org/documentation/bundles/models.html)-Anmerkungen an die bestimmte Version der Komponente gebunden wird.
 
 ![Überblick über die Ressourcenbindung](/help/assets/chlimage_1-32.png)
 
