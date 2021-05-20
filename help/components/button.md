@@ -3,9 +3,8 @@ title: Schaltflächenkomponente
 description: Die Kernkomponente „Schaltflächenkomponente“ ermöglicht die Erstellung und Anzeige einer Schaltfläche.
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: e17efd1d-90d4-497a-9e7d-45934d81bc28
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 100%
 
@@ -15,7 +14,7 @@ ht-degree: 100%
 
 Die Kernkomponente „Schaltflächenkomponente“ ermöglicht die Erstellung und Anzeige eines Schaltflächen-Elements auf einer Seite.
 
-## Verwendung {#usage}
+## Nutzung {#usage}
 
 Die Kernkomponente „Schaltflächenkomponente“ ermöglicht die Integration einer Schaltfläche in eine Seite.
 
