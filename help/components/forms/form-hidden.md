@@ -3,9 +3,8 @@ title: Komponente für ausgeblendetes Formular
 description: Die Kernkomponente „Komponente für ausgeblendetes Formular“ ermöglicht die Anzeige eines ausgeblendeten Felds.
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 0364cd3b-3c09-46db-9392-a67e3f9ea7a5
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 100%
 
@@ -15,7 +14,7 @@ ht-degree: 100%
 
 Die Kernkomponente „Komponente für ausgeblendetes Formular“ ermöglicht die Anzeige eines ausgeblendeten Felds.
 
-## Verwendung {#usage}
+## Nutzung {#usage}
 
 Die Kernkomponente „Komponente für ausgeblendetes Formular“ ermöglicht die Erstellung ausgeblendeter Felder, um Informationen über die aktuelle Seite zurück an AEM zu senden. Sie soll zusammen mit der [Formularcontainer-Komponente](form-container.md) verwendet werden.
 
