@@ -3,9 +3,8 @@ title: Formularoptionen-Komponente
 description: Die Kernkomponente „Formularoptionen“ ermöglicht die Auswahl aus vordefinierten Optionen in verschiedenen Formaten.
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 8a74bd37-9b12-4fa6-bff2-53e337b16251
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 100%
 
@@ -15,7 +14,7 @@ ht-degree: 100%
 
 Die Kernkomponente „Formularoptionen“ ermöglicht die Auswahl aus vordefinierten Optionen in verschiedenen Formaten.
 
-## Verwendung {#usage}
+## Nutzung {#usage}
 
 Die Kernkomponente „Formularoptionen-Komponente“ ermöglicht die Übermittlung verschiedener Arten von Optionen, die auf vielerlei Arten präsentiert werden und die zusammen mit der [Formularcontainer-Komponente](form-container.md) verwendet werden sollten.
 
