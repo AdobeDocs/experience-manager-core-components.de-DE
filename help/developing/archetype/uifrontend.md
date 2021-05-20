@@ -4,9 +4,8 @@ description: Eine Projektvorlage für AEM-basierte Programme
 feature: Kernkomponenten, AEM-Projektarchetyp
 role: Architect, Developer, Administrator
 exl-id: 99132b49-bd06-4ac2-9348-12c0dfdfe8b2
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1625'
 ht-degree: 100%
 
@@ -39,7 +38,7 @@ Wenn der gesamte AEM-Projektarchetyp mit `mvn clean install -PautoInstallPackage
 
 ## Überblick über ClientLibs {#clientlibs}
 
-Das Frontend-Modul wird mithilfe einer [AEM ClientLib](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=de-DE) bereitgestellt. Beim Ausführen des NPM Build-Skripts wird das Programm erstellt und das aem-clientlib-generator-Paket nimmt die resultierende Buildausgabe entgegen und wandelt sie in eine solche ClientLib um.
+Das Frontend-Modul wird mithilfe einer [AEM ClientLib](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html) bereitgestellt. Beim Ausführen des NPM Build-Skripts wird das Programm erstellt und das aem-clientlib-generator-Paket nimmt die resultierende Buildausgabe entgegen und wandelt sie in eine solche ClientLib um.
 
 Eine ClientLib besteht aus den folgenden Dateien und Verzeichnissen:
 
@@ -115,7 +114,7 @@ Das AEM-Projektarchiv enthält einen optionalen, dedizierten Front-End-Build-Mec
 >
 >Um den ui.frontend-Ordner zu füllen, müssen Sie den [Archetyp ausführen](overview.md) und dabei die Option `-DoptionIncludeFrontendModule=y` verwenden.
 
-## Verwendung {#usage}
+## Nutzung {#usage}
 
 Die folgenden npm-Skripten verhelfen zum Frontend-Arbeitsablauf:
 
