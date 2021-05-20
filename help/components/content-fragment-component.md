@@ -3,9 +3,8 @@ title: Inhaltsfragment-Komponente
 description: Die Kernkomponente „Inhaltsfragment-Komponente“ ermöglicht die Anzeige eines Inhaltsfragments.
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 551ff2a1-f8db-490c-84a3-4255b364fc83
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 100%
 
@@ -19,9 +18,9 @@ Die Kernkomponente „Inhaltsfragment-Komponente“ ermöglicht die Anzeige eine
 >
 >Vor Version 2.4.0 der Kernkomponenten war die Komponente „Inhaltsfragment“ als Erweiterung für die Kernkomponenten verfügbar und musste separat heruntergeladen und explizit aktiviert werden.
 
-## Verwendung {#usage}
+## Nutzung {#usage}
 
-Die Kernkomponente „Inhaltsfragment-Komponente“ ermöglicht die Einbeziehung eines [Inhaltsfragments](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/assets/content-fragments/content-fragments.translate.html) auf einer Seite.
+Die Kernkomponente „Inhaltsfragment-Komponente“ ermöglicht die Einbeziehung eines [Inhaltsfragments](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) auf einer Seite.
 
 * Das Fragment und seine Eigenschaften können im [Dialogfeld „Konfigurieren“](#configure-dialog) ausgewählt werden.
 * Ressourcentypen zum Verarbeiten bestimmter Bilder und Raster können im [Dialogfeld „Design“](#design-dialog) definiert werden.
