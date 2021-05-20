@@ -4,9 +4,8 @@ description: Die Kernkomponente „Formulartext-Komponente“ ermöglicht die Ei
 index: n
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: d6fbc596-cb42-4478-8a3c-aa5aead3be0a
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 100%
 
@@ -95,7 +94,7 @@ Im Folgenden finden Sie ein Beispiel von [We.Retail](https://helpx.adobe.com/de/
 
 Das Dialogfeld „Konfigurieren“ ermöglicht es dem Inhaltsautor, den Texttyp sowie Standardwerte und Beschriftungen zu definieren.
 
-### Allgemein {#main}
+### Main {#main}
 
 ![](/help/assets/chlimage_1-23.png)
 
