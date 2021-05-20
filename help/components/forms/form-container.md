@@ -3,9 +3,8 @@ title: Formularcontainer-Komponente
 description: Die Kernkomponente „Formularcontainer-Komponente“ ermöglicht die Erstellung einfacher Übermittlungsformulare.
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 552f9dd5-6a3a-42d9-9969-e62a1f36e811
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 100%
 
@@ -15,7 +14,7 @@ ht-degree: 100%
 
 Die Kernkomponente „Formularcontainer-Komponente“ ermöglicht die Erstellung einfacher Übermittlungsformulare.
 
-## Verwendung {#usage}
+## Nutzung {#usage}
 
 Die Formularcontainer-Komponente ermöglicht das Erstellen einfacher Informationsübermittlungsformulare und -funktionen, indem einfache WCM-Formulare unterstützt werden und eine verschachtelte Struktur verwendet wird, um zusätzliche Formularkomponenten zuzulassen.
 
@@ -120,7 +119,7 @@ Unabhängig vom ausgewählten Aktionstyp kann eine Dankeseite immer definiert we
 
 ## Dialogfeld „Design“ {#design-dialog}
 
-Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die zulässigen Komponenten und deren Zuordnungen für den Container ähnlich dem Dialogfeld „Design“ für den [Standard-Layout-Container im Vorlageneditor](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/features/templates.translate.html) zu definieren.
+Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die zulässigen Komponenten und deren Zuordnungen für den Container ähnlich dem Dialogfeld „Design“ für den [Standard-Layout-Container im Vorlageneditor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) zu definieren.
 
 ### Registerkarte „Stile“ {#styles-tab}
 
