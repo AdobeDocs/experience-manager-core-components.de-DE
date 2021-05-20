@@ -3,9 +3,8 @@ title: Formulartext-Komponente
 description: Die Kernkomponente „Formulartext-Komponente“ ermöglicht die Eingabe von Formulartext zur Übermittlung.
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: e8fa3881-51fb-4726-9654-8f93acfb7464
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 100%
 
@@ -15,7 +14,7 @@ ht-degree: 100%
 
 Die Kernkomponente „Formulartext-Komponente“ ermöglicht die Eingabe von Formulartext zur Übermittlung.
 
-## Verwendung {#usage}
+## Nutzung {#usage}
 
 Die Formulartext-Komponente ermöglicht die Übermittlung verschiedener Texttypen und sollte zusammen mit der [Formularcontainer-Komponente](form-container.md) verwendet werden. Der Typ der Textvalidierung, Beschriftung und Hilfemeldungen kann vom Inhaltseditor im [Dialogfeld „Konfigurieren“](#configure-dialog) definiert werden.
 
