@@ -3,9 +3,8 @@ title: Fortschrittsleistenkomponente
 description: Die Fortschrittsleistenkomponente visualisiert den Fortschritt bei der Erreichung eines Ziels.
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 47afc5a6-ac57-4b6c-92c4-015ca956a20b
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 100%
 
@@ -15,7 +14,7 @@ ht-degree: 100%
 
 Die Kernkomponente „Fortschrittsleistenkomponente“ visualisiert den Fortschritt bei der Erreichung eines Ziels.
 
-## Verwendung {#usage}
+## Nutzung {#usage}
 
 Mit der Fortschrittsleistenkomponente können Inhaltsautoren eine Fortschrittsleiste einfach durch Festlegen eines Prozentsatzes für die Fertigstellung erstellen, was eine intuitive visuelle Anzeige des Fortschritts bei der Erreichung eines Ziels ermöglicht.
 
