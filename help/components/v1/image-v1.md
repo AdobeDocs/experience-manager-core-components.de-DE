@@ -4,9 +4,8 @@ description: Die Kernkomponente „Bildkomponente“ ist eine anpassungsfähige 
 index: n
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
-translation-type: ht
 source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1229'
 ht-degree: 100%
 
@@ -16,7 +15,7 @@ ht-degree: 100%
 
 Die Kernkomponente „Bildkomponente“ ist eine anpassungsfähige Bildkomponente mit Funktionen zur Bearbeitung im Kontext.
 
-## Verwendung {#usage}
+## Nutzung {#usage}
 
 Die Bildkomponente ermöglicht das einfache Platzieren von Bildmaterial und bietet die Möglichkeit zur direkten Bearbeitung. Es bietet eine anpassungsfähige Bildauswahl mit verzögertem Laden sowie Beschneiden für den Inhaltsautor.
 
@@ -182,7 +181,7 @@ Der Editor für die Bearbeitung im Kontext kann auch zum Ändern des Bildes verw
 
 Das Dialogfeld „Design“ ermöglicht dem Vorlagenautor die Definition von Zuschnitt, Upload und Rotations-Upload, die vom Inhalts-Autor bei der Verwendung dieser Komponente genutzt werden.
 
-### Allgemein {#main}
+### Main {#main}
 
 In dieser Registerkarte **Allgemein** können Sie eine Liste der zulässigen Breiten in Pixel definieren, damit das Bild automatisch die angemessenste Breite aus der Liste laden wird.
 
