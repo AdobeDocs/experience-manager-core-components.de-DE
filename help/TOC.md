@@ -4,7 +4,6 @@ user-guide-title: AEM-Kernkomponenten
 breadcrumb-title: Anleitung zu den Hauptkomponenten
 user-guide-description: Nutzen Sie die erweiterbaren Hauptkomponenten, damit Autoren mühelos Inhalte erstellen können.
 feature-set: Experience Manager Sites
-translation-type: tm+mt
 source-git-commit: 15aa2145a4872a9e9c46e639f42f212363823d75
 workflow-type: tm+mt
 source-wordcount: '214'
@@ -20,7 +19,7 @@ ht-degree: 100%
 + [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_de)
 + [Kernkomponenten-Versionen](versions.md)
 + Erste Schritte {#get-started}
-   + [Authoring mit Kernkomponenten ](get-started/authoring.md)
+   + [Authoring mit Kernkomponenten](get-started/authoring.md)
    + [Verwenden von Kernkomponenten](get-started/using.md)
    + [Lokalisierungsfunktionen](get-started/localization.md)
 + Die Komponenten {#components}
@@ -38,7 +37,7 @@ ht-degree: 100%
    + [Sprachnavigation](components/language-navigation.md)
    + [Liste](components/list.md)
    + [Navigation](components/navigation.md)
-   + [Seite](components/page.md)
+   + [Seite ](components/page.md)
    + [PDF-Viewer](components/pdf-viewer.md)
    + [Fortschrittsleiste](components/progress-bar.md)
    + [Schnellsuche](components/quick-search.md)
@@ -75,7 +74,7 @@ ht-degree: 100%
    + [Komponentenrichtlinien](developing/guidelines.md)
    + [AMP-Unterstützung](developing/amp.md)
    + [Kontextabhängige Konfigurationen](developing/context-aware-configs.md)
-   + [Einschließen von Client-Bibliotheken ](developing/including-clientlibs.md)
+   + [Einschließen von Client-Bibliotheken](developing/including-clientlibs.md)
    + Adobe Client-Datenschicht {#data-layer}
       + [Überblick über die Datenschicht](developing/data-layer/overview.md)
       + [Integration mit der Datenschicht](developing/data-layer/integrations.md)
