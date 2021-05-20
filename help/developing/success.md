@@ -3,11 +3,11 @@ title: Wege zum Erfolg mit den Kernkomponenten
 description: So implementieren Sie Ihr Projekt erfolgreich mit den Kernkomponenten
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 1ea8cd1c-8435-4ded-82dc-5a7896c53e0c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 056c5bc15ac9e669c3bf6d5da7f060d6eef02608
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '564'
+ht-degree: 100%
 
 ---
 
@@ -59,4 +59,4 @@ Wenn ein Autor Teile einer Seite (die sogenannten Fragmente eines Erlebnisses) w
 
 ### Die Einbettungskomponente {#embed-component}
 
-[Die ](/help/components/embed.md) Komponente &quot;Embed&quot;ermöglicht nicht nur die einfache Einbeziehung externer Ressourcen wie z.B. YouTube-Videoinhalte, sondern ist auch erweiterbar, damit sie für projektspezifische Inhalte geeignet ist.
+[Die Einbettungskomponente](/help/components/embed.md) ermöglicht nicht nur die einfache Einbindung externer Ressourcen wie YouTube-Videoinhalte, sondern ist auch erweiterbar, um Inhalte aufzunehmen, die auf die Bedürfnisse eines Projekts zugeschnitten sind.
