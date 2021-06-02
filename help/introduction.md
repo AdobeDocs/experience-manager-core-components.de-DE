@@ -53,7 +53,7 @@ Die aktuelle Version der Kernkomponenten enthält die folgenden Komponenten.
 
 ### Vorlagenkomponenten {#template-components}
 
-* [Seite ](components/page.md)
+* [Seite](components/page.md)
 * [Navigation](components/navigation.md)
 * [Sprachnavigation](components/language-navigation.md)
 * [Breadcrumb](components/breadcrumb.md)
@@ -106,7 +106,7 @@ Die aktuelle Version der Kernkomponenten enthält die folgenden Komponenten.
 
 | Kernkomponenten | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven |
 |---------|---------|---------|---------|---------|---------|
-| [2,16,4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.4) | Kontinuierlich | 6.5.5.0+ * | 6.4.8.1+ * | 8, 11 | 3.3.9+ |
+| [2.16.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.4) | Kontinuierlich | 6.5.5.0+ * | 6.4.8.1+ * | 8, 11 | 3.3.9+ |
 
 >[!NOTE]
 >
