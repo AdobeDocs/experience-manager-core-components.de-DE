@@ -5,9 +5,9 @@ feature: Kernkomponenten, AEM-Projektarchetyp
 role: Architect, Developer, Administrator
 exl-id: de26b310-a294-42d6-a0db-91f6036a328c
 source-git-commit: de1bb63dc965e6674652bc3e61b515f8f045c6bc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '510'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Informationen dazu, wie Sie das Plug-in in ein AEM-Maven-Projekt einbinden, find
 >
 >Es wird empfohlen, dass Sie Ihr Maven-Projekt so aktualisieren, dass es auf die neueste Version des Plug-ins im zentralen Repository von Maven verweist, das sich an folgendem Speicherort befindet: https://repo1.maven.org/maven2/com/adobe/aem/aemanalyser-maven-plugin/
 
-Das Plug-in verwendet das neueste verfügbare SDK anstelle des im Projekt konfigurierten SDK.
+Das Plug-in verwendet das neueste verfügbare anstelle des im Projekt konfigurierten SDK.
 
 Nachstehend finden Sie eine Tabelle mit den Analyzern, die im Rahmen dieses Schritts ausgeführt werden. <!-- Note that some are executed in the local SDK, while others are only executed during the Cloud Manager pipeline deployment. -->
 
@@ -36,5 +36,5 @@ Nachstehend finden Sie eine Tabelle mit den Analyzern, die im Rahmen dieses Schr
 | `repoinit` | Prüft die Syntax aller Repoinit-Abschnitte. | Ja | Ja |
 | `bundle-nativecode` | Prüft, dass OSGI-Bundles keinen nativen Code installieren. | Ja | Ja |
 | `configuration-api` | Validiert wichtige OSGi-Konfigurationen. <p> </p> `Configuration org.apache.felix.webconsole.internal.servlet.OsgiManager: Configuration is not allowed (com.mysite:mysite.all:1.0.0-SNAPSHOT\|com.mysite:mysite.ui.config:1.0.0-SNAPSHOT)` | Ja | Ja |
-| `region-deprecated-api` | Prüft, ob [veraltete API](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-apis.html) verwendet wird. <p> </p>`[WARNING] com.mysite:mysite.core:1.0.0-SNAPSHOT: Usage of deprecated package found : org.apache.sling.settings : Avoid these features at runtime: run modes, file system access (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | Ja | Ja |
+| `region-deprecated-api` | Prüft, ob eine [veraltete API](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-apis.html?lang=de) verwendet wird. <p> </p>`[WARNING] com.mysite:mysite.core:1.0.0-SNAPSHOT: Usage of deprecated package found : org.apache.sling.settings : Avoid these features at runtime: run modes, file system access (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | Ja | Ja |
 
