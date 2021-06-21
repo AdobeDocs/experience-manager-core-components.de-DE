@@ -3,16 +3,16 @@ title: Kernkomponenten-Versionen
 description: Kernkomponenten werden als Versionen veröffentlicht, die mehr als eine Version derselben Kernkomponenten enthalten können. In diesem Dokument wird erläutert, welche Versionen veröffentlicht werden und wie die Kompatibilität mit Kernkomponenten und AEM verstanden werden kann.
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 9f7ecb12c7135033a87508901a5c8bd006f72a0e
+source-git-commit: e62bb19a487e337c1ea5994d9fbfc845145ae19d
 workflow-type: tm+mt
-source-wordcount: '2099'
-ht-degree: 100%
+source-wordcount: '2147'
+ht-degree: 98%
 
 ---
 
 # Kernkomponenten-Versionen {#core-components-versions}
 
-Die aktuelle Version der Kernkomponenten ist 2.16.4 und mit [AEM as a Cloud Service](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/landing/home.translate.html)- und [On-Premise-AEM](https://docs.adobe.com/content/help/de-DE/experience-manager-65/user-guide/home.html)-Installationen kompatibel.
+Die aktuelle Version der Kernkomponenten ist 2.17.0 und mit [AEM as a Cloud Service](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/landing/home.translate.html)- und [On-Premise-AEM](https://docs.adobe.com/content/help/de-DE/experience-manager-65/user-guide/home.html)-Installationen kompatibel.
 
 ## Versionsverlauf und Kompatibilität {#release-history-and-compatibility}
 
@@ -26,6 +26,7 @@ Die folgende Tabelle, deren Inhalt [auf GitHub mit vollständigen Versionsinform
 
 | Version | Beschreibung | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Veröffentlichungsdatum |
 |---|---|---|---|---|---|---|
+| [2,17,0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.0) | Diese Version enthält eine technische Vorschau vieler neuer Komponentenversionen, die Link-Handler-Funktionen unterstützen, sowie eine technische Vorschau einer speziellen Bildfunktion für die Seitenkomponente [.](/help/components/page.md) Mehrere Fehlerbehebungen sind ebenfalls enthalten. | 6.4.8.4+ * | 6.5.6.0+ * | Kontinuierlich | 8, 11 | 16. Juni 2021 |
 | [2.16.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.4) | Dies ist eine Patch-Version, die ein Problem mit dem neuen Link-Handler behebt. | 6.4.8.1+ * | 6.5.5.0+ * | Kontinuierlich | 8, 11 | 19. Mai 2021 |
 | [2.16.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.2) | Diese Patch-Version behob vor allem ein Problem mit dem neuen Link-Handler und fügte eine Verbesserung zur Unterstützung von Mehrseiten-Anwendungen für [PWA](/help/components/page.md#pwa-support) hinzu. | 6.4.8.1+ * | 6.5.5.0+ * | Kontinuierlich | 8, 11 | 15. Mai 2021 |
 | [2.16.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.0) | Diese Version konzentrierte sich auf Verbesserungen der Barrierefreiheit sowie die Einführung eines neuen Link-Handlers für bestehende Komponenten. | 6.4.8.1+ * | 6.5.5.0+ * | Kontinuierlich | 8, 11 | 22. April 2021 |
