@@ -4,7 +4,7 @@ description: 'Die Kernkomponenten wurden eingeführt, um robuste und erweiterbar
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 source-git-commit: cc1fc14e1ca9125a24c13ac68716951ef790afea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '936'
 ht-degree: 100%
 
@@ -106,7 +106,7 @@ Die aktuelle Version der Kernkomponenten enthält die folgenden Komponenten.
 
 | Kernkomponenten | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven |
 |---------|---------|---------|---------|---------|---------|
-| [2,17,0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.0) | Kontinuierlich | 6.5.6.0+ * | 6.4.8.4+ * | 8, 11 | 3.3.9+ |
+| [2.17.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.0) | Kontinuierlich | 6.5.6.0+ * | 6.4.8.4+ * | 8, 11 | 3.3.9+ |
 
 >[!NOTE]
 >
@@ -122,4 +122,4 @@ Informationen zum Einrichten Ihrer lokalen Entwicklungsumgebung finden Sie [in d
 >
 >Die Kernkomponenten sind automatisch Teil von AEM as a Cloud Service und Sie haben immer die neueste Version der Kernkomponenten.
 >
->Weitere Informationen zu den ersten Schritten mit den Kernkomponenten in AEMaaCS und On-Premise finden Sie im Dokument [Verwenden von Kernkomponenten](/help/get-started/using.md).
+>Weitere Informationen zu den ersten Schritten mit den Kernkomponenten in AEM as a Cloud Service und On-Premise finden Sie im Dokument [Verwenden von Kernkomponenten](/help/get-started/using.md).
