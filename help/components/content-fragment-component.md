@@ -1,16 +1,16 @@
 ---
 title: Inhaltsfragment-Komponente
 description: Die Kernkomponente „Inhaltsfragment-Komponente“ ermöglicht die Anzeige eines Inhaltsfragments.
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 551ff2a1-f8db-490c-84a3-4255b364fc83
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 100%
 
 ---
 
-# Inhaltsfragment-Komponente {#content-fragment-component}
+# Inhaltsfragment-Komponente{#content-fragment-component}
 
 Die Kernkomponente „Inhaltsfragment-Komponente“ ermöglicht die Anzeige eines [Inhaltsfragments](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/assets/content-fragments/content-fragments.translate.html).
 
@@ -60,7 +60,7 @@ Die neueste technische Dokumentation zur Inhaltsfragment-Komponente [finden Sie 
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
-## Dialogfeld „Konfigurieren“ {#configure-dialog}
+## Dialogfeld „Konfigurieren“  {#configure-dialog}
 
 Über das Dialogfeld „Konfigurieren“ kann der Inhaltsautor das gewünschte Inhaltsfragment und die zu verwendenden Elemente dieses Fragments definieren.
 
@@ -91,7 +91,7 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
    * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
-### Registerkarte „Absatzsteuerung“ {#paragraph-control-tab}
+### Registerkarte „Absatzsteuerung“  {#paragraph-control-tab}
 
 Diese Registerkarte ist nicht verfügbar, wenn der Modus **Mehrere Elemente** ausgewählt ist.
 
@@ -100,7 +100,7 @@ Diese Registerkarte ist nicht verfügbar, wenn der Modus **Mehrere Elemente** au
 * **Absätze** - Ermöglicht die Auswahl aller Absätze oder eines Bereichs.
 * **Überschriften als separate Absätze behandeln**
 
-## Dialogfeld „Design“ {#design-dialog}
+## Dialogfeld „Design“  {#design-dialog}
 
 Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Ressourcentypen zu definieren, mit denen gemischte Medienbilder und responsive Raster verarbeitet werden.
 
