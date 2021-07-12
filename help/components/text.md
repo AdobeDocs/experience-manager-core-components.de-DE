@@ -1,16 +1,16 @@
 ---
 title: Textkomponente
 description: Die Textkomponente ist eine Komponente zur Bearbeitung und Zusammensetzung von Rich-Texten, die eine direkte Bearbeitung ermöglicht.
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '2213'
 ht-degree: 100%
 
 ---
 
-# Textkomponente {#text-component}
+# Textkomponente{#text-component}
 
 Die Kernkomponente Textkomponente ist eine Komponente zur Bearbeitung und Zusammensetzung von Rich-Texten, die eine direkte Bearbeitung ermöglicht.
 
@@ -310,11 +310,11 @@ Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der H
 * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
 * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
-## Dialogfeld „Design“ {#design-dialog}
+## Dialogfeld „Design“  {#design-dialog}
 
 Im Dialogfeld „Design“ kann der Vorlagenautor festlegen, welche Textformatierungsoptionen den Inhaltsautoren zur Verfügung stehen.
 
-### Registerkarte „Plug-ins“ {#plugins-tab}
+### Registerkarte „Plug-ins“  {#plugins-tab}
 
 Über die Registerkarte „Plug-ins“ können verschiedene Textformatierungsoptionen aktiviert und deaktiviert werden, die den Inhaltsautoren zur Verfügung stehen sollen.
 
@@ -366,7 +366,7 @@ Die Option zum Einfügen von Sonderzeichen kann für die Komponente aktiviert od
 * Um ein Zeichen zu entfernen, tippen oder klicken Sie auf die Schaltfläche **Löschen**.
 * Um die Reihenfolge der Zeichen zu ändern, tippen oder klicken Sie und ziehen Sie die Griffe.
 
-## Registerkarte „Stile“ {#styles-tab}
+## Registerkarte „Stile“  {#styles-tab}
 
 Die Textkomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
