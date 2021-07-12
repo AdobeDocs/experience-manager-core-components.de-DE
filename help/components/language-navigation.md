@@ -1,16 +1,16 @@
 ---
 title: Sprachnavigationskomponente
 description: Die Sprachnavigationskomponente stellt eine Sprache/Ländernavigation für eine Site bereit, sodass Besucher zur gleichen Seite in einem anderen Gebietsschema navigieren können.
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 10b218b4-c439-4a0f-a46f-0b15d78b0360
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 100%
 
 ---
 
-# Sprachnavigationskomponente {#language-navigation-component}
+# Sprachnavigationskomponente{#language-navigation-component}
 
 Die Sprachnavigationskomponente stellt eine Sprache/Ländernavigation für eine Site bereit, sodass Besucher zur gleichen Seite in einem anderen Gebietsschema navigieren können.
 
@@ -45,7 +45,7 @@ Die aktuelle technische Dokumentation zur Sprachnavigationskomponente [finden Si
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
-## Dialogfeld „Design“ {#design-dialog}
+## Dialogfeld „Design“  {#design-dialog}
 
 Das Dialogfeld „Bearbeiten“ ermöglicht die Definition des globalen Site-Navigationsstamms sowie die Festlegung, wie tief in die Struktur die Navigation gehen soll.
 
@@ -89,7 +89,7 @@ Mit dem **Navigationsstamm**-Wert weiß die Sprachkomponente, dass nach `/conten
 
 Unabhängig davon, welche Seite ein Benutzer ansieht, kann die Sprachnavigationskomponente die entsprechende Seite in einer anderen Sprache finden, indem sie den Speicherort der aktuellen Seite kennt, den Stamm rückwärts entlang arbeitet und dann auf die entsprechende Seite weiterleitet.
 
-### Registerkarte „Stile“ {#styles-tab}
+### Registerkarte „Stile“  {#styles-tab}
 
 Die Sprachnavigationskomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
