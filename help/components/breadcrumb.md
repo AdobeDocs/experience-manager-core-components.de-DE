@@ -1,16 +1,16 @@
 ---
 title: Breadcrumb-Komponente
 description: Die Kernkomponente „Breadcrumb-Komponente“ ist eine Navigationskomponente, die einen Breadcrumb von Links basierend auf der Position der Seite in der Inhaltshierarchie erstellt.
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 19d65b9d-a407-4f50-9c55-8de0f12222ed
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '722'
 ht-degree: 100%
 
 ---
 
-# Breadcrumb-Komponente {#breadcrumb-component}
+# Breadcrumb-Komponente{#breadcrumb-component}
 
 Die Kernkomponente „Breadcrumb-Komponente“ ist eine Navigationskomponente, die einen Breadcrumb von Links basierend auf der Position der Seite in der Inhaltshierarchie erstellt.
 
@@ -67,11 +67,11 @@ Das Dialogfeld „Bearbeiten“ ermöglicht es dem Inhaltsautor, ausgeblendete u
    * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
-## Dialogfeld „Design“ {#design-dialog}
+## Dialogfeld „Design“  {#design-dialog}
 
 Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Standardwerte für die Optionen festzulegen, um ausgeblendete und aktive Seiten in den Breadcrumbs zu unterdrücken, sowie die Tiefe der anzuzeigenden Hierarchie zu definieren.
 
-### Registerkarte „Allgemein“ {#main-tab}
+### Registerkarte „Allgemein“  {#main-tab}
 
 ![](/help/assets/breadcrumb-design.png)
 
@@ -86,7 +86,7 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Standardwerte 
 
 * **Schatten deaktivieren** - Definiert den Standardwert der Option **Schatten deaktivieren**, wenn die Breadcrumb-Komponente einer Seite hinzugefügt wird.
 
-### Registerkarte „Stile“ {#styles-tab}
+### Registerkarte „Stile“  {#styles-tab}
 
 Die Breadcrumb-Komponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
