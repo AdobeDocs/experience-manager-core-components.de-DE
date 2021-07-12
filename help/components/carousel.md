@@ -1,16 +1,16 @@
 ---
 title: Karussellkomponente
 description: Mit der Karussellkomponente kann der Inhaltsautor Inhalte in einem drehbaren Karussell präsentieren.
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '1125'
 ht-degree: 100%
 
 ---
 
-# Karussellkomponente {#carousel-component}
+# Karussellkomponente{#carousel-component}
 
 Mit der Kernkomponente „Karussellkomponente“ kann der Inhaltsautor Inhalte in einem navigierbaren Karussell präsentieren.
 
@@ -46,7 +46,7 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 
 Im Dialogfeld „Bearbeiten“ kann der Inhaltsautor Folien hinzufügen, umbenennen und neu anordnen sowie die Einstellungen für den automatischen Übergang definieren.
 
-### Registerkarte „Elemente“ {#items-tab}
+### Registerkarte „Elemente“  {#items-tab}
 
 ![Registerkarte „Elemente“ im Dialogfeld „Bearbeiten“ der Karussellkomponente](/help/assets/carousel-edit-items.png)
 
@@ -81,7 +81,7 @@ Auf der Registerkarte **Eigenschaften** kann der Inhaltsautor die Folien auf aut
 >
 >Die Funktion des automatischen Übergangs ist im Modus **Bearbeiten** nicht aktiviert. Verwenden Sie die Option **[Als veröffentlicht anzeigen](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**, um die Funktion des automatischen Übergangs so anzuzeigen, wie es ein Leser der veröffentlichten Inhalte tun würde.
 
-### Registerkarte „Erreichbarkeit“ {#accessibility-tab}
+### Registerkarte „Erreichbarkeit“  {#accessibility-tab}
 
 ![Registerkarte „Erreichbarkeit“ im Dialogfeld „Bearbeiten“ der Karussellkomponente](/help/assets/carousel-edit-accessibility.png)
 
@@ -105,7 +105,7 @@ Nach Auswahl der Option **Bedienfeld auswählen** in der Komponentensymbolleiste
 * Durch Tippen oder Klicken auf einen Eintrag in der Dropdown-Liste wird die Ansicht im Editor auf diese Folie umgestellt.
 * Die Folie kann mithilfe der Ziehpunkte neu angeordnet werden.
 
-## Dialogfeld „Design“ {#design-dialog}
+## Dialogfeld „Design“  {#design-dialog}
 
 Im Dialogfeld „Design“ kann der Vorlagenautor definieren, welche Komponenten der Karussellkomponente als Folien hinzugefügt werden können, sowie Standardübergänge benutzerdefinierte Stile definieren, die dem Inhaltsautor zur Verfügung stehen.
 
@@ -119,13 +119,13 @@ Im Dialogfeld „Design“ kann der Vorlagenautor definieren, welche Komponenten
 * **Übergangsverzögerung** - Definiert den Standardwert der Übergangsverzögerung zwischen Folien (in Millisekunden), wenn ein Inhaltsautor die Karussellkomponente einer Seite hinzufügt.
 * **Automatisches Pausieren beim Bewegen des Mauszeigers deaktivieren** - Definiert, ob standardmäßig die Option zum Deaktivieren der automatischen Pause der Folie aktiviert ist, wenn **Automatisch zwischen Folien wechseln** vom Inhaltsautor ausgewählt wird.
 
-### Registerkarte „Zugelassene Komponenten“ {#allowed-components-tab}
+### Registerkarte „Zugelassene Komponenten“  {#allowed-components-tab}
 
 Über die Registerkarte **Zugelassene Komponenten** können Sie definieren, welche Komponenten der Karussellkomponente vom Inhaltsautor als Folien hinzugefügt werden können.
 
 Die Registerkarte „Zugelassene Komponenten“ funktioniert auf die gleiche Weise wie die Registerkarte desselben Namens beim [Definieren der Richtlinie und Eigenschaften eines Layoutcontainers im Vorlageneditor.](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/features/templates.translate.html)
 
-### Registerkarte „Stile“ {#styles-tab}
+### Registerkarte „Stile“  {#styles-tab}
 
 Die Karussellkomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
