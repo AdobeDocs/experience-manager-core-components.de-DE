@@ -1,9 +1,9 @@
 ---
 title: Formularoptionen-Komponente
 description: Die Kernkomponente „Formularoptionen“ ermöglicht die Auswahl aus vordefinierten Optionen in verschiedenen Formaten.
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 8a74bd37-9b12-4fa6-bff2-53e337b16251
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 100%
@@ -43,7 +43,7 @@ Die neueste technische Dokumentation zur Formularoptionen-Komponente [finden Sie
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
-## Dialogfeld „Konfigurieren“ {#configure-dialog}
+## Dialogfeld „Konfigurieren“  {#configure-dialog}
 
 Im Dialogfeld „Konfigurieren“ kann der Inhaltsautor den Typ der Optionen festlegen, die angezeigt werden sollen, Beschriftungen definieren und festlegen, welche Optionen verfügbar sind.
 
@@ -74,8 +74,8 @@ Im Dialogfeld „Konfigurieren“ kann der Inhaltsautor den Typ der Optionen fes
    * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
-## Dialogfeld „Design“ {#design-dialog}
+## Dialogfeld „Design“  {#design-dialog}
 
-### Registerkarte „Stile“ {#styles-tab}
+### Registerkarte „Stile“  {#styles-tab}
 
 Die Formularoptionen-Komponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
