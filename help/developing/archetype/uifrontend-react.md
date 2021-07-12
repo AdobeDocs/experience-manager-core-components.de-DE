@@ -2,9 +2,9 @@
 title: Front-End-Build für React-SPAs
 description: Beschreibung des Front-End-Build-Prozesses für React-basierte SPA-Projekte
 feature: Kernkomponenten, AEM-Projektarchetyp
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: dd8ef13a-9686-47a9-b6af-e486ff10c4d8
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 In diesem Dokument werden die Details des Projekts erläutert, das erstellt wird, wenn mithilfe des Archetyps eine Single Page Application (SPA) basierend auf dem React Framework erstellt wird, das heißt, wenn Sie die Option `frontendModule` auf `react` festlegen.
 
-## Überblick {#overview}
+## Übersicht {#overview}
 
 Dieses Projekt nutzt die [create-react-app](https://github.com/facebook/create-react-app) per Bootstrapping.
 
