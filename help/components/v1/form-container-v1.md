@@ -2,9 +2,9 @@
 title: Formularcontainer-Komponente (v1)
 description: Die Kernkomponente „Formularcontainer-Komponente“ ermöglicht die Erstellung einfacher Übermittlungsformulare.
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 1e34219f-fa82-494e-82e2-1b4d63d37fea
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '638'
 ht-degree: 100%
@@ -38,7 +38,7 @@ In der folgenden Tabelle ist die Kompatibilität von v1 der Formularcontainer-Ko
 >
 >Weitere Informationen zur aktuellen Version der Formularcontainer-Komponente finden Sie im Dokument [Formularcontainer-Komponente](/help/components/forms/form-container.md).
 
-## Dialogfeld „Einstellungen“ {#settings-dialog}
+## Dialogfeld „Einstellungen“  {#settings-dialog}
 
 Über das Dialogfeld „Einstellungen“ können Sie festlegen, welche Aktionen beim Übermitteln der Komponente durchgeführt werden.
 
@@ -102,7 +102,7 @@ Der Benutzer wird nach Abschluss der Formularübermittlung zur angegebenen Seite
 * Wenn die Dankeseite nicht in AEM enthalten ist, geben Sie die absolute URL an. Nicht absolute URLs werden relativ zu AEM interpretiert.
 * Leer lassen, damit das Formular nach der Übermittlung wieder angezeigt wird.
 
-## Dialogfeld „Design“ {#design-dialog}
+## Dialogfeld „Design“  {#design-dialog}
 
 Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die zulässigen Komponenten und deren Zuordnungen für den Container ähnlich dem Dialogfeld „Design“ für den [Standard-Layout-Container im Vorlageneditor](https://helpx.adobe.com/de/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1754153843) zu definieren.
 
