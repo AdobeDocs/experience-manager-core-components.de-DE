@@ -2,9 +2,9 @@
 title: Verwenden der Adobe Client-Datenschicht in Verbindung mit den Kernkomponenten
 description: Verwenden der Adobe Client-Datenschicht in Verbindung mit den Kernkomponenten
 feature: Kernkomponenten, Adobe Client-Datenschicht
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 100%
@@ -77,7 +77,7 @@ Die folgenden Komponenten unterstützen die Datenschicht.
 * [Sprachnavigation](/help/components/language-navigation.md)
 * [Liste](/help/components/list.md)
 * [Navigation](/help/components/navigation.md)
-* [Seite ](/help/components/page.md)
+* [Seite](/help/components/page.md)
 * [Fortschrittsleiste](/help/components/progress-bar.md)
 * [Registerkarten](/help/components/tabs.md)
 * [Teaser](/help/components/teaser.md)
@@ -125,7 +125,7 @@ Das folgende [Ereignis](#events) ist für das Komponenten-/Container-Element-Sch
 
 Das Seiten-Schema wird von der folgenden Komponente verwendet:
 
-* [Seite ](/help/components/page.md)
+* [Seite](/help/components/page.md)
 
 Das Seiten-Schema wird wie folgt definiert:
 
