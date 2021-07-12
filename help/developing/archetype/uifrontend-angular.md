@@ -2,9 +2,9 @@
 title: Front-End-Build für Angular-SPAs
 description: Beschreibung des Front-End-Build-Prozesses für Angular-basierte SPA-Projekte
 feature: Kernkomponenten, AEM-Projektarchetyp
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: 5726e29d-081c-42bb-bf4e-2852043b21d6
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 In diesem Dokument werden die Details des Projekts erläutert, das erstellt wird, wenn mithilfe des Archetyps eine Single Page Application (SPA) basierend auf dem Angular Framework erstellt wird, das heißt, wenn Sie die Option `frontendModule` auf `angular` festlegen.
 
-## Überblick {#overview}
+## Übersicht {#overview}
 
 Dieses Projekt nutzt die [Angular-CLI](https://github.com/angular/angular-cli) per Bootstrapping.
 
