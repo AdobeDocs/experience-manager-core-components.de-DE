@@ -1,16 +1,16 @@
 ---
 title: Komponente für ausgeblendetes Formular
 description: Die Kernkomponente „Komponente für ausgeblendetes Formular“ ermöglicht die Anzeige eines ausgeblendeten Felds.
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 0364cd3b-3c09-46db-9392-a67e3f9ea7a5
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 100%
 
 ---
 
-# Komponente für ausgeblendetes Formular {#form-hidden-component}
+# Komponente für ausgeblendetes Formular{#form-hidden-component}
 
 Die Kernkomponente „Komponente für ausgeblendetes Formular“ ermöglicht die Anzeige eines ausgeblendeten Felds.
 
@@ -43,7 +43,7 @@ Die neueste technische Dokumentation zur Komponente für ausgeblendetes Formular
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
-## Dialogfeld „Konfigurieren“ {#configure-dialog}
+## Dialogfeld „Konfigurieren“  {#configure-dialog}
 
 Über das Dialogfeld „Konfigurieren“ kann der Inhaltsautor die Parameter des ausgeblendeten Felds definieren.
 
@@ -60,8 +60,8 @@ Da die Komponente für ausgeblendetes Formular normalerweise keine sichtbaren At
 
 ![Beispiel einer Komponente für ein ausgeblendetes Formular](/help/assets/form-hidden-example.png)
 
-## Dialogfeld „Design“ {#design-dialog}
+## Dialogfeld „Design“  {#design-dialog}
 
-### Registerkarte „Stile“ {#styles-tab}
+### Registerkarte „Stile“  {#styles-tab}
 
 Die Komponente für ausgeblendetes Formular unterstützt das [Stilsystem](/help/get-started/authoring.md#component-styling) von AEM.
