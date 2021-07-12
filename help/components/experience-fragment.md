@@ -1,16 +1,16 @@
 ---
 title: Experience Fragment-Komponente
 description: Mit der Experience Fragment-Komponente kann der Inhaltsautor einer Seite eine Experience Fragment-Variation hinzufügen.
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 100%
 
 ---
 
-# Experience Fragment-Komponente {#experience-fragment-component}
+# Experience Fragment-Komponente{#experience-fragment-component}
 
 Mit der Kernkomponente Experience Fragment-Komponente kann der Inhaltsautor eine Experience Fragment-Variation auf einer Seite platzieren, während er eine lokalisierte Site-Struktur unterstützt.
 
@@ -112,7 +112,7 @@ Die neueste technische Dokumentation zur Experience Fragment-Komponente [finden 
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
-## Dialogfeld „Konfigurieren“ {#configure-dialog}
+## Dialogfeld „Konfigurieren“  {#configure-dialog}
 
 Das Dialogfeld „Konfigurieren“ ermöglicht dem Inhaltsautor die Auswahl der Experience Fragment-Variation, die auf der Seite gerendert werden soll.
 
@@ -128,10 +128,10 @@ Sie können auch eine **ID** festlegen. Diese Option dient zur Kontrolle der ein
 * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
 * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
-## Dialogfeld „Design“ {#design-dialog}
+## Dialogfeld „Design“  {#design-dialog}
 
 Über das Dialogfeld „Design“ kann der Vorlagenautor die Optionen definieren, die dem Inhaltsautor zur Verfügung stehen, der die Experience Fragment-Komponente verwendet, sowie auch die Standardeinstellungen, die beim Platzieren der Experience Fragment-Komponente festgelegt wurden.
 
-### Registerkarte „Stile“ {#styles-tab}
+### Registerkarte „Stile“  {#styles-tab}
 
 Die Experience Fragment-Komponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
