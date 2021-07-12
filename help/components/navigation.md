@@ -1,16 +1,16 @@
 ---
 title: Navigationskomponente
 description: Mit der Navigationskomponente können Benutzer leicht durch eine globalisierte Site-Struktur navigieren.
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '1382'
 ht-degree: 100%
 
 ---
 
-# Navigationskomponente {#navigation-component}
+# Navigationskomponente{#navigation-component}
 
 Mit der Navigationskomponente können Benutzer leicht durch eine globalisierte Site-Struktur navigieren.
 
@@ -136,7 +136,7 @@ Im Dialogfeld „Bearbeiten“ kann der Inhaltsautor die Stammseite für die Nav
    * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
-### Registerkarte „Erreichbarkeit“ {#accessibility-tab}
+### Registerkarte „Erreichbarkeit“  {#accessibility-tab}
 
 ![Registerkarte „Barrierefreiheit“ im Dialogfeld „Bearbeiten“ der Navigationskomponente](/help/assets/navigation-edit-accessibility.png)
 
@@ -144,7 +144,7 @@ Auf der Registerkarte **Erreichbarkeit** können Werte für die [ARIA-Barrierefr
 
 * **Beschriftung** - Wert eines ARIA-Beschriftungs-Attributs für die Komponente
 
-## Dialogfeld „Design“ {#design-dialog}
+## Dialogfeld „Design“  {#design-dialog}
 
 Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Standardwerte für die Navigationsstammseite und die Navigationstiefe festzulegen, die den Inhaltsautoren angezeigt werden.
 
@@ -162,7 +162,7 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Standardwerte 
 * **Strukturtiefe der Navigation** - Standardwert der Navigationsstruktur der Tiefe.
 * **Schatten deaktivieren** - Der Standardwert dafür, wann das Shadowing beim Hinzufügen einer Navigationskomponente deaktiviert werden soll
 
-### Registerkarte „Stile“ {#styles-tab}
+### Registerkarte „Stile“  {#styles-tab}
 
 Die Navigationskomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
