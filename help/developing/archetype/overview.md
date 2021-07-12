@@ -4,10 +4,10 @@ description: Eine Projektvorlage für AEM-basierte Programme
 feature: Kernkomponenten, AEM-Projektarchetyp
 role: Architect, Developer, Administrator
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: 8b3f98d5087ddca6928950daf2db1eb7728fa44e
+source-git-commit: b5ad1c874d5f6d6781c2d0b0cc992b278c91211b
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 93%
+source-wordcount: '1118'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ Der AEM-Projektarchetyp ist eine Maven-Vorlage, anhand derer ein minimales, auf 
 
 >[!TIP]
 >
->Der neueste AEM-Projektarchetyp [ist auf GitHub zu finden.](https://github.com/adobe/aem-project-archetype)
+>Der neueste AEM-Projektarchetyp [ist auf GitHub zu finden](https://github.com/adobe/aem-project-archetype).
 
 ## Ressourcen {#resources}
 
@@ -54,12 +54,13 @@ Passen Sie die folgende Befehlszeile an Ihre Anforderungen an, um ein Projekt zu
 mvn -B archetype:generate \
  -D archetypeGroupId=com.adobe.aem \
  -D archetypeArtifactId=aem-project-archetype \
- -D archetypeVersion=27 \
+ -D archetypeVersion=XX \
  -D appTitle="My Site" \
  -D appId="mysite" \
  -D groupId="com.mysite" \
 ```
 
+* Ersetzen Sie `XX` durch die neueste [Archetyp-Versionsnummer.](#requirements)
 * Legen Sie `aemVersion=cloud` für [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) fest.\
    Legen Sie `aemVersion=6.5.0` für [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) oder On-Premise fest.
 Die Abhängigkeit der Kernkomponenten wird nur für AEM-Versionen ohne Cloud Service hinzugefügt, da die Kernkomponenten für AEM as a Cloud Service standardmäßig bereitgestellt werden.
@@ -91,8 +92,8 @@ Die Abhängigkeit der Kernkomponenten wird nur für AEM-Versionen ohne Cloud Ser
 | `commerceEndpoint` |  | Nur für CIF erforderlich. Optionaler Endpunkt des zu verwendenden GraphQL-Service (z. B. `https://hostname.com/grapql`). |
 | `datalayer` | `y` | Aktivieren Sie die Integration mit der [Adobe Client-Datenschicht](/help/developing/data-layer/overview.md). |
 | `amp` | `n` | Aktivieren Sie [AMP](/help/developing/amp.md)-Unterstützung für erstellte Projektvorlagen. |
-| `enableDynamicMedia` | `n` | Aktiviert die Foundation-DynamicMedia-Komponenten in den Einstellungen der Projektrichtlinien und aktiviert Dynamic Media-Funktionen in der Richtlinie der Kernbildkomponente. |
-| `enableSSR` | `n` | Option zum Aktivieren der SSR für das Frontend-Projekt |
+| `enableDynamicMedia` | `n` | Aktiviert die Foundation-Komponenten von Dynamic Media in den Einstellungen der Projektrichtlinien und aktiviert Dynamic Media-Funktionen in der Richtlinie der Kernbildkomponente. |
+| `enableSSR` | `n` | Option zum Aktivieren von SSR für das Frontend-Projekt |
 
 ## Systemanforderungen {#requirements}
 
@@ -109,7 +110,7 @@ Bei Ausführung unter Windows und Generierung der Dispatcher-Konfiguration sollt
 Wenn Sie den Archetyp im interaktiven Modus (ohne den Parameter `-B`) ausführen, können die Eigenschaften mit Standardwerten nicht geändert werden, es sei denn, die endgültige Bestätigung wird verworfen, wodurch die Fragen wiederholt und die Eigenschaften mit Standardwerten in die Fragen aufgenommen werden (Details siehe
 [ARCHETYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308)).
 
-Sie können diesen Archetyp nicht in Eclipse verwenden, wenn Sie ein neues Projekt mit `File -> New -> Maven Project` starten, da das Skript nach der Erstellung `archetype-post-generate.groovy` aufgrund eines Problems mit [Eclipse nicht ausgeführt wird.](https://bugs.eclipse.org/bugs/show_bug.cgi?id=514993) Die Lösung besteht darin, die oben genannte Befehlszeile zu verwenden und dann in Eclipse zu verwenden  `File -> Import -> Existing Maven Project`.
+Sie können diesen Archetyp nicht in Eclipse verwenden, wenn Sie ein neues Projekt mit `File -> New -> Maven Project` starten, da das Post-Generation-Skript `archetype-post-generate.groovy` aufgrund eines Problems mit [Eclipse nicht ausgeführt wird.](https://bugs.eclipse.org/bugs/show_bug.cgi?id=514993) Die Lösung besteht darin, die oben genannte Befehlszeile zu verwenden und dann in Eclipse `File -> Import -> Existing Maven Project` zu verwenden.
 
 ## Weiterführende Literatur {#further-reading}
 
