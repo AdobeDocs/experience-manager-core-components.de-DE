@@ -1,9 +1,9 @@
 ---
 title: PDF-Viewer-Komponente
 description: Die PDF-Viewer-Komponente ermöglicht die Anzeige eines PDF-Dokuments.
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: deb635f5-2b73-4e7a-9838-3a941e39e898
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 100%
@@ -44,17 +44,17 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 >
 >Die PDF Viewer-Komponente nutzt die [Document Services-APIs von Adobe](https://www.adobe.io/apis/documentcloud/dcsdk.html). Ihr Administrator muss für die Verwendung dieser Services eine [kontextbezogene Konfiguration](/help/developing/context-aware-configs.md) einrichten. In der technischen Dokumentation zu der Komponente finden Sie [Einzelheiten zu dieser Konfiguration](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/pdfviewer/v1/pdfviewer#context-aware-config).
 
-## Dialogfeld „Konfigurieren“ {#configure-dialog}
+## Dialogfeld „Konfigurieren“  {#configure-dialog}
 
 Mit dem Dialogfeld „Konfigurieren“ kann der Inhaltsautor den Viewer und sein Verhalten und Aussehen für einen Besucher der Seite definieren.
 
-### Registerkarte „Konfiguration“ {#configuration-tab}
+### Registerkarte „Konfiguration“  {#configuration-tab}
 
 Auf der Registerkarte „Konfiguration“ kann der Autor festlegen, welche PDF-Datei angezeigt werden soll. Der Pfad kann als Asset in AEM oder als absoluter Pfad zu einer anderen Ressource definiert werden.
 
 ![Registerkarte „Konfiguration“ im Dialogfeld „Bearbeiten“ der PDF-Viewer-Komponente](/help/assets/pdf-viewer-edit-configuration.png)
 
-### Registerkarte „Anpassen“ {#customize-tab}
+### Registerkarte „Anpassen“  {#customize-tab}
 
 Auf der Registerkarte „Anpassen“ kann der Autor festlegen, welche Optionen im Viewer für den Leser verfügbar sind und wie der Viewer angezeigt wird.
 
@@ -106,6 +106,6 @@ Alle PDF-Seiten werden auf einer Web-Seite in Zeilen gerendert. Dies eignet sich
 * **PDF herunterladen** – Wenn diese Option aktiviert ist, wird die Download-Schaltfläche angezeigt.
 * **PDF drucken** – Wenn diese Option aktiviert ist, wird die Druck-Schaltfläche angezeigt.
 
-## Dialogfeld „Design“ {#design-dialog}
+## Dialogfeld „Design“  {#design-dialog}
 
 Es gibt kein Dialogfeld „Design“ für die PDF-Viewer-Komponente.
