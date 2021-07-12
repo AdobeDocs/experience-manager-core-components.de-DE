@@ -1,9 +1,9 @@
 ---
 title: Formularcontainer-Komponente
 description: Die Kernkomponente „Formularcontainer-Komponente“ ermöglicht die Erstellung einfacher Übermittlungsformulare.
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 552f9dd5-6a3a-42d9-9969-e62a1f36e811
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 100%
@@ -47,7 +47,7 @@ Die neueste technische Dokumentation zur Formularcontainer-Komponente [finden Si
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
-## Dialogfeld „Konfigurieren“ {#configure-dialog}
+## Dialogfeld „Konfigurieren“  {#configure-dialog}
 
 Über das Dialogfeld „Konfigurieren“ können Sie festlegen, welche Aktionen beim Senden der Komponente durchgeführt werden.
 
@@ -117,10 +117,10 @@ Unabhängig vom ausgewählten Aktionstyp kann eine Dankeseite immer definiert we
    * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
-## Dialogfeld „Design“ {#design-dialog}
+## Dialogfeld „Design“  {#design-dialog}
 
 Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die zulässigen Komponenten und deren Zuordnungen für den Container ähnlich dem Dialogfeld „Design“ für den [Standard-Layout-Container im Vorlageneditor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) zu definieren.
 
-### Registerkarte „Stile“ {#styles-tab}
+### Registerkarte „Stile“  {#styles-tab}
 
 Die Formular-Container-Komponente unterstützt das [Stilsystem](/help/get-started/authoring.md#component-styling) von AEM.
