@@ -2,9 +2,9 @@
 title: AEM Projektarchetyp Front-End-Build
 description: Eine Projektvorlage für AEM-basierte Programme
 feature: Kernkomponenten, AEM-Projektarchetyp
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: 99132b49-bd06-4ac2-9348-12c0dfdfe8b2
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '1625'
 ht-degree: 100%
@@ -202,7 +202,7 @@ Im ui.frontend-Modul ist ein webpack-dev-server enthalten, der ein Live-Neuladen
    * Diese Datei enthält auch Verweise auf in AEM gespeicherte Client-Bibliotheken wie Core Component CSS und Responsive Grid CSS.
    * Der Webpack Development Server ist so eingerichtet, dass er diesen eingebundenen CSS-/JS-Code von einer lokalen AEM-Instanz basierend auf der Konfiguration in `ui.frontend/webpack.dev.js` im Proxy zwischenspeichert.
 
-#### Verwendung {#using-webpack-server}
+#### Verwenden {#using-webpack-server}
 
 1. Führen Sie im Stammverzeichnis des Projekts den Befehl `mvn -PautoInstallSinglePackage clean install` aus, um das gesamte Projekt in einer AEM-Instanz zu installieren, die auf `localhost:4502` ausgeführt wird.
 1. Wechseln Sie zum Ordner `ui.frontend`.
