@@ -2,12 +2,12 @@
 title: Verwenden des AEM-Projektarchetyps
 description: Detaillierte Nutzungsanleitungen für den AEM-Projektarchetyp
 feature: Kernkomponenten, AEM-Projektarchetyp
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
-source-git-commit: 17081a073998512a52aebfc662f2bc125ca2a2c4
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '2147'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 Der AEM-Projektarchetyp erstellt ein Adobe Experience Manager-Projekt mit minimalen Best Practices als Ausgangspunkt für Ihre eigenen AEM-Projekte. Die Eigenschaften, die bei Verwendung dieses Archetyps angegeben werden müssen, ermöglichen es Ihnen, die Namen für alle Teile dieses Projekts anzugeben und bestimmte optionale Funktionen zu steuern.
 
-## Warum Archetyp verwenden {#why-use-the-archetype}
+## Gründe für die Verwendung des Archetyps {#why-use-the-archetype}
 
 Mithilfe des AEM-Projektarchetyps können Sie auf dem Weg zum Aufbau eines AEM-Projekts mit bewährten Verfahren und nur wenigen Tastenanschlägen beginnen. Durch Verwendung des Archetyps werden alle Teile bereits vorhanden sein, sodass das resultierende Projekt minimal ist, es jedoch bereits alle [Schlüsselfunktionen](#what-you-get) von AEM implementiert, sodass Sie nur auf dem Aufbau aufbauen und erweitern müssen.
 
@@ -114,8 +114,8 @@ Die folgenden Eigenschaften sind beim Erstellen eines Projekts mit dem Archetyp 
 | `commerceEndpoint` |  | Nur für CIF erforderlich. Optionaler Endpunkt des zu verwendenden GraphQL-Service (z. B. `https://hostname.com/grapql`). |
 | `datalayer` | `y` | Aktivieren Sie die Integration mit der [Adobe Client-Datenschicht](/help/developing/data-layer/overview.md). |
 | `amp` | `n` | Aktivieren Sie [AMP](/help/developing/amp.md)-Unterstützung für erstellte Projektvorlagen. |
-| `enableDynamicMedia` | `n` | Aktiviert die Foundation-DynamicMedia-Komponenten in den Einstellungen der Projektrichtlinien und aktiviert Dynamic Media-Funktionen in der Richtlinie der Kernbildkomponente. |
-| `enableSSR` | `n` | Option zum Aktivieren der SSR für das Frontend-Projekt |
+| `enableDynamicMedia` | `n` | Aktiviert die Foundation-Komponenten von Dynamic Media in den Einstellungen der Projektrichtlinien und aktiviert Dynamic Media-Funktionen in der Richtlinie der Kernbildkomponente. |
+| `enableSSR` | `n` | Option zum Aktivieren von SSR für das Frontend-Projekt |
 
 >[!NOTE]
 >
@@ -136,7 +136,7 @@ Das generierte Maven-Projekt unterstützt bei der Ausführung verschiedene Berei
 | `autoInstallPackagePublish` | Installiert das Inhaltspaket ui.content und ui.apps mit dem content-package-maven-plugin im Package Manager für die Standard-Veröffentlichungsinstanz auf localhost, Port 4503. Hostname und Port können mit den benutzerdefinierten Eigenschaften `aem.host` und `aem.port` geändert werden. |
 | `autoInstallSinglePackage` | Installiert das Inhaltspaket `all` mit dem content-package-maven-plugin im Package Manager für die Standard-Autoreninstanz auf localhost, Port 4502. Hostname und Port können mit den benutzerdefinierten Eigenschaften `aem.host` und `aem.port` geändert werden. |
 | `autoInstallSinglePackagePublish` | Installiert das Inhaltspaket `all` mit dem content-package-maven-plugin im Package Manager für die Standard-Veröffentlichungsinstanz auf localhost, Port 4503. Hostname und Port können mit den benutzerdefinierten Eigenschaften `aem.host` und `aem.port` geändert werden. |
-| `integrationTests` | Führt die bereitgestellten Integrationstests auf der AEM-Instanz aus (nur für die `verify` Phase) |
+| `integrationTests` | Führt die bereitgestellten Integrationstests auf der AEM-Instanz aus (nur für die `verify`-Phase) |
 
 ### Erstellen und Installieren {#building-and-installing}
 
@@ -172,7 +172,7 @@ mvn clean install -PautoInstallBundle
 
 ## Übergeordnete POM {#parent-pom}
 
-Die `pom.xml` am Stamm des Projekts (`<src-directory>/<project>/pom.xml`) wird als übergeordneter POM bezeichnet und treibt die Struktur des Projekts sowie Abhängigkeiten und bestimmte globale Eigenschaften des Projekts.
+Die `pom.xml` am Stamm des Projekts (`<src-directory>/<project>/pom.xml`) wird als übergeordnete POM bezeichnet und bestimmt die Struktur des Projekts sowie Abhängigkeiten und bestimmte globale Eigenschaften des Projekts.
 
 ### Globale Projekteigenschaften {#global-properties}
 
@@ -204,7 +204,7 @@ Eine der wichtigsten Abhängigkeiten ist die [AEM uber-jar](https://docs.adobe.c
 
 #### Kernkomponenten {#core-components}
 
-Der AEM-Projektarchiv nutzt natürlich die Kernkomponenten.
+Der AEM-Projektarchetyp nutzt natürlich die Kernkomponenten.
 
 Die Kernkomponenten werden in AEM automatisch im Standard-Ausführungsmodus installiert und von der WKND-Beispiel-Site verwendet. In einem [Produktions-Ausführungsmodus](https://docs.adobe.com/content/help/de-DE/experience-manager-65/administering/security/production-ready.html) (`nosamplecontent`) sind die Kernkomponenten nicht verfügbar.
 
@@ -241,4 +241,4 @@ Sie haben den AEM-Projektarchetyp erstellt und installiert. Was jetzt? Der Arche
 * [Komponenten durch Erweiterung der vorhandenen Kernkomponenten anpassen](/help/developing/customizing.md)
 * [Zusätzliche Vorlagen hinzufügen](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/features/templates.translate.html)
 * [Lokalisierungsstruktur anpassen](https://docs.adobe.com/content/help/de-DE/experience-manager-65/administering/introduction/tc-prep.html)
-* [Informationen zum Front-End-Build-Modul abrufen](uifrontend.md)
+* [Informationen zum Frontend-Build-Modul abrufen](uifrontend.md)
