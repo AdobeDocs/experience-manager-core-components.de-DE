@@ -1,9 +1,9 @@
 ---
 title: Teaser-Komponente
 description: Die Teaser-Komponente kann ein Bild, einen Titel, Rich-Text und optional einen Link zu weiteren Inhalten anzeigen.
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 100%
@@ -40,7 +40,7 @@ Die aktuelle technische Dokumentation zur Teaser-Komponente [finden Sie auf GitH
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
-## Dialogfeld „Konfigurieren“ {#configure-dialog}
+## Dialogfeld „Konfigurieren“  {#configure-dialog}
 
 Der Inhaltsautor kann das Dialogfeld „Konfigurieren“ verwenden, um die Eigenschaften des einzelnen Teasers zu definieren. Es gibt auch ein [Dialogfeld „Bearbeiten“](#edit-dialog) zum Bearbeiten des Teaserbilds, wenn eines ausgewählt ist.
 
@@ -82,11 +82,11 @@ Der Inhaltsautor kann das Dialogfeld „Konfigurieren“ verwenden, um die Eigen
 
 Die Teaser-Komponente delegiert das Rendern von Bildern an die [Bild-Komponente](image.md). Daher wird das [Dialogfeld „Bearbeiten“] dem Inhaltsautor zur Bearbeitung des Teaserbilds zur Verfügung gestellt.
 
-## Dialogfeld „Design“ {#design-dialog}
+## Dialogfeld „Design“  {#design-dialog}
 
 Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Teaser-Optionen zu definieren, die der Inhaltsautor bei Verwendung dieser Komponente hat.
 
-### Registerkarte „Teaser“ {#teaser-tab}
+### Registerkarte „Teaser“  {#teaser-tab}
 
 ![Dialogfeld „Design“ der Teaser-Komponente](/help/assets/teaser-design.png)
 
@@ -103,7 +103,7 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Teaser-Optione
    * **Titel nicht verknüpfen** - Bei Auswahl dieser Option wird der Teaser-Titel nicht verknüpft.
 * **Bilddelegat** - Information, die anzeigt, an welche Komponente der Teaser die Bildverarbeitung delegiert.
 
-### Registerkarte „Stile“ {#styles-tab}
+### Registerkarte „Stile“  {#styles-tab}
 
 Die Teaser-Komponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
