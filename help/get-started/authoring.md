@@ -1,9 +1,9 @@
 ---
 title: Authoring mit Kernkomponenten
 description: In AEM sind Komponenten die Strukturelemente, die den Inhalt der zu erstellenden Seiten ausmachen. Kernkomponenten bieten flexible und funktionsreiche Authoring-Funktionalität.
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 56e58303-a178-45ab-b59d-e374c9cf90cf
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 100%
@@ -62,7 +62,7 @@ Wenn beispielsweise eine Bild-Komponente keine Bilduploads vom Dateisystem zulas
 
 Weitere Informationen finden Sie unter [Entwickeln von Seitenvorlagen](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
-### Dialogfelder „Bearbeiten“ und „Design“ {#edit-and-design-dialogs}
+### Dialogfelder „Bearbeiten“ und „Design“  {#edit-and-design-dialogs}
 
 Da die Kernkomponenten von Vorlagenautoren vorkonfiguriert werden können, um zu definieren, welche Optionen als Teil einer Vorlage zulässig sind, und dann weiter vom Seitenautor konfiguriert werden können, um tatsächliche Seiteninhalte zu definieren, kann jede Komponente über Optionen in zwei verschiedenen Dialogfeldern verfügen.
 
