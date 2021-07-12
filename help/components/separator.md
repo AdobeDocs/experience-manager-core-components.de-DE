@@ -1,9 +1,9 @@
 ---
 title: Trennzeichenkomponente
 description: Die Trennzeichen-Komponente erstellt einen Umbruch zwischen Komponenten auf einer Seite
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 79f19368-67fa-4864-93f7-2aa801d13fdb
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 100%
@@ -38,7 +38,7 @@ Die aktuelle technische Dokumentation zur Trennzeichenkomponente [finden Sie auf
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
-## Dialogfeld „Konfigurieren“ {#configure-dialog}
+## Dialogfeld „Konfigurieren“  {#configure-dialog}
 
 ![Dialogfeld „Bearbeiten“ der Trennzeichenkomponente](/help/assets/separator-edit.png)
 
@@ -47,10 +47,10 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
    * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
-## Dialogfeld „Design“ {#design-dialog}
+## Dialogfeld „Design“  {#design-dialog}
 
 Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Stile zu definieren, die auf die Trennzeichenkomponente angewendet werden.
 
-### Registerkarte „Stile“ {#styles-tab}
+### Registerkarte „Stile“  {#styles-tab}
 
 Die Trennzeichenkomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
