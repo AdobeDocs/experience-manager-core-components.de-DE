@@ -1,9 +1,9 @@
 ---
 title: AMP-Unterstützung für die Kernkomponenten
 description: Die Kernkomponenten unterstützen AMP (Accelerated Mobile Pages)
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: 1fd9b6b5-0e4d-48c7-8faa-42e0d4a6bbd0
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 100%
