@@ -1,9 +1,9 @@
 ---
 title: Schnellsuch-Komponente
 description: Die Schnellsuch-Komponente bietet Suchfunktionen für eine Website und zeigt Suchergebnisse an, damit Besucher die Site durchsuchen und die Ergebnisse filtern können.
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
-source-git-commit: 6eff0c8584605e034fc6516416783715fce10095
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 100%
@@ -58,7 +58,7 @@ Im Dialogfeld „Bearbeiten“ kann der Verfasser des Inhalts festlegen, wo die 
 >
 >Wenn der **Suchstamm** nicht konfiguriert ist oder nicht aufgelöst werden kann, sucht die Schnellsuche standardmäßig unterhalb der aktuellen Seite.
 
-## Dialogfeld „Design“ {#design-dialog}
+## Dialogfeld „Design“  {#design-dialog}
 
 Im Dialogfeld „Design“ kann der Vorlagenautor den Standardwert festlegen, an dem die Suche in der Inhaltsstruktur beginnen soll, sowie eine maximale Ergebnissatzgröße und minimale Suchbegriffslänge. Das Dialogfeld „Design“ ermöglicht dem Vorlagenautor, die für die Inhaltsautoren verfügbaren Textformatierungsoptionen zu definieren.
 
@@ -81,6 +81,6 @@ Mindestlänge des Suchbegriffs, um die Suche zu starten
 >
 >**Die Größe der Ergebnisse** und die **Minimale Länge für Suchbegriff** können Auswirkungen auf die Leistung haben, wenn sie zu hoch oder zu niedrig eingestellt sind.
 
-### Registerkarte „Stile“ {#styles-tab}
+### Registerkarte „Stile“  {#styles-tab}
 
 Die Komponente „Schnellsuche“ unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
