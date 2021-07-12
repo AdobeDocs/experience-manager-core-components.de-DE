@@ -2,9 +2,9 @@
 title: Listenkomponente (v1)
 description: Die Kernkomponente „Listenkomponente“ ermöglicht die einfache Erstellung dynamischer sowie statischer Listen.
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 510d059c-e60a-40aa-9032-66a901109f6e
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 100%
@@ -146,7 +146,7 @@ Die Liste kann auf verschiedene Weise erstellt werden.
 
 * [Untergeordnete Seiten](#child-pages)
 * [Liste fester Werte](#fixed-list)
-* [Suchen](#search-list)
+* [Suche](#search-list)
 * [Tags](#tags)
 
 Unabhängig davon, wie die Liste erstellt wurde, gibt es [Sortieroptionen](#sort-options), die immer konfiguriert werden können.
@@ -219,7 +219,7 @@ Unabhängig davon, wie Sie die Liste erstellen, gibt es bestimmte Sortieroptione
 * **Maximale Elemente** – die maximale Anzahl der in der Liste angezeigten Elementen.
    * Leer lassen, um alle Elemente zurückzugeben.
 
-### Element-Einstellungen {#item-settings}
+### Elementeinstellungen {#item-settings}
 
 Auf der Registerkarte **Elementeinstellungen** kann die Formatierung der Listenelemente konfiguriert werden.
 
@@ -232,7 +232,7 @@ Beschreibung des Link-Elements anzeigen
 * **Datum anzeigen**
 Änderungsdatum des Link-Elements anzeigen
 
-## Dialogfeld „Design“ {#design-dialog}
+## Dialogfeld „Design“  {#design-dialog}
 
 Über das Dialogfeld „Design“ kann der Vorlagenautor festlegen, welche Listentypen für Inhaltsautoren erlaubt und welche Elementeinstellungen verfügbar sind.
 
@@ -248,7 +248,7 @@ Auf der Registerkarte **Listeneinstellungen** kann das Datumsformat sowie der Li
 * **Suche deaktivieren** – Deaktiviert den Suchlistentyp in der Komponente.
 * **Tags deaktivieren** – Deaktiviert den Tag-Listentyp in der Komponente
 
-### Element-Einstellungen {#item-settings-1}
+### Elementeinstellungen {#item-settings-1}
 
 Auf der Registerkarte **Elementeinstellungen** können die Formatierungsoptionen für die einzelnen Listenelemente definiert werden, die in der Komponente für die Inhaltsautoren verfügbar sein sollten.
 
