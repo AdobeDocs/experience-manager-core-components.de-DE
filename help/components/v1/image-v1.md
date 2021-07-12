@@ -2,9 +2,9 @@
 title: Bildkomponente (v1)
 description: Die Kernkomponente „Bildkomponente“ ist eine anpassungsfähige Bildkomponente mit Funktionen zur Bearbeitung im Kontext.
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '1229'
 ht-degree: 100%
@@ -75,7 +75,7 @@ Im Folgenden finden Sie ein Beispiel von [We.Retail](https://helpx.adobe.com/de/
 >
 >Für JSON-Exporte aus den Kernkomponenten ist Version 1.1.0 der Kernkomponenten erforderlich. Weitere Informationen finden Sie in den [Kompatibilitätsinformationen für Kernkomponenten v1](/help/versions.md).
 
-## Dialogfeld „Konfigurieren“ {#configure-dialog}
+## Dialogfeld „Konfigurieren“  {#configure-dialog}
 
 Zusätzlich zum standardmäßigen [Dialogfeld „Bearbeiten“](#edit-dialog) und zum [Dialogfeld „Design“](#design-dialog) bietet die Bildkomponente ein Dialogfeld für die Konfiguration, bei dem das Bild selbst mit seiner Beschreibung und den grundlegenden Eigenschaften definiert wird.
 
@@ -177,7 +177,7 @@ Der Editor für die Bearbeitung im Kontext kann auch zum Ändern des Bildes verw
 >
 >Bildbearbeitungsvorgänge (Beschneiden, Spiegeln, Drehen) werden für GIF-Bilder nicht unterstützt. Alle Änderungen, die im Bearbeitungsmodus an GIFs vorgenommen wurden, bleiben nicht bestehen.
 
-## Dialogfeld „Design“ {#design-dialog}
+## Dialogfeld „Design“  {#design-dialog}
 
 Das Dialogfeld „Design“ ermöglicht dem Vorlagenautor die Definition von Zuschnitt, Upload und Rotations-Upload, die vom Inhalts-Autor bei der Verwendung dieser Komponente genutzt werden.
 
