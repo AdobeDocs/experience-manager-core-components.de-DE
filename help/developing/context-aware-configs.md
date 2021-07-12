@@ -1,9 +1,9 @@
 ---
 title: Kontextabhängige Konfigurationen von Sling und Kernkomponenten
 description: Die Kernkomponenten nutzen kontextabhängige Konfigurationen von Sling für bestimmte Funktionen
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: d35210f7-a65d-4768-ab9e-f12ec406da2d
-source-git-commit: 8ff36ca143af9496f988b1ca65475497181def1d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 100%
