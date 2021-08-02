@@ -5,7 +5,7 @@ feature: Kernkomponenten, AEM-Projektarchetyp
 role: Architect, Developer, Admin
 exl-id: fc63a19a-3253-44ee-96e2-bb5544c2235b
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '340'
 ht-degree: 100%
 
@@ -33,4 +33,4 @@ Die Beispiele „core.wcm.components.all“ und „core.wcm.components.example�
 
 ## filter.xml {#filter}
 
-Die `filter.xml` Datei für das Modul ui.apps befindet sich unter `<src>/<project>/ui.apps/src/main/content/META-INF/vault/filter.xml` und enthält die Pfade, die mit dem Paket ui.apps eingeschlossen und installiert werden.
+Die Datei `filter.xml` für das Modul ui.apps befindet sich unter `<src>/<project>/ui.apps/src/main/content/META-INF/vault/filter.xml` und enthält die Pfade, die mit dem Paket ui.apps eingeschlossen und installiert werden.
