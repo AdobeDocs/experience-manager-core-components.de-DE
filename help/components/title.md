@@ -4,7 +4,7 @@ description: Die Kernkomponente „Titelkomponente“ ist eine Komponente für A
 role: Architect, Developer, Admin, User
 exl-id: 393af72c-549f-4609-afb0-2712f827b549
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '569'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ Im Dialogfeld „Bearbeiten“ kann der Inhaltsautor den Titeltext definieren so
 
 * **Titel** - Wenn leer, wird der Seitentitel verwendet
 * **Typ/Größe** - Definiert die Überschriftenebene des Titels
-* **Link** - Definiert den Inhalt, auf den der Titel verweist. Dies kann ein Pfad zu einer Inhaltsseite, eine externe URL oder ein Seitenanker sein.
+* **Verknüpfung** - Definiert den Inhalt, auf den der Titel verweist. Dies kann ein Pfad zu einer Inhaltsseite, eine externe URL oder ein Seitenanker sein.
 * **ID** - Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
    * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
    * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
@@ -63,23 +63,23 @@ Der Editor für die Bearbeitung im Kontext kann auch verwendet werden, um den Te
 
 ![In-Kontext-Bearbeitung der Titelkomponente](/help/assets/title-edit-inline.png)
 
-## Dialogfeld „Design“  {#design-dialog}
+## Dialogfeld „Design“ {#design-dialog}
 
 Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die standardmäßige Überschriftenebene zu definieren, die Titelkomponenten bei der Erstellung durch Inhaltsautoren haben.
 
-### Registerkarte „Größen“  {#sizes-tab}
+### Registerkarte „Größen“ {#sizes-tab}
 
 ![Dialogfeld „Design“ der Titelkomponente](/help/assets/title-design.png)
 
 * **Zulässige Typen/Größen für Autoren** - Aktiviert oder deaktiviert die Überschrifttypen, die für Inhaltsautoren verfügbar sind, wenn sie die Titelkomponente verwenden.
-* **Standardtyp/-größe** - Definieren Sie den Überschrifttyp, der automatisch zugewiesen wird, wenn ein Inhaltsautor die Titelkomponente zu einer Seite hinzufügt.
+* **Standardtyp/Größe** - Definieren Sie den Überschrifttyp, der automatisch zugewiesen wird, wenn ein Inhaltsautor die Titelkomponente zu einer Seite hinzufügt.
 * **Link deaktivieren** - Deaktiviert die Unterstützung für Links in der Titelkomponente, um Inhaltsautoren zu verbieten, von Titeln zu verlinken.
 
 >[!NOTE]
 >
 >Die Möglichkeit, einen Link für den Titel zu definieren, wurde mit Version 2.2.0 der Kernkomponenten eingeführt.
 
-### Registerkarte „Stile“  {#styles-tab}
+### Registerkarte „Stile“ {#styles-tab}
 
 Die Titelkomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
