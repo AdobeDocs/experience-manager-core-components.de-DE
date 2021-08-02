@@ -4,7 +4,7 @@ description: Die Kernkomponenten bieten leistungsfähige und erweiterbare Basisk
 role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1591'
 ht-degree: 100%
 
@@ -103,7 +103,7 @@ Einzelheiten zu ihren Authoring-Fähigkeiten und Optionen zu ihrer Vorkonfigurat
 | Bereitstellung | [Über öffentliches GitHub](https://github.com/adobe/aem-core-wcm-components) | Über Quickstart |
 | Lizenz | [Apache-Lizenz](https://www.apache.org/licenses/LICENSE-2.0) | Adobe-geschützt |
 | Beitrag | Über Pull-Anfrage | Nicht möglich |
-| Erreichbarkeit | Vollständig konform mit dem [WCAG 2.0 AA-Standard](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.translate.html) | Nur teilweise konform mit dem [WCAG 2.0 AA-Standard](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
+| Erreichbarkeit | Vollständig konform mit dem [WCAG 2.0 AA-Standard](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.translate.html) | Nur teilweise konform mit dem [WCAG 2.0 AA-Standard](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.translate.html) |
 
 ## Komponentenliste {#component-list}
 
