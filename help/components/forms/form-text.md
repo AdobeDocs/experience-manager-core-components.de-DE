@@ -4,7 +4,7 @@ description: Die Kernkomponente „Formulartext-Komponente“ ermöglicht die Ei
 role: Architect, Developer, Admin, User
 exl-id: e8fa3881-51fb-4726-9654-8f93acfb7464
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '577'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ Die Kernkomponente „Formulartext-Komponente“ ermöglicht die Eingabe von For
 
 ## Nutzung {#usage}
 
-Die Formulartext-Komponente ermöglicht die Übermittlung verschiedener Texttypen und sollte zusammen mit der [Formularcontainer-Komponente](form-container.md) verwendet werden. Der Typ der Textvalidierung, Beschriftung und Hilfemeldungen kann vom Inhaltseditor im [Dialogfeld „Konfigurieren“](#configure-dialog) definiert werden.
+Die Formulartext-Komponente ermöglicht die Übermittlung verschiedener Texttypen und sollte zusammen mit der [Formular-Container-Komponente](form-container.md) verwendet werden. Der Typ der Textvalidierung, Beschriftung und Hilfemeldungen kann vom Inhaltseditor im [Dialogfeld „Konfigurieren“](#configure-dialog) definiert werden.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
@@ -41,7 +41,7 @@ Die neueste technische Dokumentation zur Formulartext-Komponente [finden Sie auf
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
-## Dialogfeld „Konfigurieren“  {#configure-dialog}
+## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
 Das Dialogfeld „Konfigurieren“ ermöglicht es dem Inhaltsautor, den Texttyp sowie Standardwerte und Beschriftungen zu definieren.
 
@@ -67,14 +67,14 @@ Das Dialogfeld „Konfigurieren“ ermöglicht es dem Inhaltsautor, den Texttyp 
    * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
-### Registerkarte „Info“  {#about-tab}
+### Registerkarte „Info“ {#about-tab}
 
 ![Registerkarte „Info“](/help/assets/form-text-edit-about.png)
 
 * **Hilfemeldung** – Ein Hinweis für den Benutzer dahingehend, was im Feld eingegeben werden kann
 * **Hilfemeldung als Platzhalter anzeigen** - Bestimmt, ob die Hilfemeldung in der Formulareingabe angezeigt wird, wenn sie leer ist und sich nicht im Fokus befindet
 
-### Registerkarte „Beschränkungen“  {#constraints-tab}
+### Registerkarte „Beschränkungen“ {#constraints-tab}
 
 ![Registerkarte „Beschränkungen“](/help/assets/form-text-edit-constraints.png)
 
@@ -85,8 +85,8 @@ Das Dialogfeld „Konfigurieren“ ermöglicht es dem Inhaltsautor, den Texttyp 
    * **Erforderliche Meldung** – Meldung, die als QuickInfo angezeigt wird, wenn das Feld leer gelassen wird
 * **Schreibgeschützt:** Wenn ausgewählt, kann der Benutzer den Wert des Felds nicht ändern
 
-## Dialogfeld „Design“  {#design-dialog}
+## Dialogfeld „Design“ {#design-dialog}
 
-### Registerkarte „Stile“  {#styles-tab}
+### Registerkarte „Stile“ {#styles-tab}
 
 Die Formulartext-Komponente unterstützt das [Stilsystem](/help/get-started/authoring.md#component-styling) von AEM.
