@@ -4,7 +4,7 @@ description: Je nach Nutzungsszenario gibt es verschiedene Möglichkeiten, Clien
 role: Architect, Developer, Admin
 exl-id: 84e7c178-247b-42a2-99bf-6d1699ecee14
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ Je nach Nutzungsszenario gibt es verschiedene Möglichkeiten, [Client-Bibliothek
 
 ## Empfohlene Standardverwendung {#recommended-default-usage}
 
-Wenn Sie keine Zeit haben, die beste Lösung für Ihre Sitution zu ermitteln, schließen Sie Ihre Client-Bibliotheken mit ein, indem Sie die folgenden HTL-Zeilen in Ihr Seitenelement `head` einfügen:
+Wenn Sie keine Zeit haben, die beste Lösung für Ihre Situation zu ermitteln, schließen Sie Ihre Client-Bibliotheken mit ein, indem Sie die folgenden HTL-Zeilen in Ihr Seitenelement `head` einfügen:
 
 ```html
 <sly data-sly-use.clientlibs="${'com.adobe.cq.wcm.core.components.models.ClientLibraries' @
