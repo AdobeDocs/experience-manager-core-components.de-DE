@@ -4,7 +4,7 @@ description: Die Kernkomponente „Formularoptionen“ ermöglicht die Auswahl a
 role: Architect, Developer, Admin, User
 exl-id: 8a74bd37-9b12-4fa6-bff2-53e337b16251
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '545'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ Die Kernkomponente „Formularoptionen“ ermöglicht die Auswahl aus vordefinie
 
 ## Nutzung {#usage}
 
-Die Kernkomponente „Formularoptionen-Komponente“ ermöglicht die Übermittlung verschiedener Arten von Optionen, die auf vielerlei Arten präsentiert werden und die zusammen mit der [Formularcontainer-Komponente](form-container.md) verwendet werden sollten.
+Die Kernkomponente „Formularoptionen-Komponente“ ermöglicht die Übermittlung verschiedener Arten von Optionen, die auf vielerlei Arten präsentiert werden und die zusammen mit der [Formular-Container-Komponente](form-container.md) verwendet werden sollten.
 
 Die Darstellung der Optionen, Beschriftungen und individuellen Optionen kann vom Inhaltseditor im Dialogfeld [Konfigurieren](#configure-dialog) definiert werden.
 
@@ -43,13 +43,13 @@ Die neueste technische Dokumentation zur Formularoptionen-Komponente [finden Sie
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
-## Dialogfeld „Konfigurieren“  {#configure-dialog}
+## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
 Im Dialogfeld „Konfigurieren“ kann der Inhaltsautor den Typ der Optionen festlegen, die angezeigt werden sollen, Beschriftungen definieren und festlegen, welche Optionen verfügbar sind.
 
 ![Dialogfeld „Bearbeiten“ der Formularoptionen-Komponente](/help/assets/form-options-edit.png)
 
-* **Typen** - Wie die Optionen angezeigt werden
+* **Typ** - Wie die Optionen angezeigt werden
    * **Kontrollkästchen**
    * **Optionsfelder**
    * **Dropdown**
@@ -74,8 +74,8 @@ Im Dialogfeld „Konfigurieren“ kann der Inhaltsautor den Typ der Optionen fes
    * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
-## Dialogfeld „Design“  {#design-dialog}
+## Dialogfeld „Design“ {#design-dialog}
 
-### Registerkarte „Stile“  {#styles-tab}
+### Registerkarte „Stile“ {#styles-tab}
 
 Die Formularoptionen-Komponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
