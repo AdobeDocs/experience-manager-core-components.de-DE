@@ -1,32 +1,32 @@
 ---
-title: Formularcontainer-Komponente
-description: Die Kernkomponente „Formularcontainer-Komponente“ ermöglicht die Erstellung einfacher Übermittlungsformulare.
+title: Formular-Container-Komponente
+description: Die Kernkomponente „Formular-Container-Komponente“ ermöglicht die Erstellung einfacher Übermittlungsformulare.
 role: Architect, Developer, Admin, User
 exl-id: 552f9dd5-6a3a-42d9-9969-e62a1f36e811
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '956'
 ht-degree: 100%
 
 ---
 
-# Formularcontainer-Komponente {#form-container-component}
+# Formular-Container-Komponente {#form-container-component}
 
-Die Kernkomponente „Formularcontainer-Komponente“ ermöglicht die Erstellung einfacher Übermittlungsformulare.
+Die Kernkomponente „Formular-Container-Komponente“ ermöglicht die Erstellung einfacher Übermittlungsformulare.
 
 ## Nutzung {#usage}
 
-Die Formularcontainer-Komponente ermöglicht das Erstellen einfacher Informationsübermittlungsformulare und -funktionen, indem einfache WCM-Formulare unterstützt werden und eine verschachtelte Struktur verwendet wird, um zusätzliche Formularkomponenten zuzulassen.
+Die Formular-Container-Komponente ermöglicht das Erstellen einfacher Informationsübermittlungsformulare und -funktionen, indem einfache WCM-Formulare unterstützt werden und eine verschachtelte Struktur verwendet wird, um zusätzliche Formularkomponenten zuzulassen.
 
 Mithilfe des [Dialogfelds „Konfigurieren“](#configure-dialog) kann der Inhaltsbearbeiter die durch die Formularübermittlung ausgelöste Aktion definieren sowie die URL, die die Übermittlung handhaben soll, und ob ein Workflow ausgelöst werden soll. Der Vorlagenautor kann das [Dialogfeld „Design“](#design-dialog) verwenden, um die zulässigen Komponenten und deren Zuordnungen ähnlich dem Dialogfeld „Design“ für den [Standard-Layout-Container im Vorlageneditor](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/features/templates.translate.html) zu definieren.
 
 >[!NOTE]
 >
->Die Kernkomponente „Formularcontainer-Komponente“ unterstützt nur die Verwendung anderer Formularkomponenten-Kernkomponenten (Schaltfläche, Text, ausgeblendet usw.). Die Verwendung von [Foundation-Komponenten](https://docs.adobe.com/content/help/de-DE/experience-manager-65/authoring/siteandpage/default-components-foundation.html) Formularkomponenten innerhalb der Formularcontainer-Kernkomponenten (und umgekehrt) wird nicht unterstützt.
+>Die Kernkomponente „Formular-Container-Komponente“ unterstützt nur die Verwendung anderer Formularkomponenten-Kernkomponenten (Schaltfläche, Text, ausgeblendet usw.). Die Verwendung von [Foundation-Komponenten](https://docs.adobe.com/content/help/de-DE/experience-manager-65/authoring/siteandpage/default-components-foundation.html) Formularkomponenten innerhalb der Formular-Container-Kernkomponenten (und umgekehrt) wird nicht unterstützt.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die aktuelle Version der Formularcontainer-Komponente ist v2, die mit Version 2.0.0 der Kernkomponenten im Januar 2018 eingeführt wurde und in diesem Dokument beschrieben wird.
+Die aktuelle Version der Formular-Container-Komponente ist v2, die mit Version 2.0.0 der Kernkomponenten im Januar 2018 eingeführt wurde und in diesem Dokument beschrieben wird.
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
@@ -43,11 +43,11 @@ Um die Formular-Container-Komponente kennenzulernen und Beispiele für die Konfi
 
 ## Technische Details {#technical-details}
 
-Die neueste technische Dokumentation zur Formularcontainer-Komponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_form_container_v2_de).
+Die neueste technische Dokumentation zur Formular-Container-Komponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_form_container_v2_de).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
-## Dialogfeld „Konfigurieren“  {#configure-dialog}
+## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
 Über das Dialogfeld „Konfigurieren“ können Sie festlegen, welche Aktionen beim Senden der Komponente durchgeführt werden.
 
@@ -75,7 +75,7 @@ Wenn das Formular übermittelt wird, übergibt der Aktionstyp für Formulardaten
 
 Wenn das Formular gesendet wird, sendet der Mail-Aktionstyp eine E-Mail an bestimmte Empfänger.
 
-![E-Mail-Optionen im Dialogfeld „Bearbeiten“ der Formular-Container-Komponente ](/help/assets/form-container-edit-mail.png)
+![E-Mail-Optionen im Dialogfeld „Bearbeiten“ der Formular-Container-Komponente](/help/assets/form-container-edit-mail.png)
 
 * **Betreff** - Betreffzeile der E-Mail, die beim Übermitteln des Formulars gesendet wird
 * **Von** - die Absenderadresse der E-Mail, die beim Übermitteln des Formulars gesendet wird
@@ -106,7 +106,7 @@ Wenn das Formular übermittelt wird, wird der Inhalt des Formulars in einem best
 
 Unabhängig vom ausgewählten Aktionstyp kann eine Dankeseite immer definiert werden.
 
-![Allgemeine Optionen im Dialogfeld „Bearbeiten“ der Formular-Container-Komponente ](/help/assets/form-container-edit-general.png)
+![Allgemeine Optionen im Dialogfeld „Bearbeiten“ der Formular-Container-Komponente](/help/assets/form-container-edit-general.png)
 
 * **Dankeseite** – Der Benutzer wird nach Abschluss der Formularübermittlung zur angegebenen Seite weitergeleitet.
    * Verwenden Sie das Dialogfeld „Auswahl“, um eine Ressource in AEM auszuwählen.
@@ -117,10 +117,10 @@ Unabhängig vom ausgewählten Aktionstyp kann eine Dankeseite immer definiert we
    * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
-## Dialogfeld „Design“  {#design-dialog}
+## Dialogfeld „Design“ {#design-dialog}
 
-Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die zulässigen Komponenten und deren Zuordnungen für den Container ähnlich dem Dialogfeld „Design“ für den [Standard-Layout-Container im Vorlageneditor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) zu definieren.
+Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die zulässigen Komponenten und deren Zuordnungen für den Container ähnlich dem Dialogfeld „Design“ für den [Standard-Layout-Container im Vorlageneditor](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/features/templates.translate.html) zu definieren.
 
-### Registerkarte „Stile“  {#styles-tab}
+### Registerkarte „Stile“ {#styles-tab}
 
 Die Formular-Container-Komponente unterstützt das [Stilsystem](/help/get-started/authoring.md#component-styling) von AEM.
