@@ -1,17 +1,17 @@
 ---
-title: Front-End-Build für Angular-SPAs
-description: Beschreibung des Front-End-Build-Prozesses für Angular-basierte SPA-Projekte
+title: Frontend-Build für Angular-SPAs
+description: Beschreibung des Frontend-Build-Prozesses für Angular-basierte SPA-Projekte
 feature: Kernkomponenten, AEM-Projektarchetyp
 role: Architect, Developer, Admin
 exl-id: 5726e29d-081c-42bb-bf4e-2852043b21d6
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '409'
 ht-degree: 100%
 
 ---
 
-# Front-End-Build für Angular-SPAs {#frontend-angular}
+# Frontend-Build für Angular-SPAs {#frontend-angular}
 
 In diesem Dokument werden die Details des Projekts erläutert, das erstellt wird, wenn mithilfe des Archetyps eine Single Page Application (SPA) basierend auf dem Angular Framework erstellt wird, das heißt, wenn Sie die Option `frontendModule` auf `angular` festlegen.
 
@@ -72,6 +72,6 @@ Darüber hinaus wird eine AEM ClientLib aus der App mithilfe des Pakets [aem-cli
 
 Weitere Informationen zur Verwendung von AEM ClientLibs durch den Projektarchetyp finden Sie in der allgemeinen [Dokumentation zum ui.frontend-Modul](uifrontend.md#clientlibs).
 
-## Browserunterstützung {#browser-support}
+## Browser-Unterstützung {#browser-support}
 
 Standardmäßig verwendet dieses Projekt die Standardoption von [Browserslist](https://github.com/browserslist/browserslist), um Zielbrowser zu identifizieren. Zusätzlich enthält es Polyfills für moderne Sprachfunktionen, um ältere Browser (z. B. Internet Explorer 11) zu unterstützen. Wenn die Unterstützung solcher Browser nicht erforderlich ist, können die Polyfill-Abhängigkeiten und Importe entfernt werden.
