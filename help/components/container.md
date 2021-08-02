@@ -4,7 +4,7 @@ description: Die Kernkomponente „Container-Komponente“ ermöglicht die Erste
 role: Architect, Developer, Admin, User
 exl-id: 53c7190d-44cb-42ff-bc1a-483c7875bcf8
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '792'
 ht-degree: 100%
 
@@ -43,11 +43,11 @@ Die aktuelle technische Dokumentation zur Container-Komponente [finden Sie auf G
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
-## Dialogfeld „Konfigurieren“  {#configure-dialog}
+## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
 Mit dem Dialogfeld „Konfigurieren“ kann der Inhaltsautor das Container-Element und sein Verhalten und Aussehen für einen Besucher der Seite definieren.
 
-![Dialogfeld „Bearbeiten der Container-Komponente“ ](/help/assets/container-edit.png)
+![Dialogfeld „Bearbeiten der Container-Komponente“](/help/assets/container-edit.png)
 
 * **Layout** - Diese Option definiert das Verhalten oder das Layout-Verhalten der Container-Komponente.
    * **Einfach** - Definiert einen Container als einfache Sammlung von Komponenten
@@ -59,27 +59,27 @@ Mit dem Dialogfeld „Konfigurieren“ kann der Inhaltsautor das Container-Eleme
    * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
-## Dialogfeld „Design“  {#design-dialog}
+## Dialogfeld „Design“ {#design-dialog}
 
 Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Optionen für den Inhaltsautor zu definieren, der die Container-Komponente verwendet.
 
-### Registerkarte „Zugelassene Komponenten“  {#allowed-components-tab}
+### Registerkarte „Zugelassene Komponenten“ {#allowed-components-tab}
 
 Über die Registerkarte **Zugelassene Komponenten** können Sie definieren, welche Komponenten der Container-Komponente vom Inhaltsautor als Elemente hinzugefügt werden können.
 
 Die Registerkarte „Zugelassene Komponenten“ funktioniert auf die gleiche Weise wie die Registerkarte desselben Namens beim [Definieren der Richtlinie und Eigenschaften eines Layoutcontainers im Vorlageneditor.](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/features/templates.translate.html)
 
-### Registerkarte „Standardkomponenten“  {#default-components-tab}
+### Registerkarte „Standardkomponenten“ {#default-components-tab}
 
-Mit der Registerkarte „Standardkomponenten“ wird definiert, welche Komponente der Komponente hinzugefügt wird, wenn ein bestimmter Assettyp im Container abgelegt wird, ähnlich wie unter [So werden Standardkomponenten in der Seitenvorlage definiert](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) erläutert.
+Mit der Registerkarte „Standardkomponenten“ wird definiert, welche Komponente der Komponente hinzugefügt wird, wenn ein bestimmter Asset-Typ im Container abgelegt wird, ähnlich wie unter [So werden Standardkomponenten in der Seitenvorlage definiert](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/features/templates.translate.html) erläutert.
 
-### Registerkarte „Responsive Einstellungen“  {#responsive-settings-tab}
+### Registerkarte „Responsive Einstellungen“ {#responsive-settings-tab}
 
 ![Registerkarte „Responsive Einstellungen“ im Dialogfeld „Design“ der Container-Komponente](/help/assets/container-design-responsive.png)
 
 * **Spalten** - Definiert die Anzahl der Spalten im Raster des resultierenden Containers.
 
-### Registerkarte „Hintergrund“  {#background-tab}
+### Registerkarte „Hintergrund“ {#background-tab}
 
 ![Registerkarte „Hintergrund“ im Dialogfeld „Design“ der Container-Komponente](/help/assets/container-design-background.png)
 
@@ -96,6 +96,6 @@ Mit der Registerkarte „Standardkomponenten“ wird definiert, welche Komponent
    * **Löschen** - Tippen oder klicken Sie, um ein Muster zu löschen.
    * **Neu anordnen** - Tippen oder klicken und ziehen Sie, um die Reihenfolge der Muster neu anzuordnen.
 
-### Registerkarte „Stile“  {#styles-tab}
+### Registerkarte „Stile“ {#styles-tab}
 
 Die Container-Komponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
