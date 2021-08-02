@@ -4,19 +4,19 @@ description: Die Kernkomponente „Komponente für ausgeblendetes Formular“ er
 role: Architect, Developer, Admin, User
 exl-id: 0364cd3b-3c09-46db-9392-a67e3f9ea7a5
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '428'
 ht-degree: 100%
 
 ---
 
-# Komponente für ausgeblendetes Formular{#form-hidden-component}
+# Komponente für ausgeblendetes Formular {#form-hidden-component}
 
 Die Kernkomponente „Komponente für ausgeblendetes Formular“ ermöglicht die Anzeige eines ausgeblendeten Felds.
 
 ## Nutzung {#usage}
 
-Die Kernkomponente „Komponente für ausgeblendetes Formular“ ermöglicht die Erstellung ausgeblendeter Felder, um Informationen über die aktuelle Seite zurück an AEM zu senden. Sie soll zusammen mit der [Formularcontainer-Komponente](form-container.md) verwendet werden.
+Die Kernkomponente „Komponente für ausgeblendetes Formular“ ermöglicht die Erstellung ausgeblendeter Felder, um Informationen über die aktuelle Seite zurück an AEM zu senden. Sie soll zusammen mit der [Formular-Container-Komponente](form-container.md) verwendet werden.
 
 Die Feldeigenschaften können vom Inhaltseditor im [Dialogfeld „Konfigurieren“](form-hidden.md) definiert werden.
 
@@ -43,7 +43,7 @@ Die neueste technische Dokumentation zur Komponente für ausgeblendetes Formular
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
-## Dialogfeld „Konfigurieren“  {#configure-dialog}
+## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
 Über das Dialogfeld „Konfigurieren“ kann der Inhaltsautor die Parameter des ausgeblendeten Felds definieren.
 
@@ -60,8 +60,8 @@ Da die Komponente für ausgeblendetes Formular normalerweise keine sichtbaren At
 
 ![Beispiel einer Komponente für ein ausgeblendetes Formular](/help/assets/form-hidden-example.png)
 
-## Dialogfeld „Design“  {#design-dialog}
+## Dialogfeld „Design“ {#design-dialog}
 
-### Registerkarte „Stile“  {#styles-tab}
+### Registerkarte „Stile“ {#styles-tab}
 
 Die Komponente für ausgeblendetes Formular unterstützt das [Stilsystem](/help/get-started/authoring.md#component-styling) von AEM.
