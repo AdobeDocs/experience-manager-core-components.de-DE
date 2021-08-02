@@ -4,7 +4,7 @@ description: Die Kernkomponente „Download-Komponente“ ermöglicht die Erstel
 role: Architect, Developer, Admin, User
 exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '687'
 ht-degree: 100%
 
@@ -43,13 +43,13 @@ Die aktuelle technische Dokumentation zur Download-Komponente [finden Sie auf Gi
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
-## Dialogfeld „Konfigurieren“  {#configure-dialog}
+## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
 Mit dem Dialogfeld „Konfigurieren“ kann der Inhaltsautor das Download-Element und sein Verhalten und Aussehen für einen Besucher der Seite definieren.
 
 ![Registerkarte „Asset“ auf dem Dialogfeld „Bearbeiten“ der Download-Komponente](/help/assets/download-edit-asset.png)
 
-### Registerkarte „Asset“  {#asset-tab}
+### Registerkarte „Asset“ {#asset-tab}
 
 Die Auswahl eines Download-Assets ähnelt der Funktionalität der [Bildkomponente](image.md) und nutzt gleichermaßen das AEM-DAM.
 
@@ -74,7 +74,7 @@ Die Auswahl eines Download-Assets ähnelt der Funktionalität der [Bildkomponent
    * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
-## Dialogfeld „Design“  {#design-dialog}
+## Dialogfeld „Design“ {#design-dialog}
 
 Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Optionen für den Inhaltsautor zu definieren, der die Download-Komponente verwendet.
 
@@ -85,7 +85,7 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Optionen für 
 * **Upload aus Dateisystem zulassen** - Ermöglicht dem Inhaltsautor das Hochladen eines Assets aus seinem lokalen Dateisystem als Download-Asset.
    * Der Standardwert ist nicht ausgewählt.
 * **Titeltyp** - Das HTML-Element, das für den Titel der Download-Komponente verwendet wird.
-   * Wenn kein Wert ausgewählt ist, lautet der Standardwert H 3.
+   * Wenn kein Wert ausgewählt ist, lautet der Standardwert H3.
 * **Dateigröße anzeigen** - Wenn ausgewählt, wird die Dateigröße des Assets in der Download-Komponente angezeigt.
    * Der Standardwert ist ausgewählt.
 * **Dateiformat anzeigen** - Wenn ausgewählt, wird das Dateiformat des Assets in der Download-Komponente angezeigt.
@@ -93,6 +93,6 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Optionen für 
 * **Dateinamen anzeigen** - Wenn ausgewählt, wird der Dateiname des Assets in der Download-Komponente angezeigt.
    * Der Standardwert ist ausgewählt.
 
-### Registerkarte „Stile“  {#styles-tab}
+### Registerkarte „Stile“ {#styles-tab}
 
 Die Bildkomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
