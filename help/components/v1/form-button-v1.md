@@ -5,7 +5,7 @@ index: n
 role: Architect, Developer, Admin, User
 exl-id: 2c06a942-7ac5-4847-9d11-7bbcd0ea51bd
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '342'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ Die Kernkomponente „Formularschaltflächen-Komponente“ ermöglicht die Einbe
 
 ## Nutzung {#usage}
 
-Die Kernkomponente „Formularschaltflächen-Komponente“ ermöglicht die Erstellung von Schaltflächenfeldern, die häufig dazu dienen, die Übermittlung des Formulars auszulösen, und zusammen mit der [Formularcontainer-Komponente](form-container-v1.md). verwendet werden sollen
+Die Kernkomponente „Formularschaltflächen-Komponente“ ermöglicht die Erstellung von Schaltflächenfeldern, die häufig dazu dienen, die Übermittlung des Formulars auszulösen, und zusammen mit der [Formular-Container-Komponente](form-container-v1.md). verwendet werden sollen
 
 Die Schaltflächeneigenschaften können vom Inhaltseditor im [Dialogfeld „Konfigurieren“](#configure-dialog) definiert werden.
 
@@ -86,7 +86,7 @@ Im Folgenden finden Sie ein Beispiel von [We.Retail](https://helpx.adobe.com/de/
 >
 >Für JSON-Exporte aus den Kernkomponenten ist Version 1.1.0 der Kernkomponenten erforderlich. Weitere Informationen finden Sie in den [Kompatibilitätsinformationen für Kernkomponenten v1](/help/versions.md).
 
-## Dialogfeld „Konfigurieren“  {#configure-dialog}
+## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
 Über das Dialogfeld „Konfigurieren“ kann der Inhaltsautor die Parameter der Schaltfläche definieren.
 
@@ -102,7 +102,7 @@ Im Folgenden finden Sie ein Beispiel von [We.Retail](https://helpx.adobe.com/de/
 * **Name** - Der Name der Schaltfläche, der mit den Formulardaten übermittelt wird.
 * **Wert** - Der Wert der Schaltfläche, der mit den Formulardaten übermittelt wird.
 
-## Dialogfeld „Design“  {#design-dialog}
+## Dialogfeld „Design“ {#design-dialog}
 
 Es gibt kein Dialogfeld „Design“ für die Formularschaltflächen-Komponente.
 
