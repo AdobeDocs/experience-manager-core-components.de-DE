@@ -4,7 +4,7 @@ description: Die Kernkomponente „Akkordeon“ ermöglicht die Erstellung einer
 role: Architect, Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1067'
 ht-degree: 100%
 
@@ -58,11 +58,11 @@ Die aktuelle technische Dokumentation zur Akkordeon-Komponente [finden Sie auf G
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
-## Dialogfeld „Konfigurieren“  {#configure-dialog}
+## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
-Mit dem Dialogfeld „Konfigurieren“ kann die Akkordeon-Elemente, die Bedienfelder und sein Verhalten und Aussehen für einen Besucher der Seite definieren.
+Mit dem Dialogfeld „Konfigurieren“ können Sie die Akkordeon-Elemente, die Bedienfelder und sein Verhalten und Aussehen für einen Besucher der Seite definieren.
 
-### Registerkarte „Elemente“  {#items-tab}
+### Registerkarte „Elemente“ {#items-tab}
 
 ![Registerkarte „Elemente“ im Dialogfeld „Bearbeiten“ der Akkordeon-Komponente](/help/assets/accordion-edit-items.png)
 
@@ -90,7 +90,7 @@ Verwenden Sie die Schaltfläche **Hinzufügen**, um die Komponentenauswahl zu ö
    * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
-## Popover „Bedienfeld auswählen“  {#select-panel-popover}
+## Popover „Bedienfeld auswählen“ {#select-panel-popover}
 
 Der Inhaltsautor kann in der Komponenten-Symbolleiste die Option **Bedienfeld auswählen** verwenden, um zu einem anderes Bedienfeld zu wechseln, um es zu bearbeiten, und auch um die Reihenfolge der Registerkarten innerhalb des Akkordeons einfach zu ändern.
 
@@ -105,7 +105,7 @@ Nach Auswahl der Option **Bedienfeld auswählen** in der Komponentensymbolleiste
 * Durch Tippen oder Klicken auf einen Eintrag in der Dropdown-Liste wird die Ansicht im Editor auf dieses Bedienfeld umgestellt.
 * Die Bedienfelder können direkt mithilfe der Ziehgriffe neu angeordnet werden.
 
-## Dialogfeld „Design“  {#design-dialog}
+## Dialogfeld „Design“ {#design-dialog}
 
 Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Optionen zu definieren, die für den Inhaltsautor bei Verwendung der Akkordeon-Komponente verfügbar sind, sowie die Standardeinstellungen bei Platzierung der Akkordeon-Komponente.
 
@@ -116,13 +116,13 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Optionen zu de
 * **Zulässige Überschriftenelemente** - Diese Mehrfachauswahl-Dropdown-Liste definiert die HTML-Elemente für die Überschrift des Akkordeon-Elements, die von einem Autor ausgewählt werden können.
 * **Standardmäßiges Überschriftenelement** - Diese Dropdown-Liste definiert das Standard-HTML-Überschriftenelement für das Akkordeon-Element.
 
-### Registerkarte „Zugelassene Komponenten“  {#allowed-components-tab}
+### Registerkarte „Zugelassene Komponenten“ {#allowed-components-tab}
 
 Über die Registerkarte **Zugelassene Komponenten** können Sie definieren, welche Komponenten der Akkordeon-Komponente vom Inhaltsautor als Elemente in Bedienfeldern hinzugefügt werden können.
 
 Die Registerkarte „Zugelassene Komponenten“ funktioniert auf die gleiche Weise wie die Registerkarte desselben Namens beim [Definieren der Richtlinie und Eigenschaften eines Layoutcontainers im Vorlageneditor.](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-layout-template-author)
 
-### Registerkarte „Stile“  {#styles-tab}
+### Registerkarte „Stile“ {#styles-tab}
 
 Die Akkordeon-Komponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
