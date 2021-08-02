@@ -4,7 +4,7 @@ description: Die Kernkomponenten unterstützen AMP (Accelerated Mobile Pages)
 role: Architect, Developer, Admin
 exl-id: 1fd9b6b5-0e4d-48c7-8faa-42e0d4a6bbd0
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '558'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ Die AMP-Einstellungen für eine Seite können auch in den [Seiteneigenschaften](
 
 ![Eigenschaften der AMP-Seite](/help/assets/amp-page-properties.png)
 
-* **Von Seitenvorlage übernehmen**: Dies ist der Standardwert, mit dem die Einstellung aus der Richtlinie der Seitenvorlage übernommen werden kann.
+* **Von Seitenvorlage erben**: Dies ist der Standardwert, mit dem die Einstellung aus der Richtlinie der Seitenvorlage übernommen werden kann.
 * **Kein AMP**: Die Seite wird nur als Standard-HTML bereitgestellt.
 * **Gepaartes AMP**: Die Seite wird sowohl als AMP als auch als HTML bereitgestellt.
 * **Nur AMP**: Die Seite wird nur als AMP bereitgestellt.
