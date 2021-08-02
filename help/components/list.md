@@ -4,7 +4,7 @@ description: Die Kernkomponente „Listenkomponente“ ermöglicht die einfache 
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '979'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 
 Im Dialogfeld „Bearbeiten“ kann der Inhaltsautor die Liste und die Listenelemente konfigurieren.
 
-### Registerkarte „Listeneinstellungen“  {#list-settings-tab}
+### Registerkarte „Listeneinstellungen“ {#list-settings-tab}
 
 Die Liste kann auf verschiedene Weise erstellt werden.
 
@@ -138,7 +138,7 @@ Maximale Anzahl der in der Liste angezeigten Elemente.
    * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
-### Registerkarte „Elementeinstellungen“  {#item-settings-tab}
+### Registerkarte „Elementeinstellungen“ {#item-settings-tab}
 
 Auf der Registerkarte „Elementeinstellungen“ kann die Formatierung der Listenelemente konfiguriert werden.
 
@@ -151,7 +151,7 @@ Beschreibung des Link-Elements anzeigen
 * **Datum anzeigen**
 Änderungsdatum des Link-Elements anzeigen
 
-## Dialogfeld „Design“  {#design-dialog}
+## Dialogfeld „Design“ {#design-dialog}
 
 Über das Dialogfeld „Design“ kann der Vorlagenautor festlegen, welche Listentypen für Inhaltsautoren erlaubt und welche Elementeinstellungen verfügbar sind.
 
@@ -185,7 +185,7 @@ Aktiviert die Option „Beschreibungen anzeigen“ im [Dialogfeld „Bearbeiten�
 * **Datum anzeigen**
 Aktiviert die Option „Datum anzeigen“ im [Dialogfeld „Bearbeiten“](#edit-dialog)
 
-### Registerkarte „Stile“  {#styles-tab}
+### Registerkarte „Stile“ {#styles-tab}
 
 Die Bildkomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
