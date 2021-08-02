@@ -4,7 +4,7 @@ description: Die Fortschrittsleistenkomponente visualisiert den Fortschritt bei 
 role: Architect, Developer, Admin, User
 exl-id: 47afc5a6-ac57-4b6c-92c4-015ca956a20b
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '338'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Die aktuelle technische Dokumentation zur Fortschrittsleistenkomponente finden S
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
-## Dialogfeld „Konfigurieren“  {#configure-dialog}
+## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
 ![Dialogfeld „Bearbeiten“ der Fortschrittsleistenkomponente](/help/assets/progress-bar-edit.png)
 
@@ -48,11 +48,11 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
    * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
-## Dialogfeld „Design“  {#design-dialog}
+## Dialogfeld „Design“ {#design-dialog}
 
 Über das Dialogfeld „Design“ können Vorlagenautoren die Stile definieren, die auf die Fortschrittsleiste angewendet werden.
 
-### Registerkarte „Stile“  {#styles-tab}
+### Registerkarte „Stile“ {#styles-tab}
 
 Die Fortschrittsleistenkomponente unterstützt das [Stilsystem](/help/get-started/authoring.md#component-styling) von AEM.
 
