@@ -4,7 +4,7 @@ description: Die Kernkomponente „Bildkomponente“ ist eine anpassungsfähige 
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2170'
 ht-degree: 100%
 
@@ -73,11 +73,11 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 
 Die Bildkomponente unterstützt [Schema.org-Mikrodaten](https://schema.org).
 
-## Dialogfeld „Konfigurieren“  {#configure-dialog}
+## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
 Zusätzlich zum standardmäßigen [Dialogfeld „Bearbeiten“](#edit-dialog) und zum [Dialogfeld „Design“](#design-dialog) bietet die Bildkomponente ein Dialogfeld für die Konfiguration, bei dem das Bild selbst mit seiner Beschreibung und den grundlegenden Eigenschaften definiert wird.
 
-### Registerkarte „Asset“  {#asset-tab}
+### Registerkarte „Asset“ {#asset-tab}
 
 ![Registerkarte „Asset“ im Dialogfeld „Konfigurieren“ der Bildkomponente](/help/assets/image-configure-asset.png)
 
@@ -86,9 +86,9 @@ Zusätzlich zum standardmäßigen [Dialogfeld „Bearbeiten“](#edit-dialog) un
    * Tippen oder klicken Sie auf **Löschen**, um das aktuell ausgewählte Bild zu deaktivieren.
    * Tippen oder klicken Sie auf **Bearbeiten**, um die [Ausgabedarstellungen des Assets](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/assets/manage/manage-digital-assets.translate.html) im Asset-Editor zu verwalten.
 
-### Registerkarte „Metadaten“  {#metadata-tab}
+### Registerkarte „Metadaten“ {#metadata-tab}
 
-![Registerkarte „Metadaten“ auf dem Dialogfeld „Konfigurieren“ der Bildkomponente](/help/assets/image-configure-metadata.png)
+![Registerkarte „Metadaten“ im Dialogfeld „Konfigurieren“ der Bildkomponente](/help/assets/image-configure-metadata.png)
 
 * **Vorgabetyp** - Hier wird der Typ der verfügbaren Bildvorgaben festgelegt, entweder **Bildvorgabe** oder **Smartes Zuschneiden**. Dies ist nur verfügbar, wenn die [Dynamic Media-Funktionen](#dynamic-meida) aktiviert sind.
    * **Bildvorgabe** - Wenn der **Vorgabetyp** **Bildvorgabe** ausgewählt ist, ist die Dropdown-Liste **Bildvorgabe** verfügbar, sodass aus den verfügbaren Dynamic Media-Vorgaben ausgewählt werden kann. Dies ist nur verfügbar, wenn für das ausgewählte Asset Vorgaben definiert sind.
@@ -175,11 +175,11 @@ Der Editor für die Bearbeitung im Kontext kann auch zum Ändern des Bildes verw
 >
 >Bildbearbeitungsvorgänge (Beschneiden, Spiegeln, Drehen) werden für GIF-Bilder nicht unterstützt. Alle Änderungen, die im Bearbeitungsmodus an GIFs vorgenommen wurden, bleiben nicht bestehen.
 
-## Dialogfeld „Design“  {#design-dialog}
+## Dialogfeld „Design“ {#design-dialog}
 
 Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Beschneidungs-, Drehungs- und Upload-Optionen zu definieren, die der Inhaltsautor bei Verwendung dieser Komponente hat.
 
-### Registerkarte „Allgemein“  {#main-tab}
+### Registerkarte „Allgemein“ {#main-tab}
 
 Auf der Registerkarte **Haupt** können Sie eine Liste der Breiten in Pixel für das Bild definieren, und die Komponente lädt automatisch die passende Breite basierend auf der Browser-Größe. Dies ist ein wichtiger Teil der [responsiven Funktionen](#responsive-features) der Bildkomponente.
 
@@ -202,7 +202,7 @@ Darüber hinaus können Sie festlegen, welche allgemeinen Komponentenoptionen au
       * Wählen Sie die Option **Lazy Loading deaktivieren** aus, um die Bilder schon beim Laden der Seite zu laden.
 * **JPEG-Qualität** - Der Qualitätsfaktor (in Prozent von 0 bis 100) für umgewandelte (z. B. skalierte oder zugeschnittene) JPEG-Bilder.
 
-### Registerkarte „Funktionen“  {#features-tab}
+### Registerkarte „Funktionen“ {#features-tab}
 
 Auf der Registerkarte **Funktionen** können Sie festlegen, welche Optionen den Inhaltsautoren zur Verfügung stehen, wenn sie die Komponente verwenden, einschließlich Optionen fürs Hochladen, Ausrichtung und Beschneiden.
 
@@ -240,7 +240,7 @@ Auf der Registerkarte **Funktionen** können Sie festlegen, welche Optionen den 
    >
    >Beachten Sie, dass die Beschneidungsverhältnisse als **Höhe/Breite** definiert sind. Dies unterscheidet sich von der herkömmlichen Definition als Breite/Höhe und erfolgt aus Gründen der Legacy-Kompatibilität. Den Inhaltsautoren wird kein Unterschied bewusst werden, solange Sie einen klaren Namen für das Verhältnis angeben, da nur der Name in der Benutzeroberfläche angezeigt wird und nicht das Verhältnis selbst.
 
-### Registerkarte „Stile“  {#styles-tab-1}
+### Registerkarte „Stile“ {#styles-tab-1}
 
 Die Bildkomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
