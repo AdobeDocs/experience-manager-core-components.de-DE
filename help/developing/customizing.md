@@ -4,7 +4,7 @@ description: Die Kernkomponenten implementieren verschiedene Muster, die eine ei
 role: Architect, Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1106'
 ht-degree: 100%
 
@@ -152,7 +152,7 @@ Wie bei jeder AEM-Komponente gibt es einige Aspekte hinsichtlich der Anpassungen
 
 1. **Achten Sie auf veraltete und entfernte Funktionen.**
 
-   Stellen Sie bei jedem Upgrade jeder neuen AEM-Version sicher, dass alle verwendeten APIs immer aktuell sind, indem Sie die Seite [Veraltete und entfernte Funktionen](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html) im Auge behalten.
+   Stellen Sie bei jedem Upgrade jeder neuen AEM-Version sicher, dass alle verwendeten APIs immer aktuell sind, indem Sie die Seite [Veraltete und entfernte Funktionen](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/release-notes/deprecated-removed-features.translate.html) im Auge behalten.
 
 Siehe auch Abschnitt zur [Kernkomponentenunterstützung](overview.md#core-component-support).
 
