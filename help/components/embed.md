@@ -4,7 +4,7 @@ description: Die Einbettungskomponente ermöglicht das Einbetten externer Inhalt
 role: Architect, Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1341'
 ht-degree: 100%
 
@@ -43,7 +43,7 @@ Die aktuelle technische Dokumentation zur Einbettungskomponente [finden Sie auf 
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
-## Dialogfeld „Konfigurieren“  {#configure-dialog}
+## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
 Im Dialogfeld „Konfigurieren“ kann der Inhaltsautor die externe Ressource definieren, die auf der Seite eingebettet werden soll. Wählen Sie zunächst, welche Ressource eingebettet werden soll:
 
@@ -116,11 +116,11 @@ Weitere Sicherheitsinformationen finden Sie in der [AEM-Entwicklerdokumentation 
 >[!NOTE]
 >Obwohl die Regeln des AntiSamy-Bereinigungs-Frameworks durch eine Überlagerung von `/libs/cq/xssprotection/config.xml` konfiguriert werden können, wirken sich diese Änderungen nicht nur auf die Einbettungs-Kernkomponente, sondern auf das gesamte HTL- und JSP-Verhalten aus.
 
-## Dialogfeld „Design“  {#design-dialog}
+## Dialogfeld „Design“ {#design-dialog}
 
 Der Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Optionen, die für den Inhaltsautor bei Verwendung der Einbettungskomponente verfügbar sind, sowie die Standardeinstellungen bei Platzierung der Einbettungskomponente zu definieren.
 
-### Registerkarte „Typen einbettbarer Prozessoren“  {#embeddable-types-tab}
+### Registerkarte „Typen einbettbarer Prozessoren“ {#embeddable-types-tab}
 
 ![Dialogfeld „Design“ der Einbettungskomponente](/help/assets/embed-design.png)
 
@@ -129,7 +129,7 @@ Der Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Optionen, die 
 * **HTML deaktivieren** - Deaktiviert bei Auswahl die **HTML**-Option für den Inhaltsautor.
 * **Zulässige einbettbare Elemente** - Mehrfachauswahl, die definiert, welche einbettbaren Prozessoren für den Inhaltsautor verfügbar sind, sofern die Option **Einbettbare Prozessoren** aktiviert ist.
 
-### Registerkarte „YouTube“  {#youtube-tab}
+### Registerkarte „YouTube“ {#youtube-tab}
 
 ![Registerkarte „YouTube“ im Dialogfeld „Design“ der Einbettungskomponente](/help/assets/embed-design-youtube.png)
 
