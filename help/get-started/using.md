@@ -4,7 +4,7 @@ description: '„Um mit Kernkomponenten in Ihrem eigenen Projekt produktiv zu we
 role: Architect, Developer, Admin, User
 exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '977'
 ht-degree: 100%
 
@@ -12,11 +12,11 @@ ht-degree: 100%
 
 # Verwenden von Kernkomponenten{#using-core-components}
 
-Um mit Kernkomponenten in Ihrem eigenen Projekt produktiv zu werden, sind vier Schritte erforderlich, die in den folgenden Abschnitten einzeln detailliert sind:
+Um mit Kernkomponenten in Ihrem eigenen Projekt produktiv zu werden, sind vier Schritte erforderlich, die in den folgenden Abschnitten einzeln erläutert werden:
 
 1. [Herunterladen und installieren](#download-and-install)
 1. [Proxy-Komponenten erstellen](#create-proxy-components)
-1. [Laden der Kernstile](#load-the-core-styles)
+1. [Kernstile laden](#load-the-core-styles)
 1. [Komponenten aktivieren](#allow-the-components)
 
 >[!TIP]
@@ -84,7 +84,7 @@ Fügen Sie folgende Eigenschaften hinzu:
 
 Betrachten Sie beispielsweise die [Titelkomponente der WKND-Site](https://github.com/adobe/aem-guides-wknd/blob/master/ui.apps/src/main/content/jcr_root/apps/wknd/components/title/.content.xml). Dies ist ein gutes Beispiel für eine Proxy-Komponente, die auf diese Weise aufgebaut ist.
 
-## Laden der Kernstile {#load-the-core-styles}
+## Kernstile laden {#load-the-core-styles}
 
 1. Erstellen Sie eine [Client-Bibliothek](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=de-DE), die alle CSS- und JS-Dateien enthält, die für Ihre Site benötigt werden, falls noch nicht geschehen.
 1. Fügen Sie in der Client-Bibliothek Ihrer Site die Abhängigkeiten zu den Kernkomponenten hinzu, die möglicherweise benötigt werden. Dies geschieht durch Hinzufügen einer `embed` Eigenschaft.
