@@ -5,7 +5,7 @@ feature: Kernkomponenten, AEM-Projektarchetyp
 role: Architect, Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2147'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Der AEM-Archetyp besteht aus Modulen:
 * **[ui.apps](uiapps.md)**: enthält die `/apps`- und `/etc`-Teile des Projekts, d. h. JS- und CSS-clientlibs, Komponenten und Vorlagen.
 * **[ui.content](uicontent.md)**: enthält Beispielinhalt mit den Komponenten des Moduls ui.apps.
 * **ui.config**: enthält runmode-spezifische OSGi-Konfigurationen für das Projekt.
-* **[ui.frontend.general](uifrontend.md)**: **(optional)** enthält die Artefakte, die zur Verwendung des allgemeinen Webpack-basierten Front-End-Buildmoduls erforderlich sind.
+* **[ui.frontend.general](uifrontend.md)**: **(optional)** enthält die Artefakte, die zur Verwendung des allgemeinen Webpack-basierten Frontend-Build-Moduls erforderlich sind.
 * **[ui.frontend.react](uifrontend-react.md)**: **(optional)** enthält die Artefakte, die erforderlich sind, wenn der Archetyp zum Erstellen eines SPA-Projekts auf der Grundlage von React verwendet wird.
 * **[ui.frontend.angular](uifrontend-angular.md)**: **(optional)** enthält die Artefakte, die erforderlich sind, wenn der Archetyp zum Erstellen eines auf Angular basierenden SPA-Projekts verwendet wird.
 * **[ui.tests](uitests.md)**: enthält Selenium-basierte Benutzeroberflächentests.
@@ -101,7 +101,7 @@ Die folgenden Eigenschaften sind beim Erstellen eines Projekts mit dem Archetyp 
 | `groupId` |  | Maven-Basisgruppen-ID (z. B. `"com.mysite"`). |
 | `package` | *`${groupId}`* | Java-Quellpaket (z. B. `"com.mysite"`). |
 | `version` | `1.0-SNAPSHOT` | Projektversion (z. B. `1.0-SNAPSHOT`). |
-| `aemVersion` | `cloud` | Ziel-AEM-Version (kann `cloud` für [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) sein; oder `6.5.0` oder `6.4.4` für [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) oder On-Premise). |
+| `aemVersion` | `cloud` | Ziel-AEM-Version (kann `cloud` für [AEM as a Cloud Service](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/landing/home.translate.html) sein; oder `6.5.0` oder `6.4.4` für [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) oder On-Premise). |
 | `sdkVersion` | `latest` | Wenn `aemVersion=cloud`, dann kann eine [SDK](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html)-Version angegeben werden (z. B. `2020.02.2265.20200217T222518Z-200130`). |
 | `includeDispatcherConfig` | `y` | Enthält eine Dispatcher-Konfiguration für Cloud oder für AMS/On-Premise, je nach dem Wert von `aemVersion` (kann `y` oder `n` sein). |
 | `frontendModule` | `general` | Enthält ein WebPack-Frontend-Build-Modul, das die Client-Bibliotheken generiert (kann `general` oder `none` für reguläre Websites sein; kann `angular` oder `react` für eine Single Page App sein, die den [SPA-Editor](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html) implementiert). |
