@@ -5,7 +5,7 @@ feature: Kernkomponenten, Adobe Client-Datenschicht
 role: Architect, Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '980'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ Um die Datenschicht manuell zu aktivieren, müssen Sie eine [kontextabhängige K
 
 1. Fügen Sie eine `sling:configRef`-Eigenschaft zum Knoten `jcr:content` Ihrer Site hinzu, dies unterhalb von `/content` (z. B. `/content/<mySite>/jcr:content`), und legen Sie für sie `/conf/<mySite>` fest.
 
-1. Nach der Aktivierung können Sie diese überprüfen, indem Sie eine Seite der Site außerhalb des Editors laden, z. B. mit der Option **Als veröffentlicht anzeigen** im Editor. Überprüfen Sie die Seitenquelle. Das Tag `<body>` sollte das Attribut `data-cmp-data-layer-enabled` enthalten. 
+1. Nach der Aktivierung können Sie diese überprüfen, indem Sie eine Seite der Site außerhalb des Editors laden, z. B. mit der Option **Als veröffentlicht anzeigen** im Editor. Überprüfen Sie die Seitenquelle. Das Tag `<body>` sollte das Attribut `data-cmp-data-layer-enabled` enthalten.
 
    ```html
    <body class="page basicpage" id="page-id" data-cmp-data-layer-enabled>
@@ -259,7 +259,7 @@ Im Folgenden finden Sie die vorkonfigurierten Ereignisse in den AEM-Kernkomponen
 * **`cmp:show`** und **`cmp:hide`**: Beim Manipulieren des Akkordeon (Erweitern/Reduzieren), des Karussells (nächste/vorherige Schaltflächen) und der Registerkarten (Registerkartenauswahl) löst die Datenschicht ein `cmp:show`- bzw. ein `cmp:hide`-Ereignis aus. Ein `cmp:show`-Ereignis wird auch beim Laden der Seite ausgelöst und wird als erstes Ereignis erwartet.
 * **`cmp:loaded`**: Sobald die Datenschicht mit den Kernkomponenten auf der Seite gefüllt ist, löst die Datenschicht ein `cmp:loaded`-Ereignis aus.
 
-### Von der -Komponente ausgelöste Ereignisse {#events-components}
+### Ausgelöste Ereignisse nach Komponente {#events-components}
 
 In den folgenden Tabellen sind die standardmäßigen Kernkomponenten, die Ereignisse auslösen, zusammen mit diesen Ereignissen aufgeführt.
 
