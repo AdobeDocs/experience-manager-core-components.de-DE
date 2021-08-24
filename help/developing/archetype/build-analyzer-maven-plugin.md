@@ -5,9 +5,9 @@ feature: Kernkomponenten, AEM-Projektarchetyp
 role: Architect, Developer, Admin
 exl-id: de26b310-a294-42d6-a0db-91f6036a328c
 source-git-commit: a6c28db9eaf20e194b4b3355e59f710e2c251305
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '595'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -42,15 +42,15 @@ Nachstehend finden Sie eine Tabelle mit den Analyzern, die im Rahmen dieses Schr
 
 Nachstehend finden Sie eine Liste der bekannten Probleme bei der Verwendung des Build Analyzer Maven-Plug-ins.
 
-### Build Analyzer-Maven-Plug-in konnte nicht im lokalen SDK ausgeführt werden
+### Das Build Analyzer-Maven-Plug-in konnte nicht im lokalen SDK ausgeführt werden.
 
-Wenn Sie das lokale SDK mit einer Build Analyzer Maven-Plug-in-Version verwenden, die kleiner als `1.1.2` ist, kann die Ausführung des Plug-ins zum folgenden Fehler führen. Aktualisieren Sie in diesem Fall Ihr Projekt auf die neueste Version des Plug-ins.
+Wenn Sie das lokale SDK mit einer Build Analyzer-Maven-Plug-in-Version verwenden, die kleiner als `1.1.2` ist, kann die Ausführung des Plug-ins zum folgenden Fehler führen. Aktualisieren Sie in diesem Fall Ihr Projekt auf die neueste Version des Plug-ins.
 
 ```txt
 [ERROR] Failed to execute goal com.adobe.aem:aemanalyser-maven-plugin:1.1.0:analyse (default-analyse) on project mysite.analyse: Execution default-analyse of goal com.adobe.aem:aemanalyser-maven-plugin:1.1.0:analyse failed: arraycopy: source index -1 out of bounds for char[65536] -> [Help 1]
 ```
 
-Wenn Sie das Projekt mit dem AEM Projektarchetyp eingerichtet haben, passen Sie die Eigenschaft im Maven-Stamm `pom.xml` wie unten beschrieben an.
+Wenn Sie das Projekt mit dem AEM-Projektarchetyp eingerichtet haben, passen Sie die Eigenschaft im Maven-Stamm `pom.xml` wie unten beschrieben an.
 
 ```xml
    ...
