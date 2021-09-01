@@ -3,10 +3,10 @@ title: Listenkomponente
 description: Die Kernkomponente „Listenkomponente“ ermöglicht die einfache Erstellung dynamischer sowie statischer Listen.
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '979'
-ht-degree: 100%
+source-git-commit: eea159ad494150c3f132166d48f624605eb92e64
+workflow-type: tm+mt
+source-wordcount: '1064'
+ht-degree: 92%
 
 ---
 
@@ -17,6 +17,17 @@ Die Kernkomponente „Listenkomponente“ ermöglicht die einfache Erstellung dy
 ## Nutzung {#usage}
 
 Die Listenkomponente kann beispielsweise zum Erstellen einer dynamischen Liste von untergeordneten Seiten oder einer statischen Liste von willkürlich definierten Elementen verwendet werden. Der Typ der verfügbaren Listen und Formatierungsoptionen kann vom Vorlagenautor im [Dialogfeld „Design“](#design-dialog) definiert werden. Der Inhaltseditor kann aus verfügbaren Listentypen und Elementen zum Formatieren der Listen im [Dialogfeld „Bearbeiten“](#edit-dialog) auswählen.
+
+## Umleitungen in Listen {#redirects}
+
+Wenn eine Seite ein Umleitungsziel hat (unabhängig davon, ob sie auf eine externe URL oder eine andere AEM verweist), dann eine Liste mit Links zu diesem Punkt direkt zur URL des Umleitungsziels.
+
+### Beispiel {#redirect-example}
+
+* Erstellen Sie eine Seite A, die zu Seite B umleitet.
+* Erstellen Sie eine Seite C, die zu `https://aemcomponents.dev` umleitet.
+* Fügen Sie auf einer Seite D eine Listenkomponente ein, die die Seiten A und C enthält.
+* Die entsprechenden generierten Links verweisen dann direkt auf Seite B und `https://aemcomponents.dev`
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
