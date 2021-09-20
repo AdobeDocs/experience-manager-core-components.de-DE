@@ -4,9 +4,9 @@ description: Kernkomponenten werden als Versionen veröffentlicht, die mehr als 
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 source-git-commit: fdca922ff637dc905fc90e80a1018c214a38e8c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2279'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Die folgende Tabelle, deren Inhalt [auf GitHub mit vollständigen Versionsinform
 
 | Version | Beschreibung | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Veröffentlichungsdatum |
 |---|---|---|---|---|---|---|
-| [2,17,10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | Dieser Patch verbessert die Komponenten [List](/help/components/list.md) und [Navigation](/help/components/navigation.md), um die externe URL für Umleitungsziele anzuzeigen, aktiviert die Vererbung von Seitenbildern für die bevorstehende v2 der Komponente [Teaser](/help/components/teaser.md) und enthält zusätzliche Fehlerbehebungen. | 6.4.8.4+ * | 6.5.6.0+ * | Kontinuierlich | 8, 11 | 31. August 2021 |
+| [2.17.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | Dieser Patch verbessert die [List](/help/components/list.md)- und [Navigation](/help/components/navigation.md)-Komponenten, um die externe URL für Redirect-Ziele anzuzeigen, aktiviert die Vererbung von Seitenbildern für die bevorstehende Version 2 der [Teaser](/help/components/teaser.md)-Komponente und enthält zusätzliche Fehlerbehebungen. | 6.4.8.4+ * | 6.5.6.0+ * | Kontinuierlich | 8, 11 | 31. August 2021 |
 | [2.17.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.8) | Dies ist eine Patch-Version, um eine rückwärts inkompatible Änderung zu beheben, die zuvor eingeführt wurde. | 6.4.8.4+ * | 6.5.6.0+ * | Kontinuierlich | 8, 11 | 2. August 2021 |
 | [2.17.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.6) | Diese Patch-Version unterstützt Sitemaps für Seiten und enthält verschiedene Verbesserungen der Barrierefreiheit. | 6.4.8.4+ * | 6.5.6.0+ * | Kontinuierlich | 8, 11 | 29. Juli 2021 |
 | [2.17.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.2) | Diese Patch-Version enthält eine Fehlerbehebung für Fälle, in denen die [Datenschicht](/help/developing/data-layer/overview.md), nicht mit AEMaaCS funktioniert. | 6.4.8.4+ * | 6.5.6.0+ * | Kontinuierlich | 8, 11 | 8. Juli 2021 |
