@@ -4,13 +4,13 @@ description: Mit der Navigationskomponente können Benutzer leicht durch eine gl
 role: Architect, Developer, Admin, User
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
 source-git-commit: eea159ad494150c3f132166d48f624605eb92e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1469'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# Navigationskomponente{#navigation-component}
+# Navigationskomponente {#navigation-component}
 
 Mit der Navigationskomponente können Benutzer leicht durch eine globalisierte Site-Struktur navigieren.
 
@@ -88,16 +88,16 @@ Die Navigationskomponente rendert dann das Menü basierend auf der Shadow-Site-S
 >[!NOTE]
 >Beim Rendern einer Shadow-Site-Struktur werden nur die Shadow-Seiten von der Navigationslogik rekursiv dargestellt. Die Logik führt keine Rekursion der Struktur der Umleitungsziele aus.
 
-## Umleitungen in der Navigation {#redirects}
+## Redirects in der Navigation {#redirects}
 
-Wenn eine Seite ein Umleitungsziel hat (unabhängig davon, ob sie auf eine externe URL oder eine andere AEM verweist), dann eine Navigationskomponente, die Links zu diesem Punkt enthält, die direkt auf die URL des Umleitungsziels verweisen.
+Wenn eine Seite ein Redirect-Ziel hat (unabhängig davon, ob sie auf eine externe URL oder eine andere AEM verweist), dann verweist eine Navigationskomponente mit Links darauf direkt auf die URL des Redirect-Ziels.
 
 ### Beispiel {#redirect-example}
 
-* Erstellen Sie eine Seite A, die zu Seite B umleitet.
-* Erstellen Sie eine Seite C, die zu `https://aemcomponents.dev` umleitet.
-* Fügen Sie auf einer Seite D eine - oder -Navigationskomponente ein, die die Seiten A und C enthält.
-* Die entsprechenden generierten Links verweisen dann direkt auf Seite B und `https://aemcomponents.dev`
+* Erstellen Sie eine Seite A, die zu Seite B umleitet.
+* Erstellen Sie eine Seite C, die zu `https://aemcomponents.dev` umleitet.
+* Fügen Sie auf einer Seite D eine Navigationskomponente ein, die die Seiten A und C enthält.
+* Die entsprechenden generierten Links verweisen dann direkt auf Seite B und `https://aemcomponents.dev`
 
 
 ## Version und Kompatibilität {#version-and-compatibility}
