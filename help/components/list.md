@@ -4,13 +4,13 @@ description: Die Kernkomponente „Listenkomponente“ ermöglicht die einfache 
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
 source-git-commit: eea159ad494150c3f132166d48f624605eb92e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1064'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
-# Listenkomponente{#list-component}
+# Listenkomponente {#list-component}
 
 Die Kernkomponente „Listenkomponente“ ermöglicht die einfache Erstellung dynamischer sowie statischer Listen.
 
@@ -18,16 +18,16 @@ Die Kernkomponente „Listenkomponente“ ermöglicht die einfache Erstellung dy
 
 Die Listenkomponente kann beispielsweise zum Erstellen einer dynamischen Liste von untergeordneten Seiten oder einer statischen Liste von willkürlich definierten Elementen verwendet werden. Der Typ der verfügbaren Listen und Formatierungsoptionen kann vom Vorlagenautor im [Dialogfeld „Design“](#design-dialog) definiert werden. Der Inhaltseditor kann aus verfügbaren Listentypen und Elementen zum Formatieren der Listen im [Dialogfeld „Bearbeiten“](#edit-dialog) auswählen.
 
-## Umleitungen in Listen {#redirects}
+## Redirects in Listen {#redirects}
 
-Wenn eine Seite ein Umleitungsziel hat (unabhängig davon, ob sie auf eine externe URL oder eine andere AEM verweist), dann eine Liste mit Links zu diesem Punkt direkt zur URL des Umleitungsziels.
+Wenn eine Seite ein Redirect-Ziel hat (unabhängig davon, ob sie auf eine externe URL oder eine andere AEM verweist), dann verweist eine Liste mit Links darauf direkt auf die URL des Redirect-Ziels.
 
 ### Beispiel {#redirect-example}
 
-* Erstellen Sie eine Seite A, die zu Seite B umleitet.
-* Erstellen Sie eine Seite C, die zu `https://aemcomponents.dev` umleitet.
-* Fügen Sie auf einer Seite D eine Listenkomponente ein, die die Seiten A und C enthält.
-* Die entsprechenden generierten Links verweisen dann direkt auf Seite B und `https://aemcomponents.dev`
+* Erstellen Sie eine Seite A, die zu Seite B umleitet.
+* Erstellen Sie eine Seite C, die zu `https://aemcomponents.dev` umleitet.
+* Fügen Sie auf einer Seite D eine Listenkomponente ein, die die Seiten A und C enthält.
+* Die entsprechenden generierten Links verweisen dann direkt auf Seite B und `https://aemcomponents.dev`
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
@@ -56,7 +56,7 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 
 Im Dialogfeld „Bearbeiten“ kann der Inhaltsautor die Liste und die Listenelemente konfigurieren.
 
-### Registerkarte „Listeneinstellungen“ {#list-settings-tab}
+### Registerkarte „Listen-Einstellungen“ {#list-settings-tab}
 
 Die Liste kann auf verschiedene Weise erstellt werden.
 
@@ -102,9 +102,9 @@ Die Liste kann mithilfe der Ergebnisse einer Suche aus AEM-Inhalten erstellt wer
 
 ![Optionen für die Suchliste](/help/assets/list-edit-search.png)
 
-* **Suchabfrage**
+* **Suchanfrage**
 Die Zeichenfolge, für die eine Volltextsuche ausgeführt wird, um die Listenelemente zu generieren
-* **Suchen in**,
+* **Suche in**
 Wo die Suche ausgeführt werden soll
    * Wählen Sie im **Dialogfeld „Auswahl“** den Speicherort in AEM aus
    * Aktuelle Seite verwenden, wenn leer
@@ -119,7 +119,7 @@ Die Liste kann mithilfe von Seiten erstellt werden, die bestimmten Tags unter ei
 Wo die Tag-Übereinstimmung beginnen sollte
    * Wählen Sie im **Dialogfeld „Auswahl“** den Speicherort in AEM aus
    * Aktuelle Seite verwenden, wenn leer
-* **Tags**,
+* **Tags**
 Welche Tags sollten abgeglichen werden
    * Verwenden Sie das Dialogfeld **Durchsuchen**, um die Tags auszuwählen.
 * **Übereinstimmung**
@@ -149,9 +149,9 @@ Maximale Anzahl der in der Liste angezeigten Elemente.
    * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
-### Registerkarte „Elementeinstellungen“ {#item-settings-tab}
+### Registerkarte „Element-Einstellungen“ {#item-settings-tab}
 
-Auf der Registerkarte „Elementeinstellungen“ kann die Formatierung der Listenelemente konfiguriert werden.
+Auf der Registerkarte „Element-Einstellungen“ kann die Formatierung der Listenelemente konfiguriert werden.
 
 ![Elementeinstellungen](/help/assets/list-edit-items.png)
 
@@ -168,7 +168,7 @@ Beschreibung des Link-Elements anzeigen
 
 ### Listen-Einstellungen {#list-settings}
 
-Auf der Registerkarte **Listeneinstellungen** kann das Datumsformat sowie der Listentyp definiert werden, der in der Komponente den Inhaltsautoren zur Verfügung stehen soll.
+Auf der Registerkarte **Listen-Einstellungen** kann das Datumsformat sowie der Listentyp definiert werden, der in der Komponente den Inhaltsautoren zur Verfügung stehen soll.
 
 ![Listeneinstellung im Dialogfeld „Design“ der Listenkomponente](/help/assets/list-design-list-settings.png)
 
@@ -185,7 +185,7 @@ Deaktiviert den Listentyp „Tags“ in der Komponente
 
 ### Elementeinstellungen {#item-settings}
 
-Auf der Registerkarte **Elementeinstellungen** können die Formatierungsoptionen für die einzelnen Listenelemente definiert werden, die in der Komponente für die Inhaltsautoren verfügbar sein sollten.
+Auf der Registerkarte **Element-Einstellungen** können die Formatierungsoptionen für die einzelnen Listenelemente definiert werden, die in der Komponente für die Inhaltsautoren verfügbar sein sollten.
 
 ![Elementeinstellungen im Dialogfeld „Design“ der Listenkomponente](/help/assets/list-design-item-settings.png)
 
