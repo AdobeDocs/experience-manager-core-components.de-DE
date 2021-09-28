@@ -1,20 +1,20 @@
 ---
-sub-product: AEM-Kernkomponenten
+sub-product: AEM Core Components
 user-guide-title: AEM-Kernkomponenten
 breadcrumb-title: Anleitung zu den Hauptkomponenten
 user-guide-description: Nutzen Sie die erweiterbaren Hauptkomponenten, damit Autoren mühelos Inhalte erstellen können.
 feature-set: Experience Manager Sites
-source-git-commit: 15aa2145a4872a9e9c46e639f42f212363823d75
+source-git-commit: 7bff1282bdd05b98e7ce33ab0e1a1be7080bb209
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 
 # Hilfe zu AEM-Kernkomponenten {#using}
 
-+ [Einführung in Kernkomponenten](introduction.md)
++ [Einführung in Kernkomponenten ](introduction.md)
 + [Wege zum Erfolg](developing/success.md)
 + [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_de)
 + [Kernkomponenten-Versionen](versions.md)
@@ -37,7 +37,7 @@ ht-degree: 100%
    + [Sprachnavigation](components/language-navigation.md)
    + [Liste](components/list.md)
    + [Navigation](components/navigation.md)
-   + [Seite ](components/page.md)
+   + [Seite](components/page.md)
    + [PDF-Viewer](components/pdf-viewer.md)
    + [Fortschrittsleiste](components/progress-bar.md)
    + [Schnellsuche](components/quick-search.md)
@@ -84,6 +84,7 @@ ht-degree: 100%
       + [Verwenden des Archetyps](developing/archetype/using.md)
       + [Hauptmodul](developing/archetype/core.md)
       + [ui.apps-Modul](developing/archetype/uiapps.md)
+      + [Vorkompilierte Bundle-Skripte](developing/archetype/precompiled-bundled-scripts.md)
       + [ui.content-Modul](developing/archetype/uicontent.md)
       + [ui.frontend.general-Modul](developing/archetype/uifrontend.md)
       + [ui.frontend.react-Modul](developing/archetype/uifrontend-react.md)
