@@ -3,10 +3,10 @@ title: AMP-Unterstützung für die Kernkomponenten
 description: Die Kernkomponenten unterstützen AMP (Accelerated Mobile Pages)
 role: Architect, Developer, Admin
 exl-id: 1fd9b6b5-0e4d-48c7-8faa-42e0d4a6bbd0
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '558'
-ht-degree: 100%
+source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+workflow-type: tm+mt
+source-wordcount: '554'
+ht-degree: 96%
 
 ---
 
@@ -41,7 +41,7 @@ Obwohl AMP-Unterstützung umfangreiche Flexibilität bietet, müssen Sie für de
 
 ### Aktivieren von AMP für Seiten {#enabling-amp}
 
-Um AMP für eine Seite zu aktivieren, müssen Sie den **AMP-Modus** in der [Seitenrichtlinie](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-page-policy-template-author-developer) auswählen.
+Um AMP für eine Seite zu aktivieren, müssen Sie den **AMP-Modus** in der [Seitenrichtlinie](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-page-policy-template-author-developer) auswählen.
 
 ![Optionen für AMP-Seitenrichtlinien](/help/assets/amp-policy.png)
 
@@ -49,7 +49,7 @@ Um AMP für eine Seite zu aktivieren, müssen Sie den **AMP-Modus** in der [Seit
 * **Gepaartes AMP**: Die Seite wird sowohl als AMP als auch als HTML bereitgestellt.
 * **Nur AMP**: Die Seite wird nur als AMP bereitgestellt.
 
-Die AMP-Einstellungen für eine Seite können auch in den [Seiteneigenschaften](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.translate.html) einer einzelnen Seite überschrieben werden.
+Die AMP-Einstellungen für eine Seite können auch in den [Seiteneigenschaften](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html) einer einzelnen Seite überschrieben werden.
 
 ![Eigenschaften der AMP-Seite](/help/assets/amp-page-properties.png)
 

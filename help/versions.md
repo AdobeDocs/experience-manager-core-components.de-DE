@@ -3,16 +3,16 @@ title: Kernkomponenten-Versionen
 description: Kernkomponenten werden als Versionen veröffentlicht, die mehr als eine Version derselben Kernkomponenten enthalten können. In diesem Dokument wird erläutert, welche Versionen veröffentlicht werden und wie die Kompatibilität mit Kernkomponenten und AEM verstanden werden kann.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: fdca922ff637dc905fc90e80a1018c214a38e8c8
-workflow-type: ht
-source-wordcount: '2279'
-ht-degree: 100%
+source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
+workflow-type: tm+mt
+source-wordcount: '2273'
+ht-degree: 99%
 
 ---
 
 # Kernkomponenten-Versionen {#core-components-versions}
 
-Die aktuelle Version der Kernkomponenten ist 2.17.8 und mit [AEM as a Cloud Service](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/landing/home.translate.html)- und [On-Premise-AEM](https://docs.adobe.com/content/help/de-DE/experience-manager-65/user-guide/home.html)-Installationen kompatibel.
+Die aktuelle Version der Kernkomponenten ist 2.17.10 und mit [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=de)- und [On-Premise-AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html)-Installationen kompatibel.
 
 ## Versionsverlauf und Kompatibilität {#release-history-and-compatibility}
 
@@ -155,4 +155,4 @@ Weitere Informationen zum Support von Komponentenanpassungen finden Sie auf der 
 
 Der Entwicklungsschwerpunkt von Adobe hat sich zu den Kernkomponenten verlagert. Weitere Funktionen werden fortlaufend hinzugefügt.
 
-[Fast alle Foundation-Komponenten sind seit AEM 6.5 veraltet](https://docs.adobe.com/content/help/de-DE/experience-manager-65/authoring/siteandpage/default-components-foundation.html) und werden in Zukunft nur noch mit größeren Fehlerbehebungen aktualisiert.
+[Fast alle Foundation-Komponenten sind seit AEM 6.5 veraltet](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html) und werden in Zukunft nur noch mit größeren Fehlerbehebungen aktualisiert.

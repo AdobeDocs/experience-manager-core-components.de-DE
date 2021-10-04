@@ -3,10 +3,10 @@ title: Anpassen der Kernkomponenten
 description: Die Kernkomponenten implementieren verschiedene Muster, die eine einfache Anpassung ermöglichen, von einfachen Stilen bis hin zur Wiederverwendung erweiterter Funktionen.
 role: Architect, Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '1106'
-ht-degree: 100%
+source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+workflow-type: tm+mt
+source-wordcount: '1100'
+ht-degree: 98%
 
 ---
 
@@ -122,7 +122,7 @@ Betrachtet man beispielsweise die HTL-Datei der v1-Kern-Breadcrumb-Komponente: [
 .cmp-breadcrumb a {}
 ```
 
-Darüber hinaus nutzt jede der Kernkomponenten die AEM-Funktion [Style System](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/sites/authoring/features/style-system.translate.html), mit der Vorlagenautoren zusätzliche CSS-Klassennamen definieren können, die von den Seitenautoren auf die Komponente angewendet werden können. Auf diese Weise können Sie für jede Vorlage eine Liste der zulässigen Komponentenstile definieren und festlegen, ob eine dieser Komponenten standardmäßig auf alle Komponenten dieser Art angewendet werden soll.
+Darüber hinaus nutzt jede der Kernkomponenten die AEM-Funktion [Style System](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html?lang=de), mit der Vorlagenautoren zusätzliche CSS-Klassennamen definieren können, die von den Seitenautoren auf die Komponente angewendet werden können. Auf diese Weise können Sie für jede Vorlage eine Liste der zulässigen Komponentenstile definieren und festlegen, ob eine dieser Komponenten standardmäßig auf alle Komponenten dieser Art angewendet werden soll.
 
 ## Upgrade-Kompatibilität von Anpassungen {#upgrade-compatibility-of-customizations}
 
@@ -132,7 +132,7 @@ Es gibt drei verschiedene Arten von Upgrades:
 * Upgrade der Kernkomponenten auf eine neue Unterversion
 * Upgrade der Kernkomponenten auf eine Hauptversion
 
-Im Allgemeinen wirkt sich ein Upgrade von AEM auf eine neue Version nicht auf die Kernkomponenten oder die vorgenommenen Anpassungen aus, vorausgesetzt, die Komponentenversionen unterstützen auch die neue AEM-Version, auf die migriert wird, und Anpassungen verwenden keine APIs, die [veraltet oder entfernt](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/release-notes/deprecated-removed-features.translate.html).
+Im Allgemeinen wirkt sich ein Upgrade von AEM auf eine neue Version nicht auf die Kernkomponenten oder die vorgenommenen Anpassungen aus, vorausgesetzt, die Komponentenversionen unterstützen auch die neue AEM-Version, auf die migriert wird, und Anpassungen verwenden keine APIs, die [veraltet oder entfernt](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html).
 
 Das Aktualisieren der Kernkomponenten ohne Wechseln zu einer neueren Hauptversion sollte sich nicht auf Anpassungen auswirken, solange die auf dieser Seite beschriebenen Anpassungsmuster verwendet werden.
 
@@ -152,7 +152,7 @@ Wie bei jeder AEM-Komponente gibt es einige Aspekte hinsichtlich der Anpassungen
 
 1. **Achten Sie auf veraltete und entfernte Funktionen.**
 
-   Stellen Sie bei jedem Upgrade jeder neuen AEM-Version sicher, dass alle verwendeten APIs immer aktuell sind, indem Sie die Seite [Veraltete und entfernte Funktionen](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/release-notes/deprecated-removed-features.translate.html) im Auge behalten.
+   Stellen Sie bei jedem Upgrade jeder neuen AEM-Version sicher, dass alle verwendeten APIs immer aktuell sind, indem Sie die Seite [Veraltete und entfernte Funktionen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html) im Auge behalten.
 
 Siehe auch Abschnitt zur [Kernkomponentenunterstützung](overview.md#core-component-support).
 
