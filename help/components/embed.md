@@ -4,13 +4,13 @@ description: Die Einbettungskomponente ermöglicht das Einbetten externer Inhalt
 role: Architect, Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
 source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1337'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Einbettungskomponente{#embed-component}
+# Einbettungskomponente {#embed-component}
 
 Die Einbettungskomponente der Kernkomponenten ermöglicht das Einbetten externer Inhalte in eine AEM-Inhaltsseite.
 
@@ -74,12 +74,12 @@ Entwickler können zusätzliche URL-Prozessoren hinzufügen, indem sie der [Entw
 
 Einbettbare Prozessoren ermöglichen eine bessere Anpassung der eingebetteten Ressource, die parametrisiert werden und zusätzliche Informationen enthalten kann. Ein Autor kann aus vorkonfigurierten vertrauenswürdigen einbettbaren Prozessoren auswählen und die Komponente wird standardmäßig mit einem einbettbaren YouTube-Prozessor ausgeliefert.
 
-Im Feld **Einbettbare Prozessoren** wird der zu verwendende Prozessortyp definiert. Im Falle des einbettbaren YouTube-Prozessors können Sie dann Folgendes definieren:
+Im Feld **Einbettbare** Prozessoren wird der zu verwendende Prozessortyp definiert. Im Falle des einbettbaren YouTube-Prozessors können Sie dann Folgendes definieren:
 
 * **Video-ID** - Die eindeutige Video-ID der YouTube-Ressource, die Sie einbetten möchten
 * **Breite** - Die Breite des eingebetteten Videos
 * **Höhe** - Die Höhe des eingebetteten Videos
-* **Stummschaltung aktivieren** - Dieser Parameter gibt an, ob das Video standardmäßig stummgeschaltet abgespielt werden soll. Durch Aktivierung dieser Funktion erhöht sich die Wahrscheinlichkeit, dass die automatische Wiedergabe in modernen Browsern funktioniert.
+* **Stummschalten aktivieren** - Dieser Parameter gibt an, ob das Video standardmäßig stummgeschaltet abgespielt werden soll. Durch Aktivierung dieser Funktion erhöht sich die Wahrscheinlichkeit, dass die automatische Wiedergabe in modernen Browsern funktioniert.
 * **Automatische Wiedergabe aktivieren** - Dieser Parameter gibt an, ob das erste Video beim Laden des Players automatisch wiedergegeben wird. Dies ist nur in der Veröffentlichungsinstanz oder bei Verwendung der Option **Als veröffentlicht anzeigen** in der Autoreninstanz wirksam.
 * **Schleife aktivieren** - Bei einem einzelnen Video gibt dieser Parameter an, ob der Player das erste Video wiederholt abspielen soll. Bei einer Wiedergabeliste spielt der Player die gesamte Wiedergabeliste ab und beginnt dann wieder beim ersten Video.
 * **Inline-Wiedergabe (iOS) aktivieren** - Mit diesem Parameter wird gesteuert, ob Videos in einem HTML5-Player unter iOS inline (ein) oder im Vollbildmodus (aus) wiedergegeben werden.
@@ -111,7 +111,7 @@ Das HTML-Markup, das der Autor eingeben kann, wird aus Sicherheitsgründen gefil
 
 Die Regeln sind jedoch komplizierter, da die Einbettungskomponente dem Filterregelsatz des globalen HTML-AntiSamy-Bereinigungs-Frameworks von AEM folgt, der unter `/libs/cq/xssprotection/config.xml` zu finden ist. Dies kann bei Bedarf von einem Entwickler für eine projektspezifische Konfiguration überlagert werden.
 
-Weitere Sicherheitsinformationen finden Sie in der [AEM-Entwicklerdokumentation für lokale Installationen](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html) sowie in [AEM as a Cloud Service-Installationen.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html)
+Weitere Sicherheitsinformationen finden Sie in der [AEM-Entwicklerdokumentation für lokale Installationen](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html?lang=de) sowie in [AEM as a Cloud Service-Installationen.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html?lang=de)
 
 >[!NOTE]
 >Obwohl die Regeln des AntiSamy-Bereinigungs-Frameworks durch eine Überlagerung von `/libs/cq/xssprotection/config.xml` konfiguriert werden können, wirken sich diese Änderungen nicht nur auf die Einbettungs-Kernkomponente, sondern auf das gesamte HTL- und JSP-Verhalten aus.
@@ -133,7 +133,7 @@ Der Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Optionen, die 
 
 ![Registerkarte „YouTube“ im Dialogfeld „Design“ der Einbettungskomponente](/help/assets/embed-design-youtube.png)
 
-* **Konfiguration des Stummschaltungsverhaltens zulassen** - Erlaubt es dem Autor von Inhalten, die Option **Stummschaltung aktivieren** in der Komponente zu konfigurieren, wenn der YouTube-Einbettungstyp ausgewählt ist.
+* **Konfiguration des Stummschaltungsverhaltens zulassen** - Erlaubt es dem Autor von Inhalten, die Option **Stummschalten aktivieren** in der Komponente zu konfigurieren, wenn der YouTube-Einbettungstyp ausgewählt ist.
    * **Standardwert für die Stummschaltung** - Legt bei Auswahl des YouTube-Einbettungstyps automatisch die Option **Stummschalten aktivieren** fest.
 * **Konfiguration des automatischen Wiedergabeverhaltens zulassen** - Erlaubt es dem Autor von Inhalten, die Option **Automatische Wiedergabe aktivieren** in der Komponente zu konfigurieren, wenn der YouTube-Einbettungstyp ausgewählt ist.
    * **Standardwert für die automatische Wiedergabe** - Legt bei Auswahl des YouTube-Einbettungstyps automatisch die Option **Automatische Wiedergabe aktivieren** fest.
