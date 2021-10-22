@@ -4,13 +4,13 @@ description: Die Kernkomponente „Download-Komponente“ ermöglicht die Erstel
 role: Architect, Developer, Admin, User
 exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
 source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '683'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Download-Komponente{#download-component}
+# Download-Komponente {#download-component}
 
 Die Kernkomponente „Download-Komponente“ ermöglicht die Erstellung einer Download-Option auf einer Seite.
 
@@ -54,7 +54,7 @@ Mit dem Dialogfeld „Konfigurieren“ kann der Inhaltsautor das Download-Elemen
 Die Auswahl eines Download-Assets ähnelt der Funktionalität der [Bildkomponente](image.md) und nutzt gleichermaßen das AEM-DAM.
 
 * **Asset herunterladen**
-   * Ziehen Sie ein Asset aus dem [Asset-Browser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) oder tippen Sie auf die Option **Durchsuchen**, um es von einem lokalen Dateisystem hochzuladen.
+   * Ziehen Sie ein Asset aus dem [Asset-Browser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=de) oder tippen Sie auf die Option **Durchsuchen**, um es von einem lokalen Dateisystem hochzuladen.
    * Tippen oder klicken Sie auf **Löschen**, um das aktuell ausgewählte Bild zu deaktivieren.
    * Tippen oder klicken Sie auf **Bearbeiten**, um die [Ausgabedarstellungen des Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=de) im Asset-Editor zu verwalten.
 
@@ -68,7 +68,7 @@ Die Auswahl eines Download-Assets ähnelt der Funktionalität der [Bildkomponent
    * **Beschreibung von DAM-Asset abrufen** - Wenn ausgewählt, wird die Beschreibung automatisch mit der Beschreibung des DAM-Assets ausgefüllt.
 * **Aktionstext** - Zeigt Aktionstext für das Download-Element an
    * Dieses Feld ist beim Hochladen eines Assets aus dem Dateisystem erforderlich.
-   * **Inline-Anzeige** - Wenn ausgewählt, wird der angegebene **Aktionstext** inline angezeigt.
+   * **Inline anzeigen** - Wenn ausgewählt, wird der angegebene **Aktionstext** inline angezeigt.
 * **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
    * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
    * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
@@ -82,7 +82,7 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Optionen für 
 
 ![Dialogfeld „Design“ der Download-Komponente](/help/assets/download-design.png)
 
-* **Upload aus Dateisystem zulassen** - Ermöglicht dem Inhaltsautor das Hochladen eines Assets aus seinem lokalen Dateisystem als Download-Asset.
+* **Uploads aus Dateisystem zulassen** - Ermöglicht dem Inhaltsautor das Hochladen eines Assets aus seinem lokalen Dateisystem als Download-Asset.
    * Der Standardwert ist nicht ausgewählt.
 * **Titeltyp** - Das HTML-Element, das für den Titel der Download-Komponente verwendet wird.
    * Wenn kein Wert ausgewählt ist, lautet der Standardwert H3.
@@ -90,7 +90,7 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Optionen für 
    * Der Standardwert ist ausgewählt.
 * **Dateiformat anzeigen** - Wenn ausgewählt, wird das Dateiformat des Assets in der Download-Komponente angezeigt.
    * Der Standardwert ist ausgewählt.
-* **Dateinamen anzeigen** - Wenn ausgewählt, wird der Dateiname des Assets in der Download-Komponente angezeigt.
+* **Dateiname anzeigen** - Wenn ausgewählt, wird der Dateiname des Assets in der Download-Komponente angezeigt.
    * Der Standardwert ist ausgewählt.
 
 ### Registerkarte „Stile“ {#styles-tab}
