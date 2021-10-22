@@ -4,9 +4,9 @@ description: Die Kernkomponenten nutzen kontextabhängige Konfigurationen von Sl
 role: Architect, Developer, Admin
 exl-id: d35210f7-a65d-4768-ab9e-f12ec406da2d
 source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '198'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Kontextabhängige Konfigurationen sind eine [Funktion von Sling](https://sling.a
 
 Ihre Site benötigt möglicherweise unterschiedliche Konfigurationen für verschiedene Site-Bereiche, z. B. wenn einige Parameter freigegeben werden, die eine Vererbung für verschachtelte Kontexte und globale Ausweichwerte erfordern. AEM nutzt kontextabhängige Sling-Konfigurationen, die dies ermöglichen.
 
-Weitere Informationen zu Konfigurationen in AEM finden Sie in der [Dokumentation zu Konfigurationen und Konfigurations-Browser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/configurations.html).
+Weitere Informationen zu Konfigurationen in AEM finden Sie in der [Dokumentation zu Konfigurationen und Konfigurations-Browser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/configurations.html?lang=de).
 
 ## Verwendung in den Kernkomponenten {#core-components}
 
