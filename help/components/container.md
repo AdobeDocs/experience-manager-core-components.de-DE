@@ -4,13 +4,13 @@ description: Die Kernkomponente „Container-Komponente“ ermöglicht die Erste
 role: Architect, Developer, Admin, User
 exl-id: 53c7190d-44cb-42ff-bc1a-483c7875bcf8
 source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '786'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Container-Komponente{#container-component}
+# Container-Komponente {#container-component}
 
 Die Kernkomponente „Container-Komponente“ ermöglicht die Erstellung eines Containers für diverse zusätzliche Komponenten auf einer Seite.
 
@@ -51,7 +51,7 @@ Mit dem Dialogfeld „Konfigurieren“ kann der Inhaltsautor das Container-Eleme
 
 * **Layout** - Diese Option definiert das Verhalten oder das Layout-Verhalten der Container-Komponente.
    * **Einfach** - Definiert einen Container als einfache Sammlung von Komponenten
-   * **Responsives Raster** – Definiert einen Container als [responsives AEM-Layout](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
+   * **Responsives Raster** – Definiert einen Container als [responsives AEM-Layout](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html?lang=de)
 * **Hintergrundfarbe** - Definierbar entweder als freie RGB-Werte oder mithilfe der Farbauswahl, [je nach Konfiguration](#background-tab).
 * **Hintergrundbild** - Definiert eine Hintergrundfarbe für den Container, [je nach Konfiguration](#background-tab).
 * **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
@@ -71,7 +71,7 @@ Die Registerkarte „Zugelassene Komponenten“ funktioniert auf die gleiche Wei
 
 ### Registerkarte „Standardkomponenten“ {#default-components-tab}
 
-Mit der Registerkarte „Standardkomponenten“ wird definiert, welche Komponente der Komponente hinzugefügt wird, wenn ein bestimmter Asset-Typ im Container abgelegt wird, ähnlich wie unter [So werden Standardkomponenten in der Seitenvorlage definiert](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) erläutert.
+Mit der Registerkarte „Standardkomponenten“ wird definiert, welche Komponente der Komponente hinzugefügt wird, wenn ein bestimmter Asset-Typ im Container abgelegt wird, ähnlich wie unter [So werden Standardkomponenten in der Seitenvorlage definiert](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=de) erläutert.
 
 ### Registerkarte „Responsive Einstellungen“ {#responsive-settings-tab}
 
