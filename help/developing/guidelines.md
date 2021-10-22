@@ -4,9 +4,9 @@ description: Die Kernkomponenten folgen modernen Implementierungsmustern, die si
 role: Architect, Developer, Admin
 exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
 source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1264'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -85,15 +85,15 @@ In Kombination mit dem oben beschriebenen [Proxy-Komponentenmuster](#proxy-compo
 
 ## Alles zusammenbringen {#putting-it-all-together}
 
-Im Folgenden finden Sie eine Übersicht über die gesamte Ressourcentyp-Bindungsstruktur, die sich auf die Titel-Kernkomponente bezieht. Es zeigt, wie eine Site-spezifische Proxy-Komponente die Versionierung der Komponenten auflösen lässt, um zu vermeiden, dass die Inhaltsressource eine Versionsnummer enthält. Anschließend wird gezeigt, wie die Datei `title.html` [HTL](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html) der Komponente für die Modellschnittstelle verwendet wird, während die Implementierung über [Sling Model ](https://sling.apache.org/documentation/bundles/models.html)-Anmerkungen an die bestimmte Version der Komponente gebunden wird.
+Im Folgenden finden Sie eine Übersicht über die gesamte Ressourcentyp-Bindungsstruktur, die sich auf die Titel-Kernkomponente bezieht. Es zeigt, wie eine Site-spezifische Proxy-Komponente die Versionierung der Komponenten auflösen lässt, um zu vermeiden, dass die Inhaltsressource eine Versionsnummer enthält. Anschließend wird gezeigt, wie die Datei `title.html` [HTL](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=de) der Komponente für die Modellschnittstelle verwendet wird, während die Implementierung über [Sling Model ](https://sling.apache.org/documentation/bundles/models.html)-Anmerkungen an die bestimmte Version der Komponente gebunden wird.
 
 ![Überblick über die Ressourcenbindung](/help/assets/chlimage_1-32.png)
 
-Im Folgenden finden Sie eine weitere Übersicht, in der keine Details zur Implementierung von POJO angezeigt werden, jedoch die Referenzierung der zugehörigen [Vorlagen und Richtlinien](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/templates.html).
+Im Folgenden finden Sie eine weitere Übersicht, in der keine Details zur Implementierung von POJO angezeigt werden, jedoch die Referenzierung der zugehörigen [Vorlagen und Richtlinien](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/templates.html?lang=de).
 
 Die `cq:allowedTemplates`-Eigenschaft gibt an, welche Vorlagen für eine Site verwendet werden können, und die `cq:template` informiert für jede Seite, was die zugehörige Vorlage ist. Jede Vorlage besteht aus den folgenden drei Teilen:
 
-* **structure** – Enthält die Ressourcen, die auf jeder Seite erzwungen werden sollen und die der Seitenautor nicht löschen kann, z. B. die Kopf- und Fußzeilenkomponenten der Seite.
+* **Struktur** – Enthält die Ressourcen, die auf jeder Seite erzwungen werden sollen und die der Seitenautor nicht löschen kann, z. B. die Kopf- und Fußzeilenkomponenten der Seite.
 * **Initial** – Enthält den anfänglichen Inhalt, der beim Erstellen der Seite auf sie dupliziert wird.
 * **Richtlinien** – Enthält für jede Komponente die Zuordnung zu einer Richtlinie, die die Vorkonfiguration der Komponente ist. Diese Zuordnung ermöglicht die Wiederverwendung von Richtlinien über Vorlagen hinweg, sodass sie zentral verwaltet werden können.
 
