@@ -4,13 +4,13 @@ description: Die Kernkomponente „Akkordeon“ ermöglicht die Erstellung einer
 role: Architect, Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
 source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1063'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Akkordeon-Komponente{#accordion-component}
+# Akkordeon-Komponente {#accordion-component}
 
 Die Kernkomponente „Akkordeon“ ermöglicht die Erstellung einer Sammlung von Bedienfeldern, die auf der Seite in einem Akkordeon angeordnet sind.
 
@@ -28,7 +28,7 @@ Die Akkordeon- und [Registerkarten-Komponenten](tabs.md) unterstützen Direkt-Li
 
 Gehen Sie hierfür wie folgt vor:
 
-1. Zeigen Sie die Seite mit der Komponente über die Option **[Als veröffentlicht anzeigen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** im Seiteneditor an.
+1. Zeigen Sie die Seite mit der Komponente über die Option **[Als veröffentlicht anzeigen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=de#view-as-published)** im Seiteneditor an.
 1. Überprüfen Sie den Inhalt der Seite und halten Sie die ID des Bedienfeldes fest.
    * Beispiel `id="accordion-86196c94d3-item-ca319dbb0b"`
 1. Die ID wird der Anker, den Sie über einen Hash (`#`) an die URL anhängen können.
@@ -81,11 +81,11 @@ Verwenden Sie die Schaltfläche **Hinzufügen**, um die Komponentenauswahl zu ö
 
 ![Registerkarte „Hintergrund“ im Dialogfeld „Design“ der Akkordeon-Komponente](/help/assets/accordion-edit-properties.png)
 
-* **Einzelelement-Erweiterung** - Wenn diese Option ausgewählt ist, wird jeweils ein einzelnes Akkordeon-Element eingeblendet. Wenn Sie ein Element einblenden, werden alle anderen ausgeblendet.
+* **Einzelne Elementerweiterung** - Wenn diese Option ausgewählt ist, wird jeweils ein einzelnes Akkordeon-Element eingeblendet. Wenn Sie ein Element einblenden, werden alle anderen ausgeblendet.
 * **Erweiterte Elemente** - Diese Option definiert die Elemente, die standardmäßig beim Laden der Seite eingeblendet werden.
-   * Wenn **Einzelelement-Erweiterung** ausgewählt ist, muss ein Bedienfeld ausgewählt werden. Standardmäßig wird das erste Bedienfeld ausgewählt.
-   * Wenn **Einzelelement-Erweiterung** nicht ausgewählt ist, ist diese Option eine Mehrfachauswahl und optional.
-* **ID** - Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
+   * Wenn **Einzelne Elementerweiterung** ausgewählt ist, muss ein Bedienfeld ausgewählt werden. Standardmäßig wird das erste Bedienfeld ausgewählt.
+   * Wenn **Einzelne Elementerweiterung** nicht ausgewählt ist, ist diese Option eine Mehrfachauswahl und optional.
+* **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
    * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
    * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
@@ -120,7 +120,7 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Optionen zu de
 
 Über die Registerkarte **Zugelassene Komponenten** können Sie definieren, welche Komponenten der Akkordeon-Komponente vom Inhaltsautor als Elemente in Bedienfeldern hinzugefügt werden können.
 
-Die Registerkarte „Zugelassene Komponenten“ funktioniert auf die gleiche Weise wie die Registerkarte desselben Namens beim [Definieren der Richtlinie und Eigenschaften eines Layoutcontainers im Vorlageneditor.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-layout-template-author)
+Die Registerkarte „Zugelassene Komponenten“ funktioniert auf die gleiche Weise wie die Registerkarte desselben Namens beim [Definieren der Richtlinie und Eigenschaften eines Layoutcontainers im Vorlageneditor.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=de#editing-a-template-layout-template-author)
 
 ### Registerkarte „Stile“ {#styles-tab}
 
