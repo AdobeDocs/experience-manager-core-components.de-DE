@@ -4,9 +4,9 @@ description: Die Kernkomponente „Formular-Container-Komponente“ ermöglicht 
 role: Architect, Developer, Admin, User
 exl-id: 552f9dd5-6a3a-42d9-9969-e62a1f36e811
 source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '950'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Mithilfe des [Dialogfelds „Konfigurieren“](#configure-dialog) kann der Inhal
 
 >[!NOTE]
 >
->Die Kernkomponente „Formular-Container-Komponente“ unterstützt nur die Verwendung anderer Formularkomponenten-Kernkomponenten (Schaltfläche, Text, ausgeblendet usw.). Die Verwendung von [Foundation-Komponenten](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html) Formularkomponenten innerhalb der Formular-Container-Kernkomponenten (und umgekehrt) wird nicht unterstützt.
+>Die Kernkomponente „Formular-Container-Komponente“ unterstützt nur die Verwendung anderer Formularkomponenten-Kernkomponenten (Schaltfläche, Text, ausgeblendet usw.). Die Verwendung von [Foundation-Komponenten](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html?lang=de) Formularkomponenten innerhalb der Formular-Container-Kernkomponenten (und umgekehrt) wird nicht unterstützt.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
@@ -119,7 +119,7 @@ Unabhängig vom ausgewählten Aktionstyp kann eine Dankeseite immer definiert we
 
 ## Dialogfeld „Design“ {#design-dialog}
 
-Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die zulässigen Komponenten und deren Zuordnungen für den Container ähnlich dem Dialogfeld „Design“ für den [Standard-Layout-Container im Vorlageneditor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) zu definieren.
+Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die zulässigen Komponenten und deren Zuordnungen für den Container ähnlich dem Dialogfeld „Design“ für den [Standard-Layout-Container im Vorlageneditor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=de) zu definieren.
 
 ### Registerkarte „Stile“ {#styles-tab}
 
