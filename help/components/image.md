@@ -4,13 +4,13 @@ description: Die Kernkomponente „Bildkomponente“ ist eine anpassungsfähige 
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2162'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Bildkomponente{#image-component}
+# Bildkomponente {#image-component}
 
 Die Kernkomponente „Bildkomponente“ ist eine adaptive Bildkomponente, die eine direkte Bearbeitung ermöglicht.
 
@@ -59,7 +59,7 @@ Aus Sicherheitsgründen wird die ursprüngliche SVG niemals direkt vom Bild-Edit
 
 >[!CAUTION]
 >
->Für die SVG-Unterstützung sind die Kernkomponenten in Version 2.1.0 oder höher zusammen mit [Service Pack 2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=de) für AEM 6.4 oder höher erforderlich, damit [neue Bildbearbeitungsfunktionen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/image-editor.html) in AEM unterstützt werden.
+>Für die SVG-Unterstützung sind die Kernkomponenten in Version 2.1.0 oder höher zusammen mit [Service Pack 2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=de) für AEM 6.4 oder höher erforderlich, damit [neue Bildbearbeitungsfunktionen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/image-editor.html?lang=de) in AEM unterstützt werden.
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
@@ -82,7 +82,7 @@ Zusätzlich zum standardmäßigen [Dialogfeld „Bearbeiten“](#edit-dialog) un
 ![Registerkarte „Asset“ im Dialogfeld „Konfigurieren“ der Bildkomponente](/help/assets/image-configure-asset.png)
 
 * **Bild-Asset**
-   * Ziehen Sie ein Asset aus dem [Asset-Browser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) oder tippen Sie auf die Option **Durchsuchen**, um es von einem lokalen Dateisystem hochzuladen.
+   * Ziehen Sie ein Asset aus dem [Asset-Browser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=de) oder tippen Sie auf die Option **Durchsuchen**, um es von einem lokalen Dateisystem hochzuladen.
    * Tippen oder klicken Sie auf **Löschen**, um das aktuell ausgewählte Bild zu deaktivieren.
    * Tippen oder klicken Sie auf **Bearbeiten**, um die [Ausgabedarstellungen des Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=de) im Asset-Editor zu verwalten.
 
@@ -103,7 +103,7 @@ Zusätzlich zum standardmäßigen [Dialogfeld „Bearbeiten“](#edit-dialog) un
 * **Verknüpfung** - Verknüpfen Sie das Bild mit einer anderen Ressource.
    * Verwenden Sie das Dialogfeld „Auswahl“, um eine Verknüpfung zu einer anderen AEM-Ressource herzustellen.
    * Geben Sie die absolute URL ein, wenn Sie keine Verknüpfung zu einer AEM-Ressource erstellen. Nicht absolute URLs werden als relativ zu AEM interpretiert.
-* **ID** - Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
+* **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
    * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
    * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
@@ -129,7 +129,7 @@ Das Dialogfeld „Bearbeiten“ ermöglicht dem Inhaltsautor das Zuschneiden, Ä
    Wenn Sie diese Option auswählen, wird eine Dropdown-Liste für vordefinierte Zuschneideproportionen geöffnet.
 
    * Wählen Sie die Option **Freihand**, um Ihre eigene Zuschnittsart zu definieren.
-   * Wählen Sie **Zuschnitt entfernen**, um das ursprüngliche Asset anzuzeigen.
+   * Wählen Sie **Beschnitt entfernen**, um das ursprüngliche Asset anzuzeigen.
 
    Nachdem Sie eine Zuschnittoption ausgewählt haben, verwenden Sie die blauen Griffe, um die Beschneidung auf dem Bild anzupassen.
 
