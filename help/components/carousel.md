@@ -4,13 +4,13 @@ description: Mit der Karussellkomponente kann der Inhaltsautor Inhalte in einem 
 role: Architect, Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
 source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1115'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Karussellkomponente{#carousel-component}
+# Karussellkomponente {#carousel-component}
 
 Mit der Kernkomponente „Karussellkomponente“ kann der Inhaltsautor Inhalte in einem navigierbaren Karussell präsentieren.
 
@@ -59,7 +59,7 @@ Verwenden Sie die Schaltfläche **Hinzufügen**, um die Komponentenauswahl zu ö
 
 >[!TIP]
 >
->Wenn der Viewport der Seite so reduziert wird, dass das Bearbeitungsdialogfeld im Vollbildmodus angezeigt wird, ist die Schaltfläche **Hinzufügen** ausgeblendet. Sie können der Karussellkomponente weiterhin Komponenten hinzufügen, indem Sie sie [per Drag-and-Drop aus dem Komponenten-Browser ziehen und im Seiteneditor auf der Karussellkomponente ablegen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component-from-the-components-browser).
+>Wenn der Viewport der Seite so reduziert wird, dass das Bearbeitungsdialogfeld im Vollbildmodus angezeigt wird, ist die Schaltfläche **Hinzufügen** ausgeblendet. Sie können der Karussellkomponente weiterhin Komponenten hinzufügen, indem Sie sie [per Drag-and-Drop aus dem Komponenten-Browser ziehen und im Seiteneditor auf der Karussellkomponente ablegen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=de#inserting-a-component-from-the-components-browser).
 
 ### Registerkarte „Eigenschaften“ {#properties-tab}
 
@@ -68,18 +68,18 @@ Verwenden Sie die Schaltfläche **Hinzufügen**, um die Komponentenauswahl zu ö
 Auf der Registerkarte **Eigenschaften** kann der Inhaltsautor die Folien auf automatische Übergänge einstellen.
 
 * **Automatisch zwischen Folien wechseln** - Wenn diese Option aktiviert ist, wechselt die Komponente nach einer festgelegten Verzögerungszeit automatisch zur nächsten Folie.
-* **Übergangsverzögerung** - Wenn die Option „Automatisch zwischen Folien wechseln“ ausgewählt wird, wird dieser Wert verwendet, um die Verzögerung zwischen Übergängen (in Millisekunden) zu definieren.
+* **Übertragungsverzögerung** - Wenn die Option „Automatisch zwischen Folien wechseln“ ausgewählt wird, wird dieser Wert verwendet, um die Verzögerung zwischen Übergängen (in Millisekunden) zu definieren.
 * **Automatisches Pausieren beim Bewegen des Mauszeigers deaktivieren** - Wenn die Option **Automatisch zwischen Folien wechseln** ausgewählt ist, wird der Karussell-Übergang automatisch angehalten, sobald die Maus über das Karussell bewegt wird; Wählen Sie diese Option, damit der Übergang nicht angehalten wird.
-* **ID** - Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
+* **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
    * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
    * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
 >[!NOTE]
 >
->Die Steuerelemente für die Abfolge der Folien werden im Modus **Bearbeiten** nicht aktiviert. Verwenden Sie den [**Vorschaumodus**](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode) oder die Option **[Als veröffentlicht anzeigen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**, um so mit dem Karussell zu interagieren, wie es ein Leser des veröffentlichten Inhalts tun würde.
+>Die Steuerelemente für die Abfolge der Folien werden im Modus **Bearbeiten** nicht aktiviert. Verwenden Sie den [**Vorschaumodus**](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=de#preview-mode) oder die Option **[Als veröffentlicht anzeigen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=de#view-as-published)**, um so mit dem Karussell zu interagieren, wie es ein Leser des veröffentlichten Inhalts tun würde.
 >
->Die Funktion des automatischen Übergangs ist im Modus **Bearbeiten** nicht aktiviert. Verwenden Sie die Option **[Als veröffentlicht anzeigen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**, um die Funktion des automatischen Übergangs so anzuzeigen, wie es ein Leser der veröffentlichten Inhalte tun würde.
+>Die Funktion des automatischen Übergangs ist im Modus **Bearbeiten** nicht aktiviert. Verwenden Sie die Option **[Als veröffentlicht anzeigen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=de#view-as-published)**, um die Funktion des automatischen Übergangs so anzuzeigen, wie es ein Leser der veröffentlichten Inhalte tun würde.
 
 ### Registerkarte „Erreichbarkeit“ {#accessibility-tab}
 
@@ -116,7 +116,7 @@ Im Dialogfeld „Design“ kann der Vorlagenautor definieren, welche Komponenten
 ![Dialogfeld „Design“ der Karussellkomponente](/help/assets/carousel-design.png)
 
 * **Automatisch zwischen Folien wechseln** - Definiert, ob die Option, automatisch das Karussell auf die nächste Folie zu verschieben, aktiviert ist, wenn der Inhaltsautor die Karussellkomponente einer Seite hinzufügt.
-* **Übergangsverzögerung** - Definiert den Standardwert der Übergangsverzögerung zwischen Folien (in Millisekunden), wenn ein Inhaltsautor die Karussellkomponente einer Seite hinzufügt.
+* **Übertragungsverzögerung** - Definiert den Standardwert der Übertragungsverzögerung zwischen Folien (in Millisekunden), wenn ein Inhaltsautor die Karussellkomponente einer Seite hinzufügt.
 * **Automatisches Pausieren beim Bewegen des Mauszeigers deaktivieren** - Definiert, ob standardmäßig die Option zum Deaktivieren der automatischen Pause der Folie aktiviert ist, wenn **Automatisch zwischen Folien wechseln** vom Inhaltsautor ausgewählt wird.
 
 ### Registerkarte „Zugelassene Komponenten“ {#allowed-components-tab}
