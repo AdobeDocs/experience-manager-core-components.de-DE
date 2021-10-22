@@ -4,7 +4,7 @@ description: Die Inhaltsfragmentlisten-Kernkomponente ermöglicht die Anzeige ei
 role: Architect, Developer, Admin, User
 exl-id: 0f2295b1-d287-4f72-8ee4-fa98c4850e53
 source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '758'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ Die Inhaltsfragmentlisten-Kernkomponente ermöglicht die Anzeige einer Liste von
 
 ## Nutzung {#usage}
 
-Die Inhaltsfragmentlisten-Kernkomponente ermöglicht die Einbeziehung einer Liste von [Inhaltsfragmenten](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) auf einer Seite basierend auf einem Inhaltsfragmentmodell. Dies kann besonders für die Erstellung von [Headless Content](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) nützlich sein, der leicht von anderen Programmen genutzt werden kann.
+Die Inhaltsfragmentlisten-Kernkomponente ermöglicht die Einbeziehung einer Liste von [Inhaltsfragmenten](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=de) auf einer Seite basierend auf einem Inhaltsfragmentmodell. Dies kann besonders für die Erstellung von [Headless Content](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) nützlich sein, der leicht von anderen Programmen genutzt werden kann.
 
 * Die Liste und ihre Eigenschaften können im [Dialogfeld „Konfigurieren“](#configure-dialog) ausgewählt werden.
 * Stile können auf die Komponente im [Dialogfeld „Design“](#design-dialog) angewendet werden.
