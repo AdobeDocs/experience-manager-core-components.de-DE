@@ -4,9 +4,9 @@ description: In AEM sind Komponenten die Strukturelemente, die den Inhalt der zu
 role: Architect, Developer, Admin, User
 exl-id: 56e58303-a178-45ab-b59d-e374c9cf90cf
 source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '742'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Die Kernkomponenten bieten eine flexible und funktionsreiche Authoring-Funktiona
 
 Um die Kernkomponenten auszuprobieren und Beispiele für ihre Konfigurationsoptionen sowie die HTML- und JSON-Ausgabe zu sehen, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_de).
 
-Um eine tiefergehende und entwicklerorientierte Einführung in die Implementierung der Kernkomponenten in einem AEM-Projekt zu erhalten, sehen Sie sich den [AEM-Projektarchetyp](/help/developing/archetype/overview.md) im [WKND-Tutorial](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) an.
+Um eine tiefergehende und entwicklerorientierte Einführung in die Implementierung der Kernkomponenten in einem AEM-Projekt zu erhalten, sehen Sie sich den [AEM-Projektarchetyp](/help/developing/archetype/overview.md) im [WKND-Tutorial](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=de) an.
 
 >[!NOTE]
 >
@@ -26,27 +26,27 @@ Um eine tiefergehende und entwicklerorientierte Einführung in die Implementieru
 
 >[!CAUTION]
 >
->Kernkomponenten [erfordern AEM 6.4 oder höher](/help/versions.md) und setzen [bearbeitbare Vorlagen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) voraus. Sie funktionieren weder mit der klassischen Benutzeroberfläche noch mit statischen Vorlagen.
+>Kernkomponenten [erfordern AEM 6.4 oder höher](/help/versions.md) und setzen [bearbeitbare Vorlagen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=de) voraus. Sie funktionieren weder mit der klassischen Benutzeroberfläche noch mit statischen Vorlagen.
 
 ## Authoring mit Kernkomponenten {#authoring-with-core-components}
 
 Als Autor werden Sie einige Vorteile der Kernkomponenten bemerken, wie beispielsweise:
 
-* Einfach zu verwenden und gut in den [Seiteneditor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html) integriert
+* Einfach zu verwenden und gut in den [Seiteneditor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=de) integriert
 
-* Breit gefächerte Funktionen zur Unterstützung vieler Anwendungsfälle, wie auf der [Referenz-Site „WKND“](https://wknd.site) sowie der [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library) dargestellt
+* Breit gefächerte Funktionen zur Unterstützung vieler Anwendungsfälle, wie auf der [Referenz-Site „WKND“](https://wknd.site) sowie der [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_de) dargestellt
 
-* [Vorkonfigurierbar](#pre-configuring-core-components), um zu definieren, welche Funktionen für Seitenautoren über den [Vorlageneditor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) verfügbar sind
+* [Vorkonfigurierbar](#pre-configuring-core-components), um zu definieren, welche Funktionen für Seitenautoren über den [Vorlageneditor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=de) verfügbar sind
 
-* Erstellt entsprechend den [Richtlinien für Eingabehilfen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)
+* Erstellt entsprechend den [Richtlinien für Eingabehilfen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html?lang=de)
 
-* Entwickelt zur Unterstützung von [responsivem Layout](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
+* Entwickelt zur Unterstützung von [responsivem Layout](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html?lang=de)
 
 * Entwickelt als Hilfe für die [einfache Lokalisierung](localization.md)
 
-Komponenten sind beim [Bearbeiten einer Seite](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html) auf der Registerkarte **Komponenten** im seitlichen Bedienfeld des Seiteneditors verfügbar.
+Komponenten sind beim [Bearbeiten einer Seite](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=de) auf der Registerkarte **Komponenten** im seitlichen Bedienfeld des Seiteneditors verfügbar.
 
-Komponenten werden nach Kategorien gruppiert, die Komponentengruppen genannt werden, um die Komponenten mühelos zu organisieren und zu filtern. Der Name der Komponentengruppe wird mit der Komponente im [Komponenten-Browser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html) angezeigt; außerdem ist es möglich, nach Gruppen zu filtern, um mühelos die richtige Komponente zu finden.
+Komponenten werden nach Kategorien gruppiert, die Komponentengruppen genannt werden, um die Komponenten mühelos zu organisieren und zu filtern. Der Name der Komponentengruppe wird mit der Komponente im [Komponenten-Browser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=de) angezeigt; außerdem ist es möglich, nach Gruppen zu filtern, um mühelos die richtige Komponente zu finden.
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ Die Konfiguration von Foundation-Komponenten war Auftrag eines Entwicklers. Mit 
 
 Wenn beispielsweise eine Bild-Komponente keine Bilduploads vom Dateisystem zulassen soll oder wenn eine Textkomponente nur bestimmte Absatzformatierungen zulassen soll, können diese Funktionen mit einem einfachen Klick aktiviert oder deaktiviert werden.
 
-Weitere Informationen finden Sie unter [Entwickeln von Seitenvorlagen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html).
+Weitere Informationen finden Sie unter [Entwickeln von Seitenvorlagen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=de).
 
 ### Dialogfelder „Bearbeiten“ und „Design“ {#edit-and-design-dialogs}
 
@@ -78,7 +78,7 @@ Die Stile der meisten Kernkomponenten können mithilfe des AEM-Stilsystems defin
 * Ein Vorlagenautor kann festlegen, welche Stile für eine bestimmte Komponente im Dialogfeld „Design“ dieser Komponente verfügbar sind.
 * Der Inhaltsautor kann dann festlegen, welche Stile angewendet werden sollen, wenn er die Komponente hinzufügt und Inhalte erstellt.
 
-Weitere Informationen finden Sie in der Dokumentation zum [Stilsystem](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html).
+Weitere Informationen finden Sie in der Dokumentation zum [Stilsystem](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html?lang=de).
 
 ## Entwicklungsressourcen {#developer-resources}
 
