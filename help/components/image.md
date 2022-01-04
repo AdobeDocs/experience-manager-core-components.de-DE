@@ -3,10 +3,10 @@ title: Bildkomponente
 description: Die Kernkomponente „Bildkomponente“ ist eine anpassungsfähige Bildkomponente mit Funktionen zur Bearbeitung im Kontext.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
-workflow-type: ht
-source-wordcount: '2162'
-ht-degree: 100%
+source-git-commit: c48f332ac97ef96d0cb59f2b64e3f726f9a90307
+workflow-type: tm+mt
+source-wordcount: '2270'
+ht-degree: 95%
 
 ---
 
@@ -25,6 +25,10 @@ Die Bildbreiten sowie die Beschneidung und zusätzliche Einstellungen können vo
 Die Bildkomponente verfügt über robuste responsive Funktionen, die direkt sofort bereitgestellt werden können. Auf der Seitenvorlagenebene kann das [Design-Dialogfeld](#design-dialog) verwendet werden, um die Standardbreiten des Bild-Assets zu definieren. Die Bildkomponente lädt dann automatisch die korrekte Breite, die je nach Größe des Browserfensters angezeigt wird. Wenn die Größe des Fensters geändert wird, lädt die Bildkomponente die korrekte Bildgröße dynamisch. Komponentenentwickler müssen sich keine Gedanken darüber machen, wie sie benutzerdefinierte Medienabfragen definieren, da die Bildkomponente bereits optimiert ist, um Ihren Inhalt zu laden.
 
 Darüber hinaus unterstützt die Bildkomponente verzögertes Laden, um das Laden des tatsächlichen Bild-Assets zu verzögern, bis es im Browser sichtbar ist, wodurch die Reaktionsgeschwindigkeit Ihrer Seiten zunimmt.
+
+>[!TIP]
+>
+>Siehe Abschnitt . [Adaptives Bildservlet](#adaptive-image-servlet) für weitere technische Details zu diesen Funktionen und Tipps zur Optimierung der Ausgabedarstellungsauswahl.
 
 ## Dynamic Media-Unterstützung {#dynamic-media}
 
@@ -202,6 +206,10 @@ Darüber hinaus können Sie festlegen, welche allgemeinen Komponentenoptionen au
       * Wählen Sie die Option **Lazy Loading deaktivieren** aus, um die Bilder schon beim Laden der Seite zu laden.
 * **JPEG-Qualität** - Der Qualitätsfaktor (in Prozent von 0 bis 100) für umgewandelte (z. B. skalierte oder zugeschnittene) JPEG-Bilder.
 
+>[!TIP]
+>
+>Siehe Abschnitt . [Adaptives Bildservlet](#adaptive-image-servlet) für weitere technische Details zu den Funktionen und Tipps zur Optimierung der Ausgabedarstellungsauswahl durch sorgfältige Definition Ihrer Breiten.
+
 ### Registerkarte „Funktionen“ {#features-tab}
 
 Auf der Registerkarte **Funktionen** können Sie festlegen, welche Optionen den Inhaltsautoren zur Verfügung stehen, wenn sie die Komponente verwenden, einschließlich Optionen fürs Hochladen, Ausrichtung und Beschneiden.
@@ -247,6 +255,12 @@ Die Bildkomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring
 ## Adaptives Bildservlet {#adaptive-image-servlet}
 
 Die Bildkomponente verwendet das Adaptive Bildservlet der Kernkomponente. [Das Adaptive Bildservlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) übernimmt die Bildverarbeitung sowie das Streaming und kann von Entwicklern bei der [Anpassung der Kernkomponenten](/help/developing/customizing.md) genutzt werden.
+
+### Optimieren der Ausgabedarstellungsauswahl {#optimizing-rendition-selection}
+
+Das Adaptive Bildservlet versucht, die beste Ausgabedarstellung für die angeforderte Bildgröße und -typ auszuwählen. Es wird empfohlen, die zulässigen Breiten von DAM-Ausgabeformaten und Bildkomponenten synchron zu definieren, damit das Adaptive Image Servlet so wenig Verarbeitung wie möglich erledigt.
+
+Dadurch wird die Leistung verbessert und verhindert, dass einige Bilder von der zugrunde liegenden Bildverarbeitungsbibliothek nicht korrekt verarbeitet werden.
 
 >[!NOTE]
 >
