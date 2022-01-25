@@ -4,9 +4,9 @@ description: Die Kernkomponente „Bildkomponente“ ist eine anpassungsfähige 
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: c48f332ac97ef96d0cb59f2b64e3f726f9a90307
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2270'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Darüber hinaus unterstützt die Bildkomponente verzögertes Laden, um das Laden
 
 >[!TIP]
 >
->Siehe Abschnitt . [Adaptives Bildservlet](#adaptive-image-servlet) für weitere technische Details zu diesen Funktionen und Tipps zur Optimierung der Ausgabedarstellungsauswahl.
+>Weitere technische Details zu diesen Funktionen und Tipps zur Optimierung der Auswahl für die Ausgabedarstellung finden Sie im Abschnitt zum [Adaptive Image Servlet](#adaptive-image-servlet).
 
 ## Dynamic Media-Unterstützung {#dynamic-media}
 
@@ -208,7 +208,7 @@ Darüber hinaus können Sie festlegen, welche allgemeinen Komponentenoptionen au
 
 >[!TIP]
 >
->Siehe Abschnitt . [Adaptives Bildservlet](#adaptive-image-servlet) für weitere technische Details zu den Funktionen und Tipps zur Optimierung der Ausgabedarstellungsauswahl durch sorgfältige Definition Ihrer Breiten.
+>Weitere technische Details zu den Funktionen und Tipps zur Optimierung der Auswahl für die Ausgabedarstellung durch sorgfältiges Definieren der Breiten finden Sie im Abschnitt zum [Adaptive Image Servlet](#adaptive-image-servlet).
 
 ### Registerkarte „Funktionen“ {#features-tab}
 
@@ -256,9 +256,9 @@ Die Bildkomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring
 
 Die Bildkomponente verwendet das Adaptive Bildservlet der Kernkomponente. [Das Adaptive Bildservlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) übernimmt die Bildverarbeitung sowie das Streaming und kann von Entwicklern bei der [Anpassung der Kernkomponenten](/help/developing/customizing.md) genutzt werden.
 
-### Optimieren der Ausgabedarstellungsauswahl {#optimizing-rendition-selection}
+### Optimieren der Auswahl für die Ausgabedarstellung {#optimizing-rendition-selection}
 
-Das Adaptive Bildservlet versucht, die beste Ausgabedarstellung für die angeforderte Bildgröße und -typ auszuwählen. Es wird empfohlen, die zulässigen Breiten von DAM-Ausgabeformaten und Bildkomponenten synchron zu definieren, damit das Adaptive Image Servlet so wenig Verarbeitung wie möglich erledigt.
+Das Adaptive Image Servlet versucht, die beste Ausgabedarstellung für die angeforderte Bildgröße und den angeforderten Bildtyp auszuwählen. Es wird empfohlen, die zulässigen Breiten von DAM-Ausgabeformaten und Bildkomponenten synchron zu definieren, damit die Verarbeitung durch das Adaptive Image Servlet so gering wie möglich ist.
 
 Dadurch wird die Leistung verbessert und verhindert, dass einige Bilder von der zugrunde liegenden Bildverarbeitungsbibliothek nicht korrekt verarbeitet werden.
 
