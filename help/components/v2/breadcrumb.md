@@ -1,16 +1,16 @@
 ---
-title: Breadcrumb-Komponente
+title: Breadcrumb-Komponente (v2)
 description: Die Kernkomponente „Breadcrumb-Komponente“ ist eine Navigationskomponente, die einen Breadcrumb von Links basierend auf der Position der Seite in der Inhaltshierarchie erstellt.
 role: Architect, Developer, Admin, User
-exl-id: 19d65b9d-a407-4f50-9c55-8de0f12222ed
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: f8aa86d58ba71ede3c3cd867c45aafff06923325
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 88%
+source-wordcount: '680'
+ht-degree: 97%
 
 ---
 
-# Breadcrumb-Komponente{#breadcrumb-component}
+
+# Breadcrumb-Komponente (v2) {#breadcrumb-component}
 
 Die Kernkomponente „Breadcrumb-Komponente“ ist eine Navigationskomponente, die einen Breadcrumb von Links basierend auf der Position der Seite in der Inhaltshierarchie erstellt.
 
@@ -22,17 +22,13 @@ Verfügbare Optionen wie die Standardnavigationsstufe und die Möglichkeit, die 
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die aktuelle Version der Breadcrumb-Komponente ist v3, die mit Version 2.18.0 der Kernkomponenten im Februar 2022 eingeführt wurde und in diesem Dokument beschrieben wird.
+In diesem Dokument wird die v2 der Breadcrumb-Komponente beschrieben, die mit Version 2.0.0 der Kernkomponenten im Januar 2018 eingeführt wurde.
 
-Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
-
-| Komponentenversion | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- | --- |--- |---|
-| v3 | - | Kompatibel | Kompatibel |
-| [v2](v2/breadcrumb.md) | Kompatibel | Kompatibel | Kompatibel |
-| [v1](v1/breadcrumb-v1.md) | Kompatibel | Kompatibel | - |
-
-Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
+>[!CAUTION]
+>
+>In diesem Dokument wird v2 der Breadcrumb-Komponente beschrieben.
+>
+>Weitere Informationen zur aktuellen Version der Breadcrumb-Komponente finden Sie im Dokument [Breadcrumb-Komponente](/help/components/breadcrumb.md).
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
@@ -52,8 +48,6 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 
 Das Dialogfeld „Bearbeiten“ ermöglicht es dem Inhaltsautor, ausgeblendete und aktive Seiten in den Breadcrumbs zu unterdrücken sowie die Tiefe der anzuzeigenden Hierarchie zu wählen.
 
-## Registerkarte „Eigenschaften“ {#properties-tab}
-
 ![Dialogfeld „Bearbeiten“ der Breadcrumb-Komponente](/help/assets/breadcrumb-edit.png)
 
 * **Startebene für die Navigation** - Wo in der Hierarchie die Breadcrumb-Komponente beginnen soll, um zur aktuellen Seite zu gelangen. Beispiel:
@@ -64,21 +58,11 @@ Das Dialogfeld „Bearbeiten“ ermöglicht es dem Inhaltsautor, ausgeblendete u
 
 * **Verborgene Navigationselemente anzeigen** - Zeigt Seiten an, die im Breadcrumb als ausgeblendet markiert sind (standardmäßig werden sie nicht angezeigt)
 * **Aktuelle Seite ausblenden** - Unterdrücken der aktuellen Seite im Breadcrumb (standardmäßig wird sie angezeigt)
-* **Schatten deaktivieren** - Wenn es sich bei der Seite in der Hierarchie um einen Redirect handelt, wird anstelle der Zielseite der Name der umleitenden (Redirect)-Seite angezeigt. Weitere Informationen finden Sie unter [Unterstützung für Shadow Site-Struktur](navigation.md#shadow-structure) der Navigationskomponente.
+* **Schatten deaktivieren** - Wenn es sich bei der Seite in der Hierarchie um einen Redirect handelt, wird anstelle der Zielseite der Name der umleitenden (Redirect)-Seite angezeigt. Weitere Informationen finden Sie unter [Unterstützung für Shadow Site-Struktur](../v1/navigation.md#shadow-structure) der Navigationskomponente.
 * **ID** - Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
    * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
    * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
-
-### Registerkarte „Stile“ {#styles-tab-edit}
-
-![Registerkarte &quot;Stile&quot;im Dialogfeld &quot;Bearbeiten&quot;der Breadcrumb-Listenkomponente](/help/assets/breadcrumb-edit-styles.png)
-
-Die Breadcrumb-Komponente unterstützt das AEM-[Stilsystem.](/help/get-started/authoring.md#component-styling).
-
-Verwenden Sie das Dropdown-Menü, um die Stile auszuwählen, die Sie auf die Komponente anwenden möchten. Die im Dialogfeld &quot;Bearbeiten&quot;vorgenommenen Auswahlen haben denselben Effekt wie die in der Komponenten-Symbolleiste ausgewählten.
-
-Stile müssen für diese Komponente im [Dialogfeld &quot;Design&quot;](#design-dialog) , damit das Dropdown-Menü verfügbar ist.
 
 ## Dialogfeld „Design“ {#design-dialog}
 

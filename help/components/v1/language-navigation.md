@@ -1,16 +1,16 @@
 ---
-title: Sprachnavigationskomponente
+title: Sprachnavigationskomponente (v1)
 description: Die Sprachnavigationskomponente stellt eine Sprache/Ländernavigation für eine Site bereit, sodass Besucher zur gleichen Seite in einem anderen Gebietsschema navigieren können.
 role: Architect, Developer, Admin, User
-exl-id: 10b218b4-c439-4a0f-a46f-0b15d78b0360
-source-git-commit: 28409185f2e46a30fa588b3f92b83b2fa05de96d
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 84%
+source-wordcount: '810'
+ht-degree: 94%
 
 ---
 
-# Sprachnavigationskomponente {#language-navigation-component}
+
+# Sprachnavigationskomponente  (v1) {#language-navigation-component}
 
 Die Sprachnavigationskomponente stellt eine Sprache/Ländernavigation für eine Site bereit, sodass Besucher zur gleichen Seite in einem anderen Gebietsschema navigieren können.
 
@@ -25,16 +25,13 @@ Das Dialogfeld [Bearbeiten](#edit-dialog) ermöglicht die Definition des globale
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die aktuelle Version der Sprachnavigationskomponente ist v2, die mit Version 2.18.0 der Kernkomponenten im Februar 2022 eingeführt wurde und in diesem Dokument beschrieben wird.
+In diesem Dokument wird die v1 der Sprachnavigationskomponente beschrieben, die mit Version 2.0.0 der Kernkomponenten im Januar 2018 eingeführt wurde.
 
-Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
-
-| Komponentenversion | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| v2 | - | Kompatibel | Kompatibel |
-| [v1](v1/language-navigation.md) | Kompatibel | Kompatibel | Kompatibel |
-
-Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
+>[!CAUTION]
+>
+>In diesem Dokument wird v1 der Sprachnavigationskomponente beschrieben.
+>
+>Weitere Informationen zur aktuellen Version der Sprachnavigationskomponente finden Sie unter [Sprachnavigationskomponente](/help/components/language-navigation.md) Dokument.
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
@@ -48,7 +45,7 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 
 ## Dialogfeld „Design“ {#design-dialog}
 
-Das Dialogfeld &quot;Design&quot;ermöglicht die Definition des globalen Site-Navigationsstamms sowie die Festlegung, wie tief in die Struktur die Navigation gehen soll.
+Das Dialogfeld „Bearbeiten“ ermöglicht die Definition des globalen Site-Navigationsstamms sowie die Festlegung, wie tief in die Struktur die Navigation gehen soll.
 
 In der Regel müssen diese Konfigurationen nur auf der Seitenvorlage vorgenommen werden. Sie können jedoch auch über das [Dialogfeld „Bearbeiten“](#edit-dialog) auf der Seitenebene geändert werden.
 
@@ -96,9 +93,7 @@ Die Sprachnavigationskomponente unterstützt das AEM-[Stilsystem](/help/get-star
 
 ## Dialogfeld „Bearbeiten“ {#edit-dialog}
 
-### Registerkarte „Eigenschaften“ {#properties-tab-edit}
-
-Normalerweise muss die Sprachnavigationskomponente nur zu den Seitenvorlagen einer Site hinzugefügt und konfiguriert werden. Wenn die Sprachnavigationskomponente zu einer einzelnen Inhaltsseite hinzugefügt werden muss, erlaubt das Dialogfeld „Bearbeiten“ dem Inhaltsautor die Konfiguration derselben Werte wie im [Design-Dialogfeld](#design-dialog) beschrieben
+Normalerweise muss die Sprachnavigationskomponente nur zu den Seitenvorlagen einer Site hinzugefügt und konfiguriert werden. Wenn die Sprachnavigationskomponente zu einer einzelnen Inhaltsseite hinzugefügt werden muss, erlaubt das Dialogfeld „Bearbeiten“ dem Inhaltsautor die Konfiguration derselben Werte wie im [Design-Dialogfeld](#design-dialog) beschrieben.
 
 Zusätzlich können Sie eine **ID** festlegen. Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
 
@@ -107,22 +102,6 @@ Zusätzlich können Sie eine **ID** festlegen. Diese Option dient zur Kontrolle 
 * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
 ![Dialogfeld „Bearbeiten“ der Sprachnavigationskomponente](/help/assets/language-navigation-edit.png)
-
-### Registerkarte „Erreichbarkeit“ {#accessibility-tab}
-
-* **Titel** - Diese Option sollte definiert werden, wenn sich auf der Seite mehr als eine Sprachnavigation befindet, um das Attribut aria label der Komponente festzulegen.
-
-![Registerkarte &quot;Barrierefreiheit der Sprachnavigation&quot;](/help/assets/language-navigation-edit-accessibility.png)
-
-### Registerkarte „Stile“ {#styles-tab-edit}
-
-Die Sprachnavigationskomponente unterstützt das AEM-[Stilsystem.](/help/get-started/authoring.md#component-styling).
-
-Verwenden Sie das Dropdown-Menü, um die Stile auszuwählen, die Sie auf die Komponente anwenden möchten. Die im Dialogfeld &quot;Bearbeiten&quot;vorgenommenen Auswahlen haben denselben Effekt wie die in der Komponenten-Symbolleiste ausgewählten.
-
-Stile müssen für diese Komponente im [Dialogfeld &quot;Design&quot;](#design-dialog) , damit das Dropdown-Menü verfügbar ist.
-
-![Registerkarte &quot;Stile&quot;im Dialogfeld &quot;Bearbeiten&quot;der Sprachnavigationskomponente](/help/assets/language-navigation-edit-styles.png)
 
 ## Adobe Client-Datenschicht {#data-layer}
 

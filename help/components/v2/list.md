@@ -1,16 +1,16 @@
 ---
-title: Listenkomponente
+title: Listenkomponente (v2)
 description: Die Kernkomponente „Listenkomponente“ ermöglicht die einfache Erstellung dynamischer sowie statischer Listen.
 role: Architect, Developer, Admin, User
-exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 88%
+source-wordcount: '1022'
+ht-degree: 98%
 
 ---
 
-# Listenkomponente {#list-component}
+
+# Listenkomponente  (v2) {#list-component}
 
 Die Kernkomponente „Listenkomponente“ ermöglicht die einfache Erstellung dynamischer sowie statischer Listen.
 
@@ -20,17 +20,13 @@ Die Listenkomponente kann beispielsweise zum Erstellen einer dynamischen Liste v
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die aktuelle Version der Listenkomponente ist v3, die mit Version 2.18.0 der Kernkomponenten im Februar 2022 eingeführt wurde und in diesem Dokument beschrieben wird.
+In diesem Dokument wird die v1 der Listenkomponente beschrieben, die mit Version 2.0.0 der Kernkomponenten im Januar 2018 eingeführt wurde.
 
-Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
-
-| Komponentenversion | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| v3 | - | Kompatibel | Kompatibel |
-| [v2](v2/list.md) | Kompatibel | Kompatibel | Kompatibel |
-| [v1](v1/list-v1.md) | Kompatibel | Kompatibel | - |
-
-Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
+>[!CAUTION]
+>
+>In diesem Dokument wird v2 der Listenkomponente beschrieben.
+>
+>Weitere Informationen zur aktuellen Version der Listenkomponente finden Sie im Dokument [Listenkomponente](/help/components/list.md).
 
 ## Redirects in Listen {#redirects}
 
@@ -156,20 +152,12 @@ Auf der Registerkarte „Element-Einstellungen“ kann die Formatierung der List
 
 ![Elementeinstellungen](/help/assets/list-edit-items.png)
 
-* **Verknüpfungselemente** - Elemente mit der entsprechenden Seite verknüpfen
-* **Beschreibung anzeigen** - Beschreibungen des Link-Elements anzeigen
-* **Datum anzeigen** - Änderungsdatum des Link-Elements anzeigen
-* **Als Teaser anzeigen** - Wenn diese Option aktiviert ist, wird das Element als Teaser angezeigt
-
-### Registerkarte „Stile“ {#styles-tab-edit}
-
-Die Listenkomponente unterstützt die AEM [Stilsystem.](/help/get-started/authoring.md#component-styling).
-
-Verwenden Sie das Dropdown-Menü, um die Stile auszuwählen, die Sie auf die Komponente anwenden möchten. Die im Dialogfeld &quot;Bearbeiten&quot;vorgenommenen Auswahlen haben denselben Effekt wie die in der Komponenten-Symbolleiste ausgewählten.
-
-Stile müssen für diese Komponente im [Dialogfeld &quot;Design&quot;](#design-dialog) , damit das Dropdown-Menü verfügbar ist.
-
-![Registerkarte &quot;Stile&quot;im Dialogfeld &quot;Bearbeiten&quot;der Listenkomponente](/help/assets/list-edit-styles.png)
+* **Elemente verknüpfen**
+Elemente mit der entsprechenden Seite verknüpfen
+* **Beschreibung anzeigen**
+Beschreibung des Link-Elements anzeigen
+* **Datum anzeigen**
+Änderungsdatum des Link-Elements anzeigen
 
 ## Dialogfeld „Design“ {#design-dialog}
 

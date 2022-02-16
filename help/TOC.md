@@ -4,9 +4,9 @@ user-guide-title: AEM-Kernkomponenten
 breadcrumb-title: Anleitung zu den Hauptkomponenten
 user-guide-description: Nutzen Sie die erweiterbaren Hauptkomponenten, damit Autoren mühelos Inhalte erstellen können.
 feature-set: Experience Manager Sites
-source-git-commit: 04adfb00ca5908714e611f8b5de6cd2b6d127a37
-workflow-type: ht
-source-wordcount: '212'
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
+workflow-type: tm+mt
+source-wordcount: '244'
 ht-degree: 100%
 
 ---
@@ -55,9 +55,17 @@ ht-degree: 100%
       + [Formulartext](components/forms/form-text.md)
    + v1-Komponenten {#v1-components}
       + [Breadcrumb (v1)](components/v1/breadcrumb-v1.md)
+      + [Schaltfläche (v1)](components/v1/button.md)
+      + [Liste der Inhaltsfragmente (v1)](components/v1/content-fragment-list.md)
+      + [Download (v1)](components/v1/download.md)
+      + [Einbetten (v1)](components/v1/embed.md)
+      + [Experience Fragment (v1)](components/v1/experience-fragment.md)
       + [Bild (v1)](components/v1/image-v1.md)
+      + [Sprachnavigation (v1)](components/v1/language-navigation.md)
       + [Liste (v1)](components/v1/list-v1.md)
+      + [Navigation (v1)](components/v1/navigation.md)
       + [Seite (v1)](components/v1/page-v1.md)
+      + [Teaser (v1)](components/v1/teaser.md)
       + [Text (v1)](components/v1/text-v1.md)
       + [Titel (v1)](components/v1/title-v1.md)
       + v1-Formularkomponenten {#v1-forms}
@@ -66,6 +74,12 @@ ht-degree: 100%
          + [Ausgeblendetes Formular (v1)](components/v1/form-hidden-v1.md)
          + [Formularoptionen (v1)](components/v1/form-options-v1.md)
          + [Formulartext (v1)](components/v1/form-text-v1.md)
+   + v2-Komponenten {#v2-components}
+      + [Breadcrumb (v2)](components/v2/breadcrumb.md)
+      + [Bild (v2)](components/v2/image.md)
+      + [Liste (v2)](components/v2/list.md)
+      + [Seite (v2)](components/v2/page.md)
+      + [Titel (v2)](components/v2/title.md)
 + Entwickeln {#developing}
    + [Entwickeln von Kernkomponenten](developing/overview.md)
    + [Wege zum Erfolg](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=de)

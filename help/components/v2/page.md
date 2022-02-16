@@ -1,16 +1,16 @@
 ---
-title: Seitenkomponente
+title: Seitenkomponente (v2)
 description: Die Seitenkomponente ist eine Erweiterungskomponente für Seiten, die mit dem Vorlageneditor arbeitet und es ermöglicht, Seitenkopf-/Fußzeilen- und Strukturkomponenten mit dem Vorlageneditor zusammenzustellen.
 role: Architect, Developer, Admin, User
-exl-id: 2503e067-abed-427d-8a54-8b79e3451487
-source-git-commit: dbc1ba9ae0f9caa3bc52a7a5e08899c457813003
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 92%
+source-wordcount: '645'
+ht-degree: 97%
 
 ---
 
-# Seitenkomponente {#page-component}
+
+# Seitenkomponente  (v2) {#page-component}
 
 Die Seitenkomponente ist eine Erweiterungskomponente für Seiten, die mit dem [Vorlageneditor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=de) arbeitet und es ermöglicht, Seitenkopf-/Fußzeilen- und Strukturkomponenten mit dem Vorlageneditor zusammenzustellen.
 
@@ -22,17 +22,13 @@ Im [Dialogfeld „Design“](#design-dialog) können benutzerdefinierte Client-s
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die aktuelle Version der Seitenkomponente ist v3, die mit Version 2.18.0 der Kernkomponenten im Februar 2022 eingeführt wurde und in diesem Dokument beschrieben wird.
+In diesem Dokument wird die v2 der Seitenkomponente beschrieben, die mit Version 2.0.0 der Kernkomponenten im Januar 2018 eingeführt wurde.
 
-Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
-
-| Komponentenversion | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|---|
-| v3 | - | Kompatibel | Kompatibel |
-| [v2](v2/page.md) | Kompatibel | Kompatibel | Kompatibel |
-| [v1](v1/page-v1.md) | Kompatibel | Kompatibel | - |
-
-Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
+>[!CAUTION]
+>
+>In diesem Dokument wird v2 der Seitenkomponente beschrieben.
+>
+>Weitere Informationen zur aktuellen Version der Seitenkomponente finden Sie im Dokument [Seitenkomponente](/help/components/page.md).
 
 ## Unterstützung von Progressive Web Apps {#pwa-support}
 
@@ -72,8 +68,6 @@ Definiert die Kategorien der JavaScript-Client-Bibliothek, die im Seitenkopf gel
 Die Kategorie der Client-Bibliothek, die verwendet wird, um Web-Ressourcen wie etwa Favicons zu bedienen.
 
 * **Zur Auswahl des Hauptinhaltselements wechseln** - Wird als Barrierefreiheitsfunktion verwendet, um direkt zum Hauptinhalt der Seite zu springen.
-
-* **Alternative Sprachlinks rendern** - Wenn diese Option aktiviert ist, werden Links zu alternativen Sprachversionen der Seite auf derselben Site zum Seitenkopf hinzugefügt.
 
 ![Dialogfeld „Design“ der Seitenkomponente](/help/assets/page-design.png)
 

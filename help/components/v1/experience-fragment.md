@@ -1,16 +1,16 @@
 ---
-title: Experience Fragment-Komponente
+title: Experience Fragment-Komponente (v1)
 description: Mit der Experience Fragment-Komponente kann der Inhaltsautor einer Seite eine Experience Fragment-Variation hinzufügen.
 role: Architect, Developer, Admin, User
-exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
 source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 89%
+source-wordcount: '780'
+ht-degree: 93%
 
 ---
 
-# Experience Fragment-Komponente {#experience-fragment-component}
+
+# Experience Fragment-Komponente  (v1) {#experience-fragment-component}
 
 Mit der Kernkomponente „Experience Fragment-Komponente“ kann der Inhaltsautor eine Experience Fragment-Variante auf einer Seite platzieren, während er eine lokalisierte Site-Struktur unterstützt.
 
@@ -23,16 +23,13 @@ Mit der Kernkomponente Experience Fragment-Komponente kann der Inhaltsautor aus 
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die aktuelle Version der Experience Fragment-Komponente ist v2, die mit Version 2.18.0 der Kernkomponenten im Februar 2022 eingeführt wurde und in diesem Dokument beschrieben wird.
+In diesem Dokument wird die v1 der Experience Fragment-Komponente beschrieben, die mit Version 2.6.0 der Kernkomponenten im September 2019 eingeführt wurde.
 
-Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
-
-| Komponentenversion | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |---|---|
-| v2 | - | Kompatibel | Kompatibel |
-| [v1](v1/experience-fragment.md) | Kompatibel | Kompatibel | Kompatibel |
-
-Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
+>[!CAUTION]
+>
+>In diesem Dokument wird v1 der Experience Fragment-Komponente beschrieben.
+>
+>Weitere Informationen zur aktuellen Version der Experience Fragment-Komponente finden Sie unter [Experience Fragment-Komponente](/help/components/experience-fragment.md) Dokument.
 
 ## Unterstützung für lokalisierte Site-Strukturen {#localized-site-structure}
 
@@ -128,16 +125,6 @@ Sie können auch eine **ID** festlegen. Diese Option dient zur Kontrolle der ein
 * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
 * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
 * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
-
-### Registerkarte „Stile“ {#styles-tab-edit}
-
-![Registerkarte &quot;Stile&quot;im Dialogfeld &quot;Bearbeiten&quot;der Experience Fragment-Komponente](/help/assets/experience-fragment-edit-styles.png)
-
-Die Experience Fragment-Komponente unterstützt das AEM-[Stilsystem.](/help/get-started/authoring.md#component-styling).
-
-Verwenden Sie das Dropdown-Menü, um die Stile auszuwählen, die Sie auf die Komponente anwenden möchten. Die im Dialogfeld &quot;Bearbeiten&quot;vorgenommenen Auswahlen haben denselben Effekt wie die in der Komponenten-Symbolleiste ausgewählten.
-
-Stile müssen für diese Komponente im [Dialogfeld &quot;Design&quot;](#design-dialog) , damit das Dropdown-Menü verfügbar ist.
 
 ## Dialogfeld „Design“ {#design-dialog}
 

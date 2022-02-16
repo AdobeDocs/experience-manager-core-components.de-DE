@@ -1,16 +1,16 @@
 ---
-title: Einbettungskomponente
+title: Einbettungskomponente (v1)
 description: Die Einbettungskomponente ermöglicht das Einbetten externer Inhalte in eine AEM-Inhaltsseite.
 role: Architect, Developer, Admin, User
-exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
-source-git-commit: 28409185f2e46a30fa588b3f92b83b2fa05de96d
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '1395'
-ht-degree: 92%
+source-wordcount: '1298'
+ht-degree: 96%
 
 ---
 
-# Einbettungskomponente  {#embed-component}
+
+# Einbettungskomponente  (v1) {#embed-component}
 
 Die Einbettungskomponente der Kernkomponenten ermöglicht das Einbetten externer Inhalte in eine AEM-Inhaltsseite.
 
@@ -23,16 +23,13 @@ Mit der Einbettungskomponente der Kernkomponenten kann der Inhaltsautor ausgewä
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die aktuelle Version der Einbettungskomponente ist v2, die mit Version 2.18.0 der Kernkomponenten im Februar 2022 eingeführt wurde und in diesem Dokument beschrieben wird.
+In diesem Dokument wird die v1 der Einbettungskomponente beschrieben, die mit Version 2.7.0 der Kernkomponenten im September 2019 eingeführt wurde.
 
-Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
-
-| Komponentenversion | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |---|---|
-| v2 | - | Kompatibel | Kompatibel |
-| [v1](v1/embed.md) | Kompatibel | Kompatibel | Kompatibel |
-
-Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
+>[!CAUTION]
+>
+>In diesem Dokument wird v1 der Einbettungskomponente beschrieben.
+>
+>Weitere Informationen zur aktuellen Version der Einbettungskomponente finden Sie unter [Einbettungskomponente](/help/components/embed.md) Dokument.
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
@@ -46,23 +43,19 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 
 ## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
-Im Dialogfeld „Konfigurieren“ kann der Inhaltsautor die externe Ressource definieren, die auf der Seite eingebettet werden soll.
-
-### Registerkarte „Eigenschaften“ {#properties-tab}
-
-Wählen Sie zunächst, welche Ressource eingebettet werden soll:
+Im Dialogfeld „Konfigurieren“ kann der Inhaltsautor die externe Ressource definieren, die auf der Seite eingebettet werden soll. Wählen Sie zunächst, welche Ressource eingebettet werden soll:
 
 * [URL](#url)
 * [Einbettbare Prozessoren](#embeddable)
 * [HTML](#html)
 
-Für jeden Typ von einbettbarem Element können Sie eine **ID**. Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
+Für jeden Typ von einbettbarem Element können Sie die **Anzeigen-ID** festlegen. Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
 
 * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
 * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
 * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
-#### URL {#url}
+### URL {#url}
 
 Die einfachste Form von Einbettung ist die URL. Fügen Sie im Feld **URL** einfach die URL der Ressource ein, die Sie einbetten möchten. Die Komponente wird versuchen, auf die Ressource zuzugreifen. Wenn sie von einem der Prozessoren wiedergegeben werden kann, wird eine Bestätigungsmeldung unter dem Feld **URL** angezeigt. Andernfalls wird das Feld mit einem Fehler markiert.
 
@@ -75,7 +68,7 @@ Entwickler können zusätzliche URL-Prozessoren hinzufügen, indem sie der [Entw
 
 ![Dialogfeld „Bearbeiten“ der Einbettungskomponente mit Auswahl der Option „URL“](/help/assets/embed-url.png)
 
-#### Einbettbare Prozessoren {#embeddable}
+### Einbettbare Prozessoren {#embeddable}
 
 Einbettbare Prozessoren ermöglichen eine bessere Anpassung der eingebetteten Ressource, die parametrisiert werden und zusätzliche Informationen enthalten kann. Ein Autor kann aus vorkonfigurierten vertrauenswürdigen einbettbaren Prozessoren auswählen und die Komponente wird standardmäßig mit einem einbettbaren YouTube-Prozessor ausgeliefert.
 
@@ -90,15 +83,16 @@ Im Feld **Einbettbare** Prozessoren wird der zu verwendende Prozessortyp definie
 * **Inline-Wiedergabe (iOS) aktivieren** - Mit diesem Parameter wird gesteuert, ob Videos in einem HTML5-Player unter iOS inline (ein) oder im Vollbildmodus (aus) wiedergegeben werden.
 * **Unbeschränkte zugehörige Videos** - Wenn diese Option deaktiviert ist, kommen verwandte Videos aus demselben Kanal wie das gerade abgespielte Video, andernfalls kommen sie aus einem beliebigen Kanal.
 
+Beachten Sie, dass die Optionen zum Aktivieren über das [Dialogfeld „Design“](#design-dialog) aktiviert werden müssen und als Standardwerte festgelegt werden können.
+
 Andere einbettbare Prozessoren weisen ähnliche Felder auf und können von einem Entwickler [unter Beachtung der Entwicklerdokumentation der Einbettungskomponente](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component) definiert werden.
 
 ![Dialogfeld „Bearbeiten“ der Einbettungskomponente mit Auswahl der Option „Einbettbare Prozessoren“](/help/assets/embed-embeddable.png)
 
 >[!NOTE]
->
 >Einbettbare Prozessoren müssen auf der Vorlagenebene über das [Dialogfeld „Design“](#design-dialog) aktiviert werden, damit sie dem Seitenautor zur Verfügung stehen.
 
-#### HTML {#html}
+### HTML {#html}
 
 Mit der Einbettungskomponente können Sie Ihrer Seite Freiform-HTML hinzufügen.
 
@@ -107,29 +101,18 @@ Mit der Einbettungskomponente können Sie Ihrer Seite Freiform-HTML hinzufügen.
 >[!NOTE]
 >Unsichere Tags wie Skripte werden aus der eingegebenen HTML gefiltert und auf der resultierenden Seite nicht wiedergegeben.
 
-##### Sicherheit {#security}
+#### Sicherheit {#security}
 
 Das HTML-Markup, das der Autor eingeben kann, wird aus Sicherheitsgründen gefiltert, um siteübergreifende Skriptangriffe zu verhindern, die es Autoren z. B. erlauben würden, sich Administratorrechte zu verschaffen.
 
-Im Allgemeinen werden alle Skript- und `style`-Elemente sowie alle `on*`- und `style`-Attribute aus der Ausgabe entfernt.
+*Im Allgemeinen* werden alle Skript- und `style`-Elemente sowie alle `on*`- und `style`-Attribute aus der Ausgabe entfernt.
 
 Die Regeln sind jedoch komplizierter, da die Einbettungskomponente dem Filterregelsatz des globalen HTML-AntiSamy-Bereinigungs-Frameworks von AEM folgt, der unter `/libs/cq/xssprotection/config.xml` zu finden ist. Dies kann bei Bedarf von einem Entwickler für eine projektspezifische Konfiguration überlagert werden.
 
 Weitere Sicherheitsinformationen finden Sie in der [AEM-Entwicklerdokumentation für lokale Installationen](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html?lang=de) sowie in [AEM as a Cloud Service-Installationen.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html?lang=de)
 
 >[!NOTE]
->
 >Obwohl die Regeln des AntiSamy-Bereinigungs-Frameworks durch eine Überlagerung von `/libs/cq/xssprotection/config.xml` konfiguriert werden können, wirken sich diese Änderungen nicht nur auf die Einbettungs-Kernkomponente, sondern auf das gesamte HTL- und JSP-Verhalten aus.
-
-### Registerkarte „Stile“ {#styles-tab-edit}
-
-![Registerkarte &quot;Stile&quot;im Dialogfeld &quot;Bearbeiten&quot;der Einbettungskomponente](/help/assets/embed-styles.png)
-
-Die Einbettungskomponente unterstützt die AEM [Stilsystem.](/help/get-started/authoring.md#component-styling).
-
-Verwenden Sie das Dropdown-Menü, um die Stile auszuwählen, die Sie auf die Komponente anwenden möchten. Die im Dialogfeld &quot;Bearbeiten&quot;vorgenommenen Auswahlen haben denselben Effekt wie die in der Komponenten-Symbolleiste ausgewählten.
-
-Stile müssen für diese Komponente im [Dialogfeld &quot;Design&quot;](#design-dialog) , damit das Dropdown-Menü verfügbar ist.
 
 ## Dialogfeld „Design“ {#design-dialog}
 

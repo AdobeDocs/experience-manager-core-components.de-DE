@@ -1,16 +1,16 @@
 ---
-title: Inhaltsfragmentlisten-Komponente
+title: Inhaltsfragmentlisten-Komponente (v1)
 description: Die Inhaltsfragmentlisten-Kernkomponente ermöglicht die Anzeige einer Liste von Inhaltsfragmenten.
 role: Architect, Developer, Admin, User
-exl-id: 0f2295b1-d287-4f72-8ee4-fa98c4850e53
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '831'
-ht-degree: 86%
+source-wordcount: '725'
+ht-degree: 93%
 
 ---
 
-# Inhaltsfragmentlisten-Komponente {#content-fragment-list-component}
+
+# Inhaltsfragmentlisten-Komponente  (v1) {#content-fragment-list-component}
 
 Die Inhaltsfragmentlisten-Kernkomponente ermöglicht die Anzeige einer Liste von [Inhaltsfragmenten](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=de).
 
@@ -23,16 +23,13 @@ Die Inhaltsfragmentlisten-Kernkomponente ermöglicht die Einbeziehung einer List
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die aktuelle Version der Inhaltsfragment-Komponente ist v2, die mit Version 2.18.0 der Kernkomponenten im Februar 2022 eingeführt wurde und in diesem Dokument beschrieben wird.
+In diesem Dokument wird die v1 der Inhaltsfragment-Komponente beschrieben, die mit Version 2.4.0 der Kernkomponenten im Mai 2019 eingeführt wurde.
 
-Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
-
-| Komponentenversion | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|---|----|---|---|
-| v2 | - | Kompatibel | Kompatibel |
-| [v1](v1/content-fragment-list.md) | Kompatibel | Kompatibel | Kompatibel |
-
-Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
+>[!CAUTION]
+>
+>In diesem Dokument wird v1 der Inhaltsfragmentlisten-Komponente beschrieben.
+>
+>Weitere Informationen zur aktuellen Version der Inhaltsfragmentlisten-Komponente finden Sie unter [Inhaltsfragmentlisten-Komponente](/help/components/content-fragment-list.md) Dokument.
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
@@ -87,18 +84,6 @@ Standardmäßig werden alle Elemente des Inhaltsfragmentmodells in die Liste auf
    * Klicken oder tippen Sie auf die Schaltfläche **Löschen**, um ein ausgewähltes Element zu entfernen.
    * Ziehen Sie den Ziehgriff **Reihenfolge**, um die Reihenfolge der Elemente zu ändern.
 
-### Registerkarte „Stile“ {#styles-tab-edit}
-
-![Registerkarte &quot;Stile&quot;im Dialogfeld &quot;Bearbeiten&quot;der Inhaltsfragmentlisten-Komponente](/help/assets/content-fragment-list-styles.png)
-
-Die Inhaltsfragmentlisten-Komponente unterstützt die AEM [Stilsystem.](/help/get-started/authoring.md#component-styling).
-
-Verwenden Sie das Dropdown-Menü, um die Stile auszuwählen, die Sie auf die Komponente anwenden möchten. Die im Dialogfeld &quot;Bearbeiten&quot;vorgenommenen Auswahlen haben denselben Effekt wie die in der Komponenten-Symbolleiste ausgewählten.
-
-Stile müssen für diese Komponente im [Dialogfeld &quot;Design&quot;](#design-dialog) , damit das Dropdown-Menü verfügbar ist.
-
 ## Dialogfeld „Design“ {#design-dialog}
 
-### Registerkarte „Stile“ {#styles-tab}
-
-Die Inhaltsfragmentlisten-Komponente unterstützt die AEM [Stilsystem](/help/get-started/authoring.md#component-styling).
+Im Dialogfeld „Design“ kann der Vorlagenautor die Stile definieren, die auf die Inhaltsfragmentlisten-Komponente angewendet werden.

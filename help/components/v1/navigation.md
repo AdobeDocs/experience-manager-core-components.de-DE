@@ -1,16 +1,16 @@
 ---
-title: Navigationskomponente
+title: Navigationskomponente (v1)
 description: Mit der Navigationskomponente können Benutzer leicht durch eine globalisierte Site-Struktur navigieren.
 role: Architect, Developer, Admin, User
-exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '1544'
-ht-degree: 94%
+source-wordcount: '1430'
+ht-degree: 97%
 
 ---
 
-# Navigationskomponente {#navigation-component}
+
+# Navigationskomponente  (v1) {#navigation-component}
 
 Mit der Navigationskomponente können Benutzer leicht durch eine globalisierte Site-Struktur navigieren.
 
@@ -24,16 +24,13 @@ Das Dialogfeld [„Bearbeiten“](#edit-dialog) ermöglicht es dem Inhaltsautor,
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die aktuelle Version der Navigationskomponente ist v2, die mit Version 2.18.0 der Kernkomponenten im Februar 2022 eingeführt wurde und in diesem Dokument beschrieben wird.
+In diesem Dokument wird die v1 der Navigationskomponente beschrieben, die mit Version 2.0.0 der Kernkomponenten im Januar 2018 eingeführt wurde.
 
-Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
-
-| Komponentenversion | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| v2 | - | Kompatibel | Kompatibel |
-| [v1](v1/navigation.md) | Kompatibel | Kompatibel | Kompatibel |
-
-Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
+>[!CAUTION]
+>
+>In diesem Dokument wird v1 der Navigationskomponente beschrieben.
+>
+>Weitere Informationen zur aktuellen Version der Navigationskomponente finden Sie unter [Navigationskomponente](/help/components/navigation.md) Dokument.
 
 ## Unterstützung für lokalisierte Site-Strukturen {#localized-site-structure}
 
@@ -155,16 +152,6 @@ Im Dialogfeld „Bearbeiten“ kann der Inhaltsautor die Stammseite für die Nav
 Auf der Registerkarte **Erreichbarkeit** können Werte für die [ARIA-Barrierefreiheits-Beschriftungen](https://www.w3.org/WAI/standards-guidelines/aria/) für die Komponente festgelegt werden.
 
 * **Beschriftung** - Wert eines ARIA-Beschriftungs-Attributs für die Komponente
-
-### Registerkarte „Stile“ {#styles-tab-edit}
-
-Die Navigationskomponente unterstützt das AEM-[Stilsystem.](/help/get-started/authoring.md#component-styling).
-
-Verwenden Sie das Dropdown-Menü, um die Stile auszuwählen, die Sie auf die Komponente anwenden möchten. Die im Dialogfeld &quot;Bearbeiten&quot;vorgenommenen Auswahlen haben denselben Effekt wie die in der Komponenten-Symbolleiste ausgewählten.
-
-Stile müssen für diese Komponente im [Dialogfeld &quot;Design&quot;](#design-dialog) , damit das Dropdown-Menü verfügbar ist.
-
-![Registerkarte &quot;Stile&quot;im Dialogfeld &quot;Bearbeiten&quot;der Navigationskomponente](/help/assets/navigation-edit-styles.png)
 
 ## Dialogfeld „Design“ {#design-dialog}
 

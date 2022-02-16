@@ -1,16 +1,16 @@
 ---
-title: Schaltflächenkomponente
+title: Schaltflächenkomponente (v1)
 description: Die Kernkomponente „Schaltflächenkomponente“ ermöglicht die Erstellung und Anzeige einer Schaltfläche.
 role: Architect, Developer, Admin, User
-exl-id: e17efd1d-90d4-497a-9e7d-45934d81bc28
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 80%
+source-wordcount: '412'
+ht-degree: 89%
 
 ---
 
-# Schaltflächenkomponente {#button-component}
+
+# Schaltflächenkomponente  (v1) {#button-component}
 
 Die Kernkomponente „Schaltflächenkomponente“ ermöglicht die Erstellung und Anzeige eines Schaltflächen-Elements auf einer Seite.
 
@@ -23,16 +23,13 @@ Die Kernkomponente „Schaltflächenkomponente“ ermöglicht die Integration ei
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die aktuelle Version der Schaltflächenkomponente ist v2, die mit Version 2.18.0 der Kernkomponenten im Februar 2022 eingeführt wurde und in diesem Dokument beschrieben wird.
+In diesem Dokument wird die v1 der Schaltflächenkomponente beschrieben, die mit Version 2.5.0 der Kernkomponenten im Juni 2019 eingeführt wurde.
 
-Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
-
-| Komponentenversion | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |---|---|
-| v2 | - | Kompatibel | Kompatibel |
-| [v1](v1/button.md) | Kompatibel | Kompatibel | Kompatibel |
-
-Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
+>[!CAUTION]
+>
+>In diesem Dokument wird v1 der Schaltflächenkomponente beschrieben.
+>
+>Weitere Informationen zur aktuellen Version der Schaltflächenkomponente finden Sie unter [Schaltflächenkomponente](/help/components/button.md) Dokument.
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
@@ -55,7 +52,6 @@ Mit dem Dialogfeld „Konfigurieren“ kann der Inhaltsautor die Schaltfläche u
 * **Text** - Der Text, der auf der Schaltfläche angezeigt werden soll
 * **Verknüpfung** - Link zu einer Inhaltsseite in AEM, einer externen Ressource oder einem Anker
    * Wählen Sie im Dialogfeld **Auswahl** einen Pfad in AEM aus.
-* **Link in neuer Registerkarte öffnen** - Wenn diese Option aktiviert ist, wird der Link in einer neuen Browser-Registerkarte geöffnet.
 * **Symbol** - Bezeichner für die Anzeige eines Symbols auf der Schaltfläche
 * **ID** - Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
    * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
@@ -69,16 +65,6 @@ Mit dem Dialogfeld „Konfigurieren“ kann der Inhaltsautor die Schaltfläche u
 Auf der Registerkarte **Erreichbarkeit** können Werte für die [ARIA-Barrierefreiheits-Beschriftungen](https://www.w3.org/WAI/standards-guidelines/aria/) für die Komponente festgelegt werden.
 
 * **Beschriftung** - Wert eines ARIA-Beschriftungs-Attributs für die Komponente
-
-### Registerkarte „Stile“ {#styles-tab-edit}
-
-![Registerkarte &quot;Stile&quot;im Dialogfeld &quot;Bearbeiten&quot;der Schaltflächenkomponente](/help/assets/button-edit-styles.png)
-
-Die Schaltflächenkomponente unterstützt das AEM-[Stilsystem.](/help/get-started/authoring.md#component-styling).
-
-Verwenden Sie das Dropdown-Menü, um die Stile auszuwählen, die Sie auf die Komponente anwenden möchten. Die im Dialogfeld &quot;Bearbeiten&quot;vorgenommenen Auswahlen haben denselben Effekt wie die in der Komponenten-Symbolleiste ausgewählten.
-
-Stile müssen für diese Komponente im [Dialogfeld &quot;Design&quot;](#design-dialog) , damit das Dropdown-Menü verfügbar ist.
 
 ## Dialogfeld „Design“ {#design-dialog}
 

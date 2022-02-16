@@ -1,16 +1,16 @@
 ---
-title: 'Download-Komponente '
+title: Download-Komponente (v1)
 description: Die Kernkomponente „Download-Komponente“ ermöglicht die Erstellung einer Download-Option auf einer Seite.
 role: Architect, Developer, Admin, User
-exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: f8aa86d58ba71ede3c3cd867c45aafff06923325
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 87%
+source-wordcount: '644'
+ht-degree: 93%
 
 ---
 
-# Download-Komponente {#download-component}
+
+# Download-Komponente  (v1) {#download-component}
 
 Die Kernkomponente „Download-Komponente“ ermöglicht die Erstellung einer Download-Option auf einer Seite.
 
@@ -23,16 +23,13 @@ Die Kernkomponente „Download-Komponente“ ermöglicht die Erstellung einer Do
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die aktuelle Version der Download-Komponente ist v2, die mit Version 2.18.0 der Kernkomponenten im Februar 2022 eingeführt wurde und in diesem Dokument beschrieben wird.
+In diesem Dokument wird die v1 der Download-Komponente beschrieben, die mit Version 2.5.0 der Kernkomponenten im Juni 2019 eingeführt wurde.
 
-Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
-
-| Komponentenversion | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |---|---|
-| v2 | - | Kompatibel | Kompatibel |
-| [v1](v1/download.md) | Kompatibel | Kompatibel | Kompatibel |
-
-Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
+>[!CAUTION]
+>
+>In diesem Dokument wird v1 der Download-Komponente beschrieben.
+>
+>Weitere Informationen zur aktuellen Version der Download-Komponente finden Sie unter [Download-Komponente](/help/components/download.md) Dokument.
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
@@ -52,7 +49,7 @@ Mit dem Dialogfeld „Konfigurieren“ kann der Inhaltsautor das Download-Elemen
 
 ### Registerkarte „Asset“ {#asset-tab}
 
-Die Auswahl eines Download-Assets ähnelt der Funktionalität der [Bildkomponente](image.md) und nutzt gleichermaßen das AEM-DAM.
+Die Auswahl eines Download-Assets ähnelt der Funktionalität der [Bildkomponente](image-v1.md) und nutzt gleichermaßen das AEM-DAM.
 
 * **Asset herunterladen**
    * Ziehen Sie ein Asset aus dem [Asset-Browser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=de) oder tippen Sie auf die Option **Durchsuchen**, um es von einem lokalen Dateisystem hochzuladen.
@@ -74,16 +71,6 @@ Die Auswahl eines Download-Assets ähnelt der Funktionalität der [Bildkomponent
    * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
    * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
-
-### Registerkarte „Stile“ {#styles-tab-edit}
-
-![Registerkarte &quot;Stile&quot;im Dialogfeld &quot;Bearbeiten&quot;der Download-Komponente](/help/assets/download-edit-styles.png)
-
-Die Download-Komponente unterstützt die AEM [Stilsystem.](/help/get-started/authoring.md#component-styling).
-
-Verwenden Sie das Dropdown-Menü, um die Stile auszuwählen, die Sie auf die Komponente anwenden möchten. Die im Dialogfeld &quot;Bearbeiten&quot;vorgenommenen Auswahlen haben denselben Effekt wie die in der Komponenten-Symbolleiste ausgewählten.
-
-Stile müssen für diese Komponente im [Dialogfeld &quot;Design&quot;](#design-dialog) , damit das Dropdown-Menü verfügbar ist.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
