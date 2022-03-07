@@ -56,7 +56,7 @@ ht-degree: 100%
    + v1-Komponenten {#v1-components}
       + [Breadcrumb (v1)](components/v1/breadcrumb-v1.md)
       + [Schaltfläche (v1)](components/v1/button.md)
-      + [Liste der Inhaltsfragmente (v1)](components/v1/content-fragment-list.md)
+      + [Inhaltsfragmentliste (v1)](components/v1/content-fragment-list.md)
       + [Download (v1)](components/v1/download.md)
       + [Einbetten (v1)](components/v1/embed.md)
       + [Experience Fragment (v1)](components/v1/experience-fragment.md)

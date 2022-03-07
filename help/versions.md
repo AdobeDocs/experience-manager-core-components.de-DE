@@ -6,7 +6,7 @@ exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 source-git-commit: 4f5ab401aee70b979217738dce4f1a72de940ae9
 workflow-type: tm+mt
 source-wordcount: '2389'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ Die folgende Tabelle, deren Inhalt [auf GitHub mit vollständigen Versionsinform
 
 | Version | Beschreibung | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Veröffentlichungsdatum |
 |---|---|---|---|---|---|---|
-| [2,18,0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.0) | In dieser wichtigen Version der Kernkomponenten wird die Einführung eines neuen Link-Handlers für neue Versionen mehrerer Komponenten zusammen mit vielen Verbesserungen bei der Barrierefreiheit und Fehlerbehebungen beschrieben. | - | 6.5.10.0+ * | Kontinuierlich | 8, 11 | 16. Februar 2022 |
+| [2.18.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.0) | Mit dieser Hauptversion der Kernkomponenten wird ein neuer Link-Handler für neue Versionen mehrerer Komponenten eingeführt, und es werden zahlreiche Verbesserungen der Barrierefreiheit und Fehlerbehebungen vorgenommen. | - | 6.5.10.0+ * | Kontinuierlich | 8, 11 | 16. Februar 2022 |
 | [2.17.14](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | Dies ist eine Patch-Version. | 6.4.8.4+ * | 6.5.6.0+ * | Kontinuierlich | 8, 11 | 13. Dezember 2021 |
-| [2.17.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | Dies ist eine Patch-Version, die eine mit der vorherigen Version eingeführte Regression behebt. | 6.4.8.4+ * | 6.5.6.0+ * | Kontinuierlich | 8, 11 | 1. Oktober 2021 |
+| [2.17.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | Dies ist eine Patch-Version, die eine mit der vorherigen Version eingeführte Regression korrigiert. | 6.4.8.4+ * | 6.5.6.0+ * | Kontinuierlich | 8, 11 | 1. Oktober 2021 |
 | [2.17.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | Dieser Patch verbessert die [List](/help/components/list.md)- und [Navigation](/help/components/navigation.md)-Komponenten, um die externe URL für Redirect-Ziele anzuzeigen, aktiviert die Vererbung von Seitenbildern für die bevorstehende Version 2 der [Teaser](/help/components/teaser.md)-Komponente und enthält zusätzliche Fehlerbehebungen. | 6.4.8.4+ * | 6.5.6.0+ * | Kontinuierlich | 8, 11 | 31. August 2021 |
 | [2.17.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.8) | Dies ist eine Patch-Version, um eine rückwärts inkompatible Änderung zu beheben, die zuvor eingeführt wurde. | 6.4.8.4+ * | 6.5.6.0+ * | Kontinuierlich | 8, 11 | 2. August 2021 |
 | [2.17.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.6) | Diese Patch-Version unterstützt Sitemaps für Seiten und enthält verschiedene Verbesserungen der Barrierefreiheit. | 6.4.8.4+ * | 6.5.6.0+ * | Kontinuierlich | 8, 11 | 29. Juli 2021 |
@@ -115,7 +115,7 @@ Die folgende Tabelle zeigt, welche Versionen welcher Komponenten in welchen Rele
 
 Kernkomponenten werden über GitHub verteilt. Dadurch kann Adobe den Komponenten schneller Funktionen hinzufügen und die Community-Eingabe außerhalb des AEM-Versionszyklus zulassen.
 
-Die Kernkomponenten werden mit definierten AEM-Versionen bereitgestellt, mit denen sie kompatibel sind. Dies bedeutet, dass eine AEM-Version mehrere Versionen der Kernkomponenten unterstützt.
+Die Kernkomponenten werden mit definierten AEM-Versionen bereitgestellt, mit denen sie kompatibel sind. Dies bedeutet, dass eine AEM-Version mehrere Versionen der Kernkomponenten unterstützen kann.
 
 ### Versionen {#versions}
 
@@ -127,11 +127,11 @@ Weitere Informationen zu Kernkomponentenversionen finden Sie in der [Entwicklerd
 
 ### Versionen {#releases}
 
-Die Kernkomponenten werden über **Versionen** verfügbar gemacht. Sie [stellen die tatsächlichen veröffentlichten Artefakte dar, die auf GitHub verfügbar sind](https://github.com/adobe/aem-core-wcm-components/releases). Versionen werden mit einer Dezimalzahl im Format gekennzeichnet `X.Y.Z` und sammeln alle Kernkomponenten als bereitstellbares Paket.
+Die Kernkomponenten werden über **Versionen** verfügbar gemacht. Sie [stellen die tatsächlichen veröffentlichten Artefakte dar, die auf GitHub verfügbar sind](https://github.com/adobe/aem-core-wcm-components/releases). Versionen werden mit einer Dezimalzahl im Format gekennzeichnet `X.Y.Z`, und alle Kernkomponenten werden zusammen als bereitstellbares Paket erfasst.,
 
-* **Wichtige Versionen** Einführung völlig neuer Komponenten, Verbesserungen der vorhandenen Version von Komponenten sowie standardmäßige Fehlerbehebungen. Dies wird durch eine Inkrementierung des `X` -Komponente der Versionsnummer.
-* **Nebenversionen** Einführung neuer Komponenten, neuer Funktionen für vorhandene Versionen von Komponenten sowie Fehlerbehebungen. Dies wird durch eine Inkrementierung des `Y` -Komponente der Versionsnummer.
-* **Patch-Versionen** enthalten nur Fehlerbehebungen. Dies wird durch eine Inkrementierung des `Z` -Komponente der Versionsnummer.
+* Mit **Hauptversionen** werden völlig neue Komponenten, Verbesserungen an bestehenden Versionen von Komponenten sowie Standard-Fehlerbehebungen eingeführt. Dies wird durch eine schrittweise Erhöhung in der `X`-Komponente der Versionsnummer dargestellt.
+* In **Nebenversionen** werden neue Komponenten, neue Funktionen für bestehende Versionen von Komponenten sowie Fehlerkorrekturen eingeführt. Dies wird durch eine schrittweise Erhöhung in der `Y`-Komponente der Versionsnummer dargestellt.
+* **Patch-Versionen** enthalten nur Fehlerkorrekturen. Dies wird durch eine schrittweise Erhöhung in der `Z`-Komponente der Versionsnummer dargestellt.
 
 >[!NOTE]
 >
@@ -141,7 +141,7 @@ Die Kernkomponenten werden über **Versionen** verfügbar gemacht. Sie [stellen 
 
 ## Support für Kernkomponenten {#core-components-support}
 
-Kernkomponenten sind ein integraler Bestandteil von AEM und werden unter denselben Bedingungen unterstützt, als wären sie Teil des Schnellstarts.
+Kernkomponenten sind ein integraler Bestandteil von AEM und werden unter denselben Bedingungen unterstützt, als ob sie als Teil des Quickstarts geliefert würden.
 
 Wie bei anderen Produktmerkmalen gilt für das Ende der Lebensdauer die allgemeine Regel:
 
