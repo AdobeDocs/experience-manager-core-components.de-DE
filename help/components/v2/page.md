@@ -3,9 +3,9 @@ title: Seitenkomponente (v2)
 description: Die Seitenkomponente ist eine Erweiterungskomponente für Seiten, die mit dem Vorlageneditor arbeitet und es ermöglicht, Seitenkopf-/Fußzeilen- und Strukturkomponenten mit dem Vorlageneditor zusammenzustellen.
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '645'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ Im [Dialogfeld „Design“](#design-dialog) können benutzerdefinierte Client-s
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-In diesem Dokument wird die v2 der Seitenkomponente beschrieben, die mit Version 2.0.0 der Kernkomponenten im Januar 2018 eingeführt wurde.
+In diesem Dokument wird die v2 der Seitenkomponente beschrieben, die ursprünglich mit Version 2.0.0 der Kernkomponenten im Januar 2018 eingeführt wurde.
 
 >[!CAUTION]
 >
->In diesem Dokument wird v2 der Seitenkomponente beschrieben.
+>In diesem Dokument wird die v2 der Seitenkomponente beschrieben.
 >
 >Weitere Informationen zur aktuellen Version der Seitenkomponente finden Sie im Dokument [Seitenkomponente](/help/components/page.md).
 
@@ -83,7 +83,7 @@ Weitere Informationen zur Verwendung clientseitiger Bibliotheken finden Sie unte
 >
 >Die Möglichkeit, Client-Bibliotheken für den Seitenkopf separat zu definieren, wurde mit Version 2.2.0 der Kernkomponenten eingeführt.
 
-### Registerkarte „Stile“ {#styles-tab}
+### Registerkarte „Arten“ {#styles-tab}
 
 Die Seitenkomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
