@@ -4,9 +4,9 @@ description: Die Kernkomponente „Akkordeon“ ermöglicht die Erstellung einer
 role: Architect, Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
 source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1067'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -122,7 +122,7 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Optionen zu de
 
 Die Registerkarte „Zugelassene Komponenten“ funktioniert auf die gleiche Weise wie die Registerkarte desselben Namens beim [Definieren der Richtlinie und Eigenschaften eines Layoutcontainers im Vorlageneditor.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=de#editing-a-template-layout-template-author)
 
-### Registerkarte „Stile“ {#styles-tab}
+### Registerkarte „Arten“ {#styles-tab}
 
 Die Akkordeon-Komponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
