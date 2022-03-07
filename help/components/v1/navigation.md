@@ -3,9 +3,9 @@ title: Navigationskomponente (v1)
 description: Mit der Navigationskomponente können Benutzer leicht durch eine globalisierte Site-Struktur navigieren.
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1430'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -28,9 +28,9 @@ In diesem Dokument wird die v1 der Navigationskomponente beschrieben, die mit Ve
 
 >[!CAUTION]
 >
->In diesem Dokument wird v1 der Navigationskomponente beschrieben.
+>In diesem Dokument wird die v1 der Navigationskomponente beschrieben.
 >
->Weitere Informationen zur aktuellen Version der Navigationskomponente finden Sie unter [Navigationskomponente](/help/components/navigation.md) Dokument.
+>Weitere Informationen zur aktuellen Version der Navigationskomponente finden Sie im Dokument [Navigationskomponente](/help/components/navigation.md).
 
 ## Unterstützung für lokalisierte Site-Strukturen {#localized-site-structure}
 
@@ -171,7 +171,7 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Standardwerte 
 * **Strukturtiefe der Navigation** - Standardwert der Navigationsstruktur der Tiefe.
 * **Schatten deaktivieren** - Der Standardwert dafür, wann das Shadowing beim Hinzufügen einer Navigationskomponente deaktiviert werden soll
 
-### Registerkarte „Stile“ {#styles-tab}
+### Registerkarte „Arten“ {#styles-tab}
 
 Die Navigationskomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
