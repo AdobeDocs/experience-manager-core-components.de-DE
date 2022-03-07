@@ -4,9 +4,9 @@ description: Die Kernkomponente „Formulartext-Komponente“ ermöglicht die Ei
 role: Architect, Developer, Admin, User
 exl-id: e8fa3881-51fb-4726-9654-8f93acfb7464
 source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '581'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -87,6 +87,6 @@ Das Dialogfeld „Konfigurieren“ ermöglicht es dem Inhaltsautor, den Texttyp 
 
 ## Dialogfeld „Design“ {#design-dialog}
 
-### Registerkarte „Stile“ {#styles-tab}
+### Registerkarte „Arten“ {#styles-tab}
 
 Die Formulartext-Komponente unterstützt das [Stilsystem](/help/get-started/authoring.md#component-styling) von AEM.
