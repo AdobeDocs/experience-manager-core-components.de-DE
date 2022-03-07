@@ -4,9 +4,9 @@ description: Die Inhaltsfragmentlisten-Kernkomponente ermöglicht die Anzeige ei
 role: Architect, Developer, Admin, User
 exl-id: 0f2295b1-d287-4f72-8ee4-fa98c4850e53
 source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '831'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Die Inhaltsfragmentlisten-Kernkomponente ermöglicht die Anzeige einer Liste von
 
 ## Nutzung {#usage}
 
-Die Inhaltsfragmentlisten-Kernkomponente ermöglicht die Einbeziehung einer Liste von [Inhaltsfragmenten](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) auf einer Seite basierend auf einem Inhaltsfragmentmodell. Dies kann besonders für die Erstellung von [Headless Content](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) nützlich sein, der leicht von anderen Programmen genutzt werden kann.
+Die Inhaltsfragmentlisten-Kernkomponente ermöglicht die Einbeziehung einer Liste von [Inhaltsfragmenten](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=de) auf einer Seite basierend auf einem Inhaltsfragmentmodell. Dies kann besonders für die Erstellung von [Headless Content](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) nützlich sein, der leicht von anderen Programmen genutzt werden kann.
 
 * Die Liste und ihre Eigenschaften können im [Dialogfeld „Konfigurieren“](#configure-dialog) ausgewählt werden.
 * Stile können auf die Komponente im [Dialogfeld „Design“](#design-dialog) angewendet werden.
@@ -87,18 +87,18 @@ Standardmäßig werden alle Elemente des Inhaltsfragmentmodells in die Liste auf
    * Klicken oder tippen Sie auf die Schaltfläche **Löschen**, um ein ausgewähltes Element zu entfernen.
    * Ziehen Sie den Ziehgriff **Reihenfolge**, um die Reihenfolge der Elemente zu ändern.
 
-### Registerkarte „Stile“ {#styles-tab-edit}
+### Registerkarte „Arten“ {#styles-tab-edit}
 
-![Registerkarte &quot;Stile&quot;im Dialogfeld &quot;Bearbeiten&quot;der Inhaltsfragmentlisten-Komponente](/help/assets/content-fragment-list-styles.png)
+![Registerkarte „Arten“ im Dialogfeld „Bearbeiten“ der Inhaltsfragmentlisten-Komponente](/help/assets/content-fragment-list-styles.png)
 
-Die Inhaltsfragmentlisten-Komponente unterstützt die AEM [Stilsystem.](/help/get-started/authoring.md#component-styling).
+Die Inhaltsfragmentlisten-Komponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
-Verwenden Sie das Dropdown-Menü, um die Stile auszuwählen, die Sie auf die Komponente anwenden möchten. Die im Dialogfeld &quot;Bearbeiten&quot;vorgenommenen Auswahlen haben denselben Effekt wie die in der Komponenten-Symbolleiste ausgewählten.
+Verwenden Sie das Dropdown-Menü, um die Stile auszuwählen, die Sie auf die Komponente anwenden möchten. Die im Dialogfeld „Bearbeiten“ vorgenommenen Auswahlen haben denselben Effekt wie die in der Komponenten-Symbolleiste ausgewählten.
 
-Stile müssen für diese Komponente im [Dialogfeld &quot;Design&quot;](#design-dialog) , damit das Dropdown-Menü verfügbar ist.
+Stile müssen für diese Komponente im [Dialogfeld „Design“](#design-dialog) konfiguriert werden, damit das Dropdown-Menü verfügbar ist.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
-### Registerkarte „Stile“ {#styles-tab}
+### Registerkarte „Arten“ {#styles-tab}
 
-Die Inhaltsfragmentlisten-Komponente unterstützt die AEM [Stilsystem](/help/get-started/authoring.md#component-styling).
+Die Inhaltsfragmentlisten-Komponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
