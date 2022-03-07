@@ -4,9 +4,9 @@ description: Mit der Navigationskomponente können Benutzer leicht durch eine gl
 role: Architect, Developer, Admin, User
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
 source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1544'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -156,15 +156,15 @@ Auf der Registerkarte **Erreichbarkeit** können Werte für die [ARIA-Barrierefr
 
 * **Beschriftung** - Wert eines ARIA-Beschriftungs-Attributs für die Komponente
 
-### Registerkarte „Stile“ {#styles-tab-edit}
+### Registerkarte „Arten“ {#styles-tab-edit}
 
-Die Navigationskomponente unterstützt das AEM-[Stilsystem.](/help/get-started/authoring.md#component-styling).
+Die Navigationskomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
-Verwenden Sie das Dropdown-Menü, um die Stile auszuwählen, die Sie auf die Komponente anwenden möchten. Die im Dialogfeld &quot;Bearbeiten&quot;vorgenommenen Auswahlen haben denselben Effekt wie die in der Komponenten-Symbolleiste ausgewählten.
+Verwenden Sie das Dropdown-Menü, um die Stile auszuwählen, die Sie auf die Komponente anwenden möchten. Die im Dialogfeld „Bearbeiten“ vorgenommenen Auswahlen haben denselben Effekt wie die in der Komponenten-Symbolleiste ausgewählten.
 
-Stile müssen für diese Komponente im [Dialogfeld &quot;Design&quot;](#design-dialog) , damit das Dropdown-Menü verfügbar ist.
+Stile müssen für diese Komponente im [Dialogfeld „Design“](#design-dialog) konfiguriert werden, damit das Dropdown-Menü verfügbar ist.
 
-![Registerkarte &quot;Stile&quot;im Dialogfeld &quot;Bearbeiten&quot;der Navigationskomponente](/help/assets/navigation-edit-styles.png)
+![Registerkarte „Arten“ im Dialogfeld „Bearbeiten“ der Navigationskomponente](/help/assets/navigation-edit-styles.png)
 
 ## Dialogfeld „Design“ {#design-dialog}
 
@@ -184,7 +184,7 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Standardwerte 
 * **Strukturtiefe der Navigation** - Standardwert der Navigationsstruktur der Tiefe.
 * **Schatten deaktivieren** - Der Standardwert dafür, wann das Shadowing beim Hinzufügen einer Navigationskomponente deaktiviert werden soll
 
-### Registerkarte „Stile“ {#styles-tab}
+### Registerkarte „Arten“ {#styles-tab}
 
 Die Navigationskomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
