@@ -3,9 +3,9 @@ title: Listenkomponente (v2)
 description: Die Kernkomponente „Listenkomponente“ ermöglicht die einfache Erstellung dynamischer sowie statischer Listen.
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1022'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,11 +20,11 @@ Die Listenkomponente kann beispielsweise zum Erstellen einer dynamischen Liste v
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-In diesem Dokument wird die v1 der Listenkomponente beschrieben, die mit Version 2.0.0 der Kernkomponenten im Januar 2018 eingeführt wurde.
+In diesem Dokument wird die v1 der Listenkomponente beschrieben, die ursprünglich mit Version 2.0.0 der Kernkomponenten im Januar 2018 eingeführt wurde.
 
 >[!CAUTION]
 >
->In diesem Dokument wird v2 der Listenkomponente beschrieben.
+>In diesem Dokument wird die v2 der Listenkomponente beschrieben.
 >
 >Weitere Informationen zur aktuellen Version der Listenkomponente finden Sie im Dokument [Listenkomponente](/help/components/list.md).
 
@@ -193,7 +193,7 @@ Aktiviert die Option „Beschreibungen anzeigen“ im [Dialogfeld „Bearbeiten�
 * **Datum anzeigen**
 Aktiviert die Option „Datum anzeigen“ im [Dialogfeld „Bearbeiten“](#edit-dialog)
 
-### Registerkarte „Stile“ {#styles-tab}
+### Registerkarte „Arten“ {#styles-tab}
 
 Die Bildkomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
