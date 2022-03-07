@@ -4,9 +4,9 @@ description: Die Kernkomponente „Listenkomponente“ ermöglicht die einfache 
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
 source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1151'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -156,20 +156,20 @@ Auf der Registerkarte „Element-Einstellungen“ kann die Formatierung der List
 
 ![Elementeinstellungen](/help/assets/list-edit-items.png)
 
-* **Verknüpfungselemente** - Elemente mit der entsprechenden Seite verknüpfen
-* **Beschreibung anzeigen** - Beschreibungen des Link-Elements anzeigen
-* **Datum anzeigen** - Änderungsdatum des Link-Elements anzeigen
-* **Als Teaser anzeigen** - Wenn diese Option aktiviert ist, wird das Element als Teaser angezeigt
+* **Elemente verknüpfen** – Elemente mit der entsprechenden Seite verknüpfen
+* **Beschreibung anzeigen** – Beschreibung des Link-Elements anzeigen
+* **Datum anzeigen** – Änderungsdatum des Link-Elements anzeigen
+* **Als Teaser anzeigen** – Wenn diese Option aktiviert ist, wird das Element als Teaser angezeigt
 
-### Registerkarte „Stile“ {#styles-tab-edit}
+### Registerkarte „Arten“ {#styles-tab-edit}
 
-Die Listenkomponente unterstützt die AEM [Stilsystem.](/help/get-started/authoring.md#component-styling).
+Die Listenkomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
-Verwenden Sie das Dropdown-Menü, um die Stile auszuwählen, die Sie auf die Komponente anwenden möchten. Die im Dialogfeld &quot;Bearbeiten&quot;vorgenommenen Auswahlen haben denselben Effekt wie die in der Komponenten-Symbolleiste ausgewählten.
+Verwenden Sie das Dropdown-Menü, um die Stile auszuwählen, die Sie auf die Komponente anwenden möchten. Die im Dialogfeld „Bearbeiten“ vorgenommenen Auswahlen haben denselben Effekt wie die in der Komponenten-Symbolleiste ausgewählten.
 
-Stile müssen für diese Komponente im [Dialogfeld &quot;Design&quot;](#design-dialog) , damit das Dropdown-Menü verfügbar ist.
+Stile müssen für diese Komponente im [Dialogfeld „Design“](#design-dialog) konfiguriert werden, damit das Dropdown-Menü verfügbar ist.
 
-![Registerkarte &quot;Stile&quot;im Dialogfeld &quot;Bearbeiten&quot;der Listenkomponente](/help/assets/list-edit-styles.png)
+![Registerkarte „Arten“ im Dialogfeld „Bearbeiten“ der Listenkomponente](/help/assets/list-edit-styles.png)
 
 ## Dialogfeld „Design“ {#design-dialog}
 
@@ -205,7 +205,7 @@ Aktiviert die Option „Beschreibungen anzeigen“ im [Dialogfeld „Bearbeiten�
 * **Datum anzeigen**
 Aktiviert die Option „Datum anzeigen“ im [Dialogfeld „Bearbeiten“](#edit-dialog)
 
-### Registerkarte „Stile“ {#styles-tab}
+### Registerkarte „Arten“ {#styles-tab}
 
 Die Bildkomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
