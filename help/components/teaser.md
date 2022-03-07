@@ -4,9 +4,9 @@ description: Die Teaser-Komponente kann ein Bild, einen Titel, Rich-Text und opt
 role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
 source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '999'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -45,18 +45,18 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 
 Der Inhaltsautor kann das Dialogfeld „Konfigurieren“ verwenden, um die Eigenschaften des einzelnen Teasers zu definieren. Es gibt auch ein [Dialogfeld „Bearbeiten“](#edit-dialog) zum Bearbeiten des Teaserbilds, wenn eines ausgewählt ist.
 
-### Registerkarte &quot;Links&quot; {#links-tab}
+### Registerkarte „Links“ {#links-tab}
 
-![Registerkarte &quot;Links&quot;im Dialogfeld &quot;Bearbeiten&quot;der Teaser-Komponente](/help/assets/teaser-edit-links.png)
+![Registerkarte „Links“ im Dialogfeld „Bearbeiten“ der Teaser-Komponente](/help/assets/teaser-edit-links.png)
 
 Der Teaser-Titel, die Beschreibung und das Bild können von der verknüpften Seite oder von der Seite übernommen werden, die im ersten Aktionsaufruf verknüpft ist. Wenn weder ein Link noch ein Aktionsaufruf angegeben ist, werden Titel, Beschreibung und Bild von der aktuellen Seite übernommen.
 
-* **Link** - Diese Datei verlinkt zu einer Inhaltsseite, einer externen URL oder einem Seitenanker.
-* **Link in neuer Registerkarte öffnen** - Wenn diese Option aktiviert ist, wird der Link in einer neuen Browser-Registerkarte geöffnet.
-* **Aktionsaufrufe** - Diese Option ermöglicht die Verknüpfung mit mehreren Zielen.
+* **Link** – Diese Datei verweist auf eine Inhaltsseite, eine externe URL oder einen Seitenanker.
+* **Link in neuer Registerkarte öffnen** – Wenn diese Option aktiviert ist, wird der Link in einer neuen Browser-Registerkarte geöffnet.
+* **Aktionsaufrufe** – Diese Option ermöglicht Links mit mehreren Zielen.
    * Die im ersten Aktionsaufruf verknüpfte Seite wird beim Vererben des Teaser-Titels, der Beschreibung oder des Bildes verwendet.
 
-### Registerkarte &quot;Text&quot; {#text-tab}
+### Registerkarte „Text“ {#text-tab}
 
 ![Registerkarte „Text“ im Dialogfeld „Bearbeiten“ der Teaser-Komponente](/help/assets/teaser-edit-text.png)
 
@@ -74,31 +74,31 @@ Der Teaser-Titel, die Beschreibung und das Bild können von der verknüpften Sei
 
 ![Registerkarte „Bild“ im Dialogfeld „Bearbeiten“ der Teaser-Komponente](/help/assets/teaser-edit-image.png)
 
-* **Eigenes Bild von Seite übernehmen** - Verwenden Sie das in den Seiteneigenschaften der verknüpften Seite definierte Bild oder die aktuelle Seite, wenn keines gefunden wird.
-* **Bild-Asset** - Ziehen Sie ein Asset aus dem [Asset-Browser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=de) oder tippen Sie auf **durchsuchen** Option zum Hochladen aus einem lokalen Dateisystem.
+* **Vorgestelltes Bild von Seite übernehmen** – Verwendet das in den Seiteneigenschaften der verknüpften Seite definierte Bild oder das der aktuellen Seite, wenn keines gefunden wird.
+* **Bild-Asset** – Ziehen Sie ein Asset aus dem [Asset-Browser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=de) oder tippen Sie auf die Option **Durchsuchen**, um es aus einem lokalen Dateisystem hochzuladen.
    * Tippen oder klicken Sie auf **Löschen**, um das aktuell ausgewählte Bild zu deaktivieren.
    * Tippen oder klicken Sie auf **Bearbeiten**, um die [Ausgabedarstellungen des Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=de) im Asset-Editor zu verwalten.
-* **Alternativtext für Barrierefreiheit** - In diesem Feld können Sie eine Beschreibung des Bildes für sehbehinderte Benutzer definieren.
-   * **Alternativtext von Seite übernehmen** - Diese Option verwendet die alternative Beschreibung des verknüpften Asset-Werts des `dc:description` Metadaten in DAM oder der aktuellen Seite, wenn kein Asset verknüpft ist.
-* **Geben Sie keinen alternativen Text an** - Diese Option markiert das Bild, das von Hilfstechnologien wie Bildschirmlesehilfen ignoriert werden soll, wenn das Bild rein dekorativ ist oder anderweitig keine zusätzlichen Informationen zur Seite vermittelt.
+* **Alternativtext für Barrierefreiheit** – In diesem Feld können Sie eine Beschreibung des Bildes für sehbehinderte Benutzer definieren.
+   * **Alternativtext von Seite übernehmen** – Diese Option verwendet die alternative Beschreibung des verknüpften Asset-Werts der `dc:description`-Metadaten in DAM oder der aktuellen Seite, wenn kein Asset verknüpft ist.
+* **Keinen Alternativtext angeben** – Mit dieser Option wird das Bild so markiert, dass es von unterstützenden Technologien wie Bildschirmlesegeräten ignoriert wird, wenn das Bild rein dekorativ ist oder sonst keine zusätzlichen Informationen für die Seite liefert.
 
 >[!NOTE]
 >
 >[Dynamic Media-Funktionen](image.md#dynamic-media) sind derzeit nicht in der Teaser-Komponente verfügbar.
 
-### Registerkarte „Stile“ {#styles-tab-edit}
+### Registerkarte „Arten“ {#styles-tab-edit}
 
-![Registerkarte &quot;Stile&quot;im Dialogfeld &quot;Bearbeiten&quot;der Teaser-Listenkomponente](/help/assets/teaser-edit-styles.png)
+![Registerkarte „Arten“ im Dialogfeld „Bearbeiten“ der Teaser-Listenkomponente](/help/assets/teaser-edit-styles.png)
 
-Die Teaser-Komponente unterstützt das AEM-[Stilsystem.](/help/get-started/authoring.md#component-styling).
+Die Teaser-Komponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
-Verwenden Sie das Dropdown-Menü, um die Stile auszuwählen, die Sie auf die Komponente anwenden möchten. Die im Dialogfeld &quot;Bearbeiten&quot;vorgenommenen Auswahlen haben denselben Effekt wie die in der Komponenten-Symbolleiste ausgewählten.
+Verwenden Sie das Dropdown-Menü, um die Stile auszuwählen, die Sie auf die Komponente anwenden möchten. Die im Dialogfeld „Bearbeiten“ vorgenommenen Auswahlen haben denselben Effekt wie die in der Komponenten-Symbolleiste ausgewählten.
 
-Stile müssen für diese Komponente im [Dialogfeld &quot;Design&quot;](#design-dialog) , damit das Dropdown-Menü verfügbar ist.
+Stile müssen für diese Komponente im [Dialogfeld „Design“](#design-dialog) konfiguriert werden, damit das Dropdown-Menü verfügbar ist.
 
 ## Dialogfeld „Bearbeiten“ {#edit-dialog}
 
-Die Teaser-Komponente delegiert das Rendern von Bildern an die [Bild-Komponente](image.md). Daher wird das [Dialogfeld „Bearbeiten“] dem Inhaltsautor zur Bearbeitung des Teaserbilds zur Verfügung gestellt.
+Die Teaser-Komponente delegiert das Rendern von Bildern an die [Bild-Komponente](image.md). Daher wird das [Dialogfeld „Bearbeiten“](image.md#edit-dialog) dem Inhaltsautor zur Bearbeitung des Teaserbilds zur Verfügung gestellt.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
@@ -115,10 +115,10 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Teaser-Optione
    * **Titel ausblenden** - Blendet die Option **Titel** für Inhaltsautoren aus.
       * Bei Auswahl der Option wird der **Titeltyp** ausgeblendet.
    * **Beschreibung ausblenden** - Blendet die Option **Beschreibung** für Inhaltsautoren aus.
-* **Standardtitel** - Definiert das H-Tag, das vom Titel des Teasers verwendet werden soll.
-* **Bilddelegat** - Information, die anzeigt, an welche Komponente der Teaser die Bildverarbeitung delegiert.
+* **Standardtiteltyp** – Definiert das H-Tag, das vom Titel des Teasers verwendet werden soll.
+* **Bilddelegat** – Informationen, die anzeigen, an welche Komponente der Teaser die Bildverarbeitung delegiert.
 
-### Registerkarte „Stile“ {#styles-tab}
+### Registerkarte „Arten“ {#styles-tab}
 
 Die Teaser-Komponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
