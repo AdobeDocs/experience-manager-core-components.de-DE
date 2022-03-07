@@ -3,9 +3,9 @@ title: Inhaltsfragmentlisten-Komponente (v1)
 description: Die Inhaltsfragmentlisten-Kernkomponente ermöglicht die Anzeige einer Liste von Inhaltsfragmenten.
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '725'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Die Inhaltsfragmentlisten-Kernkomponente ermöglicht die Anzeige einer Liste von
 
 ## Nutzung {#usage}
 
-Die Inhaltsfragmentlisten-Kernkomponente ermöglicht die Einbeziehung einer Liste von [Inhaltsfragmenten](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) auf einer Seite basierend auf einem Inhaltsfragmentmodell. Dies kann besonders für die Erstellung von [Headless Content](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) nützlich sein, der leicht von anderen Programmen genutzt werden kann.
+Die Inhaltsfragmentlisten-Kernkomponente ermöglicht die Einbeziehung einer Liste von [Inhaltsfragmenten](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=de) auf einer Seite basierend auf einem Inhaltsfragmentmodell. Dies kann besonders für die Erstellung von [Headless Content](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) nützlich sein, der leicht von anderen Programmen genutzt werden kann.
 
 * Die Liste und ihre Eigenschaften können im [Dialogfeld „Konfigurieren“](#configure-dialog) ausgewählt werden.
 * Stile können auf die Komponente im [Dialogfeld „Design“](#design-dialog) angewendet werden.
@@ -27,9 +27,9 @@ In diesem Dokument wird die v1 der Inhaltsfragment-Komponente beschrieben, die m
 
 >[!CAUTION]
 >
->In diesem Dokument wird v1 der Inhaltsfragmentlisten-Komponente beschrieben.
+>In diesem Dokument wird die v1 der Inhaltsfragmentlisten-Komponente beschrieben.
 >
->Weitere Informationen zur aktuellen Version der Inhaltsfragmentlisten-Komponente finden Sie unter [Inhaltsfragmentlisten-Komponente](/help/components/content-fragment-list.md) Dokument.
+>Weitere Informationen zur aktuellen Version der Inhaltsfragmentlisten-Komponente finden Sie im Dokument [Inhaltsfragmentlisten-Komponente](/help/components/content-fragment-list.md).
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
