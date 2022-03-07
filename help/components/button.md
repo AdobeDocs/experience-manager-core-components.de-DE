@@ -4,9 +4,9 @@ description: Die Kernkomponente „Schaltflächenkomponente“ ermöglicht die E
 role: Architect, Developer, Admin, User
 exl-id: e17efd1d-90d4-497a-9e7d-45934d81bc28
 source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '542'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -55,8 +55,8 @@ Mit dem Dialogfeld „Konfigurieren“ kann der Inhaltsautor die Schaltfläche u
 * **Text** - Der Text, der auf der Schaltfläche angezeigt werden soll
 * **Verknüpfung** - Link zu einer Inhaltsseite in AEM, einer externen Ressource oder einem Anker
    * Wählen Sie im Dialogfeld **Auswahl** einen Pfad in AEM aus.
-* **Link in neuer Registerkarte öffnen** - Wenn diese Option aktiviert ist, wird der Link in einer neuen Browser-Registerkarte geöffnet.
-* **Symbol** - Bezeichner für die Anzeige eines Symbols auf der Schaltfläche
+* **Link auf neuer Registerkarte öffnen** – Wenn diese Option aktiviert ist, wird der Link auf einer neuen Browser-Registerkarte geöffnet.
+* **Symbol** – Bezeichner für die Anzeige eines Symbols auf der Schaltfläche
 * **ID** - Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
    * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
    * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
@@ -70,19 +70,19 @@ Auf der Registerkarte **Erreichbarkeit** können Werte für die [ARIA-Barrierefr
 
 * **Beschriftung** - Wert eines ARIA-Beschriftungs-Attributs für die Komponente
 
-### Registerkarte „Stile“ {#styles-tab-edit}
+### Registerkarte „Arten“ {#styles-tab-edit}
 
-![Registerkarte &quot;Stile&quot;im Dialogfeld &quot;Bearbeiten&quot;der Schaltflächenkomponente](/help/assets/button-edit-styles.png)
+![Registerkarte „Arten“ im Dialogfeld „Bearbeiten“ der Schaltflächenkomponente](/help/assets/button-edit-styles.png)
 
-Die Schaltflächenkomponente unterstützt das AEM-[Stilsystem.](/help/get-started/authoring.md#component-styling).
+Die Schaltflächenkomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
-Verwenden Sie das Dropdown-Menü, um die Stile auszuwählen, die Sie auf die Komponente anwenden möchten. Die im Dialogfeld &quot;Bearbeiten&quot;vorgenommenen Auswahlen haben denselben Effekt wie die in der Komponenten-Symbolleiste ausgewählten.
+Verwenden Sie das Dropdown-Menü, um die Stile auszuwählen, die Sie auf die Komponente anwenden möchten. Die im Dialogfeld „Bearbeiten“ vorgenommenen Auswahlen haben denselben Effekt wie die in der Komponenten-Symbolleiste ausgewählten.
 
-Stile müssen für diese Komponente im [Dialogfeld &quot;Design&quot;](#design-dialog) , damit das Dropdown-Menü verfügbar ist.
+Stile müssen für diese Komponente im [Dialogfeld „Design“](#design-dialog) konfiguriert werden, damit das Dropdown-Menü verfügbar ist.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
-### Registerkarte „Stile“ {#styles-tab}
+### Registerkarte „Arten“ {#styles-tab}
 
 Die Schaltflächenkomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
