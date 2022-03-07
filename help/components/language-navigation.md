@@ -4,9 +4,9 @@ description: Die Sprachnavigationskomponente stellt eine Sprache/Ländernavigati
 role: Architect, Developer, Admin, User
 exl-id: 10b218b4-c439-4a0f-a46f-0b15d78b0360
 source-git-commit: 28409185f2e46a30fa588b3f92b83b2fa05de96d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '957'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 
 ## Dialogfeld „Design“ {#design-dialog}
 
-Das Dialogfeld &quot;Design&quot;ermöglicht die Definition des globalen Site-Navigationsstamms sowie die Festlegung, wie tief in die Struktur die Navigation gehen soll.
+Das Dialogfeld „Bearbeiten“ ermöglicht die Definition des globalen Site-Navigationsstamms sowie die Festlegung, wie tief die Navigation in die Struktur gehen darf.
 
 In der Regel müssen diese Konfigurationen nur auf der Seitenvorlage vorgenommen werden. Sie können jedoch auch über das [Dialogfeld „Bearbeiten“](#edit-dialog) auf der Seitenebene geändert werden.
 
@@ -90,7 +90,7 @@ Mit dem **Navigationsstamm**-Wert weiß die Sprachkomponente, dass nach `/conten
 
 Unabhängig davon, welche Seite ein Benutzer ansieht, kann die Sprachnavigationskomponente die entsprechende Seite in einer anderen Sprache finden, indem sie den Speicherort der aktuellen Seite kennt, den Stamm rückwärts entlang arbeitet und dann auf die entsprechende Seite weiterleitet.
 
-### Registerkarte „Stile“ {#styles-tab}
+### Registerkarte „Arten“ {#styles-tab}
 
 Die Sprachnavigationskomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
@@ -110,19 +110,19 @@ Zusätzlich können Sie eine **ID** festlegen. Diese Option dient zur Kontrolle 
 
 ### Registerkarte „Erreichbarkeit“ {#accessibility-tab}
 
-* **Titel** - Diese Option sollte definiert werden, wenn sich auf der Seite mehr als eine Sprachnavigation befindet, um das Attribut aria label der Komponente festzulegen.
+* **Kennzeichnung** – Diese Option sollte definiert werden, wenn sich auf der Seite mehr als eine Sprachnavigation befindet, um das Attribut „aria label“ der Komponente festzulegen.
 
-![Registerkarte &quot;Barrierefreiheit der Sprachnavigation&quot;](/help/assets/language-navigation-edit-accessibility.png)
+![Registerkarte „Barrierefreiheit der Sprachnavigation“](/help/assets/language-navigation-edit-accessibility.png)
 
-### Registerkarte „Stile“ {#styles-tab-edit}
+### Registerkarte „Arten“ {#styles-tab-edit}
 
-Die Sprachnavigationskomponente unterstützt das AEM-[Stilsystem.](/help/get-started/authoring.md#component-styling).
+Die Sprachnavigationskomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
-Verwenden Sie das Dropdown-Menü, um die Stile auszuwählen, die Sie auf die Komponente anwenden möchten. Die im Dialogfeld &quot;Bearbeiten&quot;vorgenommenen Auswahlen haben denselben Effekt wie die in der Komponenten-Symbolleiste ausgewählten.
+Verwenden Sie das Dropdown-Menü, um die Stile auszuwählen, die Sie auf die Komponente anwenden möchten. Die im Dialogfeld „Bearbeiten“ vorgenommenen Auswahlen haben denselben Effekt wie die in der Komponenten-Symbolleiste ausgewählten.
 
-Stile müssen für diese Komponente im [Dialogfeld &quot;Design&quot;](#design-dialog) , damit das Dropdown-Menü verfügbar ist.
+Stile müssen für diese Komponente im [Dialogfeld „Design“](#design-dialog) konfiguriert werden, damit das Dropdown-Menü verfügbar ist.
 
-![Registerkarte &quot;Stile&quot;im Dialogfeld &quot;Bearbeiten&quot;der Sprachnavigationskomponente](/help/assets/language-navigation-edit-styles.png)
+![Registerkarte „Arten“ im Dialogfeld „Bearbeiten“ der Sprachnavigationskomponente](/help/assets/language-navigation-edit-styles.png)
 
 ## Adobe Client-Datenschicht {#data-layer}
 
