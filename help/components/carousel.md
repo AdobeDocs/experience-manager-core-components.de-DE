@@ -4,9 +4,9 @@ description: Mit der Karussellkomponente kann der Inhaltsautor Inhalte in einem 
 role: Architect, Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
 source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1119'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -79,7 +79,7 @@ Auf der Registerkarte **Eigenschaften** kann der Inhaltsautor die Folien auf aut
 >
 >Die Steuerelemente für die Abfolge der Folien werden im Modus **Bearbeiten** nicht aktiviert. Verwenden Sie den [**Vorschaumodus**](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=de#preview-mode) oder die Option **[Als veröffentlicht anzeigen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=de#view-as-published)**, um so mit dem Karussell zu interagieren, wie es ein Leser des veröffentlichten Inhalts tun würde.
 >
->Die Funktion des automatischen Übergangs ist im Modus **Bearbeiten** nicht aktiviert. Verwenden Sie die Option **[Als veröffentlicht anzeigen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**, um die Funktion des automatischen Übergangs so anzuzeigen, wie es ein Leser der veröffentlichten Inhalte tun würde.
+>Die Funktion des automatischen Übergangs ist im Modus **Bearbeiten** nicht aktiviert. Verwenden Sie die Option **[Als veröffentlicht anzeigen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=de#view-as-published)**, um die Funktion des automatischen Übergangs so anzuzeigen, wie es ein Leser der veröffentlichten Inhalte tun würde.
 
 ### Registerkarte „Erreichbarkeit“ {#accessibility-tab}
 
@@ -125,7 +125,7 @@ Im Dialogfeld „Design“ kann der Vorlagenautor definieren, welche Komponenten
 
 Die Registerkarte „Zugelassene Komponenten“ funktioniert auf die gleiche Weise wie die Registerkarte desselben Namens beim [Definieren der Richtlinie und Eigenschaften eines Layoutcontainers im Vorlageneditor.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=de)
 
-### Registerkarte „Stile“ {#styles-tab}
+### Registerkarte „Arten“ {#styles-tab}
 
 Die Karussellkomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
