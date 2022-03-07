@@ -3,9 +3,9 @@ title: Schaltflächenkomponente (v1)
 description: Die Kernkomponente „Schaltflächenkomponente“ ermöglicht die Erstellung und Anzeige einer Schaltfläche.
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '412'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -27,9 +27,9 @@ In diesem Dokument wird die v1 der Schaltflächenkomponente beschrieben, die mit
 
 >[!CAUTION]
 >
->In diesem Dokument wird v1 der Schaltflächenkomponente beschrieben.
+>In diesem Dokument wird die v1 der Schaltflächenkomponente beschrieben.
 >
->Weitere Informationen zur aktuellen Version der Schaltflächenkomponente finden Sie unter [Schaltflächenkomponente](/help/components/button.md) Dokument.
+>Weitere Informationen zur aktuellen Version der Schaltflächenkomponente finden Sie im Dokument [Schaltflächenkomponente](/help/components/button.md).
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
@@ -68,7 +68,7 @@ Auf der Registerkarte **Erreichbarkeit** können Werte für die [ARIA-Barrierefr
 
 ## Dialogfeld „Design“ {#design-dialog}
 
-### Registerkarte „Stile“ {#styles-tab}
+### Registerkarte „Arten“ {#styles-tab}
 
 Die Schaltflächenkomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
