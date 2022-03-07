@@ -3,9 +3,9 @@ title: Einbettungskomponente (v1)
 description: Die Einbettungskomponente ermöglicht das Einbetten externer Inhalte in eine AEM-Inhaltsseite.
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1298'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -27,9 +27,9 @@ In diesem Dokument wird die v1 der Einbettungskomponente beschrieben, die mit Ve
 
 >[!CAUTION]
 >
->In diesem Dokument wird v1 der Einbettungskomponente beschrieben.
+>In diesem Dokument wird die v1 der Einbettungskomponente beschrieben.
 >
->Weitere Informationen zur aktuellen Version der Einbettungskomponente finden Sie unter [Einbettungskomponente](/help/components/embed.md) Dokument.
+>Weitere Informationen zur aktuellen Version der Einbettungskomponente finden Sie im Dokument [Einbettungskomponente](/help/components/embed.md).
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
