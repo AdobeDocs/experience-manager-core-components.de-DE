@@ -4,9 +4,9 @@ description: Die Kernkomponente „Formularoptionen“ ermöglicht die Auswahl a
 role: Architect, Developer, Admin, User
 exl-id: 8a74bd37-9b12-4fa6-bff2-53e337b16251
 source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '549'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -76,6 +76,6 @@ Im Dialogfeld „Konfigurieren“ kann der Inhaltsautor den Typ der Optionen fes
 
 ## Dialogfeld „Design“ {#design-dialog}
 
-### Registerkarte „Stile“ {#styles-tab}
+### Registerkarte „Arten“ {#styles-tab}
 
 Die Formularoptionen-Komponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
