@@ -3,9 +3,9 @@ title: Sprachnavigationskomponente (v1)
 description: Die Sprachnavigationskomponente stellt eine Sprache/Ländernavigation für eine Site bereit, sodass Besucher zur gleichen Seite in einem anderen Gebietsschema navigieren können.
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '810'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -29,9 +29,9 @@ In diesem Dokument wird die v1 der Sprachnavigationskomponente beschrieben, die 
 
 >[!CAUTION]
 >
->In diesem Dokument wird v1 der Sprachnavigationskomponente beschrieben.
+>In diesem Dokument wird die v1 der Sprachnavigationskomponente beschrieben.
 >
->Weitere Informationen zur aktuellen Version der Sprachnavigationskomponente finden Sie unter [Sprachnavigationskomponente](/help/components/language-navigation.md) Dokument.
+>Weitere Informationen zur aktuellen Version der Sprachnavigationskomponente finden Sie im Dokument [Sprachnavigationskomponente](/help/components/language-navigation.md).
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
@@ -87,7 +87,7 @@ Mit dem **Navigationsstamm**-Wert weiß die Sprachkomponente, dass nach `/conten
 
 Unabhängig davon, welche Seite ein Benutzer ansieht, kann die Sprachnavigationskomponente die entsprechende Seite in einer anderen Sprache finden, indem sie den Speicherort der aktuellen Seite kennt, den Stamm rückwärts entlang arbeitet und dann auf die entsprechende Seite weiterleitet.
 
-### Registerkarte „Stile“ {#styles-tab}
+### Registerkarte „Arten“ {#styles-tab}
 
 Die Sprachnavigationskomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
