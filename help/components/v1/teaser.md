@@ -3,9 +3,9 @@ title: Teaser-Komponente (v1)
 description: Die Teaser-Komponente kann ein Bild, einen Titel, Rich-Text und optional einen Link zu weiteren Inhalten anzeigen.
 role: Architect, Developer, Admin, User
 source-git-commit: f8aa86d58ba71ede3c3cd867c45aafff06923325
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '748'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -22,13 +22,13 @@ Der Vorlagenautor kann das [Dialogfeld „Design“](#design-dialog) verwenden, 
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-In diesem Dokument wird die Version 1 der Teaser-Komponente beschrieben, die mit Version 2.1.0 der Kernkomponenten im Juli 2018 eingeführt wurde.
+In diesem Dokument wird die v1 der Teaser-Komponente beschrieben, die mit Version 2.1.0 der Kernkomponenten im Juli 2018 eingeführt wurde.
 
 >[!CAUTION]
 >
->In diesem Dokument wird v1 der Teaser-Komponente beschrieben.
+>In diesem Dokument wird die v1 der Teaser-Komponente beschrieben.
 >
->Weitere Informationen zur aktuellen Version der Teaser-Komponente finden Sie unter [Teaser-Komponente](/help/components/teaser.md) Dokument.
+>Weitere Informationen zur aktuellen Version der Teaser-Komponente finden Sie im Dokument [Teaser-Komponente](/help/components/teaser.md).
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
@@ -80,7 +80,7 @@ Der Inhaltsautor kann das Dialogfeld „Konfigurieren“ verwenden, um die Eigen
 
 ## Dialogfeld „Bearbeiten“ {#edit-dialog}
 
-Die Teaser-Komponente delegiert das Rendern von Bildern an die [Bild-Komponente](image-v1.md). Daher [Dialogfeld &quot;Bearbeiten&quot;](image-v1.md#edit-dialog der Bildkomponente ist für den Inhaltsautor verfügbar, um das Teaser-Bild zu bearbeiten.
+Die Teaser-Komponente delegiert das Rendern von Bildern an die [Bild-Komponente](image-v1.md). Daher steht dem Inhaltsautor das [Dialogfeld „Bearbeiten“](image-v1.md#edit-dialog) der Bildkomponente zur Verfügung, um das Teaser-Bild zu bearbeiten.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
@@ -103,7 +103,7 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Teaser-Optione
    * **Titel nicht verknüpfen** - Bei Auswahl dieser Option wird der Teaser-Titel nicht verknüpft.
 * **Bilddelegat** - Information, die anzeigt, an welche Komponente der Teaser die Bildverarbeitung delegiert.
 
-### Registerkarte „Stile“ {#styles-tab}
+### Registerkarte „Arten“ {#styles-tab}
 
 Die Teaser-Komponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
