@@ -4,9 +4,9 @@ description: Die Einbettungskomponente ermöglicht das Einbetten externer Inhalt
 role: Architect, Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
 source-git-commit: 28409185f2e46a30fa588b3f92b83b2fa05de96d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1395'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -50,13 +50,13 @@ Im Dialogfeld „Konfigurieren“ kann der Inhaltsautor die externe Ressource de
 
 ### Registerkarte „Eigenschaften“ {#properties-tab}
 
-Wählen Sie zunächst, welche Ressource eingebettet werden soll:
+Wählen Sie zunächst, welcher Ressourcentyp eingebettet werden soll:
 
 * [URL](#url)
 * [Einbettbare Prozessoren](#embeddable)
 * [HTML](#html)
 
-Für jeden Typ von einbettbarem Element können Sie eine **ID**. Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
+Für jeden Typ von einbettbarem Element können Sie eine **ID** festlegen. Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
 
 * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
 * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
@@ -109,7 +109,7 @@ Mit der Einbettungskomponente können Sie Ihrer Seite Freiform-HTML hinzufügen.
 
 ##### Sicherheit {#security}
 
-Das HTML-Markup, das der Autor eingeben kann, wird aus Sicherheitsgründen gefiltert, um siteübergreifende Skriptangriffe zu verhindern, die es Autoren z. B. erlauben würden, sich Administratorrechte zu verschaffen.
+Das HTML-Markup, das der Autor eingeben kann, wird aus Sicherheitsgründen gefiltert, um Site-übergreifende Skriptangriffe zu verhindern, die es Autoren z. B. erlauben würden, sich Administratorrechte zu verschaffen.
 
 Im Allgemeinen werden alle Skript- und `style`-Elemente sowie alle `on*`- und `style`-Attribute aus der Ausgabe entfernt.
 
@@ -121,15 +121,15 @@ Weitere Sicherheitsinformationen finden Sie in der [AEM-Entwicklerdokumentation 
 >
 >Obwohl die Regeln des AntiSamy-Bereinigungs-Frameworks durch eine Überlagerung von `/libs/cq/xssprotection/config.xml` konfiguriert werden können, wirken sich diese Änderungen nicht nur auf die Einbettungs-Kernkomponente, sondern auf das gesamte HTL- und JSP-Verhalten aus.
 
-### Registerkarte „Stile“ {#styles-tab-edit}
+### Registerkarte „Arten“ {#styles-tab-edit}
 
-![Registerkarte &quot;Stile&quot;im Dialogfeld &quot;Bearbeiten&quot;der Einbettungskomponente](/help/assets/embed-styles.png)
+![Registerkarte „Arten“ im Dialogfeld „Bearbeiten“ der Einbettungskomponente](/help/assets/embed-styles.png)
 
-Die Einbettungskomponente unterstützt die AEM [Stilsystem.](/help/get-started/authoring.md#component-styling).
+Die Einbettungskomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
-Verwenden Sie das Dropdown-Menü, um die Stile auszuwählen, die Sie auf die Komponente anwenden möchten. Die im Dialogfeld &quot;Bearbeiten&quot;vorgenommenen Auswahlen haben denselben Effekt wie die in der Komponenten-Symbolleiste ausgewählten.
+Verwenden Sie das Dropdown-Menü, um die Stile auszuwählen, die Sie auf die Komponente anwenden möchten. Die im Dialogfeld „Bearbeiten“ vorgenommenen Auswahlen haben denselben Effekt wie die in der Komponenten-Symbolleiste ausgewählten.
 
-Stile müssen für diese Komponente im [Dialogfeld &quot;Design&quot;](#design-dialog) , damit das Dropdown-Menü verfügbar ist.
+Stile müssen für diese Komponente im [Dialogfeld „Design“](#design-dialog) konfiguriert werden, damit das Dropdown-Menü verfügbar ist.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
