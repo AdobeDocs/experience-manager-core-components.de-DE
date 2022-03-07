@@ -4,9 +4,9 @@ description: Die Kernkomponente „Container-Komponente“ ermöglicht die Erste
 role: Architect, Developer, Admin, User
 exl-id: 53c7190d-44cb-42ff-bc1a-483c7875bcf8
 source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '790'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ Die Registerkarte „Zugelassene Komponenten“ funktioniert auf die gleiche Wei
 
 ### Registerkarte „Standardkomponenten“ {#default-components-tab}
 
-Mit der Registerkarte „Standardkomponenten“ wird definiert, welche Komponente der Komponente hinzugefügt wird, wenn ein bestimmter Asset-Typ im Container abgelegt wird, ähnlich wie unter [So werden Standardkomponenten in der Seitenvorlage definiert](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) erläutert.
+Mit der Registerkarte „Standardkomponenten“ wird definiert, welche Komponente der Komponente hinzugefügt wird, wenn ein bestimmter Asset-Typ im Container abgelegt wird, ähnlich wie unter [So werden Standardkomponenten in der Seitenvorlage definiert](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=de) erläutert.
 
 ### Registerkarte „Responsive Einstellungen“ {#responsive-settings-tab}
 
@@ -96,6 +96,6 @@ Mit der Registerkarte „Standardkomponenten“ wird definiert, welche Komponent
    * **Löschen** - Tippen oder klicken Sie, um ein Muster zu löschen.
    * **Neu anordnen** - Tippen oder klicken und ziehen Sie, um die Reihenfolge der Muster neu anzuordnen.
 
-### Registerkarte „Stile“ {#styles-tab}
+### Registerkarte „Arten“ {#styles-tab}
 
 Die Container-Komponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
