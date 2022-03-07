@@ -3,9 +3,9 @@ title: Experience Fragment-Komponente (v1)
 description: Mit der Experience Fragment-Komponente kann der Inhaltsautor einer Seite eine Experience Fragment-Variation hinzufügen.
 role: Architect, Developer, Admin, User
 source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '780'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -27,9 +27,9 @@ In diesem Dokument wird die v1 der Experience Fragment-Komponente beschrieben, d
 
 >[!CAUTION]
 >
->In diesem Dokument wird v1 der Experience Fragment-Komponente beschrieben.
+>In diesem Dokument wird die v1 der Experience Fragment-Komponente beschrieben.
 >
->Weitere Informationen zur aktuellen Version der Experience Fragment-Komponente finden Sie unter [Experience Fragment-Komponente](/help/components/experience-fragment.md) Dokument.
+>Weitere Informationen zur aktuellen Version der Experience Fragment-Komponente finden Sie im Dokument [Experience Fragment-Komponente](/help/components/experience-fragment.md).
 
 ## Unterstützung für lokalisierte Site-Strukturen {#localized-site-structure}
 
@@ -130,6 +130,6 @@ Sie können auch eine **ID** festlegen. Diese Option dient zur Kontrolle der ein
 
 Über das Dialogfeld „Design“ kann der Vorlagenautor die Optionen definieren, die dem Inhaltsautor zur Verfügung stehen, der die Experience Fragment-Komponente verwendet, sowie auch die Standardeinstellungen, die beim Platzieren der Experience Fragment-Komponente festgelegt wurden.
 
-### Registerkarte „Stile“ {#styles-tab}
+### Registerkarte „Arten“ {#styles-tab}
 
 Die Experience Fragment-Komponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
