@@ -3,9 +3,9 @@ title: Breadcrumb-Komponente (v2)
 description: Die Kernkomponente „Breadcrumb-Komponente“ ist eine Navigationskomponente, die einen Breadcrumb von Links basierend auf der Position der Seite in der Inhaltshierarchie erstellt.
 role: Architect, Developer, Admin, User
 source-git-commit: f8aa86d58ba71ede3c3cd867c45aafff06923325
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '680'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ Verfügbare Optionen wie die Standardnavigationsstufe und die Möglichkeit, die 
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-In diesem Dokument wird die v2 der Breadcrumb-Komponente beschrieben, die mit Version 2.0.0 der Kernkomponenten im Januar 2018 eingeführt wurde.
+In diesem Dokument wird die v2 der Breadcrumb-Komponente beschrieben, die ursprünglich mit Version 2.0.0 der Kernkomponenten im Januar 2018 eingeführt wurde.
 
 >[!CAUTION]
 >
->In diesem Dokument wird v2 der Breadcrumb-Komponente beschrieben.
+>In diesem Dokument wird die v2 der Breadcrumb-Komponente beschrieben.
 >
 >Weitere Informationen zur aktuellen Version der Breadcrumb-Komponente finden Sie im Dokument [Breadcrumb-Komponente](/help/components/breadcrumb.md).
 
@@ -83,7 +83,7 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Standardwerte 
 
 * **Schatten deaktivieren** - Definiert den Standardwert der Option **Schatten deaktivieren**, wenn die Breadcrumb-Komponente einer Seite hinzugefügt wird.
 
-### Registerkarte „Stile“ {#styles-tab}
+### Registerkarte „Arten“ {#styles-tab}
 
 Die Breadcrumb-Komponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
