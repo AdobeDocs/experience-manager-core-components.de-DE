@@ -3,9 +3,9 @@ title: Titelkomponente (v2)
 description: Die Kernkomponente „Titelkomponente“ ist eine Komponente für Abschnittsüberschriften, die eine Bearbeitung im Kontext ermöglicht.
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '527'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,11 +20,11 @@ Die Titelkomponente soll als Titel oder Überschrift eines Inhaltsabschnitts ver
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-In diesem Dokument wird die v2 der Titelkomponente beschrieben, die mit Version 2.0.0 der Kernkomponenten im Januar 2018 eingeführt wurde.
+In diesem Dokument wird die v2 der Titelkomponente beschrieben, die ursprünglich mit Version 2.0.0 der Kernkomponenten im Januar 2018 eingeführt wurde.
 
 >[!CAUTION]
 >
->In diesem Dokument wird v2 der Titelkomponente beschrieben.
+>In diesem Dokument wird die v2 der Titelkomponente beschrieben.
 >
 >Weitere Informationen zur aktuellen Version der Titelkomponente finden Sie im Dokument [Titelkomponente](/help/components/title.md).
 
@@ -76,7 +76,7 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die standardmäßi
 >
 >Die Möglichkeit, einen Link für den Titel zu definieren, wurde mit Version 2.2.0 der Kernkomponenten eingeführt.
 
-### Registerkarte „Stile“ {#styles-tab}
+### Registerkarte „Arten“ {#styles-tab}
 
 Die Titelkomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
