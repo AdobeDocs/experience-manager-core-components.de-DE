@@ -3,9 +3,9 @@ title: Bildkomponente (v2)
 description: Die Kernkomponente „Bildkomponente“ ist eine anpassungsfähige Bildkomponente mit Funktionen zur Bearbeitung im Kontext.
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2228'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Die Bildbreiten sowie die Beschneidung und zusätzliche Einstellungen können vo
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-In diesem Dokument wird die v2 der Bildkomponente beschrieben, die mit Version 2.0.0 der Kernkomponenten im Januar 2018 eingeführt wurde.
+In diesem Dokument wird die v2 der Bildkomponente beschrieben, die ursprünglich mit Version 2.0.0 der Kernkomponenten im Januar 2018 eingeführt wurde.
 
 >[!CAUTION]
 >
@@ -245,7 +245,7 @@ Auf der Registerkarte **Funktionen** können Sie festlegen, welche Optionen den 
    >
    >Beachten Sie, dass die Beschneidungsverhältnisse als **Höhe/Breite** definiert sind. Dies unterscheidet sich von der herkömmlichen Definition als Breite/Höhe und erfolgt aus Gründen der Legacy-Kompatibilität. Den Inhaltsautoren wird kein Unterschied bewusst werden, solange Sie einen klaren Namen für das Verhältnis angeben, da nur der Name in der Benutzeroberfläche angezeigt wird und nicht das Verhältnis selbst.
 
-### Registerkarte „Stile“ {#styles-tab-1}
+### Registerkarte „Arten“ {#styles-tab-1}
 
 Die Bildkomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
