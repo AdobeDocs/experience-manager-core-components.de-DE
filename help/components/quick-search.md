@@ -4,9 +4,9 @@ description: Die Schnellsuch-Komponente bietet Suchfunktionen für eine Website 
 role: Architect, Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
 source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '618'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -81,6 +81,6 @@ Mindestlänge des Suchbegriffs, um die Suche zu starten
 >
 >**Die Größe der Ergebnisse** und die **Minimale Länge für Suchbegriff** können Auswirkungen auf die Leistung haben, wenn sie zu hoch oder zu niedrig eingestellt sind.
 
-### Registerkarte „Stile“ {#styles-tab}
+### Registerkarte „Arten“ {#styles-tab}
 
 Die Komponente „Schnellsuche“ unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
