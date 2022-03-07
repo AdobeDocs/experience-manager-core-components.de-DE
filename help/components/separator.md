@@ -4,9 +4,9 @@ description: Die Trennzeichen-Komponente erstellt einen Umbruch zwischen Kompone
 role: Architect, Developer, Admin, User
 exl-id: 79f19368-67fa-4864-93f7-2aa801d13fdb
 source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '308'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -51,6 +51,6 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 
 Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Stile zu definieren, die auf die Trennzeichenkomponente angewendet werden.
 
-### Registerkarte „Stile“ {#styles-tab}
+### Registerkarte „Arten“ {#styles-tab}
 
 Die Trennzeichenkomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
