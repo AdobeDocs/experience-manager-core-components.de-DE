@@ -4,9 +4,9 @@ description: Die Registerkarten-Komponente ermöglicht die Erstellung mehrerer R
 role: Architect, Developer, Admin, User
 exl-id: 0031c5f3-447c-4932-898f-2f453801e492
 source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1032'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -118,7 +118,7 @@ Nach Auswahl der Option **Bedienfeld auswählen** in der Komponenten-Symbolleist
 
 >[!NOTE]
 >
->Registerkarten können vom Autor im **Bearbeiten**-Modus nicht ausgewählt werden. Verwenden Sie den **[Vorschaumodus](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=de#preview-mode)** oder die Option **[Als veröffentlicht anzeigen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**, um so mit den Registerkarten zu interagieren, wie es ein Leser des veröffentlichten Inhalts tun würde.
+>Registerkarten können vom Autor im **Bearbeiten**-Modus nicht ausgewählt werden. Verwenden Sie den **[Vorschaumodus](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=de#preview-mode)** oder die Option **[Als veröffentlicht anzeigen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=de#view-as-published)**, um so mit den Registerkarten zu interagieren, wie es ein Leser des veröffentlichten Inhalts tun würde.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
@@ -130,7 +130,7 @@ Im Dialogfeld „Design“ kann der Vorlagenautor definieren, welche Komponenten
 
 Die Registerkarte „Zugelassene Komponenten“ funktioniert auf die gleiche Weise wie die Registerkarte desselben Namens beim [Definieren der Richtlinie und Eigenschaften eines Layoutcontainers im Vorlageneditor.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=de)
 
-### Registerkarte „Stile“ {#styles-tab}
+### Registerkarte „Arten“ {#styles-tab}
 
 Die Registerkarten-Komponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
