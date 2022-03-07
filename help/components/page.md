@@ -4,9 +4,9 @@ description: Die Seitenkomponente ist eine Erweiterungskomponente für Seiten, d
 role: Architect, Developer, Admin, User
 exl-id: 2503e067-abed-427d-8a54-8b79e3451487
 source-git-commit: dbc1ba9ae0f9caa3bc52a7a5e08899c457813003
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '715'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ Die Kategorie der Client-Bibliothek, die verwendet wird, um Web-Ressourcen wie e
 
 * **Zur Auswahl des Hauptinhaltselements wechseln** - Wird als Barrierefreiheitsfunktion verwendet, um direkt zum Hauptinhalt der Seite zu springen.
 
-* **Alternative Sprachlinks rendern** - Wenn diese Option aktiviert ist, werden Links zu alternativen Sprachversionen der Seite auf derselben Site zum Seitenkopf hinzugefügt.
+* **Links in alternativen Sprachen rendern** – Wenn diese Option aktiviert ist, werden Links zu alternativen Sprachversionen der Seite in derselben Site zum Kopfbereich der Seite hinzugefügt.
 
 ![Dialogfeld „Design“ der Seitenkomponente](/help/assets/page-design.png)
 
@@ -89,7 +89,7 @@ Weitere Informationen zur Verwendung clientseitiger Bibliotheken finden Sie unte
 >
 >Die Möglichkeit, Client-Bibliotheken für den Seitenkopf separat zu definieren, wurde mit Version 2.2.0 der Kernkomponenten eingeführt.
 
-### Registerkarte „Stile“ {#styles-tab}
+### Registerkarte „Arten“ {#styles-tab}
 
 Die Seitenkomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
