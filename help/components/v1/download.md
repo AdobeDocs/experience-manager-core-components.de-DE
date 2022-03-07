@@ -3,9 +3,9 @@ title: Download-Komponente (v1)
 description: Die Kernkomponente „Download-Komponente“ ermöglicht die Erstellung einer Download-Option auf einer Seite.
 role: Architect, Developer, Admin, User
 source-git-commit: f8aa86d58ba71ede3c3cd867c45aafff06923325
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '644'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -27,9 +27,9 @@ In diesem Dokument wird die v1 der Download-Komponente beschrieben, die mit Vers
 
 >[!CAUTION]
 >
->In diesem Dokument wird v1 der Download-Komponente beschrieben.
+>In diesem Dokument wird die v1 der Download-Komponente beschrieben.
 >
->Weitere Informationen zur aktuellen Version der Download-Komponente finden Sie unter [Download-Komponente](/help/components/download.md) Dokument.
+>Weitere Informationen zur aktuellen Version der Download-Komponente finden Sie im Dokument [Download-Komponente](/help/components/download.md).
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
@@ -91,6 +91,6 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Optionen für 
 * **Dateiname anzeigen** - Wenn ausgewählt, wird der Dateiname des Assets in der Download-Komponente angezeigt.
    * Der Standardwert ist ausgewählt.
 
-### Registerkarte „Stile“ {#styles-tab}
+### Registerkarte „Arten“ {#styles-tab}
 
 Die Bildkomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
