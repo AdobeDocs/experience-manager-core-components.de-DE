@@ -4,9 +4,9 @@ description: Mit der Experience Fragment-Komponente kann der Inhaltsautor einer 
 role: Architect, Developer, Admin, User
 exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
 source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '893'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Mit der Kernkomponente Experience Fragment-Komponente kann der Inhaltsautor aus 
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die aktuelle Version der Experience Fragment-Komponente ist v2, die mit Version 2.18.0 der Kernkomponenten im Februar 2022 eingeführt wurde und in diesem Dokument beschrieben wird.
+Die aktuelle Version der Experience Fragment-Komponente ist v2. Sie wurde mit Version 2.18.0 der Kernkomponenten im Februar 2022 eingeführt und wird in diesem Dokument beschrieben.
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
@@ -129,20 +129,20 @@ Sie können auch eine **ID** festlegen. Diese Option dient zur Kontrolle der ein
 * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
 * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
-### Registerkarte „Stile“ {#styles-tab-edit}
+### Registerkarte „Arten“ {#styles-tab-edit}
 
-![Registerkarte &quot;Stile&quot;im Dialogfeld &quot;Bearbeiten&quot;der Experience Fragment-Komponente](/help/assets/experience-fragment-edit-styles.png)
+![Registerkarte „Arten“ im Dialogfeld „Bearbeiten“ der Inhaltsfragmentlisten-Komponente](/help/assets/experience-fragment-edit-styles.png)
 
-Die Experience Fragment-Komponente unterstützt das AEM-[Stilsystem.](/help/get-started/authoring.md#component-styling).
+Die Experience Fragment-Komponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
-Verwenden Sie das Dropdown-Menü, um die Stile auszuwählen, die Sie auf die Komponente anwenden möchten. Die im Dialogfeld &quot;Bearbeiten&quot;vorgenommenen Auswahlen haben denselben Effekt wie die in der Komponenten-Symbolleiste ausgewählten.
+Verwenden Sie das Dropdown-Menü, um die Stile auszuwählen, die Sie auf die Komponente anwenden möchten. Die im Dialogfeld „Bearbeiten“ vorgenommenen Auswahlen haben denselben Effekt wie die in der Komponenten-Symbolleiste ausgewählten.
 
-Stile müssen für diese Komponente im [Dialogfeld &quot;Design&quot;](#design-dialog) , damit das Dropdown-Menü verfügbar ist.
+Stile müssen für diese Komponente im [Dialogfeld „Design“](#design-dialog) konfiguriert werden, damit das Dropdown-Menü verfügbar ist.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
 Über das Dialogfeld „Design“ kann der Vorlagenautor die Optionen definieren, die dem Inhaltsautor zur Verfügung stehen, der die Experience Fragment-Komponente verwendet, sowie auch die Standardeinstellungen, die beim Platzieren der Experience Fragment-Komponente festgelegt wurden.
 
-### Registerkarte „Stile“ {#styles-tab}
+### Registerkarte „Arten“ {#styles-tab}
 
 Die Experience Fragment-Komponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
