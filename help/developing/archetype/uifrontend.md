@@ -5,9 +5,9 @@ feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 99132b49-bd06-4ac2-9348-12c0dfdfe8b2
 source-git-commit: 0e8082b0c5db1f2efc7db51f13123b5264a3a608
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1621'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Wenn der gesamte AEM-Projektarchetyp mit `mvn clean install -PautoInstallPackage
 
 ## Überblick über ClientLibs {#clientlibs}
 
-Das Frontend-Modul wird mithilfe einer [AEM ClientLib](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html) bereitgestellt. Beim Ausführen des NPM Build-Skripts wird das Programm erstellt und das aem-clientlib-generator-Paket nimmt die resultierende Buildausgabe entgegen und wandelt sie in eine solche ClientLib um.
+Das Frontend-Modul wird mithilfe einer [AEM ClientLib](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=de) bereitgestellt. Beim Ausführen des NPM Build-Skripts wird das Programm erstellt und das aem-clientlib-generator-Paket nimmt die resultierende Buildausgabe entgegen und wandelt sie in eine solche ClientLib um.
 
 Eine ClientLib besteht aus den folgenden Dateien und Verzeichnissen:
 
@@ -163,7 +163,7 @@ Der Prozess zum Erstellen des ui.frontend-Moduls nutzt das Plug-in [aem-clientli
 
 ### Einbinden von Client-Bibliotheken auf Seiten {#clientlib-inclusion}
 
-Die Kategorien `clientlib-site` und `clientlib-dependencies` sind auf den Seiten über die [Seitenrichtlinien-Konfiguration](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html#template-definitions) als Teil der Standardvorlage enthalten. Um die Richtlinie anzuzeigen, bearbeiten Sie die **Inhaltsseitenvorlage > Seiteninformationen > Seitenrichtlinie**.
+Die Kategorien `clientlib-site` und `clientlib-dependencies` sind auf den Seiten über die [Seitenrichtlinien-Konfiguration](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=de#template-definitions) als Teil der Standardvorlage enthalten. Um die Richtlinie anzuzeigen, bearbeiten Sie die **Inhaltsseitenvorlage > Seiteninformationen > Seitenrichtlinie**.
 
 Die endgültige Einbindung von Client-Bibliotheken auf der Seite „Sites“ erfolgt wie folgt:
 
