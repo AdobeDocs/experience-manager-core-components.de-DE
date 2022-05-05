@@ -2,13 +2,13 @@
 title: Teaser-Komponente (v1)
 description: Die Teaser-Komponente kann ein Bild, einen Titel, Rich-Text und optional einen Link zu weiteren Inhalten anzeigen.
 role: Architect, Developer, Admin, User
-source-git-commit: f8aa86d58ba71ede3c3cd867c45aafff06923325
-workflow-type: ht
-source-wordcount: '748'
-ht-degree: 100%
+exl-id: 48e56938-660a-43e7-9e62-8069283ae73f
+source-git-commit: 84e09fa64b3a7ae40ff3ff1a04ea1c7504db29d2
+workflow-type: tm+mt
+source-wordcount: '745'
+ht-degree: 97%
 
 ---
-
 
 # Teaser-Komponente (v1) {#teaser-component}
 
@@ -80,7 +80,7 @@ Der Inhaltsautor kann das Dialogfeld „Konfigurieren“ verwenden, um die Eigen
 
 ## Dialogfeld „Bearbeiten“ {#edit-dialog}
 
-Die Teaser-Komponente delegiert das Rendern von Bildern an die [Bild-Komponente](image-v1.md). Daher steht dem Inhaltsautor das [Dialogfeld „Bearbeiten“](image-v1.md#edit-dialog) der Bildkomponente zur Verfügung, um das Teaser-Bild zu bearbeiten.
+Die Teaser-Komponente delegiert das Rendern von Bildern an die [Bild-Komponente](image-v1.md). Daher [Dialogfeld &quot;Bearbeiten&quot;](image-v1.md#edit-dialog) der Bildkomponente ist für den Inhaltsautor verfügbar, um das Teaser-Bild zu bearbeiten.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
@@ -101,7 +101,7 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Teaser-Optione
 * **Links**
    * **Bild nicht verknüpfen** - Bei Auswahl dieser Option wird das Teaser-Bild nicht verknüpft.
    * **Titel nicht verknüpfen** - Bei Auswahl dieser Option wird der Teaser-Titel nicht verknüpft.
-* **Bilddelegat** - Information, die anzeigt, an welche Komponente der Teaser die Bildverarbeitung delegiert.
+* **Bilddelegat** – Informationen, die anzeigen, an welche Komponente der Teaser die Bildverarbeitung delegiert.
 
 ### Registerkarte „Arten“ {#styles-tab}
 
