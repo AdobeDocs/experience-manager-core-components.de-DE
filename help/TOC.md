@@ -5,7 +5,7 @@ breadcrumb-title: Anleitung zu den Hauptkomponenten
 user-guide-description: Nutzen Sie die erweiterbaren Hauptkomponenten, damit Autoren mühelos Inhalte erstellen können.
 feature-set: Experience Manager Sites
 source-git-commit: fce9b5b2693acf96724c4c6e9872012fda7d36d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '245'
 ht-degree: 100%
 
