@@ -1,16 +1,16 @@
 ---
-title: Schnellsuch-Komponente (v1)
+title: Schnellsuch-Komponente  (v1)
 description: Die Schnellsuch-Komponente bietet Suchfunktionen für eine Website und zeigt Suchergebnisse an, damit Besucher die Site durchsuchen und die Ergebnisse filtern können.
 role: Architect, Developer, Admin, User
 exl-id: 60a043b7-d82c-4bc1-b91a-b77f748f7bc2
 source-git-commit: ae2e1d0aaadbc0ad04847ce9aecb382e10cbedf1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '646'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Schnellsuch-Komponente (v1) {#quick-search-component}
+# Schnellsuch-Komponente  (v1) {#quick-search-component}
 
 Die Schnellsuch-Komponente bietet Suchfunktionen für eine Website und zeigt Suchergebnisse an, damit Besucher mühelos übereinstimmende Inhalte finden und Ergebnisse anzeigen können.
 
@@ -32,8 +32,8 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 
 >[!CAUTION]
 >
->In diesem Dokument wird v1 der Schnellsuchkomponente beschrieben.
->Weitere Informationen zur aktuellen Version der Schnellsuch-Komponente finden Sie in der [Schnellsuchkomponente](/help/components/quick-search.md) Dokument.
+>In diesem Dokument wird die v1 der Schnellsuch-Komponente beschrieben.
+>Weitere Informationen zur aktuellen Version der Schnellsuch-Komponente finden Sie im Dokument [Schnellsuch-Komponente](/help/components/quick-search.md).
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
 
