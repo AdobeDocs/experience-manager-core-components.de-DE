@@ -4,9 +4,9 @@ description: Die Teaser-Komponente kann ein Bild, einen Titel, Rich-Text und opt
 role: Architect, Developer, Admin, User
 exl-id: 48e56938-660a-43e7-9e62-8069283ae73f
 source-git-commit: 84e09fa64b3a7ae40ff3ff1a04ea1c7504db29d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '745'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ Der Inhaltsautor kann das Dialogfeld „Konfigurieren“ verwenden, um die Eigen
 
 ## Dialogfeld „Bearbeiten“ {#edit-dialog}
 
-Die Teaser-Komponente delegiert das Rendern von Bildern an die [Bild-Komponente](image-v1.md). Daher [Dialogfeld &quot;Bearbeiten&quot;](image-v1.md#edit-dialog) der Bildkomponente ist für den Inhaltsautor verfügbar, um das Teaser-Bild zu bearbeiten.
+Die Teaser-Komponente delegiert das Rendern von Bildern an die [Bild-Komponente](image-v1.md). Daher wird das [Dialogfeld „Bearbeiten“](image-v1.md#edit-dialog) dem Inhaltsautor zur Bearbeitung des Teaser-Bildes zur Verfügung gestellt.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
