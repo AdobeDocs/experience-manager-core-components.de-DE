@@ -3,8 +3,8 @@ title: Textkomponente
 description: Die Textkomponente ist eine Komponente zur Bearbeitung und Zusammensetzung von Rich-Texten, die eine direkte Bearbeitung ermöglicht.
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
-source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
-workflow-type: ht
+source-git-commit: c041439e31a7da62739b6d5130c52dea36662a0c
+workflow-type: tm+mt
 source-wordcount: '2209'
 ht-degree: 100%
 
@@ -51,7 +51,7 @@ Der Rest dieses Artikels zeigt die Standardkonfiguration der Textkomponente der 
 
 >[!NOTE]
 >
->In der Textkomponente sind nur Optionen verfügbar, die durch die [Benutzeroberflächenkonfigurationen des RTE](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=de) aktiviert sind.
+>In der Textkomponente sind nur Optionen verfügbar, die durch die [Benutzeroberflächenkonfigurationen des RTE](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) aktiviert sind.
 
 ## Dialogfeld „Bearbeiten“ {#edit-dialog}
 
@@ -226,7 +226,7 @@ Nur aktiv, wenn der ausgewählte Text bzw. die ausgewählte Position bereits ein
 
 ### Einzug
 
-![Symbol „Einzug“](/help/assets/text-outdent.png)
+![Symbol „Einzug“](/help/assets/text-indent.png)
 
 Wird verwendet, um den Einzug des ausgewählten Texts oder des nach dem Cursor eingegebenen Textes zu erhöhen.
 
@@ -258,7 +258,7 @@ Wird verwendet, um eine Tabelle in den Text einzufügen. Wenn Sie diese Option a
 
 Wird verwendet, um die Rechtschreibung des Textinhalts zu überprüfen. Mögliche Rechtschreibfehler sind durch gestrichelte rote Linien unterstrichen.
 
-Weitere Details zur Rechtschreibprüfung und zum Anpassen von Rechtschreibprüfungswörterbüchern finden Sie im Dokument [Konfigurieren der Plug-ins für Rich-Text-Editor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=de).
+Weitere Details zur Rechtschreibprüfung und zum Anpassen von Rechtschreibprüfungswörterbüchern finden Sie im Dokument [Konfigurieren der Plug-ins für Rich-Text-Editor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
 
 ### Sonderzeichen {#special-characters}
 
