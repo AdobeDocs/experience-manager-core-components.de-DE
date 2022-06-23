@@ -3,9 +3,9 @@ title: Entwickeln von Kernkomponenten
 description: Die Kernkomponenten bieten leistungsfähige und erweiterbare Basiskomponenten mit umfangreichen Funktionen, kontinuierlicher Bereitstellung, Komponentenversionierung, moderner Implementierung, schlankem Markup und JSON-Export von Inhalten.
 role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
-source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+source-git-commit: faf73c70a4bff387bed2f8cf6e48c39e597e51c7
 workflow-type: ht
-source-wordcount: '1583'
+source-wordcount: '1559'
 ht-degree: 100%
 
 ---
@@ -140,10 +140,6 @@ In der folgenden Tabelle sind die verfügbaren Kernkomponenten mit Links zu ihre
 | [Einbetten](https://adobe.com/go/aem_cmp_tech_embed_v1) | Einbetten einer externen Ressource in eine Seite | - |
 | [Fortschrittsleiste](https://adobe.com/go/aem_cmp_tech_progress_v1) | Visualisierung des Fortschritts beim Erreichen eines Ziels | - |
 | [PDF-Viewer](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1_de) | Zeigt ein PDF-Dokument auf einer Seite an | - |
-
-### Künftige Komponenten {#upcoming-components}
-
-Einen Überblick über geplante Kernkomponenten finden Sie im [Projekt-Wiki auf GitHub](https://github.com/adobe/aem-core-wcm-components/wiki/home).
 
 ## Aktualisierung der Kernkomponenten {#upgrade-of-core-components}
 
