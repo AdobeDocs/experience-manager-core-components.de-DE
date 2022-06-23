@@ -4,9 +4,9 @@ user-guide-title: AEM-Kernkomponenten
 breadcrumb-title: Anleitung zu den Hauptkomponenten
 user-guide-description: Nutzen Sie die erweiterbaren Hauptkomponenten, damit Autoren mühelos Inhalte erstellen können.
 feature-set: Experience Manager Sites
-source-git-commit: fce9b5b2693acf96724c4c6e9872012fda7d36d9
-workflow-type: ht
-source-wordcount: '245'
+source-git-commit: d67fe6776bac26e5060d1e83feb4c078c0a45295
+workflow-type: tm+mt
+source-wordcount: '248'
 ht-degree: 100%
 
 ---
@@ -43,6 +43,7 @@ ht-degree: 100%
    + [Schnellsuche](components/quick-search.md)
    + [Trennzeichen](components/separator.md)
    + [Freigabe in Social Media](components/sharing.md)
+   + [Inhalt](components/tableofcontents.md)
    + [Text](components/text.md)
    + [Registerkarten](components/tabs.md)
    + [Teaser](components/teaser.md)
