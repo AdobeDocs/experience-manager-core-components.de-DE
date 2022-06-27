@@ -3,9 +3,9 @@ title: Breadcrumb-Komponente
 description: Die Kernkomponente „Breadcrumb-Komponente“ ist eine Navigationskomponente, die einen Breadcrumb von Links basierend auf der Position der Seite in der Inhaltshierarchie erstellt.
 role: Architect, Developer, Admin, User
 exl-id: 19d65b9d-a407-4f50-9c55-8de0f12222ed
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: ht
-source-wordcount: '800'
+source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
+workflow-type: tm+mt
+source-wordcount: '801'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 |--- | --- |--- |---|
 | v3 | - | Kompatibel | Kompatibel |
 | [v2](v2/breadcrumb.md) | Kompatibel | Kompatibel | Kompatibel |
-| [v1](v1/breadcrumb-v1.md) | Kompatibel | Kompatibel | - |
+| [v1](v1/breadcrumb-v1.md) | Kompatibel | Kompatibel | Kompatibel |
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
 

@@ -4,10 +4,10 @@ description: Die Kernkomponente „Bildkomponente“ ist eine anpassungsfähige 
 index: n
 role: Architect, Developer, Admin, User
 exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '1229'
-ht-degree: 100%
+source-git-commit: 5f25aee6ebcb7a5c6b8db0df5b8b853f15af97d0
+workflow-type: tm+mt
+source-wordcount: '1323'
+ht-degree: 92%
 
 ---
 
@@ -109,7 +109,7 @@ Das Dialogfeld „Bearbeiten“ ermöglicht dem Inhaltsautor das Zuschneiden, Ä
    Wenn Sie diese Option auswählen, wird eine Dropdown-Liste für vordefinierte Zuschneideproportionen geöffnet.
 
    * Wählen Sie die Option **Freihand**, um Ihre eigene Zuschnittsart zu definieren.
-   * Wählen Sie **Zuschnitt entfernen**, um das ursprüngliche Asset anzuzeigen.
+   * Wählen Sie **Beschnitt entfernen**, um das ursprüngliche Asset anzuzeigen.
 
    Nachdem Sie eine Zuschnittoption ausgewählt haben, verwenden Sie die blauen Griffe, um die Beschneidung auf dem Bild anzupassen.
 
@@ -194,9 +194,17 @@ Tippen oder klicken Sie auf „Hinzufügen“, um eine weitere Größe hinzuzuf�
 
 Standardmäßig wird das Laden von Bildern verzögert, bis sie sichtbar werden. Wählen Sie die Option **Lazy Loading deaktivieren**, um die Bilder schon beim Laden der Seite zu laden.
 
+* **Web-optimierte Bilder aktivieren** - Wenn diese Option aktiviert ist, wird die [Web-optimierter Bildbereitstellungsdienst](/help/developing/web-optimized-image-delivery.md) liefert Bilder im WebP-Format, wodurch die Bildgröße um durchschnittlich 25 % verringert wird.
+   * Diese Option ist nur in AEMaaCS verfügbar.
+   * Wenn diese Option deaktiviert ist oder der Web-optimierte Bildbereitstellungsdienst nicht verfügbar ist, wird der [Adaptives Bildservlet](/help/developing/adaptive-image-servlet.md) verwendet.
+
 ### Funktionen {#features}
 
 Auf der Registerkarte **Funktionen** können Sie festlegen, welche Optionen den Inhaltsautoren zur Verfügung stehen, wenn sie die Komponente verwenden, einschließlich Optionen fürs Hochladen, Ausrichtung und Beschneiden.
+
+* **Web-optimierte Bilder aktivieren** - Wenn diese Option aktiviert ist, stellt der Web-optimierte Bildbereitstellungsdienst Bilder im WebP-Format bereit und reduziert so die Bildgröße um durchschnittlich 25 %.
+   * Diese Option ist nur in AEMaaCS verfügbar.
+   * Wenn diese Option deaktiviert ist oder der Web-optimierte Bildbereitstellungsdienst nicht verfügbar ist, wird der [Adaptives Bildservlet](/help/developing/adaptive-image-servlet.md) verwendet.
 
 * Quelle
 

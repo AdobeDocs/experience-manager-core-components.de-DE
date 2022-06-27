@@ -3,10 +3,10 @@ title: Bildkomponente (v2)
 description: Die Kernkomponente „Bildkomponente“ ist eine anpassungsfähige Bildkomponente mit Funktionen zur Bearbeitung im Kontext.
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
-source-git-commit: c64cdbf3779318c9cf018658d43684946de9c15b
-workflow-type: ht
-source-wordcount: '2231'
-ht-degree: 100%
+source-git-commit: 5f25aee6ebcb7a5c6b8db0df5b8b853f15af97d0
+workflow-type: tm+mt
+source-wordcount: '2092'
+ht-degree: 96%
 
 ---
 
@@ -36,10 +36,6 @@ Die Bildkomponente verfügt über robuste responsive Funktionen, die direkt sofo
 
 Darüber hinaus unterstützt die Bildkomponente verzögertes Laden, um das Laden des tatsächlichen Bild-Assets zu verzögern, bis es im Browser sichtbar ist, wodurch die Reaktionsgeschwindigkeit Ihrer Seiten zunimmt.
 
->[!TIP]
->
->Weitere technische Details zu diesen Funktionen und Tipps zur Optimierung der Auswahl für die Ausgabedarstellung finden Sie im Abschnitt zum [Adaptive Image Servlet](#adaptive-image-servlet).
-
 ## Dynamic Media-Unterstützung {#dynamic-media}
 
 Die Bildkomponente (ab [Version 2.13.0](/help/versions.md)) unterstützt [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=de#dynamicmedia)-Assets. [Wenn diese Funktionen aktiviert sind](#design-dialog), können Sie Dynamic Media-Bild-Assets per Drag-and-Drop oder über den Assets-Browser hinzufügen, wie Sie es mit jedem anderen Bild tun würden. Darüber hinaus werden auch Bild-Modifikatoren, Bildvorgaben und Smartes Zuschneiden unterstützt.
@@ -51,7 +47,7 @@ Ihre mit Kernkomponenten erstellten Web-Erlebnisse können jetzt funktionsreiche
 Skalierbare Vektorgrafiken (SVG) werden von der Bildkomponente unterstützt.
 
 * Das Drag-and-Drop eines SVG-Assets aus DAM und das Hochladen eines SVG-Datei-Uploads aus einem lokalen Dateisystem werden beide unterstützt.
-* Das Adaptive Bildservlet streamt die ursprüngliche SVG-Datei (Transformationen werden übersprungen).
+* Die ursprüngliche SVG-Datei wird gestreamt (Transformationen werden übersprungen).
 * Bei einem SVG-Bild werden die „Smart-Bilder“ und die „Smart-Größen“ auf ein leeres Array im Bildmodell festgelegt.
 
 ### Sicherheit {#security}
@@ -186,9 +182,12 @@ Auf der Registerkarte **Haupt** können Sie eine Liste der Breiten in Pixel für
 
 Darüber hinaus können Sie festlegen, welche allgemeinen Komponentenoptionen automatisch aktiviert oder deaktiviert werden, wenn der Autor die Komponente zu einer Seite hinzufügt.
 
-![Registerkarte „Haupt“ im Dialogfeld „Design“ der Bildkomponente](/help/assets/image-design-main.png)
+![Registerkarte „Haupt“ im Dialogfeld „Design“ der Bildkomponente](/help/assets/image-design-main-v2.png)
 
 * **DM-Funktionen aktivieren** - Wenn diese Option aktiviert ist, sind die [Dynamic Media-Funktionen](#dynamic-media) verfügbar.
+* **Web-optimierte Bilder aktivieren** - Wenn diese Option aktiviert ist, wird die [Web-optimierter Bildbereitstellungsdienst](/help/developing/web-optimized-image-delivery.md) liefert Bilder im WebP-Format, wodurch die Bildgröße um durchschnittlich 25 % verringert wird.
+   * Diese Option ist nur in AEMaaCS verfügbar.
+   * Wenn diese Option deaktiviert ist oder der Web-optimierte Bildbereitstellungsdienst nicht verfügbar ist, wird der [Adaptives Bildservlet](/help/developing/adaptive-image-servlet.md) verwendet.
 * **Lazy Loading aktivieren** - Festlegen, ob die Option für verzögertes Laden (Lazy Loading) automatisch aktiviert ist, wenn die Bildkomponente einer Seite hinzugefügt wird.
 * **Bild ist dekorativ** - Festlegen, ob die Option für dekorative Bilder automatisch aktiviert ist, wenn die Bildkomponente einer Seite hinzugefügt wird.
 * **Alternativtext von DAM abrufen** - Festlegen, ob die Option zum Abrufen des Alternativtexts aus DAM automatisch aktiviert ist, wenn die Bildkomponente einer Seite hinzugefügt wird.
@@ -205,7 +204,7 @@ Darüber hinaus können Sie festlegen, welche allgemeinen Komponentenoptionen au
 
 >[!TIP]
 >
->Weitere technische Details zu den Funktionen und Tipps zur Optimierung der Auswahl für die Ausgabedarstellung durch sorgfältiges Definieren der Breiten finden Sie im Abschnitt zum [Adaptive Image Servlet](#adaptive-image-servlet).
+>Siehe Dokument . [Adaptives Bildservlet](#adaptive-image-servlet) Tipps zur Optimierung der Ausgabedarstellungsauswahl durch sorgfältige Definition der Breiten.
 
 ### Registerkarte „Funktionen“ {#features-tab}
 
@@ -248,22 +247,6 @@ Auf der Registerkarte **Funktionen** können Sie festlegen, welche Optionen den 
 ### Registerkarte „Arten“ {#styles-tab-1}
 
 Die Bildkomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
-
-## Adaptives Bildservlet {#adaptive-image-servlet}
-
-Die Bildkomponente verwendet das Adaptive Bildservlet der Kernkomponente. [Das Adaptive Bildservlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) übernimmt die Bildverarbeitung sowie das Streaming und kann von Entwicklern bei der [Anpassung der Kernkomponenten](/help/developing/customizing.md) genutzt werden.
-
-### Optimieren der Auswahl für die Ausgabedarstellung {#optimizing-rendition-selection}
-
-Das Adaptive Image Servlet versucht, die beste Ausgabedarstellung für die angeforderte Bildgröße und den angeforderten Bildtyp auszuwählen. Es wird empfohlen, die zulässigen Breiten von DAM-Ausgabeformaten und Bildkomponenten synchron zu definieren, damit die Verarbeitung durch das Adaptive Image Servlet so gering wie möglich ist.
-
-Dadurch wird die Leistung verbessert und verhindert, dass einige Bilder von der zugrunde liegenden Bildverarbeitungsbibliothek nicht korrekt verarbeitet werden.
-
->[!NOTE]
->
->Bedingte Anforderungen über den `Last-Modified`-Header werden vom Adaptiven Bildservlet unterstützt, aber die Zwischenspeicherung des `Last-Modified`-Headers [muss im Dispatcher aktiviert werden](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=de#caching-http-response-headers).
->
->Die Dispatcher-Musterkonfiguration des [AEM-Projektarchetyps](/help/developing/archetype/overview.md) enthält diese Konfiguration bereits.
 
 ## Adobe Client-Datenschicht {#data-layer}
 

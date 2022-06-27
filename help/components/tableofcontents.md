@@ -2,10 +2,11 @@
 title: Inhaltskomponente
 description: Die Inhaltsverzeichniskomponente erstellt ein "ToC", das auf den Titeln im Seiteninhalt basiert und es Ihren Lesern ermöglicht, schnell auf der Seite zu navigieren.
 role: Architect, Developer, Admin, User
-source-git-commit: 52c63ecb014e5d4fda4d166d92e8efb3163633ba
+exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
+source-git-commit: 394a8b968d7bcde7e766ed719c5914ec5cb60744
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 23%
+source-wordcount: '759'
+ht-degree: 22%
 
 ---
 
@@ -15,7 +16,11 @@ Die Inhaltsverzeichniskomponente erstellt ein &quot;ToC&quot;, das auf den Titel
 
 ## Nutzung {#usage}
 
-Die Komponente Inhaltsverzeichnis bietet Site-Besuchern die Möglichkeit, schnell durch den Inhalt Ihrer Seite durch ein anhand der Titel des Seiteninhalts generiertes Inhaltsverzeichnis zu navigieren.
+Die Komponente &quot;Inhaltsverzeichnis&quot;bietet Site-Besuchern die Möglichkeit, schnell durch den Inhalt Ihrer Seite durch ein effizient generiertes Inhaltsverzeichnis zu navigieren, das auf den Titeln des Seiteninhalts basiert.
+
+* Das ToC wird serverseitig generiert.
+* Er wird vollständig vom Dispatcher zwischengespeichert, um eine schnelle Bereitstellung zu ermöglichen.
+* Es funktioniert mit allen Komponenten auf der Seite, nicht nur mit den Kernkomponenten.
 
 Die [Dialogfeld &quot;Bearbeiten&quot;](#edit-dialog) ermöglicht es dem Inhaltsautor, den Bereich der Titel zu definieren, die in der ToC verwendet werden sollen. Verwenden der [Dialogfeld &quot;Design&quot;](#design-dialog)kann der Vorlagenautor den Standardwert für die Titel festlegen, wenn ein Inhaltsautor einer Seite eine Inhaltsverzeichniskomponente hinzufügt und die in der Inhaltsdatei enthaltenen Titel auf der Grundlage von Klassennamen beschränkt.
 

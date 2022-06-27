@@ -3,10 +3,10 @@ title: Bildkomponente
 description: Die Kernkomponente „Bildkomponente“ ist eine anpassungsfähige Bildkomponente mit Funktionen zur Bearbeitung im Kontext.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 1a02aea6cda2bb1f70ab97d7a439e2c8e64add52
-workflow-type: ht
-source-wordcount: '1799'
-ht-degree: 100%
+source-git-commit: 2af48e397e47916760656cde8b0295b2f75cb0a6
+workflow-type: tm+mt
+source-wordcount: '1662'
+ht-degree: 93%
 
 ---
 
@@ -30,7 +30,7 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 |--- |--- |--- |---|
 | v3 | - | Kompatibel | Kompatibel |
 | [v2](v2/image.md) | Kompatibel | Kompatibel | Kompatibel |
-| [v1](v1/image-v1.md) | Kompatibel | Kompatibel | - |
+| [v1](v1/image-v1.md) | Kompatibel | Kompatibel | Kompatibel |
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
 
@@ -40,23 +40,19 @@ Die Bildkomponente verfügt über robuste responsive Funktionen, die direkt sofo
 
 Darüber hinaus unterstützt die Bildkomponente verzögertes Laden, um das Laden des tatsächlichen Bild-Assets zu verzögern, bis es im Browser sichtbar ist, wodurch die Reaktionsgeschwindigkeit Ihrer Seiten zunimmt.
 
->[!TIP]
->
->Weitere technische Details zu diesen Funktionen und Tipps zur Optimierung der Auswahl für die Ausgabedarstellung finden Sie im Abschnitt zum [Adaptive Image Servlet](#adaptive-image-servlet).
-
 ## Dynamic Media-Unterstützung {#dynamic-media}
 
 Die Bildkomponente (ab [Version 2.13.0](/help/versions.md)) unterstützt [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=de#dynamicmedia)-Assets. [Wenn diese Funktionen aktiviert sind](#design-dialog), können Sie Dynamic Media-Bild-Assets per Drag-and-Drop oder über den Assets-Browser hinzufügen, wie Sie es mit jedem anderen Bild tun würden. Darüber hinaus werden auch Bild-Modifikatoren, Bildvorgaben und Smartes Zuschneiden unterstützt.
 
-Ihre mit Kernkomponenten erstellten Web-Erlebnisse können jetzt funktionsreiche, Sensei-gestützte, robuste, leistungsstarke und plattformübergreifende Dynamic Media-Bildfunktionen enthalten.
+Ihre mit Kernkomponenten erstellten Web-Erlebnisse können umfassende, Sensei-gestützte, robuste, leistungsstarke, plattformübergreifende Dynamic Media-Bildfunktionen bieten.
 
 ## SVG-Unterstützung {#svg-support}
 
 Skalierbare Vektorgrafiken (SVG) werden von der Bildkomponente unterstützt.
 
 * Das Drag-and-Drop eines SVG-Assets aus DAM und das Hochladen eines SVG-Datei-Uploads aus einem lokalen Dateisystem werden beide unterstützt.
-* Das Adaptive Bildservlet streamt die ursprüngliche SVG-Datei (Transformationen werden übersprungen).
-* Bei einem SVG-Bild werden die „Smart-Bilder“ und die „Smart-Größen“ auf ein leeres Array im Bildmodell festgelegt.
+* Die ursprüngliche SVG-Datei wird gestreamt (Transformationen werden übersprungen).
+* Bei einem SVG-Bild werden die &quot;intelligenten Bilder&quot;und die &quot;intelligenten Größen&quot;auf ein leeres Array im Bildmodell eingestellt.
 
 ### Sicherheit {#security}
 
@@ -135,10 +131,15 @@ Stile müssen für diese Komponente im [Dialogfeld „Design“](#design-dialog)
 
 ## Dialogfeld „Design“ {#design-dialog}
 
+### Registerkarte „Allgemein“ {#main-tab}
+
 ![Registerkarte „Haupt“ im Dialogfeld „Design“ der Bildkomponente](/help/assets/image-design-main.png)
 
 * **DM-Funktionen aktivieren** – Wenn diese Option aktiviert ist, sind die [Dynamic Media-Funktionen](#dynamic-media) verfügbar.
    * Diese Option wird nur angezeigt, wenn „Dynamic Media“ in der Umgebung aktiviert ist.
+* **Web-optimierte Bilder aktivieren** - Wenn aktiviert, [der weboptimierte Bildbereitstellungsdienst](/help/developing/web-optimized-image-delivery.md) liefert Bilder im WebP-Format, wodurch die Bildgröße um durchschnittlich 25 % verringert wird.
+   * Diese Option ist nur in AEMaaCS verfügbar.
+   * Wenn diese Option deaktiviert ist oder der Web-optimierte Bildbereitstellungsdienst nicht verfügbar ist, wird der [Adaptives Bildservlet](/help/developing/adaptive-image-servlet.md) verwendet.
 * **Lazy Loading deaktivieren** – Wenn diese Option aktiviert ist, lädt die Komponente alle Bilder vorab, ohne dass das Laden verzögert wird.
 * **Bild ist dekorativ** - Festlegen, ob die Option für dekorative Bilder automatisch aktiviert ist, wenn die Bildkomponente einer Seite hinzugefügt wird.
 * **Alternativtext von DAM abrufen** - Festlegen, ob die Option zum Abrufen des Alternativtexts aus DAM automatisch aktiviert ist, wenn die Bildkomponente einer Seite hinzugefügt wird.
@@ -161,27 +162,11 @@ Sie können eine Liste von Breiten in Pixeln für das Bild definieren, und die K
 
 >[!TIP]
 >
->Weitere technische Details zu den Funktionen und Tipps zur Optimierung der Auswahl für die Ausgabedarstellung durch sorgfältiges Definieren der Breiten finden Sie im Abschnitt zum [Adaptive Image Servlet](#adaptive-image-servlet).
+>Siehe Dokument . [Adaptives Bildservlet](/help/developing/adaptive-image-servlet.md) Tipps zur Optimierung der Ausgabedarstellungsauswahl durch sorgfältige Definition der Breiten.
 
 ### Registerkarte „Arten“ {#styles-tab}
 
 Die Bildkomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
-
-## Adaptives Bildservlet {#adaptive-image-servlet}
-
-Die Bildkomponente verwendet das Adaptive Bildservlet der Kernkomponente. [Das Adaptive Bildservlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) übernimmt die Bildverarbeitung sowie das Streaming und kann von Entwicklern bei der [Anpassung der Kernkomponenten](/help/developing/customizing.md) genutzt werden.
-
-### Optimieren der Auswahl für die Ausgabedarstellung {#optimizing-rendition-selection}
-
-Das Adaptive Image Servlet versucht, die beste Ausgabedarstellung für die angeforderte Bildgröße und den angeforderten Bildtyp auszuwählen. Es wird empfohlen, die zulässigen Breiten von DAM-Ausgabeformaten und Bildkomponenten synchron zu definieren, damit die Verarbeitung durch das Adaptive Image Servlet so gering wie möglich ist.
-
-Dadurch wird die Leistung verbessert und verhindert, dass einige Bilder von der zugrunde liegenden Bildverarbeitungsbibliothek nicht korrekt verarbeitet werden.
-
->[!NOTE]
->
->Bedingte Anforderungen über den `Last-Modified`-Header werden vom Adaptiven Bildservlet unterstützt, aber die Zwischenspeicherung des `Last-Modified`-Headers [muss im Dispatcher aktiviert werden](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=de#caching-http-response-headers).
->
->Die Dispatcher-Musterkonfiguration des [AEM-Projektarchetyps](/help/developing/archetype/overview.md) enthält diese Konfiguration bereits.
 
 ## Adobe Client-Datenschicht {#data-layer}
 
