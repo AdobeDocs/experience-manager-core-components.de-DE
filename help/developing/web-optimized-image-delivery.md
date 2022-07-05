@@ -2,13 +2,13 @@
 title: Weboptimierte Bildbereitstellung
 description: Erfahren Sie, wie die Kernkomponenten AEM Web-optimierten Bildbereitstellungsfunktionen von as a Cloud Service nutzen können, um Bilder effizienter bereitzustellen.
 role: Architect, Developer, Admin, User
-source-git-commit: 20436ffb5d6a6346738be1e6f5e6e2e8a68e76c9
+exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
+source-git-commit: df0ae972ca698e809a5cb8a5ad2d41ad89c2db8e
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1169'
 ht-degree: 0%
 
 ---
-
 
 # Weboptimierte Bildbereitstellung {#web-optimized-image-delivery}
 
@@ -122,6 +122,6 @@ Siehe vorherigen Abschnitt [Aktivieren der Web-optimierten Bildbereitstellung f�
 
 Nein, das sollte niemals geschehen.
 
-* Auf der HTML ändert sich das Markup bei der Aktivierung Web-optimierter Bilder nicht, sondern nur der Wert des SCR-Attributs für das Bildelement.
+* Auf der HTML ändert sich das Markup nicht bei der Aktivierung Web-optimierter Bilder, sondern nur der Wert des SRC-Attributs für das Bildelement.
 * Wenn der neue Bilddienst nicht verfügbar ist oder das gewünschte Bild nicht verarbeiten kann, wird die generierte URL [Fallback zum Adaptive Image Servlet.](#fallback)
 * Dispatcher-Regeln können den Web-optimierten Bilddienst blockieren und [sollte beim Aktivieren der Funktion überprüft werden.](#activating)
