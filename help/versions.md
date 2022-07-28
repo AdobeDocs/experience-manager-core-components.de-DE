@@ -5,8 +5,8 @@ role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 source-git-commit: 35b9c0d32d402e3f5466ccc1021094de5c7a750e
 workflow-type: tm+mt
-source-wordcount: '2686'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,8 +30,8 @@ Die folgende Tabelle, deren Inhalt [auf GitHub mit vollständigen Versionsinform
 | --- | — | — | — | — | — | — |
 | [2,20,4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.4) | Diese Patch-Version behebt ein Problem mit der neuen [Inhaltskomponente](/help/components/tableofcontents.md) | - | 6.5.13.0+ * | Kontinuierlich | 8, 11 | 29. Juni 2022 |
 | — | — | — | — | — | — | — |
-| [2,20,2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.2) | Dies ist eine Patch-Version, die ein Problem im neuen AEMaaCS behebt [weboptimierter Asset-Bereitstellungsdienst.](/help/developing/web-optimized-image-delivery.md) | - | 6.5.13.0+ * | Kontinuierlich | 8, 11 | 20. Juni 2022 |
-| [2.20.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.0) | Diese Version fügt eine neue [Inhaltskomponente](/help/components/tableofcontents.md)unterstützt nun AEMaaCS [Web-optimierter Asset-Bereitstellungsdienst,](/help/developing/web-optimized-image-delivery.md) und enthält Fehlerbehebungen. | - | 6.5.13.0+ * | Kontinuierlich | 8, 11 | 9. Juni 2022 |
+| [2.20.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.2) | Dies ist eine Patch-Version, die ein Problem im neuen [Web-optimierten Elementbereitstellungs-Service](/help/developing/web-optimized-image-delivery.md) von AEMaaCS behebt. | - | 6.5.13.0+ * | Kontinuierlich | 8, 11 | 20. Juni 2022 |
+| [2.20.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.0) | Diese Version fügt eine neue [Inhaltskomponente](/help/components/tableofcontents.md) sowie Unterstützung für den [Web-optimierten Elementbereitstellungs-Service](/help/developing/web-optimized-image-delivery.md) von AEMaaCS hinzu und enthält Fehlerbehebungen. | - | 6.5.13.0+ * | Kontinuierlich | 8, 11 | 9. Juni 2022 |
 | [2.19.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.19.0) | Mit dieser Veröffentlichung erhält die [Suchkomponente](/help/components/quick-search.md) eine neue Version und die [Schaltflächenkomponente](/help/components/button.md) neue Funktionen. Außerdem bietet sie viele Verbesserungen der Barrierefreiheit und Fehlerbehebungen. | - | 6.5.10.0+ * | Kontinuierlich | 8, 11 | 7. April 2022 |
 | [2.18.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.8) | Diese Version behebt ein Problem bei AEMaaCS. | - | 6.5.10.0+ * | Kontinuierlich | 8, 11 | 17. März 2022 |
 | [2.18.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.6) | Dies ist eine Patch-Version. | - | 6.5.10.0+ * | Kontinuierlich | 8, 11 | 3. März 2022 |
