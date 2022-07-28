@@ -4,9 +4,9 @@ description: Die Kernkomponente „Bildkomponente“ ist eine anpassungsfähige 
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
 source-git-commit: 5f25aee6ebcb7a5c6b8db0df5b8b853f15af97d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2092'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -176,7 +176,7 @@ Der Editor für die Bearbeitung im Kontext kann auch zum Ändern des Bildes verw
 
 Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Beschneidungs-, Drehungs- und Upload-Optionen zu definieren, die der Inhaltsautor bei Verwendung dieser Komponente hat.
 
-### Registerkarte „Allgemein“ {#main-tab}
+### Registerkarte „Haupt“ {#main-tab}
 
 Auf der Registerkarte **Haupt** können Sie eine Liste der Breiten in Pixel für das Bild definieren, und die Komponente lädt automatisch die passende Breite basierend auf der Browser-Größe. Dies ist ein wichtiger Teil der [responsiven Funktionen](#responsive-features) der Bildkomponente.
 
@@ -185,9 +185,9 @@ Darüber hinaus können Sie festlegen, welche allgemeinen Komponentenoptionen au
 ![Registerkarte „Haupt“ im Dialogfeld „Design“ der Bildkomponente](/help/assets/image-design-main-v2.png)
 
 * **DM-Funktionen aktivieren** - Wenn diese Option aktiviert ist, sind die [Dynamic Media-Funktionen](#dynamic-media) verfügbar.
-* **Web-optimierte Bilder aktivieren** - Wenn diese Option aktiviert ist, wird die [Web-optimierter Bildbereitstellungsdienst](/help/developing/web-optimized-image-delivery.md) liefert Bilder im WebP-Format, wodurch die Bildgröße um durchschnittlich 25 % verringert wird.
+* **Web-optimierte Grafiken aktivieren**: Wenn diese Option aktiviert ist, liefert der [Service für die Web-optimierte Bildbereitstellung](/help/developing/web-optimized-image-delivery.md) Bilder im WebP-Format, wodurch die Bildgröße um durchschnittlich 25 % verringert wird.
    * Diese Option ist nur in AEMaaCS verfügbar.
-   * Wenn diese Option deaktiviert ist oder der Web-optimierte Bildbereitstellungsdienst nicht verfügbar ist, wird der [Adaptives Bildservlet](/help/developing/adaptive-image-servlet.md) verwendet.
+   * Wenn diese Option deaktiviert ist oder der Service für die Web-optimierte Bildbereitstellung nicht verfügbar ist, wird das [Adaptive Image Servlet](/help/developing/adaptive-image-servlet.md) verwendet.
 * **Lazy Loading aktivieren** - Festlegen, ob die Option für verzögertes Laden (Lazy Loading) automatisch aktiviert ist, wenn die Bildkomponente einer Seite hinzugefügt wird.
 * **Bild ist dekorativ** - Festlegen, ob die Option für dekorative Bilder automatisch aktiviert ist, wenn die Bildkomponente einer Seite hinzugefügt wird.
 * **Alternativtext von DAM abrufen** - Festlegen, ob die Option zum Abrufen des Alternativtexts aus DAM automatisch aktiviert ist, wenn die Bildkomponente einer Seite hinzugefügt wird.
@@ -204,7 +204,7 @@ Darüber hinaus können Sie festlegen, welche allgemeinen Komponentenoptionen au
 
 >[!TIP]
 >
->Siehe Dokument . [Adaptives Bildservlet](#adaptive-image-servlet) Tipps zur Optimierung der Ausgabedarstellungsauswahl durch sorgfältige Definition der Breiten.
+>Im Dokument [Adaptive Image Servlet](#adaptive-image-servlet) finden Sie Tipps zur Optimierung der Ausgabedarstellungsauswahl durch sorgfältige Definition der Breiten.
 
 ### Registerkarte „Funktionen“ {#features-tab}
 
