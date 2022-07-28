@@ -4,9 +4,9 @@ description: Die Kernkomponente „Bildkomponente“ ist eine anpassungsfähige 
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: 2af48e397e47916760656cde8b0295b2f75cb0a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1662'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Darüber hinaus unterstützt die Bildkomponente verzögertes Laden, um das Laden
 
 Die Bildkomponente (ab [Version 2.13.0](/help/versions.md)) unterstützt [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=de#dynamicmedia)-Assets. [Wenn diese Funktionen aktiviert sind](#design-dialog), können Sie Dynamic Media-Bild-Assets per Drag-and-Drop oder über den Assets-Browser hinzufügen, wie Sie es mit jedem anderen Bild tun würden. Darüber hinaus werden auch Bild-Modifikatoren, Bildvorgaben und Smartes Zuschneiden unterstützt.
 
-Ihre mit Kernkomponenten erstellten Web-Erlebnisse können umfassende, Sensei-gestützte, robuste, leistungsstarke, plattformübergreifende Dynamic Media-Bildfunktionen bieten.
+Ihre mit Kernkomponenten erstellten Web-Erlebnisse können jetzt funktionsreiche, Sensei-gestützte, robuste, leistungsstarke und plattformübergreifende Dynamic Media-Bildfunktionen enthalten.
 
 ## SVG-Unterstützung {#svg-support}
 
@@ -52,7 +52,7 @@ Skalierbare Vektorgrafiken (SVG) werden von der Bildkomponente unterstützt.
 
 * Das Drag-and-Drop eines SVG-Assets aus DAM und das Hochladen eines SVG-Datei-Uploads aus einem lokalen Dateisystem werden beide unterstützt.
 * Die ursprüngliche SVG-Datei wird gestreamt (Transformationen werden übersprungen).
-* Bei einem SVG-Bild werden die &quot;intelligenten Bilder&quot;und die &quot;intelligenten Größen&quot;auf ein leeres Array im Bildmodell eingestellt.
+* Bei einem SVG-Bild werden die „Smart-Bilder“ und die „Smart-Größen“ auf ein leeres Array im Bildmodell festgelegt.
 
 ### Sicherheit {#security}
 
@@ -131,15 +131,15 @@ Stile müssen für diese Komponente im [Dialogfeld „Design“](#design-dialog)
 
 ## Dialogfeld „Design“ {#design-dialog}
 
-### Registerkarte „Allgemein“ {#main-tab}
+### Registerkarte „Haupt“ {#main-tab}
 
 ![Registerkarte „Haupt“ im Dialogfeld „Design“ der Bildkomponente](/help/assets/image-design-main.png)
 
 * **DM-Funktionen aktivieren** – Wenn diese Option aktiviert ist, sind die [Dynamic Media-Funktionen](#dynamic-media) verfügbar.
    * Diese Option wird nur angezeigt, wenn „Dynamic Media“ in der Umgebung aktiviert ist.
-* **Web-optimierte Bilder aktivieren** - Wenn aktiviert, [der weboptimierte Bildbereitstellungsdienst](/help/developing/web-optimized-image-delivery.md) liefert Bilder im WebP-Format, wodurch die Bildgröße um durchschnittlich 25 % verringert wird.
+* **Web-optimierte Grafiken aktivieren**: Wenn diese Option aktiviert ist, liefert [der Web-optimierte Bildbereitstellungs-Service](/help/developing/web-optimized-image-delivery.md) Bilder im WebP-Format. Dadurch wird die Bildgröße durchschnittlich um 25 % verringert.
    * Diese Option ist nur in AEMaaCS verfügbar.
-   * Wenn diese Option deaktiviert ist oder der Web-optimierte Bildbereitstellungsdienst nicht verfügbar ist, wird der [Adaptives Bildservlet](/help/developing/adaptive-image-servlet.md) verwendet.
+   * Wenn diese Option deaktiviert ist oder der Web-optimierte Bildbereitstellungs-Service nicht verfügbar ist, wird das [Adaptive Image Servlet](/help/developing/adaptive-image-servlet.md) verwendet.
 * **Lazy Loading deaktivieren** – Wenn diese Option aktiviert ist, lädt die Komponente alle Bilder vorab, ohne dass das Laden verzögert wird.
 * **Bild ist dekorativ** - Festlegen, ob die Option für dekorative Bilder automatisch aktiviert ist, wenn die Bildkomponente einer Seite hinzugefügt wird.
 * **Alternativtext von DAM abrufen** - Festlegen, ob die Option zum Abrufen des Alternativtexts aus DAM automatisch aktiviert ist, wenn die Bildkomponente einer Seite hinzugefügt wird.
@@ -162,7 +162,7 @@ Sie können eine Liste von Breiten in Pixeln für das Bild definieren, und die K
 
 >[!TIP]
 >
->Siehe Dokument . [Adaptives Bildservlet](/help/developing/adaptive-image-servlet.md) Tipps zur Optimierung der Ausgabedarstellungsauswahl durch sorgfältige Definition der Breiten.
+>Tipps zur Optimierung der Auswahl für die Ausgabedarstellung durch sorgfältige Definition der Breiten finden Sie im Dokument [Adaptive Image Servlet](/help/developing/adaptive-image-servlet.md).
 
 ### Registerkarte „Arten“ {#styles-tab}
 
