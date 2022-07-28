@@ -5,9 +5,9 @@ index: n
 role: Architect, Developer, Admin, User
 exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
 source-git-commit: 5f25aee6ebcb7a5c6b8db0df5b8b853f15af97d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1323'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -183,7 +183,7 @@ Das Dialogfeld „Design“ ermöglicht dem Vorlagenautor die Definition von Zus
 
 ### Allgemein {#main}
 
-In dieser Registerkarte **Allgemein** können Sie eine Liste der zulässigen Breiten in Pixel definieren, damit das Bild automatisch die angemessenste Breite aus der Liste laden wird.
+In dieser Registerkarte **Haupt** können Sie eine Liste der zulässigen Breiten in Pixel definieren, damit das Bild automatisch die angemessenste Breite aus der Liste laden wird.
 
 ![](/help/assets/chlimage_1-51.png)
 
@@ -194,17 +194,17 @@ Tippen oder klicken Sie auf „Hinzufügen“, um eine weitere Größe hinzuzuf�
 
 Standardmäßig wird das Laden von Bildern verzögert, bis sie sichtbar werden. Wählen Sie die Option **Lazy Loading deaktivieren**, um die Bilder schon beim Laden der Seite zu laden.
 
-* **Web-optimierte Bilder aktivieren** - Wenn diese Option aktiviert ist, wird die [Web-optimierter Bildbereitstellungsdienst](/help/developing/web-optimized-image-delivery.md) liefert Bilder im WebP-Format, wodurch die Bildgröße um durchschnittlich 25 % verringert wird.
+* **Web-optimierte Grafiken aktivieren**: Wenn diese Option aktiviert ist, liefert der [Web-optimierte Bildbereitstellungs-Service](/help/developing/web-optimized-image-delivery.md) Bilder im WebP-Format. Dadurch wird die Bildgröße durchschnittlich um 25 % verringert.
    * Diese Option ist nur in AEMaaCS verfügbar.
-   * Wenn diese Option deaktiviert ist oder der Web-optimierte Bildbereitstellungsdienst nicht verfügbar ist, wird der [Adaptives Bildservlet](/help/developing/adaptive-image-servlet.md) verwendet.
+   * Wenn diese Option deaktiviert ist oder der Web-optimierte Bildbereitstellungs-Service nicht verfügbar ist, wird das [Adaptive Image Servlet](/help/developing/adaptive-image-servlet.md) verwendet.
 
 ### Funktionen {#features}
 
 Auf der Registerkarte **Funktionen** können Sie festlegen, welche Optionen den Inhaltsautoren zur Verfügung stehen, wenn sie die Komponente verwenden, einschließlich Optionen fürs Hochladen, Ausrichtung und Beschneiden.
 
-* **Web-optimierte Bilder aktivieren** - Wenn diese Option aktiviert ist, stellt der Web-optimierte Bildbereitstellungsdienst Bilder im WebP-Format bereit und reduziert so die Bildgröße um durchschnittlich 25 %.
+* **Web-optimierte Grafiken aktivieren**: Wenn diese Option aktiviert ist, stellt der Web-optimierte Bildbereitstellungs-Service Bilder im WebP-Format bereit und reduziert so Bildgrößen durchschnittlich um 25 %.
    * Diese Option ist nur in AEMaaCS verfügbar.
-   * Wenn diese Option deaktiviert ist oder der Web-optimierte Bildbereitstellungsdienst nicht verfügbar ist, wird der [Adaptives Bildservlet](/help/developing/adaptive-image-servlet.md) verwendet.
+   * Wenn diese Option deaktiviert ist oder der Web-optimierte Bildbereitstellungs-Service nicht verfügbar ist, wird das [Adaptive Image Servlet](/help/developing/adaptive-image-servlet.md) verwendet.
 
 * Quelle
 
