@@ -5,9 +5,9 @@ breadcrumb-title: Anleitung zu den Hauptkomponenten
 user-guide-description: Nutzen Sie die erweiterbaren Hauptkomponenten, damit Autoren mühelos Inhalte erstellen können.
 feature-set: Experience Manager Sites
 source-git-commit: 3ff1343ab4ef7a52f910984a0bcd8fc4201441bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '255'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -91,8 +91,8 @@ ht-degree: 97%
    + [AMP-Unterstützung](developing/amp.md)
    + [Kontextabhängige Konfigurationen](developing/context-aware-configs.md)
    + [Einschließen von Client-Bibliotheken](developing/including-clientlibs.md)
-   + [Adaptives Bildservlet](/help/developing/adaptive-image-servlet.md)
-   + [Weboptimierte Bildbereitstellung](/help/developing/web-optimized-image-delivery.md)
+   + [Adaptive Image Servlet](/help/developing/adaptive-image-servlet.md)
+   + [Web-optimierte Bildbereitstellung](/help/developing/web-optimized-image-delivery.md)
    + Adobe Client-Datenschicht {#data-layer}
       + [Überblick über die Datenschicht](developing/data-layer/overview.md)
       + [Integration mit der Datenschicht](developing/data-layer/integrations.md)
