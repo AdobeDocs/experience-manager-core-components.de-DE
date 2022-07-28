@@ -4,9 +4,9 @@ description: Die Inhaltsverzeichniskomponente erstellt ein Inhaltsverzeichnis, d
 role: Architect, Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
 source-git-commit: 394a8b968d7bcde7e766ed719c5914ec5cb60744
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '759'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -16,10 +16,10 @@ Die Inhaltsverzeichniskomponente erstellt ein Inhaltsverzeichnis, das auf den Ti
 
 ## Nutzung {#usage}
 
-Die Komponente &quot;Inhaltsverzeichnis&quot;bietet Site-Besuchern die Möglichkeit, schnell durch den Inhalt Ihrer Seite durch ein effizient generiertes Inhaltsverzeichnis zu navigieren, das auf den Titeln des Seiteninhalts basiert.
+Die Inhaltsverzeichniskomponente bietet Website-Besuchern die Möglichkeit, schnell durch den Inhalt Ihrer Seite zu navigieren. Dazu wird ein Inhaltsverzeichnis verwendet, das anhand der Titel der Seiteninhalte effizient erstellt wird.
 
-* Das ToC wird serverseitig generiert.
-* Er wird vollständig vom Dispatcher zwischengespeichert, um eine schnelle Bereitstellung zu ermöglichen.
+* Das Inhaltsverzeichnis wird Server-seitig generiert.
+* Es wird vollständig vom Dispatcher zwischengespeichert, um eine schnelle Bereitstellung zu ermöglichen.
 * Es funktioniert mit allen Komponenten auf der Seite, nicht nur mit den Kernkomponenten.
 
 Der [Bearbeitungsdialog](#edit-dialog) ermöglicht es dem Autor des Inhalts, eine Reihe von Titeln zu definieren, die im Inhaltsverzeichnis verwendet werden sollen. Mithilfe des [Design-Dialogs](#design-dialog) kann der Autor der Vorlage den Standardwert für die Titel festlegen, wenn ein Inhaltsautor einer Seite eine Inhaltsverzeichniskomponente hinzufügt, sowie die im Inhaltsverzeichnis enthaltenen Titel auf der Grundlage von Klassennamen einschränken.
@@ -53,8 +53,8 @@ Im Bearbeitungsdialog kann der Autor des Inhalts die Bereiche der Titelebenen fe
 ![Bearbeitungsdialog der Inhaltsverzeichniskomponente](/help/assets/tableofcontents-edit.png)
 
 **Listentyp** - Diese Option definiert, ob es sich bei der Liste um eine Liste mit Aufzählungszeichen oder eine nummerierte Liste handeln soll.
-* **Titel-Startstufe** - Diese Option definiert die höchste Ebene von Titeln, die die Inhaltsverzeichniskomponente rendern soll.
-* **Titel-Stoppstufe** - Mit dieser Option wird die niedrigste Ebene von Titeln definiert, die die Inhaltsverzeichniskomponente rendern soll.
+* **Startstufe für Titel** - Diese Option definiert die höchste Ebene von Titeln, die die Inhaltsverzeichniskomponente rendern soll.
+* **Stoppstufe für Titel** - Mit dieser Option wird die niedrigste Ebene von Titeln definiert, die die Inhaltsverzeichniskomponente rendern soll.
 * **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
    * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
    * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
@@ -68,9 +68,9 @@ Mithilfe des Design-Dialogs kann der Autor der Vorlage den Standardwert für den
 
 ![Design-Dialog der Schnellsuch-Komponente](/help/assets/tableofcontents-design.png)
 
-* **Listentyp beschränken** - Diese Option definiert den Listentyp, den die Komponente generiert. Durch Auswahl dieser Option wird die Möglichkeit des Inhaltsautors eingeschränkt, einen anderen Listentyp auszuwählen.
-* **Einschränken der Startstufe** - Diese Option definiert die höchste Titelebene, die der Inhaltsautor zum Definieren des Inhaltsverzeichnisses auswählen kann.
-* **Stoppstufe beschränken** - Diese Option definiert die niedrigste Titelebene, die der Inhaltsautor zum Definieren des Inhaltsverzeichnisses auswählen kann.
+* **Listentyp einschränken** - Diese Option definiert den Listentyp, den die Komponente generiert. Durch Auswahl dieser Option wird die Möglichkeit des Inhaltsautors eingeschränkt, einen anderen Listentyp auszuwählen.
+* **Startebene einschränken** - Diese Option definiert die höchste Titelebene, die der Inhaltsautor zum Definieren des Inhaltsverzeichnisses auswählen kann.
+* **Stoppstufe einschränken** - Diese Option definiert die niedrigste Titelebene, die der Inhaltsautor zum Definieren des Inhaltsverzeichnisses auswählen kann.
 * **Klassennamen einschließen** - Wenn diese Option festgelegt ist, werden nur Titel mit den angegebenen Klassennamen oder in Elementen der angegebenen Klassennamen in der Inhaltsverzeichniskomponente berücksichtigt.
    * Tippen oder klicken Sie auf das Symbol **Hinzufügen**, um einen oder mehrere Klassennamen hinzuzufügen.
    * Tippen oder klicken Sie auf das Symbol **Löschen** neben einem Klassennamen, um ihn zu löschen.
