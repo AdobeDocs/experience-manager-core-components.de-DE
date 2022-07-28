@@ -3,7 +3,7 @@ title: Weboptimierte Bildbereitstellung
 description: Erfahren Sie, wie die Kernkomponenten AEM Web-optimierten Bildbereitstellungsfunktionen von as a Cloud Service nutzen können, um Bilder effizienter bereitzustellen.
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
-source-git-commit: df0ae972ca698e809a5cb8a5ad2d41ad89c2db8e
+source-git-commit: a134c2593593efef4df7b01e3a870e03e9860640
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Erfahren Sie, wie die Kernkomponenten AEM Web-optimierten Bildbereitstellungsfun
 >
 >Weitere Informationen zu den Vorabversionsfunktionen von AEMaaCS finden Sie im Dokument [Adobe Experience Manager as a Cloud Service-Vorabversionskanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de)
 
-##  Übersicht {#overview}
+## Übersicht {#overview}
 
 Die Web-optimierte Bildbereitstellungsfunktion von AEM as a Cloud Service stellt Bild-Assets aus dem DAM in [WebP-Format.](https://developers.google.com/speed/webp) WebP kann die Download-Größe eines Bildes im Durchschnitt um etwa 25 % reduzieren, was zu einem schnelleren Laden der Seite führt.
 
