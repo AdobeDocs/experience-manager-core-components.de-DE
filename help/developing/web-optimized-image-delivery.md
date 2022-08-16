@@ -4,9 +4,9 @@ description: Erfahren Sie, wie die Kernkomponenten die Funktionen zur Web-optimi
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
 source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1118'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Ebenso wie die Aktivierung einer Web-optimierten Bildbereitstellung das Markup n
 
 ## Häufig gestellte Fragen {#faq}
 
-### Warum gibt es keine Option, um Web-optimierte Bilder in meiner Umgebung zu aktivieren? {#missing-option}
+### Warum gibt es in meiner Umgebung keine Option, um Web-optimierte Bilder zu aktivieren? {#missing-option}
 
 Die Funktion ist nur in AEM as a Cloud Service verfügbar. Wenn AEM lokal ausgeführt wird, [kehrt die Bildkomponente zur Verwendung des Adaptive Image Servlets zurück](#fallback).
 
