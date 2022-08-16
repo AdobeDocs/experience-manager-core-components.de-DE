@@ -4,13 +4,13 @@ description: Erfahren Sie, wie die Kernkomponenten das Adaptive Image Servlet f�
 role: Architect, Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
 source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '410'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
-# Adaptives Bildservlet {#adaptive-image-servlet}
+# Adaptive Image Servlet {#adaptive-image-servlet}
 
 Erfahren Sie, wie die Kernkomponenten das Adaptive Image Servlet für die Bildbereitstellung verwenden und wie Sie dessen Verwendung optimieren können.
 
@@ -29,16 +29,16 @@ Standardmäßig verwendet die Bildkomponente das Adaptive Image Servlet der Kern
 
 ## Ausgabedarstellungsauswahl {#rendition-selection}
 
-Das Adaptive Bildservlet wählt automatisch die am besten geeignete Ausgabedarstellung aus, die basierend auf der Größe des Containers angezeigt werden soll, in dem es angezeigt wird. Der Auswahlprozess für Ausgabedarstellungen sieht wie folgt aus.
+Das Adaptive Image Servlet wählt automatisch die am besten geeignete Ausgabedarstellung aus, je nach Größe des Containers, in dem es angezeigt wird. Der Auswahlprozess für Ausgabedarstellungen sieht wie folgt aus.
 
-1. Das Adaptive Bildservlet überprüft alle verfügbaren Ausgabeformate des Bild-Assets.
-1. Es werden nur diejenigen ausgewählt, die denselben MIME-/Typ des ursprünglich referenzierten Assets aufweisen.
+1. Das Adaptive Image Servlet prüft alle verfügbaren Ausgabedarstellungen des Bild-Assets.
+1. Es werden nur solche ausgewählt, die den gleichen MIME-Typ wie das ursprünglich referenzierte Asset haben.
    * Wenn das ursprüngliche Asset beispielsweise ein PNG war, werden nur PNG-Ausgabedarstellungen berücksichtigt.
-1. Von diesen Ausgabedarstellungen werden die Dimensionen berücksichtigt und sie mit der Größe des Containers verglichen, in dem das Bild angezeigt werden soll.
-   1. Wenn die Ausgabedarstellung >= die Containergröße ist, wird sie einer Liste von Kandidatenausgabeformaten hinzugefügt.
-   1. Wenn die Ausgabedarstellung &lt; der Container-Größe ist, wird sie ignoriert.
+1. Zwischen diesen Ausgabedarstellungen werden die Dimensionen berücksichtigt und sie mit der Größe des Containers verglichen, in dem das Bild angezeigt werden soll.
+   1. Wenn die Ausgabedarstellung größer oder gleich der Container-Größe ist, wird sie einer Liste von möglichen Ausgabedarstellungen hinzugefügt.
+   1. Wenn die Ausgabedarstellung kleiner als die Container-Größe ist, wird sie ignoriert.
    1. Diese Kriterien gewährleisten, dass die Ausgabedarstellung nicht hochskaliert wird, was sich auf die Bildqualität auswirken würde.
-1. Das Adaptive Bildservlet wählt dann die Ausgabedarstellung mit der kleinsten Dateigröße aus der Kandidatenliste aus.
+1. Das Adaptive Image Servlet wählt dann die Ausgabedarstellung mit der kleinsten Dateigröße aus der Kandidatenliste aus.
 
 ## Optimieren der Auswahl für die Ausgabedarstellung {#optimizing-rendition-selection}
 
@@ -46,7 +46,7 @@ Das Adaptive Image Servlet versucht, die beste Ausgabedarstellung für die angef
 
 Dadurch wird die Leistung verbessert und verhindert, dass einige Bilder von der zugrunde liegenden Bildverarbeitungsbibliothek nicht korrekt verarbeitet werden.
 
-## Verwenden von zuletzt geänderten Kopfzeilen {#last-modified}
+## Verwenden der zuletzt geänderten Kopfzeilen {#last-modified}
 
 Bedingte Anforderungen über den `Last-Modified`-Header werden vom Adaptiven Bildservlet unterstützt, aber die Zwischenspeicherung des `Last-Modified`-Headers [muss im Dispatcher aktiviert werden](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=de#caching-http-response-headers).
 
