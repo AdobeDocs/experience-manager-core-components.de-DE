@@ -3,8 +3,8 @@ title: Einbettungskomponente
 description: Die Einbettungskomponente ermöglicht das Einbetten externer Inhalte in eine AEM-Inhaltsseite.
 role: Architect, Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
-source-git-commit: 28409185f2e46a30fa588b3f92b83b2fa05de96d
-workflow-type: ht
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+workflow-type: tm+mt
 source-wordcount: '1395'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Um die Einbettungskomponente auszuprobieren sowie Beispiele für ihre Konfigurat
 
 ## Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Einbettungskomponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_embed_v1).
+Die aktuelle technische Dokumentation zur Einbettungskomponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_embed_v2).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 

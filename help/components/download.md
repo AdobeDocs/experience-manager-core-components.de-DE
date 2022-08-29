@@ -3,8 +3,8 @@ title: 'Download-Komponente '
 description: Die Kernkomponente „Download-Komponente“ ermöglicht die Erstellung einer Download-Option auf einer Seite.
 role: Architect, Developer, Admin, User
 exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: ht
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Um die Download-Komponente sowie Beispiele für die Konfigurationsoptionen sowie
 
 ## Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Download-Komponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_download_v1).
+Die aktuelle technische Dokumentation zur Download-Komponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_download_v2).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 

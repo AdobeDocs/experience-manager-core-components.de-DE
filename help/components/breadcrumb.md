@@ -3,8 +3,8 @@ title: Breadcrumb-Komponente
 description: Die Kernkomponente „Breadcrumb-Komponente“ ist eine Navigationskomponente, die einen Breadcrumb von Links basierend auf der Position der Seite in der Inhaltshierarchie erstellt.
 role: Architect, Developer, Admin, User
 exl-id: 19d65b9d-a407-4f50-9c55-8de0f12222ed
-source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
-workflow-type: ht
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ Um die Breadcrumb-Komponente und Beispiele für die Konfigurationsoptionen sowie
 
 ## Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Breadcrumb-Komponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_breadcrumb_v2_de).
+Die aktuelle technische Dokumentation zur Breadcrumb-Komponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_breadcrumb_v3_de).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 

@@ -3,9 +3,9 @@ title: Inhaltsverzeichniskomponente
 description: Die Inhaltsverzeichniskomponente erstellt ein Inhaltsverzeichnis, das auf den Titeln Ihres Seiteninhalts basiert und Ihren Lesern eine schnelle Navigation auf der Seite ermöglicht.
 role: Architect, Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
-source-git-commit: 394a8b968d7bcde7e766ed719c5914ec5cb60744
-workflow-type: ht
-source-wordcount: '759'
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+workflow-type: tm+mt
+source-wordcount: '722'
 ht-degree: 100%
 
 ---
@@ -36,10 +36,6 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
 
-## Musterkomponentenausgabe {#sample-component-output}
-
-Um die Inhaltsverzeichniskomponente kennenzulernen und Beispiele für ihre Konfigurationsoptionen sowie die HTML- und JSON-Ausgabe zu sehen, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_tableofcontents).
-
 ### Technische Details {#technical-details}
 
 Die neueste technische Dokumentation zur Inhaltsverzeichniskomponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1).
@@ -55,7 +51,7 @@ Im Bearbeitungsdialog kann der Autor des Inhalts die Bereiche der Titelebenen fe
 **Listentyp** - Diese Option definiert, ob es sich bei der Liste um eine Liste mit Aufzählungszeichen oder eine nummerierte Liste handeln soll.
 * **Startstufe für Titel** - Diese Option definiert die höchste Ebene von Titeln, die die Inhaltsverzeichniskomponente rendern soll.
 * **Stoppstufe für Titel** - Mit dieser Option wird die niedrigste Ebene von Titeln definiert, die die Inhaltsverzeichniskomponente rendern soll.
-* **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
+* **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
    * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
    * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.

@@ -1,10 +1,10 @@
 ---
-title: Listenkomponente
+title: 'Listenkomponente '
 description: Die Kernkomponente „Listenkomponente“ ermöglicht die einfache Erstellung dynamischer sowie statischer Listen.
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
-workflow-type: ht
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+workflow-type: tm+mt
 source-wordcount: '1152'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ Um die Listenkomponente und Beispiele für die Konfigurationsoptionen sowie HTML
 
 ### Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Listenkomponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_list_v2_de).
+Die aktuelle technische Dokumentation zur Listenkomponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_list_v3_de).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 

@@ -3,7 +3,7 @@ title: Schnellsuch-Komponente
 description: Die Schnellsuch-Komponente bietet Suchfunktionen für eine Website und zeigt Suchergebnisse an, damit Besucher die Site durchsuchen und die Ergebnisse filtern können.
 role: Architect, Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
-source-git-commit: c5db61a3f812fd47eedd1543585ef25d1fc0dc1c
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
 workflow-type: tm+mt
 source-wordcount: '621'
 ht-degree: 100%
@@ -39,7 +39,7 @@ Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in d
 >
 >Der Schutz der Suchkomponente oder einer beliebigen AEM-basierten Anwendung gegen DOS-Angriffe sollte auf höherer Ebene implementiert werden, z. B. durch Verwendung von `mod_security` auf dem Dispatcher.
 
-Die neueste technische Dokumentation zur Schnellsuch-Komponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_search_v1_de).
+Die neueste technische Dokumentation zur Schnellsuch-Komponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_search_v2_de).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 

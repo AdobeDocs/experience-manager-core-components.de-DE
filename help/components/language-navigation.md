@@ -3,8 +3,8 @@ title: Sprachnavigationskomponente
 description: Die Sprachnavigationskomponente stellt eine Sprache/Ländernavigation für eine Site bereit, sodass Besucher zur gleichen Seite in einem anderen Gebietsschema navigieren können.
 role: Architect, Developer, Admin, User
 exl-id: 10b218b4-c439-4a0f-a46f-0b15d78b0360
-source-git-commit: 28409185f2e46a30fa588b3f92b83b2fa05de96d
-workflow-type: ht
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ Um die Sprachnavigationskomponente und Beispiele für die Konfigurationsoptionen
 
 ## Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Sprachnavigationskomponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_langnav_v1_de).
+Die aktuelle technische Dokumentation zur Sprachnavigationskomponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_langnav_v2_de).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 

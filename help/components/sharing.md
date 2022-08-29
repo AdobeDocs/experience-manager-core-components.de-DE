@@ -3,10 +3,10 @@ title: 'Social-Sharing-Komponente '
 description: Die Kernkomponente „Social-Sharing-Komponente“ ist ein Widget zum Teilen auf Facebook und Pinterest.
 role: Architect, Developer, Admin, User
 exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
-source-git-commit: 12fef6732ba53beeb7b3354335005f459321da96
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 97%
+source-wordcount: '400'
+ht-degree: 96%
 
 ---
 
@@ -35,10 +35,6 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente und d
 | v1 | Kompatibel mit<br>[Version 2.17.4](/help/versions.md) und vorherigen | Kompatibel, nicht mehr unterstützt | Kompatibel, veraltet |
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
-
-## Musterkomponentenausgabe {#sample-component-output}
-
-Um die Social-Sharing-Komponente kennenzulernen und Beispiele für ihre Konfigurationsoptionen sowie die HTML- und JSON-Ausgabe zu sehen, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_sharing_de).
 
 ### Technische Details {#technical-details}
 

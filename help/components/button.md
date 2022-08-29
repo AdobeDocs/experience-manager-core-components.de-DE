@@ -3,8 +3,8 @@ title: Schaltflächenkomponente
 description: Die Kernkomponente „Schaltflächenkomponente“ ermöglicht die Erstellung und Anzeige einer Schaltfläche.
 role: Architect, Developer, Admin, User
 exl-id: e17efd1d-90d4-497a-9e7d-45934d81bc28
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: ht
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Um die Schaltflächen-Komponente sowie Beispiele für die Konfigurationsoptionen
 
 ## Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Schaltflächenkomponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_button_v1).
+Die aktuelle technische Dokumentation zur Schaltflächenkomponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_button_v2).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 

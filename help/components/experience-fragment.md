@@ -3,8 +3,8 @@ title: Experience Fragment-Komponente
 description: Mit der Experience Fragment-Komponente kann der Inhaltsautor einer Seite eine Experience Fragment-Variation hinzufügen.
 role: Architect, Developer, Admin, User
 exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: ht
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 100%
 
@@ -109,7 +109,7 @@ Rufen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_xf) a
 
 ## Technische Details {#technical-details}
 
-Die neueste technische Dokumentation zur Experience Fragment-Komponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_xf_v1_de).
+Die neueste technische Dokumentation zur Experience Fragment-Komponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_xf_v2_de).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
