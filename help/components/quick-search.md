@@ -3,8 +3,8 @@ title: Schnellsuch-Komponente
 description: Die Schnellsuch-Komponente bietet Suchfunktionen für eine Website und zeigt Suchergebnisse an, damit Besucher die Site durchsuchen und die Ergebnisse filtern können.
 role: Architect, Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
-source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
-workflow-type: ht
+source-git-commit: c5db61a3f812fd47eedd1543585ef25d1fc0dc1c
+workflow-type: tm+mt
 source-wordcount: '621'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Im [Dialogfeld „Bearbeiten“](#edit-dialog) kann der Verfasser des Inhalts fe
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die aktuelle Version der Schnellsuch-Komponente ist v1, die mit Version 2.0.0 der Kernkomponenten im Januar 2018 eingeführt wurde und in diesem Dokument beschrieben wird.
+Die aktuelle Version der Schnellsuch-Komponente ist v2, die mit Version 2.18.0 der Kernkomponenten im Januar 2018 eingeführt wurde und in diesem Dokument beschrieben wird.
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 

@@ -2,15 +2,15 @@
 title: Listenkomponente (v2)
 description: Die Kernkomponente „Listenkomponente“ ermöglicht die einfache Erstellung dynamischer sowie statischer Listen.
 role: Architect, Developer, Admin, User
-source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: ht
+exl-id: fa34be64-b345-45cd-baf3-571973414852
+source-git-commit: 241c86240377858a73f4a022368d428da9c11100
+workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 100%
 
 ---
 
-
-# Listenkomponente  (v2) {#list-component}
+# Listenkomponente (v2) {#list-component}
 
 Die Kernkomponente „Listenkomponente“ ermöglicht die einfache Erstellung dynamischer sowie statischer Listen.
 
@@ -64,7 +64,7 @@ Die Liste kann auf verschiedene Weise erstellt werden.
 
 Unabhängig davon, wie die Liste erstellt wurde, stehen Optionen für [Sortieren und ID](#sort-options) zur Verfügung, die immer konfiguriert werden können.
 
-![Dialogfeld „Bearbeiten“ der Listenkomponente](/help/assets/list-edit.png)
+![Dialogfeld „Bearbeiten“ der Listenkomponente](/help/assets/v2/list-edit.png)
 
 Je nachdem, wie der Inhaltsautor die Liste erstellt, werden die zusätzlichen Konfigurationsoptionen geändert.
 
@@ -72,7 +72,7 @@ Je nachdem, wie der Inhaltsautor die Liste erstellt, werden die zusätzlichen Ko
 
 Die Liste kann aus den untergeordneten Seiten der aktuellen Seite oder einer anderen Seite bestehen.
 
-![Optionen für untergeordnete Seiten](/help/assets/list-edit-child-pages.png)
+![Optionen für untergeordnete Seiten](/help/assets/v2/list-edit-child-pages.png)
 
 * **Übergeordnete Seite**
    * Die Seite, deren untergeordnete Seiten in die Liste aufgenommen werden sollen
@@ -85,7 +85,7 @@ Wie viele Ebenen in der Hierarchie angelegt werden sollten
 
 Die Liste kann mit einer Liste mit festen Elementen erstellt werden.
 
-![Optionen für Listen fester Werte](/help/assets/list-edit-fixed.png)
+![Optionen für Listen fester Werte](/help/assets/v2/list-edit-fixed-list.png)
 
 Tippen oder klicken Sie auf die Schaltfläche **Hinzufügen**, um ein neues Element in die Liste einzufügen.
 
@@ -97,7 +97,7 @@ Tippen oder klicken Sie auf die Schaltfläche **Hinzufügen**, um ein neues Elem
 
 Die Liste kann mithilfe der Ergebnisse einer Suche aus AEM-Inhalten erstellt werden.
 
-![Optionen für die Suchliste](/help/assets/list-edit-search.png)
+![Optionen für die Suchliste](/help/assets/v2/list-edit-search.png)
 
 * **Suchanfrage**
 Die Zeichenfolge, für die eine Volltextsuche ausgeführt wird, um die Listenelemente zu generieren
@@ -110,7 +110,7 @@ Wo die Suche ausgeführt werden soll
 
 Die Liste kann mithilfe von Seiten erstellt werden, die bestimmten Tags unter einem bestimmten Ort entsprechen.
 
-![Optionen für die Tag-Liste](/help/assets/list-edit-tags.png)
+![Optionen für die Tag-Liste](/help/assets/v2/list-edit-tags.png)
 
 * **Übergeordnete Seite**
 Wo die Tag-Übereinstimmung beginnen sollte
@@ -128,7 +128,7 @@ Definieren, welche Art von Übereinstimmung eine Seite qualifizieren soll, damit
 
 Unabhängig davon, wie Sie die Liste erstellen, gibt es bestimmte Sortieroptionen, die immer definiert werden können.
 
-![Sortieroptionen](/help/assets/list-edit-sort-options.png)
+![Sortieroptionen](/help/assets/v2/list-edit-sort-options.png)
 
 * **Sortieren nach**
 Anordnung der Elemente
@@ -150,7 +150,7 @@ Maximale Anzahl der in der Liste angezeigten Elemente.
 
 Auf der Registerkarte „Element-Einstellungen“ kann die Formatierung der Listenelemente konfiguriert werden.
 
-![Elementeinstellungen](/help/assets/list-edit-items.png)
+![Elementeinstellungen](/help/assets/v2/list-edit-item-settings.png)
 
 * **Elemente verknüpfen**
 Elemente mit der entsprechenden Seite verknüpfen
@@ -167,7 +167,7 @@ Beschreibung des Link-Elements anzeigen
 
 Auf der Registerkarte **Listen-Einstellungen** kann das Datumsformat sowie der Listentyp definiert werden, der in der Komponente den Inhaltsautoren zur Verfügung stehen soll.
 
-![Listeneinstellung im Dialogfeld „Design“ der Listenkomponente](/help/assets/list-design-list-settings.png)
+![Listeneinstellung im Dialogfeld „Design“ der Listenkomponente](/help/assets/v2/list-design-list-settings.png)
 
 * **Datumsformat**
 Format für die Anzeige des letzten Änderungsdatums
@@ -184,7 +184,7 @@ Deaktiviert den Listentyp „Tags“ in der Komponente
 
 Auf der Registerkarte **Element-Einstellungen** können die Formatierungsoptionen für die einzelnen Listenelemente definiert werden, die in der Komponente für die Inhaltsautoren verfügbar sein sollten.
 
-![Elementeinstellungen im Dialogfeld „Design“ der Listenkomponente](/help/assets/list-design-item-settings.png)
+![Elementeinstellungen im Dialogfeld „Design“ der Listenkomponente](/help/assets/v2/list-design-item-settings.png)
 
 * **Elemente verknüpfen**
 Aktiviert die Option „Elemente verknüpfen“ im [Dialogfeld „Bearbeiten“](#edit-dialog)
