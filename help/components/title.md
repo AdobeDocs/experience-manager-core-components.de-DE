@@ -4,7 +4,7 @@ description: Die Kernkomponente „Titelkomponente“ ist eine Komponente für A
 role: Architect, Developer, Admin, User
 exl-id: 393af72c-549f-4609-afb0-2712f827b549
 source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '627'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 | [v2](v2/title.md) | Kompatibel | Kompatibel | Kompatibel |
 | [v1](v1/title-v1.md) | Kompatibel | Kompatibel | Kompatibel |
 
-Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
+Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie im Dokument [Kernkomponentenversionen](/help/versions.md).
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
