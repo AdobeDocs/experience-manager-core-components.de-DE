@@ -4,7 +4,7 @@ description: Die Sprachnavigationskomponente stellt eine Sprache/Ländernavigati
 role: Architect, Developer, Admin, User
 exl-id: 10b218b4-c439-4a0f-a46f-0b15d78b0360
 source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '957'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 | v2 | - | Kompatibel | Kompatibel |
 | [v1](v1/language-navigation.md) | Kompatibel | Kompatibel | Kompatibel |
 
-Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
+Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie im Dokument [Kernkomponentenversionen](/help/versions.md).
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
