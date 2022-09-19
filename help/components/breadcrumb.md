@@ -4,7 +4,7 @@ description: Die Kernkomponente „Breadcrumb-Komponente“ ist eine Navigations
 role: Architect, Developer, Admin, User
 exl-id: 19d65b9d-a407-4f50-9c55-8de0f12222ed
 source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '801'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 | [v2](v2/breadcrumb.md) | Kompatibel | Kompatibel | Kompatibel |
 | [v1](v1/breadcrumb-v1.md) | Kompatibel | Kompatibel | Kompatibel |
 
-Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
+Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie im Dokument [Kernkomponentenversionen](/help/versions.md).
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
