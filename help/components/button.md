@@ -4,7 +4,7 @@ description: Die Kernkomponente „Schaltflächenkomponente“ ermöglicht die E
 role: Architect, Developer, Admin, User
 exl-id: e17efd1d-90d4-497a-9e7d-45934d81bc28
 source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '542'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 | v2 | - | Kompatibel | Kompatibel |
 | [v1](v1/button.md) | Kompatibel | Kompatibel | Kompatibel |
 
-Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
+Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie im Dokument [Kernkomponentenversionen](/help/versions.md).
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
