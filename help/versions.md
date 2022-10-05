@@ -3,10 +3,10 @@ title: Kernkomponenten-Versionen
 description: Kernkomponenten werden als Versionen veröffentlicht, die mehr als eine Version derselben Kernkomponenten enthalten können. In diesem Dokument wird erläutert, welche Versionen veröffentlicht werden und wie die Kompatibilität mit Kernkomponenten und AEM verstanden werden kann.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 12fef6732ba53beeb7b3354335005f459321da96
-workflow-type: ht
-source-wordcount: '2689'
-ht-degree: 100%
+source-git-commit: 9064b357476128525c428b33bdb49fbe68138890
+workflow-type: tm+mt
+source-wordcount: '2753'
+ht-degree: 97%
 
 ---
 
@@ -26,10 +26,12 @@ Die folgende Tabelle, deren Inhalt [auf GitHub mit vollständigen Versionsinform
 
 | Version | Beschreibung | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Veröffentlichungsdatum |
 |---|---|---|---|---|---|---|
+| [2,21,0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.0) | Diese Version umfasst eine Reihe von Verbesserungen, darunter die Veröffentlichung der LinkHandler-API, Verbesserungen der Bildkomponente und der Datenschicht sowie Verbesserungen bei Komponenten mit mehreren Bedienfeldern. | - | 6.5.13.0+ * | Kontinuierlich | 8, 11 | 12. September 2022 |
+| [2,20,8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.8) | Diese Version behebt ein Problem bei der Bereitstellung von SVG-Bildern über AdaptiveImageServlet. | - | 6.5.13.0+ * | Kontinuierlich | 8, 11 | 4. August 2022 |
 | [2.20.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.6) | Diese Patch-Version behebt ein Problem mit der neuen [Inhaltsverzeichniskomponente](/help/components/tableofcontents.md). | - | 6.5.13.0+ * | Kontinuierlich | 8, 11 | 7. Juli 2022 |
-| --- | --- | --- | --- | --- | --- | --- |
+| --- | — | — | — | — | — | — |
 | [2.20.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.4) | Diese Patch-Version behebt ein Problem mit der neuen [Inhaltsverzeichniskomponente](/help/components/tableofcontents.md). | - | 6.5.13.0+ * | Kontinuierlich | 8, 11 | 29. Juni 2022 |
-| --- | --- | --- | --- | --- | --- | --- |
+| — | — | — | — | — | — | — |
 | [2.20.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.2) | Dies ist eine Patch-Version, die ein Problem im neuen [Web-optimierten Elementbereitstellungs-Service](/help/developing/web-optimized-image-delivery.md) von AEMaaCS behebt. | - | 6.5.13.0+ * | Kontinuierlich | 8, 11 | 20. Juni 2022 |
 | [2.20.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.0) | Diese Version fügt eine neue [Inhaltskomponente](/help/components/tableofcontents.md) sowie Unterstützung für den [Web-optimierten Elementbereitstellungs-Service](/help/developing/web-optimized-image-delivery.md) von AEMaaCS hinzu und enthält Fehlerbehebungen. | - | 6.5.13.0+ * | Kontinuierlich | 8, 11 | 9. Juni 2022 |
 | [2.19.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.19.0) | Mit dieser Veröffentlichung erhält die [Suchkomponente](/help/components/quick-search.md) eine neue Version und die [Schaltflächenkomponente](/help/components/button.md) neue Funktionen. Außerdem bietet sie viele Verbesserungen der Barrierefreiheit und Fehlerbehebungen. | - | 6.5.10.0+ * | Kontinuierlich | 8, 11 | 7. April 2022 |
@@ -137,7 +139,7 @@ Weitere Informationen zu Kernkomponentenversionen finden Sie in der [Entwicklerd
 
 ### Versionen {#releases}
 
-Die Kernkomponenten werden über **Versionen** verfügbar gemacht. Sie [stellen die tatsächlichen veröffentlichten Artefakte dar, die auf GitHub verfügbar sind](https://github.com/adobe/aem-core-wcm-components/releases). Versionen werden mit einer Dezimalzahl im Format gekennzeichnet `X.Y.Z`, und alle Kernkomponenten werden zusammen als bereitstellbares Paket erfasst.,
+Die Kernkomponenten werden über **Releases** und [stellen die tatsächlichen veröffentlichten Artefakte dar, die auf GitHu verfügbar sind.](https://github.com/adobe/aem-core-wcm-components/releases)Versionen werden mit einer Dezimalzahl im Format gekennzeichnet `X.Y.Z`, und alle Kernkomponenten werden zusammen als bereitstellbares Paket erfasst.,
 
 * Mit **Hauptversionen** werden völlig neue Komponenten, Verbesserungen an bestehenden Versionen von Komponenten sowie Standard-Fehlerbehebungen eingeführt. Dies wird durch eine schrittweise Erhöhung in der `X`-Komponente der Versionsnummer dargestellt.
 * In **Nebenversionen** werden neue Komponenten, neue Funktionen für bestehende Versionen von Komponenten sowie Fehlerkorrekturen eingeführt. Dies wird durch eine schrittweise Erhöhung in der `Y`-Komponente der Versionsnummer dargestellt.
