@@ -5,7 +5,7 @@ feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 49e80d8c-2b41-4c42-b45e-c2e3b4b16a59
 source-git-commit: 531a7858dd26d32ef189c459c5e7035b6ae0b524
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '182'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ mvn -PautoInstallBundle clean install
 
 Nach der Ausführung sollte die Bundles-Konsole unter `http://<host>:<port>/system/console/bundles` angezeigt werden.
 
-## Unit-Tests {#unit-tests}
+## Komponententests {#unit-tests}
 
 Die Unit-Tests im Kernmodul stellen klassische Unit-Tests des im Bundle enthaltenen Codes vor. Führen Sie zum Testen Folgendes aus:
 
