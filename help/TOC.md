@@ -4,10 +4,10 @@ user-guide-title: AEM-Kernkomponenten
 breadcrumb-title: Anleitung zu den Hauptkomponenten
 user-guide-description: Nutzen Sie die erweiterbaren Hauptkomponenten, damit Autoren mühelos Inhalte erstellen können.
 feature-set: Experience Manager Sites
-source-git-commit: 3ff1343ab4ef7a52f910984a0bcd8fc4201441bf
-workflow-type: ht
-source-wordcount: '255'
-ht-degree: 100%
+source-git-commit: 7744cc1debe991d2c0daa9e91f2a6b7c04d65342
+workflow-type: tm+mt
+source-wordcount: '281'
+ht-degree: 95%
 
 ---
 
@@ -110,3 +110,19 @@ ht-degree: 100%
       + [ui.tests-Modul](developing/archetype/uitests.md)
       + [it.tests-Modul](developing/archetype/ittests.md)
       + [Build Analyzer-Maven-Plug-in](developing/archetype/build-analyzer-maven-plugin.md)
++ E-Mail-Komponenten {#email}
+   + [Einführung   ](/help/email/introduction.md)
+   + [Verwenden der E-Mail-Kernkomponenten](/help/email/using.md)
+   + [Kampagnenvariablen](/help/email/campaign-variables.md)
+   + [Versionen](/help/email/versions.md)
+   + Die E-Mail-Komponenten {#components}
+      + [Seite](/help/email/components/page.md)
+      + [Container](/help/email/components/container.md)
+      + [Titel](/help/email/components/title.md)
+      + [Text](/help/email/components/text.md)
+      + [Bild](/help/email/components/image.md)
+      + [Schaltfläche](/help/email/components/button.md)
+      + [Teaser](/help/email/components/teaser.md)
+      + [Experience Fragment](/help/email/components/experience-fragment.md)
+      + [Inhaltsfragment](/help/email/components/content-fragment.md)
+      + [Segmentierung](/help/email/components/segmentation.md)
