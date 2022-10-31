@@ -1,22 +1,22 @@
 ---
 title: Bildkomponente
-description: Die Kernkomponente „Bildkomponente“ ist eine anpassungsfähige Bildkomponente mit Funktionen zur Bearbeitung im Kontext.
+description: Die Kernkomponente "Bildkomponente"ist eine adaptive Bildkomponente.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
-workflow-type: ht
-source-wordcount: '1687'
-ht-degree: 100%
+source-git-commit: f0971db66cbbf8221c12cedf108eee3bca8a527a
+workflow-type: tm+mt
+source-wordcount: '1678'
+ht-degree: 97%
 
 ---
 
 # Bildkomponente {#image-component}
 
-Die Kernkomponente „Bildkomponente“ ist eine adaptive Bildkomponente, die eine direkte Bearbeitung ermöglicht.
+Die Kernkomponente &quot;Bildkomponente&quot;ist eine adaptive Bildkomponente.
 
 ## Nutzung {#usage}
 
-Die Bildkomponente bietet adaptive Bildauswahl und reaktionsfähiges Verhalten mit verzögertem Laden für den Seitenbesucher sowie einfache Bildplatzierung und Zuschneiden für den Inhaltsautor.
+Die Bildkomponente bietet adaptive Bildauswahl und responsives Verhalten mit verzögertem Laden für den Seitenbesucher sowie einfache Bildplatzierung für den Inhaltsautor.
 
 Die Bildbreiten sowie zusätzliche Einstellungen können vom Vorlagenautor im [Dialogfeld „Design“](#design-dialog) definiert werden. Der Inhaltseditor kann Elemente im [Dialogfeld „Konfigurieren“](#configure-dialog) hochladen oder auswählen.
 
