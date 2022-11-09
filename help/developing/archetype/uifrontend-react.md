@@ -1,12 +1,12 @@
 ---
 title: Frontend-Build für React-SPAs
 description: Beschreibung des Frontend-Build-Prozesses für React-basierte SPA-Projekte
-feature: Kernkomponenten, AEM-Projektarchetyp
+feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: dd8ef13a-9686-47a9-b6af-e486ff10c4d8
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '517'
+source-git-commit: 0eea0cd65063c739e5b405b0380b73962a858e48
+workflow-type: tm+mt
+source-wordcount: '512'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ In diesem Dokument werden die Details des Projekts erläutert, das erstellt wird
 
 Dieses Projekt nutzt die [create-react-app](https://github.com/facebook/create-react-app) per Bootstrapping.
 
-Dieses Programm verarbeitet das AEM-Modell einer Site und generiert automatisch das Layout mit den Hilfekomponenten des Pakets [@adobe/cq-response-editable-components](https://www.npmjs.com/package/@adobe/cq-react-editable-components).
+Dieses Programm verarbeitet das AEM-Modell einer Site und generiert automatisch das Layout mit den Hilfekomponenten des Pakets [@adobe/cq-response-editable-components](https://www.npmjs.com/package/@adobe/aem-react-editable-components).
 
 ## Skripte {#scripts}
 
