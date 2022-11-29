@@ -3,10 +3,10 @@ title: Einführung in Kernkomponenten
 description: Erhalten Sie Lösungen für Probleme mit den Kernkomponenten und ermöglichen Sie anderen, Elemente in AEM zu erstellen.
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 8bebe3ca036557f3f7c6b8ec0e65d6d104d5ffae
+source-git-commit: 5431b57727ca5b9518cb80f620cffd0c31ef2f2d
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 97%
+source-wordcount: '967'
+ht-degree: 91%
 
 ---
 
@@ -31,7 +31,7 @@ Die Kernkomponenten sind eine Reihe standardisierter Web Content Management (WCM
 
 |  |  |
 |---|---|
-| Produktionsbereit | Die Kernkomponenten sind 30 robuste Komponenten, die gut getestet und weit verbreitet sind und eine gute Leistung erbringen. |
+| Produktionsbereit | Die Kernkomponenten sind 30 robuste WCM-Komponenten, die gut getestet und weit verbreitet sind und eine gute Leistung erbringen. |
 | Cloud-fähig | Ob in [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=de), in [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) oder On-Premise - sie funktionieren einfach. |
 | Vielseitig | Die Komponenten stellen allgemeine Konzepte dar, mit denen die Autoren nahezu jedes Layout zusammenstellen können. |
 | Konfigurierbar | [Inhaltsrichtlinien](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=de#content-policies) auf Vorlagenebene definieren, welche Funktionen die Seitenautoren verwenden dürfen oder nicht. |
@@ -47,7 +47,7 @@ Die Kernkomponenten sind eine Reihe standardisierter Web Content Management (WCM
 | Lokalisierbar | Mit der intelligenten Referenzauflösung ist es bestimmten Komponenten möglich, [entsprechende lokalisierte Inhalte automatisch zu finden und anzuzeigen](get-started/localization.md). |
 | Open Source | Wenn etwas nicht so ist, wie es sein sollte, [bringen Sie Ihre Verbesserungen ein!](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) |
 
-## Die Komponenten {#the-components}
+## Die WCM-Komponenten {#the-wcm-components}
 
 Die aktuelle Version der Kernkomponenten enthält die folgenden Komponenten:
 
@@ -107,7 +107,7 @@ Die aktuelle Version der Kernkomponenten enthält die folgenden Komponenten:
 
 | Version der Kernkomponenten | AEM as a Cloud Service | AEM 6.5 Patch-Stufe | Java SE-Version | Maven-Version |
 |---------|---------|---------|---------|---------|
-| [2,21,2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.2) | Kontinuierlich | 6.5.13.0+ * | 8, 11 | 3.3.9+ |
+| [2.21.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.2) | Kontinuierlich | 6.5.13.0+ * | 8, 11 | 3.3.9+ |
 
 >[!NOTE]
 >
@@ -124,3 +124,9 @@ Informationen zum Einrichten Ihrer lokalen Entwicklungsumgebung finden Sie unter
 >Die Kernkomponenten sind automatisch Teil von AEM as a Cloud Service und Sie haben immer die neueste Version der Kernkomponenten.
 >
 >Weitere Informationen zu den ersten Schritten mit den Kernkomponenten in AEM as a Cloud Service und On-Premise finden Sie im Dokument [Verwenden von Kernkomponenten](/help/get-started/using.md).
+
+## Andere Komponenten {#other-components}
+
+AEM Autoren stehen zusätzliche Komponenten zur Verfügung, die auf den Kernkomponenten basieren.
+
+* [Die E-Mail-Kernkomponenten](/help/email/introduction.md) - Entdecken Sie Komponenten, die auf den Kernkomponenten aufbauen und speziell für die Verwendung mit Adobe Campaign verwendet werden.
