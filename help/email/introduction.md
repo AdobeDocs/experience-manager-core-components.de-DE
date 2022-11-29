@@ -2,12 +2,11 @@
 title: Einführung in E-Mail-Kernkomponenten
 description: Erstellen Sie ansprechende E-Mail-Inhalte mithilfe der Flexibilität der E-Mail-Kernkomponenten und stellen Sie sie mit Adobe Campaign bereit.
 role: Architect, Developer, Admin, User
-hidefromtoc: true
-index: false
-source-git-commit: 8bebe3ca036557f3f7c6b8ec0e65d6d104d5ffae
+exl-id: 0a411f28-bd6a-4bad-b473-6bc27c1d1055
+source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 9%
+source-wordcount: '409'
+ht-degree: 10%
 
 ---
 
@@ -31,9 +30,9 @@ E-Mails sind Teil des Markenerlebnisses und der Journey von Kunden. Mit den E-Ma
 
 * Die Kernkomponenten der E-Mail basieren auf dem [Kernkomponenten,](/help/introduction.md) und daher auch [Bearbeitbare Vorlagen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=de) und [Stilsystem.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=de)
 * Es gibt [zehn für E-Mails optimierte produktionsbereite Komponenten](#components) , um E-Mail-Inhalte zu erstellen.
-* Die Kernkomponenten für E-Mails bieten eine erweiterte Personalisierung, da in den meisten Dialogfeldern Adobe Campaign-Variablen eingefügt werden.
-* Die flexible Segmentierungskomponente ermöglicht eine erweiterte Segmentierung Ihres Inhalts.
-* Die Kernkomponenten der E-Mail bieten dank der [CSS-Stile in Liner,](https://github.com/adobe/aem-core-email-components/wiki/CSS-Styles-Inliner) [das HTML-Attribut inliner,](https://github.com/adobe/aem-core-email-components/wiki/HTML-Inliner) und [HTML sanitizer.](https://github.com/adobe/aem-core-email-components/wiki/HTML-Sanitizer)
+* Die Kernkomponenten der E-Mail bieten eine erweiterte Personalisierung durch das Einfügen von [Adobe Campaign-Variablen](campaign-variables.md) in den meisten Dialogfeldern.
+* Die Flexibilität [Segmentierungskomponente](/help/email/components/segmentation.md) ermöglicht eine erweiterte Segmentierung Ihres Inhalts.
+* Die Kernkomponenten der E-Mail bieten dank der [CSS-Stile in Liner,](https://github.com/adobe/aem-core-email-components/wiki/CSS-Styles-Inliner:-Technical-documentation) [das HTML-Attribut inliner,](https://github.com/adobe/aem-core-email-components/wiki/HTML-Inliner) und [HTML sanitizer.](https://github.com/adobe/aem-core-email-components/wiki/HTML-Sanitizing)
 * Sie können E-Mail-Inhalte an einer beliebigen Stelle erstellen. `/content`.
 * Die E-Mail-Kernkomponenten sind [Open Source.](https://github.com/adobe/aem-core-email-components)
 
@@ -43,7 +42,7 @@ Die E-Mail-Kernkomponenten haben die folgenden Anforderungen.
 
 | AEM | Adobe Campaign | Kernkomponenten |
 |---|---|---|
-| AEM 6.5.x.y (On-Premise oder AMS) | Adobe Campaign Classic vX<br>oder<br>Adobe Campaign Standard | [Version x](/help/versions.md) oder höher |
+| AEM 6.5.14.0+<br>On-Premise oder AMS | Adobe Campaign Classic<br>Adobe Campaign Standard | [Version 2.21.2](/help/versions.md)+ |
 
 >[!NOTE]
 >
@@ -53,7 +52,7 @@ Die E-Mail-Kernkomponenten haben die folgenden Anforderungen.
 
 Die aktuelle Version der E-Mail-Kernkomponenten enthält die folgenden Komponenten.
 
-* [Seite](components/page.md)
+* [Seite  ](components/page.md)
 * [Container](components/container.md)
 * [Titel](components/title.md)
 * [Text](components/text.md)

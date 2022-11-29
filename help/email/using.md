@@ -2,11 +2,10 @@
 title: Verwenden der E-Mail-Kernkomponenten
 description: Erfahren Sie mehr über die grundlegende Installation, Konfiguration und Verwendung der E-Mail-Kernkomponenten.
 role: Architect, Developer, Admin, User
-hidefromtoc: true
-index: false
-source-git-commit: 8bebe3ca036557f3f7c6b8ec0e65d6d104d5ffae
+exl-id: 0e79ca8f-eb0a-4519-b1e8-a9d3b0b99987
+source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '653'
 ht-degree: 7%
 
 ---
@@ -22,7 +21,7 @@ Die E-Mail-Kernkomponenten können mit AEM 6.5 verwendet werden. Siehe [Abschnit
 
 ### Installieren von Kernkomponenten {#core-components}
 
-Die E-Mail-Kernkomponenten basieren auf den AEM Kernkomponenten. Da die Kernkomponenten nicht mit AEM geliefert werden, müssen Sie zunächst die AEM Kernkomponenten installieren, bevor Sie die E-Mail-Kernkomponenten installieren.
+Die E-Mail-Kernkomponenten basieren auf den AEM Kernkomponenten. Da die Kernkomponenten nicht im Lieferumfang von AEM 6.5 enthalten sind, müssen Sie zunächst die AEM Kernkomponenten installieren, bevor Sie die E-Mail-Kernkomponenten installieren.
 
 Siehe Abschnitt . [Herunterladen und installieren](/help/get-started/using.md#download-and-install) Abschnitt des Dokuments Verwenden von Kernkomponenten für weitere Informationen zur Installation der Kernkomponenten.
 
@@ -80,6 +79,4 @@ Nachdem die E-Mail-Komponenten installiert und die Integration mit Adobe Campaig
 
 Ein Beispiel für die Erstellung von E-Mail-Inhalten in AEM und die Bereitstellung in Adobe Campaign finden Sie in den folgenden Ressourcen.
 
-* AEM as a Cloud Service: [Erstellen von Campaign-Newslettern mit AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/campaign/creating-newsletters.html)
 * AEM 6.5: [Arbeiten mit Adobe Campaign Classic und Adobe Campaign Standard](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/campaign.html)
-
