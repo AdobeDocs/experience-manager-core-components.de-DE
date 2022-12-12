@@ -1,32 +1,32 @@
 ---
-title: Komponente "Email Title"
-description: Die Komponente "E-Mail-Titel"ist eine Komponente für Abschnittsüberschriften für E-Mails, die eine direkte Bearbeitung ermöglicht.
+title: E-Mail-Titelkomponente
+description: Die E-Mail-Titelkomponente ist eine Komponente für Abschnittsüberschriften für Ihre E-Mails, die eine direkte Bearbeitung ermöglicht.
 role: Architect, Developer, Admin, User
 exl-id: f65b6973-bb36-406f-bbea-f85a23f5340b
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '636'
-ht-degree: 51%
+ht-degree: 100%
 
 ---
 
 
-# Komponente &quot;Email Title&quot; {#email-title-component}
+# E-Mail-Titelkomponente {#email-title-component}
 
-Die Komponente &quot;E-Mail-Titel&quot;ist eine Komponente für Abschnittsüberschriften für E-Mails, die eine direkte Bearbeitung ermöglicht.
+Die E-Mail-Titelkomponente ist eine Komponente für Abschnittsüberschriften für Ihre E-Mails, die eine direkte Bearbeitung ermöglicht.
 
-## Nutzung {#usage}
+## Verwendung {#usage}
 
-Die Komponente &quot;E-Mail-Titel&quot;soll als Titel oder Überschrift eines Abschnitts einer E-Mail verwendet werden.
+Die E-Mail-Titelkomponente soll als Titel oder Überschrift eines Abschnitts einer E-Mail verwendet werden.
 
 * Die verfügbaren Überschriftenebenen können vom Vorlagenautor im [Dialogfeld „Design“](#design-dialog) definiert werden.
-* Der Inhaltsautor kann aus den verfügbaren Überschriftenebenen in der [Dialogfeld &quot;Bearbeiten&quot;.](#edit-dialog)
+* Der Inhaltsautor kann aus verfügbaren Überschriftenebenen im [Dialogfeld „Bearbeiten“](#edit-dialog) auswählen.
 
 Für zusätzlichen Komfort steht auch eine einfache direkte Bearbeitung des Überschriftentexts zur Verfügung.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die aktuelle Version der E-Mail-Titelkomponente ist v1, die mit Version x der E-Mail-Kernkomponenten im Oktober 2022 eingeführt wurde und in diesem Dokument beschrieben wird.
+Die aktuelle Version der Komponente E-Mail-Titel ist v1, die mit der Freigabe X der E-Mail-Kernkomponenten im Oktober 2022 eingeführt wurde und in diesem Dokument beschrieben wird.
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
@@ -34,11 +34,11 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 |---|---|---|
 | v1 | Kompatibel | Kompatibel |
 
-Weitere Informationen zu Kernkomponentenversionen und -versionen finden Sie im Dokument . [Kernversionen von E-Mail-Komponenten](/help/versions.md).
+Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie im Dokument [E-Mail-Kernkomponentenversionen](/help/versions.md).
 
-## Musterkomponentenausgabe {#sample-component-output}
+## Muster für Komponentenausgabe {#sample-component-output}
 
-Um die Titelkomponente sowie Beispiele für die Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek.](https://adobe.com/go/aem_cmp_library_email_title)
+Um die Titelkomponente sowie Beispiele für die Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_email_title).
 
 ### Technische Details {#technical-details}
 
@@ -51,28 +51,28 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 Im Dialogfeld „Bearbeiten“ kann der Inhaltsautor den Titeltext definieren sowie die Überschriftenebene auswählen.
 
 * **Titel** - Wenn leer, wird der Seitentitel verwendet
-   * Klicken Sie auf das Kampagnensymbol , um die [Adobe Campaign-Variable auswählen](/help/email/campaign-variables.md) zum Einfügen von dynamischen Inhalten aus Adobe Campaign.
+   * Klicken Sie auf das Kampagnensymbol, um das Dialogfeld [Adobe Campaign-Variable auswählen](/help/email/campaign-variables.md) zum Einfügen von dynamischen Inhalten aus Adobe Campaign zu öffnen.
 * **Typ/Größe** - Definiert die Überschriftenebene des Titels
 * **Verknüpfung** - Definiert den Inhalt, auf den der Titel verweist. Dies kann ein Pfad zu einer Inhaltsseite, eine externe URL oder ein Seitenanker sein.
-   * Klicken Sie auf das Kampagnensymbol , um die [Adobe Campaign-Variable auswählen](/help/email/campaign-variables.md) zum Einfügen von dynamischen Inhalten aus Adobe Campaign.
-* **ID** - Diese Option ermöglicht die Steuerung der eindeutigen Kennung der Komponente im HTML.
+   * Klicken Sie auf das Kampagnensymbol, um das Dialogfeld [Adobe Campaign-Variable auswählen](/help/email/campaign-variables.md) zum Einfügen von dynamischen Inhalten aus Adobe Campaign zu öffnen.
+* **ID** - Diese Option ermöglicht die Steuerung der eindeutigen Kennung der Komponente in HTML.
    * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
-   * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
-   * Eine Änderung der ID kann sich auf CSS auswirken.
+   * Sofern eine ID angegeben wird, ist vom Autor bzw. der Autorin sicherzustellen, dass diese eindeutig ist.
+   * Die Änderung der ID kann sich auf CSS auswirken.
 
-![Dialogfeld &quot;Bearbeiten&quot;der E-Mail-Titelkomponente](/help/email/assets/email-title-edit.png)
+![Dialog E-Mail-Titelkomponente bearbeiten](/help/email/assets/email-title-edit.png)
 
 Der Editor für die Bearbeitung im Kontext kann auch verwendet werden, um den Text der Titelkomponente zu bearbeiten.
 
-![Bearbeitung im Kontext der Komponente &quot;E-Mail-Titel&quot;](/help/email/assets/email-title-edit-inline.png)
+![In-Kontext-Bearbeitung der Komponente E-Mail-Titel](/help/email/assets/email-title-edit-inline.png)
 
-### Registerkarte „Stile“ {#styles-tab-edit}
+### Registerkarte „Arten“ {#styles-tab-edit}
 
-Die E-Mail-Titelkomponente unterstützt den AEM [Stilsystem.](/help/get-started/authoring.md#component-styling)
+Die Komponente E-Mail-Titel unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
 Verwenden Sie das Dropdown-Menü, um die Stile auszuwählen, die Sie auf die Komponente anwenden möchten. Die im Dialogfeld „Bearbeiten“ vorgenommenen Auswahlen haben denselben Effekt wie die in der Komponenten-Symbolleiste ausgewählten.
 
-Stile müssen für diese Komponente im [Dialogfeld &quot;Design&quot;](#design-dialog) , damit das Dropdown-Menü verfügbar ist.
+Stile müssen für diese Komponente im [Dialogfeld „Design“](#design-dialog) konfiguriert werden, damit das Dropdown-Menü zur Verfügung steht.
 
 ![Registerkarte „Arten“ im Dialogfeld „Bearbeiten“ der Titelkomponente](/help/email/assets/email-title-edit-styles.png)
 
@@ -84,10 +84,10 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die standardmäßi
 
 ![Dialogfeld „Design“ der Titelkomponente](/help/email/assets/email-title-design.png)
 
-* **Zulässige Typen/Größen für Autoren** - Aktivieren oder deaktivieren Sie Überschrifttypen, die für Inhaltsautoren verfügbar sein werden, wenn sie die Komponente &quot;E-Mail-Titel&quot;verwenden.
-* **Standardtyp/Größe** - Definieren Sie den Überschrifttyp, der automatisch zugewiesen wird, wenn ein Inhaltsautor die E-Mail-Titelkomponente zu einer Seite hinzufügt.
-* **Link deaktivieren** - Deaktivieren Sie die Unterstützung für Links in der Komponente &quot;E-Mail-Titel&quot;, um Inhaltsautoren die Verknüpfung von Titeln zu verweigern.
+* **Zugelassene Typen/Größen für Autoren** - Aktiviert oder deaktiviert die Überschrifttypen, die für Inhaltsautoren verfügbar sind, wenn sie die E-Mail-Titelkomponente verwenden.
+* **Standardtyp/Größe** - Definiert den Überschrifttyp, der automatisch zugewiesen wird, wenn ein Inhaltsautor die E-Mail-Titelkomponente zu einer Seite hinzufügt.
+* **Link deaktivieren** - Deaktiviert die Unterstützung für Links in der E-Mail-Titelkomponente, um Inhaltsautoren das Verlinken von Titeln zu untersagen.
 
-### Registerkarte „Stile“ {#styles-tab}
+### Registerkarte „Arten“ {#styles-tab}
 
-Die E-Mail-Titelkomponente unterstützt den AEM [Stilsystem](/help/get-started/authoring.md#component-styling).
+Die E-Mail-Titelkomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
