@@ -1,32 +1,32 @@
 ---
 title: E-Mail-Segmentierungskomponente
-description: Die Komponente E-Mail-Segmentierung
+description: Die E-Mail-Segmentierungskomponente
 role: Architect, Developer, Admin, User
 exl-id: 6c88b8c5-189a-40c0-ab28-04d37dc5fbac
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1171'
-ht-degree: 16%
+ht-degree: 100%
 
 ---
 
 
 # E-Mail-Segmentierungskomponente {#email-segmentation-component}
 
-Die E-Mail-Segmentierungskomponente verwendet Variablen aus Adobe Campaign, um Inhalte basierend auf dem Empfänger des Inhalts anzuzeigen und auszublenden.
+Die E-Mail-Segmentierungskomponente verwendet Variablen von Adobe Campaign, um abhängig vom Empfänger bzw. von der Empfängerin Inhalte anzuzeigen oder auszublenden.
 
-## Nutzung {#usage}
+## Verwendung {#usage}
 
-Mit der E-Mail-Segmentierungskomponente kann der Inhaltsautor Inhalte anhand von Bedingungen ausblenden und anzeigen, die von Variablen bezüglich des von Adobe Campaign bereitgestellten Empfängers erfüllt werden. Auf diese Weise sehen die Empfänger des Inhalts Inhalte basierend auf ihrer Segmentierung.
+Mit der E-Mail-Segmentierungskomponente kann der Inhaltsautor bzw. die Inhaltsautorin Inhalte auf der Basis von Bedingungen ausblenden oder anzeigen, die von Variablen zu den von Adobe Campaign bereitgestellten Empfangenden erfüllt werden. Auf diese Weise sehen die Empfangenden Inhalte, die auf ihrer Segmentierung basieren.
 
-* Der Vorlagenautor kann die [Dialogfeld &quot;Design&quot;](#design-dialog) , um zu definieren, welche Komponenten als Segment hinzugefügt werden können.
-* Der Inhaltsautor kann die [Dialogfeld konfigurieren](#configure-dialog) , um Komponenten als Segmente hinzuzufügen und zu konfigurieren, welche Segmente basierend auf Adobe Campaign-Variablen angezeigt werden.
+* Der Vorlagenautor bzw. die Vorlagenautorin kann das [Dialogfeld „Design“](#design-dialog) verwenden, um zu definieren, welche Komponenten als Segment hinzugefügt werden können.
+* Der Inhaltsautor bzw. die Inhaltsautorin kann das [Dialogfeld „Konfigurieren“](#configure-dialog) verwenden, um Komponenten als Segmente hinzuzufügen, und konfigurieren, welche Segmente basierend auf Adobe Campaign-Variablen angezeigt werden.
 
-Als Alternative zur Verwendung des Dialogfelds &quot;Konfigurieren&quot;kann der Inhaltsautor, sobald der Inhaltsautor die Komponente E-Mail-Segmentierung zu einer Inhaltsseite hinzugefügt hat, zusätzliche Komponenten per Drag &amp; Drop in die Komponenten für die E-Mail-Segmentierung ziehen, um neue Segmente zu erstellen.
+Als Alternative zur Verwendung des Dialogs „Konfigurieren“ kann der Inhaltsautor bzw. die Inhaltsautorin nach dem Hinzufügen der E-Mail-Segmentierungskomponente zu einer Inhaltsseite zusätzliche Komponenten per Drag-and-Drop in die E-Mail-Segmentierungskomponente ziehen, um neue Segmente zu erstellen.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die aktuelle Version der E-Mail-Segmentierungskomponente ist v1, die mit Version x der E-Mail-Kernkomponenten im Oktober 2022 eingeführt wurde und in diesem Dokument beschrieben wird.
+Die aktuelle Version der E-Mail-Segmentierungs-Komponente ist v1. Sie wurde mit dem Release X der E-Mail-Kernkomponenten im Oktober 2022 eingeführt und wird in diesem Dokument beschrieben.
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
@@ -34,53 +34,53 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 |---|---|---|
 | v1 | Kompatibel | Kompatibel |
 
-## Musterkomponentenausgabe {#sample-component-output}
+## Muster für Komponentenausgabe {#sample-component-output}
 
-Um die E-Mail-Segmentierungskomponente zu erleben und Beispiele für die Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu sehen, besuchen Sie die [Komponentenbibliothek.](https://adobe.com/go/aem_cmp_library_email_segmentation)
+Um die E-Mail-Segmentierungskomponente und Beispiele für ihre Konfigurationsoptionen sowie HTML- und JSON-Ausgaben anzusehen, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_email_segmentation).
 
 ### Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur E-Mail-Teaser-Komponente [finden Sie auf GitHub.](https://adobe.com/go/aem_cmp_tech_email_segmentation_v1)
+Die aktuelle technische Dokumentation zur E-Mail-Teaser-Komponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_email_segmentation_v1).
 
-Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler.](/help/developing/overview.md)
+Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
 ## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
-Im Dialogfeld &quot;Konfigurieren&quot;kann der Inhaltsautor Segmente erstellen, umbenennen und neu anordnen sowie das aktive Segment definieren. In der Komponente E-Mail-Segmentierung ist ein Segment einfach eine andere Komponente, die basierend auf den vom Empfänger des Inhalts erfüllten Bedingungen ausgeblendet oder angezeigt wird. Sie können sie mit dem [Registerkartenkomponente &quot;Kernkomponenten&quot;](/help/components/tabs.md) In der Segmentierungskomponente wird jedoch nur der Inhalt der Registerkarte angezeigt, deren Bedingungen erfüllt sind.
+Im Dialogfeld „Konfigurieren“ kann der Inhaltsautor bzw. die Inhaltsautorin Segmente erstellen, umbenennen und neu anordnen sowie das aktive Segment definieren. In der E-Mail-Segmentierungskomponente ist ein Segment einfach eine weitere Komponente, die angezeigt oder ausgeblendet wird, je nachdem ob ein Empfänger bzw. eine Empfängerin bestimmte Bedingungen erfüllt oder nicht. Sie ist vergleichbar mit der [Kernkomponenten-Registerkarte „Komponenten“](/help/components/tabs.md), nur dass in der Segmentierungskomponente wird nur der Inhalt der Registerkarte angezeigt, deren Bedingungen erfüllt werden.
 
 ### Registerkarte „Elemente“ {#items-tab}
 
-![Registerkarte &quot;Elemente&quot;im Dialogfeld &quot;Konfigurieren&quot;der E-Mail-Segmentierungskomponente](/help/email/assets/email-segmentation-configure-items.png)
+![Registerkarte „Dialogelemente konfigurieren“ der E-Mail-Segmentierungskomponente](/help/email/assets/email-segmentation-configure-items.png)
 
-Verwenden Sie die **Segment hinzufügen** -Schaltfläche, um die Komponentenauswahl zu öffnen und auszuwählen, welche Komponente als Segment hinzugefügt werden soll. Nach dem Hinzufügen wird der Liste ein Eintrag hinzugefügt, der die folgenden Elemente enthält:
+Verwenden Sie die Schaltfläche **Segment hinzufügen**, um die Komponentenauswahl zu öffnen und dort auszuwählen, welche Komponente als Segment hinzugefügt werden soll. Nach dem Hinzufügen wird der Liste ein Eintrag hinzugefügt, der die folgenden Elemente enthält:
 
-* **Symbol** - Das Symbol des Komponententyps des Segments zur einfachen Identifizierung in der Liste. Bewegen Sie den Mauszeiger darüber, um den vollständigen Komponentennamen als QuickInfo zu sehen.
-* **Bedingung** - Die Bedingung, die erfüllt sein muss, damit dieses Segment dem Empfänger des Inhalts angezeigt wird.
-   * Die verfügbaren Bedingungen werden im Abschnitt [Dialogfeld &quot;Design&quot;.](#design-dialog)
-   * **Standard** - Definiert das Standardsegment, das angezeigt wird, wenn keine anderen Bedingungen erfüllt sind
-   * **Benutzerdefiniert** - Ermöglicht es dem Autor, eine Bedingung zu definieren
-      * Die Bedingungen basieren auf den Adobe Campaign-Personalisierungsvariablen
-      * [Hier finden Sie Adobe Campaign Standard-Personalisierungsressourcen.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?)
-      * [Hier finden Sie Adobe Campaign Classic-Personalisierungsressourcen.](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html)
-* **Löschen** - Tippen oder klicken Sie, um das Segment aus der E-Mail-Segmentierungskomponente zu löschen.
-* **Neu anordnen** - Tippen oder klicken und ziehen Sie, um die Segmente neu anzuordnen.
+* **Symbol** – Das Symbol des Komponententyps des Segments zur einfachen Identifizierung in der Liste. Bewegen Sie den Mauszeiger darüber, um den vollständigen Komponentennamen als QuickInfo zu sehen.
+* **Bedingung** – Die Bedingung, die erfüllt sein muss, damit dieses Segment dem Empfänger bzw. der Empfängerin des Inhalts angezeigt wird.
+   * Die verfügbaren Bedingungen werden im [Dialogfeld „Design“](#design-dialog) definiert.
+   * **Standard** – Definiert das Standardsegment, das angezeigt wird, wenn keine anderen Bedingungen erfüllt sind
+   * **Benutzerdefiniert** – Ermöglicht dem Autor bzw. der Autorin die Definition einer Bedingung
+      * Die Bedingungen basieren auf Adobe Campaign-Personalisierungsvariablen.
+      * [Hier finden Sie Adobe Campaign Standard-Personalisierungsressourcen.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=de)
+      * [Hier finden Sie Adobe Campaign Classic-Personalisierungsressourcen.](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html?lang=de)
+* **Entfernen** – Tippen oder klicken Sie darauf, um das Segment aus der E-Mail-Segmentierungskomponente zu löschen.
+* **Neu anordnen** – Tippen oder klicken und ziehen Sie die Segmente, um sie neu anzuordnen.
 
 >[!TIP]
 >
->Wenn der Viewport des Inhalts so reduziert wird, dass das Bearbeitungsdialogfeld im Vollbildmodus angezeigt wird, wird die **Hinzufügen** -Schaltfläche ausgeblendet. Komponenten können der E-Mail-Segmentierungskomponente weiterhin hinzugefügt werden durch [Ziehen Sie aus dem Komponenten-Browser und legen Sie die Komponente E-Mail-Segmentierung im Inhaltseditor ab.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=de#inserting-a-component)
+>Wenn der Viewport des Inhalts so reduziert wird, dass das Bearbeitungsdialogfeld im Vollbild angezeigt wird, ist die Schaltfläche **Hinzufügen** ausgeblendet. Komponenten können der E-Mail-Segmentierungskomponente weiter hinzugefügt werden, indem [sie aus dem Komponenten-Browser gezogen und in der E-Mail-Segmentierungskomponente im Inhaltseditor abgelegt werden.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=de#inserting-a-component)
 
 ### Registerkarte „Eigenschaften“ {#properties-tab}
 
-![Registerkarte &quot;Eigenschaften&quot;im Dialogfeld &quot;Konfigurieren&quot;der E-Mail-Segmentierungskomponente](/help/email/assets/email-segmentation-configure-properties.png)
+![Registerkarte „Eigenschaften“ im Dialogfeld „Konfigurieren“ der E-Mail Segmentierungskomponente](/help/email/assets/email-segmentation-configure-properties.png)
 
-* **ID** - Diese Option ermöglicht die Steuerung der eindeutigen Kennung der Komponente im HTML.
-   * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie durch Überprüfen des resultierenden Inhalts finden können.
-   * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
-   * Eine Änderung der ID kann sich auf CSS auswirken.
+* **ID** – Diese Option ermöglicht das Festlegen der eindeutigen Kennung der Komponente in HTML.
+   * Wenn das Feld leer bleibt, wird automatisch eine eindeutige ID generiert, den Sie im resultierenden Inhalt finden.
+   * Sofern eine ID angegeben wird, ist vom Autor bzw. der Autorin sicherzustellen, dass diese eindeutig ist.
+   * Die Änderung der ID kann sich auf CSS auswirken.
 
 ### Registerkarte „Erreichbarkeit“ {#accessibility-tab}
 
-![Registerkarte &quot;Barrierefreiheit&quot;im Dialogfeld &quot;Konfigurieren&quot;der E-Mail-Segmentierungskomponente](/help/email/assets/email-segmentation-configure-accessibility.png)
+![Registerkarte „Ein-/Ausgabehilfe“ im Dialogfeld „Konfigurieren“ der E-Mail-Segmentierungkomponente](/help/email/assets/email-segmentation-configure-accessibility.png)
 
 Auf der Registerkarte **Erreichbarkeit** können Werte für die [ARIA-Barrierefreiheits-Beschriftungen](https://www.w3.org/WAI/standards-guidelines/aria/) für die Komponente festgelegt werden.
 
@@ -88,57 +88,57 @@ Auf der Registerkarte **Erreichbarkeit** können Werte für die [ARIA-Barrierefr
 
 ### Registerkarte „Arten“ {#styles-tab-edit}
 
-Die E-Mail-Segmentierungskomponente unterstützt die AEM [Stilsystem.](/help/get-started/authoring.md#component-styling)
+Die E-Mail-Segmentierungskomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
 Verwenden Sie das Dropdown-Menü, um die Stile auszuwählen, die Sie auf die Komponente anwenden möchten. Die im Dialogfeld „Bearbeiten“ vorgenommenen Auswahlen haben denselben Effekt wie die in der Komponenten-Symbolleiste ausgewählten.
 
-Stile müssen für diese Komponente im [Dialogfeld &quot;Design&quot;](#design-dialog) , damit die Registerkarte verfügbar ist.
+Stile müssen für diese Komponente im [Dialogfeld „Design“](#design-dialog) konfiguriert werden, damit die Registerkarte verfügbar ist.
 
 ## Bedienfeld auswählen {#select-panel}
 
-Der Inhaltsautor kann die **Bedienfeld auswählen** in der Komponentensymbolleiste zu einem anderen Segment für die Bearbeitung wechseln und die Segmente einfach neu anordnen.
+Der Inhaltsautor bzw. die Inhaltsautorin kann in der Komponenten-Symbolleiste die Option **Bedienfeld auswählen** verwenden, um zu einem anderen Segment zu wechseln und es zu bearbeiten oder die Reihenfolge der Segmente zu ändern.
 
 ![Symbol „Bedienfeld auswählen“](/help/email/assets/select-panel-icon.png)
 
-Nach Auswahl der **Bedienfeld auswählen** in der Komponenten-Symbolleiste werden die konfigurierten Segmente als Dropdown-Liste angezeigt.
+Nachdem in der Komponenten-Symbolleiste die Option **Bedienfeld auswählen** ausgewählt wurde, werden die konfigurierten Registerkarten als Dropdown-Liste angezeigt.
 
-* Die Liste wird nach der zugewiesenen Segmentanordnung geordnet und wird in der Nummerierung angezeigt.
+* Die Liste ist nach der zugewiesenen Anordnung der Segmente geordnet, was sich auch in der Nummerierung zeigt.
 * Der Komponententyp des Segments wird zuerst angezeigt, gefolgt von der Beschreibung des Segments in hellerer Schriftart.
 
 ![Popover „Bedienfeld auswählen“](/help/email/assets/select-panel-popover.png)
 
-* Durch Tippen oder Klicken auf einen Eintrag in der Dropdown-Liste wird die Ansicht im Editor auf dieses Segment umgestellt.
-* Die Segmente können mithilfe der Ziehpunkte an Ort und Stelle neu angeordnet werden.
+* Durch Tippen oder Klicken auf einen Eintrag in der Dropdown-Liste wechselt die Ansicht im Editor zu diesem Segment.
+* Die Segmente können direkt mithilfe der Ziehgriffe neu angeordnet werden.
 
 >[!NOTE]
 >
->Segmente werden im Seiteneditor als Registerkarten gerendert, um anzuzeigen, dass mehrere Optionen für den endgültigen Inhalt vorhanden sind. Diese Registerkarten können vom Autor im Seiteneditor nicht ausgewählt werden. Verwenden Sie das Auswahlfeld, um zwischen angezeigten Segmenten zu wechseln.
+>Segmente werden im Seiteneditor als Registerkarten gerendert, sodass ersichtlich ist, dass mehrere Optionen für den endgültigen Inhalt vorhanden sind. Diese Registerkarten können vom Autor bzw. der Autorin nicht im Seiteneditor ausgewählt werden. Verwenden Sie das Auswahlfeld, um zwischen den angezeigten Segmenten zu wechseln.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
-Im Dialogfeld &quot;Design&quot;kann der Vorlagenautor definieren, welche Komponenten der E-Mail-Segmentierungskomponente als Segmente hinzugefügt werden können, und definieren, welche benutzerdefinierten Stile dem Inhaltsautor zur Verfügung stehen.
+Im Dialogfeld „Design“ kann der Vorlagenautor bzw. die Vorlagenautorin definieren, welche Komponenten als Segmente zur E-Mail-Segmentierungskomponente hinzugefügt werden können. Außerdem kann er festlegen, welche benutzerdefinierten Stile dem Inhaltsautor bzw. der Inhaltsautorin zur Verfügung stehen.
 
 ### Registerkarte „Zugelassene Komponenten“ {#allowed-components-tab}
 
-Die **Zugelassene Komponenten** wird verwendet, um zu definieren, welche Komponenten vom Inhaltsautor der E-Mail-Segmentierungskomponente als Segmente hinzugefügt werden können.
+In der Registerkarte **Zugelassene Komponenten** können Sie definieren, welche Komponenten der Inhaltsautor bzw. die Inhaltsautorin zur E-Mail-Segmentierungskomponente hinzufügen kann.
 
-Die **Zugelassene Komponenten** tab funktioniert genauso wie die Registerkarte mit demselben Namen, wenn [Definieren der Richtlinie und Eigenschaften eines Layout-Containers im Vorlageneditor.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=de)
+Die Registerkarte **Zugelassene Komponenten** funktioniert auf die gleiche Weise wie die namensgleiche Registerkarte, wenn im Vorlageneditor [die Richtlinie und die Eigenschaften eines Layout-Containers definiert werden](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=de).
 
-### Registerkarte „Stile“ {#styles-tab}
+### Registerkarte „Arten“ {#styles-tab}
 
-Die E-Mail-Segmentierungskomponente unterstützt die AEM [Stilsystem.](/help/get-started/authoring.md#component-styling)
+Die E-Mail-Segmentierungskomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
-### Registerkarte &quot;Definierte Bedingungen&quot; {#defined-conditions}
+### Registerkarte „Definierte Bedingungen“ {#defined-conditions}
 
-Verwenden der **Definierte Bedingungen** können Sie im Vorlagen-Editor festlegen, welche Bedingungen dem Inhaltsautor beim Erstellen von Segmenten zur Verfügung stehen.
+Mit der Verwendung der Registerkarte **Definierte Bedingungen** kann der Vorlagen-Editor festlegen, welche Bedingungen dem Inhaltsautor bzw. der Inhaltsautorin beim Erstellen von Segmenten zur Verfügung stehen.
 
-![Registerkarte &quot;Designdialogfeld - Definierte Bedingungen&quot;](/help/email/assets/email-segmentation-design-defined-conditions.png)
+![Registerkarte „Definierte Bedingungen“ des Dialogfelds „Design“](/help/email/assets/email-segmentation-design-defined-conditions.png)
 
-Tippen oder klicken Sie auf **Hinzufügen** -Schaltfläche, um neue Bedingungen zu erstellen.
+Tippen oder klicken Sie auf die **Hinzufügen**-Schaltfläche, um neue Bedingungen zu erstellen.
 
-* **Name der Segmentbedingung** - Beschreibung der Bedingung
-* **Segmentbedingung** - Die tatsächliche Bedingung, die basierend auf Adobe Campaign-Personalisierungsvariablen erfüllt werden muss
-   * [Hier finden Sie Adobe Campaign Standard-Personalisierungsressourcen.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?)
+* **Name der Segmentbedingung** – Eine Beschreibung der Bedingung
+* **Segmentbedingung** – Die tatsächliche Bedingung, die basierend auf Adobe Campaign-Personalisierungsvariablen erfüllt werden muss
+   * [Hier finden Sie Adobe Campaign Standard-Personalisierungsressourcen.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=de)
    * [Hier finden Sie Adobe Campaign Classic-Personalisierungsressourcen.](https://experienceleague.adobe.com/docs/
-* **Entfernen** - Tippen Sie auf , um auf zu klicken, um die Bedingung zu entfernen.
-* **Neu anordnen** - Tippen oder klicken und ziehen Sie, um die Reihenfolge der Bedingungen neu anzuordnen.
+* **Entfernen** – Tippen oder klicken Sie, um die Bedingung zu entfernen
+* **Neu anordnen** – Tippen oder klicken und ziehen Sie die Bedingungen, um ihre Reihenfolge neu anzuordnen
