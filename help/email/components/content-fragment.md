@@ -4,8 +4,8 @@ description: Die E-Mail-Inhaltsfragment-Komponente ermöglicht die Anzeige eines
 role: Architect, Developer, Admin, User
 exl-id: 9bc6b730-0d2a-4e5b-891c-d2f67f600bcc
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '668'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ Die E-Mail-Inhaltsfragment-Komponente ermöglicht die Anzeige eines [Inhaltsfrag
 
 ## Verwendung {#usage}
 
-Die E-Mail-Inhaltsfragment-Komponente ermöglicht das Einfügen eines [Inhaltsfragments](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=de) in Ihren E-Mail-Inhalt. Inhaltsfragmente sind kanalübergreifende, strukturierte Inhalte, die zentral erstellt und einfach wiederverwendet werden können.
+Die E-Mail-Inhaltsfragment-Komponente ermöglicht das Einfügen eines [Inhaltsfragments](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) in Ihren E-Mail-Inhalt. Inhaltsfragmente sind kanalübergreifende, strukturierte Inhalte, die zentral erstellt und einfach wiederverwendet werden können.
 
 * Das Fragment und seine Eigenschaften können im [Dialogfeld „Konfigurieren“](#configure-dialog) ausgewählt werden.
 * Ressourcentypen zum Verarbeiten bestimmter Bilder und Raster können im [Dialogfeld „Design“](#design-dialog) definiert werden.
