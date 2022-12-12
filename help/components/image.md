@@ -1,22 +1,22 @@
 ---
 title: Bildkomponente
-description: Die Kernkomponente "Bildkomponente"ist eine adaptive Bildkomponente.
+description: Die Bildkomponenten-Kernkomponente ist eine adaptive Bildkomponente.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: f0971db66cbbf8221c12cedf108eee3bca8a527a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1678'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Bildkomponente {#image-component}
 
-Die Kernkomponente &quot;Bildkomponente&quot;ist eine adaptive Bildkomponente.
+Die Bildkomponenten-Kernkomponente ist eine adaptive Bildkomponente.
 
-## Nutzung {#usage}
+## Verwendung {#usage}
 
-Die Bildkomponente bietet adaptive Bildauswahl und responsives Verhalten mit verzögertem Laden für den Seitenbesucher sowie einfache Bildplatzierung für den Inhaltsautor.
+Die Bildkomponente bietet adaptive Bildauswahl und responsives Verhalten mit verzögertem Laden für den Seitenbesucher bzw. die Seitenbesucherin sowie einfache Bildplatzierung für den Inhaltsautor bzw. die Inhaltsautorin.
 
 Die Bildbreiten sowie zusätzliche Einstellungen können vom Vorlagenautor im [Dialogfeld „Design“](#design-dialog) definiert werden. Der Inhaltseditor kann Elemente im [Dialogfeld „Konfigurieren“](#configure-dialog) hochladen oder auswählen.
 
@@ -66,7 +66,7 @@ Aus Sicherheitsgründen wird die ursprüngliche SVG niemals direkt vom Bild-Edit
 >
 >Für die SVG-Unterstützung sind die Kernkomponenten in Version 2.1.0 oder höher zusammen mit [Service Pack 2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=de) für AEM 6.4 oder höher erforderlich, damit [neue Bildbearbeitungsfunktionen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/image-editor.html?lang=de) in AEM unterstützt werden.
 
-## Musterkomponentenausgabe {#sample-component-output}
+## Muster für Komponentenausgabe {#sample-component-output}
 
 Um die Bildkomponente zu erleben und Beispiele für ihre Konfigurationsoptionen sowie die HTML- und JSON-Ausgabe zu sehen, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_image_de).
 
@@ -116,7 +116,7 @@ Die Bildkomponente bietet ein Dialogfeld zum Konfigurieren, in dem das Bild selb
    * **Link in neuer Registerkarte öffnen** – Mit dieser Option wird der Link in einem neuen Browser-Fenster geöffnet.
 * **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
    * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
-   * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
+   * Sofern eine ID angegeben wird, ist vom Autor bzw. der Autorin sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
 >[!TIP]
