@@ -1,40 +1,40 @@
 ---
 title: Einführung in E-Mail-Kernkomponenten
-description: Erstellen Sie ansprechende E-Mail-Inhalte mithilfe der Flexibilität der E-Mail-Kernkomponenten und stellen Sie sie mit Adobe Campaign bereit.
+description: Erstellen Sie ansprechende E-Mail-Inhalte unter Verwendung der flexiblen E-Mail-Kernkomponenten und versenden Sie sie mit Adobe Campaign.
 role: Architect, Developer, Admin, User
 exl-id: 0a411f28-bd6a-4bad-b473-6bc27c1d1055
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 10%
+ht-degree: 88%
 
 ---
 
 
-# Einführung in E-Mail-Kernkomponenten {#email-core-components-introduction}
+# Einführung in E-Mail-Kernkomponenten  {#email-core-components-introduction}
 
-Erstellen Sie ansprechende E-Mail-Inhalte mithilfe der Flexibilität der E-Mail-Kernkomponenten und stellen Sie sie mit Adobe Campaign bereit.
+Erstellen Sie ansprechende E-Mail-Inhalte unter Verwendung der flexiblen E-Mail-Kernkomponenten und versenden Sie sie mit Adobe Campaign.
 
 ## Übersicht {#overview}
 
-Die E-Mail-Kernkomponenten basieren auf derselben leistungsstarken Grundlage der Kernkomponenten. Sie ermöglichen ein einfaches und flexibles Drag-and-Drop-Authoring von E-Mail-Inhalten, die dann mithilfe von Adobe Campaign an Ihre Audience gesendet werden können.
+Die E-Mail-Kernkomponenten basieren auf derselben leistungsstarken Grundlage wie die Kernkomponenten. Sie ermöglichen eine einfache und flexible Drag-and-Drop-Erstellung von E-Mail-Inhalten, die dann mit Adobe Campaign an Ihre Zielgruppe gesendet werden können.
 
 ## Vorteile {#benefits}
 
-E-Mails sind Teil des Markenerlebnisses und der Journey von Kunden. Mit den E-Mail-Kernkomponenten können Ihre Autoren E-Mail-Inhalte aus AEM erstellen, ein konsistentes Branding-Erlebnis bieten und damit die Content-Geschwindigkeit erhöhen.
+E-Mails sind Teil des Markenerlebnisses und der Customer Journey. Mit den E-Mail-Kernkomponenten können Ihre Autoren bzw. Autorinnen E-Mail-Inhalte in AEM erstellen, ein konsistentes Branding-Erlebnis bieten und dadurch die Erstellung von Content beschleunigen.
 
-* Genau wie Authoring-Seiten mit den Kernkomponenten ermöglichen es die E-Mail-Kernkomponenten Autoren, E-Mails ohne technisches Wissen zusammenzustellen und gleichzeitig sicherzustellen, dass sie den Branding-Richtlinien entsprechen.
-* Die Funktion zur Wiederverwendung von Assets und Inhalten ermutigt Autoren auch, Branding-Richtlinien zu befolgen und den Inhaltserstellungsprozess zu optimieren.
+* Genau wie bei der Seitenerstellung mit den Kernkomponenten können Autoren bzw. Autorinnen auch mit den E-Mail-Kernkomponenten E-Mails ohne technisches Wissen zusammenstellen und gleichzeitig sicherstellen, dass sie den Branding-Richtlinien folgen.
+* Die Möglichkeit, Assets und Inhalte wiederzuverwenden, verbessert die Fähigkeit von Autoren bzw. Autorinnen, Branding-Richtlinien zu folgen und den Inhaltserstellungsprozess zu optimieren.
 
 ## Funktionen {#features}
 
-* Die Kernkomponenten der E-Mail basieren auf dem [Kernkomponenten,](/help/introduction.md) und daher auch [Bearbeitbare Vorlagen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=de) und [Stilsystem.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=de)
-* Es gibt [zehn für E-Mails optimierte produktionsbereite Komponenten](#components) , um E-Mail-Inhalte zu erstellen.
+* Die E-Mail-Kernkomponenten basieren auf den [Kernkomponenten](/help/introduction.md) und unterstützen daher auch [bearbeitbare Vorlagen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=de) und das [Stilsystem](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=de).
+* Es gibt [zehn für E-Mails optimierte produktionsbereite Komponenten](#components), um E-Mail-Inhalte zu erstellen.
 * Die Kernkomponenten der E-Mail bieten eine erweiterte Personalisierung durch das Einfügen von [Adobe Campaign-Variablen](campaign-variables.md) in den meisten Dialogfeldern.
 * Die Flexibilität [Segmentierungskomponente](/help/email/components/segmentation.md) ermöglicht eine erweiterte Segmentierung Ihres Inhalts.
-* Die Kernkomponenten der E-Mail bieten dank der [CSS-Stile in Liner,](https://github.com/adobe/aem-core-email-components/wiki/CSS-Styles-Inliner:-Technical-documentation) [das HTML-Attribut inliner,](https://github.com/adobe/aem-core-email-components/wiki/HTML-Inliner) und [HTML sanitizer.](https://github.com/adobe/aem-core-email-components/wiki/HTML-Sanitizing)
-* Sie können E-Mail-Inhalte an einer beliebigen Stelle erstellen. `/content`.
-* Die E-Mail-Kernkomponenten sind [Open Source.](https://github.com/adobe/aem-core-email-components)
+* Die E-Mail-Kernkomponenten bieten dank [CSS Styles Inliner](https://github.com/adobe/aem-core-email-components/wiki/CSS-Styles-Inliner:-Technical-documentation), [HTML Attribute Inliner](https://github.com/adobe/aem-core-email-components/wiki/HTML-Inliner) und [HTML Sanitizer](https://github.com/adobe/aem-core-email-components/wiki/HTML-Sanitizing) eine für E-Mail optimierte HTML-Ausgabe.
+* Sie können E-Mail-Inhalte an einer beliebigen Stelle unter `/content` erstellen.
+* Die E-Mail-Kernkomponenten sind [Open Source](https://github.com/adobe/aem-core-email-components).
 
 ## Voraussetzungen {#requirements}
 
@@ -65,4 +65,4 @@ Die aktuelle Version der E-Mail-Kernkomponenten enthält die folgenden Komponent
 
 ## Installation und Verwendung {#installation-usage}
 
-Siehe [Verwenden der E-Mail-Kernkomponenten](using.md) Dokument für Details zur Installation der E-Mail-Kernkomponenten.
+Siehe Dokument [Verwenden von E-Mail-Kernkomponenten](using.md) für Details zur Installation der E-Mail-Kernkomponenten.

@@ -2,12 +2,12 @@
 sub-product: AEM Core Components
 user-guide-title: AEM-Kernkomponenten
 breadcrumb-title: Anleitung zu den Hauptkomponenten
-user-guide-description: Nutzen Sie die erweiterbaren Hauptkomponenten, damit Autoren mühelos Inhalte erstellen können.
+user-guide-description: Nutzen Sie die erweiterbaren Hauptkomponenten, damit Autoren bzw. Autorinnen mühelos Inhalte erstellen können.
 feature-set: Experience Manager Sites
 source-git-commit: 5431b57727ca5b9518cb80f620cffd0c31ef2f2d
 workflow-type: tm+mt
 source-wordcount: '282'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 94%
       + [Titel (v2)](components/v2/title.md)
 + E-Mail-Komponenten {#email}
    + [Einführung](/help/email/introduction.md)
-   + [Verwenden der E-Mail-Kernkomponenten](/help/email/using.md)
+   + [Verwenden von E-Mail-Kernkomponenten](/help/email/using.md)
    + [Kampagnenvariablen](/help/email/campaign-variables.md)
    + [Versionen](/help/email/versions.md)
    + Die E-Mail-Komponenten {#components}

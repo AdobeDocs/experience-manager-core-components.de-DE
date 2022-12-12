@@ -6,7 +6,7 @@ exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 source-git-commit: 5431b57727ca5b9518cb80f620cffd0c31ef2f2d
 workflow-type: tm+mt
 source-wordcount: '967'
-ht-degree: 91%
+ht-degree: 94%
 
 ---
 
@@ -117,7 +117,7 @@ Die Anforderungen aus früheren Kernkomponenten-Versionen finden Sie unter [Kern
 
 Die Kernkomponenten erfordern die Verwendung [bearbeitbarer Vorlagen](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html?lang=de) und unterstützen weder die klassische Benutzeroberfläche noch statische Vorlagen. Sehen Sie sich bei Bedarf die [AEM-Modernisierungs-Tools](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html) an, um Ihr Projekt mit diesen modernen AEM-Funktionen zu aktualisieren.
 
-Informationen zum Einrichten Ihrer lokalen Entwicklungsumgebung finden Sie unter [Diese Übersicht über AEM as a Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html?lang=de) oder dieses Dokument [für ältere AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html?lang=de).
+Informationen zum Einrichten Ihrer lokalen Entwicklungsumgebung finden Sie in [dieser Übersicht für AEM as a Cloud Service-SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html?lang=de) oder in diesem Dokument [für ältere Versionen von AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html?lang=de).
 
 >[!TIP]
 >
