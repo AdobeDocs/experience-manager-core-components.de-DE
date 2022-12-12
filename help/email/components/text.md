@@ -1,30 +1,30 @@
 ---
 title: E-Mail-Textkomponente
-description: Die E-Mail-Textkomponente ist eine Komponente zur Bearbeitung und Zusammensetzung von Rich-Text, die eine direkte Bearbeitung ermöglicht.
+description: Die E-Mail-Textkomponente ist eine Komponente zur Bearbeitung und Erstellung von Rich-Texten, die eine Bearbeitung im Kontext ermöglicht.
 role: Architect, Developer, Admin, User
 exl-id: 4aa192f6-8314-40e7-8732-c6626d647986
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2328'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
 
 # E-Mail-Textkomponente {#email-text-component}
 
-Die E-Mail-Textkomponente ist eine Komponente zur Bearbeitung und Zusammensetzung von Rich-Text, die eine direkte Bearbeitung ermöglicht.
+Die E-Mail-Textkomponente ist eine Komponente zur Bearbeitung und Erstellung von Rich-Texten, die eine Bearbeitung im Kontext ermöglicht.
 
-## Nutzung {#usage}
+## Verwendung {#usage}
 
-Die E-Mail-Textkomponente bietet einen robusten Rich-Text-Editor, der die einfache Textbearbeitung in einem vereinfachten Inline-Editor sowie ein Vollbildformat ermöglicht.
+Die E-Mail-Textkomponente bietet einen leistungsfähigen Rich-Text-Editor, der eine einfache Textbearbeitung in einem vereinfachten Inline-Editor sowie im Vollbild ermöglicht.
 
-* Das [Dialogfeld „Bearbeiten“](#edit-dialog) verfügt über eine Inline-Bearbeitung mit eingeschränkten Optionen, während im Vollbildbearbeitungsdialogfeld alle Funktionen verfügbar sind.
-* Verwenden der [Dialogfeld &quot;Design&quot;](#design-dialog) Textformatierungsoptionen wie Überschriften, Sonderzeichen und Absatzstile können für die Vorlage für den Inhaltsautor konfiguriert werden.
+* Das [Dialogfeld „Bearbeiten“](#edit-dialog) verfügt über eine Inline-Bearbeitung mit eingeschränkten Optionen, während im Vollbild-Bearbeitungsdialogfeld alle Funktionen verfügbar sind.
+* Durch Verwenden des [Dialogfelds „Design“](#design-dialog) können Textformatierungsoptionen wie Überschriften, Sonderzeichen und Absatzstile für die Vorlage des Inhaltsautors bzw. die Inhaltsautorin konfiguriert werden.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die aktuelle Version der E-Mail-Textkomponente ist v1, die mit Version X der E-Mail-Kernkomponenten im Oktober 2022 eingeführt wurde und in diesem Dokument beschrieben wird.
+Die aktuelle Version der E-Mail-Textkomponente ist v1. Sie wurde mit dem Release X der E-Mail-Kernkomponenten im Oktober 2022 eingeführt und wird in diesem Dokument beschrieben.
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
@@ -32,9 +32,9 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 |---|---|---|
 | v1 | Kompatibel | Kompatibel |
 
-Weitere Informationen zu Kernkomponentenversionen und -versionen finden Sie im Dokument . [Versionen der E-Mail-Kernkomponenten.](/help/email/versions.md)
+Weitere Informationen zu Kernkomponentenversionen und -Releases finden Sie im Dokument [E-Mail-Kernkomponentenversionen](/help/email/versions.md).
 
-## Musterkomponentenausgabe {#sample-component-output}
+## Muster für Komponentenausgabe {#sample-component-output}
 
 Um die Textkomponente sowie Beispiele für die Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_email_text).
 
@@ -46,13 +46,13 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 
 ## Die E-Mail-Textkomponente und der Rich-Text-Editor {#the-text-component-and-the-rich-text-editor}
 
-Die E-Mail-Textkomponente nutzt den AEM Rich-Text-Editor (RTE). Der Rich-Text-Editor (RTE) bietet Inhaltsautoren eine große Bandbreite an Funktionen zum Bearbeiten von ihren Textinhalten. Der RTE ist in seiner Konfiguration flexibel und bietet eine Reihe von Optionen. Weitere Informationen dazu, wie der RTE konfiguriert werden kann, finden Sie in den Artikeln [Konfigurieren des Rich-Text-Editors](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html?lang=de) und [Konfigurieren der Plug-ins für Rich-Text-Editor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=de).
+Die E-Mail-Textkomponente nutzt den AEM-Rich-Text-Editor (RTE). Der Rich-Text-Editor (RTE) bietet Inhaltsautoren bzw. Inhaltsautorinnen eine große Bandbreite an Funktionen zum Bearbeiten von Textinhalten. Der RTE ist in seiner Konfiguration flexibel und bietet eine Reihe von Optionen. Weitere Informationen dazu, wie der RTE konfiguriert werden kann, finden Sie in den Artikeln [Konfigurieren des Rich-Text-Editors](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html?lang=de) und [Konfigurieren der Plug-ins für den Rich-Text-Editor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=de).
 
 Der Rest dieses Dokuments zeigt die Standardkonfiguration der E-Mail-Textkomponente mit der vordefinierten RTE-Konfiguration.
 
 >[!NOTE]
 >
->Nur Optionen aktiviert durch [Benutzeroberflächenkonfigurationen des RTE](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) sind in der E-Mail-Textkomponente verfügbar.
+>In der E-Mail-Textkomponente sind nur Optionen verfügbar, die durch die [UI-Konfigurationen des RTE](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=de) aktiviert sind.
 
 ## Dialogfeld „Bearbeiten“ {#edit-dialog}
 
@@ -60,7 +60,7 @@ Der Rest dieses Dokuments zeigt die Standardkonfiguration der E-Mail-Textkompone
 
 ### Formatierungsoptionen {#options}
 
-Das Dialogfeld &quot;Bearbeiten&quot;bietet die standardmäßigen Rich-Text-Formatierungswerkzeuge, die ein Benutzer erwarten würde, um Text zu erstellen.
+Der Dialog „Bearbeiten“ bietet die standardmäßigen Rich-Text-Formatierungswerkzeuge zum Verfassen von Text.
 
 #### Fett
 
@@ -102,9 +102,9 @@ Wird verwendet, um ausgewählten Text oder Text, der nach dem Cursor eingegeben 
 
 ![Symbol „Als Text einfügen“](/help/assets/text-paste-text.png)
 
-Fügt einen kopierten Text als normalen Text ohne Formatierung ein.
+Fügt einen kopierten Text als unformatierten Text ein.
 
-Bei Auswahl dieser Option wird ein Fenster geöffnet, in dem der Text als Text ohne Formatierung eingefügt werden kann, bevor er in den Text eingefügt wird. Akzeptieren durch Tippen oder Klicken auf das Häkchen, abbrechen durch Tippen oder Klicken auf das x.
+Wenn Sie diese Option wählen, wird ein Fenster geöffnet, in das der Text als unformatierter Text zur Vorschau eingefügt werden kann, bevor er in den Text eingefügt wird. Sie können diese Option durch Tippen oder Klicken auf das Häkchen akzeptieren oder den Vorgang durch Tippen oder Klicken auf das x abbrechen.
 
 ![Beispiel für „Als Text einfügen“](/help/assets/text-paste-text-example.png)
 
@@ -112,7 +112,7 @@ Bei Auswahl dieser Option wird ein Fenster geöffnet, in dem der Text als Text o
 
 ![Symbol „Aus Word einfügen“](/help/assets/text-paste-word.png)
 
-Bei Auswahl dieser Option wird ein Fenster geöffnet, in dem der Text eingefügt werden kann, wobei seine Formatierung als Vorschau beibehalten werden kann, bevor er in den Text eingefügt wird. Akzeptieren durch Tippen oder Klicken auf das Häkchen, abbrechen durch Tippen oder Klicken auf das x.
+Wenn Sie diese Option wählen, wird ein Fenster geöffnet, in dem der formatierte Text zur Vorschau eingefügt werden kann, bevor er in den Text eingefügt wird. Sie können diese Option durch Tippen oder Klicken auf das Häkchen akzeptieren oder den Vorgang durch Tippen oder Klicken auf das x abbrechen.
 
 ![Beispiel für „Aus Word einfügen“](/help/assets/text-paste-word-example.png)
 
@@ -125,7 +125,7 @@ Mit dieser Option können Sie den ausgewählten Text in einen Hyperlink konverti
 ![Beispiel für „Hyperlink“](/help/assets/text-hyperlink-example.png)
 
 * Geben Sie den Pfad ein.
-   * Verwenden Sie die **Auswahl öffnen** Dialogfeld zum Auswählen eines Pfads in AEM
+   * Wählen Sie das Dialogfeld **Auswahl öffnen**, um in AEM einen Pfad auszuwählen
    * Wenn der Link in AEM nicht angezeigt wird, geben Sie die absolute URL ein.
       * Nicht-absolute Pfade werden als relativ zu AEM interpretiert.
 * Alternativen beschreibenden Text für den Link eingeben
@@ -182,25 +182,25 @@ Geben Sie den Text ein, für den Sie eine Suche durchführen möchten, sowie den
 * Wenn Sie eine genaue Übereinstimmung der Groß- und Kleinschreibung möchten, wählen Sie die Option **Groß-/Kleinschreibung beachten**, bevor Sie die Suche starten.
 * Wählen Sie **Alle ersetzen** aus, um alle Vorkommen des Texts gleichzeitig zu ersetzen.
 
-Wenn eine Übereinstimmung gefunden wird, wird sie hervorgehoben und das Suchdialogfeld wird abgeblendet. Klicken Sie erneut im abgeblendeten Dialogfeld auf die Schaltfläche **Suchen**, um nach dem nächsten Vorkommen zu suchen, oder klicken Sie auf **Ersetzen**, um den markierten, übereinstimmenden Text zu ersetzen. Die **Ersetzen** -Schaltfläche nur aktiv, wenn eine Übereinstimmung gefunden wurde.
+Wenn eine Übereinstimmung gefunden wird, wird sie hervorgehoben und das Suchdialogfeld wird abgeblendet. Klicken Sie erneut im abgeblendeten Dialogfeld auf die Schaltfläche **Suchen**, um nach dem nächsten Vorkommen zu suchen, oder klicken Sie auf **Ersetzen**, um den markierten, übereinstimmenden Text zu ersetzen. Beachten Sie, dass die Schaltfläche **Ersetzen** erst aktiv ist, nachdem der Suchtext gefunden wurde.
 
 Das Dialogfeld „Suchen und ersetzen“ wird transparent, wenn auf „Suchen“ geklickt wird, und undurchsichtig, wenn auf „Ersetzen“ geklickt wird. Dadurch kann der Autor den Text überprüfen, den der Autor ersetzen wird.
 
 >[!NOTE]
 >
->Bei Verwendung der Funktion zum Ersetzen sollte die zu ersetzende Zeichenfolge gleichzeitig mit der zu suchenden Zeichenfolge eingegeben werden. Sie können jedoch weiterhin auf „Suchen“ klicken, um nach der Zeichenfolge zu suchen, bevor Sie sie ersetzen. Wenn die Zeichenfolge zum Ersetzen eingegeben wird, nachdem auf „Suchen“ geklickt wurde, wird die Suche auf den Anfang des Textes zurückgesetzt.
+>Bei Verwendung der Funktion „Ersetzen“ sollte die zu ersetzende Zeichenfolge gleichzeitig mit der zu suchenden Zeichenfolge eingegeben werden. Sie können jedoch weiterhin auf „Suchen“ klicken, um nach der Zeichenfolge zu suchen, bevor Sie sie ersetzen. Wenn die Zeichenfolge zum Ersetzen eingegeben wird, nachdem auf „Suchen“ geklickt wurde, wird die Suche auf den Anfang des Textes zurückgesetzt.
 
 #### Rückgängig machen
 
-![Symbol &quot;Rückgängig&quot;](/help/email/assets/undo.png)
+![Symbol „Rückgängig“](/help/email/assets/undo.png)
 
 Wird verwendet, um die letzte Bearbeitung im Rich-Text-Editor rückgängig zu machen.
 
 #### Wiederholen
 
-![Symbol &quot;Wiederherstellen&quot;](/help/email/assets/redo.png)
+![Symbol „Wiederholen“](/help/email/assets/redo.png)
 
-Wird verwendet, um eine rückgängig gemachte Bearbeitung mithilfe des Rückgängig-Symbols rückgängig zu machen.
+Wird verwendet, um eine Bearbeitung, die mithilfe des Rückgängig-Symbols rückgängig gemacht wurde, erneut rückgängig zu machen.
 
 #### Text linksbündig ausrichten
 
@@ -269,7 +269,7 @@ Wird verwendet, um eine Tabelle in den Text einzufügen. Wenn Sie diese Option a
       * Die erste Zeile sollte verwendet werden
       * Die erste Spalte sollte verwendet werden
       * Die erste Zeile und erste Spalte sollten verwendet werden
-      * Oder es sollte keine Kopfzeile verwendet werden.
+      * Oder es sollte keine Kopfzeile verwendet werden
 * **Beschriftung** - Beschriftung der Tabelle
 
 #### Bild
@@ -284,7 +284,7 @@ Wird zum Ausrichten eines eingefügten Bildes verwendet.
 
 Wird verwendet, um die Rechtschreibung des Textinhalts zu überprüfen. Mögliche Rechtschreibfehler sind durch gestrichelte rote Linien unterstrichen.
 
-Weitere Details zur Rechtschreibprüfung und zum Anpassen von Rechtschreibprüfungswörterbüchern finden Sie im Dokument [Konfigurieren der Plug-ins für Rich-Text-Editor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
+Weitere Details zur Rechtschreibprüfung und zum Anpassen von Rechtschreibprüfungswörterbüchern finden Sie im Dokument [Konfigurieren der Plug-ins für Rich-Text-Editor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=de).
 
 #### Sonderzeichen {#special-characters}
 
@@ -318,37 +318,37 @@ Tippen oder klicken Sie auf das Symbol **Quellbearbeitung**, um den Inhalt des T
 
 ![Symbol „Absatzformat“](/help/assets/text-paragraph.png)
 
-Wird verwendet, um Absatzformatierung auf den ausgewählten Text anzuwenden oder auf Text, der nach dem Cursor eingefügt wird. Wenn Sie diese Option auswählen, wird eine Dropdown-Liste geöffnet, in der das Absatzformat ausgewählt ist.
+Wird verwendet, um Absatzformatierung auf den ausgewählten Text anzuwenden oder auf Text, der nach dem Cursor eingefügt wird. Durch Auswahl dieser Optionen wird eine Dropdown-Liste geöffnet, in der das Absatzformat ausgewählt werden kann.
 
 ![Beispiel für „Absatzformat“](/help/assets/text-paragraph-example.png)
 
-#### Adobe-Kampagnenvariable auswählen
+#### Adobe Campaign-Variable auswählen
 
-![Symbol Adobe Campaign-Variable auswählen](/help/email/assets/select-adobe-campaign-variable-icon.png)
+![Adobe Campaign-Variablensymbol auswählen](/help/email/assets/select-adobe-campaign-variable-icon.png)
 
-Öffnet die [Adobe Campaign-Variable auswählen](/help/email/campaign-variables.md) zum Einfügen von dynamischen Inhalten aus Adobe Campaign.
+Öffnet das Dialogfeld [Adobe Campaign-Variable auswählen](/help/email/campaign-variables.md) zum Einfügen von dynamischen Inhalten aus Adobe Campaign.
 
 ### Inline-Bearbeitung {#in-line-editing}
 
-Die Textkomponente kann auch inline bearbeitet werden. Um eine Inline-Bearbeitung durchzuführen, wählen Sie auf der Inhaltsseite die Komponente E-Mail-Text aus.
+Die Textkomponente kann auch inline bearbeitet werden. Um die Bearbeitung inline durchzuführen, wählen Sie auf der Inhaltsseite die E-Mail-Textkomponente aus.
 
-![Komponente E-Mail-Text auswählen](/help/email/assets/email-text-select-component.png)
+![E-Mail-Textkomponente auswählen](/help/email/assets/email-text-select-component.png)
 
-Tippen oder klicken Sie dann auf **Bearbeiten** in der Symbolleiste, die über der Komponente angezeigt wird. Die Symbolleiste ändert sich, um eingeschränkte Textformatierungsoptionen anzuzeigen (einschließlich Zugriff auf **Adobe Campaign-Variable auswählen** -Option) und Sie können den Text inline bearbeiten.
+Tippen oder klicken Sie dann auf das Symbol **Bearbeiten** in der Symbolleiste, die über der Komponente eingeblendet wird. Die Symbolleiste ändert sich und zeigt eingeschränkte Textformatierungsoptionen an (einschließlich Zugriff auf die Option **Adobe Campaign-Variable auswählen**). Sie können dann den Text inline bearbeiten.
 
 ![Beispiel für die Inline-Bearbeitung](/help/email/assets/email-text-edit-inline-example.png)
 
-Tippen oder klicken Sie auf das Häkchen in der Symbolleiste, um Ihre Änderungen zu speichern, oder auf das X, das verworfen werden soll.
+Tippen oder klicken Sie auf das Häkchen in der Symbolleiste, um Ihre Änderungen zu speichern oder auf das X, um sie zu verwerfen.
 
 Aufgrund von Platzbeschränkungen sind nicht alle Formatierungsoptionen inline verfügbar. Um alle Optionen anzuzeigen, wechseln Sie zum Vollbildmodus.
 
 ### Festlegen einer ID {#setting-id}
 
-Diese Option ermöglicht die Steuerung der eindeutigen Kennung der Komponente im HTM.
+Diese Option ermöglicht das Festlegen der eindeutigen Kennung der Komponente in HTM.
 
 * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
-* Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
-* Eine Änderung der ID kann sich auf CSS auswirken.
+* Sofern eine ID angegeben wird, ist vom Autor bzw. der Autorin sicherzustellen, dass diese eindeutig ist.
+* Die Änderung der ID kann sich auf CSS auswirken.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
@@ -356,7 +356,7 @@ Im Dialogfeld „Design“ kann der Vorlagenautor festlegen, welche Textformatie
 
 ### Registerkarte „Plug-ins“ {#plugins-tab}
 
-Die **Plugins** -Tab verwendet wird, um verschiedene Textformatierungsoptionen zu aktivieren und zu deaktivieren, die den Inhaltsautoren zur Verfügung stehen.
+Die Registerkarte **Plugins** wird verwendet, um verschiedene Textformatierungsoptionen, die den Inhaltsautoren bzw. Inhaltsautorinnen zur Verfügung stehen, zu aktiveren oder zu deaktivieren.
 
 ### Funktionen {#features}
 
@@ -367,7 +367,7 @@ Die folgenden Funktionen können für die Komponente aktiviert oder deaktiviert 
 * Unformatierten Text einfügen
 * Aus Word einfügen
 * Suchen und Ersetzen
-* Rückgängig und Wiederherstellen
+* Rückgängig machen und wiederholen
 * Rechtschreibprüfung
 * Optionen zur Änderung eingefügter Bilder
 * HTML-Quellbearbeitung
@@ -393,8 +393,8 @@ Absatzstile können für die Komponente aktiviert oder deaktiviert werden. Bei A
 
 * Tippen oder klicken Sie auf die Schaltfläche **Hinzufügen**, um einen neuen Stil einzufügen.
 * Geben Sie den Code des Stils und eine Beschreibung ein, die im Dialogfeld „Bearbeiten“ angezeigt wird.
-* Um einen Stil zu entfernen, tippen oder klicken Sie auf das **Löschen** Schaltfläche.
-* Um die Reihenfolge der Formate neu anzuordnen, tippen oder klicken und ziehen Sie die Griffe.
+* Um einen Stil zu entfernen, tippen Sie auf die Schaltfläche **Löschen**.
+* Um die Reihenfolge der Formate zu ändern, tippen oder klicken Sie auf die Griffe und ziehen Sie sie in die gewünschte Reihenfolge.
 
 ### Sonderzeichen {#configuring-special-characters}
 
@@ -404,9 +404,9 @@ Die Option zum Einfügen von Sonderzeichen kann für die Komponente aktiviert od
 
 * Tippen oder klicken Sie auf die Schaltfläche **Hinzufügen**, um ein neues Zeichen einzufügen.
 * Geben Sie den HTML-Code des Zeichens und eine Beschreibung ein, die im Dialogfeld „Bearbeiten“ angezeigt wird.
-* Um ein Zeichen zu entfernen, tippen oder klicken Sie auf die **Löschen** Schaltfläche.
-* Um die Reihenfolge der Zeichen zu ändern, tippen oder klicken Sie und ziehen Sie die Griffe.
+* Um ein Zeichen zu entfernen, tippen oder klicken Sie auf die Schaltfläche **Löschen**.
+* Um die Reihenfolge der Zeichen zu ändern, tippen oder klicken Sie auf die Griffe und ziehen Sie sie in die gewünschte Reihenfolge.
 
 ## Registerkarte „Arten“ {#styles-tab}
 
-Die E-Mail-Textkomponente unterstützt die AEM [Stilsystem](/help/get-started/authoring.md#component-styling).
+Die E-Mail-Textkomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
