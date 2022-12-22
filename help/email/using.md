@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die Grundlagen der Installation, Konfigurat
 role: Architect, Developer, Admin, User
 exl-id: 0e79ca8f-eb0a-4519-b1e8-a9d3b0b99987
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '653'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Die E-Mail-Kernkomponenten können mit AEM 6.5 verwendet werden. Siehe den Absch
 
 ### Installieren von Kernkomponenten {#core-components}
 
-Die E-Mail-Kernkomponenten basieren auf den AEM-Kernkomponenten. Da die Kernkomponenten nicht im Lieferumfang von AEM 6.5 enthalten sind, müssen Sie zunächst die AEM Kernkomponenten installieren, bevor Sie die E-Mail-Kernkomponenten installieren.
+Die E-Mail-Kernkomponenten basieren auf den AEM-Kernkomponenten. Da die Kernkomponenten nicht mit AEM 6.5 geliefert werden, müssen Sie zunächst die AEM-Kernkomponenten und danach die E-Mail-Kernkomponenten installieren.
 
 Siehe den Abschnitt [Herunterladen und Installieren](/help/get-started/using.md#download-and-install) des Dokuments „Verwenden von Kernkomponenten“ für weitere Informationen zur Installation der Kernkomponenten.
 
@@ -74,8 +74,8 @@ Nachdem die E-Mail-Komponenten installiert und die Integration mit Adobe Campaig
 | 3 | Autoren verwenden den [Seiteneditor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/editing-content.html?lang=de), um E-Mail-Inhalte mit dem Texteditor zu erstellen, in dem sie Adobe Campaign-Variablen auswählen und mithilfe der Segmentierungskomponente Informationen anzeigen können, wenn der Empfänger bestimmte Kriterien erfüllt. | AEM |
 | 4 | Wenn der E-Mail-Inhalt fertig ist, wird [ein Workflow ausgeführt](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/workflows/overview.html?lang=de), um den Inhalt zu validieren und an Campaign zu senden. | AEM |
 | 5 | Es wird ein Versand erstellt, in dem eine Empfängerliste definiert wird. | Campaign |
-| 6 | Der in AEM erstellte Inhalt wird für den Versand ausgewählt. | Kampagne |
-| 7 | Der Inhalt wird an die Empfänger gesendet. Dabei werden die Adobe Campaign-Variablen durch die personalisierten Empfängerinformationen ersetzt. | Kampagne |
+| 6 | Der in AEM erstellte Inhalt wird für den Versand ausgewählt. | Campaign |
+| 7 | Der Inhalt wird an die Empfänger gesendet. Dabei werden die Adobe Campaign-Variablen durch die personalisierten Empfängerinformationen ersetzt. | Campaign |
 
 Ein Beispiel für die Erstellung von E-Mail-Inhalt in AEM und den Versand in Adobe Campaign finden Sie in den folgenden Informationsmaterialien.
 
