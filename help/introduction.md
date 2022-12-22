@@ -4,9 +4,9 @@ description: Erhalten Sie Lösungen für Probleme mit den Kernkomponenten und er
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 source-git-commit: 5431b57727ca5b9518cb80f620cffd0c31ef2f2d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '967'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -127,6 +127,6 @@ Informationen zum Einrichten Ihrer lokalen Entwicklungsumgebung finden Sie in [d
 
 ## Andere Komponenten {#other-components}
 
-AEM Autoren stehen zusätzliche Komponenten zur Verfügung, die auf den Kernkomponenten basieren.
+AEM-Autoren stehen zusätzliche Komponenten zur Verfügung, die auf den Kernkomponenten basieren.
 
-* [Die E-Mail-Kernkomponenten](/help/email/introduction.md) - Entdecken Sie Komponenten, die auf den Kernkomponenten aufbauen und speziell für die Verwendung mit Adobe Campaign verwendet werden.
+* [Die E-Mail-Kernkomponenten](/help/email/introduction.md) – Entdecken Sie Komponenten, die auf den Kernkomponenten basieren und speziell für die Verwendung mit Adobe Campaign entwickelt wurden.
