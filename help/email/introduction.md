@@ -4,9 +4,9 @@ description: Erstellen Sie ansprechende E-Mail-Inhalte unter Verwendung der flex
 role: Architect, Developer, Admin, User
 exl-id: 0a411f28-bd6a-4bad-b473-6bc27c1d1055
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '409'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -30,8 +30,8 @@ E-Mails sind Teil des Markenerlebnisses und der Customer Journey. Mit den E-Mail
 
 * Die E-Mail-Kernkomponenten basieren auf den [Kernkomponenten](/help/introduction.md) und unterstützen daher auch [bearbeitbare Vorlagen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=de) und das [Stilsystem](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=de).
 * Es gibt [zehn für E-Mails optimierte produktionsbereite Komponenten](#components), um E-Mail-Inhalte zu erstellen.
-* Die Kernkomponenten der E-Mail bieten eine erweiterte Personalisierung durch das Einfügen von [Adobe Campaign-Variablen](campaign-variables.md) in den meisten Dialogfeldern.
-* Die Flexibilität [Segmentierungskomponente](/help/email/components/segmentation.md) ermöglicht eine erweiterte Segmentierung Ihres Inhalts.
+* Die E-Mail-Kernkomponenten bieten die Möglichkeit zur erweiterten Personalisierung, da in den meisten Dialogfeldern [Adobe Campaign-Variablen](campaign-variables.md) eingefügt werden.
+* Die flexible [Segmentierungskomponente](/help/email/components/segmentation.md) ermöglicht eine erweiterte Segmentierung Ihres Inhalts.
 * Die E-Mail-Kernkomponenten bieten dank [CSS Styles Inliner](https://github.com/adobe/aem-core-email-components/wiki/CSS-Styles-Inliner:-Technical-documentation), [HTML Attribute Inliner](https://github.com/adobe/aem-core-email-components/wiki/HTML-Inliner) und [HTML Sanitizer](https://github.com/adobe/aem-core-email-components/wiki/HTML-Sanitizing) eine für E-Mail optimierte HTML-Ausgabe.
 * Sie können E-Mail-Inhalte an einer beliebigen Stelle unter `/content` erstellen.
 * Die E-Mail-Kernkomponenten sind [Open Source](https://github.com/adobe/aem-core-email-components).
