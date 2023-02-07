@@ -3,10 +3,10 @@ title: Verwenden von Kernkomponenten
 description: '„Um mit Kernkomponenten in Ihrem eigenen Projekt produktiv zu werden, sind drei Schritte erforderlich: herunterladen und installieren, Proxy-Komponenten erstellen, die Kernstile laden und die Komponenten in Ihren Vorlagen zulassen.“'
 role: Architect, Developer, Admin, User
 exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
-source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
-workflow-type: ht
-source-wordcount: '969'
-ht-degree: 100%
+source-git-commit: 8beae61676340e8aafaee469018d865ea7ed934e
+workflow-type: tm+mt
+source-wordcount: '1008'
+ht-degree: 96%
 
 ---
 
@@ -45,6 +45,8 @@ Einige Punkte, die Sie beachten sollten, wenn Sie die Kernkomponenten in AEMaaCS
    * In einer kommenden Version wird das Einbinden der Kernkomponenten den Pipeline-Build erneut fehlschlagen lassen.
 * Wenn Ihr Projekt zuvor die Kernkomponenten in `/apps` enthielt, [müssen Sie Ihr Projekt möglicherweise anpassen.](/help/developing/overview.md#via-aemaacs)
 * Auch wenn sich die Kernkomponenten jetzt in `/libs` befinden, ist es nicht empfehlenswert, ein Overlay des gleichen Pfades in `/apps` zu erstellen. Stattdessen sollte [das Proxy-Komponentenmuster](/help/developing/guidelines.md#proxy-component-pattern) verwendet werden, wenn irgendein Aspekt der Komponenten angepasst werden muss.
+* Um die [Inhaltskomponente](/help/components/tableofcontents.md) Um seinen Inhalt zu rendern, muss ein Filter in OSGi konfiguriert werden.
+   * [Weitere Informationen finden Sie in der GitHub-Dokumentation der Komponente .](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1) für weitere Informationen.
 
 ### AEM 6.5 und älter {#aem-65}
 
