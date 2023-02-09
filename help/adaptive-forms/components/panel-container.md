@@ -2,10 +2,10 @@
 title: Adaptive Forms-Kernkomponente - Bedienfeldcontainer
 description: Verwenden oder Anpassen der Kernkomponente des adaptiven Forms-Bedienfeldcontainers.
 role: Architect, Developer, Admin, User
-source-git-commit: 77ff7425be1e591b8f5b973a344d7def8191c033
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 2%
+source-wordcount: '1216'
+ht-degree: 1%
 
 ---
 
@@ -38,8 +38,10 @@ Es gibt verschiedene Gründe für die Verwendung eines Bedienfelds in einem Form
 
 Die Kernkomponente Adaptiver Forms-Bedienfeldcontainer wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM Kompatibilität und Links zur entsprechenden Dokumentation:
 
+|  |  |
+|---|---|
 | Komponentenversion | AEM as a Cloud Service |
-|--- |--- |---|---|
+| --- | --- |
 | v1 | Kompatibel mit<br>[Version 2.0.4](/help/versions.md) und höher | Kompatibel | Kompatibel |
 
 Informationen zu Kernkomponentenversionen und -versionen finden Sie im Abschnitt [Kernkomponenten-Versionen](/help/versions.md) Dokument.
@@ -92,7 +94,6 @@ Mit dem Dialogfeld &quot;Konfigurieren&quot;können Sie das Bedienfeld-Container
 
 * **HTML-Rolle für die Ankündigung durch die Bildschirmlesehilfe** - Die HTML-Rolle ist ein Attribut, mit dem der Zweck eines HTML-Elements für Hilfstechnologien wie Bildschirmlesehilfen angegeben wird. Das Rollenattribut wird verwendet, um einem Element zusätzlichen Kontext und eine semantische Bedeutung zu verleihen, wodurch Bildschirmlesehilfen die Interpretation und Ankündigung des Inhalts für den Benutzer erleichtern. In AEM Forms kann beispielsweise die Beschriftung eines Formularfelds die Rolle &quot;label&quot;haben und sein Eingabefeld die Rolle &quot;textbox&quot;. Dies hilft der Bildschirmlesehilfe, die Beziehung zwischen Titel und Eingabefeld zu verstehen und sie dem Benutzer korrekt anzukündigen.
 
-## Dialogfeld „Design“ {#design-dialog}
 
 
 

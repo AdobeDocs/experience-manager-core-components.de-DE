@@ -3,8 +3,8 @@ title: Authoring mit Kernkomponenten
 description: In AEM sind Komponenten die Strukturelemente, die den Inhalt der zu erstellenden Seiten ausmachen. Kernkomponenten bieten flexible und funktionsreiche Authoring-Funktionalität.
 role: Architect, Developer, Admin, User
 exl-id: 56e58303-a178-45ab-b59d-e374c9cf90cf
-source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
-workflow-type: ht
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
+workflow-type: tm+mt
 source-wordcount: '742'
 ht-degree: 100%
 

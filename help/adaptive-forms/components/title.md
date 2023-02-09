@@ -2,7 +2,7 @@
 title: Adaptive Forms-Kernkomponente - Titel
 description: Verwenden oder Anpassen der Kernkomponente "Adaptive Forms-Titel".
 role: Architect, Developer, Admin, User
-source-git-commit: 0e4fb8454b7ef84eb5b1b73b01c982a2f9c12381
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 15%
@@ -40,8 +40,10 @@ Insgesamt ist der Titel eines Formulars ein wichtiger Aspekt des Benutzererlebni
 
 Die Kernkomponente &quot;Adaptive Forms-Titel&quot;wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM Kompatibilität und Links zur entsprechenden Dokumentation:
 
+|  |  |
+|---|---|
 | Komponentenversion | AEM as a Cloud Service |
-|--- |--- |---|---|
+| --- | --- |
 | v1 | Kompatibel mit<br>[Version 2.0.4](/help/versions.md) und höher | Kompatibel | Kompatibel |
 
 Informationen zu Kernkomponentenversionen und -versionen finden Sie im Abschnitt [Kernkomponenten-Versionen](/help/versions.md) Dokument.

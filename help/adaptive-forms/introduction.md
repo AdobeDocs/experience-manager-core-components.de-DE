@@ -2,10 +2,10 @@
 title: Einführung AEM adaptiven Forms-Kernkomponenten
 description: Erstellen Sie ansprechende Registrierungserlebnisse (Formulare) mit der Flexibilität der adaptiven Forms-Kernkomponenten und stellen Sie sie mit Adobe Experience Manager bereit.
 role: Architect, Developer, Admin, User
-source-git-commit: 781cf351ef52cbb56ff33c2674c8af591c81a30e
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
-source-wordcount: '1069'
-ht-degree: 14%
+source-wordcount: '1202'
+ht-degree: 12%
 
 ---
 
@@ -18,15 +18,11 @@ Mithilfe der adaptiven Forms-Kernkomponenten in Adobe Experience Manager können
 
 In Adobe Experience Manager (AEM) sind Komponenten die Bausteine, die zum Erstellen von Seiten und Formularen verwendet werden. Sie bieten Autoren eine einfache und leistungsstarke Möglichkeit, Inhalte zu erstellen und zu verwalten und bieten Entwicklern gleichzeitig die Flexibilität und Erweiterbarkeit, die zum Erstellen benutzerdefinierter Komponenten erforderlich sind.
 
-Die Kernkomponenten sind eine Reihe vordefinierter, standardisierter WCM-Komponenten, die die Entwicklungszeit verkürzen und die Wartungskosten für Websites senken. Zu diesen Komponenten gehören Textfelder, Bilder, Videos und mehr. Sie sind flexibel und können einfach an die spezifischen Anforderungen einer Website angepasst werden.
+Die sind so konzipiert, dass sie die Entwicklungszeit verkürzen und die Wartungskosten für Websites und Formulare senken, flexibel sein und einfach an die spezifischen Anforderungen einer Website und eines Formulars angepasst werden können.
 
 Die Kernkomponenten sind außerdem für responsive Funktionen und unterstützen eine breite Palette von Geräten, einschließlich Desktops, Tablets und Smartphones. Sie halten sich außerdem an die neuesten Web-Standards und Best Practices und machen sie zu einer robusten und zuverlässigen Lösung für die Erstellung von Web-Inhalten.
 
-Darüber hinaus sind die Kernkomponenten so konzipiert, dass sie nahtlos mit anderen Teilen von AEM zusammenarbeiten, sodass Autoren und Entwickler interaktive Formulare mit geringerem Aufwand und weniger Zeit erstellen können.
-
 Insgesamt sind die Kernkomponenten ein wesentliches Tool für die Erstellung und Verwaltung von Web-Inhalten in AEM und bieten eine leistungsstarke und flexible Lösung, die dazu beiträgt, die Entwicklungszeit und die Wartungskosten zu reduzieren und den Besuchern der Website gleichzeitig ein großartiges Benutzererlebnis zu bieten.
-
-In Adobe Experience Manager sind Komponenten die strukturellen Elemente, die den Inhalt der Seiten und Formulare ausmachen, die erstellt werden. Komponenten waren immer ein grundlegendes Element des AEM-Erlebnisses, wodurch die Seiten- und Formularerstellung einfach, aber leistungsstark für den Autor und die Entwicklung von Komponenten flexibel und erweiterbar für den Entwickler war. Die Kernkomponenten sind eine Reihe standardisierter Web Content Management (WCM)-Komponenten, um die Entwicklungszeit zu verkürzen und die Wartungskosten Ihrer Websites zu reduzieren.
 
 ## Adaptive Forms-Kernkomponenten
 
@@ -54,19 +50,33 @@ Da es sich bei diesen Komponenten um Open-Source-Komponenten handelt, können En
 
 ## Vorteile {#benefits}
 
-Datenerfassungserlebnisse sind für die Erstellung und Registrierung von Leads von entscheidender Bedeutung. Die Kernkomponenten von Adaptive Forms bieten eine leistungsstarke Lösung zum Erstellen von Formularen, die für die Datenerfassung optimiert sind. Einige der Gründe für die Verwendung von Kernkomponenten zur Erstellung dieser Erlebnisse sind:
+Datenerfassungserlebnisse sind für die Erstellung und Registrierung von Leads von entscheidender Bedeutung. Die Kernkomponenten von Adaptive Forms bieten eine leistungsstarke Lösung zum Erstellen von Formularen, die für die Datenerfassung optimiert sind. Einige der Gründe für die Verwendung von Kernkomponenten zum Erstellen dieser Erlebnisse über Foundation-Komponenten:
 
-* **Anpassung**: Adaptive Forms-Kernkomponenten ermöglichen es Entwicklern, das Erscheinungsbild und Verhalten von Formularkomponenten wie Textfeldern, Checkboxes und Dropdownmenüs einfach anzupassen, um bestimmte Anforderungen zu erfüllen.
+* **Verfügbarkeit auf GitHub und umfassende Dokumentation**: Die AEM adaptiven Forms-Kernkomponenten sind Open-Source-Komponenten und auf GitHub verfügbar. Darüber hinaus finden Sie eine umfassende Dokumentation. Dies erleichtert es Entwicklern, die Komponenten und ihre Funktionsweise zu verstehen und zu ihrer Entwicklung beizutragen. Die Website aemcomponents.dev ist ebenfalls eine wertvolle Ressource, über die Entwickler die Komponenten in Aktion sehen und auf die detaillierte Dokumentation zugreifen können.
+
+* **BEM-Modell für die Formatierung**: Die Kernkomponenten folgen dem BEM-Modell (Block Element Modifier) für die Formatierung, das eine bewährte und häufig verwendete Methode für die Organisation von CSS ist. Dies erleichtert Entwicklern das Verständnis, wie die Stile organisiert sind und wie sie sie an ihre spezifischen Anforderungen anpassen können.
+
+* **Keine Abhängigkeit von Bibliotheken von Drittanbietern**: Einer der Vorteile der Kernkomponenten besteht darin, dass sie keine Abhängigkeit von JavaScript-Bibliotheken von Drittanbietern haben, einschließlich JQuery und Underscore. Dadurch werden die Komponenten schneller und einfacher und können leichter in eine vorhandene AEM integriert werden.
+
+* **Fokus auf Leistung und Zugänglichkeit**: Die Kernkomponenten werden unter Berücksichtigung von Leistung und Barrierefreiheit erstellt, was sich in ihren hohen Google Lighthouse- und Web-Vitalwerten widerspiegelt. Dies erleichtert Entwicklern das Erstellen barrierefreier und leistungsstarker Webseiten, die in der heutigen digitalen Landschaft immer wichtiger werden.
+
+* **Formularkomponenten in Sites 30-Vorlage und Designs**: Die Kernkomponenten bieten Unterstützung für Formularkomponenten in der Sites 30-Vorlage und den Designs, wodurch Entwickler Formulare in AEM erstellen und anpassen können.
+
+* **Einfacherer Stil**: Die Kernkomponenten sind einfacher zu gestalten als ihre Foundation-Komponenten-Entsprechungen. Der Prozess zur Designerstellung ähnelt Sites, mit der Möglichkeit, dasselbe Design/dieselbe CSS von der übergeordneten Sites-Seite zu übernehmen. Darüber hinaus erleichtert das BEM-Modell für die Formatierung das Verständnis und die Änderung der Stile.
 
 * **Zugänglichkeit**: Adaptive Forms-Kernkomponenten unterstützen Barrierefreiheitsstandards und -richtlinien, z. B.  [WCAG 2.1-Standard](https://www.w3.org/TR/WCAG21/), um sicherzustellen, dass Formulare von Menschen mit Behinderungen verwendet werden können, einschließlich solcher, die Hilfstechnologien wie Bildschirmlesehilfen verwenden.
 
-* **Konsistente Formulare**: Durch die Verwendung der adaptiven Forms-Kernkomponenten können Entwickler Formulare erstellen, die ein einheitliches Erscheinungsbild aufweisen, sodass Benutzer die Formulare leichter verstehen und ausfüllen können. Dies führt zu mehr Interaktion und verbesserter Benutzerfreundlichkeit.
+* **Abstimmung mit AEM Sites**: Die Kernkomponenten sind so konzipiert, dass sie besser mit AEM Sites abgestimmt sind, sodass Sites-Benutzer sie einfacher übernehmen und verwenden können, ohne etwas Neues lernen zu müssen. Die Komponenten verwenden dieselbe Front-End-Pipeline wie Sites, wodurch die Formatierung und Änderung ihres Erscheinungsbilds erleichtert wird. Außerdem wird diese Ausrichtung anhand der folgenden Punkte veranschaulicht:
 
-* **WYSIWYG-Editor**: AEM Forms bietet eine benutzerfreundliche Benutzeroberfläche und einen benutzerfreundlichen WYSIWYG-Editor, mit dem Sie diese Komponenten zum Erstellen eines adaptiven Formulars verwenden können. Sie ermöglicht es Formularautoren, Formulare zu erstellen und zu bearbeiten, ohne dass sie wissen müssen, wie sie kodieren. Es enthält auch einen visuellen Regeleditor, mit dem Sie auf einfache Weise regelbasierte Aktionen erstellen und komplexe Logik implementieren können, um das Formularverhalten zu automatisieren, ohne Code schreiben zu müssen.
+   * **Inhaltserstellung inline mit dem Seiteneditor**: Die Kernkomponenten verfügen über ein Authoring-Erlebnis, das mit dem Sites-Editor mit Dialogfeldern und anderen Erlebnissen, die dem Seiten-Editor ähneln, inline ist. Dies erleichtert Sites-Benutzern das Erstellen und Verwalten von Formularen im vertrauten Kontext des Sites-Editors.
 
-* **Bedingte Logik**: Adaptive Forms-Kernkomponenten unterstützen die Verwendung von Bedingungslogik. Das bedeutet, dass das Erscheinungsbild oder Verhalten von Formularkomponenten anhand der vom Benutzer eingegebenen Werte geändert werden kann. Beispielsweise können bestimmte Felder je nach Auswahl in anderen Feldern ausgeblendet oder als Pflichtfelder festgelegt werden.
+   * **Inline-Formularbearbeitung im Sites-Editor**: Die Kernkomponenten ermöglichen die Bearbeitung von Inline-Formularen im Sites-Editor, sodass ein Wechsel zwischen Editoren nicht erforderlich ist. Dadurch wird das Authoring-Erlebnis optimiert und die Erstellung und Verwaltung von Formularen vereinfacht.
 
-* **Datenvalidierung**: Adaptive Forms-Kernkomponenten bieten integrierte Datenvalidierungsfunktionen, mit denen Entwickler sicherstellen können, dass vom Benutzer eingegebene Daten bestimmte Kriterien wie minimale und maximale Längen, erforderliche Werte und bestimmte Formate erfüllen.
+   * **Vererben von Sites-Funktionen in Forms**: Forms, das auf einer Sites-Seite erstellt wurde, erbt dieselben Funktionen wie Sites. Dies bietet ein nahtloses und integriertes Erlebnis für die Erstellung und Verwaltung von Formularen im Kontext von AEM Sites
+
+   <!--including Multi Site Manager, the ability to use Sites components within a form for static content, support for scheduled publish/unpublish, form translation aligned with Sites translation, versioning, and targeting -->
+
+
 
 ## Voraussetzungen {#requirements}
 

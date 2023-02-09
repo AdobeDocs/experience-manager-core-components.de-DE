@@ -2,7 +2,7 @@
 title: Adaptive Forms-Kernkomponente - Optionsfeld
 description: Verwenden oder Anpassen der Kernkomponente für das adaptive Forms-Optionsfeld.
 role: Architect, Developer, Admin, User
-source-git-commit: 1e6460d318f4f9a5dfdcbb81723da01b51b72f3f
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
 source-wordcount: '1645'
 ht-degree: 1%
@@ -44,8 +44,10 @@ Es gibt verschiedene Gründe für die Verwendung von Optionsfeldern in einem For
 
 Die Kernkomponente für das adaptive Forms-Optionsfeld wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM Kompatibilität und Links zur entsprechenden Dokumentation:
 
+|  |  |
+|---|---|
 | Komponentenversion | AEM as a Cloud Service |
-|--- |--- |---|---|
+| --- | --- |
 | v1 | Kompatibel mit<br>[Version 2.0.4](/help/versions.md) und höher | Kompatibel | Kompatibel |
 
 Informationen zu Kernkomponentenversionen und -versionen finden Sie im Abschnitt [Kernkomponenten-Versionen](/help/versions.md) Dokument.
@@ -80,6 +82,7 @@ Im Dialogfeld &quot;Konfigurieren&quot;können Sie das Optionsfeld-Erlebnis für
 * **Bindungsverweis** - Ein Bindungsverweis ist ein Verweis auf ein Datenelement, das in einer externen Datenquelle gespeichert und in einem Formular verwendet wird. Mit der Bindungsreferenz können Sie Daten dynamisch an Formularfelder binden, sodass das Formular die aktuellsten Daten aus der Datenquelle anzeigen kann. Beispielsweise kann eine Bindungsverweis verwendet werden, um den Namen und die Adresse eines Kunden in einem Formular anzuzeigen, basierend auf der im Formular eingegebenen Kundenkennung. Die Bindungsverweis kann auch verwendet werden, um die Datenquelle mit den im Formular eingegebenen Daten zu aktualisieren. Auf diese Weise können Sie mit AEM Forms Formulare erstellen, die mit externen Datenquellen interagieren und so eine nahtlose Benutzererfahrung bei der Datenerfassung und -verwaltung bieten.
 
 * **Datentyp des gesendeten Werts** - Diese Option gibt den Datentyp des Werts an, der gesendet wird, wenn eine Option ausgewählt ist. Wenn die Variable **Datentyp des gesendeten Werts** auf `Number` und fügen Sie Zeichenfolgendaten hinzu **Datenwert** &#x200B; &#x200B; auf der **Optionen** auf, zeigt der Bildschirm ein `Value type mismatch` Fehlermeldung.
+
 * **Standardoptionen** - Mit dieser Option können Sie vorab ausgewählte Standardwerte hinzufügen, wenn das Formular geladen wird. Wenn die Variable **Datentyp des gesendeten Werts** auf `Number` und fügen Sie Zeichenfolgendaten hinzu **Standardoptionen**, zeigt der Bildschirm eine `Value type mismatch` Fehlermeldung.
 
 * **Anzeigeoptionen** - Diese Option wird verwendet, um die visuelle Ausrichtung von Optionsfeldern in einem adaptiven Formular festzulegen. Folgende zwei Optionen werden unterstützt:
@@ -128,3 +131,4 @@ Das Dialogfeld &quot;Design&quot;wird zum Definieren und Verwalten von CSS-Stile
 **Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die Kernkomponente &quot;Adaptives Forms-Optionsfeld&quot;bereitstellen.
 
 **Zulässige Stile**: Sie können Stile definieren, indem Sie einen Namen und die CSS-Klasse angeben, die den Stil darstellt. Sie können beispielsweise einen Stil mit dem Namen &quot;fett Text&quot;erstellen und die CSS-Klasse &quot;font-weight: fett&quot;. Sie können diese Stile im adaptiven Forms-Editor verwenden oder auf ein adaptives Formular anwenden. Um einen Stil anzuwenden, wählen Sie im adaptiven Forms-Editor die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Dialogfeld &quot;Eigenschaften&quot;und wählen Sie den gewünschten Stil aus dem **Stile** Dropdown-Liste. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld &quot;Design&quot;zurück, aktualisieren Sie die Stile auf der Registerkarte &quot;Stile&quot;und speichern Sie die Änderungen.
+

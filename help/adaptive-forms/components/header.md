@@ -2,9 +2,9 @@
 title: Adaptive Forms-Kernkomponente - Kopfzeile
 description: Verwenden oder Anpassen der Kernkomponente "Adaptive Forms-Kopfzeile".
 role: Architect, Developer, Admin, User
-source-git-commit: 7f680eac1da61b55f9d90db6c0842421d03ac1dc
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '654'
 ht-degree: 7%
 
 ---
@@ -34,10 +34,11 @@ Eine Kopfzeilenkomponente in einem adaptiven Formular ist ein Abschnitt am obere
 
 Die Kernkomponente &quot;Adaptive Forms-Kopfzeile&quot;wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM Kompatibilität und Links zur entsprechenden Dokumentation:
 
+|  |  |
+|---|---|
 | Komponentenversion | AEM as a Cloud Service |
-|--- |--- |---|---|
+| --- | --- |
 | v1 | Kompatibel mit<br>[Version 2.0.4](/help/versions.md) und höher | Kompatibel | Kompatibel |
-
 Informationen zu Kernkomponentenversionen und -versionen finden Sie im Abschnitt [Kernkomponenten-Versionen](/help/versions.md) Dokument.
 
 
@@ -80,6 +81,5 @@ Dieser Teil der Kopfzeile enthält den Kopfzeilentitel und das Bild.
 
 In diesem Abschnitt können Sie den Text eingeben, der in die Kopfzeile eingefügt werden soll.
 
-## Dialogfeld „Design“ {#design-dialog}
 
 

@@ -2,7 +2,7 @@
 title: Adaptive Forms-Kernkomponente - Zahleneingabe
 description: Verwenden oder Anpassen der Eingabe-Kernkomponente "Adaptive Forms Number".
 role: Architect, Developer, Admin, User
-source-git-commit: 6ea000f9259e9478ee3c0923ac35af7814e184d9
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
 source-wordcount: '1780'
 ht-degree: 1%
@@ -39,8 +39,10 @@ Es gibt mehrere Gründe, warum es sinnvoll ist, eine numerische Eingabekomponent
 
 Die Eingabe-Kernkomponente für die adaptive Forms-Nummer wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM Kompatibilität und Links zur entsprechenden Dokumentation:
 
+|  |  |
+|---|---|
 | Komponentenversion | AEM as a Cloud Service |
-|--- |--- |---|---|
+| --- | --- |
 | v1 | Kompatibel mit<br>[Version 2.0.4](/help/versions.md) und höher | Kompatibel | Kompatibel |
 
 Informationen zu Kernkomponentenversionen und -versionen finden Sie im Abschnitt [Kernkomponenten-Versionen](/help/versions.md) Dokument.
@@ -93,6 +95,7 @@ Im Dialogfeld &quot;Konfigurieren&quot;können Sie Ihre Zahleneingabe-Erfahrung 
 * **Mindestwert ausschließen** - Aktivieren Sie dieses Kontrollkästchen, wenn Sie den im **Niedrigste Zahl/Kleinste Zahl** -Option, die in den Bereich der Werte aufgenommen &#x200B;, die in das Formularfeld eingegeben werden sollen.
 
 * **Höchste Zahl/Größte Zahl** - Verwenden Sie diese Option, um die maximal zulässige Zahl auszuwählen, die in das Formularfeld eingegeben werden soll. Wenn die Zahl größer ist als die in **Höchste Zahl/Größte Zahl** in das Formularfeld eingegeben wurde, wird die Fehlermeldung angezeigt.
+
 * **Maximale Fehlermeldung** - Mit dieser Option können Sie eine Fehlermeldung eingeben, die angezeigt wird, wenn der Benutzer einen Wert eingibt, der größer ist als der in der Variablen **Höchste Zahl/Größte Zahl** -Option.
 
 * **Höchstwert ausschließen** - Aktivieren Sie dieses Kontrollkästchen, wenn Sie den im **Höchste Zahl/Größte Zahl** Option, die in den Wertebereich aufgenommen werden soll, der in das Formularfeld eingegeben werden soll.

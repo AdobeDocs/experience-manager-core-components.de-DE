@@ -2,7 +2,7 @@
 title: Adaptive Forms-Kernkomponente - Schaltfläche "Zurücksetzen"
 description: Verwenden oder Anpassen der Kernkomponente für die Schaltfläche "Zurücksetzen"der adaptiven Forms
 role: Architect, Developer, Admin, User
-source-git-commit: 1e6460d318f4f9a5dfdcbb81723da01b51b72f3f
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
 source-wordcount: '1173'
 ht-degree: 2%
@@ -33,8 +33,10 @@ Die Gründe für die Verwendung einer Schaltfläche zum Zurücksetzen in einem a
 
 Die Kernkomponente für die Schaltfläche &quot;Zurücksetzen&quot;der adaptiven Forms wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM Kompatibilität und Links zur entsprechenden Dokumentation:
 
+|  |  |
+|---|---|
 | Komponentenversion | AEM as a Cloud Service |
-|--- |--- |---|---|
+| --- | --- |
 | v1 | Kompatibel mit<br>[Version 2.0.4](/help/versions.md) und höher | Kompatibel | Kompatibel |
 
 Informationen zu Kernkomponentenversionen und -versionen finden Sie im Abschnitt [Kernkomponenten-Versionen](/help/versions.md) Dokument.
@@ -88,7 +90,7 @@ Das Dialogfeld &quot;Design&quot;wird verwendet, um CSS-Stile für die Komponent
 
 ### Registerkarte „Arten“ {#styles-tab}
 
-Das Dialogfeld &quot;Design&quot;wird zum Definieren und Verwalten von CSS-Stilen für eine Komponente verwendet. Die Kernkomponente für die Schaltfläche &quot;Zurücksetzen&quot;der adaptiven Forms unterstützt die AEM [Stilsystem](/help/get-started/authoring.md#component-styling).
+Das Dialogfeld &quot;Design&quot;wird zum Definieren und Verwalten von CSS-Stilen für eine Komponente verwendet. Die Kernkomponente &quot;Forms-Schaltfläche zum Zurücksetzen&quot;unterstützt die AEM [Stilsystem](/help/get-started/authoring.md#component-styling).
 
 **Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die Kernkomponente &quot;Kernkomponente&quot;der adaptiven Forms-Schaltfläche &quot;Zurücksetzen&quot;bereitstellen.
 

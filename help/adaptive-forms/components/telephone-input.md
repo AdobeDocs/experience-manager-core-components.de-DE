@@ -2,7 +2,7 @@
 title: Adaptive Forms-Kernkomponente - Telefoneingabe
 description: Verwenden oder Anpassen der Adaptive Forms-Telefoneingabe-Kernkomponente
 role: Architect, Developer, Admin, User
-source-git-commit: 0e4fb8454b7ef84eb5b1b73b01c982a2f9c12381
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
 source-wordcount: '1698'
 ht-degree: 1%
@@ -30,8 +30,10 @@ Häufige Gründe für die Verwendung eines Telefoneingabefelds in einem adaptive
 
 Die Kernkomponente für die Eingabe des adaptiven Forms-Telefons wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM Kompatibilität und Links zur entsprechenden Dokumentation:
 
+|  |  |
+|---|---|
 | Komponentenversion | AEM as a Cloud Service |
-|--- |--- |---|---|
+| --- | --- |
 | v1 | Kompatibel mit<br>[Version 2.0.4](/help/versions.md) und höher | Kompatibel | Kompatibel |
 
 Informationen zu Kernkomponentenversionen und -versionen finden Sie im Abschnitt [Kernkomponenten-Versionen](/help/versions.md) Dokument.
@@ -53,13 +55,19 @@ Im Dialogfeld &quot;Konfigurieren&quot;können Sie Ihre Telefoneingabe für Besu
 * **Name** - Sie können eine Formularkomponente sowohl im Formular als auch im Regeleditor leicht mit ihrem eindeutigen Namen identifizieren, der Name darf jedoch keine Leerzeichen oder Sonderzeichen enthalten.
 
 * **Titel** - Mit dem Titel können Sie eine Komponente in einem Formular leicht identifizieren. Standardmäßig wird der Titel über der Komponente angezeigt. Wenn Sie keinen Titel hinzufügen, wird der Name der Komponente anstelle des Titeltexts angezeigt.
+
 * **Titel ausblenden** - Wählen Sie die Option aus, um den Titel der Komponente auszublenden.
 
 * **Platzhaltertext** - Platzhaltertext in einer Formularkomponente bezieht sich auf eine kurze Beschriftung oder Eingabeaufforderung, die in einem Eingabefeld angezeigt wird, um den Benutzer darauf hinzuweisen, welcher Informationstyp in dieses Feld eingegeben werden soll. Platzhaltertext verschwindet, wenn der Benutzer mit der Eingabe in das Feld beginnt, und wird wieder angezeigt, wenn das Feld leer bleibt. Es bietet einen visuellen Hinweis für den Benutzer, fungiert jedoch nicht als permanente Bezeichnung oder Wert für das Feld.
+
 * **Bindungsverweis** - Ein Bindungsverweis ist ein Verweis auf ein Datenelement, das in einer externen Datenquelle gespeichert und in einem Formular verwendet wird. Mit der Bindungsreferenz können Sie Daten dynamisch an Formularfelder binden, sodass das Formular die aktuellsten Daten aus der Datenquelle anzeigen kann. Beispielsweise kann eine Bindungsverweis verwendet werden, um den Namen und die Adresse eines Kunden in einem Formular anzuzeigen, basierend auf der im Formular eingegebenen Kundenkennung. Die Bindungsverweis kann auch verwendet werden, um die Datenquelle mit den im Formular eingegebenen Daten zu aktualisieren. Auf diese Weise können Sie mit AEM Forms Formulare erstellen, die mit externen Datenquellen interagieren und so eine nahtlose Benutzererfahrung bei der Datenerfassung und -verwaltung bieten.
+
 * **Komponente ausblenden** - Wählen Sie die Option, um die Komponente aus dem Formular auszublenden. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regeleditor. Dies ist nützlich, wenn Sie Informationen speichern müssen, die vom Benutzer nicht gesehen oder direkt geändert werden müssen.
+
 * **Komponente deaktivieren** - Wählen Sie die Option zum Deaktivieren der Komponente aus. Die deaktivierte Komponente ist vom Endbenutzer nicht aktiv oder kann nicht bearbeitet werden. Der Benutzer kann den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regeleditor.
+
 * **Schreibgeschützt** - Wählen Sie die Option aus, um die Komponente nicht bearbeitbar zu machen. Der Benutzer kann den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regeleditor.
+
 * **Standardwert** - Mit dieser Option können Sie einen Standardwert in ein Formularfeld einfügen. Wenn **Komponente deaktiviert** oder **Schreibgeschützte Komponente** ausgewählt ist, wird der Standardwert auf dem Bildschirm angezeigt. Wenn kein Wert vom Benutzer in das Formularfeld eingegeben wird, wird dieser Wert zum Zeitpunkt der Formularübermittlung gesendet
 
 ### Registerkarte &quot;Validierung&quot; {#validation-tab}
@@ -78,10 +86,12 @@ Im Dialogfeld &quot;Konfigurieren&quot;können Sie Ihre Telefoneingabe für Besu
 
 * **Mindestanzahl von Zeichen** - Mit dieser Option können Sie die zulässige Mindestanzahl von Zeichen im Feld angeben. Wenn Sie Zeichen eingeben, die kleiner sind als der in **Mindestanzahl von Zeichen**, wird eine Fehlermeldung auf dem Bildschirm angezeigt. Die **Fehlermeldung bei minimalen Zeichen** können Sie eine benutzerdefinierte Fehlermeldung hinzufügen.
 
-* **Fehlermeldung bei minimalen Zeichen** - die **Fehlermeldung bei minimalen Zeichen** können Sie eine benutzerdefinierte Fehlermeldung hinzufügen, wenn Sie Zeichen eingeben, die kleiner sind als der in der Variablen **Mindestanzahl von Zeichen** -Option.
+* *Fehlermeldung bei minimalen Zeichen** - Die **Fehlermeldung bei minimalen Zeichen** können Sie eine benutzerdefinierte Fehlermeldung hinzufügen, wenn Sie Zeichen eingeben, die kleiner sind als der in der Variablen **Mindestanzahl von Zeichen** -Option.
 
 Die **Überprüfungsmuster** ermöglicht die Eingabe eines Musters zur Validierung der eingegebenen Telefonnummer. Die eingegebene Telefonnummer wird anhand des im Feld **Muster** -Option. Falls die Telefonnummer nicht mit dem eingegebenen Wert validiert werden kann **Muster** -Option, wird die Fehlermeldung auf dem Bildschirm angezeigt.
+
 * **Muster** - Mit dieser Option können Sie die zulässigen Überprüfungsmuster für Telefonnummern eingeben. Reguläre Ausdrücke sind ebenfalls zulässig.
+
 * **Fehlermeldung** - Mit dieser Option können Sie eine Nachricht eingeben, die auf dem Bildschirm angezeigt wird, wenn die eingegebene Telefonnummer nicht mit dem im **Muster** option
 
 ### Registerkarte &quot;Hilfe-Inhalt&quot; {#help-content-tab}

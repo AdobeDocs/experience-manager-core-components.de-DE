@@ -2,9 +2,9 @@
 title: Adaptive Forms-Kernkomponente - Formular-Container
 description: Fügen Sie ein adaptives Formular zu einer Webseite hinzu.
 role: Architect, Developer, Admin, User
-source-git-commit: 7f680eac1da61b55f9d90db6c0842421d03ac1dc
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '698'
 ht-degree: 3%
 
 ---
@@ -41,8 +41,10 @@ Es gibt mehrere Gründe, warum ein Formular einer Website hinzugefügt werden ka
 
 Die Kernkomponente &quot;Adaptiver Forms-Container&quot;wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM Kompatibilität und Links zur entsprechenden Dokumentation:
 
+|  |  |
+|---|---|
 | Komponentenversion | AEM as a Cloud Service |
-|--- |--- |---|---|
+| --- | --- |
 | v1 | Kompatibel mit<br>[Version 2.0.4](/help/versions.md) und höher | Kompatibel | Kompatibel |
 
 Informationen zu Kernkomponentenversionen und -versionen finden Sie im Abschnitt [Kernkomponenten-Versionen](/help/versions.md) Dokument.
@@ -72,6 +74,7 @@ Mit dem Dialogfeld &quot;Konfigurieren&quot;können Sie das Erlebnis Ihres Formu
 ![Registerkarte &quot;Übermittlung&quot;](/help/adaptive-forms/assets/formcontainer_submissiontab.png)
 
 Benutzer können verschiedene Aktionen für Übermittlungen adaptiver Formulare konfigurieren.
+
 * **Umleitungs-URL/Pfad** - Diese Option ermöglicht es dem Benutzer, eine Seite für jedes Formular zu konfigurieren, zu dem die Formularbenutzer nach dem Senden eines adaptiven Formulars umgeleitet werden. Weitere Informationen finden Sie hier . [Konfigurieren von Umleitungsseiten](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html).
 
 ![Registerkarte &quot;Meldung anzeigen&quot;](/help/adaptive-forms/assets/formconatiner_showmessage.png)
@@ -80,7 +83,6 @@ Benutzer können verschiedene Aktionen für Übermittlungen adaptiver Formulare 
 
 * **Übermittlungsaktion** - Eine Sendeaktion wird ausgelöst, wenn ein Benutzer in einem adaptiven Formular auf die Schaltfläche Senden klickt. Benutzer können in der Dropdown-Liste die Option Übermittlungsaktionen auswählen, die standardmäßig unterstützt werden. Erfahren Sie, wie Sie [Konfigurieren einer Sendeaktion auf der Registerkarte &quot;Sendung&quot;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#supporting-custom-functions-in-validation-expressions-br).
 
-## Dialogfeld „Design“ {#design-dialog}
 
 
 

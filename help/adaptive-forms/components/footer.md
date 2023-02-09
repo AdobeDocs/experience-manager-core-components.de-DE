@@ -2,9 +2,9 @@
 title: Adaptive Forms-Kernkomponente - Fußzeile
 description: Verwenden oder Anpassen der Kernkomponente "Adaptive Forms-Fußzeile".
 role: Architect, Developer, Admin, User
-source-git-commit: 9a8b8661554eea2f669f17bee89f97165bcb58db
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '749'
 ht-degree: 15%
 
 ---
@@ -36,8 +36,10 @@ Es gibt verschiedene Gründe, warum es sinnvoll ist, eine Fußzeilenkomponente i
 
 Die Kernkomponente &quot;Adaptive Forms-Fußzeile&quot;wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM Kompatibilität und Links zur entsprechenden Dokumentation:
 
+|  |  |
+|---|---|
 | Komponentenversion | AEM as a Cloud Service |
-|--- |--- |---|---|
+| --- | --- |
 | v1 | Kompatibel mit<br>[Version 2.0.4](/help/versions.md) und höher | Kompatibel | Kompatibel |
 
 Informationen zu Kernkomponentenversionen und -versionen finden Sie im Abschnitt [Kernkomponenten-Versionen](/help/versions.md) Dokument.
@@ -60,52 +62,49 @@ Im Dialogfeld &quot;Konfigurieren&quot;können Sie Ihre Fußzeilenerfahrung für
 * **Dialogfeld &quot;Bearbeiten&quot;**
 Das Dialogfeld &quot;Bearbeiten&quot;bietet standardmäßige Rich-Text-Formatierungswerkzeuge, mit denen der Benutzer Text für die Fußzeile erstellen kann.
 
-   * **Fett** - Bei dieser Option wird der ausgewählte Text fett formatiert oder der nach dem Cursor eingegebene Text fett formatiert. `Ctrl+B` ist ein Tastaturbefehl.
+* **Fett** - Bei dieser Option wird der ausgewählte Text fett formatiert oder der nach dem Cursor eingegebene Text fett formatiert. `Ctrl+B` ist ein Tastaturbefehl.
 
-   * **Kursiv** - Diese Option wendet die kursiv formatierte Formatierung auf den ausgewählten Text an oder kursiv Text, der nach dem Cursor eingegeben wird. `Ctrl+I` ist ein Tastaturbefehl.
+* **Kursiv** - Diese Option wendet die kursiv formatierte Formatierung auf den ausgewählten Text an oder kursiv Text, der nach dem Cursor eingegeben wird. `Ctrl+I` ist ein Tastaturbefehl.
 
-   * **Aufzählungszeichen**
-
-      ![Aufzählungsoptionen](/help/adaptive-forms/assets/footer_bullet.png)
-
-      * **Symbol &quot;Aufzählungszeichen&quot;** - Formatiert den ausgewählten Text als Liste mit Aufzählungszeichen oder beginnt mit dem Einfügen einer Liste mit Aufzählungszeichen nach dem Cursor. Um eine Liste mit Aufzählungszeichen zu beenden, tippen oder klicken Sie erneut auf die Schaltfläche Aufzählung oder geben Sie zwei Zeilenumbrüche hintereinander ein.
-
-      * **Symbol &quot;Nummerierte Liste&quot;** - Formatiert den ausgewählten Text als nummerierte Liste oder beginnt mit dem Einfügen einer nummerierten Liste nach dem Cursor. Um eine nummerierte Liste zu beenden, tippen oder klicken Sie erneut auf die Schaltfläche Nummeriert oder geben Sie zwei Zeilenumbrüche hintereinander ein.
-
-      * **Symbol &quot;Ausrücken&quot;** - Dadurch wird der Einzug des ausgewählten Texts oder des nach dem Cursor eingegebenen Texts verringert. Nur aktiv, wenn der ausgewählte Text bzw. die ausgewählte Position bereits eingerückt ist.
-
-      * **Symbol &quot;Einzug&quot;** - Dadurch wird der Einzug des ausgewählten Texts oder des nach dem Cursor eingegebenen Texts erhöht.
-   * **Hyperlink**
-
-      ![Hyperlink-Optionen](/help/adaptive-forms/assets/footer_link.png)
+![Aufzählungsoptionen](/help/adaptive-forms/assets/footer_bullet.png)
 
 
-      * **Pfad** - Pfad eingeben
-         1. Verwenden Sie das Dialogfeld Auswahl öffnen , um einen Pfad in AEM auszuwählen.
-         1. Wenn der Link nicht in AEM enthalten ist, geben Sie die absolute URL ein.
-         1. Nicht absolute Pfade werden als relativ zu AEM interpretiert.
-      * **Alternativtext** - Geben Sie alternativen beschreibenden Text für den Link ein.
+* **Aufzählungszeichen**
 
-      * **Target** - Linkverhalten auswählen
-         * Ziel
-         * Selbe Registerkarte
-         * Neue Registerkarte
-         * Übergeordneter Frame
-         * Top-Frame
+   * **Symbol &quot;Aufzählungszeichen&quot;** - Formatiert den ausgewählten Text als Liste mit Aufzählungszeichen oder beginnt mit dem Einfügen einer Liste mit Aufzählungszeichen nach dem Cursor. Um eine Liste mit Aufzählungszeichen zu beenden, tippen oder klicken Sie erneut auf die Schaltfläche Aufzählung oder geben Sie zwei Zeilenumbrüche hintereinander ein.
+
+   * **Symbol &quot;Nummerierte Liste&quot;** - Formatiert den ausgewählten Text als nummerierte Liste oder beginnt mit dem Einfügen einer nummerierten Liste nach dem Cursor. Um eine nummerierte Liste zu beenden, tippen oder klicken Sie erneut auf die Schaltfläche Nummeriert oder geben Sie zwei Zeilenumbrüche hintereinander ein.
+
+   * **Symbol &quot;Ausrücken&quot;** - Dadurch wird der Einzug des ausgewählten Texts oder des nach dem Cursor eingegebenen Texts verringert. Nur aktiv, wenn der ausgewählte Text bzw. die ausgewählte Position bereits eingerückt ist.
+
+   * **Symbol &quot;Einzug&quot;** - Dadurch wird der Einzug des ausgewählten Texts oder des nach dem Cursor eingegebenen Texts erhöht.
+
+![Hyperlink-Optionen](/help/adaptive-forms/assets/footer_link.png)
+
+* **Hyperlink**
+
+   * **Pfad** - Pfad eingeben
+      1. Verwenden Sie das Dialogfeld Auswahl öffnen , um einen Pfad in AEM auszuwählen.
+      1. Wenn der Link nicht in AEM enthalten ist, geben Sie die absolute URL ein.
+      1. Nicht absolute Pfade werden als relativ zu AEM interpretiert.
+   * **Alternativtext** - Geben Sie alternativen beschreibenden Text für den Link ein.
+
+   * **Target** - Linkverhalten auswählen
+      * Ziel
+      * Selbe Registerkarte
+      * Neue Registerkarte
+      * Übergeordneter Frame
+      * Top-Frame
    * **Symbol &quot;Verknüpfung aufheben&quot;** - Mit dieser Option wird ein Link entfernt, der bereits auf den ausgewählten Text angewendet wurde. Diese Option ist nur aktiv, wenn der Link bereits ausgewählt ist.
 
    * **Symbol &quot;Absatzformat&quot;** - Mit dieser Option können Sie Absatzformatierungen auf den ausgewählten Text anwenden. Es hilft Ihnen auch, den nach dem Cursor eingefügten Text zu formatieren. Sie definiert die Überschriftenebene des Titels.
 
 
 
-* **ID**
-Mit dieser Option können Sie die eindeutige Kennung der Komponente auf der HTML und in der Datenschicht steuern.
+* **ID**: Mit dieser Option können Sie die eindeutige Kennung der Komponente auf der HTML und in der Datenschicht steuern.
 
    * Wenn Sie das Feld leer lassen, wird automatisch * eine eindeutige ID generiert und Sie können die resultierende Seite prüfen.
    * Sofern eine ID angegeben wird, ist vom Autor bzw. der Autorin sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
-
-## Dialogfeld „Design“ {#design-dialog}
-
 
 
