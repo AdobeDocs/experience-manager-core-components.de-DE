@@ -2,9 +2,9 @@
 title: Einführung AEM adaptiven Forms-Kernkomponenten
 description: Erstellen Sie ansprechende Registrierungserlebnisse (Formulare) mit der Flexibilität der adaptiven Forms-Kernkomponenten und stellen Sie sie mit Adobe Experience Manager bereit.
 role: Architect, Developer, Admin, User
-source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
+source-git-commit: 86fa434d884b24b8d4b231c6108f5e6151a89813
 workflow-type: tm+mt
-source-wordcount: '1202'
+source-wordcount: '1231'
 ht-degree: 12%
 
 ---
@@ -16,9 +16,7 @@ Mithilfe der adaptiven Forms-Kernkomponenten in Adobe Experience Manager können
 
 ## Kernkomponenten  {#overview}
 
-In Adobe Experience Manager (AEM) sind Komponenten die Bausteine, die zum Erstellen von Seiten und Formularen verwendet werden. Sie bieten Autoren eine einfache und leistungsstarke Möglichkeit, Inhalte zu erstellen und zu verwalten und bieten Entwicklern gleichzeitig die Flexibilität und Erweiterbarkeit, die zum Erstellen benutzerdefinierter Komponenten erforderlich sind.
-
-Die sind so konzipiert, dass sie die Entwicklungszeit verkürzen und die Wartungskosten für Websites und Formulare senken, flexibel sein und einfach an die spezifischen Anforderungen einer Website und eines Formulars angepasst werden können.
+In Adobe Experience Manager (AEM) sind Komponenten die Bausteine, die zum Erstellen von Seiten und Formularen verwendet werden. Sie bieten Autoren eine einfache und leistungsstarke Möglichkeit, Inhalte zu erstellen und zu verwalten und bieten Entwicklern gleichzeitig die Flexibilität und Erweiterbarkeit, die zum Erstellen benutzerdefinierter Komponenten erforderlich sind. Diese sind so konzipiert, dass sie die Entwicklungszeit verkürzen und die Wartungskosten für Websites und Formulare senken, flexibel sind und einfach an die spezifischen Anforderungen einer Website und eines Formulars angepasst werden können.
 
 Die Kernkomponenten sind außerdem für responsive Funktionen und unterstützen eine breite Palette von Geräten, einschließlich Desktops, Tablets und Smartphones. Sie halten sich außerdem an die neuesten Web-Standards und Best Practices und machen sie zu einer robusten und zuverlässigen Lösung für die Erstellung von Web-Inhalten.
 
@@ -43,16 +41,16 @@ Da es sich bei diesen Komponenten um Open-Source-Komponenten handelt, können En
 | Vielseitig | Die Komponenten stellen allgemeine Konzepte dar, mit denen die Forms-Autoren nahezu jedes Layout zusammenstellen können. |
 | Konfigurierbar | Vorlagenebene [Content-Richtlinien](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=de#content-policies) definieren, welche Funktionen verwendet werden dürfen oder nicht. |
 | Barrierefrei | Sie erfüllen [WCAG 2.1-Standard](https://www.w3.org/TR/WCAG21/), ARIA-Beschriftungen bereitstellen, die Tastaturnavigation unterstützen ([bekannte Probleme](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)) und Text für Hilfstechnologien wie Bildschirmlesehilfen. |
-| Themen-fähig | Die Komponenten implementieren das [Stilsystem](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=de) und das Markup folgt den [BEM-CSS-Konventionen](http://getbem.com/). |
+| Designoption | Die Komponenten implementieren das [Stilsystem](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=de) und das Markup folgt den [BEM-CSS-Konventionen](https://getbem.com/). |
 | Anpassbar | Verschiedene Muster ermöglichen eine einfache Anpassung, von der Anpassung des HTML-Codes bis hin zur Wiederverwendung erweiterter Funktionen. |
 | Versionierung | Die [Versionierungsrichtlinie](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) stellt sicher, dass die Kernkomponenten Ihre Website nicht beschädigen, wenn Funktionen verbessert werden, die sich auf Sie auswirken könnten. |
 | Open Source | Wenn etwas nicht so ist, wie es sein sollte, bringen Sie Ihre Verbesserung ein. |
 
 ## Vorteile {#benefits}
 
-Datenerfassungserlebnisse sind für die Erstellung und Registrierung von Leads von entscheidender Bedeutung. Die Kernkomponenten von Adaptive Forms bieten eine leistungsstarke Lösung zum Erstellen von Formularen, die für die Datenerfassung optimiert sind. Einige der Gründe für die Verwendung von Kernkomponenten zum Erstellen dieser Erlebnisse über Foundation-Komponenten:
+Datenerfassungserlebnisse sind für die Erstellung und Registrierung von Leads von entscheidender Bedeutung. Die Kernkomponenten von Adaptive Forms bieten eine leistungsstarke Lösung zum Erstellen von Formularen, die für die Datenerfassung optimiert sind. Einige der Gründe für die Verwendung von Kernkomponenten zum Erstellen dieser Erlebnisse über Foundation-Komponenten sind:
 
-* **Verfügbarkeit auf GitHub und umfassende Dokumentation**: Die AEM adaptiven Forms-Kernkomponenten sind Open-Source-Komponenten und auf GitHub verfügbar. Darüber hinaus finden Sie eine umfassende Dokumentation. Dies erleichtert es Entwicklern, die Komponenten und ihre Funktionsweise zu verstehen und zu ihrer Entwicklung beizutragen. Die Website aemcomponents.dev ist ebenfalls eine wertvolle Ressource, über die Entwickler die Komponenten in Aktion sehen und auf die detaillierte Dokumentation zugreifen können.
+* **Verfügbarkeit auf GitHub und umfassende Dokumentation**: Die AEM adaptiven Forms-Kernkomponenten sind Open-Source-Komponenten und auf GitHub verfügbar. Darüber hinaus finden Sie eine umfassende Dokumentation. Dies erleichtert es Entwicklern, die Komponenten und ihre Funktionsweise zu verstehen und zu ihrer Entwicklung beizutragen. Die [aemcomponents.dev](https://www.aemcomponents.dev/) Website ist auch eine wertvolle Ressource, über die Entwickler die Komponenten in Aktion sehen und auf die detaillierte Dokumentation zugreifen können.
 
 * **BEM-Modell für die Formatierung**: Die Kernkomponenten folgen dem BEM-Modell (Block Element Modifier) für die Formatierung, das eine bewährte und häufig verwendete Methode für die Organisation von CSS ist. Dies erleichtert Entwicklern das Verständnis, wie die Stile organisiert sind und wie sie sie an ihre spezifischen Anforderungen anpassen können.
 
@@ -89,7 +87,7 @@ Die Kernkomponenten von Adaptive Forms haben die folgenden Anforderungen.
 
 ## Adaptive Forms-Kernkomponenten {#components}
 
-Die aktuelle Version der adaptiven Forms-Kernkomponenten enthält die folgenden Komponenten.
+Sie können [Adaptiver Forms-Editor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html) , um auf Adaptive Forms basierende Kernkomponenten zu erstellen. Die aktuelle Version der adaptiven Forms-Kernkomponenten enthält die folgenden aufgelisteten Komponenten.
 
 * Akkordeon
 * Schaltfläche
