@@ -3,10 +3,10 @@ title: Listenkomponente
 description: Die Kernkomponente „Listenkomponente“ ermöglicht die einfache Erstellung dynamischer sowie statischer Listen.
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
-workflow-type: ht
-source-wordcount: '1152'
-ht-degree: 100%
+source-git-commit: af908d77b30b7642b553f38c217136cfd5603108
+workflow-type: tm+mt
+source-wordcount: '1208'
+ht-degree: 94%
 
 ---
 
@@ -20,15 +20,16 @@ Die Listenkomponente kann beispielsweise zum Erstellen einer dynamischen Liste v
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die aktuelle Version der Listenkomponente ist v3, die mit Version 2.18.0 der Kernkomponenten im Februar 2022 eingeführt wurde und in diesem Dokument beschrieben wird.
+Die aktuelle Version der Listenkomponente ist v4, die mit Version 2.22.0 der Kernkomponenten im Februar 2023 eingeführt wurde und in diesem Dokument beschrieben wird.
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
 | Komponentenversion | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
-| v3 | - | Kompatibel | Kompatibel |
-| [v2](v2/list.md) | Kompatibel | Kompatibel | Kompatibel |
-| [v1](v1/list-v1.md) | Kompatibel | Kompatibel | Kompatibel |
+| v4 | - | Kompatibel | Kompatibel |
+| [v3](/help/components/v3/list.md) | - | Kompatibel | Kompatibel |
+| [v2](/help/components/v2/list.md) | Kompatibel | Kompatibel | Kompatibel |
+| [v1](/help/components/v1/list-v1.md) | Kompatibel | Kompatibel | Kompatibel |
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
 
@@ -93,7 +94,15 @@ Die Liste kann mit einer Liste mit festen Elementen erstellt werden.
 
 Tippen oder klicken Sie auf die Schaltfläche **Hinzufügen**, um ein neues Element in die Liste einzufügen.
 
-* Geben Sie Text für das Element in der Liste ein oder wählen Sie im **Dialogfeld „Auswahl“** ein Element aus AEM aus.
+* Im **Link** Feld eingeben
+   * Eine vollständig qualifizierte URL
+   * Relative URL zu vorhandenem AEM
+      * Sie können die **Dialogfeld &quot;Auswahl&quot;** , um ein Element aus AEM auszuwählen.
+* Im **Text** eingeben, geben Sie den Text ein, der für den Link in der Liste angezeigt werden soll.
+* Aktivieren Sie das Kontrollkästchen, wenn der Link in einer neuen Browser-Registerkarte geöffnet werden soll.
+
+Sobald mehrere Elemente für die Liste erstellt wurden, können Sie die Liste anordnen.
+
 * Mit dem Ziehpunkt können Sie die Elemente in der Liste neu anordnen.
 * Verwenden Sie das Papierkorbsymbol, um Elemente in der Liste zu löschen.
 
@@ -147,14 +156,14 @@ Maximale Anzahl der in der Liste angezeigten Elemente.
    * Leer lassen, um alle Elemente zurückzugeben.
 * **ID** - Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
    * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
-   * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
+   * Sofern eine ID angegeben wird, ist vom Autor bzw. der Autorin sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
 ### Registerkarte „Element-Einstellungen“ {#item-settings-tab}
 
 Auf der Registerkarte „Element-Einstellungen“ kann die Formatierung der Listenelemente konfiguriert werden.
 
-![Elementeinstellungen](/help/assets/list-edit-items.png)
+![Elementeinstellungen](/help/assets/list-edit-item-settings.png)
 
 * **Elemente verknüpfen** – Elemente mit der entsprechenden Seite verknüpfen
 * **Beschreibung anzeigen** – Beschreibung des Link-Elements anzeigen
