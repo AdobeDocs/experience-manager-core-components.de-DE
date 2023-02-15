@@ -3,8 +3,8 @@ title: Einführung in Kernkomponenten
 description: Erhalten Sie Lösungen für Probleme mit den Kernkomponenten und ermöglichen Sie anderen, Elemente in AEM zu erstellen.
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 5431b57727ca5b9518cb80f620cffd0c31ef2f2d
-workflow-type: ht
+source-git-commit: 0d004c90e789f23ff9e121fbd8ae11df9c9748b2
+workflow-type: tm+mt
 source-wordcount: '967'
 ht-degree: 100%
 
@@ -107,7 +107,7 @@ Die aktuelle Version der Kernkomponenten enthält die folgenden Komponenten:
 
 | Version der Kernkomponenten | AEM as a Cloud Service | AEM 6.5 Patch-Stufe | Java SE-Version | Maven-Version |
 |---------|---------|---------|---------|---------|
-| [2.21.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.2) | Kontinuierlich | 6.5.13.0+ * | 8, 11 | 3.3.9+ |
+| [2.22.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.0) | Kontinuierlich | 6.5.14.0+ * | 8, 11 | 3.3.9+ |
 
 >[!NOTE]
 >
