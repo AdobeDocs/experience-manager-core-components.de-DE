@@ -4,9 +4,9 @@ description: Die Inhaltsverzeichniskomponente erstellt ein Inhaltsverzeichnis, d
 role: Architect, Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
 source-git-commit: 8beae61676340e8aafaee469018d865ea7ed934e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '768'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -38,9 +38,9 @@ Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in d
 
 >[!NOTE]
 >
->Auf AEM as a Cloud Service muss Ihr Administrator einen Filter für die Komponente aktivieren, damit der Komponenteninhalt gerendert werden kann.
+>Auf AEM as a Cloud Service muss Ihre Administratorin oder Ihr Administrator einen Filter für die Komponente aktivieren, damit der Inhalt der Komponente gerendert werden kann.
 >
->[Weitere Informationen finden Sie in der GitHub-Dokumentation der Komponente .](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1) für weitere Informationen.
+>[Bitte lesen Sie die GitHub-Dokumentation der Komponente](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1) für weitere Informationen.
 
 ### Technische Details {#technical-details}
 
@@ -57,7 +57,7 @@ Im Bearbeitungsdialog kann der Autor des Inhalts die Bereiche der Titelebenen fe
 **Listentyp** - Diese Option definiert, ob es sich bei der Liste um eine Liste mit Aufzählungszeichen oder eine nummerierte Liste handeln soll.
 * **Startstufe für Titel** - Diese Option definiert die höchste Ebene von Titeln, die die Inhaltsverzeichniskomponente rendern soll.
 * **Stoppstufe für Titel** - Mit dieser Option wird die niedrigste Ebene von Titeln definiert, die die Inhaltsverzeichniskomponente rendern soll.
-* **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
+* **ID** - Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
    * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
    * Sofern eine ID angegeben wird, ist vom Autor bzw. der Autorin sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
