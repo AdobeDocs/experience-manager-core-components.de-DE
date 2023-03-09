@@ -3,10 +3,10 @@ title: Karussellkomponente
 description: Mit der Karussellkomponente kann der Inhaltsautor Inhalte in einem drehbaren Karussell präsentieren.
 role: Architect, Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
-source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
-workflow-type: ht
-source-wordcount: '1119'
-ht-degree: 100%
+source-git-commit: e0d3790b265ab27ac2116f0d8daf1a18ecd3d714
+workflow-type: tm+mt
+source-wordcount: '1312'
+ht-degree: 88%
 
 ---
 
@@ -30,7 +30,7 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 |--- |--- |--- |---|
 | v1 | Kompatibel mit<br>[Version 2.17.4](/help/versions.md) und vorherigen | Kompatibel | Kompatibel |
 
-Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
+Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie im Dokument [Kernkomponentenversionen](/help/versions.md).
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
@@ -41,6 +41,20 @@ Um die Karussellkomponente zu erleben und Beispiele für ihre Konfigurationsopti
 Die aktuelle technische Dokumentation zur Karussellkomponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_carousel_v1_de).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
+
+## Deep-Link auf ein Bedienfeld {#deep-linking}
+
+Karussell, [Registerkarten,](tabs.md) und [Accordion-Komponenten](accordion.md) Unterstützung der direkten Verknüpfung zu einem Bedienfeld innerhalb der Komponente.
+
+Gehen Sie hierfür wie folgt vor:
+
+1. Zeigen Sie die Seite mit der Komponente über die Option **[Als veröffentlicht anzeigen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=de#view-as-published)** im Seiteneditor an.
+1. Überprüfen Sie den Inhalt der Seite und halten Sie die ID des Bedienfeldes fest.
+   * Beispiel `id="carousel-bfe4fa6647-item-47f1a7ca67-tabpanel"`
+1. Die ID wird der Anker, den Sie über einen Hash (`#`) an die URL anhängen können.
+   * Beispiel `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#carousel-bfe4fa6647-item-47f1a7ca67-tabpanel`
+
+Wird zu der URL mit der Bereichs-ID navigiert, scrollt der Browser direkt zur jeweiligen Komponente und zeigt das angegebene Bedienfeld an. Wenn das Bedienfeld so konfiguriert ist, dass es nicht standardmäßig angezeigt wird, wird automatisch ein Bildlauf zu durchgeführt.
 
 ## Dialogfeld „Bearbeiten“ {#edit-dialog}
 
@@ -67,12 +81,13 @@ Verwenden Sie die Schaltfläche **Hinzufügen**, um die Komponentenauswahl zu ö
 
 Auf der Registerkarte **Eigenschaften** kann der Inhaltsautor die Folien auf automatische Übergänge einstellen.
 
+* **Aktives Element** - Der Inhaltsautor kann definieren, welche Registerkarte beim Laden der Seite aktiv ist.
 * **Automatisch zwischen Folien wechseln** - Wenn diese Option aktiviert ist, wechselt die Komponente nach einer festgelegten Verzögerungszeit automatisch zur nächsten Folie.
 * **Übertragungsverzögerung** - Wenn die Option „Automatisch zwischen Folien wechseln“ ausgewählt wird, wird dieser Wert verwendet, um die Verzögerung zwischen Übergängen (in Millisekunden) zu definieren.
 * **Automatisches Pausieren beim Bewegen des Mauszeigers deaktivieren** - Wenn die Option **Automatisch zwischen Folien wechseln** ausgewählt ist, wird der Karussell-Übergang automatisch angehalten, sobald die Maus über das Karussell bewegt wird; Wählen Sie diese Option, damit der Übergang nicht angehalten wird.
 * **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
    * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
-   * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
+   * Sofern eine ID angegeben wird, ist vom Autor bzw. der Autorin sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
 >[!NOTE]
@@ -87,7 +102,13 @@ Auf der Registerkarte **Eigenschaften** kann der Inhaltsautor die Folien auf aut
 
 Auf der Registerkarte **Erreichbarkeit** können Werte für die [ARIA-Barrierefreiheits-Beschriftungen](https://www.w3.org/WAI/standards-guidelines/aria/) für die Komponente festgelegt werden.
 
-* **Beschriftung** - Wert eines ARIA-Beschriftungs-Attributs für die Komponente
+* **Titel** - Wert des Attributs aria-label für das Karussell, das den Inhalt des Karussells beschreibt
+* **Vorherige** - Wert eines aria-label-Attributs für die vorherige Schaltflächenbeschriftung der Karussellnavigation
+* **Nächste** - Wert eines aria-label-Attributs für die nächste Schaltflächenbeschriftung der Karussellnavigation
+* **Play** - Wert eines aria-label-Attributs für die Wiedergabeschaltfläche der Karussellnavigation
+* **Anhalten** - Wert eines aria-label-Attributs für die Bezeichnung der Pause-Schaltfläche in der Karussellnavigation
+* **Tablist** - Wert eines aria-label-Attributs für die Liste der Elemente in der Karussellnavigation
+* **Legen Sie für die Beschriftung &quot;aria&quot;des Elements den Titel fest** - Wenn diese Option aktiviert ist, wird der Titel der Karussellelemente automatisch auf die Beschreibung der aria-Beschriftung gesetzt.
 
 ## Bedienfeld auswählen {#select-panel}
 
@@ -116,8 +137,7 @@ Im Dialogfeld „Design“ kann der Vorlagenautor definieren, welche Komponenten
 ![Dialogfeld „Design“ der Karussellkomponente](/help/assets/carousel-design.png)
 
 * **Automatisch zwischen Folien wechseln** - Definiert, ob die Option, automatisch das Karussell auf die nächste Folie zu verschieben, aktiviert ist, wenn der Inhaltsautor die Karussellkomponente einer Seite hinzufügt.
-* **Übertragungsverzögerung** - Definiert den Standardwert der Übertragungsverzögerung zwischen Folien (in Millisekunden), wenn ein Inhaltsautor die Karussellkomponente einer Seite hinzufügt.
-* **Automatisches Pausieren beim Bewegen des Mauszeigers deaktivieren** - Definiert, ob standardmäßig die Option zum Deaktivieren der automatischen Pause der Folie aktiviert ist, wenn **Automatisch zwischen Folien wechseln** vom Inhaltsautor ausgewählt wird.
+* **Kontrollelemente voranstellen** - Wenn diese Option aktiviert ist, werden die Kontrollelemente vor den Karussellelementen platziert, um die Barrierefreiheit zu verbessern.
 
 ### Registerkarte „Zugelassene Komponenten“ {#allowed-components-tab}
 

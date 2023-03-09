@@ -3,10 +3,10 @@ title: Registerkarten-Komponente
 description: Die Registerkarten-Komponente ermöglicht die Erstellung mehrerer Registerkarten zum Anordnen von Inhalten auf einer Seite.
 role: Architect, Developer, Admin, User
 exl-id: 0031c5f3-447c-4932-898f-2f453801e492
-source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
-workflow-type: ht
-source-wordcount: '1032'
-ht-degree: 100%
+source-git-commit: e8b3e55a42b6be6262d6f51b9569c0be3e8ce6c3
+workflow-type: tm+mt
+source-wordcount: '1033'
+ht-degree: 98%
 
 ---
 
@@ -36,7 +36,7 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 |--- |--- |--- |---|
 | v1 | Kompatibel mit<br>[Version 2.17.4](/help/versions.md) und vorherigen | Kompatibel | Kompatibel |
 
-Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
+Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie im Dokument [Kernkomponentenversionen](/help/versions.md).
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
@@ -50,7 +50,7 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 
 ## Deep-Link auf ein Bedienfeld {#deep-linking}
 
-Die Registerkarten- und [Akkordeon-Komponenten](accordion.md) unterstützen Deep-Links zu einem Bedienfeld innerhalb der Komponente.
+Die Registerkarten [Karussell,](carousel.md) und [Accordion-Komponenten](accordion.md) Unterstützung der direkten Verknüpfung zu einem Bedienfeld innerhalb der Komponente.
 
 Gehen Sie hierfür wie folgt vor:
 
@@ -89,7 +89,7 @@ Verwenden Sie die Schaltfläche **Hinzufügen**, um die Komponentenauswahl zu ö
    * Mit der Option **Standard** wird die erste Registerkarte ausgewählt.
 * **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
    * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
-   * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
+   * Sofern eine ID angegeben wird, ist vom Autor bzw. der Autorin sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
 ### Registerkarte „Erreichbarkeit“ {#accessibility-tab}
