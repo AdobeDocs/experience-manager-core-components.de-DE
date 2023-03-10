@@ -3,9 +3,9 @@ title: Einführung in Kernkomponenten
 description: Erhalten Sie Lösungen für Probleme mit den Kernkomponenten und ermöglichen Sie anderen, Elemente in AEM zu erstellen.
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 8b922d7f6305f91337ef3c19d56eb7f192d65774
+source-git-commit: 39adbada42b9ca10fe2a4ff79ce6c0b3876d7be6
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '965'
 ht-degree: 100%
 
 ---
@@ -115,7 +115,7 @@ Die aktuelle Version der Kernkomponenten enthält die folgenden Komponenten:
 
 Die Anforderungen aus früheren Kernkomponenten-Versionen finden Sie unter [Kernkomponenten-Versionen](versions.md).
 
-Die Kernkomponenten erfordern die Verwendung [bearbeitbarer Vorlagen](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html?lang=de) und unterstützen weder die klassische Benutzeroberfläche noch statische Vorlagen. Sehen Sie sich bei Bedarf die [AEM-Modernisierungs-Tools](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html) an, um Ihr Projekt mit diesen modernen AEM-Funktionen zu aktualisieren.
+Die Kernkomponenten erfordern die Verwendung [bearbeitbarer Vorlagen](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html?lang=de) und unterstützen weder die klassische Benutzeroberfläche noch statische Vorlagen. Sehen Sie sich bei Bedarf die [AEM-Modernisierungs-Tools](https://opensource.adobe.com/aem-modernize-tools/) an, um Ihr Projekt mit diesen modernen AEM-Funktionen zu aktualisieren.
 
 Informationen zum Einrichten Ihrer lokalen Entwicklungsumgebung finden Sie in [dieser Übersicht für AEM as a Cloud Service-SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html?lang=de) oder in diesem Dokument [für ältere Versionen von AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html?lang=de).
 

@@ -4,10 +4,10 @@ description: Detaillierte Nutzungsanleitungen für den AEM-Projektarchetyp
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
-source-git-commit: 06a620980c9cda02d1190747b12b929498fb79c2
-workflow-type: ht
-source-wordcount: '2194'
-ht-degree: 100%
+source-git-commit: ca61d71a2644465e74249058157d8dea2aa71352
+workflow-type: tm+mt
+source-wordcount: '2198'
+ht-degree: 99%
 
 ---
 
@@ -87,7 +87,7 @@ Die Abhängigkeit der Kernkomponenten wird nur für AEM-Versionen ohne Cloud Ser
 >
 >Es empfiehlt sich, das `adobe-public` Profil Ihrer Maven- `settings.xml` Datei hinzuzufügen, um repo.adobe.com automatisch zum Maven-Build-Prozess hinzuzufügen.
 >
->Ein Beispiel für POM [finden Sie hier](https://helpx.adobe.com/de/experience-manager/kb/SetUpTheAdobeMavenRepository.html).
+>Ein Beispiel für POM [finden Sie hier](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17454.html?lang=en).
 
 ### Eigenschaften {#properties}
 
