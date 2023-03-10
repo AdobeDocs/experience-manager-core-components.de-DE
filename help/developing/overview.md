@@ -3,7 +3,7 @@ title: Entwickeln von Kernkomponenten
 description: Die Kernkomponenten bieten leistungsfähige und erweiterbare Basiskomponenten mit umfangreichen Funktionen, kontinuierlicher Bereitstellung, Komponentenversionierung, moderner Implementierung, schlankem Markup und JSON-Export von Inhalten.
 role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
-source-git-commit: faf73c70a4bff387bed2f8cf6e48c39e597e51c7
+source-git-commit: 614bc5fd01a76a6888606faa4576e1695b77ba58
 workflow-type: tm+mt
 source-wordcount: '1559'
 ht-degree: 100%
@@ -43,14 +43,14 @@ Jedes neue Projekt sollte mit Kernkomponenten implementiert werden. Bestehende P
 
 Eine größere Arbeit an einem vorhandenen Projekt (z. B. ein Rebranding oder eine Gesamtrefaktorierung) bietet oft eine Möglichkeit, zu den Kernkomponenten zu migrieren. Um diese Migration zu erleichtern, stellt Adobe eine Reihe von Migrationswerkzeugen bereit, um die Akzeptanz der Kernkomponenten und der neuesten AEM-Technologie zu fördern.
 
-[Die AEM-Modernisierungs-Tools](http://opensource.adobe.com/aem-modernize-tools/) ermöglichen eine einfache Konvertierung von:
+[Die AEM-Modernisierungs-Tools](https://opensource.adobe.com/aem-modernize-tools/) ermöglichen eine einfache Konvertierung von:
 
 * Statischen Vorlagen in bearbeitbare Vorlagen
 * Design-Konfigurationen in Richtlinien
 * Foundation-Komponenten in Kernkomponenten
 * Klassische Benutzeroberfläche in Touch-optimierte Benutzeroberfläche
 
-Weitere Informationen zur Verwendung dieser Werkzeuge finden Sie [in der entsprechenden Dokumentation](http://opensource.adobe.com/aem-modernize-tools/).
+Weitere Informationen zur Verwendung dieser Werkzeuge finden Sie [in der entsprechenden Dokumentation](https://opensource.adobe.com/aem-modernize-tools/).
 
 >[!NOTE]
 >
@@ -103,7 +103,7 @@ Einzelheiten zu ihren Authoring-Fähigkeiten und Optionen zu ihrer Vorkonfigurat
 | Bereitstellung | [Über öffentliches GitHub](https://github.com/adobe/aem-core-wcm-components) | Über Quickstart |
 | Lizenz | [Apache-Lizenz](https://www.apache.org/licenses/LICENSE-2.0) | Adobe-geschützt |
 | Beitrag | Über Pull-Anfrage | Nicht möglich |
-| Erreichbarkeit | Vollständig konform mit dem [WCAG 2.0 AA-Standard](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html?lang=de) | Nur teilweise konform mit dem [WCAG 2.0 AA-Standard](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
+| Erreichbarkeit | Vollständig konform mit dem [WCAG 2.0 AA-Standard](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html?lang=de) | Nur teilweise konform mit dem [WCAG 2.0 AA-Standard](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html?lang=de) |
 
 ## Komponentenliste {#component-list}
 

@@ -3,7 +3,7 @@ title: Einführung in Kernkomponenten
 description: Erhalten Sie Lösungen für Probleme mit den Kernkomponenten und ermöglichen Sie anderen, Elemente in AEM zu erstellen.
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 0d004c90e789f23ff9e121fbd8ae11df9c9748b2
+source-git-commit: 8b922d7f6305f91337ef3c19d56eb7f192d65774
 workflow-type: tm+mt
 source-wordcount: '967'
 ht-degree: 100%
@@ -41,7 +41,7 @@ Die Kernkomponenten sind eine Reihe standardisierter Web Content Management (WCM
 | WebApp-fähig | Die [optimierte JSON-Ausgabe](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/develop-sling-model-exporter.html?lang=de) ermöglicht das Client-seitige Rendern, wobei die [kontextbezogene Bearbeitung](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html?lang=de) weiterhin möglich ist. |
 | AMP-Unterstützung | Die Komponenten verfügen über integrierte [Unterstützung für den AMP-Standard](/help/developing/amp.md), wodurch mobile Erlebnisse beschleunigt werden. |
 | Design-Kit | Mit einem [Benutzeroberflächen-Kit für Adobe XD](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) können Designer Wireframes erstellen, die sie dann [nach Bedarf formatieren](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd) können. |
-| Themen-fähig | Die Komponenten implementieren das [Stilsystem](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=de) und das Markup folgt den [BEM-CSS-Konventionen](http://getbem.com/). |
+| Themen-fähig | Die Komponenten implementieren das [Stilsystem](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=de) und das Markup folgt den [BEM-CSS-Konventionen](https://getbem.com/). |
 | Anpassbar | Verschiedene Muster ermöglichen eine [einfache Anpassung](developing/customizing.md), von der Anpassung des HTML-Codes bis hin zur Wiederverwendung erweiterter Funktionen. |
 | Versionierung | Die [Versionierungsrichtlinie](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) stellt sicher, dass die Kernkomponenten Ihre Website nicht beschädigen, wenn Funktionen verbessert werden, die sich auf Sie auswirken könnten. |
 | Lokalisierbar | Mit der intelligenten Referenzauflösung ist es bestimmten Komponenten möglich, [entsprechende lokalisierte Inhalte automatisch zu finden und anzuzeigen](get-started/localization.md). |
