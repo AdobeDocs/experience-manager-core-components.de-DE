@@ -2,13 +2,13 @@
 title: Adaptive Forms-Kernkomponente - Schaltfläche
 description: Verwenden oder Anpassen der Kernkomponente der Schaltfläche "Adaptive Forms".
 role: Architect, Developer, Admin, User
-source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
+exl-id: cb75929b-8c86-49d1-b51a-368f5b80b1a9
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
-source-wordcount: '1491'
-ht-degree: 2%
+source-wordcount: '1397'
+ht-degree: 1%
 
 ---
-
 
 # Schaltflächenkomponente  {#button-component-adaptive-forms-core-component}
 
@@ -36,15 +36,13 @@ Es gibt verschiedene Gründe, warum es sinnvoll ist, eine Schaltfläche in ein a
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die Kernkomponente &quot;Adaptive Forms-Schaltfläche&quot;v1 wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM Kompatibilität und Links zur entsprechenden Dokumentation:
+Die Kernkomponente &quot;Adaptive Forms Accordion&quot;wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 für Cloud Service und Kernkomponenten 1.1.12 für AEM 6.5.16.0 Forms oder höher veröffentlicht. In der folgenden Tabelle finden Sie alle unterstützten Versionen, AEM Kompatibilität und Links zur entsprechenden Dokumentation:
 
-|  |  |
-|---|---|
-| Komponentenversion | AEM as a Cloud Service |
-| --- | --- |
-| v1 | Kompatibel mit<br>[Version 2.0.4](/help/versions.md) und höher | Kompatibel | Kompatibel |
+| Komponentenversion | AEM as a Cloud Service | AEM 6.5.16.0 Forms oder höher |
+|---|---|---|
+| v1 | Kompatibel mit<br>[Version 2.0.4](/help/adaptive-forms/version.md) und höher | Kompatibel mit<br>[Version 1.1.12](/help/adaptive-forms/version.md) und höher, jedoch weniger als 2.0.0. |
 
-Informationen zu Kernkomponentenversionen und -versionen finden Sie im Abschnitt [Kernkomponenten-Versionen](/help/versions.md) Dokument.
+Informationen zu Kernkomponentenversionen und -versionen finden Sie im Abschnitt [Kernkomponenten-Versionen](/help/adaptive-forms/version.md) Dokument.
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -89,16 +87,7 @@ Im Dialogfeld &quot;Konfigurieren&quot;können Sie Ihre Schaltflächen-Erfahrung
 ![Registerkarte &quot;Barrierefreiheit&quot;](/help/adaptive-forms/assets/button_accessibilitytab.png)
 
 
-Im **Zugänglichkeit** Registerkarte, werden Werte festgelegt für [Barrierefreiheit in ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) Beschriftungen für die Komponente. Für die Verwendung des Textes für die Bildschirmlesehilfe stehen verschiedene Optionen zur Verfügung:
-
 * **Text für Bildschirmlesehilfen** - Text für Bildschirmlesehilfen bezieht sich auf zusätzlichen Text, der speziell für Hilfstechnologien wie Bildschirmlesehilfen vorgesehen ist, die von sehbehinderten Personen verwendet werden. Dieser Text enthält eine Audiobeschreibung des Zwecks des Formularfelds und kann Informationen über den Titel, die Beschreibung, den Namen und alle relevanten Nachrichten (benutzerdefinierten Text) des Felds enthalten. Der Text der Bildschirmlesehilfe hilft sicherzustellen, dass das Formular für alle Benutzer zugänglich ist, auch für Benutzer mit Sehbehinderungen, und bietet ihnen ein umfassendes Verständnis des Formularfelds und seiner Anforderungen.
-
-
-   * **Benutzerdefinierter Text**: Wählen Sie diese Option aus, um den benutzerdefinierten Text für ARIA-Barrierefreiheitsbeschriftungen zu verwenden. Wenn Sie diese Option auswählen, wird das Dialogfeld &quot;Benutzerdefinierter Text&quot;angezeigt. Sie können relevante Informationen im Dialogfeld &quot;Benutzerdefinierter Text&quot;hinzufügen.
-   * **Beschreibung**: Wählen Sie diese Option aus, um die Beschreibung für ARIA-Barrierefreiheitsbeschriftungen zu verwenden.
-   * **Titel**: Wählen Sie diese Option aus, um den Titel für ARIA-Barrierefreiheitsbeschriftungen zu verwenden.
-   * **Name**: Wählen Sie diese Option aus, um den Namen für ARIA-Barrierefreiheitsbeschriftungen zu verwenden.
-   * **Keines**: Wählen Sie diese Option aus, wenn Sie keine ARIA-Barrierefreiheitsbezeichnungen hinzufügen möchten.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
@@ -108,7 +97,10 @@ Das Dialogfeld &quot;Design&quot;wird verwendet, um CSS-Stile für die Schaltfl�
 
 Die Kernkomponente &quot;Forms-Schaltfläche&quot;unterstützt die AEM [Stilsystem](/help/get-started/authoring.md#component-styling).
 
-**Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die Kernkomponente &quot;Adaptive Forms-Schaltfläche&quot;bereitstellen.
+![Designdialogfeld](/help/adaptive-forms/assets/button_designdialog.png)
 
-**Zulässige Stile**: Sie können Stile definieren, indem Sie einen Namen und die CSS-Klasse angeben, die den Stil darstellt. Sie können beispielsweise einen Stil mit dem Namen &quot;fett Text&quot;erstellen und die CSS-Klasse &quot;font-weight: fett&quot;. Sie können diese Stile im adaptiven Forms-Editor verwenden oder auf ein adaptives Formular anwenden. Um einen Stil anzuwenden, wählen Sie im adaptiven Forms-Editor die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Dialogfeld &quot;Eigenschaften&quot;und wählen Sie den gewünschten Stil aus dem **Stile** Dropdown-Liste. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld &quot;Design&quot;zurück, aktualisieren Sie die Stile auf der Registerkarte &quot;Stile&quot;und speichern Sie die Änderungen.
+* **Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die Kernkomponente &quot;Adaptive Forms-Schaltfläche&quot;bereitstellen.
+
+* **Zulässige Stile**: Sie können Stile definieren, indem Sie einen Namen und die CSS-Klasse angeben, die den Stil darstellt. Sie können beispielsweise einen Stil mit dem Namen &quot;fett Text&quot;erstellen und die CSS-Klasse &quot;font-weight: fett&quot;. Sie können diese Stile im adaptiven Forms-Editor verwenden oder auf ein adaptives Formular anwenden. Um einen Stil anzuwenden, wählen Sie im adaptiven Forms-Editor die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Dialogfeld &quot;Eigenschaften&quot;und wählen Sie den gewünschten Stil aus dem **Stile** Dropdown-Liste. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld &quot;Design&quot;zurück, aktualisieren Sie die Stile auf der Registerkarte &quot;Stile&quot;und speichern Sie die Änderungen.
+
 

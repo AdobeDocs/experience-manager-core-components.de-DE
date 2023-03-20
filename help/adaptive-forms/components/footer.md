@@ -2,13 +2,13 @@
 title: Adaptive Forms-Kernkomponente - Fußzeile
 description: Verwenden oder Anpassen der Kernkomponente "Adaptive Forms-Fußzeile".
 role: Architect, Developer, Admin, User
-source-git-commit: b378fbd5695f82b8fc9de3a2d53a8387099ae33b
+exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 15%
+source-wordcount: '770'
+ht-degree: 14%
 
 ---
-
 
 # den Namen Fußzeile zu {#footer-adaptive-forms-core-component}
 
@@ -34,15 +34,13 @@ Es gibt verschiedene Gründe, warum es sinnvoll ist, eine Fußzeilenkomponente i
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die Kernkomponente &quot;Adaptive Forms-Fußzeile&quot;wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM Kompatibilität und Links zur entsprechenden Dokumentation:
+Die Kernkomponente &quot;Adaptive Forms Accordion&quot;wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 für Cloud Service und Kernkomponenten 1.1.12 für AEM 6.5.16.0 Forms oder höher veröffentlicht. In der folgenden Tabelle finden Sie alle unterstützten Versionen, AEM Kompatibilität und Links zur entsprechenden Dokumentation:
 
-|  |  |
-|---|---|
-| Komponentenversion | AEM as a Cloud Service |
-| --- | --- |
-| v1 | Kompatibel mit<br>[Version 2.0.4](/help/versions.md) und höher | Kompatibel | Kompatibel |
+| Komponentenversion | AEM as a Cloud Service | AEM 6.5.16.0 Forms oder höher |
+|---|---|---|
+| v1 | Kompatibel mit<br>[Version 2.0.4](/help/adaptive-forms/version.md) und höher | Kompatibel mit<br>[Version 1.1.12](/help/adaptive-forms/version.md) und höher, jedoch weniger als 2.0.0. |
 
-Informationen zu Kernkomponentenversionen und -versionen finden Sie im Abschnitt [Kernkomponenten-Versionen](/help/versions.md) Dokument.
+Informationen zu Kernkomponentenversionen und -versionen finden Sie im Abschnitt [Kernkomponenten-Versionen](/help/adaptive-forms/version.md) Dokument.
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -106,5 +104,4 @@ Das Dialogfeld &quot;Bearbeiten&quot;bietet standardmäßige Rich-Text-Formatier
    * Wenn Sie das Feld leer lassen, wird automatisch * eine eindeutige ID generiert und Sie können die resultierende Seite prüfen.
    * Sofern eine ID angegeben wird, ist vom Autor bzw. der Autorin sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
-
 

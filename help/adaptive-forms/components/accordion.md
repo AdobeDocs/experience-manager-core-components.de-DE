@@ -2,9 +2,10 @@
 title: Akkordeon für adaptive Formulare
 description: Verwenden Sie Akkordeon, um ein langes oder komplexes Formular zu organisieren und zu vereinfachen, indem Sie es in kleinere, besser verwaltbare Abschnitte unterteilen.
 role: Architect, Developer, Admin, User
-source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
+exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
+source-git-commit: 0cfdc56fe5508e156eee2ae818be311748af7247
 workflow-type: tm+mt
-source-wordcount: '1768'
+source-wordcount: '1677'
 ht-degree: 3%
 
 ---
@@ -37,16 +38,13 @@ Das Dialogfeld &quot;Konfigurieren&quot;und das Popover &quot;Bedienfeld auswäh
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
+Die Kernkomponente &quot;Adaptive Forms Accordion&quot;wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 für Cloud Service und Kernkomponenten 1.1.12 für AEM 6.5.16.0 Forms oder höher veröffentlicht. In der folgenden Tabelle finden Sie alle unterstützten Versionen, AEM Kompatibilität und Links zur entsprechenden Dokumentation:
 
-Die Kernkomponente &quot;Adaptive Forms Accordion&quot;wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM Kompatibilität und Links zur entsprechenden Dokumentation:
+| Komponentenversion | AEM as a Cloud Service | AEM 6.5.16.0 Forms oder höher |
+|---|---|---|
+| v1 | Kompatibel mit<br>[Version 2.0.4](/help/adaptive-forms/version.md) und höher | Kompatibel mit<br>[Version 1.1.12](/help/adaptive-forms/version.md) und höher, jedoch weniger als 2.0.0. |
 
-|  |  |
-|---|---|
-| Komponentenversion | AEM as a Cloud Service |
-| --- | --- |
-| v1 | Kompatibel mit<br>[Version 2.0.4](/help/versions.md) und höher | Kompatibel | Kompatibel |
-
-Informationen zu Kernkomponentenversionen und -versionen finden Sie im Abschnitt [Kernkomponenten-Versionen](/help/versions.md) Dokument.
+Informationen zu Kernkomponentenversionen und -versionen finden Sie im Abschnitt [Kernkomponenten-Versionen](/help/adaptive-forms/version.md) Dokument.
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -103,43 +101,7 @@ Mit der Schaltfläche Hinzufügen können Sie eine Komponente auswählen, die al
 
 ![Registerkarte &quot;Barrierefreiheit&quot;](/help/adaptive-forms/assets/accordion_accessibility.png)
 
-Im **Zugänglichkeit** Registerkarte, werden Werte festgelegt für [Barrierefreiheit in ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) Beschriftungen für die Komponente. Für die Verwendung des Textes für die Bildschirmlesehilfe stehen verschiedene Optionen zur Verfügung:
-
-* **Text für Bildschirmlesehilfen** - Text für Bildschirmlesehilfen bezieht sich auf zusätzlichen Text, der speziell für Hilfstechnologien wie Bildschirmlesehilfen vorgesehen ist, die von sehbehinderten Personen verwendet werden. Dieser Text enthält eine Audiobeschreibung des Zwecks des Formularfelds und kann Informationen über den Titel, die Beschreibung, den Namen und alle relevanten Nachrichten (benutzerdefinierten Text) des Felds enthalten. Der Text der Bildschirmlesehilfe hilft sicherzustellen, dass das Formular für alle Benutzer zugänglich ist, auch für Benutzer mit Sehbehinderungen, und bietet ihnen ein umfassendes Verständnis des Formularfelds und seiner Anforderungen.
-
-
-   * **Benutzerdefinierter Text**: Wählen Sie diese Option aus, um den benutzerdefinierten Text für ARIA-Barrierefreiheitsbeschriftungen zu verwenden. Wenn Sie diese Option auswählen, wird das Dialogfeld &quot;Benutzerdefinierter Text&quot;angezeigt. Sie können relevante Informationen im Dialogfeld &quot;Benutzerdefinierter Text&quot;hinzufügen.
-   * **Beschreibung**: Wählen Sie diese Option aus, um die Beschreibung für ARIA-Barrierefreiheitsbeschriftungen zu verwenden.
-   * **Titel**: Wählen Sie diese Option aus, um den Titel für ARIA-Barrierefreiheitsbeschriftungen zu verwenden.
-   * **Name**: Wählen Sie diese Option aus, um den Namen für ARIA-Barrierefreiheitsbeschriftungen zu verwenden.
-   * **Keines**: Wählen Sie diese Option aus, wenn Sie keine ARIA-Barrierefreiheitsbezeichnungen hinzufügen möchten.
-
-<!--
-
-### Properties Tab {#properties-tab}
-
-![Properties tab of the edit dialog of the Accordion Component](/help/assets/accordion-edit-properties.png)
-
-*   **Single item expansion** - When selected, this option forces a single accordion item to be expanded at a time. Expanding one item will then collapse all others.
-*   **Expanded items** - This option defines the items that are expanded by default when the page is loaded.
-    * When **Single item expansion** is selected, one panel must be selected. By default the first panel is selected.
-    * When **Single item expansion** is not selected, this option is a multi-select and is optional.
-*   **ID** - This option allows to control the unique identifier of the component in the HTML and in the [Data Layer](/help/developing/data-layer/overview.md).
-    * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
-    * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
-    * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
-
-## Select Panel Popover {#select-panel-popover}
-
-The **Select Panel** option (![Select panel icon](/help/assets/select-panel-icon.png)) on the component toolbar enables content authors to modify the panels in an accordion with ease. By selecting this option, the author can switch to a different panel for editing and rearrange the order of the panels in the accordion. The configured panels will be displayed in a drop-down menu for the author to choose from. This feature optimizes the editing process and makes it user-friendly for content authors.
-
-![Select panel popover](/help/assets/select-panel-popover.png)
-
-
-* The panels are displayed in a numbered list, reflecting the assigned arrangement.
-* Each panel is listed with its component type in bold, followed by a brief description in lighter font.
-* By clicking or tapping on a panel in the drop-down, you can easily switch the view in the editor to that specific panel.
-* To rearrange the panels, simply use the drag handles to move them into the desired order. -->
+**Text für Bildschirmlesehilfen** - Text für Bildschirmlesehilfen bezieht sich auf zusätzlichen Text, der speziell für Hilfstechnologien wie Bildschirmlesehilfen vorgesehen ist, die von sehbehinderten Personen verwendet werden. Dieser Text enthält eine Audiobeschreibung des Zwecks des Formularfelds und kann Informationen über den Titel, die Beschreibung, den Namen und alle relevanten Nachrichten (benutzerdefinierten Text) des Felds enthalten. Der Text der Bildschirmlesehilfe hilft sicherzustellen, dass das Formular für alle Benutzer zugänglich ist, auch für Benutzer mit Sehbehinderungen, und bietet ihnen ein umfassendes Verständnis des Formularfelds und seiner Anforderungen.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
@@ -165,43 +127,15 @@ Auf der Registerkarte Eigenschaften können Vorlagenautoren standardmäßige und
 
 Die **Zugelassene Komponenten** -Tab ermöglicht es dem Vorlageneditor, die Komponenten festzulegen, die den Bedienfeldern in der Accordion-Komponente im adaptiven Forms-Editor als Elemente hinzugefügt werden können.
 
+![Registerkarte „Zugelassene Komponenten“](/help/adaptive-forms/assets/accordion_allowedcomponents.png)
+
 ### Registerkarte „Arten“ {#styles-tab}
 
-Das Dialogfeld &quot;Design&quot;wird zum Definieren und Verwalten von CSS-Stilen für eine Komponente verwendet. Die Kernkomponente &quot;Adaptives Forms-Akkordeon&quot;unterstützt die AEM [Stilsystem](/help/get-started/authoring.md#component-styling).
+Die Registerkarte wird verwendet, um CSS-Stile für eine Komponente zu definieren und zu verwalten. Die Kernkomponente &quot;Adaptives Forms-Akkordeon&quot;unterstützt die AEM [Stilsystem](/help/get-started/authoring.md#component-styling).
 
-**Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die Accordion-Komponente bereitstellen.
+![Registerkarte &quot;Stil&quot;](/help/adaptive-forms/assets/accordion_style.png)
 
-**Zulässige Stile**: Sie können Stile definieren, indem Sie einen Namen und die CSS-Klasse angeben, die den Stil darstellt. Sie können beispielsweise einen Stil mit dem Namen &quot;fett Text&quot;erstellen und die CSS-Klasse &quot;font-weight: fett&quot;. Sie können diese Stile im adaptiven Forms-Editor verwenden oder auf ein adaptives Formular anwenden. Um einen Stil anzuwenden, wählen Sie im adaptiven Forms-Editor die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Dialogfeld &quot;Eigenschaften&quot;und wählen Sie den gewünschten Stil aus dem **Stile** Dropdown-Liste. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld &quot;Design&quot;zurück, aktualisieren Sie die Stile auf der Registerkarte &quot;Stile&quot;und speichern Sie die Änderungen.
+* **Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die Accordion-Komponente bereitstellen.
 
-
-<!-- 
-
-The design dialog allows the template author to define the options available to the content author who uses the Accordion Component and the defaults set when placing the Accordion Component.
-
-
-### Properties Tab {#properties-tab-design}
-
-![Design dialog properties tab](/help/assets/accordion-design-properties.png)
-
-* **Allowed Heading Elements** - This multi-select drop-down defines the accordion item heading HTML elements that are allowed to be selected by an author.
-* **Default Heading Element** - This drop-down defines the default accordion item heading HTML element.
-
-### Allowed Components Tab {#allowed-components-tab}
-
-The **Allowed Components** tab is used to define which components can be added as items to panels in the Accordion Component by the content author.
-
-The Allowed Components tab functions in the same way as the tab of the same name when [defining the policy and properties of a Layout Container in the Template Editor.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-layout-template-author)
-
-### Styles Tab {#styles-tab}
-
-The Accordion Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
-
-## Adobe Client Data Layer {#data-layer}
-
-The Accordion Component supports the [Adobe Client Data Layer.](/help/developing/data-layer/overview.md)
-
--->
-
-
-
+* **Zulässige Stile**: Sie können Stile definieren, indem Sie einen Namen und die CSS-Klasse angeben, die den Stil darstellt. Sie können beispielsweise einen Stil mit dem Namen &quot;fett Text&quot;erstellen und die CSS-Klasse &quot;font-weight: fett&quot;. Sie können diese Stile im adaptiven Forms-Editor verwenden oder auf ein adaptives Formular anwenden. Um einen Stil anzuwenden, wählen Sie im adaptiven Forms-Editor die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Dialogfeld &quot;Eigenschaften&quot;und wählen Sie den gewünschten Stil aus dem **Stile** Dropdown-Liste. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld &quot;Design&quot;zurück, aktualisieren Sie die Stile auf der Registerkarte &quot;Stile&quot;und speichern Sie die Änderungen.
 

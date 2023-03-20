@@ -2,13 +2,13 @@
 title: Adaptive Forms-Kernkomponente - Bild
 description: Verwenden oder Anpassen der Adaptive Forms Image-Kernkomponente
 role: Architect, Developer, Admin, User
-source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
+exl-id: 9ee42d5d-16e3-4973-8364-5bc512ebe72e
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '978'
 ht-degree: 2%
 
 ---
-
 
 # Bild {#image-adaptive-forms-core-component}
 
@@ -36,15 +36,13 @@ Es gibt verschiedene Gründe, warum es sinnvoll ist, eine Bildkomponente in ein 
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die Adaptive Forms-Bild-Kernkomponente wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM Kompatibilität und Links zur entsprechenden Dokumentation:
+Die Kernkomponente &quot;Adaptive Forms Accordion&quot;wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 für Cloud Service und Kernkomponenten 1.1.12 für AEM 6.5.16.0 Forms oder höher veröffentlicht. In der folgenden Tabelle finden Sie alle unterstützten Versionen, AEM Kompatibilität und Links zur entsprechenden Dokumentation:
 
-|  |  |
-|---|---|
-| Komponentenversion | AEM as a Cloud Service |
-| --- | --- |
-| v1 | Kompatibel mit<br>[Version 2.0.4](/help/versions.md) und höher | Kompatibel | Kompatibel |
+| Komponentenversion | AEM as a Cloud Service | AEM 6.5.16.0 Forms oder höher |
+|---|---|---|
+| v1 | Kompatibel mit<br>[Version 2.0.4](/help/adaptive-forms/version.md) und höher | Kompatibel mit<br>[Version 1.1.12](/help/adaptive-forms/version.md) und höher, jedoch weniger als 2.0.0. |
 
-Informationen zu Kernkomponentenversionen und -versionen finden Sie im Abschnitt [Kernkomponenten-Versionen](/help/versions.md) Dokument.
+Informationen zu Kernkomponentenversionen und -versionen finden Sie im Abschnitt [Kernkomponenten-Versionen](/help/adaptive-forms/version.md) Dokument.
 
 
 <!-- ## Sample Component Output {#sample-component-output}
@@ -87,7 +85,9 @@ Das Dialogfeld &quot;Design&quot;wird verwendet, um CSS-Stile für die Bildkompo
 
 ### Registerkarte „Arten“ {#styles-tab}
 
-Das Dialogfeld &quot;Design&quot;wird zum Definieren und Verwalten von CSS-Stilen für eine Komponente verwendet. Die Kernkomponente &quot;Adaptives Forms-Bild&quot;unterstützt die AEM [Stilsystem](/help/get-started/authoring.md#component-styling).
+Die Registerkarte wird verwendet, um CSS-Stile für eine Komponente zu definieren und zu verwalten. Die Kernkomponente &quot;Adaptives Forms-Bild&quot;unterstützt die AEM [Stilsystem](/help/get-started/authoring.md#component-styling).
+
+![Dialogfeld „Design“](/help/adaptive-forms/assets/image_designdialog.png)
 
 **Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die Adaptive Forms Image Core Component bereitstellen.
 

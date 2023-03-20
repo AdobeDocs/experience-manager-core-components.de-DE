@@ -2,13 +2,13 @@
 title: Adaptive Forms-Kernkomponente - Zahleneingabe
 description: Verwenden oder Anpassen der Eingabe-Kernkomponente "Adaptive Forms Number".
 role: Architect, Developer, Admin, User
-source-git-commit: b378fbd5695f82b8fc9de3a2d53a8387099ae33b
+exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
-source-wordcount: '1780'
+source-wordcount: '1798'
 ht-degree: 1%
 
 ---
-
 
 # Zahleneingabe {#number-input-adaptive-forms-core-component}
 
@@ -16,7 +16,7 @@ Eine Zahleneingabe-Komponente in einem adaptiven Formular ist ein Formularfeldty
 
 Sie kann auch mit Attributen wie min, max, step, value und mehr verwendet werden. Mit diesen Attributen können Sie die im Feld zulässigen Mindest- und Höchstwerte, das Schrittervall zum Erhöhen oder Verringern der Zahl und den Standardwert des Felds festlegen.
 
-Mit dieser Komponente können numerische Daten wie Alter, Menge und mehr erfasst werden. und kann auch für mathematische Operationen wie Addition und Subtraktion verwendet werden. Diese Komponente kann auch zur Validierung der vom Benutzer eingegebenen numerischen Daten verwendet werden.
+Mit dieser Komponente können numerische Daten wie Alter, Menge und mehr erfasst werden. Es kann auch verwendet werden, um mathematische Operationen wie Addition und Subtraktion durchzuführen. Diese Komponente kann auch zur Validierung der vom Benutzer eingegebenen numerischen Daten verwendet werden.
 
 Für die Barrierefreiheit ist es wichtig, einen &quot;Titel&quot;anzugeben, der den Zweck des Zahleneingabefelds beschreibt und welche Art von Eingabe erwartet wird.
 
@@ -30,22 +30,20 @@ Es gibt mehrere Gründe, warum es sinnvoll ist, eine numerische Eingabekomponent
 
 * **Mathematische Operationen**: Numerische Felder können verwendet werden, um mathematische Operationen wie Addition, Subtraktion, Multiplikation und Division durchzuführen.
 
-* **Datenbereich**: Numerische Felder können verwendet werden, um einen Bereich gültiger Werte mithilfe von Min-, Max- und Schrittattributen festzulegen.
+* **Datenbereich**: Numerische Felder können verwendet werden, um einen Bereich gültiger Werte mithilfe der Attribute min, max und step festzulegen.
 
 * **Dynamische Inhalte**: Numerische Komponenten können verwendet werden, um dynamische Daten basierend auf den Formularfeldern anzuzeigen.
 
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die Eingabe-Kernkomponente für die adaptive Forms-Nummer wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM Kompatibilität und Links zur entsprechenden Dokumentation:
+Die Kernkomponente &quot;Adaptive Forms Accordion&quot;wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 für Cloud Service und Kernkomponenten 1.1.12 für AEM 6.5.16.0 Forms oder höher veröffentlicht. In der folgenden Tabelle finden Sie alle unterstützten Versionen, AEM Kompatibilität und Links zur entsprechenden Dokumentation:
 
-|  |  |
-|---|---|
-| Komponentenversion | AEM as a Cloud Service |
-| --- | --- |
-| v1 | Kompatibel mit<br>[Version 2.0.4](/help/versions.md) und höher | Kompatibel | Kompatibel |
+| Komponentenversion | AEM as a Cloud Service | AEM 6.5.16.0 Forms oder höher |
+|---|---|---|
+| v1 | Kompatibel mit<br>[Version 2.0.4](/help/adaptive-forms/version.md) und höher | Kompatibel mit<br>[Version 1.1.12](/help/adaptive-forms/version.md) und höher, jedoch weniger als 2.0.0. |
 
-Informationen zu Kernkomponentenversionen und -versionen finden Sie im Abschnitt [Kernkomponenten-Versionen](/help/versions.md) Dokument.
+Informationen zu Kernkomponentenversionen und -versionen finden Sie im Abschnitt [Kernkomponenten-Versionen](/help/adaptive-forms/version.md) Dokument.
 
 
 <!-- ## Sample Component Output {#sample-component-output}
@@ -114,14 +112,13 @@ Im Dialogfeld &quot;Konfigurieren&quot;können Sie Ihre Zahleneingabe-Erfahrung 
 
 ![Registerkarte &quot;Barrierefreiheit&quot;](/help/adaptive-forms/assets/numberinput_accessibility.png)
 
-* **Text für Bildschirmlesehilfen** - Text für Bildschirmlesehilfen bezieht sich auf zusätzlichen Text, der speziell für Hilfstechnologien wie Bildschirmlesehilfen vorgesehen ist, die von sehbehinderten Personen verwendet werden. Dieser Text enthält eine Audiobeschreibung des Zwecks des Formularfelds und kann Informationen über den Titel, die Beschreibung, den Namen und alle relevanten Nachrichten (benutzerdefinierten Text) des Felds enthalten. Der Text der Bildschirmlesehilfe hilft sicherzustellen, dass das Formular für alle Benutzer zugänglich ist, auch für Benutzer mit Sehbehinderungen, und bietet ihnen ein umfassendes Verständnis des Formularfelds und seiner Anforderungen.
+**Text für Bildschirmlesehilfen** - Text für Bildschirmlesehilfen bezieht sich auf zusätzlichen Text, der von Hilfstechnologien wie Bildschirmlesehilfen gelesen werden soll, die von sehbehinderten Personen verwendet werden. Dieser Text enthält eine Audiobeschreibung des Zwecks des Formularfelds und kann Informationen über den Titel, die Beschreibung, den Namen und alle relevanten Nachrichten (benutzerdefinierten Text) des Felds enthalten. Der Text der Bildschirmlesehilfe hilft sicherzustellen, dass das Formular für alle Benutzer zugänglich ist, auch für Benutzer mit Sehbehinderungen, und bietet ihnen ein umfassendes Verständnis des Formularfelds und seiner Anforderungen.
 
 ### Registerkarte &quot;Formate&quot; {#formats-tab}
 
 ![Registerkarte &quot;Barrierefreiheit&quot;](/help/adaptive-forms/assets/numberinput_formattab.png)
 
-
-* **Anzeigeformat** - Mit dieser Option können Sie die Option aus verschiedenen numerischen ganzzahligen Formaten für die Anzeige auswählen. Wenn der Benutzer eine Option aus dem **Typ** Dropdown-Menü, die **Format** wird im Bereich angezeigt. Sie können ein bestimmtes Format wählen, in dem dem Benutzer Zahlen angezeigt werden.
+* **Anzeigeformat** - Mit dieser Option können Sie die Option aus verschiedenen Formaten ganzzahliger numerischer Typen für die Anzeige auswählen. Wenn der Benutzer eine Option aus dem **Typ** Dropdown-Menü, die **Format** wird im Bereich angezeigt. Sie können ein bestimmtes Format wählen, in dem dem Benutzer Zahlen angezeigt werden.
 
 * **Anzahl der Ziffern vor dem Dezimaltrennzeichen (1234.000)** - Verwenden Sie diese Option, um die Anzahl der Ziffern anzugeben, die vor dem Dezimalpunkt angezeigt werden sollen.
 
@@ -131,15 +128,18 @@ Im Dialogfeld &quot;Konfigurieren&quot;können Sie Ihre Zahleneingabe-Erfahrung 
 
 Das Dialogfeld &quot;Design&quot;wird verwendet, um CSS-Stile für die Eingabekomponente &quot;Zahl&quot;zu definieren und zu verwalten.
 
-
 ### Registerkarte „Arten“ {#styles-tab}
 
-Das Dialogfeld &quot;Design&quot;wird zum Definieren und Verwalten von CSS-Stilen für eine Komponente verwendet. Die Eingabekomponente für die adaptive Forms-Nummer unterstützt die AEM [Stilsystem](/help/get-started/authoring.md#component-styling).
+Die Registerkarte wird verwendet, um CSS-Stile für eine Komponente zu definieren und zu verwalten. Die Eingabekomponente für die adaptive Forms-Nummer unterstützt die AEM [Stilsystem](/help/get-started/authoring.md#component-styling).
+
+![Styletab](/help/adaptive-forms/assets/datepicker_styletab.png)
 
 **Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die Eingabe-Kernkomponente &quot;Adaptive Forms Number&quot;bereitstellen.
 
-**Zulässige Stile**: Sie können Stile definieren, indem Sie einen Namen und die CSS-Klasse angeben, die den Stil darstellt. Sie können beispielsweise einen Stil mit dem Namen &quot;fett Text&quot;erstellen und die CSS-Klasse &quot;font-weight: fett&quot;. Sie können diese Stile im adaptiven Forms-Editor verwenden oder auf ein adaptives Formular anwenden. Um einen Stil anzuwenden, wählen Sie im adaptiven Forms-Editor die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Dialogfeld &quot;Eigenschaften&quot;und wählen Sie den gewünschten Stil aus dem **Stile** Dropdown-Liste. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld &quot;Design&quot;zurück, aktualisieren Sie die Stile auf der Registerkarte &quot;Stile&quot;und speichern Sie die Änderungen.
+**Zulässige Stile**: Sie können Stile definieren, indem Sie einen Namen und die CSS-Klasse angeben, die den Stil darstellt. Sie können beispielsweise einen Stil mit dem Namen &quot;fett Text&quot;erstellen und die CSS-Klasse &quot;font-weight: fett&quot;. Sie können diese Stile in Adaptive Forms verwenden oder auf ein adaptives Formular anwenden. Um einen Stil anzuwenden, wählen Sie im adaptiven Forms-Editor die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Dialogfeld &quot;Eigenschaften&quot;und wählen Sie den gewünschten Stil aus dem **Stile** Dropdown-Liste. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld &quot;Design&quot;zurück, aktualisieren Sie die Stile auf der Registerkarte &quot;Stile&quot;und speichern Sie die Änderungen.
 
 ### Registerkarte &quot;Formate&quot; {#format-tab}
 
 Auf der Registerkarte &quot;Formate&quot;können Sie standardmäßige und benutzerdefinierte Zahlenformate angeben.
+![Registerkarte &quot;Design&quot;](/help/adaptive-forms/assets/emailinput_designformattab.png)
+

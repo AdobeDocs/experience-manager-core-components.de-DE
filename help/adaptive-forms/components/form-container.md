@@ -2,10 +2,10 @@
 title: Adaptive Forms-Kernkomponente - Formular-Container
 description: Fügen Sie ein adaptives Formular zu einer Webseite hinzu.
 role: Architect, Developer, Admin, User
-source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 3%
+source-wordcount: '719'
+ht-degree: 2%
 
 ---
 
@@ -39,16 +39,13 @@ Es gibt mehrere Gründe, warum ein Formular einer Website hinzugefügt werden ka
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die Kernkomponente &quot;Adaptiver Forms-Container&quot;wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM Kompatibilität und Links zur entsprechenden Dokumentation:
+Die Kernkomponente &quot;Adaptive Forms Accordion&quot;wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 für Cloud Service und Kernkomponenten 1.1.12 für AEM 6.5.16.0 Forms oder höher veröffentlicht. In der folgenden Tabelle finden Sie alle unterstützten Versionen, AEM Kompatibilität und Links zur entsprechenden Dokumentation:
 
-|  |  |
-|---|---|
-| Komponentenversion | AEM as a Cloud Service |
-| --- | --- |
-| v1 | Kompatibel mit<br>[Version 2.0.4](/help/versions.md) und höher | Kompatibel | Kompatibel |
+| Komponentenversion | AEM as a Cloud Service | AEM 6.5.16.0 Forms oder höher |
+|---|---|---|
+| v1 | Kompatibel mit<br>[Version 2.0.4](/help/adaptive-forms/version.md) und höher | Kompatibel mit<br>[Version 1.1.12](/help/adaptive-forms/version.md) und höher, jedoch weniger als 2.0.0. |
 
-Informationen zu Kernkomponentenversionen und -versionen finden Sie im Abschnitt [Kernkomponenten-Versionen](/help/versions.md) Dokument.
-
+Informationen zu Kernkomponentenversionen und -versionen finden Sie im Abschnitt [Kernkomponenten-Versionen](/help/adaptive-forms/version.md) Dokument.
 <!-- ## Sample Component Output {#sample-component-output}
 
 To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
@@ -65,7 +62,7 @@ Mit dem Dialogfeld &quot;Konfigurieren&quot;können Sie das Erlebnis Ihres Formu
 
 ![Registerkarte &quot;Allgemein&quot;](/help/adaptive-forms/assets/formcontainer_basictab.png)
 
-* **Vorbefüllungsdienste** - Diese Option ermöglicht es dem Benutzer, einen Vorbefüllungs-Dienst zum Abrufen von Daten auszuwählen, wenn das adaptive Formular wiedergegeben wird. Weitere Informationen [Erstellen und Konfigurieren eines Vorbefüllungs-Dienstes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=en#aem-forms-custom-prefill-service).
+* **Vorbefüllungsdienste** - Mit dieser Option kann der Benutzer einen Vorbefüllungs-Dienst zum Abrufen von Daten auswählen, wenn das adaptive Formular wiedergegeben wird. Weitere Informationen [Erstellen und Konfigurieren eines Vorbefüllungs-Dienstes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=en#aem-forms-custom-prefill-service).
 
 * **Kategorie der Client-Bibliothek** - Der Benutzer kann die benutzerdefinierte JavaScript-Bibliothek pro adaptivem Formular konfigurieren. Es wird empfohlen, nur die wiederverwendbaren Funktionen in der Bibliothek zu behalten, die von den Drittanbieter-Bibliotheken jquery und underscore.js abhängig sind.
 
@@ -82,7 +79,3 @@ Benutzer können verschiedene Aktionen für Übermittlungen adaptiver Formulare 
 * **Nachricht anzeigen** - Mit dieser Option können Benutzer eine Nachricht hinzufügen, die angezeigt wird, wenn das adaptive Formular erfolgreich gesendet wurde. Der vordefinierte Text ist im Dialogfeld enthalten und kann vom Benutzer geändert werden. Das Dialogfeld &quot;Meldung anzeigen&quot;unterstützt Rich-Text-Formatierungswerkzeuge, mit denen Benutzer den hinzugefügten Text formatieren können.
 
 * **Übermittlungsaktion** - Eine Sendeaktion wird ausgelöst, wenn ein Benutzer in einem adaptiven Formular auf die Schaltfläche Senden klickt. Benutzer können in der Dropdown-Liste die Option Übermittlungsaktionen auswählen, die standardmäßig unterstützt werden. Erfahren Sie, wie Sie [Konfigurieren einer Sendeaktion auf der Registerkarte &quot;Sendung&quot;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#supporting-custom-functions-in-validation-expressions-br).
-
-
-
-

@@ -2,13 +2,13 @@
 title: Adaptive Forms-Kernkomponente - Assistent
 description: Verwenden oder Anpassen der Kernkomponente des Adaptiven Forms-Assistenten
 role: Architect, Developer, Admin, User
-source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
+exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
-source-wordcount: '1681'
-ht-degree: 1%
+source-wordcount: '1847'
+ht-degree: 2%
 
 ---
-
 
 # Assistent {#wizard-adaptive-forms-core-component}
 
@@ -51,13 +51,11 @@ Insgesamt kann das Ausfüllen des Formulars durch ein Assistentenlayout für die
 
 Die Kernkomponente des Adaptiven Forms-Assistenten für Layout wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM Kompatibilität und Links zur entsprechenden Dokumentation:
 
-|  |  |
-|---|---|
-| Komponentenversion | AEM as a Cloud Service |
-| --- | --- |
-| v1 | Kompatibel mit<br>[Version 2.0.4](/help/versions.md) und höher | Kompatibel | Kompatibel |
+| Komponentenversion | AEM as a Cloud Service | AEM 6.5.16.0 Forms oder höher |
+|---|---|---|
+| v1 | Kompatibel mit<br>[Version 2.0.4](/help/adaptive-forms/version.md) und höher | Kompatibel mit<br>[Version 1.1.12](/help/adaptive-forms/version.md) und höher, jedoch weniger als 2.0.0. |
 
-Informationen zu Kernkomponentenversionen und -versionen finden Sie im Abschnitt [Kernkomponenten-Versionen](/help/versions.md) Dokument.
+Informationen zu Kernkomponentenversionen und -versionen finden Sie im Abschnitt [Kernkomponenten-Versionen](/help/adaptive-forms/version.md) Dokument.
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -124,11 +122,38 @@ Dadurch wird das Erstellen und Anpassen von Formularen einfacher und effizienter
 
 Die **Zugelassene Komponenten** -Tab ermöglicht es dem Vorlageneditor, die Komponenten festzulegen, die als Elemente zu den Bedienfeldern in der Assistentenkomponente im adaptiven Forms-Editor hinzugefügt werden können.
 
+![Registerkarten &quot;Zulässige Komponenten&quot;](/help/adaptive-forms/assets/panel_allowedcomponent.png)
+
+### Registerkarte „Standardkomponenten“ {#default-component-tab}
+
+Auf dieser Registerkarte kann der Vorlageneditor die Komponenten, die als Elemente hinzugefügt werden können, den Bedienfeldern in der Assistentenkomponente im adaptiven Forms-Editor zuordnen.
+
+![Bedienfeldstandardkomponente](/help/adaptive-forms/assets/panel_defaultcomponent.png)
+
+### Responsive Einstellungen {#responsive-settings}
+
+Auf dieser Registerkarte kann der Vorlageneditor die Anzahl der Spalten festlegen, die im responsiven Raster angezeigt werden sollen.
+
+![Responsives Raster](/help/adaptive-forms/assets/panel_responsivesettings.png)
+
+### Registerkarte „Container-Einstellungen“ {#container-setting-tab}
+
+Auf der Registerkarte Container-Einstellungen können Sie die Position von Komponenten im adaptiven Forms-Editor festlegen.
+
+![Container-Einstellungen](/help/adaptive-forms/assets/panel_settings.png)
+
+* **Layout**: Das einfache Layout behält alle festen Elemente im Ort bei, während das responsive Raster es Ihnen ermöglicht, die Position der Komponenten an Ihre Bedürfnisse anzupassen.
+* **Layout deaktivieren**: Sie können die Layoutauswahl auch im Dialogfeld &quot;Bearbeiten&quot;deaktivieren, indem Sie die **Layout deaktivieren** aktivieren.
+* **Hintergrundbild aktivieren**: Auf dieser Registerkarte können Sie das Hintergrundbild und die Hintergrundfarbe im Vorlageneditor festlegen.
+* **Hintergrundfarbe aktivieren**: Auf dieser Registerkarte können Sie die Hintergrundfarbe im Vorlageneditor festlegen.
+
 ### Registerkarte „Arten“ {#styles-tab}
 
-Das Dialogfeld &quot;Design&quot;wird zum Definieren und Verwalten von CSS-Stilen für eine Komponente verwendet. Die Kernkomponente des Adaptiven Forms-Assistenten unterstützt die AEM [Stilsystem](/help/get-started/authoring.md#component-styling).
+Die Registerkarte wird verwendet, um CSS-Stile für eine Komponente zu definieren und zu verwalten. Die Kernkomponente des Adaptiven Forms-Assistenten unterstützt die AEM [Stilsystem](/help/get-started/authoring.md#component-styling).
 
-**Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die Assistentenkomponente bereitstellen.
+![Registerkarte &quot;Stil&quot;](/help/adaptive-forms/assets/panel_style.png)
 
-**Zulässige Stile**: Sie können Stile definieren, indem Sie einen Namen und die CSS-Klasse angeben, die den Stil darstellt. Sie können beispielsweise einen Stil mit dem Namen &quot;fett Text&quot;erstellen und die CSS-Klasse &quot;font-weight: fett&quot;. Sie können diese Stile im adaptiven Forms-Editor verwenden oder auf ein adaptives Formular anwenden. Um einen Stil anzuwenden, wählen Sie im adaptiven Forms-Editor die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Dialogfeld &quot;Eigenschaften&quot;und wählen Sie den gewünschten Stil aus dem **Stile** Dropdown-Liste. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld &quot;Design&quot;zurück, aktualisieren Sie die Stile auf der Registerkarte &quot;Stile&quot;und speichern Sie die Änderungen.
+* **Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die Assistentenkomponente bereitstellen.
+
+* **Zulässige Stile**: Sie können Stile definieren, indem Sie einen Namen und die CSS-Klasse angeben, die den Stil darstellt. Sie können beispielsweise einen Stil mit dem Namen &quot;fett Text&quot;erstellen und die CSS-Klasse &quot;font-weight: fett&quot;. Sie können diese Stile im adaptiven Forms-Editor verwenden oder auf ein adaptives Formular anwenden. Um einen Stil anzuwenden, wählen Sie im adaptiven Forms-Editor die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Dialogfeld &quot;Eigenschaften&quot;und wählen Sie den gewünschten Stil aus dem **Stile** Dropdown-Liste. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld &quot;Design&quot;zurück, aktualisieren Sie die Stile auf der Registerkarte &quot;Stile&quot;und speichern Sie die Änderungen.
 

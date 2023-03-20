@@ -4,10 +4,10 @@ user-guide-title: AEM-Kernkomponenten
 breadcrumb-title: Anleitung zu den Hauptkomponenten
 user-guide-description: Nutzen Sie die erweiterbaren Hauptkomponenten, damit Autoren bzw. Autorinnen mühelos Inhalte erstellen können.
 feature-set: Experience Manager Sites
-source-git-commit: 199cd9e1e49a1f7b939aa9cc3a62dcb3e0db96cd
+source-git-commit: 279b96734bc8621b98b828fa80ebe693dc7904e0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '366'
+ht-degree: 79%
 
 ---
 
@@ -102,6 +102,7 @@ ht-degree: 0%
       + [Segmentierung](/help/email/components/segmentation.md)
 + Adaptive Formulare {#adaptive-forms}
    + [Einführung](/help/adaptive-forms/introduction.md)
+   + [Versionsverlauf](/help/adaptive-forms/version.md)
    + Adaptive Forms-Komponenten {#adaptive-forms-components}
       + [Adaptives Forms-Akkordeon](/help/adaptive-forms/components/accordion.md)
       + [Schaltfläche &quot;Adaptives Forms&quot;](/help/adaptive-forms/components/button.md)
