@@ -1,18 +1,18 @@
 ---
-title: Adaptive Forms-Kernkomponente - Datumsauswahl
-description: Verwenden oder Anpassen der Kernkomponente für die Datumsauswahl in der adaptiven Forms.
+title: Kernkomponente „Datumsauswahl“ für adaptive Formulare
+description: Verwenden oder Anpassen der Datumsauswahl-Kernkomponente in adaptiven Formularen.
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
 source-wordcount: '1666'
-ht-degree: 1%
+ht-degree: 95%
 
 ---
 
 # Datumsauswahl {#date-picker-adaptive-forms-core-component}
 
-Eine Datumsauswahl-Komponente in einem adaptiven Formular ist ein Element der Benutzeroberfläche, mit dem Benutzer ein Datum aus einem Kalender auswählen oder manuell ein Datum in einem bestimmten Format eingeben können. Die Datumsauswahl-Komponente kann so konfiguriert werden, dass sie unterschiedliche Formatierungen, Validierungen und Standardwerte aufweist.
+Datumsauswahl-Komponenten in einem adaptiven Formular sind Elemente der Benutzeroberfläche, mit denen Benutzende ein Datum aus einem Kalender auswählen oder manuell ein Datum in einem bestimmten Format eingeben können. Sie können die Datumsauswahl-Komponente so konfigurieren, dass sie unterschiedliche Formatierungen, Validierungen und Standardwerte aufweist.
 
 **Beispiel**
 
@@ -20,19 +20,19 @@ Eine Datumsauswahl-Komponente in einem adaptiven Formular ist ein Element der Be
 
 ## Verwendung {#reasons-to-use-drop-date-picker}
 
-Es gibt verschiedene Gründe, warum es sinnvoll ist, eine Datumsauswahl in ein adaptives Formular einzuschließen, darunter:
+Die Verwendung der Datumsauswahl in einem adaptiven Formular kann verschiedene Vorteile haben, darunter:
 
-* **Praktik**: Mit einer Datumsauswahlkomponente können Benutzer einfach ein Datum aus einem Kalender auswählen, ohne das Datum manuell in ein Textfeld eingeben zu müssen. Dies kann Zeit sparen und Fehler reduzieren.
+* **Komfort**: Benutzende können mit einer Datumsauswahl-Komponente einfach ein Datum aus einem Kalender auswählen, ohne das Datum manuell in ein Textfeld eingeben zu müssen. Dies kann Zeit sparen und Fehler reduzieren.
 
-* **Anwendererlebnis**: Mit der Datumsauswahl-Komponente kann das Formular benutzerfreundlicher gestaltet werden, indem eine klare und intuitive Methode zur Auswahl des Datums bereitgestellt wird.
+* **Benutzererlebnis**: Sie können mit der Datumsauswahl-Komponente das Formular benutzerfreundlicher gestalten, indem Sie eine klare und intuitive Methode zur Auswahl des Datums bereitstellen.
 
 * **Datenanalyse**: Die Datumsauswahl-Komponente kann verwendet werden, um Daten aus verschiedenen Quellen zu erfassen und zu analysieren oder sie als Eingabe für die weitere Verarbeitung zu verwenden.
 
-* **Ereignisverwaltung**: Die Datumsauswahl-Komponente kann in Ereignisverwaltungs-Websites verwendet werden, um das Ereignisdatum auszuwählen.
+* **Event-Management**: Sie können die Datumsauswahl-Komponente auf Event-Management-Websites zur Auswahl einer Veranstaltung verwenden.
 
-* **Reservierung**: Die Komponente Datumsauswahl kann in Buchungs- und Reservierungs-Websites verwendet werden, um die Ein- und Auscheckdaten auszuwählen.
+* **Buchung und Reservierung**: Die Datumsauswahl-Komponente kann auf Buchungs- und Reservierungs-Websites verwendet werden, um die Ein- und Auscheckdaten auszuwählen.
 
-* **Datumsformat**: Mit der Datumsauswahl-Komponente kann das Format korrigiert werden, in dem das Datum angezeigt und eingegeben wird. Stellen Sie sicher, dass das Datumsformat im gesamten Formular konsistent ist, um ein konsistentes Benutzererlebnis zu gewährleisten.
+* **Datumsformat**: Sie können die Datumsauswahl-Komponente verwenden, um das Format zu korrigieren, in dem das Datum angezeigt und eingegeben wird. Stellen Sie sicher, dass das Datumsformat im gesamten Formular gleich ist, um ein konsistentes Benutzererlebnis zu gewährleisten.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
@@ -42,7 +42,7 @@ Die Kernkomponente &quot;Adaptive Forms Accordion&quot;wurde im Februar 2023 als
 |---|---|---|
 | v1 | Kompatibel mit<br>[Version 2.0.4](/help/adaptive-forms/version.md) und höher | Kompatibel mit<br>[Version 1.1.12](/help/adaptive-forms/version.md) und höher, jedoch weniger als 2.0.0. |
 
-Informationen zu Kernkomponentenversionen und -versionen finden Sie im Abschnitt [Kernkomponenten-Versionen](/help/adaptive-forms/version.md) Dokument.
+Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokument [Kernkomponenten-Versionen](/help/adaptive-forms/version.md).
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -51,95 +51,95 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Technische Details {#technical-details}
 
-Laden Sie die neuesten Informationen zur Kernkomponente für die adaptive Forms-Datumsauswahl in der technischen Dokumentation zu [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/datepicker/v1/datepicker). Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie im Abschnitt [Entwicklerdokumentation für Kernkomponenten](/help/developing/overview.md).
+Die neuesten Informationen zur Datumsauswahl-Kernkomponente für adaptive Formulare erhalten Sie in der technischen Dokumentation auf [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/datepicker/v1/datepicker). Sie finden weitere Informationen zur Entwicklung von Kernkomponenten in der [Entwicklerdokumentation für Kernkomponenten](/help/developing/overview.md).
 
 ## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
-Im Dialogfeld &quot;Konfigurieren&quot;können Sie die Datumsauswahl für Besucher einfach anpassen. Für ein nahtloses Benutzererlebnis können Sie auch einfach Datumsauswahloptionen definieren.
+Sie können die Datumsauswahl im Dialogfeld „Konfigurieren“ einfach anpassen. Sie können auch Optionen für die Datumsauswahl definieren, um das Benutzererlebnis zu verbessern.
 
-### Einfache Registerkarte {#basic-tab}
+### Registerkarte „Allgemein“ {#basic-tab}
 
-![Registerkarte &quot;Allgemein&quot;](/help/adaptive-forms/assets/datepicker_basictab.png)
+![Registerkarte „Allgemein“](/help/adaptive-forms/assets/datepicker_basictab.png)
 
-* **Name** - Der Name identifiziert die Komponente im Regeleditor eindeutig. Sonderzeichen und Leerzeichen sind in den Namensfolgen nicht zulässig.
+* **Name** – Durch den Namen wird die Komponente im Regel-Editor eindeutig identifiziert. Sonderzeichen und Leerzeichen sind im Namen nicht zulässig.
 
-* **Titel** - Titel ist eine Zeichenfolge, die oben in einer Komponente in einem adaptiven Formular angezeigt wird. Der Titel identifiziert die Komponente eindeutig in der Baumstruktur eines adaptiven Formulars. Wenn Sie keinen Titel hinzufügen, wird der Name der Komponente anstelle des Titeltexts angezeigt.
+* **Titel** – Titel ist eine Zeichenfolge, die in einem adaptiven Formular oberhalb einer Komponente angezeigt wird. Der Titel identifiziert die Komponente eindeutig in der Baumstruktur eines adaptiven Formulars. Wenn Sie keinen Titel hinzufügen, wird der Name der Komponente anstelle des Titeltexts angezeigt.
 
-* **Titel ausblenden** - Wählen Sie diese Option, um den Titel des Komponententyps in einem adaptiven Formular auszublenden.
+* **Titel ausblenden** – Wählen Sie diese Option, um den Titel des Komponententyps in einem adaptiven Formular auszublenden.
 
-* **Platzhaltertext** - Platzhaltertext in einer Formularkomponente bezieht sich auf eine kurze Beschriftung oder Eingabeaufforderung, die in einem Eingabefeld angezeigt wird, um den Benutzer darauf hinzuweisen, welcher Informationstyp in dieses Feld eingegeben werden soll. Platzhaltertext verschwindet, wenn der Benutzer mit der Eingabe in das Feld beginnt, und wird wieder angezeigt, wenn das Feld leer bleibt. Es bietet einen visuellen Hinweis für den Benutzer, fungiert jedoch nicht als permanente Bezeichnung oder Wert für das Feld.
+* **Platzhaltertext** – Platzhaltertext in einer Formularkomponente ist eine kurze Beschriftung oder Eingabeaufforderung in einem Eingabefeld, um Benutzende darüber zu informieren, welchen Text sie in dieses Feld eingeben sollen. Der Platzhaltertext verschwindet, wenn Benutzende mit der Eingabe in das Feld beginnen, und erscheint wieder, wenn das Feld leer bleibt. Er stellt einen visuellen Hinweis für Benutzende bereit, fungiert jedoch nicht als permanente Beschriftung oder Wert für das Feld.
 
-* **Komponente ausblenden** - Wählen Sie die Option, um die Komponente aus dem Formular auszublenden. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regeleditor. Dies ist nützlich, wenn Sie Informationen speichern müssen, die vom Benutzer nicht gesehen oder direkt geändert werden müssen.
-* **Komponente deaktivieren** - Wählen Sie die Option zum Deaktivieren der Komponente aus. Die deaktivierte Komponente ist vom Endbenutzer nicht aktiv oder kann nicht bearbeitet werden. Der Benutzer kann den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regeleditor.
-* **Schreibgeschützt** - Wählen Sie die Option aus, um die Komponente nicht bearbeitbar zu machen. Der Benutzer kann den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regeleditor.
-* **Standarddatum** - Mit dieser Option können Sie dem Formularfeld ein Datum hinzufügen. Das eingegebene Datum wird standardmäßig an der Stelle der Komponente angezeigt. Wenn kein Datum vom Benutzer eingegeben wird, wird dieser Wert zum Zeitpunkt der Formularübermittlung gesendet. In diesem Fall **Komponente deaktiviert** oder **Schreibgeschützte Komponente** ausgewählt ist, wird das Standarddatum auf dem Bildschirm angezeigt und zum Zeitpunkt der Formularübermittlung gesendet.
-
-
-### Registerkarte &quot;Validierung&quot; {#validation-tab}
-
-![Registerkarte &quot;Validierung&quot;](/help/adaptive-forms/assets/datepicker_validation.png)
-
-* **Erforderlich** - Wählen Sie diese Option, wenn Sie die Komponente in einem adaptiven Formular anzeigen möchten. Sie können die **Komponente ausblenden** oder **Komponente deaktivieren** im **Allgemein** Registerkarte angezeigt, wenn diese Option aktiviert ist.
-
-* **Fehlermeldung** - Mit dieser Option können Sie eine Nachricht eingeben, die angezeigt wird, wenn die **Erforderlich** aktiviert ist und das Formularfeld leer bleibt.
-
-* **Überprüfungsmeldung für Skripten** - Mit dieser Option können Sie eine Meldung eingeben, die angezeigt werden soll, wenn die Skriptvalidierung fehlschlägt.
-
-* **Mindestdatum** - Mit dieser Option können Sie das erforderliche Mindestdatum eingeben. Wenn Sie ein Datum eingeben, das vor dem unter &quot;Mindestdatum&quot;angegebenen Datum liegt, wird eine Fehlermeldung auf dem Bildschirm angezeigt. Die **Mindestfehlermeldung** können Sie eine benutzerdefinierte Fehlermeldung hinzufügen.
-
-* **Mindestfehlermeldung** - die **Mindestfehlermeldung** können Sie eine benutzerdefinierte Fehlermeldung hinzufügen, die angezeigt werden soll, wenn Sie ein Datum eingeben, das vor dem in der Variablen **Mindestdatum** -Option.
-
-* **Max. Datum** - Mit dieser Option können Sie das erforderliche Höchstdatum eingeben. Wenn Sie ein Datum eingeben, das nach dem im Feld &quot;Maximum Date&quot;angegebenen Datum liegt, wird eine Fehlermeldung auf dem Bildschirm angezeigt. Die **Maximale Fehlermeldung** können Sie eine benutzerdefinierte Fehlermeldung hinzufügen.
-
-* **Maximale Fehlermeldung** - die **Maximale Fehlermeldung** können Sie eine benutzerdefinierte Fehlermeldung hinzufügen, die angezeigt werden soll, wenn Sie ein Datum eingeben, das nach dem in der Variablen **Max. Datum** -Option.
+* **Komponente ausblenden** – Wählen Sie diese Option, um die Komponente im Formular auszublenden. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor. Dies ist nützlich, wenn Sie Informationen speichern müssen, die Benutzende nicht sehen oder direkt ändern müssen.
+* **Komponente deaktivieren**: Wählen Sie die Option zum Deaktivieren der Komponente aus. Die deaktivierte Komponente ist nicht aktiv und Endbenutzende können sie nicht bearbeiten. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
+* **Schreibgeschützt**: Wählen Sie die Option aus, um die Komponente nicht bearbeitbar zu machen. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
+* **Standarddatum** – Mit dieser Option können Sie dem Formularfeld ein Datum hinzufügen. Das eingegebene Datum wird standardmäßig an der Stelle der Komponente angezeigt. Wird kein Datum eingegeben, wird bei der Formularübermittlung dieser Wert gesendet. Wenn **Deaktiverte Komponente** oder **Schreibgeschützte Komponente** ausgewählt wird, wird das Standarddatum auf dem Bildschirm angezeigt und bei der Formularübermittlung gesendet.
 
 
-### Registerkarte &quot;Hilfe-Inhalt&quot; {#help-content-tab}
+### Registerkarte „Validierung“ {#validation-tab}
 
-![Registerkarte &quot;Hilfe-Inhalt&quot;](/help/adaptive-forms/assets/datepicker_helptab.png)
+![Registerkarte „Validierung“](/help/adaptive-forms/assets/datepicker_validation.png)
 
-* **Kurzbeschreibung** - Eine kurze Beschreibung ist eine kurze Texterklärung, die zusätzliche Informationen oder Klarstellungen zum Zweck eines bestimmten Formularfelds bietet. Es hilft dem Benutzer zu verstehen, welcher Datentyp in das Feld eingegeben werden soll, und kann Richtlinien oder Beispiele bereitstellen, um sicherzustellen, dass die eingegebenen Informationen gültig sind und die gewünschten Kriterien erfüllen. Standardmäßig bleiben kurze Beschreibungen ausgeblendet. Aktivieren Sie die **Kurzbeschreibung immer anzeigen** -Option, um sie unter der Komponente anzuzeigen.
+* **Erforderlich** – Wählen Sie diese Option, wenn Sie die Komponente in einem adaptiven Formular anzeigen möchten. Wenn diese Option aktiviert ist, kann die Option **Komponente ausblenden** oder **Komponente deaktivieren** auf der Registerkarte **Allgemein** nicht ausgewählt werden.
 
-* **Kurzbeschreibung immer anzeigen**- Aktivieren Sie die Option, um die Kurzbeschreibung unter der Komponente anzuzeigen.
+* **Fehlermeldung** – Mit dieser Option können Sie eine Nachricht eingeben, die angezeigt wird, wenn das Kontrollkästchen **Erforderlich** aktiviert ist und das Feld leer bleibt.
 
-* **Hilfetext** - Hilfetext bezieht sich auf zusätzliche Informationen oder Anleitungen, die dem Benutzer bereitgestellt werden, um ihn beim korrekten Ausfüllen eines Formularfelds zu unterstützen. Er wird angezeigt, wenn der Benutzer auf das Hilfesymbol (i) neben der Komponente klickt. Hilfetext enthält detailliertere Informationen als die Beschriftung oder der Platzhaltertext eines Formularfelds und soll dem Benutzer dabei helfen, die Anforderungen oder Einschränkungen des Felds zu verstehen. Es kann auch Vorschläge oder Beispiele anbieten, um das Ausfüllen des Formulars zu vereinfachen und genauer zu gestalten.
+* **Meldung zur Skriptvalidierung** – Mit dieser Option können Sie eine Meldung eingeben, die angezeigt wird, wenn die Skriptvalidierung fehlschlägt.
+
+* **Mindestdatum** – Sie können mit dieser Option das erforderliche Mindestdatum eingeben. Wenn Sie ein Datum eingeben, das vor dem in „Mindestdatum“ angegebenen Datum liegt, erscheint eine Fehlermeldung auf dem Bildschirm. Sie können der **Mindest-Fehlermeldung** eine benutzerdefinierte Fehlermeldung hinzufügen.
+
+* **Mindest-Fehlermeldung** – Sie können der **Mindest-Fehlermeldung** eine benutzerdefinierte Fehlermeldung hinzufügen, die angezeigt wird, wenn Sie ein Datum eingeben, das vor dem in der Option **Mindestdatum** angegebenen liegt.
+
+* **Maximales Datum** – Sie können mit dieser Option das maximale Datum eingeben. Wenn Sie ein Datum eingeben, das nach dem in „Maximales Datum“ angegebenen Datum liegt, erscheint eine Fehlermeldung auf dem Bildschirm. Sie können im Dialog **Maximal-Fehlermeldung** eine benutzerdefinierte Fehlermeldung hinzufügen.
+
+* **Maximal-Fehlermeldung** – Sie können im Dialogfeld **Maximal-Fehlermeldung** eine benutzerdefinierte Fehlermeldung hinzufügen, die angezeigt wird, wenn Sie ein Datum eingeben, das nach der Option **Maximales Datum** liegt.
 
 
-### Registerkarte „Erreichbarkeit“ {#accessibility-tab}
+### Registerkarte „Hilfe-Inhalt“ {#help-content-tab}
 
-![Registerkarte &quot;Barrierefreiheit&quot;](/help/adaptive-forms/assets/datepicker_accessibilitytab.png)
+![Registerkarte „Hilfe-Inhalt“](/help/adaptive-forms/assets/datepicker_helptab.png)
 
-**Text für Bildschirmlesehilfen** - Text für Bildschirmlesehilfen bezieht sich auf zusätzlichen Text, der speziell für Hilfstechnologien wie Bildschirmlesehilfen vorgesehen ist, die von sehbehinderten Personen verwendet werden. Dieser Text enthält eine Audiobeschreibung des Zwecks des Formularfelds und kann Informationen über den Titel, die Beschreibung, den Namen und alle relevanten Nachrichten (benutzerdefinierten Text) des Felds enthalten. Der Text der Bildschirmlesehilfe hilft sicherzustellen, dass das Formular für alle Benutzer zugänglich ist, auch für Benutzer mit Sehbehinderungen, und bietet ihnen ein umfassendes Verständnis des Formularfelds und seiner Anforderungen.
+* **Kurzbeschreibung** – Eine Kurzbeschreibung ist eine kurze Erklärung, die zusätzliche Informationen oder Klarstellungen über den Zweck eines Formularfelds bietet. Es hilft Benutzenden zu verstehen, welcher Datentyp in das Feld eingegeben werden soll, und kann Richtlinien oder Beispiele bereitstellen, um sicherzustellen, dass die eingegebenen Informationen gültig sind und die gewünschten Kriterien erfüllen. Standardmäßig bleiben kurze Beschreibungen ausgeblendet. Aktivieren Sie die Option **Kurzbeschreibung immer anzeigen**, um sie unterhalb der Komponente anzuzeigen.
 
-### Registerkarte &quot;Formate&quot; {#format-tab}
+* **Kurzbeschreibung immer anzeigen** – Aktivieren Sie die Option, um die Kurzbeschreibung unterhalb der Komponente anzuzeigen.
 
-![Registerkarte &quot;Formate&quot;](/help/adaptive-forms/assets/datepicker_formattab.png)
+* **Hilfetext** – Hilfetext bezieht sich auf zusätzliche Informationen oder Anleitungen, die den Benutzenden bereitgestellt werden, um sie beim korrekten Ausfüllen eines Formularfelds zu unterstützen. Er erscheint, wenn Benutzende auf das Hilfesymbol (i) neben der Komponente klicken. Hilfetext enthält detailliertere Informationen als die Beschriftung oder der Platzhaltertext eines Formularfelds und soll den Benutzenden dabei helfen, die Anforderungen oder Einschränkungen des Felds zu verstehen. Er kann auch Vorschläge oder Beispiele anbieten, um das Ausfüllen des Formulars einfacher und genauer zu gestalten.
 
-* **Anzeigeformat** - Es stellt das Datumsformat dar, das dem Benutzer angezeigt wird. Die **Typ** ermöglicht dem Benutzer die Auswahl des Datumsformats. Sie können das Datumsformat auch mithilfe des **Benutzerdefiniert** in der **Typ** Dropdown-Menü.
 
-* **Format bearbeiten** - Es stellt ein Datumsformat dar, in dem der Benutzer das Datum bearbeiten kann. Die **Typ** ermöglicht dem Benutzer die Auswahl des Datumsformats. Sie können das Datumsformat auch mithilfe des **Benutzerdefiniert** in der **Typ** Dropdown-Menü.
+### Registerkarte „Barrierefreiheit“ {#accessibility-tab}
 
-* **Anzeigeformat** - Es stellt das Datumsformat dar, das dem Benutzer angezeigt wird. Mit der Option Typ kann der Benutzer das Datumsformat auswählen. Sie können das Datumsformat auch mithilfe des **Benutzerdefiniert** in der **Typ** Dropdown-Menü.
+![Registerkarte „Barrierefreiheit“](/help/adaptive-forms/assets/datepicker_accessibilitytab.png)
 
-* **Format bearbeiten** - Es stellt ein Datumsformat dar, in dem der Benutzer das Datum bearbeitet. Mit der Option Typ kann der Benutzer das Datumsformat auswählen. Sie können das Datumsformat auch mithilfe des **Benutzerdefiniert** in der **Typ** Dropdown-Menü.
+**Text für Bildschirmlesehilfen** – Das ist zusätzlicher Text, der von Hilfstechnologien wie etwa Bildschirmlesehilfen für sehbehinderte Personen vorgelesen wird. Dieser Text enthält eine Audiobeschreibung des Zwecks des Formularfelds und kann Informationen über den Titel, die Beschreibung, den Namen und alle relevanten Nachrichten (benutzerdefinierten Text) des Felds enthalten. Der Text der Bildschirmlesehilfe hilft sicherzustellen, dass das Formular allen Benutzenden zugänglich ist, auch Personen mit Sehschwäche, und bietet ihnen ein umfassendes Verständnis des Formularfelds und seiner Anforderungen.
+
+### Registerkarte „Formate“ {#format-tab}
+
+![Registerkarte „Formate“](/help/adaptive-forms/assets/datepicker_formattab.png)
+
+* **Anzeigeformat** – Stellt das Format dar, in dem das Datum angezeigt wird. Die Option **Typ** ermöglicht die Auswahl des Datumsformats. Sie können das Datumsformat auch mithilfe der Option **Benutzerdefiniert** im Dropdown-Menü **Typ** anpassen.
+
+* **Format bearbeiten** – Stellt ein Datumsformat dar, in dem das Datum bearbeitet werden kann. Die Option **Typ** ermöglicht die Auswahl des Datumsformats. Sie können das Datumsformat auch mithilfe der Option **Benutzerdefiniert** im Dropdown-Menü **Typ** anpassen.
+
+* **Anzeigeformat** – Stellt das Format dar, in dem das Datum angezeigt wird. Mit der Option „Typ“ können Sie das Datumsformat auswählen. Sie können das Datumsformat auch mithilfe der Option **Benutzerdefiniert** im Dropdown-Menü **Typ** anpassen.
+
+* **Format bearbeiten** – Stellt ein Datumsformat dar, in dem Sie das Datum bearbeiten können. Mit der Option „Typ“ können Sie das Datumsformat auswählen. Sie können das Datumsformat auch mithilfe der Option **Benutzerdefiniert** im Dropdown-Menü **Typ** anpassen.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
-Das Dialogfeld &quot;Design&quot;wird verwendet, um CSS-Stile für die Komponente &quot;Date-Picker&quot;zu definieren und zu verwalten.
+Das Dialogfeld „Design“ wird verwendet, um CSS-Stile für die Komponente „Datumsauswahl“ zu definieren und zu verwalten.
 
-### Registerkarte „Arten“ {#styles-tab}
+### Registerkarte „Stile“ {#styles-tab}
 
-Die Registerkarte wird verwendet, um CSS-Stile für eine Komponente zu definieren und zu verwalten. Die Kernkomponente für die adaptive Forms-Datumsauswahl unterstützt die AEM [Stilsystem](/help/get-started/authoring.md#component-styling).
+Die Registerkarte wird verwendet, um CSS-Stile für eine Komponente zu definieren und zu verwalten. Die Datumsauswahl-Kernkomponente in adaptiven Formularen unterstützt das [Stilsystem](/help/get-started/authoring.md#component-styling) von AEM.
 
 ![Registerkarte &quot;Stil&quot;](/help/adaptive-forms/assets/datepicker_styletab.png)
 
-* **Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die Adaptive Forms-Kernkomponente zur Datumsauswahl bereitstellen.
+* **Standard-CSS-Klassen**: Sie können für die Datumsauswahl-Kernkomponente in adaptiven Formularen eine Standard-CSS-Klasse bereitstellen.
 
-* **Zulässige Stile**: Sie können Stile definieren, indem Sie einen Namen und die CSS-Klasse angeben, die den Stil darstellt. Sie können beispielsweise einen Stil mit dem Namen &quot;fett Text&quot;erstellen und die CSS-Klasse &quot;font-weight: fett&quot;. Sie können diese Stile im adaptiven Forms-Editor verwenden oder auf ein adaptives Formular anwenden. Um einen Stil anzuwenden, wählen Sie im adaptiven Forms-Editor die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Dialogfeld &quot;Eigenschaften&quot;und wählen Sie den gewünschten Stil aus dem **Stile** Dropdown-Liste. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld &quot;Design&quot;zurück, aktualisieren Sie die Stile auf der Registerkarte &quot;Stile&quot;und speichern Sie die Änderungen.
+* **Zulässige Stile**: Sie können Stile definieren, indem Sie den Namen und die CSS-Klasse für den Stil angeben. Sie können beispielsweise einen Stil mit dem Namen „Fettschrift“ erstellen und die CSS-Klasse „Schriftbreite: Fett“ bereitstellen. Sie können diese Stile bei einem adaptiven Formular im adaptiven Formular-Editor anwenden. Um einen Stil anzuwenden, wählen Sie im Editor für adaptive Formulare die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Eigenschaften-Dialog und wählen Sie den gewünschten Stil aus der Dropdown-Liste **Stile**. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld „Design“ zurück, aktualisieren die Stile auf der Registerkarte „Stile“ und speichern die Änderungen.
 
-### Registerkarte &quot;Formate&quot; {#formats-tab}
+### Registerkarte „Formate“ {#formats-tab}
 
-Auf der Registerkarte &quot;Formate&quot;können Sie standardmäßige und benutzerdefinierte Datumsformate angeben.
+Auf der Registerkarte „Formate“ können Sie standardmäßige und benutzerdefinierte Datumsformate angeben.
 
 ![Formatregisterkarte](/help/adaptive-forms/assets/datepicker_formatpolicy.png)
 

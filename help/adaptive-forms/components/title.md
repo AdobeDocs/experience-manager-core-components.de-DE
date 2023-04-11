@@ -1,18 +1,18 @@
 ---
-title: Adaptive Forms-Kernkomponente - Titel
-description: Verwenden oder Anpassen der Kernkomponente "Adaptive Forms-Titel".
+title: Kernkomponente „Titel“ für adaptive Formulare
+description: Verwenden oder Anpassen der Kernkomponente „Adaptive Formulare – Titel“.
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
 source-wordcount: '862'
-ht-degree: 14%
+ht-degree: 90%
 
 ---
 
 # Titel {#title-input-adaptive-forms-core-component}
 
-In einem adaptiven Formular bezieht sich ein &quot;Titel&quot;auf den Text, der oben im Formular angezeigt wird, normalerweise unter der Kopfzeile. Der Titel wird mithilfe der Titelkomponente angegeben. Diese Komponente kann zum Formularlayout hinzugefügt werden und der Text kann entsprechend dem Zweck oder Thema des Formulars bearbeitet werden. Der Titel dient dem Benutzer als Titel oder kurze Beschreibung des Formulars und erleichtert die Unterscheidung des Formulars von anderen.
+In einem adaptiven Formular bezieht sich ein „Titel“ auf den Text, der oben im Formular angezeigt wird, normalerweise unter der Kopfzeile. Der Titel wird mithilfe der Titelkomponente spezifiziert. Diese Komponente kann zum Formular-Layout hinzugefügt werden und ihr Text kann entsprechend dem Zweck oder Thema des Formulars bearbeitet werden. Der Titel dient Benutzenden als Bezeichnung kurze Beschreibung des Formulars und erleichtert die Unterscheidung des Formulars von anderen.
 
 **Beispiel**
 
@@ -22,19 +22,19 @@ In einem adaptiven Formular bezieht sich ein &quot;Titel&quot;auf den Text, der 
 
 Es gibt mehrere Gründe, warum es sich empfiehlt, einen Titel in einem Formular zu verwenden:
 
-* **Klarheit**: Ein Titel identifiziert den Zweck des Formulars klar, was Benutzern hilft, zu verstehen, welche Informationen sie bereitstellen müssen.
+* **Klarheit**: Ein Titel identifiziert den Zweck des Formulars, was Benutzenden hilft zu verstehen, welche Informationen sie bereitstellen müssen.
 
-* **Einrichtung**: Ein Titel kann dazu beitragen, Formulare nach Thema oder Zweck zu organisieren, wodurch Benutzer das benötigte Formular leichter finden können.
+* **Ordnung**: Mit einem Titel können Formulare nach Thema oder Zweck gruppiert werden, wodurch Benutzer das benötigte Formular leichter finden können.
 
-* **Zugänglichkeit**: Ein Titel ist ein Schlüsselelement für Benutzer mit Zugänglichkeitsanforderungen, da er von Sprachausgabeprogrammen laut ausgelesen wird, sodass Benutzer den Kontext des Formulars verstehen können.
+* **Barrierefreiheit**: Ein Titel ist ein Schlüsselelement für Benutzende mit Behinderung, da er von Sprachausgabeprogrammen laut vorgelesen wird, sodass Benutzende den Kontext des Formulars verstehen können.
 
-* **Branding**: Ein Titel kann auch verwendet werden, um den Namen eines Unternehmens oder einer Organisation anzuzeigen, was dazu beiträgt, ein Gefühl von Vertrauen und Vertrautheit mit dem Benutzer zu schaffen.
+* **Branding**: Ein Titel kann auch verwendet werden, um den Namen eines Unternehmens oder einer Organisation anzuzeigen, wodurch ein Gefühl von Vertrauen und Vertrautheit bei den Benutzenden geschaffen werden kann.
 
 * **Navigation**: Ein Titel kann auch für die Navigation durch das Formular nützlich sein, insbesondere wenn das Formular lang oder komplex ist.
 
-* **Suchmaschinenoptimierung (SEO)**: Ein Titel im Formular hilft auch bei SEO, da Suchmaschinen den Titel verwenden, um die Relevanz einer Webseite für eine Suchabfrage zu ermitteln.
+* **Suchmaschinen-Optimierung (SEO)**: Ein Titel im Formular hilft auch bei der SEO, da Suchmaschinen anhand des Titels die Relevanz einer Web-Seite für eine Suchabfrage ermitteln.
 
-Insgesamt ist der Titel eines Formulars ein wichtiger Aspekt des Benutzererlebnisses und sollte verwendet werden, um eine klare und knappe Beschriftung für das Formular bereitzustellen, mit der Benutzer den Kontext und den Zweck des Formulars verstehen können.
+Insgesamt ist der Titel eines Formulars ein wichtiger Aspekt des Benutzererlebnisses und sollte verwendet werden, um eine klare und knappe Beschriftung für das Formular bereitzustellen, mit der Benutzende den Kontext und den Zweck des Formulars verstehen können.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
@@ -44,7 +44,7 @@ Die Kernkomponente &quot;Adaptive Forms Accordion&quot;wurde im Februar 2023 als
 |---|---|---|
 | v1 | Kompatibel mit<br>[Version 2.0.4](/help/adaptive-forms/version.md) und höher | Kompatibel mit<br>[Version 1.1.12](/help/adaptive-forms/version.md) und höher, jedoch weniger als 2.0.0. |
 
-Informationen zu Kernkomponentenversionen und -versionen finden Sie im Abschnitt [Kernkomponenten-Versionen](/help/adaptive-forms/version.md) Dokument.
+Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokument [Kernkomponenten-Versionen](/help/adaptive-forms/version.md).
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -53,19 +53,19 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Technische Details {#technical-details}
 
-Laden Sie die neuesten Informationen zur Kernkomponente &quot;Adaptive Forms Title&quot;in der technischen Dokumentation zu [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/title/v1/title). Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie im Abschnitt [Entwicklerdokumentation für Kernkomponenten](/help/developing/overview.md).
+Die neuesten Informationen zur Kernkomponente „Titel“ für adaptive Formulare finden Sie in der technischen Dokumentation auf [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/title/v1/title). Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Entwicklerdokumentation für Kernkomponenten](/help/developing/overview.md).
 
 ## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
-Im Dialogfeld &quot;Konfigurieren&quot;können Sie Ihre Titelerfahrung für Besucher einfach anpassen. Sie können auch mit Leichtigkeit Titeloptionen für ein nahtloses Benutzererlebnis definieren.
+Im Dialogfeld „Konfigurieren“ können Sie den Titel einfach anpassen. Sie können auch Optionen für Titel definieren, um das Benutzererlebnis zu verbessern.
 
-![Registerkarte &quot;Allgemein&quot;](/help/adaptive-forms/assets/title_properties.png)
+![Registerkarte „Allgemein“](/help/adaptive-forms/assets/title_properties.png)
 
-Im Dialogfeld „Bearbeiten“ kann der Inhaltsautor den Titeltext definieren sowie die Überschriftenebene auswählen.
+Im Dialogfeld „Bearbeiten“ kann der Inhaltsautor bzw. die Inhaltsautorin den Titeltext definieren sowie die Überschriftenebene auswählen.
 
-* **Titel** - Mit dem Titel können Sie eine Komponente in einem Formular leicht identifizieren. Standardmäßig wird der Titel über der Komponente angezeigt. Wenn Sie keinen Titel hinzufügen, wird der Name der Komponente anstelle des Titeltexts angezeigt.
-* **Typ/Größe** - Definiert die Überschriftenebene des Titels.
-* **ID** - Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der Datenschicht.
+* **Titel** – Mit dem Titel können Sie eine Komponente in einem Formular leicht identifizieren. Standardmäßig wird der Titel oberhalb der Komponente angezeigt. Wenn Sie keinen Titel hinzufügen, wird der Name der Komponente anstelle des Titeltexts angezeigt.
+* **Typ/Größe** – Definiert die Überschriftenebene des Titels.
+* **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und in der Datenschicht.
    * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
    * Sofern eine ID angegeben wird, ist vom Autor bzw. der Autorin sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
@@ -76,27 +76,27 @@ Die Registerkarte &quot;Design&quot;wird verwendet, um CSS-Stile für die Kompon
 
 ### Titel
 
-Auf der Registerkarte Titel können Vorlagenautoren standardmäßige und zulässige Überschriftenelemente für Formularautoren festlegen:
+Auf der Registerkarte „Titel“ können Vorlagenautoren und -autorinnen standardmäßige und zulässige HTML-Überschriftenelemente für Formularautoren und -autorinnen festlegen:
 
-![Registerkarte &quot;Design dialog title&quot;](/help/adaptive-forms/assets/title_heading.png)
+![Registerkarte „Titel“ im Dialogfeld „Design“](/help/adaptive-forms/assets/title_heading.png)
 
-* **Zulässige Überschriftenelemente**: Eine Liste mit mehreren Optionen, über die der Vorlagenautor auswählen kann, welche Überschriftenelemente der Formularautor für den Titel verwenden kann.
+* **Zulässige Überschriftenelemente**: Eine Liste mit mehreren Optionen, über die der Vorlagenautor bzw. die Vorlagenautorin auswählen kann, welche Überschriftenelemente der Formularautor bzw. die Formularautorin für den Titel verwenden kann.
 
-* **Standardüberschriftenelement**: Eine Dropdown-Liste, die das standardmäßige Überschriftenelement für die Titelkomponente festlegt.
+* **Standardmäßiges Überschriftenelement**: Eine Dropdown-Liste, die das standardmäßige Überschriftenelement für die Titelkomponente festlegt.
 
-### Registerkarte „Arten“ {#styles-tab}
+### Registerkarte „Stile“ {#styles-tab}
 
-Die Registerkarte wird verwendet, um CSS-Stile für eine Komponente zu definieren und zu verwalten. Die Kernkomponente für die adaptive Forms-Datumsauswahl unterstützt die AEM [Stilsystem](/help/get-started/authoring.md#component-styling).
+Die Registerkarte wird verwendet, um CSS-Stile für eine Komponente zu definieren und zu verwalten. Die Datumsauswahl-Kernkomponente in adaptiven Formularen unterstützt das [Stilsystem](/help/get-started/authoring.md#component-styling) von AEM.
 
-![Registerkarte &quot;Design dialog title&quot;](/help/adaptive-forms/assets/title_styles.png)
+![Registerkarte „Titel“ im Dialogfeld „Design“](/help/adaptive-forms/assets/title_styles.png)
 
-* **Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die Adaptive Forms-Kernkomponente zur Datumsauswahl bereitstellen.
+* **Standard-CSS-Klassen**: Sie können für die Datumsauswahl-Kernkomponente in adaptiven Formularen eine Standard-CSS-Klasse bereitstellen.
 
-* **Zulässige Stile**: Sie können Stile definieren, indem Sie einen Namen und die CSS-Klasse angeben, die den Stil darstellt. Sie können beispielsweise einen Stil mit dem Namen &quot;fett Text&quot;erstellen und die CSS-Klasse &quot;font-weight: fett&quot;. Sie können diese Stile im adaptiven Forms-Editor verwenden oder auf ein adaptives Formular anwenden. Um einen Stil anzuwenden, wählen Sie im adaptiven Forms-Editor die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Dialogfeld &quot;Eigenschaften&quot;und wählen Sie den gewünschten Stil aus dem **Stile** Dropdown-Liste. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld &quot;Design&quot;zurück, aktualisieren Sie die Stile auf der Registerkarte &quot;Stile&quot;und speichern Sie die Änderungen.
+* **Zulässige Stile**: Sie können Stile definieren, indem Sie den Namen und die CSS-Klasse für den Stil angeben. Sie können beispielsweise einen Stil mit dem Namen „Fettschrift“ erstellen und die CSS-Klasse „Schriftbreite: Fett“ bereitstellen. Sie können diese Stile bei einem adaptiven Formular im adaptiven Formular-Editor anwenden. Um einen Stil anzuwenden, wählen Sie im Editor für adaptive Formulare die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Eigenschaften-Dialog und wählen Sie den gewünschten Stil aus der Dropdown-Liste **Stile**. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld „Design“ zurück, aktualisieren die Stile auf der Registerkarte „Stile“ und speichern die Änderungen.
 
-### Registerkarte &quot;Formate&quot; {#format-tab}
+### Registerkarte „Formate“ {#format-tab}
 
-Auf der Registerkarte &quot;Formate&quot;können Sie standardmäßige und benutzerdefinierte Datumsformate angeben.
+Auf der Registerkarte „Formate“ können Sie standardmäßige und benutzerdefinierte Datumsformate angeben.
 
 ![Registerkarte &quot;Format&quot;](/help/adaptive-forms/assets/title_styles.png)
 

@@ -1,24 +1,24 @@
 ---
-title: Adaptive Forms-Kernkomponente - Zahleneingabe
-description: Verwenden oder Anpassen der Eingabe-Kernkomponente "Adaptive Forms Number".
+title: Kernkomponente „Zahleneingabe“ für adaptive Formulare
+description: Verwenden oder Anpassen der Kernkomponente „Zahleneingabe“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
 source-wordcount: '1798'
-ht-degree: 1%
+ht-degree: 88%
 
 ---
 
 # Zahleneingabe {#number-input-adaptive-forms-core-component}
 
-Eine Zahleneingabe-Komponente in einem adaptiven Formular ist ein Formularfeldtyp, mit dem Benutzer numerische Werte eingeben können. Die Komponente wird in der Regel durch ein Textfeld mit einem Nach-oben- und Nach-unten-Pfeil zum Erhöhen und Verringern der Zahl dargestellt.
+Mit der Komponente „Zahleneingabe“ für adaptive Formulare wird Benutzenden ein Formularfeld zur Eingabe numerischer Werte bereitgestellt. In der Regel wird die Komponente durch ein Textfeld mit einem Aufwärts- und Abwärtspfeil zum Erhöhen und Verringern der Zahl dargestellt.
 
-Sie kann auch mit Attributen wie min, max, step, value und mehr verwendet werden. Mit diesen Attributen können Sie die im Feld zulässigen Mindest- und Höchstwerte, das Schrittervall zum Erhöhen oder Verringern der Zahl und den Standardwert des Felds festlegen.
+Auch Attribute wie „Min.“, „Max.“ „Schritt“ und „Wert“ können damit verwendet werden. Sie können mit diesen Attributen die im Feld zulässigen Mindest- und Höchstwerte, das Schrittintervall zum Erhöhen oder Verringern der Zahl und den Standardwert des Felds festlegen.
 
-Mit dieser Komponente können numerische Daten wie Alter, Menge und mehr erfasst werden. Es kann auch verwendet werden, um mathematische Operationen wie Addition und Subtraktion durchzuführen. Diese Komponente kann auch zur Validierung der vom Benutzer eingegebenen numerischen Daten verwendet werden.
+Sie können mit dieser Komponente numerische Daten wie Alter und Menge erfassen. Es kann auch verwendet werden, um mathematische Operationen wie Addition und Subtraktion durchzuführen. Außerdem kann diese Komponente zur Gültigkeitsprüfung der von Benutzenden eingegebenen numerischen Daten verwendet werden.
 
-Für die Barrierefreiheit ist es wichtig, einen &quot;Titel&quot;anzugeben, der den Zweck des Zahleneingabefelds beschreibt und welche Art von Eingabe erwartet wird.
+Für die Barrierefreiheit ist es wichtig, einen „Titel“ anzugeben, der den Zweck des Zahleneingabefelds beschreibt und Informationen zur Art der erwarteten Eingabe bereitstellt.
 
 **Beispiel**
 
@@ -32,7 +32,7 @@ Es gibt mehrere Gründe, warum es sinnvoll ist, eine numerische Eingabekomponent
 
 * **Datenbereich**: Numerische Felder können verwendet werden, um einen Bereich gültiger Werte mithilfe der Attribute min, max und step festzulegen.
 
-* **Dynamische Inhalte**: Numerische Komponenten können verwendet werden, um dynamische Daten basierend auf den Formularfeldern anzuzeigen.
+* **Dynamische Inhalte**: Sie können numerische Komponenten dazu verwenden, um dynamische Daten basierend auf den Formularfeldern anzuzeigen.
 
 
 ## Version und Kompatibilität {#version-and-compatibility}
@@ -43,7 +43,7 @@ Die Kernkomponente &quot;Adaptive Forms Accordion&quot;wurde im Februar 2023 als
 |---|---|---|
 | v1 | Kompatibel mit<br>[Version 2.0.4](/help/adaptive-forms/version.md) und höher | Kompatibel mit<br>[Version 1.1.12](/help/adaptive-forms/version.md) und höher, jedoch weniger als 2.0.0. |
 
-Informationen zu Kernkomponentenversionen und -versionen finden Sie im Abschnitt [Kernkomponenten-Versionen](/help/adaptive-forms/version.md) Dokument.
+Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokument [Kernkomponenten-Versionen](/help/adaptive-forms/version.md).
 
 
 <!-- ## Sample Component Output {#sample-component-output}
@@ -52,94 +52,94 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Technische Details {#technical-details}
 
-Laden Sie die neuesten Informationen zur Eingabe-Kernkomponente für die adaptive Forms-Nummer in der technischen Dokumentation zu [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/numberinput/v1/numberinput). Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie im Abschnitt [Entwicklerdokumentation für Kernkomponenten](/help/developing/overview.md).
+Die neuesten Informationen zur Kernkomponente „Zahleneingabe“ für adaptive Formulare erfahren Sie in der technischen Dokumentation auf [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/numberinput/v1/numberinput). Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Entwicklerdokumentation für Kernkomponenten](/help/developing/overview.md).
 
 ## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
-Im Dialogfeld &quot;Konfigurieren&quot;können Sie Ihre Zahleneingabe-Erfahrung für Besucher einfach anpassen. Sie können auch Zahleneingabeoptionen definieren, um ein nahtloses Benutzererlebnis zu ermöglichen.
+Sie können im Dialogfeld „Konfigurieren“ die Zahleneingabe für Besuchende einfach anpassen. Sie können auch Optionen für die Zahleneingabe definieren, um das Benutzererlebnis zu verbessern.
 
-### Einfache Registerkarte {#basic-tab}
+### Registerkarte „Allgemein“ {#basic-tab}
 
-![Einfache Registerkarte](/help/adaptive-forms/assets/numberinput_basictab.png)
+![Registerkarte „Allgemein“](/help/adaptive-forms/assets/numberinput_basictab.png)
 
-* **Name** - Sie können eine Formularkomponente sowohl im Formular als auch im Regeleditor leicht mit ihrem eindeutigen Namen identifizieren, der Name darf jedoch keine Leerzeichen oder Sonderzeichen enthalten.
+* **Name**: Sie können eine Formularkomponente sowohl im Formular als auch im Regel-Editor leicht mit ihrem eindeutigen Namen identifizieren. Der Name darf jedoch keine Leerzeichen oder Sonderzeichen enthalten.
 
-* **Titel** - Mit dem Titel können Sie eine Komponente in einem Formular leicht identifizieren. Standardmäßig wird der Titel über der Komponente angezeigt. Wenn Sie keinen Titel hinzufügen, wird der Name der Komponente anstelle des Titeltexts angezeigt.
+* **Titel**: Sie können mit dem Titel leicht eine Komponente in einem Formular identifizieren. Standardmäßig wird der Titel über der Komponente angezeigt. Wenn Sie keinen Titel hinzufügen, wird der Name der Komponente anstelle des Titeltexts angezeigt.
 
-* **Titel ausblenden** - Wählen Sie die Option aus, um den Titel der Komponente auszublenden.
+* **Titel ausblenden**: Wählen Sie die Option aus, um den Titel der Komponente auszublenden.
 
-* **Platzhaltertext** - Platzhaltertext in einer Formularkomponente bezieht sich auf eine kurze Beschriftung oder Eingabeaufforderung, die in einem Eingabefeld angezeigt wird, um den Benutzer darauf hinzuweisen, welcher Informationstyp in dieses Feld eingegeben werden soll. Platzhaltertext verschwindet, wenn der Benutzer mit der Eingabe in das Feld beginnt, und wird wieder angezeigt, wenn das Feld leer bleibt. Es bietet einen visuellen Hinweis für den Benutzer, fungiert jedoch nicht als permanente Bezeichnung oder Wert für das Feld.
-* **Bindungsverweis** - Ein Bindungsverweis ist ein Verweis auf ein Datenelement, das in einer externen Datenquelle gespeichert und in einem Formular verwendet wird. Mit der Bindungsreferenz können Sie Daten dynamisch an Formularfelder binden, sodass das Formular die aktuellsten Daten aus der Datenquelle anzeigen kann. Beispielsweise kann eine Bindungsverweis verwendet werden, um den Namen und die Adresse eines Kunden in einem Formular anzuzeigen, basierend auf der im Formular eingegebenen Kundenkennung. Die Bindungsverweis kann auch verwendet werden, um die Datenquelle mit den im Formular eingegebenen Daten zu aktualisieren. Auf diese Weise können Sie mit AEM Forms Formulare erstellen, die mit externen Datenquellen interagieren und so eine nahtlose Benutzererfahrung bei der Datenerfassung und -verwaltung bieten.
-* **Komponente ausblenden** - Wählen Sie die Option, um die Komponente aus dem Formular auszublenden. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regeleditor. Dies ist nützlich, wenn Sie Informationen speichern müssen, die vom Benutzer nicht gesehen oder direkt geändert werden müssen.
-* **Komponente deaktivieren** - Wählen Sie die Option zum Deaktivieren der Komponente aus. Die deaktivierte Komponente ist vom Endbenutzer nicht aktiv oder kann nicht bearbeitet werden. Der Benutzer kann den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regeleditor.
-* **Schreibgeschützt** - Wählen Sie die Option, um die Komponente nicht bearbeitbar zu machen. Der Benutzer kann den Wert des Felds sehen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regeleditor.
-* **Zahlentyp** - Mit dieser Option können Sie den Typ der numerischen Werte auswählen, &#x200B; im Formularfeld zulässig &#x200B;. Sie können entweder den Typ Dezimal oder Ganzzahl aus dem Dropdown-Menü auswählen.
-* **Standardwert** - Mit dieser Option können Sie einen Standardwert in ein Formularfeld einfügen. Wenn **Komponente deaktiviert** oder **Schreibgeschützte Komponente** ausgewählt ist, wird der Standardwert auf dem Bildschirm angezeigt. Wenn kein Wert vom Benutzer in das Formularfeld eingegeben wird, wird dieser Wert zum Zeitpunkt der Formularübermittlung gesendet
+* **Platzhaltertext**: Platzhaltertext in einer Formularkomponente bezieht sich auf eine kurze Beschriftung oder Eingabeaufforderung, die in einem Eingabefeld angezeigt wird, um Benutzende darauf hinzuweisen, welcher Informationstyp in dieses Feld eingegeben werden soll. Der Platzhaltertext verschwindet, wenn Benutzende mit der Eingabe in das Feld beginnen, und erscheint wieder, wenn das Feld leer bleibt. Er stellt einen visuellen Hinweis für Benutzende bereit, fungiert jedoch nicht als permanente Beschriftung oder Wert für das Feld.
+* **Bindungsverweis**: Bindungsverweis ist ein Verweis auf ein Datenelement, das in einer externen Datenquelle gespeichert ist und in einem Formular verwendet wird. Sie können mit dem Bindungsverweis Daten dynamisch an Formularfelder binden, sodass das Formular die aktuellsten Daten aus der Datenquelle anzeigen kann. Beispielsweise kann ein Bindungsverweis verwendet werden, um den Namen und die Adresse von Kundinnen und Kunden in einem Formular anzuzeigen, basierend auf der im Formular eingegebenen Kunden-ID. Der Bindungsverweis kann auch verwendet werden, um die Datenquelle mit den im Formular eingegebenen Daten zu aktualisieren. Auf diese Weise können Sie mit AEM Forms Formulare erstellen, die mit externen Datenquellen interagieren und so ein nahtloses Benutzererlebnis bei der Datenerfassung und -verwaltung bieten.
+* **Komponente ausblenden** – Wählen Sie diese Option, um die Komponente aus dem Formular auszublenden. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor. Dies ist nützlich, wenn Sie Informationen speichern müssen, die Benutzende nicht sehen oder direkt ändern müssen.
+* **Komponente deaktivieren**: Wählen Sie die Option zum Deaktivieren der Komponente aus. Die deaktivierte Komponente ist nicht aktiv und Endbenutzende können sie nicht bearbeiten. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
+* **Schreibgeschützt** – Wählen Sie die Option aus, um zu verhindern, dass die Komponente bearbeitet werden kann. Die Benutzenden können den Wert des Felds sehen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
+* **Zahlentyp** – Mit dieser Option können Sie den Typ der numerischen Werte auswählen, die im Formularfeld zulässig sind. Sie können aus dem Dropdown-Menü entweder den Typ „Dezimalzahl“ oder „Ganzzahl“ auswählen.
+* **Standardwert** – Mit dieser Option können Sie einen Standardwert in ein Formularfeld einfügen. Wenn **Komponente deaktiviert** oder **Schreibgeschützte Komponente** ausgewählt ist, wird auf dem Bildschirm der Standardwert angezeigt. Wird kein Wert in das Formularfeld eingegeben, wird bei der Formularübermittlung dieser Wert gesendet
 
-### Registerkarte &quot;Validierung&quot; {#validation-tab}
+### Registerkarte „Validierung“ {#validation-tab}
 
-![Registerkarte &quot;Validierung&quot;](/help/adaptive-forms/assets/numberinput_validationtab.png)
+![Registerkarte „Validierung“](/help/adaptive-forms/assets/numberinput_validationtab.png)
 
-* **Erforderlich** - Wählen Sie diese Option, wenn Sie die Komponente in einem adaptiven Formular anzeigen möchten. Sie können die **Komponente ausblenden** oder **Komponente deaktivieren**  im **Allgemein** Registerkarte angezeigt, wenn diese Option aktiviert ist.
+* **Erforderlich** – Wählen Sie diese Option, wenn Sie die Komponente in einem adaptiven Formular anzeigen möchten. Wenn diese Option aktiviert ist, kann die Option **Komponente ausblenden** oder **Komponente deaktivieren** auf der Registerkarte **Allgemein** nicht ausgewählt werden.
 
-* **Fehlermeldung** - Mit dieser Option können Sie eine Nachricht eingeben, die angezeigt wird, wenn die **Erforderlich** aktiviert ist und das Feld leer bleibt.
+* **Fehlermeldung** – Mit dieser Option können Sie eine Nachricht eingeben, die angezeigt wird, wenn das Kontrollkästchen **Erforderlich** aktiviert ist und das Feld leer bleibt.
 
-* **Überprüfungsmeldung für Skripten** - Mit dieser Option können Sie eine Meldung eingeben, die angezeigt werden soll, wenn die Skriptvalidierung fehlschlägt.
+* **Meldung zur Skriptvalidierung** – Mit dieser Option können Sie eine Meldung eingeben, die angezeigt wird, wenn die Skriptvalidierung fehlschlägt.
 
-* **Niedrigste Zahl/Kleinste Zahl** - Verwenden Sie diese Option, um die Mindestanzahl für die Eingabe im Formularfeld auszuwählen. Wenn der Wert kleiner ist als die in **Niedrigste Zahl/Kleinste Zahl** in das Formularfeld eingegeben wurde, wird die Fehlermeldung angezeigt.
+* **Niedrigste Zahl / Kleinste Zahl** – Diese Option können Sie verwenden, um die Mindestzahl für die Eingabe im Formularfeld auszuwählen. Wenn der in das Formularfeld eingegebene Wert kleiner ist als der in **Niedrigste Zahl / Kleinste Zahl**, erscheint eine Fehlermeldung.
 
-* **Minimale Fehlermeldung** - Mit dieser Option können Sie eine Fehlermeldung eingeben, die angezeigt wird, wenn der Benutzer einen Wert eingibt, der unter dem im Feld **Mindestanzahl/Mindestanzahl** -Option.
+* **Mindest-Fehlermeldung** – Mit dieser Option können Sie eine Fehlermeldung erstellen, die erscheint, wenn Benutzende einen Wert eingeben, der kleiner ist als der in der Option **Mindestzahl/Mindestzahl**.
 
-* **Mindestwert ausschließen** - Aktivieren Sie dieses Kontrollkästchen, wenn Sie den im **Niedrigste Zahl/Kleinste Zahl** -Option, die in den Bereich der Werte aufgenommen &#x200B;, die in das Formularfeld eingegeben werden sollen.
+* **Mindestwert ausschließen** – Sie können dieses Kontrollkästchen aktivieren, wenn Sie den in der Option **Niedrigste Zahl / Kleinste Zahl** angegebenen Wert nicht in den Bereich der Werte aufnehmen möchten, die in das Formularfeld eingegeben werden können.
 
-* **Höchste Zahl/Größte Zahl** - Verwenden Sie diese Option, um die maximal zulässige Zahl auszuwählen, die in das Formularfeld eingegeben werden soll. Wenn die Zahl größer ist als die in **Höchste Zahl/Größte Zahl** in das Formularfeld eingegeben wurde, wird die Fehlermeldung angezeigt.
+* **Höchste Zahl / Größte Zahl** – Sie können diese Option verwenden, um die maximal zulässige Zahl auszuwählen, die in das Formularfeld eingegeben werden darf. Wenn die in das Formularfeld eingegebene Zahl größer ist als die in der Option **Höchste Zahl / Größte Zahl**, erscheint eine Fehlermeldung.
 
-* **Maximale Fehlermeldung** - Mit dieser Option können Sie eine Fehlermeldung eingeben, die angezeigt wird, wenn der Benutzer einen Wert eingibt, der größer ist als der in der Variablen **Höchste Zahl/Größte Zahl** -Option.
+* **Maximal-Fehlermeldung** – Sie können mit dieser Option eine Fehlermeldung erstellen, die erscheint, wenn Benutzende einen Wert eingeben, der größer ist als der in der Option **Höchste Zahl / Größte Zahl** angegebene.
 
-* **Höchstwert ausschließen** - Aktivieren Sie dieses Kontrollkästchen, wenn Sie den im **Höchste Zahl/Größte Zahl** Option, die in den Wertebereich aufgenommen werden soll, der in das Formularfeld eingegeben werden soll.
+* **Höchstwert ausschließen** – Sie können dieses Kontrollkästchen aktivieren, wenn Sie den in der Option **Höchste Zahl / Größte Zahl** angegebenen Höchstwert nicht in den Wertebereich aufnehmen möchten, der in das Formularfeld eingegeben werden kann.
 
-### Registerkarte &quot;Hilfe-Inhalt&quot; {#help-content}
+### Registerkarte „Hilfe-Inhalt“ {#help-content}
 
-![Registerkarte &quot;Hilfe-Inhalt&quot;](/help/adaptive-forms/assets/numberinput_helptab.png)
+![Registerkarte „Hilfe-Inhalt“](/help/adaptive-forms/assets/numberinput_helptab.png)
 
-* **Kurzbeschreibung** - Eine kurze Beschreibung ist eine kurze Texterklärung, die zusätzliche Informationen oder Klarstellungen zum Zweck eines bestimmten Formularfelds bietet. Es hilft dem Benutzer zu verstehen, welcher Datentyp in das Feld eingegeben werden soll, und kann Richtlinien oder Beispiele bereitstellen, um sicherzustellen, dass die eingegebenen Informationen gültig sind und die gewünschten Kriterien erfüllen. Standardmäßig bleiben kurze Beschreibungen ausgeblendet. Aktivieren Sie die **Kurzbeschreibung immer anzeigen** -Option, um sie unter der Komponente anzuzeigen.
+* **Kurzbeschreibung** – Eine Kurzbeschreibung ist eine kurze Erklärung, die zusätzliche Informationen oder Klarstellungen über den Zweck eines Formularfelds bietet. Es hilft Benutzenden zu verstehen, welcher Datentyp in das Feld eingegeben werden soll, und kann Richtlinien oder Beispiele bereitstellen, um sicherzustellen, dass die eingegebenen Informationen gültig sind und die gewünschten Kriterien erfüllen. Standardmäßig bleiben kurze Beschreibungen ausgeblendet. Aktivieren Sie die Option **Kurzbeschreibung immer anzeigen**, um sie unterhalb der Komponente anzuzeigen.
 
-* **Kurzbeschreibung immer anzeigen** - Aktivieren Sie die Option, um die Kurzbeschreibung unter der Komponente anzuzeigen.
+* **Kurzbeschreibung immer anzeigen** – Aktivieren Sie diese Option, um die Kurzbeschreibung unterhalb der Komponente anzuzeigen.
 
-* **Hilfetext** - Hilfetext bezieht sich auf zusätzliche Informationen oder Anleitungen, die dem Benutzer bereitgestellt werden, um ihn beim korrekten Ausfüllen eines Formularfelds zu unterstützen. Er wird angezeigt, wenn der Benutzer auf das Hilfesymbol (i) neben der Komponente klickt. Hilfetext enthält detailliertere Informationen als die Beschriftung oder der Platzhaltertext eines Formularfelds und soll dem Benutzer dabei helfen, die Anforderungen oder Einschränkungen des Felds zu verstehen. Es kann auch Vorschläge oder Beispiele anbieten, um das Ausfüllen des Formulars zu vereinfachen und genauer zu gestalten.
+* **Hilfetext** – Hilfetext bezieht sich auf zusätzliche Informationen oder Anleitungen, die den Benutzenden bereitgestellt werden, um sie beim korrekten Ausfüllen eines Formularfelds zu unterstützen. Er erscheint, wenn Benutzende auf das Hilfesymbol (i) neben der Komponente klicken. Hilfetext enthält detailliertere Informationen als die Beschriftung oder der Platzhaltertext eines Formularfelds und soll den Benutzenden dabei helfen, die Anforderungen oder Einschränkungen des Felds zu verstehen. Er kann auch Vorschläge oder Beispiele anbieten, um das Ausfüllen des Formulars einfacher und genauer zu gestalten.
 
-### Registerkarte „Erreichbarkeit“ {#accessibility}
+### Registerkarte „Barrierefreiheit“ {#accessibility}
 
-![Registerkarte &quot;Barrierefreiheit&quot;](/help/adaptive-forms/assets/numberinput_accessibility.png)
+![Registerkarte „Barrierefreiheit“](/help/adaptive-forms/assets/numberinput_accessibility.png)
 
-**Text für Bildschirmlesehilfen** - Text für Bildschirmlesehilfen bezieht sich auf zusätzlichen Text, der von Hilfstechnologien wie Bildschirmlesehilfen gelesen werden soll, die von sehbehinderten Personen verwendet werden. Dieser Text enthält eine Audiobeschreibung des Zwecks des Formularfelds und kann Informationen über den Titel, die Beschreibung, den Namen und alle relevanten Nachrichten (benutzerdefinierten Text) des Felds enthalten. Der Text der Bildschirmlesehilfe hilft sicherzustellen, dass das Formular für alle Benutzer zugänglich ist, auch für Benutzer mit Sehbehinderungen, und bietet ihnen ein umfassendes Verständnis des Formularfelds und seiner Anforderungen.
+**Text für Bildschirmlesehilfen** - Text für Bildschirmlesehilfen bezieht sich auf zusätzlichen Text, der von Hilfstechnologien wie Bildschirmlesehilfen gelesen werden soll, die von sehbehinderten Personen verwendet werden. Dieser Text enthält eine Audiobeschreibung des Zwecks des Formularfelds und kann Informationen über den Titel, die Beschreibung, den Namen und alle relevanten Nachrichten (benutzerdefinierten Text) des Felds enthalten. Der Text der Bildschirmlesehilfe hilft sicherzustellen, dass das Formular allen Benutzenden zugänglich ist, auch Personen mit Sehschwäche, und bietet ihnen ein umfassendes Verständnis des Formularfelds und seiner Anforderungen.
 
-### Registerkarte &quot;Formate&quot; {#formats-tab}
+### Registerkarte „Formate“ {#formats-tab}
 
-![Registerkarte &quot;Barrierefreiheit&quot;](/help/adaptive-forms/assets/numberinput_formattab.png)
+![Registerkarte „Barrierefreiheit“](/help/adaptive-forms/assets/numberinput_formattab.png)
 
-* **Anzeigeformat** - Mit dieser Option können Sie die Option aus verschiedenen Formaten ganzzahliger numerischer Typen für die Anzeige auswählen. Wenn der Benutzer eine Option aus dem **Typ** Dropdown-Menü, die **Format** wird im Bereich angezeigt. Sie können ein bestimmtes Format wählen, in dem dem Benutzer Zahlen angezeigt werden.
+* **Anzeigeformat** - Mit dieser Option können Sie die Option aus verschiedenen Formaten ganzzahliger numerischer Typen für die Anzeige auswählen. Wenn Benutzende aus dem Dropdown-Menü **Typ** eine Option auswählen, erscheint im Bedienfeld die Option **Format**. Sie können das Format auswählen, in dem die Zahlen den Benutzenden angezeigt werden sollen.
 
-* **Anzahl der Ziffern vor dem Dezimaltrennzeichen (1234.000)** - Verwenden Sie diese Option, um die Anzahl der Ziffern anzugeben, die vor dem Dezimalpunkt angezeigt werden sollen.
+* **Anzahl der Ziffern vor dem Dezimaltrennzeichen (1234.000)** – Sie können diese Option verwenden, um die Anzahl der Ziffern anzugeben, die vor dem Dezimaltrennzeichen angezeigt werden sollen.
 
-* **Anzahl der Stellen nach dem Dezimaltrennzeichen (1234.000)** - Verwenden Sie diese Option, um die Anzahl der Ziffern anzugeben, die nach dem Dezimalpunkt angezeigt werden sollen.
+* **Anzahl der Stellen nach dem Dezimaltrennzeichen (1234.000)** – Sie können diese Option verwenden, um die Anzahl der Ziffern anzugeben, die nach dem Dezimaltrennzeichen angezeigt werden sollen.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
-Das Dialogfeld &quot;Design&quot;wird verwendet, um CSS-Stile für die Eingabekomponente &quot;Zahl&quot;zu definieren und zu verwalten.
+Sie können das Dialogfeld „Design“ verwenden, um CSS-Stile für die Zahleneingabe-Komponente zu definieren und zu verwalten.
 
-### Registerkarte „Arten“ {#styles-tab}
+### Registerkarte „Stile“ {#styles-tab}
 
-Die Registerkarte wird verwendet, um CSS-Stile für eine Komponente zu definieren und zu verwalten. Die Eingabekomponente für die adaptive Forms-Nummer unterstützt die AEM [Stilsystem](/help/get-started/authoring.md#component-styling).
+Die Registerkarte wird verwendet, um CSS-Stile für eine Komponente zu definieren und zu verwalten. Die Kernkomponente „Zahleneingabe“ für adaptive Formulare unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
 ![Styletab](/help/adaptive-forms/assets/datepicker_styletab.png)
 
-**Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die Eingabe-Kernkomponente &quot;Adaptive Forms Number&quot;bereitstellen.
+**Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die Kernkomponente „Zahleneingabe“ für adaptive Formulare bereitstellen.
 
-**Zulässige Stile**: Sie können Stile definieren, indem Sie einen Namen und die CSS-Klasse angeben, die den Stil darstellt. Sie können beispielsweise einen Stil mit dem Namen &quot;fett Text&quot;erstellen und die CSS-Klasse &quot;font-weight: fett&quot;. Sie können diese Stile in Adaptive Forms verwenden oder auf ein adaptives Formular anwenden. Um einen Stil anzuwenden, wählen Sie im adaptiven Forms-Editor die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Dialogfeld &quot;Eigenschaften&quot;und wählen Sie den gewünschten Stil aus dem **Stile** Dropdown-Liste. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld &quot;Design&quot;zurück, aktualisieren Sie die Stile auf der Registerkarte &quot;Stile&quot;und speichern Sie die Änderungen.
+**Zulässige Stile**: Sie können Stile definieren, indem Sie den Namen und die CSS-Klasse für den Stil angeben. Sie können beispielsweise einen Stil mit dem Namen „Fettschrift“ erstellen und die CSS-Klasse „Schriftbreite: Fett“ bereitstellen. Sie können diese Stile in Adaptive Forms verwenden oder auf ein adaptives Formular anwenden. Um einen Stil anzuwenden, wählen Sie im adaptiven Forms-Editor die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Dialogfeld &quot;Eigenschaften&quot;und wählen Sie den gewünschten Stil aus dem **Stile** Dropdown-Liste. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld „Design“ zurück, aktualisieren die Stile auf der Registerkarte „Stile“ und speichern die Änderungen.
 
-### Registerkarte &quot;Formate&quot; {#format-tab}
+### Registerkarte „Formate“ {#format-tab}
 
-Auf der Registerkarte &quot;Formate&quot;können Sie standardmäßige und benutzerdefinierte Zahlenformate angeben.
+Auf der Registerkarte „Formate“ können Sie standardmäßige und benutzerdefinierte Zahlenformate angeben.
 ![Registerkarte &quot;Design&quot;](/help/adaptive-forms/assets/emailinput_designformattab.png)
 
