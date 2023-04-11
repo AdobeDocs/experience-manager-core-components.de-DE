@@ -4,9 +4,9 @@ description: Die Kernkomponente „Listenkomponente“ ermöglicht die einfache 
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
 source-git-commit: af908d77b30b7642b553f38c217136cfd5603108
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1208'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -94,12 +94,12 @@ Die Liste kann mit einer Liste mit festen Elementen erstellt werden.
 
 Tippen oder klicken Sie auf die Schaltfläche **Hinzufügen**, um ein neues Element in die Liste einzufügen.
 
-* Im **Link** Feld eingeben
+* Geben Sie im Feld **Link** eines der folgenden Elemente ein
    * Eine vollständig qualifizierte URL
-   * Relative URL zu vorhandenem AEM
-      * Sie können die **Dialogfeld &quot;Auswahl&quot;** , um ein Element aus AEM auszuwählen.
-* Im **Text** eingeben, geben Sie den Text ein, der für den Link in der Liste angezeigt werden soll.
-* Aktivieren Sie das Kontrollkästchen, wenn der Link in einer neuen Browser-Registerkarte geöffnet werden soll.
+   * Eine relative URL zu einem vorhandenen AEM-Inhalt
+      * Sie können das Dialogfeld **Auswahl** verwenden, um ein Element aus AEM auszuwählen.
+* Geben Sie in das Feld **Text** den Text ein, der für den Link in der Liste angezeigt werden soll.
+* Aktivieren Sie das Kontrollkästchen, wenn der Link in einer neuen Browser-Registerkarte geöffnet werden soll
 
 Sobald mehrere Elemente für die Liste erstellt wurden, können Sie die Liste anordnen.
 
