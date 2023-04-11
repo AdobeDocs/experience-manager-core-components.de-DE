@@ -1,26 +1,26 @@
 ---
 title: Listenkomponente (v3)
-description: Die Kernkomponente "Listenkomponente"(v3) ermöglicht die einfache Erstellung dynamischer und statischer Listen.
+description: Die Kernkomponente „Listenkomponente (v3)“ ermöglicht die einfache Erstellung dynamischer sowie statischer Listen.
 role: Architect, Developer, Admin, User
-source-git-commit: af908d77b30b7642b553f38c217136cfd5603108
-workflow-type: tm+mt
+exl-id: 4aefce2e-9c22-4c6d-869e-aaa8c246b073
+source-git-commit: d86cb826922330f9877a725b84eb1844e1d5c0b7
+workflow-type: ht
 source-wordcount: '1176'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-
 # Listenkomponente (v3) {#list-component}
 
-Die Kernkomponente &quot;Listenkomponente&quot;(v3) ermöglicht die einfache Erstellung dynamischer und statischer Listen.
+Die Kernkomponente „Listenkomponente (v3)“ ermöglicht die einfache Erstellung dynamischer sowie statischer Listen.
 
 ## Verwendung {#usage}
 
-Mit der Listenkomponente (v3) können Sie beispielsweise eine dynamische Liste von untergeordneten Seiten oder eine statische Liste von willkürlich definierten Elementen erstellen. Der Typ der verfügbaren Listen und Formatierungsoptionen kann vom Vorlagenautor im [Dialogfeld „Design“](#design-dialog) definiert werden. Der Inhaltseditor kann aus verfügbaren Listentypen und Elementen zum Formatieren der Listen im [Dialogfeld „Bearbeiten“](#edit-dialog) auswählen.
+Die Listenkomponente (v3) kann beispielsweise zum Erstellen einer dynamischen Liste untergeordneter Seiten oder einer statischen Liste willkürlich definierter Elemente verwendet werden. Der Typ der verfügbaren Listen und Formatierungsoptionen kann vom Vorlagenautor im [Dialogfeld „Design“](#design-dialog) definiert werden. Der Inhaltseditor kann aus verfügbaren Listentypen und Elementen zum Formatieren der Listen im [Dialogfeld „Bearbeiten“](#edit-dialog) auswählen.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-In diesem Dokument wird die v3 der Listenkomponente beschrieben, die mit Version 2.18.0 der Kernkomponenten im Februar 2022 eingeführt wurde.
+In diesem Dokument wird die v3 der Listenkomponente beschrieben, die im Februar 2022 mit der Version 2.18.0 der Kernkomponenten eingeführt wurde.
 
 >[!CAUTION]
 >
