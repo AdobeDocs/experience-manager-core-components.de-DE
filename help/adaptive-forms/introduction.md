@@ -3,10 +3,10 @@ title: Einführung zu Kernkomponenten für adaptive Formulare in AEM
 description: Erstellen Sie ansprechende Registrierungserlebnisse (Formulare) mit der Flexibilität der Kernkomponenten für adaptive Formulare und stellen Sie sie über Adobe Experience Manager bereit.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 0dec0b1e1d5303a8351d16f748f064a49128cbb3
-workflow-type: ht
-source-wordcount: '1028'
-ht-degree: 100%
+source-git-commit: 7afcc06e5932d8eeb4a4c45f52c653222f142daa
+workflow-type: tm+mt
+source-wordcount: '1168'
+ht-degree: 90%
 
 ---
 
@@ -90,32 +90,41 @@ Die Kernkomponenten für adaptive Formulare haben die folgenden Anforderungen.
 
 | AEM | AEM Forms-Add-on | Kernkomponenten |
 |---|---|---|
-| AEM as a Cloud Service | Forms – Digitale Registrierung | [Version 2.20.8](/help/versions.md)+ |
+| AEM as a Cloud Service | Forms – Digitale Registrierung | [Version 2.20.8](version.md)+ |
+| AEM 6.5 | Forms-Add-on | [Version 1.1.12](version.md)+ |
+
+## Einrichten und Erstellen eines auf Kernkomponenten basierenden adaptiven Formulars
+
+**AEM Forms as a Cloud Service**: Wenn Sie ein neues as a Cloud Service AEM Forms-Programm erstellen, sind die adaptiven Forms-Kernkomponenten bereits für Ihre Umgebung aktiviert. Wenn Sie eine Forms as a Cloud Service-Umgebung basierend auf Archetyp 39 oder früher haben, [aktivieren Sie die Kernkomponenten adaptiver Formulare für Ihre Umgebung](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html?#enable-adaptive-forms-core-components-for-an-existing-aem-archetype-based-project).
+
+Sobald Sie die Kernkomponenten für Ihre Umgebung aktivieren, wird die Vorlage und das Arbeitsflächen-Design für **adaptive Formulare (Kernkomponente)** zu Ihrer Umgebung hinzugefügt. Wenn Ihre AEM SDK-Version älter als 2023.02.0 ist, [sicherstellen, dass Sie `prerelease` Markierung aktiviert in Ihrer Umgebung](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=en#new-features) als Adaptive Forms-Kernkomponenten waren Teil der Vorabversion vor der Version 2023.02.0.
+
+Informationen zum Erstellen eines adaptiven Formulars mithilfe des Adaptive Forms-Assistenten und des Adaptive Forms-Editors finden Sie unter Erstellen eines adaptiven Formulars ([Kernkomponenten](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=de?)).
 
 
 ## Kernkomponenten für adaptive Formulare {#components}
 
-Sie können den [Editor für adaptive Formulare](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=de) verwenden, um auf adaptiven Formularen basierende Kernkomponenten zu erstellen. Die aktuelle Version der Kernkomponenten für adaptive Formulare enthält die unten aufgelisteten Komponenten.
+Die aktuelle Version der Kernkomponenten für adaptive Formulare enthält die unten aufgelisteten Komponenten.
 
-* Akkordeon
-* Schaltfläche
-* Kontrollkästchen Gruppe
-* Datumsauswahl
-* Dropdown-Liste
-* E-Mail-Eingabe
-* Formular-Container
-* Dateianhang
-* Fußzeile
-* Kopfzeile
-* Horizontale Registerkarten
-* Bild
-* Zahleneingabe
-* Bedienfeld-Container
-* Optionsschaltfläche
-* Schaltfläche „Zurücksetzen“
-* Schaltfläche „Senden“
-* Telefoneingabe
-* Texteingabe
-* Text
-* Titel
-* Assistent
+* [Akkordeon](/help/adaptive-forms/components/accordion.md)
+* [Schaltfläche](/help/adaptive-forms/components/button.md)
+* [Kontrollkästchen Gruppe](/help/adaptive-forms/components/checkbox-group.md)
+* [Datumsauswahl](/help/adaptive-forms/components/date-picker.md)
+* [Dropdown-Liste](/help/adaptive-forms/components/drop-down.md)
+* [E-Mail-Eingabe](/help/adaptive-forms/components/email-input.md)
+* [Formular-Container](/help/adaptive-forms/components/form-container.md)
+* [Dateianhang](/help/adaptive-forms/components/file-attachment.md)
+* [Fußzeile](/help/adaptive-forms/components/footer.md)
+* [Kopfzeile](/help/adaptive-forms/components/header.md)
+* [Horizontale Registerkarten](/help/adaptive-forms/components/horizontal-tabs.md)
+* [Bild](/help/adaptive-forms/components/image.md)
+* [Zahleneingabe](/help/adaptive-forms/components/number-input.md)
+* [Bedienfeld-Container](/help/adaptive-forms/components/panel-container.md)
+* [Optionsschaltfläche](/help/adaptive-forms/components/radio-button.md)
+* [Schaltfläche „Zurücksetzen“](/help/adaptive-forms/components/reset-button.md)
+* [Schaltfläche „Senden“](/help/adaptive-forms/components/submit-button.md)
+* [Telefoneingabe](/help/adaptive-forms/components/telephone-input.md)
+* [Texteingabe](/help/adaptive-forms/components/text-input.md)
+* [Text](/help/adaptive-forms/components/text.md)
+* [Titel](/help/adaptive-forms/components/title.md)
+* [Assistent](/help/adaptive-forms/components/wizard.md)
