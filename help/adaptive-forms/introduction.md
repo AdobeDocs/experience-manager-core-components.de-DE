@@ -3,9 +3,9 @@ title: Einführung zu Kernkomponenten für adaptive Formulare in AEM
 description: Erstellen Sie ansprechende Registrierungserlebnisse (Formulare) mit der Flexibilität der Kernkomponenten für adaptive Formulare und stellen Sie sie über Adobe Experience Manager bereit.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 7afcc06e5932d8eeb4a4c45f52c653222f142daa
+source-git-commit: 1ac6ed00c19a8ae00e6a53d18419890a88235158
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1169'
 ht-degree: 90%
 
 ---
@@ -67,41 +67,6 @@ Die Datenerfassung ist für die Lead-Generierung und die Registrierung von entsc
 
 * **Barrierefreiheit**: Kernkomponenten in adaptiven Formularen unterstützen Standards und Richtlinien für die Barrierefreiheit, um sicherzustellen, dass Formulare von Menschen mit Behinderungen verwendet werden können, einschließlich solcher, die Hilfstechnologien wie Bildschirmlesehilfen verwenden
 
-
-<!-- >, such as  [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), to ensure that forms can be used by people with disabilities, including those using assistive technologies such as screen readers.
-
-*   **Alignment with AEM Sites**: The Core Components are designed to be more aligned with AEM Sites, making it easier for Sites users to adopt and use them without having to learn anything new. The components use the same front-end pipeline as Sites, making it easier to style and modify their appearance. 
-
-<!-- Additionally, the following points further illustrate this alignment:
-
-    *   **Authoring experience inline with Page editor**: The Core Components have an authoring experience that is inline with the Sites editor, with dialogs and other experiences similar to the Page editor. This makes it easier for Sites users to create and manage forms within the familiar context of the Sites editor.
-
-    *   **Inline form editing in Sites editor**: The Core Components allow  inline form editing within the Sites editor, avoiding the need to switch back and forth between editors. This streamlines the authoring experience and makes it easier to create and manage forms.
-
-    *   **Inheriting Sites features in Forms**: Forms authored within a Sites page inherit the same features as Sites. This provides a seamless and integrated experience for creating and managing forms within the context of AEM Sites 
-    
-    <!--including Multi Site Manager, the ability to use Sites components within a form for static content, support for scheduled publish/unpublish, form translation aligned with Sites translation, versioning, and targeting -->
-
-
-
-## Voraussetzungen {#requirements}
-
-Die Kernkomponenten für adaptive Formulare haben die folgenden Anforderungen.
-
-| AEM | AEM Forms-Add-on | Kernkomponenten |
-|---|---|---|
-| AEM as a Cloud Service | Forms – Digitale Registrierung | [Version 2.20.8](version.md)+ |
-| AEM 6.5 | Forms-Add-on | [Version 1.1.12](version.md)+ |
-
-## Einrichten und Erstellen eines auf Kernkomponenten basierenden adaptiven Formulars
-
-**AEM Forms as a Cloud Service**: Wenn Sie ein neues as a Cloud Service AEM Forms-Programm erstellen, sind die adaptiven Forms-Kernkomponenten bereits für Ihre Umgebung aktiviert. Wenn Sie eine Forms as a Cloud Service-Umgebung basierend auf Archetyp 39 oder früher haben, [aktivieren Sie die Kernkomponenten adaptiver Formulare für Ihre Umgebung](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html?#enable-adaptive-forms-core-components-for-an-existing-aem-archetype-based-project).
-
-Sobald Sie die Kernkomponenten für Ihre Umgebung aktivieren, wird die Vorlage und das Arbeitsflächen-Design für **adaptive Formulare (Kernkomponente)** zu Ihrer Umgebung hinzugefügt. Wenn Ihre AEM SDK-Version älter als 2023.02.0 ist, [sicherstellen, dass Sie `prerelease` Markierung aktiviert in Ihrer Umgebung](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=en#new-features) als Adaptive Forms-Kernkomponenten waren Teil der Vorabversion vor der Version 2023.02.0.
-
-Informationen zum Erstellen eines adaptiven Formulars mithilfe des Adaptive Forms-Assistenten und des Adaptive Forms-Editors finden Sie unter Erstellen eines adaptiven Formulars ([Kernkomponenten](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=de?)).
-
-
 ## Kernkomponenten für adaptive Formulare {#components}
 
 Die aktuelle Version der Kernkomponenten für adaptive Formulare enthält die unten aufgelisteten Komponenten.
@@ -128,3 +93,39 @@ Die aktuelle Version der Kernkomponenten für adaptive Formulare enthält die un
 * [Text](/help/adaptive-forms/components/text.md)
 * [Titel](/help/adaptive-forms/components/title.md)
 * [Assistent](/help/adaptive-forms/components/wizard.md)
+
+## Einrichten von Kernkomponenten
+
+
+Die Kernkomponenten für adaptive Formulare haben die folgenden Anforderungen.
+
+| AEM | AEM Forms-Add-on | Kernkomponenten |
+|---|---|---|
+| AEM as a Cloud Service | Forms – Digitale Registrierung | [Version 2.20.8](version.md)+ |
+| AEM 6.5 | Forms-Add-on | [Version 1.1.12](version.md)+ |
+
+### Erstellen eines adaptiven Formulars basierend auf Kernkomponenten
+
+**AEM Forms as a Cloud Service:** Wenn Sie ein neues as a Cloud Service AEM Forms-Programm erstellen, sind die adaptiven Forms-Kernkomponenten bereits für Ihre Umgebung aktiviert. Wenn Sie eine Forms as a Cloud Service-Umgebung basierend auf Archetyp 39 oder früher haben, [aktivieren Sie die Kernkomponenten adaptiver Formulare für Ihre Umgebung](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html?#enable-adaptive-forms-core-components-for-an-existing-aem-archetype-based-project).
+
+Sobald Sie die Kernkomponenten für Ihre Umgebung aktivieren, wird die Vorlage und das Arbeitsflächen-Design für **adaptive Formulare (Kernkomponente)** zu Ihrer Umgebung hinzugefügt. Wenn Ihre AEM SDK-Version älter als 2023.02.0 ist, [sicherstellen, dass Sie `prerelease` Markierung aktiviert in Ihrer Umgebung](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=en#new-features) als Adaptive Forms-Kernkomponenten waren Teil der Vorabversion vor der Version 2023.02.0.
+
+Informationen zum Erstellen eines adaptiven Formulars mithilfe des Adaptive Forms-Assistenten und des Adaptive Forms-Editors finden Sie unter Erstellen eines adaptiven Formulars ([Kernkomponenten](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=de?)).
+
+
+
+
+
+<!-- >, such as  [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), to ensure that forms can be used by people with disabilities, including those using assistive technologies such as screen readers.
+
+*   **Alignment with AEM Sites**: The Core Components are designed to be more aligned with AEM Sites, making it easier for Sites users to adopt and use them without having to learn anything new. The components use the same front-end pipeline as Sites, making it easier to style and modify their appearance. 
+
+<!-- Additionally, the following points further illustrate this alignment:
+
+    *   **Authoring experience inline with Page editor**: The Core Components have an authoring experience that is inline with the Sites editor, with dialogs and other experiences similar to the Page editor. This makes it easier for Sites users to create and manage forms within the familiar context of the Sites editor.
+
+    *   **Inline form editing in Sites editor**: The Core Components allow  inline form editing within the Sites editor, avoiding the need to switch back and forth between editors. This streamlines the authoring experience and makes it easier to create and manage forms.
+
+    *   **Inheriting Sites features in Forms**: Forms authored within a Sites page inherit the same features as Sites. This provides a seamless and integrated experience for creating and managing forms within the context of AEM Sites 
+    
+    <!--including Multi Site Manager, the ability to use Sites components within a form for static content, support for scheduled publish/unpublish, form translation aligned with Sites translation, versioning, and targeting -->
