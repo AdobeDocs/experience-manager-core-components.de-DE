@@ -3,9 +3,9 @@ title: E-Mail-Bildkomponente
 description: Die E-Mail-Bildkomponente ist eine adaptive Bildkomponente, die eine Bearbeitung im Kontext ermöglicht.
 role: Architect, Developer, Admin, User
 exl-id: f5d40047-3082-4edd-a5f6-6ab3e33997f9
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '1683'
+source-wordcount: '1645'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 
 | Komponentenversion | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|
-| v1 | Kompatibel | Kompatibel |
+| v1 | Kompatibel | - |
 
 Weitere Informationen zu Kernkomponentenversionen und -Releases finden Sie im Dokument [E-Mail-Kernkomponentenversionen](/help/email/versions.md).
 
@@ -61,10 +61,6 @@ Skalierbare Vektorgrafiken (SVG) werden von der E-Mail-Bildkomponente unterstüt
 ### Sicherheit {#security}
 
 Aus Sicherheitsgründen wird die ursprüngliche SVG niemals direkt vom Bild-Editor aufgerufen. Es wird durch `<img src=“path-to-component”>` aufgerufen. Dadurch wird verhindert, dass der Browser Skripte ausführt, die in der SVG-Datei eingebettet sind.
-
-## Muster für Komponentenausgabe {#sample-component-output}
-
-Um die E-Mail-Bildkomponente auszuprobieren und Beispiele für ihre Konfigurationsoptionen sowie die HTML- und JSON-Ausgabe zu sehen, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_email_image).
 
 ### Technische Details {#technical-details}
 

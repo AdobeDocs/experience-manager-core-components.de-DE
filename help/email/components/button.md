@@ -3,9 +3,9 @@ title: E-Mail-Button-Komponente
 description: Die E-Mail-Button-Komponente ermöglicht die Konfiguration und Anzeige eines Button-Elements in Ihrem Inhalt.
 role: Architect, Developer, Admin, User
 exl-id: b144e8d1-1097-475d-b2eb-3353c176afb9
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '525'
 ht-degree: 100%
 
 ---
@@ -30,13 +30,9 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 
 | Komponentenversion | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|
-| v1 | Kompatibel | Kompatibel |
+| v1 | Kompatibel | - |
 
 Weitere Informationen zu Kernkomponentenversionen und -Releases finden Sie im Dokument [E-Mail-Kernkomponentenversionen](/help/email/versions.md).
-
-## Muster für Komponentenausgabe {#sample-component-output}
-
-Um die E-Mail-Button-Komponente sowie Beispiele für die Konfigurationsoptionen sowie HTML- und JSON-Ausgaben anzusehen, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_email_button).
 
 ## Technische Details {#technical-details}
 

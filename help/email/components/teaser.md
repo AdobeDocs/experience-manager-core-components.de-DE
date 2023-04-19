@@ -3,9 +3,9 @@ title: E-Mail-Teaser-Komponente
 description: Die E-Mail-Teaser-Komponente kann ein Bild, einen Titel, einen Rich-Text und optional einen Link zu weiteren Inhalten anzeigen.
 role: Architect, Developer, Admin, User
 exl-id: d6123b22-7cba-406c-986d-b6f00322d135
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1018'
 ht-degree: 100%
 
 ---
@@ -31,11 +31,7 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 
 | Komponentenversion | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|
-| v1 | Kompatibel | Kompatibel |
-
-## Muster für Komponentenausgabe {#sample-component-output}
-
-Um die E-Mail-Teaser-Komponente sowie Beispiele für ihre Konfigurationsoptionen sowie HTML- und JSON-Ausgaben anzusehen, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_email_teaser).
+| v1 | Kompatibel | - |
 
 ### Technische Details {#technical-details}
 

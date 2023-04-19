@@ -3,9 +3,9 @@ title: E-Mail-Inhaltsfragment-Komponente
 description: Die E-Mail-Inhaltsfragment-Komponente ermöglicht die Anzeige eines Inhaltsfragments in Ihrem Inhalt.
 role: Architect, Developer, Admin, User
 exl-id: 9bc6b730-0d2a-4e5b-891c-d2f67f600bcc
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '629'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ Die E-Mail-Inhaltsfragment-Komponente ermöglicht die Anzeige eines [Inhaltsfrag
 
 ## Verwendung {#usage}
 
-Die E-Mail-Inhaltsfragment-Komponente ermöglicht das Einfügen eines [Inhaltsfragments](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) in Ihren E-Mail-Inhalt. Inhaltsfragmente sind kanalübergreifende, strukturierte Inhalte, die zentral erstellt und einfach wiederverwendet werden können.
+Die E-Mail-Inhaltsfragment-Komponente ermöglicht das Einfügen eines [Inhaltsfragments](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=de) in Ihren E-Mail-Inhalt. Inhaltsfragmente sind kanalübergreifende, strukturierte Inhalte, die zentral erstellt und einfach wiederverwendet werden können.
 
 * Das Fragment und seine Eigenschaften können im [Dialogfeld „Konfigurieren“](#configure-dialog) ausgewählt werden.
 * Ressourcentypen zum Verarbeiten bestimmter Bilder und Raster können im [Dialogfeld „Design“](#design-dialog) definiert werden.
@@ -31,13 +31,9 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 
 | Komponentenversion | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|
-| v1 | Kompatibel | Kompatibel |
+| v1 | Kompatibel | - |
 
 Weitere Informationen zu E-Mail-Kernkomponentenversionen und -Releases finden Sie im Dokument [E-Mail-Kernkomponentenversionen](/help/email/versions.md).
-
-## Muster für Komponentenausgabe {#sample-component-output}
-
-Um die E-Mail-Inhaltsfragment-Komponente sowie Beispiele für die Konfigurationsoptionen und die HTML- und JSON-Ausgabe zu sehen, gehen Sie zur [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_email_cf).
 
 ## Technische Details {#technical-details}
 

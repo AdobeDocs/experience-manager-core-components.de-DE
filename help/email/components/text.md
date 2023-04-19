@@ -3,9 +3,9 @@ title: E-Mail-Textkomponente
 description: Die E-Mail-Textkomponente ist eine Komponente zur Bearbeitung und Erstellung von Rich-Texten, die eine Bearbeitung im Kontext ermöglicht.
 role: Architect, Developer, Admin, User
 exl-id: 4aa192f6-8314-40e7-8732-c6626d647986
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '2328'
+source-wordcount: '2291'
 ht-degree: 100%
 
 ---
@@ -30,13 +30,9 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 
 | Komponentenversion | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|
-| v1 | Kompatibel | Kompatibel |
+| v1 | Kompatibel | - |
 
 Weitere Informationen zu Kernkomponentenversionen und -Releases finden Sie im Dokument [E-Mail-Kernkomponentenversionen](/help/email/versions.md).
-
-## Muster für Komponentenausgabe {#sample-component-output}
-
-Um die Textkomponente sowie Beispiele für die Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_email_text).
 
 ### Technische Details {#technical-details}
 
@@ -52,7 +48,7 @@ Der Rest dieses Dokuments zeigt die Standardkonfiguration der E-Mail-Textkompone
 
 >[!NOTE]
 >
->In der E-Mail-Textkomponente sind nur Optionen verfügbar, die durch die [UI-Konfigurationen des RTE](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) aktiviert sind.
+>In der E-Mail-Textkomponente sind nur Optionen verfügbar, die durch die [UI-Konfigurationen des RTE](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=de) aktiviert sind.
 
 ## Dialogfeld „Bearbeiten“ {#edit-dialog}
 
@@ -284,7 +280,7 @@ Wird zum Ausrichten eines eingefügten Bildes verwendet.
 
 Wird verwendet, um die Rechtschreibung des Textinhalts zu überprüfen. Mögliche Rechtschreibfehler sind durch gestrichelte rote Linien unterstrichen.
 
-Weitere Details zur Rechtschreibprüfung und zum Anpassen von Rechtschreibprüfungswörterbüchern finden Sie im Dokument [Konfigurieren der Plug-ins für Rich-Text-Editor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
+Weitere Details zur Rechtschreibprüfung und zum Anpassen von Rechtschreibprüfungswörterbüchern finden Sie im Dokument [Konfigurieren der Plug-ins für Rich-Text-Editor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=de).
 
 #### Sonderzeichen {#special-characters}
 

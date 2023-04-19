@@ -3,9 +3,9 @@ title: E-Mail-Experience-Fragment-Komponente
 description: Mit der E-Mail-Experience-Fragment-Komponente kann der Inhaltsautor bzw. die Inhaltsautorin eine Experience Fragment-Variation im Inhalt platzieren, während eine lokalisierte Inhaltsstruktur unterstützt wird.
 role: Architect, Developer, Admin, User
 exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '888'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,7 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 
 | Komponentenversion | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|
-| v1 | Kompatibel | Kompatibel |
+| v1 | Kompatibel | - |
 
 Weitere Informationen zu E-Mail-Kernkomponentenversionen und -Releases finden Sie im Dokument [Kernkomponentenversionen](/help/email/versions.md).
 
@@ -104,10 +104,6 @@ Die Komponente E-Mail-Experience Fragment versucht, in der folgenden Reihenfolge
 1. Wird dieser nicht gefunden, wird versucht, ein Blueprint zu finden.
 1. Wenn auch dieses nicht gefunden werden, versucht sie, eine Live Copy zu finden.
 1. Falls sie nicht gefunden wird, wird standardmäßig das in der Komponente konfigurierte Experience Fragment verwendet.
-
-## Muster für Komponentenausgabe {#sample-component-output}
-
-Um die E-Mail-Experience-Fragment-Komponente sowie Beispiele für ihre Konfigurationsoptionen und die HTML- und JSON-Ausgabe anzuzeigen, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_email_xf).
 
 ## Technische Details {#technical-details}
 

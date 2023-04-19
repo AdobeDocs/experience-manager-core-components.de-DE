@@ -3,9 +3,9 @@ title: E-Mail-Titelkomponente
 description: Die E-Mail-Titelkomponente ist eine Komponente für Abschnittsüberschriften für Ihre E-Mails, die eine direkte Bearbeitung ermöglicht.
 role: Architect, Developer, Admin, User
 exl-id: f65b6973-bb36-406f-bbea-f85a23f5340b
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '599'
 ht-degree: 100%
 
 ---
@@ -32,13 +32,9 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 
 | Komponentenversion | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|
-| v1 | Kompatibel | Kompatibel |
+| v1 | Kompatibel | - |
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie im Dokument [E-Mail-Kernkomponentenversionen](/help/versions.md).
-
-## Muster für Komponentenausgabe {#sample-component-output}
-
-Um die Titelkomponente sowie Beispiele für die Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_email_title).
 
 ### Technische Details {#technical-details}
 
