@@ -4,9 +4,9 @@ description: Verwenden oder Anpassen der Kernkomponente „Adaptive Formulare �
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '862'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -38,11 +38,11 @@ Insgesamt ist der Titel eines Formulars ein wichtiger Aspekt des Benutzererlebni
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die Kernkomponente &quot;Adaptive Forms Accordion&quot;wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 für Cloud Service und Kernkomponenten 1.1.12 für AEM 6.5.16.0 Forms oder höher veröffentlicht. In der folgenden Tabelle finden Sie alle unterstützten Versionen, AEM Kompatibilität und Links zur entsprechenden Dokumentation:
+Die Kernkomponente „Akkordeon“ für adaptive Formulare wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 für Cloud Service und der Kernkomponenten 1.1.12 für AEM 6.5.16.0 Forms oder höher veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
 
 | Komponentenversion | AEM as a Cloud Service | AEM 6.5.16.0 Forms oder höher |
 |---|---|---|
-| v1 | Kompatibel mit<br>[Version 2.0.4](/help/adaptive-forms/version.md) und höher | Kompatibel mit<br>[Version 1.1.12](/help/adaptive-forms/version.md) und höher, jedoch weniger als 2.0.0. |
+| v1 | Kompatibel mit<br>[Version 2.0.4](/help/adaptive-forms/version.md) und höher | Kompatibel mit<br>[Version 1.1.12](/help/adaptive-forms/version.md) und höher (aber nur bis Version 2.0.0). |
 
 Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokument [Kernkomponenten-Versionen](/help/adaptive-forms/version.md).
 
@@ -72,7 +72,7 @@ Im Dialogfeld „Bearbeiten“ kann der Inhaltsautor bzw. die Inhaltsautorin den
 
 ## Dialogfeld „Design“ {#design-dialog}
 
-Die Registerkarte &quot;Design&quot;wird verwendet, um CSS-Stile für die Komponente &quot;Datumsauswahl&quot;zu definieren und zu verwalten.
+Die Registerkarte „Design“ wird verwendet, um CSS-Stile für die Komponente „Datumsauswahl“ zu definieren und zu verwalten.
 
 ### Titel
 
@@ -86,7 +86,7 @@ Auf der Registerkarte „Titel“ können Vorlagenautoren und -autorinnen standa
 
 ### Registerkarte „Stile“ {#styles-tab}
 
-Die Registerkarte wird verwendet, um CSS-Stile für eine Komponente zu definieren und zu verwalten. Die Datumsauswahl-Kernkomponente in adaptiven Formularen unterstützt das [Stilsystem](/help/get-started/authoring.md#component-styling) von AEM.
+Sie können die Registerkarte zum Definieren und Verwalten von CSS-Stilen für eine Komponente verwenden. Die Kernkomponente „Datumsauswahl“ in adaptiven Formularen unterstützt das [Stilsystem](/help/get-started/authoring.md#component-styling) von AEM.
 
 ![Registerkarte „Titel“ im Dialogfeld „Design“](/help/adaptive-forms/assets/title_styles.png)
 
@@ -98,6 +98,6 @@ Die Registerkarte wird verwendet, um CSS-Stile für eine Komponente zu definiere
 
 Auf der Registerkarte „Formate“ können Sie standardmäßige und benutzerdefinierte Datumsformate angeben.
 
-![Registerkarte &quot;Format&quot;](/help/adaptive-forms/assets/title_styles.png)
+![Registerkarte „Formate“](/help/adaptive-forms/assets/title_styles.png)
 
 
