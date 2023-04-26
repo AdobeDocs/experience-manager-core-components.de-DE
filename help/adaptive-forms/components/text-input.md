@@ -4,9 +4,9 @@ description: Verwenden oder Anpassen der Texteingabe-Kernkomponente für adaptiv
 role: Architect, Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1750'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -32,11 +32,11 @@ Es gibt mehrere Gründe für die Verwendung der Texteingabekomponente in einem a
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die Kernkomponente &quot;Adaptive Forms Accordion&quot;wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 für Cloud Service und Kernkomponenten 1.1.12 für AEM 6.5.16.0 Forms oder höher veröffentlicht. In der folgenden Tabelle finden Sie alle unterstützten Versionen, AEM Kompatibilität und Links zur entsprechenden Dokumentation:
+Die Kernkomponente „Akkordeon“ für adaptive Formulare wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 für Cloud Service und der Kernkomponenten 1.1.12 für AEM 6.5.16.0 Forms oder höher veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
 
 | Komponentenversion | AEM as a Cloud Service | AEM 6.5.16.0 Forms oder höher |
 |---|---|---|
-| v1 | Kompatibel mit<br>[Version 2.0.4](/help/adaptive-forms/version.md) und höher | Kompatibel mit<br>[Version 1.1.12](/help/adaptive-forms/version.md) und höher, jedoch weniger als 2.0.0. |
+| v1 | Kompatibel mit<br>[Version 2.0.4](/help/adaptive-forms/version.md) und höher | Kompatibel mit<br>[Version 1.1.12](/help/adaptive-forms/version.md) und höher (aber nur bis Version 2.0.0). |
 
 Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokument [Kernkomponenten-Versionen](/help/adaptive-forms/version.md).
 
@@ -100,7 +100,7 @@ Die Option **Überprüfungsmuster** ermöglicht die Eingabe eines Musters zur Ü
 
 * **Muster**: Mit dieser Option können Sie die zulässigen Überprüfungsmuster für Text eingeben. Reguläre Ausdrücke sind ebenfalls zulässig.
 
-* **Fehlermeldung**: Sie können mit dieser Option eine Nachricht eingeben, die auf dem Bildschirm erscheint, wenn der eingegebene Text nicht mit dem in der Option **Muster** übereinstimmt
+* **Fehlermeldung**: Sie können mit dieser Option eine Nachricht eingeben, die auf dem Bildschirm erscheint, wenn der eingegebene Text nicht mit dem in der Option **Muster** übereinstimmt.
 
 ### Registerkarte „Hilfe-Inhalt“ {#help-content-tab}
 
@@ -124,7 +124,7 @@ Das Dialogfeld „Design“ wird verwendet, um CSS-Stile für die Komponente „
 
 ### Registerkarte „Stile“ {#styles-tab}
 
-Die Registerkarte wird verwendet, um CSS-Stile für eine Komponente zu definieren und zu verwalten. Die Textfeld-Kernkomponente für adaptive Formulare unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
+Sie können die Registerkarte zum Definieren und Verwalten von CSS-Stilen für eine Komponente verwenden. Die Kernkomponente „Textfeld“ für adaptive Formulare unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
 ![Dialogfeld „Design“](/help/adaptive-forms/assets/telephoneinput_designdialog.png)
 
@@ -136,5 +136,5 @@ Die Registerkarte wird verwendet, um CSS-Stile für eine Komponente zu definiere
 
 Auf der Registerkarte „Formate“ können Sie standardmäßige und benutzerdefinierte Zahlenformate angeben.
 
-![Registerkarte &quot;Format&quot;](/help/adaptive-forms/assets/telephoneinput_format.png)
+![Registerkarte „Formate“](/help/adaptive-forms/assets/telephoneinput_format.png)
 
