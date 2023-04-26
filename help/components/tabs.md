@@ -4,9 +4,9 @@ description: Die Registerkarten-Komponente ermöglicht die Erstellung mehrerer R
 role: Architect, Developer, Admin, User
 exl-id: 0031c5f3-447c-4932-898f-2f453801e492
 source-git-commit: e8b3e55a42b6be6262d6f51b9569c0be3e8ce6c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1033'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -48,9 +48,9 @@ Die aktuelle technische Dokumentation zur Registerkarten-Komponente [finden Sie 
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
-## Deep-Link auf ein Bedienfeld {#deep-linking}
+## Tiefe Verknüpfung mit einem Bedienfeld {#deep-linking}
 
-Die Registerkarten [Karussell,](carousel.md) und [Accordion-Komponenten](accordion.md) Unterstützung der direkten Verknüpfung zu einem Bedienfeld innerhalb der Komponente.
+Die Registerkarten-, [Karussell](carousel.md)- und [Akkordeon-Komponenten](accordion.md) unterstützen direkte Links zu einem Bedienfeld innerhalb der Komponente.
 
 Gehen Sie hierfür wie folgt vor:
 
