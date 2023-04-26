@@ -4,9 +4,9 @@ description: Verwenden oder Anpassen der Kernkomponente „Horizontale Registerk
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1609'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -30,11 +30,11 @@ Die häufigsten Gründe für die Verwendung horizontaler Registerkarten in einem
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die Kernkomponente &quot;Adaptive Forms Accordion&quot;wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 für Cloud Service und Kernkomponenten 1.1.12 für AEM 6.5.16.0 Forms oder höher veröffentlicht. In der folgenden Tabelle finden Sie alle unterstützten Versionen, AEM Kompatibilität und Links zur entsprechenden Dokumentation:
+Die Kernkomponente „Akkordeon“ für adaptive Formulare wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 für Cloud Service und der Kernkomponenten 1.1.12 für AEM 6.5.16.0 Forms oder höher veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
 
 | Komponentenversion | AEM as a Cloud Service | AEM 6.5.16.0 Forms oder höher |
 |---|---|---|
-| v1 | Kompatibel mit<br>[Version 2.0.4](/help/adaptive-forms/version.md) und höher | Kompatibel mit<br>[Version 1.1.12](/help/adaptive-forms/version.md) und höher, jedoch weniger als 2.0.0. |
+| v1 | Kompatibel mit<br>[Version 2.0.4](/help/adaptive-forms/version.md) und höher | Kompatibel mit<br>[Version 1.1.12](/help/adaptive-forms/version.md) und höher (aber nur bis Version 2.0.0). |
 
 Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokument [Kernkomponenten-Versionen](/help/adaptive-forms/version.md).
 
@@ -78,7 +78,7 @@ Mit der Schalfläche **Hinzufügen** können Sie eine Komponente vom Komponenten
 
 * **Symbol**: Das Symbol identifiziert die Komponente des Bedienfelds in der Liste. Sie können den Mauszeiger über das Symbol bewegen, um den vollständigen Komponentennamen als QuickInfo anzuzeigen.
 * **Beschreibung** – Die Beschreibung, die als Text des Bedienfelds verwendet wird. Standardmäßig der Name der für das Bedienfeld ausgewählten Komponente.
-* **Löschen** - Tippen oder klicken Sie, um das Bedienfeld aus der Komponente der horizontalen Registerkarte zu löschen.
+* **Entfernen**: Tippen oder klicken Sie hierauf, um das Bedienfeld aus der horizontalen Registerkarten-Komponente zu löschen.
 * **Neu anordnen**: Tippen oder klicken und ziehen Sie, um die Reihenfolge der Bedienfelder neu anzuordnen.
 
 ### Registerkarte „Hilfe-Inhalt“ {#help-content}
@@ -101,10 +101,10 @@ Mit der Schalfläche **Hinzufügen** können Sie eine Komponente vom Komponenten
 
 ## Dialogfeld „Design“ {#design-dialog}
 
-Im Dialogfeld „Design“ können Vorlagenerstellende steuern, wie Elemente standardmäßig angezeigt werden. Für die Adaptive Forms-Komponente können Sie Folgendes festlegen:
+Im Dialogfeld „Design“ können Vorlagenerstellende steuern, wie Elemente standardmäßig angezeigt werden. Für die Komponente für adaptive Formulare können Sie Folgendes festlegen:
 
-* Die Kernkomponenten, die ein Formularersteller den horizontalen Registerkarten im Adaptive Forms-Editor hinzufügen kann
-* Einfache Namen für Stile (CSS-Klassen), die im Eigenschaftendialogfeld der Komponente für horizontale Registerkarten im Adaptive Forms-Editor angewendet werden können.
+* Kernkomponenten, die Sie den horizontalen Registerkarten im Editor für adaptiven Formulare hinzufügen können
+* Einfache Namen für Stile (CSS-Klassen), die Sie im Dialogfeld „Eigenschaften“ der horizontalen Registerkarten-Komponenten im Editor für adaptive Formulare anwenden können.
 
 Dadurch wird das Erstellen und Anpassen von Formularen einfacher und effizienter.
 
@@ -116,9 +116,9 @@ In der Registerkarte **Zugelassene Komponenten** können Vorlagen-Bearbeitende d
 
 ### Registerkarte „Stile“ {#styles-tab}
 
-Die Registerkarte wird verwendet, um CSS-Stile für eine Komponente zu definieren und zu verwalten. Die Kernkomponente „Horizontale Registerkarten“ für adaptive Formulare unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
+Sie können die Registerkarte zum Definieren und Verwalten von CSS-Stilen für eine Komponente verwenden. Die Kernkomponente „Horizontale Registerkarten“ für adaptive Formulare unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
-![Registerkarte &quot;Stil&quot;](/help/adaptive-forms/assets/horizontaltabs_designstyletab.png)
+![Registerkarte „Stile“](/help/adaptive-forms/assets/horizontaltabs_designstyletab.png)
 
 * **Standard-CSS-Klassen**: Sie können für die Kernkomponente „Horizontale Registerkarten“ von adaptiven Formularen eine standardmäßige CSS-Klasse festlegen.
 
