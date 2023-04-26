@@ -4,9 +4,9 @@ description: Mit der Karussellkomponente kann der Inhaltsautor Inhalte in einem 
 role: Architect, Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
 source-git-commit: e0d3790b265ab27ac2116f0d8daf1a18ecd3d714
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1312'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -42,9 +42,9 @@ Die aktuelle technische Dokumentation zur Karussellkomponente [finden Sie auf Gi
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
-## Deep-Link auf ein Bedienfeld {#deep-linking}
+## Tiefe Verknüpfung mit einem Bedienfeld {#deep-linking}
 
-Karussell, [Registerkarten,](tabs.md) und [Accordion-Komponenten](accordion.md) Unterstützung der direkten Verknüpfung zu einem Bedienfeld innerhalb der Komponente.
+Die Karussell-, [Registerkarten](tabs.md)- und [Akkordeon-Komponenten](accordion.md) unterstützen direkte Links zu einem Bedienfeld innerhalb der Komponente.
 
 Gehen Sie hierfür wie folgt vor:
 
@@ -54,7 +54,7 @@ Gehen Sie hierfür wie folgt vor:
 1. Die ID wird der Anker, den Sie über einen Hash (`#`) an die URL anhängen können.
    * Beispiel `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#carousel-bfe4fa6647-item-47f1a7ca67-tabpanel`
 
-Wird zu der URL mit der Bereichs-ID navigiert, scrollt der Browser direkt zur jeweiligen Komponente und zeigt das angegebene Bedienfeld an. Wenn das Bedienfeld so konfiguriert ist, dass es nicht standardmäßig angezeigt wird, wird automatisch ein Bildlauf zu durchgeführt.
+Wird zu der URL mit der Bereichs-ID navigiert, scrollt der Browser direkt zur jeweiligen Komponente und zeigt das angegebene Bedienfeld an. Wenn das Bedienfeld so konfiguriert ist, dass es nicht standardmäßig angezeigt wird, wird automatisch dorthin gescrollt.
 
 ## Dialogfeld „Bearbeiten“ {#edit-dialog}
 
@@ -79,9 +79,9 @@ Verwenden Sie die Schaltfläche **Hinzufügen**, um die Komponentenauswahl zu ö
 
 ![Registerkarte „Eigenschaften“ im Dialogfeld „Bearbeiten“ der Karussellkomponente](/help/assets/carousel-edit-properties.png)
 
-Auf der Registerkarte **Eigenschaften** kann der Inhaltsautor die Folien auf automatische Übergänge einstellen.
+Auf der Registerkarte **Eigenschaften** können Inhaltsautorinnen und -autoren die Folien auf automatische Übergänge einstellen.
 
-* **Aktives Element** - Der Inhaltsautor kann definieren, welche Registerkarte beim Laden der Seite aktiv ist.
+* **Aktives Element**: Inhaltsautorinnen und -autoren können definieren, welche Registerkarte beim Laden der Seite aktiv ist.
 * **Automatisch zwischen Folien wechseln** - Wenn diese Option aktiviert ist, wechselt die Komponente nach einer festgelegten Verzögerungszeit automatisch zur nächsten Folie.
 * **Übertragungsverzögerung** - Wenn die Option „Automatisch zwischen Folien wechseln“ ausgewählt wird, wird dieser Wert verwendet, um die Verzögerung zwischen Übergängen (in Millisekunden) zu definieren.
 * **Automatisches Pausieren beim Bewegen des Mauszeigers deaktivieren** - Wenn die Option **Automatisch zwischen Folien wechseln** ausgewählt ist, wird der Karussell-Übergang automatisch angehalten, sobald die Maus über das Karussell bewegt wird; Wählen Sie diese Option, damit der Übergang nicht angehalten wird.
@@ -102,13 +102,13 @@ Auf der Registerkarte **Eigenschaften** kann der Inhaltsautor die Folien auf aut
 
 Auf der Registerkarte **Erreichbarkeit** können Werte für die [ARIA-Barrierefreiheits-Beschriftungen](https://www.w3.org/WAI/standards-guidelines/aria/) für die Komponente festgelegt werden.
 
-* **Titel** - Wert des Attributs aria-label für das Karussell, das den Inhalt des Karussells beschreibt
-* **Vorherige** - Wert eines aria-label-Attributs für die vorherige Schaltflächenbeschriftung der Karussellnavigation
-* **Nächste** - Wert eines aria-label-Attributs für die nächste Schaltflächenbeschriftung der Karussellnavigation
-* **Play** - Wert eines aria-label-Attributs für die Wiedergabeschaltfläche der Karussellnavigation
-* **Anhalten** - Wert eines aria-label-Attributs für die Bezeichnung der Pause-Schaltfläche in der Karussellnavigation
-* **Tablist** - Wert eines aria-label-Attributs für die Liste der Elemente in der Karussellnavigation
-* **Legen Sie für die Beschriftung &quot;aria&quot;des Elements den Titel fest** - Wenn diese Option aktiviert ist, wird der Titel der Karussellelemente automatisch auf die Beschreibung der aria-Beschriftung gesetzt.
+* **Beschriftung**: Wert eines aria-label-Attributs für das Karussell, das den Karussellinhalt beschreibt.
+* **Zurück**: Wert eines aria-label-Attributs für die Beschriftung der Zurück-Schaltfläche bei der Karussellnavigation.
+* **Weiter**: Wert eines aria-label-Attributs für die Beschriftung der Weiter-Schaltfläche bei der Karussellnavigation.
+* **Wiedergabe**: Wert eines aria-label-Attributs für die Beschriftung der Wiedergabe-Schaltfläche bei der Karussellnavigation.
+* **Pause**: Wert eines aria-label-Attributs für die Beschriftung der Pause-Schaltfläche bei der Karussellnavigation.
+* **Registerkartenliste**: Wert eines aria-label-Attributs für die Beschriftung der Elementliste bei der Karussellnavigation.
+* **Beschriftung des Karussellelements auf seinen Titel festlegen**: Wenn diese Option aktiviert ist, wird der Titel der Karussellelemente automatisch auf die aria-label-Beschreibung festgelegt.
 
 ## Bedienfeld auswählen {#select-panel}
 
@@ -137,7 +137,7 @@ Im Dialogfeld „Design“ kann der Vorlagenautor definieren, welche Komponenten
 ![Dialogfeld „Design“ der Karussellkomponente](/help/assets/carousel-design.png)
 
 * **Automatisch zwischen Folien wechseln** - Definiert, ob die Option, automatisch das Karussell auf die nächste Folie zu verschieben, aktiviert ist, wenn der Inhaltsautor die Karussellkomponente einer Seite hinzufügt.
-* **Kontrollelemente voranstellen** - Wenn diese Option aktiviert ist, werden die Kontrollelemente vor den Karussellelementen platziert, um die Barrierefreiheit zu verbessern.
+* **Steuerelemente voranstellen**: Wenn diese Option aktiviert ist, werden die Steuerelemente vor den Karussellelementen platziert, um die Barrierefreiheit zu verbessern.
 
 ### Registerkarte „Zugelassene Komponenten“ {#allowed-components-tab}
 
