@@ -4,9 +4,9 @@ description: Verwenden oder Anpassen der Kernkomponente „Assistent“ für ada
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1847'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ Die Kernkomponente „Assistent“ für adaptive Formulare wurde im Februar 2023
 
 | Komponentenversion | AEM as a Cloud Service | AEM 6.5.16.0 Forms oder höher |
 |---|---|---|
-| v1 | Kompatibel mit<br>[Version 2.0.4](/help/adaptive-forms/version.md) und höher | Kompatibel mit<br>[Version 1.1.12](/help/adaptive-forms/version.md) und höher, jedoch weniger als 2.0.0. |
+| v1 | Kompatibel mit<br>[Version 2.0.4](/help/adaptive-forms/version.md) und höher | Kompatibel mit<br>[Version 1.1.12](/help/adaptive-forms/version.md) und höher (aber nur bis Version 2.0.0). |
 
 Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokument [Kernkomponenten-Versionen](/help/adaptive-forms/version.md).
 
@@ -113,7 +113,7 @@ Im Dialogfeld „Konfigurieren“ können Sie den Assistenten für Besuchende ei
 
 Im Dialogfeld „Design“ können Vorlagenerstellende steuern, wie Elemente standardmäßig angezeigt werden. Für die Komponente „Assistent“ für adaptive Formulare können Sie Folgendes festlegen:
 
-* Die Kernkomponenten, die ein Formularersteller bzw. eine Formularerstellerin dem Assistierenden im Editor für adaptive Formulare hinzufügen kann
+* Die Kernkomponenten, die ein Formularersteller bzw. eine Formularerstellerin dem Assistierenden im Editor für adaptive Formulare hinzufügen kann.
 * Einfache Namen für Stile (CSS-Klassen), die im Eigenschaften-Dialogfeld der Assistenten-Komponente im Editor für adaptive Formulare angewendet werden können.
 
 Dadurch wird das Erstellen und Anpassen von Formularen einfacher und effizienter.
@@ -122,36 +122,36 @@ Dadurch wird das Erstellen und Anpassen von Formularen einfacher und effizienter
 
 Über die Registerkarte **Zugelassene Komponenten** kann die Person, die die Vorlage erstellt, festlegen, welche Komponenten im Editor für adaptive Formulare zu den Bedienfeldern in der Assistenten-Komponente hinzugefügt werden können.
 
-![Registerkarten &quot;Zulässige Komponenten&quot;](/help/adaptive-forms/assets/panel_allowedcomponent.png)
+![Registerkarte „Zugelassene Komponenten“](/help/adaptive-forms/assets/panel_allowedcomponent.png)
 
 ### Registerkarte „Standardkomponenten“ {#default-component-tab}
 
-Auf dieser Registerkarte kann der Vorlageneditor die Komponenten, die als Elemente hinzugefügt werden können, den Bedienfeldern in der Assistentenkomponente im adaptiven Forms-Editor zuordnen.
+Über diese Registerkarte kann die Person, die die Vorlage erstellt, festlegen, welche Komponenten im Editor für adaptive Formulare den Bedienfeldern in der Assistentenkomponente hinzugefügt werden können.
 
-![Bedienfeldstandardkomponente](/help/adaptive-forms/assets/panel_defaultcomponent.png)
+![Bedienfeld „Standardkomponenten“](/help/adaptive-forms/assets/panel_defaultcomponent.png)
 
 ### Responsive Einstellungen {#responsive-settings}
 
-Auf dieser Registerkarte kann der Vorlageneditor die Anzahl der Spalten festlegen, die im responsiven Raster angezeigt werden sollen.
+Über diese Registerkarte kann die Person, die die Vorlage erstellt, die Anzahl der Spalten festlegen, die im responsiven Raster angezeigt werden soll.
 
 ![Responsives Raster](/help/adaptive-forms/assets/panel_responsivesettings.png)
 
 ### Registerkarte „Container-Einstellungen“ {#container-setting-tab}
 
-Auf der Registerkarte Container-Einstellungen können Sie die Position von Komponenten im adaptiven Forms-Editor festlegen.
+Auf der Registerkarte „Container-Einstellungen“ können Sie die Position von Komponenten im Editor für adaptive Formulare festlegen.
 
 ![Container-Einstellungen](/help/adaptive-forms/assets/panel_settings.png)
 
-* **Layout**: Das einfache Layout behält alle festen Elemente im Ort bei, während das responsive Raster es Ihnen ermöglicht, die Position der Komponenten an Ihre Bedürfnisse anzupassen.
-* **Layout deaktivieren**: Sie können die Layoutauswahl auch im Dialogfeld &quot;Bearbeiten&quot;deaktivieren, indem Sie die **Layout deaktivieren** aktivieren.
+* **Layout**: Das einfache Layout behält alles an Ort und Stelle, während Sie mit dem responsiven Raster die Position der Komponenten an Ihre Bedürfnisse anpassen können.
+* **Layout deaktivieren**: Sie können die Layout-Auswahl auch im Dialogfeld „Bearbeiten“ deaktivieren, indem Sie das Kontrollkästchen **Layout deaktivieren** aktivieren.
 * **Hintergrundbild aktivieren**: Auf dieser Registerkarte können Sie das Hintergrundbild und die Hintergrundfarbe im Vorlageneditor festlegen.
 * **Hintergrundfarbe aktivieren**: Auf dieser Registerkarte können Sie die Hintergrundfarbe im Vorlageneditor festlegen.
 
 ### Registerkarte „Stile“ {#styles-tab}
 
-Die Registerkarte wird verwendet, um CSS-Stile für eine Komponente zu definieren und zu verwalten. Die Kernkomponente „Assistent“ für adaptive Formulare unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
+Sie können die Registerkarte zum Definieren und Verwalten von CSS-Stilen für eine Komponente verwenden. Die Kernkomponente „Assistent“ für adaptive Formulare unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
-![Registerkarte &quot;Stil&quot;](/help/adaptive-forms/assets/panel_style.png)
+![Registerkarte „Stile“](/help/adaptive-forms/assets/panel_style.png)
 
 * **Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die Assistenten-Komponente bereitstellen.
 
