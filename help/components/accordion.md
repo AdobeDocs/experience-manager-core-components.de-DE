@@ -4,9 +4,9 @@ description: Die Kernkomponente „Akkordeon“ ermöglicht die Erstellung einer
 role: Architect, Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
 source-git-commit: e8b3e55a42b6be6262d6f51b9569c0be3e8ce6c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1068'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -44,9 +44,9 @@ Die aktuelle technische Dokumentation zur Akkordeon-Komponente [finden Sie auf G
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
-## Deep-Link auf ein Bedienfeld {#deep-linking}
+## Tiefe Verknüpfung mit einem Bedienfeld {#deep-linking}
 
-Akkordeon, [Karussell,](carousel.md) und [Registerkarten-Komponenten](tabs.md) Unterstützung der direkten Verknüpfung zu einem Bedienfeld innerhalb der Komponente.
+Die Akkordeon-, [Karussell](carousel.md)- und [Registerkarten-Komponenten](tabs.md) unterstützen direkte Links zu einem Bedienfeld innerhalb der Komponente.
 
 Gehen Sie hierfür wie folgt vor:
 
