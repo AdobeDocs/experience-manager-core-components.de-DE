@@ -4,9 +4,9 @@ description: Verwenden oder Anpassen der Kernkomponente „Bedienfeld-Container�
 role: Architect, Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1696'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 73%
 
 In einem adaptiven Formular ist ein Bedienfeld ein Container-Element, das zum Gruppieren verwandter Formularelemente verwendet werden kann. So können Sie verschiedene Formularelemente logisch und sinnvoll gruppieren und organisieren. Dies kann die Gesamtstruktur und Lesbarkeit des Formulars verbessern, sodass Benutzende es einfacher verstehen und leichter darin navigieren können.
 
-Bedienfelder können verwendet werden, um ausblendbare Abschnitte zu erstellen. Diese können für das Ausblenden komplexer oder seltener verwendeter Formularfelder nützlich sein, sodass das Formular einfach und einfach zu verwenden ist. Sie können auch andere Komponenten wie Text, Kontrollkästchen und Schaltflächen einfügen.
+Sie können Bedienfelder verwenden, um ausblendbare Abschnitte zu erstellen. Damit können komplexe oder weniger häufig verwendete Formularfelder ausgeblendet werden, sodass das Formular übersichtlich bleibt und leicht zu verwenden ist. Zudem ist es möglich, dass Sie andere Komponenten wie Text, Kontrollkästchen und Schaltflächen einbeziehen.
 
-Sie kann auch verwendet werden, um verschiedene regelbasierte Aktionen festzulegen, z. B. Formular senden, eine Website öffnen, Komponenten ein-/ausblenden oder eine Instanz eines Bedienfelds hinzuzufügen.
+Sie können auch verschiedene regelbasierte Aktionen festlegen, z. B. ein Formular senden, eine Website öffnen, Komponenten ein-/ausblenden oder eine Bedienfeldinstanz hinzufügen.
 
 **Beispiel**
 
@@ -36,11 +36,11 @@ Es gibt verschiedene Gründe für die Verwendung eines Bedienfelds in einem Form
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die Kernkomponente &quot;Adaptive Forms Accordion&quot;wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 für Cloud Service und Kernkomponenten 1.1.12 für AEM 6.5.16.0 Forms oder höher veröffentlicht. In der folgenden Tabelle finden Sie alle unterstützten Versionen, AEM Kompatibilität und Links zur entsprechenden Dokumentation:
+Die Kernkomponente „Akkordeon“ für adaptive Formulare wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 für Cloud Service und der Kernkomponenten 1.1.12 für AEM 6.5.16.0 Forms oder höher veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
 
 | Komponentenversion | AEM as a Cloud Service | AEM 6.5.16.0 Forms oder höher |
 |---|---|---|
-| v1 | Kompatibel mit<br>[Version 2.0.4](/help/adaptive-forms/version.md) und höher | Kompatibel mit<br>[Version 1.1.12](/help/adaptive-forms/version.md) und höher, jedoch weniger als 2.0.0. |
+| v1 | Kompatibel mit<br>[Version 2.0.4](/help/adaptive-forms/version.md) und höher | Kompatibel mit<br>[Version 1.1.12](/help/adaptive-forms/version.md) und höher (aber nur bis Version 2.0.0). |
 
 Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokument [Kernkomponenten-Versionen](/help/adaptive-forms/version.md).
 
@@ -88,52 +88,52 @@ Mit dem Dialogfeld „Konfigurieren“ können Sie Bedienfeld-Container mühelos
 
 ![Registerkarte „Barrierefreiheit“](/help/adaptive-forms/assets/panelcontainer_accessibilitytab.png)
 
-* **Text für Bildschirmlesehilfen** - Text für Bildschirmlesehilfen bezieht sich auf zusätzlichen Text, der von Hilfstechnologien wie Bildschirmlesehilfen gelesen werden soll, die von sehbehinderten Personen verwendet werden. Dieser Text enthält eine Audiobeschreibung des Zwecks des Formularfelds und kann Informationen über den Titel, die Beschreibung, den Namen und alle relevanten Nachrichten (benutzerdefinierten Text) des Felds enthalten. Der Text der Bildschirmlesehilfe hilft sicherzustellen, dass das Formular allen Benutzenden zugänglich ist, auch Personen mit Sehschwäche, und bietet ihnen ein umfassendes Verständnis des Formularfelds und seiner Anforderungen.
+* **Text für Bildschirmlesehilfen**: Text für Bildschirmlesehilfen bezieht sich auf zusätzlichen Text, der für Hilfstechnologien wie Bildschirmlesehilfen vorgesehen ist, die von Personen mit Sehschwäche verwendet werden. Dieser Text enthält eine Audiobeschreibung des Zwecks des Formularfelds und kann Informationen über den Titel, die Beschreibung, den Namen und alle relevanten Nachrichten (benutzerdefinierten Text) des Felds enthalten. Der Text der Bildschirmlesehilfe hilft sicherzustellen, dass das Formular allen Benutzenden zugänglich ist, auch Personen mit Sehschwäche, und bietet ihnen ein umfassendes Verständnis des Formularfelds und seiner Anforderungen.
 
 * **HTML-Rolle für die Ankündigung durch die Bildschirmlesehilfe** – Die HTML-Rolle ist ein Attribut, mit dem der Zweck eines HTML-Elements für Hilfstechnologien wie Bildschirmlesehilfen spezifiziert wird. Rollenattribute werden verwendet, um für ein Element zusätzlichen Kontext und eine semantische Bedeutung bereitzustellen, wodurch es für Bildschirmlesehilfen einfacher wird, den Inhalt zu interpretieren und ihn Benutzenden mitzuteilen. In AEM Forms kann beispielsweise die Beschriftung eines Formularfelds die Rolle „Beschriftung“ haben und sein Eingabefeld die Rolle „Textfeld“. Dadurch kann die Bildschirmlesehilfe die Beziehung zwischen Beschrfitung und Eingabefeld verstehen und diese Informationen den Benutzenden korrekt mitteilen.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
-Das Dialogfeld &quot;Design&quot;wird zum Definieren und Verwalten von CSS-Stilen für die Panel-Container-Komponente verwendet.
+Sie können das Dialogfeld „Design“ verwenden, um CSS-Stile für die Bedienfeld-Container-Komponente zu definieren und zu verwalten.
 
 ### Registerkarte „Zugelassene Komponenten“ {#allowed-components-tab}
 
-![Registerkarten &quot;Zulässige Komponenten&quot;](/help/adaptive-forms/assets/panel_allowedcomponent.png)
+![Registerkarte „Zugelassene Komponenten“](/help/adaptive-forms/assets/panel_allowedcomponent.png)
 
-Die **Zugelassene Komponenten** -Tab ermöglicht es dem Vorlageneditor, die Komponenten festzulegen, die den Bedienfeldern in der Bereichsbehälterkomponente im Adaptive Forms-Editor als Elemente hinzugefügt werden können.
+Über die Registerkarte **Zugelassene Komponenten** kann die Person, die die Vorlage erstellt, festlegen, welche Komponenten im Editor für adaptive Formulare den Bedienfeldern in der Bedienfeld-Container-Komponente als Elemente hinzugefügt werden können.
 
 ### Registerkarte „Standardkomponenten“ {#default-component-tab}
 
-Auf dieser Registerkarte kann der Vorlageneditor die Komponenten, die als Elemente hinzugefügt werden können, den Bedienfeldern in der Bereichscontainer-Komponente im Adaptive Forms-Editor zuordnen.
+Über diese Registerkarte kann die Person, die die Vorlage erstellt, festlegen, welche Komponenten im Editor für adaptive Formulare den Bedienfeldern in der Bedienfeld-Container-Komponente als Elemente hinzugefügt werden können.
 
-![Bedienfeldstandardkomponente](/help/adaptive-forms/assets/panel_defaultcomponent.png)
+![Bedienfeld „Standardkomponenten“](/help/adaptive-forms/assets/panel_defaultcomponent.png)
 
 ### Responsive Einstellungen {#responsive-settings}
 
-Auf dieser Registerkarte kann der Vorlageneditor die Anzahl der Spalten festlegen, die im responsiven Raster angezeigt werden sollen.
+Über diese Registerkarte kann die Person, die die Vorlage erstellt, die Anzahl der Spalten festlegen, die im responsiven Raster angezeigt werden soll.
 
 ![Responsives Raster](/help/adaptive-forms/assets/panel_responsivesettings.png)
 
 ### Registerkarte „Container-Einstellungen“ {#container-setting-tab}
 
-Auf der Registerkarte Container-Einstellungen können Sie die Position von Komponenten im adaptiven Forms-Editor festlegen.
+Auf der Registerkarte „Container-Einstellungen“ können Sie die Position von Komponenten im Editor für adaptive Formulare festlegen.
 
 ![Container-Einstellungen](/help/adaptive-forms/assets/panel_settings.png)
 
-* **Layout**: Das einfache Layout behält alle festen Elemente im Ort bei, während das responsive Raster es Ihnen ermöglicht, die Position der Komponenten an Ihre Bedürfnisse anzupassen.
-* **Layout deaktivieren**: Sie können die Layoutauswahl auch im Dialogfeld &quot;Bearbeiten&quot;deaktivieren, indem Sie die **Layout deaktivieren** aktivieren.
+* **Layout**: Das einfache Layout behält alles an Ort und Stelle, während Sie mit dem responsiven Raster die Position der Komponenten an Ihre Bedürfnisse anpassen können.
+* **Layout deaktivieren**: Sie können die Layout-Auswahl auch im Dialogfeld „Bearbeiten“ deaktivieren, indem Sie das Kontrollkästchen **Layout deaktivieren** aktivieren.
 * **Hintergrundbild aktivieren**: Auf dieser Registerkarte können Sie das Hintergrundbild und die Hintergrundfarbe im Vorlageneditor festlegen.
 * **Hintergrundfarbe aktivieren**: Auf dieser Registerkarte können Sie die Hintergrundfarbe im Vorlageneditor festlegen.
 
 ### Registerkarte „Stile“ {#styles-tab}
 
-Die Registerkarte wird verwendet, um CSS-Stile für eine Komponente zu definieren und zu verwalten. Die Kernkomponente für den Container des adaptiven Forms-Bedienfelds unterstützt die AEM [Stilsystem](/help/get-started/authoring.md#component-styling).
+Sie können die Registerkarte zum Definieren und Verwalten von CSS-Stilen für eine Komponente verwenden. Die Kernkomponente „Bedienfeld-Container“ für adaptive Formulare unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
-![Registerkarte &quot;Stil&quot;](/help/adaptive-forms/assets/panel_style.png)
+![Registerkarte „Stile“](/help/adaptive-forms/assets/panel_style.png)
 
-* **Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die adaptive Forms-Kernkomponente bereitstellen.
+* **Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die Kernkomponente für adaptive Formulare bereitstellen.
 
-* **Zulässige Stile**: Sie können Stile definieren, indem Sie den Namen und die CSS-Klasse für den Stil angeben. Sie können beispielsweise einen Stil mit dem Namen „Fettschrift“ erstellen und die CSS-Klasse „Schriftbreite: Fett“ bereitstellen. Sie können diese Stile in Adaptive Forms verwenden oder auf ein adaptives Formular anwenden. Um einen Stil anzuwenden, wählen Sie im adaptiven Forms-Editor die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Dialogfeld &quot;Eigenschaften&quot;und wählen Sie den gewünschten Stil aus dem **Stile** Dropdown-Liste. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld „Design“ zurück, aktualisieren die Stile auf der Registerkarte „Stile“ und speichern die Änderungen.
+* **Zulässige Stile**: Sie können Stile definieren, indem Sie den Namen und die CSS-Klasse für den Stil angeben. Sie können beispielsweise einen Stil mit dem Namen „Fettschrift“ erstellen und die CSS-Klasse „Schriftbreite: Fett“ bereitstellen. Sie können diese Stile auf ein adaptives Formular anwenden. Um einen Stil anzuwenden, wählen Sie im Editor für adaptive Formulare die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Dialogfeld „Eigenschaften“ und wählen Sie den gewünschten Stil aus der Dropdown-Liste **Stile** aus. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld „Design“ zurück, aktualisieren die Stile auf der Registerkarte „Stile“ und speichern die Änderungen.
 
 * **HTML-Rolle für die Ankündigung durch die Bildschirmlesehilfe** – Die HTML-Rolle ist ein Attribut, mit dem der Zweck eines HTML-Elements für Hilfstechnologien wie Bildschirmlesehilfen spezifiziert wird. Rollenattribute werden verwendet, um für ein Element zusätzlichen Kontext und eine semantische Bedeutung bereitzustellen, wodurch es für Bildschirmlesehilfen einfacher wird, den Inhalt zu interpretieren und ihn Benutzenden mitzuteilen. In AEM Forms kann beispielsweise die Beschriftung eines Formularfelds die Rolle „Beschriftung“ haben und sein Eingabefeld die Rolle „Textfeld“. Dadurch kann die Bildschirmlesehilfe die Beziehung zwischen Beschrfitung und Eingabefeld verstehen und diese Informationen den Benutzenden korrekt mitteilen.
 
