@@ -4,9 +4,9 @@ description: Verwenden oder Anpassen der Kernkomponente „Telefoneingabe“ fü
 role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1721'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -28,11 +28,11 @@ Häufige Gründe für die Verwendung eines Telefoneingabefelds in einem adaptive
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die Kernkomponente &quot;Adaptive Forms Accordion&quot;wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 für Cloud Service und Kernkomponenten 1.1.12 für AEM 6.5.16.0 Forms oder höher veröffentlicht. In der folgenden Tabelle finden Sie alle unterstützten Versionen, AEM Kompatibilität und Links zur entsprechenden Dokumentation:
+Die Kernkomponente „Akkordeon“ für adaptive Formulare wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 für Cloud Service und der Kernkomponenten 1.1.12 für AEM 6.5.16.0 Forms oder höher veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
 
 | Komponentenversion | AEM as a Cloud Service | AEM 6.5.16.0 Forms oder höher |
 |---|---|---|
-| v1 | Kompatibel mit<br>[Version 2.0.4](/help/adaptive-forms/version.md) und höher | Kompatibel mit<br>[Version 1.1.12](/help/adaptive-forms/version.md) und höher, jedoch weniger als 2.0.0. |
+| v1 | Kompatibel mit<br>[Version 2.0.4](/help/adaptive-forms/version.md) und höher | Kompatibel mit<br>[Version 1.1.12](/help/adaptive-forms/version.md) und höher (aber nur bis Version 2.0.0). |
 
 Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokument [Kernkomponenten-Versionen](/help/adaptive-forms/version.md).
 
@@ -66,7 +66,7 @@ Im Dialogfeld „Konfigurieren“ können Sie das Telefoneingabefeld für Besuch
 
 * **Schreibgeschützt**: Wählen Sie die Option aus, um die Komponente nicht bearbeitbar zu machen. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
 
-* **Standardwert** – Mit dieser Option können Sie einen Standardwert in ein Formularfeld einfügen. Wenn **Komponente deaktiviert** oder **Schreibgeschützte Komponente** ausgewählt ist, wird auf dem Bildschirm der Standardwert angezeigt. Wird kein Wert in das Formularfeld eingegeben, wird bei der Formularübermittlung dieser Wert gesendet
+* **Standardwert** – Mit dieser Option können Sie einen Standardwert in ein Formularfeld einfügen. Wenn **Komponente deaktiviert** oder **Schreibgeschützte Komponente** ausgewählt ist, wird auf dem Bildschirm der Standardwert angezeigt. Wird kein Wert in das Formularfeld eingegeben, wird bei der Formularübermittlung dieser Wert gesendet.
 
 ### Registerkarte „Validierung“ {#validation-tab}
 
@@ -90,7 +90,7 @@ Die Option **Überprüfungsmuster** ermöglicht die Eingabe eines Musters zur Ü
 
 * **Muster** – Mit dieser Option können Sie die zulässigen Überprüfungsmuster für Telefonnummern eingeben. Reguläre Ausdrücke sind ebenfalls zulässig.
 
-* **Fehlermeldung** – Mit dieser Option können Sie eine Nachricht eingeben, die auf dem Bildschirm angezeigt wird, wenn die Überprüfung der eingegebenen Telefonnummer anhand des in der Option **Muster** angegebenen Werts fehlschlägt
+* **Fehlermeldung** – Mit dieser Option können Sie eine Nachricht eingeben, die auf dem Bildschirm angezeigt wird, wenn die Überprüfung der eingegebenen Telefonnummer anhand des in der Option **Muster** angegebenen Werts fehlschlägt.
 
 ### Registerkarte „Hilfe-Inhalt“ {#help-content-tab}
 
@@ -114,7 +114,7 @@ Das Dialogfeld „Design“ wird verwendet, um CSS-Stile für die Telefoneingabe
 
 ### Registerkarte „Stile“ {#styles-tab}
 
-Die Registerkarte wird verwendet, um CSS-Stile für eine Komponente zu definieren und zu verwalten. Die Kernkomponente „Telefoneingabe“ für adaptive Formulare unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
+Sie können die Registerkarte zum Definieren und Verwalten von CSS-Stilen für eine Komponente verwenden. Die Kernkomponente „Telefoneingabe“ für adaptive Formulare unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
 ![Dialogfeld „Design“](/help/adaptive-forms/assets/telephoneinput_designdialog.png)
 
@@ -126,5 +126,5 @@ Die Registerkarte wird verwendet, um CSS-Stile für eine Komponente zu definiere
 
 Auf der Registerkarte „Formate“ können Sie standardmäßige und benutzerdefinierte Zahlenformate angeben.
 
-![Registerkarte &quot;Format&quot;](/help/adaptive-forms/assets/telephoneinput_format.png)
+![Registerkarte „Formate“](/help/adaptive-forms/assets/telephoneinput_format.png)
 
