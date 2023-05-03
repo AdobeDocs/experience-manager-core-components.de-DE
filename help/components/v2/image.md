@@ -3,10 +3,10 @@ title: Bildkomponente (v2)
 description: Die Kernkomponente „Bildkomponente“ ist eine anpassungsfähige Bildkomponente mit Funktionen zur Bearbeitung im Kontext.
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
-source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
-workflow-type: ht
-source-wordcount: '2115'
-ht-degree: 100%
+source-git-commit: 6c251cd03997dca8961b31498c6f5de3cfdc3793
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -50,7 +50,7 @@ Ihre mit Kernkomponenten erstellten Web-Erlebnisse können jetzt funktionsreiche
 
 Skalierbare Vektorgrafiken (SVG) werden von der Bildkomponente unterstützt.
 
-* Das Drag-and-Drop eines SVG-Assets aus DAM und das Hochladen eines SVG-Datei-Uploads aus einem lokalen Dateisystem werden beide unterstützt.
+* Das Drag-and-Drop eines SVG-Assets aus DAM und das Hochladen einer SVG-Datei von einem lokalen Dateisystem werden beide unterstützt.
 * Die ursprüngliche SVG-Datei wird gestreamt (Transformationen werden übersprungen).
 * Bei einem SVG-Bild werden die „Smart-Bilder“ und die „Smart-Größen“ auf ein leeres Array im Bildmodell festgelegt.
 
@@ -58,11 +58,7 @@ Skalierbare Vektorgrafiken (SVG) werden von der Bildkomponente unterstützt.
 
 Aus Sicherheitsgründen wird die ursprüngliche SVG niemals direkt vom Bild-Editor aufgerufen. Es wird durch `<img src=“path-to-component”>` aufgerufen. Dadurch wird verhindert, dass der Browser Skripte ausführt, die in der SVG-Datei eingebettet sind.
 
->[!CAUTION]
->
->Für die SVG-Unterstützung sind die Kernkomponenten in Version 2.1.0 oder höher zusammen mit [Service Pack 2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=de) für AEM 6.4 oder höher erforderlich, damit [neue Bildbearbeitungsfunktionen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/image-editor.html?lang=de) in AEM unterstützt werden.
-
-## Musterkomponentenausgabe {#sample-component-output}
+## Muster für Komponentenausgabe {#sample-component-output}
 
 Um die Bildkomponente zu erleben und Beispiele für ihre Konfigurationsoptionen sowie die HTML- und JSON-Ausgabe zu sehen, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_image_de).
 
@@ -106,7 +102,7 @@ Zusätzlich zum standardmäßigen [Dialogfeld „Bearbeiten“](#edit-dialog) un
    * Geben Sie die absolute URL ein, wenn Sie keine Verknüpfung zu einer AEM-Ressource erstellen. Nicht absolute URLs werden als relativ zu AEM interpretiert.
 * **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
    * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
-   * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
+   * Sofern eine ID angegeben wird, ist vom Autor bzw. der Autorin sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
 >[!TIP]

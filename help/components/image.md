@@ -3,10 +3,10 @@ title: Bildkomponente
 description: Die Bildkomponenten-Kernkomponente ist eine adaptive Bildkomponente.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: f0971db66cbbf8221c12cedf108eee3bca8a527a
-workflow-type: ht
-source-wordcount: '1678'
-ht-degree: 100%
+source-git-commit: 1cb06273ecb2c5b5f90c02b74b7ac0e440d87ecc
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -54,17 +54,13 @@ Ihre mit Kernkomponenten erstellten Web-Erlebnisse können jetzt funktionsreiche
 
 Skalierbare Vektorgrafiken (SVG) werden von der Bildkomponente unterstützt.
 
-* Das Drag-and-Drop eines SVG-Assets aus DAM und das Hochladen eines SVG-Datei-Uploads aus einem lokalen Dateisystem werden beide unterstützt.
+* Das Drag-and-Drop eines SVG-Assets aus DAM und das Hochladen einer SVG-Datei von einem lokalen Dateisystem werden beide unterstützt.
 * Die ursprüngliche SVG-Datei wird gestreamt (Transformationen werden übersprungen).
 * Bei einem SVG-Bild werden die „Smart-Bilder“ und die „Smart-Größen“ auf ein leeres Array im Bildmodell festgelegt.
 
 ### Sicherheit {#security}
 
 Aus Sicherheitsgründen wird die ursprüngliche SVG niemals direkt vom Bild-Editor aufgerufen. Es wird durch `<img src=“path-to-component”>` aufgerufen. Dadurch wird verhindert, dass der Browser Skripte ausführt, die in der SVG-Datei eingebettet sind.
-
->[!NOTE]
->
->Für die SVG-Unterstützung sind die Kernkomponenten in Version 2.1.0 oder höher zusammen mit [Service Pack 2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=de) für AEM 6.4 oder höher erforderlich, damit [neue Bildbearbeitungsfunktionen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/image-editor.html?lang=de) in AEM unterstützt werden.
 
 ## Muster für Komponentenausgabe {#sample-component-output}
 
