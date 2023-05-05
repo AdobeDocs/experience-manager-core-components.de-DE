@@ -4,7 +4,7 @@ description: Die E-Mail-Textkomponente ist eine Komponente zur Bearbeitung und E
 role: Architect, Developer, Admin, User
 exl-id: 4aa192f6-8314-40e7-8732-c6626d647986
 source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2291'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 |---|---|---|
 | v1 | Kompatibel | - |
 
-Weitere Informationen zu Kernkomponentenversionen und -Releases finden Sie im Dokument [E-Mail-Kernkomponentenversionen](/help/email/versions.md).
+Weitere Informationen zu Kernkomponentenversionen finden Sie im Dokument [E-Mail-Kernkomponentenversionen](/help/email/versions.md).
 
 ### Technische Details {#technical-details}
 
