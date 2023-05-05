@@ -4,7 +4,7 @@ description: Die E-Mail-Inhaltsfragment-Komponente ermöglicht die Anzeige eines
 role: Architect, Developer, Admin, User
 exl-id: 9bc6b730-0d2a-4e5b-891c-d2f67f600bcc
 source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '629'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 |---|---|---|
 | v1 | Kompatibel | - |
 
-Weitere Informationen zu E-Mail-Kernkomponentenversionen und -Releases finden Sie im Dokument [E-Mail-Kernkomponentenversionen](/help/email/versions.md).
+Weitere Informationen zu E-Mail-Kernkomponentenversionen finden Sie im Dokument [E-Mail-Kernkomponentenversionen](/help/email/versions.md).
 
 ## Technische Details {#technical-details}
 
