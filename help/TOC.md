@@ -5,9 +5,9 @@ breadcrumb-title: Anleitung zu den Hauptkomponenten
 user-guide-description: Nutzen Sie die erweiterbaren Hauptkomponenten, damit Autoren bzw. Autorinnen mühelos Inhalte erstellen können.
 feature-set: Experience Manager Sites
 source-git-commit: 1ac6ed00c19a8ae00e6a53d18419890a88235158
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '369'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -107,7 +107,7 @@ ht-degree: 99%
       + [Adaptive Formulare – Akkordeon](/help/adaptive-forms/components/accordion.md)
       + [Adaptive Formulare – Schaltfläche](/help/adaptive-forms/components/button.md)
       + [Adaptive Formulare – Kontrollkästchengruppe](/help/adaptive-forms/components/checkbox-group.md)
-      + [Adaptiver Forms-Container](/help/adaptive-forms/components/form-container.md)
+      + [Adaptive Formulare – Container](/help/adaptive-forms/components/form-container.md)
       + [Adaptive Formulare – Datumsauswahl](/help/adaptive-forms/components/date-picker.md)
       + [Adaptive Formulare – Dropdown-Liste](/help/adaptive-forms/components/drop-down.md)
       + [Adaptive Formulare – E-Mail-Eingabe](/help/adaptive-forms/components/email-input.md)
