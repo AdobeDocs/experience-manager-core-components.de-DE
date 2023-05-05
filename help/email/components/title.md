@@ -4,7 +4,7 @@ description: Die E-Mail-Titelkomponente ist eine Komponente für Abschnittsüber
 role: Architect, Developer, Admin, User
 exl-id: f65b6973-bb36-406f-bbea-f85a23f5340b
 source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '599'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 |---|---|---|
 | v1 | Kompatibel | - |
 
-Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie im Dokument [E-Mail-Kernkomponentenversionen](/help/versions.md).
+Weitere Informationen zu Kernkomponentenversionen finden Sie im Dokument [E-Mail-Kernkomponentenversionen](/help/versions.md).
 
 ### Technische Details {#technical-details}
 
