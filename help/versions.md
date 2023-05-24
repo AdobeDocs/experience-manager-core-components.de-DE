@@ -3,16 +3,16 @@ title: Kernkomponenten-Versionen
 description: Kernkomponenten werden als Versionen veröffentlicht, die mehr als eine Version derselben Kernkomponenten enthalten können. In diesem Dokument wird erläutert, welche Versionen veröffentlicht werden und wie die Kompatibilität mit Kernkomponenten und AEM verstanden werden kann.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 468078da4d31d7eedf9bd73cbcf2d71107bfe3f4
-workflow-type: ht
-source-wordcount: '2924'
-ht-degree: 100%
+source-git-commit: 1b419d6f340f8062945f96b1605a67620d5f79af
+workflow-type: tm+mt
+source-wordcount: '2988'
+ht-degree: 98%
 
 ---
 
 # Kernkomponenten-Versionen {#core-components-versions}
 
-Die aktuelle Version der Kernkomponenten ist die Version 2.22.4. Diese ist mit den Installationen von [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=de) und [AEM On-Premise](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=de) kompatibel.
+Die aktuelle Version der Kernkomponenten ist die Version 2.22.10. Diese ist mit den Installationen von [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=de) und [AEM On-Premise](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=de) kompatibel.
 
 ## Versionsverlauf und Kompatibilität {#release-history-and-compatibility}
 
@@ -26,6 +26,9 @@ Die folgende Tabelle, deren Inhalt [auf GitHub mit vollständigen Versionsinform
 
 | Version | Beschreibung | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Veröffentlichungsdatum |
 |---|---|---|---|---|---|---|
+| [2.22.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.10) | Diese Patch-Version behebt zwei Regressionen. | - | 6.5.14.0+ * | Kontinuierlich | 8, 11 | 11. Mai 2023 |
+| [2.22.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.8) | Diese Patch-Version bringt Funktionen zurück, die versehentlich in der vorherigen Version entfernt wurden. | - | 6.5.14.0+ * | Kontinuierlich | 8, 11 | 9. Mai 2023 |
+| [2.22.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.6) | Diese Patch-Version behebt eine Regression in der [Container-Komponente.](/help/components/container.md) | - | 6.5.14.0+ * | Kontinuierlich | 8, 11 | 21. April 2023 |
 | [2.22.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.4) | Dies ist eine Patch-Version, um Probleme in der [Inhaltsfragmentlisten-Komponente](/help/components/content-fragment-list.md) zu beheben. | - | 6.5.14.0+ * | Kontinuierlich | 8, 11 | 5. April 2023 |
 | [2.22.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.2) | Dies ist eine Wartungsversion zum Beheben von zwei Problemen, die in Version 2.22.0 eingeführt wurden. | - | 6.5.14.0+ * | Kontinuierlich | 8, 11 | 31. März 2023 |
 | [2.22.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.0) | Diese Version führt eine neue Version der [Listenkomponente](/help/components/list.md), Verbesserungen bei der [Teaser](/help/components/teaser.md)- sowie eine Aktualisierung der [PDF-Viewer](/help/components/pdf-viewer.md)- und [Karussell](/help/components/carousel.md)-Komponente ein. | - | 6.5.14.0+ * | Kontinuierlich | 8, 11 | 9. Februar 2023 |
