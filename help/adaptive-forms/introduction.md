@@ -3,10 +3,10 @@ title: Einführung zu Kernkomponenten für adaptive Formulare in AEM
 description: Erstellen Sie ansprechende Registrierungserlebnisse (Formulare) mit der Flexibilität der Kernkomponenten für adaptive Formulare und stellen Sie sie über Adobe Experience Manager bereit.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 1ac6ed00c19a8ae00e6a53d18419890a88235158
-workflow-type: ht
-source-wordcount: '1169'
-ht-degree: 100%
+source-git-commit: 8648a8dabd1999c9d3bbb76bb4f04f16eafda650
+workflow-type: tm+mt
+source-wordcount: '1163'
+ht-degree: 89%
 
 ---
 
@@ -94,23 +94,23 @@ Die aktuelle Version der Kernkomponenten für adaptive Formulare enthält die un
 * [Titel](/help/adaptive-forms/components/title.md)
 * [Assistent](/help/adaptive-forms/components/wizard.md)
 
-## Einrichten von Kernkomponenten
+## Einrichten adaptiver Forms-Kernkomponenten
 
+Durch die Aktivierung der adaptiven Forms-Kernkomponenten in AEM Forms as a Cloud Service können Sie mit der Erstellung, Veröffentlichung und Bereitstellung von Kernkomponenten-basierten adaptiven Forms- und Headless-Forms mit Ihren AEM Forms-Cloud Service-Instanzen für mehrere Kanäle beginnen. Detaillierte Anweisungen zum Aktivieren der Kernkomponenten für adaptive Formulare finden Sie unter [Aktivieren der adaptiven Forms-Kernkomponenten in der as a Cloud Service und lokalen Entwicklungsumgebung von AEM Forms](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html).
 
 Die Kernkomponenten für adaptive Formulare haben die folgenden Anforderungen.
 
-| AEM | AEM Forms-Add-on | Kernkomponenten |
+| AEM | AEM Forms-Add-on | Kernkomponenten für adaptive Formulare |
 |---|---|---|
-| AEM as a Cloud Service | Forms – Digitale Registrierung | [Version 2.20.8](version.md)+ |
+| AEM as a Cloud Service | Forms – Digitale Registrierung | [Version 2.0.10](version.md)+ |
 | AEM 6.5 | Forms-Add-on | [Version 1.1.12](version.md)+ |
+
+Wenn Ihre AEM Cloud Service SDK-Version älter als 2023.02.0 ist, [sicherstellen, dass Sie `prerelease` Markierung aktiviert in Ihrer Umgebung](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features) als Adaptive Forms-Kernkomponenten waren Teil der Vorabversion vor der Version 2023.02.0.
+
 
 ### Erstellen eines adaptiven Formulars basierend auf Kernkomponenten
 
-**AEM Forms as a Cloud Service:** Wenn Sie ein neues AEM Forms as a Cloud Service-Programm erstellen, sind die Kernkomponenten für adaptive Formulare bereits für Ihre Umgebung aktiviert. Wenn Sie eine Forms as a Cloud Service-Umgebung basierend auf Archetyp 39 oder früher haben, [aktivieren Sie die Kernkomponenten adaptiver Formulare für Ihre Umgebung](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html?lang=de#enable-adaptive-forms-core-components-for-an-existing-aem-archetype-based-project).
-
-Sobald Sie die Kernkomponenten für Ihre Umgebung aktivieren, werden die Vorlage und das Arbeitsflächen-Design für **adaptive Formulare (Kernkomponente)** zu Ihrer Umgebung hinzugefügt. Wenn Ihre AEM SDK-Version älter als 2023.02.0 ist, [stellen Sie sicher, dass das `prerelease`-Flag in Ihrer Umgebung aktiviert ist](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features), da Kernkomponenten für adaptive Formulare Teil der Vorabversion vor der Version 2023.02.0 waren.
-
-Informationen zum Erstellen eines adaptiven Formulars mithilfe des Assistenten für adaptive Formulare und des Editors für adaptive Formulare finden Sie unter „Erstellen eines adaptiven Formulars ([Kernkomponenten](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=de?))“.
+Informationen zum Erstellen eines adaptiven Formulars in AEM Forms as a Cloud Service finden Sie unter [Erstellen eines adaptiven Formulars (Kernkomponenten)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=de?).
 
 
 
