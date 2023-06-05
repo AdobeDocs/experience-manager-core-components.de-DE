@@ -3,10 +3,10 @@ title: Kernkomponente für adaptive Formulare – Schaltfläche
 description: Verwenden oder Anpassen der Schlatflächen-Kernkomponente für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: cb75929b-8c86-49d1-b51a-368f5b80b1a9
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: ht
-source-wordcount: '1397'
-ht-degree: 100%
+source-git-commit: 90a48e6203ce611679c2a7269ffb5d48912e3d71
+workflow-type: tm+mt
+source-wordcount: '1406'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ Eine Schaltfläche in einem adaptiven Formular ist ein Benutzeroberflächen-Elem
 
 Benutzende können mit dem Regel-Editor für adaptive Formulare verschiedene Aktionen für die Schaltflächen-Komponente festlegen. Dazu gehören das Öffnen einer Website, das Anzeigen oder Ausblenden von Formularkomponenten, das Hinzufügen einer Instanz eines Bedienfelds oder einer Komponente, das Senden oder Zurücksetzen eines Formulars und mehr.
 
-Adaptive Formulare stellen auch separate Schaltflächen-Komponenten zum Senden oder Zurücksetzen eines Formulars bereit. Die Schaltflächen-Komponente kann jedoch auch so konfiguriert werden, dass diese Aktionen bei Bedarf ausgeführt werden.
+Separate Komponenten für die adaptiven Forms-Funktionen für [Senden-Schaltfläche](/help/adaptive-forms/components/submit-button.md) und [Schaltfläche &quot;Zurücksetzen&quot;](/help/adaptive-forms/components/reset-button.md), sodass Benutzer ein Formular bequem senden oder zurücksetzen können. Die Schaltflächenkomponente kann flexibel so konfiguriert werden, dass sie diese Aktionen je nach spezifischen Anforderungen ausführt.
 
 Benutzende können auf die vollständige Liste der für die Schaltflächen-Komponente unterstützten Aktionen über den Regel-Editor für Adaptive Formulare zugreifen. Mit dem Regel-Editor können Benutzende Regeln erstellen, die von verschiedenen Ereignissen ausgelöst werden, z. B. durch Klicken auf eine Schaltfläche, beim Laden eines Formulars oder Ändern eines Feldwerts. Diese Regeln können dann für verschiedene Aktionen verwendet werden, z. B. zum Anzeigen oder Ausblenden von Komponenten, Festlegen von Feldwerten oder Senden des Formulars.
 
