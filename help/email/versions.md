@@ -4,9 +4,9 @@ description: E-Mail-Kernkomponenten werden als Versionen veröffentlicht.
 role: Architect, Developer, Admin, User
 exl-id: 9733659a-641c-4a98-8d10-84e93e0e0a5d
 source-git-commit: 7ab19cb73493121282e90e752b38c445fd0962f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '448'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Die E-Mail-Kernkomponenten sind so konzipiert, dass sie flexibel und mit allen u
 | Version | Beschreibung | AEM 6.5 | Kernkomponenten | Java | Veröffentlichungsdatum |
 |---|---|---|---|---|---|
 | [1.2.0](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.2.0) | In dieser Version wurden Selenium e2e-Tests eingeführt und eine Reihe von Fehlerbehebungen vorgenommen. | 6.5.14.0+ | [2.21.2+](/help/versions.md) | 8, 11 | 29. November 2022 |
-| [1.0.0](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.0.0) | Erste Veröffentlichung, ausführliche Details finden Sie in den Versionshinweisen. | 6.5.14.0+ | [2.21.2+](/help/versions.md) | 8, 11 | 29. November 2022 |
+| [1.0.0](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.0.0) | Erste Veröffentlichung, ausführliche Details finden Sie in den Versionshinweisen | 6.5.14.0+ | [2.21.2+](/help/versions.md) | 8, 11 | 29. November 2022 |
 | [0.18.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.18.0) | Fehlerkorrekturen | 6.5.13.0+ |  | 8, 11 | 30. September 2022 |
 | [0.17.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.17.0) | Fehlerkorrekturen | 6.5.13.0+ |  | 8, 11 | 27. September 2022 |
 | [0.16.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.16.0) | Fehlerkorrekturen | 6.5.13.0+ |  | 8, 11 | 14. September 2022 |
