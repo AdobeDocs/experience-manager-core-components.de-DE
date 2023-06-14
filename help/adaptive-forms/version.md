@@ -4,9 +4,9 @@ description: Kernkomponenten werden als Versionen veröffentlicht, die mehr als 
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
 source-git-commit: 8648a8dabd1999c9d3bbb76bb4f04f16eafda650
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '314'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Die nachfolgende Tabelle enthält eine Liste der Kernkomponentenversionen, die m
 | [2.0.6](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.6) | In dieser Version werden mehrere Formate für die Kernkomponente „Zahleneingabe“ eingeführt. | Kontinuierlich | 8, 11 | 08. Februar 2023 |
 | [2.0.4](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.6) | Die Kernkomponentenunterstützung für AEM as a Cloud Service wird in dieser Version eingeführt. | Kontinuierlich | 8, 11 | 30. Januar 2023 |
 
-## AEM 6.5 Forms-Versionsverlauf {#aem-as-form-version-history}
+## Versionsverlauf von AEM 6.5 Forms {#aem-as-form-version-history}
 
 Die nachfolgende Tabelle enthält eine Liste der Kernkomponentenversionen, die mit On-Premise- und AMS-Installationen von AEM 6.5 Forms kompatibel und auf [GitHub zusammen mit umfassenden Details zu den jeweiligen Versionen](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.12) verfügbar sind.
 
