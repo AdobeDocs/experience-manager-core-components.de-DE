@@ -6,7 +6,7 @@ exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
 source-git-commit: a450d265d10984b879fcb1ad4ffe0f3ce3edef5b
 workflow-type: tm+mt
 source-wordcount: '1147'
-ht-degree: 87%
+ht-degree: 98%
 
 ---
 
@@ -94,9 +94,9 @@ Die aktuelle Version der Kernkomponenten für adaptive Formulare enthält die un
 * [Titel](/help/adaptive-forms/components/title.md)
 * [Assistent](/help/adaptive-forms/components/wizard.md)
 
-## Einrichten adaptiver Forms-Kernkomponenten
+## Einrichten von Kernkomponenten für adaptive Formulare
 
-Durch die Aktivierung der adaptiven Forms-Kernkomponenten in AEM Forms as a Cloud Service können Sie mit der Erstellung, Veröffentlichung und Bereitstellung von Kernkomponenten-basierten adaptiven Forms- und Headless-Forms mit Ihren AEM Forms-Cloud Service-Instanzen für mehrere Kanäle beginnen. Detaillierte Anweisungen zum Aktivieren der Kernkomponenten für adaptive Formulare finden Sie unter [Aktivieren der adaptiven Forms-Kernkomponenten in der as a Cloud Service und lokalen Entwicklungsumgebung von AEM Forms](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html).
+Durch die Aktivierung der Kernkomponenten für adaptive Formulare in AEM Forms as a Cloud Service können Sie mit der Erstellung, Veröffentlichung und Bereitstellung von auf Kernkomponenten basierenden adaptiven Formularen und Headless-Formularen beginnen, und zwar für mehrere Kanäle mithilfe der Instanzen von AEM Forms as a Cloud Service. Detaillierte Anweisungen zum Aktivieren der Kernkomponenten für adaptive Formulare finden Sie unter [Aktivieren der Kernkomponenten für adaptive Formulare in AEM Forms as a Cloud Service und lokaler Entwicklungsumgebung](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=de).
 
 Die Kernkomponenten für adaptive Formulare haben die folgenden Anforderungen.
 
@@ -105,7 +105,7 @@ Die Kernkomponenten für adaptive Formulare haben die folgenden Anforderungen.
 | AEM as a Cloud Service | Forms – Digitale Registrierung | [Version 2.0.10](version.md)+ |
 | AEM 6.5 | Forms-Add-on | [Version 1.1.12](version.md)+ |
 
-Wenn Ihre AEM Cloud Service SDK-Version älter als 2023.02.0 ist, [sicherstellen, dass Sie `prerelease` Markierung aktiviert in Ihrer Umgebung](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features) als Adaptive Forms-Kernkomponenten waren Teil der Vorabversion vor der Version 2023.02.0.
+Wenn Ihre Version des AEM Cloud Service SDK älter als 2023.02.0 ist, [stellen Sie sicher, dass das `prerelease`-Flag in Ihrer Umgebung aktiviert ist](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features), da Kernkomponenten für adaptive Formulare Teil der Vorabversion vor der Version 2023.02.0 waren.
 
 
 ### Erstellen eines adaptiven Formulars basierend auf Kernkomponenten
