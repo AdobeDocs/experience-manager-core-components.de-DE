@@ -4,14 +4,14 @@ description: Mit der E-Mail-Experience-Fragment-Komponente kann der Inhaltsautor
 role: Architect, Developer, Admin, User
 exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
 source-git-commit: e5afead6bfdcc59cbd6da888f4e1e36038c6c0f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '882'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# E-Mail-Experience-Fragment-Komponente  {#email-experience-fragment-component}
+# E-Mail-Experience-Fragment-Komponente {#email-experience-fragment-component}
 
 Mit der E-Mail-Experience-Fragment-Komponente kann der Inhaltsautor bzw. die Inhaltsautorin eine Experience Fragment-Variation im Inhalt platzieren, während eine lokalisierte Inhaltsstruktur unterstützt wird.
 
@@ -107,7 +107,7 @@ Die Komponente E-Mail-Experience Fragment versucht, in der folgenden Reihenfolge
 
 ## Technische Details {#technical-details}
 
-Neueste Version lesen [Technische Dokumentation zur Experience Fragment-Komponente](https://www.adobe.com/go/aem_cmp_xf_v1).
+Lesen Sie die aktuellste [technische Dokumentation zur Experience Fragment-Komponente](https://www.adobe.com/go/aem_cmp_title_v1_de).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Kernkomponenten-Dokumentation für Entwickler](/help/developing/overview.md).
 
