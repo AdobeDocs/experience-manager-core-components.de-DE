@@ -3,10 +3,10 @@ title: Kernkomponente „Horizontale Registerkarten“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „Horizontale Registerkarten“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: ht
-source-wordcount: '1609'
-ht-degree: 100%
+source-git-commit: b2c35d78ba0473273852deb678b34b5dd96cf51e
+workflow-type: tm+mt
+source-wordcount: '1733'
+ht-degree: 88%
 
 ---
 
@@ -30,18 +30,20 @@ Die häufigsten Gründe für die Verwendung horizontaler Registerkarten in einem
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die Kernkomponente „Akkordeon“ für adaptive Formulare wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 für Cloud Service und der Kernkomponenten 1.1.12 für AEM 6.5.16.0 Forms oder höher veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
+Die Kernkomponente „Horizontale Registerkarten“ für adaptive Formulare wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, Informationen zur AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
 
-| Komponentenversion | AEM as a Cloud Service | AEM 6.5.16.0 Forms oder höher |
-|---|---|---|
-| v1 | Kompatibel mit<br>[Version 2.0.4](/help/adaptive-forms/version.md) und höher | Kompatibel mit<br>[Version 1.1.12](/help/adaptive-forms/version.md) und höher (aber nur bis Version 2.0.0). |
+|  |  |
+|---|---|
+| Komponentenversion | AEM as a Cloud Service |
+| --- | --- |
+| v1 | Kompatibel mit<br>[Version 2.0.4](/help/versions.md) und höher | Kompatibel | Kompatibel |
 
-Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokument [Kernkomponenten-Versionen](/help/adaptive-forms/version.md).
+Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokument [Kernkomponenten-Versionen](/help/versions.md).
 
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
+To experience the Horizontal-tabs  Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_Horizontal-tabs ). -->
 
 
 ## Technische Details {#technical-details}
@@ -54,7 +56,7 @@ Im Konfigurieren-Dialogfeld können Sie die horizontalen Registerkarten einfach 
 
 ### Registerkarte „Allgemein“ {#basic-tab}
 
-![Registerkarte „Allgemein“](/help/adaptive-forms/assets/tabsontop_basictab.png)
+![Registerkarte „Allgemein“](/help/adaptive-forms/assets/tabs-on-top-basic.png)
 
 * **Name**: Sie können eine Formularkomponente sowohl im Formular als auch im Regel-Editor leicht mit ihrem eindeutigen Namen identifizieren. Der Name darf jedoch keine Leerzeichen oder Sonderzeichen enthalten.
 
@@ -66,24 +68,36 @@ Im Konfigurieren-Dialogfeld können Sie die horizontalen Registerkarten einfach 
 
 * **Layout**: Sie können für Ihren Assistenten entweder ein festes Layout (einfach) oder ein flexibles Layout (responsives Raster) verwenden. Das einfache Layout behält alles fest an der Stelle, während Sie mit dem responsiven Raster die Position der Komponenten an Ihre Bedürfnisse anpassen können. Verwenden Sie beispielsweise das responsive Raster, um „Vorname“, „Mittelname“ und „Nachname“ in einem Formular in einer einzigen Zeile auszurichten.
 
-* **Bindungsverweis**: Bindungsverweis ist ein Verweis auf ein Datenelement, das in einer externen Datenquelle gespeichert ist und in einem Formular verwendet wird. Sie können mit dem Bindungsverweis Daten dynamisch an Formularfelder binden, sodass das Formular die aktuellsten Daten aus der Datenquelle anzeigen kann. Beispielsweise kann ein Bindungsverweis verwendet werden, um den Namen und die Adresse von Kundinnen und Kunden in einem Formular anzuzeigen, basierend auf der im Formular eingegebenen Kunden-ID. Der Bindungsverweis kann auch verwendet werden, um die Datenquelle mit den im Formular eingegebenen Daten zu aktualisieren. Auf diese Weise können Sie mit AEM Forms Formulare erstellen, die mit externen Datenquellen interagieren und so eine nahtlose Benutzererfahrung bei der Datenerfassung und Datenverwaltung bieten.
-* **Komponente ausblenden**: Wählen Sie die Option, um die Komponente aus dem Formular auszublenden. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor. Dies ist nützlich, wenn Sie Informationen speichern müssen, die Benutzende nicht sehen oder direkt ändern müssen.
+* **Bindungsverweis**: Bindungsverweis ist ein Verweis auf ein Datenelement, das in einer externen Datenquelle gespeichert ist und in einem Formular verwendet wird. Sie können mit dem Bindungsverweis Daten dynamisch an Formularfelder binden, sodass das Formular die aktuellsten Daten aus der Datenquelle anzeigen kann. Beispielsweise kann ein Bindungsverweis verwendet werden, um den Namen und die Adresse von Kundinnen und Kunden in einem Formular anzuzeigen, basierend auf der im Formular eingegebenen Kunden-ID. Der Bindungsverweis kann auch verwendet werden, um die Datenquelle mit den im Formular eingegebenen Daten zu aktualisieren. Auf diese Weise können Sie mit AEM Forms Formulare erstellen, die mit externen Datenquellen interagieren und so ein nahtloses Benutzererlebnis bei der Datenerfassung und -verwaltung bieten.
+* **Komponente ausblenden** – Wählen Sie diese Option, um die Komponente aus dem Formular auszublenden. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor. Dies ist nützlich, wenn Sie Informationen speichern müssen, die Benutzende nicht sehen oder direkt ändern müssen.
 * **Komponente deaktivieren**: Wählen Sie die Option zum Deaktivieren der Komponente aus. Die deaktivierte Komponente ist nicht aktiv und Endbenutzende können sie nicht bearbeiten. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
+
+### Registerkarten oben wiederholen {#repeat-tabs-on-top}
+
+![Registerkarte „Barrierefreiheit“](/help/adaptive-forms/assets/repeat-tabsontop.png)
+
+Sie können die Wiederholungsoptionen verwenden, um die Komponente Horizontale Registerkarten und ihre untergeordneten Komponenten zu duplizieren, eine minimale und maximale Wiederholungsanzahl zu definieren und die Replikation ähnlicher Abschnitte innerhalb eines Formulars zu erleichtern. Bei der Interaktion mit der Komponente Horizontale Registerkarten und dem Zugriff auf ihre Einstellungen werden die folgenden Optionen angezeigt:
+
+* **Horizontale Registerkarten wiederholbar machen**: Eine Umschalter-Funktion, mit der Benutzer die Wiederholungsfunktion aktivieren oder deaktivieren können.
+* **Mindestwiederholungen**: Legt fest, wie oft die Komponente Horizontale Registerkarten mindestens wiederholt werden kann. Der Wert null zeigt an, dass die Komponente Horizontale Registerkarten nicht wiederholt wird. der Standardwert ist null.
+* **Maximale Wiederholungen**: Legt fest, wie oft die Komponente Horizontale Registerkarten maximal wiederholt werden kann. Standardmäßig ist dieser Wert unbegrenzt.
+
+Um wiederholbare Abschnitte auf den Registerkarten &quot;Horizontal&quot;effektiv zu verwalten, führen Sie die Schritte aus, die im Abschnitt [Erstellen von Formularen mit wiederholbaren Abschnitten](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) Artikel.
 
 ### Registerkarte „Elemente“ {#items-tab}
 
-![Registerkarte „Elemente“](/help/adaptive-forms/assets/tabsontop_itemstab.png)
+![Registerkarte „Elemente“](/help/adaptive-forms/assets/items-tabs-on-top.png)
 
 Mit der Schalfläche **Hinzufügen** können Sie eine Komponente vom Komponentenauswahl-Fenster auswählen und als Bedienfeld hinzufügen. Nach dem Hinzufügen der Komponente werden die folgenden Optionen angezeigt:
 
 * **Symbol**: Das Symbol identifiziert die Komponente des Bedienfelds in der Liste. Sie können den Mauszeiger über das Symbol bewegen, um den vollständigen Komponentennamen als QuickInfo anzuzeigen.
-* **Beschreibung** – Die Beschreibung, die als Text des Bedienfelds verwendet wird. Standardmäßig der Name der für das Bedienfeld ausgewählten Komponente.
-* **Entfernen**: Tippen oder klicken Sie hierauf, um das Bedienfeld aus der horizontalen Registerkarten-Komponente zu löschen.
+* **Beschreibung**: Die Beschreibung, die als Text des Bedienfelds verwendet wird. Standardmäßig der Name der für das Bedienfeld ausgewählten Komponente.
+* **Löschen** - Tippen oder klicken Sie, um den Bereich aus der Komponente Horizontale Registerkarten zu löschen.
 * **Neu anordnen**: Tippen oder klicken und ziehen Sie, um die Reihenfolge der Bedienfelder neu anzuordnen.
 
 ### Registerkarte „Hilfe-Inhalt“ {#help-content}
 
-![Registerkarte „Hilfe-Inhalt“](/help/adaptive-forms/assets/tabsontop_helptab.png)
+![Registerkarte „Hilfe-Inhalt“](/help/adaptive-forms/assets/helpcontent-tabs-on-top.png)
 
 * **Kurzbeschreibung** – Eine Kurzbeschreibung ist eine kurze Erklärung, die zusätzliche Informationen oder Klarstellungen über den Zweck eines Formularfelds bietet. Es hilft Benutzenden zu verstehen, welcher Datentyp in das Feld eingegeben werden soll, und kann Richtlinien oder Beispiele bereitstellen, um sicherzustellen, dass die eingegebenen Informationen gültig sind und die gewünschten Kriterien erfüllen. Standardmäßig bleiben kurze Beschreibungen ausgeblendet. Aktivieren Sie die Option **Kurzbeschreibung immer anzeigen**, um sie unterhalb der Komponente anzuzeigen.
 
@@ -93,7 +107,7 @@ Mit der Schalfläche **Hinzufügen** können Sie eine Komponente vom Komponenten
 
 ### Registerkarte „Barrierefreiheit“ {#accessibility}
 
-![Registerkarte „Barrierefreiheit“](/help/adaptive-forms/assets/tabsontop_accessibilitytab.png)
+![Registerkarte „Barrierefreiheit“](/help/adaptive-forms/assets/accessibilty-tabs-on-top.png)
 
 * **Text für Bildschirmlesehilfen** – Das ist zusätzlicher Text, der von Hilfstechnologien wie etwa Bildschirmlesehilfen für sehbehinderte Personen vorgelesen wird. Dieser Text enthält eine Audiobeschreibung des Zwecks des Formularfelds und kann Informationen über den Titel, die Beschreibung, den Namen und alle relevanten Nachrichten (benutzerdefinierten Text) des Felds enthalten. Der Text der Bildschirmlesehilfe hilft sicherzustellen, dass das Formular allen Benutzenden zugänglich ist, auch Personen mit Sehschwäche, und bietet ihnen ein umfassendes Verständnis des Formularfelds und seiner Anforderungen.
 
@@ -101,10 +115,10 @@ Mit der Schalfläche **Hinzufügen** können Sie eine Komponente vom Komponenten
 
 ## Dialogfeld „Design“ {#design-dialog}
 
-Im Dialogfeld „Design“ können Vorlagenerstellende steuern, wie Elemente standardmäßig angezeigt werden. Für die Komponente für adaptive Formulare können Sie Folgendes festlegen:
+Im Dialogfeld „Design“ können Vorlagenerstellende steuern, wie Elemente standardmäßig angezeigt werden. Für die Komponente Horizontale Registerkarten des adaptiven Forms können Sie Folgendes festlegen:
 
-* Kernkomponenten, die Sie den horizontalen Registerkarten im Editor für adaptiven Formulare hinzufügen können
-* Einfache Namen für Stile (CSS-Klassen), die Sie im Dialogfeld „Eigenschaften“ der horizontalen Registerkarten-Komponenten im Editor für adaptive Formulare anwenden können.
+* Die Kernkomponenten, die ein Formularersteller den Registerkarten &quot;Horizontal&quot;im adaptiven Forms-Editor hinzufügen kann
+* Einfache Namen für Stile (CSS-Klassen), die im Eigenschaftendialogfeld der Komponente Horizontale Registerkarten im adaptiven Forms-Editor angewendet werden können.
 
 Dadurch wird das Erstellen und Anpassen von Formularen einfacher und effizienter.
 
@@ -112,14 +126,10 @@ Dadurch wird das Erstellen und Anpassen von Formularen einfacher und effizienter
 
 In der Registerkarte **Zugelassene Komponenten** können Vorlagen-Bearbeitende die Komponenten festlegen, die den Bedienfeldern in der Komponente „Horizontale Registerkarten“ im Editor für adaptive Formulare als Elemente hinzugefügt werden können.
 
-![Horizontale Registerkarten](/help/adaptive-forms/assets/horizontaltabs_designdilog.png)
-
 ### Registerkarte „Stile“ {#styles-tab}
 
-Sie können die Registerkarte zum Definieren und Verwalten von CSS-Stilen für eine Komponente verwenden. Die Kernkomponente „Horizontale Registerkarten“ für adaptive Formulare unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
+Sie können das Dialogfeld „Design“ zum Definieren und Verwalten von CSS-Stilen für eine Komponente verwenden. Die Kernkomponente „Horizontale Registerkarten“ für adaptive Formulare unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
-![Registerkarte „Stile“](/help/adaptive-forms/assets/horizontaltabs_designstyletab.png)
+**Standard-CSS-Klassen**: Sie können für die Kernkomponente „Horizontale Registerkarten“ von adaptiven Formularen eine standardmäßige CSS-Klasse festlegen.
 
-* **Standard-CSS-Klassen**: Sie können für die Kernkomponente „Horizontale Registerkarten“ von adaptiven Formularen eine standardmäßige CSS-Klasse festlegen.
-
-* **Zulässige Stile**: Sie können Stile definieren, indem Sie den Namen und die CSS-Klasse für den Stil angeben. Sie können beispielsweise einen Stil mit dem Namen „Fettschrift“ erstellen und die CSS-Klasse „Schriftbreite: Fett“ bereitstellen. Sie können diese Stile bei einem adaptiven Formular im adaptiven Formular-Editor anwenden. Um einen Stil anzuwenden, wählen Sie im Editor für adaptive Formulare die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Eigenschaften-Dialog und wählen Sie den gewünschten Stil aus der Dropdown-Liste **Stile**. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld „Design“ zurück, aktualisieren die Stile auf der Registerkarte „Stile“ und speichern die Änderungen.
+**Zulässige Stile**: Sie können Stile definieren, indem Sie den Namen und die CSS-Klasse für den Stil angeben. Sie können beispielsweise einen Stil mit dem Namen „Fettschrift“ erstellen und die CSS-Klasse „Schriftbreite: Fett“ bereitstellen. Sie können diese Stile bei einem adaptiven Formular im adaptiven Formular-Editor anwenden. Um einen Stil anzuwenden, wählen Sie im Editor für adaptive Formulare die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Eigenschaften-Dialog und wählen Sie den gewünschten Stil aus der Dropdown-Liste **Stile**. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld „Design“ zurück, aktualisieren die Stile auf der Registerkarte „Stile“ und speichern die Änderungen.

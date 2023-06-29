@@ -3,10 +3,10 @@ title: Kernkomponente „Assistent“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „Assistent“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: ht
-source-wordcount: '1847'
-ht-degree: 100%
+source-git-commit: b2c35d78ba0473273852deb678b34b5dd96cf51e
+workflow-type: tm+mt
+source-wordcount: '1829'
+ht-degree: 91%
 
 ---
 
@@ -51,11 +51,13 @@ Insgesamt kann ein Assistenten-Layout das Ausfüllen eines Formulars einfacher u
 
 Die Kernkomponente „Assistent“ für adaptive Formulare wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, Informationen zur AEM Kompatibilität und Links zur entsprechenden Dokumentation:
 
-| Komponentenversion | AEM as a Cloud Service | AEM 6.5.16.0 Forms oder höher |
-|---|---|---|
-| v1 | Kompatibel mit<br>[Version 2.0.4](/help/adaptive-forms/version.md) und höher | Kompatibel mit<br>[Version 1.1.12](/help/adaptive-forms/version.md) und höher (aber nur bis Version 2.0.0). |
+|  |  |
+|---|---|
+| Komponentenversion | AEM as a Cloud Service |
+| --- | --- |
+| v1 | Kompatibel mit<br>[Version 2.0.4](/help/versions.md) und höher | Kompatibel | Kompatibel |
 
-Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokument [Kernkomponenten-Versionen](/help/adaptive-forms/version.md).
+Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokument [Kernkomponenten-Versionen](/help/versions.md).
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -71,7 +73,7 @@ Im Dialogfeld „Konfigurieren“ können Sie den Assistenten für Besuchende ei
 
 ### Registerkarte „Allgemein“ {#basic-tab}
 
-![Registerkarte „Allgemein“](/help/adaptive-forms/assets/wizard_basictab.png)
+![Registerkarte „Allgemein“](/help/adaptive-forms/assets/wizard-basic.png)
 
 * **Name** – Sie können eine Formularkomponente sowohl im Formular als auch im Regeleditor durch ihren eindeutigen Namen identifizieren. Der Name darf keine Leerzeichen oder Sonderzeichen enthalten.
 
@@ -89,9 +91,21 @@ Im Dialogfeld „Konfigurieren“ können Sie den Assistenten für Besuchende ei
 
 * **Komponente deaktivieren**: Wählen Sie die Option zum Deaktivieren der Komponente aus. Die deaktivierte Komponente ist nicht aktiv und Endbenutzende können sie nicht bearbeiten. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
 
+### Registerkarte &quot;Wiederholungs-Assistent&quot; {#repeat-wizard-tab}
+
+![Wiederholungsassistent](/help/adaptive-forms/assets/wizard-repeat.png)
+
+Sie können die Wiederholungsoptionen verwenden, um den Assistenten und seine untergeordneten Komponenten zu duplizieren, eine minimale und maximale Wiederholungsanzahl zu definieren und die Replikation ähnlicher Abschnitte innerhalb eines Formulars zu erleichtern. Bei der Interaktion mit der Assistentenkomponente und dem Zugriff auf ihre Einstellungen werden die folgenden Optionen angezeigt:
+
+* **Assistent wiederholbar machen**: Eine Umschalter-Funktion, mit der Benutzer die Wiederholungsfunktion aktivieren oder deaktivieren können.
+* **Mindestwiederholungen**: Legt fest, wie oft der Assistentenbereich mindestens wiederholt werden kann. Der Wert null zeigt an, dass das Bedienfeld &quot;Assistent&quot;nicht wiederholt wird. der Standardwert ist null.
+* **Maximale Wiederholungen**: Legt fest, wie oft der Assistentenbereich maximal wiederholt werden kann. Standardmäßig ist dieser Wert unbegrenzt.
+
+Um wiederholbare Abschnitte im Assistenten effektiv zu verwalten, führen Sie die im Abschnitt [Erstellen von Formularen mit wiederholbaren Abschnitten](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) Artikel.
+
 ### Registerkarte „Hilfe“ {#help-tab}
 
-![Registerkarte „Hilfe“](/help/adaptive-forms/assets/wizard_helptab.png)
+![Registerkarte „Hilfe“](/help/adaptive-forms/assets/wizard-helpcontent.png)
 
 * **Kurzbeschreibung** – Eine Kurzbeschreibung ist eine kurze Erklärung, die zusätzliche Informationen oder Klarstellungen über den Zweck eines Formularfelds bietet. Es hilft Benutzenden zu verstehen, welcher Datentyp in das Feld eingegeben werden soll, und kann Richtlinien oder Beispiele bereitstellen, um sicherzustellen, dass die eingegebenen Informationen gültig sind und die gewünschten Kriterien erfüllen. Standardmäßig bleiben kurze Beschreibungen ausgeblendet. Aktivieren Sie die Option **Kurzbeschreibung immer anzeigen**, um sie unterhalb der Komponente anzuzeigen.
 
@@ -102,7 +116,7 @@ Im Dialogfeld „Konfigurieren“ können Sie den Assistenten für Besuchende ei
 
 ### Registerkarte „Barrierefreiheit“ {#accessibility}
 
-![Registerkarte „Allgemein“](/help/adaptive-forms/assets/wizard_accessibiltytab.png)
+![Registerkarte &quot;Zugriff&quot;](/help/adaptive-forms/assets/wizard-accessibility.png)
 
 * **Text für Bildschirmlesehilfen** – Das ist zusätzlicher Text, der von Hilfstechnologien wie etwa Bildschirmlesehilfen für sehbehinderte Personen vorgelesen wird. Dieser Text enthält eine Audiobeschreibung des Zwecks des Formularfelds und kann Informationen über den Titel, die Beschreibung, den Namen und alle relevanten Nachrichten (benutzerdefinierten Text) des Felds enthalten. Der Text der Bildschirmlesehilfe hilft sicherzustellen, dass das Formular allen Benutzenden zugänglich ist, auch Personen mit Sehschwäche, und bietet ihnen ein umfassendes Verständnis des Formularfelds und seiner Anforderungen.
 
@@ -122,38 +136,11 @@ Dadurch wird das Erstellen und Anpassen von Formularen einfacher und effizienter
 
 Über die Registerkarte **Zugelassene Komponenten** kann die Person, die die Vorlage erstellt, festlegen, welche Komponenten im Editor für adaptive Formulare zu den Bedienfeldern in der Assistenten-Komponente hinzugefügt werden können.
 
-![Registerkarte „Zugelassene Komponenten“](/help/adaptive-forms/assets/panel_allowedcomponent.png)
-
-### Registerkarte „Standardkomponenten“ {#default-component-tab}
-
-Über diese Registerkarte kann die Person, die die Vorlage erstellt, festlegen, welche Komponenten im Editor für adaptive Formulare den Bedienfeldern in der Assistentenkomponente hinzugefügt werden können.
-
-![Bedienfeld „Standardkomponenten“](/help/adaptive-forms/assets/panel_defaultcomponent.png)
-
-### Responsive Einstellungen {#responsive-settings}
-
-Über diese Registerkarte kann die Person, die die Vorlage erstellt, die Anzahl der Spalten festlegen, die im responsiven Raster angezeigt werden soll.
-
-![Responsives Raster](/help/adaptive-forms/assets/panel_responsivesettings.png)
-
-### Registerkarte „Container-Einstellungen“ {#container-setting-tab}
-
-Auf der Registerkarte „Container-Einstellungen“ können Sie die Position von Komponenten im Editor für adaptive Formulare festlegen.
-
-![Container-Einstellungen](/help/adaptive-forms/assets/panel_settings.png)
-
-* **Layout**: Das einfache Layout behält alles an Ort und Stelle, während Sie mit dem responsiven Raster die Position der Komponenten an Ihre Bedürfnisse anpassen können.
-* **Layout deaktivieren**: Sie können die Layout-Auswahl auch im Dialogfeld „Bearbeiten“ deaktivieren, indem Sie das Kontrollkästchen **Layout deaktivieren** aktivieren.
-* **Hintergrundbild aktivieren**: Auf dieser Registerkarte können Sie das Hintergrundbild und die Hintergrundfarbe im Vorlageneditor festlegen.
-* **Hintergrundfarbe aktivieren**: Auf dieser Registerkarte können Sie die Hintergrundfarbe im Vorlageneditor festlegen.
-
 ### Registerkarte „Stile“ {#styles-tab}
 
-Sie können die Registerkarte zum Definieren und Verwalten von CSS-Stilen für eine Komponente verwenden. Die Kernkomponente „Assistent“ für adaptive Formulare unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
+Sie können das Dialogfeld „Design“ zum Definieren und Verwalten von CSS-Stilen für eine Komponente verwenden. Die Kernkomponente „Assistent“ für adaptive Formulare unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
-![Registerkarte „Stile“](/help/adaptive-forms/assets/panel_style.png)
+**Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die Assistenten-Komponente bereitstellen.
 
-* **Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die Assistenten-Komponente bereitstellen.
-
-* **Zulässige Stile**: Sie können Stile definieren, indem Sie den Namen und die CSS-Klasse für den Stil angeben. Sie können beispielsweise einen Stil mit dem Namen „Fettschrift“ erstellen und die CSS-Klasse „Schriftbreite: Fett“ bereitstellen. Sie können diese Stile bei einem adaptiven Formular im adaptiven Formular-Editor anwenden. Um einen Stil anzuwenden, wählen Sie im Editor für adaptive Formulare die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Eigenschaften-Dialog und wählen Sie den gewünschten Stil aus der Dropdown-Liste **Stile**. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld „Design“ zurück, aktualisieren die Stile auf der Registerkarte „Stile“ und speichern die Änderungen.
+**Zulässige Stile**: Sie können Stile definieren, indem Sie den Namen und die CSS-Klasse für den Stil angeben. Sie können beispielsweise einen Stil mit dem Namen „Fettschrift“ erstellen und die CSS-Klasse „Schriftbreite: Fett“ bereitstellen. Sie können diese Stile bei einem adaptiven Formular im adaptiven Formular-Editor anwenden. Um einen Stil anzuwenden, wählen Sie im Editor für adaptive Formulare die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Eigenschaften-Dialog und wählen Sie den gewünschten Stil aus der Dropdown-Liste **Stile**. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld „Design“ zurück, aktualisieren die Stile auf der Registerkarte „Stile“ und speichern die Änderungen.
 
