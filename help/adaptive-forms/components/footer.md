@@ -3,10 +3,10 @@ title: Kernkomponente „Fußzeile“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „Fußzeile“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: ht
-source-wordcount: '770'
-ht-degree: 100%
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
+workflow-type: tm+mt
+source-wordcount: '806'
+ht-degree: 96%
 
 ---
 
@@ -85,6 +85,7 @@ Das Dialogfeld „Bearbeiten“ bietet standardmäßige Rich-Text-Formatierungsw
       1. Wählen Sie im Dialogfeld „Auswahl öffnen“ einen Pfad in AEM aus.
       1. Wenn der Link in AEM nicht angezeigt wird, geben Sie die absolute URL ein.
       1. Nicht-absolute Pfade werden als relativ zu AEM interpretiert.
+
    * **Alternativtext** – Geben Sie einen alternativen, beschreibenden Text für den Link ein.
 
    * **Ziel** – Link-Verhalten auswählen
@@ -93,11 +94,10 @@ Das Dialogfeld „Bearbeiten“ bietet standardmäßige Rich-Text-Formatierungsw
       * Neue Registerkarte
       * Übergeordneter Frame
       * Top-Frame
+
    * **Symbol zum Aufheben einer Verknüpfung** – Mit dieser Option wird eine bereits auf den markierten Text angewendete Verknüpfung entfernt. Diese Option ist nur aktiv, wenn bereits ein Link ausgewählt ist.
 
    * **Absatzformat-Symbol** – Mit dieser Option können Sie eine Absatzformatierung auf den ausgewählten Text anwenden. Damit kann auch nach dem Cursor eingefügter Text formatiert werden. Mit dieser Option wird die Überschriftenebene des Titels definiert.
-
-
 
 * **ID**: Diese Option ermöglicht es, die eindeutige Kennung der Komponente im HTML und in der Datenschicht festzulegen.
 
@@ -105,3 +105,8 @@ Das Dialogfeld „Bearbeiten“ bietet standardmäßige Rich-Text-Formatierungsw
    * Sofern eine ID angegeben wird, ist vom Autor bzw. der Autorin sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
+## Verwandter Artikel {#related-article}
+
+* [Erstellen eines adaptiven Formulars auf der AEM Sites-Seite oder im Experience Fragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [Erstellen eines eigenständigen adaptiven Formulars](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=de)

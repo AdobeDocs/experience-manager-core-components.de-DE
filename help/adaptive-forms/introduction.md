@@ -3,10 +3,10 @@ title: Einführung zu Kernkomponenten für adaptive Formulare in AEM
 description: Erstellen Sie ansprechende Registrierungserlebnisse (Formulare) mit der Flexibilität der Kernkomponenten für adaptive Formulare und stellen Sie sie über Adobe Experience Manager bereit.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: a450d265d10984b879fcb1ad4ffe0f3ce3edef5b
-workflow-type: ht
-source-wordcount: '1147'
-ht-degree: 100%
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
+workflow-type: tm+mt
+source-wordcount: '1262'
+ht-degree: 89%
 
 ---
 
@@ -100,7 +100,7 @@ Durch die Aktivierung der Kernkomponenten für adaptive Formulare in AEM Forms a
 
 Die Kernkomponenten für adaptive Formulare haben die folgenden Anforderungen.
 
-| AEM | AEM Forms-Add-on | Kernkomponenten für adaptive Formulare |
+| AEM Version | AEM Forms-Add-on | Kernkomponenten für adaptive Formulare |
 |---|---|---|
 | AEM as a Cloud Service | Forms – Digitale Registrierung | [Version 2.0.10](version.md)+ |
 | AEM 6.5 | Forms-Add-on | [Version 1.1.12](version.md)+ |
@@ -108,9 +108,16 @@ Die Kernkomponenten für adaptive Formulare haben die folgenden Anforderungen.
 Wenn Ihre Version des AEM Cloud Service SDK älter als 2023.02.0 ist, [stellen Sie sicher, dass das `prerelease`-Flag in Ihrer Umgebung aktiviert ist](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features), da Kernkomponenten für adaptive Formulare Teil der Vorabversion vor der Version 2023.02.0 waren.
 
 
-### Erstellen eines adaptiven Formulars basierend auf Kernkomponenten
+## Erstellen eines auf Kernkomponenten basierenden adaptiven Formulars
 
-Informationen zum Erstellen eines adaptiven Formulars in AEM Forms as a Cloud Service finden Sie unter [Erstellen eines adaptiven Formulars (Kernkomponenten)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=de?).
+Sie können die folgenden Aktionen für as a Cloud Service AEM Forms- oder AEM 6.5 Forms-Umgebungen ausführen:
+
+| Aktion | AEM Forms-Version |
+|--------|------------------|
+| Erstellen eines eigenständigen adaptiven Formulars | [AEM Forms as Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=de) |
+| Erstellen eines adaptiven Formulars auf der Seite &quot;AEM Sites&quot; | [AEM 6.5 Forms](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-basic-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=en#create-an-adaptive-form-in-sites-editor-or-experience-fragment), [AEM Forms as Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html#create-an-adaptive-form-in-sites-editor-or-experience-fragment) |
+| Erstellen eines adaptiven Formulars in AEM Experience Fragment | [AEM 6.5 Forms](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-basic-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=en#create-an-adaptive-form-in-experience-fragment), [AEM Forms as Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html#create-an-adaptive-form-in-experience-fragment) |
+| Konvertieren eines adaptiven Formulars in ein Experience Fragment | [AEM 6.5 Forms](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-basic-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=en#convert-an-adaptive-form-in-sites-page-to-an-experience-fragment), [AEM Forms as Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html#convert-an-adaptive-form-in-sites-page-to-an-experience-fragment) |
 
 
 
