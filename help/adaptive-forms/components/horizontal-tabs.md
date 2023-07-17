@@ -6,7 +6,7 @@ exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
 source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
 source-wordcount: '1769'
-ht-degree: 86%
+ht-degree: 98%
 
 ---
 
@@ -66,23 +66,23 @@ Im Konfigurieren-Dialogfeld können Sie die horizontalen Registerkarten einfach 
 
 * **Daten in Objekt aufnehmen**: Wählen Sie „Daten in ein Objekt aufnehmen“ aus, um die Felddaten aus dem Assistenten in ein JSON-Objekt einzufügen. Wenn diese Option nicht ausgewählt ist, hat die JSON-Datei „Daten senden“ eine flache Struktur für die Felder des Assistenten.
 
-* **Layout**: Sie können für Ihren Assistenten entweder ein festes Layout (einfach) oder ein flexibles Layout (responsives Raster) verwenden. Das einfache Layout behält alles fest an der Stelle, während Sie mit dem responsiven Raster die Position der Komponenten an Ihre Bedürfnisse anpassen können. Verwenden Sie beispielsweise das responsive Raster, um „Vorname“, „Mittelname“ und „Nachname“ in einem Formular in einer einzigen Zeile auszurichten.
+* **Layout**– Sie können für Ihren Assistenten entweder ein festes Layout (einfach) oder ein flexibles Layout (responsives Raster) verwenden. Das einfache Layout behält alles fest an der Stelle, während Sie mit dem responsiven Raster die Position der Komponenten an Ihre Bedürfnisse anpassen können. Verwenden Sie beispielsweise das responsive Raster, um „Vorname“, „Mittelname“ und „Nachname“ in einem Formular in einer einzigen Zeile auszurichten.
 
 * **Bindungsverweis**: Bindungsverweis ist ein Verweis auf ein Datenelement, das in einer externen Datenquelle gespeichert ist und in einem Formular verwendet wird. Sie können mit dem Bindungsverweis Daten dynamisch an Formularfelder binden, sodass das Formular die aktuellsten Daten aus der Datenquelle anzeigen kann. Beispielsweise kann ein Bindungsverweis verwendet werden, um den Namen und die Adresse von Kundinnen und Kunden in einem Formular anzuzeigen, basierend auf der im Formular eingegebenen Kunden-ID. Der Bindungsverweis kann auch verwendet werden, um die Datenquelle mit den im Formular eingegebenen Daten zu aktualisieren. Auf diese Weise können Sie mit AEM Forms Formulare erstellen, die mit externen Datenquellen interagieren und so ein nahtloses Benutzererlebnis bei der Datenerfassung und -verwaltung bieten.
-* **Komponente ausblenden** – Wählen Sie diese Option, um die Komponente aus dem Formular auszublenden. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor. Dies ist nützlich, wenn Sie Informationen speichern müssen, die Benutzende nicht sehen oder direkt ändern müssen.
-* **Komponente deaktivieren**: Wählen Sie die Option zum Deaktivieren der Komponente aus. Die deaktivierte Komponente ist nicht aktiv und Endbenutzende können sie nicht bearbeiten. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
+* **Komponente ausblenden** : Wählen Sie diese Option, um die Komponente aus dem Formular auszublenden. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor. Dies ist nützlich, wenn Sie Informationen speichern müssen, die Benutzende nicht sehen oder direkt ändern müssen.
+* **Komponente deaktivieren**– Wählen Sie die Option zum Deaktivieren der Komponente aus. Die deaktivierte Komponente ist nicht aktiv und Endbenutzende können sie nicht bearbeiten. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
 
 ### Registerkarten oben wiederholen {#repeat-tabs-on-top}
 
 ![Registerkarte „Barrierefreiheit“](/help/adaptive-forms/assets/repeat-tabsontop.png)
 
-Sie können die Wiederholungsoptionen verwenden, um die Komponente Horizontale Registerkarten und ihre untergeordneten Komponenten zu duplizieren, eine minimale und maximale Wiederholungsanzahl zu definieren und die Replikation ähnlicher Abschnitte innerhalb eines Formulars zu erleichtern. Bei der Interaktion mit der Komponente Horizontale Registerkarten und dem Zugriff auf ihre Einstellungen werden die folgenden Optionen angezeigt:
+Sie können die Wiederholungsoptionen verwenden, um die Komponente „Horizontale Registerkarten“ und ihre untergeordneten Komponenten zu duplizieren, eine minimale und maximale Wiederholungsanzahl zu definieren und die Replikation ähnlicher Abschnitte innerhalb eines Formulars zu erleichtern. Bei der Interaktion mit der Komponente „Horizontale Registerkarten“ und dem Zugriff auf ihre Einstellungen werden die folgenden Optionen angezeigt:
 
-* **Horizontale Registerkarten wiederholbar machen**: Eine Umschalter-Funktion, mit der Benutzer die Wiederholungsfunktion aktivieren oder deaktivieren können.
-* **Mindestwiederholungen**: Legt fest, wie oft die Komponente Horizontale Registerkarten mindestens wiederholt werden kann. Der Wert null zeigt an, dass die Komponente Horizontale Registerkarten nicht wiederholt wird. der Standardwert ist null.
-* **Maximale Wiederholungen**: Legt fest, wie oft die Komponente Horizontale Registerkarten maximal wiederholt werden kann. Standardmäßig ist dieser Wert unbegrenzt.
+* **Horizontale Registerkarten wiederholbar machen**: Eine Umschalter-Funktion, mit der Benutzende die Wiederholungsfunktion aktivieren oder deaktivieren können.
+* **Mindestwiederholungen**: Legt fest, wie oft die Komponente „Horizontale Registerkarten“ mindestens wiederholt werden kann. Der Wert null zeigt an, dass die Komponente „Horizontale Registerkarten“ nicht wiederholt wird. Der Standardwert ist null.
+* **Maximale Wiederholungen**: Legt fest, wie oft die Komponente „Horizontale Registerkarten“ maximal wiederholt werden kann. Standardmäßig ist dieser Wert unbegrenzt.
 
-Um wiederholbare Abschnitte auf den Registerkarten &quot;Horizontal&quot;effektiv zu verwalten, führen Sie die Schritte aus, die im Abschnitt [Erstellen von Formularen mit wiederholbaren Abschnitten](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) Artikel.
+Um wiederholbare Abschnitte innerhalb der horizontalen Registerkarten effektiv zu verwalten, folgen Sie den Schritten, die im Artikel [Erstellen von Formularen mit wiederholbaren Abschnitten](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=de) beschrieben sind.
 
 ### Registerkarte „Elemente“ {#items-tab}
 
@@ -92,7 +92,7 @@ Mit der Schalfläche **Hinzufügen** können Sie eine Komponente vom Komponenten
 
 * **Symbol**: Das Symbol identifiziert die Komponente des Bedienfelds in der Liste. Sie können den Mauszeiger über das Symbol bewegen, um den vollständigen Komponentennamen als QuickInfo anzuzeigen.
 * **Beschreibung**: Die Beschreibung, die als Text des Bedienfelds verwendet wird. Standardmäßig der Name der für das Bedienfeld ausgewählten Komponente.
-* **Löschen** - Tippen oder klicken Sie, um den Bereich aus der Komponente Horizontale Registerkarten zu löschen.
+* **Entfernen**: Tippen oder klicken Sie, um das Bedienfeld aus der Komponente „Horizontale Registerkarten“ zu löschen.
 * **Neu anordnen**: Tippen oder klicken und ziehen Sie, um die Reihenfolge der Bedienfelder neu anzuordnen.
 
 ### Registerkarte „Hilfe-Inhalt“ {#help-content}
@@ -115,10 +115,10 @@ Mit der Schalfläche **Hinzufügen** können Sie eine Komponente vom Komponenten
 
 ## Dialogfeld „Design“ {#design-dialog}
 
-Im Dialogfeld „Design“ können Vorlagenerstellende steuern, wie Elemente standardmäßig angezeigt werden. Für die Komponente Horizontale Registerkarten des adaptiven Forms können Sie Folgendes festlegen:
+Im Dialogfeld „Design“ können Vorlagenerstellende steuern, wie Elemente standardmäßig angezeigt werden. Für die Komponente „Horizontale Registerkarten“ in adaptiven Formularen können Sie folgende Einstellungen vornehmen:
 
-* Die Kernkomponenten, die ein Formularersteller den Registerkarten &quot;Horizontal&quot;im adaptiven Forms-Editor hinzufügen kann
-* Einfache Namen für Stile (CSS-Klassen), die im Eigenschaftendialogfeld der Komponente Horizontale Registerkarten im adaptiven Forms-Editor angewendet werden können.
+* Kernkomponenten, die Sie mit dem Editor für adaptive Formulare den horizontalen Registerkarten hinzufügen können
+* Einfache Namen für Stile (CSS-Klassen), die Sie im Dialogfeld „Eigenschaften“ der Komponente „Horizontale Registerkarten“ im Editor für adaptive Formulare anwenden können.
 
 Dadurch wird das Erstellen und Anpassen von Formularen einfacher und effizienter.
 
