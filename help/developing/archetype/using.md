@@ -4,10 +4,10 @@ description: Detaillierte Nutzungsanleitungen für den AEM-Projektarchetyp
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
-source-git-commit: ca61d71a2644465e74249058157d8dea2aa71352
-workflow-type: ht
-source-wordcount: '2198'
-ht-degree: 100%
+source-git-commit: e0dff3b15c9637292eb2bb89836215afc0fcf8f9
+workflow-type: tm+mt
+source-wordcount: '2201'
+ht-degree: 99%
 
 ---
 
@@ -45,7 +45,7 @@ Der AEM-Archetyp besteht aus Modulen:
 * **all**: ist ein Inhaltspaket, das alle kompilierten Module (Bundles und Inhaltspakete) inklusive aller Abhängigkeiten des Anbieters einbettet.
 * **analyse**: führt eine Analyse für das Projekt aus, die eine zusätzliche Validierung für die Bereitstellung in AEM as a Cloud Service bietet.
 
-![](/help/assets/archetype-structure.png)
+![Inhaltspaket-Organisation](/help/assets/content-package-organization.png)
 
 Die in Maven dargestellten Module des AEM-Archetyps werden als Inhaltspakete bereitgestellt, die das Programm, den Inhalt und die erforderlichen OSGi-Pakete darstellen.
 
@@ -76,7 +76,7 @@ mvn -B archetype:generate \
 
 * Legen Sie `XX` auf die [Versionsnummer](https://github.com/adobe/aem-project-archetype/blob/master/VERSIONS.md) des neuesten AEM-Projektarchetyps fest.
 * Legen Sie `aemVersion=cloud` für [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=de) fest.\
-   Legen Sie `aemVersion=6.5.0` für [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) oder On-Premise fest.
+  Legen Sie `aemVersion=6.5.0` für [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) oder On-Premise fest.
 Die Abhängigkeit der Kernkomponenten wird nur für AEM-Versionen ohne Cloud Service hinzugefügt, da die Kernkomponenten für AEM as a Cloud Service standardmäßig bereitgestellt werden.
 * Passen Sie `appTitle="My Site"` an, um den Titel der Website und die Komponentengruppen festzulegen.
 * Passen Sie `appId="mysite"` an, um die Maven-Artefakt-ID (artifactId), die Namen der Komponenten-, Konfigurations- und Inhaltsordner sowie die Namen der Client-Bibliotheken festzulegen.
@@ -95,10 +95,10 @@ Die folgenden Eigenschaften sind beim Erstellen eines Projekts mit dem Archetyp 
 
 | Name | Standard | Beschreibung |
 |---------------------------|----------------|--------------------|
-| `appTitle` |  | Der Titel der App; wird für den Titel der Website und die Komponentengruppen verwendet (z. B. `"My Site"`). |
-| `appId` |  | Technischer Name; wird für Komponenten-, Konfigurations- und Inhaltsordnernamen sowie die Namen der Client-Bibliotheken verwendet (z. B. `"mysite"`). |
+| `appTitle` |                | Der Titel der App; wird für den Titel der Website und die Komponentengruppen verwendet (z. B. `"My Site"`). |
+| `appId` |                | Technischer Name; wird für Komponenten-, Konfigurations- und Inhaltsordnernamen sowie die Namen der Client-Bibliotheken verwendet (z. B. `"mysite"`). |
 | `artifactId` | *`${appId}`* | Maven-Basisartefakt-ID (z. B. `"mysite"`). |
-| `groupId` |  | Maven-Basisgruppen-ID (z. B. `"com.mysite"`). |
+| `groupId` |                | Maven-Basisgruppen-ID (z. B. `"com.mysite"`). |
 | `package` | *`${groupId}`* | Java-Quellpaket (z. B. `"com.mysite"`). |
 | `version` | `1.0-SNAPSHOT` | Projektversion (z. B. `1.0-SNAPSHOT`). |
 | `aemVersion` | `cloud` | Ziel-AEM-Version (kann `cloud` für [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=de) sein; oder `6.5.0` oder `6.4.4` für [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) oder On-Premise). |
@@ -111,7 +111,7 @@ Die folgenden Eigenschaften sind beim Erstellen eines Projekts mit dem Archetyp 
 | `includeExamples` | `n` | Enthält eine Beispiel-Website für die [Komponentenbibliothek](https://www.aemcomponents.dev/) (kann `y` oder `n` sein). |
 | `includeErrorHandler` | `n` | Enthält eine benutzerdefinierte 404-Antwortseite, die für die gesamte Instanz global ist (kann `y` oder `n` sein). |
 | `includeCommerce` | `n` | Enthält [CIF-Kernkomponenten](https://github.com/adobe/aem-core-cif-components)-Abhängigkeiten und generiert entsprechende Artefakte. |
-| `commerceEndpoint` |  | Nur für CIF erforderlich. Optionaler Endpunkt des zu verwendenden GraphQL-Service (z. B. `https://hostname.com/grapql`). |
+| `commerceEndpoint` |                | Nur für CIF erforderlich. Optionaler Endpunkt des zu verwendenden GraphQL-Service (z. B. `https://hostname.com/grapql`). |
 | `datalayer` | `y` | Aktivieren Sie die Integration mit der [Adobe Client-Datenschicht](/help/developing/data-layer/overview.md). |
 | `amp` | `n` | Aktivieren Sie [AMP](/help/developing/amp.md)-Unterstützung für erstellte Projektvorlagen. |
 | `enableDynamicMedia` | `n` | Aktiviert die Foundation-Komponenten von Dynamic Media in den Einstellungen der Projektrichtlinien und aktiviert Dynamic Media-Funktionen in der Richtlinie der Kernbildkomponente. |
@@ -210,7 +210,7 @@ Der AEM-Projektarchetyp nutzt natürlich die Kernkomponenten.
 
 Die Kernkomponenten werden in AEM automatisch im Standard-Ausführungsmodus installiert und von der WKND-Beispiel-Site verwendet. In einem [Produktions-Ausführungsmodus](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=de#runmodes) (`nosamplecontent`) sind die Kernkomponenten nicht verfügbar.
 
-Um die Kernkomponenten in allen Implementierungen zu nutzen, empfiehlt es sich daher, sie in das Maven-Projekt einzubeziehen.
+Um die Kernkomponenten in allen Bereitstellungen zu nutzen, empfiehlt es sich daher, sie in das Maven-Projekt einzubeziehen.
 
 >[!NOTE]
 >
