@@ -4,9 +4,9 @@ description: Verwenden oder Anpassen der Header-Kernkomponente für adaptive For
 role: Architect, Developer, Admin, User
 exl-id: aa18def9-0bec-4475-8dde-213860621ef5
 source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '711'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -67,12 +67,12 @@ Dieser Teil des Headers enthält den Header-Titel und das Bild.
 
 * **Titel** – Mit dieser Option fügen Sie die Überschrift zur Kopfzeile hinzu. Benutzende können den im Dialogfeld enthaltenen, vordefinierten Text ändern.
 * **Link zu** – Sie können die Überschrift mit dem Ordner verknüpfen, indem Sie das Symbol **Durchsuchen** verwenden.
-* **Beschreibung** – Eine Beschreibung ist eine kurze Texterklärung, die zusätzliche Informationen oder Klarstellungen zum Zweck eines bestimmten Bildes bietet.
+* **Beschreibung**: Eine Beschreibung ist eine kurze Texterklärung, die zusätzliche Informationen oder Klarstellungen zum Zweck eines bestimmten Bildes bietet.
 * **Größe (px)** – Hiermit werden Länge und Breite des Bildes angepasst, indem die Anzahl der Pixel erhöht oder verringert wird.
 
 ![Registerkarte „Barrierefreiheit“](/help/adaptive-forms/assets/header_accessibility.png)
 
-* **Alternativtext** – Diese Option wird verwendet, um eine kurze Textalternative für das Bild einzugeben, um es für sehbehinderte Benutzende zu beschreiben.
+* **Alternativtext**: Diese Option wird verwendet, um eine kurze Textalternative für das Bild einzugeben, um es für sehbehinderte Benutzende zu beschreiben.
 
 * **Bild ist dekorativ** – Überprüfen Sie, ob das Bild von Hilfstechnologien ignoriert werden soll und daher keinen alternativen Text erfordert. Dies gilt nur für dekorative Bilder.
 
@@ -82,6 +82,6 @@ Sie können in diesem Abschnitt den Text eingeben, den Sie in die Kopfzeile einf
 
 ## Verwandter Artikel {#related-article}
 
-* [Erstellen eines adaptiven Formulars auf der AEM Sites-Seite oder im Experience Fragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+* [Erstellen eines adaptiven Formulars in einer AEM Sites-Seite oder einem Experience Fragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=de)
 
 * [Erstellen eines eigenständigen adaptiven Formulars](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=de)
