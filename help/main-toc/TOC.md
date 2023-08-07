@@ -5,10 +5,10 @@ breadcrumb-title: Anleitung zu den Hauptkomponenten
 feature: Core Components
 user-guide-description: Nutzen Sie die erweiterbaren Hauptkomponenten, damit Autoren bzw. Autorinnen mühelos Inhalte erstellen können.
 feature-set: Experience Manager Sites
-source-git-commit: ebbe3471164341076fe085bbef9c93fcb1fe382a
+source-git-commit: ec817d5527f93cc4a8468ffcf28886dc8cd6d03c
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 100%
+source-wordcount: '373'
+ht-degree: 98%
 
 ---
 
@@ -127,6 +127,7 @@ ht-degree: 100%
       + [Adaptive Formulare – Assistenten-Layout](/help/adaptive-forms/components/wizard.md)
       + [Kopfzeile](/help/adaptive-forms/components/header.md)
       + [Fußzeile](/help/adaptive-forms/components/footer.md)
+   + [Beispieldesigns und -vorlagen](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
 + Entwickeln {#developing}
    + [Entwickeln von Kernkomponenten](/help/developing/overview.md)
    + [Wege zum Erfolg](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=de)
