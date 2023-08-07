@@ -5,10 +5,10 @@ breadcrumb-title: Anleitung zu den Hauptkomponenten
 feature: Core Components
 user-guide-description: Nutzen Sie die erweiterbaren Hauptkomponenten, damit Autoren bzw. Autorinnen mühelos Inhalte erstellen können.
 feature-set: Experience Manager Sites
-source-git-commit: 5c07caecae60e3df4a4ce56ddd2d9c174ac7f195
+source-git-commit: ebbe3471164341076fe085bbef9c93fcb1fe382a
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 97%
+source-wordcount: '369'
+ht-degree: 100%
 
 ---
 
@@ -103,7 +103,6 @@ ht-degree: 97%
       + [Segmentierung](/help/email/components/segmentation.md)
 + Adaptive Formulare {#adaptive-forms}
    + [Einführung](/help/adaptive-forms/introduction.md)
-   + [Muster-Designs, Vorlagen und Formulardatenmodelle in Kernkomponenten](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
    + [Versionsverlauf](/help/adaptive-forms/version.md)
    + Adaptive Formulare – Komponenten {#adaptive-forms-components}
       + [Adaptive Formulare – Akkordeon](/help/adaptive-forms/components/accordion.md)
