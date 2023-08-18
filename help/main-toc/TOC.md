@@ -5,10 +5,10 @@ breadcrumb-title: Anleitung zu den Hauptkomponenten
 feature: Core Components
 user-guide-description: Nutzen Sie die erweiterbaren Hauptkomponenten, damit Autoren bzw. Autorinnen mühelos Inhalte erstellen können.
 feature-set: Experience Manager Sites
-source-git-commit: ec817d5527f93cc4a8468ffcf28886dc8cd6d03c
+source-git-commit: 8db061f3d6f1041336c379b34f3b6b7f03083560
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 98%
+source-wordcount: '381'
+ht-degree: 96%
 
 ---
 
@@ -117,6 +117,7 @@ ht-degree: 98%
       + [Adaptive Formulare – Bild](/help/adaptive-forms/components/image.md)
       + [Adaptive Formulare – Zahleneingabe](/help/adaptive-forms/components/number-input.md)
       + [Adaptive Formulare – Bedienfeld](/help/adaptive-forms/components/panel-container.md)
+      + [Adaptives Forms CAPTCHA](/help/adaptive-forms/components/captcha.md)
       + [Adaptive Formulare – Optionsschaltfläche](/help/adaptive-forms/components/radio-button.md)
       + [Adaptive Formulare – Schaltfläche „Zurücksetzen“](/help/adaptive-forms/components/reset-button.md)
       + [Adaptive Formulare – Schaltfläche „Senden“](/help/adaptive-forms/components/submit-button.md)
@@ -127,6 +128,7 @@ ht-degree: 98%
       + [Adaptive Formulare – Assistenten-Layout](/help/adaptive-forms/components/wizard.md)
       + [Kopfzeile](/help/adaptive-forms/components/header.md)
       + [Fußzeile](/help/adaptive-forms/components/footer.md)
+   + [Adaptive Forms-Kernkomponenten anpassen](/help/developing/customize-adaptive-forms-core-components.md)
    + [Beispieldesigns und -vorlagen](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
 + Entwickeln {#developing}
    + [Entwickeln von Kernkomponenten](/help/developing/overview.md)
