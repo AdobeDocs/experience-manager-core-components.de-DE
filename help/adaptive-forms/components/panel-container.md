@@ -2,10 +2,10 @@
 title: Kernkomponente „Bedienfeld-Container“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „Bedienfeld-Container“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
-source-git-commit: 9a80b453d6a6cf7b347128654d3b5e673a063505
+source-git-commit: b6e3a443c7425a60fc6c3469dc273960a4e29088
 workflow-type: tm+mt
-source-wordcount: '1503'
-ht-degree: 90%
+source-wordcount: '1539'
+ht-degree: 91%
 
 ---
 
@@ -67,7 +67,7 @@ Mit dem Dialogfeld „Konfigurieren“ können Sie Bedienfeld-Container mühelos
 
 - **Titel ausblenden**: Wählen Sie die Option aus, um den Titel der Komponente auszublenden.
 
-- **Daten untergeordneter Komponenten bei Formularübermittlung gruppieren (Daten in Objekt einschließen)** - Wenn die Option ausgewählt ist, werden die Daten aus den untergeordneten Komponenten innerhalb des JSON-Objekts der übergeordneten Komponente verschachtelt. Wenn die Option jedoch nicht ausgewählt ist, weisen die gesendeten JSON-Daten eine flache Struktur auf, ohne dass ein Objekt für die übergeordnete Komponente vorhanden ist. Beispiel:
+- **Daten untergeordneter Komponenten bei Formularübermittlung gruppieren (Daten in Objekt einschließen)** - Wenn die Option ausgewählt ist, werden die Daten aus den untergeordneten Komponenten innerhalb des JSON-Objekts der übergeordneten Komponente verschachtelt. Wenn die Option jedoch nicht ausgewählt ist, weisen die gesendeten JSON-Daten eine flache Struktur auf, ohne dass ein Objekt für die übergeordnete Komponente vorhanden ist. Zum Beispiel:
 
    - Wenn die Option ausgewählt ist, werden die Daten aus den untergeordneten Komponenten (z. B. Straße, Stadt und Postleitzahl) innerhalb der übergeordneten Komponente (Adresse) als JSON-Objekt verschachtelt. Dadurch wird eine hierarchische Struktur erstellt und die Daten werden unter der übergeordneten Komponente angeordnet.
 
@@ -133,3 +133,28 @@ Um wiederholbare Abschnitte innerhalb des Bedienfeld-Containers effektiv zu verw
 - [Erstellen eines adaptiven Formulars in einer AEM Sites-Seite oder einem Experience Fragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=de)
 
 - [Erstellen eines eigenständigen adaptiven Formulars](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=de)
+
+
+## Siehe auch {#see-also}
+
+- [Akkordeon](/help/adaptive-forms/components/accordion.md)
+- [Schaltfläche](/help/adaptive-forms/components/button.md)
+- [Kontrollkästchen Gruppe](/help/adaptive-forms/components/checkbox-group.md)
+- [Datumsauswahl](/help/adaptive-forms/components/date-picker.md)
+- [Dropdown-Liste](/help/adaptive-forms/components/drop-down.md)
+- [E-Mail-Eingabe](/help/adaptive-forms/components/email-input.md)
+- [Formular-Container](/help/adaptive-forms/components/form-container.md)
+- [Dateianhang](/help/adaptive-forms/components/file-attachment.md)
+- [Fußzeile](/help/adaptive-forms/components/footer.md)
+- [Kopfzeile](/help/adaptive-forms/components/header.md)
+- [Horizontale Registerkarten](/help/adaptive-forms/components/horizontal-tabs.md)
+- [Bild](/help/adaptive-forms/components/image.md)
+- [Zahleneingabe](/help/adaptive-forms/components/number-input.md)
+- [Optionsschaltfläche](/help/adaptive-forms/components/radio-button.md)
+- [Schaltfläche „Zurücksetzen“](/help/adaptive-forms/components/reset-button.md)
+- [Schaltfläche „Senden“](/help/adaptive-forms/components/submit-button.md)
+- [Telefoneingabe](/help/adaptive-forms/components/telephone-input.md)
+- [Texteingabe](/help/adaptive-forms/components/text-input.md)
+- [Text](/help/adaptive-forms/components/text.md)
+- [Titel](/help/adaptive-forms/components/title.md)
+- [Assistent](/help/adaptive-forms/components/wizard.md)
