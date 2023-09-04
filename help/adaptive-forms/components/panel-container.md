@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 source-git-commit: b6e3a443c7425a60fc6c3469dc273960a4e29088
 workflow-type: tm+mt
 source-wordcount: '1539'
-ht-degree: 91%
+ht-degree: 99%
 
 ---
 
@@ -67,9 +67,9 @@ Mit dem Dialogfeld „Konfigurieren“ können Sie Bedienfeld-Container mühelos
 
 - **Titel ausblenden**: Wählen Sie die Option aus, um den Titel der Komponente auszublenden.
 
-- **Daten untergeordneter Komponenten bei Formularübermittlung gruppieren (Daten in Objekt einschließen)** - Wenn die Option ausgewählt ist, werden die Daten aus den untergeordneten Komponenten innerhalb des JSON-Objekts der übergeordneten Komponente verschachtelt. Wenn die Option jedoch nicht ausgewählt ist, weisen die gesendeten JSON-Daten eine flache Struktur auf, ohne dass ein Objekt für die übergeordnete Komponente vorhanden ist. Zum Beispiel:
+- **Daten untergeordneter Komponenten bei Formularübermittlung gruppieren (Daten in Objekt einschließen)** – Wenn die Option ausgewählt ist, werden die Daten aus den untergeordneten Komponenten innerhalb des JSON-Objekts der übergeordneten Komponente verschachtelt. Wenn jedoch die Option nicht ausgewählt ist, weisen die gesendeten JSON-Daten eine flache Struktur auf, ohne dass ein Objekt für die übergeordnete Komponente vorhanden ist. Zum Beispiel:
 
-   - Wenn die Option ausgewählt ist, werden die Daten aus den untergeordneten Komponenten (z. B. Straße, Stadt und Postleitzahl) innerhalb der übergeordneten Komponente (Adresse) als JSON-Objekt verschachtelt. Dadurch wird eine hierarchische Struktur erstellt und die Daten werden unter der übergeordneten Komponente angeordnet.
+   - Wenn die Option ausgewählt ist, werden die Daten aus den untergeordneten Komponenten (z. B. Straße, Stadt und Postleitzahl) innerhalb der übergeordneten Komponente (Adresse) als JSON-Objekt verschachtelt. Dadurch wird eine hierarchische Struktur erstellt, und die Daten werden unter der übergeordneten Komponente angeordnet.
 
      Struktur der übermittelten Daten:
 
@@ -81,7 +81,7 @@ Mit dem Dialogfeld „Konfigurieren“ können Sie Bedienfeld-Container mühelos
      }
      ```
 
-   - Wenn die Option nicht ausgewählt ist, weisen die gesendeten JSON-Daten eine flache Struktur ohne Objekt für die übergeordnete Komponente (Adresse) auf. Alle Daten befinden sich auf derselben Ebene ohne hierarchische Organisation.
+   - Wenn die Option nicht ausgewählt ist, weisen die gesendeten JSON-Daten eine flache Struktur auf, ohne dass ein Objekt für die übergeordnete Komponente (Adresse) vorhanden ist. Alle Daten befinden sich auf derselben Ebene ohne hierarchische Organisation.
 
 
      Struktur der übermittelten Daten:
