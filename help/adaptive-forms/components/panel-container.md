@@ -3,9 +3,9 @@ title: Kernkomponente „Bedienfeld-Container“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „Bedienfeld-Container“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 source-git-commit: b6e3a443c7425a60fc6c3469dc273960a4e29088
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1539'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
