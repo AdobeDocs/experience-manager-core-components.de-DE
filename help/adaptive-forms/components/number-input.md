@@ -4,9 +4,9 @@ description: Verwenden oder Anpassen der Kernkomponente „Zahleneingabe“ für
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
 source-git-commit: ad3e3bca5cb46f14e864e4704c90ac3b62779794
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1870'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
