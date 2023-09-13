@@ -4,9 +4,9 @@ description: Verwenden oder Anpassen der Kernkomponente „Horizontale Registerk
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
 source-git-commit: b6e3a443c7425a60fc6c3469dc273960a4e29088
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1906'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
