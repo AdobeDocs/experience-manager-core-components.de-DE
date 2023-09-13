@@ -4,9 +4,9 @@ description: Verwenden oder Anpassen der Kernkomponente „Dateianhang“ von ad
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
 source-git-commit: ad3e3bca5cb46f14e864e4704c90ac3b62779794
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1580'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
