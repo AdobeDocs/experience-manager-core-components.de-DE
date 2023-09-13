@@ -4,9 +4,9 @@ description: So implementieren Sie Ihr Projekt erfolgreich mit den Kernkomponent
 role: Architect, Developer, Admin, User
 exl-id: 1ea8cd1c-8435-4ded-82dc-5a7896c53e0c
 source-git-commit: b1d38310a3f05e2dd2a68de1574a278bac2c78e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '565'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Berücksichtigen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_li
 
 ### Nutzung des Benutzeroberflächen-Kits für Adobe XD {#ui-kit}
 
-Sobald eine benutzerdefinierte Komponente nachweislich benötigt wird, verwenden Sie das UI-Kit für Adobe XD. [die hier heruntergeladen werden können,](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) damit die Designer mit der Erstellung der Wireframes und Designs mit den Kernkomponenten als Bausteinen beginnen können.
+Sobald eine benutzerdefinierte Komponente nachweislich benötigt wird, verwenden Sie das Benutzeroberflächen-Kit für Adobe XD, [das hier heruntergeladen werden kann](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd), damit die Designerinnen und Designer die Kernkomponenten beim Erstellen der Wireframes und Designs als Bausteine verwenden können.
 
 ## Leistungsstarke Funktionen nicht übersehen {#powerful-features}
 
