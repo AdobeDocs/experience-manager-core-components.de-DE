@@ -2,7 +2,7 @@
 title: Dynamic Media-Unterstützung der nächsten Generation
 description: Erfahren Sie, wie Sie die Bild- und Teaser-Kernkomponenten konfigurieren, um Remote-Dynamic Media-Assets der nächsten Generation zu unterstützen.
 role: Architect, Developer, Admin, User
-source-git-commit: 57307b75bd33fd538a1eb704cc37822847c896de
+source-git-commit: 9b8930c2e268f52a1377906725db9a05a089e233
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 3%
@@ -70,7 +70,7 @@ Sobald die Kernkomponenten- und WKND-Site installiert sind, können Sie die Funk
 
 1. Nach der Authentifizierung wird ein Asset-Browser des Remote-Dienstes geöffnet. Wählen Sie das gewünschte Asset aus und tippen oder klicken Sie auf **Auswählen**.
 
-   ![Remote-Asset auswählen](/help/assets/remote-asset-selection.png)
+   ![Remote-Asset auswählen](/help/assets/remote-asset-picker.png)
 
 Das Remote-Asset wird Ihrer lokalen AEM-Seite hinzugefügt und Sie haben überprüft, ob die Funktion korrekt konfiguriert ist.
 
