@@ -3,10 +3,10 @@ title: Teaser-Komponente
 description: Die Teaser-Komponente kann ein Bild, einen Titel, Rich-Text und optional einen Link zu weiteren Inhalten anzeigen.
 role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
-source-git-commit: cfc86203051739cbcdc30be0fb10ccffa7d583a5
-workflow-type: ht
-source-wordcount: '988'
-ht-degree: 100%
+source-git-commit: 63f9659a547729c7cb3eb3c7a61cf1bc838cf6ce
+workflow-type: tm+mt
+source-wordcount: '1081'
+ht-degree: 92%
 
 ---
 
@@ -30,6 +30,12 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 |---|---|---|---|
 | v2 | - | Kompatibel | Kompatibel |
 | [v1](v1/teaser.md) | Kompatibel | Kompatibel | Kompatibel |
+
+## Dynamic Media-Unterstützung der nächsten Generation {#next-gen-dm}
+
+Die Teaser-Komponente (ab [Version 2.23.2](/help/versions.md)) unterstützt Remote-Assets der nächsten Generation von Dynamic Media.
+
+[Nach der Konfiguration](/help/developing/next-gen-dm.md) Sie können Assets aus einem Remote-Dynamic Media-Dienst der nächsten Generation für Ihre Teaser-Komponente auswählen.
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
@@ -77,6 +83,10 @@ Der Teaser-Titel, die Beschreibung und das Bild können von der verknüpften Sei
 * **Vorgestelltes Bild von Seite übernehmen** – Verwendet das in den Seiteneigenschaften der verknüpften Seite definierte Bild oder das der aktuellen Seite, wenn keines gefunden wird.
 * **Bild-Asset** – Ziehen Sie ein Asset aus dem [Asset-Browser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=de) oder tippen Sie auf die Option **Durchsuchen**, um es aus einem lokalen Dateisystem hochzuladen.
    * Tippen oder klicken Sie auf **Löschen**, um die Auswahl des aktuell ausgewählten Bilds aufzuheben.
+   * Tippen oder klicken **Auswahl** , um die [Asset-Browser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=de) , um ein Bild auszuwählen.
+      * Wenn [Dynamic Media-Funktionen der nächsten Generation](#next-gen-dm) aktiviert sind, haben Sie mehrere Optionen zum Auswählen eines Assets:
+         * **Lokal** wird aus der lokalen AEM Asset-Bibliothek ausgewählt.
+         * **Remote** wählt aus einer Dynamic Media-Bibliothek außerhalb Ihrer AEM aus.
    * Tippen oder klicken Sie auf **Bearbeiten**, um die [Ausgabedarstellungen des Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=de) im Asset-Editor zu verwalten.
 * **Alternativtext für Barrierefreiheit** – In diesem Feld können Sie eine Beschreibung des Bildes für sehbehinderte Benutzer definieren.
    * **Alternativtext von Seite übernehmen** – Diese Option verwendet die alternative Beschreibung des verknüpften Asset-Werts der `dc:description`-Metadaten in DAM oder der aktuellen Seite, wenn kein Asset verknüpft ist.

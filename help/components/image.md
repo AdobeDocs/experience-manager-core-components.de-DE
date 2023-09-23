@@ -3,20 +3,23 @@ title: Bildkomponente
 description: Die Bildkomponenten-Kernkomponente ist eine adaptive Bildkomponente.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 1cb06273ecb2c5b5f90c02b74b7ac0e440d87ecc
-workflow-type: ht
-source-wordcount: '1636'
-ht-degree: 100%
+source-git-commit: c879cf92cae028230f092c7376a1e9271f568388
+workflow-type: tm+mt
+source-wordcount: '2084'
+ht-degree: 85%
 
 ---
 
-# Bildkomponente {#image-component}
+
+# Bildkomponente  {#image-component}
 
 Die Bildkomponenten-Kernkomponente ist eine adaptive Bildkomponente.
 
 ## Verwendung {#usage}
 
 Die Bildkomponente bietet adaptive Bildauswahl und responsives Verhalten mit verzögertem Laden für den Seitenbesucher bzw. die Seitenbesucherin sowie einfache Bildplatzierung für den Inhaltsautor bzw. die Inhaltsautorin.
+
+Der Inhaltsautor kann die [Dialogfeld &quot;Bearbeiten&quot;](#edit-dialog) , um das Bild-Asset zu bearbeiten, z. B. einen Zuschnitt anzuwenden oder das Bild zu drehen.
 
 Die Bildbreiten sowie zusätzliche Einstellungen können vom Vorlagenautor im [Dialogfeld „Design“](#design-dialog) definiert werden. Der Inhaltseditor kann Elemente im [Dialogfeld „Konfigurieren“](#configure-dialog) hochladen oder auswählen.
 
@@ -50,6 +53,12 @@ Die Bildkomponente (ab [Version 2.13.0](/help/versions.md)) unterstützt [Dynami
 
 Ihre mit Kernkomponenten erstellten Web-Erlebnisse können jetzt funktionsreiche, Sensei-gestützte, robuste, leistungsstarke und plattformübergreifende Dynamic Media-Bildfunktionen enthalten.
 
+## Dynamic Media-Unterstützung der nächsten Generation {#next-gen-dm}
+
+Die Bildkomponente (ab [Version 2.23.2](/help/versions.md)) unterstützt Remote-Assets der nächsten Generation von Dynamic Media.
+
+[Nach der Konfiguration](/help/developing/next-gen-dm.md) Sie können Assets aus einem Remote-Dynamic Media-Dienst der nächsten Generation für Ihre Bildkomponente auswählen.
+
 ## SVG-Unterstützung {#svg-support}
 
 Skalierbare Vektorgrafiken (SVG) werden von der Bildkomponente unterstützt.
@@ -74,6 +83,76 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 
 Die Bildkomponente unterstützt [Schema.org-Mikrodaten](https://schema.org).
 
+## Dialogfeld „Bearbeiten“ {#edit-dialog}
+
+Im Dialogfeld &quot;Bearbeiten&quot;kann der Inhaltsautor das Bild beschneiden und zoomen.
+
+Je nachdem, ob Sie [Dynamic Media](#dynamic-media) aktiviert oder [Dynamic Media der nächsten Generation](#next-gen-dm) Funktionen aktiviert sind, unterscheiden sich die für die Bearbeitung von Bildern verfügbaren Optionen.
+
+### Standard-Asset-Bearbeitung {#standard-assets}
+
+Wenn Sie Standard-AEM-Assets bearbeiten, können Sie auf die **Bearbeiten** im Kontextmenü der Bildkomponente.
+
+![Dialogfeld „Bearbeiten“ der Bildkomponente](/help/assets/image-edit.png)
+
+* Zuschneiden beginnen
+
+  ![Symbol „Zuschneiden beginnen“](/help/assets/image-start-crop.png)
+
+  Wenn Sie diese Option auswählen, wird eine Dropdown-Liste für vordefinierte Zuschneideproportionen geöffnet.
+
+   * Wählen Sie **Beschnitt entfernen**, um das ursprüngliche Asset anzuzeigen.
+
+  Nachdem Sie eine Zuschnittoption ausgewählt haben, verwenden Sie die blauen Griffe, um die Beschneidung auf dem Bild anzupassen.
+
+  ![Optionen für das Zuschneiden](/help/assets/image-crop-options.png)
+
+* Nach rechts drehen
+
+  ![Symbol „Nach rechts drehen“](/help/assets/image-rotate-right.png)
+
+  Verwenden Sie diese Option, um das Bild um 90° nach rechts (im Uhrzeigersinn) zu drehen.
+
+* Zoom zurücksetzen
+
+  ![Symbol „Zoom zurücksetzen“](/help/assets/image-reset-zoom.png)
+
+  Wenn das Bild bereits gezoomt wurde, verwenden Sie diese Option, um den Zoom-Grad zurückzusetzen.
+
+* Zoom-Regler öffnen
+
+  ![Symbol „Zoom-Regler öffnen“](/help/assets/image-zoom.png)
+
+  Mit dieser Option können Sie einen Schieberegler anzeigen, um den Zoom-Grad des Bildes zu steuern.
+
+  ![Steuerelement des Zoom-Reglers](/help/assets/image-zoom-slider.png)
+
+Der Editor für die Bearbeitung im Kontext kann auch zum Ändern des Bildes verwendet werden. Aus Platzgründen sind nur einfache Optionen inline verfügbar. Für vollständige Bearbeitungsoptionen verwenden Sie den Vollbildmodus.
+
+![Optionen für die Bildbearbeitung im Kontext](/help/assets/image-in-place-edit.png)
+
+>[!NOTE]
+>
+>Bildbearbeitungsvorgänge werden für GIF-Bilder nicht unterstützt. Alle Änderungen, die im Bearbeitungsmodus an GIFs vorgenommen wurden, bleiben nicht bestehen.
+
+### Dynamic Media Asset Editing {#dynamic-media-assets}
+
+Wenn Sie [Dynamic Media-Funktionen aktiviert,](#dynamic-media) Das Bild selbst muss in der Assets-Konsole bearbeitet werden.
+
+### Dynamic Media Asset-Bearbeitung der nächsten Generation {#next-gen-dm-assets}
+
+Wenn Sie [Dynamic Media der nächsten Generation konfiguriert,](#next-gen-dm) die **Smartes Zuschneiden** ist in den Kontextmenüs der Komponente verfügbar.
+
+![Smartes Zuschneiden](/help/assets/image-smart-crop.png)
+
+Verwenden Sie das Dialogfeld, um das smarte Zuschneiden anzupassen.
+
+![Dialogfeld &quot;Smartes Zuschneiden&quot;](/help/assets/image-smart-crop-dialog.png)
+
+>[!TIP]
+>
+>Weitere Informationen zum smarten Zuschneiden finden Sie unter [dieses Video zur Funktion.](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/smart-crop-feature-video-use.html?lang=de)
+
 ## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
 Die Bildkomponente bietet ein Dialogfeld zum Konfigurieren, in dem das Bild selbst zusammen mit seiner Beschreibung und den grundlegenden Eigenschaften definiert ist.
@@ -84,14 +163,19 @@ Die Bildkomponente bietet ein Dialogfeld zum Konfigurieren, in dem das Bild selb
 
 * **Vorgestelltes Bild von Seite übernehmen** – Diese Option verwendet das [vorgestellte Bild der verknüpften Seite](page.md) oder das vorgestellte Bild der aktuellen Seite, wenn das Bild nicht verknüpft ist.
 
+* **Bild-Asset** - Dieser wird automatisch ausgefüllt, wenn **Eigenes Bild von Seite übernehmen** ausgewählt ist. Heben Sie die Auswahl auf, um das Bild manuell zu definieren, indem Sie die folgenden Optionen festlegen.
+
+   * Ziehen Sie ein Asset aus dem [Asset-Browser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=de) oder tippen Sie auf die Option **Durchsuchen**, um es von einem lokalen Dateisystem hochzuladen.
+   * Tippen oder klicken Sie auf **Löschen**, um das aktuell ausgewählte Bild zu deaktivieren.
+   * Tippen oder klicken **Auswahl** , um die [Asset-Browser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=de) , um ein Bild auszuwählen.
+      * Wenn [Dynamic Media-Funktionen der nächsten Generation](#next-gen-dm) aktiviert sind, haben Sie mehrere Optionen zum Auswählen eines Assets:
+         * **Lokal** wird aus der lokalen AEM Asset-Bibliothek ausgewählt.
+         * **Remote** wählt aus einer Dynamic Media-Bibliothek außerhalb Ihrer AEM aus.
+   * Tippen oder klicken Sie auf **Bearbeiten**, um die [Ausgabedarstellungen des Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=de) im Asset-Editor zu verwalten.
+
 * **Alternativtext für Barrierefreiheit** – In diesem Feld können Sie eine Beschreibung des Bildes für sehbehinderte Benutzer definieren.
 
    * **Alternativtext von Seite übernehmen** – Diese Option verwendet die alternative Beschreibung des verknüpften Asset-Werts der `dc:description`-Metadaten in DAM oder der aktuellen Seite, wenn kein Asset verknüpft ist.
-
-* **Bild-Asset**
-   * Ziehen Sie ein Asset aus dem [Asset-Browser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=de) oder tippen Sie auf die Option **Durchsuchen**, um es von einem lokalen Dateisystem hochzuladen.
-   * Tippen oder klicken Sie auf **Löschen**, um das aktuell ausgewählte Bild zu deaktivieren.
-   * Tippen oder klicken Sie auf **Bearbeiten**, um die [Ausgabedarstellungen des Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=de) im Asset-Editor zu verwalten.
 
 * **Keinen Alternativtext angeben** – Mit dieser Option wird das Bild so markiert, dass es von unterstützenden Technologien wie Bildschirmlesegeräten ignoriert wird, wenn das Bild rein dekorativ ist oder sonst keine zusätzlichen Informationen für die Seite liefert.
 
@@ -101,7 +185,7 @@ Die Bildkomponente bietet ein Dialogfeld zum Konfigurieren, in dem das Bild selb
 
 * **Vorgabetyp** – Hier wird der Typ der verfügbaren Bildvorgaben festgelegt, entweder **Bildvorgabe** oder **Smartes Zuschneiden**. Dies ist nur verfügbar, wenn die [Dynamic Media-Funktionen](#dynamic-meida) aktiviert sind.
    * **Bildvorgabe** – Wenn der **Vorgabetyp** **Bildvorgabe** ausgewählt ist, ist die Dropdown-Liste **Bildvorgabe** verfügbar, sodass aus den verfügbaren Dynamic Media-Vorgaben ausgewählt werden kann. Dies ist nur verfügbar, wenn für das ausgewählte Asset Vorgaben definiert sind.
-   * **Smartes Zuschneiden** – Wenn der **Vorgabetyp** **Smartes Zuschneiden** ausgewählt ist, ist die Dropdown-Liste **Ausgabedarstellung** verfügbar, sodass aus den verfügbaren Ausgabedarstellungen des ausgewählten Assets werden kann. Dies ist nur verfügbar, wenn für das ausgewählte Asset Ausgabedarstellungen definiert sind.
+   * **Smartes Zuschneiden** - Wann **Vorgabetyp** von **Smartes Zuschneiden** ausgewählt ist, wird die Dropdown-Liste **Ausgabedarstellung** verfügbar ist, sodass aus den verfügbaren Ausgabeformaten des ausgewählten Assets ausgewählt werden kann. Dies ist nur verfügbar, wenn für das ausgewählte Asset Ausgabedarstellungen definiert sind.
    * **Bild-Modifikatoren** – Hier können zusätzliche Befehle zur Dynamic Media-Bildbereitstellung definiert werden, die durch `&` getrennt sind, unabhängig davon, welcher **Vorgabetyp** ausgewählt ist.
 * **Beschriftung** – Zusätzliche Informationen über das Bild, die standardmäßig unter dem Bild angezeigt werden.
    * **Beschriftung aus DAM abrufen** – Wenn die Option aktiviert ist, wird der Beschriftungstext des Bildes mit dem Wert der `dc:title`-Metadaten in DAM gefüllt.
