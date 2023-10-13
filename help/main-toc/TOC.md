@@ -6,9 +6,9 @@ feature: Core Components
 user-guide-description: Nutzen Sie die erweiterbaren Hauptkomponenten, damit Autoren bzw. Autorinnen mühelos Inhalte erstellen können.
 feature-set: Experience Manager Sites
 source-git-commit: 63f9659a547729c7cb3eb3c7a61cf1bc838cf6ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '386'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -91,7 +91,7 @@ ht-degree: 98%
    + [Kampagnenvariablen](/help/email/campaign-variables.md)
    + [Versionen](/help/email/versions.md)
    + Die E-Mail-Komponenten {#components}
-      + [Seite ](/help/email/components/page.md)
+      + [Seite](/help/email/components/page.md)
       + [Container](/help/email/components/container.md)
       + [Titel](/help/email/components/title.md)
       + [Text](/help/email/components/text.md)
@@ -141,7 +141,7 @@ ht-degree: 98%
    + [Einschließen von Client-Bibliotheken](/help/developing/including-clientlibs.md)
    + [Adaptive Image Servlet](/help/developing/adaptive-image-servlet.md)
    + [Web-optimierte Bildbereitstellung](/help/developing/web-optimized-image-delivery.md)
-   + [Dynamic Media-Unterstützung der nächsten Generation](/help/developing/next-gen-dm.md)
+   + [Unterstützung für Next Generation Dynamic Media](/help/developing/next-gen-dm.md)
    + Adobe Client-Datenschicht {#data-layer}
       + [Überblick über die Datenschicht](/help/developing/data-layer/overview.md)
       + [Integration mit der Datenschicht](/help/developing/data-layer/integrations.md)
