@@ -4,9 +4,9 @@ description: Kernkomponenten werden als Versionen veröffentlicht, die mehr als 
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 source-git-commit: 63f9659a547729c7cb3eb3c7a61cf1bc838cf6ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3044'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,8 +27,8 @@ Die folgende Tabelle, deren Inhalt [auf GitHub mit vollständigen Versionsinform
 | Version | Beschreibung | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Veröffentlichungsdatum |
 |---|---|---|---|---|---|---|
 | [2.23.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.4) | Diese Patch-Version enthielt verschiedene Fehlerbehebungen. | - | 6.5.17.0+ | Kontinuierlich | 8, 11 | 15. September 2023 |
-| [2.23.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.2) | Mit diesem Patch wurde das smarte Zuschneiden von Dynamic Media für Remote-Assets zum [Bild](/help/components/image.md) und [Teaser-Komponenten](/help/components/teaser.md) und behob eine Reihe von Fehlern. | - | 6.5.17.0+ | Kontinuierlich | 8, 11 | 4. August 2023 |
-| [2.23.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.0) | In dieser Version wurde die Unterstützung für [Remote-Assets der nächsten Generation von Dynamic Media.](/help/developing/next-gen-dm.md) | - | 6.5.17.0+ | Kontinuierlich | 8, 11 | 6. Juni 2023 |
+| [2.23.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.2) | Mit diesem Patch wurden das smarte Zuschneiden von Dynamic Media für Remote-Assets zu den [Bild-](/help/components/image.md) und [Teaser-Komponenten](/help/components/teaser.md) hinzugefügt und eine Reihe von Fehlern behoben. | - | 6.5.17.0+ | Kontinuierlich | 8, 11 | 4. August 2023 |
+| [2.23.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.0) | In dieser Version wurde Unterstützung für [Remote-Assets von Next Generation Dynamic Media](/help/developing/next-gen-dm.md) hinzugefügt. | - | 6.5.17.0+ | Kontinuierlich | 8, 11 | 6. Juni 2023 |
 | [2.22.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.12) | Diese Patch-Version behebt zwei Probleme. | - | 6.5.14.0+ | Kontinuierlich | 8, 11 | 25. Mai 2023 |
 | [2.22.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.10) | Diese Patch-Version behebt zwei Regressionen. | - | 6.5.14.0+ | Kontinuierlich | 8, 11 | 11. Mai 2023 |
 | [2.22.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.8) | Diese Patch-Version bringt Funktionen zurück, die in der vorherigen Version versehentlich entfernt wurden. | - | 6.5.14.0+ | Kontinuierlich | 8, 11 | 9. Mai 2023 |
@@ -162,7 +162,7 @@ Kernkomponenten sind ein integraler Bestandteil von AEM und werden unter denselb
 
 Wie bei anderen Produktmerkmalen gilt für das Ende der Lebensdauer die allgemeine Regel:
 
-* Komponenten werden zuerst als veraltet angekündigt, bevor sie entfernt werden.
+* Komponenten werden zuerst als veraltet angekündigt, bevor sie entfernt werden
 * Sie werden dann frühestens nach Ankündigung aus dem AEM-Release entfernt.
 
 Dadurch erhalten Kunden mindestens einen Versionszyklus, um zur neuen Version der Komponente zu wechseln, bevor die Unterstützung endet.
