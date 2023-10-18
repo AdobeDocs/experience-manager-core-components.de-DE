@@ -2,9 +2,9 @@
 title: Kernkomponente für adaptive Formulare – Formular-Container
 description: Ein adaptives Formular zu einer Web-Seite hinzufügen.
 role: Architect, Developer, Admin, User
-exl-id: 8df7f862-4d59-4c3f-88dd-f0c937081f4f
-source-git-commit: ad3e3bca5cb46f14e864e4704c90ac3b62779794
-workflow-type: ht
+exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
+source-git-commit: 0bebc248ee2b708f7677950d90356abd5bc70a98
+workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 100%
 
@@ -87,26 +87,30 @@ Benutzende können verschiedene Aktionen für Übermittlungen adaptiver Formular
 * [Erstellen eines eigenständigen adaptiven Formulars](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=de)
 
 
+>[!MORELIKETHIS]
+>
+>* [Akkordeon](/help/adaptive-forms/components/accordion.md)
+>* [Schaltfläche](/help/adaptive-forms/components/button.md)
+>* [Kontrollkästchen „Gruppe“](/help/adaptive-forms/components/checkbox-group.md)
+>* [Datumsauswahl](/help/adaptive-forms/components/date-picker.md)
+>* [Dropdown-Liste](/help/adaptive-forms/components/drop-down.md)
+>* [E-Mail-Eingabe](/help/adaptive-forms/components/email-input.md)
+>* [Dateianhang](/help/adaptive-forms/components/file-attachment.md)
+>* [Fußzeile](/help/adaptive-forms/components/footer.md)
+>* [Kopfzeile](/help/adaptive-forms/components/header.md)
+>* [Horizontale Registerkarten](/help/adaptive-forms/components/horizontal-tabs.md)
+>* [Bild](/help/adaptive-forms/components/image.md)
+>* [Zahleneingabe](/help/adaptive-forms/components/number-input.md)
+>* [Bedienfeld-Container](/help/adaptive-forms/components/panel-container.md)
+>* [Optionsschaltfläche](/help/adaptive-forms/components/radio-button.md)
+>* [Schaltfläche „Zurücksetzen“](/help/adaptive-forms/components/reset-button.md)
+>* [Schaltfläche „Senden“](/help/adaptive-forms/components/submit-button.md)
+>* [Telefoneingabe](/help/adaptive-forms/components/telephone-input.md)
+>* [Texteingabe](/help/adaptive-forms/components/text-input.md)
+>* [Text](/help/adaptive-forms/components/text.md)
+>* [Titel](/help/adaptive-forms/components/title.md)
+>* [Assistent](/help/adaptive-forms/components/wizard.md)
+
 ## Siehe auch {#see-also}
 
-* [Akkordeon](/help/adaptive-forms/components/accordion.md)
-* [Schaltfläche](/help/adaptive-forms/components/button.md)
-* [Kontrollkästchen Gruppe](/help/adaptive-forms/components/checkbox-group.md)
-* [Datumsauswahl](/help/adaptive-forms/components/date-picker.md)
-* [Dropdown-Liste](/help/adaptive-forms/components/drop-down.md)
-* [E-Mail-Eingabe](/help/adaptive-forms/components/email-input.md)
-* [Dateianhang](/help/adaptive-forms/components/file-attachment.md)
-* [Fußzeile](/help/adaptive-forms/components/footer.md)
-* [Kopfzeile](/help/adaptive-forms/components/header.md)
-* [Horizontale Registerkarten](/help/adaptive-forms/components/horizontal-tabs.md)
-* [Bild](/help/adaptive-forms/components/image.md)
-* [Zahleneingabe](/help/adaptive-forms/components/number-input.md)
-* [Bedienfeld-Container](/help/adaptive-forms/components/panel-container.md)
-* [Optionsschaltfläche](/help/adaptive-forms/components/radio-button.md)
-* [Schaltfläche „Zurücksetzen“](/help/adaptive-forms/components/reset-button.md)
-* [Schaltfläche „Senden“](/help/adaptive-forms/components/submit-button.md)
-* [Telefoneingabe](/help/adaptive-forms/components/telephone-input.md)
-* [Texteingabe](/help/adaptive-forms/components/text-input.md)
-* [Text](/help/adaptive-forms/components/text.md)
-* [Titel](/help/adaptive-forms/components/title.md)
-* [Assistent](/help/adaptive-forms/components/wizard.md)
+{{see-also}}
