@@ -3,9 +3,9 @@ title: Kernkomponente „Fußzeile“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „Fußzeile“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
-source-git-commit: 0bebc248ee2b708f7677950d90356abd5bc70a98
+source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '807'
 ht-degree: 100%
 
 ---
@@ -105,11 +105,13 @@ Das Dialogfeld „Bearbeiten“ bietet standardmäßige Rich-Text-Formatierungsw
    * Sofern eine ID angegeben wird, ist vom Autor bzw. der Autorin sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
-## Verwandter Artikel {#related-article}
+<!--
 
-* [Erstellen eines adaptiven Formulars in einer AEM Sites-Seite oder einem Experience Fragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=de)
+## Related article {#related-article}
 
-* [Erstellen eines eigenständigen adaptiven Formulars](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=de)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+
+-->
 
 
 >[!MORELIKETHIS]
@@ -135,6 +137,7 @@ Das Dialogfeld „Bearbeiten“ bietet standardmäßige Rich-Text-Formatierungsw
 >* [Text](/help/adaptive-forms/components/text.md)
 >* [Titel](/help/adaptive-forms/components/title.md)
 >* [Assistent](/help/adaptive-forms/components/wizard.md)
+
 
 ## Siehe auch {#see-also}
 

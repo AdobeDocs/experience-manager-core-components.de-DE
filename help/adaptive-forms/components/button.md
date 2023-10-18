@@ -3,9 +3,9 @@ title: Kernkomponente für adaptive Formulare – Schaltfläche
 description: Verwenden oder Anpassen der Schlatflächen-Kernkomponente für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: cb75929b-8c86-49d1-b51a-368f5b80b1a9
-source-git-commit: 0bebc248ee2b708f7677950d90356abd5bc70a98
+source-git-commit: 0026734a2e43c51c7f5af2b37492d61e8f779ac7
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1443'
 ht-degree: 100%
 
 ---
@@ -103,11 +103,13 @@ Die Schaltflächen-Kernkomponente für adaptive Formulare unterstützt das AEM-[
 
 * **Zulässige Stile**: Sie können Stile definieren, indem Sie einen Namen und die CSS-Klasse bereitstellen, die den Stil darstellt. Sie können beispielsweise einen Stil mit dem Namen „Fettschrift“ erstellen und die CSS-Klasse „Schriftbreite: Fett“ bereitstellen. Sie können diese Stile bei einem adaptiven Formular im adaptiven Formular-Editor anwenden. Um einen Stil anzuwenden, wählen Sie im Editor für adaptive Formulare die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Eigenschaften-Dialog und wählen Sie den gewünschten Stil aus der Dropdown-Liste **Stile**. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld „Design“ zurück, aktualisieren die Stile auf der Registerkarte „Stile“ und speichern die Änderungen.
 
-## Verwandter Artikel {#related-article}
+<!--
 
-* [Erstellen eines adaptiven Formulars in einer AEM Sites-Seite oder einem Experience Fragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=de)
+## Related article {#related-article}
 
-* [Erstellen eines eigenständigen adaptiven Formulars](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=de)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+
+-->
 
 >[!MORELIKETHIS]
 >

@@ -3,9 +3,9 @@ title: Kernkomponente für adaptive Formulare – Formular-Container
 description: Ein adaptives Formular zu einer Web-Seite hinzufügen.
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
-source-git-commit: 0bebc248ee2b708f7677950d90356abd5bc70a98
+source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '755'
 ht-degree: 100%
 
 ---
@@ -80,11 +80,13 @@ Benutzende können verschiedene Aktionen für Übermittlungen adaptiver Formular
 
 * **Übermittlungsaktion**: Eine Übermittlungsaktion wird ausgelöst, wenn in einem adaptiven Formular auf die Schaltfläche „Senden“ geklickt wird. Benutzende können in der Dropdown-Liste „Übermittlungsaktionen“ auswählen, die standardmäßig unterstützt werden. Erfahren Sie, wie Sie [eine Übermittlungsaktion auf der Registerkarte „Übermittlung“ konfigurieren](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=de#supporting-custom-functions-in-validation-expressions-br).
 
-## Verwandter Artikel {#related-article}
+<!--
 
-* [Erstellen eines adaptiven Formulars in einer AEM Sites-Seite oder einem Experience Fragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=de)
+## Related article {#related-article}
 
-* [Erstellen eines eigenständigen adaptiven Formulars](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=de)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+
+-->
 
 
 >[!MORELIKETHIS]
@@ -110,6 +112,7 @@ Benutzende können verschiedene Aktionen für Übermittlungen adaptiver Formular
 >* [Text](/help/adaptive-forms/components/text.md)
 >* [Titel](/help/adaptive-forms/components/title.md)
 >* [Assistent](/help/adaptive-forms/components/wizard.md)
+
 
 ## Siehe auch {#see-also}
 

@@ -3,9 +3,9 @@ title: Kernkomponente „Bild“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „Bild“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: 9ee42d5d-16e3-4973-8364-5bc512ebe72e
-source-git-commit: 0bebc248ee2b708f7677950d90356abd5bc70a98
+source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1015'
 ht-degree: 100%
 
 ---
@@ -93,11 +93,13 @@ Sie können die Registerkarte zum Definieren und Verwalten von CSS-Stilen für e
 
 **Zulässige Stile**: Sie können Stile definieren, indem Sie den Namen und die CSS-Klasse für den Stil angeben. Sie können beispielsweise einen Stil mit dem Namen „Fettschrift“ erstellen und die CSS-Klasse „Schriftbreite: Fett“ bereitstellen. Sie können diese Stile bei einem adaptiven Formular im adaptiven Formular-Editor anwenden. Um einen Stil anzuwenden, wählen Sie im Editor für adaptive Formulare die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Eigenschaften-Dialog und wählen Sie den gewünschten Stil aus der Dropdown-Liste **Stile**. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld „Design“ zurück, aktualisieren die Stile auf der Registerkarte „Stile“ und speichern die Änderungen.
 
-## Verwandter Artikel {#related-article}
+<!--
 
-* [Erstellen eines adaptiven Formulars in einer AEM Sites-Seite oder einem Experience Fragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=de)
+## Related article {#related-article}
 
-* [Erstellen eines eigenständigen adaptiven Formulars](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=de)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+
+-->
 
 
 >[!MORELIKETHIS]
@@ -123,6 +125,7 @@ Sie können die Registerkarte zum Definieren und Verwalten von CSS-Stilen für e
 >* [Text](/help/adaptive-forms/components/text.md)
 >* [Titel](/help/adaptive-forms/components/title.md)
 >* [Assistent](/help/adaptive-forms/components/wizard.md)
+
 
 ## Siehe auch {#see-also}
 

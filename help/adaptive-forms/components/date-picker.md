@@ -3,9 +3,9 @@ title: Kernkomponente „Datumsauswahl“ für adaptive Formulare
 description: Verwenden oder Anpassen der Datumsauswahl-Kernkomponente in adaptiven Formularen.
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
-source-git-commit: 0bebc248ee2b708f7677950d90356abd5bc70a98
+source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
 workflow-type: tm+mt
-source-wordcount: '1738'
+source-wordcount: '1702'
 ht-degree: 100%
 
 ---
@@ -143,11 +143,13 @@ Auf der Registerkarte „Formate“ können Sie standardmäßige und benutzerdef
 
 ![Registerkarte „Format“](/help/adaptive-forms/assets/datepicker_formatpolicy.png)
 
-## Verwandter Artikel {#related-article}
+<!--
 
-* [Erstellen eines adaptiven Formulars in einer AEM Sites-Seite oder einem Experience Fragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=de)
+## Related article {#related-article}
 
-* [Erstellen eines eigenständigen adaptiven Formulars](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=de)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+
+-->
 
 
 >[!MORELIKETHIS]

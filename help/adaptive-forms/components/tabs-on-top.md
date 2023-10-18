@@ -2,9 +2,9 @@
 title: Kernkomponente für adaptive Formulare – Registerkarten oben
 description: Verwenden oder Anpassen der Kernkomponente, durch die die Registerkarten in adaptiven Formularen oben angezeigt werden.
 role: Architect, Developer, Admin, User
-source-git-commit: 0bebc248ee2b708f7677950d90356abd5bc70a98
+source-git-commit: 59cd9d65bf4c1be6ab2eaf15bbb747b532863fdd
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '473'
 ht-degree: 100%
 
 ---
@@ -54,11 +54,14 @@ Aktuelle Informationen zu Registerkarten in adaptiven Formularen der Haupt-Kernk
 
 Sie können Ihr „Registerkarten oben“-Erlebnis für Besuchende im Dialogfeld „Konfigurieren“ einfach anpassen. Sie können auch Optionen für oben angezeigte Registerkarten definieren, um das Anwendererlebnis zu verbessern.
 
-## Verwandter Artikel {#related-article}
+<!--
 
-* [Erstellen eines adaptiven Formulars in einer AEM Sites-Seite oder einem Experience Fragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=de)
+## Related article {#related-article}
 
-* [Erstellen eines eigenständigen adaptiven Formulars](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=de)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+
+-->
+
 
 >[!MORELIKETHIS]
 >

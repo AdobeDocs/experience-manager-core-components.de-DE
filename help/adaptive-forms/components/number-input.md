@@ -3,9 +3,9 @@ title: Kernkomponente „Zahleneingabe“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „Zahleneingabe“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: 0bebc248ee2b708f7677950d90356abd5bc70a98
+source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
 workflow-type: tm+mt
-source-wordcount: '1870'
+source-wordcount: '1834'
 ht-degree: 100%
 
 ---
@@ -143,11 +143,13 @@ Sie können die Registerkarte zum Definieren und Verwalten von CSS-Stilen für e
 Auf der Registerkarte „Formate“ können Sie standardmäßige und benutzerdefinierte Zahlenformate angeben.
 ![Registerkarte „Design“](/help/adaptive-forms/assets/emailinput_designformattab.png)
 
-## Verwandter Artikel {#related-article}
+<!--
 
-* [Erstellen eines adaptiven Formulars in einer AEM Sites-Seite oder einem Experience Fragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=de)
+## Related article {#related-article}
 
-* [Erstellen eines eigenständigen adaptiven Formulars](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=de)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+
+-->
 
 
 >[!MORELIKETHIS]
@@ -173,6 +175,7 @@ Auf der Registerkarte „Formate“ können Sie standardmäßige und benutzerdef
 >* [Text](/help/adaptive-forms/components/text.md)
 >* [Titel](/help/adaptive-forms/components/title.md)
 >* [Assistent](/help/adaptive-forms/components/wizard.md)
+
 
 ## Siehe auch {#see-also}
 
