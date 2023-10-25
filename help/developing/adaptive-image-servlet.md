@@ -3,10 +3,10 @@ title: Adaptive Image Servlet
 description: Erfahren Sie, wie die Kernkomponenten das Adaptive Image Servlet für die Bildbereitstellung verwenden und wie Sie dessen Verwendung optimieren können.
 role: Architect, Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
-source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
-workflow-type: ht
+source-git-commit: 785aa82930e3bcf6ef16d7a1cdc614d230e8daa8
+workflow-type: tm+mt
 source-wordcount: '410'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
