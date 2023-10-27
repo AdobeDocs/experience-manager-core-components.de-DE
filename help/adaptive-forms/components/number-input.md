@@ -4,7 +4,7 @@ description: Verwenden oder Anpassen der Kernkomponente „Zahleneingabe“ für
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
 source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1834'
 ht-degree: 100%
 
@@ -156,7 +156,7 @@ Auf der Registerkarte „Formate“ können Sie standardmäßige und benutzerdef
 >
 >* [Akkordeon](/help/adaptive-forms/components/accordion.md)
 >* [Schaltfläche](/help/adaptive-forms/components/button.md)
->* [Kontrollkästchen „Gruppe“](/help/adaptive-forms/components/checkbox-group.md)
+>* [Kontrollkästchengruppe](/help/adaptive-forms/components/checkbox-group.md)
 >* [Datumsauswahl](/help/adaptive-forms/components/date-picker.md)
 >* [Dropdown-Liste](/help/adaptive-forms/components/drop-down.md)
 >* [E-Mail-Eingabe](/help/adaptive-forms/components/email-input.md)
@@ -168,8 +168,8 @@ Auf der Registerkarte „Formate“ können Sie standardmäßige und benutzerdef
 >* [Bild](/help/adaptive-forms/components/image.md)
 >* [Bedienfeld-Container](/help/adaptive-forms/components/panel-container.md)
 >* [Optionsschaltfläche](/help/adaptive-forms/components/radio-button.md)
->* [Schaltfläche „Zurücksetzen“](/help/adaptive-forms/components/reset-button.md)
->* [Schaltfläche „Senden“](/help/adaptive-forms/components/submit-button.md)
+>* [Zurücksetzen-Schaltfläche](/help/adaptive-forms/components/reset-button.md)
+>* [Senden-Schaltfläche](/help/adaptive-forms/components/submit-button.md)
 >* [Telefoneingabe](/help/adaptive-forms/components/telephone-input.md)
 >* [Texteingabe](/help/adaptive-forms/components/text-input.md)
 >* [Text](/help/adaptive-forms/components/text.md)
