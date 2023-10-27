@@ -4,7 +4,7 @@ description: Verwenden oder Anpassen der Kernkomponente „Dateianhang“ von ad
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
 source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1544'
 ht-degree: 100%
 
@@ -142,7 +142,7 @@ Die Kernkomponente „Dateianhänge“ für adaptive Formulare unterstützt das 
 >
 >* [Akkordeon](/help/adaptive-forms/components/accordion.md)
 >* [Schaltfläche](/help/adaptive-forms/components/button.md)
->* [Kontrollkästchen „Gruppe“](/help/adaptive-forms/components/checkbox-group.md)
+>* [Kontrollkästchengruppe](/help/adaptive-forms/components/checkbox-group.md)
 >* [Datumsauswahl](/help/adaptive-forms/components/date-picker.md)
 >* [Dropdown-Liste](/help/adaptive-forms/components/drop-down.md)
 >* [E-Mail-Eingabe](/help/adaptive-forms/components/email-input.md)
@@ -154,8 +154,8 @@ Die Kernkomponente „Dateianhänge“ für adaptive Formulare unterstützt das 
 >* [Zahleneingabe](/help/adaptive-forms/components/number-input.md)
 >* [Bedienfeld-Container](/help/adaptive-forms/components/panel-container.md)
 >* [Optionsschaltfläche](/help/adaptive-forms/components/radio-button.md)
->* [Schaltfläche „Zurücksetzen“](/help/adaptive-forms/components/reset-button.md)
->* [Schaltfläche „Senden“](/help/adaptive-forms/components/submit-button.md)
+>* [Zurücksetzen-Schaltfläche](/help/adaptive-forms/components/reset-button.md)
+>* [Senden-Schaltfläche](/help/adaptive-forms/components/submit-button.md)
 >* [Telefoneingabe](/help/adaptive-forms/components/telephone-input.md)
 >* [Texteingabe](/help/adaptive-forms/components/text-input.md)
 >* [Text](/help/adaptive-forms/components/text.md)
