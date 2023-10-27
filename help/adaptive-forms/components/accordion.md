@@ -4,7 +4,7 @@ description: Verwenden Sie Akkordeon, um ein langes oder komplexes Formular zu o
 role: Architect, Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
 source-git-commit: 59cd9d65bf4c1be6ab2eaf15bbb747b532863fdd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2052'
 ht-degree: 100%
 
@@ -248,7 +248,7 @@ The Accordion Component supports the [Adobe Client Data Layer.](/help/developing
 >[!MORELIKETHIS]
 >
 >* [Schaltfläche](/help/adaptive-forms/components/button.md)
->* [Kontrollkästchen „Gruppe“](/help/adaptive-forms/components/checkbox-group.md)
+>* [Kontrollkästchengruppe](/help/adaptive-forms/components/checkbox-group.md)
 >* [Datumsauswahl](/help/adaptive-forms/components/date-picker.md)
 >* [Dropdown-Liste](/help/adaptive-forms/components/drop-down.md)
 >* [E-Mail-Eingabe](/help/adaptive-forms/components/email-input.md)
@@ -261,8 +261,8 @@ The Accordion Component supports the [Adobe Client Data Layer.](/help/developing
 >* [Zahleneingabe](/help/adaptive-forms/components/number-input.md)
 >* [Bedienfeld-Container](/help/adaptive-forms/components/panel-container.md)
 >* [Optionsschaltfläche](/help/adaptive-forms/components/radio-button.md)
->* [Schaltfläche „Zurücksetzen“](/help/adaptive-forms/components/reset-button.md)
->* [Schaltfläche „Senden“](/help/adaptive-forms/components/submit-button.md)
+>* [Zurücksetzen-Schaltfläche](/help/adaptive-forms/components/reset-button.md)
+>* [Senden-Schaltfläche](/help/adaptive-forms/components/submit-button.md)
 >* [Telefoneingabe](/help/adaptive-forms/components/telephone-input.md)
 >* [Texteingabe](/help/adaptive-forms/components/text-input.md)
 >* [Text](/help/adaptive-forms/components/text.md)
