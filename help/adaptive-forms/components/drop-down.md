@@ -4,7 +4,7 @@ description: Verwenden oder Anpassen der Dropdown-Kernkomponente adaptiver Formu
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
 source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1731'
 ht-degree: 100%
 
@@ -148,7 +148,7 @@ Sie können die Registerkarte zum Definieren und Verwalten von CSS-Stilen für e
 >
 >* [Akkordeon](/help/adaptive-forms/components/accordion.md)
 >* [Schaltfläche](/help/adaptive-forms/components/button.md)
->* [Kontrollkästchen „Gruppe“](/help/adaptive-forms/components/checkbox-group.md)
+>* [Kontrollkästchengruppe](/help/adaptive-forms/components/checkbox-group.md)
 >* [Datumsauswahl](/help/adaptive-forms/components/date-picker.md)
 >* [E-Mail-Eingabe](/help/adaptive-forms/components/email-input.md)
 >* [Formular-Container](/help/adaptive-forms/components/form-container.md)
@@ -160,8 +160,8 @@ Sie können die Registerkarte zum Definieren und Verwalten von CSS-Stilen für e
 >* [Zahleneingabe](/help/adaptive-forms/components/number-input.md)
 >* [Bedienfeld-Container](/help/adaptive-forms/components/panel-container.md)
 >* [Optionsschaltfläche](/help/adaptive-forms/components/radio-button.md)
->* [Schaltfläche „Zurücksetzen“](/help/adaptive-forms/components/reset-button.md)
->* [Schaltfläche „Senden“](/help/adaptive-forms/components/submit-button.md)
+>* [Zurücksetzen-Schaltfläche](/help/adaptive-forms/components/reset-button.md)
+>* [Senden-Schaltfläche](/help/adaptive-forms/components/submit-button.md)
 >* [Telefoneingabe](/help/adaptive-forms/components/telephone-input.md)
 >* [Texteingabe](/help/adaptive-forms/components/text-input.md)
 >* [Text](/help/adaptive-forms/components/text.md)
