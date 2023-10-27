@@ -4,7 +4,7 @@ description: Verwenden oder Anpassen der Kernkomponente für adaptive Formulare 
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
 source-git-commit: 0026734a2e43c51c7f5af2b37492d61e8f779ac7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1663'
 ht-degree: 100%
 
@@ -123,7 +123,7 @@ Sie können im Dialogfeld „Konfigurieren“ einfach das Kontrollkästchen-Erle
 
 **Text für Bildschirmlesehilfen** – Das ist zusätzlicher Text, der von Hilfstechnologien wie etwa Bildschirmlesehilfen für sehbehinderte Personen vorgelesen wird. Dieser Text enthält eine Audiobeschreibung des Zwecks des Formularfelds und kann Informationen über den Titel, die Beschreibung, den Namen und alle relevanten Nachrichten (benutzerdefinierten Text) des Felds enthalten. Der Text der Bildschirmlesehilfe hilft sicherzustellen, dass das Formular allen Benutzenden zugänglich ist, auch Personen mit Sehschwäche, und bietet ihnen ein umfassendes Verständnis des Formularfelds und seiner Anforderungen.
 
-    Dialogfeld „Design“{#design-dialog}
+    Dialogfeld „Design“ {#design-dialog}
 
 Verwenden Sie das Dialogfeld „Design“, um CSS-Stile für die Komponente der Kontrollkästchen-Gruppen zu definieren und zu verwalten.
 
@@ -161,8 +161,8 @@ Die Kernkomponente für adaptive Formulare – Kontrollkästchen-Gruppe unterst�
 >* [Zahleneingabe](/help/adaptive-forms/components/number-input.md)
 >* [Bedienfeld-Container](/help/adaptive-forms/components/panel-container.md)
 >* [Optionsschaltfläche](/help/adaptive-forms/components/radio-button.md)
->* [Schaltfläche „Zurücksetzen“](/help/adaptive-forms/components/reset-button.md)
->* [Schaltfläche „Senden“](/help/adaptive-forms/components/submit-button.md)
+>* [Zurücksetzen-Schaltfläche](/help/adaptive-forms/components/reset-button.md)
+>* [Senden-Schaltfläche](/help/adaptive-forms/components/submit-button.md)
 >* [Telefoneingabe](/help/adaptive-forms/components/telephone-input.md)
 >* [Texteingabe](/help/adaptive-forms/components/text-input.md)
 >* [Text](/help/adaptive-forms/components/text.md)
