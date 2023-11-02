@@ -1,34 +1,31 @@
 ---
-title: Wie lassen sich Beispiel-Designs und -vorlagen für AEM Forms erhalten?
-description: Kernkomponenten von AEM Forms bieten Beispiel-Designs, -vorlagen und -formulardatenmodelle für adaptive Formulare
+title: Wie erhalten Sie Beispieldesigns und -vorlagen für AEM Forms-Kernkomponenten?
+description: AEM Forms-Kernkomponenten bieten Beispiel-Designs, Vorlagen und Formulardatenmodelle für adaptive Formulare.
 solution: Experience Manager Forms
 topic: Administration
 role: Admin, User
-hide: true
-hidefromtoc: true
 level: Intermediate
-source-git-commit: ebbe3471164341076fe085bbef9c93fcb1fe382a
-workflow-type: ht
-source-wordcount: '1259'
-ht-degree: 100%
+exl-id: aef6e88b-dcae-4777-9893-9257d7702f43
+source-git-commit: 5e08235a0da5c44e60a1b488a832a8346b5f4cfa
+workflow-type: tm+mt
+source-wordcount: '1349'
+ht-degree: 68%
 
 ---
 
-
 # Beispiel-Designs, -vorlagen und -formulardatenmodelle {#sample-themes-templates-and-data-models}
 
-Kernkomponenten von [!DNL AEM Forms] bieten gebrauchsfertige Beispiel-Designs, -vorlagen und -formulardatenmodelle, um schnell und einfach vielseitig anwendbare adaptive Formulare zu erstellen. Diese helfen Formularautorinnen und -autoren auch dabei, die Erweiterbarkeit, Anpassungsfähigkeit und Reaktionsfähigkeit der [AEM Forms-Kernkomponenten](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=de) kennenzulernen, um einfache Formulare in kürzester Zeit und selbst komplexe Formulare leicht zu erstellen, während eine nahtlose Verbindung mit der Datenbank hergestellt werden kann.
+Kernkomponenten von [!DNL AEM Forms] bieten gebrauchsfertige Beispiel-Designs, -vorlagen und -formulardatenmodelle, um schnell und einfach vielseitig anwendbare adaptive Formulare zu erstellen. Diese helfen Formularautoren auch dabei, die Erweiterbarkeit, Anpassungsfähigkeit und Reaktionsfähigkeit von [Adaptive Forms-Kernkomponenten](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=de) um einfache Formulare in kürzester Zeit und komplexe Formulare einfach zu erstellen, während eine nahtlose Verbindung mit der Datenbank hergestellt wird.
 
 Folgende Beispiel-Designs, -vorlagen und -formulardatenmodelle sind im Paket mit den Referenzinhalten enthalten:
 
 | Vorlagen | Designs | Formulardatenmodelle |
 ---------|----------|---------
-| [Allgemein](#Basic) | [Arbeitsfläche](#Canvas) | Microsoft® Dynamics 365 |
-| [Leer](#Blank) | [WKND](#WKND) | Salesforce |
-| [Kontakt](#Contact-Us) | [Easel](#Easel) |  |
-| [Aktualisierung der Kontaktdetails](#Contact-Details-Update) |   |   |
-| [Einverständnisformular](#Consent-Form) | |  |
-| [Protokolldienstanfrage](#Log-Service-Request) |  |  |
+| [Leer](#Blank) | [Arbeitsfläche](#Canvas) | Microsoft® Dynamics 365 |
+| [Kontakt](#Contact-Us) | [WKND](#WKND) | Salesforce |
+| [Aktualisierung der Kontaktdetails](#Contact-Details-Update) | [Easel](#Easel) |   |
+| [Einverständnisformular](#Consent-Form) | [FSI](#FSI) |  |
+| [Protokolldienstanfrage](#Log-Service-Request) | [Gesundheitswesen](#Healthcare) |  |
 | [Feedback geben](#Give-Feedback) |  |  |
 | [Registrierung für Nebenleistungen](#Benefits-Enrollment) |  |   |
 | [Nebenleistungen für Mitarbeitende – Übersicht](#Employee-Benefits-Summary) |   |   |
@@ -39,19 +36,59 @@ Folgende Beispiel-Designs, -vorlagen und -formulardatenmodelle sind im Paket mit
 
 ## Beispiel-Designs {#Sample-Themes}
 
-Anhand von Beispiel-Designs können Autorinnen und Autoren die Formatierung für Formulare definieren und anpassen. Schon mit Grundkenntnissen von CSS können sie Designs nach Bedarf anpassen.
+Anhand von Referenzbeispieldesigns können Autoren die Formatierung für Formulare verwenden, definieren und anpassen. Autoren mit Grundkenntnissen von CSS können das Design gemäß Anforderungen anpassen.
 
 **Wie bekomme ich diese Designs?**
-* Um diese Designs in der **Forms as a Cloud Service**-Umgebung zu erhalten, [aktivieren Sie die Kernkomponenten für adaptive Formulare](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=de) und verwenden Sie die [Frontend-Pipeline](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=de), um diese Designs bereitzustellen.
-* Um diese Designs in eine **AEM 6.5 Forms**-Umgebung einzubringen, [aktivieren Sie die Kernkomponenten für adaptive Formulare](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html?lang=de) und verwenden Sie [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.?lang=de), um diese Designs bereitzustellen.
+Sie erhalten diese Designs anhand der folgenden Schritte, die unten für **AEM as a Cloud Service** Umgebung:
+
+1. [Aktivieren der Kernkomponenten für adaptive Formulare](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=de)
+1. [Bereitstellung eines AEM Archetyp 45-Projekts in Ihrer Umgebung](https://github.com/adobe/aem-project-archetype)
+
+
+Wenn Sie einen AEM-Archetyp bereitstellen, können Sie nur die OOTB-Designs in Ihren Formularen verwenden, um die Designs gemäß Ihren Anforderungen anzupassen. [Verwenden der Front-End-Pipeline](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=de) , um die Designs bereitzustellen.
+
+>[!NOTE]
+>
+> * Die Themen stehen nicht zur Verfügung für **AEM 6.5** Umgebung.
+
+<!--
+
+1. **AEM 6.5**
+
+    1. [Enable Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html)
+    1. [Deploy an AEM Archetype 45 project to your environment](https://github.com/adobe/aem-project-archetype)
+
+
+    When you deploy an AEM Archetype, you can only use the OOTB themes in your forms, To customize the themes as per your requirements, [Use the front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html) to deploy the themes.
+
+-->
+
+
+<!--
+
+### Deploying an AEM Archetype 45 project to your environment {#using-archetype-to-deploy-themes}
+
+You can get these themes by deploying an [AEM Archetype 45](https://github.com/adobe/aem-project-archetype) to your **AEM Forms as a Cloud Service** or **AEM 6.5** Forms environment.
+
+### Enable core components and use front-end pipeline to deploy themes {#use-front-end-pipeline-to-deploy-themes}
+
+1. To get these themes on **Forms as a Cloud Service** environment, [enable Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html) and use the [front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html) to deploy these themes.
+    
+1. To get these themes on **AEM 6.5 Forms** environment, [enable Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html) and use the [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html) to deploy these themes.
+
+[Learn to use and customize themes in AEM Forms as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html). 
+
+[Learn to use and customize themes in AEM 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html).
+
+-->
 
 Die **vorkonfigurierten** Designs für [Kernkomponenten für adaptive Formulare](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=de) sind:
 
-![OOTB-Designs](/help/adaptive-forms/assets/OOTB-themes.png)
+![OOTB-Designs](/help/adaptive-forms/assets/archetype-45-themes-1.png)
 
 ### Canvas {#Canvas}
 
-„Canvas“ ist das Standard-Design für Formulare und betont die Verwendung von Grundfarben, Transparenz und flachen Symbolen. Im Screenshot unten sehen Sie, wie das Design „Canvas“ aussieht.
+Das Arbeitsflächendesign ist das Standarddesign für Formulare und betont die Verwendung von Grundfarben, Transparenz und flachen Symbolen. Im Screenshot unten sehen Sie, wie das Design „Canvas“ aussieht.
 
 ![Design „Canvas“](/help/adaptive-forms/assets/Safety-Inspection-Theme-Canvas.png)
 
@@ -64,16 +101,40 @@ Das Design „WKND“ verkörpert ein lebendiges, fantasievolles und ansprechend
 
 ### Easel {#Easel}
 
-Das Design „Easel“ hilft, ein ansprechendes und einfach einzurichtendes Formular zu erstellen. Es ist auf Einfachheit und Benutzerfreundlichkeit ausgelegt. Dieses Design basiert auf dem Konzept einer Staffelei, die die Leinwand von Künstlerinnen oder Künstlern hält, während sie an einem Gemälde arbeiten.
+Das Design „Easel“ hilft, ein ansprechendes und einfach einzurichtendes Formular zu erstellen. Es ist auf Einfachheit und Benutzerfreundlichkeit ausgelegt. Das Design basiert auf dem Konzept, dass ein tragbarer Stand von Künstlern verwendet wird, um eine Leinwand zu unterstützen, während sie an ihren Gemälden arbeiten.
 
 ![Design „Easel“](/help/adaptive-forms/assets/Safety-Inspection-Theme-Easel.png)
+
+### FSI (Financial Services &amp; Insurance) {#FSI}
+
+Das FSI-Thema legt großen Wert darauf, Ihr Formular sauber und praxisorientiert zu gestalten. Der leichte blaue Farbton wird auf das Formular angewendet, wenn Sie das FSI-Design anwenden, wie Sie im Bild sehen können.
+
+![FSI-Design](/help/adaptive-forms/assets/fsi-theme-new1.png)
+
+
+### Gesundheitswesen {#Healthcare}
+
+Das Design Gesundheitsfürsorge verwendet umfassende, grüne Töne, um Elemente wie Registerkarten, Bedienfelder, Textfelder und Schaltflächen in Ihrem Formular zu akzentuieren.
+
+![Gesundheitsthemen](/help/adaptive-forms/assets/healthcare-new-theme.png)
+
 
 ## Beispielvorlagen {#Sample-templates}
 
 Vorlagen definieren die anfängliche Formularstruktur, den Inhalt und die Aktionen, die in Ihrem Formular repliziert werden sollen, oder verwenden eine ähnliche Vorlagenstruktur wie das gewünschte Formular, z. B. Einverständnisformular, Registrierungsformular für Nebenleistungen und vieles mehr.
 
 **Wie bekommt man diese Vorlagen?**
-Sie können die Vorlagen abrufen, indem Sie ein [Projekt, das auf dem AEM-Archetyp 43 oder höher basiert](https://github.com/adobe/aem-project-archetype), in einer Umgebung von **AEM Forms as a Cloud Service** oder **AEM 6.5** bereitstellen.
+Sie können diese Vorlagen abrufen, indem Sie eine [AEM Archetyp 45](https://github.com/adobe/aem-project-archetype) auf **AEM Forms as a Cloud Service** Umgebung oder **AEM 6.5 Forms** Umgebung.
+
+<!--
+
+>[!NOTE]
+>
+> * If you have [enabled core components and used front-end pipeline to deploy themes](#use-front-end-pipeline-to-deploy-themes), you need not to deploy an AEM Archetype.
+> * You can find list of all OOTB templates when you create a form.
+
+-->
+
 
 Die **vorkonfigurierten** Vorlagen für [Kernkomponenten für adaptive Formulare](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=de) sind:
 
@@ -81,7 +142,7 @@ Die **vorkonfigurierten** Vorlagen für [Kernkomponenten für adaptive Formulare
 
 ### Einfach {#Basic}
 
-Die einfache Vorlage hilft Ihnen beim schnellen Erstellen eines Registrierungsformulars. Sie können sie auch verwenden, um eine Vorschau der Funktionalität der [Kernkomponenten für adaptive Formulare](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=de) anzuzeigen. Sie bietet ein Assistenten-Layout für eine abschnittsweise Darstellung der Daten.
+Eine einfache Vorlage hilft Ihnen beim schnellen Erstellen eines Registrierungserlebnisformulars. Sie können damit auch eine Vorschau der Funktionen von [Adaptive Forms-Kernkomponenten](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=de). Sie bietet ein Assistenten-Layout für eine abschnittsweise Darstellung der Daten.
 
 ![Einfache Vorlage](/help/adaptive-forms/assets/Basic-template-desktop-view.png)
 
@@ -105,20 +166,20 @@ Die Vorlage für die Aktualisierung der Kontaktdetails hilft Autorinnen und Auto
 
 ### Einverständnisformular {#Consent-Form}
 
-Die Vorlage für das Einverständnisformular wird verwendet, um ein rechtliches Dokument von Personen zu erstellen, die an einer bestimmten Aktivität, einer Forschungsstudie, einem medizinischen Verfahren oder einer Situation teilnehmen, in der ihre personenbezogenen Daten oder Rechte involviert sein können. Das Formular gewährleistet Transparenz, schützt die Rechte der Teilnehmenden und schafft Klarheit darüber, womit sich eine Person einverstanden erklärt.
+Die Vorlage für das Einverständnisformular wird verwendet, um ein Formular für die Beschaffung eines Rechtsdokuments von Teilnehmern zu erstellen, die an einer bestimmten Aktivität, einem Forschungsstudium, einem medizinischen Verfahren oder einer Situation teilnehmen, in der ihre personenbezogenen Daten oder Rechte involviert sein können. Das Formular gewährleistet Transparenz, schützt die Rechte der Teilnehmenden und schafft Klarheit darüber, womit sich eine Person einverstanden erklärt.
 
 ![Einverständnisformular](/help/adaptive-forms/assets/Consent-form-desktop-view.png)
 
 ### Protokolldienstanfrage {#Log-Service-Request}
 
-Die Vorlage für eine Protokolldienstanfrage hilft bei der Erstellung eines Formulars, das protokollspezfische Protokollierungsdienste von einem Dienstleister anfordert. Das Formular dient als formelle Anfrage zum Erstellen eines Tickets für Ereignisse, Aktivitäten oder Daten, die zur Überwachung oder Statusverfolgung protokolliert werden.
+Die Vorlage für eine Protokolldienstanfrage hilft bei der Erstellung eines Formulars, das protokollspezfische Protokollierungsdienste von einem Dienstleister anfordert. Das Formular dient als formelle Anfrage zum Erstellen eines Tickets für Ereignisse, Aktivitäten oder Datenprotokolle zur Überwachung oder zum Tracking des Status.
 
 ![Vorlage „Protokolldienstanfrage“](/help/adaptive-forms/assets/Log-service-request-desktop-view.png)
 
 
 ### Feedback geben {#Give-Feedback}
 
-Mit der Vorlage „Feedback geben“ können Sie ein Formular erstellen, das eine konstruktive Rückmeldung an eine andere Person oder ein Team liefert. Das Formular hilft sicherzustellen, dass das Feedback klar, spezifisch und umsetzbar ist, und fördert offene Kommunikation und Verbesserung.
+Mit der Vorlage „Feedback geben“ können Sie ein Formular erstellen, das eine konstruktive Rückmeldung an eine andere Person oder ein Team liefert. Das Formular trägt dazu bei sicherzustellen, dass das Feedback klar, spezifisch und umsetzbar ist, und fördert offene Kommunikation und Verbesserung.
 
 ![Vorlage „Feedback geben“](/help/adaptive-forms/assets/Give-feedback-desktop-view.png)
 
@@ -138,7 +199,7 @@ Die Vorlage „Nebenleistungen für Mitarbeitende – Übersicht“ wird verwend
 
 ### Anforderung eines Kontoauszugs {#Request-for-Account-Statement}
 
-Die Vorlage „Anforderung eines Kontoauszugs“ hilft bei der Erstellung eines Formulars, das den Prozess veranlasst, einen genauen und aktuellen Auszug zu einer Kundin bzw. einem Kunden zu erhalten. Der Kontoauszug bietet eine detaillierte Aufzeichnung von Finanztransaktionen, Aktivitäten oder anderen relevanten Informationen über Kundinnen und Kunden, die dieses Formular verwenden.
+Eine Anfrage für die Kontoauszugsvorlage hilft bei der Erstellung eines Formulars, das den Prozess des Abrufs einer genauen und aktuellen Kundenanweisung auslöst. Der Kontoauszug bietet eine detaillierte Aufzeichnung von Finanztransaktionen, Aktivitäten oder anderen relevanten Informationen über Kundinnen und Kunden, die dieses Formular verwenden.
 
 ![Request-for-account-statment](/help/adaptive-forms/assets/Request-for-account-statment.png)
 
