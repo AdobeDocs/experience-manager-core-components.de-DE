@@ -3,10 +3,10 @@ title: Kernkomponente „Optionsschaltfläche“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „Optionsschaltfläche“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
-workflow-type: ht
-source-wordcount: '1703'
-ht-degree: 100%
+source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
+workflow-type: tm+mt
+source-wordcount: '1908'
+ht-degree: 87%
 
 ---
 
@@ -16,11 +16,11 @@ Eine Optionsschaltfläche in einem adaptiven Formular ist eine Art Eingabeelemen
 
 **Beispiel**
 
-![](/help/adaptive-forms/assets/radio-button.png)
+![Beispiel](/help/adaptive-forms/assets/radio-button.png)
 
 **Dialogfeld „Eigenschaften“**
 
-![](/help/adaptive-forms/assets/radio-button-properties.png)
+![Beispiel](/help/adaptive-forms/assets/radio-button-properties.png)
 
 In diesem Beispiel wird das Optionenelement verwendet, um die Optionsschaltflächen in einer Gruppe zusammenzufassen. Sie können das Element **Text anzeigen** verwenden, um eine Beschriftung für ein Element bereitzustellen und **Datenwert** verwenden, um den Wert anzugeben, der beim Senden des Formulars an den Server gesendet wird.
 
@@ -32,13 +32,13 @@ Darüber hinaus kann jede Optionsschaltfläche so konfiguriert werden, dass für
 
 Es gibt verschiedene Gründe für die Verwendung von Optionsschaltflächen in einem Formular, darunter:
 
-* **Eingeschränkung der Auswahl**: Optionsschaltflächen werden verwendet, um eine Liste vordefinierter Optionen bereitzustellen, aus denen die Benutzenden auswählen können. Es kann jeweils nur eine Option gleichzeitig ausgewählt werden. Dies ist nützlich, wenn die Anzahl der Optionen begrenzt ist und diese sich gegenseitig ausschließen.
+- **Eingeschränkung der Auswahl**: Optionsschaltflächen werden verwendet, um eine Liste vordefinierter Optionen bereitzustellen, aus denen die Benutzenden auswählen können. Es kann jeweils nur eine Option gleichzeitig ausgewählt werden. Dies ist nützlich, wenn die Anzahl der Optionen begrenzt ist und diese sich gegenseitig ausschließen.
 
-* **Übersichtliche Darstellung**: Optionsschaltflächen sind übersichtlich und leicht zu verstehen, sodass die Auswahl für Benutzende vereinfacht wird.
+- **Übersichtliche Darstellung**: Optionsschaltflächen sind übersichtlich und leicht zu verstehen, sodass die Auswahl für Benutzende vereinfacht wird.
 
-* **Konsistenz**: Die Verwendung von Optionsschaltflächen ist eine konsistente und standardisierte Methode zur Darstellung von Optionen für Benutzende, wodurch das Verständnis und die Interaktion mit dem Formular erleichtert werden.
+- **Konsistenz**: Die Verwendung von Optionsschaltflächen ist eine konsistente und standardisierte Methode zur Darstellung von Optionen für Benutzende, wodurch das Verständnis und die Interaktion mit dem Formular erleichtert werden.
 
-* **Einfachere Verwendung**: Optionsschaltflächen sind einfach zu bedienen, insbesondere für Benutzende, die nicht technologieaffin sind oder die über eingeschränkte Mobilität verfügen.
+- **Einfachere Verwendung**: Optionsschaltflächen sind einfach zu bedienen, insbesondere für Benutzende, die nicht technologieaffin sind oder die über eingeschränkte Mobilität verfügen.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
@@ -64,51 +64,53 @@ Im Dialogfeld „Konfigurieren“ können Sie Optionsschaltflächen für Besuche
 
 ![Registerkarte „Allgemein“](/help/adaptive-forms/assets/radiobutton_basictab.png)
 
-* **Name**: Sie können eine Formularkomponente sowohl im Formular als auch im Regel-Editor leicht mit ihrem eindeutigen Namen identifizieren. Der Name darf jedoch keine Leerzeichen oder Sonderzeichen enthalten.
+- **Name**: Sie können eine Formularkomponente sowohl im Formular als auch im Regel-Editor leicht mit ihrem eindeutigen Namen identifizieren. Der Name darf jedoch keine Leerzeichen oder Sonderzeichen enthalten.
 
-* **Titel**: Sie können mit dem Titel leicht eine Komponente in einem Formular identifizieren. Standardmäßig wird der Titel über der Komponente angezeigt. Wenn Sie keinen Titel hinzufügen, wird der Name der Komponente anstelle des Titeltexts angezeigt.
+- **Titel**: Sie können mit dem Titel leicht eine Komponente in einem Formular identifizieren. Standardmäßig wird der Titel über der Komponente angezeigt. Wenn Sie keinen Titel hinzufügen, wird der Name der Komponente anstelle des Titeltexts angezeigt.
 
-* **Titel ausblenden**: Wählen Sie die Option aus, um den Titel der Komponente auszublenden.
+- **Titel ausblenden**: Wählen Sie die Option aus, um den Titel der Komponente auszublenden.
 
   In der Registerkarte **Optionen** können Sie unter Verwendung der Schaltfläche **Hinzufügen** Datenwerte hinzufügen und Textpaare anzeigen. Nachdem eine neue Option hinzugefügt wurde, können die folgenden Aktionen ausgeführt werden:
 
-   * **Datenwert**: Mit dieser Option können Sie den zu sendenden Inhalt eingeben, wenn eine Option ausgewählt ist.
-   * **Text anzeigen** – Mit dieser Option können Sie den Inhalt eingeben, der in einem adaptiven Formular angezeigt werden soll.
-   * **Löschen** – Durch Tippen oder Klicken können Sie die Option einer Optionsschaltfläche löschen.
-   * **Neu anordnen** – Durch Tippen oder Klicken und Ziehen können Sie die Anordnung der Optionen anpassen.
+   - **Datenwert**: Mit dieser Option können Sie den zu sendenden Inhalt eingeben, wenn eine Option ausgewählt ist.
+   - **Text anzeigen** – Mit dieser Option können Sie den Inhalt eingeben, der in einem adaptiven Formular angezeigt werden soll.
+   - **Löschen** – Durch Tippen oder Klicken können Sie die Option einer Optionsschaltfläche löschen.
+   - **Neu anordnen** – Durch Tippen oder Klicken und Ziehen können Sie die Anordnung der Optionen anpassen.
 
-* **Verbindungsreferenz**: Eine Verbindungsreferenz ist ein Verweis auf ein Datenelement, das in einer externen Datenquelle gespeichert ist und in einem Formular verwendet wird. Sie können mit dem Bindungsverweis Daten dynamisch an Formularfelder binden, sodass das Formular die aktuellsten Daten aus der Datenquelle anzeigen kann. Beispielsweise kann ein Bindungsverweis verwendet werden, um den Namen und die Adresse von Kundinnen und Kunden in einem Formular anzuzeigen, basierend auf der im Formular eingegebenen Kunden-ID. Der Bindungsverweis kann auch verwendet werden, um die Datenquelle mit den im Formular eingegebenen Daten zu aktualisieren. Auf diese Weise können Sie mit AEM Forms Formulare erstellen, die mit externen Datenquellen interagieren und so eine nahtlose Benutzererfahrung bei der Datenerfassung und Datenverwaltung bieten.
+- **Verbindungsreferenz**: Eine Verbindungsreferenz ist ein Verweis auf ein Datenelement, das in einer externen Datenquelle gespeichert ist und in einem Formular verwendet wird. Sie können mit dem Bindungsverweis Daten dynamisch an Formularfelder binden, sodass das Formular die aktuellsten Daten aus der Datenquelle anzeigen kann. Beispielsweise kann ein Bindungsverweis verwendet werden, um den Namen und die Adresse von Kundinnen und Kunden in einem Formular anzuzeigen, basierend auf der im Formular eingegebenen Kunden-ID. Der Bindungsverweis kann auch verwendet werden, um die Datenquelle mit den im Formular eingegebenen Daten zu aktualisieren. Auf diese Weise können Sie mit AEM Forms Formulare erstellen, die mit externen Datenquellen interagieren und so eine nahtlose Benutzererfahrung bei der Datenerfassung und Datenverwaltung bieten.
 
-* **Datentyp des gesendeten Werts**: Diese Option gibt den Datentyp des Werts an, der bei Auswahl einer Option gesendet wird. Wenn der **Datentyp des gesendeten Werts** auf `Number` festgelegt ist und Sie auf der Registerkarte **Optionen** Zeichenfolgedaten zum **Datenwert** hinzufügen, wird am Bildschirm die Fehlermeldung `Value type mismatch` angezeigt.
+- **Als ungebundenes Formularelement markieren**: Wählen Sie die Option zum Konfigurieren eines Formularfelds, das keinem Schema zugeordnet ist. Mit dieser Option können Sie Daten speichern, ohne die Datenquelle zu aktualisieren. Außerdem können Sie damit Daten auf eine benutzerdefinierte Art und Weise, getrennt von der standardmäßigen Datenbankintegration, verarbeiten.
 
-* **Standardoptionen**: Mit dieser Option können Sie vorab ausgewählte Standardwerte hinzufügen, wenn das Formular geladen wird. Wenn der **Datentyp des übermittelten Wertes** auf `Number` eingestellt ist und Sie den **Standardoptionen** Zeichenfolgen-Daten hinzufügen, wird auf dem Bildschirm die Fehlermeldung `Value type mismatch` angezeigt.
+- **Datentyp des gesendeten Werts**: Diese Option gibt den Datentyp des Werts an, der bei Auswahl einer Option gesendet wird. Wenn der **Datentyp des gesendeten Werts** auf `Number` festgelegt ist und Sie auf der Registerkarte **Optionen** Zeichenfolgedaten zum **Datenwert** hinzufügen, wird am Bildschirm die Fehlermeldung `Value type mismatch` angezeigt.
 
-* **Anzeigeoptionen**: Diese Option wird verwendet, um die visuelle Ausrichtung von Optionsschaltflächen in einem adaptiven Formular festzulegen. Folgende zwei Optionen werden unterstützt:
-   * **Horizontal** – Wenn diese Option aktiviert ist, werden Optionsschaltflächen in einem adaptiven Formular von links nach rechts angezeigt.
-   * **Vertikal** – Wenn diese Option aktiviert ist, werden Optionsschaltflächen in einem adaptiven Formular von oben nach unten angezeigt.
-* **Komponente ausblenden**: Wählen Sie diese Option, um die Komponente aus dem Formular auszublenden. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor. Dies ist nützlich, wenn Sie Informationen speichern müssen, die Benutzende nicht sehen oder direkt ändern müssen.
-* **Komponente deaktivieren**: Wählen Sie die Option zum Deaktivieren der Komponente aus. Die deaktivierte Komponente ist nicht aktiv und Endbenutzende können sie nicht bearbeiten. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
-* **Schreibgeschützt**: Wählen Sie die Option aus, um die Komponente nicht bearbeitbar zu machen. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
+- **Standardoptionen**: Mit dieser Option können Sie vorab ausgewählte Standardwerte hinzufügen, wenn das Formular geladen wird. Wenn der **Datentyp des übermittelten Wertes** auf `Number` eingestellt ist und Sie den **Standardoptionen** Zeichenfolgen-Daten hinzufügen, wird auf dem Bildschirm die Fehlermeldung `Value type mismatch` angezeigt.
+
+- **Anzeigeoptionen**: Diese Option wird verwendet, um die visuelle Ausrichtung von Optionsschaltflächen in einem adaptiven Formular festzulegen. Folgende zwei Optionen werden unterstützt:
+   - **Horizontal** – Wenn diese Option aktiviert ist, werden Optionsschaltflächen in einem adaptiven Formular von links nach rechts angezeigt.
+   - **Vertikal** – Wenn diese Option aktiviert ist, werden Optionsschaltflächen in einem adaptiven Formular von oben nach unten angezeigt.
+- **Komponente ausblenden**: Wählen Sie diese Option, um die Komponente aus dem Formular auszublenden. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor. Dies ist nützlich, wenn Sie Informationen speichern müssen, die Benutzende nicht sehen oder direkt ändern müssen.
+- **Komponente deaktivieren**: Wählen Sie die Option zum Deaktivieren der Komponente aus. Die deaktivierte Komponente ist nicht aktiv und Endbenutzende können sie nicht bearbeiten. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
+- **Schreibgeschützt**: Wählen Sie die Option aus, um die Komponente nicht bearbeitbar zu machen. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
 
 ### Registerkarte „Validierung“ {#validation-tab}
 
 ![Registerkarte „Validierung“](/help/adaptive-forms/assets/radiobutton_validationtab.png)
 
-* **Erforderlich**: Wählen Sie diese Option, wenn Sie die Komponente in einem adaptiven Formular anzeigen möchten. Wenn diese Option aktiviert ist, kann die Option **Komponente ausblenden** oder **Komponente deaktivieren** auf der Registerkarte **Allgemein** nicht ausgewählt werden.
+- **Erforderlich**: Wählen Sie diese Option, wenn Sie die Komponente in einem adaptiven Formular anzeigen möchten. Nachdem Sie die Option ausgewählt haben, müssen Sie eine Auswahl treffen, bevor Sie mit der Formularübermittlung fortfahren. Wenn diese Option aktiviert ist, kann die Option **Komponente ausblenden** oder **Komponente deaktivieren** auf der Registerkarte **Allgemein** nicht ausgewählt werden.
 
-* **Fehlermeldung**: Mit dieser Option können Sie eine Nachricht eingeben, die angezeigt wird, wenn das Kontrollkästchen **Erforderlich** aktiviert ist und das Feld leer bleibt.
+- **Fehlermeldung**: Mit dieser Option können Sie eine Nachricht eingeben, die angezeigt wird, wenn das Kontrollkästchen **Erforderlich** aktiviert ist und das Feld leer bleibt.
 
-* **Meldung zur Skriptvalidierung**: Mit dieser Option können Sie eine Meldung eingeben, die angezeigt werden soll, wenn die Skriptvalidierung fehlschlägt.
+- **Meldung zur Skriptvalidierung**: Mit dieser Option können Sie eine Meldung eingeben, die angezeigt werden soll, wenn die Skriptvalidierung fehlschlägt.
 
 ### Registerkarte „Hilfe-Inhalt“ {#helpcontent-tab}
 
 ![Registerkarte „Hilfe-Inhalt“](/help/adaptive-forms/assets/radiobutton_helptab.png)
 
-* **Kurzbeschreibung**: Eine Kurzbeschreibung ist eine kurze Erklärung, die zusätzliche Informationen oder Klarstellungen über den Zweck eines Formularfelds bietet. Es hilft Benutzenden zu verstehen, welcher Datentyp in das Feld eingegeben werden soll, und kann Richtlinien oder Beispiele bereitstellen, um sicherzustellen, dass die eingegebenen Informationen gültig sind und die gewünschten Kriterien erfüllen. Standardmäßig bleiben kurze Beschreibungen ausgeblendet. Aktivieren Sie die Option **Kurzbeschreibung immer anzeigen**, um sie unterhalb der Komponente anzuzeigen.
+- **Kurzbeschreibung**: Eine Kurzbeschreibung ist eine kurze Erklärung, die zusätzliche Informationen oder Klarstellungen über den Zweck eines Formularfelds bietet. Es hilft Benutzenden zu verstehen, welcher Datentyp in das Feld eingegeben werden soll, und kann Richtlinien oder Beispiele bereitstellen, um sicherzustellen, dass die eingegebenen Informationen gültig sind und die gewünschten Kriterien erfüllen. Standardmäßig bleiben kurze Beschreibungen ausgeblendet. Aktivieren Sie die Option **Kurzbeschreibung immer anzeigen**, um sie unterhalb der Komponente anzuzeigen.
 
-* **Kurzbeschreibung immer anzeigen**: Aktivieren Sie diese Option, um die Kurzbeschreibung unterhalb der Komponente anzuzeigen.
+- **Kurzbeschreibung immer anzeigen**: Aktivieren Sie diese Option, um die Kurzbeschreibung unterhalb der Komponente anzuzeigen.
 
-* **Hilfetext**: Hilfetext bezieht sich auf zusätzliche Informationen oder Anleitungen, die den Benutzenden bereitgestellt werden, um sie beim korrekten Ausfüllen eines Formularfelds zu unterstützen. Er erscheint, wenn Benutzende auf das Hilfesymbol (i) neben der Komponente klicken. Hilfetext enthält detailliertere Informationen als die Beschriftung oder der Platzhaltertext eines Formularfelds und soll den Benutzenden dabei helfen, die Anforderungen oder Einschränkungen des Felds zu verstehen. Er kann auch Vorschläge oder Beispiele anbieten, um das Ausfüllen des Formulars einfacher und genauer zu gestalten.
+- **Hilfetext**: Hilfetext bezieht sich auf zusätzliche Informationen oder Anleitungen, die den Benutzenden bereitgestellt werden, um sie beim korrekten Ausfüllen eines Formularfelds zu unterstützen. Er erscheint, wenn Benutzende auf das Hilfesymbol (i) neben der Komponente klicken. Hilfetext enthält detailliertere Informationen als die Beschriftung oder der Platzhaltertext eines Formularfelds und soll den Benutzenden dabei helfen, die Anforderungen oder Einschränkungen des Felds zu verstehen. Er kann auch Vorschläge oder Beispiele anbieten, um das Ausfüllen des Formulars einfacher und genauer zu gestalten.
 
 ### Registerkarte „Barrierefreiheit“ {#accessibility-tab}
 
@@ -125,43 +127,29 @@ Das Dialogfeld „Design“ wird verwendet, um CSS-Stile für die Komponente „
 
 Sie können die Registerkarte zum Definieren und Verwalten von CSS-Stilen für eine Komponente verwenden. Die Kernkomponente „Optionsschaltfläche“ für adaptive Formulare unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
-![Dialogfeld „Stil-Design“](/help/adaptive-forms/assets/radiobutton_designdialog.png)
+![Dialogfeld „Design“](/help/adaptive-forms/assets/checkbox-style.png)
 
-* **Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die Kernkomponente „Optionsschaltfläche“ für adaptive Formulare bereitstellen.
+- **Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die Kernkomponente für adaptive Formulare – Kontrollkästchen-Gruppe bereitstellen.
 
-* **Zulässige Stile**: Sie können Stile definieren, indem Sie den Namen und die CSS-Klasse für den Stil angeben. Sie können beispielsweise einen Stil mit dem Namen „Fettschrift“ erstellen und die CSS-Klasse „Schriftbreite: Fett“ bereitstellen. Sie können diese Stile bei einem adaptiven Formular im adaptiven Formular-Editor anwenden. Um einen Stil anzuwenden, wählen Sie im Editor für adaptive Formulare die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Eigenschaften-Dialog und wählen Sie den gewünschten Stil aus der Dropdown-Liste **Stile**. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld „Design“ zurück, aktualisieren die Stile auf der Registerkarte „Stile“ und speichern die Änderungen.
+- **Zulässige Stile**: Sie können Stile definieren, indem Sie einen Namen und die CSS-Klasse angeben, die den Stil darstellen. Sie können beispielsweise einen Stil mit dem Namen „Fettschrift“ erstellen und die CSS-Klasse „Schriftbreite: Fett“ bereitstellen. Sie können diese Stile bei einem adaptiven Formular im adaptiven Formular-Editor anwenden. Um einen Stil anzuwenden, wählen Sie im Editor für adaptive Formulare die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Eigenschaften-Dialog und wählen Sie den gewünschten Stil aus der Dropdown-Liste **Stile**. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld „Design“ zurück, aktualisieren die Stile auf der Registerkarte „Stile“ und speichern die Änderungen.
 
-<!--
+### Benutzerdefinierte Eigenschaften
 
-## Related article {#related-article}
+![Dialogfeld &quot;Benutzerdefinierte Eigenschaften&quot;](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+Mit benutzerdefinierten Eigenschaften können Sie benutzerdefinierte Attribute (Schlüssel-Wert-Paare) mithilfe der Formularvorlage mit einer Kernkomponente des adaptiven Formulars verknüpfen. Die benutzerdefinierten Eigenschaften werden im Abschnitt &quot;Eigenschaften&quot;der Headless-Ausgabe der Komponente angezeigt. Dies ermöglicht das Erstellen eines dynamischen Formularverhaltens, das sich basierend auf den benutzerdefinierten Attributwerten anpasst. Beispielsweise können Entwickler verschiedene Ausgabeformate einer Headless-Forms-Komponente für mobile, Desktop- oder Webplattformen entwerfen, wodurch das Benutzererlebnis auf einer Vielzahl von Geräten erheblich verbessert wird.
 
--->
+- **Gruppenname**: Sie können einen Namen angeben, um die benutzerdefinierte Eigenschaftsgruppe zu identifizieren. Sie können mehrere benutzerdefinierte Eigenschaftsgruppen hinzufügen, löschen oder neu anordnen. Nachdem Sie die benutzerdefinierte Eigenschaftsgruppe hinzugefügt haben, sehen Sie die folgenden Optionen:
 
->[!MORELIKETHIS]
->
->* [Akkordeon](/help/adaptive-forms/components/accordion.md)
->* [Schaltfläche](/help/adaptive-forms/components/button.md)
->* [Kontrollkästchengruppe](/help/adaptive-forms/components/checkbox-group.md)
->* [Datumsauswahl](/help/adaptive-forms/components/date-picker.md)
->* [Dropdown-Liste](/help/adaptive-forms/components/drop-down.md)
->* [E-Mail-Eingabe](/help/adaptive-forms/components/email-input.md)
->* [Formular-Container](/help/adaptive-forms/components/form-container.md)
->* [Dateianhang](/help/adaptive-forms/components/file-attachment.md)
->* [Fußzeile](/help/adaptive-forms/components/footer.md)
->* [Kopfzeile](/help/adaptive-forms/components/header.md)
->* [Horizontale Registerkarten](/help/adaptive-forms/components/horizontal-tabs.md)
->* [Bild](/help/adaptive-forms/components/image.md)
->* [Zahleneingabe](/help/adaptive-forms/components/number-input.md)
->* [Bedienfeld-Container](/help/adaptive-forms/components/panel-container.md)
->* [Zurücksetzen-Schaltfläche](/help/adaptive-forms/components/reset-button.md)
->* [Senden-Schaltfläche](/help/adaptive-forms/components/submit-button.md)
->* [Telefoneingabe](/help/adaptive-forms/components/telephone-input.md)
->* [Texteingabe](/help/adaptive-forms/components/text-input.md)
->* [Text](/help/adaptive-forms/components/text.md)
->* [Titel](/help/adaptive-forms/components/title.md)
->* [Assistent](/help/adaptive-forms/components/wizard.md)
+   - **Schlüssel-Wert-Paare**: Sie können mehrere benutzerdefinierte Eigenschaftsnamen und benutzerdefinierte Eigenschaftswerte hinzufügen, indem Sie auf das **Hinzufügen** -Schaltfläche für jede benutzerdefinierte Eigenschaftsgruppe.
+
+   - **Löschen**: Tippen oder klicken Sie auf , um den benutzerdefinierten Eigenschaftsnamen und den benutzerdefinierten Eigenschaftswert zu löschen.
+
+   - **Neu anordnen**: Tippen oder klicken und ziehen Sie, um die Reihenfolge des benutzerdefinierten Eigenschaftsnamens und des benutzerdefinierten Eigenschaftswerts neu anzuordnen.
+
+## Ähnliche Artikel {#related-articles}
+
+{{more-like-this}}
 
 ## Siehe auch {#see-also}
 

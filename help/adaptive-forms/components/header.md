@@ -3,9 +3,9 @@ title: Kernkomponente für adaptive Formulare – Header
 description: Verwenden oder Anpassen der Header-Kernkomponente für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: aa18def9-0bec-4475-8dde-213860621ef5
-source-git-commit: 59cd9d65bf4c1be6ab2eaf15bbb747b532863fdd
-workflow-type: ht
-source-wordcount: '712'
+source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
+workflow-type: tm+mt
+source-wordcount: '679'
 ht-degree: 100%
 
 ---
@@ -20,15 +20,15 @@ Eine Header-Komponente in einem adaptiven Formular ist ein Abschnitt am oberen R
 
 ## Verwendung {#reasons-to-use-header}
 
-* **Branding**: Sie können den Header verwenden, um das Logo oder den Namen der Organisation anzuzeigen, die das Formular erstellt hat, und so zur Erkennung und Glaubwürdigkeit der Marke beizutragen.
+- **Branding**: Sie können den Header verwenden, um das Logo oder den Namen der Organisation anzuzeigen, die das Formular erstellt hat, und so zur Erkennung und Glaubwürdigkeit der Marke beizutragen.
 
-* **Kontext**: Sie können in der Kopfzeile eine kurze Beschreibung des Zwecks des Formulars bereitstellen und Benutzenden dabei helfen, den Kontext zu verstehen, in dem das Formular verwendet wird.
+- **Kontext**: Sie können in der Kopfzeile eine kurze Beschreibung des Zwecks des Formulars bereitstellen und Benutzenden dabei helfen, den Kontext zu verstehen, in dem das Formular verwendet wird.
 
-* **Navigation**: Eine Kopfzeile kann Links oder Schaltflächen enthalten, über die Benutzende zu anderen Teilen der Website oder Anwendung navigieren können.
+- **Navigation**: Eine Kopfzeile kann Links oder Schaltflächen enthalten, über die Benutzende zu anderen Teilen der Website oder Anwendung navigieren können.
 
-* **Informationen**: Ein Header kann Kontaktinformationen oder Links enthalten, um Ressourcen zu unterstützen, sodass Benutzende bei Bedarf Hilfe erhalten können.
+- **Informationen**: Ein Header kann Kontaktinformationen oder Links enthalten, um Ressourcen zu unterstützen, sodass Benutzende bei Bedarf Hilfe erhalten können.
 
-* **Benutzererlebnis**: Sie können das Formular mit einem Header benutzerfreundlicher gestalten, indem Sie Benutzenden eine klare und intuitive Möglichkeit bieten, auf Formularfelder zuzugreifen und sie auszufüllen.
+- **Benutzererlebnis**: Sie können das Formular mit einem Header benutzerfreundlicher gestalten, indem Sie Benutzenden eine klare und intuitive Möglichkeit bieten, auf Formularfelder zuzugreifen und sie auszufüllen.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
@@ -60,21 +60,21 @@ Dieser Teil des Headers enthält den Header-Titel und das Bild.
 
 ![Bild-Registerkarte](/help/adaptive-forms/assets/header_image.png)
 
-* **Bild-Asset**: Sie können mit dieser Option ein Asset wie ein Bild per Drag-and-Drop mit der Maus ablegen. Sie können auch eine Datei aus einem lokalen Dateisystem mit der Schaltfläche **Durchsuchen** hochladen. Nach dem Hinzufügen eines Bildes erscheinen unter dem Bild drei Schaltflächen. Nach dem Hinzufügen eines Bildes erscheinen unten im Bild drei Schaltflächen:
-   * **Bearbeiten** – Tippen oder klicken Sie auf **Bearbeiten**, um die Wiedergabeversionen des Assets im Asset-Editor zu verwalten.
-   * **Löschen** – Tippen oder klicken Sie auf **Löschen**, um die Auswahl des aktuell ausgewählten Bilds aufzuheben.
-   * **Auswahl** – Tippen oder klicken Sie auf die Option **Auswahl**, um ein anderes Bild aus dem Ordner „Assets“ auszuwählen.
+- **Bild-Asset**: Sie können mit dieser Option ein Asset wie ein Bild per Drag-and-Drop mit der Maus ablegen. Sie können auch eine Datei aus einem lokalen Dateisystem mit der Schaltfläche **Durchsuchen** hochladen. Nach dem Hinzufügen eines Bildes erscheinen unter dem Bild drei Schaltflächen. Nach dem Hinzufügen eines Bildes erscheinen unten im Bild drei Schaltflächen:
+   - **Bearbeiten** – Tippen oder klicken Sie auf **Bearbeiten**, um die Wiedergabeversionen des Assets im Asset-Editor zu verwalten.
+   - **Löschen** – Tippen oder klicken Sie auf **Löschen**, um die Auswahl des aktuell ausgewählten Bilds aufzuheben.
+   - **Auswahl** – Tippen oder klicken Sie auf die Option **Auswahl**, um ein anderes Bild aus dem Ordner „Assets“ auszuwählen.
 
-* **Titel** – Mit dieser Option fügen Sie die Überschrift zur Kopfzeile hinzu. Benutzende können den im Dialogfeld enthaltenen, vordefinierten Text ändern.
-* **Link zu** – Sie können die Überschrift mit dem Ordner verknüpfen, indem Sie das Symbol **Durchsuchen** verwenden.
-* **Beschreibung**: Eine Beschreibung ist eine kurze Texterklärung, die zusätzliche Informationen oder Klarstellungen zum Zweck eines bestimmten Bildes bietet.
-* **Größe (px)** – Hiermit werden Länge und Breite des Bildes angepasst, indem die Anzahl der Pixel erhöht oder verringert wird.
+- **Titel** – Mit dieser Option fügen Sie die Überschrift zur Kopfzeile hinzu. Benutzende können den im Dialogfeld enthaltenen, vordefinierten Text ändern.
+- **Link zu** – Sie können die Überschrift mit dem Ordner verknüpfen, indem Sie das Symbol **Durchsuchen** verwenden.
+- **Beschreibung**: Eine Beschreibung ist eine kurze Texterklärung, die zusätzliche Informationen oder Klarstellungen zum Zweck eines bestimmten Bildes bietet.
+- **Größe (px)** – Hiermit werden Länge und Breite des Bildes angepasst, indem die Anzahl der Pixel erhöht oder verringert wird.
 
 ![Registerkarte „Barrierefreiheit“](/help/adaptive-forms/assets/header_accessibility.png)
 
-* **Alternativtext**: Diese Option wird verwendet, um eine kurze Textalternative für das Bild einzugeben, um es für sehbehinderte Benutzende zu beschreiben.
+- **Alternativtext**: Diese Option wird verwendet, um eine kurze Textalternative für das Bild einzugeben, um es für sehbehinderte Benutzende zu beschreiben.
 
-* **Bild ist dekorativ** – Überprüfen Sie, ob das Bild von Hilfstechnologien ignoriert werden soll und daher keinen alternativen Text erfordert. Dies gilt nur für dekorative Bilder.
+- **Bild ist dekorativ** – Überprüfen Sie, ob das Bild von Hilfstechnologien ignoriert werden soll und daher keinen alternativen Text erfordert. Dies gilt nur für dekorative Bilder.
 
 ### Registerkarte „Text“ {#text-tab}
 
@@ -88,30 +88,9 @@ Sie können in diesem Abschnitt den Text eingeben, den Sie in die Kopfzeile einf
 
 -->
 
+## Ähnliche Artikel {#related-articles}
 
->[!MORELIKETHIS]
->
->* [Akkordeon](/help/adaptive-forms/components/accordion.md)
->* [Schaltfläche](/help/adaptive-forms/components/button.md)
->* [Kontrollkästchengruppe](/help/adaptive-forms/components/checkbox-group.md)
->* [Datumsauswahl](/help/adaptive-forms/components/date-picker.md)
->* [Dropdown-Liste](/help/adaptive-forms/components/drop-down.md)
->* [E-Mail-Eingabe](/help/adaptive-forms/components/email-input.md)
->* [Formular-Container](/help/adaptive-forms/components/form-container.md)
->* [Dateianhang](/help/adaptive-forms/components/file-attachment.md)
->* [Fußzeile](/help/adaptive-forms/components/footer.md)
->* [Horizontale Registerkarten](/help/adaptive-forms/components/horizontal-tabs.md)
->* [Bild](/help/adaptive-forms/components/image.md)
->* [Zahleneingabe](/help/adaptive-forms/components/number-input.md)
->* [Bedienfeld-Container](/help/adaptive-forms/components/panel-container.md)
->* [Optionsschaltfläche](/help/adaptive-forms/components/radio-button.md)
->* [Zurücksetzen-Schaltfläche](/help/adaptive-forms/components/reset-button.md)
->* [Senden-Schaltfläche](/help/adaptive-forms/components/submit-button.md)
->* [Telefoneingabe](/help/adaptive-forms/components/telephone-input.md)
->* [Texteingabe](/help/adaptive-forms/components/text-input.md)
->* [Text](/help/adaptive-forms/components/text.md)
->* [Titel](/help/adaptive-forms/components/title.md)
->* [Assistent](/help/adaptive-forms/components/wizard.md)
+{{more-like-this}}
 
 ## Siehe auch {#see-also}
 

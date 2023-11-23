@@ -3,10 +3,10 @@ title: Kernkomponente für adaptive Formulare – Kontrollkästchen-Gruppe
 description: Verwenden oder Anpassen der Kernkomponente für adaptive Formulare – Kontrollkästchen-Gruppe.
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
-source-git-commit: 0026734a2e43c51c7f5af2b37492d61e8f779ac7
-workflow-type: ht
-source-wordcount: '1663'
-ht-degree: 100%
+source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
+workflow-type: tm+mt
+source-wordcount: '1875'
+ht-degree: 87%
 
 ---
 
@@ -16,11 +16,11 @@ Eine Kontrollkästchen-Gruppe in einem adaptiven Formular ist ein Satz verwandte
 
 **Beispiel**
 
-![](/help/adaptive-forms/assets/checkbox-group.png)
+![Beispiel einer Kontrollkästchengruppe](/help/adaptive-forms/assets/checkbox-group.png)
 
 **Dialogfeld „Eigenschaften“**
 
-![](/help/adaptive-forms/assets/checkbox-group-properties.png)
+![Kontrollkästchen, Gruppeneigenschaftsdialogfeld](/help/adaptive-forms/assets/checkbox-group-properties.png)
 
 In diesem Beispiel wird das Element Optionen verwendet, um die Kontrollkästchen zu gruppieren. Sie können das Element **Text anzeigen** verwenden, um eine Beschriftung für ein Element bereitzustellen und **Datenwert** verwenden, um den Wert anzugeben, der beim Senden des Formulars an den Server gesendet wird.
 
@@ -32,17 +32,17 @@ Darüber hinaus können Sie die Kontrollkästchen-Gruppe so konfigurieren, dass 
 
 Es gibt verschiedene Gründe, warum von vorteilhaft ist, eine Kontrollkästchen-Gruppe in ein adaptives Formular aufzunehmen, einschließlich:
 
-* **Mehrfachauswahl**: Benutzende können mit einer Kontrollkästchen-Gruppe mehrere Optionen aus einer Liste auswählen, was in Situationen nützlich sein kann, in denen mehrere Auswahlen zulässig oder erforderlich sind.
+- **Mehrfachauswahl**: Benutzende können mit einer Kontrollkästchen-Gruppe mehrere Optionen aus einer Liste auswählen, was in Situationen nützlich sein kann, in denen mehrere Auswahlen zulässig oder erforderlich sind.
 
-* **Benutzererlebnis**: Sie können mit der Kontrollkästchen-Gruppe das Formular benutzerfreundlicher gestalten, indem Sie eine klare und intuitive Möglichkeit für Benutzende bereitstellen, mehrere Optionen auszuwählen.
+- **Benutzererlebnis**: Sie können mit der Kontrollkästchen-Gruppe das Formular benutzerfreundlicher gestalten, indem Sie eine klare und intuitive Möglichkeit für Benutzende bereitstellen, mehrere Optionen auszuwählen.
 
-* **Datenanalyse**: Sie können die Kontrollkästchen-Gruppe verwenden, um Daten aus verschiedenen Quellen zu sammeln und zu analysieren oder sie als Eingabe für die weitere Verarbeitung zu verwenden.
+- **Datenanalyse**: Sie können die Kontrollkästchen-Gruppe verwenden, um Daten aus verschiedenen Quellen zu sammeln und zu analysieren oder sie als Eingabe für die weitere Verarbeitung zu verwenden.
 
-* **Umfragen**: Sie können die Kontrollkästchen-Gruppe in Umfragen verwenden, um mehrere Optionen für eine Frage auszuwählen.
+- **Umfragen**: Sie können die Kontrollkästchen-Gruppe in Umfragen verwenden, um mehrere Optionen für eine Frage auszuwählen.
 
-* **Benutzereinstellungen**: Sie können die Kontrollkästchen-Gruppe verwenden, um Benutzereinstellungen für verschiedene Optionen zu erfassen.
+- **Benutzereinstellungen**: Sie können die Kontrollkästchen-Gruppe verwenden, um Benutzereinstellungen für verschiedene Optionen zu erfassen.
 
-* **Datenwert**: Eine Kontrollkästchen-Gruppe kann auch verwendet werden, um Elemente einer Kontrollkästchen-Gruppe zu verarbeiten.
+- **Datenwert**: Eine Kontrollkästchen-Gruppe kann auch verwendet werden, um Elemente einer Kontrollkästchen-Gruppe zu verarbeiten.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
@@ -71,51 +71,53 @@ Sie können im Dialogfeld „Konfigurieren“ einfach das Kontrollkästchen-Erle
 
 ![Registerkarte „Allgemein“](/help/adaptive-forms/assets/checkbox_basictab.png)
 
-* **Name**: Der Name identifiziert die Komponente eindeutig im Regel-Editor. Sonderzeichen und Leerzeichen sind in den Namensfolgen nicht zulässig.
+- **Name**: Der Name identifiziert die Komponente eindeutig im Regel-Editor. Sonderzeichen und Leerzeichen sind in den Namensfolgen nicht zulässig.
 
-* **Titel**: Mit dem Titel können Sie eine Komponente in einem Formular leicht identifizieren. Standardmäßig wird der Titel über der Komponente angezeigt. Wenn Sie keinen Titel hinzufügen, wird der Name der Komponente anstelle des Titeltexts angezeigt.
+- **Titel**: Mit dem Titel können Sie eine Komponente in einem Formular leicht identifizieren. Standardmäßig wird der Titel über der Komponente angezeigt. Wenn Sie keinen Titel hinzufügen, wird der Name der Komponente anstelle des Titeltexts angezeigt.
 
-* **Titel ausblenden**: Wählen Sie die Option aus, um den Titel der Komponente auszublenden.
+- **Titel ausblenden**: Wählen Sie die Option aus, um den Titel der Komponente auszublenden.
 
-* **Optionen**: Sie können Datenwerte hinzufügen und Textpaare anzeigen, indem Sie die Schaltfläche **Hinzufügen** verwenden. Nachdem eine neue Option hinzugefügt wurde, können die folgenden Aktionen ausgeführt werden:
+- **Optionen**: Sie können Datenwerte hinzufügen und Textpaare anzeigen, indem Sie die Schaltfläche **Hinzufügen** verwenden. Nachdem eine neue Option hinzugefügt wurde, können die folgenden Aktionen ausgeführt werden:
 
-   * **Datenwert**: Mit dieser Option können Sie den zu sendenden Inhalt eingeben, wenn eine Option ausgewählt ist.
-   * **Text anzeigen**: Mit dieser Option können Sie den Inhalt eingeben, der in einem adaptiven Formular angezeigt werden soll.
-   * **Löschen**: Tippen oder klicken, um die Option eines Kontrollkästchens zu löschen.
-   * **Neu anordnen**: Tippen oder klicken und ziehen Sie, um die Reihenfolge der Bedienfelder neu anzuordnen.
+   - **Datenwert**: Mit dieser Option können Sie den zu sendenden Inhalt eingeben, wenn eine Option ausgewählt ist.
+   - **Text anzeigen**: Mit dieser Option können Sie den Inhalt eingeben, der in einem adaptiven Formular angezeigt werden soll.
+   - **Löschen**: Tippen oder klicken, um die Option eines Kontrollkästchens zu löschen.
+   - **Neu anordnen**: Tippen oder klicken und ziehen Sie, um die Reihenfolge der Bedienfelder neu anzuordnen.
 
-* **Bindungsverweis**: Bindungsverweis ist ein Verweis auf ein Datenelement, das in einer externen Datenquelle gespeichert ist und in einem Formular verwendet wird. Sie können mit dem Bindungsverweis Daten dynamisch an Formularfelder binden, sodass das Formular die aktuellsten Daten aus der Datenquelle anzeigen kann. Beispielsweise kann ein Bindungsverweis verwendet werden, um den Namen und die Adresse von Kundinnen und Kunden in einem Formular anzuzeigen, basierend auf der im Formular eingegebenen Kunden-ID. Der Bindungsverweis kann auch verwendet werden, um die Datenquelle mit den im Formular eingegebenen Daten zu aktualisieren. Auf diese Weise können Sie mit AEM Forms Formulare erstellen, die mit externen Datenquellen interagieren und so eine nahtlose Benutzererfahrung bei der Datenerfassung und Datenverwaltung bieten.
+- **Bindungsverweis**: Bindungsverweis ist ein Verweis auf ein Datenelement, das in einer externen Datenquelle gespeichert ist und in einem Formular verwendet wird. Sie können mit dem Bindungsverweis Daten dynamisch an Formularfelder binden, sodass das Formular die aktuellsten Daten aus der Datenquelle anzeigen kann. Beispielsweise kann ein Bindungsverweis verwendet werden, um den Namen und die Adresse von Kundinnen und Kunden in einem Formular anzuzeigen, basierend auf der im Formular eingegebenen Kunden-ID. Der Bindungsverweis kann auch verwendet werden, um die Datenquelle mit den im Formular eingegebenen Daten zu aktualisieren. Auf diese Weise können Sie mit AEM Forms Formulare erstellen, die mit externen Datenquellen interagieren und so eine nahtlose Benutzererfahrung bei der Datenerfassung und Datenverwaltung bieten.
 
-* **Datentyp des gesendeten Werts**: Diese Option gibt den Datentyp des Werts an, der bei Auswahl einer Option gesendet wird. Wenn der **Datentyp des gesendeten Werts** auf `Number` eingestellt ist und Sie auf der Registerkarte **Optionen** Zeichenfolgendaten zu **Datenwert** hinzufügen, zeigt der Bildschirm die Fehlermeldung `Value type mismatch`.
+- **Als ungebundenes Formularelement markieren**: Wählen Sie die Option zum Konfigurieren eines Formularfelds, das keinem Schema zugeordnet ist. Mit dieser Option können Sie Daten speichern, ohne die Datenquelle zu aktualisieren. Außerdem können Sie damit Daten auf eine benutzerdefinierte Art und Weise, getrennt von der standardmäßigen Datenbankintegration, verarbeiten.
 
-* **Anzeigeoptionen**: Diese Option wird verwendet, um die visuelle Ausrichtung von Kontrollkästchen in einem adaptiven Formular festzulegen. Folgende zwei Optionen werden unterstützt:
-   * **Horizontal**: Wenn diese Option aktiviert ist, werden Kontrollkästchen in einem adaptiven Formular von links nach rechts angezeigt.
-   * **Vertikal**: Wenn diese Option ausgewählt ist, werden Kontrollkästchen in einem adaptiven Formular von oben nach unten angezeigt.
+- **Datentyp des gesendeten Werts**: Diese Option gibt den Datentyp des Werts an, der bei Auswahl einer Option gesendet wird. Wenn der **Datentyp des gesendeten Werts** auf `Number` eingestellt ist und Sie auf der Registerkarte **Optionen** Zeichenfolgendaten zu **Datenwert** hinzufügen, zeigt der Bildschirm die Fehlermeldung `Value type mismatch`.
 
-* **Standardoptionen**: Sie können mit dieser Option vorab ausgewählte Standardwerte hinzufügen, wenn das Formular lädt. Verwenden Sie das Symbol „Löschen“, um die hinzugefügten Optionen zu entfernen. Wenn der **Datentyp des gesendeten Werts** auf `Number` gesetzt ist und Sie Zeichenfolgendaten zu **Standardoptionen** hinzufügen, zeigt der Bildschirm die Fehlermeldung `Value type mismatch`.
-* **Komponente ausblenden**: Wählen Sie die Option, um die Komponente aus dem Formular auszublenden. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor. Dies ist nützlich, wenn Sie Informationen speichern müssen, die Benutzende nicht sehen oder direkt ändern müssen.
-* **Komponente deaktivieren**: Wählen Sie die Option zum Deaktivieren der Komponente aus. Die deaktivierte Komponente ist nicht aktiv und Endbenutzende können sie nicht bearbeiten. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
-* **Schreibgeschützt**: Wählen Sie die Option aus, um die Komponente nicht bearbeitbar zu machen. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
+- **Anzeigeoptionen**: Diese Option wird verwendet, um die visuelle Ausrichtung von Kontrollkästchen in einem adaptiven Formular festzulegen. Folgende zwei Optionen werden unterstützt:
+   - **Horizontal**: Wenn diese Option aktiviert ist, werden Kontrollkästchen in einem adaptiven Formular von links nach rechts angezeigt.
+   - **Vertikal**: Wenn diese Option ausgewählt ist, werden Kontrollkästchen in einem adaptiven Formular von oben nach unten angezeigt.
+
+- **Standardoptionen**: Sie können mit dieser Option vorab ausgewählte Standardwerte hinzufügen, wenn das Formular lädt. Verwenden Sie das Symbol „Löschen“, um die hinzugefügten Optionen zu entfernen. Wenn der **Datentyp des gesendeten Werts** auf `Number` gesetzt ist und Sie Zeichenfolgendaten zu **Standardoptionen** hinzufügen, zeigt der Bildschirm die Fehlermeldung `Value type mismatch`.
+- **Komponente ausblenden**: Wählen Sie die Option, um die Komponente aus dem Formular auszublenden. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor. Dies ist nützlich, wenn Sie Informationen speichern müssen, die Benutzende nicht sehen oder direkt ändern müssen.
+- **Komponente deaktivieren**: Wählen Sie die Option zum Deaktivieren der Komponente aus. Die deaktivierte Komponente ist nicht aktiv und Endbenutzende können sie nicht bearbeiten. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
+- **Schreibgeschützt**: Wählen Sie die Option aus, um die Komponente nicht bearbeitbar zu machen. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
 
 ### Registerkarte „Validierung“ {#validation-tab}
 
 ![Registerkarte „Validierung“](/help/adaptive-forms/assets/checkbox_validationtab.png)
 
-* **Erforderlich**: Wählen Sie diese Option, wenn Sie die Komponente in einem adaptiven Formular anzeigen möchten. Wenn diese Option aktiviert ist, kann die Option **Komponente ausblenden** oder **Komponente deaktivieren** auf der Registerkarte **Allgemein** nicht ausgewählt werden.
+- **Erforderlich**: Wählen Sie diese Option, wenn Sie die Komponente in einem adaptiven Formular anzeigen möchten. Nachdem Sie die Option ausgewählt haben, müssen Sie eine Auswahl treffen, bevor Sie mit der Formularübermittlung fortfahren. Wenn diese Option aktiviert ist, kann die Option **Komponente ausblenden** oder **Komponente deaktivieren** auf der Registerkarte **Allgemein** nicht ausgewählt werden.
 
-* **Fehlermeldung**: Mit dieser Option können Sie eine Nachricht eingeben, die angezeigt wird, wenn das Kontrollkästchen **Erforderlich** aktiviert ist und das Feld leer bleibt.
+- **Fehlermeldung**: Mit dieser Option können Sie eine Nachricht eingeben, die angezeigt wird, wenn das Kontrollkästchen **Erforderlich** aktiviert ist und das Feld leer bleibt.
 
-* **Meldung zur Skriptvalidierung**: Mit dieser Option können Sie eine Meldung eingeben, die angezeigt werden soll, wenn die Skriptvalidierung fehlschlägt.
+- **Meldung zur Skriptvalidierung**: Mit dieser Option können Sie eine Meldung eingeben, die angezeigt werden soll, wenn die Skriptvalidierung fehlschlägt.
 
 ### Registerkarte „Hilfe-Inhalt“ {#helpcontent-tab}
 
 ![Registerkarte „Hilfe-Inhalt“](/help/adaptive-forms/assets/checkbox_helptab.png)
 
-* **Kurzbeschreibung**: Eine Kurzbeschreibung ist eine kurze Erklärung, die zusätzliche Informationen oder Klarstellungen über den Zweck eines Formularfelds bietet. Es hilft Benutzenden zu verstehen, welcher Datentyp in das Feld eingegeben werden soll, und kann Richtlinien oder Beispiele bereitstellen, um sicherzustellen, dass die eingegebenen Informationen gültig sind und die gewünschten Kriterien erfüllen. Standardmäßig bleiben kurze Beschreibungen ausgeblendet. Aktivieren Sie die Option **Kurzbeschreibung immer anzeigen**, um sie unterhalb der Komponente anzuzeigen.
+- **Kurzbeschreibung**: Eine Kurzbeschreibung ist eine kurze Erklärung, die zusätzliche Informationen oder Klarstellungen über den Zweck eines Formularfelds bietet. Es hilft Benutzenden zu verstehen, welcher Datentyp in das Feld eingegeben werden soll, und kann Richtlinien oder Beispiele bereitstellen, um sicherzustellen, dass die eingegebenen Informationen gültig sind und die gewünschten Kriterien erfüllen. Standardmäßig bleiben kurze Beschreibungen ausgeblendet. Aktivieren Sie die Option **Kurzbeschreibung immer anzeigen**, um sie unterhalb der Komponente anzuzeigen.
 
-* **Kurzbeschreibung immer anzeigen**: Aktivieren Sie diese Option, um die Kurzbeschreibung unterhalb der Komponente anzuzeigen.
+- **Kurzbeschreibung immer anzeigen**: Aktivieren Sie diese Option, um die Kurzbeschreibung unterhalb der Komponente anzuzeigen.
 
-* **Hilfetext**: Hilfetext bezieht sich auf zusätzliche Informationen oder Anleitungen, die den Benutzenden bereitgestellt werden, um sie beim korrekten Ausfüllen eines Formularfelds zu unterstützen. Er erscheint, wenn Benutzende auf das Hilfesymbol (i) neben der Komponente klicken. Hilfetext enthält detailliertere Informationen als die Beschriftung oder der Platzhaltertext eines Formularfelds und soll den Benutzenden dabei helfen, die Anforderungen oder Einschränkungen des Felds zu verstehen. Er kann auch Vorschläge oder Beispiele anbieten, um das Ausfüllen des Formulars einfacher und genauer zu gestalten.
+- **Hilfetext**: Hilfetext bezieht sich auf zusätzliche Informationen oder Anleitungen, die den Benutzenden bereitgestellt werden, um sie beim korrekten Ausfüllen eines Formularfelds zu unterstützen. Er erscheint, wenn Benutzende auf das Hilfesymbol (i) neben der Komponente klicken. Hilfetext enthält detailliertere Informationen als die Beschriftung oder der Platzhaltertext eines Formularfelds und soll den Benutzenden dabei helfen, die Anforderungen oder Einschränkungen des Felds zu verstehen. Er kann auch Vorschläge oder Beispiele anbieten, um das Ausfüllen des Formulars einfacher und genauer zu gestalten.
 
 ### Registerkarte „Barrierefreiheit“ {#accessibility-tab}
 
@@ -123,7 +125,7 @@ Sie können im Dialogfeld „Konfigurieren“ einfach das Kontrollkästchen-Erle
 
 **Text für Bildschirmlesehilfen** – Das ist zusätzlicher Text, der von Hilfstechnologien wie etwa Bildschirmlesehilfen für sehbehinderte Personen vorgelesen wird. Dieser Text enthält eine Audiobeschreibung des Zwecks des Formularfelds und kann Informationen über den Titel, die Beschreibung, den Namen und alle relevanten Nachrichten (benutzerdefinierten Text) des Felds enthalten. Der Text der Bildschirmlesehilfe hilft sicherzustellen, dass das Formular allen Benutzenden zugänglich ist, auch Personen mit Sehschwäche, und bietet ihnen ein umfassendes Verständnis des Formularfelds und seiner Anforderungen.
 
-    Dialogfeld „Design“ {#design-dialog}
+## Dialogfeld „Design“ {#design-dialog}
 
 Verwenden Sie das Dialogfeld „Design“, um CSS-Stile für die Komponente der Kontrollkästchen-Gruppen zu definieren und zu verwalten.
 
@@ -131,43 +133,29 @@ Verwenden Sie das Dialogfeld „Design“, um CSS-Stile für die Komponente der 
 
 Die Kernkomponente für adaptive Formulare – Kontrollkästchen-Gruppe unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
-![Dialogfeld „Design“](/help/adaptive-forms/assets/checkbox_designdialog.png)
+![Dialogfeld „Design“](/help/adaptive-forms/assets/checkbox-style.png)
 
-* **Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die Kernkomponente für adaptive Formulare – Kontrollkästchen-Gruppe bereitstellen.
+- **Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die Kernkomponente für adaptive Formulare – Kontrollkästchen-Gruppe bereitstellen.
 
-* **Zulässige Stile**: Sie können Stile definieren, indem Sie einen Namen und die CSS-Klasse angeben, die den Stil darstellen. Sie können beispielsweise einen Stil mit dem Namen „Fettschrift“ erstellen und die CSS-Klasse „Schriftbreite: Fett“ bereitstellen. Sie können diese Stile bei einem adaptiven Formular im adaptiven Formular-Editor anwenden. Um einen Stil anzuwenden, wählen Sie im Editor für adaptive Formulare die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Eigenschaften-Dialog und wählen Sie den gewünschten Stil aus der Dropdown-Liste **Stile**. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld „Design“ zurück, aktualisieren die Stile auf der Registerkarte „Stile“ und speichern die Änderungen.
+- **Zulässige Stile**: Sie können Stile definieren, indem Sie einen Namen und die CSS-Klasse angeben, die den Stil darstellen. Sie können beispielsweise einen Stil mit dem Namen „Fettschrift“ erstellen und die CSS-Klasse „Schriftbreite: Fett“ bereitstellen. Sie können diese Stile bei einem adaptiven Formular im adaptiven Formular-Editor anwenden. Um einen Stil anzuwenden, wählen Sie im Editor für adaptive Formulare die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Eigenschaften-Dialog und wählen Sie den gewünschten Stil aus der Dropdown-Liste **Stile**. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld „Design“ zurück, aktualisieren die Stile auf der Registerkarte „Stile“ und speichern die Änderungen.
 
-<!--
+### Benutzerdefinierte Eigenschaften
 
-## Related article {#related-article}
+![Dialogfeld &quot;Benutzerdefinierte Eigenschaften&quot;](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+Mit benutzerdefinierten Eigenschaften können Sie benutzerdefinierte Attribute (Schlüssel-Wert-Paare) mithilfe der Formularvorlage mit einer Kernkomponente des adaptiven Formulars verknüpfen. Die benutzerdefinierten Eigenschaften werden im Abschnitt &quot;Eigenschaften&quot;der Headless-Ausgabe der Komponente angezeigt. Dies ermöglicht das Erstellen eines dynamischen Formularverhaltens, das sich basierend auf den benutzerdefinierten Attributwerten anpasst. Beispielsweise können Entwickler verschiedene Ausgabeformate einer Headless-Forms-Komponente für mobile, Desktop- oder Webplattformen entwerfen, wodurch das Benutzererlebnis auf einer Vielzahl von Geräten erheblich verbessert wird.
 
--->
+- **Gruppenname**: Sie können einen Namen angeben, um die benutzerdefinierte Eigenschaftsgruppe zu identifizieren. Sie können mehrere benutzerdefinierte Eigenschaftsgruppen hinzufügen, löschen oder neu anordnen. Nachdem Sie die benutzerdefinierte Eigenschaftsgruppe hinzugefügt haben, sehen Sie die folgenden Optionen:
 
->[!MORELIKETHIS]
->
->* [Akkordeon](/help/adaptive-forms/components/accordion.md)
->* [Schaltfläche](/help/adaptive-forms/components/button.md)
->* [Datumsauswahl](/help/adaptive-forms/components/date-picker.md)
->* [Dropdown-Liste](/help/adaptive-forms/components/drop-down.md)
->* [E-Mail-Eingabe](/help/adaptive-forms/components/email-input.md)
->* [Formular-Container](/help/adaptive-forms/components/form-container.md)
->* [Dateianhang](/help/adaptive-forms/components/file-attachment.md)
->* [Fußzeile](/help/adaptive-forms/components/footer.md)
->* [Kopfzeile](/help/adaptive-forms/components/header.md)
->* [Horizontale Registerkarten](/help/adaptive-forms/components/horizontal-tabs.md)
->* [Bild](/help/adaptive-forms/components/image.md)
->* [Zahleneingabe](/help/adaptive-forms/components/number-input.md)
->* [Bedienfeld-Container](/help/adaptive-forms/components/panel-container.md)
->* [Optionsschaltfläche](/help/adaptive-forms/components/radio-button.md)
->* [Zurücksetzen-Schaltfläche](/help/adaptive-forms/components/reset-button.md)
->* [Senden-Schaltfläche](/help/adaptive-forms/components/submit-button.md)
->* [Telefoneingabe](/help/adaptive-forms/components/telephone-input.md)
->* [Texteingabe](/help/adaptive-forms/components/text-input.md)
->* [Text](/help/adaptive-forms/components/text.md)
->* [Titel](/help/adaptive-forms/components/title.md)
->* [Assistent](/help/adaptive-forms/components/wizard.md)
+   - **Schlüssel-Wert-Paare**: Sie können mehrere benutzerdefinierte Eigenschaftsnamen und benutzerdefinierte Eigenschaftswerte hinzufügen, indem Sie auf das **Hinzufügen** -Schaltfläche für jede benutzerdefinierte Eigenschaftsgruppe.
+
+   - **Löschen**: Tippen oder klicken Sie auf , um den benutzerdefinierten Eigenschaftsnamen und den benutzerdefinierten Eigenschaftswert zu löschen.
+
+   - **Neu anordnen**: Tippen oder klicken und ziehen Sie, um die Reihenfolge des benutzerdefinierten Eigenschaftsnamens und des benutzerdefinierten Eigenschaftswerts neu anzuordnen.
+
+## Ähnliche Artikel {#related-articles}
+
+{{more-like-this}})
 
 ## Siehe auch {#see-also}
 

@@ -3,10 +3,10 @@ title: Akkordeon für adaptive Formulare
 description: Verwenden Sie Akkordeon, um ein langes oder komplexes Formular zu organisieren und zu vereinfachen, indem Sie es in kleinere, besser verwaltbare Abschnitte unterteilen.
 role: Architect, Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
-source-git-commit: 59cd9d65bf4c1be6ab2eaf15bbb747b532863fdd
-workflow-type: ht
-source-wordcount: '2052'
-ht-degree: 100%
+source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
+workflow-type: tm+mt
+source-wordcount: '2202'
+ht-degree: 91%
 
 ---
 
@@ -14,25 +14,27 @@ ht-degree: 100%
 
 Mit der Akkordeon-Kernkomponente können Benutzende erweiterbare und ausblendbare Abschnitte in einem adaptiven Formular erstellen. Es wird häufig verwendet, um lange oder komplexe Formulare zu organisieren und zu vereinfachen, indem sie in kleinere, besser verwaltbare Abschnitte unterteilt werden. Jeder Abschnitt eines Akkordeons wird in der Regel durch eine Kopfzeile dargestellt, auf die Benutzende klicken können, um den entsprechenden Inhalt zu erweitern oder auszublenden. Der Inhalt kann eine beliebige Kernkomponente sein.
 
+![Beispiel](/help/adaptive-forms/assets/example-accordion.png)
+
 ## Verwendung {#usage}
 
 Es gibt mehrere Gründe, warum es sinnvoll ist, ein Akkordeon in ein adaptives Formular einzuschließen, darunter:
 
-* **Platzeinsparung**: Benutzende können mit einem Akkordeon Abschnitte eines Formulars erweitern und ausblenden und so den Platz reduzieren, der zum Anzeigen aller Formularfelder auf einmal benötigt wird.
+- **Platzeinsparung**: Benutzende können mit einem Akkordeon Abschnitte eines Formulars erweitern und ausblenden und so den Platz reduzieren, der zum Anzeigen aller Formularfelder auf einmal benötigt wird.
 
-* **Navigation**: Sie können ein Akkordeon verwenden, um eine hierarchische Navigationsstruktur zu erstellen, die es Benutzenden erleichtert, die benötigten Formularfelder zu finden.
+- **Navigation**: Sie können ein Akkordeon verwenden, um eine hierarchische Navigationsstruktur zu erstellen, die es Benutzenden erleichtert, die benötigten Formularfelder zu finden.
 
-* **Benutzererlebnis**: Sie können Akkordeon verwenden, um das Formular benutzerfreundlicher zu gestalten, indem es Benutzenden eine klare und intuitive Möglichkeit bietet, auf Formularfelder zuzugreifen und sie auszufüllen.
+- **Benutzererlebnis**: Sie können Akkordeon verwenden, um das Formular benutzerfreundlicher zu gestalten, indem es Benutzenden eine klare und intuitive Möglichkeit bietet, auf Formularfelder zuzugreifen und sie auszufüllen.
 
-* **Lange Formulare**: Akkordeon ist eine ideale Komponente für die Verarbeitung langer Formulare, da sich Benutzende dadurch auf einen Abschnitt auf einmal konzentrieren können, anstatt zu versuchen, viele Informationen gleichzeitig zu verarbeiten.
+- **Lange Formulare**: Akkordeon ist eine ideale Komponente für die Verarbeitung langer Formulare, da sich Benutzende dadurch auf einen Abschnitt auf einmal konzentrieren können, anstatt zu versuchen, viele Informationen gleichzeitig zu verarbeiten.
 
 Sie können Folgendes verwenden:
 
-* Im [Konfigurieren-Dialogfeld](#configure-dialog) können Sie Eigenschaften der Akkordeon-Komponente angeben.
+- Im [Konfigurieren-Dialogfeld](#configure-dialog) können Sie Eigenschaften der Akkordeon-Komponente angeben.
 
-* Sie können das [Popover „Bedienfeld auswählen“](#select-panel-popover) verwenden, um die Reihenfolge der Bedienfelder des Akkordeons zu definieren. Dadurch kann der Autor die Bedienfelder in der Reihenfolge anordnen, in der sie angezeigt werden sollen.
+- Sie können das [Popover „Bedienfeld auswählen“](#select-panel-popover) verwenden, um die Reihenfolge der Bedienfelder des Akkordeons zu definieren. Dadurch kann der Autor die Bedienfelder in der Reihenfolge anordnen, in der sie angezeigt werden sollen.
 
-* Optionen für Formularautorinnen und -autoren zum Aktivieren oder Deaktivieren bestimmter Funktionen in [Dialogfeld „Design“](#design-dialog). Eine Autorin oder ein Autor kann beispielsweise bestimmte Felder oder Abschnitte eines Formulars deaktivieren. Diese Optionen ermöglichen es der Autorin oder dem Autor, den Entwurf und die Funktionen des Formulars besser zu steuern, wodurch es einfacher wird, Formulare zu erstellen, die auf die spezifischen Anforderungen des Unternehmens zugeschnitten sind.
+- Optionen für Formularautorinnen und -autoren zum Aktivieren oder Deaktivieren bestimmter Funktionen in [Dialogfeld „Design“](#design-dialog). Eine Autorin oder ein Autor kann beispielsweise bestimmte Felder oder Abschnitte eines Formulars deaktivieren. Diese Optionen ermöglichen es der Autorin oder dem Autor, den Entwurf und die Funktionen des Formulars besser zu steuern, wodurch es einfacher wird, Formulare zu erstellen, die auf die spezifischen Anforderungen des Unternehmens zugeschnitten sind.
 
 Das Dialogfeld „Konfigurieren“ und das Popover „Bedienfeld auswählen“, sowie das Dialogfeld „Design“ sind alle Teil der Kernkomponenten, die erstellt wurden, um das Authoring der Formulare zu vereinfachen und eine effiziente Methode zum Erstellen komplexer Formulare bereitzustellen.
 
@@ -65,15 +67,15 @@ Sie können das Akkordeon-Erlebnis für Besuchende im Dialogfeld „Konfiguriere
 
 ![Registerkarte „Allgemein“](/help/adaptive-forms/assets/acc-basic.png)
 
-* **Name**: Sie können eine Formularkomponente sowohl im Formular als auch im Regel-Editor leicht mit ihrem eindeutigen Namen identifizieren. Der Name darf jedoch keine Leerzeichen oder Sonderzeichen enthalten.
+- **Name**: Sie können eine Formularkomponente sowohl im Formular als auch im Regel-Editor leicht mit ihrem eindeutigen Namen identifizieren. Der Name darf jedoch keine Leerzeichen oder Sonderzeichen enthalten.
 
-* **Titel**: Sie können mit dem Titel leicht eine Komponente in einem Formular identifizieren. Standardmäßig wird der Titel über der Komponente angezeigt. Wenn Sie keinen Titel hinzufügen, wird der Name der Komponente anstelle des Titeltexts angezeigt.
+- **Titel**: Sie können mit dem Titel leicht eine Komponente in einem Formular identifizieren. Standardmäßig wird der Titel über der Komponente angezeigt. Wenn Sie keinen Titel hinzufügen, wird der Name der Komponente anstelle des Titeltexts angezeigt.
 
-* **Titel ausblenden**: Wählen Sie die Option aus, um den Titel der Komponente auszublenden.
+- **Titel ausblenden**: Wählen Sie die Option aus, um den Titel der Komponente auszublenden.
 
-* **Daten untergeordneter Komponenten bei Formularübermittlung gruppieren (Daten in Objekt einschließen)** – Wenn die Option ausgewählt ist, werden die Daten aus den untergeordneten Komponenten innerhalb des JSON-Objekts der übergeordneten Komponente verschachtelt. Wenn jedoch die Option nicht ausgewählt ist, weisen die gesendeten JSON-Daten eine flache Struktur auf, ohne dass ein Objekt für die übergeordnete Komponente vorhanden ist. Zum Beispiel:
+- **Daten untergeordneter Komponenten bei Formularübermittlung gruppieren (Daten in Objekt einschließen)** – Wenn die Option ausgewählt ist, werden die Daten aus den untergeordneten Komponenten innerhalb des JSON-Objekts der übergeordneten Komponente verschachtelt. Wenn jedoch die Option nicht ausgewählt ist, weisen die gesendeten JSON-Daten eine flache Struktur auf, ohne dass ein Objekt für die übergeordnete Komponente vorhanden ist. Zum Beispiel:
 
-   * Wenn die Option ausgewählt ist, werden die Daten aus den untergeordneten Komponenten (z. B. Straße, Stadt und Postleitzahl) innerhalb der übergeordneten Komponente (Adresse) als JSON-Objekt verschachtelt. Dadurch wird eine hierarchische Struktur erstellt, und die Daten werden unter der übergeordneten Komponente angeordnet.
+   - Wenn die Option ausgewählt ist, werden die Daten aus den untergeordneten Komponenten (z. B. Straße, Stadt und Postleitzahl) innerhalb der übergeordneten Komponente (Adresse) als JSON-Objekt verschachtelt. Dadurch wird eine hierarchische Struktur erstellt, und die Daten werden unter der übergeordneten Komponente angeordnet.
 
      Struktur der übermittelten Daten:
 
@@ -85,7 +87,7 @@ Sie können das Akkordeon-Erlebnis für Besuchende im Dialogfeld „Konfiguriere
      }
      ```
 
-   * Wenn die Option nicht ausgewählt ist, weisen die gesendeten JSON-Daten eine flache Struktur auf, ohne dass ein Objekt für die übergeordnete Komponente (Adresse) vorhanden ist. Alle Daten befinden sich auf derselben Ebene ohne hierarchische Organisation.
+   - Wenn die Option nicht ausgewählt ist, weisen die gesendeten JSON-Daten eine flache Struktur auf, ohne dass ein Objekt für die übergeordnete Komponente (Adresse) vorhanden ist. Alle Daten befinden sich auf derselben Ebene ohne hierarchische Organisation.
 
 
      Struktur der übermittelten Daten:
@@ -94,13 +96,13 @@ Sie können das Akkordeon-Erlebnis für Besuchende im Dialogfeld „Konfiguriere
         { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
      ```
 
-* **Layout**: Sie können für Ihren Assistenten entweder ein festes Layout (einfach) oder ein flexibles Layout (responsives Raster) verwenden. Das einfache Layout behält alles fest an der Stelle, während Sie mit dem responsiven Raster die Position der Komponenten an Ihre Bedürfnisse anpassen können. Verwenden Sie beispielsweise das responsive Raster, um „Vorname“, „Mittelname“ und „Nachname“ in einem Formular in einer einzigen Zeile auszurichten.
+- **Layout**: Sie können für Ihren Assistenten entweder ein festes Layout (einfach) oder ein flexibles Layout (responsives Raster) verwenden. Das einfache Layout behält alles fest an der Stelle, während Sie mit dem responsiven Raster die Position der Komponenten an Ihre Bedürfnisse anpassen können. Verwenden Sie beispielsweise das responsive Raster, um „Vorname“, „Mittelname“ und „Nachname“ in einem Formular in einer einzigen Zeile auszurichten.
 
-* **Bindungsverweis**: Bindungsverweis ist ein Verweis auf ein Datenelement, das in einer externen Datenquelle gespeichert ist und in einem Formular verwendet wird. Sie können mit dem Bindungsverweis Daten dynamisch an Formularfelder binden, sodass das Formular die aktuellsten Daten aus der Datenquelle anzeigen kann. Beispielsweise kann ein Bindungsverweis verwendet werden, um den Namen und die Adresse von Kundinnen und Kunden in einem Formular anzuzeigen, basierend auf der im Formular eingegebenen Kunden-ID. Der Bindungsverweis kann auch verwendet werden, um die Datenquelle mit den im Formular eingegebenen Daten zu aktualisieren. Auf diese Weise können Sie mit AEM Forms Formulare erstellen, die mit externen Datenquellen interagieren und so eine nahtlose Benutzererfahrung bei der Datenerfassung und Datenverwaltung bieten.
+- **Bindungsverweis**: Bindungsverweis ist ein Verweis auf ein Datenelement, das in einer externen Datenquelle gespeichert ist und in einem Formular verwendet wird. Sie können mit dem Bindungsverweis Daten dynamisch an Formularfelder binden, sodass das Formular die aktuellsten Daten aus der Datenquelle anzeigen kann. Beispielsweise kann ein Bindungsverweis verwendet werden, um den Namen und die Adresse von Kundinnen und Kunden in einem Formular anzuzeigen, basierend auf der im Formular eingegebenen Kunden-ID. Der Bindungsverweis kann auch verwendet werden, um die Datenquelle mit den im Formular eingegebenen Daten zu aktualisieren. Auf diese Weise können Sie mit AEM Forms Formulare erstellen, die mit externen Datenquellen interagieren und so eine nahtlose Benutzererfahrung bei der Datenerfassung und Datenverwaltung bieten.
 
-* **Komponente ausblenden**: Wählen Sie die Option, um die Komponente aus dem Formular auszublenden. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor. Dies ist nützlich, wenn Sie Informationen speichern müssen, die Benutzende nicht sehen oder direkt ändern müssen.
+- **Komponente ausblenden**: Wählen Sie die Option, um die Komponente aus dem Formular auszublenden. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor. Dies ist nützlich, wenn Sie Informationen speichern müssen, die Benutzende nicht sehen oder direkt ändern müssen.
 
-* **Komponente deaktivieren**: Wählen Sie die Option zum Deaktivieren der Komponente aus. Die deaktivierte Komponente ist nicht aktiv und Endbenutzende können sie nicht bearbeiten. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
+- **Komponente deaktivieren**: Wählen Sie die Option zum Deaktivieren der Komponente aus. Die deaktivierte Komponente ist nicht aktiv und Endbenutzende können sie nicht bearbeiten. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
 
 ### Akkordeon wiederholen {#repeat-accordion}
 
@@ -108,9 +110,9 @@ Sie können das Akkordeon-Erlebnis für Besuchende im Dialogfeld „Konfiguriere
 
 Sie können die Wiederholungsoptionen verwenden, um Akkordeon-Bedienfelder und die untergeordneten Komponenten zu duplizieren, eine minimale und maximale Wiederholungsanzahl zu definieren und die Replikation ähnlicher Abschnitte innerhalb eines Formulars zu erleichtern. Bei der Interaktion mit der Akkordeon-Komponente und dem Zugriff auf ihre Einstellungen werden die folgenden Optionen angezeigt:
 
-* **Akkordeon wiederholbar machen**: Eine Umschalter-Funktion, mit der Benutzer die Wiederholungsfunktion aktivieren oder deaktivieren können.
-* **Mindestwiederholungen**: Legt fest, wie oft das Akkordeon-Bedienfeld mindestens wiederholt werden kann. Der Wert null zeigt an, dass das Akkordeon-Bedienfeld nicht wiederholt wird. Der Standardwert ist null.
-* **Maximale Wiederholungen**: Legt fest, wie oft das Akkordeon-Bedienfeld maximal wiederholt werden kann. Standardmäßig ist dieser Wert unbegrenzt.
+- **Akkordeon wiederholbar machen**: Eine Umschalter-Funktion, mit der Benutzer die Wiederholungsfunktion aktivieren oder deaktivieren können.
+- **Mindestwiederholungen**: Legt fest, wie oft das Akkordeon-Bedienfeld mindestens wiederholt werden kann. Der Wert null zeigt an, dass das Akkordeon-Bedienfeld nicht wiederholt wird. Der Standardwert ist null.
+- **Maximale Wiederholungen**: Legt fest, wie oft das Akkordeon-Bedienfeld maximal wiederholt werden kann. Standardmäßig ist dieser Wert unbegrenzt.
 
 Um wiederholbare Abschnitte innerhalb des Akkordeons effektiv zu verwalten, folgen Sie den Schritten, die im Artikel [Erstellen von Formularen mit wiederholbaren Abschnitten](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=de) beschrieben sind.
 
@@ -120,20 +122,20 @@ Um wiederholbare Abschnitte innerhalb des Akkordeons effektiv zu verwalten, folg
 
 Mit der Hinzufügen-Schaltfläche können Sie eine Komponente auswählen, die als Bedienfeld im Fenster „Komponentenauswahl“ hinzugefügt werden soll. Nach dem Hinzufügen der Komponente werden die folgenden Optionen angezeigt:
 
-* **Symbol**: Das Symbol identifiziert die Komponente des Bedienfelds in der Liste. Sie können den Mauszeiger über das Symbol bewegen, um den vollständigen Komponentennamen als QuickInfo anzuzeigen.
-* **Beschreibung**: Die Beschreibung, die als Text des Bedienfelds verwendet wird. Standardmäßig wird der Name der Komponente für das Bedienfeld ausgewählt.
-* **Entfernen**: Tippen oder klicken Sie, um das Bedienfeld aus der Akkordeon-Komponente zu löschen.
-* **Neu anordnen**: Tippen oder klicken und ziehen Sie, um die Reihenfolge der Bedienfelder neu anzuordnen.
+- **Symbol**: Das Symbol identifiziert die Komponente des Bedienfelds in der Liste. Sie können den Mauszeiger über das Symbol bewegen, um den vollständigen Komponentennamen als QuickInfo anzuzeigen.
+- **Beschreibung**: Die Beschreibung, die als Text des Bedienfelds verwendet wird. Standardmäßig wird der Name der Komponente für das Bedienfeld ausgewählt.
+- **Entfernen**: Tippen oder klicken Sie, um das Bedienfeld aus der Akkordeon-Komponente zu löschen.
+- **Neu anordnen**: Tippen oder klicken und ziehen Sie, um die Reihenfolge der Bedienfelder neu anzuordnen.
 
 ### Registerkarte „Hilfe-Inhalt“ {#help-content}
 
 ![Registerkarte „Hilfe-Inhalt“](/help/adaptive-forms/assets/acc-helpcontent.png)
 
-* **Kurzbeschreibung**: Eine Kurzbeschreibung ist eine kurze Erklärung, die zusätzliche Informationen oder Klarstellungen über den Zweck eines Formularfelds bietet. Es hilft Benutzenden zu verstehen, welcher Datentyp in das Feld eingegeben werden soll, und kann Richtlinien oder Beispiele bereitstellen, um sicherzustellen, dass die eingegebenen Informationen gültig sind und die gewünschten Kriterien erfüllen. Standardmäßig bleiben kurze Beschreibungen ausgeblendet. Aktivieren Sie die Option **Kurzbeschreibung immer anzeigen**, um sie unterhalb der Komponente anzuzeigen.
+- **Kurzbeschreibung**: Eine Kurzbeschreibung ist eine kurze Erklärung, die zusätzliche Informationen oder Klarstellungen über den Zweck eines Formularfelds bietet. Es hilft Benutzenden zu verstehen, welcher Datentyp in das Feld eingegeben werden soll, und kann Richtlinien oder Beispiele bereitstellen, um sicherzustellen, dass die eingegebenen Informationen gültig sind und die gewünschten Kriterien erfüllen. Standardmäßig bleiben kurze Beschreibungen ausgeblendet. Aktivieren Sie die Option **Kurzbeschreibung immer anzeigen**, um sie unterhalb der Komponente anzuzeigen.
 
-* **Kurzbeschreibung immer anzeigen**: Aktivieren Sie diese Option, um die Kurzbeschreibung unterhalb der Komponente anzuzeigen.
+- **Kurzbeschreibung immer anzeigen**: Aktivieren Sie diese Option, um die Kurzbeschreibung unterhalb der Komponente anzuzeigen.
 
-* **Hilfetext**: Hilfetext bezieht sich auf zusätzliche Informationen oder Anleitungen, die den Benutzenden bereitgestellt werden, um sie beim korrekten Ausfüllen eines Formularfelds zu unterstützen. Er erscheint, wenn Benutzende auf das Hilfesymbol (i) neben der Komponente klicken. Hilfetext enthält detailliertere Informationen als die Beschriftung oder der Platzhaltertext eines Formularfelds und soll den Benutzenden dabei helfen, die Anforderungen oder Einschränkungen des Felds zu verstehen. Er kann auch Vorschläge oder Beispiele anbieten, um das Ausfüllen des Formulars einfacher und genauer zu gestalten.
+- **Hilfetext**: Hilfetext bezieht sich auf zusätzliche Informationen oder Anleitungen, die den Benutzenden bereitgestellt werden, um sie beim korrekten Ausfüllen eines Formularfelds zu unterstützen. Er erscheint, wenn Benutzende auf das Hilfesymbol (i) neben der Komponente klicken. Hilfetext enthält detailliertere Informationen als die Beschriftung oder der Platzhaltertext eines Formularfelds und soll den Benutzenden dabei helfen, die Anforderungen oder Einschränkungen des Felds zu verstehen. Er kann auch Vorschläge oder Beispiele anbieten, um das Ausfüllen des Formulars einfacher und genauer zu gestalten.
 
 ### Registerkarte „Barrierefreiheit“ {#accessibility}
 
@@ -141,14 +143,14 @@ Mit der Hinzufügen-Schaltfläche können Sie eine Komponente auswählen, die al
 
 Auf der Registerkarte **„Barrierefreiheit“** werden Werte für [ARIA-Barrierefreiheitsbeschriftungen](https://www.w3.org/WAI/standards-guidelines/aria/) für die Komponente festgelegt. Es stehen verschiedene Optionen zur Verfügung für die Verwendung des Textes für die Bildschirmlesehilfe:
 
-* **Text für Bildschirmlesehilfen**: Text für Bildschirmlesehilfen bezieht sich auf zusätzlichen Text, der speziell für Hilfstechnologien wie Bildschirmlesehilfen vorgesehen ist, die von Personen mit einer Sehschwäche verwendet werden. Dieser Text enthält eine Audiobeschreibung des Zwecks des Formularfelds und kann Informationen über den Titel, die Beschreibung, den Namen und alle relevanten Nachrichten (benutzerdefinierten Text) des Felds enthalten. Der Text der Bildschirmlesehilfe hilft sicherzustellen, dass das Formular allen Benutzenden zugänglich ist, auch Personen mit Sehschwäche, und bietet ihnen ein umfassendes Verständnis des Formularfelds und seiner Anforderungen.
+- **Text für Bildschirmlesehilfen**: Text für Bildschirmlesehilfen bezieht sich auf zusätzlichen Text, der speziell für Hilfstechnologien wie Bildschirmlesehilfen vorgesehen ist, die von Personen mit einer Sehschwäche verwendet werden. Dieser Text enthält eine Audiobeschreibung des Zwecks des Formularfelds und kann Informationen über den Titel, die Beschreibung, den Namen und alle relevanten Nachrichten (benutzerdefinierten Text) des Felds enthalten. Der Text der Bildschirmlesehilfe hilft sicherzustellen, dass das Formular allen Benutzenden zugänglich ist, auch Personen mit Sehschwäche, und bietet ihnen ein umfassendes Verständnis des Formularfelds und seiner Anforderungen.
 
 
-   * **Benutzerdefinierter Text**: Wählen Sie diese Option aus, um den benutzerdefinierten Text für ARIA-Barrierefreiheitsbeschriftungen zu verwenden. Wenn Sie diese Option auswählen, wird das Benutzerdefinierter Dialogfeld „Text“ angezeigt. Sie können relevante Informationen im Benutzerdefinierter Dialogfeld „Text“ hinzufügen.
-   * **Beschreibung**: Wählen Sie diese Option aus, um die Beschreibung für ARIA-Barrierefreiheitsbeschriftungen zu verwenden.
-   * **Titel**: Wählen Sie diese Option aus, um den Titel für ARIA-Barrierefreiheitsbeschriftungen zu verwenden.
-   * **Name**: Wählen Sie diese Option aus, um den Namen für ARIA-Barrierefreiheitsbeschriftungen zu verwenden.
-   * **Keine**: Wählen Sie diese Option aus, wenn Sie keine ARIA-Barrierefreiheitsbezeichnungen hinzufügen möchten.
+   - **Benutzerdefinierter Text**: Wählen Sie diese Option aus, um den benutzerdefinierten Text für ARIA-Barrierefreiheitsbeschriftungen zu verwenden. Wenn Sie diese Option auswählen, wird das Benutzerdefinierter Dialogfeld „Text“ angezeigt. Sie können relevante Informationen im Benutzerdefinierter Dialogfeld „Text“ hinzufügen.
+   - **Beschreibung**: Wählen Sie diese Option aus, um die Beschreibung für ARIA-Barrierefreiheitsbeschriftungen zu verwenden.
+   - **Titel**: Wählen Sie diese Option aus, um den Titel für ARIA-Barrierefreiheitsbeschriftungen zu verwenden.
+   - **Name**: Wählen Sie diese Option aus, um den Namen für ARIA-Barrierefreiheitsbeschriftungen zu verwenden.
+   - **Keine**: Wählen Sie diese Option aus, wenn Sie keine ARIA-Barrierefreiheitsbezeichnungen hinzufügen möchten.
 
 <!--
 
@@ -181,9 +183,9 @@ The **Select Panel** option (![Select panel icon](/help/assets/select-panel-icon
 
 Im Dialogfeld „Design“ können Vorlagenerstellende steuern, wie Elemente standardmäßig angezeigt werden. Für die Akkordeon-Komponente in adaptiven Formularen können Sie Folgendes festlegen:
 
-* Der Typ der zulässigen und als Standard festgelegten HTML-Überschriftenelemente (z. B. H1, H2, H3, usw.)
-* Kernkomponenten, die Sie mit dem adaptiven Formular-Editor Akkordeon hinzufügen können
-* Einfache Namen für Stile (CSS-Klassen), die Sie im Dialogfeld „Eigenschaften“ der Akkordeon-Komponente im adaptiven Formular-Editor anwenden können.
+- Der Typ der zulässigen und als Standard festgelegten HTML-Überschriftenelemente (z. B. H1, H2, H3, usw.)
+- Kernkomponenten, die Sie mit dem adaptiven Formular-Editor Akkordeon hinzufügen können
+- Einfache Namen für Stile (CSS-Klassen), die Sie im Dialogfeld „Eigenschaften“ der Akkordeon-Komponente im adaptiven Formular-Editor anwenden können.
 
 Dadurch wird das Erstellen und Anpassen von Formularen einfacher und effizienter.
 
@@ -191,83 +193,45 @@ Dadurch wird das Erstellen und Anpassen von Formularen einfacher und effizienter
 
 Auf der Registerkarte „Eigenschaften“ können Vorlagenautorinnen und -autoren standardmäßige und zulässige HTML-Überschriftenelemente für Formularautorinnen und -autoren festlegen:
 
-![Registerkarte „Eigenschaften“ im Dialogfeld „Design“](/help/assets/accordion-design-properties.png)
+![Registerkarte „Eigenschaften“ im Dialogfeld „Design“](/help//adaptive-forms/assets/accordion-design-properties.png)
 
-* **Zulässige Überschriftenelemente**: Dropdown-Liste mit mehreren Optionen, über die Vorlagenautorinnen und -autoren auswählen können, welche Überschriftenelemente der Formularautor für das Akkordeon verwenden kann.
+- **Zulässige Überschriftenelemente**: Dropdown-Liste mit mehreren Optionen, über die Vorlagenautorinnen und -autoren auswählen können, welche Überschriftenelemente der Formularautor für das Akkordeon verwenden kann.
 
-* **Standardüberschriftenelement**: Eine Dropdown-Liste legt das standardmäßige Überschriftenelement für die Akkordeon-Komponente fest.
+- **Standardüberschriftenelement**: Eine Dropdown-Liste legt das standardmäßige Überschriftenelement für die Akkordeon-Komponente fest.
 
 ### Registerkarte „Zugelassene Komponenten“ {#allowed-components-tab}
+
+![Registerkarte &quot;Design Dialog allowed&quot;](/help//adaptive-forms/assets/accordion-allowed-components.png)
 
 Die **Zugelassene Komponenten**-Registerkarte ermöglicht es dem Vorlagen-Editor, die Komponenten festzulegen, die den Bedienfeldern in der Akkordeon-Komponente im adaptiven Formular-Editor als Elemente hinzugefügt werden können.
 
 ### Registerkarte „Stile“ {#styles-tab}
 
+![Registerkarte &quot;Designdialogstil&quot;](/help/adaptive-forms/assets/accordion-styles-tab.png)
+
 Sie können das Dialogfeld „Design“ zum Definieren und Verwalten von CSS-Stilen für eine Komponente verwenden. Die Akkordeon-Kernkomponente in adaptive Formularen unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
-**Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die Akkordeon-Komponente bereitstellen.
+- **Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die Akkordeon-Komponente bereitstellen.
 
-**Zulässige Stile**: Sie können Stile definieren, indem Sie einen Namen und die CSS-Klasse angeben, die den Stil darstellen. Sie können beispielsweise einen Stil mit dem Namen „Fettschrift“ erstellen und die CSS-Klasse „Schriftbreite: Fett“ bereitstellen. Sie können diese Stile bei einem adaptiven Formular im adaptiven Formular-Editor anwenden. Um einen Stil anzuwenden, wählen Sie im Editor für adaptive Formulare die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Eigenschaften-Dialog und wählen Sie den gewünschten Stil aus der Dropdown-Liste **Stile**. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld „Design“ zurück, aktualisieren die Stile auf der Registerkarte „Stile“ und speichern die Änderungen.
+- **Zulässige Stile**: Sie können Stile definieren, indem Sie einen Namen und die CSS-Klasse angeben, die den Stil darstellen. Sie können beispielsweise einen Stil mit dem Namen „Fettschrift“ erstellen und die CSS-Klasse „Schriftbreite: Fett“ bereitstellen. Sie können diese Stile bei einem adaptiven Formular im adaptiven Formular-Editor anwenden. Um einen Stil anzuwenden, wählen Sie im Editor für adaptive Formulare die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Eigenschaften-Dialog und wählen Sie den gewünschten Stil aus der Dropdown-Liste **Stile**. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld „Design“ zurück, aktualisieren die Stile auf der Registerkarte „Stile“ und speichern die Änderungen.
 
+### Benutzerdefinierte Eigenschaften
 
-<!--- 
+![accordion-custom-properties-tab](/help/adaptive-forms/assets/accordion-custom-properties-tab.png)
 
-The design dialog allows the template author to define the options available to the content author who uses the Accordion Component and the defaults set when placing the Accordion Component.
+Mit benutzerdefinierten Eigenschaften können Sie benutzerdefinierte Attribute (Schlüssel-Wert-Paare) mithilfe der Formularvorlage mit einer Kernkomponente des adaptiven Formulars verknüpfen. Die benutzerdefinierten Eigenschaften werden im Abschnitt &quot;Eigenschaften&quot;der Headless-Ausgabe der Komponente angezeigt. Dies ermöglicht das Erstellen eines dynamischen Formularverhaltens, das sich basierend auf den benutzerdefinierten Attributwerten anpasst. Beispielsweise können Entwickler verschiedene Ausgabeformate einer Headless-Forms-Komponente für mobile, Desktop- oder Webplattformen entwerfen, wodurch das Benutzererlebnis auf einer Vielzahl von Geräten erheblich verbessert wird.
 
+- **Gruppenname**: Sie können einen Namen angeben, um die benutzerdefinierte Eigenschaftsgruppe zu identifizieren. Sie können mehrere benutzerdefinierte Eigenschaftsgruppen hinzufügen, löschen oder neu anordnen. Nachdem Sie die benutzerdefinierte Eigenschaftsgruppe hinzugefügt haben, sehen Sie die folgenden Optionen:
 
-### Properties Tab {#properties-tab-design}
+   - **Schlüssel-Wert-Paare**: Sie können mehrere benutzerdefinierte Eigenschaftsnamen und benutzerdefinierte Eigenschaftswerte hinzufügen, indem Sie auf das **Hinzufügen** -Schaltfläche für jede benutzerdefinierte Eigenschaftsgruppe.
 
-![Design dialog properties tab](/help/assets/accordion-design-properties.png)
+   - **Löschen**: Tippen oder klicken Sie auf , um den benutzerdefinierten Eigenschaftsnamen und den benutzerdefinierten Eigenschaftswert zu löschen.
 
-* **Allowed Heading Elements** - This multi-select drop-down defines the accordion item heading HTML elements that are allowed to be selected by an author.
-* **Default Heading Element** - This drop-down defines the default accordion item heading HTML element.
+   - **Neu anordnen**: Tippen oder klicken und ziehen Sie, um die Reihenfolge des benutzerdefinierten Eigenschaftsnamens und des benutzerdefinierten Eigenschaftswerts neu anzuordnen.
 
-### Allowed Components Tab {#allowed-components-tab}
+## Ähnliche Artikel {#related-articles}
 
-The **Allowed Components** tab is used to define which components can be added as items to panels in the Accordion Component by the content author.
-
-The Allowed Components tab functions in the same way as the tab of the same name when [defining the policy and properties of a Layout Container in the Template Editor.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-layout-template-author)
-
-### Styles Tab {#styles-tab}
-
-The Accordion Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
-
-## Adobe Client Data Layer {#data-layer}
-
-The Accordion Component supports the [Adobe Client Data Layer.](/help/developing/data-layer/overview.md) 
-
-
-<!--
-
-## Related article {#related-article}
-
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
-
--->
-
->[!MORELIKETHIS]
->
->* [Schaltfläche](/help/adaptive-forms/components/button.md)
->* [Kontrollkästchengruppe](/help/adaptive-forms/components/checkbox-group.md)
->* [Datumsauswahl](/help/adaptive-forms/components/date-picker.md)
->* [Dropdown-Liste](/help/adaptive-forms/components/drop-down.md)
->* [E-Mail-Eingabe](/help/adaptive-forms/components/email-input.md)
->* [Formular-Container](/help/adaptive-forms/components/form-container.md)
->* [Dateianhang](/help/adaptive-forms/components/file-attachment.md)
->* [Fußzeile](/help/adaptive-forms/components/footer.md)
->* [Kopfzeile](/help/adaptive-forms/components/header.md)
->* [Horizontale Registerkarten](/help/adaptive-forms/components/horizontal-tabs.md)
->* [Bild](/help/adaptive-forms/components/image.md)
->* [Zahleneingabe](/help/adaptive-forms/components/number-input.md)
->* [Bedienfeld-Container](/help/adaptive-forms/components/panel-container.md)
->* [Optionsschaltfläche](/help/adaptive-forms/components/radio-button.md)
->* [Zurücksetzen-Schaltfläche](/help/adaptive-forms/components/reset-button.md)
->* [Senden-Schaltfläche](/help/adaptive-forms/components/submit-button.md)
->* [Telefoneingabe](/help/adaptive-forms/components/telephone-input.md)
->* [Texteingabe](/help/adaptive-forms/components/text-input.md)
->* [Text](/help/adaptive-forms/components/text.md)
->* [Titel](/help/adaptive-forms/components/title.md)
->* [Assistent](/help/adaptive-forms/components/wizard.md)
+{{more-like-this}}
 
 ## Siehe auch {#see-also}
 

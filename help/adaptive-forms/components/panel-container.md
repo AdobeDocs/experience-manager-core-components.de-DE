@@ -3,10 +3,10 @@ title: Kernkomponente „Bedienfeld-Container“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „Bedienfeld-Container“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
-source-git-commit: 37ac7d3a9ae8c88d4c9be8129cfbd1eb4a7cccd1
-workflow-type: ht
-source-wordcount: '1828'
-ht-degree: 100%
+source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
+workflow-type: tm+mt
+source-wordcount: '2036'
+ht-degree: 79%
 
 ---
 
@@ -20,7 +20,7 @@ Sie können auch verschiedene regelbasierte Aktionen festlegen, z. B. ein Formul
 
 **Beispiel**
 
-![](/help/adaptive-forms/assets/panel-container.png)
+![Beispiel](/help/adaptive-forms/assets/panel-container.png)
 
 ## Verwendung {#reasons-to-use-panel-container}
 
@@ -91,9 +91,7 @@ Mit dem Dialogfeld „Konfigurieren“ können Sie Bedienfeld-Container mühelos
         { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
      ```
 
-- **Layout**: Sie können für Ihren Assistenten entweder ein festes Layout (einfach) oder ein flexibles Layout (responsives Raster) verwenden. Das einfache Layout behält alles fest an der Stelle, während Sie mit dem responsiven Raster die Position der Komponenten an Ihre Bedürfnisse anpassen können. Verwenden Sie beispielsweise das responsive Raster, um „Vorname“, „Mittelname“ und „Nachname“ in einem Formular in einer einzigen Zeile auszurichten.
-
-- **Bindungsverweis**: Bindungsverweis ist ein Verweis auf ein Datenelement, das in einer externen Datenquelle gespeichert ist und in einem Formular verwendet wird. Sie können mit dem Bindungsverweis Daten dynamisch an Formularfelder binden, sodass das Formular die aktuellsten Daten aus der Datenquelle anzeigen kann. Beispielsweise kann ein Bindungsverweis verwendet werden, um den Namen und die Adresse von Kundinnen und Kunden in einem Formular anzuzeigen, basierend auf der im Formular eingegebenen Kunden-ID. Der Bindungsverweis kann auch verwendet werden, um die Datenquelle mit den im Formular eingegebenen Daten zu aktualisieren. Auf diese Weise können Sie mit AEM Forms Formulare erstellen, die mit externen Datenquellen interagieren und so eine nahtlose Benutzererfahrung bei der Datenerfassung und Datenverwaltung bieten.
+- **Verbindungsreferenz**: Eine Verbindungsreferenz ist ein Verweis auf ein Datenelement, das in einer externen Datenquelle gespeichert ist und in einem Formular verwendet wird. Sie können mit dem Bindungsverweis Daten dynamisch an Formularfelder binden, sodass das Formular die aktuellsten Daten aus der Datenquelle anzeigen kann. Beispielsweise kann ein Bindungsverweis verwendet werden, um den Namen und die Adresse von Kundinnen und Kunden in einem Formular anzuzeigen, basierend auf der im Formular eingegebenen Kunden-ID. Der Bindungsverweis kann auch verwendet werden, um die Datenquelle mit den im Formular eingegebenen Daten zu aktualisieren. Auf diese Weise können Sie mit AEM Forms Formulare erstellen, die mit externen Datenquellen interagieren und so eine nahtlose Benutzererfahrung bei der Datenerfassung und Datenverwaltung bieten.
 - **Komponente ausblenden**: Wählen Sie die Option, um die Komponente aus dem Formular auszublenden. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor. Dies ist nützlich, wenn Sie Informationen speichern müssen, die Benutzende nicht sehen oder direkt ändern müssen.
 - **Komponente deaktivieren**: Wählen Sie die Option zum Deaktivieren der Komponente aus. Die deaktivierte Komponente ist nicht aktiv und Endbenutzende können sie nicht bearbeiten. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
 
@@ -129,50 +127,76 @@ Um wiederholbare Abschnitte innerhalb des Bedienfeld-Containers effektiv zu verw
 
 - **HTML-Rolle für die Ankündigung durch die Bildschirmlesehilfe** – Die HTML-Rolle ist ein Attribut, mit dem der Zweck eines HTML-Elements für Hilfstechnologien wie Bildschirmlesehilfen spezifiziert wird. Rollenattribute werden verwendet, um für ein Element zusätzlichen Kontext und eine semantische Bedeutung bereitzustellen, wodurch es für Bildschirmlesehilfen einfacher wird, den Inhalt zu interpretieren und ihn Benutzenden mitzuteilen. In AEM Forms kann beispielsweise die Beschriftung eines Formularfelds die Rolle „Beschriftung“ haben und sein Eingabefeld die Rolle „Textfeld“. Dadurch kann die Bildschirmlesehilfe die Beziehung zwischen Beschrfitung und Eingabefeld verstehen und diese Informationen den Benutzenden korrekt mitteilen.
 
+## Dialogfeld „Design“ {#design-dialog}
+
+Das Dialogfeld &quot;Design&quot;wird verwendet, um CSS-Stile für die Formularcontainer-Komponente zu definieren und zu verwalten.
+
+### Registerkarte „Zugelassene Komponenten“ {#allowed-components-tab}
+
+![Registerkarte &quot;Design Dialog allowed&quot;](/help/adaptive-forms/assets/panel-container-allowed-component.png)
+
+Die **Zugelassene Komponenten** -Tab ermöglicht es dem Vorlageneditor, die Komponenten festzulegen, die den Bedienfeldern in der Komponente im Editor für adaptive Forms als Elemente hinzugefügt werden können.
+
+### Registerkarte „Standardkomponenten“ {#default-components-tab}
+
+![Registerkarte &quot;Standardkomponente&quot;im Dialogfeld &quot;Design&quot;](/help/adaptive-forms/assets/panel-container-default-component.png)
+
+Die **Standardkomponenten** -Tab ermöglicht es dem Vorlageneditor, die Komponenten anzugeben, die standardmäßig als Elemente in der Formularcontainer-Komponente im adaptiven Forms-Editor sichtbar sind.
+
+### Registerkarte „Responsive Einstellungen“ {#responsive-tab}
+
+![Registerkarte &quot;Responsive Einstellungen&quot;im Dialogfeld &quot;Design&quot;](/help/adaptive-forms/assets/panel-container-responsive-style-tab.png)
+
+Die **Responsive Einstellungen** -Tab ermöglicht es dem Vorlageneditor, die Anzahl der Spalten im Raster innerhalb der Formularcontainer-Komponente im adaptiven Forms-Editor anzugeben.
+
+### Registerkarte &quot;Container Settings&quot;
+
+![Registerkarte &quot;Container Settings&quot;](/help/adaptive-forms/assets/panel-container-container-settings.png)
+
+- **Layout**: Sie können für Ihren Assistenten entweder ein festes Layout (einfach) oder ein flexibles Layout (responsives Raster) verwenden. Das einfache Layout behält alles fest an der Stelle, während Sie mit dem responsiven Raster die Position der Komponenten an Ihre Bedürfnisse anpassen können. Verwenden Sie beispielsweise das responsive Raster, um „Vorname“, „Mittelname“ und „Nachname“ in einem Formular in einer einzigen Zeile auszurichten.
+
+- **Layout deaktivieren**: Wählen Sie diese Option, um die Layoutauswahl im Dialogfeld &quot;Bearbeiten&quot;einer Komponente zu deaktivieren.
+
+- **Hintergrundbild aktivieren**: Diese Option ermöglicht es dem Benutzer, die Einstellungen des Bedienfelds so zu konfigurieren, dass ein visueller Hintergrund zur Verbesserung der visuellen Darstellung angezeigt wird.
+
+- **Hintergrundfarbe aktivieren**: Mit dieser Option können Sie die Hintergrundfarbe des Bedienfelds festlegen oder ändern. Diese Funktion wird in der Benutzeroberfläche häufig verwendet, um das Erscheinungsbild von Bedienfeldern in einer größeren Oberfläche anzupassen. Wenn Sie die **Hintergrundfarbe aktivieren** die Option **Nur Farbfelder** angezeigt. Die **Nur Farbfelder** Mit dieser Option können Sie Farben für Hintergrund, Text oder andere visuelle Elemente innerhalb des Bedienfelds mithilfe der **Hinzufügen** button
+
+### Registerkarte „Stile“ {#styles-tab}
+
+Die Kernkomponente „Dateianhänge“ für adaptive Formulare unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
+
+![Dialogfeld „Design“](/help/adaptive-forms/assets/panel-container-styles-tab.png)
+
+- **Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die Kernkomponente für adaptive Formulare – Kontrollkästchen-Gruppe bereitstellen.
+
+- **Zulässige Stile**: Sie können Stile definieren, indem Sie einen Namen und die CSS-Klasse angeben, die den Stil darstellen. Sie können beispielsweise einen Stil mit dem Namen „Fettschrift“ erstellen und die CSS-Klasse „Schriftbreite: Fett“ bereitstellen. Sie können diese Stile bei einem adaptiven Formular im adaptiven Formular-Editor anwenden. Um einen Stil anzuwenden, wählen Sie im Editor für adaptive Formulare die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Eigenschaften-Dialog und wählen Sie den gewünschten Stil aus der Dropdown-Liste **Stile**. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld „Design“ zurück, aktualisieren die Stile auf der Registerkarte „Stile“ und speichern die Änderungen.
+
+### Registerkarte &quot;Benutzerdefinierte Eigenschaften&quot;
+
+![Dialogfeld &quot;Benutzerdefinierte Eigenschaften&quot;](/help/adaptive-forms/assets/panel-container-custom-properties.png)
+
+Mit benutzerdefinierten Eigenschaften können Sie benutzerdefinierte Attribute (Schlüssel-Wert-Paare) mithilfe der Formularvorlage mit einer Kernkomponente des adaptiven Formulars verknüpfen. Die benutzerdefinierten Eigenschaften werden im Abschnitt &quot;Eigenschaften&quot;der Headless-Ausgabe der Komponente angezeigt. Dies ermöglicht das Erstellen eines dynamischen Formularverhaltens, das sich basierend auf den benutzerdefinierten Attributwerten anpasst. Beispielsweise können Entwickler verschiedene Ausgabeformate einer Headless-Forms-Komponente für mobile, Desktop- oder Webplattformen entwerfen, wodurch das Benutzererlebnis auf einer Vielzahl von Geräten erheblich verbessert wird.
+
+- **Gruppenname**: Sie können einen Namen angeben, um die benutzerdefinierte Eigenschaftsgruppe zu identifizieren. Sie können mehrere benutzerdefinierte Eigenschaftsgruppen hinzufügen, löschen oder neu anordnen. Nachdem Sie die benutzerdefinierte Eigenschaftsgruppe hinzugefügt haben, sehen Sie die folgenden Optionen:
+
+   - **Schlüssel-Wert-Paare**: Sie können mehrere benutzerdefinierte Eigenschaftsnamen und benutzerdefinierte Eigenschaftswerte hinzufügen, indem Sie auf das **Hinzufügen** -Schaltfläche für jede benutzerdefinierte Eigenschaftsgruppe.
+
+   - **Löschen**: Tippen oder klicken Sie auf , um den benutzerdefinierten Eigenschaftsnamen und den benutzerdefinierten Eigenschaftswert zu löschen.
+
+   - **Neu anordnen**: Tippen oder klicken und ziehen Sie, um die Reihenfolge des benutzerdefinierten Eigenschaftsnamens und des benutzerdefinierten Eigenschaftswerts neu anzuordnen.
+
+<!--
+
+## Related article {#related-article}
+
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+
+-->
+
 ## Ähnliche Artikel {#related-articles}
 
-- [Akkordeon](/help/adaptive-forms/components/accordion.md)
-- [Schaltfläche](/help/adaptive-forms/components/button.md)
-- [Kontrollkästchen „Gruppe“](/help/adaptive-forms/components/checkbox-group.md)
-- [Datumsauswahl](/help/adaptive-forms/components/date-picker.md)
-- [Dropdown-Liste](/help/adaptive-forms/components/drop-down.md)
-- [E-Mail-Eingabe](/help/adaptive-forms/components/email-input.md)
-- [Formular-Container](/help/adaptive-forms/components/form-container.md)
-- [Dateianhang](/help/adaptive-forms/components/file-attachment.md)
-- [Fußzeile](/help/adaptive-forms/components/footer.md)
-- [Kopfzeile](/help/adaptive-forms/components/header.md)
-- [Horizontale Registerkarten](/help/adaptive-forms/components/horizontal-tabs.md)
-- [Bild](/help/adaptive-forms/components/image.md)
-- [Zahleneingabe](/help/adaptive-forms/components/number-input.md)
-- [Optionsschaltfläche](/help/adaptive-forms/components/radio-button.md)
-- [Schaltfläche „Zurücksetzen“](/help/adaptive-forms/components/reset-button.md)
-- [Schaltfläche „Senden“](/help/adaptive-forms/components/submit-button.md)
-- [Telefoneingabe](/help/adaptive-forms/components/telephone-input.md)
-- [Texteingabe](/help/adaptive-forms/components/text-input.md)
-- [Text](/help/adaptive-forms/components/text.md)
-- [Titel](/help/adaptive-forms/components/title.md)
-- [Assistent](/help/adaptive-forms/components/wizard.md)
-
+{{more-like-this}}
 
 ## Siehe auch {#see-also}
 
-- [Erstellen eines adaptiven AEM-Formulars](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=de)
-- [Hinzufügen eines adaptiven AEM-Formulars zu einer AEM Sites-Seite](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=de)
-- [Anwenden von Designs auf ein adaptives AEM-Formular](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=de)
-- [Hinzufügen von Komponenten zu adaptiven AEM-Formularen](/help/adaptive-forms/introduction.md#adaptive-forms-core-components-components)
-- [Verwenden von reCAPTCHA in einem adaptiven AEM-Formular](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms.html?lang=de)
-- [Generieren der PDF-Version (DoR) eines adaptiven AEM-Formulars](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/generate-document-of-record-core-components.html?lang=de)
-- [Übersetzen eines adaptiven AEM-Formulars](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-aem-translation-workflow-to-localize-adaptive-forms-core-components.html?lang=de)
-- [Aktivieren von Adobe Analytics für ein adaptives Formular, um die Formularnutzung zu verfolgen.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/services/enable-adobe-analytics-adaptive-form-using-experience-cloud-setup-automation.html?lang=de)
-- [Verbinden eines adaptiven Formulars mit Microsoft SharePoint](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#create-sharepoint-configuration?lang=de)
-- [Verbinden eines adaptiven Formulars mit Microsoft Power Automate](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=de#microsoft-power-automate)
-- [Verbinden eines adaptiven Formulars mit Microsoft OneDrive](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=de#submit-to-onedrive)
-- [Verbinden eines adaptiven Formulars mit Microsoft Azure Blob Storage](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=de#submit-to-azure-blob-storage)
-- [Verbinden eines adaptiven Formulars mit Salesforce](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/oauth2-client-credentials-flow-for-server-to-server-integration.html?lang=de)
-- [Verwenden von Adobe Sign in einem adaptiven AEM-Formular](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/use-adobe-sign/working-with-adobe-sign.html?lang=de)
-- [Hinzufügen eines neuen Gebietsschemas für ein adaptives Formular](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components.html?lang=de)
-- [Senden von Daten adaptiver Formulare an eine Datenbank](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/data-integration.html?lang=de)
-- [Senden von Daten adaptiver Formulare an einen REST-Endpunkt](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#submit-to-rest-endpoint?lang=de)
-- [Senden von Daten adaptiver Formulare an einen AEM-Workflow](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=de#invoke-an-aem-workflow)
-- [Verwenden von Forms Portal zur Auflistung von adaptiven AEM-Formularen auf einer AEM-Website](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-forms-portal.html?lang=de)
-
+{{see-also}}

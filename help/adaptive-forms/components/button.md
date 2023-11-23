@@ -3,10 +3,10 @@ title: Kernkomponente für adaptive Formulare – Schaltfläche
 description: Verwenden oder Anpassen der Schlatflächen-Kernkomponente für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: cb75929b-8c86-49d1-b51a-368f5b80b1a9
-source-git-commit: 0026734a2e43c51c7f5af2b37492d61e8f779ac7
-workflow-type: ht
-source-wordcount: '1443'
-ht-degree: 100%
+source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
+workflow-type: tm+mt
+source-wordcount: '1634'
+ht-degree: 86%
 
 ---
 
@@ -20,19 +20,23 @@ Adaptive Formulare verfügen über separate Komponenten für die Schaltflächen 
 
 Benutzende können auf die vollständige Liste der für die Schaltflächen-Komponente unterstützten Aktionen über den Regel-Editor für Adaptive Formulare zugreifen. Mit dem Regel-Editor können Benutzende Regeln erstellen, die von verschiedenen Ereignissen ausgelöst werden, z. B. durch Klicken auf eine Schaltfläche, beim Laden eines Formulars oder Ändern eines Feldwerts. Diese Regeln können dann für verschiedene Aktionen verwendet werden, z. B. zum Anzeigen oder Ausblenden von Komponenten, Festlegen von Feldwerten oder Senden des Formulars.
 
+**Beispiel**
+
+![Schaltflächenbeispiel](/help/adaptive-forms/assets/example-button.png)
+
 ## Verwendung {#reasons-to-use-button}
 
 Es gibt verschiedene Gründe, warum es sinnvoll ist, eine Schaltfläche in ein adaptives Formular einzuschließen, darunter:
 
-* **Formularübermittlung**: Normalerweise verwenden Sie eine Schaltfläche zum Senden eines Formulars, sodass Benutzende die eingegebenen Daten zur Verarbeitung an den Server senden können.
+- **Formularübermittlung**: Normalerweise verwenden Sie eine Schaltfläche zum Senden eines Formulars, sodass Benutzende die eingegebenen Daten zur Verarbeitung an den Server senden können.
 
-* **Formularzurücksetzung**: Sie können Schaltflächen auch dazu verwenden, um ein Formular zurückzusetzen und alle von Benutzenden eingegebenen Daten zu löschen.
+- **Formularzurücksetzung**: Sie können Schaltflächen auch dazu verwenden, um ein Formular zurückzusetzen und alle von Benutzenden eingegebenen Daten zu löschen.
 
-* **Navigation**: Sie können Schaltflächen verwenden, um zwischen verschiedenen Abschnitten eines Formulars oder verschiedenen Seiten auf einer Website zu navigieren.
+- **Navigation**: Sie können Schaltflächen verwenden, um zwischen verschiedenen Abschnitten eines Formulars oder verschiedenen Seiten auf einer Website zu navigieren.
 
-* **Ereignisverarbeitung**: Sie können Schaltflächen verwenden, um verschiedene Ereignisse wie das Öffnen einer Website, das Anzeigen/Ausblenden von Komponenten oder das Hinzufügen einer Instanz eines Bedienfelds oder einer Komponente zur Schaltfläche auszulösen.
+- **Ereignisverarbeitung**: Sie können Schaltflächen verwenden, um verschiedene Ereignisse wie das Öffnen einer Website, das Anzeigen/Ausblenden von Komponenten oder das Hinzufügen einer Instanz eines Bedienfelds oder einer Komponente zur Schaltfläche auszulösen.
 
-* **Interaktivität**: Schaltflächen können zum Erstellen interaktiver Formulare verwendet werden. Sie können beispielsweise eine Schaltfläche zum Öffnen eines modalen Dialogfelds oder zum Ein-/Ausschalten eines Bereichs des Formulars verwenden.
+- **Interaktivität**: Schaltflächen können zum Erstellen interaktiver Formulare verwendet werden. Sie können beispielsweise eine Schaltfläche zum Öffnen eines modalen Dialogfelds oder zum Ein-/Ausschalten eines Bereichs des Formulars verwenden.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
@@ -60,34 +64,36 @@ Sie können Ihr Schaltflächen-Erlebnis für Besuchende im Dialogfeld „Konfigu
 
 ![Registerkarte „Allgemein“](/help/adaptive-forms/assets/button_basictab.png)
 
-* **Name**: Sie können eine Formularkomponente sowohl im Formular als auch im Regel-Editor leicht mit ihrem eindeutigen Namen identifizieren. Der Name darf jedoch keine Leerzeichen oder Sonderzeichen enthalten.
+- **Name**: Sie können eine Formularkomponente sowohl im Formular als auch im Regel-Editor leicht mit ihrem eindeutigen Namen identifizieren. Der Name darf jedoch keine Leerzeichen oder Sonderzeichen enthalten.
 
-* **Titel**: Sie können mit dem Titel leicht eine Komponente in einem Formular identifizieren. Standardmäßig wird der Titel über der Komponente angezeigt. Wenn Sie keinen Titel hinzufügen, wird der Name der Komponente anstelle des Titeltexts angezeigt.
+- **Titel**: Sie können mit dem Titel leicht eine Komponente in einem Formular identifizieren. Standardmäßig wird der Titel über der Komponente angezeigt. Wenn Sie keinen Titel hinzufügen, wird der Name der Komponente anstelle des Titeltexts angezeigt.
 
-* **Bindungsverweis**: Bindungsverweis ist ein Verweis auf ein Datenelement, das in einer externen Datenquelle gespeichert ist und in einem Formular verwendet wird. Sie können mit dem Bindungsverweis Daten dynamisch an Formularfelder binden, sodass das Formular die aktuellsten Daten aus der Datenquelle anzeigen kann. Beispielsweise kann ein Bindungsverweis verwendet werden, um den Namen und die Adresse von Kundinnen und Kunden in einem Formular anzuzeigen, basierend auf der im Formular eingegebenen Kunden-ID. Der Bindungsverweis kann auch verwendet werden, um die Datenquelle mit den im Formular eingegebenen Daten zu aktualisieren. Auf diese Weise können Sie mit AEM Forms Formulare erstellen, die mit externen Datenquellen interagieren und so eine nahtlose Benutzererfahrung bei der Datenerfassung und Datenverwaltung bieten.
+- **Bindungsverweis**: Bindungsverweis ist ein Verweis auf ein Datenelement, das in einer externen Datenquelle gespeichert ist und in einem Formular verwendet wird. Sie können mit dem Bindungsverweis Daten dynamisch an Formularfelder binden, sodass das Formular die aktuellsten Daten aus der Datenquelle anzeigen kann. Beispielsweise kann ein Bindungsverweis verwendet werden, um den Namen und die Adresse von Kundinnen und Kunden in einem Formular anzuzeigen, basierend auf der im Formular eingegebenen Kunden-ID. Der Bindungsverweis kann auch verwendet werden, um die Datenquelle mit den im Formular eingegebenen Daten zu aktualisieren. Auf diese Weise können Sie mit AEM Forms Formulare erstellen, die mit externen Datenquellen interagieren und so eine nahtlose Benutzererfahrung bei der Datenerfassung und Datenverwaltung bieten.
 
-* **Datensatzdokument Bindungsverweis**: Mit dieser Option können Sie ein Feld eines adaptiven Formulars mit dem Feld „Datensatzdokument“ verknüpfen. Wenn Benutzende einen Wert in ein verknüpftes Feld eines adaptiven Formulars eingeben, erscheint dieser Wert auch im verknüpften Feld des entsprechenden Datensatzdokuments. Sie können beispielsweise einen Bindungsverweis für ein Datensatzdokument verwenden, um den Namen und die Adresse von Erwerbenden in einem Datensatzdokument anzuzeigen, basierend auf der im Formular eingegebenen Kunden-ID. Auf diese Weise können Sie mit AEM Forms ein Datensatzdokument erstellen und ein nahtloses Benutzerlebnis bei der Datenerfassung und Datenverwaltung bieten.
+- **Datensatzdokument Bindungsverweis**: Mit dieser Option können Sie ein Feld eines adaptiven Formulars mit dem Feld „Datensatzdokument“ verknüpfen. Wenn Benutzende einen Wert in ein verknüpftes Feld eines adaptiven Formulars eingeben, erscheint dieser Wert auch im verknüpften Feld des entsprechenden Datensatzdokuments. Sie können beispielsweise einen Bindungsverweis für ein Datensatzdokument verwenden, um den Namen und die Adresse von Erwerbenden in einem Datensatzdokument anzuzeigen, basierend auf der im Formular eingegebenen Kunden-ID. Auf diese Weise können Sie mit AEM Forms ein Datensatzdokument erstellen und ein nahtloses Benutzerlebnis bei der Datenerfassung und Datenverwaltung bieten.
 
-* **Komponente ausblenden**: Wählen Sie die Option, um die Komponente aus dem Formular auszublenden. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor. Dies ist nützlich, wenn Sie Informationen speichern müssen, die Benutzende nicht sehen oder direkt ändern müssen.
-* **Komponente deaktivieren**: Wählen Sie die Option zum Deaktivieren der Komponente aus. Die deaktivierte Komponente ist nicht aktiv und Endbenutzende können sie nicht bearbeiten. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
-* **Schreibgeschützt**: Wählen Sie die Option aus, um die Komponente nicht bearbeitbar zu machen. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
+- **Als ungebundenes Formularelement markieren**: Wählen Sie die Option zum Konfigurieren eines Formularfelds, das keinem Schema zugeordnet ist. Mit dieser Option können Sie Daten speichern, ohne die Datenquelle zu aktualisieren. Außerdem können Sie damit Daten auf eine benutzerdefinierte Art und Weise, getrennt von der standardmäßigen Datenbankintegration, verarbeiten.
+
+- **Komponente ausblenden**: Wählen Sie diese Option, um die Komponente aus dem Formular auszublenden. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor. Dies ist nützlich, wenn Sie Informationen speichern müssen, die Benutzende nicht sehen oder direkt ändern müssen.
+- **Komponente deaktivieren**: Wählen Sie die Option zum Deaktivieren der Komponente aus. Die deaktivierte Komponente ist nicht aktiv und Endbenutzende können sie nicht bearbeiten. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
+- **Schreibgeschützt**: Wählen Sie die Option aus, um die Komponente nicht bearbeitbar zu machen. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
 
 ### Registerkarte „Hilfe-Inhalt“ {#help-content}
 
 ![Registerkarte „Hilfe-Inhalt“](/help/adaptive-forms/assets/button_helptab.png)
 
-* **Kurzbeschreibung**: Eine Kurzbeschreibung ist eine kurze Erklärung, die zusätzliche Informationen oder Klarstellungen über den Zweck eines Formularfelds bietet. Es hilft Benutzenden zu verstehen, welcher Datentyp in das Feld eingegeben werden soll, und kann Richtlinien oder Beispiele bereitstellen, um sicherzustellen, dass die eingegebenen Informationen gültig sind und die gewünschten Kriterien erfüllen. Standardmäßig bleiben kurze Beschreibungen ausgeblendet. Aktivieren Sie die Option **Kurzbeschreibung immer anzeigen**, um sie unterhalb der Komponente anzuzeigen.
+- **Kurzbeschreibung**: Eine Kurzbeschreibung ist eine kurze Erklärung, die zusätzliche Informationen oder Klarstellungen über den Zweck eines Formularfelds bietet. Es hilft Benutzenden zu verstehen, welcher Datentyp in das Feld eingegeben werden soll, und kann Richtlinien oder Beispiele bereitstellen, um sicherzustellen, dass die eingegebenen Informationen gültig sind und die gewünschten Kriterien erfüllen. Standardmäßig bleiben kurze Beschreibungen ausgeblendet. Aktivieren Sie die Option **Kurzbeschreibung immer anzeigen**, um sie unterhalb der Komponente anzuzeigen.
 
-* **Kurzbeschreibung immer anzeigen**: Aktivieren Sie diese Option, um die Kurzbeschreibung unterhalb der Komponente anzuzeigen.
+- **Kurzbeschreibung immer anzeigen**: Aktivieren Sie diese Option, um die Kurzbeschreibung unterhalb der Komponente anzuzeigen.
 
-* **Hilfetext**: Hilfetext bezieht sich auf zusätzliche Informationen oder Anleitungen, die den Benutzenden bereitgestellt werden, um sie beim korrekten Ausfüllen eines Formularfelds zu unterstützen. Er erscheint, wenn Benutzende auf das Hilfesymbol (i) neben der Komponente klicken. Hilfetext enthält detailliertere Informationen als die Beschriftung oder der Platzhaltertext eines Formularfelds und soll den Benutzenden dabei helfen, die Anforderungen oder Einschränkungen des Felds zu verstehen. Er kann auch Vorschläge oder Beispiele anbieten, um das Ausfüllen des Formulars einfacher und genauer zu gestalten.
+- **Hilfetext**: Hilfetext bezieht sich auf zusätzliche Informationen oder Anleitungen, die den Benutzenden bereitgestellt werden, um sie beim korrekten Ausfüllen eines Formularfelds zu unterstützen. Er erscheint, wenn Benutzende auf das Hilfesymbol (i) neben der Komponente klicken. Hilfetext enthält detailliertere Informationen als die Beschriftung oder der Platzhaltertext eines Formularfelds und soll den Benutzenden dabei helfen, die Anforderungen oder Einschränkungen des Felds zu verstehen. Er kann auch Vorschläge oder Beispiele anbieten, um das Ausfüllen des Formulars einfacher und genauer zu gestalten.
 
 ### Barrierefreiheit {#accessibility}
 
 ![Registerkarte „Barrierefreiheit“](/help/adaptive-forms/assets/button_accessibilitytab.png)
 
 
-* **Text für Bildschirmlesehilfen** – Das ist zusätzlicher Text, der von Hilfstechnologien wie etwa Bildschirmlesehilfen für sehbehinderte Personen vorgelesen wird. Dieser Text enthält eine Audiobeschreibung des Zwecks des Formularfelds und kann Informationen über den Titel, die Beschreibung, den Namen und alle relevanten Nachrichten (benutzerdefinierten Text) des Felds enthalten. Der Text der Bildschirmlesehilfe hilft sicherzustellen, dass das Formular allen Benutzenden zugänglich ist, auch Personen mit Sehschwäche, und bietet ihnen ein umfassendes Verständnis des Formularfelds und seiner Anforderungen.
+- **Text für Bildschirmlesehilfen** – Das ist zusätzlicher Text, der von Hilfstechnologien wie etwa Bildschirmlesehilfen für sehbehinderte Personen vorgelesen wird. Dieser Text enthält eine Audiobeschreibung des Zwecks des Formularfelds und kann Informationen über den Titel, die Beschreibung, den Namen und alle relevanten Nachrichten (benutzerdefinierten Text) des Felds enthalten. Der Text der Bildschirmlesehilfe hilft sicherzustellen, dass das Formular allen Benutzenden zugänglich ist, auch Personen mit Sehschwäche, und bietet ihnen ein umfassendes Verständnis des Formularfelds und seiner Anforderungen.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
@@ -97,44 +103,29 @@ Verwenden Sie das Dialogfeld „Design“, um CSS-Stile für die Schaltflächen-
 
 Die Schaltflächen-Kernkomponente für adaptive Formulare unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
-![Dialogfeld „Design“](/help/adaptive-forms/assets/button_designdialog.png)
+![Dialogfeld „Design“](/help/adaptive-forms/assets/checkbox-style.png)
 
-* **Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die Schaltflächen-Kernkomponente für adaptive Formulare bereitstellen.
+- **Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die Schaltflächen-Kernkomponente für adaptive Formulare bereitstellen.
 
-* **Zulässige Stile**: Sie können Stile definieren, indem Sie einen Namen und die CSS-Klasse bereitstellen, die den Stil darstellt. Sie können beispielsweise einen Stil mit dem Namen „Fettschrift“ erstellen und die CSS-Klasse „Schriftbreite: Fett“ bereitstellen. Sie können diese Stile bei einem adaptiven Formular im adaptiven Formular-Editor anwenden. Um einen Stil anzuwenden, wählen Sie im Editor für adaptive Formulare die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Eigenschaften-Dialog und wählen Sie den gewünschten Stil aus der Dropdown-Liste **Stile**. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld „Design“ zurück, aktualisieren die Stile auf der Registerkarte „Stile“ und speichern die Änderungen.
+- **Zulässige Stile**: Sie können Stile definieren, indem Sie einen Namen und die CSS-Klasse bereitstellen, die den Stil darstellt. Sie können beispielsweise einen Stil mit dem Namen „Fettschrift“ erstellen und die CSS-Klasse „Schriftbreite: Fett“ bereitstellen. Sie können diese Stile bei einem adaptiven Formular im adaptiven Formular-Editor anwenden. Um einen Stil anzuwenden, wählen Sie im Editor für adaptive Formulare die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Eigenschaften-Dialog und wählen Sie den gewünschten Stil aus der Dropdown-Liste **Stile**. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld „Design“ zurück, aktualisieren die Stile auf der Registerkarte „Stile“ und speichern die Änderungen.
 
-<!--
+### Benutzerdefinierte Eigenschaften
 
-## Related article {#related-article}
+![Dialogfeld &quot;Benutzerdefinierte Eigenschaften&quot;](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+Mit benutzerdefinierten Eigenschaften können Sie benutzerdefinierte Attribute (Schlüssel-Wert-Paare) mithilfe der Formularvorlage mit einer Kernkomponente des adaptiven Formulars verknüpfen. Die benutzerdefinierten Eigenschaften werden im Abschnitt &quot;Eigenschaften&quot;der Headless-Ausgabe der Komponente angezeigt. Dies ermöglicht das Erstellen eines dynamischen Formularverhaltens, das sich basierend auf den benutzerdefinierten Attributwerten anpasst. Beispielsweise können Entwickler verschiedene Ausgabeformate einer Headless-Forms-Komponente für mobile, Desktop- oder Webplattformen entwerfen, wodurch das Benutzererlebnis auf einer Vielzahl von Geräten erheblich verbessert wird.
 
--->
+- **Gruppenname**: Sie können einen Namen angeben, um die benutzerdefinierte Eigenschaftsgruppe zu identifizieren. Sie können mehrere benutzerdefinierte Eigenschaftsgruppen hinzufügen, löschen oder neu anordnen. Nachdem Sie die benutzerdefinierte Eigenschaftsgruppe hinzugefügt haben, sehen Sie die folgenden Optionen:
 
->[!MORELIKETHIS]
->
->* [Akkordeon](/help/adaptive-forms/components/accordion.md)
->* [Kontrollkästchengruppe](/help/adaptive-forms/components/checkbox-group.md)
->* [Datumsauswahl](/help/adaptive-forms/components/date-picker.md)
->* [Dropdown-Liste](/help/adaptive-forms/components/drop-down.md)
->* [E-Mail-Eingabe](/help/adaptive-forms/components/email-input.md)
->* [Formular-Container](/help/adaptive-forms/components/form-container.md)
->* [Dateianhang](/help/adaptive-forms/components/file-attachment.md)
->* [Fußzeile](/help/adaptive-forms/components/footer.md)
->* [Kopfzeile](/help/adaptive-forms/components/header.md)
->* [Horizontale Registerkarten](/help/adaptive-forms/components/horizontal-tabs.md)
->* [Bild](/help/adaptive-forms/components/image.md)
->* [Zahleneingabe](/help/adaptive-forms/components/number-input.md)
->* [Bedienfeld-Container](/help/adaptive-forms/components/panel-container.md)
->* [Optionsschaltfläche](/help/adaptive-forms/components/radio-button.md)
->* [Zurücksetzen-Schaltfläche](/help/adaptive-forms/components/reset-button.md)
->* [Senden-Schaltfläche](/help/adaptive-forms/components/submit-button.md)
->* [Telefoneingabe](/help/adaptive-forms/components/telephone-input.md)
->* [Texteingabe](/help/adaptive-forms/components/text-input.md)
->* [Text](/help/adaptive-forms/components/text.md)
->* [Titel](/help/adaptive-forms/components/title.md)
->* [Assistent](/help/adaptive-forms/components/wizard.md)
+   - **Schlüssel-Wert-Paare**: Sie können mehrere benutzerdefinierte Eigenschaftsnamen und benutzerdefinierte Eigenschaftswerte hinzufügen, indem Sie auf das **Hinzufügen** -Schaltfläche für jede benutzerdefinierte Eigenschaftsgruppe.
 
+   - **Löschen**: Tippen oder klicken Sie auf , um den benutzerdefinierten Eigenschaftsnamen und den benutzerdefinierten Eigenschaftswert zu löschen.
+
+   - **Neu anordnen**: Tippen oder klicken und ziehen Sie, um die Reihenfolge des benutzerdefinierten Eigenschaftsnamens und des benutzerdefinierten Eigenschaftswerts neu anzuordnen.
+
+## Ähnliche Artikel {#related-articles}
+
+{{more-like-this}}
 
 ## Siehe auch {#see-also}
 

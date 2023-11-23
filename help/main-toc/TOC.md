@@ -5,10 +5,10 @@ breadcrumb-title: Anleitung zu den Hauptkomponenten
 feature: Core Components
 user-guide-description: Nutzen Sie die erweiterbaren Hauptkomponenten, damit Autoren bzw. Autorinnen mühelos Inhalte erstellen können.
 feature-set: Experience Manager Sites
-source-git-commit: 63f9659a547729c7cb3eb3c7a61cf1bc838cf6ce
-workflow-type: ht
-source-wordcount: '386'
-ht-degree: 100%
+source-git-commit: 3e36fdf9b175930ee3a998bf91116c35b3cb6f9d
+workflow-type: tm+mt
+source-wordcount: '398'
+ht-degree: 96%
 
 ---
 
@@ -107,12 +107,14 @@ ht-degree: 100%
    + Adaptive Formulare – Komponenten {#adaptive-forms-components}
       + [Adaptive Formulare – Akkordeon](/help/adaptive-forms/components/accordion.md)
       + [Adaptive Formulare – Schaltfläche](/help/adaptive-forms/components/button.md)
+      + [Kontrollkästchen für adaptive Forms](/help/adaptive-forms/components/checkbox.md)
       + [Adaptive Formulare – Kontrollkästchengruppe](/help/adaptive-forms/components/checkbox-group.md)
       + [Adaptive Formulare – Container](/help/adaptive-forms/components/form-container.md)
       + [Adaptive Formulare – Datumsauswahl](/help/adaptive-forms/components/date-picker.md)
       + [Adaptive Formulare – Dropdown-Liste](/help/adaptive-forms/components/drop-down.md)
       + [Adaptive Formulare – E-Mail-Eingabe](/help/adaptive-forms/components/email-input.md)
       + [Adaptive Formulare – Dateianlagen](/help/adaptive-forms/components/file-attachment.md)
+      + [Vertikale adaptive Forms-Registerkarten](/help/adaptive-forms/components/vertical-tabs.md)
       + [Adaptive Formulare – horizontale Registerkarten](/help/adaptive-forms/components/horizontal-tabs.md)
       + [Adaptive Formulare – Bild](/help/adaptive-forms/components/image.md)
       + [Adaptive Formulare – Zahleneingabe](/help/adaptive-forms/components/number-input.md)
@@ -126,6 +128,7 @@ ht-degree: 100%
       + [Adaptive Formulare – Textfeld](/help/adaptive-forms/components/text-input.md)
       + [Adaptive Formulare – Titel](/help/adaptive-forms/components/title.md)
       + [Adaptive Formulare – Assistenten-Layout](/help/adaptive-forms/components/wizard.md)
+      + [Adaptive Forms-Geschäftsbedingungen](/help/adaptive-forms/components/terms-and-conditions.md)
       + [Kopfzeile](/help/adaptive-forms/components/header.md)
       + [Fußzeile](/help/adaptive-forms/components/footer.md)
    + [Anpassen von Kernkomponenten für adaptive Formulare](/help/developing/customize-adaptive-forms-core-components.md)

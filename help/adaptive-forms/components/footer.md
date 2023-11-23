@@ -3,9 +3,9 @@ title: Kernkomponente „Fußzeile“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „Fußzeile“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
-source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
-workflow-type: ht
-source-wordcount: '807'
+source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
+workflow-type: tm+mt
+source-wordcount: '775'
 ht-degree: 100%
 
 ---
@@ -16,21 +16,21 @@ Eine Fußzeilen-Komponente in einem adaptiven Formular ist ein Bereich, der norm
 
 **Beispiel**
 
-![](/help/adaptive-forms/assets/footer.png)
+![Beispiel](/help/adaptive-forms/assets/footer.png)
 
 ## Verwendung {#reasons-to-use-footer}
 
 Es gibt verschiedene Gründe, warum es sinnvoll ist, eine Fußzeilen-Komponente in ein Formular einzufügen:
 
-* **Rechtliche Anforderungen**: Einige Formulare müssen möglicherweise einen Haftungsausschluss, einen Copyright-Hinweis oder andere rechtliche Informationen enthalten. Eine Fußzeile geeigneter Platz für diese Informationen.
+- **Rechtliche Anforderungen**: Einige Formulare müssen möglicherweise einen Haftungsausschluss, einen Copyright-Hinweis oder andere rechtliche Informationen enthalten. Eine Fußzeile geeigneter Platz für diese Informationen.
 
-* **Navigation**: Eine Fußzeile kann Links zu anderen wichtigen Seiten auf der Website bereitstellen, z. B. Datenschutzrichtlinien, Nutzungsbedingungen oder Kontaktseiten.
+- **Navigation**: Eine Fußzeile kann Links zu anderen wichtigen Seiten auf der Website bereitstellen, z. B. Datenschutzrichtlinien, Nutzungsbedingungen oder Kontaktseiten.
 
-* **Branding**: Eine Fußzeile kann verwendet werden, um ein Logo oder andere Branding-Elemente einzufügen, wodurch die Identität der Organisation oder Website unterstrichen wird.
+- **Branding**: Eine Fußzeile kann verwendet werden, um ein Logo oder andere Branding-Elemente einzufügen, wodurch die Identität der Organisation oder Website unterstrichen wird.
 
-* **Konsistenz**: Eine Fußzeile sorgt für Konsistenz im Design und Layout des Formulars, wodurch die Navigation für Benutzende intuitiver und einfacher wird.
+- **Konsistenz**: Eine Fußzeile sorgt für Konsistenz im Design und Layout des Formulars, wodurch die Navigation für Benutzende intuitiver und einfacher wird.
 
-* **Zusätzlicher Kontext**: Eine Fußzeile kann zusätzlichen Kontext für das Formular bereitstellen, z. B. einen Text, der das Formular beschreibt, oder einen Link zu verwandten Ressourcen, wodurch das Formular informativer und benutzerfreundlicher wird.
+- **Zusätzlicher Kontext**: Eine Fußzeile kann zusätzlichen Kontext für das Formular bereitstellen, z. B. einen Text, der das Formular beschreibt, oder einen Link zu verwandten Ressourcen, wodurch das Formular informativer und benutzerfreundlicher wird.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
@@ -57,53 +57,53 @@ Im Dialogfeld „Konfigurieren“ können Sie Ihre Fußzeile einfach anpassen. S
 
 ![Registerkarte „Eigenschaften“](/help/adaptive-forms/assets/footer_propertiestab.png)
 
-* **Dialogfeld „Bearbeiten“**
+- **Dialogfeld „Bearbeiten“**
 Das Dialogfeld „Bearbeiten“ bietet standardmäßige Rich-Text-Formatierungswerkzeuge, mit denen der Benutzende Text für die Fußzeile erstellen kann.
 
-* **Fett** – Mit dieser Option wird Text fett formatiert, der zuvor markiert wurde oder nach dem Cursor eingegeben wird. `Ctrl+B` ist ein Tastaturbefehl.
+- **Fett** – Mit dieser Option wird Text fett formatiert, der zuvor markiert wurde oder nach dem Cursor eingegeben wird. `Ctrl+B` ist ein Tastaturbefehl.
 
-* **Kursiv** – Mit dieser Option wird der Text kursiv formatiert, der zuvor markiert wurde oder nach dem Cursor eingegeben wird. `Ctrl+I` ist ein Tastaturbefehl.
+- **Kursiv** – Mit dieser Option wird der Text kursiv formatiert, der zuvor markiert wurde oder nach dem Cursor eingegeben wird. `Ctrl+I` ist ein Tastaturbefehl.
 
 ![Aufzählungsoptionen](/help/adaptive-forms/assets/footer_bullet.png)
 
 
-* **Aufzählungszeichen**
+- **Aufzählungszeichen**
 
-   * **Aufzählungssymbol** – Formatiert Text als Aufzählungsliste, der zuvor markiert wurde oder hinter dem Cursor eingefügt wird. Um eine Aufzählungsliste zu beenden, tippen oder klicken Sie erneut auf die Schaltfläche „Aufzählungszeichen“ oder geben Sie zwei Zeilenumbrüche hintereinander ein.
+   - **Aufzählungssymbol** – Formatiert Text als Aufzählungsliste, der zuvor markiert wurde oder hinter dem Cursor eingefügt wird. Um eine Aufzählungsliste zu beenden, tippen oder klicken Sie erneut auf die Schaltfläche „Aufzählungszeichen“ oder geben Sie zwei Zeilenumbrüche hintereinander ein.
 
-   * **Symbol für nummerierte Listen** – Formatiert Text als nummerierte Liste, der zuvor markiert wurde oder hinter dem Cursor eingefügt wird. Um eine nummerierte Liste zu beenden, tippen oder klicken Sie erneut auf die Schaltfläche „Nummerierte Listen“ oder geben Sie zwei Zeilenumbrüche hintereinander ein.
+   - **Symbol für nummerierte Listen** – Formatiert Text als nummerierte Liste, der zuvor markiert wurde oder hinter dem Cursor eingefügt wird. Um eine nummerierte Liste zu beenden, tippen oder klicken Sie erneut auf die Schaltfläche „Nummerierte Listen“ oder geben Sie zwei Zeilenumbrüche hintereinander ein.
 
-   * **Ausrückungssymbol** – Verringert die Einrückung von Text, der zuvor markiert wurde oder hinter dem Cursor eingefügt wird. Nur aktiv, wenn der ausgewählte Text bzw. die ausgewählte Position bereits eingerückt ist.
+   - **Ausrückungssymbol** – Verringert die Einrückung von Text, der zuvor markiert wurde oder hinter dem Cursor eingefügt wird. Nur aktiv, wenn der ausgewählte Text bzw. die ausgewählte Position bereits eingerückt ist.
 
-   * **Einrückungssymbol** – Erhöht die Einrückung von Text, der zuvor markiert wurde oder nach dem Cursor eingegeben wird.
+   - **Einrückungssymbol** – Erhöht die Einrückung von Text, der zuvor markiert wurde oder nach dem Cursor eingegeben wird.
 
 ![Hyperlink-Optionen](/help/adaptive-forms/assets/footer_link.png)
 
-* **Hyperlink**
+- **Hyperlink**
 
-   * **Pfad** – Pfad eingeben
+   - **Pfad** – Pfad eingeben
       1. Wählen Sie im Dialogfeld „Auswahl öffnen“ einen Pfad in AEM aus.
       1. Wenn der Link in AEM nicht angezeigt wird, geben Sie die absolute URL ein.
       1. Nicht-absolute Pfade werden als relativ zu AEM interpretiert.
 
-   * **Alternativtext** – Geben Sie einen alternativen, beschreibenden Text für den Link ein.
+   - **Alternativtext** – Geben Sie einen alternativen, beschreibenden Text für den Link ein.
 
-   * **Ziel** – Link-Verhalten auswählen
-      * Ziel
-      * Selbe Registerkarte
-      * Neue Registerkarte
-      * Übergeordneter Frame
-      * Top-Frame
+   - **Ziel** – Link-Verhalten auswählen
+      - Ziel
+      - Selbe Registerkarte
+      - Neue Registerkarte
+      - Übergeordneter Frame
+      - Top-Frame
 
-   * **Symbol zum Aufheben einer Verknüpfung** – Mit dieser Option wird eine bereits auf den markierten Text angewendete Verknüpfung entfernt. Diese Option ist nur aktiv, wenn bereits ein Link ausgewählt ist.
+   - **Symbol zum Aufheben einer Verknüpfung** – Mit dieser Option wird eine bereits auf den markierten Text angewendete Verknüpfung entfernt. Diese Option ist nur aktiv, wenn bereits ein Link ausgewählt ist.
 
-   * **Absatzformat-Symbol** – Mit dieser Option können Sie eine Absatzformatierung auf den ausgewählten Text anwenden. Damit kann auch nach dem Cursor eingefügter Text formatiert werden. Mit dieser Option wird die Überschriftenebene des Titels definiert.
+   - **Absatzformat-Symbol** – Mit dieser Option können Sie eine Absatzformatierung auf den ausgewählten Text anwenden. Damit kann auch nach dem Cursor eingefügter Text formatiert werden. Mit dieser Option wird die Überschriftenebene des Titels definiert.
 
-* **ID**: Diese Option ermöglicht es, die eindeutige Kennung der Komponente im HTML und in der Datenschicht festzulegen.
+- **ID**: Diese Option ermöglicht es, die eindeutige Kennung der Komponente im HTML und in der Datenschicht festzulegen.
 
-   * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
-   * Sofern eine ID angegeben wird, ist vom Autor bzw. der Autorin sicherzustellen, dass diese eindeutig ist.
-   * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
+   - Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
+   - Sofern eine ID angegeben wird, ist vom Autor bzw. der Autorin sicherzustellen, dass diese eindeutig ist.
+   - Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
 <!--
 
@@ -113,31 +113,9 @@ Das Dialogfeld „Bearbeiten“ bietet standardmäßige Rich-Text-Formatierungsw
 
 -->
 
+## Ähnliche Artikel {#related-articles}
 
->[!MORELIKETHIS]
->
->* [Akkordeon](/help/adaptive-forms/components/accordion.md)
->* [Schaltfläche](/help/adaptive-forms/components/button.md)
->* [Kontrollkästchengruppe](/help/adaptive-forms/components/checkbox-group.md)
->* [Datumsauswahl](/help/adaptive-forms/components/date-picker.md)
->* [Dropdown-Liste](/help/adaptive-forms/components/drop-down.md)
->* [E-Mail-Eingabe](/help/adaptive-forms/components/email-input.md)
->* [Formular-Container](/help/adaptive-forms/components/form-container.md)
->* [Dateianhang](/help/adaptive-forms/components/file-attachment.md)
->* [Kopfzeile](/help/adaptive-forms/components/header.md)
->* [Horizontale Registerkarten](/help/adaptive-forms/components/horizontal-tabs.md)
->* [Bild](/help/adaptive-forms/components/image.md)
->* [Zahleneingabe](/help/adaptive-forms/components/number-input.md)
->* [Bedienfeld-Container](/help/adaptive-forms/components/panel-container.md)
->* [Optionsschaltfläche](/help/adaptive-forms/components/radio-button.md)
->* [Zurücksetzen-Schaltfläche](/help/adaptive-forms/components/reset-button.md)
->* [Senden-Schaltfläche](/help/adaptive-forms/components/submit-button.md)
->* [Telefoneingabe](/help/adaptive-forms/components/telephone-input.md)
->* [Texteingabe](/help/adaptive-forms/components/text-input.md)
->* [Text](/help/adaptive-forms/components/text.md)
->* [Titel](/help/adaptive-forms/components/title.md)
->* [Assistent](/help/adaptive-forms/components/wizard.md)
-
+{{more-like-this}}
 
 ## Siehe auch {#see-also}
 

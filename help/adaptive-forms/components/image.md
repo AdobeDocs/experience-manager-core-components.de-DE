@@ -3,10 +3,10 @@ title: Kernkomponente „Bild“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „Bild“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: 9ee42d5d-16e3-4973-8364-5bc512ebe72e
-source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
-workflow-type: ht
-source-wordcount: '1015'
-ht-degree: 100%
+source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
+workflow-type: tm+mt
+source-wordcount: '1205'
+ht-degree: 81%
 
 ---
 
@@ -19,20 +19,20 @@ Für die Barrierefreiheit ist es wichtig, **Alternativtext** zum Bild anzugeben,
 
 **Beispiel**
 
-![](/help/adaptive-forms/assets/image.png)
+![Beispiel](/help/adaptive-forms/assets/image.png)
 
 
 ## Verwendung {#reasons-to-use-image-in-a-form}
 
 Es gibt verschiedene Gründe, warum es sinnvoll sein kann, eine Bildkomponente zu einem adaptiven Formular hinzuzufügen:
 
-* **Branding**: Ein Bild kann verwendet werden, um das Logo oder den Namen der Organisation anzuzeigen, die das Formular erstellt hat, und so zur Erkennung und Glaubwürdigkeit der Marke beizutragen.
+- **Branding**: Ein Bild kann verwendet werden, um das Logo oder den Namen der Organisation anzuzeigen, die das Formular erstellt hat, und so zur Erkennung und Glaubwürdigkeit der Marke beizutragen.
 
-* **Visuelle Hilfe**: Ein Bild kann Benutzenden zusätzliche Informationen liefern, damit sie den Zweck des Formulars leichter verstehen können.
+- **Visuelle Hilfe**: Ein Bild kann Benutzenden zusätzliche Informationen liefern, damit sie den Zweck des Formulars leichter verstehen können.
 
-* **Dekoration**: Ein Bild kann verwendet werden, um das Gesamtdesign des Formulars zu verbessern und es visuell ansprechender zu gestalten.
+- **Dekoration**: Ein Bild kann verwendet werden, um das Gesamtdesign des Formulars zu verbessern und es visuell ansprechender zu gestalten.
 
-* **Benutzererlebnis**: Mit einem Bild können Sie das Formular benutzerfreundlicher gestalten, indem Sie Benutzenden eine klare und intuitive Möglichkeit bieten, auf Formularfelder zuzugreifen und diese auszufüllen.
+- **Benutzererlebnis**: Mit einem Bild können Sie das Formular benutzerfreundlicher gestalten, indem Sie Benutzenden eine klare und intuitive Möglichkeit bieten, auf Formularfelder zuzugreifen und diese auszufüllen.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
@@ -60,24 +60,26 @@ Im Dialogfeld „Konfigurieren“ können Sie die Bildkomponente für Besuchende
 
 ![Registerkarte „Eigenschaften“](/help/adaptive-forms/assets/image_properties.png)
 
-* **Name**: Sie können eine Formularkomponente sowohl im Formular als auch im Regeleditor durch ihren eindeutigen Namen identifizieren. Der Name darf keine Leerzeichen oder Sonderzeichen enthalten.
+- **Name**: Sie können eine Formularkomponente sowohl im Formular als auch im Regeleditor durch ihren eindeutigen Namen identifizieren. Der Name darf keine Leerzeichen oder Sonderzeichen enthalten.
 
-* **Titel**: Sie können mit dem Titel leicht eine Komponente in einem Formular identifizieren. Standardmäßig wird der Titel über der Komponente angezeigt. Wenn Sie keinen Titel hinzufügen, wird der Name der Komponente anstelle des Titeltexts angezeigt.
+- **Titel**: Sie können mit dem Titel leicht eine Komponente in einem Formular identifizieren. Standardmäßig wird der Titel über der Komponente angezeigt. Wenn Sie keinen Titel hinzufügen, wird der Name der Komponente anstelle des Titeltexts angezeigt.
 
-* **Datensatzdokument Bindungsverweis**: Mit dieser Option können Sie ein Feld eines adaptiven Formulars mit dem Feld „Datensatzdokument“ verknüpfen. Wenn Benutzende einen Wert in ein verknüpftes Feld eines adaptiven Formulars eingeben, erscheint dieser Wert auch im verknüpften Feld des entsprechenden Datensatzdokuments. Sie können beispielsweise einen Bindungsverweis für ein Datensatzdokument verwenden, um den Namen und die Adresse von Erwerbenden in einem Datensatzdokument anzuzeigen, basierend auf der im Formular eingegebenen Kunden-ID. Auf diese Weise können Sie mit AEM Forms ein Datensatzdokument generieren und ein nahtloses Benutzererlebnis für die Datenerfassung und -verwaltung bieten.
+- **Als ungebundenes Formularelement markieren**: Wählen Sie die Option zum Konfigurieren eines Formularfelds, das keinem Schema zugeordnet ist. Mit dieser Option können Sie Daten speichern, ohne die Datenquelle zu aktualisieren. Außerdem können Sie damit Daten auf eine benutzerdefinierte Art und Weise, getrennt von der standardmäßigen Datenbankintegration, verarbeiten.
 
-* **Beschreibung**: Eine Beschreibung ist eine kurze Texterklärung, die zusätzliche Informationen oder Klarstellungen zum Zweck eines bestimmten Bildes bietet.
+- **Datensatzdokument Bindungsverweis**: Mit dieser Option können Sie ein Feld eines adaptiven Formulars mit dem Feld „Datensatzdokument“ verknüpfen. Wenn Benutzende einen Wert in ein verknüpftes Feld eines adaptiven Formulars eingeben, erscheint dieser Wert auch im verknüpften Feld des entsprechenden Datensatzdokuments. Sie können beispielsweise einen Bindungsverweis für ein Datensatzdokument verwenden, um den Namen und die Adresse von Erwerbenden in einem Datensatzdokument anzuzeigen, basierend auf der im Formular eingegebenen Kunden-ID. Auf diese Weise können Sie mit AEM Forms ein Datensatzdokument generieren und ein nahtloses Benutzererlebnis für die Datenerfassung und -verwaltung bieten.
 
-* **Asset hier ablegen oder nach einer hochzuladenden Datei suchen** – Mit dieser Option können Sie ein Asset wie ein Bild per Drag-and-Drop mit der Maus ablegen. Sie können auch eine Datei aus einem lokalen Dateisystem mit der Schaltfläche **Durchsuchen** hochladen. Nach dem Hinzufügen eines Bildes erscheinen unten im Bild drei Schaltflächen:
-   * **Bearbeiten** – Tippen oder klicken Sie auf **Bearbeiten**, um die Wiedergabeversionen des Assets im Asset-Editor zu verwalten.
-   * **Löschen** – Tippen oder klicken Sie auf **Löschen**, um die Auswahl des aktuell ausgewählten Bilds aufzuheben.
-   * **Auswahl** – Tippen oder klicken Sie auf die Option **Auswahl**, um ein anderes Bild aus dem Ordner „Assets“ auszuwählen.
+- **Beschreibung**: Eine Beschreibung ist eine kurze Texterklärung, die zusätzliche Informationen oder Klarstellungen zum Zweck eines bestimmten Bildes bietet.
 
-* **Alternativtext**: Diese Option wird verwendet, um eine kurze Textalternative für das Bild einzugeben, um es für sehbehinderte Benutzende zu beschreiben.
+- **Asset hier ablegen oder nach einer hochzuladenden Datei suchen** – Mit dieser Option können Sie ein Asset wie ein Bild per Drag-and-Drop mit der Maus ablegen. Sie können auch eine Datei aus einem lokalen Dateisystem mit der Schaltfläche **Durchsuchen** hochladen. Nach dem Hinzufügen eines Bildes erscheinen unten im Bild drei Schaltflächen:
+   - **Bearbeiten** – Tippen oder klicken Sie auf **Bearbeiten**, um die Wiedergabeversionen des Assets im Asset-Editor zu verwalten.
+   - **Löschen** – Tippen oder klicken Sie auf **Löschen**, um die Auswahl des aktuell ausgewählten Bilds aufzuheben.
+   - **Auswahl** – Tippen oder klicken Sie auf die Option **Auswahl**, um ein anderes Bild aus dem Ordner „Assets“ auszuwählen.
 
-* **Komponente ausblenden**: Wählen Sie diese Option, um die Komponente aus dem Formular auszublenden. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor. Dies ist nützlich, wenn Sie Informationen speichern müssen, die Benutzende nicht sehen oder direkt ändern müssen.
+- **Alternativtext**: Diese Option wird verwendet, um eine kurze Textalternative für das Bild einzugeben, um es für sehbehinderte Benutzende zu beschreiben.
 
-* **Schreibgeschützt**: Wählen Sie die Option aus, um zu verhindern, dass die Komponente bearbeitet werden kann. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
+- **Komponente ausblenden**: Wählen Sie diese Option, um die Komponente aus dem Formular auszublenden. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor. Dies ist nützlich, wenn Sie Informationen speichern müssen, die Benutzende nicht sehen oder direkt ändern müssen.
+
+- **Schreibgeschützt**: Wählen Sie die Option aus, um zu verhindern, dass die Komponente bearbeitet werden kann. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
@@ -87,45 +89,29 @@ Das Dialogfeld „Design“ wird verwendet, um CSS-Stile für die Bild-Komponent
 
 Sie können die Registerkarte zum Definieren und Verwalten von CSS-Stilen für eine Komponente verwenden. Die Kernkomponente „Bild“ für adaptive Formulare unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
-![Dialogfeld „Design“](/help/adaptive-forms/assets/image_designdialog.png)
+![Dialogfeld „Design“](/help/adaptive-forms/assets/checkbox-style.png)
 
-**Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die Kernkomponente „Bild“ für adaptive Formulare bereitstellen.
+- **Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die Kernkomponente für adaptive Formulare – Kontrollkästchen-Gruppe bereitstellen.
 
-**Zulässige Stile**: Sie können Stile definieren, indem Sie den Namen und die CSS-Klasse für den Stil angeben. Sie können beispielsweise einen Stil mit dem Namen „Fettschrift“ erstellen und die CSS-Klasse „Schriftbreite: Fett“ bereitstellen. Sie können diese Stile bei einem adaptiven Formular im adaptiven Formular-Editor anwenden. Um einen Stil anzuwenden, wählen Sie im Editor für adaptive Formulare die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Eigenschaften-Dialog und wählen Sie den gewünschten Stil aus der Dropdown-Liste **Stile**. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld „Design“ zurück, aktualisieren die Stile auf der Registerkarte „Stile“ und speichern die Änderungen.
+- **Zulässige Stile**: Sie können Stile definieren, indem Sie einen Namen und die CSS-Klasse angeben, die den Stil darstellen. Sie können beispielsweise einen Stil mit dem Namen „Fettschrift“ erstellen und die CSS-Klasse „Schriftbreite: Fett“ bereitstellen. Sie können diese Stile bei einem adaptiven Formular im adaptiven Formular-Editor anwenden. Um einen Stil anzuwenden, wählen Sie im Editor für adaptive Formulare die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Eigenschaften-Dialog und wählen Sie den gewünschten Stil aus der Dropdown-Liste **Stile**. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld „Design“ zurück, aktualisieren die Stile auf der Registerkarte „Stile“ und speichern die Änderungen.
 
-<!--
+### Benutzerdefinierte Eigenschaften
 
-## Related article {#related-article}
+![Dialogfeld &quot;Benutzerdefinierte Eigenschaften&quot;](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+Mit benutzerdefinierten Eigenschaften können Sie benutzerdefinierte Attribute (Schlüssel-Wert-Paare) mithilfe der Formularvorlage mit einer Kernkomponente des adaptiven Formulars verknüpfen. Die benutzerdefinierten Eigenschaften werden im Abschnitt &quot;Eigenschaften&quot;der Headless-Ausgabe der Komponente angezeigt. Dies ermöglicht das Erstellen eines dynamischen Formularverhaltens, das sich basierend auf den benutzerdefinierten Attributwerten anpasst. Beispielsweise können Entwickler verschiedene Ausgabeformate einer Headless-Forms-Komponente für mobile, Desktop- oder Webplattformen entwerfen, wodurch das Benutzererlebnis auf einer Vielzahl von Geräten erheblich verbessert wird.
 
--->
+- **Gruppenname**: Sie können einen Namen angeben, um die benutzerdefinierte Eigenschaftsgruppe zu identifizieren. Sie können mehrere benutzerdefinierte Eigenschaftsgruppen hinzufügen, löschen oder neu anordnen. Nachdem Sie die benutzerdefinierte Eigenschaftsgruppe hinzugefügt haben, sehen Sie die folgenden Optionen:
 
+   - **Schlüssel-Wert-Paare**: Sie können mehrere benutzerdefinierte Eigenschaftsnamen und benutzerdefinierte Eigenschaftswerte hinzufügen, indem Sie auf das **Hinzufügen** -Schaltfläche für jede benutzerdefinierte Eigenschaftsgruppe.
 
->[!MORELIKETHIS]
->
->* [Akkordeon](/help/adaptive-forms/components/accordion.md)
->* [Schaltfläche](/help/adaptive-forms/components/button.md)
->* [Kontrollkästchengruppe](/help/adaptive-forms/components/checkbox-group.md)
->* [Datumsauswahl](/help/adaptive-forms/components/date-picker.md)
->* [Dropdown-Liste](/help/adaptive-forms/components/drop-down.md)
->* [E-Mail-Eingabe](/help/adaptive-forms/components/email-input.md)
->* [Formular-Container](/help/adaptive-forms/components/form-container.md)
->* [Dateianhang](/help/adaptive-forms/components/file-attachment.md)
->* [Fußzeile](/help/adaptive-forms/components/footer.md)
->* [Kopfzeile](/help/adaptive-forms/components/header.md)
->* [Horizontale Registerkarten](/help/adaptive-forms/components/horizontal-tabs.md)
->* [Zahleneingabe](/help/adaptive-forms/components/number-input.md)
->* [Bedienfeld-Container](/help/adaptive-forms/components/panel-container.md)
->* [Optionsschaltfläche](/help/adaptive-forms/components/radio-button.md)
->* [Zurücksetzen-Schaltfläche](/help/adaptive-forms/components/reset-button.md)
->* [Senden-Schaltfläche](/help/adaptive-forms/components/submit-button.md)
->* [Telefoneingabe](/help/adaptive-forms/components/telephone-input.md)
->* [Texteingabe](/help/adaptive-forms/components/text-input.md)
->* [Text](/help/adaptive-forms/components/text.md)
->* [Titel](/help/adaptive-forms/components/title.md)
->* [Assistent](/help/adaptive-forms/components/wizard.md)
+   - **Löschen**: Tippen oder klicken Sie auf , um den benutzerdefinierten Eigenschaftsnamen und den benutzerdefinierten Eigenschaftswert zu löschen.
 
+   - **Neu anordnen**: Tippen oder klicken und ziehen Sie, um die Reihenfolge des benutzerdefinierten Eigenschaftsnamens und des benutzerdefinierten Eigenschaftswerts neu anzuordnen.
+
+## Ähnliche Artikel {#related-articles}
+
+{{more-like-this}}
 
 ## Siehe auch {#see-also}
 

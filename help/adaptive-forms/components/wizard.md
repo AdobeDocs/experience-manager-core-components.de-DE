@@ -3,10 +3,10 @@ title: Kernkomponente „Assistent“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „Assistent“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
-source-git-commit: 0026734a2e43c51c7f5af2b37492d61e8f779ac7
-workflow-type: ht
-source-wordcount: '1866'
-ht-degree: 100%
+source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
+workflow-type: tm+mt
+source-wordcount: '2048'
+ht-degree: 87%
 
 ---
 
@@ -25,25 +25,25 @@ Sie können die Kernkomponente „Assistent“ für adaptive Formulare verwenden
 
 **Beispiel**
 
-![](/help/adaptive-forms/assets/wizard.png)
+![Beispiel](/help/adaptive-forms/assets/wizard.png)
 
 ## Verwendung {#reasons-to-use-wizard-in-an-adaptive-form}
 
 Es gibt mehrere Gründe, warum die Verwendung eines Assistenten-Layouts in einem adaptiven Formular von Vorteil sein kann:
 
-* **Einfachheit**: Die Unterteilung eines Formulars in mehrere Schritte kann Benutzenden helfen, das Formular besser zu verstehen und auszufüllen, da sie sich jeweils auf eine Gruppe von Feldern konzentrieren können.
+- **Einfachheit**: Die Unterteilung eines Formulars in mehrere Schritte kann Benutzenden helfen, das Formular besser zu verstehen und auszufüllen, da sie sich jeweils auf eine Gruppe von Feldern konzentrieren können.
 
-* **Organisation**: Mit einem Assistenten-Layout können Sie Formulare nach Thema oder Zweck organisieren. Außerdem können zugehörige Felder gruppiert werden, was den Formularausfüll-Prozess logischer und effizienter gestaltet.
+- **Organisation**: Mit einem Assistenten-Layout können Sie Formulare nach Thema oder Zweck organisieren. Außerdem können zugehörige Felder gruppiert werden, was den Formularausfüll-Prozess logischer und effizienter gestaltet.
 
-* **Validierung**: Ein Assistenten-Layout ermöglicht die schrittweise Überprüfung, durch die Benutzende Fehler schon beim Ausfüllen anstatt erst am Ende erkennen und korrigieren können.
+- **Validierung**: Ein Assistenten-Layout ermöglicht die schrittweise Überprüfung, durch die Benutzende Fehler schon beim Ausfüllen anstatt erst am Ende erkennen und korrigieren können.
 
-* **Fortschrittsanzeige**: Ein Assistenten-Layout kann den Fortschritt des Formulars anzeigen, damit Benutzende wissen, wie viel vom Formular noch auszufüllen ist.
+- **Fortschrittsanzeige**: Ein Assistenten-Layout kann den Fortschritt des Formulars anzeigen, damit Benutzende wissen, wie viel vom Formular noch auszufüllen ist.
 
-* **Lange Formulare**: Wenn ein Formular viele Felder enthält, können sich Benutzende leicht überfordert fühlen, wenn sie alle gleichzeitig angezeigt werden. Dagegen wirkt die Unterteilung in kleinere, besser handhabbare Abschnitte weniger abschreckend.
+- **Lange Formulare**: Wenn ein Formular viele Felder enthält, können sich Benutzende leicht überfordert fühlen, wenn sie alle gleichzeitig angezeigt werden. Dagegen wirkt die Unterteilung in kleinere, besser handhabbare Abschnitte weniger abschreckend.
 
-* **Vermeiden von Abbrüchen**: Ein Assistenten-Layout kann auch dazu beitragen, den Formularabbruch zu reduzieren, da Benutzende mit höherer Wahrscheinlichkeit ein Formular ausfüllen, wenn sie den Fortschritt sehen und verstehen können, wie viel noch zu erledigen ist.
+- **Vermeiden von Abbrüchen**: Ein Assistenten-Layout kann auch dazu beitragen, den Formularabbruch zu reduzieren, da Benutzende mit höherer Wahrscheinlichkeit ein Formular ausfüllen, wenn sie den Fortschritt sehen und verstehen können, wie viel noch zu erledigen ist.
 
-* **Mobile Erlebnisse**: Ein Assistenten-Layout kann auch für Formulare von Vorteil sein, die auf Mobilgeräte geladen werden, da es kleinere Seiten ermöglicht, die schneller geladen werden und leichter zu navigieren sind.
+- **Mobile Erlebnisse**: Ein Assistenten-Layout kann auch für Formulare von Vorteil sein, die auf Mobilgeräte geladen werden, da es kleinere Seiten ermöglicht, die schneller geladen werden und leichter zu navigieren sind.
 
 Insgesamt kann ein Assistenten-Layout das Ausfüllen eines Formulars einfacher und effizienter gestalten. Es ist jedoch wichtig, die Komplexität des Formulars und die Anforderungen der Benutzenden zu berücksichtigen, bevor Sie sich für die Verwendung dieses Layouts entscheiden.
 
@@ -75,21 +75,21 @@ Im Dialogfeld „Konfigurieren“ können Sie den Assistenten für Besuchende ei
 
 ![Registerkarte „Allgemein“](/help/adaptive-forms/assets/wizard-basic.png)
 
-* **Name**: Sie können eine Formularkomponente sowohl im Formular als auch im Regeleditor durch ihren eindeutigen Namen identifizieren. Der Name darf keine Leerzeichen oder Sonderzeichen enthalten.
+- **Name**: Sie können eine Formularkomponente sowohl im Formular als auch im Regeleditor durch ihren eindeutigen Namen identifizieren. Der Name darf keine Leerzeichen oder Sonderzeichen enthalten.
 
-* **Titel** – Mit dem Titel können Sie eine Komponente in einem Formular leicht identifizieren. Standardmäßig wird der Titel oberhalb der Komponente angezeigt.
+- **Titel** – Mit dem Titel können Sie eine Komponente in einem Formular leicht identifizieren. Standardmäßig wird der Titel oberhalb der Komponente angezeigt.
 
-* **Titel ausblenden**: Wählen Sie die Option aus, um den Titel der Komponente auszublenden.
+- **Titel ausblenden**: Wählen Sie die Option aus, um den Titel der Komponente auszublenden.
 
-* **Daten in Objekt aufnehmen** – Wählen Sie „Daten in ein Objekt aufnehmen“ aus, um die Felddaten aus dem Assistenten in ein JSON-Objekt einzufügen. Wenn diese Option nicht ausgewählt ist, hat die JSON-Datei „Daten senden“ eine flache Struktur für die Felder des Assistenten.
+- **Daten in Objekt aufnehmen** – Wählen Sie „Daten in ein Objekt aufnehmen“ aus, um die Felddaten aus dem Assistenten in ein JSON-Objekt einzufügen. Wenn diese Option nicht ausgewählt ist, hat die JSON-Datei „Daten senden“ eine flache Struktur für die Felder des Assistenten.
 
-* **Layout**: Sie können für Ihren Assistenten entweder ein festes Layout (einfach) oder ein flexibles Layout (responsives Raster) verwenden. Das einfache Layout behält alles fest an der Stelle, während Sie mit dem responsiven Raster die Position der Komponenten an Ihre Bedürfnisse anpassen können. Verwenden Sie beispielsweise das responsive Raster, um „Vorname“, „Mittelname“ und „Nachname“ in einem Formular in einer einzigen Zeile auszurichten.
+- **Layout**: Sie können für Ihren Assistenten entweder ein festes Layout (einfach) oder ein flexibles Layout (responsives Raster) verwenden. Das einfache Layout behält alles fest an der Stelle, während Sie mit dem responsiven Raster die Position der Komponenten an Ihre Bedürfnisse anpassen können. Verwenden Sie beispielsweise das responsive Raster, um „Vorname“, „Mittelname“ und „Nachname“ in einem Formular in einer einzigen Zeile auszurichten.
 
-* **Verbindungsreferenz**: Eine Verbindungsreferenz ist ein Verweis auf ein Datenelement, das in einer externen Datenquelle gespeichert ist und in einem Formular verwendet wird. Sie können mit dem Bindungsverweis Daten dynamisch an Formularfelder binden, sodass das Formular die aktuellsten Daten aus der Datenquelle anzeigen kann. Beispielsweise kann ein Bindungsverweis verwendet werden, um den Namen und die Adresse von Kundinnen und Kunden in einem Formular anzuzeigen, basierend auf der im Formular eingegebenen Kunden-ID. Der Bindungsverweis kann auch verwendet werden, um die Datenquelle mit den im Formular eingegebenen Daten zu aktualisieren. Auf diese Weise können Sie mit AEM Forms Formulare erstellen, die mit externen Datenquellen interagieren und so ein nahtloses Benutzererlebnis bei der Datenerfassung und -verwaltung bieten.
+- **Verbindungsreferenz**: Eine Verbindungsreferenz ist ein Verweis auf ein Datenelement, das in einer externen Datenquelle gespeichert ist und in einem Formular verwendet wird. Sie können mit dem Bindungsverweis Daten dynamisch an Formularfelder binden, sodass das Formular die aktuellsten Daten aus der Datenquelle anzeigen kann. Beispielsweise kann ein Bindungsverweis verwendet werden, um den Namen und die Adresse von Kundinnen und Kunden in einem Formular anzuzeigen, basierend auf der im Formular eingegebenen Kunden-ID. Der Bindungsverweis kann auch verwendet werden, um die Datenquelle mit den im Formular eingegebenen Daten zu aktualisieren. Auf diese Weise können Sie mit AEM Forms Formulare erstellen, die mit externen Datenquellen interagieren und so ein nahtloses Benutzererlebnis bei der Datenerfassung und -verwaltung bieten.
 
-* **Komponente ausblenden**: Wählen Sie diese Option, um die Komponente aus dem Formular auszublenden. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor. Dies ist nützlich, wenn Sie Informationen speichern müssen, die Benutzende nicht sehen oder direkt ändern müssen.
+- **Komponente ausblenden**: Wählen Sie diese Option, um die Komponente aus dem Formular auszublenden. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor. Dies ist nützlich, wenn Sie Informationen speichern müssen, die Benutzende nicht sehen oder direkt ändern müssen.
 
-* **Komponente deaktivieren**: Wählen Sie die Option zum Deaktivieren der Komponente aus. Die deaktivierte Komponente ist nicht aktiv und Endbenutzende können sie nicht bearbeiten. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
+- **Komponente deaktivieren**: Wählen Sie die Option zum Deaktivieren der Komponente aus. Die deaktivierte Komponente ist nicht aktiv und Endbenutzende können sie nicht bearbeiten. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
 
 ### Registerkarte „Assistent wiederholen“ {#repeat-wizard-tab}
 
@@ -97,84 +97,80 @@ Im Dialogfeld „Konfigurieren“ können Sie den Assistenten für Besuchende ei
 
 Sie können die Wiederholungsoptionen verwenden, um den Assistenten und seine untergeordneten Komponenten zu duplizieren, eine minimale und maximale Wiederholungsanzahl zu definieren und die Replikation ähnlicher Abschnitte innerhalb eines Formulars zu erleichtern. Bei der Interaktion mit der Assistentenkomponente und dem Zugriff auf ihre Einstellungen werden die folgenden Optionen angezeigt:
 
-* **Assistenten wiederholbar machen**: Eine Umschalter-Funktion, mit der Benutzende die Wiederholungsfunktion aktivieren oder deaktivieren können.
-* **Mindestwiederholungen**: Legt fest, wie oft das Assistenten-Bedienfeld mindestens wiederholt werden kann. Der Wert null zeigt an, dass das Bedienfeld „Assistent“ nicht wiederholt wird. Der Standardwert ist null.
-* **Maximale Wiederholungen**: Legt fest, wie oft das Assistenten-Bedienfeld maximal wiederholt werden kann. Standardmäßig ist dieser Wert unbegrenzt.
+- **Assistenten wiederholbar machen**: Eine Umschalter-Funktion, mit der Benutzende die Wiederholungsfunktion aktivieren oder deaktivieren können.
+- **Mindestwiederholungen**: Legt fest, wie oft das Assistenten-Bedienfeld mindestens wiederholt werden kann. Der Wert null zeigt an, dass das Bedienfeld „Assistent“ nicht wiederholt wird. Der Standardwert ist null.
+- **Maximale Wiederholungen**: Legt fest, wie oft das Assistenten-Bedienfeld maximal wiederholt werden kann. Standardmäßig ist dieser Wert unbegrenzt.
 
 Um wiederholbare Abschnitte im Assistenten effektiv zu verwalten, folgen Sie den Schritten, die im Artikel [Erstellen von Formularen mit wiederholbaren Abschnitten](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=de) beschrieben sind.
 
+### Registerkarte „Elemente“ {#items-tab}
+
+![Registerkarte „Elemente“](/help/adaptive-forms/assets/wizard_helptab.png)
+
+Mit dieser Option können Sie Komponenten des adaptiven Formulars hinzufügen, indem Sie auf die Schaltfläche Hinzufügen klicken, die standardmäßig angezeigt wird, wenn der Assistent im Bearbeitungsmodus hinzugefügt wird.
+
 ### Registerkarte „Hilfe“ {#help-tab}
 
-![Registerkarte „Hilfe“](/help/adaptive-forms/assets/wizard-helpcontent.png)
+![Registerkarte „Hilfe“](/help/adaptive-forms/assets/wizard_helptab.png)
 
-* **Kurzbeschreibung**: Eine Kurzbeschreibung ist eine kurze Erklärung, die zusätzliche Informationen oder Klarstellungen über den Zweck eines Formularfelds bietet. Es hilft Benutzenden zu verstehen, welcher Datentyp in das Feld eingegeben werden soll, und kann Richtlinien oder Beispiele bereitstellen, um sicherzustellen, dass die eingegebenen Informationen gültig sind und die gewünschten Kriterien erfüllen. Standardmäßig bleiben kurze Beschreibungen ausgeblendet. Aktivieren Sie die Option **Kurzbeschreibung immer anzeigen**, um sie unterhalb der Komponente anzuzeigen.
+- **Kurzbeschreibung**: Eine Kurzbeschreibung ist eine kurze Erklärung, die zusätzliche Informationen oder Klarstellungen über den Zweck eines Formularfelds bietet. Es hilft Benutzenden zu verstehen, welcher Datentyp in das Feld eingegeben werden soll, und kann Richtlinien oder Beispiele bereitstellen, um sicherzustellen, dass die eingegebenen Informationen gültig sind und die gewünschten Kriterien erfüllen. Standardmäßig bleiben kurze Beschreibungen ausgeblendet. Aktivieren Sie die Option **Kurzbeschreibung immer anzeigen**, um sie unterhalb der Komponente anzuzeigen.
 
-* **Kurzbeschreibung immer anzeigen**: Aktivieren Sie diese Option, um die Kurzbeschreibung unterhalb der Komponente anzuzeigen.
+- **Kurzbeschreibung immer anzeigen**: Aktivieren Sie diese Option, um die Kurzbeschreibung unterhalb der Komponente anzuzeigen.
 
-* **Hilfetext**: Hilfetext bezieht sich auf zusätzliche Informationen oder Anleitungen, die den Benutzenden bereitgestellt werden, um sie beim korrekten Ausfüllen eines Formularfelds zu unterstützen. Er erscheint, wenn Benutzende auf das Hilfesymbol (i) neben der Komponente klicken. Hilfetext enthält detailliertere Informationen als die Beschriftung oder der Platzhaltertext eines Formularfelds und soll den Benutzenden dabei helfen, die Anforderungen oder Einschränkungen des Felds zu verstehen. Er kann auch Vorschläge oder Beispiele anbieten, um das Ausfüllen des Formulars einfacher und genauer zu gestalten.
+- **Hilfetext**: Hilfetext bezieht sich auf zusätzliche Informationen oder Anleitungen, die den Benutzenden bereitgestellt werden, um sie beim korrekten Ausfüllen eines Formularfelds zu unterstützen. Er erscheint, wenn Benutzende auf das Hilfesymbol (i) neben der Komponente klicken. Hilfetext enthält detailliertere Informationen als die Beschriftung oder der Platzhaltertext eines Formularfelds und soll den Benutzenden dabei helfen, die Anforderungen oder Einschränkungen des Felds zu verstehen. Er kann auch Vorschläge oder Beispiele anbieten, um das Ausfüllen des Formulars einfacher und genauer zu gestalten.
 
 
 ### Registerkarte „Barrierefreiheit“ {#accessibility}
 
-![Registerkarte „Barrierefreiheit“](/help/adaptive-forms/assets/wizard-accessibility.png)
+![Registerkarte „Barrierefreiheit“](/help/adaptive-forms/assets/wizard_accessibiltytab.png)
 
-* **Text für Bildschirmlesehilfen** – Das ist zusätzlicher Text, der von Hilfstechnologien wie etwa Bildschirmlesehilfen für sehbehinderte Personen vorgelesen wird. Dieser Text enthält eine Audiobeschreibung des Zwecks des Formularfelds und kann Informationen über den Titel, die Beschreibung, den Namen und alle relevanten Nachrichten (benutzerdefinierten Text) des Felds enthalten. Der Text der Bildschirmlesehilfe hilft sicherzustellen, dass das Formular allen Benutzenden zugänglich ist, auch Personen mit Sehschwäche, und bietet ihnen ein umfassendes Verständnis des Formularfelds und seiner Anforderungen.
+- **Text für Bildschirmlesehilfen** – Das ist zusätzlicher Text, der von Hilfstechnologien wie etwa Bildschirmlesehilfen für sehbehinderte Personen vorgelesen wird. Dieser Text enthält eine Audiobeschreibung des Zwecks des Formularfelds und kann Informationen über den Titel, die Beschreibung, den Namen und alle relevanten Nachrichten (benutzerdefinierten Text) des Felds enthalten. Der Text der Bildschirmlesehilfe hilft sicherzustellen, dass das Formular allen Benutzenden zugänglich ist, auch Personen mit Sehschwäche, und bietet ihnen ein umfassendes Verständnis des Formularfelds und seiner Anforderungen.
 
-* **HTML-Rolle für die Ankündigung durch die Bildschirmlesehilfe** – Die HTML-Rolle ist ein Attribut, mit dem der Zweck eines HTML-Elements für Hilfstechnologien wie Bildschirmlesehilfen spezifiziert wird. Rollenattribute werden verwendet, um für ein Element zusätzlichen Kontext und eine semantische Bedeutung bereitzustellen, wodurch es für Bildschirmlesehilfen einfacher wird, den Inhalt zu interpretieren und ihn Benutzenden mitzuteilen. In AEM Forms kann beispielsweise die Beschriftung eines Formularfelds die Rolle „Beschriftung“ haben und sein Eingabefeld die Rolle „Textfeld“. Dadurch kann die Bildschirmlesehilfe die Beziehung zwischen Beschrfitung und Eingabefeld verstehen und diese Informationen den Benutzenden korrekt mitteilen.
+- **HTML-Rolle für die Ankündigung durch die Bildschirmlesehilfe** – Die HTML-Rolle ist ein Attribut, mit dem der Zweck eines HTML-Elements für Hilfstechnologien wie Bildschirmlesehilfen spezifiziert wird. Rollenattribute werden verwendet, um für ein Element zusätzlichen Kontext und eine semantische Bedeutung bereitzustellen, wodurch es für Bildschirmlesehilfen einfacher wird, den Inhalt zu interpretieren und ihn Benutzenden mitzuteilen. In AEM Forms kann beispielsweise die Beschriftung eines Formularfelds die Rolle „Beschriftung“ haben und sein Eingabefeld die Rolle „Textfeld“. Dadurch kann die Bildschirmlesehilfe die Beziehung zwischen Beschrfitung und Eingabefeld verstehen und diese Informationen den Benutzenden korrekt mitteilen.
 
 
 ## Dialogfeld „Design“ {#design-dialog}
 
 Im Dialogfeld „Design“ können Vorlagenerstellende steuern, wie Elemente standardmäßig angezeigt werden. Für die Komponente „Assistent“ für adaptive Formulare können Sie Folgendes festlegen:
 
-* Die Kernkomponenten, die ein Formularersteller bzw. eine Formularerstellerin dem Assistierenden im Editor für adaptive Formulare hinzufügen kann.
-* Einfache Namen für Stile (CSS-Klassen), die im Eigenschaften-Dialogfeld der Assistenten-Komponente im Editor für adaptive Formulare angewendet werden können.
+- Die Kernkomponenten, die ein Formularersteller bzw. eine Formularerstellerin dem Assistierenden im Editor für adaptive Formulare hinzufügen kann.
+- Einfache Namen für Stile (CSS-Klassen), die im Eigenschaften-Dialogfeld der Assistenten-Komponente im Editor für adaptive Formulare angewendet werden können.
 
 Dadurch wird das Erstellen und Anpassen von Formularen einfacher und effizienter.
 
 ### Registerkarte „Zugelassene Komponenten“ {#allowed-components-tab}
 
-Über die Registerkarte **Zugelassene Komponenten** kann die Person, die die Vorlage erstellt, festlegen, welche Komponenten im Editor für adaptive Formulare zu den Bedienfeldern in der Assistenten-Komponente hinzugefügt werden können.
+![Registerkarte „Zugelassene Komponenten“](/help/adaptive-forms/assets/tabs-allowed-component.png)
+
+Die **Zugelassene Komponenten** -Tab ermöglicht es dem Vorlageneditor, die Komponenten festzulegen, die den Bedienfeldern in der Assistentenkomponente im adaptiven Forms-Editor als Elemente hinzugefügt werden können.
 
 ### Registerkarte „Stile“ {#styles-tab}
 
-Sie können das Dialogfeld „Design“ zum Definieren und Verwalten von CSS-Stilen für eine Komponente verwenden. Die Kernkomponente „Assistent“ für adaptive Formulare unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
+Sie können das Dialogfeld „Design“ zum Definieren und Verwalten von CSS-Stilen für eine Komponente verwenden. Die Kernkomponente des Adaptiven Forms-Assistenten unterstützt die AEM [Stilsystem](/help/get-started/authoring.md#component-styling).
 
-**Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die Assistenten-Komponente bereitstellen.
+![Registerkarte &quot;Stile&quot;](/help/adaptive-forms/assets/tabs-styles-tab.png)
 
-**Zulässige Stile**: Sie können Stile definieren, indem Sie den Namen und die CSS-Klasse für den Stil angeben. Sie können beispielsweise einen Stil mit dem Namen „Fettschrift“ erstellen und die CSS-Klasse „Schriftbreite: Fett“ bereitstellen. Sie können diese Stile bei einem adaptiven Formular im adaptiven Formular-Editor anwenden. Um einen Stil anzuwenden, wählen Sie im Editor für adaptive Formulare die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Eigenschaften-Dialog und wählen Sie den gewünschten Stil aus der Dropdown-Liste **Stile**. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld „Design“ zurück, aktualisieren die Stile auf der Registerkarte „Stile“ und speichern die Änderungen.
+- **Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die Kernkomponente des Adaptiven Forms-Assistenten bereitstellen.
 
-<!--
+- **Zulässige Stile**: Sie können Stile definieren, indem Sie den Namen und die CSS-Klasse für den Stil angeben. Sie können beispielsweise einen Stil mit dem Namen „Fettschrift“ erstellen und die CSS-Klasse „Schriftbreite: Fett“ bereitstellen. Sie können diese Stile bei einem adaptiven Formular im adaptiven Formular-Editor anwenden. Um einen Stil anzuwenden, wählen Sie im Editor für adaptive Formulare die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Eigenschaften-Dialog und wählen Sie den gewünschten Stil aus der Dropdown-Liste **Stile**. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld „Design“ zurück, aktualisieren die Stile auf der Registerkarte „Stile“ und speichern die Änderungen.
 
-## Related article {#related-article}
+### Registerkarte &quot;Benutzerdefinierte Eigenschaften&quot;
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+![Registerkarte &quot;Benutzerdefinierte Eigenschaften&quot;](/help/adaptive-forms/assets/tabs-custom-properties.png)
 
--->
+Mit benutzerdefinierten Eigenschaften können Sie benutzerdefinierte Attribute (Schlüssel-Wert-Paare) mithilfe der Formularvorlage mit einer Kernkomponente des adaptiven Formulars verknüpfen. Die benutzerdefinierten Eigenschaften werden im Abschnitt &quot;Eigenschaften&quot;der Headless-Ausgabe der Komponente angezeigt. Dies ermöglicht das Erstellen eines dynamischen Formularverhaltens, das sich basierend auf den benutzerdefinierten Attributwerten anpasst. Beispielsweise können Entwickler verschiedene Ausgabeformate einer Headless-Forms-Komponente für mobile, Desktop- oder Webplattformen entwerfen, wodurch das Benutzererlebnis auf einer Vielzahl von Geräten erheblich verbessert wird.
 
->[!MORELIKETHIS]
->
->* [Akkordeon](/help/adaptive-forms/components/accordion.md)
->* [Schaltfläche](/help/adaptive-forms/components/button.md)
->* [Kontrollkästchengruppe](/help/adaptive-forms/components/checkbox-group.md)
->* [Datumsauswahl](/help/adaptive-forms/components/date-picker.md)
->* [Dropdown-Liste](/help/adaptive-forms/components/drop-down.md)
->* [E-Mail-Eingabe](/help/adaptive-forms/components/email-input.md)
->* [Formular-Container](/help/adaptive-forms/components/form-container.md)
->* [Dateianhang](/help/adaptive-forms/components/file-attachment.md)
->* [Fußzeile](/help/adaptive-forms/components/footer.md)
->* [Kopfzeile](/help/adaptive-forms/components/header.md)
->* [Horizontale Registerkarten](/help/adaptive-forms/components/horizontal-tabs.md)
->* [Bild](/help/adaptive-forms/components/image.md)
->* [Zahleneingabe](/help/adaptive-forms/components/number-input.md)
->* [Bedienfeld-Container](/help/adaptive-forms/components/panel-container.md)
->* [Optionsschaltfläche](/help/adaptive-forms/components/radio-button.md)
->* [Zurücksetzen-Schaltfläche](/help/adaptive-forms/components/reset-button.md)
->* [Senden-Schaltfläche](/help/adaptive-forms/components/submit-button.md)
->* [Telefoneingabe](/help/adaptive-forms/components/telephone-input.md)
->* [Texteingabe](/help/adaptive-forms/components/text-input.md)
->* [Text](/help/adaptive-forms/components/text.md)
->* [Titel](/help/adaptive-forms/components/title.md)
+- **Gruppenname**: Sie können einen Namen angeben, um die benutzerdefinierte Eigenschaftsgruppe zu identifizieren. Sie können mehrere benutzerdefinierte Eigenschaftsgruppen hinzufügen, löschen oder neu anordnen. Nachdem Sie die benutzerdefinierte Eigenschaftsgruppe hinzugefügt haben, sehen Sie die folgenden Optionen:
+
+   - **Schlüssel-Wert-Paare**: Sie können mehrere benutzerdefinierte Eigenschaftsnamen und benutzerdefinierte Eigenschaftswerte hinzufügen, indem Sie auf das **Hinzufügen** -Schaltfläche für jede benutzerdefinierte Eigenschaftsgruppe.
+
+   - **Löschen**: Tippen oder klicken Sie auf , um den benutzerdefinierten Eigenschaftsnamen und den benutzerdefinierten Eigenschaftswert zu löschen.
+
+   - **Neu anordnen**: Tippen oder klicken und ziehen Sie, um die Reihenfolge des benutzerdefinierten Eigenschaftsnamens und des benutzerdefinierten Eigenschaftswerts neu anzuordnen.
+
+## Ähnliche Artikel {#related-articles}
+
+{{more-like-this}}
 
 ## Siehe auch {#see-also}
 
