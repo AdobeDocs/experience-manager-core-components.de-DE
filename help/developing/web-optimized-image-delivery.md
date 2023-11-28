@@ -3,10 +3,10 @@ title: Web-optimierte Bildbereitstellung
 description: Erfahren Sie, wie die Kernkomponenten die Funktionen zur Web-optimierten Bildbereitstellung von AEM as a Cloud Service nutzen können, um Bilder effizienter bereitzustellen.
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
-source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
-workflow-type: ht
-source-wordcount: '1118'
-ht-degree: 100%
+source-git-commit: d8c8f4c3395313b21f56fd7d98175924287c367c
+workflow-type: tm+mt
+source-wordcount: '1023'
+ht-degree: 97%
 
 ---
 
@@ -96,17 +96,7 @@ Im Folgenden finden Sie eine Service-Schnittstelle, die zum Generieren der Asset
 com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String, Object> parameterMap)
 ```
 
-Dieser Service akzeptiert eine Asset-Ressource als obligatorischen ersten Parameter und kann eine optionale Zuordnung der gewünschten Bildtransformationen entgegennehmen, die angewendet werden sollen und die die folgenden Parameter enthalten können.
-
-* `path` – Asset-ID, die bereitgestellt werden soll, muss dem Muster `([^:\[\]\|\*\/]+)` entsprechen (z. B.: `unicorn–1234`)
-* `seoname` – Benutzerdefinierter, SEO-zentrierter Name, der an die Bild-URL angehängt werden soll, kann Bindestriche enthalten, muss dem Muster `([\w-]+)` entsprechen (z. B.: `my-friend-the-unicorn`)
-* `format` – Das gewünschte Bildformat kann `gif`, `png`, `png8`, `jpg`, `pjpg`, `bjpg`, `webp`, `webpll` oder `webply` (z. B.: `webp`) sein
-* `preferwebp` – Senden Sie nach Möglichkeit die WebP-Ausgabe, ignorieren Sie dabei den Parameter `format` ([siehe die häufig gestellten Fragen zur Inhaltsaushandlung](#content-negotiation)), boolesch (z. B.: `true`)
-* `width` – Die gewünschte Bildauflösung in Pixel, muss größer als 1 sein (z. B.: `400`)
-* `quality` – Die gewünschte Komprimierung zwischen `1` und `100` (z. B.: `75`)
-* `c` – Die gewünschten Bildzuschnittkoordinaten, kommagetrennte Pixel-Werte (z. B.: `100,100,400,200`)
-* `r` – Die gewünschte Bildrotation, kann `90`, `180` oder `270` sein (z. B.: `90`)
-* `flip` – Die gewünschte horizontale und/oder vertikale Spiegelung des Bildes, kann `h`, `v` oder `hv` sein (z. B.: `h`)
+**Beachten Sie, dass direkte URL-Einbettungen in ein Erlebnis, das nicht über Kernkomponenten erstellt wurde, die auf AEM Sites CS ausgeführt werden, einen Verstoß gegen Media Library-Lizenzbedingungen darstellen.**
 
 ### Wie lautet die URL eines Bildes, das vom neuen Bild-Service bereitgestellt wird? {#url}
 
