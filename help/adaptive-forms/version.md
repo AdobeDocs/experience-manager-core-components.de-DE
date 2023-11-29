@@ -3,10 +3,10 @@ title: Kernkomponentenversionen von AEM Forms
 description: AEM Kernkomponenten werden als Versionen veröffentlicht, die mehr als eine Version derselben Kernkomponenten enthalten können. In diesem Dokument wird erläutert, welche Versionen veröffentlicht werden und wie die Kompatibilität mit Kernkomponenten und AEM verstanden werden kann.
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
-source-git-commit: f53be69df3dff9f3873a3bda6ba331f76de75487
+source-git-commit: a567b5ad937d426abe16c34e039e19cd0b1af5b0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '885'
+ht-degree: 58%
 
 ---
 
@@ -36,7 +36,7 @@ Die nachfolgende Tabelle enthält eine Liste der Kernkomponentenversionen, die m
 | [2.0.34](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.34) | Lokalisierungsunterstützung für Standard-Fehlermeldungen hinzugefügt, zusammen mit der Schaltfläche Hinzufügen/Entfernen für wiederholbare Komponenten. | Kontinuierlich | 8, 11 | 28. Juni 2023 |
 | [2.0.32](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.32) | Mit dieser Version wird die Unterstützung für Captcha für Adaptive Forms hinzugefügt. | Kontinuierlich | 8, 11 | 15. Juni 2023 |
 | [2.0.26](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.26) | Unterstützung für das Hinzufügen adaptiver Formulare in AEM Sites. | Kontinuierlich | 8, 11 | 7. Juni 2023 |
-| [2.0.18](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.18) | Mit dieser Version wird Unterstützung für eine Wiederholbarkeit für die Accordion-Komponente. | Kontinuierlich | 8, 11 | 5. Juni 2023 |
+| [2.0.18](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.18) | Mit dieser Version wird Unterstützung für eine Wiederholbarkeit für die Accordion-Komponente. Außerdem wurde eine neue Komponente als vertikale Registerkarten hinzugefügt. | Kontinuierlich | 8, 11 | 5. Juni 2023 |
 | [2.0.10](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.10) | Mit dieser Version wird die Unterstützung für eine Container-Komponente für adaptive Formulare im Editor von Sites eingeführt. | Kontinuierlich | 8, 11 | 17. März 2023 |
 | [2.0.8](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.8) | Die Funktion zur Wiederholbarkeit für die Assistentenkomponente wurde in dieser Version eingeführt. | Kontinuierlich | 8, 11 | 03. März 2023 |
 | [2.0.6](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.6) | In dieser Version werden mehrere Formate für die Kernkomponente „Zahleneingabe“ eingeführt. | Kontinuierlich | 8, 11 | 08. Februar 2023 |

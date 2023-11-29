@@ -3,9 +3,9 @@ title: Adaptive Forms-Kernkomponente - Vertikale Registerkarten
 description: Verwenden oder Anpassen der Kernkomponente Adaptive Forms Vertikale Registerkarten .
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
-source-git-commit: f0b450ef93a32a56000c31d82bf92394c57b55f9
+source-git-commit: a567b5ad937d426abe16c34e039e19cd0b1af5b0
 workflow-type: tm+mt
-source-wordcount: '1929'
+source-wordcount: '1927'
 ht-degree: 65%
 
 ---
@@ -32,13 +32,13 @@ Die häufigsten Gründe für die Verwendung von vertikalen Registerkarten in ein
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die Kernkomponente &quot;Vertikale Registerkarten der adaptiven Forms&quot;wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 veröffentlicht. In der folgenden Tabelle finden Sie alle unterstützten Versionen, AEM Kompatibilität und Links zur entsprechenden Dokumentation:
+Die Kernkomponente &quot;Vertikale Registerkarten der adaptiven Forms&quot;wurde als Teil der Kernkomponenten 2.0.18 veröffentlicht. In der folgenden Tabelle finden Sie alle unterstützten Versionen, AEM Kompatibilität und Links zur entsprechenden Dokumentation:
 
 |  |  |
 |---|---|
 | Komponentenversion | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Kompatibel mit<br>[Version 2.0.4](/help/versions.md) und höher | Kompatibel | Kompatibel |
+| v1 | Kompatibel mit<br>[Version 2.0.18](/help/versions.md) und höher | Kompatibel | Kompatibel |
 
 Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokument [Kernkomponenten-Versionen](/help/versions.md).
 
