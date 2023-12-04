@@ -3,14 +3,14 @@ title: Adaptive Forms-Kernkomponente - Vertikale Registerkarten
 description: Verwenden oder Anpassen der Kernkomponente Adaptive Forms Vertikale Registerkarten .
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
-source-git-commit: a567b5ad937d426abe16c34e039e19cd0b1af5b0
+source-git-commit: 4ca65f93e223fdd0b0a701ef335ed5be1fbab7fe
 workflow-type: tm+mt
-source-wordcount: '1927'
+source-wordcount: '1904'
 ht-degree: 65%
 
 ---
 
-# Vertikale Registerkarten {#vertical-tabs-adaptive-forms-core-component}
+# Vertikale Registerkarten-Komponente{#vertical-tabs-adaptive-forms-core-component}
 
 Vertikale Registerkarten in einem adaptiven Formular beziehen sich auf ein Entwurfsmuster, bei dem mehrere Abschnitte eines Formulars gruppiert und als separate, vertikal ausgerichtete Registerkarten angezeigt werden. Benutzende können zwischen den Registerkarten wechseln, um auf verschiedene Abschnitte des Formulars zuzugreifen. Jede Registerkarte dient als Auslöser zum Anzeigen und Ausblenden des jeweiligen Formularinhalts. Die vertikalen Registerkarten helfen, lange Formulare in überschaubare Abschnitte zu organisieren und das Benutzererlebnis zu verbessern. Registerkarten können ein Formular für Benutzende mit Behinderungen barrierefreier gestalten, da sie mithilfe der Tastaturnavigation zwischen Abschnitten wechseln können.
 

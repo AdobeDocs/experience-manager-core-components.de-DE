@@ -3,14 +3,14 @@ title: Adaptive Forms-Kernkomponente - Kontrollkästchen
 description: Verwenden oder Anpassen der Kernkomponente "Adaptive Forms Checkbox".
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: a567b5ad937d426abe16c34e039e19cd0b1af5b0
+source-git-commit: 4ca65f93e223fdd0b0a701ef335ed5be1fbab7fe
 workflow-type: tm+mt
-source-wordcount: '1706'
-ht-degree: 53%
+source-wordcount: '1692'
+ht-degree: 54%
 
 ---
 
-# Kontrollkästchen {#checkbox-component}
+# Kontrollkästchen-Komponente{#checkbox-component}
 
 Ein Kontrollkästchen ist ein grafisches Element der Benutzeroberfläche, das häufig in Softwareanwendungen und Formularen verwendet wird, um Benutzern die Möglichkeit zu geben, zwischen zwei Optionen eine binäre Auswahl zu treffen: &quot;Aktiviert&quot;(aktiviert) oder &quot;Nicht aktiviert&quot;(deaktiviert).
 
@@ -71,7 +71,7 @@ Im Dialogfeld &quot;Konfigurieren&quot;können Sie das Kontrollkästchen-Erlebni
 - **Komponente deaktivieren** - Wählen Sie die Option zum Deaktivieren oder Sperren der Komponente aus. Die deaktivierte Komponente ist nicht aktiv und Endbenutzende können sie nicht bearbeiten. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
 - **Schreibgeschützt**: Wählen Sie die Option aus, um die Komponente nicht bearbeitbar zu machen. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
 - **Wenn aktiviert, Rückgabewert** -Wählen Sie diese Option aus, um festzulegen, welcher Wert dem Kontrollkästchen zugeordnet werden soll, wenn es aktiviert oder ausgewählt ist. Es ist die Aktion, die auftritt, wenn Sie das Kontrollkästchen markieren oder ankreuzen.
-- **Aktivieren Sie die Option „Deaktivieren“.**- Wählen Sie die Option aus, um die Möglichkeit zum Deaktivieren eines zuvor aktivierten Kontrollkästchens zu aktivieren oder zu deaktivieren.
+- **Aktivieren Sie Deaktivieren.**- Wählen Sie die Option aus, um die Möglichkeit zum Deaktivieren eines zuvor aktivierten Kontrollkästchens zu aktivieren oder zu deaktivieren.
    - Wenn **Deaktivieren** aktiviert oder auf &quot;true&quot;gesetzt ist, bedeutet dies, dass der Benutzer das Kontrollkästchen nach seinem Ermessen aktivieren und deaktivieren kann. Sie können das Kontrollkästchen nach Bedarf aktivieren und deaktivieren.
 
    - Wenn **Deaktivieren** deaktiviert oder auf &quot;false&quot;gesetzt ist, bedeutet dies, dass der Benutzer die Markierung nicht mehr deaktivieren darf, sobald das Kontrollkästchen aktiviert wurde.
