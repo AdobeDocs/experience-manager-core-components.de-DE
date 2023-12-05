@@ -6,10 +6,10 @@ topic: Administration
 role: Admin, User
 level: Intermediate
 exl-id: aef6e88b-dcae-4777-9893-9257d7702f43
-source-git-commit: 1dd55fdd836dff89763887d88af2671ed1f9ce2b
+source-git-commit: ef86dfa62df0ac7f34ec1c4c4175e8a8132c8aed
 workflow-type: tm+mt
-source-wordcount: '1304'
-ht-degree: 100%
+source-wordcount: '1239'
+ht-degree: 96%
 
 ---
 
@@ -42,7 +42,7 @@ Anhand von Beispiel-Designs können Autorinnen und Autoren die Formatierung für
 Sie erhalten diese Designs anhand der folgenden Schritte, die unten für die **AEM as a Cloud Service**-Umgebung beschrieben sind:
 
 1. [Aktivieren von Kernkomponenten für adaptive Formulare](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=de)
-1. [Bereitstellen eines Projekts des AEM-Archetyps 45 in Ihrer Umgebung](https://github.com/adobe/aem-project-archetype)
+1. [Bereitstellung eines AEM Archetyp 47-Projekts oder höher in Ihrer Umgebung](https://github.com/adobe/aem-project-archetype)
 
 
 Wenn Sie einen AEM-Archetyp bereitstellen, können Sie nur die vorkonfigurierten Designs in Ihren Formularen verwenden, um die Designs gemäß Ihren Anforderungen anzupassen. [Verwenden Sie die Frontend-Pipeline](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=de), um die Designs bereitzustellen.
@@ -56,7 +56,7 @@ Wenn Sie einen AEM-Archetyp bereitstellen, können Sie nur die vorkonfigurierten
 1. **AEM 6.5**
 
     1. [Enable Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html)
-    1. [Deploy an AEM Archetype 45 project to your environment](https://github.com/adobe/aem-project-archetype)
+    1. [Deploy an AEM Archetype 45 or later project to your environment](https://github.com/adobe/aem-project-archetype)
 
 
     When you deploy an AEM Archetype, you can only use the OOTB themes in your forms, To customize the themes as per your requirements, [Use the front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html) to deploy the themes.
@@ -66,9 +66,9 @@ Wenn Sie einen AEM-Archetyp bereitstellen, können Sie nur die vorkonfigurierten
 
 <!--
 
-### Deploying an AEM Archetype 45 project to your environment {#using-archetype-to-deploy-themes}
+### Deploying an AEM Archetype 45 or later project to your environment {#using-archetype-to-deploy-themes}
 
-You can get these themes by deploying an [AEM Archetype 45](https://github.com/adobe/aem-project-archetype) to your **AEM Forms as a Cloud Service** or **AEM 6.5** Forms environment.
+You can get these themes by deploying an [AEM Archetype 45 or later](https://github.com/adobe/aem-project-archetype) to your **AEM Forms as a Cloud Service** or **AEM 6.5** Forms environment.
 
 ### Enable core components and use front-end pipeline to deploy themes {#use-front-end-pipeline-to-deploy-themes}
 
@@ -124,7 +124,7 @@ Das Design „Healthcare“ (Gesundheitswesen) verwendet satte Grüntöne, um El
 Vorlagen definieren die anfängliche Formularstruktur, den Inhalt und die Aktionen, die in Ihrem Formular repliziert werden sollen, oder verwenden eine ähnliche Vorlagenstruktur wie das gewünschte Formular, z. B. Einverständnisformular, Registrierungsformular für Nebenleistungen und vieles mehr.
 
 **Wie bekommt man diese Vorlagen?**
-Sie können die Vorlagen abrufen, indem Sie einen [AEM-Archetyp 45](https://github.com/adobe/aem-project-archetype) in einer Umgebung von **AEM Forms as a Cloud Service** oder **AEM 6.5** bereitstellen.
+Sie können diese Vorlagen abrufen, indem Sie eine [AEM Archetyp 45 oder höher](https://github.com/adobe/aem-project-archetype) auf **AEM Forms as a Cloud Service** Umgebung oder **AEM 6.5 Forms** Umgebung.
 
 <!--
 
