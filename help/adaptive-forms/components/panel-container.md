@@ -4,9 +4,9 @@ description: Verwenden oder Anpassen der Kernkomponente „Bedienfeld-Container�
 role: Architect, Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
 source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2036'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -129,37 +129,37 @@ Um wiederholbare Abschnitte innerhalb des Bedienfeld-Containers effektiv zu verw
 
 ## Dialogfeld „Design“ {#design-dialog}
 
-Das Dialogfeld &quot;Design&quot;wird verwendet, um CSS-Stile für die Formularcontainer-Komponente zu definieren und zu verwalten.
+Über das Dialogfeld „Design“ können Sie CSS-Stile für die Formular-Container-Komponente definieren und verwalten.
 
 ### Registerkarte „Zugelassene Komponenten“ {#allowed-components-tab}
 
-![Registerkarte &quot;Design Dialog allowed&quot;](/help/adaptive-forms/assets/panel-container-allowed-component.png)
+![Registerkarte „Zugelassene Komponenten“ des Dialogfelds „Design“](/help/adaptive-forms/assets/panel-container-allowed-component.png)
 
-Die **Zugelassene Komponenten** -Tab ermöglicht es dem Vorlageneditor, die Komponenten festzulegen, die den Bedienfeldern in der Komponente im Editor für adaptive Forms als Elemente hinzugefügt werden können.
+Über die Registerkarte **Zugelassene Komponenten** kann die Person, die die Vorlage bearbeitet, festlegen, welche Komponenten im Editor für adaptive Formulare zu den Bedienfeldern in der Komponente hinzugefügt werden können.
 
 ### Registerkarte „Standardkomponenten“ {#default-components-tab}
 
-![Registerkarte &quot;Standardkomponente&quot;im Dialogfeld &quot;Design&quot;](/help/adaptive-forms/assets/panel-container-default-component.png)
+![Registerkarte „Standardkomponenten“ des Dialogfelds „Design“](/help/adaptive-forms/assets/panel-container-default-component.png)
 
-Die **Standardkomponenten** -Tab ermöglicht es dem Vorlageneditor, die Komponenten anzugeben, die standardmäßig als Elemente in der Formularcontainer-Komponente im adaptiven Forms-Editor sichtbar sind.
+Über die Registerkarte **Standardkomponenten** kann die Person, die die Vorlage bearbeitet, festlegen, welche Komponenten standardmäßig als Elemente der Formular-Container-Komponente im Editor für adaptive Formulare angezeigt werden sollen.
 
 ### Registerkarte „Responsive Einstellungen“ {#responsive-tab}
 
-![Registerkarte &quot;Responsive Einstellungen&quot;im Dialogfeld &quot;Design&quot;](/help/adaptive-forms/assets/panel-container-responsive-style-tab.png)
+![Registerkarte „Responsive Einstellungen“ des Dialogfelds „Design“](/help/adaptive-forms/assets/panel-container-responsive-style-tab.png)
 
-Die **Responsive Einstellungen** -Tab ermöglicht es dem Vorlageneditor, die Anzahl der Spalten im Raster innerhalb der Formularcontainer-Komponente im adaptiven Forms-Editor anzugeben.
+Über die Registerkarte **Responsive Einstellungen** kann die Person, die die Vorlage bearbeitet, die Anzahl der Rasterspalten der Formular-Container-Komponente im Editor für adaptive Formulare festlegen.
 
-### Registerkarte &quot;Container Settings&quot;
+### Registerkarte „Container-Einstellungen“
 
-![Registerkarte &quot;Container Settings&quot;](/help/adaptive-forms/assets/panel-container-container-settings.png)
+![Registerkarte „Container-Einstellungen“](/help/adaptive-forms/assets/panel-container-container-settings.png)
 
 - **Layout**: Sie können für Ihren Assistenten entweder ein festes Layout (einfach) oder ein flexibles Layout (responsives Raster) verwenden. Das einfache Layout behält alles fest an der Stelle, während Sie mit dem responsiven Raster die Position der Komponenten an Ihre Bedürfnisse anpassen können. Verwenden Sie beispielsweise das responsive Raster, um „Vorname“, „Mittelname“ und „Nachname“ in einem Formular in einer einzigen Zeile auszurichten.
 
-- **Layout deaktivieren**: Wählen Sie diese Option, um die Layoutauswahl im Dialogfeld &quot;Bearbeiten&quot;einer Komponente zu deaktivieren.
+- **Layout deaktivieren**: Mit dieser Option können Sie die Layout-Auswahl im Dialogfeld „Bearbeiten“ einer Komponente deaktivieren.
 
-- **Hintergrundbild aktivieren**: Diese Option ermöglicht es dem Benutzer, die Einstellungen des Bedienfelds so zu konfigurieren, dass ein visueller Hintergrund zur Verbesserung der visuellen Darstellung angezeigt wird.
+- **Hintergrundbild aktivieren**: Mit dieser Option können Sie die Einstellungen des Bedienfelds so konfigurieren, dass die visuelle Darstellung durch einen visuellen Hintergrund verbessert wird.
 
-- **Hintergrundfarbe aktivieren**: Mit dieser Option können Sie die Hintergrundfarbe des Bedienfelds festlegen oder ändern. Diese Funktion wird in der Benutzeroberfläche häufig verwendet, um das Erscheinungsbild von Bedienfeldern in einer größeren Oberfläche anzupassen. Wenn Sie die **Hintergrundfarbe aktivieren** die Option **Nur Farbfelder** angezeigt. Die **Nur Farbfelder** Mit dieser Option können Sie Farben für Hintergrund, Text oder andere visuelle Elemente innerhalb des Bedienfelds mithilfe der **Hinzufügen** button
+- **Hintergrundfarbe aktivieren**: Mit dieser Option können Sie die Hintergrundfarbe des Bedienfelds festlegen oder ändern. Diese Funktion wird in der Benutzeroberfläche häufig verwendet, um das Erscheinungsbild der Bedienfelder an eine größere Benutzeroberfläche anzupassen. Wenn Sie die Option **Hintergrundfarbe aktivieren** auswählen, wird die Option **Nur Farbfelder** angezeigt. Mit der Option **Nur Farbfelder** können Sie Farben für Hintergrund, Text und andere visuelle Elemente innerhalb des Bedienfelds mithilfe der Schaltfläche **Hinzufügen** festlegen oder auswählen
 
 ### Registerkarte „Stile“ {#styles-tab}
 
@@ -171,19 +171,19 @@ Die Kernkomponente „Dateianhänge“ für adaptive Formulare unterstützt das 
 
 - **Zulässige Stile**: Sie können Stile definieren, indem Sie einen Namen und die CSS-Klasse angeben, die den Stil darstellen. Sie können beispielsweise einen Stil mit dem Namen „Fettschrift“ erstellen und die CSS-Klasse „Schriftbreite: Fett“ bereitstellen. Sie können diese Stile bei einem adaptiven Formular im adaptiven Formular-Editor anwenden. Um einen Stil anzuwenden, wählen Sie im Editor für adaptive Formulare die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Eigenschaften-Dialog und wählen Sie den gewünschten Stil aus der Dropdown-Liste **Stile**. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld „Design“ zurück, aktualisieren die Stile auf der Registerkarte „Stile“ und speichern die Änderungen.
 
-### Registerkarte &quot;Benutzerdefinierte Eigenschaften&quot;
+### Registerkarte „Benutzerdefinierte Eigenschaften“
 
-![Dialogfeld &quot;Benutzerdefinierte Eigenschaften&quot;](/help/adaptive-forms/assets/panel-container-custom-properties.png)
+![Dialogfeld „Benutzerdefinierte Eigenschaften“](/help/adaptive-forms/assets/panel-container-custom-properties.png)
 
-Mit benutzerdefinierten Eigenschaften können Sie benutzerdefinierte Attribute (Schlüssel-Wert-Paare) mithilfe der Formularvorlage mit einer Kernkomponente des adaptiven Formulars verknüpfen. Die benutzerdefinierten Eigenschaften werden im Abschnitt &quot;Eigenschaften&quot;der Headless-Ausgabe der Komponente angezeigt. Dies ermöglicht das Erstellen eines dynamischen Formularverhaltens, das sich basierend auf den benutzerdefinierten Attributwerten anpasst. Beispielsweise können Entwickler verschiedene Ausgabeformate einer Headless-Forms-Komponente für mobile, Desktop- oder Webplattformen entwerfen, wodurch das Benutzererlebnis auf einer Vielzahl von Geräten erheblich verbessert wird.
+Mit der Option „Benutzerdefinierte Eigenschaften“ können Sie mithilfe der Formularvorlage benutzerdefinierte Attribute (Schlüsselwertpaare) mit einer Kernkomponente eines adaptiven Formulars verknüpfen. Die benutzerdefinierten Eigenschaften werden im Eigenschaftenbereich der Headless-Ausgabedarstellung der Komponente angezeigt. So kann ein dynamisches Formularverhalten erzeugt werden, das sich je nach den benutzerdefinierten Attributwerten anpasst. Beispielsweise können Entwickelnde verschiedene Ausgabedarstellungen einer Headless-Formularkomponente für Mobile-, Desktop- oder Web-Plattformen entwerfen und so das Benutzererlebnis auf einer Vielzahl von Geräten erheblich verbessern.
 
-- **Gruppenname**: Sie können einen Namen angeben, um die benutzerdefinierte Eigenschaftsgruppe zu identifizieren. Sie können mehrere benutzerdefinierte Eigenschaftsgruppen hinzufügen, löschen oder neu anordnen. Nachdem Sie die benutzerdefinierte Eigenschaftsgruppe hinzugefügt haben, sehen Sie die folgenden Optionen:
+- **Gruppenname**: Sie können einen Namen angeben, um die Gruppe der benutzerdefinierten Eigenschaften zu kennzeichnen. Sie können mehrere Gruppen benutzerdefinierter Eigenschaften hinzufügen, löschen oder neu anordnen. Nach dem Hinzufügen der Gruppe benutzerdefinierter Eigenschaften werden folgende Optionen angezeigt:
 
-   - **Schlüssel-Wert-Paare**: Sie können mehrere benutzerdefinierte Eigenschaftsnamen und benutzerdefinierte Eigenschaftswerte hinzufügen, indem Sie auf das **Hinzufügen** -Schaltfläche für jede benutzerdefinierte Eigenschaftsgruppe.
+   - **Schlüssel-Wert-Paare**: Sie können mehrere Namen und Werte für benutzerdefinierte Eigenschaften hinzufügen, indem Sie für jede Gruppe benutzerdefinierter Eigenschaften auf **Hinzufügen** klicken.
 
-   - **Löschen**: Tippen oder klicken Sie auf , um den benutzerdefinierten Eigenschaftsnamen und den benutzerdefinierten Eigenschaftswert zu löschen.
+   - **Löschen**: Tippen oder klicken Sie auf diese Option, um den Namen und den Wert der benutzerdefinierten Eigenschaft zu löschen.
 
-   - **Neu anordnen**: Tippen oder klicken und ziehen Sie, um die Reihenfolge des benutzerdefinierten Eigenschaftsnamens und des benutzerdefinierten Eigenschaftswerts neu anzuordnen.
+   - **Neu anordnen**: Ordnen Sie den Namen und Wert der benutzerdefinierten Eigenschaft Antippen oder Klicken und Ziehen neu an.
 
 <!--
 
