@@ -1,8 +1,8 @@
 ---
 source-git-commit: 2b1e62dc57126316a79f22d7d9f203f7ef044dc4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '372'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 # Snippets {#snippets}
@@ -54,11 +54,11 @@ ht-degree: 97%
 - [Senden von Daten adaptiver Formulare an einen AEM-Workflow](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=de#invoke-an-aem-workflow)
 - [Verwenden von Forms Portal zur Auflistung von adaptiven AEM-Formularen auf einer AEM-Website](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-forms-portal.html?lang=de)
 
-## Mehr dazu {#more-like-this}
+## Verwandte Themen {#more-like-this}
 
 - [Akkordeon](/help/adaptive-forms/components/accordion.md)
 - [Schaltfläche](/help/adaptive-forms/components/button.md)
-- [Kontrollkästchen „Gruppe“](/help/adaptive-forms/components/checkbox-group.md)
+- [Kontrollkästchengruppe](/help/adaptive-forms/components/checkbox-group.md)
 - [Kontrollkästchen](/help/adaptive-forms/components/checkbox.md)
 - [Datumsauswahl](/help/adaptive-forms/components/date-picker.md)
 - [Dropdown-Liste](/help/adaptive-forms/components/drop-down.md)
@@ -70,8 +70,8 @@ ht-degree: 97%
 - [Bild](/help/adaptive-forms/components/image.md)
 - [Zahleneingabe](/help/adaptive-forms/components/number-input.md)
 - [Bedienfeld-Container](/help/adaptive-forms/components/panel-container.md)
-- [Registerkarte &quot;Horizontal&quot;](/help/adaptive-forms/components/horizontal-tabs.md)
-- [Vertikaler Tab](/help/adaptive-forms/components/vertical-tabs.md)
+- [Horizontale Registerkarte](/help/adaptive-forms/components/horizontal-tabs.md)
+- [Vertikale Registerkarte](/help/adaptive-forms/components/vertical-tabs.md)
 - [Optionsschaltfläche](/help/adaptive-forms/components/radio-button.md)
 - [Schaltfläche „Zurücksetzen“](/help/adaptive-forms/components/reset-button.md)
 - [Schaltfläche „Senden“](/help/adaptive-forms/components/submit-button.md)
@@ -79,6 +79,6 @@ ht-degree: 97%
 - [Texteingabe](/help/adaptive-forms/components/text-input.md)
 - [Text](/help/adaptive-forms/components/text.md)
 - [Titel](/help/adaptive-forms/components/title.md)
-- [Registerkarte &quot;Allgemeine Geschäftsbedingungen&quot;](/help/adaptive-forms/components/terms-and-conditions.md)
+- [Registerkarte „Nutzungsbedingungen“](/help/adaptive-forms/components/terms-and-conditions.md)
 - [Assistent](/help/adaptive-forms/components/wizard.md)
 
