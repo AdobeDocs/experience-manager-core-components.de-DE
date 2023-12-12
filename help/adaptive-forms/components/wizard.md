@@ -4,9 +4,9 @@ description: Verwenden oder Anpassen der Kernkomponente „Assistent“ für ada
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
 source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2048'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -107,7 +107,7 @@ Um wiederholbare Abschnitte im Assistenten effektiv zu verwalten, folgen Sie den
 
 ![Registerkarte „Elemente“](/help/adaptive-forms/assets/wizard_helptab.png)
 
-Mit dieser Option können Sie Komponenten des adaptiven Formulars hinzufügen, indem Sie auf die Schaltfläche Hinzufügen klicken, die standardmäßig angezeigt wird, wenn der Assistent im Bearbeitungsmodus hinzugefügt wird.
+Mit dieser Option können Sie adaptive Formularkomponenten hinzufügen, indem Sie auf „Hinzufügen“ klicken. Diese Schaltfläche wird standardmäßig angezeigt, wenn der Assistent im Bearbeitungsmodus hinzugefügt wird.
 
 ### Registerkarte „Hilfe“ {#help-tab}
 
@@ -142,31 +142,31 @@ Dadurch wird das Erstellen und Anpassen von Formularen einfacher und effizienter
 
 ![Registerkarte „Zugelassene Komponenten“](/help/adaptive-forms/assets/tabs-allowed-component.png)
 
-Die **Zugelassene Komponenten** -Tab ermöglicht es dem Vorlageneditor, die Komponenten festzulegen, die den Bedienfeldern in der Assistentenkomponente im adaptiven Forms-Editor als Elemente hinzugefügt werden können.
+Über die Registerkarte **Zugelassene Komponenten** kann der Person, die die Vorlage bearbeitet, festlegen, welche Komponenten als Elemente zu den Bedienfeldern der Assistenten-Komponente im Editor für adaptive Formulare hinzugefügt werden können.
 
 ### Registerkarte „Stile“ {#styles-tab}
 
-Sie können das Dialogfeld „Design“ zum Definieren und Verwalten von CSS-Stilen für eine Komponente verwenden. Die Kernkomponente des Adaptiven Forms-Assistenten unterstützt die AEM [Stilsystem](/help/get-started/authoring.md#component-styling).
+Sie können das Dialogfeld „Design“ zum Definieren und Verwalten von CSS-Stilen für eine Komponente verwenden. Die Assistenten-Kernkomponente für adaptive Formulare unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
-![Registerkarte &quot;Stile&quot;](/help/adaptive-forms/assets/tabs-styles-tab.png)
+![Registerkarte „Stile“](/help/adaptive-forms/assets/tabs-styles-tab.png)
 
-- **Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die Kernkomponente des Adaptiven Forms-Assistenten bereitstellen.
+- **Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die Assistenten-Kernkomponente für adaptive Formulare bereitstellen.
 
 - **Zulässige Stile**: Sie können Stile definieren, indem Sie den Namen und die CSS-Klasse für den Stil angeben. Sie können beispielsweise einen Stil mit dem Namen „Fettschrift“ erstellen und die CSS-Klasse „Schriftbreite: Fett“ bereitstellen. Sie können diese Stile bei einem adaptiven Formular im adaptiven Formular-Editor anwenden. Um einen Stil anzuwenden, wählen Sie im Editor für adaptive Formulare die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Eigenschaften-Dialog und wählen Sie den gewünschten Stil aus der Dropdown-Liste **Stile**. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld „Design“ zurück, aktualisieren die Stile auf der Registerkarte „Stile“ und speichern die Änderungen.
 
-### Registerkarte &quot;Benutzerdefinierte Eigenschaften&quot;
+### Registerkarte „Benutzerdefinierte Eigenschaften“
 
-![Registerkarte &quot;Benutzerdefinierte Eigenschaften&quot;](/help/adaptive-forms/assets/tabs-custom-properties.png)
+![Registerkarte „Benutzerdefinierte Eigenschaften“](/help/adaptive-forms/assets/tabs-custom-properties.png)
 
-Mit benutzerdefinierten Eigenschaften können Sie benutzerdefinierte Attribute (Schlüssel-Wert-Paare) mithilfe der Formularvorlage mit einer Kernkomponente des adaptiven Formulars verknüpfen. Die benutzerdefinierten Eigenschaften werden im Abschnitt &quot;Eigenschaften&quot;der Headless-Ausgabe der Komponente angezeigt. Dies ermöglicht das Erstellen eines dynamischen Formularverhaltens, das sich basierend auf den benutzerdefinierten Attributwerten anpasst. Beispielsweise können Entwickler verschiedene Ausgabeformate einer Headless-Forms-Komponente für mobile, Desktop- oder Webplattformen entwerfen, wodurch das Benutzererlebnis auf einer Vielzahl von Geräten erheblich verbessert wird.
+Mit der Option „Benutzerdefinierte Eigenschaften“ können Sie mithilfe der Formularvorlage benutzerdefinierte Attribute (Schlüsselwertpaare) mit einer Kernkomponente eines adaptiven Formulars verknüpfen. Die benutzerdefinierten Eigenschaften werden im Eigenschaftenbereich der Headless-Ausgabedarstellung der Komponente angezeigt. So kann ein dynamisches Formularverhalten erzeugt werden, das sich je nach den benutzerdefinierten Attributwerten anpasst. Beispielsweise können Entwickelnde verschiedene Ausgabedarstellungen einer Headless-Formularkomponente für Mobile-, Desktop- oder Web-Plattformen entwerfen und so das Benutzererlebnis auf einer Vielzahl von Geräten erheblich verbessern.
 
-- **Gruppenname**: Sie können einen Namen angeben, um die benutzerdefinierte Eigenschaftsgruppe zu identifizieren. Sie können mehrere benutzerdefinierte Eigenschaftsgruppen hinzufügen, löschen oder neu anordnen. Nachdem Sie die benutzerdefinierte Eigenschaftsgruppe hinzugefügt haben, sehen Sie die folgenden Optionen:
+- **Gruppenname**: Sie können einen Namen angeben, um die Gruppe der benutzerdefinierten Eigenschaften zu kennzeichnen. Sie können mehrere Gruppen benutzerdefinierter Eigenschaften hinzufügen, löschen oder neu anordnen. Nach dem Hinzufügen der Gruppe benutzerdefinierter Eigenschaften werden folgende Optionen angezeigt:
 
-   - **Schlüssel-Wert-Paare**: Sie können mehrere benutzerdefinierte Eigenschaftsnamen und benutzerdefinierte Eigenschaftswerte hinzufügen, indem Sie auf das **Hinzufügen** -Schaltfläche für jede benutzerdefinierte Eigenschaftsgruppe.
+   - **Schlüssel-Wert-Paare**: Sie können mehrere Namen und Werte benutzerdefinierter Eigenschaften hinzufügen, indem Sie für jede Gruppe benutzerdefinierter Eigenschaften auf **Hinzufügen** klicken.
 
-   - **Löschen**: Tippen oder klicken Sie auf , um den benutzerdefinierten Eigenschaftsnamen und den benutzerdefinierten Eigenschaftswert zu löschen.
+   - **Löschen**: Tippen oder klicken Sie auf diese Option, um den Namen und den Wert der benutzerdefinierten Eigenschaft zu löschen.
 
-   - **Neu anordnen**: Tippen oder klicken und ziehen Sie, um die Reihenfolge des benutzerdefinierten Eigenschaftsnamens und des benutzerdefinierten Eigenschaftswerts neu anzuordnen.
+   - **Neu anordnen**: Ordnen Sie den Namen und Wert der benutzerdefinierten Eigenschaft Antippen oder Klicken und Ziehen neu an.
 
 ## Ähnliche Artikel {#related-articles}
 
