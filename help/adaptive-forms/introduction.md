@@ -4,9 +4,9 @@ description: Erstellen Sie ansprechende Registrierungserlebnisse (Formulare) mit
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
 source-git-commit: 1dbbb598c0856b76c076f322cdf0210bf38ee9e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1267'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Diese Komponenten können verwendet werden, um außergewöhnliche Datenerfassung
 
 Da es sich bei diesen Komponenten um Open-Source-Elemente handelt, können Entwickler und Entwicklerinnen die Komponenten einfach erweitern und an die spezifischen Anforderungen ihrer Organisation anpassen. Zusätzlich basieren diese Komponenten auf der BEM-Methode, die sicherstellt, dass sie skalierbar und wartbar sind.
 
-![Adaptives Formularbild](assets/sample-adaptive-form.png)
+![Adaptives Formular – Bild](assets/sample-adaptive-form.png)
 
 ## Funktionen {#features}
 
