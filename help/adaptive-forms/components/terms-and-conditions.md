@@ -1,46 +1,46 @@
 ---
-title: Adaptive Forms-Kernkomponente - Geschäftsbedingungen
-description: Verwenden oder Anpassen der Kernkomponente "Adaptive Forms-Geschäftsbedingungen".
+title: Kernkomponente für adaptive Formulare - Nutzungsbedingungen
+description: Verwenden oder Anpassen der Nutzungsbedingungs-Kernkomponente für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
 source-git-commit: a567b5ad937d426abe16c34e039e19cd0b1af5b0
 workflow-type: tm+mt
-source-wordcount: '2639'
-ht-degree: 66%
+source-wordcount: '2633'
+ht-degree: 98%
 
 ---
 
-# Komponente &quot;Allgemeine Geschäftsbedingungen&quot;
+# Nutzungsbedingungskomponente
 
-A **Geschäftsbedingungen** -Komponente bezieht sich auf einen Abschnitt in einem Formular, in dem die Bedingungen, Regeln und Bedingungen erläutert werden, denen Benutzer bei der Verwendung eines Dienstes oder beim Zugriff auf Inhalte zustimmen oder diese erfüllen müssen.
+Eine **Nutzungsbedingungskomponente** bezieht sich auf einen Abschnitt eines Formulars, in dem die Bedingungen, Regeln und Vorgaben erläutert werden, denen Benutzende bei der Verwendung eines Dienstes oder beim Zugriff auf Inhalte zustimmen oder die sie erfüllen müssen.
 
-Die **Geschäftsbedingungen** -Komponente ist eine Composite-Komponente, die aus Text-, Kontrollkästchen- und Link-Komponenten besteht. Die Textkomponente enthält einen Titel sowie einen kurzen Überblick über Zweck und Umfang der Nutzungsbedingungen. Es enthält auch ein Kontrollkästchen, mit dem der Benutzer explizit seine Zustimmung erteilen kann. Sie können auch einen Zustimmungstext durch Links ersetzen.
+Die **Nutzungsbedingungskomponente** ist eine Composite-Komponente aus Text, Kontrollkästchen und Links. Die Textkomponente enthält einen Titel sowie einen kurzen Überblick über Zweck und Umfang der Nutzungsbedingungen. Ferner enthält sie ein Kontrollkästchen, mit dem Benutzende explizit ihre Zustimmung erteilen können. Sie können auch einen Zustimmungstext durch Links ersetzen.
 
 **Beispiel**
 
-![Bedingungen](/help/adaptive-forms/assets/terms-and-conditions.png)
+![Nutzungsbedingungen](/help/adaptive-forms/assets/terms-and-conditions.png)
 
-Siehe [Unterkomponenten der Komponente &quot;Geschäftsbedingungen&quot;](#sub-component) , um mehr über die verschiedenen Komponenten der Komponente &quot;Allgemeine Geschäftsbedingungen&quot;zu erfahren.
+Unter [Unterkomponenten der Nutzungsbedingungskomponente](#sub-component) finden Sie weitere Informationen zu den verschiedenen Komponenten der Nutzungsbedingungskomponente.
 
 ## Verwendung {#reasons-to-use-termsandconditions}
 
-- **Benutzervereinbarung**: Die Komponente dient als Vereinbarung zwischen dem Dienstleister und dem Benutzer. Benutzer müssen die Bedingungen bestätigen und akzeptieren, bevor sie auf den Dienst oder Inhalt zugreifen.
+- **Nutzungsvereinbarung**: Die Komponente dient als Vereinbarung zwischen dem Dienstleister und Benutzenden. Benutzende müssen die Bedingungen bestätigen und akzeptieren, bevor sie auf den Dienst oder Inhalt zugreifen können.
 
-- **Rechtliche Einhaltung**: Es gewährleistet die rechtliche Einhaltung und den Schutz des Dienstleisters, indem die Rechte, Verantwortlichkeiten und Verbindlichkeiten beider Parteien dargelegt werden.
+- **Einhaltung gesetzlicher Vorschriften**: Gewährleistet die Einhaltung rechtlicher Vorschriften und den Schutz des Dienstleisters, indem die Rechte, Pflichten und Verbindlichkeiten beider Parteien klar festgelegt werden.
 
-- **Registrierungsverfahren**: Die Registrierungs- oder Registrierungsformulare enthalten die **Geschäftsbedingungen** -Komponente, die die ausdrückliche Zustimmung der Benutzer zu den Bedingungen verlangt, bevor sie ein Konto erstellen oder einen Dienst verwenden.
+- **Registrierungsverfahren**: Registrierungs- und Anmeldeformulare mit der **Nutzungsbedingungskomponente**, deren Bedingungen Benutzende vor der Erstellung eines Kontos oder der Nutzung eines Dienstes explizit zustimmen müssen.
 
-- **E-Commerce-Transaktionen**: Online-Websites beinhalten die **Geschäftsbedingungen** -Komponente, damit Benutzer im Rahmen des Checkout-Prozesses aufgefordert werden, den Geschäftsbedingungen zuzustimmen, bevor sie online Käufe tätigen.
+- **E-Commerce-Transaktionen**: Online-Websites mit der **Nutzungsbedingungskomponente**, auf der Benutzende aufgefordert werden, den Bedingungen als Teil des Checkout-Prozesses zuzustimmen, bevor ein Online-Kauf erfolgt.
 
-- **Sicherheits- und Datenschutzabkommen**: Die **Geschäftsbedingungen** -Komponente enthält Details dazu, wie die Benutzerdaten erfasst, gespeichert und verwendet werden, häufig ergänzt durch eine separate Datenschutzrichtlinie
+- **Sicherheits- und Datenschutzabkommen**: Die **Nutzungsbedingungskomponente** informiert darüber, wie Benutzerdaten erfasst, gespeichert und verwendet werden, häufig ergänzt durch eine separate Datenschutzrichtlinie.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die Kernkomponente „Akkordeon“ für adaptive Formulare wurde im Februar 2023 als Teil der Kernkomponenten 2.0.62 für Cloud Service und der Kernkomponenten 1.1.28 für AEM 6.5.16.0 Forms oder höher veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
+Die Kernkomponente &quot;Adaptive Forms Accordion&quot;wurde im Februar 2023 als Teil der Kernkomponenten 2.0.62 für Cloud Service und Kernkomponenten 1.1.28 für AEM 6.5.16.0 Forms oder höher veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
 
 | Komponentenversion | AEM as a Cloud Service | AEM 6.5.16.0 Forms oder höher |
 |---|---|---|
-| v1 | Kompatibel mit<br>[Version 2.0.62](/help/adaptive-forms/version.md) und höher | Kompatibel mit<br>[Version 1.1.28](/help/adaptive-forms/version.md) und höher (aber nur bis Version 2.0.0). |
+| v1 | Kompatibel mit<br>[Version 2.0.62](/help/adaptive-forms/version.md) und höher | Kompatibel mit<br>[Version 1.1.28](/help/adaptive-forms/version.md) und höher, jedoch weniger als 2.0.0. |
 
 Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokument [Kernkomponenten-Versionen](/help/adaptive-forms/version.md).
 
@@ -50,7 +50,7 @@ Aktuelle Informationen zur Kernkomponente für adaptive Formulare – Kontrollk�
 
 ## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
-Im Dialogfeld &quot;Konfigurieren&quot;können Sie das Komponentenerlebnis für Bedingungen für Besucher einfach anpassen. Für ein nahtloses Benutzererlebnis können Sie auch problemlos Nutzungsbedingungen und -optionen definieren.
+Sie können das Erlebnis Ihrer Besuchenden mit der Nutzungsbedingungskomponte über das Dialogfeld „Konfigurieren“ bequem anpassen. Für ein nahtloses Benutzererlebnis können Sie auch bequem Nutzungsbedingungsoptionen festlegen.
 
 ### Registerkarte „Allgemein“
 
@@ -60,13 +60,13 @@ Im Dialogfeld &quot;Konfigurieren&quot;können Sie das Komponentenerlebnis für 
 
 - **Titel**: Sie können mit dem Titel leicht eine Komponente in einem Formular identifizieren. Standardmäßig wird der Titel über der Komponente angezeigt. Wenn Sie keinen Titel hinzufügen, wird der Name der Komponente anstelle des Titeltexts angezeigt.
 
-- **Option &quot;Genehmigung einblenden&quot;** - Wählen Sie die Option aus, um das Kontrollkästchen für die Zustimmung anzuzeigen, mit dem der Benutzer explizit seine Zustimmung einholen kann.
+- **Bestätigungsoptionen anzeigen** - Wählen Sie die Option aus, um das Zustimmungs-Kontrollkästchen anzuzeigen, mit dem der Benutzer explizit seine Zustimmung geben kann.
 
-- **Als Popup anzeigen** - Wählen Sie die Option aus, um die Komponente &quot;Bedingungen&quot;in einem Popup-Fenster anzuzeigen.
+- **Als Popup anzeigen** - Wählen Sie die Option aus, um die Nutzungsbedingungskomponente in einem Popup-Fenster anzuzeigen.
 
-- **Ersetzen des Zustimmungstextes durch Weblinks**: Wählen Sie die Option, um einen Zustimmungstext durch einen Web-Link zu ersetzen.  Wenn die Option deaktiviert ist, wird standardmäßig der Text für die Zustimmung angezeigt.
+- **Einverständnistext durch Weblink(s) ersetzen** - Wählen Sie die Option, um einen Einverständnistext durch einen Weblink zu ersetzen. Wenn die Option deaktiviert ist, wird standardmäßig der Einverständnistext angezeigt.
 
-- **Titel ausblenden**: Wählen Sie die Option aus, um den Titel der Komponente auszublenden.
+- **Titel ausblenden** - Wählen Sie die Option aus, um den Titel der Komponente auszublenden.
 
 - **Daten untergeordneter Komponenten bei Formularübermittlung gruppieren (Daten in Objekt einschließen)** – Wenn die Option ausgewählt ist, werden die Daten aus den untergeordneten Komponenten innerhalb des JSON-Objekts der übergeordneten Komponente verschachtelt. Wenn jedoch die Option nicht ausgewählt ist, weisen die gesendeten JSON-Daten eine flache Struktur auf, ohne dass ein Objekt für die übergeordnete Komponente vorhanden ist. Zum Beispiel:
 
@@ -114,12 +114,12 @@ Im Dialogfeld &quot;Konfigurieren&quot;können Sie das Komponentenerlebnis für 
 
 ## Dialogfeld „Design“ {#design-dialog}
 
-Das Dialogfeld &quot;Design&quot;wird verwendet, um CSS-Stile für die Komponente &quot;Allgemeine Geschäftsbedingungen&quot;zu definieren und zu verwalten.
+Im Dialogfeld „Design“ können Sie CSS-Stile für die Nutzungsbedingungskomponente definieren und verwalten.
 
 
 ### Registerkarte „Stile“ {#styles-tab}
 
-Sie können die Registerkarte zum Definieren und Verwalten von CSS-Stilen für eine Komponente verwenden. Die Kernkomponente &quot;Adaptive Forms - Geschäftsbedingungen&quot;unterstützt die AEM [Stilsystem](/help/get-started/authoring.md#component-styling).
+Sie können die Registerkarte zum Definieren und Verwalten von CSS-Stilen für eine Komponente verwenden. Die Nutzungsbedingungs-Kernkomponente für adaptive Formulare unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
 ![Dialogfeld „Design“](/help/adaptive-forms/assets/checkbox-style.png)
 
@@ -129,28 +129,28 @@ Sie können die Registerkarte zum Definieren und Verwalten von CSS-Stilen für e
 
 ### Benutzerdefinierte Eigenschaften
 
-![Dialogfeld &quot;Benutzerdefinierte Eigenschaften&quot;](/help/adaptive-forms/assets/checkbox-customproperties.png)
+![Dialogfeld „Benutzerdefinierte Eigenschaften“](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
-Mit benutzerdefinierten Eigenschaften können Sie benutzerdefinierte Attribute (Schlüssel-Wert-Paare) mithilfe der Formularvorlage mit einer Kernkomponente des adaptiven Formulars verknüpfen. Die benutzerdefinierten Eigenschaften werden im Abschnitt &quot;Eigenschaften&quot;der Headless-Ausgabe der Komponente angezeigt. Dies ermöglicht das Erstellen eines dynamischen Formularverhaltens, das sich basierend auf den benutzerdefinierten Attributwerten anpasst. Beispielsweise können Entwickler verschiedene Ausgabeformate einer Headless-Forms-Komponente für mobile, Desktop- oder Webplattformen entwerfen, wodurch das Benutzererlebnis auf einer Vielzahl von Geräten erheblich verbessert wird.
+Mit der Option „Benutzerdefinierte Eigenschaften“ können Sie mithilfe der Formularvorlage benutzerdefinierte Attribute (Schlüsselwertpaare) mit einer Kernkomponente eines adaptiven Formulars verknüpfen. Die benutzerdefinierten Eigenschaften werden im Eigenschaftenbereich der Headless-Ausgabedarstellung der Komponente angezeigt. So kann ein dynamisches Formularverhalten erzeugt werden, das sich je nach den benutzerdefinierten Attributwerten anpasst. Beispielsweise können Entwickelnde verschiedene Ausgabedarstellungen einer Headless-Formularkomponente für Mobile-, Desktop- oder Web-Plattformen entwerfen und so das Benutzererlebnis auf einer Vielzahl von Geräten erheblich verbessern.
 
-- **Gruppenname**: Sie können einen Namen angeben, um die benutzerdefinierte Eigenschaftsgruppe zu identifizieren. Sie können mehrere benutzerdefinierte Eigenschaftsgruppen hinzufügen, löschen oder neu anordnen. Nachdem Sie die benutzerdefinierte Eigenschaftsgruppe hinzugefügt haben, sehen Sie die folgenden Optionen:
+- **Gruppenname**: Sie können einen Namen angeben, um die Gruppe der benutzerdefinierten Eigenschaften zu kennzeichnen. Sie können mehrere Gruppen benutzerdefinierter Eigenschaften hinzufügen, löschen oder neu anordnen. Nach dem Hinzufügen der Gruppe benutzerdefinierter Eigenschaften werden folgende Optionen angezeigt:
 
-   - **Schlüssel-Wert-Paare**: Sie können mehrere benutzerdefinierte Eigenschaftsnamen und benutzerdefinierte Eigenschaftswerte hinzufügen, indem Sie auf das **Hinzufügen** -Schaltfläche für jede benutzerdefinierte Eigenschaftsgruppe.
+   - **Schlüssel-Wert-Paare**: Sie können mehrere Namen und Werte benutzerdefinierter Eigenschaften hinzufügen, indem Sie für jede Gruppe benutzerdefinierter Eigenschaften auf **Hinzufügen** klicken.
 
-   - **Löschen**: Tippen oder klicken Sie auf , um den benutzerdefinierten Eigenschaftsnamen und den benutzerdefinierten Eigenschaftswert zu löschen.
+   - **Löschen**: Tippen oder klicken Sie auf diese Option, um den Namen und den Wert der benutzerdefinierten Eigenschaft zu löschen.
 
-   - **Neu anordnen**: Tippen oder klicken und ziehen Sie, um die Reihenfolge des benutzerdefinierten Eigenschaftsnamens und des benutzerdefinierten Eigenschaftswerts neu anzuordnen.
+   - **Neu anordnen**: Ordnen Sie den Namen und Wert der benutzerdefinierten Eigenschaft Antippen oder Klicken und Ziehen neu an.
 
-## Unterkomponenten der Komponente &quot;Geschäftsbedingungen&quot; {#sub-component}
+## Unterkomponenten der Nutzungsbedingungskomponente {#sub-component}
 
-**Geschäftsbedingungen** component ist eine zusammengesetzte Komponente, die die folgenden Unterkomponenten umfasst:
-- [Komponente „Link“](#link)
+Eine **Nutzungsbedingungskomponente** ist eine aus folgenden Unterkomponenten zusammengesetzte Komponente:
+- [Link-Komponente](#link)
 - [Textkomponente](#text)
-- [Kontrollkästchenkomponente](#checkbox)
+- [Kontrollkästchen-Komponente](#checkbox)
 
-### Komponente „Link“{#link}
+### Link-Komponente{#link}
 
-Diese Komponente ersetzt einen Zustimmungstext durch einen Web-Link oder Links. Es wird in einem Szenario verwendet, in dem der Benutzer Verweise auf bestimmte Abschnitte, zusätzliche Informationen oder externe Dokumente anbieten möchte. Sie können die **Link** -Komponente für Besucher mit dem Dialogfeld &quot;Konfigurieren&quot;.
+Diese Komponente ersetzt einen Zustimmungstext durch einen Weblink oder Links. Es wird in einem Szenario verwendet, in dem Benutzende Verweise auf bestimmte Abschnitte, zusätzliche Informationen oder externe Dokumente anbieten möchten. Über das Dialogfeld „Konfigurieren“ können Sie die **Link-Komponente** für Besuchende bequem anpassen.
 
 #### Registerkarte „Allgemein“
 
@@ -162,15 +162,15 @@ Diese Komponente ersetzt einen Zustimmungstext durch einen Web-Link oder Links. 
 
 - **Titel ausblenden**: Wählen Sie die Option aus, um den Titel der Komponente auszublenden.
 
-- **Links** - Geben Sie den Link und den entsprechenden Anzeigetext an, der anstelle des Zustimmungstextes verwendet wird. Sie können mehrere Links hinzufügen, indem Sie auf **Hinzufügen** Schaltfläche.
+- **Links** - Geben Sie den Link und den entsprechenden Anzeigetext an, der anstelle des Zustimmungstextes verwendet werden soll. Sie können mehrere Links hinzufügen, indem Sie auf **Hinzufügen** klicken.
 
 - **Verbindungsreferenz**: Eine Verbindungsreferenz ist ein Verweis auf ein Datenelement, das in einer externen Datenquelle gespeichert ist und in einem Formular verwendet wird. Sie können mit dem Bindungsverweis Daten dynamisch an Formularfelder binden, sodass das Formular die aktuellsten Daten aus der Datenquelle anzeigen kann. Beispielsweise kann ein Bindungsverweis verwendet werden, um den Namen und die Adresse von Kundinnen und Kunden in einem Formular anzuzeigen, basierend auf der im Formular eingegebenen Kunden-ID. Der Bindungsverweis kann auch verwendet werden, um die Datenquelle mit den im Formular eingegebenen Daten zu aktualisieren. Auf diese Weise können Sie mit AEM Forms Formulare erstellen, die mit externen Datenquellen interagieren und so ein nahtloses Benutzererlebnis bei der Datenerfassung und -verwaltung bieten.
 
-- **Als ungebundenes Formularelement markieren**: Wählen Sie die Option zum Konfigurieren eines Formularfelds, das keinem Schema zugeordnet ist. Mit dieser Option können Sie Daten speichern, ohne die Datenquelle zu aktualisieren. Außerdem können Sie damit Daten auf eine benutzerdefinierte Art und Weise, getrennt von der standardmäßigen Datenbankintegration, verarbeiten.
+- **Als ungebundenes Formularelement markieren**: Mit dieser Option können Sie Formularfelder konfigurieren, die mit keinem Schema verbunden sind. Mit dieser Option können Sie Daten speichern, ohne die Datenquelle zu aktualisieren. Außerdem können Sie damit Daten auf eine benutzerdefinierte Art und Weise verarbeiten, getrennt von der standardmäßigen Datenbankintegration.
 
 - **Komponente ausblenden**: Wählen Sie diese Option, um die Komponente aus dem Formular auszublenden. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor. Dies ist nützlich, wenn Sie Informationen speichern müssen, die Benutzende nicht sehen oder direkt ändern müssen.
 
-- **Komponente deaktivieren** - Wählen Sie die Option zum Deaktivieren oder Sperren der Komponente aus. Die deaktivierte Komponente ist nicht aktiv und Endbenutzende können sie nicht bearbeiten. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
+- **Komponente deaktivieren**: Mit dieser Option können Sie die Komponente deaktivieren oder sperren. Die deaktivierte Komponente ist nicht aktiv und Endbenutzende können sie nicht bearbeiten. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
 - **Schreibgeschützt**: Wählen Sie die Option aus, um die Komponente nicht bearbeitbar zu machen. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
 
 #### Registerkarte „Validierung“
@@ -201,16 +201,16 @@ Diese Komponente ersetzt einen Zustimmungstext durch einen Web-Link oder Links. 
 
 ### Textkomponente {#text}
 
-**Text** -Komponente zeigt den Textinhalt an, der Benutzern Informationen bereitstellt. Diese Komponente enthält die tatsächlichen Geschäftsbedingungen, die Rechtssprache oder andere relevante Textinformationen.
+Die **Textkomponente** zeigt den Textinhalt an, der Benutzenden Informationen bereitstellt. Diese Komponente enthält die tatsächlichen Nutzungsbedingungen, die Rechtssprache oder andere relevante Textinformationen.
 
-Sie können die [Textkomponente](/help/adaptive-forms/components/text.md) individuell für Besucher mit dem Dialogfeld Konfigurieren . Um Textoptionen für ein nahtloses Benutzererlebnis zu definieren, verwenden Sie die [Dialogfeld &quot;Konfigurieren&quot;der Textkomponente](/help/adaptive-forms/components/text.md#configure-dialog).
+Über das Dialogfeld „Konfigurieren“ können Sie die [Textkomponente](/help/adaptive-forms/components/text.md) individuell für Besuchende anpassen. Nutzen Sie das Dialogfeld [„Konfigurieren“ der Textkomponente](/help/adaptive-forms/components/text.md#configure-dialog), um schnell und einfach Textoptionen für ein nahtloses Benutzererlebnis zu definieren.
 
 
-### Kontrollkästchenkomponente {#checkbox}
+### Kontrollkästchen-Komponente {#checkbox}
 
-Ein Kontrollkästchen wird verwendet, um die Zustimmung oder Bestätigung des Benutzers einzuholen. Es dient als visueller Indikator dafür, dass der Benutzer die beschriebenen Bedingungen gelesen und akzeptiert hat. Es ist erforderlich, das Kontrollkästchen zur Angabe der Zustimmung des Benutzers auszuwählen.
+Benutzende geben ihre Zustimmung oder Bestätigung über ein Kontrollkästchen. Es dient als visueller Indikator dafür, dass Benutzende die genannten Bedingungen gelesen und akzeptiert haben. Um ihre Zustimmung anzuzeigen, müssen Benutzende das Kontrollkästchen aktivieren.
 
-Sie können die [Kontrollkästchenkomponente](/help/adaptive-forms/components/checkbox.md) individuell für Besucher mit dem Dialogfeld Konfigurieren . Um die Eigenschaften des Kontrollkästchens für ein nahtloses Benutzererlebnis zu definieren, verwenden Sie die [Dialogfeld der Checkbox-Komponente konfigurieren](/help/adaptive-forms/components/checkbox.md#configure-dialog).
+Über das Dialogfeld „Konfigurieren“ können Sie die [Kontrollkästchen-Komponente](/help/adaptive-forms/components/checkbox.md) individuell für Besuchende anpassen. Nutzen Sie das Dialogfeld [„Konfigurieren“ der Kontrollkästchen-Komponente](/help/adaptive-forms/components/checkbox.md#configure-dialog), um die Eigenschaften des Kontrollkästchens für ein nahtloses Benutzererlebnis zu definieren.
 
 
 ## Ähnliche Artikel {#related-articles}

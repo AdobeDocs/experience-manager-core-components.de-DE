@@ -1,20 +1,20 @@
 ---
-title: Adaptive Forms-Kernkomponente - Kontrollkästchen
-description: Verwenden oder Anpassen der Kernkomponente "Adaptive Forms Checkbox".
+title: Kernkomponente für adaptive Formulare - Kontrollkästchen
+description: Verwenden oder Anpassen der Kontrollkästchen-Kernkomponente für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
 source-git-commit: 4ca65f93e223fdd0b0a701ef335ed5be1fbab7fe
 workflow-type: tm+mt
 source-wordcount: '1692'
-ht-degree: 54%
+ht-degree: 98%
 
 ---
 
 # Kontrollkästchen-Komponente{#checkbox-component}
 
-Ein Kontrollkästchen ist ein grafisches Element der Benutzeroberfläche, das häufig in Softwareanwendungen und Formularen verwendet wird, um Benutzern die Möglichkeit zu geben, zwischen zwei Optionen eine binäre Auswahl zu treffen: &quot;Aktiviert&quot;(aktiviert) oder &quot;Nicht aktiviert&quot;(deaktiviert).
+Ein Kontrollkästchen ist ein grafisches Element der Benutzeroberfläche, das häufig in Software-Anwendungen und Formularen verwendet wird, um Benutzenden die Möglichkeit zu geben, zwischen zwei Optionen eine binäre Auswahl zu treffen: Häkchen (aktiviert) oder kein Häkchen (deaktiviert).
 
-Ein Kontrollkästchen wird in der Regel als kleines Quadrat dargestellt, das durch Klicken oder Tippen ein- oder ausgeschaltet werden kann. Wenn ein Kontrollkästchen aktiviert ist, wird ein Häkchen angezeigt, das anzeigt, dass die zugehörige Option oder Funktion aktiv oder aktiviert ist.
+Ein Kontrollkästchen wird in der Regel als kleines Quadrat dargestellt, das durch Klicken oder Tippen aktiviert bzw. deaktiviert werden kann. Wenn ein Kontrollkästchen aktiviert ist, zeigt ein Häkchen an, dass die zugehörige Option oder Funktion ausgewählt ist.
 
 **Beispiel**
 
@@ -22,15 +22,15 @@ Ein Kontrollkästchen wird in der Regel als kleines Quadrat dargestellt, das dur
 
 ## Verwendung {#reasons-to-use-checkbox}
 
-Häufige Gründe für die Verwendung des Kontrollkästchens in einem adaptiven Formular sind:
+Die häufigsten Gründe für die Verwendung von Kontrollkästchen in einem adaptiven Formular sind:
 
-- **Benutzerfreundlichkeit**: Kontrollkästchen sind visuell klar und bieten eine einfache Möglichkeit, binäre Entscheidungen zu treffen. Sie sind intuitiv und leicht zu verstehen, sodass sie benutzerfreundlich sind.
+- **Benutzerfreundlichkeit**: Kontrollkästchen sind visuell klar und bieten eine einfache Möglichkeit, binäre Entscheidungen zu treffen. Sie sind intuitiv und leicht zu verstehen und somit benutzerfreundlich.
 
-- **Einverständnis und Einigung**: Kontrollkästchen werden verwendet, um die Zustimmung des Benutzers zu verschiedenen Zwecken zu erhalten, z. B. zur Annahme von Nutzungsbedingungen, zum Abonnieren von Newslettern oder zur Bestätigung der Altersüberprüfung. Sie machen deutlich, dass der Benutzer aktiv einer Sache zustimmt.
+- **Einverständnis und Zustimmung**: Kontrollkästchen werden verwendet, um die Zustimmung von Benutzenden zu verschiedenen Zwecken einzuholen, z. B. zur Annahme von Nutzungsbedingungen, zum Abonnieren von Newslettern oder zur Bestätigung der Altersüberprüfung. Sie machen deutlich, dass Benutzende einer Sache aktiv zustimmen.
 
-- **Visuelle Bestätigung**: Aktivierte Kontrollkästchen bieten Benutzern eine visuelle Bestätigung, dass ihre Auswahl aufgezeichnet wurde. Dieses Feedback hilft Benutzerfehler zu vermeiden und stellt sicher, dass die Benutzer wissen, dass ihre Auswahlmöglichkeiten registriert wurden.
+- **Visuelle Bestätigung**: Aktivierte Kontrollkästchen bieten Benutzenden eine visuelle Bestätigung, dass ihre Auswahl aufgezeichnet wurde. Dieses Feedback hilft, Benutzerfehler zu vermeiden, und informiert die Benutzenden darüber, dass ihre Auswahl registriert wurde.
 
-- **Fehlervermeidung**: Kontrollkästchen reduzieren die Fehlerwahrscheinlichkeit, indem sie es Benutzern ermöglichen, die Optionen vor der Formularübermittlung zu überprüfen und zu bestätigen.
+- **Fehlervermeidung**: Kontrollkästchen reduzieren die Fehlerwahrscheinlichkeit, indem sie es den Benutzenden ermöglichen, ihre Auswahl vor der Formularübermittlung zu überprüfen und zu bestätigen.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
@@ -46,36 +46,36 @@ Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokume
 
 ## Technische Details {#technical-details}
 
-Laden Sie die neuesten Informationen zur Kernkomponente &quot;Adaptive Forms Checkbox&quot;in der technischen Dokumentation zu [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/checkbox/v1/checkbox). Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Entwicklerdokumentation für Kernkomponenten](/help/developing/overview.md).
+Aktuelle Informationen zur Kontrollkästchen-Kernkomponente für adaptive Formulare finden Sie in der technischen Dokumentation auf [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/checkbox/v1/checkbox). Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Entwicklerdokumentation für Kernkomponenten](/help/developing/overview.md).
 
 ## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
-Im Dialogfeld &quot;Konfigurieren&quot;können Sie das Kontrollkästchen-Erlebnis für Besucher einfach anpassen. Sie können auch Kontrollkästchen-Optionen für ein nahtloses Benutzererlebnis definieren.
+Im Dialogfeld „Konfigurieren“ können Sie das Kontrollkästchen-Erlebnis für die Besuchenden einfach anpassen. Sie können auch bequem Kontrollkästchen-Optionen für ein nahtloses Benutzererlebnis definieren.
 
 ![Registerkarte „Allgemein“](/help/adaptive-forms/assets/checkbox-basic.png)
 
 - **Name**: Sie können eine Formularkomponente sowohl im Formular als auch im Regeleditor durch ihren eindeutigen Namen identifizieren. Der Name darf keine Leerzeichen oder Sonderzeichen enthalten.
 
-- **Titel** - Mit dem Titel können Sie eine Komponente in einem Formular leicht identifizieren. Standardmäßig wird der Titel neben der Komponente angezeigt. Wenn Sie keinen Titel hinzufügen, wird die Komponente nicht angezeigt.
+- **Titel**: Mit dem Titel können Sie eine Komponente in einem Formular leicht identifizieren. Standardmäßig wird der Titel neben der Komponente angezeigt. Wenn Sie keinen Titel hinzufügen, wird die Komponente nicht angezeigt.
 
 - **Titel ausblenden**: Wählen Sie die Option aus, um den Titel der Komponente auszublenden.
 
 - **Verbindungsreferenz**: Eine Verbindungsreferenz ist ein Verweis auf ein Datenelement, das in einer externen Datenquelle gespeichert ist und in einem Formular verwendet wird. Sie können mit dem Bindungsverweis Daten dynamisch an Formularfelder binden, sodass das Formular die aktuellsten Daten aus der Datenquelle anzeigen kann. Beispielsweise kann ein Bindungsverweis verwendet werden, um den Namen und die Adresse von Kundinnen und Kunden in einem Formular anzuzeigen, basierend auf der im Formular eingegebenen Kunden-ID. Der Bindungsverweis kann auch verwendet werden, um die Datenquelle mit den im Formular eingegebenen Daten zu aktualisieren. Auf diese Weise können Sie mit AEM Forms Formulare erstellen, die mit externen Datenquellen interagieren und so ein nahtloses Benutzererlebnis bei der Datenerfassung und -verwaltung bieten.
 
-- **Als ungebundenes Formularelement markieren**: Wählen Sie die Option zum Konfigurieren eines Formularfelds, das keinem Schema zugeordnet ist. Mit dieser Option können Sie Daten speichern, ohne die Datenquelle zu aktualisieren. Außerdem können Sie damit Daten auf eine benutzerdefinierte Art und Weise, getrennt von der standardmäßigen Datenbankintegration, verarbeiten.
+- **Als ungebundenes Formularelement markieren**: Mit dieser Option können Sie Formularfelder konfigurieren, die mit keinem Schema verbunden sind. Mit dieser Option können Sie Daten speichern, ohne die Datenquelle zu aktualisieren. Außerdem können Sie damit Daten auf eine benutzerdefinierte Art und Weise verarbeiten, getrennt von der standardmäßigen Datenbankintegration.
 
-- **Datentyp des gesendeten Werts**: Diese Option gibt den Datentyp des Werts an, der gesendet wird, wenn eine Option ausgewählt ist. Wenn der **Datentyp des gesendeten Werts** auf `Number` festgelegt ist und Sie auf der Registerkarte **Optionen** Zeichenfolgedaten zum **Datenwert** hinzufügen, wird am Bildschirm die Fehlermeldung `Value type mismatch` angezeigt.
+- **Datentyp des gesendeten Werts**: Diese Option gibt den Datentyp des Werts an, der bei Auswahl einer Option gesendet wird. Wenn der **Datentyp des gesendeten Werts** auf `Number` festgelegt ist und Sie auf der Registerkarte **Optionen** Zeichenfolgedaten zum **Datenwert** hinzufügen, wird auf dem Bildschirm die Fehlermeldung `Value type mismatch` angezeigt.
 
 - **Komponente ausblenden**: Wählen Sie diese Option, um die Komponente aus dem Formular auszublenden. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor. Dies ist nützlich, wenn Sie Informationen speichern müssen, die Benutzende nicht sehen oder direkt ändern müssen.
 
-- **Komponente deaktivieren** - Wählen Sie die Option zum Deaktivieren oder Sperren der Komponente aus. Die deaktivierte Komponente ist nicht aktiv und Endbenutzende können sie nicht bearbeiten. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
+- **Komponente deaktivieren**: Mit dieser Option können Sie die Komponente deaktivieren oder sperren. Die deaktivierte Komponente ist nicht aktiv und Endbenutzende können sie nicht bearbeiten. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
 - **Schreibgeschützt**: Wählen Sie die Option aus, um die Komponente nicht bearbeitbar zu machen. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
-- **Wenn aktiviert, Rückgabewert** -Wählen Sie diese Option aus, um festzulegen, welcher Wert dem Kontrollkästchen zugeordnet werden soll, wenn es aktiviert oder ausgewählt ist. Es ist die Aktion, die auftritt, wenn Sie das Kontrollkästchen markieren oder ankreuzen.
-- **Aktivieren Sie Deaktivieren.**- Wählen Sie die Option aus, um die Möglichkeit zum Deaktivieren eines zuvor aktivierten Kontrollkästchens zu aktivieren oder zu deaktivieren.
-   - Wenn **Deaktivieren** aktiviert oder auf &quot;true&quot;gesetzt ist, bedeutet dies, dass der Benutzer das Kontrollkästchen nach seinem Ermessen aktivieren und deaktivieren kann. Sie können das Kontrollkästchen nach Bedarf aktivieren und deaktivieren.
+- **Wenn aktiviert, folgenden Wert zurückgeben** - Mit dieser Option können Sie festlegen, welcher Wert mit dem Kontrollkästchen verbunden werden soll, wenn dieses aktiviert oder ausgewählt wird. Diese Aktion wird ausgeführt, wenn Sie das Kontrollkästchen aktivieren.
+- **Deaktivieren aktivieren.**- Mit dieser Option können Sie die Funktion zum Deaktivieren eines zuvor aktivierten Kontrollkästchens aktivieren oder deaktivieren.
+   - Wenn **Deaktivieren aktivieren** auf „wahr“ gesetzt ist, können Benutzende das Kontrollkästchen nach eigenem Ermessen aktivieren und deaktivieren. Sie können das Kontrollkästchen nach Bedarf ein- und ausschalten.
 
-   - Wenn **Deaktivieren** deaktiviert oder auf &quot;false&quot;gesetzt ist, bedeutet dies, dass der Benutzer die Markierung nicht mehr deaktivieren darf, sobald das Kontrollkästchen aktiviert wurde.
-- **Wenn deaktiviert, Rückgabewert** - Mit der Option können Sie festlegen, welcher Wert mit dem Kontrollkästchen verknüpft werden soll, wenn es sich in einem deaktivierten oder deaktivierten Status befindet.
+   - Wenn **Deaktivieren aktivieren** auf „falsch“ gesetzt ist, können Benutzende ein aktiviertes Kontrollkästchen nicht deaktivieren.
+- **Wenn nicht aktiviert, folgenden Wert zurückgeben** - Mit dieser Option können Sie festlegen, welcher Wert mit dem Kontrollkästchen verknüpft werden soll, wenn es deaktiviert wird.
 
 - **Standardwert**: Mit dieser Option können Sie einen Standardwert in ein Formularfeld einfügen. Wenn **Komponente deaktiviert** oder **Schreibgeschützte Komponente** ausgewählt ist, wird der Standardwert auf dem Bildschirm angezeigt. Wenn Benutzende keinen Wert in das Formularfeld eingeben, wird dieser Wert zum Zeitpunkt der Formularübermittlung gesendet.
 
@@ -107,11 +107,11 @@ Im Dialogfeld &quot;Konfigurieren&quot;können Sie das Kontrollkästchen-Erlebni
 
 ## Dialogfeld „Design“ {#design-dialog}
 
-Das Dialogfeld &quot;Design&quot;wird zum Definieren und Verwalten von CSS-Stilen für die Komponente &quot;Kontrollkästchen&quot;verwendet.
+Im Dialogfeld „Design“ können Sie CSS-Stile für die Kontrollkästchen-Komponente festlegen und verwalten.
 
 ### Registerkarte „Stile“ {#styles-tab}
 
-Die Kernkomponente &quot;Adaptives Forms-Kontrollkästchen&quot;unterstützt die AEM [Stilsystem](/help/get-started/authoring.md#component-styling).
+Die Kontrollkästchen-Kernkomponente für adaptive Formulare unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
 ![Dialogfeld „Design“](/help/adaptive-forms/assets/checkbox-style.png)
 
@@ -121,17 +121,17 @@ Die Kernkomponente &quot;Adaptives Forms-Kontrollkästchen&quot;unterstützt die
 
 ### Benutzerdefinierte Eigenschaften
 
-![Dialogfeld &quot;Benutzerdefinierte Eigenschaften&quot;](/help/adaptive-forms/assets/checkbox-customproperties.png)
+![Dialogfeld „Benutzerdefinierte Eigenschaften“](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
-Mit benutzerdefinierten Eigenschaften können Sie benutzerdefinierte Attribute (Schlüssel-Wert-Paare) mithilfe der Formularvorlage mit einer Kernkomponente des adaptiven Formulars verknüpfen. Die benutzerdefinierten Eigenschaften werden im Abschnitt &quot;Eigenschaften&quot;der Headless-Ausgabe der Komponente angezeigt. Dies ermöglicht das Erstellen eines dynamischen Formularverhaltens, das sich basierend auf den benutzerdefinierten Attributwerten anpasst. Beispielsweise können Entwickler verschiedene Ausgabeformate einer Headless-Forms-Komponente für mobile, Desktop- oder Webplattformen entwerfen, wodurch das Benutzererlebnis auf einer Vielzahl von Geräten erheblich verbessert wird.
+Mit der Option „Benutzerdefinierte Eigenschaften“ können Sie mithilfe der Formularvorlage benutzerdefinierte Attribute (Schlüsselwertpaare) mit einer Kernkomponente eines adaptiven Formulars verknüpfen. Die benutzerdefinierten Eigenschaften werden im Eigenschaftenbereich der Headless-Ausgabedarstellung der Komponente angezeigt. So kann ein dynamisches Formularverhalten erzeugt werden, das sich je nach den benutzerdefinierten Attributwerten anpasst. Beispielsweise können Entwickelnde verschiedene Ausgabedarstellungen einer Headless-Formularkomponente für Mobile-, Desktop- oder Web-Plattformen entwerfen und so das Benutzererlebnis auf einer Vielzahl von Geräten erheblich verbessern.
 
-- **Gruppenname**: Sie können einen Namen angeben, um die benutzerdefinierte Eigenschaftsgruppe zu identifizieren. Sie können mehrere benutzerdefinierte Eigenschaftsgruppen hinzufügen, löschen oder neu anordnen. Nachdem Sie die benutzerdefinierte Eigenschaftsgruppe hinzugefügt haben, sehen Sie die folgenden Optionen:
+- **Gruppenname**: Sie können einen Namen angeben, um die Gruppe der benutzerdefinierten Eigenschaften zu kennzeichnen. Sie können mehrere Gruppen benutzerdefinierter Eigenschaften hinzufügen, löschen oder neu anordnen. Nach dem Hinzufügen der Gruppe benutzerdefinierter Eigenschaften werden folgende Optionen angezeigt:
 
-   - **Schlüssel-Wert-Paare**: Sie können mehrere benutzerdefinierte Eigenschaftsnamen und benutzerdefinierte Eigenschaftswerte hinzufügen, indem Sie auf das **Hinzufügen** -Schaltfläche für jede benutzerdefinierte Eigenschaftsgruppe.
+   - **Schlüssel-Wert-Paare**: Sie können mehrere Namen und Werte benutzerdefinierter Eigenschaften hinzufügen, indem Sie für jede Gruppe benutzerdefinierter Eigenschaften auf **Hinzufügen** klicken.
 
-   - **Löschen**: Tippen oder klicken Sie auf , um den benutzerdefinierten Eigenschaftsnamen und den benutzerdefinierten Eigenschaftswert zu löschen.
+   - **Löschen**: Tippen oder klicken Sie auf diese Option, um den Namen und den Wert der benutzerdefinierten Eigenschaft zu löschen.
 
-   - **Neu anordnen**: Tippen oder klicken und ziehen Sie, um die Reihenfolge des benutzerdefinierten Eigenschaftsnamens und des benutzerdefinierten Eigenschaftswerts neu anzuordnen.
+   - **Neu anordnen**: Ordnen Sie den Namen und Wert der benutzerdefinierten Eigenschaft Antippen oder Klicken und Ziehen neu an.
 
 ## Ähnliche Artikel {#related-articles}
 

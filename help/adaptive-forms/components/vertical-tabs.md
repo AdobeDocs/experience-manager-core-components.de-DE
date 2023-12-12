@@ -1,18 +1,18 @@
 ---
-title: Adaptive Forms-Kernkomponente - Vertikale Registerkarten
-description: Verwenden oder Anpassen der Kernkomponente Adaptive Forms Vertikale Registerkarten .
+title: Kernkomponente für adaptive Formulare – Vertikale Registerkarten
+description: Verwenden oder Anpassen der Kernkomponente „Vertikale Registerkarten“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
 source-git-commit: 4ca65f93e223fdd0b0a701ef335ed5be1fbab7fe
 workflow-type: tm+mt
 source-wordcount: '1904'
-ht-degree: 65%
+ht-degree: 98%
 
 ---
 
 # Vertikale Registerkarten-Komponente{#vertical-tabs-adaptive-forms-core-component}
 
-Vertikale Registerkarten in einem adaptiven Formular beziehen sich auf ein Entwurfsmuster, bei dem mehrere Abschnitte eines Formulars gruppiert und als separate, vertikal ausgerichtete Registerkarten angezeigt werden. Benutzende können zwischen den Registerkarten wechseln, um auf verschiedene Abschnitte des Formulars zuzugreifen. Jede Registerkarte dient als Auslöser zum Anzeigen und Ausblenden des jeweiligen Formularinhalts. Die vertikalen Registerkarten helfen, lange Formulare in überschaubare Abschnitte zu organisieren und das Benutzererlebnis zu verbessern. Registerkarten können ein Formular für Benutzende mit Behinderungen barrierefreier gestalten, da sie mithilfe der Tastaturnavigation zwischen Abschnitten wechseln können.
+Vertikale Registerkarten in adaptiven Formularen sind so aufgebaut, dass mehrere Abschnitte eines Formulars gruppiert und als separate, vertikal ausgerichtete Registerkarten angezeigt werden. Benutzende können zwischen den Registerkarten wechseln, um auf verschiedene Abschnitte des Formulars zuzugreifen. Jede Registerkarte dient als Auslöser zum Anzeigen und Ausblenden des jeweiligen Formularinhalts. Mit vertikalen Registerkarten können Sie lange Formulare in überschaubare Abschnitte organisieren und das Benutzererlebnis verbessern. Registerkarten können ein Formular für Benutzende mit Behinderungen barrierefreier gestalten, da sie mithilfe der Tastaturnavigation zwischen Abschnitten wechseln können.
 
 Wenn Benutzende auf eine Registerkarte klicken, wird der Formularinhalt dynamisch aktualisiert und der entsprechende Abschnitt wird angezeigt.
 
@@ -20,15 +20,15 @@ Wenn Benutzende auf eine Registerkarte klicken, wird der Formularinhalt dynamisc
 
 ## Verwendung {#reasons-to-use-vertical-tabs}
 
-Die häufigsten Gründe für die Verwendung von vertikalen Registerkarten in einem adaptiven Formular sind:
+Die häufigsten Gründe für die Verwendung vertikaler Registerkarten in einem adaptiven Formular sind:
 
-- **Verbesserte Benutzerfreundlichkeit**: Vertikale Registerkarten erleichtern Benutzern die Navigation durch das Formular, insbesondere wenn das Formular mehrere Abschnitte oder eine große Anzahl von Feldern enthält.
+- **Verbesserte Benutzerfreundlichkeit**: Vertikale Registerkarten erleichtern Benutzenden die Navigation durch das Formular, insbesondere wenn das Formular mehrere Abschnitte oder eine große Anzahl von Feldern enthält.
 
-- **Raummanagement**: Vertikale Registerkarten sparen Platz auf dem Bildschirm, indem sie verwandte Formularabschnitte in Registerkarten gruppieren und jeweils nur einen Abschnitt anzeigen.
+- **Platz-Management**: Vertikale Registerkarten sparen Platz auf dem Bildschirm, indem sie verwandte Formularabschnitte in Registerkarten gruppieren und jeweils nur einen Abschnitt anzeigen.
 
 - **Bessere Organisation**: Registerkarten bieten eine klare und übersichtliche Struktur für ein Formular, sodass Benutzende das Formular besser verstehen und ausfüllen können.
 
-- **Erhöhte Benutzerinteraktion**: Vertikale Tabulatoren können ein Formular für Benutzer visueller ansprechender und ansprechender machen, wodurch die Rate der Formularabschlüsse verbessert werden kann.
+- **Erhöhte Benutzerinteraktion**: Vertikale Registerkarten können ein Formular für Benutzende visuell ansprechender und interessanter gestalten, wodurch die Formularabschlussrate verbessert werden kann.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
@@ -44,12 +44,12 @@ Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokume
 
 ## Technische Details {#technical-details}
 
-Die neuesten Informationen zur Kernkomponente &quot;Vertikale Registerkarten des adaptiven Forms&quot;finden Sie in der technischen Dokumentation unter [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/verticaltabs/v1/verticaltabs). Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Entwicklerdokumentation für Kernkomponenten](/help/developing/overview.md).
+Die neuesten Informationen zur Kernkomponente „Vertikale Registerkarten“ für adaptive Formulare finden Sie in der technischen Dokumentation auf [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/verticaltabs/v1/verticaltabs). Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Entwicklerdokumentation für Kernkomponenten](/help/developing/overview.md).
 
 
 ## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
-Im Dialogfeld Konfigurieren können Sie das Erlebnis für vertikale Registerkarten einfach für Besucher anpassen. Für ein nahtloses Benutzererlebnis können Sie auch Optionen für vertikale Registerkarten definieren.
+Im Dialogfeld „Konfigurieren“ können Sie die vertikalen Registerkarten einfach anpassen. Sie können auch Optionen für vertikale Registerkarten definieren, um das Benutzererlebnis zu verbessern.
 
 ### Registerkarte „Allgemein“ {#basic-tab}
 
@@ -59,7 +59,7 @@ Im Dialogfeld Konfigurieren können Sie das Erlebnis für vertikale Registerkart
 
 - **Titel**: Sie können mit dem Titel leicht eine Komponente in einem Formular identifizieren. Standardmäßig wird der Titel über der Komponente angezeigt. Wenn Sie keinen Titel hinzufügen, wird der Name der Komponente anstelle des Titeltexts angezeigt.
 
-- **Titel ausblenden**: Wählen Sie die Option aus, um den Titel der Komponente auszublenden.
+- **Titel ausblenden** - Wählen Sie die Option aus, um den Titel der Komponente auszublenden.
 
 - **Daten untergeordneter Komponenten bei Formularübermittlung gruppieren (Daten in Objekt einschließen)** – Wenn die Option ausgewählt ist, werden die Daten aus den untergeordneten Komponenten innerhalb des JSON-Objekts der übergeordneten Komponente verschachtelt. Wenn jedoch die Option nicht ausgewählt ist, weisen die gesendeten JSON-Daten eine flache Struktur auf, ohne dass ein Objekt für die übergeordnete Komponente vorhanden ist. Zum Beispiel:
 
@@ -88,17 +88,17 @@ Im Dialogfeld Konfigurieren können Sie das Erlebnis für vertikale Registerkart
 - **Komponente ausblenden**: Wählen Sie diese Option, um die Komponente aus dem Formular auszublenden. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor. Dies ist nützlich, wenn Sie Informationen speichern müssen, die Benutzende nicht sehen oder direkt ändern müssen.
 - **Komponente deaktivieren**: Wählen Sie die Option zum Deaktivieren der Komponente aus. Die deaktivierte Komponente ist nicht aktiv und Endbenutzende können sie nicht bearbeiten. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
 
-### Vertikale Registerkarte wiederholen {#repeat-tabs-on-top}
+### Vertikale Registerkarte – Wiederholen {#repeat-tabs-on-top}
 
-![Wiederholen, Registerkarte](/help/adaptive-forms/assets/vertical-tab-repeat-vertical-tab.png)
+![Registerkarte wiederholen](/help/adaptive-forms/assets/vertical-tab-repeat-vertical-tab.png)
 
-Sie können die Wiederholungsoptionen verwenden, um eine Komponente mit vertikalen Registerkarten und ihre untergeordneten Komponenten zu duplizieren, eine minimale und maximale Wiederholungsanzahl zu definieren und die Replikation ähnlicher Abschnitte innerhalb eines Formulars zu erleichtern. Bei der Interaktion mit der Komponente Vertikale Registerkarten und dem Zugriff auf ihre Einstellungen werden die folgenden Optionen angezeigt:
+Sie können die Wiederholungsoptionen verwenden, um die Komponente „Vertikale Registerkarten“ und ihre untergeordneten Komponenten zu duplizieren, eine minimale und maximale Wiederholungsanzahl zu definieren und die Replikation ähnlicher Abschnitte innerhalb eines Formulars zu erleichtern. Bei der Interaktion mit der Komponente „Vertikale Registerkarten“ und dem Zugriff auf ihre Einstellungen werden die folgenden Optionen angezeigt:
 
-- **Wiederholbar machen: Vertikale Registerkarten**: Eine Umschalter-Funktion, mit der Benutzer die Wiederholungsfunktion aktivieren oder deaktivieren können.
-- **Mindestwiederholungen**: Legt fest, wie oft die Komponente Vertikale Registerkarten mindestens wiederholt werden kann. Der Wert null zeigt an, dass die Komponente Vertikale Registerkarten nicht wiederholt wird. Der Standardwert ist null.
-- **Maximale Wiederholungen**: Legt fest, wie oft die Komponente Vertikale Registerkarten maximal wiederholt werden kann. Standardmäßig ist dieser Wert unbegrenzt.
+- **Vertikale Registerkarten wiederholbar machen**: Eine Umschalter-Funktion, mit der Benutzende die Wiederholungsfunktion aktivieren oder deaktivieren können.
+- **Mindestwiederholungen**: Legt fest, wie oft die Komponente „Vertikale Registerkarten“ mindestens wiederholt werden kann. Der Wert null zeigt an, dass die Komponente „Vertikale Registerkarten“ nicht wiederholt wird. Der Standardwert ist null.
+- **Maximale Wiederholungen**: Legt fest, wie oft die Komponente „Vertikale Registerkarten“ maximal wiederholt werden kann. Standardmäßig ist dieser Wert unbegrenzt.
 
-Um wiederholbare Abschnitte auf den vertikalen Registerkarten effektiv zu verwalten, führen Sie die Schritte aus, die im Abschnitt [Erstellen von Formularen mit wiederholbaren Abschnitten](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=de) Artikel.
+Um wiederholbare Abschnitte innerhalb der vertikalen Registerkarten effektiv zu verwalten, folgen Sie den Schritten, die im Artikel [Erstellen von Formularen mit wiederholbaren Abschnitten](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=de) beschrieben sind.
 
 ### Registerkarte „Elemente“ {#items-tab}
 
@@ -108,7 +108,7 @@ Mit der Schalfläche **Hinzufügen** können Sie eine Komponente vom Komponenten
 
 - **Symbol**: Das Symbol identifiziert die Komponente des Bedienfelds in der Liste. Sie können den Mauszeiger über das Symbol bewegen, um den vollständigen Komponentennamen als QuickInfo anzuzeigen.
 - **Beschreibung**: Die Beschreibung, die als Text des Bedienfelds verwendet wird. Standardmäßig der Name der für das Bedienfeld ausgewählten Komponente.
-- **Löschen** - Tippen oder klicken Sie, um das Bedienfeld aus der Komponente Vertikale Registerkarten zu löschen.
+- **Entfernen**: Tippen oder klicken Sie, um das Bedienfeld aus der Komponente „Vertikale Registerkarten“ zu löschen.
 - **Neu anordnen**: Tippen oder klicken und ziehen Sie, um die Reihenfolge der Bedienfelder neu anzuordnen.
 
 ### Registerkarte „Hilfe-Inhalt“ {#help-content}
@@ -131,10 +131,10 @@ Mit der Schalfläche **Hinzufügen** können Sie eine Komponente vom Komponenten
 
 ## Dialogfeld „Design“ {#design-dialog}
 
-Im Dialogfeld „Design“ können Vorlagenerstellende steuern, wie Elemente standardmäßig angezeigt werden. Für die Komponente Vertikale Registerkarten des adaptiven Forms können Sie Folgendes festlegen:
+Im Dialogfeld „Design“ können Vorlagenerstellende steuern, wie Elemente standardmäßig angezeigt werden. Für die Komponente „Vertikale Registerkarten“ in adaptiven Formularen können Sie folgende Einstellungen vornehmen:
 
-- Die Kernkomponenten, die ein Formularersteller den vertikalen Registerkarten im Adaptive Forms Editor hinzufügen kann
-- Einfache Namen für Stile (CSS-Klassen), die im Eigenschaftendialogfeld der Komponente Vertikale Registerkarten im Adaptive Forms-Editor angewendet werden können.
+- Die Kernkomponenten, die Formular-Erstellende mit dem Editor für adaptive Formulare den vertikalen Registerkarten hinzufügen können
+- Einfache Namen für Stile (CSS-Klassen), die Sie im Dialogfeld „Eigenschaften“ der Komponente „Vertikale Registerkarten“ im Editor für adaptive Formulare anwenden können.
 
 Dadurch wird das Erstellen und Anpassen von Formularen einfacher und effizienter.
 
@@ -142,31 +142,31 @@ Dadurch wird das Erstellen und Anpassen von Formularen einfacher und effizienter
 
 ![Registerkarte „Zugelassene Komponenten“](/help/adaptive-forms/assets/tabs-allowed-component.png)
 
-Die **Zugelassene Komponenten** -Tab ermöglicht es dem Vorlageneditor, die Komponenten festzulegen, die den Bedienfeldern in der Komponente Vertikale Registerkarten im Editor für adaptive Forms als Elemente hinzugefügt werden können.
+In der Registerkarte **Zugelassene Komponenten** können Vorlagen-Bearbeitende die Komponenten festlegen, die den Bedienfeldern in der Komponente „Vertikale Registerkarten“ im Editor für adaptive Formulare als Elemente hinzugefügt werden können.
 
 ### Registerkarte „Stile“ {#styles-tab}
 
-![Registerkarte &quot;Stile&quot;](/help/adaptive-forms/assets/tabs-styles-tab.png)
+![Registerkarte „Stile“](/help/adaptive-forms/assets/tabs-styles-tab.png)
 
-Sie können das Dialogfeld „Design“ zum Definieren und Verwalten von CSS-Stilen für eine Komponente verwenden. Die Kernkomponente &quot;Vertikale Registerkarten&quot;der adaptiven Forms unterstützt die AEM [Stilsystem](/help/get-started/authoring.md#component-styling).
+Sie können das Dialogfeld „Design“ zum Definieren und Verwalten von CSS-Stilen für eine Komponente verwenden. Die Kernkomponente „Vertikale Registerkarten“ für adaptive Formulare unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
-- **Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die Kernkomponente Adaptive Forms Vertikale Registerkarten bereitstellen.
+- **Standard-CSS-Klassen**: Sie können für die Kernkomponente „Vertikale Registerkarten“ von adaptiven Formularen eine standardmäßige CSS-Klasse festlegen.
 
 - **Zulässige Stile**: Sie können Stile definieren, indem Sie den Namen und die CSS-Klasse für den Stil angeben. Sie können beispielsweise einen Stil mit dem Namen „Fettschrift“ erstellen und die CSS-Klasse „Schriftbreite: Fett“ bereitstellen. Sie können diese Stile bei einem adaptiven Formular im adaptiven Formular-Editor anwenden. Um einen Stil anzuwenden, wählen Sie im Editor für adaptive Formulare die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Eigenschaften-Dialog und wählen Sie den gewünschten Stil aus der Dropdown-Liste **Stile**. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld „Design“ zurück, aktualisieren die Stile auf der Registerkarte „Stile“ und speichern die Änderungen.
 
-### Registerkarte &quot;Benutzerdefinierte Eigenschaften&quot;
+### Registerkarte „Benutzerdefinierte Eigenschaften“
 
-![Registerkarte &quot;Benutzerdefinierte Eigenschaften&quot;](/help/adaptive-forms/assets/tabs-custom-properties.png)
+![Registerkarte „Benutzerdefinierte Eigenschaften“](/help/adaptive-forms/assets/tabs-custom-properties.png)
 
-Mit benutzerdefinierten Eigenschaften können Sie benutzerdefinierte Attribute (Schlüssel-Wert-Paare) mithilfe der Formularvorlage mit einer Kernkomponente des adaptiven Formulars verknüpfen. Die benutzerdefinierten Eigenschaften werden im Abschnitt &quot;Eigenschaften&quot;der Headless-Ausgabe der Komponente angezeigt. Dies ermöglicht das Erstellen eines dynamischen Formularverhaltens, das sich basierend auf den benutzerdefinierten Attributwerten anpasst. Beispielsweise können Entwickler verschiedene Ausgabeformate einer Headless-Forms-Komponente für mobile, Desktop- oder Webplattformen entwerfen, wodurch das Benutzererlebnis auf einer Vielzahl von Geräten erheblich verbessert wird.
+Mit der Option „Benutzerdefinierte Eigenschaften“ können Sie mithilfe der Formularvorlage benutzerdefinierte Attribute (Schlüsselwertpaare) mit einer Kernkomponente eines adaptiven Formulars verknüpfen. Die benutzerdefinierten Eigenschaften werden im Eigenschaftenbereich der Headless-Ausgabedarstellung der Komponente angezeigt. So kann ein dynamisches Formularverhalten erzeugt werden, das sich je nach den benutzerdefinierten Attributwerten anpasst. Beispielsweise können Entwickelnde verschiedene Ausgabedarstellungen einer Headless-Formularkomponente für Mobile-, Desktop- oder Web-Plattformen entwerfen und so das Benutzererlebnis auf einer Vielzahl von Geräten erheblich verbessern.
 
-- **Gruppenname**: Sie können einen Namen angeben, um die benutzerdefinierte Eigenschaftsgruppe zu identifizieren. Sie können mehrere benutzerdefinierte Eigenschaftsgruppen hinzufügen, löschen oder neu anordnen. Nachdem Sie die benutzerdefinierte Eigenschaftsgruppe hinzugefügt haben, sehen Sie die folgenden Optionen:
+- **Gruppenname**: Sie können einen Namen angeben, um die Gruppe der benutzerdefinierten Eigenschaften zu kennzeichnen. Sie können mehrere Gruppen benutzerdefinierter Eigenschaften hinzufügen, löschen oder neu anordnen. Nach dem Hinzufügen der Gruppe benutzerdefinierter Eigenschaften werden folgende Optionen angezeigt:
 
-   - **Schlüssel-Wert-Paare**: Sie können mehrere benutzerdefinierte Eigenschaftsnamen und benutzerdefinierte Eigenschaftswerte hinzufügen, indem Sie auf das **Hinzufügen** -Schaltfläche für jede benutzerdefinierte Eigenschaftsgruppe.
+   - **Schlüssel-Wert-Paare**: Sie können mehrere Namen und Werte benutzerdefinierter Eigenschaften hinzufügen, indem Sie für jede Gruppe benutzerdefinierter Eigenschaften auf **Hinzufügen** klicken.
 
-   - **Löschen**: Tippen oder klicken Sie auf , um den benutzerdefinierten Eigenschaftsnamen und den benutzerdefinierten Eigenschaftswert zu löschen.
+   - **Löschen**: Tippen oder klicken Sie auf diese Option, um den Namen und den Wert der benutzerdefinierten Eigenschaft zu löschen.
 
-   - **Neu anordnen**: Tippen oder klicken und ziehen Sie, um die Reihenfolge des benutzerdefinierten Eigenschaftsnamens und des benutzerdefinierten Eigenschaftswerts neu anzuordnen.
+   - **Neu anordnen**: Ordnen Sie den Namen und Wert der benutzerdefinierten Eigenschaft Antippen oder Klicken und Ziehen neu an.
 
 ## Ähnliche Artikel {#related-articles}
 
