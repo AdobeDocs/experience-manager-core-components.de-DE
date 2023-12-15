@@ -3,10 +3,10 @@ title: Kernkomponente „E-Mail-Eingabe“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „E-Mail-Eingabe“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
-source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
-workflow-type: ht
-source-wordcount: '1922'
-ht-degree: 100%
+source-git-commit: 120f8023ac2e13380e59703e199dc929176a59b6
+workflow-type: tm+mt
+source-wordcount: '1916'
+ht-degree: 95%
 
 ---
 
@@ -96,9 +96,10 @@ Im Dialogfeld „Konfigurieren“ können Sie die E-Mail-Eingabe einfach anpasse
 - **Fehlermeldung zur Mindestanzahl von Zeichen**: Im Dialogfeld **Fehlermeldung zur Mindestanzahl von Zeichen** können Sie eine benutzerdefinierte Fehlermeldung hinzufügen, die angezeigt wird, wenn weniger Zeichen eingegeben werden als die in der Option **Mindestanzahl von Zeichen** definierten.
 <br>
 
-    Mit der Option **Überprüfungsmuster** können Sie ein Muster eingeben, um die eingegebene E-Mail-ID zu validieren. Falls die E-Mail-ID nicht mit dem in der Option **Muster** eingegebenen Wert validiert werden kann, wird die Fehlermeldung auf dem Bildschirm angezeigt.
-    - **Muster** – Mit dieser Option können Sie die zulässigen Überprüfungsmuster für E-Mails eingeben. Reguläre Ausdrücke sind ebenfalls zulässig.
-    - **Fehlermeldung** – Mit dieser Option können Sie eine Meldung eingeben, die auf dem Bildschirm angezeigt wird, wenn die E-Mail-ID nicht mit dem in der Option **Muster** eingegebenen Wert validiert werden kann
+Die **Überprüfungsmuster** ermöglicht die Eingabe eines Musters zur Validierung der eingegebenen E-Mail-IDs. Falls die E-Mail-ID nicht mit dem in **Muster** -Option, wird die Fehlermeldung auf dem Bildschirm angezeigt.
+
+- **Muster** - Mit dieser Option können Sie die zulässigen Überprüfungsmuster für E-Mails eingeben. Reguläre Ausdrücke sind ebenfalls zulässig.
+- **Fehlermeldung** - Mit dieser Option können Sie eine Nachricht eingeben, die auf dem Bildschirm angezeigt wird, wenn die E-Mail-ID nicht mit dem im **Muster** option
 
 ### Registerkarte „Hilfe-Inhalt“ {#help-content-tab}
 
@@ -138,7 +139,7 @@ Mit der Option „Benutzerdefinierte Eigenschaften“ können Sie mithilfe der F
 
 - **Gruppenname**: Sie können einen Namen angeben, um die Gruppe der benutzerdefinierten Eigenschaften zu kennzeichnen. Sie können mehrere Gruppen benutzerdefinierter Eigenschaften hinzufügen, löschen oder neu anordnen. Nach dem Hinzufügen der Gruppe benutzerdefinierter Eigenschaften werden folgende Optionen angezeigt:
 
-   - **Schlüssel-Wert-Paare**: Sie können mehrere Namen und Werte für benutzerdefinierte Eigenschaften hinzufügen, indem Sie für jede Gruppe benutzerdefinierter Eigenschaften auf **Hinzufügen** klicken.
+   - **Schlüssel-Wert-Paare**: Sie können mehrere Namen und Werte benutzerdefinierter Eigenschaften hinzufügen, indem Sie für jede Gruppe benutzerdefinierter Eigenschaften auf **Hinzufügen** klicken.
 
    - **Löschen**: Tippen oder klicken Sie auf diese Option, um den Namen und den Wert der benutzerdefinierten Eigenschaft zu löschen.
 
