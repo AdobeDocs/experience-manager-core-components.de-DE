@@ -4,9 +4,9 @@ description: Verwenden oder Anpassen der Nutzungsbedingungs-Kernkomponente für 
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
 source-git-commit: a567b5ad937d426abe16c34e039e19cd0b1af5b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2633'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -36,11 +36,11 @@ Unter [Unterkomponenten der Nutzungsbedingungskomponente](#sub-component) finden
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die Kernkomponente &quot;Adaptive Forms Accordion&quot;wurde im Februar 2023 als Teil der Kernkomponenten 2.0.62 für Cloud Service und Kernkomponenten 1.1.28 für AEM 6.5.16.0 Forms oder höher veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
+Die Kernkomponente „Akkordeon“ für adaptive Formulare wurde im Februar 2023 als Teil der Kernkomponenten 2.0.62 für Cloud Service und der Kernkomponenten 1.1.28 für AEM 6.5.16.0 Forms oder höher veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
 
 | Komponentenversion | AEM as a Cloud Service | AEM 6.5.16.0 Forms oder höher |
 |---|---|---|
-| v1 | Kompatibel mit<br>[Version 2.0.62](/help/adaptive-forms/version.md) und höher | Kompatibel mit<br>[Version 1.1.28](/help/adaptive-forms/version.md) und höher, jedoch weniger als 2.0.0. |
+| v1 | Kompatibel mit<br>[Version 2.0.62](/help/adaptive-forms/version.md) und höher | Kompatibel mit<br>[Version 1.1.28](/help/adaptive-forms/version.md) und höher (aber nur bis Version 2.0.0). |
 
 Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokument [Kernkomponenten-Versionen](/help/adaptive-forms/version.md).
 
