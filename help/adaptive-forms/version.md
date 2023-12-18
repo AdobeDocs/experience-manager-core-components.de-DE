@@ -1,12 +1,12 @@
 ---
 title: Kernkomponentenversionen von AEM Forms
-description: AEM Kernkomponenten werden als Versionen veröffentlicht, die mehr als eine Version derselben Kernkomponenten enthalten können. In diesem Dokument wird erläutert, welche Versionen veröffentlicht werden und wie die Kompatibilität mit Kernkomponenten und AEM verstanden werden kann.
+description: AEM-Kernkomponenten werden als Versionen veröffentlicht, die mehr als eine Version derselben Kernkomponenten enthalten können. In diesem Dokument wird erläutert, welche Versionen veröffentlicht werden und wie die Kompatibilität mit Kernkomponenten und AEM verstanden werden kann.
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
 source-git-commit: a567b5ad937d426abe16c34e039e19cd0b1af5b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '821'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -20,25 +20,25 @@ Die nachfolgende Tabelle enthält eine Liste der Kernkomponentenversionen, die m
 
 | Version | Beschreibung | AEM as a Cloud Service | Java™ | Veröffentlichungsdatum |
 |---|---|---|---|---|
-| [2.0.74](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.74) | Mit dieser Version wird der Sendefehler für die Übermittlungsaktion in AEM Forms aktualisiert. | Kontinuierlich | 8, 11 | 15. November 2023 |
+| [2.0.74](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.74) | Mit dieser Version wird der Übermittlungsfehler für die Übermittlungsaktion in AEM Forms aktualisiert. | Kontinuierlich | 8, 11 | 15. November 2023 |
 | [2.0.70](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.70) | Ab dieser Version wird die Bearbeitung der Seitensprache im Formular-Container unterstützt. | Kontinuierlich | 8, 11 | 10. November 2023 |
 | [2.0.64](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.64) | Unterstützung von Rich-Text für Beschriftungen von Optionsschaltflächen-/Kontrollkästchen-Komponenten. Diese Version enthält auch Fehlerbehebungen für die Nutzungsbedingungskomponente | Kontinuierlich | 8, 11 | 6. November 2023 |
-| [2.0.62](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.62) | Mit dieser Version wird die Komponente &quot;Allgemeine Geschäftsbedingungen&quot;unterstützt. Unterstützung für qualifizierte Namen in den Kernkomponenten hinzugefügt. | Kontinuierlich | 8, 11 | 16. Oktober 2023 |
-| [2.0.60](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.60) | Diese Version enthält Fehlerbehebungen im Zusammenhang mit der Funktion, dem Assistenten und der Komponente für die Datumsauswahl für benutzerdefinierte Eigenschaften. | Kontinuierlich | 8, 11 | 12. September 2023 |
-| [2.0.56](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.56) | Mit dieser Version wird Unterstützung für benutzerdefinierte Eigenschaften für alle Kernkomponenten hinzugefügt. | Kontinuierlich | 8, 11 | 12. September 2023 |
+| [2.0.62](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.62) | Diese Version unterstützt die Nutzungsbedingungskomponente. Unterstützung für qualifizierte Namen in den Kernkomponenten hinzugefügt. | Kontinuierlich | 8, 11 | 16. Oktober 2023 |
+| [2.0.60](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.60) | Diese Version enthält Fehlerbehebungen im Zusammenhang mit den Funktion „Benutzerdefinierte Eigenschaften“ sowie für die Assistenten- und Datumsauswahl-Komponente. | Kontinuierlich | 8, 11 | 12. September 2023 |
+| [2.0.56](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.56) | Mit dieser Version werden benutzerdefinierte Eigenschaften für alle Kernkomponenten hinzugefügt. | Kontinuierlich | 8, 11 | 12. September 2023 |
 | [2.0.54](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.54) | In dieser Version wurde das Problem mit der Lokalisierung mit der Datumsauswahl-Komponente behoben. | Kontinuierlich | 8, 11 | 30. August 2023 |
 | [2.0.52](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.52) | Unterstützung der Kontrollkästchen-Komponente in einem adaptiven Formular. | Kontinuierlich | 8, 11 | 25. August 2023 |
 | [2.0.50](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.50) | Diese Version unterstützt Formularfragmente in einem adaptiven Formular. | Kontinuierlich | 8, 11 | 4. August 2023 |
 | [2.0.48](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.48) | Die wichtigsten Verbesserungen in dieser Version beziehen sich auf die Leistung von Lighthouse. | Kontinuierlich | 8, 11 | 25. Juli 2023 |
 | [2.0.42](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.42) | Die Version beinhaltet Verbesserungen hinsichtlich der Programmierung. | Kontinuierlich | 8, 11 | 18. Juli 2023 |
-| [2.0.38](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.38) | Die Barrierefreiheitsfunktion wird mit dieser Version verbessert. | Kontinuierlich | 8, 11 | 17. Juli 2023 |
+| [2.0.38](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.38) | Die Barrierefreiheit wurde mit dieser Version verbessert. | Kontinuierlich | 8, 11 | 17. Juli 2023 |
 | [2.0.36](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.36) | In dieser Version können Sie den benutzerdefinierten Fehler-Handler mit dem Aufrufdienst des Regeleditors verwenden. | Kontinuierlich | 8, 11 | 3. Juli 2023 |
 | [2.0.34](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.34) | Lokalisierungsunterstützung für Standard-Fehlermeldungen hinzugefügt, zusammen mit der Schaltfläche „Hinzufügen/Entfernen“ für wiederholbare Komponenten. | Kontinuierlich | 8, 11 | 28. Juni 2023 |
 | [2.0.32](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.32) | Diese Version unterstützt Captcha für adaptive Formulare. | Kontinuierlich | 8, 11 | 15. Juni 2023 |
 | [2.0.26](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.26) | Unterstützung für das Hinzufügen adaptiver Formulare in AEM Sites. | Kontinuierlich | 8, 11 | 7. Juni 2023 |
-| [2.0.18](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.18) | Mit dieser Version wird Unterstützung für eine Wiederholbarkeit für die Accordion-Komponente. Außerdem wurde eine neue Komponente als vertikale Registerkarten hinzugefügt. | Kontinuierlich | 8, 11 | 5. Juni 2023 |
+| [2.0.18](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.18) | Diese Version unterstützt die Wiederholbarkeit der Akkordeon-Komponente. Außerdem wurde eine neue Komponente als vertikale Registerkarten hinzugefügt. | Kontinuierlich | 8, 11 | 5. Juni 2023 |
 | [2.0.10](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.10) | Mit dieser Version wird die Unterstützung für eine Container-Komponente für adaptive Formulare im Editor von Sites eingeführt. | Kontinuierlich | 8, 11 | 17. März 2023 |
-| [2.0.8](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.8) | Die Funktion zur Wiederholbarkeit für die Assistentenkomponente wurde in dieser Version eingeführt. | Kontinuierlich | 8, 11 | 03. März 2023 |
+| [2.0.8](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.8) | Die Wiederholbarkeitsfunktion für die Assistentenkomponente wird in dieser Version eingeführt. | Kontinuierlich | 8, 11 | 03. März 2023 |
 | [2.0.6](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.6) | In dieser Version werden mehrere Formate für die Kernkomponente „Zahleneingabe“ eingeführt. | Kontinuierlich | 8, 11 | 08. Februar 2023 |
 | [2.0.4](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.6) | Die Kernkomponentenunterstützung für AEM as a Cloud Service wird in dieser Version eingeführt. | Kontinuierlich | 8, 11 | 30. Januar 2023 |
 
