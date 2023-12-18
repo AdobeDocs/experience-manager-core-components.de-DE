@@ -7,9 +7,9 @@ role: Admin, User
 level: Intermediate
 exl-id: aef6e88b-dcae-4777-9893-9257d7702f43
 source-git-commit: 0f0c20c9fba6f062021721d6f48a42cc830b5a7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1239'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Anhand von Beispiel-Designs können Autorinnen und Autoren die Formatierung für
 Sie erhalten diese Designs anhand der folgenden Schritte, die unten für die **AEM as a Cloud Service**-Umgebung beschrieben sind:
 
 1. [Aktivieren von Kernkomponenten für adaptive Formulare](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=de)
-1. [Bereitstellung eines AEM Archetyp 47-Projekts oder höher in Ihrer Umgebung](https://github.com/adobe/aem-project-archetype)
+1. [Bereitstellen eines Projekts des AEM-Archetyps 47 oder höher in Ihrer Umgebung](https://github.com/adobe/aem-project-archetype)
 
 
 Wenn Sie einen AEM-Archetyp bereitstellen, können Sie nur die vorkonfigurierten Designs in Ihren Formularen verwenden, um die Designs gemäß Ihren Anforderungen anzupassen. [Verwenden Sie die Frontend-Pipeline](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=de), um die Designs bereitzustellen.
@@ -123,9 +123,9 @@ Das Design „Healthcare“ (Gesundheitswesen) verwendet satte Grüntöne, um El
 
 Vorlagen definieren die anfängliche Formularstruktur, den Inhalt und die Aktionen, die in Ihrem Formular repliziert werden sollen, oder verwenden eine ähnliche Vorlagenstruktur wie das gewünschte Formular, z. B. Einverständnisformular, Registrierungsformular für Nebenleistungen und vieles mehr.
 
-**Wie erhalten Sie diese Vorlagen?**
+**Wie bekommt man diese Vorlagen?**
 
-Sie können diese Vorlagen abrufen, indem Sie eine [AEM Archetyp 47 oder höher](https://github.com/adobe/aem-project-archetype) auf **AEM Forms as a Cloud Service** Umgebung oder **AEM 6.5 Forms** Umgebung.
+Sie können die Vorlagen abrufen, indem Sie einen [AEM-Archetyp 47 oder höher](https://github.com/adobe/aem-project-archetype) in einer Umgebung von **AEM Forms as a Cloud Service** oder **AEM 6.5** bereitstellen.
 
 <!--
 
