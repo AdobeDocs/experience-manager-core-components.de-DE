@@ -4,9 +4,9 @@ description: Verwenden oder Anpassen der Kernkomponente „E-Mail-Eingabe“ fü
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
 source-git-commit: 120f8023ac2e13380e59703e199dc929176a59b6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1916'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -96,10 +96,10 @@ Im Dialogfeld „Konfigurieren“ können Sie die E-Mail-Eingabe einfach anpasse
 - **Fehlermeldung zur Mindestanzahl von Zeichen**: Im Dialogfeld **Fehlermeldung zur Mindestanzahl von Zeichen** können Sie eine benutzerdefinierte Fehlermeldung hinzufügen, die angezeigt wird, wenn weniger Zeichen eingegeben werden als die in der Option **Mindestanzahl von Zeichen** definierten.
 <br>
 
-Die **Überprüfungsmuster** ermöglicht die Eingabe eines Musters zur Validierung der eingegebenen E-Mail-IDs. Falls die E-Mail-ID nicht mit dem in **Muster** -Option, wird die Fehlermeldung auf dem Bildschirm angezeigt.
+Mit der Option **Überprüfungsmuster** können Sie ein Muster eingeben, um die eingegebene E-Mail-ID zu validieren. Falls die E-Mail-ID nicht mit dem in der Option **Muster** eingegebenen Wert validiert werden kann, wird die Fehlermeldung auf dem Bildschirm angezeigt.
 
-- **Muster** - Mit dieser Option können Sie die zulässigen Überprüfungsmuster für E-Mails eingeben. Reguläre Ausdrücke sind ebenfalls zulässig.
-- **Fehlermeldung** - Mit dieser Option können Sie eine Nachricht eingeben, die auf dem Bildschirm angezeigt wird, wenn die E-Mail-ID nicht mit dem im **Muster** option
+- **Muster** – Mit dieser Option können Sie die zulässigen Überprüfungsmuster für E-Mails eingeben. Reguläre Ausdrücke sind ebenfalls zulässig.
+- **Fehlermeldung** – Mit dieser Option können Sie eine Meldung eingeben, die auf dem Bildschirm angezeigt wird, wenn die E-Mail-ID nicht mit dem in der Option **Muster** eingegebenen Wert validiert werden kann.
 
 ### Registerkarte „Hilfe-Inhalt“ {#help-content-tab}
 
