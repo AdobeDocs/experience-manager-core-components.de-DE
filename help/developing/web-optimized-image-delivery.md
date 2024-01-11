@@ -3,10 +3,10 @@ title: Web-optimierte Bildbereitstellung
 description: Erfahren Sie, wie die Kernkomponenten die Funktionen zur Web-optimierten Bildbereitstellung von AEM as a Cloud Service nutzen können, um Bilder effizienter bereitzustellen.
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
-source-git-commit: d8c8f4c3395313b21f56fd7d98175924287c367c
-workflow-type: ht
-source-wordcount: '1022'
-ht-degree: 100%
+source-git-commit: a312eb7a1dc68a264eaf0938c450a17f7cbc4506
+workflow-type: tm+mt
+source-wordcount: '1020'
+ht-degree: 95%
 
 ---
 
@@ -88,7 +88,7 @@ Der Vorteil dieser Technik besteht darin, dass das `img`-Element und seine Attri
 
 ### Kann ich die Web-optimierte Bildbereitstellung mit meiner eigenen Komponente verwenden?
 
-Ja, der Service zur Web-optimierten Bildbereitstellung kann von benutzerdefinierten Komponenten verwendet werden. Adobe empfiehlt in diesem Fall das [Erweitern der Bildkomponente](/help/developing/customizing.md).
+Ja, der Web-optimierte Bildbereitstellungsdienst kann von benutzerdefinierten Komponenten verwendet werden, die von [Erweiterung der Bildkomponente,](/help/developing/customizing.md)
 
 Im Folgenden finden Sie eine Service-Schnittstelle, die zum Generieren der Asset-URL verwendet werden kann.
 
@@ -96,7 +96,9 @@ Im Folgenden finden Sie eine Service-Schnittstelle, die zum Generieren der Asset
 com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String, Object> parameterMap)
 ```
 
-**Bitte beachten Sie, dass die Einbettung direkter URLs in ein Erlebnis, das nicht durch auf AEM Sites CS ausgeführte Kernkomponenten erstellt wurde, gegen die Lizenzbedingungen der Medienbibliothek verstößt.**
+>[!WARNING]
+>
+>Direkte URL-Einbettungen in ein Erlebnis, das nicht über Kernkomponenten erstellt wurde, die auf AEM Sites CS ausgeführt werden, verstoßen gegen die Media Library-Lizenzbedingungen.
 
 ### Wie lautet die URL eines Bildes, das vom neuen Bild-Service bereitgestellt wird? {#url}
 
