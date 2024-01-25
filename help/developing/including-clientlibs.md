@@ -3,16 +3,16 @@ title: Einschließen von Client-Bibliotheken
 description: Je nach Nutzungsszenario gibt es verschiedene Möglichkeiten, Client-Bibliotheken einzuschließen.
 role: Architect, Developer, Admin
 exl-id: 84e7c178-247b-42a2-99bf-6d1699ecee14
-source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
-workflow-type: ht
-source-wordcount: '392'
+source-git-commit: 39a5dee1666fa2645e0579fdfac0400f7fcbdc27
+workflow-type: tm+mt
+source-wordcount: '369'
 ht-degree: 100%
 
 ---
 
 # Einschließen von Client-Bibliotheken {#including-client-libraries}
 
-Je nach Nutzungsszenario gibt es verschiedene Möglichkeiten, [Client-Bibliotheken](/help/developing/archetype/uifrontend.md#clientlibs) einzuschließen. Dieses Dokument enthält besipielhafte [HTL-Snippets](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=de) für alle diese Möglichkeiten.
+Je nach Nutzungsszenario gibt es verschiedene Möglichkeiten, [Client-Bibliotheken](/help/developing/archetype/front-end.md#clientlibs) einzuschließen. Dieses Dokument enthält besipielhafte [HTL-Snippets](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=de) für alle diese Möglichkeiten.
 
 ## Empfohlene Standardverwendung {#recommended-default-usage}
 

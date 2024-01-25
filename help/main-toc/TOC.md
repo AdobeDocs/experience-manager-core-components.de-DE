@@ -5,10 +5,10 @@ breadcrumb-title: Anleitung zu den Hauptkomponenten
 feature: Core Components
 user-guide-description: Nutzen Sie die erweiterbaren Hauptkomponenten, damit Autoren bzw. Autorinnen mühelos Inhalte erstellen können.
 feature-set: Experience Manager Sites
-source-git-commit: d172e019c5621d950a94cbdd8d27e4834dbabe3b
+source-git-commit: 5aed197937ca527d699569df09ea3305bae98fae
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 98%
+source-wordcount: '376'
+ht-degree: 97%
 
 ---
 
@@ -154,13 +154,6 @@ ht-degree: 98%
    + AEM-Projektarchetyp {#archetype}
       + [Archetyp-Übersicht](/help/developing/archetype/overview.md)
       + [Verwenden des Archetyps](/help/developing/archetype/using.md)
-      + [Hauptmodul](/help/developing/archetype/core.md)
-      + [ui.apps-Modul](/help/developing/archetype/uiapps.md)
+      + [Front-End-Entwicklung](/help/developing/archetype/front-end.md)
       + [Vorkompilierte Paket-Skripte](/help/developing/archetype/precompiled-bundled-scripts.md)
-      + [ui.content-Modul](/help/developing/archetype/uicontent.md)
-      + [ui.frontend.general-Modul](/help/developing/archetype/uifrontend.md)
-      + [ui.frontend.react-Modul](/help/developing/archetype/uifrontend-react.md)
-      + [ui.frontend.angular-Modul](/help/developing/archetype/uifrontend-angular.md)
-      + [ui.tests-Modul](/help/developing/archetype/uitests.md)
-      + [it.tests-Modul](/help/developing/archetype/ittests.md)
       + [Build Analyzer-Maven-Plug-in](/help/developing/archetype/build-analyzer-maven-plugin.md)
