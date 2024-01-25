@@ -4,7 +4,7 @@ description: Verwenden oder Anpassen der Kernkomponente „Zurücksetzen-Schaltf
 role: Architect, Developer, Admin, User
 exl-id: e5aa9d89-aece-491e-80a1-7fb9ea6c4b60
 source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1414'
 ht-degree: 100%
 
