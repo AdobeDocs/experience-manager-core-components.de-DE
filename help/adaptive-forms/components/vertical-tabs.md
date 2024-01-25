@@ -4,7 +4,7 @@ description: Verwenden oder Anpassen der Kernkomponente „Vertikale Registerkar
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
 source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1904'
 ht-degree: 100%
 
