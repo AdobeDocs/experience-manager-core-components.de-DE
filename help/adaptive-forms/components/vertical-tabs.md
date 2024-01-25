@@ -3,8 +3,8 @@ title: Kernkomponente für adaptive Formulare – Vertikale Registerkarten
 description: Verwenden oder Anpassen der Kernkomponente „Vertikale Registerkarten“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
-source-git-commit: 4ca65f93e223fdd0b0a701ef335ed5be1fbab7fe
-workflow-type: ht
+source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+workflow-type: tm+mt
 source-wordcount: '1904'
 ht-degree: 100%
 
@@ -38,9 +38,9 @@ Die Kernkomponente „Vertikale Registerkarten“ für adaptive Formulare wurde 
 |---|---|
 | Komponentenversion | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Kompatibel mit<br>[Version 2.0.18](/help/versions.md) und höher | Kompatibel | Kompatibel |
+| v1 | Kompatibel mit<br>[Version 2.0.18](/help/adaptive-forms/version.md) und höher | Kompatibel | Kompatibel |
 
-Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokument [Kernkomponenten-Versionen](/help/versions.md).
+Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokument [Kernkomponenten-Versionen](/help/adaptive-forms/version.md).
 
 ## Technische Details {#technical-details}
 

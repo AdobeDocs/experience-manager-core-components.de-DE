@@ -3,9 +3,9 @@ title: Kernkomponente für adaptive Formulare – Header
 description: Verwenden oder Anpassen der Header-Kernkomponente für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: aa18def9-0bec-4475-8dde-213860621ef5
-source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
-workflow-type: ht
-source-wordcount: '679'
+source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+workflow-type: tm+mt
+source-wordcount: '674'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ Eine Header-Komponente in einem adaptiven Formular ist ein Abschnitt am oberen R
 
 **Beispiel**
 
-![](/help/adaptive-forms/assets/header.png)
+![Beispiel](/help/adaptive-forms/assets/header.png)
 
 ## Verwendung {#reasons-to-use-header}
 

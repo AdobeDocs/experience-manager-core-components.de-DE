@@ -5,10 +5,10 @@ breadcrumb-title: Anleitung zu den Hauptkomponenten
 feature: Core Components
 user-guide-description: Nutzen Sie die erweiterbaren Hauptkomponenten, damit Autoren bzw. Autorinnen mühelos Inhalte erstellen können.
 feature-set: Experience Manager Sites
-source-git-commit: 3e36fdf9b175930ee3a998bf91116c35b3cb6f9d
-workflow-type: ht
-source-wordcount: '398'
-ht-degree: 100%
+source-git-commit: d172e019c5621d950a94cbdd8d27e4834dbabe3b
+workflow-type: tm+mt
+source-wordcount: '390'
+ht-degree: 98%
 
 ---
 
@@ -113,6 +113,7 @@ ht-degree: 100%
       + [Adaptive Formulare – Datumsauswahl](/help/adaptive-forms/components/date-picker.md)
       + [Adaptive Formulare – Dropdown-Liste](/help/adaptive-forms/components/drop-down.md)
       + [Adaptive Formulare – E-Mail-Eingabe](/help/adaptive-forms/components/email-input.md)
+      + [Adaptives Forms-Formularfragment](/help/adaptive-forms/components/form-fragment.md)
       + [Adaptive Formulare – Dateianlagen](/help/adaptive-forms/components/file-attachment.md)
       + [Adaptive Formulare – Vertikale Registerkarten](/help/adaptive-forms/components/vertical-tabs.md)
       + [Adaptive Formulare – horizontale Registerkarten](/help/adaptive-forms/components/horizontal-tabs.md)
@@ -123,6 +124,7 @@ ht-degree: 100%
       + [Adaptive Formulare – Optionsschaltfläche](/help/adaptive-forms/components/radio-button.md)
       + [Adaptive Formulare – Schaltfläche „Zurücksetzen“](/help/adaptive-forms/components/reset-button.md)
       + [Adaptive Formulare – Schaltfläche „Senden“](/help/adaptive-forms/components/submit-button.md)
+      + [Adaptiver Forms Switch](/help/adaptive-forms/components/switch.md)
       + [Adaptive Formulare – Telefoneingabe](/help/adaptive-forms/components/telephone-input.md)
       + [Adaptive Formulare – Text](/help/adaptive-forms/components/text.md)
       + [Adaptive Formulare – Textfeld](/help/adaptive-forms/components/text-input.md)
