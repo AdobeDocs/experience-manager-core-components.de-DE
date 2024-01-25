@@ -2,9 +2,7 @@
 title: Adaptives Formularfragment
 description: Verwenden Sie Formularfragmente, um Formularsegmente oder Feldgruppen zu erstellen und sie in der gesamten adaptiven Forms wiederzuverwenden, um die Effizienz und Wiederverwendbarkeit zu verbessern.
 role: Architect, Developer, Admin, User
-hide: true
-hidefromToC: true
-source-git-commit: 9b97ea68d176d5194844093afdc41b82bdb45fee
+source-git-commit: 6f83e843b95689bad2cfb31bd53c20b135d789d5
 workflow-type: tm+mt
 source-wordcount: '1675'
 ht-degree: 67%
