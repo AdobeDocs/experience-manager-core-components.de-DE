@@ -4,7 +4,7 @@ description: Verwenden oder Anpassen der Kernkomponente „Bild“ für adaptive
 role: Architect, Developer, Admin, User
 exl-id: 9ee42d5d-16e3-4973-8364-5bc512ebe72e
 source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1198'
 ht-degree: 100%
 
