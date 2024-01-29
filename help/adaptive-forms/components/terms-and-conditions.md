@@ -3,10 +3,10 @@ title: Kernkomponente für adaptive Formulare - Nutzungsbedingungen
 description: Verwenden oder Anpassen der Nutzungsbedingungs-Kernkomponente für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
 workflow-type: tm+mt
-source-wordcount: '2635'
-ht-degree: 98%
+source-wordcount: '2690'
+ht-degree: 96%
 
 ---
 
@@ -15,6 +15,10 @@ ht-degree: 98%
 Eine **Nutzungsbedingungskomponente** bezieht sich auf einen Abschnitt eines Formulars, in dem die Bedingungen, Regeln und Vorgaben erläutert werden, denen Benutzende bei der Verwendung eines Dienstes oder beim Zugriff auf Inhalte zustimmen oder die sie erfüllen müssen.
 
 Die **Nutzungsbedingungskomponente** ist eine Composite-Komponente aus Text, Kontrollkästchen und Links. Die Textkomponente enthält einen Titel sowie einen kurzen Überblick über Zweck und Umfang der Nutzungsbedingungen. Ferner enthält sie ein Kontrollkästchen, mit dem Benutzende explizit ihre Zustimmung erteilen können. Sie können auch einen Zustimmungstext durch Links ersetzen.
+
+>[!NOTE]
+>
+> Für AEM 6.5 Forms wurde diese Komponente mit AEM 6.5 Forms Service Pack 19 (6.5.19.0) eingeführt. Um diese Komponente zu aktivieren, stellen Sie sicher, dass die erforderlichen Versionen der Forms-Kernkomponenten und der WCM-Kernkomponenten installiert sind. Ausführliche Informationen zu den Versionen der adaptiven Forms-Kernkomponenten finden Sie unter [Kernkomponentenversionen für adaptive Forms](/help/adaptive-forms/version.md)
 
 **Beispiel**
 
