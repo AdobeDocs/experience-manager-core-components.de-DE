@@ -4,9 +4,9 @@ description: Verwenden oder Anpassen der Kernkomponente „Adaptive Formulare �
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
 source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '861'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ Im Dialogfeld „Bearbeiten“ kann der Inhaltsautor bzw. die Inhaltsautorin den
 
 ## Dialogfeld „Design“ {#design-dialog}
 
-Die Registerkarte &quot;Design&quot;wird verwendet, um CSS-Stile für die Titelkomponente zu definieren und zu verwalten.
+Die Registerkarte „Design“ wird verwendet, um CSS-Stile für die Komponente „Titel“ zu definieren und zu verwalten.
 
 ### Titel
 
@@ -90,7 +90,7 @@ Sie können die Registerkarte zum Definieren und Verwalten von CSS-Stilen für e
 
 ![Registerkarte „Titel“ im Dialogfeld „Design“](/help/adaptive-forms/assets/title_styles.png)
 
-- **Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die Adaptive Forms Title-Kernkomponente bereitstellen.
+- **Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die Kernkomponente „Titel“ für adaptive Formulare bereitstellen.
 
 - **Zulässige Stile**: Sie können Stile definieren, indem Sie den Namen und die CSS-Klasse für den Stil angeben. Sie können beispielsweise einen Stil mit dem Namen „Fettschrift“ erstellen und die CSS-Klasse „Schriftbreite: Fett“ bereitstellen. Sie können diese Stile bei einem adaptiven Formular im adaptiven Formular-Editor anwenden. Um einen Stil anzuwenden, wählen Sie im Editor für adaptive Formulare die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Eigenschaften-Dialog und wählen Sie den gewünschten Stil aus der Dropdown-Liste **Stile**. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld „Design“ zurück, aktualisieren die Stile auf der Registerkarte „Stile“ und speichern die Änderungen.
 
