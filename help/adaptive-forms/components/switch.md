@@ -1,40 +1,40 @@
 ---
-title: Adaptive Forms-Kernkomponente - Switch-Komponente
-description: Verwenden oder Anpassen der Kernkomponente des adaptiven Forms Switch
+title: Kernkomponente für adaptive Formulare – Komponente „Schalter“
+description: Verwenden oder Anpassen der Kernkomponente „Schalter“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 hide: true
 hidefromToC: true
 source-git-commit: d172e019c5621d950a94cbdd8d27e4834dbabe3b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1689'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
 
-# Switch-Komponente{#switch-adaptive-forms-core-component}
+# Komponente „Schalter“{#switch-adaptive-forms-core-component}
 
-Die Switch-Komponente ist eine grafische Benutzeroberfläche, die in Formularen verwendet wird und es Benutzern ermöglicht, zwischen zwei Optionen auszuwählen. Normalerweise handelt es sich dabei um einen Umschalter mit zwei Status, mit dem Benutzer zwischen zwei Status wählen können: Aktivierung oder Deaktivierung einer Funktion, Einstellung oder Funktion. Die Switch-Komponente wurde entwickelt, um den aktuellen Status visuell darzustellen und anzuzeigen, ob eine bestimmte Funktion aktiviert oder deaktiviert ist.
+Die Komponente „Schalter“ ist eine grafische Benutzeroberfläche, die in Formularen verwendet wird und es Benutzenden ermöglicht, zwischen zwei Optionen auszuwählen. Normalerweise handelt es sich dabei um einen Umschalter mit zwei Status, mit dem Benutzende zwischen zwei Status wählen können: Aktivierung oder Deaktivierung einer Funktion oder einer Einstellung. Die Komponente „Schalter“ wurde entwickelt, um den aktuellen Status visuell darzustellen und anzuzeigen, ob eine bestimmte Funktion aktiviert oder deaktiviert ist.
 
-Die Switch-Komponente ist ein boolesches Steuerungselement, das den Wert auf &quot;true&quot;oder &quot;false&quot;setzt. Beispielsweise wird es verwendet, um eine Funktion ein- oder auszuschalten, z. B. zum Stummen oder Aufheben der Ton-Stummschaltung oder zum Aktivieren oder Deaktivieren von Bluetooth oder WiFi.
+Die Komponente „Schalter“ ist ein boolesches Steuerungselement, das den Wert auf „true“ oder „false“ setzt. Beispielsweise wird es verwendet, um eine Funktion ein- oder auszuschalten, z. B. um einen Ton ein- oder auszuschalten oder Bluetooth oder WLAN zu aktivieren bzw. zu deaktivieren.
 
-![Beispiel einer Switch-Komponente](/help/adaptive-forms/assets/switch-example.png)
+![Beispiel für die Komponente „Schalter“](/help/adaptive-forms/assets/switch-example.png)
 
 ## Verwendung {#reasons-to-use-switch}
 
-Häufige Gründe für die Verwendung des Switches in einem adaptiven Formular sind:
+Die häufigsten Gründe für die Verwendung von einem Schalter in einem adaptiven Formular sind:
 
-- **Benutzerinteraktion**: Benutzer können mit der Switch-Komponente interagieren, indem sie darauf klicken oder tippen.
+- **Benutzerinteraktion**: Benutzende können mit der Komponente „Schalter“ interagieren, indem sie darauf klicken oder tippen.
 
-- **Staaten**: Die Switch-Komponente weist zwei Status auf: EIN und AUS. Der Anfangsstatus der Switch-Komponente hängt von der Standardeinstellung oder dem aktuellen Status der Funktion ab, die sie steuert.
+- **Status**: Die Komponente „Schalter“ hat zwei Status: EIN und AUS. Der anfänglichen Status der Komponente „Schalter“ hängt von der Standardeinstellung oder dem aktuellen Status der Funktion ab, die sie steuert.
 
-- **Visuelle Darstellung**: Die Switch-Komponente spiegelt ihren aktuellen Status visuell wider, indem sie Farbe oder Position ändert.
+- **Visuelle Darstellung**: Der aktuellen Status der Komponente „Schalter“ wird visuell widergespiegelt, indem sich ihre Farbe oder Position verändert.
 
-- **Kontrollfunktionen**: Die Switch-Komponente wird verwendet, um bestimmte Funktionen in einem AEM Formular zu aktivieren oder zu deaktivieren. So können Benutzer beispielsweise eine Funktion aktivieren oder deaktivieren.
+- **Kontrollfunktionen**: Die Komponente „Schalter“ wird verwendet, um bestimmte Funktionen in einem AEM-Formular zu aktivieren oder zu deaktivieren. So können Benutzer bzw. Benutzerinnen beispielsweise eine Funktion aktivieren oder deaktivieren.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die Kernkomponente &quot;Adaptive Forms Switch&quot;wurde als Teil der Kernkomponenten 2.0.64 veröffentlicht. In der folgenden Tabelle finden Sie alle unterstützten Versionen, AEM Kompatibilität und Links zur entsprechenden Dokumentation:
+Die Kernkomponente „Schalter“ für adaptive Formulare wurde als Teil der Kernkomponenten 2.0.64 veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
 
 |  |  |
 |---|---|
@@ -46,11 +46,11 @@ Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokume
 
 ## Technische Details {#technical-details}
 
-Die neuesten Informationen zur Kernkomponente des adaptiven Forms-Switches finden Sie in der technischen Dokumentation unter [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/switch/v1/switch). Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Entwicklerdokumentation für Kernkomponenten](/help/developing/overview.md).
+Aktuelle Informationen zur Kernkomponente „Schalter“ für adaptive Formulare finden Sie in der technischen Dokumentation auf [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/switch/v1/switch). Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Entwicklerdokumentation für Kernkomponenten](/help/developing/overview.md).
 
 ## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
-Im Dialogfeld &quot;Konfigurieren&quot;können Sie das Erlebnis Ihrer Switch-Komponente für Besucher einfach anpassen. Für ein nahtloses Benutzererlebnis können Sie außerdem problemlos Switch-Komponentenoptionen definieren.
+Im Dialogfeld „Konfigurieren“ können Sie das Erlebnis für die Komponente „Schalter“ für Besuchende ganz einfach anpassen. Sie können auch Optionen für die Komponente „Schalter“ definieren, um das Benutzererlebnis zu verbessern.
 
 ### Registerkarte „Allgemein“
 
@@ -62,12 +62,12 @@ Im Dialogfeld &quot;Konfigurieren&quot;können Sie das Erlebnis Ihrer Switch-Kom
 
 - **Titel ausblenden**: Wählen Sie die Option aus, um den Titel der Komponente auszublenden.
 
-- **Statuswert &quot;Nicht prüfen&quot;beibehalten** - Wenn Sie diese Option auswählen, können Sie den Wert angeben, der zurückgegeben werden soll, wenn die Switch-Komponente nicht ausgewählt ist.
-- **Optionen** - Geben Sie den Datenwert und den Anzeigetext für jede Option an.
-   - **Datenwert** - Geben Sie den Wert an, der gesendet werden soll, wenn der Wechsel in einem adaptiven Formular aktiviert ist.
-   - **Text anzeigen** - Geben Sie den Text an, der als Beschriftung angezeigt werden soll, wenn der Wechsel in einem adaptiven Formular aktiviert wird.
-   - **Aus-Datenwert** - Geben Sie den Wert an, der gesendet werden soll, wenn der Wechsel in einem adaptiven Formular nicht aktiviert ist. Diese Option ist nur sichtbar, wenn die **Statuswert &quot;Nicht prüfen&quot;beibehalten** Switch aktiviert ist.
-   - **Text für Anzeige deaktivieren** - Geben Sie den Text an, der als Beschriftung angezeigt werden soll, wenn der Wechsel in einem adaptiven Formular nicht aktiviert ist. Diese Option ist nur sichtbar, wenn die **Statuswert &quot;Nicht prüfen&quot;beibehalten** Switch aktiviert ist.
+- **Wert des Status „Deaktivieren“ beibehalten** – Wenn Sie diese Option auswählen, können Sie den Wert angeben, der zurückgegeben werden soll, wenn die Komponente „Schalter“ nicht ausgewählt ist.
+- **Optionen** – Geben Sie den Datenwert und den Anzeigetext für jede Option an.
+   - **Aktivierter Datenwert** – Geben Sie den Wert an, der gesendet werden soll, wenn der Schalter in einem adaptiven Formular aktiviert ist.
+   - **Aktivierte Textanzeige** – Geben Sie den Text an, der als Beschriftung angezeigt werden soll, wenn der Schalter in einem adaptiven Formular aktiviert wird.
+   - **Deaktivierter Datenwert** – Geben Sie den Wert an, der gesendet werden soll, wenn der Schalter in einem adaptiven Formular nicht aktiviert ist. Diese Option ist nur sichtbar, wenn der Schalter **Wert des Status „Deaktivieren“ beibehalten** aktiviert ist.
+   - **Deaktivierter Anzeigetext** – Geben Sie den Text an, der als Beschriftung angezeigt werden soll, wenn der Schalter in einem adaptiven Formular nicht aktiviert ist. Diese Option ist nur sichtbar, wenn der Schalter **Wert des Status „Deaktivieren“ beibehalten** aktiviert ist.
 
 - **Verbindungsreferenz**: Eine Verbindungsreferenz ist ein Verweis auf ein Datenelement, das in einer externen Datenquelle gespeichert ist und in einem Formular verwendet wird. Sie können mit dem Bindungsverweis Daten dynamisch an Formularfelder binden, sodass das Formular die aktuellsten Daten aus der Datenquelle anzeigen kann. Beispielsweise kann ein Bindungsverweis verwendet werden, um den Namen und die Adresse von Kundinnen und Kunden in einem Formular anzuzeigen, basierend auf der im Formular eingegebenen Kunden-ID. Der Bindungsverweis kann auch verwendet werden, um die Datenquelle mit den im Formular eingegebenen Daten zu aktualisieren. Auf diese Weise können Sie mit AEM Forms Formulare erstellen, die mit externen Datenquellen interagieren und so ein nahtloses Benutzererlebnis bei der Datenerfassung und -verwaltung bieten.
 - **Als ungebundenes Formularelement markieren**: Mit dieser Option können Sie Formularfelder konfigurieren, die mit keinem Schema verbunden sind. Mit dieser Option können Sie Daten speichern, ohne die Datenquelle zu aktualisieren. Außerdem können Sie damit Daten auf eine benutzerdefinierte Art und Weise verarbeiten, getrennt von der standardmäßigen Datenbankintegration.
@@ -109,21 +109,21 @@ Im Dialogfeld &quot;Konfigurieren&quot;können Sie das Erlebnis Ihrer Switch-Kom
 
 ![Registerkarte „Stile“](/help/adaptive-forms/assets/switch-styles.png)
 
-- **Beschriftungen ausblenden** - Wählen Sie diese Option, um die Beschriftungen der Switch-Komponente auszublenden.
+- **Beschriftungen ausblenden** – Wählen Sie diese Option aus, um die Beschriftungen der Komponente „Schalter“ auszublenden.
 
-- **Beschriftungen anzeigen** - Wählen Sie diese Option, um die Beschriftungen der Switch-Komponente anzuzeigen.
+- **Beschriftungen anzeigen** – Wählen Sie diese Option aus, um die Beschriftungen der Komponente „Schalter“ anzuzeigen.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
-Das Dialogfeld &quot;Design&quot;wird verwendet, um CSS-Stile für die Switch-Komponente zu definieren und zu verwalten.
+Das Dialogfeld „Design“ wird verwendet, um CSS-Stile für die Komponente „Schalter“ zu definieren und zu verwalten.
 
 ### Registerkarte „Stile“ {#styles-design-tab}
 
-Die Kernkomponente &quot;Adaptiver Forms Switch&quot;unterstützt die AEM [Stilsystem](/help/get-started/authoring.md#component-styling).
+Die Kernkomponente „Schalter“ für adaptive Formulare unterstützt das [AEM-Stilsystem](/help/get-started/authoring.md#component-styling).
 
 ![Dialogfeld „Design“](/help/adaptive-forms/assets/checkbox-style.png)
 
-- **Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die Adaptive Forms Switch Group Core Component bereitstellen.
+- **Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die Kernkomponente „Schaltergruppe“ für adaptive Formulare bereitstellen.
 
 - **Zulässige Stile**: Sie können Stile definieren, indem Sie den Namen und die CSS-Klasse für den Stil angeben. Sie können beispielsweise einen Stil mit dem Namen „Fettschrift“ erstellen und die CSS-Klasse „Schriftbreite: Fett“ bereitstellen. Sie können diese Stile bei einem adaptiven Formular im adaptiven Formular-Editor anwenden. Um einen Stil anzuwenden, wählen Sie im Editor für adaptive Formulare die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Eigenschaften-Dialog und wählen Sie den gewünschten Stil aus der Dropdown-Liste **Stile**. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld „Design“ zurück, aktualisieren die Stile auf der Registerkarte „Stile“ und speichern die Änderungen.
 
@@ -131,7 +131,7 @@ Die Kernkomponente &quot;Adaptiver Forms Switch&quot;unterstützt die AEM [Stils
 
 ![Dialogfeld „Benutzerdefinierte Eigenschaften“](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
-Mit benutzerdefinierten Eigenschaften können Sie benutzerdefinierte Attribute (Schlüssel-Wert-Paare) mithilfe der Formularvorlage mit einer Kernkomponente des adaptiven Formulars verknüpfen. Die benutzerdefinierten Eigenschaften werden im Eigenschaftenbereich der Headless-Ausgabedarstellung der Komponente angezeigt. So kann ein dynamisches Formularverhalten erzeugt werden, das sich je nach den benutzerdefinierten Attributwerten anpasst. Beispielsweise können Entwickelnde verschiedene Ausgabedarstellungen einer Headless-Formularkomponente für Mobile-, Desktop- oder Web-Plattformen entwerfen und so das Benutzererlebnis auf einer Vielzahl von Geräten erheblich verbessern.
+Mit der Option „Benutzerdefinierte Eigenschaften“ können Sie mithilfe der Formularvorlage benutzerdefinierte Attribute (Schlüsselwertpaare) mit einer Kernkomponente eines adaptiven Formulars verknüpfen. Die benutzerdefinierten Eigenschaften werden im Eigenschaftenbereich der Headless-Ausgabedarstellung der Komponente angezeigt. So kann ein dynamisches Formularverhalten erzeugt werden, das sich je nach den benutzerdefinierten Attributwerten anpasst. Beispielsweise können Entwickelnde verschiedene Ausgabedarstellungen einer Headless-Formularkomponente für Mobile-, Desktop- oder Web-Plattformen entwerfen und so das Benutzererlebnis auf einer Vielzahl von Geräten erheblich verbessern.
 
 - **Gruppenname**: Sie können einen Namen angeben, um die Gruppe der benutzerdefinierten Eigenschaften zu kennzeichnen. Sie können mehrere Gruppen benutzerdefinierter Eigenschaften hinzufügen, löschen oder neu anordnen. Nach dem Hinzufügen der Gruppe benutzerdefinierter Eigenschaften werden folgende Optionen angezeigt:
 
@@ -139,7 +139,7 @@ Mit benutzerdefinierten Eigenschaften können Sie benutzerdefinierte Attribute (
 
    - **Löschen**: Tippen oder klicken Sie auf diese Option, um den Namen und den Wert der benutzerdefinierten Eigenschaft zu löschen.
 
-   - **Neu anordnen**: Tippen oder klicken und ziehen Sie, um den benutzerdefinierten Eigenschaftsnamen und den benutzerdefinierten Eigenschaftswert neu anzuordnen.
+   - **Neu anordnen**: Ordnen Sie den Namen und Wert der benutzerdefinierten Eigenschaft durch Tippen oder Klicken und Ziehen neu an.
 
 ## Ähnliche Artikel {#related-articles}
 
