@@ -3,12 +3,13 @@ title: Registerkarten-Komponente
 description: Die Registerkarten-Komponente ermöglicht die Erstellung mehrerer Registerkarten zum Anordnen von Inhalten auf einer Seite.
 role: Architect, Developer, Admin, User
 exl-id: 0031c5f3-447c-4932-898f-2f453801e492
-source-git-commit: e8b3e55a42b6be6262d6f51b9569c0be3e8ce6c3
-workflow-type: ht
-source-wordcount: '1033'
-ht-degree: 100%
+source-git-commit: d39fe0084522f67664203a026340b23d325c1883
+workflow-type: tm+mt
+source-wordcount: '1034'
+ht-degree: 94%
 
 ---
+
 
 # Registerkarten-Komponente {#tabs-component}
 
@@ -61,6 +62,12 @@ Gehen Sie hierfür wie folgt vor:
    * Beispiel `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
 
 Wird zu der URL mit der Bereichs-ID navigiert, scrollt der Browser direkt zur jeweiligen Komponente und zeigt das angegebene Bedienfeld an. Wenn das Bedienfeld so konfiguriert ist, dass es nicht standardmäßig eingeblendet wird, wird es automatisch eingeblendet.
+
+## Registerkarte und responsives Design {#responsive-design}
+
+Alle Kernkomponenten sind so konzipiert, dass sie vollständig responsiv sind und auf allen Geräten ein nahtloses Erlebnis bieten.
+
+Einige erweiterte Komponenten wie die Registerkartenkomponente erfordern möglicherweise eine spezifische Erwägung im Kontext des Implementierungsprojekts, um unter allen Bedingungen Reaktionsschnelligkeit zu gewährleisten. Lesen Sie das Dokument . [Responsives Design der Kernkomponenten](/help/responsive.md) für weitere Informationen.
 
 ## Dialogfeld „Bearbeiten“ {#edit-dialog}
 

@@ -5,9 +5,9 @@ breadcrumb-title: Anleitung zu den Hauptkomponenten
 feature: Core Components
 user-guide-description: Nutzen Sie die erweiterbaren Hauptkomponenten, damit Autoren bzw. Autorinnen mühelos Inhalte erstellen können.
 feature-set: Experience Manager Sites
-source-git-commit: 5aed197937ca527d699569df09ea3305bae98fae
+source-git-commit: 2afcaeb90911de865814235586ea19eb21dd8126
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '378'
 ht-degree: 97%
 
 ---
@@ -16,6 +16,7 @@ ht-degree: 97%
 # Hilfe zu AEM-Kernkomponenten {#using}
 
 + [Einführung in Kernkomponenten](/help/introduction.md)
++ [Responsives Design](/help/responsive.md)
 + [Wege zum Erfolg](/help/developing/success.md)
 + [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_de)
 + [Versionen](/help/versions.md)

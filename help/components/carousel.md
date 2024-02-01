@@ -3,12 +3,13 @@ title: Karussellkomponente
 description: Mit der Karussellkomponente kann der Inhaltsautor Inhalte in einem drehbaren Karussell präsentieren.
 role: Architect, Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
-source-git-commit: e0d3790b265ab27ac2116f0d8daf1a18ecd3d714
-workflow-type: ht
-source-wordcount: '1312'
-ht-degree: 100%
+source-git-commit: d39fe0084522f67664203a026340b23d325c1883
+workflow-type: tm+mt
+source-wordcount: '1313'
+ht-degree: 95%
 
 ---
+
 
 # Karussellkomponente {#carousel-component}
 
@@ -55,6 +56,12 @@ Gehen Sie hierfür wie folgt vor:
    * Beispiel `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#carousel-bfe4fa6647-item-47f1a7ca67-tabpanel`
 
 Wird zu der URL mit der Bereichs-ID navigiert, scrollt der Browser direkt zur jeweiligen Komponente und zeigt das angegebene Bedienfeld an. Wenn das Bedienfeld so konfiguriert ist, dass es nicht standardmäßig angezeigt wird, wird automatisch dorthin gescrollt.
+
+## Karussell und responsives Design {#responsive-design}
+
+Alle Kernkomponenten sind so konzipiert, dass sie vollständig responsiv sind und auf allen Geräten ein nahtloses Erlebnis bieten.
+
+Einige erweiterte Komponenten wie die Karussellkomponente erfordern möglicherweise im Rahmen des Implementierungsprojekts besondere Überlegungen, um unter allen Bedingungen Reaktionsschnelligkeit zu gewährleisten. Lesen Sie das Dokument . [Responsives Design der Kernkomponenten](/help/responsive.md) für weitere Informationen.
 
 ## Dialogfeld „Bearbeiten“ {#edit-dialog}
 

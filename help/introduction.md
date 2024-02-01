@@ -3,12 +3,13 @@ title: Einführung in Kernkomponenten
 description: Erhalten Sie Lösungen für Probleme mit den Kernkomponenten und ermöglichen Sie anderen, Elemente in AEM zu erstellen.
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 1d16628d8a85edff8c079421204d8cf0ca3e807a
-workflow-type: ht
-source-wordcount: '927'
-ht-degree: 100%
+source-git-commit: d39fe0084522f67664203a026340b23d325c1883
+workflow-type: tm+mt
+source-wordcount: '808'
+ht-degree: 98%
 
 ---
+
 
 # Einführung in Kernkomponenten{#core-components-introduction}
 
@@ -35,6 +36,7 @@ Die Kernkomponenten sind eine Reihe standardisierter Web Content Management (WCM
 | Cloud-fähig | Ob in [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=de), in [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) oder On-Premise - sie funktionieren einfach. |
 | Vielseitig | Die Komponenten stellen allgemeine Konzepte dar, mit denen die Autoren nahezu jedes Layout zusammenstellen können. |
 | Konfigurierbar | [Inhaltsrichtlinien](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=de#content-policies) auf Vorlagenebene definieren, welche Funktionen die Seitenautoren verwenden dürfen oder nicht. |
+| [Responsive](responsive.md) | Alle Kernkomponenten sind so konzipiert, dass sie vollständig responsiv sind und ein nahtloses Erlebnis auf allen Geräten gewährleisten. |
 | Verfolgbar | Die [Adobe Client-Datenschicht-Integration](/help/developing/data-layer/overview.md) ermöglicht die Verfolgung aller Aspekte des Besuchererlebnisses. |
 | Barrierefrei | Sie erfüllen [WCAG 2.1-Standards](https://www.w3.org/TR/WCAG21/), bieten ARIA-Bezeichnungen und unterstützen die Tastennavigation ([bekannte Probleme](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)). |
 | SEO-freundlich | Die HTML-Ausgabe ist schematisch und stellt [schema.org](https://schema.org)-Mikrodatenanmerkungen bereit. |
@@ -46,6 +48,7 @@ Die Kernkomponenten sind eine Reihe standardisierter Web Content Management (WCM
 | Versionierung | Die [Versionierungsrichtlinie](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) stellt sicher, dass die Kernkomponenten Ihre Website nicht beschädigen, wenn Funktionen verbessert werden, die sich auf Sie auswirken könnten. |
 | Lokalisierbar | Mit der intelligenten Referenzauflösung ist es bestimmten Komponenten möglich, [entsprechende lokalisierte Inhalte automatisch zu finden und anzuzeigen](get-started/localization.md). |
 | Open Source | Wenn etwas nicht so ist, wie es sein sollte, [bringen Sie Ihre Verbesserungen ein!](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) |
+
 
 ## Die WCM-Komponenten {#the-wcm-components}
 
