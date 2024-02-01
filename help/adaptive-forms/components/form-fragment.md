@@ -1,57 +1,57 @@
 ---
 title: Adaptives Formularfragment
-description: Verwenden Sie Formularfragmente, um Formularsegmente oder Feldgruppen zu erstellen und sie in der gesamten adaptiven Forms wiederzuverwenden, um die Effizienz und Wiederverwendbarkeit zu verbessern.
+description: Verwenden Sie Formularfragmente, um Formularsegmente oder Feldgruppen zu erstellen und sie über adaptive Formulare hinweg wiederzuverwenden, um die Effizienz und Wiederverwendbarkeit zu verbessern.
 role: Architect, Developer, Admin, User
 source-git-commit: 6f83e843b95689bad2cfb31bd53c20b135d789d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1675'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
 
-# Formularfragment-Komponente {#form-fragment-component-adaptive-forms-core-component}
+# Komponente „Formularfragment“ {#form-fragment-component-adaptive-forms-core-component}
 
-Adaptive Forms bietet eine praktische Möglichkeit, Formularsegmente wie Bedienfelder oder Feldgruppen zu erstellen, damit sie in verschiedenen adaptiven Forms wiederverwendet werden können. Diese wiederverwendbaren und eigenständigen Segmente werden als [Adaptive Formularfragmente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html).
+Adaptive Formulare bieten eine praktische Möglichkeit, Formularsegmente wie Bedienfelder oder Feldgruppen zu erstellen, damit sie in verschiedenen adaptiven Formularen wiederverwendet werden können. Diese wiederverwendbaren, unabhängigen Segmente werden als [adaptive Formularfragmente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=de) bezeichnet.
 
-Sie können [Fragment mehrmals zu einem Dokument hinzufügen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html#insert-a-fragment-in-an-adaptive-form) und verwenden Datenbindungseigenschaften seiner Komponenten, um sie mit verschiedenen Datenquellen oder Schemata zu verknüpfen. Beispielsweise können Sie dasselbe Adressfragment für permanente, Kommunikations- und Abrechnungsadressen verwenden und es mit verschiedenen Feldern einer Datenquellen oder eines Schemas verbinden.
+Sie können [ein Fragment mehrmals zu einem Dokument hinzufügen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=de#insert-a-fragment-in-an-adaptive-form) und die Datenbindungseigenschaften seiner Komponenten verwenden, um es mit verschiedenen Datenquellen oder Schemata zu verknüpfen. Beispielsweise können Sie dasselbe Adressfragment für permanente, Kommunikations- und Abrechnungsadressen verwenden und es mit verschiedenen Feldern einer Datenquellen oder eines Schemas verbinden.
 
 ![Beispiel](/help/adaptive-forms/assets/using-multiple-fragment-af.gif)
 
 
-Sie können auch die [Wiederholungsoption](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=de) zum Duplizieren der Formularfragmentkomponente und der zugehörigen untergeordneten Komponenten eine minimale und maximale Wiederholungsanzahl definieren und die Replikation ähnlicher Abschnitte innerhalb eines Formulars erleichtern.
+Sie können die [Wiederholungsoptionen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=de) außerdem verwenden, um die Komponente „Formularfragmente“ und ihre untergeordneten Komponenten zu duplizieren, eine minimale und maximale Wiederholungsanzahl zu definieren und die Replikation ähnlicher Abschnitte innerhalb eines Formulars zu erleichtern.
 
 >[!NOTE]
 >
-> Sie können [Erstellen eines adaptiven Formularfragments](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html#create-a-fragment) ein Bedienfeld in einem vorhandenen adaptiven Formular als Fragment zu speichern.
+> Sie können [adaptive Formularfragmente von Grund auf neu erstellen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=de#create-a-fragment) oder ein Bedienfeld in einem vorhandenen adaptiven Formular als Fragment speichern.
 
 ## Verwendung {#usage}
 
-- **Wiederverwendbarkeit**: Die Möglichkeit, Formularfragmente in mehreren adaptiven Forms wiederzuverwenden, ist der Hauptvorteil der Verwendung von Formularfragmenten. Dies hilft bei der Aufrechterhaltung von Konsistenz in Design und Funktionalität, da an einem Fragment vorgenommene Änderungen in allen Instanzen übernommen werden, in denen es verwendet wird.
+- **Wiederverwendbarkeit**: Der größte Vorteil von Formularfragmenten ist die Möglichkeit Formularfragmente in mehreren adaptiven Formularen wiederzuverwenden. Dies hilft bei der Aufrechterhaltung von Konsistenz in Design und Funktionalität, da an einem Fragment vorgenommene Änderungen in allen Instanzen übernommen werden, in denen es verwendet wird.
 
-- **Konsistentes Benutzererlebnis**: Die Verwendung von Formularfragmenten für allgemeine Elemente, z. B. Kopf- oder Fußzeilen, stellt eine konsistente und einheitliche Benutzererfahrung sicher.
+- **Konsistentes Benutzererlebnis**: Die Verwendung von Formularfragmenten für allgemeine Elemente, z. B. Kopf- oder Fußzeilen, stellt ein konsistentes und einheitliches Benutzererlebnis sicher.
 
-- **Einfache Wartung**: Die Änderungen oder Änderungen an einem Formularfragment werden in allen Instanzen übernommen, in denen es verwendet wird. Sie vereinfacht die Wartung und verringert die Fehlerwahrscheinlichkeit.
+- **Einfache Wartung**: Die Änderungen an einem Formularfragment werden in allen Instanzen übernommen, in denen es verwendet wird. So wird die Wartung vereinfacht und die Fehlerwahrscheinlichkeit verringert.
 
-- **Effizienz**: Designer und Entwickler sparen Zeit, indem sie Formularfragmente nur einmal erstellen und testen. Die Formularfragmente können dann problemlos in mehrere adaptive Forms integriert werden, ohne dass redundante Arbeit erforderlich ist.
+- **Effizienz**: Entwickler und Entwicklerinnen sparen Zeit, indem sie Formularfragmente nur einmal erstellen und testen. Die Formularfragmente können dann problemlos in mehrere adaptive Formulare integriert werden, ohne dass redundante Arbeit erforderlich ist.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die Kernkomponente für adaptive Forms-Fragmente wurde als Teil der Kernkomponenten 2.0.50 für Cloud Service und Kernkomponenten 1.1.26 für AEM 6.5.16.0 Forms oder höher veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
+Die Kernkomponente „Fragment“ für adaptive Formulare wurde als Teil der Kernkomponenten 2.0.50 für Cloud Service und der Kernkomponenten 1.1.26 für AEM 6.5.16.0 Forms oder höher veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
 
 | Komponentenversion | AEM as a Cloud Service | AEM 6.5.16.0 Forms oder höher |
 |---|---|---|
-| v1 | Kompatibel mit<br>[Version 2.0.50](/help/adaptive-forms/version.md) und höher | Kompatibel mit<br>[Version 1.1.26](/help/adaptive-forms/version.md) und höher, jedoch weniger als 2.0.0. |
+| v1 | Kompatibel mit<br>[Version 2.0.50](/help/adaptive-forms/version.md) und höher | Kompatibel mit <br>[Version 1.1.26](/help/adaptive-forms/version.md) und höher (aber nur bis Version 2.0.0). |
 
 Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokument [Kernkomponenten-Versionen](/help/adaptive-forms/version.md).
 
 ## Technische Details {#technical-details}
 
-Die neuesten Informationen zur Kernkomponente &quot;Adaptive Forms Fragment&quot;finden Sie in der technischen Dokumentation zu [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/fragment). Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Entwicklerdokumentation für Kernkomponenten](/help/developing/overview.md).
+Aktuelle Informationen zur Kernkomponente „Fragment“ für adaptive Formulare finden Sie in der technischen Dokumentation auf [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/fragment). Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Entwicklerdokumentation für Kernkomponenten](/help/developing/overview.md).
 
 ## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
-Im Dialogfeld &quot;Konfigurieren&quot;können Sie das Fragmenterlebnis für Besucher einfach anpassen. Sie können Fragmenteigenschaften auch einfach definieren, um ein nahtloses Benutzererlebnis zu gewährleisten.
+Im Dialogfeld „Konfigurieren“ können Sie das Fragmenterlebnis für Besuchende ganz einfach anpassen. Sie können auch mühelos Fragmenteigenschaften für ein nahtloses Benutzererlebnis definieren.
 
 ### Registerkarte „Allgemein“ {#basic-tab}
 
@@ -86,7 +86,7 @@ Im Dialogfeld &quot;Konfigurieren&quot;können Sie das Fragmenterlebnis für Bes
         { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
      ```
 
-- **Fragmentverweis** - Ein Fragmentverweis ist ein Verweis auf ein Formularfragment, das in einer externen Datenquelle gespeichert und in einem Formular verwendet wird. Mit der Fragmentreferenz können Sie das Formularfragment dynamisch an ein Formular binden.
+- **Fragmentverweis** – Ein Fragmentverweis ist ein Verweis auf ein Formularfragment, das in einer externen Datenquelle gespeichert ist und in einem Formular verwendet wird. Mit dem Fragmentverweis können Sie das Formularfragment dynamisch an ein Formular binden.
 
 - **Verbindungsreferenz**: Eine Verbindungsreferenz ist ein Verweis auf ein Datenelement, das in einer externen Datenquelle gespeichert ist und in einem Formular verwendet wird. Sie können mit dem Bindungsverweis Daten dynamisch an Formularfelder binden, sodass das Formular die aktuellsten Daten aus der Datenquelle anzeigen kann. Beispielsweise kann ein Bindungsverweis verwendet werden, um den Namen und die Adresse von Kundinnen und Kunden in einem Formular anzuzeigen, basierend auf der im Formular eingegebenen Kunden-ID. Der Bindungsverweis kann auch verwendet werden, um die Datenquelle mit den im Formular eingegebenen Daten zu aktualisieren. Auf diese Weise können Sie mit AEM Forms Formulare erstellen, die mit externen Datenquellen interagieren und so ein nahtloses Benutzererlebnis bei der Datenerfassung und -verwaltung bieten.
 
@@ -94,13 +94,13 @@ Im Dialogfeld &quot;Konfigurieren&quot;können Sie das Fragmenterlebnis für Bes
 - **Komponente deaktivieren**: Wählen Sie die Option zum Deaktivieren der Komponente aus. Die deaktivierte Komponente ist nicht aktiv und Endbenutzende können sie nicht bearbeiten. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
 - **Schreibgeschützt**: Wählen Sie die Option aus, um die Komponente nicht bearbeitbar zu machen. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
 
-### Registerkarte &quot;Fragment wiederholen&quot; {#repeat-tab}
+### Registerkarte „Fragment wiederholen“ {#repeat-tab}
 
-![Registerkarte &quot;Fragment wiederholen&quot;](/help/adaptive-forms/assets/fragment-repeattab.png)
+![Registerkarte „Fragment wiederholen“](/help/adaptive-forms/assets/fragment-repeattab.png)
 
-- **Fragment wiederholbar machen**: Eine Umschalter-Funktion, mit der Benutzer die Wiederholungsfunktion aktivieren oder deaktivieren können.
-- **Mindestwiederholungen**: Legt fest, wie oft die Fragmentkomponente mindestens wiederholt werden kann. Der Wert null zeigt an, dass die Fragmentkomponente nicht wiederholt wird. Der Standardwert ist null.
-- **Maximale Wiederholungen**: Legt fest, wie oft die Fragmentkomponente maximal wiederholt werden kann. Standardmäßig ist dieser Wert unbegrenzt.
+- **Fragment wiederholbar machen**: Eine Umschalter-Funktion, mit der Benutzende die Wiederholungsfunktion aktivieren oder deaktivieren können.
+- **Mindestwiederholungen**: Legt fest, wie oft die Komponente „Fragment“ mindestens wiederholt werden kann. Der Wert „null“ zeigt an, dass die Komponente „Fragment“ nicht wiederholt wird. Der Standardwert ist null.
+- **Maximale Wiederholungen**: Legt fest, wie oft die Komponente „Fragment“ maximal wiederholt werden kann. Standardmäßig ist dieser Wert unbegrenzt.
 
 ### Registerkarte „Hilfe-Inhalt“ {#help-content}
 
@@ -120,15 +120,15 @@ Im Dialogfeld &quot;Konfigurieren&quot;können Sie das Fragmenterlebnis für Bes
 
 ## Dialogfeld „Design“ {#design-dialog}
 
-Das Dialogfeld &quot;Design&quot;wird verwendet, um CSS-Stile für die Formularfragment-Komponente zu definieren und zu verwalten.
+Das Dialogfeld „Design“ wird verwendet, um CSS-Stile für die Komponente „Fragment“ zu definieren und zu verwalten.
 
 ### Registerkarte „Stile“ {#styles-tab}
 
-Die Kernkomponente für adaptive Formularfragmente unterstützt die AEM [Stilsystem](/help/get-started/authoring.md#component-styling).
+Die Kernkomponente „Fragment“ für adaptive Formulare unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
 ![Dialogfeld „Design“](/help/adaptive-forms/assets/checkbox-style.png)
 
-- **Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die Kernkomponente &quot;Adaptives Formularfragment&quot;bereitstellen.
+- **Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die Kernkomponente „Formularfagment“ für adaptive Formulare bereitstellen.
 
 - **Zulässige Stile**: Sie können Stile definieren, indem Sie den Namen und die CSS-Klasse für den Stil angeben. Sie können beispielsweise einen Stil mit dem Namen „Fettschrift“ erstellen und die CSS-Klasse „Schriftbreite: Fett“ bereitstellen. Sie können diese Stile bei einem adaptiven Formular im adaptiven Formular-Editor anwenden. Um einen Stil anzuwenden, wählen Sie im Editor für adaptive Formulare die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Eigenschaften-Dialog und wählen Sie den gewünschten Stil aus der Dropdown-Liste **Stile**. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld „Design“ zurück, aktualisieren die Stile auf der Registerkarte „Stile“ und speichern die Änderungen.
 
@@ -136,7 +136,7 @@ Die Kernkomponente für adaptive Formularfragmente unterstützt die AEM [Stilsys
 
 ![Dialogfeld „Benutzerdefinierte Eigenschaften“](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
-Mit benutzerdefinierten Eigenschaften können Sie benutzerdefinierte Attribute (Schlüssel-Wert-Paare) mithilfe der Formularvorlage mit einer Kernkomponente des adaptiven Formulars verknüpfen. Die benutzerdefinierten Eigenschaften werden im Eigenschaftenbereich der Headless-Ausgabedarstellung der Komponente angezeigt. So kann ein dynamisches Formularverhalten erzeugt werden, das sich je nach den benutzerdefinierten Attributwerten anpasst. Beispielsweise können Entwickelnde verschiedene Ausgabedarstellungen einer Headless-Formularkomponente für Mobile-, Desktop- oder Web-Plattformen entwerfen und so das Benutzererlebnis auf einer Vielzahl von Geräten erheblich verbessern.
+Mit der Option „Benutzerdefinierte Eigenschaften“ können Sie mithilfe der Formularvorlage benutzerdefinierte Attribute (Schlüsselwertpaare) mit einer Kernkomponente eines adaptiven Formulars verknüpfen. Die benutzerdefinierten Eigenschaften werden im Eigenschaftenbereich der Headless-Ausgabedarstellung der Komponente angezeigt. So kann ein dynamisches Formularverhalten erzeugt werden, das sich je nach den benutzerdefinierten Attributwerten anpasst. Beispielsweise können Entwickelnde verschiedene Ausgabedarstellungen einer Headless-Formularkomponente für Mobile-, Desktop- oder Web-Plattformen entwerfen und so das Benutzererlebnis auf einer Vielzahl von Geräten erheblich verbessern.
 
 - **Gruppenname**: Sie können einen Namen angeben, um die Gruppe der benutzerdefinierten Eigenschaften zu kennzeichnen. Sie können mehrere Gruppen benutzerdefinierter Eigenschaften hinzufügen, löschen oder neu anordnen. Nach dem Hinzufügen der Gruppe benutzerdefinierter Eigenschaften werden folgende Optionen angezeigt:
 
@@ -144,7 +144,7 @@ Mit benutzerdefinierten Eigenschaften können Sie benutzerdefinierte Attribute (
 
    - **Löschen**: Tippen oder klicken Sie auf diese Option, um den Namen und den Wert der benutzerdefinierten Eigenschaft zu löschen.
 
-   - **Neu anordnen**: Tippen oder klicken und ziehen Sie, um den benutzerdefinierten Eigenschaftsnamen und den benutzerdefinierten Eigenschaftswert neu anzuordnen.
+   - **Neu anordnen**: Ordnen Sie den Namen und Wert der benutzerdefinierten Eigenschaft Tippen oder Klicken und Ziehen neu an.
 
 ## Ähnliche Artikel {#related-articles}
 
