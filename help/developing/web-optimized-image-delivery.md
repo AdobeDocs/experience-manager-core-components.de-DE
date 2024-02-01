@@ -3,9 +3,9 @@ title: Web-optimierte Bildbereitstellung
 description: Erfahren Sie, wie die Kernkomponenten die Funktionen zur Web-optimierten Bildbereitstellung von AEM as a Cloud Service nutzen können, um Bilder effizienter bereitzustellen.
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
-source-git-commit: 7325751541d463eb9744b1e4a72fd64611f74d55
+source-git-commit: eb1822cb41a849695afb5125745ed5f78e3e70a4
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1061'
 ht-degree: 54%
 
 ---
@@ -95,4 +95,5 @@ Nein, das sollte niemals aus folgenden Gründen geschehen.
 
 * Auf der HTML ändert sich das Markup bei der Aktivierung Web-optimierter Bilder nicht, sondern nur der Wert der `src` -Attribut für das Bildelement geändert.
 * Wenn der neue Bild-Service nicht verfügbar ist oder das gewünschte Bild nicht verarbeiten kann, wird die generierte URL immer [auf das Adaptive Image Servlet zurückfallen](#fallback).
-* Dispatcher-Regeln können den Web-optimierten Bildbereitstellungsdienst blockieren. URLs des Bildbereitstellungsdienstes beginnen mit `/adobe`und Prüfung [Dispatcher-Protokolle für abgelehnte Anforderungen](https://experienceleague.adobe.com/docs/experience-manager-learn/ams/dispatcher/common-logs.html#filter-rejects) sollte bei der Fehlerbehebung bei Fehlern helfen, die bei der Bereitstellung der Bilder an den Browser aufgetreten sind.
+
+Dispatcher-Regeln können jedoch den Web-optimierten Bildbereitstellungsdienst blockieren. URLs des Bildbereitstellungsdienstes beginnen mit `/adobe`und die Überprüfung der Dispatcher-Protokolle auf abgelehnte Anfragen als [hier beschrieben](https://experienceleague.adobe.com/docs/experience-manager-learn/ams/dispatcher/common-logs.html#filter-rejects) sollte bei der Fehlerbehebung bei Fehlern helfen, die bei der Bereitstellung der Bilder an den Browser aufgetreten sind.
