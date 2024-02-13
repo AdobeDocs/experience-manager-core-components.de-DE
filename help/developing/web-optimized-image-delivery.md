@@ -4,9 +4,9 @@ description: Erfahren Sie, wie die Kernkomponenten die Funktionen zur Web-optimi
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
 source-git-commit: eb1822cb41a849695afb5125745ed5f78e3e70a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1061'
-ht-degree: 54%
+ht-degree: 100%
 
 ---
 
@@ -30,22 +30,22 @@ Wenn Sie nicht mit Design-Dialogfeldern und AEM-Seitenvorlagen vertraut sind, [l
 
 Das war´s! Bilder werden jetzt von der Bildkomponente im WebP-Format bereitgestellt.
 
-Nachdem Sie den Web-optimierten Bildversand aktiviert haben, sollten Sie Ihre Dispatcher-Konfiguration überprüfen, um sicherzustellen, dass die Anforderung an den Bildbereitstellungsdienst nicht blockiert wird. Siehe [dieser FAQ-Eintrag](#failure-to-deliver) für weitere Informationen.
+Nachdem Sie die Web-optimierte Bildbereitstellung aktiviert haben, sollten Sie auch Ihre Dispatcher-Konfiguration überprüfen, um sicherzustellen, dass die Anforderung an den Bildbereitstellungsdienst nicht blockiert wird. Für weitere Informationen lesen Sie bitte [diesen Eintrag zu den häufig gestellten Fragen](#failure-to-deliver).
 
 ## Überprüfen der WebP-Bereitstellung {#verifying}
 
-Die Web-optimierte Bildbereitstellung ist für den Verbraucher des Inhalts transparent. Ein Endbenutzer bemerkt nur eine schnellere Ladezeit. Um eine tatsächliche Verhaltensänderung zu beobachten, müssen Sie daher den Inhaltstyp der gerenderten Bilder im Browser überprüfen. Alle modernen Browser unterstützen WebP. Weitere Informationen finden Sie unter [diese Website](https://caniuse.com/webp) für Details zur Browserunterstützung.
+Die Bereitstellung von Web-optimierten Bildern ist für die Benutzenden der Inhalte transparent. Die Endbenutzenden bemerken einzig eine schnellere Ladezeit. Um eine tatsächliche Verhaltensänderung zu beobachten, müssen Sie daher den Inhaltstyp der gerenderten Bilder im Browser überprüfen. Alle modernen Browser unterstützen WebP. Weitere Informationen finden Sie auf [dieser Website](https://caniuse.com/webp) mit Details zur Browser-Unterstützung.
 
 1. Bearbeiten Sie in AEM eine Seite, die auf der Vorlage basiert, auf der Sie die [Web-optimierte Bildbereitstellung für die Bildkomponente aktiviert haben](#activating).
 1. Wählen Sie im Seiteneditor oben links die Schaltfläche **Seiteninformationen** und dann **Als veröffentlicht anzeigen**.
-1. Öffnen Sie die Entwicklertools Ihres Browsers und wählen Sie die Registerkarte Netzwerk aus.
+1. Öffnen Sie die Entwickler-Tools Ihres Browsers und wählen Sie die Registerkarte „Netzwerk“ aus.
 1. Laden Sie die Seite neu, suchen Sie nach HTTP-Anforderungen, um die Bilder zu laden, und überprüfen Sie den Inhaltstyp des Bildes, das der Browser empfangen hat.
 
 ## Wann die Web-optimierte Bildbereitstellung nicht verfügbar ist {#fallback}
 
 Die Web-optimierte Bildbereitstellung ist nur in AEM as a Cloud Service verfügbar. In Fällen, in denen sie nicht verfügbar ist, z. B. wenn AEM 6.5 lokal oder auf einer lokalen Entwicklungsinstanz ausgeführt wird, fällt die Bildbereitstellung auf die Verwendung des [Adaptive Image Servlets](/help/developing/adaptive-image-servlet.md) zurück.
 
-Wenn Sie zum Adaptive Image Servlet zurückkehren, ändert sich die `src` -Attribut `img` -Elemente in der Seitenquelle.
+Beim Fallback auf das adaptive Bild-Servlet ändert sich das Attribut `src` der `img`-Elemente in der Seitenquelle.
 
 ## Häufig gestellte Fragen {#faq}
 
@@ -65,15 +65,15 @@ Der Bild-Service funktioniert nur für Assets, die sich unter `/content/dam` bef
 
 ### Warum zeigt der Service ein Bild mit schlechterer Qualität an oder begrenzt die Größe der Bilder? {#quality}
 
-Wenn Bild-Assets unter `/content/dam` verarbeitet werden, AEM as a Cloud Service Umgebungen optimierte Ausgabedarstellungen unterschiedlicher Dimensionen generieren. Der Web-optimierte Bilddienst analysiert die von der Bild-Kernkomponente angeforderte Breite, berücksichtigt das Originalbild und alle Ausgabeformate, die 2048 px und kleiner sind, und wählt die größte davon aus (innerhalb der Größenbeschränkungen und der Größenbeschränkungen kann der Bilddienst derzeit 50 MB und `12k`x`12k`) als Grundlage für die Anwendung der angeforderten Einstellungen (Breite, Zuschnitt, Format, Qualität usw.).
+Wenn Bild-Assets unter `/content/dam` verarbeitet werden, erzeugen AEM as a Cloud Service-Umgebungen optimierte Wiedergaben verschiedener Dimensionen. Der Web-optimierte Bilddienst analysiert die von der Bild-Kernkomponente angeforderte Breite, betrachtet das Originalbild und alle Wiedergaben, die 2048 Pixel und kleiner sind, und wählt die größte davon (innerhalb der Größen- und Abmessungsgrenzen, die der Bilddienst handhaben kann, derzeit 50 MB und `12k`x`12k`) als Basis aus, auf die er die angeforderten Einstellungen (Breite, Ausschnitt, Format, Qualität usw.) anwendet.
 
-Um die Wiedergabetreue der Ausgabe zu wahren, skaliert der Bilddienst keine Bilder. Die oben genannten Ausgabeformate definieren die beste Qualität, die der Bilddienst bereitstellen kann. Da Sie häufig nicht in der Lage sind, die Größe und/oder Abmessungen des ursprünglichen Bild-Assets zu beeinflussen, stellen Sie sicher, dass Ihre Bild-Assets alle eine 2048-px-Zoom-Wiedergabe aufweisen, und verarbeiten Sie sie andernfalls erneut.
+Um die Wiedergabetreue der Ausgabe zu wahren, skaliert der Bild-Service keine Bilder. Die zuvor genannten Ausgabeformate definieren die höchste Qualität, die der Bild-Service bereitstellen kann. Da Sie oft keinen Einfluss auf die Größe und/oder die Abmessungen des Originalbild-Assets haben, sollten Sie sicherstellen, dass alle Ihre Bild-Assets eine Zoom-Wiedergabe von 2048 Pixel haben, und sie neu bearbeiten, falls dies nicht der Fall ist.
 
 ### Die URLs meiner Bilder enden immer noch mit .JPG oder .PNG, nicht mit .WEBP und es gibt kein SRCSET-Attribut oder PICTURE-Element. Verwendet dies wirklich optimierte Web-Formate? {#content-negotiation}
 
-Zur Bereitstellung von WebP-Formaten führt der Web-optimierte Bildbereitstellungsdienst [Server-gesteuerte Inhaltsverhandlungen.](https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation#server-driven_content_negotiation) Dies hilft bei der Auswahl des optimalen Ausgabeformats für das Bild basierend auf den vom Kunden beworbenen Funktionen, sodass der Bildbereitstellungsdienst die Dateierweiterung ignorieren kann.
+Um WebP-Formate bereitzustellen, führt der Web-optimierte Bildbereitstellungsdienst eine [Server-gesteuerte Inhaltsaushandlung.](https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation#server-driven_content_negotiation) durch. Dies hilft bei der Auswahl des optimalen Ausgabeformats für das Bild auf der Grundlage der von der Kundschaft bestätigten Fähigkeiten, sodass der Bildbereitstellungsdienst die Dateierweiterung ignorieren kann.
 
-Der Vorteil der Nutzung von Content-Verhandlungsprozessen besteht darin, dass Browser, die keine WebP-Unterstützung bewerben, weiterhin das JPG- oder PNG-Dateiformat erhalten, ohne dass Änderungen am Markup der Seite erforderlich sind. Dies bietet eine optimale Kompatibilität für bestehende Sites und garantiert einen möglichst reibungslosen Übergang zur Web-optimierten Bildbereitstellung.
+Der Vorteil des Einsatzes von Inhaltsaushandlungen besteht darin, dass die Browser, die keine Unterstützung für WebP anbieten, weiterhin das JPG- oder PNG-Dateiformat erhalten, ohne dass eine Änderung im Markup der Seite erforderlich ist. Dies bietet eine optimale Kompatibilität für bestehende Sites und garantiert einen möglichst reibungslosen Übergang zur Web-optimierten Bildbereitstellung.
 
 ### Kann ich die Web-optimierte Bildbereitstellung mit meiner eigenen Komponente verwenden?
 
@@ -87,13 +87,13 @@ com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String,
 
 >[!WARNING]
 >
->Direkte URL-Einbettungen in ein Erlebnis, das nicht über die oben genannte SPI (auf AEM as a Cloud Service Sites verfügbar) erstellt wurde, verstoßen gegen die [Nutzungsbedingungen von Media Library](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/admin/medialibrary.html?lang=en#use-media-library).
+>Direkte URL-Einbettungen in einem Erlebnis, das nicht über das oben erwähnte SPI (verfügbar auf AEM as a Cloud Service-Sites) erstellt wurde, verstoßen gegen die [Nutzungsbedingungen der Medienbibliothek](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/admin/medialibrary.html?lang=de#use-media-library).
 
 ### Können Bilder nach der Aktivierung Web-optimierter Bilder möglicherweise nicht angezeigt werden? {#failure-to-deliver}
 
-Nein, das sollte niemals aus folgenden Gründen geschehen.
+Nein, das sollte aus folgenden Gründen niemals geschehen.
 
-* Auf der HTML ändert sich das Markup bei der Aktivierung Web-optimierter Bilder nicht, sondern nur der Wert der `src` -Attribut für das Bildelement geändert.
+* In der HTML ändert sich bei der Aktivierung Web-optimierter Bilder das Markup nicht, sondern nur der Wert des `src`-Attributs für das Bildelement.
 * Wenn der neue Bild-Service nicht verfügbar ist oder das gewünschte Bild nicht verarbeiten kann, wird die generierte URL immer [auf das Adaptive Image Servlet zurückfallen](#fallback).
 
-Dispatcher-Regeln können jedoch den Web-optimierten Bildbereitstellungsdienst blockieren. URLs des Bildbereitstellungsdienstes beginnen mit `/adobe`und die Überprüfung der Dispatcher-Protokolle auf abgelehnte Anfragen als [hier beschrieben](https://experienceleague.adobe.com/docs/experience-manager-learn/ams/dispatcher/common-logs.html#filter-rejects) sollte bei der Fehlerbehebung bei Fehlern helfen, die bei der Bereitstellung der Bilder an den Browser aufgetreten sind.
+Dispatcher-Regeln können jedoch den Web-optimierten Bildbereitstellungsdienst blockieren. Die URLs des Bildbereitstellungsdienstes beginnen mit `/adobe` und die Untersuchung der Dispatcher-Protokolle auf abgelehnte Anfragen wie [hier beschrieben](https://experienceleague.adobe.com/docs/experience-manager-learn/ams/dispatcher/common-logs.html?lang=de#filter-rejects) sollte Ihnen bei der Fehlersuche helfen, wenn die Auslieferung der Bilder an den Browser fehlschlägt.
