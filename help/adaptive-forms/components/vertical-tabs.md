@@ -4,9 +4,9 @@ description: Verwenden oder Anpassen der Kernkomponente „Vertikale Registerkar
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
 source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1959'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Wenn Benutzende auf eine Registerkarte klicken, wird der Formularinhalt dynamisc
 
 >[!NOTE]
 >
-> Für AEM 6.5 Forms wurde diese Komponente mit AEM 6.5 Forms Service Pack 19 (6.5.19.0) eingeführt. Um diese Komponente zu aktivieren, stellen Sie sicher, dass die erforderlichen Versionen der Forms-Kernkomponenten und der WCM-Kernkomponenten installiert sind. Ausführliche Informationen zu den Versionen der adaptiven Forms-Kernkomponenten finden Sie unter [Kernkomponentenversionen für adaptive Forms](/help/adaptive-forms/version.md)
+> Für AEM 6.5 Forms wurde diese Komponente mit AEM 6.5 Forms Service Pack 19 (6.5.19.0) eingeführt. Um diese Komponente zu aktivieren, stellen Sie sicher, dass die erforderlichen Versionen der Forms-Kernkomponenten und der WCM-Kernkomponenten installiert sind. Ausführliche Informationen zu den Versionen der Kernkomponenten für adaptive Formulare finden Sie unter [Kernkomponentenversionen für adaptive Formulare](/help/adaptive-forms/version.md)
 
 ![Beispiel](/help/adaptive-forms/assets/horizontal-example.png)
 
