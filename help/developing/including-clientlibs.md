@@ -4,9 +4,9 @@ description: Die Kernkomponenten sind mit einer Reihe von Client-Bibliotheken au
 role: Architect, Developer, Admin
 exl-id: 84e7c178-247b-42a2-99bf-6d1699ecee14
 source-git-commit: d39fe0084522f67664203a026340b23d325c1883
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '518'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
@@ -15,20 +15,20 @@ ht-degree: 65%
 
 Die Kernkomponenten sind mit einer Reihe von Client-Bibliotheken ausgestattet und bieten die Möglichkeit, eigene zu integrieren.
 
-## Bereitgestellte Client-Bibliotheken {#provided}
+## Verfügbare Client-Bibliotheken {#provided}
 
-Die Kernkomponenten stellen die folgenden Client-Bibliotheken standardmäßig bereit.
+Die Kernkomponenten sind standardmäßig mit den folgenden Client-Bibliotheken ausgestattet.
 
-* Die **site** clientlibs bieten das minimalistische funktionale Verhalten der Komponenten, die auf die Site angewendet werden sollen.
-   * Sie dienen als Ausgangspunkt für die Beschleunigung von Projekten, wobei Implementierungen ermutigt werden, [anpassen](/help/developing/customizing.md) um das gewünschte Erscheinungsbild und die gewünschte Funktionalität zu erzielen.
-* Die **editor** clientlibs werden auf das Authoring-Dialogfeld angewendet, um die erwartete Funktionalität und Darstellung sicherzustellen.
-* Die **editorhook** clientlibs werden auf die Site angewendet, wenn sie im Bearbeitungsmodus geladen werden.
-   * Sie enthalten JavaScript-Code, der bei von Editoren ausgelösten Ereignissen ausgeführt wird, was die Initialisierung dynamischer Funktionen erleichtert.
-* Einige Komponenten können bestimmte zusätzliche Client-Bibliotheken haben, die für die Verwendung in bestimmten Situationen entwickelt wurden, z. B. wenn sie neben [Dynamic Media](/help/components/image.md#dynamic-media) zum Beispiel.
+* Die **Site-Client-Bibliotheken** bieten das minimalistische Funktionsverhalten der Komponenten, die auf die Site angewendet werden sollen.
+   * Sie dienen als Ausgangspunkt für die Beschleunigung von Projekten, wobei Implementierungen für das Erweitern und [Anpassen](/help/developing/customizing.md) nützlich sein können, um das gewünschte Erscheinungsbild und die gewünschte Funktionalität zu erzielen.
+* Die **Editor-Client-Bibliotheken** werden auf das Autorendialogfeld angewendet, um die erwartete Funktionalität und das Erscheinungsbild sicherzustellen.
+* Die **EditorHook-Client-Bibliotheken** werden auf die Site angewendet, wenn letztere im Bearbeitungsmodus geladen wird.
+   * Sie enthalten JavaScript-Code, der bei vom Editor ausgelösten Ereignissen ausgeführt wird, was die Initialisierung dynamischer Funktionen erleichtert.
+* Einige Komponenten können bestimmte zusätzliche Client-Bibliotheken haben, die für die Verwendung in bestimmten Situationen erstellt wurden, z. B. wenn sie neben [Dynamic Media](/help/components/image.md#dynamic-media) eingesetzt werden.
 
 ## Einschließen von Client-Bibliotheken {#including}
 
-Je nach Nutzungsszenario gibt es verschiedene Möglichkeiten, [Client-Bibliotheken](/help/developing/archetype/front-end.md#clientlibs) einzuschließen. Im Folgenden finden Sie Beispiele für Beispiele [HTL-Snippets](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=de) für jede.
+Je nach Nutzungsszenario gibt es verschiedene Möglichkeiten, [Client-Bibliotheken](/help/developing/archetype/front-end.md#clientlibs) einzuschließen. Im Folgenden finden Sie Beispiele mit [HTL-Snippets](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=de) für jede Möglichkeit.
 
 ### Empfohlene Standardverwendung {#recommended-default-usage}
 
