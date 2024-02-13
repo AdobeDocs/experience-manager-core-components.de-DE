@@ -4,9 +4,9 @@ description: Verwenden oder Anpassen der Kontrollkästchen-Kernkomponente für a
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
 source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1746'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Ein Kontrollkästchen wird in der Regel als kleines Quadrat dargestellt, das dur
 
 >[!NOTE]
 >
-> Für AEM 6.5 Forms wurde diese Komponente mit AEM 6.5 Forms Service Pack 19 (6.5.19.0) eingeführt. Um diese Komponente zu aktivieren, stellen Sie sicher, dass die erforderlichen Versionen der Forms-Kernkomponenten und der WCM-Kernkomponenten installiert sind. Ausführliche Informationen zu den Versionen der adaptiven Forms-Kernkomponenten finden Sie unter [Kernkomponentenversionen für adaptive Forms](/help/adaptive-forms/version.md)
+> Für AEM 6.5 Forms wurde diese Komponente mit AEM 6.5 Forms Service Pack 19 (6.5.19.0) eingeführt. Um diese Komponente zu aktivieren, stellen Sie sicher, dass die erforderlichen Versionen der Forms-Kernkomponenten und der WCM-Kernkomponenten installiert sind. Ausführliche Informationen zu den Versionen der Kernkomponenten für adaptive Formulare finden Sie unter [Kernkomponentenversionen für adaptive Formulare](/help/adaptive-forms/version.md)
 
 **Beispiel**
 
