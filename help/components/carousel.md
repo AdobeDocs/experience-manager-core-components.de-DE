@@ -4,14 +4,14 @@ description: Mit der Karussellkomponente kann der Inhaltsautor Inhalte in einem 
 role: Architect, Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
 source-git-commit: d39fe0084522f67664203a026340b23d325c1883
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1313'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
-# Karussellkomponente {#carousel-component}
+# Karussellkomponente{#carousel-component}
 
 Mit der Kernkomponente „Karussellkomponente“ kann der Inhaltsautor Inhalte in einem navigierbaren Karussell präsentieren.
 
@@ -61,7 +61,7 @@ Wird zu der URL mit der Bereichs-ID navigiert, scrollt der Browser direkt zur je
 
 Alle Kernkomponenten sind so konzipiert, dass sie vollständig responsiv sind und auf allen Geräten ein nahtloses Erlebnis bieten.
 
-Einige erweiterte Komponenten wie die Karussellkomponente erfordern möglicherweise im Rahmen des Implementierungsprojekts besondere Überlegungen, um unter allen Bedingungen Reaktionsschnelligkeit zu gewährleisten. Lesen Sie das Dokument . [Responsives Design der Kernkomponenten](/help/responsive.md) für weitere Informationen.
+Einige erweiterte Komponenten wie die Karussellkomponente erfordern möglicherweise besondere Überlegungen im Kontext des Implementierungsprojekts, um unter allen Bedingungen die Reaktionsfähigkeit zu bewahren. Weitere Informationen finden Sie im Dokument [Responsives Design der Kernkomponenten](/help/responsive.md).
 
 ## Dialogfeld „Bearbeiten“ {#edit-dialog}
 
@@ -148,9 +148,9 @@ Im Dialogfeld „Design“ kann der Vorlagenautor definieren, welche Komponenten
 
 ### Registerkarte „Zugelassene Komponenten“ {#allowed-components-tab}
 
-Über die Registerkarte **Zugelassene Komponenten** können Sie definieren, welche Komponenten der Karussellkomponente vom Inhaltsautor als Folien hinzugefügt werden können.
+Über die Registerkarte **Zugelassene Komponenten** können Sie definieren, welche Komponenten der Karussellkomponente von Inhaltsautorinnen und Inhaltsautoren als Folien hinzugefügt werden können.
 
-Die Registerkarte „Zugelassene Komponenten“ funktioniert auf die gleiche Weise wie die Registerkarte desselben Namens beim [Definieren der Richtlinie und Eigenschaften eines Layoutcontainers im Vorlageneditor.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=de)
+Die Registerkarte „Zugelassene Komponenten“ funktioniert auf die gleiche Weise wie die Registerkarte desselben Namens beim [Definieren der Richtlinie und Eigenschaften eines Layout-Containers im Vorlageneditor.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=de)
 
 ### Registerkarte „Arten“ {#styles-tab}
 
