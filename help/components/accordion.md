@@ -4,14 +4,14 @@ description: Die Kernkomponente „Akkordeon“ ermöglicht die Erstellung einer
 role: Architect, Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
 source-git-commit: d39fe0084522f67664203a026340b23d325c1883
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1098'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
-# Akkordeon-Komponente {#accordion-component}
+# Akkordeon-Komponente{#accordion-component}
 
 Die Kernkomponente „Akkordeon“ ermöglicht die Erstellung einer Sammlung von Bedienfeldern, die auf der Seite in einem Akkordeon angeordnet sind.
 
@@ -63,7 +63,7 @@ Wird zu der URL mit der Bereichs-ID navigiert, scrollt der Browser direkt zur je
 
 Alle Kernkomponenten sind so konzipiert, dass sie vollständig responsiv sind und auf allen Geräten ein nahtloses Erlebnis bieten.
 
-Einige erweiterte Komponenten wie die Accordion-Komponente erfordern möglicherweise besondere Überlegungen im Kontext des Implementierungsprojekts, um unter allen Bedingungen Reaktionsschnelligkeit zu gewährleisten. Lesen Sie das Dokument . [Responsives Design der Kernkomponenten](/help/responsive.md) für weitere Informationen.
+Einige erweiterte Komponenten wie die Akkordeon-Komponente erfordern möglicherweise besondere Überlegungen im Kontext des Implementierungsprojekts, um unter allen Bedingungen die Reaktionsfähigkeit zu bewahren. Weitere Informationen finden Sie im Dokument [Responsives Design der Kernkomponenten](/help/responsive.md).
 
 ## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
