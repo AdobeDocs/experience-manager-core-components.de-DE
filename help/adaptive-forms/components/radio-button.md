@@ -3,10 +3,10 @@ title: Kernkomponente „Optionsschaltfläche“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „Optionsschaltfläche“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: ht
-source-wordcount: '1904'
-ht-degree: 100%
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+workflow-type: tm+mt
+source-wordcount: '1901'
+ht-degree: 97%
 
 ---
 
@@ -67,10 +67,24 @@ Im Dialogfeld „Konfigurieren“ können Sie Optionsschaltflächen für Besuche
 - **Name**: Sie können eine Formularkomponente sowohl im Formular als auch im Regel-Editor leicht mit ihrem eindeutigen Namen identifizieren. Der Name darf jedoch keine Leerzeichen oder Sonderzeichen enthalten.
 
 - **Titel**: Sie können mit dem Titel leicht eine Komponente in einem Formular identifizieren. Standardmäßig wird der Titel über der Komponente angezeigt. Wenn Sie keinen Titel hinzufügen, wird der Name der Komponente anstelle des Titeltexts angezeigt.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.    
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
+
 
 - **Titel ausblenden**: Wählen Sie die Option aus, um den Titel der Komponente auszublenden.
 
-  In der Registerkarte **Optionen** können Sie unter Verwendung der Schaltfläche **Hinzufügen** Datenwerte hinzufügen und Textpaare anzeigen. Nachdem eine neue Option hinzugefügt wurde, können die folgenden Aktionen ausgeführt werden:
+- **Optionen** - Sie können Datenwerte hinzufügen und Textpaare anzeigen, indem Sie die **Hinzufügen** Schaltfläche.
+  <!-- You can also format the options for radiobutton group using **Allow Rich Text for Options**. 
+  
+     ![Rich text support for options](/help/adaptive-forms/assets/richtext-for-options.png)-->
+
+  <!-- Once you select the checkbox for **Allow Rich Text for Options** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+    
+    ![Rich text support for options](/help/adaptive-forms/assets/richtextoptions-support.png)-->
+
+  Nachdem eine neue Option hinzugefügt wurde, können die folgenden Aktionen ausgeführt werden:
 
    - **Datenwert**: Mit dieser Option können Sie den zu sendenden Inhalt eingeben, wenn eine Option ausgewählt ist.
    - **Text anzeigen** – Mit dieser Option können Sie den Inhalt eingeben, der in einem adaptiven Formular angezeigt werden soll.
@@ -83,7 +97,7 @@ Im Dialogfeld „Konfigurieren“ können Sie Optionsschaltflächen für Besuche
 
 - **Datentyp des gesendeten Werts**: Diese Option gibt den Datentyp des Werts an, der bei Auswahl einer Option gesendet wird. Wenn der **Datentyp des gesendeten Werts** auf `Number` festgelegt ist und Sie auf der Registerkarte **Optionen** Zeichenfolgedaten zum **Datenwert** hinzufügen, wird am Bildschirm die Fehlermeldung `Value type mismatch` angezeigt.
 
-- **Standardoptionen**: Mit dieser Option können Sie vorab ausgewählte Standardwerte hinzufügen, wenn das Formular geladen wird. Wenn der **Datentyp des übermittelten Wertes** auf `Number` eingestellt ist und Sie den **Standardoptionen** Zeichenfolgen-Daten hinzufügen, wird auf dem Bildschirm die Fehlermeldung `Value type mismatch` angezeigt.
+- **Standardoption** - Mit dieser Option können Sie vorab ausgewählte Standardwerte hinzufügen, wenn das Formular geladen wird. Wenn der **Datentyp des übermittelten Wertes** auf `Number` eingestellt ist und Sie den **Standardoptionen** Zeichenfolgen-Daten hinzufügen, wird auf dem Bildschirm die Fehlermeldung `Value type mismatch` angezeigt.
 
 - **Anzeigeoptionen**: Diese Option wird verwendet, um die visuelle Ausrichtung von Optionsschaltflächen in einem adaptiven Formular festzulegen. Folgende zwei Optionen werden unterstützt:
    - **Horizontal** – Wenn diese Option aktiviert ist, werden Optionsschaltflächen in einem adaptiven Formular von links nach rechts angezeigt.

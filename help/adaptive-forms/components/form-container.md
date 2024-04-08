@@ -3,9 +3,9 @@ title: Kernkomponente für adaptive Formulare – Formular-Container
 description: Ein adaptives Formular zu einer Web-Seite hinzufügen.
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
-source-git-commit: 4d01c75fadb0220f0093a6647c27c4002cc979c9
-workflow-type: ht
-source-wordcount: '1297'
+source-git-commit: 7862206660909b396cb3d95b7ac81eee9221957b
+workflow-type: tm+mt
+source-wordcount: '1340'
 ht-degree: 100%
 
 ---
@@ -62,6 +62,8 @@ Mit dem Dialogfeld „Konfigurieren“ können Sie das Formular-Container-Erlebn
 
 ![Registerkarte „Allgemein“](/help/adaptive-forms/assets/formcontainer_basictab.png)
 
+- **Titel**: Sie können mit dem Titel leicht eine Komponente in einem Formular identifizieren. Standardmäßig wird der Titel über der Komponente angezeigt. Wenn Sie keinen Titel hinzufügen, wird der Name der Komponente anstelle des Titeltexts angezeigt.
+
 - **Vorbefüllungs-Services**: Diese Option ermöglicht es Benutzenden, einen Vorbefüllungs-Service zum Abrufen von Daten auszuwählen, wenn das adaptive Formular gerendert wird. Weitere Informationen zum [Erstellen und Konfigurieren eines Vorbefüllungs-Services](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=de#aem-forms-custom-prefill-service).
 
 - **Client-Bibliothekskategorie**: Benutzende können eine benutzerdefinierte JavaScript-Bibliothek pro adaptivem Formular konfigurieren. Es wird empfohlen, nur die wiederverwendbaren Funktionen in der Bibliothek zu behalten, die von den Drittanbieter-Bibliotheken „jquery“ und „underscore.js“ abhängig sind.
@@ -79,15 +81,15 @@ Sie können das Formulardatenmodell verwenden, um ein Formular mit einer Datenqu
 
 ### Registerkarte „Übermittlung“ {#submission-tab}
 
-![Registerkarte „Übermittlung“](/help/adaptive-forms/assets/formcontainer_submissiontab.png)
-
 Benutzende können verschiedene Aktionen für Übermittlungen adaptiver Formulare konfigurieren.
 
 - **Umleitungs-URL/-pfad**: Diese Option ermöglicht es, eine Seite für jedes Formular zu konfigurieren, zu dem die Formularbenutzenden nach dem Übermitteln eines adaptiven Formulars umgeleitet werden. Klicken Sie hier, um weitere Informationen zum [Konfigurieren von Umleitungsseiten](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html?lang=de) zu erhalten.
 
-![Registerkarte „Nachricht anzeigen“](/help/adaptive-forms/assets/formconatiner_showmessage.png)
+![Registerkarte „Übermittlung“](/help/adaptive-forms/assets/formcontainer_submissiontab.png)
 
 - **Nachricht anzeigen**: Mit dieser Option können Benutzende eine Nachricht hinzufügen, die angezeigt wird, wenn das adaptive Formular erfolgreich übermittelt wurde. Der vordefinierte Text ist im Dialogfeld enthalten und kann geändert werden. Das Dialogfeld „Nachricht anzeigen“ unterstützt Rich-Text-Formatierungswerkzeuge, mit denen der hinzugefügte Text formatiert werden kann.
+
+![Registerkarte „Nachricht anzeigen“](/help/adaptive-forms/assets/formconatiner_showmessage.png)
 
 - **Übermittlungsaktion**: Eine Übermittlungsaktion wird ausgelöst, wenn in einem adaptiven Formular auf die Schaltfläche „Senden“ geklickt wird. Benutzende können in der Dropdown-Liste „Übermittlungsaktionen“ auswählen, die standardmäßig unterstützt werden. Erfahren Sie, wie Sie [eine Übermittlungsaktion auf der Registerkarte „Übermittlung“ konfigurieren](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=de#supporting-custom-functions-in-validation-expressions-br).
 

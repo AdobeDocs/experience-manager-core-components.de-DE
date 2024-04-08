@@ -3,9 +3,9 @@ title: Kernkomponente „Bild“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „Bild“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: 9ee42d5d-16e3-4973-8364-5bc512ebe72e
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: ht
-source-wordcount: '1198'
+source-git-commit: 337f3b40f0a6046e4161d8365fc8ecc7d029cdcd
+workflow-type: tm+mt
+source-wordcount: '1057'
 ht-degree: 100%
 
 ---
@@ -66,7 +66,7 @@ Im Dialogfeld „Konfigurieren“ können Sie die Bildkomponente für Besuchende
 
 - **Als ungebundenes Formularelement markieren**: Mit dieser Option können Sie Formularfelder konfigurieren, die mit keinem Schema verbunden sind. Mit dieser Option können Sie Daten speichern, ohne die Datenquelle zu aktualisieren. Außerdem können Sie damit Daten auf eine benutzerdefinierte Art und Weise verarbeiten, getrennt von der standardmäßigen Datenbankintegration.
 
-- **Datensatzdokument Bindungsverweis**: Mit dieser Option können Sie ein Feld eines adaptiven Formulars mit dem Feld „Datensatzdokument“ verknüpfen. Wenn Benutzende einen Wert in ein verknüpftes Feld eines adaptiven Formulars eingeben, erscheint dieser Wert auch im verknüpften Feld des entsprechenden Datensatzdokuments. Sie können beispielsweise einen Bindungsverweis für ein Datensatzdokument verwenden, um den Namen und die Adresse von Erwerbenden in einem Datensatzdokument anzuzeigen, basierend auf der im Formular eingegebenen Kunden-ID. Auf diese Weise können Sie mit AEM Forms ein Datensatzdokument generieren und ein nahtloses Benutzererlebnis für die Datenerfassung und -verwaltung bieten.
+<!--   **Document of Record bind reference** - This option allows you to associate an Adaptive Form field with Document of Record field. When user enters any value in a linked field of an Adaptive Form that value also appears in the linked field of the corresponding Document of Record. For example, a Document of Record bind reference can be used to display a customer's name and address in a Document of Record, based on the customer's ID entered into the form. In this way, AEM Forms enable you to generate Document of Record and offers a seamless user experience for collecting and managing data.-->
 
 - **Beschreibung**: Eine Beschreibung ist eine kurze Texterklärung, die zusätzliche Informationen oder Klarstellungen zum Zweck eines bestimmten Bildes bietet.
 
@@ -79,7 +79,8 @@ Im Dialogfeld „Konfigurieren“ können Sie die Bildkomponente für Besuchende
 
 - **Komponente ausblenden**: Wählen Sie diese Option, um die Komponente aus dem Formular auszublenden. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor. Dies ist nützlich, wenn Sie Informationen speichern müssen, die Benutzende nicht sehen oder direkt ändern müssen.
 
-- **Schreibgeschützt**: Wählen Sie die Option aus, um zu verhindern, dass die Komponente bearbeitet werden kann. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
+<!--   **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
+-->
 
 ## Dialogfeld „Design“ {#design-dialog}
 

@@ -3,10 +3,10 @@ title: Kernkomponente „Datumsauswahl“ für adaptive Formulare
 description: Verwenden oder Anpassen der Datumsauswahl-Kernkomponente in adaptiven Formularen.
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: ht
-source-wordcount: '1901'
-ht-degree: 100%
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+workflow-type: tm+mt
+source-wordcount: '1980'
+ht-degree: 98%
 
 ---
 
@@ -64,10 +64,16 @@ Sie können die Datumsauswahl im Dialogfeld „Konfigurieren“ einfach anpassen
 - **Name**: Durch den Namen wird die Komponente im Regel-Editor eindeutig identifiziert. Sonderzeichen und Leerzeichen sind im Namen nicht zulässig.
 
 - **Titel**: Titel ist eine Zeichenfolge, die in einem adaptiven Formular oberhalb einer Komponente angezeigt wird. Der Titel identifiziert die Komponente eindeutig in der Baumstruktur eines adaptiven Formulars. Wenn Sie keinen Titel hinzufügen, wird der Name der Komponente anstelle des Titeltexts angezeigt.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
 
 - **Titel ausblenden**: Wählen Sie diese Option, um den Titel des Komponententyps in einem adaptiven Formular auszublenden.
 
 - **Platzhaltertext**: Platzhaltertext in einer Formularkomponente ist eine kurze Beschriftung oder Eingabeaufforderung in einem Eingabefeld, um Benutzende darüber zu informieren, welchen Text sie in dieses Feld eingeben sollen. Der Platzhaltertext verschwindet, wenn Benutzende mit der Eingabe in das Feld beginnen, und erscheint wieder, wenn das Feld leer bleibt. Er stellt einen visuellen Hinweis für Benutzende bereit, fungiert jedoch nicht als permanente Beschriftung oder Wert für das Feld.
+
+- **Bindungsverweis**: Bindungsverweis ist ein Verweis auf ein Datenelement, das in einer externen Datenquelle gespeichert ist und in einem Formular verwendet wird. Sie können mit dem Bindungsverweis Daten dynamisch an Formularfelder binden, sodass das Formular die aktuellsten Daten aus der Datenquelle anzeigen kann. Beispielsweise kann ein Bindungsverweis verwendet werden, um den Namen und die Adresse von Kundinnen und Kunden in einem Formular anzuzeigen, basierend auf der im Formular eingegebenen Kunden-ID. Der Bindungsverweis kann auch verwendet werden, um die Datenquelle mit den im Formular eingegebenen Daten zu aktualisieren. Auf diese Weise können Sie mit AEM Forms Formulare erstellen, die mit externen Datenquellen interagieren und so ein nahtloses Benutzererlebnis bei der Datenerfassung und -verwaltung bieten.
 
 - **Als ungebundenes Formularelement markieren**: Mit dieser Option können Sie Formularfelder konfigurieren, die mit keinem Schema verbunden sind. Mit dieser Option können Sie Daten speichern, ohne die Datenquelle zu aktualisieren. Außerdem können Sie damit Daten auf eine benutzerdefinierte Art und Weise verarbeiten, getrennt von der standardmäßigen Datenbankintegration.
 
@@ -90,11 +96,13 @@ Sie können die Datumsauswahl im Dialogfeld „Konfigurieren“ einfach anpassen
 - **Mindestdatum** – Sie können mit dieser Option das erforderliche Mindestdatum eingeben. Wenn Sie ein Datum eingeben, das vor dem in „Mindestdatum“ angegebenen Datum liegt, erscheint eine Fehlermeldung auf dem Bildschirm. Sie können der **Mindest-Fehlermeldung** eine benutzerdefinierte Fehlermeldung hinzufügen.
 
 - **Mindest-Fehlermeldung** – Sie können der **Mindest-Fehlermeldung** eine benutzerdefinierte Fehlermeldung hinzufügen, die angezeigt wird, wenn Sie ein Datum eingeben, das vor dem in der Option **Mindestdatum** angegebenen liegt.
+- **Mindestdatum ausschließen** - Mit dieser Option können Sie das Mindestdatum in einem bestimmten Datumsbereich oder einer Reihe von Datumsangaben weglassen.
 
 - **Maximales Datum** – Sie können mit dieser Option das maximale Datum eingeben. Wenn Sie ein Datum eingeben, das nach dem in „Maximales Datum“ angegebenen Datum liegt, erscheint eine Fehlermeldung auf dem Bildschirm. Sie können im Dialog **Maximal-Fehlermeldung** eine benutzerdefinierte Fehlermeldung hinzufügen.
 
 - **Maximal-Fehlermeldung** – Sie können im Dialogfeld **Maximal-Fehlermeldung** eine benutzerdefinierte Fehlermeldung hinzufügen, die angezeigt wird, wenn Sie ein Datum eingeben, das nach der Option **Maximales Datum** liegt.
 
+- **Höchstdatum ausschließen** - Mit dieser Option können Sie das maximale Datum in einem bestimmten Datumsbereich oder einer Reihe von Daten auslassen.
 
 ### Registerkarte „Hilfe-Inhalt“ {#help-content-tab}
 
@@ -120,10 +128,6 @@ Sie können die Datumsauswahl im Dialogfeld „Konfigurieren“ einfach anpassen
 - **Anzeigeformat** – Stellt das Format dar, in dem das Datum angezeigt wird. Die Option **Typ** ermöglicht die Auswahl des Datumsformats. Sie können das Datumsformat auch mithilfe der Option **Benutzerdefiniert** im Dropdown-Menü **Typ** anpassen.
 
 - **Format bearbeiten** – Stellt ein Datumsformat dar, in dem das Datum bearbeitet werden kann. Die Option **Typ** ermöglicht die Auswahl des Datumsformats. Sie können das Datumsformat auch mithilfe der Option **Benutzerdefiniert** im Dropdown-Menü **Typ** anpassen.
-
-- **Anzeigeformat** – Stellt das Format dar, in dem das Datum angezeigt wird. Mit der Option „Typ“ können Sie das Datumsformat auswählen. Sie können das Datumsformat auch mithilfe der Option **Benutzerdefiniert** im Dropdown-Menü **Typ** anpassen.
-
-- **Format bearbeiten** – Stellt ein Datumsformat dar, in dem Sie das Datum bearbeiten können. Mit der Option „Typ“ können Sie das Datumsformat auswählen. Sie können das Datumsformat auch mithilfe der Option **Benutzerdefiniert** im Dropdown-Menü **Typ** anpassen.
 
 ## Dialogfeld „Design“ {#design-dialog}
 

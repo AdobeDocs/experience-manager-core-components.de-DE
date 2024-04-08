@@ -2,15 +2,13 @@
 title: Kernkomponente für adaptive Formulare – Komponente „Schalter“
 description: Verwenden oder Anpassen der Kernkomponente „Schalter“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
-hide: true
-hidefromToC: true
-source-git-commit: d172e019c5621d950a94cbdd8d27e4834dbabe3b
-workflow-type: ht
+exl-id: 6ff2ca76-1514-42eb-bde3-60259af2d187
+source-git-commit: 8c51bd29074e5977d3435d849033770cadc357b8
+workflow-type: tm+mt
 source-wordcount: '1689'
 ht-degree: 100%
 
 ---
-
 
 # Komponente „Schalter“{#switch-adaptive-forms-core-component}
 
@@ -59,6 +57,10 @@ Im Dialogfeld „Konfigurieren“ können Sie das Erlebnis für die Komponente �
 - **Name**: Sie können eine Formularkomponente sowohl im Formular als auch im Regeleditor durch ihren eindeutigen Namen identifizieren. Der Name darf keine Leerzeichen oder Sonderzeichen enthalten.
 
 - **Titel**: Mit dem Titel können Sie eine Komponente in einem Formular leicht identifizieren. Standardmäßig wird der Titel neben der Komponente angezeigt. Wenn Sie keinen Titel hinzufügen, wird die Komponente nicht angezeigt.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **Titel ausblenden**: Wählen Sie die Option aus, um den Titel der Komponente auszublenden.
 
@@ -68,6 +70,15 @@ Im Dialogfeld „Konfigurieren“ können Sie das Erlebnis für die Komponente �
    - **Aktivierte Textanzeige** – Geben Sie den Text an, der als Beschriftung angezeigt werden soll, wenn der Schalter in einem adaptiven Formular aktiviert wird.
    - **Deaktivierter Datenwert** – Geben Sie den Wert an, der gesendet werden soll, wenn der Schalter in einem adaptiven Formular nicht aktiviert ist. Diese Option ist nur sichtbar, wenn der Schalter **Wert des Status „Deaktivieren“ beibehalten** aktiviert ist.
    - **Deaktivierter Anzeigetext** – Geben Sie den Text an, der als Beschriftung angezeigt werden soll, wenn der Schalter in einem adaptiven Formular nicht aktiviert ist. Diese Option ist nur sichtbar, wenn der Schalter **Wert des Status „Deaktivieren“ beibehalten** aktiviert ist.
+
+<!-- You can also format the options for switch using **Allow Rich Text for Options**. 
+  
+     ![Rich text support for options](/help/adaptive-forms/assets/switch-optipn-rich-text.png)
+
+    Once you select the checkbox for **Allow Rich Text for options** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+    
+    ![Rich text support for options](/help/adaptive-forms/assets/switch-richtext-for-display.png) -->
+
 
 - **Verbindungsreferenz**: Eine Verbindungsreferenz ist ein Verweis auf ein Datenelement, das in einer externen Datenquelle gespeichert ist und in einem Formular verwendet wird. Sie können mit dem Bindungsverweis Daten dynamisch an Formularfelder binden, sodass das Formular die aktuellsten Daten aus der Datenquelle anzeigen kann. Beispielsweise kann ein Bindungsverweis verwendet werden, um den Namen und die Adresse von Kundinnen und Kunden in einem Formular anzuzeigen, basierend auf der im Formular eingegebenen Kunden-ID. Der Bindungsverweis kann auch verwendet werden, um die Datenquelle mit den im Formular eingegebenen Daten zu aktualisieren. Auf diese Weise können Sie mit AEM Forms Formulare erstellen, die mit externen Datenquellen interagieren und so ein nahtloses Benutzererlebnis bei der Datenerfassung und -verwaltung bieten.
 - **Als ungebundenes Formularelement markieren**: Mit dieser Option können Sie Formularfelder konfigurieren, die mit keinem Schema verbunden sind. Mit dieser Option können Sie Daten speichern, ohne die Datenquelle zu aktualisieren. Außerdem können Sie damit Daten auf eine benutzerdefinierte Art und Weise verarbeiten, getrennt von der standardmäßigen Datenbankintegration.
@@ -139,7 +150,7 @@ Mit der Option „Benutzerdefinierte Eigenschaften“ können Sie mithilfe der F
 
    - **Löschen**: Tippen oder klicken Sie auf diese Option, um den Namen und den Wert der benutzerdefinierten Eigenschaft zu löschen.
 
-   - **Neu anordnen**: Ordnen Sie den Namen und Wert der benutzerdefinierten Eigenschaft durch Tippen oder Klicken und Ziehen neu an.
+   - **Neu anordnen**: Ordnen Sie den Namen und Wert der benutzerdefinierten Eigenschaft Tippen oder Klicken und Ziehen neu an.
 
 ## Ähnliche Artikel {#related-articles}
 
@@ -148,12 +159,3 @@ Mit der Option „Benutzerdefinierte Eigenschaften“ können Sie mithilfe der F
 ## Siehe auch {#see-also}
 
 {{see-also}}
-
-
-
-
-
-
-
-
-

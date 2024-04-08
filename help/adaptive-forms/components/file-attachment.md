@@ -3,10 +3,10 @@ title: Kernkomponente „Dateianhang“ von adaptiven Formularen
 description: Verwenden oder Anpassen der Kernkomponente „Dateianhang“ von adaptiven Formularen.
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: ht
-source-wordcount: '1740'
-ht-degree: 100%
+source-git-commit: 8c51bd29074e5977d3435d849033770cadc357b8
+workflow-type: tm+mt
+source-wordcount: '1726'
+ht-degree: 97%
 
 ---
 
@@ -62,6 +62,10 @@ Im Dialogfeld „Konfigurieren“ können Sie die Verwendung von Dateianhängen 
 - **Name**: Sie können eine Formularkomponente sowohl im Formular als auch im Regel-Editor leicht mit ihrem eindeutigen Namen identifizieren. Der Name darf jedoch keine Leerzeichen oder Sonderzeichen enthalten.
 
 - **Titel**: Sie können mit dem Titel leicht eine Komponente in einem Formular identifizieren. Standardmäßig wird der Titel über der Komponente angezeigt. Wenn Sie keinen Titel hinzufügen, wird der Name der Komponente anstelle des Titeltexts angezeigt.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **Titel ausblenden**: Wählen Sie diese Option aus, um den Titel der Komponente auszublenden.
 
@@ -73,6 +77,7 @@ Im Dialogfeld „Konfigurieren“ können Sie die Verwendung von Dateianhängen 
 - **Komponente deaktivieren**: Wählen Sie die Option zum Deaktivieren der Komponente aus. Die deaktivierte Komponente ist nicht aktiv und Endbenutzende können sie nicht bearbeiten. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
 - **Schreibgeschützt**: Wählen Sie die Option aus, um die Komponente nicht bearbeitbar zu machen. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
 - **Mehrere Anhänge zulassen**: Wählen Sie diese Option aus, um zuzulassen, dass mit der Schaltfläche **Dateianhang** mehrere Anhänge hochgeladen werden können.
+- **Text ablegen ziehen** - Es handelt sich um den Text, der oben im **Attach** -Schaltfläche, um Benutzer aufzufordern, Dateien anzuhängen oder per Drag-and-Drop zu verschieben. Sie können den Text anpassen, der oben im **Attach** Schaltfläche. <!-- Additionally, you can format the text using the rich text menu. -->
 
 ### Registerkarte „Validierung“ {#validation-tab}
 
@@ -84,11 +89,10 @@ Im Dialogfeld „Konfigurieren“ können Sie die Verwendung von Dateianhängen 
 
 - **Meldung zur Skriptvalidierung**: Mit dieser Option können Sie eine Meldung eingeben, die angezeigt wird, wenn die Skriptvalidierung fehlschlägt.
 
-- **Fehlermeldung zur Mindestanzahl von Dateien** – Mit dieser Option können Sie eine Fehlermeldung eingeben, die angezeigt wird, wenn die Anzahl der hochgeladenen Dateien unter der angegebenen Mindestanzahl von Dateien liegt.
-
-- **Fehlermeldung zur Höchstanzahl von Dateien** - Mit dieser Option können Sie eine Fehlermeldung eingeben, die angezeigt wird, wenn die Anzahl der hochgeladenen Dateien oberhalb der angegebenen Höchstanzahl von Dateien liegt.
+<!--   **Minimum files error message** - This option is used to enter an error message that is displayed if you upload files lesser than the specified minimum number of files.-->
 
 - **Maximale Dateigröße (MB)** – Mit dieser Option können Sie eine maximale Dateigröße angeben. Die Dateigrößen sind in MB angegeben.
+  <!--   **Maximum files error message** - This option is used to enter an error message that is displayed if you upload files greater than the specified maximum number of files.-->
 
 - **Fehlermeldung zur maximalen Dateigröße** – Mit dieser Option können Sie eine Fehlermeldung eingeben, die angezeigt wird, wenn Sie Dateien hochladen, deren Größe die in der Option **Maximale Dateigröße (MB)** angegebene Dateigröße überschreitet.
 

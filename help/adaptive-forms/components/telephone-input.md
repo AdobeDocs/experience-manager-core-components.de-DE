@@ -3,10 +3,10 @@ title: Kernkomponente „Telefoneingabe“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „Telefoneingabe“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
-source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
-workflow-type: ht
-source-wordcount: '2010'
-ht-degree: 100%
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+workflow-type: tm+mt
+source-wordcount: '2027'
+ht-degree: 98%
 
 ---
 
@@ -55,6 +55,10 @@ Im Dialogfeld „Konfigurieren“ können Sie das Telefoneingabefeld für Besuch
 - **Name**: Sie können eine Formularkomponente sowohl im Formular als auch im Regel-Editor leicht mit ihrem eindeutigen Namen identifizieren. Der Name darf jedoch keine Leerzeichen oder Sonderzeichen enthalten.
 
 - **Titel**: Sie können mit dem Titel leicht eine Komponente in einem Formular identifizieren. Standardmäßig wird der Titel über der Komponente angezeigt. Wenn Sie keinen Titel hinzufügen, wird der Name der Komponente anstelle des Titeltexts angezeigt.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **Titel ausblenden**: Wählen Sie die Option aus, um den Titel der Komponente auszublenden.
 
@@ -69,7 +73,9 @@ Im Dialogfeld „Konfigurieren“ können Sie das Telefoneingabefeld für Besuch
 
 - **Schreibgeschützt**: Wählen Sie die Option aus, um die Komponente nicht bearbeitbar zu machen. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
 
-- **Standardwert**: Mit dieser Option können Sie einen Standardwert in ein Formularfeld einfügen. Wenn **Komponente deaktiviert** oder **Schreibgeschützte Komponente** ausgewählt ist, wird auf dem Bildschirm der Standardwert angezeigt. Wird kein Wert in das Formularfeld eingegeben, wird bei der Formularübermittlung dieser Wert gesendet.
+- **Standardwert**: Mit dieser Option können Sie einen Standardwert in ein Formularfeld einfügen. Wenn **Komponente deaktiviert** oder **Schreibgeschützte Komponente** ausgewählt ist, wird auf dem Bildschirm der Standardwert angezeigt. Wenn Benutzende keinen Wert in das Formularfeld eingeben, wird dieser Wert zum Zeitpunkt der Formularübermittlung gesendet.
+
+- **Automatisches Füllattribut**: Mit der Option können Benutzer einen Wert eingeben, der automatisch im Formularfeld mit den gespeicherten Informationen eingefügt wird.
 
 ### Registerkarte „Validierung“ {#validation-tab}
 
@@ -87,7 +93,7 @@ Im Dialogfeld „Konfigurieren“ können Sie das Telefoneingabefeld für Besuch
 
 - **Mindestanzahl von Zeichen**: Mit dieser Option können Sie die zulässige Mindestanzahl von Zeichen im Feld angeben. Wenn Sie Zeichen eingeben, die kleiner sind als der Wert in **Mindestanzahl von Zeichen**, wird eine Fehlermeldung auf dem Bildschirm angezeigt. Über das Dialogfeld **Fehlermeldung zur Mindestanzahl von Zeichen** können Sie eine benutzerdefinierte Fehlermeldung hinzufügen.
 
-- *Fehlermeldung zur Mindestanzahl von Zeichen**: Im Dialogfeld **Fehlermeldung zur Mindestanzahl von Zeichen** können Sie eine benutzerdefinierte Fehlermeldung hinzufügen, die angezeigt wird, wenn weniger Zeichen eingegeben werden als die in der Option **Mindestanzahl von Zeichen** definierten.
+- **Fehlermeldung zur Mindestanzahl von Zeichen**: Im Dialogfeld **Fehlermeldung zur Mindestanzahl von Zeichen** können Sie eine benutzerdefinierte Fehlermeldung hinzufügen, die angezeigt wird, wenn weniger Zeichen eingegeben werden als die in der Option **Mindestanzahl von Zeichen** definierten.
 
 Die Option **Überprüfungsmuster** ermöglicht die Eingabe eines Musters zur Überprüfung der eingegebenen Telefonnummer. Die eingegebene Telefonnummer wird anhand des in der Option **Muster** angegeben Werts überprüft. Falls die Überprüfung der Telefonnummer anhand des in der Option **Muster** eingegebenen Werts fehlschlägt, wird auf dem Bildschirm eine Fehlermeldung angezeigt.
 
@@ -133,7 +139,7 @@ Mit der Option „Benutzerdefinierte Eigenschaften“ können Sie mithilfe der F
 
 - **Gruppenname**: Sie können einen Namen angeben, um die Gruppe der benutzerdefinierten Eigenschaften zu kennzeichnen. Sie können mehrere Gruppen benutzerdefinierter Eigenschaften hinzufügen, löschen oder neu anordnen. Nach dem Hinzufügen der Gruppe benutzerdefinierter Eigenschaften werden folgende Optionen angezeigt:
 
-   - **Schlüssel-Wert-Paare**: Sie können mehrere Namen und Werte für benutzerdefinierte Eigenschaften hinzufügen, indem Sie für jede Gruppe benutzerdefinierter Eigenschaften auf **Hinzufügen** klicken.
+   - **Schlüssel-Wert-Paare**: Sie können mehrere Namen und Werte benutzerdefinierter Eigenschaften hinzufügen, indem Sie für jede Gruppe benutzerdefinierter Eigenschaften auf **Hinzufügen** klicken.
 
    - **Löschen**: Tippen oder klicken Sie auf diese Option, um den Namen und den Wert der benutzerdefinierten Eigenschaft zu löschen.
 

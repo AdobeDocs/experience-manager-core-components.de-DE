@@ -3,10 +3,10 @@ title: Kernkomponente für adaptive Formulare - Kontrollkästchen
 description: Verwenden oder Anpassen der Kontrollkästchen-Kernkomponente für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
-workflow-type: ht
-source-wordcount: '1746'
-ht-degree: 100%
+source-git-commit: bb226c9545ce32f48896d737c8652a1e0c0e11a5
+workflow-type: tm+mt
+source-wordcount: '1666'
+ht-degree: 97%
 
 ---
 
@@ -62,6 +62,11 @@ Im Dialogfeld „Konfigurieren“ können Sie das Kontrollkästchen-Erlebnis fü
 
 - **Titel**: Mit dem Titel können Sie eine Komponente in einem Formular leicht identifizieren. Standardmäßig wird der Titel neben der Komponente angezeigt. Wenn Sie keinen Titel hinzufügen, wird die Komponente nicht angezeigt.
 
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
+
 - **Titel ausblenden**: Wählen Sie die Option aus, um den Titel der Komponente auszublenden.
 
 - **Verbindungsreferenz**: Eine Verbindungsreferenz ist ein Verweis auf ein Datenelement, das in einer externen Datenquelle gespeichert ist und in einem Formular verwendet wird. Sie können mit dem Bindungsverweis Daten dynamisch an Formularfelder binden, sodass das Formular die aktuellsten Daten aus der Datenquelle anzeigen kann. Beispielsweise kann ein Bindungsverweis verwendet werden, um den Namen und die Adresse von Kundinnen und Kunden in einem Formular anzuzeigen, basierend auf der im Formular eingegebenen Kunden-ID. Der Bindungsverweis kann auch verwendet werden, um die Datenquelle mit den im Formular eingegebenen Daten zu aktualisieren. Auf diese Weise können Sie mit AEM Forms Formulare erstellen, die mit externen Datenquellen interagieren und so ein nahtloses Benutzererlebnis bei der Datenerfassung und -verwaltung bieten.
@@ -73,12 +78,9 @@ Im Dialogfeld „Konfigurieren“ können Sie das Kontrollkästchen-Erlebnis fü
 - **Komponente ausblenden**: Wählen Sie diese Option, um die Komponente aus dem Formular auszublenden. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor. Dies ist nützlich, wenn Sie Informationen speichern müssen, die Benutzende nicht sehen oder direkt ändern müssen.
 
 - **Komponente deaktivieren**: Mit dieser Option können Sie die Komponente deaktivieren oder sperren. Die deaktivierte Komponente ist nicht aktiv und Endbenutzende können sie nicht bearbeiten. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
-- **Schreibgeschützt**: Wählen Sie die Option aus, um die Komponente nicht bearbeitbar zu machen. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
+  <!-- - **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.-->
 - **Wenn aktiviert, folgenden Wert zurückgeben** - Mit dieser Option können Sie festlegen, welcher Wert mit dem Kontrollkästchen verbunden werden soll, wenn dieses aktiviert oder ausgewählt wird. Diese Aktion wird ausgeführt, wenn Sie das Kontrollkästchen aktivieren.
-- **Deaktivieren aktivieren.**- Mit dieser Option können Sie die Funktion zum Deaktivieren eines zuvor aktivierten Kontrollkästchens aktivieren oder deaktivieren.
-   - Wenn **Deaktivieren aktivieren** auf „wahr“ gesetzt ist, können Benutzende das Kontrollkästchen nach eigenem Ermessen aktivieren und deaktivieren. Sie können das Kontrollkästchen nach Bedarf ein- und ausschalten.
-
-   - Wenn **Deaktivieren aktivieren** auf „falsch“ gesetzt ist, können Benutzende ein aktiviertes Kontrollkästchen nicht deaktivieren.
+- **Statuswert &quot;Nicht prüfen&quot;beibehalten**- Wählen Sie diese Option, um den Wert anzugeben, der zurückgegeben werden soll, wenn die Kontrollkästchenkomponente nicht ausgewählt ist. Wenn **Statuswert &quot;Nicht prüfen&quot;beibehalten** aktiviert ist oder auf &quot;true&quot;festgelegt ist, **Wenn deaktiviert, Rückgabewert** angezeigt.
 - **Wenn nicht aktiviert, folgenden Wert zurückgeben** - Mit dieser Option können Sie festlegen, welcher Wert mit dem Kontrollkästchen verknüpft werden soll, wenn es deaktiviert wird.
 
 - **Standardwert**: Mit dieser Option können Sie einen Standardwert in ein Formularfeld einfügen. Wenn **Komponente deaktiviert** oder **Schreibgeschützte Komponente** ausgewählt ist, wird der Standardwert auf dem Bildschirm angezeigt. Wenn Benutzende keinen Wert in das Formularfeld eingeben, wird dieser Wert zum Zeitpunkt der Formularübermittlung gesendet.

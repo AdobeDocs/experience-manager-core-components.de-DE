@@ -3,9 +3,9 @@ title: Kernkomponente „Zahleneingabe“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „Zahleneingabe“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: ht
-source-wordcount: '2035'
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+workflow-type: tm+mt
+source-wordcount: '1989'
 ht-degree: 100%
 
 ---
@@ -65,6 +65,10 @@ Sie können im Dialogfeld „Konfigurieren“ die Zahleneingabe für Besuchende 
 - **Name**: Sie können eine Formularkomponente sowohl im Formular als auch im Regel-Editor leicht mit ihrem eindeutigen Namen identifizieren. Der Name darf jedoch keine Leerzeichen oder Sonderzeichen enthalten.
 
 - **Titel**: Sie können mit dem Titel leicht eine Komponente in einem Formular identifizieren. Standardmäßig wird der Titel über der Komponente angezeigt. Wenn Sie keinen Titel hinzufügen, wird der Name der Komponente anstelle des Titeltexts angezeigt.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.   
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
 
 - **Titel ausblenden**: Wählen Sie die Option aus, um den Titel der Komponente auszublenden.
 
@@ -121,9 +125,9 @@ Sie können im Dialogfeld „Konfigurieren“ die Zahleneingabe für Besuchende 
 
 - **Anzeigeformat**: Sie können mit dieser Option aus verschiedenen numerischen ganzzahligen Formaten für die Anzeige auswählen. Wenn Benutzende aus dem Dropdown-Menü **Typ** eine Option auswählen, erscheint im Bedienfeld die Option **Format**. Sie können das Format auswählen, in dem die Zahlen den Benutzenden angezeigt werden sollen.
 
-- **Anzahl der Ziffern vor dem Dezimaltrennzeichen (1234.000)** – Sie können diese Option verwenden, um die Anzahl der Ziffern anzugeben, die vor dem Dezimaltrennzeichen angezeigt werden sollen.
+<!--   **Number of digits before the decimal separator (1234.000)** - Use this option to specify the number of digits to display before the decimal point. 
 
-- **Anzahl der Stellen nach dem Dezimaltrennzeichen (1234.000)** – Sie können diese Option verwenden, um die Anzahl der Ziffern anzugeben, die nach dem Dezimaltrennzeichen angezeigt werden sollen.
+- **Number of digits after the decimal separator (1234.000)** - Use this option to specify the number of digits to display after the decimal point. -->
 
 ## Dialogfeld „Design“ {#design-dialog}
 

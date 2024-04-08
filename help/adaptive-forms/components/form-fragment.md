@@ -2,13 +2,13 @@
 title: Adaptives Formularfragment
 description: Verwenden Sie Formularfragmente, um Formularsegmente oder Feldgruppen zu erstellen und sie über adaptive Formulare hinweg wiederzuverwenden, um die Effizienz und Wiederverwendbarkeit zu verbessern.
 role: Architect, Developer, Admin, User
-source-git-commit: 6f83e843b95689bad2cfb31bd53c20b135d789d5
+exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
 workflow-type: tm+mt
-source-wordcount: '1675'
+source-wordcount: '1780'
 ht-degree: 100%
 
 ---
-
 
 # Komponente „Formularfragment“ {#form-fragment-component-adaptive-forms-core-component}
 
@@ -60,6 +60,10 @@ Im Dialogfeld „Konfigurieren“ können Sie das Fragmenterlebnis für Besuchen
 - **Name**: Sie können eine Formularkomponente sowohl im Formular als auch im Regel-Editor leicht mit ihrem eindeutigen Namen identifizieren. Der Name darf jedoch keine Leerzeichen oder Sonderzeichen enthalten.
 
 - **Titel**: Sie können mit dem Titel leicht eine Komponente in einem Formular identifizieren. Standardmäßig wird der Titel über der Komponente angezeigt. Wenn Sie keinen Titel hinzufügen, wird der Name der Komponente anstelle des Titeltexts angezeigt.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.    
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **Titel ausblenden** - Wählen Sie die Option aus, um den Titel der Komponente auszublenden.
 
@@ -118,6 +122,8 @@ Im Dialogfeld „Konfigurieren“ können Sie das Fragmenterlebnis für Besuchen
 
 - **Text für Bildschirmlesehilfen** – Das ist zusätzlicher Text, der von Hilfstechnologien wie etwa Bildschirmlesehilfen für sehbehinderte Personen vorgelesen wird. Dieser Text enthält eine Audiobeschreibung des Zwecks des Formularfelds und kann Informationen über den Titel, die Beschreibung, den Namen und alle relevanten Nachrichten (benutzerdefinierten Text) des Felds enthalten. Der Text der Bildschirmlesehilfe hilft sicherzustellen, dass das Formular allen Benutzenden zugänglich ist, auch Personen mit Sehschwäche, und bietet ihnen ein umfassendes Verständnis des Formularfelds und seiner Anforderungen.
 
+- **HTML-Rolle für die Ankündigung durch die Bildschirmlesehilfe** – Die HTML-Rolle ist ein Attribut, mit dem der Zweck eines HTML-Elements für Hilfstechnologien wie Bildschirmlesehilfen spezifiziert wird. Rollenattribute werden verwendet, um für ein Element zusätzlichen Kontext und eine semantische Bedeutung bereitzustellen, wodurch es für Bildschirmlesehilfen einfacher wird, den Inhalt zu interpretieren und ihn Benutzenden mitzuteilen. In AEM Forms kann beispielsweise die Beschriftung eines Formularfelds die Rolle „Beschriftung“ haben und sein Eingabefeld die Rolle „Textfeld“. Dadurch kann die Bildschirmlesehilfe die Beziehung zwischen Beschrfitung und Eingabefeld verstehen und diese Informationen den Benutzenden korrekt mitteilen.
+
 ## Dialogfeld „Design“ {#design-dialog}
 
 Das Dialogfeld „Design“ wird verwendet, um CSS-Stile für die Komponente „Fragment“ zu definieren und zu verwalten.
@@ -153,9 +159,3 @@ Mit der Option „Benutzerdefinierte Eigenschaften“ können Sie mithilfe der F
 ## Siehe auch {#see-also}
 
 {{see-also}}
-
-
-
-
-
-
