@@ -3,7 +3,7 @@ title: Kernkomponente „Optionsschaltfläche“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „Optionsschaltfläche“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '1901'
 ht-degree: 97%
@@ -72,7 +72,6 @@ Im Dialogfeld „Konfigurieren“ können Sie Optionsschaltflächen für Besuche
      
      ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
-
 - **Titel ausblenden**: Wählen Sie die Option aus, um den Titel der Komponente auszublenden.
 
 - **Optionen** - Sie können Datenwerte hinzufügen und Textpaare anzeigen, indem Sie die **Hinzufügen** Schaltfläche.
@@ -85,7 +84,6 @@ Im Dialogfeld „Konfigurieren“ können Sie Optionsschaltflächen für Besuche
     ![Rich text support for options](/help/adaptive-forms/assets/richtextoptions-support.png)-->
 
   Nachdem eine neue Option hinzugefügt wurde, können die folgenden Aktionen ausgeführt werden:
-
    - **Datenwert**: Mit dieser Option können Sie den zu sendenden Inhalt eingeben, wenn eine Option ausgewählt ist.
    - **Text anzeigen** – Mit dieser Option können Sie den Inhalt eingeben, der in einem adaptiven Formular angezeigt werden soll.
    - **Löschen** – Durch Tippen oder Klicken können Sie die Option einer Optionsschaltfläche löschen.

@@ -3,7 +3,7 @@ title: Kernkomponente „Bedienfeld-Container“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „Bedienfeld-Container“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
-source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '2052'
 ht-degree: 99%
@@ -115,7 +115,6 @@ Um wiederholbare Abschnitte innerhalb des Bedienfeld-Containers effektiv zu verw
 ### Registerkarte „Hilfe-Inhalt“ {#help-content}
 
 ![Registerkarte „Hilfe-Inhalt“](/help/adaptive-forms/assets/helpcontent-panel.png)
-
 
 - **Kurzbeschreibung**: Eine Kurzbeschreibung ist eine kurze Erklärung, die zusätzliche Informationen oder Klarstellungen über den Zweck eines Formularfelds bietet. Es hilft Benutzenden zu verstehen, welcher Datentyp in das Feld eingegeben werden soll, und kann Richtlinien oder Beispiele bereitstellen, um sicherzustellen, dass die eingegebenen Informationen gültig sind und die gewünschten Kriterien erfüllen. Standardmäßig bleiben kurze Beschreibungen ausgeblendet. Aktivieren Sie die Option **Kurzbeschreibung immer anzeigen**, um sie unterhalb der Komponente anzuzeigen.
 

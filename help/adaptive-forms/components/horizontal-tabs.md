@@ -3,7 +3,7 @@ title: Kernkomponente „Horizontale Registerkarten“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „Horizontale Registerkarten“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
-source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '1979'
 ht-degree: 98%
@@ -109,7 +109,6 @@ Sie können die Wiederholungsoptionen verwenden, um die Komponente „Horizontal
 - **Registerkarten oben wiederholbar machen**: Eine Umschalter-Funktion, mit der Benutzer die Wiederholungsfunktion aktivieren oder deaktivieren können.
 - **Mindestwiederholungen**: Legt fest, wie oft die Komponente „Horizontale Registerkarten“ mindestens wiederholt werden kann. Der Wert null zeigt an, dass die Komponente „Horizontale Registerkarten“ nicht wiederholt wird. Der Standardwert ist null.
 - **Maximale Wiederholungen**: Legt fest, wie oft die Komponente „Horizontale Registerkarten“ maximal wiederholt werden kann. Standardmäßig ist dieser Wert unbegrenzt.
-
 Um wiederholbare Abschnitte innerhalb der horizontalen Registerkarten effektiv zu verwalten, folgen Sie den Schritten, die im Artikel [Erstellen von Formularen mit wiederholbaren Abschnitten](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=de) beschrieben sind.
 
 ### Registerkarte „Elemente“ {#items-tab}

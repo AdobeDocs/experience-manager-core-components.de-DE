@@ -3,7 +3,7 @@ title: Kernkomponente „Bild“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „Bild“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: 9ee42d5d-16e3-4973-8364-5bc512ebe72e
-source-git-commit: 337f3b40f0a6046e4161d8365fc8ecc7d029cdcd
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 100%
@@ -15,7 +15,6 @@ ht-degree: 100%
 Mit einer Bildkomponente in einem adaptiven Formular können Sie Bilder in ein Formular einfügen. Diese Bilder können verwendet werden, um das Gesamt-Design des Formulars zu verbessern, zusätzliche Informationen bereitzustellen oder eine visuelle Hilfe zu bieten, sodass Benutzende leichter den Zweck des Formulars verstehen. Die Bildkomponente kann verwendet werden, um ein Logo, ein Foto oder eine Grafik in ein Formular einzufügen.
 
 Für die Barrierefreiheit ist es wichtig, **Alternativtext** zum Bild anzugeben, um eine kurze, beschreibende Textalternative für das Bild bereitzustellen, die das Bild für Benutzende beschreibt, die es nicht sehen können.
-
 
 **Beispiel**
 

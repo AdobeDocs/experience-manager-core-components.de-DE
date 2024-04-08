@@ -3,7 +3,7 @@ title: Kernkomponente für adaptive Formulare - Kontrollkästchen
 description: Verwenden oder Anpassen der Kontrollkästchen-Kernkomponente für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: bb226c9545ce32f48896d737c8652a1e0c0e11a5
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '1666'
 ht-degree: 97%
@@ -92,7 +92,6 @@ Im Dialogfeld „Konfigurieren“ können Sie das Kontrollkästchen-Erlebnis fü
 - **Erforderlich**: Wählen Sie diese Option, wenn Sie die Komponente in einem adaptiven Formular anzeigen möchten. Nachdem Sie die Option ausgewählt haben, müssen Sie eine Auswahl treffen, bevor Sie mit der Formularübermittlung fortfahren. Wenn diese Option aktiviert ist, kann die Option **Komponente ausblenden** oder **Komponente deaktivieren** auf der Registerkarte **Allgemein** nicht ausgewählt werden.
 
 - **Fehlermeldung**: Mit dieser Option können Sie eine Nachricht eingeben, die angezeigt wird, wenn das Kontrollkästchen **Erforderlich** aktiviert ist und das Feld leer bleibt.
-
 - **Meldung zur Skriptvalidierung**: Mit dieser Option können Sie eine Meldung eingeben, die angezeigt werden soll, wenn die Skriptvalidierung fehlschlägt.
 
 ### Registerkarte „Hilfe-Inhalt“ {#helpcontent-tab}

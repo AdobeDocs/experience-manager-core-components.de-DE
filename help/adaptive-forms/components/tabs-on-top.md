@@ -2,9 +2,9 @@
 title: Kernkomponente für adaptive Formulare – Registerkarten oben
 description: Verwenden oder Anpassen der Kernkomponente, durch die die Registerkarten in adaptiven Formularen oben angezeigt werden.
 role: Architect, Developer, Admin, User
-source-git-commit: 59cd9d65bf4c1be6ab2eaf15bbb747b532863fdd
-workflow-type: ht
-source-wordcount: '473'
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
+workflow-type: tm+mt
+source-wordcount: '467'
 ht-degree: 100%
 
 ---
@@ -89,5 +89,6 @@ Sie können Ihr „Registerkarten oben“-Erlebnis für Besuchende im Dialogfeld
 >* [Assistent](/help/adaptive-forms/components/wizard.md)
 
 ## Siehe auch {#see-also}
+
 
 {{see-also}}

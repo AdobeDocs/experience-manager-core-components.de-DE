@@ -3,7 +3,7 @@ title: Kernkomponente „Dropdown-Liste“ für adaptive Formulare
 description: Verwenden oder Anpassen der Dropdown-Kernkomponente adaptiver Formulare.
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
-source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '2011'
 ht-degree: 98%
@@ -78,7 +78,6 @@ Im Dialogfeld zum Konfigurieren der Dropdown-Liste finden Sie allgemeine Optione
 - **Titel ausblenden**: Wählen Sie diese Option aus, um den Titel der Komponente auszublenden.
 
 - **Mehrfachauswahl zulassen** – Wählen Sie diese Option aus, um die Auswahl mehrerer Optionen aus einer Dropdown-Liste zuzulassen.
-
 - **Wert speichern unter** – Diese Option gibt den Datentyp des Werts an, der bei Auswahl einer Option gesendet wird. Wenn **Wert speichern unter** auf `Number` gesetzt ist, und Sie auf der Registerkarte **Optionen** zum **Datenwert** Zeichenfolgendaten hinzufügen, wird auf dem Bildschirm die Fehlermeldung `Value type mismatch` angezeigt.
 
   Auf der Registerkarte **Optionen** können Sie Datenwerte hinzufügen und Textpaare anzeigen, indem Sie die Schaltfläche **Hinzufügen** verwenden. Nachdem eine neue Option hinzugefügt wurde, werden die folgenden Aktionen ausgeführt:

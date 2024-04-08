@@ -3,7 +3,7 @@ title: Kernkomponente für adaptive Formulare – Vertikale Registerkarten
 description: Verwenden oder Anpassen der Kernkomponente „Vertikale Registerkarten“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
-source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '1998'
 ht-degree: 100%
@@ -49,7 +49,6 @@ Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokume
 ## Technische Details {#technical-details}
 
 Die neuesten Informationen zur Kernkomponente „Vertikale Registerkarten“ für adaptive Formulare finden Sie in der technischen Dokumentation auf [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/verticaltabs/v1/verticaltabs). Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Entwicklerdokumentation für Kernkomponenten](/help/developing/overview.md).
-
 
 ## Dialogfeld „Konfigurieren“ {#configure-dialog}
 

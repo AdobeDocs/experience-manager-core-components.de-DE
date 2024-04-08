@@ -3,7 +3,7 @@ title: Kernkomponente „Dateianhang“ von adaptiven Formularen
 description: Verwenden oder Anpassen der Kernkomponente „Dateianhang“ von adaptiven Formularen.
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: 8c51bd29074e5977d3435d849033770cadc357b8
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '1726'
 ht-degree: 97%
@@ -84,7 +84,6 @@ Im Dialogfeld „Konfigurieren“ können Sie die Verwendung von Dateianhängen 
 ![Registerkarte „Validierung“](/help/adaptive-forms/assets/fileattachment_validationtab.png)
 
 - **Erforderlich**: Wählen Sie diese Option, wenn Sie die Komponente in einem adaptiven Formular anzeigen möchten. Nach Auswahl dieser Option müssen Sie Anhänge hinzufügen, bevor Sie mit der Formularübermittlung fortfahren. Wenn diese Option aktiviert ist, kann die Option **Komponente ausblenden** oder **Komponente deaktivieren** auf der Registerkarte **Allgemein** nicht ausgewählt werden.
-
 - **Fehlermeldung**: Mit dieser Option können Sie eine Nachricht eingeben, die angezeigt wird, wenn das Kontrollkästchen **Erforderlich** aktiviert ist und das Feld leer bleibt.
 
 - **Meldung zur Skriptvalidierung**: Mit dieser Option können Sie eine Meldung eingeben, die angezeigt wird, wenn die Skriptvalidierung fehlschlägt.
