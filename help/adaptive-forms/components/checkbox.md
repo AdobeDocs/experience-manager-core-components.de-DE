@@ -3,7 +3,7 @@ title: Kernkomponente für adaptive Formulare - Kontrollkästchen
 description: Verwenden oder Anpassen der Kontrollkästchen-Kernkomponente für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '1780'
 ht-degree: 91%
@@ -13,7 +13,6 @@ ht-degree: 91%
 # Kontrollkästchen-Komponente{#checkbox-component}
 
 <span class="preview"> Dieser Artikel enthält Inhalte zum **Rich-Text für Titel zulassen** -Funktion, einer Funktion vor der Veröffentlichung. Die Vorabversion-Funktion ist nur über unsere [Pre-Release-Kanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features).</span>
-
 
 Ein Kontrollkästchen ist ein grafisches Element der Benutzeroberfläche, das häufig in Software-Anwendungen und Formularen verwendet wird, um Benutzenden die Möglichkeit zu geben, zwischen zwei Optionen eine binäre Auswahl zu treffen: Häkchen (aktiviert) oder kein Häkchen (deaktiviert).
 

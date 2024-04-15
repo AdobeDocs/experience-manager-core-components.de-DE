@@ -3,7 +3,7 @@ title: Kernkomponente „Zahleneingabe“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „Zahleneingabe“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2103'
 ht-degree: 94%
@@ -35,7 +35,6 @@ Es gibt mehrere Gründe, warum es sinnvoll ist, eine numerische Eingabekomponent
 - **Datenbereich**: Sie können numerische Felder dazu verwenden, um einen Bereich gültiger Werte mithilfe von Min.-, Max.- und Schrittattributen festzulegen.
 
 - **Dynamische Inhalte**: Sie können numerische Komponenten dazu verwenden, um dynamische Daten basierend auf den Formularfeldern anzuzeigen.
-
 
 ## Version und Kompatibilität {#version-and-compatibility}
 

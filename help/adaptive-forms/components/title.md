@@ -3,10 +3,10 @@ title: Kernkomponente „Titel“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „Adaptive Formulare – Titel“.
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 100%
+source-wordcount: '863'
+ht-degree: 99%
 
 ---
 
@@ -16,7 +16,7 @@ In einem adaptiven Formular bezieht sich ein „Titel“ auf den Text, der oben 
 
 **Beispiel**
 
-![Beispiel](/help/adaptive-forms/assets/title.png)
+![Beispiel eines Titels](/help/adaptive-forms/assets/title.png)
 
 ## Verwendung {#reasons-to-use-title-in-an-adaptive-form}
 

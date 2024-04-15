@@ -3,7 +3,7 @@ title: Kernkomponente „Assistent“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „Assistent“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2100'
 ht-degree: 99%
@@ -20,7 +20,6 @@ Das Assistenten-Layout ist nützlich, wenn Formulare viele Felder oder Informati
 
 Dieses Layout kann jedoch auch die Komplexität des Formulars erhöhen, da Benutzende mehrere Seiten durchlaufen müssen, um es auszufüllen. Daher müssen die Formularanforderungen und die Benutzeranforderungen ausgewertet werden, bevor die Verwendung eines Assistentenlayouts beschlossen wird.
 Sie können die Kernkomponente „Assistent“ für adaptive Formulare verwenden, um ein Assistenten-Layout zu erstellen.
-
 
 **Beispiel**
 

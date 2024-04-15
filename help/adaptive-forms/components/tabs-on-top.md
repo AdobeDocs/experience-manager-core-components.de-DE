@@ -2,21 +2,20 @@
 title: Kernkomponente für adaptive Formulare – Registerkarten oben
 description: Verwenden oder Anpassen der Kernkomponente, durch die die Registerkarten in adaptiven Formularen oben angezeigt werden.
 role: Architect, Developer, Admin, User
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 100%
+source-wordcount: '470'
+ht-degree: 93%
 
 ---
 
 
 # Registerkarten oben {#tabs-on-top-adaptive-forms-core-component}
 
-Ein Layout, bei dem Registerkarten oben in einem adaptiven Formular angezeigt werden, bietet die Möglichkeit, verwandte Felder und Abschnitte eines Formulars in separate Registerkarten zu organisieren und zu gruppieren. Jede Registerkarte wird durch eine Registerkartenbeschriftung dargestellt, die sich normalerweise oben im Formular befindet und einen bestimmten Satz von Formularfeldern und -abschnitten enthält. Durch dieses Layout können Benutzende mühelos zu verschiedenen Abschnitten des Formulars navigieren und darauf zugreifen, wodurch es benutzerfreundlicher und zugänglicher wird. Es wird im Allgemeinen verwendet, wenn das Formular viele Felder und Abschnitte enthält und diese in kleinere, verwaltbare Blöcke unterteilt werden müssen. Registerkarten können auch dazu beitragen, die Barrierefreiheit zu verbessern, indem sie es Benutzenden ermöglichen, über Tastaturbefehle im Formular zu navigieren, wodurch Benutzende mit Behinderungen leichter auf das Formular zugreifen können.
-
+Ein Layout, bei dem Registerkarten oben in einem adaptiven Formular angezeigt werden, bietet die Möglichkeit, verwandte Felder und Abschnitte eines Formulars in separate Registerkarten zu organisieren und zu gruppieren. Jede Registerkarte wird durch eine Registerkartenbeschriftung dargestellt, die sich normalerweise oben im Formular befindet und einen bestimmten Satz von Formularfeldern und -abschnitten enthält. Durch dieses Layout können Benutzende mühelos zu verschiedenen Abschnitten des Formulars navigieren und darauf zugreifen, wodurch es benutzerfreundlicher und zugänglicher wird. Es wird im Allgemeinen verwendet, wenn das Formular viele Felder und Abschnitte enthält und diese in kleinere, verwaltbare Blöcke unterteilt werden müssen. Registerkarten können auch dazu beitragen, die Barrierefreiheit zu verbessern, indem sie es Benutzern ermöglichen, über Tastaturbefehle im Formular zu navigieren, wodurch Benutzer mit Behinderungen leichter auf das Formular zugreifen können.
 **Beispiel**
 
-![](/help/adaptive-forms/assets/tabs.png)
+![Registerkarten oben](/help/adaptive-forms/assets/tabs.png)
 
 ## Verwendung {#reasons-to-use-tab-on-the-top-layout}
 

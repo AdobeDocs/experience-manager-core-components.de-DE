@@ -3,7 +3,7 @@ title: Adaptives Formularfragment
 description: Verwenden Sie Formularfragmente, um Formularsegmente oder Feldgruppen zu erstellen und sie über adaptive Formulare hinweg wiederzuverwenden, um die Effizienz und Wiederverwendbarkeit zu verbessern.
 role: Architect, Developer, Admin, User
 exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '1894'
 ht-degree: 94%
@@ -152,6 +152,7 @@ Mit der Option „Benutzerdefinierte Eigenschaften“ können Sie mithilfe der F
    - **Löschen**: Tippen oder klicken Sie auf diese Option, um den Namen und den Wert der benutzerdefinierten Eigenschaft zu löschen.
 
    - **Neu anordnen**: Ordnen Sie den Namen und Wert der benutzerdefinierten Eigenschaft Tippen oder Klicken und Ziehen neu an.
+
 
 ## Ähnliche Artikel {#related-articles}
 

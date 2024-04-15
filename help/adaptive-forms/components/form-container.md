@@ -3,7 +3,7 @@ title: Kernkomponente für adaptive Formulare – Formular-Container
 description: Ein adaptives Formular zu einer Web-Seite hinzufügen.
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '1340'
 ht-degree: 100%
@@ -34,7 +34,6 @@ Es gibt mehrere Gründe, warum ein Formular einer Website hinzugefügt werden ka
 - **Benutzerauthentifizierung**: Formulare können für die Benutzerauthentifizierung verwendet werden, sodass Website-Besuchende Konten erstellen und sich anmelden können, um auf exklusive Inhalte oder Funktionen zuzugreifen.
 
 - **Erhöhung der Konversionsrate**: Ein gut gestaltetes Formular kann die Konversionsrate erhöhen, indem das Formular es den Benutzenden erleichtert, eine gewünschte Aktion auszuführen, z. B. ein Produkt zu erwerben oder sich für einen Service anzumelden.
-
 
 ## Version und Kompatibilität {#version-and-compatibility}
 

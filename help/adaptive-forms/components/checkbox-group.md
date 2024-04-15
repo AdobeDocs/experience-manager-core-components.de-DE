@@ -3,10 +3,10 @@ title: Kernkomponente für adaptive Formulare – Kontrollkästchen-Gruppe
 description: Verwenden oder Anpassen der Kernkomponente für adaptive Formulare – Kontrollkästchen-Gruppe.
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2047'
-ht-degree: 90%
+ht-degree: 88%
 
 ---
 
@@ -14,8 +14,7 @@ ht-degree: 90%
 
 <span class="preview"> Dieser Artikel enthält Inhalte zum **Rich-Text für Titel zulassen** und **Rich-Text für Optionen zulassen**  Funktionen, Funktionen vor der Veröffentlichung. Die Vorabversion-Funktion ist nur über unsere [Pre-Release-Kanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features).</span>
 
-Eine Kontrollkästchen-Gruppe in einem adaptiven Formular ist ein Satz verwandter Kontrollkästchen, mit denen Benutzende eine oder mehrere Optionen aus einer Liste auswählen können. Jedes Kontrollkästchen wird durch einen Datenwert (Wert, der zur Verarbeitung von Elementen einer Kontrollkästchen-Gruppe verwendet wird) und einen Anzeigewert (Beschriftung für jedes Kontrollkästchen-Element, die seinen Zweck beschreibt) dargestellt
-
+Eine Kontrollkästchen-Gruppe in einem adaptiven Formular ist ein Satz verwandter Kontrollkästchen, mit denen Benutzende eine oder mehrere Optionen aus einer Liste auswählen können. Jedes Kontrollkästchen wird durch einen Datenwert (Wert, der zur Verarbeitung von Elementen einer Kontrollkästchengruppe verwendet wird) und einen Anzeigewert (Beschriftung für jedes Kontrollkästchen-Element, das seinen Zweck beschreibt) dargestellt
 **Beispiel**
 
 ![Beispiel einer Kontrollkästchengruppe](/help/adaptive-forms/assets/checkbox-group.png)

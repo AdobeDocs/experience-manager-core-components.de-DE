@@ -3,7 +3,7 @@ title: Kernkomponente „Senden-Schaltfläche“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „Senden-Schaltfläche“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: e4b8e475-79b9-4c4d-9f11-a125a424d32b
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 92%
@@ -31,7 +31,6 @@ Die Gründe für die Verwendung einer Senden-Schaltfläche in einem adaptiven Fo
 - **Verbessertes Benutzererlebnis**: Eine gut gestaltete Senden-Schaltfläche kann das Benutzererlebnis verbessern, indem sie eine deutliche Rückmeldung zum Übermittlungsprozess des Formulars gibt und anzeigt, wann das Formular erfolgreich gesendet wurde.
 
 - **Datenvalidierung**: Die Senden-Schaltfläche kann zum Auslösen von Datenvalidierungsprüfungen verwendet werden, um sicherzustellen, dass die Formulardaten vollständig und korrekt sind, bevor sie an den Server gesendet werden.
-
 
 ## Version und Kompatibilität {#version-and-compatibility}
 

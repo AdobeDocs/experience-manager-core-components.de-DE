@@ -3,7 +3,7 @@ title: Kernkomponente „Datumsauswahl“ für adaptive Formulare
 description: Verwenden oder Anpassen der Datumsauswahl-Kernkomponente in adaptiven Formularen.
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2094'
 ht-degree: 92%
@@ -49,7 +49,6 @@ Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokume
 <!-- ## Sample Component Output {#sample-component-output}
 
 To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
-
 
 ## Technische Details {#technical-details}
 

@@ -3,7 +3,7 @@ title: Kernkomponente „Dropdown-Liste“ für adaptive Formulare
 description: Verwenden oder Anpassen der Dropdown-Kernkomponente adaptiver Formulare.
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2125'
 ht-degree: 92%
@@ -32,7 +32,6 @@ Es gibt verschiedene Gründe, warum es sinnvoll sein kann, eine Dropdown-Liste i
 - **Benutzererlebnis**: Sie können Dropdown-Listen verwenden, um das Formular benutzerfreundlicher zu gestalten, indem eine klare und intuitive Möglichkeit zur Auswahl von Optionen bereitgestellt wird.
 
 - **Datenanalyse**: Dropdown-Listen können verwendet werden, um Daten aus verschiedenen Quellen zu sammeln und zu analysieren oder sie als Eingabe für die weitere Verarbeitung zu verwenden.
-
 
 **Dialogfeld „Eigenschaften“**
 

@@ -3,7 +3,7 @@ title: Kernkomponente „Optionsschaltfläche“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „Optionsschaltfläche“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2079'
 ht-degree: 88%
@@ -110,7 +110,6 @@ Sie können die Optionen für die Optionsfeldgruppe auch mit **Rich-Text für Op
 ![Registerkarte „Validierung“](/help/adaptive-forms/assets/radiobutton_validationtab.png)
 
 - **Erforderlich**: Wählen Sie diese Option, wenn Sie die Komponente in einem adaptiven Formular anzeigen möchten. Nachdem Sie die Option ausgewählt haben, müssen Sie eine Auswahl treffen, bevor Sie mit der Formularübermittlung fortfahren. Wenn diese Option aktiviert ist, kann die Option **Komponente ausblenden** oder **Komponente deaktivieren** auf der Registerkarte **Allgemein** nicht ausgewählt werden.
-
 - **Fehlermeldung**: Mit dieser Option können Sie eine Nachricht eingeben, die angezeigt wird, wenn das Kontrollkästchen **Erforderlich** aktiviert ist und das Feld leer bleibt.
 
 - **Meldung zur Skriptvalidierung**: Mit dieser Option können Sie eine Meldung eingeben, die angezeigt werden soll, wenn die Skriptvalidierung fehlschlägt.
