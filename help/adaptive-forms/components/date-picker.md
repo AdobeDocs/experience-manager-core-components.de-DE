@@ -3,14 +3,16 @@ title: Kernkomponente „Datumsauswahl“ für adaptive Formulare
 description: Verwenden oder Anpassen der Datumsauswahl-Kernkomponente in adaptiven Formularen.
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '1980'
-ht-degree: 98%
+source-wordcount: '2094'
+ht-degree: 92%
 
 ---
 
 # Datumsauswahl {#date-picker-adaptive-forms-core-component}
+
+<span class="preview"> Dieser Artikel enthält Inhalte zum **Rich-Text für Titel zulassen** -Funktion, einer Funktion vor der Veröffentlichung. Die Vorabversion-Funktion ist nur über unsere [Pre-Release-Kanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features).</span>
 
 Datumsauswahl-Komponenten in einem adaptiven Formular sind Elemente der Benutzeroberfläche, mit denen Benutzende ein Datum aus einem Kalender auswählen oder manuell ein Datum in einem bestimmten Format eingeben können. Sie können die Datumsauswahl-Komponente so konfigurieren, dass sie unterschiedliche Formatierungen, Validierungen und Standardwerte aufweist.
 
@@ -64,10 +66,10 @@ Sie können die Datumsauswahl im Dialogfeld „Konfigurieren“ einfach anpassen
 - **Name**: Durch den Namen wird die Komponente im Regel-Editor eindeutig identifiziert. Sonderzeichen und Leerzeichen sind im Namen nicht zulässig.
 
 - **Titel**: Titel ist eine Zeichenfolge, die in einem adaptiven Formular oberhalb einer Komponente angezeigt wird. Der Titel identifiziert die Komponente eindeutig in der Baumstruktur eines adaptiven Formulars. Wenn Sie keinen Titel hinzufügen, wird der Name der Komponente anstelle des Titeltexts angezeigt.
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
-    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
+- **Rich-Text für Titel zulassen** - Diese Funktionen ermöglichen es Benutzern, einfache Texttitel zu formatieren, die Funktionen wie fett, kursiv, unterstrichen Text, verschiedene Schriftarten, Schriftgrößen, Farben und zusätzliche Optionen enthalten, um die visuelle Präsentation und Anpassung zu verbessern. Es bietet mehr Flexibilität und kreative Kontrolle, damit Titel in Dokumenten, Websites oder Anwendungen hervorgehoben werden.\
+  Nach Auswahl des Kontrollkästchens für **Rich-Text für Titel zulassen** , werden Formatierungsoptionen angezeigt, um den Titel der Komponente zu formatieren. Um auf alle verfügbaren Formatierungsoptionen zuzugreifen, können Sie auf die ![Symbol &quot;Vollbild&quot;](/help/adaptive-forms/assets/fullscreen-icon.png) Registerkarte.
+
+  ![Rich-Text-Unterstützung](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Titel ausblenden**: Wählen Sie diese Option, um den Titel des Komponententyps in einem adaptiven Formular auszublenden.
 

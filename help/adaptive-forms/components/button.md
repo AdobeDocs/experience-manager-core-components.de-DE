@@ -3,14 +3,16 @@ title: Kernkomponente für adaptive Formulare – Schaltfläche
 description: Verwenden oder Anpassen der Schlatflächen-Kernkomponente für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: cb75929b-8c86-49d1-b51a-368f5b80b1a9
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '1487'
-ht-degree: 100%
+source-wordcount: '1601'
+ht-degree: 92%
 
 ---
 
 # Schaltflächenkomponente  {#button-component-adaptive-forms-core-component}
+
+<span class="preview"> Dieser Artikel enthält Inhalte zum **Rich-Text für Titel zulassen** -Funktion, einer Funktion vor der Veröffentlichung. Die Vorabversion-Funktion ist nur über unsere [Pre-Release-Kanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features).</span>
 
 Eine Schaltfläche in einem adaptiven Formular ist ein Benutzeroberflächen-Element, mit dem Benutzende eine Aktion auslösen können, wenn sie darauf klicken. Mit dem Schaltflächenelement können Sie ein Formular senden, ein Formular zurücksetzen oder andere Aktionen durchführen, z. B. zu einer anderen Seite navigieren oder einen benutzerdefinierten Code auslösen. Die Schaltfläche kann mit der Schaltflächen-Kernkomponente erstellt werden.
 
@@ -68,12 +70,12 @@ Sie können Ihr Schaltflächen-Erlebnis für Besuchende im Dialogfeld „Konfigu
 
 - **Titel**: Sie können mit dem Titel leicht eine Komponente in einem Formular identifizieren. Standardmäßig wird der Titel über der Komponente angezeigt. Wenn Sie keinen Titel hinzufügen, wird der Name der Komponente anstelle des Titeltexts angezeigt.
 
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
-    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
+- **Rich-Text für Titel zulassen** - Diese Funktionen ermöglichen es Benutzern, einfache Texttitel zu formatieren, die Funktionen wie fett, kursiv, unterstrichen Text, verschiedene Schriftarten, Schriftgrößen, Farben und zusätzliche Optionen enthalten, um die visuelle Präsentation und Anpassung zu verbessern. Es bietet mehr Flexibilität und kreative Kontrolle, damit Titel in Dokumenten, Websites oder Anwendungen hervorgehoben werden.\
+  Nach Auswahl des Kontrollkästchens für **Rich-Text für Titel zulassen** , werden Formatierungsoptionen angezeigt, um den Titel der Komponente zu formatieren. Um auf alle verfügbaren Formatierungsoptionen zuzugreifen, können Sie auf die ![Symbol &quot;Vollbild&quot;](/help/adaptive-forms/assets/fullscreen-icon.png) Registerkarte.
 
-- **Bindungsverweis**: Bindungsverweis ist ein Verweis auf ein Datenelement, das in einer externen Datenquelle gespeichert ist und in einem Formular verwendet wird. Sie können mit dem Bindungsverweis Daten dynamisch an Formularfelder binden, sodass das Formular die aktuellsten Daten aus der Datenquelle anzeigen kann. Beispielsweise kann ein Bindungsverweis verwendet werden, um den Namen und die Adresse von Kundinnen und Kunden in einem Formular anzuzeigen, basierend auf der im Formular eingegebenen Kunden-ID. Der Bindungsverweis kann auch verwendet werden, um die Datenquelle mit den im Formular eingegebenen Daten zu aktualisieren. Auf diese Weise können Sie mit AEM Forms Formulare erstellen, die mit externen Datenquellen interagieren und so eine nahtlose Benutzererfahrung bei der Datenerfassung und Datenverwaltung bieten.
+  ![Rich-Text-Unterstützung](/help/adaptive-forms/assets/richtext-support-title.png)
+
+- **Verbindungsreferenz**: Eine Verbindungsreferenz ist ein Verweis auf ein Datenelement, das in einer externen Datenquelle gespeichert ist und in einem Formular verwendet wird. Sie können mit dem Bindungsverweis Daten dynamisch an Formularfelder binden, sodass das Formular die aktuellsten Daten aus der Datenquelle anzeigen kann. Beispielsweise kann ein Bindungsverweis verwendet werden, um den Namen und die Adresse von Kundinnen und Kunden in einem Formular anzuzeigen, basierend auf der im Formular eingegebenen Kunden-ID. Der Bindungsverweis kann auch verwendet werden, um die Datenquelle mit den im Formular eingegebenen Daten zu aktualisieren. Auf diese Weise können Sie mit AEM Forms Formulare erstellen, die mit externen Datenquellen interagieren und so eine nahtlose Benutzererfahrung bei der Datenerfassung und Datenverwaltung bieten.
 
 <!--   **Document of Record bind reference** - This option allows you to associate an Adaptive Form field with Document of Record field. When user enters any value in a linked field of an Adaptive Form that value also appears in the linked field of the corresponding Document of Record. For example, a Document of Record bind reference can be used to display a customer's name and address in a Document of Record, based on the customer's ID entered into the form. In this way, AEM Forms enables you to generate Document of Record and offers a seamless user experience for collecting and managing data.-->
 

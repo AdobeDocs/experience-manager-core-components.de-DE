@@ -3,14 +3,16 @@ title: Kernkomponente „Optionsschaltfläche“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „Optionsschaltfläche“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '1901'
-ht-degree: 97%
+source-wordcount: '2079'
+ht-degree: 88%
 
 ---
 
 # Optionsschaltfläche {#radio-button-adaptive-forms-core-component}
+
+<span class="preview"> Dieser Artikel enthält Inhalte zum **Rich-Text für Titel zulassen** und **Rich-Text für Optionen zulassen**  Funktionen, Funktionen vor der Veröffentlichung. Die Vorabversion-Funktion ist nur über unsere [Pre-Release-Kanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features).</span>
 
 Eine Optionsschaltfläche in einem adaptiven Formular ist eine Art Eingabeelement, mit dem Benutzende eine Option aus einer Gruppe verwandter Optionen auswählen können. Sie wird durch eine kleine kreisförmige Schaltfläche dargestellt, die entweder ausgefüllt oder leer ist, um anzugeben, ob die Option ausgewählt ist oder nicht. Wenn Benutzende eine Optionsschaltfläche auswählen, werden die anderen in der Gruppe deaktiviert. Optionsschaltflächen werden in der Regel verwendet, wenn mehrere sich gegenseitig ausschließende Optionen bestehen und jeweils nur eine gleichzeitig ausgewählt werden kann.
 
@@ -67,27 +69,26 @@ Im Dialogfeld „Konfigurieren“ können Sie Optionsschaltflächen für Besuche
 - **Name**: Sie können eine Formularkomponente sowohl im Formular als auch im Regel-Editor leicht mit ihrem eindeutigen Namen identifizieren. Der Name darf jedoch keine Leerzeichen oder Sonderzeichen enthalten.
 
 - **Titel**: Sie können mit dem Titel leicht eine Komponente in einem Formular identifizieren. Standardmäßig wird der Titel über der Komponente angezeigt. Wenn Sie keinen Titel hinzufügen, wird der Name der Komponente anstelle des Titeltexts angezeigt.
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.    
-    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
+- **Rich-Text für Titel zulassen** - Diese Funktionen ermöglichen es Benutzern, einfache Texttitel zu formatieren, die Funktionen wie fett, kursiv, unterstrichen Text, verschiedene Schriftarten, Schriftgrößen, Farben und zusätzliche Optionen enthalten, um die visuelle Präsentation und Anpassung zu verbessern. Es bietet mehr Flexibilität und kreative Kontrolle, damit Titel in Dokumenten, Websites oder Anwendungen hervorgehoben werden.\
+  Nach Auswahl des Kontrollkästchens für **Rich-Text für Titel zulassen** , werden Formatierungsoptionen angezeigt, um den Titel der Komponente zu formatieren. Um auf alle verfügbaren Formatierungsoptionen zuzugreifen, können Sie auf die ![Symbol &quot;Vollbild&quot;](/help/adaptive-forms/assets/fullscreen-icon.png) Registerkarte.
+
+  ![Rich-Text-Unterstützung](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Titel ausblenden**: Wählen Sie die Option aus, um den Titel der Komponente auszublenden.
 
-- **Optionen** - Sie können Datenwerte hinzufügen und Textpaare anzeigen, indem Sie die **Hinzufügen** Schaltfläche.
-  <!-- You can also format the options for radiobutton group using **Allow Rich Text for Options**. 
-  
-     ![Rich text support for options](/help/adaptive-forms/assets/richtext-for-options.png)-->
-
-  <!-- Once you select the checkbox for **Allow Rich Text for Options** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-    
-    ![Rich text support for options](/help/adaptive-forms/assets/richtextoptions-support.png)-->
-
+- **Optionen** - Sie können Datenwerte hinzufügen und Textpaare anzeigen, indem Sie die **Hinzufügen** Schaltfläche.\
   Nachdem eine neue Option hinzugefügt wurde, können die folgenden Aktionen ausgeführt werden:
    - **Datenwert**: Mit dieser Option können Sie den zu sendenden Inhalt eingeben, wenn eine Option ausgewählt ist.
    - **Text anzeigen** – Mit dieser Option können Sie den Inhalt eingeben, der in einem adaptiven Formular angezeigt werden soll.
    - **Löschen** – Durch Tippen oder Klicken können Sie die Option einer Optionsschaltfläche löschen.
-   - **Neu anordnen** – Durch Tippen oder Klicken und Ziehen können Sie die Anordnung der Optionen anpassen.
+   - **Neu anordnen** - Tippen oder klicken und ziehen Sie, um die Reihenfolge der Optionen neu anzuordnen.
+Sie können die Optionen für die Optionsfeldgruppe auch mit **Rich-Text für Optionen zulassen**.
+
+  ![Rich-Text-Unterstützung für Optionen](/help/adaptive-forms/assets/richtext-for-options.png)
+
+  Nachdem Sie das Kontrollkästchen für **Rich-Text für Optionen zulassen** Formatierungsoptionen werden angezeigt, um die Optionen der Komponente zu formatieren. Um auf alle verfügbaren Formatierungsoptionen zuzugreifen, können Sie auf die `Fullscreen` ![Symbol &quot;Vollbild&quot;](/help/adaptive-forms/assets/fullscreen-icon.png) Registerkarte.
+
+  ![Rich-Text-Unterstützung für Optionen](/help/adaptive-forms/assets/richtextoptions-support.png)
 
 - **Verbindungsreferenz**: Eine Verbindungsreferenz ist ein Verweis auf ein Datenelement, das in einer externen Datenquelle gespeichert ist und in einem Formular verwendet wird. Sie können mit dem Bindungsverweis Daten dynamisch an Formularfelder binden, sodass das Formular die aktuellsten Daten aus der Datenquelle anzeigen kann. Beispielsweise kann ein Bindungsverweis verwendet werden, um den Namen und die Adresse von Kundinnen und Kunden in einem Formular anzuzeigen, basierend auf der im Formular eingegebenen Kunden-ID. Der Bindungsverweis kann auch verwendet werden, um die Datenquelle mit den im Formular eingegebenen Daten zu aktualisieren. Auf diese Weise können Sie mit AEM Forms Formulare erstellen, die mit externen Datenquellen interagieren und so eine nahtlose Benutzererfahrung bei der Datenerfassung und Datenverwaltung bieten.
 

@@ -3,14 +3,16 @@ title: Kernkomponente für adaptive Formulare - Nutzungsbedingungen
 description: Verwenden oder Anpassen der Nutzungsbedingungs-Kernkomponente für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '2862'
-ht-degree: 98%
+source-wordcount: '3115'
+ht-degree: 90%
 
 ---
 
 # Nutzungsbedingungskomponente
+
+<span class="preview"> Dieser Artikel enthält Inhalte zum **Rich-Text für Titel zulassen** und **Rich-Text für Optionen zulassen**  Funktionen, Funktionen vor der Veröffentlichung. Die Vorabversion-Funktion ist nur über unsere [Pre-Release-Kanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features).</span>
 
 Eine **Nutzungsbedingungskomponente** bezieht sich auf einen Abschnitt eines Formulars, in dem die Bedingungen, Regeln und Vorgaben erläutert werden, denen Benutzende bei der Verwendung eines Dienstes oder beim Zugriff auf Inhalte zustimmen oder die sie erfüllen müssen.
 
@@ -63,10 +65,10 @@ Sie können das Erlebnis Ihrer Besuchenden mit der Nutzungsbedingungskomponte ü
 - **Name**: Durch den Namen wird die Komponente im Regel-Editor eindeutig identifiziert. Sonderzeichen und Leerzeichen sind im Namen nicht zulässig.
 
 - **Titel**: Sie können mit dem Titel leicht eine Komponente in einem Formular identifizieren. Standardmäßig wird der Titel über der Komponente angezeigt. Wenn Sie keinen Titel hinzufügen, wird der Name der Komponente anstelle des Titeltexts angezeigt.
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
-    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
+- **Rich-Text für Titel zulassen** - Diese Funktionen ermöglichen es Benutzern, einfache Texttitel zu formatieren, die Funktionen wie fett, kursiv, unterstrichen Text, verschiedene Schriftarten, Schriftgrößen, Farben und zusätzliche Optionen enthalten, um die visuelle Präsentation und Anpassung zu verbessern. Es bietet mehr Flexibilität und kreative Kontrolle, damit Titel in Dokumenten, Websites oder Anwendungen hervorgehoben werden.\
+  Nach Auswahl des Kontrollkästchens für **Rich-Text für Titel zulassen** , werden Formatierungsoptionen angezeigt, um den Titel der Komponente zu formatieren. Um auf alle verfügbaren Formatierungsoptionen zuzugreifen, können Sie auf die ![Symbol &quot;Vollbild&quot;](/help/adaptive-forms/assets/fullscreen-icon.png) Registerkarte.
+
+  ![Rich-Text-Unterstützung](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Bestätigungsoptionen anzeigen** - Wählen Sie die Option aus, um das Zustimmungs-Kontrollkästchen anzuzeigen, mit dem der Benutzer explizit seine Zustimmung geben kann.
 
@@ -169,10 +171,10 @@ Diese Komponente ersetzt einen Zustimmungstext durch einen Weblink oder Links. E
 - **Name**: Durch den Namen wird die Komponente im Regel-Editor eindeutig identifiziert. Sonderzeichen und Leerzeichen sind im Namen nicht zulässig.
 
 - **Titel**: Sie können mit dem Titel leicht eine Komponente in einem Formular identifizieren. Standardmäßig wird der Titel über der Komponente angezeigt. Wenn Sie keinen Titel hinzufügen, wird der Name der Komponente anstelle des Titeltexts angezeigt.
-<!-- **Allow Rich Text for Title** - This feature enables users to format titles using options like bold, italic, font styles, colors, and alignment, enhancing visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
-    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
+- **Rich-Text für Titel zulassen** - Diese Funktion ermöglicht es Benutzern, Titel mit Optionen wie fett, kursiv, Schriftstile, Farben und Ausrichtung zu formatieren, wodurch die visuelle Präsentation und Anpassung verbessert werden. Es bietet mehr Flexibilität und kreative Kontrolle, damit Titel in Dokumenten, Websites oder Anwendungen hervorgehoben werden.\
+  Nach Auswahl des Kontrollkästchens für **Rich-Text für Titel zulassen** , werden Formatierungsoptionen angezeigt, um den Titel der Komponente zu formatieren. Um auf alle verfügbaren Formatierungsoptionen zuzugreifen, können Sie auf die ![Symbol &quot;Vollbild&quot;](/help/adaptive-forms/assets/fullscreen-icon.png) Registerkarte.
+
+  ![Rich-Text-Unterstützung](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Titel ausblenden**: Wählen Sie die Option aus, um den Titel der Komponente auszublenden.
 
@@ -183,9 +185,9 @@ Nachdem eine neue Option hinzugefügt wurde, können die folgenden Aktionen ausg
    - **Löschen** – Durch Tippen oder Klicken können Sie die Option einer Optionsschaltfläche löschen.
    - **Neu anordnen** – Durch Tippen oder Klicken und Ziehen können Sie die Anordnung der Optionen anpassen.
 
-<!-- You can also format the options for checkbox group using **Allow Rich Text for Options**. Once you select the checkbox for **Allow Rich Text for Options** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-    
-    ![Rich text support for options](/help/adaptive-forms/assets/link-options.png)-->
+  Sie können die Optionen für die Kontrollkästchengruppe auch mit **Rich-Text für Optionen zulassen**. Nachdem Sie das Kontrollkästchen für **Rich-Text für Optionen zulassen** Formatierungsoptionen werden angezeigt, um die Optionen der Komponente zu formatieren. Um auf alle verfügbaren Formatierungsoptionen zuzugreifen, können Sie auf die `Fullscreen` ![Symbol &quot;Vollbild&quot;](/help/adaptive-forms/assets/fullscreen-icon.png) Registerkarte.
+
+  ![Rich-Text-Unterstützung für Optionen](/help/adaptive-forms/assets/link-options.png)
 
 - **Verbindungsreferenz**: Eine Verbindungsreferenz ist ein Verweis auf ein Datenelement, das in einer externen Datenquelle gespeichert ist und in einem Formular verwendet wird. Sie können mit dem Bindungsverweis Daten dynamisch an Formularfelder binden, sodass das Formular die aktuellsten Daten aus der Datenquelle anzeigen kann. Beispielsweise kann ein Bindungsverweis verwendet werden, um den Namen und die Adresse von Kundinnen und Kunden in einem Formular anzuzeigen, basierend auf der im Formular eingegebenen Kunden-ID. Der Bindungsverweis kann auch verwendet werden, um die Datenquelle mit den im Formular eingegebenen Daten zu aktualisieren. Auf diese Weise können Sie mit AEM Forms Formulare erstellen, die mit externen Datenquellen interagieren und so ein nahtloses Benutzererlebnis bei der Datenerfassung und -verwaltung bieten.
 

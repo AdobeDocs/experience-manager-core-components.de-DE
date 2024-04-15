@@ -3,14 +3,16 @@ title: Akkordeon für adaptive Formulare
 description: Verwenden Sie Akkordeon, um ein langes oder komplexes Formular zu organisieren und zu vereinfachen, indem Sie es in kleinere, besser verwaltbare Abschnitte unterteilen.
 role: Architect, Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '2149'
-ht-degree: 100%
+source-wordcount: '2263'
+ht-degree: 95%
 
 ---
 
 # Akkordeon-Komponente  {#accordion-component-adaptive-forms-core-component}
+
+<span class="preview"> Dieser Artikel enthält Inhalte zum **Rich-Text für Titel zulassen** -Funktion, einer Funktion vor der Veröffentlichung. Die Vorabversion-Funktion ist nur über unsere [Pre-Release-Kanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features).</span>
 
 Mit der Akkordeon-Kernkomponente können Benutzende erweiterbare und ausblendbare Abschnitte in einem adaptiven Formular erstellen. Es wird häufig verwendet, um lange oder komplexe Formulare zu organisieren und zu vereinfachen, indem sie in kleinere, besser verwaltbare Abschnitte unterteilt werden. Jeder Abschnitt eines Akkordeons wird in der Regel durch eine Kopfzeile dargestellt, auf die Benutzende klicken können, um den entsprechenden Inhalt zu erweitern oder auszublenden. Der Inhalt kann eine beliebige Kernkomponente sein.
 
@@ -71,11 +73,10 @@ Sie können das Akkordeon-Erlebnis für Besuchende im Dialogfeld „Konfiguriere
 
 - **Titel**: Sie können mit dem Titel leicht eine Komponente in einem Formular identifizieren. Standardmäßig wird der Titel über der Komponente angezeigt. Wenn Sie keinen Titel hinzufügen, wird der Name der Komponente anstelle des Titeltexts angezeigt.
 
-<!--
-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
-      Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
+- **Rich-Text für Titel zulassen** - Diese Funktionen ermöglichen es Benutzern, einfache Texttitel zu formatieren, die Funktionen wie fett, kursiv, unterstrichen Text, verschiedene Schriftarten, Schriftgrößen, Farben und zusätzliche Optionen enthalten, um die visuelle Präsentation und Anpassung zu verbessern. Es bietet mehr Flexibilität und kreative Kontrolle, damit Titel in Dokumenten, Websites oder Anwendungen hervorgehoben werden.\
+  Nach Auswahl des Kontrollkästchens für **Rich-Text für Titel zulassen** , werden Formatierungsoptionen angezeigt, um den Titel der Komponente zu formatieren. Um auf alle verfügbaren Formatierungsoptionen zuzugreifen, können Sie auf die ![Symbol &quot;Vollbild&quot;](/help/adaptive-forms/assets/fullscreen-icon.png) Registerkarte.
+
+  ![Rich-Text-Unterstützung](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Titel ausblenden** - Wählen Sie die Option aus, um den Titel der Komponente auszublenden.
 - **Daten untergeordneter Komponenten bei Formularübermittlung gruppieren (Daten in Objekt einschließen)** – Wenn die Option ausgewählt ist, werden die Daten aus den untergeordneten Komponenten innerhalb des JSON-Objekts der übergeordneten Komponente verschachtelt. Wenn jedoch die Option nicht ausgewählt ist, weisen die gesendeten JSON-Daten eine flache Struktur auf, ohne dass ein Objekt für die übergeordnete Komponente vorhanden ist. Zum Beispiel:

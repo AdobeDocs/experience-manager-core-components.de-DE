@@ -3,14 +3,16 @@ title: Kernkomponente für adaptive Formulare – Texteingabe (Textfeld)
 description: Verwenden oder Anpassen der Texteingabe-Kernkomponente für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '1949'
-ht-degree: 98%
+source-wordcount: '2063'
+ht-degree: 93%
 
 ---
 
 # Texteingabe (Textfeld) {#text-input-adaptive-forms-core-component}
+
+<span class="preview"> Dieser Artikel enthält Inhalte zum **Rich-Text für Titel zulassen** -Funktion, einer Funktion vor der Veröffentlichung. Die Vorabversion-Funktion ist nur über unsere [Pre-Release-Kanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features).</span>
 
 Eine Texteingabekomponente (Textfeld) ermöglicht es Benutzenden, eine oder mehrere Zeilen Text einzugeben und zu bearbeiten, je nach dem Typattribut des Eingabeelements. Die Texteingabekomponente kann in einem Formular platziert werden und ist in der Regel mit einem hilfreichen Text beschriftet, der ihren Zweck leicht erkennen lässt. Diese sind grundlegende Elemente eines jeden Formulars, die häufig verwendet werden, um verschiedene Datentypen von Benutzenden zu erfassen. Diese sind einfach, flexibel und können so konfiguriert werden, dass Eingaben überprüft werden und die Genauigkeit der Datenerfassung verbessert wird.
 
@@ -57,10 +59,10 @@ Mit dem Dialogfeld „Konfigurieren“ können das Besuchererlebnis bei der Text
 - **Name**: Sie können eine Formularkomponente sowohl im Formular als auch im Regel-Editor leicht mit ihrem eindeutigen Namen identifizieren. Der Name darf jedoch keine Leerzeichen oder Sonderzeichen enthalten.
 
 - **Titel**: Sie können mit dem Titel leicht eine Komponente in einem Formular identifizieren. Standardmäßig wird der Titel über der Komponente angezeigt. Wenn Sie keinen Titel hinzufügen, wird der Name der Komponente anstelle des Titeltexts angezeigt.
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
-    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
+- **Rich-Text für Titel zulassen** - Diese Funktionen ermöglichen es Benutzern, einfache Texttitel zu formatieren, die Funktionen wie fett, kursiv, unterstrichen Text, verschiedene Schriftarten, Schriftgrößen, Farben und zusätzliche Optionen enthalten, um die visuelle Präsentation und Anpassung zu verbessern. Es bietet mehr Flexibilität und kreative Kontrolle, damit Titel in Dokumenten, Websites oder Anwendungen hervorgehoben werden.\
+  Nach Auswahl des Kontrollkästchens für **Rich-Text für Titel zulassen** , werden Formatierungsoptionen angezeigt, um den Titel der Komponente zu formatieren. Um auf alle verfügbaren Formatierungsoptionen zuzugreifen, können Sie auf die ![Symbol &quot;Vollbild&quot;](/help/adaptive-forms/assets/fullscreen-icon.png) Registerkarte.
+
+  ![Rich-Text-Unterstützung](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Titel ausblenden**: Wählen Sie die Option aus, um den Titel der Komponente auszublenden.
 

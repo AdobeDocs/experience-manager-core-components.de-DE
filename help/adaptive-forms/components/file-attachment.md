@@ -3,14 +3,16 @@ title: Kernkomponente „Dateianhang“ von adaptiven Formularen
 description: Verwenden oder Anpassen der Kernkomponente „Dateianhang“ von adaptiven Formularen.
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '1726'
-ht-degree: 97%
+source-wordcount: '1851'
+ht-degree: 91%
 
 ---
 
 # Dateianhang {#file-attachment-adaptive-forms-core-component}
+
+<span class="preview"> Dieser Artikel enthält Inhalte zum **Rich-Text für Titel zulassen** -Funktion, einer Funktion vor der Veröffentlichung. Die Vorabversion-Funktion ist nur über unsere [Pre-Release-Kanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features).</span>
 
 Durch Verwendung der Dateianhang-Komponente in einem adaptiven Formular können Benutzende Dateien von ihrem lokalen Computer oder Gerät auswählen und hochladen. Die Dateianhang-Komponente kann so konfiguriert werden, dass bestimmte Dateitypen, Größenbeschränkungen und mehrere Anhänge zulässig sind.
 
@@ -62,10 +64,10 @@ Im Dialogfeld „Konfigurieren“ können Sie die Verwendung von Dateianhängen 
 - **Name**: Sie können eine Formularkomponente sowohl im Formular als auch im Regel-Editor leicht mit ihrem eindeutigen Namen identifizieren. Der Name darf jedoch keine Leerzeichen oder Sonderzeichen enthalten.
 
 - **Titel**: Sie können mit dem Titel leicht eine Komponente in einem Formular identifizieren. Standardmäßig wird der Titel über der Komponente angezeigt. Wenn Sie keinen Titel hinzufügen, wird der Name der Komponente anstelle des Titeltexts angezeigt.
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
-    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
+- **Rich-Text für Titel zulassen** - Diese Funktionen ermöglichen es Benutzern, einfache Texttitel zu formatieren, die Funktionen wie fett, kursiv, unterstrichen Text, verschiedene Schriftarten, Schriftgrößen, Farben und zusätzliche Optionen enthalten, um die visuelle Präsentation und Anpassung zu verbessern. Es bietet mehr Flexibilität und kreative Kontrolle, damit Titel in Dokumenten, Websites oder Anwendungen hervorgehoben werden.\
+  Nach Auswahl des Kontrollkästchens für **Rich-Text für Titel zulassen** , werden Formatierungsoptionen angezeigt, um den Titel der Komponente zu formatieren. Um auf alle verfügbaren Formatierungsoptionen zuzugreifen, können Sie auf die ![Symbol &quot;Vollbild&quot;](/help/adaptive-forms/assets/fullscreen-icon.png) Registerkarte.
+
+  ![Rich-Text-Unterstützung](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Titel ausblenden**: Wählen Sie diese Option aus, um den Titel der Komponente auszublenden.
 
@@ -77,7 +79,7 @@ Im Dialogfeld „Konfigurieren“ können Sie die Verwendung von Dateianhängen 
 - **Komponente deaktivieren**: Wählen Sie die Option zum Deaktivieren der Komponente aus. Die deaktivierte Komponente ist nicht aktiv und Endbenutzende können sie nicht bearbeiten. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
 - **Schreibgeschützt**: Wählen Sie die Option aus, um die Komponente nicht bearbeitbar zu machen. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
 - **Mehrere Anhänge zulassen**: Wählen Sie diese Option aus, um zuzulassen, dass mit der Schaltfläche **Dateianhang** mehrere Anhänge hochgeladen werden können.
-- **Text ablegen ziehen** - Es handelt sich um den Text, der oben im **Attach** -Schaltfläche, um Benutzer aufzufordern, Dateien anzuhängen oder per Drag-and-Drop zu verschieben. Sie können den Text anpassen, der oben im **Attach** Schaltfläche. <!-- Additionally, you can format the text using the rich text menu. -->
+- **Text ablegen ziehen** - Es handelt sich um den Text, der oben im **Attach** -Schaltfläche, um Benutzer aufzufordern, Dateien anzuhängen oder per Drag-and-Drop zu verschieben. Sie können den Text anpassen, der oben im **Attach** Schaltfläche. Darüber hinaus können Sie den Text mithilfe des Rich-Text-Menüs formatieren.
 
 ### Registerkarte „Validierung“ {#validation-tab}
 

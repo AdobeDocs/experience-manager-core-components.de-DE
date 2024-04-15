@@ -3,15 +3,16 @@ title: Kernkomponente „E-Mail-Eingabe“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „E-Mail-Eingabe“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '1940'
-ht-degree: 98%
+source-wordcount: '2054'
+ht-degree: 93%
 
 ---
 
-
 # E-Mail-Eingabe {#Email-input-adaptive-forms-core-component}
+
+<span class="preview"> Dieser Artikel enthält Inhalte zum **Rich-Text für Titel zulassen** -Funktion, einer Funktion vor der Veröffentlichung. Die Vorabversion-Funktion ist nur über unsere [Pre-Release-Kanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features).</span>
 
 Die Kernkomponente „E-Mail-Eingabe“ für adaptive Formulare wird verwendet, um E-Mail-Adressen von Benutzenden zu erfassen. Über das E-Mail-Eingabefeld kann der Browser überprüfen, ob die eingegebenen Daten ein gültiges E-Mail-Adressformat haben. Es wird normalerweise als Textfeld dargestellt und verfügt über Mustervalidierungen, damit nur gültige E-Mail-Adressen akzeptiert werden. Das E-Mail-Eingabefeld kann mit zusätzlichen Attributen wie „erforderlich“, „Platzhalter“ und „Muster“ weiter angepasst werden, um Validierungsverfahren für die Eingabedaten festzulegen.
 
@@ -63,10 +64,10 @@ Im Dialogfeld „Konfigurieren“ können Sie die E-Mail-Eingabe einfach anpasse
 - **Name**: Der Name identifiziert die Komponente eindeutig im Regel-Editor. Sonderzeichen und Leerzeichen sind in den Namensfolgen nicht zulässig.
 
 - **Titel**: Mit dem Titel können Sie eine Komponente in einem Formular leicht identifizieren. Standardmäßig wird der Titel über der Komponente angezeigt. Wenn Sie keinen Titel hinzufügen, wird der Name der Komponente anstelle des Titeltexts angezeigt.
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
-    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
+- **Rich-Text für Titel zulassen** - Diese Funktionen ermöglichen es Benutzern, einfache Texttitel zu formatieren, die Funktionen wie fett, kursiv, unterstrichen Text, verschiedene Schriftarten, Schriftgrößen, Farben und zusätzliche Optionen enthalten, um die visuelle Präsentation und Anpassung zu verbessern. Es bietet mehr Flexibilität und kreative Kontrolle, damit Titel in Dokumenten, Websites oder Anwendungen hervorgehoben werden.\
+  Nach Auswahl des Kontrollkästchens für **Rich-Text für Titel zulassen** , werden Formatierungsoptionen angezeigt, um den Titel der Komponente zu formatieren. Um auf alle verfügbaren Formatierungsoptionen zuzugreifen, können Sie auf die ![Symbol &quot;Vollbild&quot;](/help/adaptive-forms/assets/fullscreen-icon.png) Registerkarte.
+
+  ![Rich-Text-Unterstützung](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Titel ausblenden**: Wählen Sie diese Option aus, um den Titel der Komponente auszublenden.
 
