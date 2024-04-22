@@ -6,7 +6,7 @@ exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '1851'
-ht-degree: 91%
+ht-degree: 92%
 
 ---
 
@@ -78,7 +78,7 @@ Im Dialogfeld „Konfigurieren“ können Sie die Verwendung von Dateianhängen 
 - **Komponente deaktivieren**: Wählen Sie die Option zum Deaktivieren der Komponente aus. Die deaktivierte Komponente ist nicht aktiv und Endbenutzende können sie nicht bearbeiten. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
 - **Schreibgeschützt**: Wählen Sie die Option aus, um die Komponente nicht bearbeitbar zu machen. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
 - **Mehrere Anhänge zulassen**: Wählen Sie diese Option aus, um zuzulassen, dass mit der Schaltfläche **Dateianhang** mehrere Anhänge hochgeladen werden können.
-- **Text ablegen ziehen** - Es handelt sich um den Text, der oben im **Attach** -Schaltfläche, um Benutzer aufzufordern, Dateien anzuhängen oder per Drag-and-Drop zu verschieben. Sie können den Text anpassen, der oben im **Attach** Schaltfläche. Darüber hinaus können Sie den Text mithilfe des Rich-Text-Menüs formatieren.
+- **Text ziehen und ablegen**: Dieser Text wird über der Schaltfläche **Anhängen** angezeigt, um Benutzende aufzufordern, Dateien entweder anzuhängen oder per Drag-and-Drop einzufügen. Sie können den Text anpassen, der oben im **Attach** Schaltfläche. Darüber hinaus können Sie den Text mithilfe des Rich-Text-Menüs formatieren.
 
 ### Registerkarte „Validierung“ {#validation-tab}
 

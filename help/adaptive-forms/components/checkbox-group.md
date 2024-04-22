@@ -6,7 +6,7 @@ exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2047'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
@@ -83,7 +83,7 @@ Sie können im Dialogfeld „Konfigurieren“ einfach das Kontrollkästchen-Erle
 
 - **Titel ausblenden**: Wählen Sie die Option aus, um den Titel der Komponente auszublenden.
 
-- **Optionen** - Sie können Datenwerte hinzufügen und Textpaare anzeigen, indem Sie die **Hinzufügen** Schaltfläche.\
+- **Optionen**: Sie können Datenwerte hinzufügen und Textpaare anzeigen, indem Sie die Schaltfläche **Hinzufügen** verwenden.\
   Nachdem eine neue Option hinzugefügt wurde, können die folgenden Aktionen ausgeführt werden:
    - **Datenwert**: Mit dieser Option können Sie den zu sendenden Inhalt eingeben, wenn eine Option ausgewählt ist.
    - **Text anzeigen**: Mit dieser Option können Sie den Inhalt eingeben, der in einem adaptiven Formular angezeigt werden soll.

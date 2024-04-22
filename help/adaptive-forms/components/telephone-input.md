@@ -6,7 +6,7 @@ exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2141'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -77,7 +77,7 @@ Im Dialogfeld „Konfigurieren“ können Sie das Telefoneingabefeld für Besuch
 
 - **Standardwert**: Mit dieser Option können Sie einen Standardwert in ein Formularfeld einfügen. Wenn **Komponente deaktiviert** oder **Schreibgeschützte Komponente** ausgewählt ist, wird auf dem Bildschirm der Standardwert angezeigt. Wenn Benutzende keinen Wert in das Formularfeld eingeben, wird dieser Wert zum Zeitpunkt der Formularübermittlung gesendet.
 
-- **Automatisches Füllattribut**: Mit der Option können Benutzer einen Wert eingeben, der automatisch im Formularfeld mit den gespeicherten Informationen eingefügt wird.
+- **Attribut für automatisches Ausfüllen**: Benutzende können mit dieser Option einen Wert eingeben, der im Formularfeld automatisch basierend auf den gespeicherten Informationen eingefügt wird.
 
 ### Registerkarte „Validierung“ {#validation-tab}
 

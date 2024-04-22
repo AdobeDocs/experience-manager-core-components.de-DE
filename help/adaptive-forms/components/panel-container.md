@@ -108,7 +108,7 @@ Mit dem Dialogfeld „Konfigurieren“ können Sie Bedienfeld-Container mühelos
 
 Sie können die Wiederholungsoptionen verwenden, um den Bedienfeld-Container und seine untergeordneten Komponenten zu duplizieren, eine minimale und maximale Wiederholungsanzahl zu definieren und die Replikation ähnlicher Abschnitte innerhalb eines Formulars zu erleichtern. Bei der Interaktion mit der Bedienfeld-Container-Komponente und dem Zugriff auf ihre Einstellungen werden die folgenden Optionen angezeigt:
 
-- **Bedienfeld wiederholbar machen**: Eine Umschalter-Funktion, mit der Benutzer die Wiederholungsfunktion aktivieren oder deaktivieren können.
+- **Bereich wiederholbar machen**: Eine Umschalter-Funktion, mit der Benutzende die Wiederholungsfunktion aktivieren oder deaktivieren können.
 - **Mindestwiederholungen**: Legt fest, wie oft der Bedienfeld-Container mindestens wiederholt werden kann. Der Wert null zeigt an, dass das Bedienfeld „Assistent“ nicht wiederholt wird. Der Standardwert ist null.
 - **Maximale Wiederholungen**: Legt fest, wie oft der Bedienfeld-Container maximal wiederholt werden kann. Standardmäßig ist dieser Wert unbegrenzt.
 

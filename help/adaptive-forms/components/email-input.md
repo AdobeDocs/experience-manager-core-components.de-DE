@@ -6,7 +6,7 @@ exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2054'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -79,7 +79,7 @@ Im Dialogfeld „Konfigurieren“ können Sie die E-Mail-Eingabe einfach anpasse
 - **Schreibgeschützt**: Wählen Sie die Option aus, um die Komponente nicht bearbeitbar zu machen. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
 
 - **Standardwert**: Mit dieser Option können Sie einen Standardwert in ein Formularfeld einfügen. Wenn **Komponente deaktiviert** oder **Schreibgeschützte Komponente** ausgewählt ist, wird auf dem Bildschirm der Standardwert angezeigt. Wird kein Wert in das Formularfeld eingegeben, wird bei der Formularübermittlung dieser Wert gesendet.
-- **Automatisches Füllattribut**: Mit der Option können Benutzer einen Wert eingeben, der automatisch im Formularfeld mit den gespeicherten Informationen eingefügt wird.
+- **Attribut für automatisches Ausfüllen**: Benutzende können mit dieser Option einen Wert eingeben, der im Formularfeld automatisch basierend auf den gespeicherten Informationen eingefügt wird.
 
 ### Registerkarte „Validierung“ {#validation-tab}
 

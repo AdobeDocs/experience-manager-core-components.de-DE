@@ -6,7 +6,7 @@ exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2093'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -108,7 +108,7 @@ Im Konfigurieren-Dialogfeld können Sie die horizontalen Registerkarten einfach 
 
 Sie können die Wiederholungsoptionen verwenden, um die Komponente „Horizontale Registerkarten“ und ihre untergeordneten Komponenten zu duplizieren, eine minimale und maximale Wiederholungsanzahl zu definieren und die Replikation ähnlicher Abschnitte innerhalb eines Formulars zu erleichtern. Bei der Interaktion mit der Komponente „Horizontale Registerkarten“ und dem Zugriff auf ihre Einstellungen werden die folgenden Optionen angezeigt:
 
-- **Registerkarten oben wiederholbar machen**: Eine Umschalter-Funktion, mit der Benutzer die Wiederholungsfunktion aktivieren oder deaktivieren können.
+- **Registerkarten oben wiederholbar machen**: Eine Umschalter-Funktion, mit der Benutzende die Wiederholungsfunktion aktivieren oder deaktivieren können.
 - **Mindestwiederholungen**: Legt fest, wie oft die Komponente „Horizontale Registerkarten“ mindestens wiederholt werden kann. Der Wert null zeigt an, dass die Komponente „Horizontale Registerkarten“ nicht wiederholt wird. Der Standardwert ist null.
 - **Maximale Wiederholungen**: Legt fest, wie oft die Komponente „Horizontale Registerkarten“ maximal wiederholt werden kann. Standardmäßig ist dieser Wert unbegrenzt.
 Um wiederholbare Abschnitte innerhalb der horizontalen Registerkarten effektiv zu verwalten, folgen Sie den Schritten, die im Artikel [Erstellen von Formularen mit wiederholbaren Abschnitten](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=de) beschrieben sind.

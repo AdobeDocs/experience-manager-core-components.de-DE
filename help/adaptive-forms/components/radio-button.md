@@ -6,7 +6,7 @@ exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2079'
-ht-degree: 88%
+ht-degree: 90%
 
 ---
 
@@ -76,7 +76,7 @@ Im Dialogfeld „Konfigurieren“ können Sie Optionsschaltflächen für Besuche
 
 - **Titel ausblenden**: Wählen Sie die Option aus, um den Titel der Komponente auszublenden.
 
-- **Optionen** - Sie können Datenwerte hinzufügen und Textpaare anzeigen, indem Sie die **Hinzufügen** Schaltfläche.\
+- **Optionen**: Sie können Datenwerte hinzufügen und Textpaare anzeigen, indem Sie die Schaltfläche **Hinzufügen** verwenden.\
   Nachdem eine neue Option hinzugefügt wurde, können die folgenden Aktionen ausgeführt werden:
    - **Datenwert**: Mit dieser Option können Sie den zu sendenden Inhalt eingeben, wenn eine Option ausgewählt ist.
    - **Text anzeigen** – Mit dieser Option können Sie den Inhalt eingeben, der in einem adaptiven Formular angezeigt werden soll.
@@ -96,7 +96,7 @@ Sie können die Optionen für die Optionsfeldgruppe auch mit **Rich-Text für Op
 
 - **Datentyp des gesendeten Werts**: Diese Option gibt den Datentyp des Werts an, der bei Auswahl einer Option gesendet wird. Wenn der **Datentyp des gesendeten Werts** auf `Number` festgelegt ist und Sie auf der Registerkarte **Optionen** Zeichenfolgedaten zum **Datenwert** hinzufügen, wird am Bildschirm die Fehlermeldung `Value type mismatch` angezeigt.
 
-- **Standardoption** - Mit dieser Option können Sie vorab ausgewählte Standardwerte hinzufügen, wenn das Formular geladen wird. Wenn der **Datentyp des übermittelten Wertes** auf `Number` eingestellt ist und Sie den **Standardoptionen** Zeichenfolgen-Daten hinzufügen, wird auf dem Bildschirm die Fehlermeldung `Value type mismatch` angezeigt.
+- **Standardoptionen**: Mit dieser Option können Sie vorab ausgewählte Standardwerte hinzufügen, wenn das Formular geladen wird. Wenn der **Datentyp des übermittelten Wertes** auf `Number` eingestellt ist und Sie den **Standardoptionen** Zeichenfolgen-Daten hinzufügen, wird auf dem Bildschirm die Fehlermeldung `Value type mismatch` angezeigt.
 
 - **Anzeigeoptionen**: Diese Option wird verwendet, um die visuelle Ausrichtung von Optionsschaltflächen in einem adaptiven Formular festzulegen. Folgende zwei Optionen werden unterstützt:
    - **Horizontal** – Wenn diese Option aktiviert ist, werden Optionsschaltflächen in einem adaptiven Formular von links nach rechts angezeigt.

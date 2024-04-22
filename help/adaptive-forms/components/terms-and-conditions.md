@@ -6,7 +6,7 @@ exl-id: c607d554-ad2d-4434-856d-91e174ef3149
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '3115'
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
@@ -177,9 +177,9 @@ Diese Komponente ersetzt einen Zustimmungstext durch einen Weblink oder Links. E
 
 - **Titel ausblenden**: Wählen Sie die Option aus, um den Titel der Komponente auszublenden.
 
-- **Links** - Geben Sie den Link und den entsprechenden Anzeigetext an, der anstelle des Zustimmungstextes verwendet werden soll. Sie können mehrere Links hinzufügen, indem Sie auf **Hinzufügen** Schaltfläche.
+- **Links** - Geben Sie den Link und den entsprechenden Anzeigetext an, der anstelle des Zustimmungstextes verwendet werden soll. Sie können mehrere Links hinzufügen, indem Sie auf die Schaltfläche **Hinzufügen** klicken.
 Nachdem eine neue Option hinzugefügt wurde, können die folgenden Aktionen ausgeführt werden:
-   - **Link** - Mit dieser Option können Sie die URL eingeben, die umgeleitet werden soll, wenn eine Option ausgewählt ist.
+   - **Link**: Mit dieser Option können Sie die URL für die Umleitung eingeben, wenn eine Option ausgewählt wird.
    - **Text anzeigen** – Mit dieser Option können Sie den Inhalt eingeben, der in einem adaptiven Formular angezeigt werden soll.
    - **Löschen** – Durch Tippen oder Klicken können Sie die Option einer Optionsschaltfläche löschen.
    - **Neu anordnen** – Durch Tippen oder Klicken und Ziehen können Sie die Anordnung der Optionen anpassen.

@@ -6,7 +6,7 @@ exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2094'
-ht-degree: 92%
+ht-degree: 94%
 
 ---
 
@@ -96,13 +96,13 @@ Sie können die Datumsauswahl im Dialogfeld „Konfigurieren“ einfach anpassen
 - **Mindestdatum** – Sie können mit dieser Option das erforderliche Mindestdatum eingeben. Wenn Sie ein Datum eingeben, das vor dem in „Mindestdatum“ angegebenen Datum liegt, erscheint eine Fehlermeldung auf dem Bildschirm. Sie können der **Mindest-Fehlermeldung** eine benutzerdefinierte Fehlermeldung hinzufügen.
 
 - **Mindest-Fehlermeldung** – Sie können der **Mindest-Fehlermeldung** eine benutzerdefinierte Fehlermeldung hinzufügen, die angezeigt wird, wenn Sie ein Datum eingeben, das vor dem in der Option **Mindestdatum** angegebenen liegt.
-- **Mindestdatum ausschließen** - Mit dieser Option können Sie das Mindestdatum in einem bestimmten Datumsbereich oder einer Reihe von Datumsangaben weglassen.
+- **Mindestdatum ausschließen**: Mit dieser Option können Sie das Mindestdatum in einem bestimmten Datumsbereich oder einer Reihe von Daten weglassen.
 
 - **Maximales Datum** – Sie können mit dieser Option das maximale Datum eingeben. Wenn Sie ein Datum eingeben, das nach dem in „Maximales Datum“ angegebenen Datum liegt, erscheint eine Fehlermeldung auf dem Bildschirm. Sie können im Dialog **Maximal-Fehlermeldung** eine benutzerdefinierte Fehlermeldung hinzufügen.
 
 - **Maximal-Fehlermeldung** – Sie können im Dialogfeld **Maximal-Fehlermeldung** eine benutzerdefinierte Fehlermeldung hinzufügen, die angezeigt wird, wenn Sie ein Datum eingeben, das nach der Option **Maximales Datum** liegt.
 
-- **Höchstdatum ausschließen** - Mit dieser Option können Sie das maximale Datum in einem bestimmten Datumsbereich oder einer Reihe von Daten auslassen.
+- **Maximales Datum ausschließen**: Mit dieser Option können Sie das maximale Datum in einem bestimmten Datumsbereich oder einer Reihe von Daten weglassen.
 
 ### Registerkarte „Hilfe-Inhalt“ {#help-content-tab}
 

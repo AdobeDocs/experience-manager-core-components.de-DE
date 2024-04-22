@@ -6,7 +6,7 @@ exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2063'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -79,7 +79,7 @@ Mit dem Dialogfeld „Konfigurieren“ können das Besuchererlebnis bei der Text
 
 - **Mehrere Zeilen zulassen**: Benutzende können mit dieser Option mehrere Zeilen in ein Formularfeld eingeben.
 
-- **Attribut für automatische Füllung** - Mit der Option können Benutzer einen Wert eingeben, der automatisch im Formularfeld mit den gespeicherten Informationen eingefügt wird.
+- **Attribut für automatisches Ausfüllen**: Benutzende können mit dieser Option einen Wert eingeben, der im Formularfeld automatisch basierend auf den gespeicherten Informationen eingefügt wird.
 
 ### Registerkarte „Validierung“ {#validation-tab}
 

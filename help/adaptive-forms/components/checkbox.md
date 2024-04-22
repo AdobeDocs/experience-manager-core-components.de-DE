@@ -6,7 +6,7 @@ exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '1780'
-ht-degree: 91%
+ht-degree: 93%
 
 ---
 
@@ -82,7 +82,7 @@ Im Dialogfeld „Konfigurieren“ können Sie das Kontrollkästchen-Erlebnis fü
 - **Komponente deaktivieren**: Mit dieser Option können Sie die Komponente deaktivieren oder sperren. Die deaktivierte Komponente ist nicht aktiv und Endbenutzende können sie nicht bearbeiten. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
   <!-- - **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.-->
 - **Wenn aktiviert, folgenden Wert zurückgeben** - Mit dieser Option können Sie festlegen, welcher Wert mit dem Kontrollkästchen verbunden werden soll, wenn dieses aktiviert oder ausgewählt wird. Diese Aktion wird ausgeführt, wenn Sie das Kontrollkästchen aktivieren.
-- **Statuswert &quot;Nicht prüfen&quot;beibehalten**- Wählen Sie diese Option, um den Wert anzugeben, der zurückgegeben werden soll, wenn die Kontrollkästchenkomponente nicht ausgewählt ist. Wenn **Statuswert &quot;Nicht prüfen&quot;beibehalten** aktiviert ist oder auf &quot;true&quot;festgelegt ist, **Wenn deaktiviert, Rückgabewert** angezeigt.
+- **Statuswert „Deaktivieren“ beibehalten**: Wählen Sie diese Option aus, um den Wert anzugeben, der zurückgegeben werden soll, wenn die Kontrollkästchen-Komponente nicht ausgewählt ist. Wenn **Statuswert „Deaktivieren“ beibehalten** aktiviert ist oder auf „true“ festgelegt ist, wird die Option **Wenn nicht aktiviert, folgenden Wert zurückgegeben** angezeigt.
 - **Wenn nicht aktiviert, folgenden Wert zurückgeben** - Mit dieser Option können Sie festlegen, welcher Wert mit dem Kontrollkästchen verknüpft werden soll, wenn es deaktiviert wird.
 
 - **Standardwert**: Mit dieser Option können Sie einen Standardwert in ein Formularfeld einfügen. Wenn **Komponente deaktiviert** oder **Schreibgeschützte Komponente** ausgewählt ist, wird der Standardwert auf dem Bildschirm angezeigt. Wenn Benutzende keinen Wert in das Formularfeld eingeben, wird dieser Wert zum Zeitpunkt der Formularübermittlung gesendet.

@@ -6,7 +6,7 @@ exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2125'
-ht-degree: 92%
+ht-degree: 94%
 
 ---
 
@@ -87,11 +87,11 @@ Im Dialogfeld zum Konfigurieren der Dropdown-Liste finden Sie allgemeine Optione
    - **Löschen** – Durch Tippen bzw. Klicken können Sie eine Option eines Dropdown-Menüs löschen.
    - **Neu anordnen** – Durch Tippen bzw. Klicken und Ziehen können Sie die Reihenfolge der Optionen eines Dropdown-Menüs neu anordnen.
 
-- **Standardoption** - Mit dieser Option können Sie Standardwerte hinzufügen. Mit dem Löschen-Symbol können Sie eine hinzugefügte Option entfernen. Wenn **Wert speichern unter** auf `Number` gesetzt ist und Sie Zeichenfolgendaten zu **Standardoptionen** hinzufügen, wird auf dem Bildschirm die Feldermeldung `Value type mismatch` angezeigt.
+- **Standardoptionen**: Mit dieser Option können Sie Standardwerte hinzufügen. Mit dem Löschen-Symbol können Sie eine hinzugefügte Option entfernen. Wenn **Wert speichern unter** auf `Number` gesetzt ist und Sie Zeichenfolgendaten zu **Standardoptionen** hinzufügen, wird auf dem Bildschirm die Feldermeldung `Value type mismatch` angezeigt.
 
 - **Platzhaltertext**: Platzhaltertext in einer Formularkomponente ist eine kurze Beschriftung oder Eingabeaufforderung innerhalb eines Eingabefelds, die Benutzende darüber informiert, welche Art von Text in dieses Feld eingegeben werden soll. Der Platzhaltertext verschwindet, wenn Benutzende mit der Eingabe in das Feld beginnen, und erscheint wieder, wenn das Feld leer bleibt. Er stellt einen visuellen Hinweis für Benutzende bereit, fungiert jedoch nicht als permanente Beschriftung oder Wert für das Feld.
 
-- **Optionen** - Sie können Datenwerte hinzufügen und Textpaare anzeigen, indem Sie die **Hinzufügen** Schaltfläche.  Nachdem eine neue Option hinzugefügt wurde, können die folgenden Aktionen ausgeführt werden:
+- **Optionen**: Sie können Datenwerte hinzufügen und Textpaare anzeigen, indem Sie die Schaltfläche **Hinzufügen** verwenden. Nachdem eine neue Option hinzugefügt wurde, können die folgenden Aktionen ausgeführt werden:
    - **Datenwert**: Mit dieser Option können Sie den zu sendenden Inhalt eingeben, wenn eine Option ausgewählt ist.
    - **Text anzeigen**: Mit dieser Option können Sie den Inhalt eingeben, der in einem adaptiven Formular angezeigt werden soll.
    - **Löschen**: Tippen oder klicken, um die Option eines Kontrollkästchens zu löschen.
