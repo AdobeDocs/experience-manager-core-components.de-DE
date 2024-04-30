@@ -4,17 +4,17 @@ description: Verwenden oder Anpassen der Kernkomponente für adaptive Formulare 
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2047'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 # Kontrollkästchen-Gruppe {#button-component-adaptive-forms-core-component}
 
-<span class="preview"> Dieser Artikel enthält Inhalte zum **Rich-Text für Titel zulassen** und **Rich-Text für Optionen zulassen**  Funktionen, Funktionen vor der Veröffentlichung. Die Vorabversion-Funktion ist nur über unsere [Pre-Release-Kanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features).</span>
+<span class="preview"> Dieser Artikel enthält Inhalte zu den Funktionen **Rich-Text für Titel zulassen**, **Rich-Text für Optionen zulassen** und zu Vorabveröffentlichungsfunktionen. Die Vorabveröffentlichungsfunktion ist nur über unseren [Vorabveröffentlichungskanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features) zugänglich.</span>
 
-Eine Kontrollkästchen-Gruppe in einem adaptiven Formular ist ein Satz verwandter Kontrollkästchen, mit denen Benutzende eine oder mehrere Optionen aus einer Liste auswählen können. Jedes Kontrollkästchen wird durch einen Datenwert (Wert, der zur Verarbeitung von Elementen einer Kontrollkästchengruppe verwendet wird) und einen Anzeigewert (Beschriftung für jedes Kontrollkästchen-Element, das seinen Zweck beschreibt) dargestellt
+Eine Kontrollkästchen-Gruppe in einem adaptiven Formular ist ein Satz verwandter Kontrollkästchen, mit denen Benutzende eine oder mehrere Optionen aus einer Liste auswählen können. Jedes Kontrollkästchen wird durch einen Datenwert (Wert, der für die Verarbeitung der Elemente einer Kontrollkästchengruppe verwendet wird) und einen Anzeigewert (Beschriftung für jedes Kontrollkästchenelement, die seinen Zweck beschreibt) dargestellt.
 **Beispiel**
 
 ![Beispiel einer Kontrollkästchengruppe](/help/adaptive-forms/assets/checkbox-group.png)
@@ -76,8 +76,8 @@ Sie können im Dialogfeld „Konfigurieren“ einfach das Kontrollkästchen-Erle
 
 - **Titel**: Mit dem Titel können Sie eine Komponente in einem Formular leicht identifizieren. Standardmäßig wird der Titel über der Komponente angezeigt. Wenn Sie keinen Titel hinzufügen, wird der Name der Komponente anstelle des Titeltexts angezeigt.
 
-- **Rich-Text für Titel zulassen** - Diese Funktionen ermöglichen es Benutzern, einfache Texttitel zu formatieren, die Funktionen wie fett, kursiv, unterstrichen Text, verschiedene Schriftarten, Schriftgrößen, Farben und zusätzliche Optionen enthalten, um die visuelle Präsentation und Anpassung zu verbessern. Es bietet mehr Flexibilität und kreative Kontrolle, damit Titel in Dokumenten, Websites oder Anwendungen hervorgehoben werden.\
-  Nach Auswahl des Kontrollkästchens für **Rich-Text für Titel zulassen** , werden Formatierungsoptionen angezeigt, um den Titel der Komponente zu formatieren. Um auf alle verfügbaren Formatierungsoptionen zuzugreifen, können Sie auf die `Fullscreen` ![Symbol &quot;Vollbild&quot;](/help/adaptive-forms/assets/fullscreen-icon.png) Registerkarte.
+- **Rich-Text für Titel zulassen**: Diese Funktionen ermöglichen es Benutzenden, einfache Texttitel zu formatieren, die Funktionen wie fett, kursiv, unterstrichener Text, verschiedene Schriftarten, Schriftgrößen, Farben und zusätzliche Optionen enthalten und so die visuelle Darstellung und Anpassung zu verbessern. Sie bietet mehr Flexibilität und kreative Kontrolle bei der Hervorhebung von Titeln in Dokumenten, Websites oder Anwendungen.\
+  Durch Aktivieren des Kontrollkästchens **Rich-Text für Titel zulassen** werden Formatierungsoptionen sichtbar, mit denen Sie den Titel der Komponente gestalten können. Um auf alle verfügbaren Formatierungsoptionen zuzugreifen, können Sie auf die Registerkarte `Fullscreen` ![Vollbildsymbol](/help/adaptive-forms/assets/fullscreen-icon.png) klicken.
 
   ![Rich-Text-Unterstützung](/help/adaptive-forms/assets/richtext-support-title.png)
 
@@ -90,11 +90,11 @@ Sie können im Dialogfeld „Konfigurieren“ einfach das Kontrollkästchen-Erle
    - **Löschen**: Tippen oder klicken, um die Option eines Kontrollkästchens zu löschen.
    - **Neu anordnen**: Tippen oder klicken und ziehen Sie, um die Reihenfolge der Bedienfelder neu anzuordnen.
 
-  Sie können die Optionen für die Kontrollkästchengruppe auch mit **Rich-Text für Optionen zulassen**.
+  Sie können die Optionen für die Kontrollkästchengruppe auch mit **Rich-Text für Optionen zulassen** formatieren.
 
   ![Rich-Text-Unterstützung für Optionen](/help/adaptive-forms/assets/richtext-for-options.png)
 
-  Nachdem Sie das Kontrollkästchen für **Rich-Text für Optionen zulassen** Formatierungsoptionen werden angezeigt, um die Optionen der Komponente zu formatieren. Um auf alle verfügbaren Formatierungsoptionen zuzugreifen, können Sie auf die `Fullscreen` ![Symbol &quot;Vollbild&quot;](/help/adaptive-forms/assets/fullscreen-icon.png) Registerkarte.
+  Sobald Sie das Kontrollkästchen **Rich-Text für Optionen zulassen** aktivieren, werden Formatierungsoptionen sichtbar, um die Optionen der Komponente zu gestalten. Um auf alle verfügbaren Formatierungsoptionen zuzugreifen, können Sie auf die Registerkarte `Fullscreen` ![Vollbildschirmsymbol](/help/adaptive-forms/assets/fullscreen-icon.png) klicken.
   ![Rich-Text-Unterstützung für Optionen](/help/adaptive-forms/assets/richtextoptions-support.png)
 
 - **Verbindungsreferenz**: Eine Verbindungsreferenz ist ein Verweis auf ein Datenelement, das in einer externen Datenquelle gespeichert ist und in einem Formular verwendet wird. Sie können mit dem Bindungsverweis Daten dynamisch an Formularfelder binden, sodass das Formular die aktuellsten Daten aus der Datenquelle anzeigen kann. Beispielsweise kann ein Bindungsverweis verwendet werden, um den Namen und die Adresse von Kundinnen und Kunden in einem Formular anzuzeigen, basierend auf der im Formular eingegebenen Kunden-ID. Der Bindungsverweis kann auch verwendet werden, um die Datenquelle mit den im Formular eingegebenen Daten zu aktualisieren. Auf diese Weise können Sie mit AEM Forms Formulare erstellen, die mit externen Datenquellen interagieren und so eine nahtlose Benutzererfahrung bei der Datenerfassung und Datenverwaltung bieten.

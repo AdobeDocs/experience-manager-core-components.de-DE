@@ -4,9 +4,9 @@ description: AEM-Kernkomponenten werden als Versionen veröffentlicht, die mehr 
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '192'
-ht-degree: 55%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ Identifizieren Sie die genauen Versionen der Forms-Kernkomponenten und WCM-Kernk
 
 ## Versionsverlauf für AEM Forms as a Cloud Service {#aem-as-cs-version-history}
 
-Die Kernkomponentenversionen, die mit AEM as a Cloud Service kompatibel sind, sind unter [GitHub zusammen mit umfassenden Details zu ihren Versionen](https://github.com/adobe/aem-core-forms-components/releases).
+Die Versionen der Kernkomponenten, die mit AEM as a Cloud Service kompatibel sind, sind auf [GitHub verfügbar, zusammen mit umfassenden Details der jeweiligen Versionen](https://github.com/adobe/aem-core-forms-components/releases).
 
-So zeigen Sie den Versionsverlauf der Kernkomponenten für AEM as a Cloud Service an: [Klicken Sie hier](https://github.com/adobe/aem-core-forms-components/blob/master/VERSIONS.md).
+Um den Versionsverlauf der Kernkomponenten für AEM as a Cloud Service zu sehen, [klicken Sie hier](https://github.com/adobe/aem-core-forms-components/blob/master/VERSIONS.md).
 
 
 <!--
@@ -117,9 +117,9 @@ So zeigen Sie den Versionsverlauf der Kernkomponenten für AEM as a Cloud Servic
 
 ## Versionsverlauf von AEM 6.5 Forms {#aem-as-form-version-history}
 
-Die Kernkomponenten veröffentlichen Versionen, die mit AEM 6.5 Form On Premise und AMS kompatibel sind, die in verfügbar sind. [GitHub zusammen mit umfassenden Details zu ihren Versionen](https://github.com/adobe/aem-core-forms-components/releases).
+Die Versionen der Kernkomponenten, die mit AEM 6.5 Form On-Premise und AMS kompatibel sind, sind [auf GitHub zusammen mit umfassenden Details zu den jeweiligen Versionen verfügbar](https://github.com/adobe/aem-core-forms-components/releases).
 
-So zeigen Sie den Versionsverlauf der Kernkomponenten für AEM 6.5 Form On Premise und AMS an: [Klicken Sie hier](https://github.com/adobe/aem-core-forms-components/blob/release/650/VERSIONS.md).
+Um den Versionsverlauf der Kernkomponenten für AEM 6.5 Form On-Premise und AMS zu sehen, [klicken Sie hier](https://github.com/adobe/aem-core-forms-components/blob/release/650/VERSIONS.md).
 
 <!--
 | Forms Core Components | WCM Core Components | AEM 6.5 | Java  | Maven  |  

@@ -4,9 +4,9 @@ description: Verwenden oder Anpassen der Kernkomponente „Assistent“ für ada
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2100'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Jeder Schritt des Assistenten beinhaltet in der Regel eine Gruppe verwandter For
 
 Das Assistenten-Layout ist nützlich, wenn Formulare viele Felder oder Informationen enthalten, die ausgefüllt werden müssen, da das Formular in kleinere, besser überblickbare Abschnitte unterteilt wird. Außerdem können sich Benutzende auf eine Gruppe von Feldern konzentrieren, sodass das Ausfüllen des Formulars sie nicht überfordert.
 
-Dieses Layout kann jedoch auch die Komplexität des Formulars erhöhen, da Benutzende mehrere Seiten durchlaufen müssen, um es auszufüllen. Daher müssen die Formularanforderungen und die Benutzeranforderungen ausgewertet werden, bevor die Verwendung eines Assistentenlayouts beschlossen wird.
+Dieses Layout kann jedoch auch die Komplexität des Formulars erhöhen, da Benutzende mehrere Seiten durchlaufen müssen, um es auszufüllen. Daher müssen vor der Verwendung des Assistenten-Layouts die Anforderungen des Formulars sowie die Bedürfnisse der Benutzenden sorgfältig überlegt werden.
 Sie können die Kernkomponente „Assistent“ für adaptive Formulare verwenden, um ein Assistenten-Layout zu erstellen.
 
 **Beispiel**

@@ -4,15 +4,15 @@ description: Verwenden oder Anpassen der Kernkomponente „Schalter“ für adap
 role: Architect, Developer, Admin, User
 exl-id: 6ff2ca76-1514-42eb-bde3-60259af2d187
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1867'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # Komponente „Schalter“{#switch-adaptive-forms-core-component}
 
-<span class="preview"> Dieser Artikel enthält Inhalte zum **Rich-Text für Titel zulassen** und **Rich-Text für Optionen zulassen**  Funktionen, Funktionen vor der Veröffentlichung. Die Vorabversion-Funktion ist nur über unsere [Pre-Release-Kanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features).</span>
+<span class="preview"> Dieser Artikel enthält Inhalte zu den Funktionen **Rich-Text für Titel zulassen**, **Rich-Text für Optionen zulassen** und zu Vorabveröffentlichungsfunktionen. Die Vorabveröffentlichungsfunktion ist nur über unseren [Vorabveröffentlichungskanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features) zugänglich.</span>
 
 Die Komponente „Schalter“ ist eine grafische Benutzeroberfläche, die in Formularen verwendet wird und es Benutzenden ermöglicht, zwischen zwei Optionen auszuwählen. Normalerweise handelt es sich dabei um einen Umschalter mit zwei Status, mit dem Benutzende zwischen zwei Status wählen können: Aktivierung oder Deaktivierung einer Funktion oder einer Einstellung. Die Komponente „Schalter“ wurde entwickelt, um den aktuellen Status visuell darzustellen und anzuzeigen, ob eine bestimmte Funktion aktiviert oder deaktiviert ist.
 
@@ -59,8 +59,8 @@ Im Dialogfeld „Konfigurieren“ können Sie das Erlebnis für die Komponente �
 - **Name**: Sie können eine Formularkomponente sowohl im Formular als auch im Regeleditor durch ihren eindeutigen Namen identifizieren. Der Name darf keine Leerzeichen oder Sonderzeichen enthalten.
 
 - **Titel**: Mit dem Titel können Sie eine Komponente in einem Formular leicht identifizieren. Standardmäßig wird der Titel neben der Komponente angezeigt. Wenn Sie keinen Titel hinzufügen, wird die Komponente nicht angezeigt.
-- **Rich-Text für Titel zulassen** - Diese Funktionen ermöglichen es Benutzern, einfache Texttitel zu formatieren, die Funktionen wie fett, kursiv, unterstrichen Text, verschiedene Schriftarten, Schriftgrößen, Farben und zusätzliche Optionen enthalten, um die visuelle Präsentation und Anpassung zu verbessern. Es bietet mehr Flexibilität und kreative Kontrolle, damit Titel in Dokumenten, Websites oder Anwendungen hervorgehoben werden.\
-  Nach Auswahl des Kontrollkästchens für **Rich-Text für Titel zulassen** , werden Formatierungsoptionen angezeigt, um den Titel der Komponente zu formatieren. Um auf alle verfügbaren Formatierungsoptionen zuzugreifen, können Sie auf die ![Symbol &quot;Vollbild&quot;](/help/adaptive-forms/assets/fullscreen-icon.png) Registerkarte.
+- **Rich-Text für Titel zulassen**: Diese Funktionen ermöglichen es Benutzenden, einfache Texttitel zu formatieren, die Funktionen wie fett, kursiv, unterstrichener Text, verschiedene Schriftarten, Schriftgrößen, Farben und zusätzliche Optionen enthalten und so die visuelle Darstellung und Anpassung zu verbessern. Sie bietet mehr Flexibilität und kreative Kontrolle bei der Hervorhebung von Titeln in Dokumenten, Websites oder Anwendungen.\
+  Durch Aktivieren des Kontrollkästchens **Rich-Text für Titel zulassen** werden Formatierungsoptionen sichtbar, mit denen Sie den Titel der Komponente gestalten können. Um auf alle verfügbaren Formatierungsoptionen zuzugreifen, können Sie auf die Registerkarte ![Vollbildsymbol](/help/adaptive-forms/assets/fullscreen-icon.png) klicken.
 
   ![Rich-Text-Unterstützung](/help/adaptive-forms/assets/richtext-support-title.png)
 
@@ -73,11 +73,11 @@ Im Dialogfeld „Konfigurieren“ können Sie das Erlebnis für die Komponente �
    - **Deaktivierter Datenwert** – Geben Sie den Wert an, der gesendet werden soll, wenn der Schalter in einem adaptiven Formular nicht aktiviert ist. Diese Option ist nur sichtbar, wenn der Schalter **Wert des Status „Deaktivieren“ beibehalten** aktiviert ist.
    - **Deaktivierter Anzeigetext** – Geben Sie den Text an, der als Beschriftung angezeigt werden soll, wenn der Schalter in einem adaptiven Formular nicht aktiviert ist. Diese Option ist nur sichtbar, wenn der Schalter **Wert des Status „Deaktivieren“ beibehalten** aktiviert ist.
 
-  Sie können die Optionen für die Switch-Komponente auch mit **Rich-Text für Optionen zulassen**.
+  Sie können die Optionen für die Schalterkomponente auch mit **Rich-Text für Optionen zulassen** formatieren.
 
   ![Rich-Text-Unterstützung für Optionen](/help/adaptive-forms/assets/switch-optipn-rich-text.png)
 
-  Nachdem Sie das Kontrollkästchen für **Rich-Text für Optionen zulassen** Formatierungsoptionen werden angezeigt, um die Optionen der Komponente zu formatieren. Um auf alle verfügbaren Formatierungsoptionen zuzugreifen, können Sie auf die `Fullscreen` ![Symbol &quot;Vollbild&quot;](/help/adaptive-forms/assets/fullscreen-icon.png) Registerkarte.
+  Durch Aktivieren des Kontrollkästchens **Rich-Text für Optionen zulassen** werden Formatierungsoptionen sichtbar, mit denen Sie die Optionen der Komponente gestalten können. Um auf alle verfügbaren Formatierungsoptionen zuzugreifen, können Sie auf die Registerkarte `Fullscreen` ![Vollbildsymbol](/help/adaptive-forms/assets/fullscreen-icon.png) klicken.
 
   ![Rich-Text-Unterstützung für Optionen](/help/adaptive-forms/assets/switch-richtext-for-display.png)
 

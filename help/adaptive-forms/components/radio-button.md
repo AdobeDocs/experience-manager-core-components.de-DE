@@ -4,15 +4,15 @@ description: Verwenden oder Anpassen der Kernkomponente „Optionsschaltfläche�
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2079'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # Optionsschaltfläche {#radio-button-adaptive-forms-core-component}
 
-<span class="preview"> Dieser Artikel enthält Inhalte zum **Rich-Text für Titel zulassen** und **Rich-Text für Optionen zulassen**  Funktionen, Funktionen vor der Veröffentlichung. Die Vorabversion-Funktion ist nur über unsere [Pre-Release-Kanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features).</span>
+<span class="preview"> Dieser Artikel enthält Inhalte zu den Funktionen **Rich-Text für Titel zulassen**, **Rich-Text für Optionen zulassen** und zu Vorabveröffentlichungsfunktionen. Die Vorabveröffentlichungsfunktion ist nur über unseren [Vorabveröffentlichungskanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features) zugänglich.</span>
 
 Eine Optionsschaltfläche in einem adaptiven Formular ist eine Art Eingabeelement, mit dem Benutzende eine Option aus einer Gruppe verwandter Optionen auswählen können. Sie wird durch eine kleine kreisförmige Schaltfläche dargestellt, die entweder ausgefüllt oder leer ist, um anzugeben, ob die Option ausgewählt ist oder nicht. Wenn Benutzende eine Optionsschaltfläche auswählen, werden die anderen in der Gruppe deaktiviert. Optionsschaltflächen werden in der Regel verwendet, wenn mehrere sich gegenseitig ausschließende Optionen bestehen und jeweils nur eine gleichzeitig ausgewählt werden kann.
 
@@ -69,8 +69,8 @@ Im Dialogfeld „Konfigurieren“ können Sie Optionsschaltflächen für Besuche
 - **Name**: Sie können eine Formularkomponente sowohl im Formular als auch im Regel-Editor leicht mit ihrem eindeutigen Namen identifizieren. Der Name darf jedoch keine Leerzeichen oder Sonderzeichen enthalten.
 
 - **Titel**: Sie können mit dem Titel leicht eine Komponente in einem Formular identifizieren. Standardmäßig wird der Titel über der Komponente angezeigt. Wenn Sie keinen Titel hinzufügen, wird der Name der Komponente anstelle des Titeltexts angezeigt.
-- **Rich-Text für Titel zulassen** - Diese Funktionen ermöglichen es Benutzern, einfache Texttitel zu formatieren, die Funktionen wie fett, kursiv, unterstrichen Text, verschiedene Schriftarten, Schriftgrößen, Farben und zusätzliche Optionen enthalten, um die visuelle Präsentation und Anpassung zu verbessern. Es bietet mehr Flexibilität und kreative Kontrolle, damit Titel in Dokumenten, Websites oder Anwendungen hervorgehoben werden.\
-  Nach Auswahl des Kontrollkästchens für **Rich-Text für Titel zulassen** , werden Formatierungsoptionen angezeigt, um den Titel der Komponente zu formatieren. Um auf alle verfügbaren Formatierungsoptionen zuzugreifen, können Sie auf die ![Symbol &quot;Vollbild&quot;](/help/adaptive-forms/assets/fullscreen-icon.png) Registerkarte.
+- **Rich-Text für Titel zulassen**: Diese Funktionen ermöglichen es Benutzenden, einfache Texttitel zu formatieren, die Funktionen wie fett, kursiv, unterstrichener Text, verschiedene Schriftarten, Schriftgrößen, Farben und zusätzliche Optionen enthalten und so die visuelle Darstellung und Anpassung zu verbessern. Sie bietet mehr Flexibilität und kreative Kontrolle bei der Hervorhebung von Titeln in Dokumenten, Websites oder Anwendungen.\
+  Durch Aktivieren des Kontrollkästchens **Rich-Text für Titel zulassen** werden Formatierungsoptionen sichtbar, mit denen Sie den Titel der Komponente gestalten können. Um auf alle verfügbaren Formatierungsoptionen zuzugreifen, können Sie auf die Registerkarte ![Vollbildsymbol](/help/adaptive-forms/assets/fullscreen-icon.png) klicken.
 
   ![Rich-Text-Unterstützung](/help/adaptive-forms/assets/richtext-support-title.png)
 
@@ -81,12 +81,12 @@ Im Dialogfeld „Konfigurieren“ können Sie Optionsschaltflächen für Besuche
    - **Datenwert**: Mit dieser Option können Sie den zu sendenden Inhalt eingeben, wenn eine Option ausgewählt ist.
    - **Text anzeigen** – Mit dieser Option können Sie den Inhalt eingeben, der in einem adaptiven Formular angezeigt werden soll.
    - **Löschen** – Durch Tippen oder Klicken können Sie die Option einer Optionsschaltfläche löschen.
-   - **Neu anordnen** - Tippen oder klicken und ziehen Sie, um die Reihenfolge der Optionen neu anzuordnen.
-Sie können die Optionen für die Optionsfeldgruppe auch mit **Rich-Text für Optionen zulassen**.
+   - **Neu anordnen**: Durch Tippen oder Klicken und Ziehen können Sie die Anordnung der Optionen anpassen.
+Sie können die Optionen für die Optionsfeldgruppe auch mit **Rich-Text für Optionen zulassen** formatieren.
 
   ![Rich-Text-Unterstützung für Optionen](/help/adaptive-forms/assets/richtext-for-options.png)
 
-  Nachdem Sie das Kontrollkästchen für **Rich-Text für Optionen zulassen** Formatierungsoptionen werden angezeigt, um die Optionen der Komponente zu formatieren. Um auf alle verfügbaren Formatierungsoptionen zuzugreifen, können Sie auf die `Fullscreen` ![Symbol &quot;Vollbild&quot;](/help/adaptive-forms/assets/fullscreen-icon.png) Registerkarte.
+  Sobald Sie das Kontrollkästchen **Rich-Text für Optionen zulassen** aktivieren, werden Formatierungsoptionen sichtbar, um die Optionen der Komponente zu gestalten. Um auf alle verfügbaren Formatierungsoptionen zuzugreifen, können Sie auf die Registerkarte `Fullscreen` ![Vollbildsymbol](/help/adaptive-forms/assets/fullscreen-icon.png) klicken.
 
   ![Rich-Text-Unterstützung für Optionen](/help/adaptive-forms/assets/richtextoptions-support.png)
 
