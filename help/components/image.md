@@ -3,9 +3,9 @@ title: Bildkomponente
 description: Die Bildkomponenten-Kernkomponente ist eine adaptive Bildkomponente.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: a10c98aecf6d3c0d989f2e3c18affc51850f60bc
+source-git-commit: e37151536be5a4345f6e2bf630bb8bd4019ad699
 workflow-type: ht
-source-wordcount: '2061'
+source-wordcount: '1970'
 ht-degree: 100%
 
 ---
@@ -138,20 +138,6 @@ Der Editor für die Bearbeitung im Kontext kann auch zum Ändern des Bildes verw
 ### Bearbeiten von Dynamic Media-Assets {#dynamic-media-assets}
 
 Wenn Sie die [Funktionen von Dynamic Media aktiviert haben](#dynamic-media), muss die Bildbearbeitung selbst in der Asset-Konsole erfolgen.
-
-### Bearbeiten von Assets von Next Generation Dynamic Media {#next-gen-dm-assets}
-
-Wenn Sie [Next Generation Dynamic Media konfiguriert haben](#next-gen-dm), ist die Option **Smartes Zuschneiden** in den Kontextmenüs der Komponente verfügbar.
-
-![Smartes Zuschneiden](/help/assets/image-smart-crop.png)
-
-Verwenden Sie das Dialogfeld, um das smarte Zuschneiden anzupassen.
-
-![Dialogfeld „Smartes Zuschneiden“](/help/assets/image-smart-crop-dialog.png)
-
->[!TIP]
->
->Weitere Informationen zum smarten Zuschneiden finden Sie [in diesem Video zur Funktion.](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/smart-crop-feature-video-use.html?lang=de)
 
 ## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
