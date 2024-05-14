@@ -3,16 +3,16 @@ title: Kernkomponente für adaptive Formulare – Vertikale Registerkarten
 description: Verwenden oder Anpassen der Kernkomponente „Vertikale Registerkarten“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: ht
+source-git-commit: a6c3fd98bcdcbb0d6d5697b93306adc9ef7e3fc9
+workflow-type: tm+mt
 source-wordcount: '2112'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
 # Komponente „Vertikale Registerkarten“{#vertical-tabs-adaptive-forms-core-component}
 
-<span class="preview"> Dieser Artikel enthält Inhalte über die Vorabveröffentlichungsfunktion **Rich-Text für Titel zulassen**. Die Vorabveröffentlichungsfunktion ist nur über unseren [Vorabveröffentlichungskanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features) zugänglich.</span>
+<span class="preview"> Dieser Artikel enthält Inhalte zum  **Rich-Text für Titel zulassen**  -Funktion, einer Funktion vor der Veröffentlichung. Die Vorabveröffentlichungsfunktion ist nur über unseren [Vorabveröffentlichungskanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features) zugänglich.</span>
 
 Vertikale Registerkarten in adaptiven Formularen sind so aufgebaut, dass mehrere Abschnitte eines Formulars gruppiert und als separate, vertikal ausgerichtete Registerkarten angezeigt werden. Benutzende können zwischen den Registerkarten wechseln, um auf verschiedene Abschnitte des Formulars zuzugreifen. Jede Registerkarte dient als Auslöser zum Anzeigen und Ausblenden des jeweiligen Formularinhalts. Mit vertikalen Registerkarten können Sie lange Formulare in überschaubare Abschnitte organisieren und das Benutzererlebnis verbessern. Registerkarten können ein Formular für Benutzende mit Beeinträchtigungen barrierefreier gestalten, da sie mithilfe der Tastaturnavigation zwischen Abschnitten wechseln können.
 Wenn Benutzende auf eine Registerkarte klicken, wird der Formularinhalt dynamisch aktualisiert und der entsprechende Abschnitt angezeigt.

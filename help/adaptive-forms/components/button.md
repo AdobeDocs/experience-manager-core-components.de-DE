@@ -3,16 +3,16 @@ title: Kernkomponente für adaptive Formulare – Schaltfläche
 description: Verwenden oder Anpassen der Schlatflächen-Kernkomponente für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: cb75929b-8c86-49d1-b51a-368f5b80b1a9
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: ht
+source-git-commit: a6c3fd98bcdcbb0d6d5697b93306adc9ef7e3fc9
+workflow-type: tm+mt
 source-wordcount: '1601'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
 # Schaltflächenkomponente  {#button-component-adaptive-forms-core-component}
 
-<span class="preview"> Dieser Artikel enthält Inhalte über die Vorabveröffentlichungsfunktion **Rich-Text für Titel zulassen**. Die Vorabveröffentlichungsfunktion ist nur über unseren [Vorabveröffentlichungskanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features) zugänglich.</span>
+<span class="preview"> Dieser Artikel enthält Inhalte zum  **Rich-Text für Titel zulassen**  -Funktion, einer Funktion vor der Veröffentlichung. Die Vorabveröffentlichungsfunktion ist nur über unseren [Vorabveröffentlichungskanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features) zugänglich.</span>
 
 Eine Schaltfläche in einem adaptiven Formular ist ein Benutzeroberflächen-Element, mit dem Benutzende eine Aktion auslösen können, wenn sie darauf klicken. Mit dem Schaltflächenelement können Sie ein Formular senden, ein Formular zurücksetzen oder andere Aktionen durchführen, z. B. zu einer anderen Seite navigieren oder einen benutzerdefinierten Code auslösen. Die Schaltfläche kann mit der Schaltflächen-Kernkomponente erstellt werden.
 

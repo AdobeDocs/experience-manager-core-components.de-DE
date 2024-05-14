@@ -1,8 +1,8 @@
 ---
-source-git-commit: 97da426e5c57f00d83d11560d1fa4e8f9ed00feb
-workflow-type: ht
-source-wordcount: '212'
-ht-degree: 100%
+source-git-commit: efc42e6c615987a1d85abe18b650ac23a6d84bf6
+workflow-type: tm+mt
+source-wordcount: '211'
+ht-degree: 99%
 
 ---
 # Snippets {#snippets}
@@ -61,24 +61,23 @@ ht-degree: 100%
 - [Kontrollkästchengruppe](/help/adaptive-forms/components/checkbox-group.md)
 - [Kontrollkästchen](/help/adaptive-forms/components/checkbox.md)
 - [Datumsauswahl](/help/adaptive-forms/components/date-picker.md)
-- [Dropdown-Liste](/help/adaptive-forms/components/drop-down.md)
+- [Dropdown-Liste](/help/adaptive-forms/components/drop-down-list.md)
 - [E-Mail-Eingabe](/help/adaptive-forms/components/email-input.md)
 - [Formular-Container](/help/adaptive-forms/components/form-container.md)
 - [Dateianhang](/help/adaptive-forms/components/file-attachment.md)
-- [Formularfragment](/help/adaptive-forms/components/form-fragment.md)
+- [Adaptive Formularfragmente](/help/adaptive-forms/components/adaptive-form-fragment.md)
 - [Fußzeile](/help/adaptive-forms/components/footer.md)
 - [Kopfzeile](/help/adaptive-forms/components/header.md)
 - [Bild](/help/adaptive-forms/components/image.md)
-- [Zahleneingabe](/help/adaptive-forms/components/number-input.md)
-- [Bedienfeld-Container](/help/adaptive-forms/components/panel-container.md)
+- [Numerisches Feld](/help/adaptive-forms/components/numeric-box.md)
+- [Bedienfeld](/help/adaptive-forms/components/panel.md)
 - [Horizontale Registerkarte](/help/adaptive-forms/components/horizontal-tabs.md)
 - [Vertikale Registerkarte](/help/adaptive-forms/components/vertical-tabs.md)
 - [Optionsschaltfläche](/help/adaptive-forms/components/radio-button.md)
 - [Schaltfläche „Zurücksetzen“](/help/adaptive-forms/components/reset-button.md)
 - [Schaltfläche „Senden“](/help/adaptive-forms/components/submit-button.md)
-- [Schalter](/help/adaptive-forms/components/switch.md)
 - [Telefoneingabe](/help/adaptive-forms/components/telephone-input.md)
-- [Texteingabe](/help/adaptive-forms/components/text-input.md)
+- [Textfeld](/help/adaptive-forms/components/text-box.md)
 - [Text](/help/adaptive-forms/components/text.md)
 - [Titel](/help/adaptive-forms/components/title.md)
 - [Registerkarte „Nutzungsbedingungen“](/help/adaptive-forms/components/terms-and-conditions.md)

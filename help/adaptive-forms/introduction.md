@@ -3,9 +3,9 @@ title: Einführung zu Kernkomponenten für adaptive Formulare in AEM
 description: Erstellen Sie ansprechende Registrierungserlebnisse (Formulare) mit der Flexibilität der Kernkomponenten für adaptive Formulare und stellen Sie sie über Adobe Experience Manager bereit.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 1dbbb598c0856b76c076f322cdf0210bf38ee9e8
-workflow-type: ht
-source-wordcount: '1267'
+source-git-commit: efc42e6c615987a1d85abe18b650ac23a6d84bf6
+workflow-type: tm+mt
+source-wordcount: '1176'
 ht-degree: 100%
 
 ---
@@ -73,9 +73,9 @@ Die aktuelle Version der Kernkomponenten für adaptive Formulare enthält die un
 
 * [Akkordeon](/help/adaptive-forms/components/accordion.md)
 * [Schaltfläche](/help/adaptive-forms/components/button.md)
-* [Kontrollkästchen „Gruppe“](/help/adaptive-forms/components/checkbox-group.md)
+* [Kontrollkästchengruppe](/help/adaptive-forms/components/checkbox-group.md)
 * [Datumsauswahl](/help/adaptive-forms/components/date-picker.md)
-* [Dropdown-Liste](/help/adaptive-forms/components/drop-down.md)
+* [Dropdown-Liste](/help/adaptive-forms/components/drop-down-list.md)
 * [E-Mail-Eingabe](/help/adaptive-forms/components/email-input.md)
 * [Formular-Container](/help/adaptive-forms/components/form-container.md)
 * [Dateianhang](/help/adaptive-forms/components/file-attachment.md)
@@ -83,13 +83,13 @@ Die aktuelle Version der Kernkomponenten für adaptive Formulare enthält die un
 * [Kopfzeile](/help/adaptive-forms/components/header.md)
 * [Horizontale Registerkarten](/help/adaptive-forms/components/horizontal-tabs.md)
 * [Bild](/help/adaptive-forms/components/image.md)
-* [Zahleneingabe](/help/adaptive-forms/components/number-input.md)
-* [Bedienfeld-Container](/help/adaptive-forms/components/panel-container.md)
+* [Numerisches Feld](/help/adaptive-forms/components/numeric-box.md)
+* [Bedienfeld](/help/adaptive-forms/components/panel.md)
 * [Optionsschaltfläche](/help/adaptive-forms/components/radio-button.md)
 * [Schaltfläche „Zurücksetzen“](/help/adaptive-forms/components/reset-button.md)
 * [Schaltfläche „Senden“](/help/adaptive-forms/components/submit-button.md)
 * [Telefoneingabe](/help/adaptive-forms/components/telephone-input.md)
-* [Texteingabe](/help/adaptive-forms/components/text-input.md)
+* [Textfeld](/help/adaptive-forms/components/text-box.md)
 * [Text](/help/adaptive-forms/components/text.md)
 * [Titel](/help/adaptive-forms/components/title.md)
 * [Assistent](/help/adaptive-forms/components/wizard.md)
@@ -100,7 +100,7 @@ Durch die Aktivierung der Kernkomponenten für adaptive Formulare in AEM Forms a
 
 Die Kernkomponenten für adaptive Formulare haben die folgenden Anforderungen.
 
-| AEM Version | AEM Forms-Add-on | Kernkomponenten für adaptive Formulare |
+| AEM-Version | AEM Forms-Add-on | Kernkomponenten für adaptive Formulare |
 |---|---|---|
 | AEM as a Cloud Service | Forms – Digitale Registrierung | [Version 2.0.10](version.md)+ |
 | AEM 6.5 | Forms-Add-on | [Version 1.1.12](version.md)+ |

@@ -5,10 +5,10 @@ breadcrumb-title: Anleitung zu den Hauptkomponenten
 feature: Core Components
 user-guide-description: Nutzen Sie die erweiterbaren Hauptkomponenten, damit Autoren bzw. Autorinnen mühelos Inhalte erstellen können.
 feature-set: Experience Manager Sites
-source-git-commit: 2afcaeb90911de865814235586ea19eb21dd8126
-workflow-type: ht
+source-git-commit: efc42e6c615987a1d85abe18b650ac23a6d84bf6
+workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -112,15 +112,15 @@ ht-degree: 100%
       + [Adaptive Formulare – Kontrollkästchengruppe](/help/adaptive-forms/components/checkbox-group.md)
       + [Adaptive Formulare – Container](/help/adaptive-forms/components/form-container.md)
       + [Adaptive Formulare – Datumsauswahl](/help/adaptive-forms/components/date-picker.md)
-      + [Adaptive Formulare – Dropdown-Liste](/help/adaptive-forms/components/drop-down.md)
+      + [Adaptive Formulare – Dropdown-Liste](/help/adaptive-forms/components/drop-down-list.md)
       + [Adaptive Formulare – E-Mail-Eingabe](/help/adaptive-forms/components/email-input.md)
-      + [Formularfragment für adaptive Formulare](/help/adaptive-forms/components/form-fragment.md)
+      + [Formularfragment für adaptive Formulare](/help/adaptive-forms/components/adaptive-form-fragment.md)
       + [Adaptive Formulare – Dateianlagen](/help/adaptive-forms/components/file-attachment.md)
       + [Adaptive Formulare – Vertikale Registerkarten](/help/adaptive-forms/components/vertical-tabs.md)
       + [Adaptive Formulare – horizontale Registerkarten](/help/adaptive-forms/components/horizontal-tabs.md)
       + [Adaptive Formulare – Bild](/help/adaptive-forms/components/image.md)
-      + [Adaptive Formulare – Zahleneingabe](/help/adaptive-forms/components/number-input.md)
-      + [Adaptive Formulare – Bedienfeld](/help/adaptive-forms/components/panel-container.md)
+      + [Numerisches Feld für adaptive Forms](/help/adaptive-forms/components/numeric-box.md)
+      + [Adaptive Formulare – Bedienfeld](/help/adaptive-forms/components/panel.md)
       + [Adaptive Formulare – CAPTCHA](/help/adaptive-forms/components/captcha.md)
       + [Adaptive Formulare – Optionsschaltfläche](/help/adaptive-forms/components/radio-button.md)
       + [Adaptive Formulare – Schaltfläche „Zurücksetzen“](/help/adaptive-forms/components/reset-button.md)
@@ -128,7 +128,7 @@ ht-degree: 100%
       + [Adaptives Formular – Schalter](/help/adaptive-forms/components/switch.md)
       + [Adaptive Formulare – Telefoneingabe](/help/adaptive-forms/components/telephone-input.md)
       + [Adaptive Formulare – Text](/help/adaptive-forms/components/text.md)
-      + [Adaptive Formulare – Textfeld](/help/adaptive-forms/components/text-input.md)
+      + [Adaptive Formulare – Textfeld](/help/adaptive-forms/components/text-box.md)
       + [Adaptive Formulare – Titel](/help/adaptive-forms/components/title.md)
       + [Adaptive Formulare – Assistenten-Layout](/help/adaptive-forms/components/wizard.md)
       + [Adaptive Formulare – Nutzungsbedingungen](/help/adaptive-forms/components/terms-and-conditions.md)
