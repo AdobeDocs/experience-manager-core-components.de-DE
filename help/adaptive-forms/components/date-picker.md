@@ -3,16 +3,16 @@ title: Kernkomponente „Datumsauswahl“ für adaptive Formulare
 description: Verwenden oder Anpassen der Datumsauswahl-Kernkomponente in adaptiven Formularen.
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: ht
-source-wordcount: '2094'
-ht-degree: 100%
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+workflow-type: tm+mt
+source-wordcount: '2095'
+ht-degree: 99%
 
 ---
 
-# Datumsauswahl {#date-picker-adaptive-forms-core-component}
+# Datumsauswahlkomponente{#date-picker-adaptive-forms-core-component}
 
-<span class="preview"> Dieser Artikel enthält Inhalte über die Vorabveröffentlichungsfunktion **Rich-Text für Titel zulassen**. Die Vorabveröffentlichungsfunktion ist nur über unseren [Vorabveröffentlichungskanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features) zugänglich.</span>
+<span class="preview"> Dieser Artikel enthält Inhalte zum  **Rich-Text für Titel zulassen**  -Funktion, einer Funktion vor der Veröffentlichung. Die Vorabveröffentlichungsfunktion ist nur über unseren [Vorabveröffentlichungskanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features) zugänglich.</span>
 
 Datumsauswahl-Komponenten in einem adaptiven Formular sind Elemente der Benutzeroberfläche, mit denen Benutzende ein Datum aus einem Kalender auswählen oder manuell ein Datum in einem bestimmten Format eingeben können. Sie können die Datumsauswahl-Komponente so konfigurieren, dass sie unterschiedliche Formatierungen, Validierungen und Standardwerte aufweist.
 

@@ -3,16 +3,16 @@ title: Kernkomponente „E-Mail-Eingabe“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „E-Mail-Eingabe“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: ht
-source-wordcount: '2054'
-ht-degree: 100%
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+workflow-type: tm+mt
+source-wordcount: '2055'
+ht-degree: 99%
 
 ---
 
-# E-Mail-Eingabe {#Email-input-adaptive-forms-core-component}
+# E-Mail-Eingabekomponente {#Email-input-adaptive-forms-core-component}
 
-<span class="preview"> Dieser Artikel enthält Inhalte über die Vorabveröffentlichungsfunktion **Rich-Text für Titel zulassen**. Die Vorabveröffentlichungsfunktion ist nur über unseren [Vorabveröffentlichungskanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features) zugänglich.</span>
+<span class="preview"> Dieser Artikel enthält Inhalte zum  **Rich-Text für Titel zulassen**  -Funktion, einer Funktion vor der Veröffentlichung. Die Vorabveröffentlichungsfunktion ist nur über unseren [Vorabveröffentlichungskanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features) zugänglich.</span>
 
 Die Kernkomponente „E-Mail-Eingabe“ für adaptive Formulare wird verwendet, um E-Mail-Adressen von Benutzenden zu erfassen. Über das E-Mail-Eingabefeld kann der Browser überprüfen, ob die eingegebenen Daten ein gültiges E-Mail-Adressformat haben. Es wird normalerweise als Textfeld dargestellt und verfügt über Mustervalidierungen, damit nur gültige E-Mail-Adressen akzeptiert werden. Das E-Mail-Eingabefeld kann mit zusätzlichen Attributen wie „erforderlich“, „Platzhalter“ und „Muster“ weiter angepasst werden, um Validierungsverfahren für die Eingabedaten festzulegen.
 
@@ -69,7 +69,7 @@ Im Dialogfeld „Konfigurieren“ können Sie die E-Mail-Eingabe einfach anpasse
 
   ![Rich-Text-Unterstützung](/help/adaptive-forms/assets/richtext-support-title.png)
 
-- **Titel ausblenden**: Wählen Sie diese Option aus, um den Titel der Komponente auszublenden.
+- **Titel ausblenden**: Wählen Sie die Option aus, um den Titel der Komponente auszublenden.
 
 - **Platzhaltertext** – Platzhaltertext in einer Formularkomponente ist eine kurze Beschriftung oder Eingabeaufforderung in einem Eingabefeld, um Benutzende darüber zu informieren, welchen Text sie in dieses Feld eingeben sollen. Der Platzhaltertext verschwindet, wenn Benutzende mit der Eingabe in das Feld beginnen, und erscheint wieder, wenn das Feld leer bleibt. Er stellt einen visuellen Hinweis für Benutzende bereit, fungiert jedoch nicht als permanente Beschriftung oder Wert für das Feld.
 - **Bindungsverweis**: Bindungsverweis ist ein Verweis auf ein Datenelement, das in einer externen Datenquelle gespeichert ist und in einem Formular verwendet wird. Sie können mit dem Bindungsverweis Daten dynamisch an Formularfelder binden, sodass das Formular die aktuellsten Daten aus der Datenquelle anzeigen kann. Beispielsweise kann ein Bindungsverweis verwendet werden, um den Namen und die Adresse von Kundinnen und Kunden in einem Formular anzuzeigen, basierend auf der im Formular eingegebenen Kunden-ID. Der Bindungsverweis kann auch verwendet werden, um die Datenquelle mit den im Formular eingegebenen Daten zu aktualisieren. Auf diese Weise können Sie mit AEM Forms Formulare erstellen, die mit externen Datenquellen interagieren und so eine nahtlose Benutzererfahrung bei der Datenerfassung und Datenverwaltung bieten.

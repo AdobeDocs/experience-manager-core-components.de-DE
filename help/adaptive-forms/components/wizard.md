@@ -3,14 +3,14 @@ title: Kernkomponente „Assistent“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „Assistent“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: ht
-source-wordcount: '2100'
-ht-degree: 100%
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+workflow-type: tm+mt
+source-wordcount: '2101'
+ht-degree: 99%
 
 ---
 
-# Assistent {#wizard-adaptive-forms-core-component}
+# Assistentenkomponente{#wizard-adaptive-forms-core-component}
 
 Ein Assistenten-Layout in einem adaptiven Formular ist in mehrere Schritte oder Seiten unterteilt, wobei Benutzende das Formular Schritt für Schritt durchlaufen. Dieses Layout wird als „Assistent“ bezeichnet, da es den Benutzer schrittweise durch das Formular führt.
 
@@ -77,7 +77,7 @@ Im Dialogfeld „Konfigurieren“ können Sie den Assistenten für Besuchende ei
 
 - **Titel** – Mit dem Titel können Sie eine Komponente in einem Formular leicht identifizieren. Standardmäßig wird der Titel oberhalb der Komponente angezeigt.
 
-- **Titel ausblenden** - Wählen Sie die Option aus, um den Titel der Komponente auszublenden.
+- **Titel ausblenden**: Wählen Sie die Option aus, um den Titel der Komponente auszublenden.
 
 - **Daten untergeordneter Komponenten bei Formularübermittlung gruppieren (Daten in Objekt einschließen)** – Wenn die Option ausgewählt ist, werden die Daten aus den untergeordneten Komponenten innerhalb des JSON-Objekts der übergeordneten Komponente verschachtelt. Wenn jedoch die Option nicht ausgewählt ist, weisen die gesendeten JSON-Daten eine flache Struktur auf, ohne dass ein Objekt für die übergeordnete Komponente vorhanden ist. Zum Beispiel:
 

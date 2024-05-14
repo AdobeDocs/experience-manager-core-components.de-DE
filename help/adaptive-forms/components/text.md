@@ -3,14 +3,14 @@ title: Kernkomponente für adaptive Formulare – Text
 description: Verwenden oder Anpassen der Kernkomponente Adaptive Formulare Text.
 role: Architect, Developer, Admin, User
 exl-id: b8de68e4-ca0d-4ae5-9a04-104cc617f1be
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: ht
-source-wordcount: '995'
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+workflow-type: tm+mt
+source-wordcount: '996'
 ht-degree: 100%
 
 ---
 
-# Text {#text-adaptive-forms-core-component}
+# Textkomponente  {#text-adaptive-forms-core-component}
 
 In einem adaptiven Formular bezieht sich Text auf den Inhalt, der im Formular erscheint, sodass Benutzende ihn lesen können. Dazu können der Text gehören, der zur Beschriftung einer Gruppe von Formularelementen verwendet wird, z. B. Textfelder, sowie alle zusätzlichen Anweisungen oder Informationen, die Benutzenden bereitgestellt werden.
 

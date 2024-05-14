@@ -3,14 +3,14 @@ title: Kernkomponente „Titel“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „Adaptive Formulare – Titel“.
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: ht
-source-wordcount: '863'
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+workflow-type: tm+mt
+source-wordcount: '864'
 ht-degree: 100%
 
 ---
 
-# Titel {#title-input-adaptive-forms-core-component}
+# Titelkomponente{#title-input-adaptive-forms-core-component}
 
 In einem adaptiven Formular bezieht sich ein „Titel“ auf den Text, der oben im Formular angezeigt wird, normalerweise unter der Kopfzeile. Der Titel wird mithilfe der Titelkomponente spezifiziert. Diese Komponente kann zum Formular-Layout hinzugefügt werden und ihr Text kann entsprechend dem Zweck oder Thema des Formulars bearbeitet werden. Der Titel dient Benutzenden als Bezeichnung kurze Beschreibung des Formulars und erleichtert die Unterscheidung des Formulars von anderen.
 
