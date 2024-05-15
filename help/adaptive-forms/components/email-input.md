@@ -3,7 +3,7 @@ title: Kernkomponente „E-Mail-Eingabe“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „E-Mail-Eingabe“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '2055'
 ht-degree: 99%
@@ -12,7 +12,7 @@ ht-degree: 99%
 
 # E-Mail-Eingabekomponente {#Email-input-adaptive-forms-core-component}
 
-<span class="preview"> Dieser Artikel enthält Inhalte zum  **Rich-Text für Titel zulassen**  -Funktion, einer Funktion vor der Veröffentlichung. Die Vorabveröffentlichungsfunktion ist nur über unseren [Vorabveröffentlichungskanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features) zugänglich.</span>
+<span class="preview"> Dieser Artikel enthält Inhalte zum   **Rich-Text für Titel zulassen**    -Funktion, einer Funktion vor der Veröffentlichung. Die Vorabveröffentlichungsfunktion ist nur über unseren [Vorabveröffentlichungskanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features) zugänglich.</span>
 
 Die Kernkomponente „E-Mail-Eingabe“ für adaptive Formulare wird verwendet, um E-Mail-Adressen von Benutzenden zu erfassen. Über das E-Mail-Eingabefeld kann der Browser überprüfen, ob die eingegebenen Daten ein gültiges E-Mail-Adressformat haben. Es wird normalerweise als Textfeld dargestellt und verfügt über Mustervalidierungen, damit nur gültige E-Mail-Adressen akzeptiert werden. Das E-Mail-Eingabefeld kann mit zusätzlichen Attributen wie „erforderlich“, „Platzhalter“ und „Muster“ weiter angepasst werden, um Validierungsverfahren für die Eingabedaten festzulegen.
 

@@ -3,7 +3,7 @@ title: Kernkomponente „Dropdown-Liste“ für adaptive Formulare
 description: Verwenden oder Anpassen der Dropdown-Kernkomponente adaptiver Formulare.
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '2126'
 ht-degree: 99%
@@ -12,7 +12,7 @@ ht-degree: 99%
 
 # Dropdown-Listenkomponente{#drop-down-list-adaptive-forms-core-component}
 
-<span class="preview"> Dieser Artikel enthält Inhalte zum  **Rich-Text für Titel zulassen**  -Funktion, einer Funktion vor der Veröffentlichung. Die Vorabveröffentlichungsfunktion ist nur über unseren [Vorabveröffentlichungskanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features) zugänglich.</span>
+<span class="preview"> Dieser Artikel enthält Inhalte zum   **Rich-Text für Titel zulassen**    -Funktion, einer Funktion vor der Veröffentlichung. Die Vorabveröffentlichungsfunktion ist nur über unseren [Vorabveröffentlichungskanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features) zugänglich.</span>
 
 Benutzende können über eine Dropdown-Liste in einem adaptiven Formular eine oder mehrere Optionen aus einer Liste vordefinierter Optionen auswählen. Die Optionen können vom Typ „Zeichenfolge“, „Zahl“ oder „Boolesch“ sein. Darüber hinaus können Sie die Komponente „Dropdown-Liste“ so konfigurieren, dass sie unterschiedliche Validierungswerte und Standardwerte aufweist.
 

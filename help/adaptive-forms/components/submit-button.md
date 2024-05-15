@@ -3,7 +3,7 @@ title: Kernkomponente „Senden-Schaltfläche“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „Senden-Schaltfläche“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: e4b8e475-79b9-4c4d-9f11-a125a424d32b
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '1450'
 ht-degree: 98%
@@ -12,7 +12,7 @@ ht-degree: 98%
 
 # Sendeschaltflächen-Komponente {#submit-button}
 
-<span class="preview"> Dieser Artikel enthält Inhalte zum  **Rich-Text für Titel zulassen**  -Funktion, einer Funktion vor der Veröffentlichung. Die Vorabveröffentlichungsfunktion ist nur über unseren [Vorabveröffentlichungskanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features) zugänglich.</span>
+<span class="preview"> Dieser Artikel enthält Inhalte zum   **Rich-Text für Titel zulassen**    -Funktion, einer Funktion vor der Veröffentlichung. Die Vorabveröffentlichungsfunktion ist nur über unseren [Vorabveröffentlichungskanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features) zugänglich.</span>
 
 Eine Senden-Schaltfläche in einem adaptiven Formular ist eine Schaltfläche, mit der Benutzende die Formulardaten zur Verarbeitung an einen Server senden können. Wenn die Senden-Schaltfläche angeklickt wird, werden die Formulardaten an den Server gesendet, wo sie gespeichert, verarbeitet oder für verschiedene Zwecke verwendet werden können, z. B. zum Senden einer E-Mail oder zum Aktualisieren einer Datenbank.
 

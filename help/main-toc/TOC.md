@@ -5,9 +5,9 @@ breadcrumb-title: Anleitung zu den Hauptkomponenten
 feature: Core Components
 user-guide-description: Nutzen Sie die erweiterbaren Hauptkomponenten, damit Autoren bzw. Autorinnen mühelos Inhalte erstellen können.
 feature-set: Experience Manager Sites
-source-git-commit: efc42e6c615987a1d85abe18b650ac23a6d84bf6
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '377'
 ht-degree: 98%
 
 ---
@@ -130,7 +130,7 @@ ht-degree: 98%
       + [Adaptive Formulare – Text](/help/adaptive-forms/components/text.md)
       + [Adaptive Formulare – Textfeld](/help/adaptive-forms/components/text-box.md)
       + [Adaptive Formulare – Titel](/help/adaptive-forms/components/title.md)
-      + [Adaptive Formulare – Assistenten-Layout](/help/adaptive-forms/components/wizard.md)
+      + [Adaptiver Forms-Assistent](/help/adaptive-forms/components/wizard.md)
       + [Adaptive Formulare – Nutzungsbedingungen](/help/adaptive-forms/components/terms-and-conditions.md)
       + [Kopfzeile](/help/adaptive-forms/components/header.md)
       + [Fußzeile](/help/adaptive-forms/components/footer.md)

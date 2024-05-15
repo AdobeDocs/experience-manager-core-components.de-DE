@@ -3,7 +3,7 @@ title: Kernkomponente für adaptive Formulare - Nutzungsbedingungen
 description: Verwenden oder Anpassen der Nutzungsbedingungs-Kernkomponente für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '3115'
 ht-degree: 99%
@@ -12,7 +12,7 @@ ht-degree: 99%
 
 # Komponente &quot;Allgemeine Geschäftsbedingungen&quot;
 
-<span class="preview"> Dieser Artikel enthält Inhalte zum  **Rich-Text für Titel zulassen**  und  **Rich-Text für Optionen zulassen**  Funktionen, Funktionen vor der Veröffentlichung. Die Vorabveröffentlichungsfunktion ist nur über unseren [Vorabveröffentlichungskanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features) zugänglich.</span>
+<span class="preview"> Dieser Artikel enthält Inhalte zum   **Rich-Text für Titel zulassen**   und   **Rich-Text für Optionen zulassen**   Funktionen, Funktionen vor der Veröffentlichung. Die Vorabveröffentlichungsfunktion ist nur über unseren [Vorabveröffentlichungskanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features) zugänglich.</span>
 
 Eine **Nutzungsbedingungskomponente** bezieht sich auf einen Abschnitt eines Formulars, in dem die Bedingungen, Regeln und Vorgaben erläutert werden, denen Benutzende bei der Verwendung eines Dienstes oder beim Zugriff auf Inhalte zustimmen oder die sie erfüllen müssen.
 

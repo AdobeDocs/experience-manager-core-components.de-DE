@@ -3,7 +3,7 @@ title: Kernkomponente „Optionsschaltfläche“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „Optionsschaltfläche“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '2080'
 ht-degree: 98%
@@ -12,7 +12,7 @@ ht-degree: 98%
 
 # Optionsfeldkomponente {#radio-button-adaptive-forms-core-component}
 
-<span class="preview"> Dieser Artikel enthält Inhalte zum  **Rich-Text für Titel zulassen**  und  **Rich-Text für Optionen zulassen**   Funktionen, Funktionen vor der Veröffentlichung. Die Vorabveröffentlichungsfunktion ist nur über unseren [Vorabveröffentlichungskanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features) zugänglich.</span>
+<span class="preview"> Dieser Artikel enthält Inhalte zum   **Rich-Text für Titel zulassen**   und   **Rich-Text für Optionen zulassen**   Funktionen, Funktionen vor der Veröffentlichung. Die Vorabveröffentlichungsfunktion ist nur über unseren [Vorabveröffentlichungskanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features) zugänglich.</span>
 
 Eine Optionsschaltfläche in einem adaptiven Formular ist eine Art Eingabeelement, mit dem Benutzende eine Option aus einer Gruppe verwandter Optionen auswählen können. Sie wird durch eine kleine kreisförmige Schaltfläche dargestellt, die entweder ausgefüllt oder leer ist, um anzugeben, ob die Option ausgewählt ist oder nicht. Wenn Benutzende eine Optionsschaltfläche auswählen, werden die anderen in der Gruppe deaktiviert. Optionsschaltflächen werden in der Regel verwendet, wenn mehrere sich gegenseitig ausschließende Optionen bestehen und jeweils nur eine gleichzeitig ausgewählt werden kann.
 

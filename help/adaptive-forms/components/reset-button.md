@@ -3,7 +3,7 @@ title: Kernkomponente „Zurücksetzen-Schaltfläche“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „Zurücksetzen-Schaltfläche“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: e5aa9d89-aece-491e-80a1-7fb9ea6c4b60
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '1491'
 ht-degree: 98%
@@ -12,7 +12,7 @@ ht-degree: 98%
 
 # Zurücksetzen der Schaltflächenkomponente {#reset-button}
 
-<span class="preview"> Dieser Artikel enthält Inhalte zum  **Rich-Text für Titel zulassen**  -Funktion, einer Funktion vor der Veröffentlichung. Die Vorabveröffentlichungsfunktion ist nur über unseren [Vorabveröffentlichungskanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features) zugänglich.</span>
+<span class="preview"> Dieser Artikel enthält Inhalte zum   **Rich-Text für Titel zulassen**    -Funktion, einer Funktion vor der Veröffentlichung. Die Vorabveröffentlichungsfunktion ist nur über unseren [Vorabveröffentlichungskanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features) zugänglich.</span>
 
 Eine Schaltfläche zum Zurücksetzen in einem adaptiven Formular ist eine Schaltfläche, mit der Benutzende alle Formularfelder löschen oder auf ihre Standardwerte zurücksetzen können. Wenn auf die Schaltfläche zum Zurücksetzen geklickt wird, werden alle Daten gelöscht, die in die Formularfelder eingegeben wurden, und die Felder kehren in ihren ursprünglichen Zustand zurück. Die Schaltfläche „Zurücksetzen“ wird in der Regel als Alternative zur Schaltfläche „Absenden“ verwendet und bietet den Benutzenden die Möglichkeit, von vorn zu beginnen, wenn sie falsche oder unerwünschte Daten in das Formular eingegeben haben.
 

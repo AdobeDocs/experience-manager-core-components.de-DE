@@ -3,7 +3,7 @@ title: Kernkomponente für adaptive Formulare – Kontrollkästchen-Gruppe
 description: Verwenden oder Anpassen der Kernkomponente für adaptive Formulare – Kontrollkästchen-Gruppe.
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '2048'
 ht-degree: 98%
@@ -12,7 +12,7 @@ ht-degree: 98%
 
 # Kontrollkästchengruppen-Komponente {#button-component-adaptive-forms-core-component}
 
-<span class="preview"> Dieser Artikel enthält Inhalte zum  **Rich-Text für Titel zulassen**  und  **Rich-Text für Optionen zulassen**  Funktionen, Funktionen vor der Veröffentlichung. Die Vorabveröffentlichungsfunktion ist nur über unseren [Vorabveröffentlichungskanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features) zugänglich.</span>
+<span class="preview"> Dieser Artikel enthält Inhalte zum   **Rich-Text für Titel zulassen**   und   **Rich-Text für Optionen zulassen**   Funktionen, Funktionen vor der Veröffentlichung. Die Vorabveröffentlichungsfunktion ist nur über unseren [Vorabveröffentlichungskanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features) zugänglich.</span>
 
 Eine Kontrollkästchen-Gruppe in einem adaptiven Formular ist ein Satz verwandter Kontrollkästchen, mit denen Benutzende eine oder mehrere Optionen aus einer Liste auswählen können. Jedes Kontrollkästchen wird durch einen Datenwert (Wert, der für die Verarbeitung der Elemente einer Kontrollkästchengruppe verwendet wird) und einen Anzeigewert (Beschriftung für jedes Kontrollkästchenelement, die seinen Zweck beschreibt) dargestellt.
 **Beispiel**

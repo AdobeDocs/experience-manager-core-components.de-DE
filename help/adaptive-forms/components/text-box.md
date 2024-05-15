@@ -3,7 +3,7 @@ title: Kernkomponente für adaptive Formulare – Texteingabe (Textfeld)
 description: Verwenden oder Anpassen der Texteingabe-Kernkomponente für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '2062'
 ht-degree: 99%
@@ -12,7 +12,7 @@ ht-degree: 99%
 
 # Textfeldkomponente{#text-input-adaptive-forms-core-component}
 
-<span class="preview"> Dieser Artikel enthält Inhalte zum  **Rich-Text für Titel zulassen**  -Funktion, einer Funktion vor der Veröffentlichung. Die Vorabveröffentlichungsfunktion ist nur über unseren [Vorabveröffentlichungskanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features) zugänglich.</span>
+<span class="preview"> Dieser Artikel enthält Inhalte zum   **Rich-Text für Titel zulassen**    -Funktion, einer Funktion vor der Veröffentlichung. Die Vorabveröffentlichungsfunktion ist nur über unseren [Vorabveröffentlichungskanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features) zugänglich.</span>
 
 Eine Texteingabekomponente (Textfeld) ermöglicht es Benutzenden, eine oder mehrere Zeilen Text einzugeben und zu bearbeiten, je nach dem Typattribut des Eingabeelements. Die Texteingabekomponente kann in einem Formular platziert werden und ist in der Regel mit einem hilfreichen Text beschriftet, der ihren Zweck leicht erkennen lässt. Diese sind grundlegende Elemente eines jeden Formulars, die häufig verwendet werden, um verschiedene Datentypen von Benutzenden zu erfassen. Diese sind einfach, flexibel und können so konfiguriert werden, dass Eingaben überprüft werden und die Genauigkeit der Datenerfassung verbessert wird.
 

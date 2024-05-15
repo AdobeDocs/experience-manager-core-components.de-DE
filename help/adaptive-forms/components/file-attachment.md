@@ -3,7 +3,7 @@ title: Kernkomponente „Dateianhang“ von adaptiven Formularen
 description: Verwenden oder Anpassen der Kernkomponente „Dateianhang“ von adaptiven Formularen.
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '1852'
 ht-degree: 99%
@@ -12,7 +12,7 @@ ht-degree: 99%
 
 # Dateianlagenkomponente {#file-attachment-adaptive-forms-core-component}
 
-<span class="preview"> Dieser Artikel enthält Inhalte zum  **Rich-Text für Titel zulassen**  -Funktion, einer Funktion vor der Veröffentlichung. Die Vorabveröffentlichungsfunktion ist nur über unseren [Vorabveröffentlichungskanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features) zugänglich.</span>
+<span class="preview"> Dieser Artikel enthält Inhalte zum   **Rich-Text für Titel zulassen**    -Funktion, einer Funktion vor der Veröffentlichung. Die Vorabveröffentlichungsfunktion ist nur über unseren [Vorabveröffentlichungskanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features) zugänglich.</span>
 
 Durch Verwendung der Dateianhang-Komponente in einem adaptiven Formular können Benutzende Dateien von ihrem lokalen Computer oder Gerät auswählen und hochladen. Die Dateianhang-Komponente kann so konfiguriert werden, dass bestimmte Dateitypen, Größenbeschränkungen und mehrere Anhänge zulässig sind.
 
