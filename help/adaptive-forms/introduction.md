@@ -101,7 +101,7 @@ Die aktuelle Version von AEM verfügt über die folgenden Kernkomponenten und Fo
 | Schaltfläche „Weiter“ | ✔️ | ✔️ | | Verwenden Sie die Assistentenkomponente für die Schaltflächen &quot;Weiter&quot;und &quot;Zurück&quot;, um zwischen mehreren Bedienfeldern zu wechseln. |
 | Numerisches Feld | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/numeric-box.md)</span> | ✔️ | |
 | Numerische Schritte | ✔️ | | | |
-| Bedienfeld | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/panel.md)</span> | ✔️ | |
+| Panel | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/panel.md)</span> | ✔️ | |
 | Kennwortfeld | ✔️ | | ✔️ | |
 | Telefon/Telefon | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/telephone-input.md)</span> | ✔️ | |
 | Schaltfläche „Zurück“ | ✔️ | | | Verwenden Sie die Assistentenkomponente für die Schaltflächen &quot;Weiter&quot;und &quot;Zurück&quot;, um zwischen mehreren Bedienfeldern zu wechseln. |
