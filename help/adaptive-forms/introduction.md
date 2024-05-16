@@ -3,18 +3,18 @@ title: Einführung zu Kernkomponenten für adaptive Formulare in AEM
 description: Erstellen Sie ansprechende Registrierungserlebnisse (Formulare) mit der Flexibilität der Kernkomponenten für adaptive Formulare und stellen Sie sie über Adobe Experience Manager bereit.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 23ad6de410aaf4952607d9a4aa44864b0743c479
+source-git-commit: e15254b119194e14b5719de10a00b2990264756f
 workflow-type: tm+mt
-source-wordcount: '2154'
-ht-degree: 57%
+source-wordcount: '2175'
+ht-degree: 53%
 
 ---
 
-# Einführung zu Kernkomponenten für adaptive Formulare {#adaptive-forms-core-components-introduction}
+# Kernkomponenten für adaptive Formulare  {#adaptive-forms-core-components-introduction}
 
-Mithilfe der Kernkomponenten für adaptive Formulare in Adobe Experience Manager können Sie überzeugende Registrierungserlebnisse schaffen, indem Sie die verfügbaren flexiblen Optionen und Anpassungsmöglichkeiten nutzen.
+Mithilfe der adaptiven Forms-Kernkomponenten in Adobe Experience Manager können Sie ansprechende Registrierungserlebnisse erstellen.
 
-## Kernkomponenten  {#overview}
+## Kernkomponenten {#overview}
 
 In Adobe Experience Manager (AEM) sind Komponenten die Bausteine, die zum Erstellen von Seiten und Formularen verwendet werden. Sie bieten Autoren und Autorinnen eine einfache und leistungsstarke Möglichkeit, Inhalte zu erstellen und zu verwalten und bieten Entwickelnden die Flexibilität und Erweiterbarkeit, die zum Erstellen benutzerdefinierter Komponenten erforderlich sind. Die Kernkomponenten sind so konzipiert, dass sie die Entwicklungszeit verkürzen und die Wartungskosten für Websites und Formulare senken, flexibel sind und einfach an die spezifischen Anforderungen einer Website und eines Formulars angepasst werden können.
 
@@ -28,7 +28,7 @@ Die Kernkomponenten für adaptive Formulare bestehen aus 24 BEM-kompatiblen Open
 
 Diese Komponenten können verwendet werden, um außergewöhnliche Datenerfassungs- und Registrierungserlebnisse zu schaffen, indem sie eine breite Palette von Formularfeldoptionen bereitstellen, darunter Textfelder, Kontrollkästchen, Dropdown-Menüs und mehr. Sie beinhalten auch Funktionen wie Validierung, konditionelle Logik und responsives Design, die zum Erstellen benutzerfreundlicher Formulare verwendet werden können.
 
-Da es sich bei diesen Komponenten um Open-Source-Elemente handelt, können Entwickler und Entwicklerinnen die Komponenten einfach erweitern und an die spezifischen Anforderungen ihrer Organisation anpassen. Zusätzlich basieren diese Komponenten auf der BEM-Methode, die sicherstellt, dass sie skalierbar und wartbar sind.
+Da es sich bei diesen Komponenten um Open-Source-Elemente handelt, können Entwickler und Entwicklerinnen die Komponenten einfach erweitern und an die spezifischen Anforderungen ihrer Organisation anpassen. Und diese Komponenten basieren auf der BEM-Methode, die sicherstellt, dass sie skalierbar und wartbar sind.
 
 ![Adaptives Formular – Bild](assets/sample-adaptive-form.png)
 
@@ -40,7 +40,7 @@ Da es sich bei diesen Komponenten um Open-Source-Elemente handelt, können Entwi
 | Cloud-fähig | Verfügbar für [AEM Forms as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/home.html?lang=de). |
 | Vielseitig | Die Komponenten bieten allgemeine Konzepte, mit denen Autoren und Autorinnen von Formularen nahezu jedes beliebige Layout zusammenstellen können. |
 | Konfigurierbar | Die [Inhaltsrichtlinien](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=de#content-policies) auf Vorlagenebene definieren, welche Funktionen verwendet oder nicht verwendet werden dürfen. |
-| Barrierefrei | Sie bieten ARIA-Attribute, unterstützen die Tastaturnavigation und Text für Hilfstechnologien wie Bildschirmlesehilfen. |
+| Barrierefrei | Sie bieten ARIA-Beschriftungen, unterstützen die Tastaturnavigation und Text für Hilfstechnologien wie Bildschirmlesehilfen. |
 | Designbar | Die Komponenten implementieren das [Stilsystem](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=de) und das Markup folgt den [BEM-CSS-Konventionen](https://getbem.com/). |
 | Anpassbar | Verschiedene Muster ermöglichen eine einfache Anpassung, von der Bearbeitung des HTML-Codes bis hin zur Wiederverwendung erweiterter Funktionen. |
 | Versionierung | Die [Versionierungsrichtlinie](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) stellt sicher, dass die Kernkomponenten Ihre Website nicht beschädigen, wenn Funktionen verbessert werden, die sich auf Sie auswirken könnten. |
@@ -71,20 +71,20 @@ Die Datenerfassung ist für die Lead-Generierung und die Registrierung von entsc
 
 ## Vergleichen von Kernkomponenten, Foundation-Komponenten und Formularblock-Komponenten {#components}
 
-Die aktuelle Version von AEM verfügt über die folgenden Kernkomponenten und Foundation-Komponenten.
+Die aktuelle Version von AEM enthält die folgenden Kernkomponenten, Foundation-Komponenten und Formularblock-Komponenten (Edge Delivery Services).
 
 | Komponenten | Foundation-Komponenten | Kernkomponenten | Formularblock-Komponenten | Zusätzliche Informationen |
 |------------|:---------------------:|:---------------:|:---------------------:|-----------------------|
-| Adobe Sign Block | ✔️ | | | Die Adobe Sign-Integration ist nur für Foundation-Komponenten verfügbar. |
-| Akkordeon | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/accordion.md)</span> | | Für Foundation-Komponenten können Sie das Akkordeon-Layout in den Eigenschaften der Bedienfeldkomponenten konfigurieren |
-| Adaptives Formularfragment | ✔️ | ✔️ | | Bei Foundation-Komponenten können Sie ein Fragment aus den Eigenschaften einer Bedienfeldkomponente hinzufügen. |
-| Adaptives Formular – reCAPTCHA | ✔️ | ✔️ | ✔️ | Verwenden Sie für Foundation-Komponenten die Captcha-Komponente, um einem Formular Google reCaptcha hinzuzufügen. |
+| Adobe Sign Block | ✔️ | | | [Adobe Sign-Integration](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/integrate/services/adobe-sign-integration-adaptive-forms#adobe-acrobat-sign-for-government) ist nur für Foundation-Komponenten verfügbar. |
+| Akkordeon | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/accordion.md)</span> | | Für Foundation-Komponenten können Sie das Akkordeon-Layout in [Eigenschaften von Bedienfeldkomponenten](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout). |
+| Adaptives Formularfragment | ✔️ | ✔️ | | Bei Foundation-Komponenten können Sie [Fragment hinzufügen](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/adaptive-forms-basic-authoring/adaptive-form-fragments#insert-a-fragment-in-an-adaptive-form) vom Asset-Browser aus. |
+| Adaptives Formular – reCAPTCHA | ✔️ | ✔️ | ✔️ | Verwenden Sie für Foundation-Komponenten die Captcha-Komponente, um [Google reCaptcha zu einem Formular hinzufügen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA). |
 | Schaltfläche | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/button.md)</span> | ✔️ | |
-| Captcha | ✔️ | | | Verwenden Sie für Foundation-Komponenten die Captcha-Komponente, um einem Formular Google reCaptcha hinzuzufügen. |
+| Captcha | ✔️ | | | Verwenden Sie für Foundation-Komponenten die Captcha-Komponente, um [Google reCaptcha zu einem Formular hinzufügen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA). |
 | Diagramm | ✔️ | | | |
 | Kontrollkästchen | ✔️ | ✔️ | | |
 | Kontrollkästchengruppe | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/checkbox-group.md)</span> | ✔️ | Verwenden Sie für Foundation-Komponenten das Kontrollkästchen, um mehrere Kontrollkästchen hinzuzufügen. |
-| Feld zur Datumseingabe | ✔️ | | | Verwenden Sie für Kernkomponenten die Datumsauswahl oder separate Textfeldkomponenten oder numerische Feldkomponenten, um Tag, Monat und Jahr zu erfassen. |
+| Feld zur Datumseingabe | ✔️ | | | Verwenden Sie für Kernkomponenten den [Datumsauswahl](/help/adaptive-forms/components/date-picker.md) -Komponente. Sie können auch eine separate [Textfeld](/help/adaptive-forms/components/text-box.md) oder [numerisches Feld](/help/adaptive-forms/components/numeric-box.md) Komponenten zum Erfassen von Tag, Monat und Jahr. |
 | Datumsauswahl | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/date-picker.md)</span> | ✔️ | |
 | Dropdown-Liste | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/drop-down-list.md)</span> | ✔️ | |
 | E-Mail | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/email-input.md)</span> | ✔️ | |
@@ -92,34 +92,34 @@ Die aktuelle Version von AEM verfügt über die folgenden Kernkomponenten und Fo
 | Auflistung der Dateianhänge | ✔️ | | | |
 | Fußzeile | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/footer.md)</span> | ✔️ | |
 | Fußnoten-Platzhalter | ✔️ | | | |
-| Formular-Container | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/form-container.md)</span> | ✔️ | Verwenden Sie für Foundation-Komponenten die Komponente Stammbereich . |
+| Formular-Container | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/form-container.md)</span> | ✔️ | Verwenden Sie für Foundation-Komponenten die [Root Panel-Komponente](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/forms/create-first-af/configure-root-panel). |
 | Formulartitel | ✔️ | ✔️ | | Verwenden Sie für Foundation-Komponenten die Titelkomponente . |
 | Kopfzeile | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/header.md)</span> | ✔️ | |
-| Horizontale Registerkarten | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/horizontal-tabs.md)</span> | | Für Foundation-Komponenten können Sie das Layout der Registerkarten oben (horizontale Registerkarten) in den Eigenschaften der Bedienfeldkomponenten konfigurieren |
+| Horizontale Registerkarten | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/horizontal-tabs.md)</span> | | Bei Foundation-Komponenten können Sie die [Layout mit Registerkarten oben (horizontale Registerkarten)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) in den Eigenschaften der Bedienfeldkomponenten. |
 | Bild | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/image.md)</span> | ✔️ | |
 | Bildauswahl | ✔️ | | | |
-| Schaltfläche „Weiter“ | ✔️ | ✔️ | | Verwenden Sie die Assistentenkomponente für die Schaltflächen &quot;Weiter&quot;und &quot;Zurück&quot;, um zwischen mehreren Bedienfeldern zu wechseln. |
+| Schaltfläche „Weiter“ | ✔️ | ✔️ | | Verwenden Sie die [Assistentenkomponente](/help/adaptive-forms/components/wizard.md) für die nächsten und vorherigen Schaltflächen, um zwischen mehreren Bedienfeldern zu wechseln. |
 | Numerisches Feld | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/numeric-box.md)</span> | ✔️ | |
 | Numerische Schritte | ✔️ | | | |
 | Panel | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/panel.md)</span> | ✔️ | |
 | Kennwortfeld | ✔️ | | ✔️ | |
 | Telefon/Telefon | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/telephone-input.md)</span> | ✔️ | |
-| Schaltfläche „Zurück“ | ✔️ | | | Verwenden Sie die Assistentenkomponente für die Schaltflächen &quot;Weiter&quot;und &quot;Zurück&quot;, um zwischen mehreren Bedienfeldern zu wechseln. |
+| Schaltfläche „Zurück“ | ✔️ | | | Verwenden Sie die [Assistentenkomponente](/help/adaptive-forms/components/wizard.md) für die nächsten und vorherigen Schaltflächen, um zwischen mehreren Bedienfeldern zu wechseln. |
 | Optionsschaltfläche | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/radio-button.md)</span> | | |
 | Optionsfeldgruppe | | | ✔️ | |
 | Schaltfläche „Zurücksetzen“ | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/reset-button.md)</span> | ✔️ | |
 | Freihändige Unterschrift | ✔️ | | | |
-| Seperator | ✔️ | | | |
+| Trennzeichen | ✔️ | | | |
 | Schaltfläche „Absenden“ | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/submit-button.md)</span> | ✔️ | |
 | Zusammenfassungsschritt | ✔️ | | | |
-| Schalter | ✔️ | ✔️ | | |
+| Schalter | ✔️ | <span style="color:blue"> [✔️](/help/adaptive-forms/components/switch.md) | | |
 | Tabelle | ✔️ | | | |
 | Geschäftsbedingungen | ✔️ | ✔️ | | |
 | Text | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/text.md)</span> | ✔️ | |
 | Textfeld | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/text-box.md)</span> | ✔️ | |
-| Titel | ✔️ | | | Verwenden Sie für Kernkomponenten die Komponente &quot;Formulartitel&quot;. |
-| Vertikale Registerkarten | ✔️ | ✔️ | | Für Foundation-Komponenten können Sie das Layout der Registerkarten links (vertikale Registerkarten) in den Eigenschaften der Bedienfeldkomponenten konfigurieren |
-| Assistent | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/wizard.md)</span> | ✔️ | Für Foundation-Komponenten können Sie das Assistentenlayout in den Eigenschaften der Bedienfeldkomponenten konfigurieren |
+| Titel | ✔️ | | | Verwenden Sie für Kernkomponenten den [Formulartitel](/help/adaptive-forms/components/title.md) -Komponente. |
+| Vertikale Registerkarten | ✔️ | ✔️ | | Bei Foundation-Komponenten können Sie die [Registerkarten links (vertikale Registerkarten) Layout](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) in Eigenschaften von Bedienfeldkomponenten |
+| Assistent | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/wizard.md)</span> | ✔️ | Bei Foundation-Komponenten können Sie die [Assistentenlayout](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) in Eigenschaften von Bedienfeldkomponenten |
 
 
 
@@ -127,7 +127,7 @@ Die aktuelle Version von AEM verfügt über die folgenden Kernkomponenten und Fo
 >[!NOTE]
 >
 >
-> * Zusätzlich zu den oben aufgeführten Komponenten unterstützt der Forms-Block alle gültigen [HTML5-Eingabetypen](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#input_types) und [textarea](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea) als Komponenten.
+> * Zusätzlich zu den oben aufgeführten Komponenten unterstützt der Forms-Block alle gültigen [HTML5-Eingabetypen](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#input_types) und [Textbereich](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea) als Komponenten.
 > * Benötigen Sie eine Komponente, die oben nicht aufgeführt ist? Fordern Sie sie per E-Mail an aem-forms-ea@adobe.com von Ihrer offiziellen Adresse an.
 
 
@@ -162,7 +162,7 @@ Die aktuelle Version von AEM verfügt über die folgenden Kernkomponenten und Fo
 Der Editor für auf Kernkomponenten basierende adaptive Forms ähnelt dem Editor, den Sie bereits zum Erstellen von AEM Sites-Seiten verwenden. Hier finden Sie Folgendes:
 
 
-* **Vertraute Benutzeroberflächen-Elemente und -Einstellungen**: Beim Konfigurieren von Eigenschaften für Formularkomponenten sehen Sie, dass das Dialogfeld &quot;Eigenschaften&quot;genauso aussieht wie das Dialogfeld, das Sie für WCM-Kernkomponenten verwenden. Dadurch können Sie die gewünschten Optionen schneller finden. Wie die WCM-Kernkomponenten erscheint bei Formularkomponenten das Dialogfeld &quot;Eigenschaften&quot;in der Mitte des Editors mit klaren Registerkarten, die grundlegende und erweiterte Optionen, Hilfetext und Informationen zur Barrierefreiheit voneinander trennen - alles in einem Registerkartenformat für einfache Navigation.
+* **Vertraute Benutzeroberflächen-Elemente und -Einstellungen**: Beim Konfigurieren von Eigenschaften für Formularkomponenten sehen Sie, dass ein Dialogfeld &quot;Eigenschaften&quot;genauso aussieht wie das Dialogfeld, das Sie für WCM-Kernkomponenten verwenden. Dadurch können Sie die gewünschten Optionen schneller finden. Wie die WCM-Kernkomponenten erscheint auch bei Formularkomponenten das Dialogfeld &quot;Eigenschaften&quot;in der Mitte des Editors mit klaren Registerkarten, die grundlegende und erweiterte Optionen, Hilfetext und Informationen zur Barrierefreiheit voneinander trennen - alles in einem Registerkartenformat zur einfachen Navigation.
 
 * **[Regeleditor](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/rule-editor-core-components)**: Sie können Ihren Formularen Logik und dynamische Funktionen hinzufügen, ohne Code zu schreiben. Mit dem integrierten Regeleditor können Sie Folgendes tun:
    * Felder basierend auf Benutzerentscheidungen ein- oder ausblenden
