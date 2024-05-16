@@ -4,16 +4,16 @@ description: Verwenden oder Anpassen der Kernkomponente „Telefoneingabe“ fü
 role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
 source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2142'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Telefoneingangskomponente{#telephone-input-adaptive-forms-core-component}
+# Telefoneingabekomponente{#telephone-input-adaptive-forms-core-component}
 
-<span class="preview"> Dieser Artikel enthält Inhalte zum   **Rich-Text für Titel zulassen**    -Funktion, einer Funktion vor der Veröffentlichung. Die Vorabveröffentlichungsfunktion ist nur über unseren [Vorabveröffentlichungskanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features) zugänglich.</span>
+<span class="preview"> Dieser Artikel enthält Inhalte zur Vorabveröffentlichungsfunktion **Rich-Text für Titel zulassen**. Die Vorabveröffentlichungsfunktion ist nur über unseren [Vorabveröffentlichungskanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features) zugänglich.</span>
 
 Mit der Kernkomponente „Telefoneingabe“ für adaptive Formulare können Benutzende eine Telefonnummer eingeben. Im Telefoneingabefeld werden Tastaturen von Mobilgeräten angezeigt, die für Telefonnummern relevant sind. Zur Spezifikation des Formats und der Beschreibung der Telefonnummer können zusätzliche Attribute wie „Muster“ und „Platzhalter“ verwendet werden.
 

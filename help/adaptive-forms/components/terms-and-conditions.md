@@ -4,15 +4,15 @@ description: Verwenden oder Anpassen der Nutzungsbedingungs-Kernkomponente für 
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
 source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3115'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Komponente &quot;Allgemeine Geschäftsbedingungen&quot;
+# Nutzungsbedingungskomponente
 
-<span class="preview"> Dieser Artikel enthält Inhalte zum   **Rich-Text für Titel zulassen**   und   **Rich-Text für Optionen zulassen**   Funktionen, Funktionen vor der Veröffentlichung. Die Vorabveröffentlichungsfunktion ist nur über unseren [Vorabveröffentlichungskanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features) zugänglich.</span>
+<span class="preview"> Dieser Artikel enthält Inhalte zu den Vorabveröffentlichungsfunktionen **Rich-Text für Titel zulassen** und **Rich-Text für Optionen zulassen**. Die Vorabveröffentlichungsfunktion ist nur über unseren [Vorabveröffentlichungskanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features) zugänglich.</span>
 
 Eine **Nutzungsbedingungskomponente** bezieht sich auf einen Abschnitt eines Formulars, in dem die Bedingungen, Regeln und Vorgaben erläutert werden, denen Benutzende bei der Verwendung eines Dienstes oder beim Zugriff auf Inhalte zustimmen oder die sie erfüllen müssen.
 

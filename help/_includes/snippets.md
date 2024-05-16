@@ -1,8 +1,8 @@
 ---
 source-git-commit: efc42e6c615987a1d85abe18b650ac23a6d84bf6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '211'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 # Snippets {#snippets}
@@ -70,7 +70,7 @@ ht-degree: 99%
 - [Kopfzeile](/help/adaptive-forms/components/header.md)
 - [Bild](/help/adaptive-forms/components/image.md)
 - [Numerisches Feld](/help/adaptive-forms/components/numeric-box.md)
-- [Bedienfeld](/help/adaptive-forms/components/panel.md)
+- [Panel](/help/adaptive-forms/components/panel.md)
 - [Horizontale Registerkarte](/help/adaptive-forms/components/horizontal-tabs.md)
 - [Vertikale Registerkarte](/help/adaptive-forms/components/vertical-tabs.md)
 - [Optionsschaltfläche](/help/adaptive-forms/components/radio-button.md)

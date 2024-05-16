@@ -6,9 +6,9 @@ feature: Core Components
 user-guide-description: Nutzen Sie die erweiterbaren Hauptkomponenten, damit Autoren bzw. Autorinnen mühelos Inhalte erstellen können.
 feature-set: Experience Manager Sites
 source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '377'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -119,7 +119,7 @@ ht-degree: 98%
       + [Adaptive Formulare – Vertikale Registerkarten](/help/adaptive-forms/components/vertical-tabs.md)
       + [Adaptive Formulare – horizontale Registerkarten](/help/adaptive-forms/components/horizontal-tabs.md)
       + [Adaptive Formulare – Bild](/help/adaptive-forms/components/image.md)
-      + [Numerisches Feld für adaptive Forms](/help/adaptive-forms/components/numeric-box.md)
+      + [Adaptive Formulare – Numerisches Feld](/help/adaptive-forms/components/numeric-box.md)
       + [Adaptive Formulare – Bedienfeld](/help/adaptive-forms/components/panel.md)
       + [Adaptive Formulare – CAPTCHA](/help/adaptive-forms/components/captcha.md)
       + [Adaptive Formulare – Optionsschaltfläche](/help/adaptive-forms/components/radio-button.md)
@@ -130,7 +130,7 @@ ht-degree: 98%
       + [Adaptive Formulare – Text](/help/adaptive-forms/components/text.md)
       + [Adaptive Formulare – Textfeld](/help/adaptive-forms/components/text-box.md)
       + [Adaptive Formulare – Titel](/help/adaptive-forms/components/title.md)
-      + [Adaptiver Forms-Assistent](/help/adaptive-forms/components/wizard.md)
+      + [Adaptive Formulare – Assistent](/help/adaptive-forms/components/wizard.md)
       + [Adaptive Formulare – Nutzungsbedingungen](/help/adaptive-forms/components/terms-and-conditions.md)
       + [Kopfzeile](/help/adaptive-forms/components/header.md)
       + [Fußzeile](/help/adaptive-forms/components/footer.md)

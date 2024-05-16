@@ -4,15 +4,15 @@ description: Verwenden oder Anpassen der Kontrollkästchen-Kernkomponente für a
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
 source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1780'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # Kontrollkästchen-Komponente{#checkbox-component}
 
-<span class="preview"> Dieser Artikel enthält Inhalte zum   **Rich-Text für Titel zulassen**    -Funktion, einer Funktion vor der Veröffentlichung. Die Vorabveröffentlichungsfunktion ist nur über unseren [Vorabveröffentlichungskanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features) zugänglich.</span>
+<span class="preview"> Dieser Artikel enthält Inhalte zur Vorabveröffentlichungsfunktion **Rich-Text für Titel zulassen**. Die Vorabveröffentlichungsfunktion ist nur über unseren [Vorabveröffentlichungskanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features) zugänglich.</span>
 
 Ein Kontrollkästchen ist ein grafisches Element der Benutzeroberfläche, das häufig in Software-Anwendungen und Formularen verwendet wird, um Benutzenden die Möglichkeit zu geben, zwischen zwei Optionen eine binäre Auswahl zu treffen: Häkchen (aktiviert) oder kein Häkchen (deaktiviert).
 
