@@ -3,7 +3,7 @@ title: Einführung zu Kernkomponenten für adaptive Formulare in AEM
 description: Erstellen Sie ansprechende Registrierungserlebnisse (Formulare) mit der Flexibilität der Kernkomponenten für adaptive Formulare und stellen Sie sie über Adobe Experience Manager bereit.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 63b4b59c43ffef10a036db3a639a6d5fa75a4e89
+source-git-commit: 83a9a37495bb189592a657cac97c7277755b96be
 workflow-type: tm+mt
 source-wordcount: '2215'
 ht-degree: 52%
@@ -24,7 +24,7 @@ Insgesamt sind die Kernkomponenten ein wesentliches Tool für die Erstellung und
 
 ## Kernkomponenten für adaptive Formulare
 
-Die Kernkomponenten für adaptive Formulare bestehen aus 24 BEM-kompatiblen Open-Source-Komponenten, die auf der Grundlage der Adobe Experience Manager-WCM-Kernkomponenten basieren. Sie wurden speziell für die Erstellung von adaptiven Formularen entwickelt. Hierbei handelt es sich um Formulare, die sich an die Geräte-, Browser- und Bildschirmgröße der Benutzenden anpassen.
+Die Kernkomponenten für adaptive Formulare bestehen aus 29 BEM-kompatiblen Open-Source-Komponenten, die auf der Grundlage der Adobe Experience Manager-WCM-Kernkomponenten basieren. Sie wurden speziell für die Erstellung von adaptiven Formularen entwickelt. Hierbei handelt es sich um Formulare, die sich an die Geräte-, Browser- und Bildschirmgröße der Benutzenden anpassen.
 
 Diese Komponenten können verwendet werden, um außergewöhnliche Datenerfassungs- und Registrierungserlebnisse zu schaffen, indem sie eine breite Palette von Formularfeldoptionen bereitstellen, darunter Textfelder, Kontrollkästchen, Dropdown-Menüs und mehr. Sie beinhalten auch Funktionen wie Validierung, konditionelle Logik und responsives Design, die zum Erstellen benutzerfreundlicher Formulare verwendet werden können.
 
