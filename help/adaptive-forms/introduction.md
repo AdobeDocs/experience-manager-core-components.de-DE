@@ -3,10 +3,10 @@ title: Einführung zu Kernkomponenten für adaptive Formulare in AEM
 description: Erstellen Sie ansprechende Registrierungserlebnisse (Formulare) mit der Flexibilität der Kernkomponenten für adaptive Formulare und stellen Sie sie über Adobe Experience Manager bereit.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: e15254b119194e14b5719de10a00b2990264756f
+source-git-commit: 63b4b59c43ffef10a036db3a639a6d5fa75a4e89
 workflow-type: tm+mt
-source-wordcount: '2175'
-ht-degree: 53%
+source-wordcount: '2215'
+ht-degree: 52%
 
 ---
 
@@ -71,7 +71,7 @@ Die Datenerfassung ist für die Lead-Generierung und die Registrierung von entsc
 
 ## Vergleichen von Kernkomponenten, Foundation-Komponenten und Formularblock-Komponenten {#components}
 
-Die aktuelle Version von AEM enthält die folgenden Kernkomponenten, Foundation-Komponenten und Formularblock-Komponenten (Edge Delivery Services).
+Die aktuelle Version von AEM weist die folgenden Kernkomponenten auf: [Foundation-Komponenten](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/introduction-forms-authoring#component-toolbar), und [Formularblock-Komponenten (Edge Delivery Services)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/build-forms/forms-references/form-components).
 
 | Komponenten | Foundation-Komponenten | Kernkomponenten | Formularblock-Komponenten | Zusätzliche Informationen |
 |------------|:---------------------:|:---------------:|:---------------------:|-----------------------|
@@ -203,6 +203,11 @@ Der Editor für auf Kernkomponenten basierende adaptive Forms ähnelt dem Editor
    * [An REST-Endpunkt übermitteln](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-action-restpoint)
    * [An OneDrive übermitteln](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=to%20REST%20endpoint-,Submit%20to%20OneDrive,-Invoke%20an%20AEM)
    * [AEM-Workflow aufrufen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Invoke%20an%20AEM%20Workflow)
+
+
+* [Adaptive Forms-Kernkomponenten im Sites-Seiteneditor](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page): Sie können die adaptiven Forms-Kernkomponenten in AEM Seiteneditor und AEM Experience Fragments aktivieren und verwenden, um direkt ein Erlebnis für die Datenerfassung zu erstellen und eine Sites-Seite zu erstellen.
+
+  >[!VIDEO](https://video.tv.adobe.com/v/3419284?quality=12&learn=on)
 
 
 <!-- 
