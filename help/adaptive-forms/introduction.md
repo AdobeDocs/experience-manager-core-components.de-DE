@@ -4,9 +4,9 @@ description: Erstellen Sie ansprechende Registrierungserlebnisse (Formulare) mit
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
 source-git-commit: 82b614774256efdd6c4f8eed86d9fd8b5b51279d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2214'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ Die Datenerfassung ist für die Lead-Generierung und die Registrierung von entsc
 
 ## Verfügbare Komponenten: Aufschlüsselung nach Komponententyp
 
-Die aktuelle Version von AEM Forms enthält die folgenden Kernkomponenten: [Foundation-Komponenten](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/introduction-forms-authoring#component-toolbar), und [Formularblock-Komponenten (Edge Delivery Services)](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/edge-delivery/build-forms/forms-references/form-components).
+Die aktuelle Version von AEM Forms enthält die folgenden Kernkomponenten: [Foundation-Komponenten](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/introduction-forms-authoring#component-toolbar) und [Formularblock-Komponenten (Edge Delivery Services)](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/edge-delivery/build-forms/forms-references/form-components).
 
 | Komponenten | Foundation-Komponenten | Kernkomponenten | Formularblock-Komponenten | Zusätzliche Informationen |
 |------------|:---------------------:|:---------------:|:---------------------:|-----------------------|
