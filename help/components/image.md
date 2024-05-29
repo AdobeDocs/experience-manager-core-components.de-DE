@@ -3,10 +3,10 @@ title: Bildkomponente
 description: Die Bildkomponenten-Kernkomponente ist eine adaptive Bildkomponente.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: e37151536be5a4345f6e2bf630bb8bd4019ad699
+source-git-commit: 5d2d79c96dc934efd7cccefb1a6a343813376483
 workflow-type: tm+mt
-source-wordcount: '1970'
-ht-degree: 100%
+source-wordcount: '1957'
+ht-degree: 96%
 
 ---
 
@@ -53,11 +53,9 @@ Die Bildkomponente (ab [Version 2.13.0](/help/versions.md)) unterstützt [Dynami
 
 Ihre mit Kernkomponenten erstellten Web-Erlebnisse können jetzt funktionsreiche, Sensei-gestützte, robuste, leistungsstarke und plattformübergreifende Dynamic Media-Bildfunktionen enthalten.
 
-## Unterstützung für Next Generation Dynamic Media {#next-gen-dm}
+## Remote Assets-Unterstützung {#remote-assets}
 
-Die Bildkomponente (ab [Version 2.23.2](/help/versions.md)) unterstützt Remote-Assets von Dynamic Media.
-
-[Wenn sie konfiguriert sind](/help/developing/next-gen-dm.md), können Sie Assets aus einem Remote-Service von Next Generation Dynamic Media für Ihre Bildkomponente auswählen.
+Die Bildkomponente (ab [Version 2.23.2](/help/versions.md)) unterstützt Remote-Assets. [Nach der Konfiguration](/help/developing/remote-assets.md) Sie können Assets aus einem Remote-Dienst für Ihre Bildkomponente auswählen.
 
 ## SVG-Unterstützung {#svg-support}
 
@@ -87,7 +85,7 @@ Die Bildkomponente unterstützt [Schema.org-Mikrodaten](https://schema.org).
 
 Das Dialogfeld „Bearbeiten“ ermöglicht Inhaltsautorinnen und Inhaltsautoren das Zuschneiden und Zoomen des Bildes.
 
-Je nachdem, ob die Funktionen von [Dynamic Media](#dynamic-media) oder [Next Generation Dynamic Media](#next-gen-dm) aktiviert sind, unterscheiden sich die für die Bildbearbeitung verfügbaren Optionen.
+Je nachdem, ob Sie [Dynamic Media](#dynamic-media) aktiviert oder [Remote Assets-Unterstützung](#remote-assets) aktiviert ist, unterscheiden sich die für die Bearbeitung von Bildern verfügbaren Optionen.
 
 ### Bearbeitung von Standard-Assets {#standard-assets}
 
@@ -154,7 +152,7 @@ Die Bildkomponente bietet ein Dialogfeld zum Konfigurieren, in dem das Bild selb
    * Ziehen Sie ein Asset aus dem [Asset-Browser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html?lang=de) oder tippen Sie auf die Option **Durchsuchen**, um es aus einem lokalen Dateisystem hochzuladen.
    * Tippen oder klicken Sie auf **Löschen**, um die Auswahl des aktuell ausgewählten Bilds aufzuheben.
    * Tippen oder klicken Sie auf **Auswählen**, um zum Auswählen eines Bildes den [Asset-Browser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html?lang=de) zu öffnen.
-      * Wenn die [Funktionen von Next Generation Dynamic Media](#next-gen-dm) aktiviert sind, haben Sie mehrere Optionen, um ein Asset auszuwählen:
+      * Wenn [Unterstützung von Remote-Assets](#remote-assets) aktiviert ist, haben Sie mehrere Optionen zum Auswählen eines Assets:
          * Mit der Option **Lokal** wird ein Asset aus der lokalen AEM-Asset-Bibliothek ausgewählt.
          * Mit **Remote** wird aus einer Dynamic Media-Bibliothek außerhalb Ihrer AEM-Instanz ausgewählt.
    * Tippen oder klicken Sie auf **Bearbeiten**, um die [Ausgabedarstellungen des Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=de) im Asset-Editor zu verwalten.
