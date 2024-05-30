@@ -1,23 +1,23 @@
 ---
 title: Unterstützung für Remote-Assets
-description: Erfahren Sie, wie Sie die Kernkomponenten Bild und Teaser konfigurieren, um Remote-Assets mit Dynamic Media mit OpenAPI zu unterstützen.
+description: Erfahren Sie, wie Sie die Bild- und Teaser-Komponenten (beides Kernkomponenten) konfigurieren, um Remote-Assets unter Verwendung von Dynamic Media mit OpenAPI zu unterstützen.
 role: Architect, Developer, Admin, User
 exl-id: b462c1f3-a6c8-4a2a-abf4-d08ec82d4371
 source-git-commit: 36ef19d5b29fe21f86309719d1e3f6588e31a93b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '465'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
 
 # Unterstützung für Remote-Assets {#remote-assets-support}
 
-Erfahren Sie, wie Sie die Kernkomponenten Bild und Teaser konfigurieren, um Remote-Assets mit Dynamic Media mit OpenAPI zu unterstützen.
+Erfahren Sie, wie Sie die Bild- und Teaser-Komponenten (beides Kernkomponenten) konfigurieren, um Remote-Assets unter Verwendung von Dynamic Media mit OpenAPI zu unterstützen.
 
 >[!NOTE]
 >
->Dynamic Media mit OpenAPI wurde früher als Dynamic Media der nächsten Generation bezeichnet. Funktionalität und Verwendung sind identisch.
+>Dynamic Media mit OpenAPI wurde früher als Next Generation Dynamic Media bezeichnet. Funktionalität und Verwendung sind identisch.
 
 ## Abrufen der neuesten AEM-Version {#latest}
 
@@ -28,7 +28,7 @@ Für die Unterstützung von Remote-Assets mit Dynamic Media mit OpenAPI ist Folg
 
 ## Konfigurieren von HTTPS {#https}
 
-Es wird allgemein empfohlen, alle Ihre Produktions-AEM-Instanzen mithilfe von HTTPS auszuführen. Ihre lokalen Entwicklungsumgebungen sind jedoch möglicherweise nicht als solche eingerichtet. Für Remote-Assets, die Dynamic Media mit OpenAPI verwenden, ist jedoch HTTPS erforderlich, damit sie funktionieren.
+Es wird allgemein empfohlen, alle Ihre Produktions-AEM-Instanzen mithilfe von HTTPS auszuführen. Ihre lokalen Entwicklungsumgebungen sind jedoch möglicherweise nicht als solche eingerichtet. Damit Remote-Assets von Dynamic Media mit OpenAPI funktionieren, ist jedoch HTTPS erforderlich.
 
 [Verwenden Sie dieses Handbuch](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/security/use-the-ssl-wizard.html?lang=de), um HTTPS zu konfigurieren, wo immer Sie Remote-Assets verwenden möchten, einschließlich Entwicklungsumgebungen.
 

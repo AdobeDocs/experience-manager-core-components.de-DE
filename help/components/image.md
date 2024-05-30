@@ -4,9 +4,9 @@ description: Die Bildkomponenten-Kernkomponente ist eine adaptive Bildkomponente
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: 5d2d79c96dc934efd7cccefb1a6a343813376483
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1957'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -53,9 +53,9 @@ Die Bildkomponente (ab [Version 2.13.0](/help/versions.md)) unterstützt [Dynami
 
 Ihre mit Kernkomponenten erstellten Web-Erlebnisse können jetzt funktionsreiche, Sensei-gestützte, robuste, leistungsstarke und plattformübergreifende Dynamic Media-Bildfunktionen enthalten.
 
-## Remote Assets-Unterstützung {#remote-assets}
+## Unterstützung für Remote Assets {#remote-assets}
 
-Die Bildkomponente (ab [Version 2.23.2](/help/versions.md)) unterstützt Remote-Assets. [Nach der Konfiguration](/help/developing/remote-assets.md) Sie können Assets aus einem Remote-Dienst für Ihre Bildkomponente auswählen.
+Die Bildkomponente (ab [Version 2.23.2](/help/versions.md)) unterstützt Remote-Assets. [Wenn sie konfiguriert sind,](/help/developing/remote-assets.md) können Sie Assets aus einem Remote-Service für Ihre Bildkomponente auswählen.
 
 ## SVG-Unterstützung {#svg-support}
 
@@ -85,7 +85,7 @@ Die Bildkomponente unterstützt [Schema.org-Mikrodaten](https://schema.org).
 
 Das Dialogfeld „Bearbeiten“ ermöglicht Inhaltsautorinnen und Inhaltsautoren das Zuschneiden und Zoomen des Bildes.
 
-Je nachdem, ob Sie [Dynamic Media](#dynamic-media) aktiviert oder [Remote Assets-Unterstützung](#remote-assets) aktiviert ist, unterscheiden sich die für die Bearbeitung von Bildern verfügbaren Optionen.
+Je nachdem, ob [Dynamic Media](#dynamic-media) oder [Remote-Assets-Unterstützung](#remote-assets) aktiviert ist, unterscheiden sich die für die Bildbearbeitung verfügbaren Optionen.
 
 ### Bearbeitung von Standard-Assets {#standard-assets}
 
@@ -152,7 +152,7 @@ Die Bildkomponente bietet ein Dialogfeld zum Konfigurieren, in dem das Bild selb
    * Ziehen Sie ein Asset aus dem [Asset-Browser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html?lang=de) oder tippen Sie auf die Option **Durchsuchen**, um es aus einem lokalen Dateisystem hochzuladen.
    * Tippen oder klicken Sie auf **Löschen**, um die Auswahl des aktuell ausgewählten Bilds aufzuheben.
    * Tippen oder klicken Sie auf **Auswählen**, um zum Auswählen eines Bildes den [Asset-Browser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html?lang=de) zu öffnen.
-      * Wenn [Unterstützung von Remote-Assets](#remote-assets) aktiviert ist, haben Sie mehrere Optionen zum Auswählen eines Assets:
+      * Wenn die [Remote-Assets-Unterstützung](#remote-assets) aktiviert ist, haben Sie mehrere Optionen zum Auswählen eines Assets:
          * Mit der Option **Lokal** wird ein Asset aus der lokalen AEM-Asset-Bibliothek ausgewählt.
          * Mit **Remote** wird aus einer Dynamic Media-Bibliothek außerhalb Ihrer AEM-Instanz ausgewählt.
    * Tippen oder klicken Sie auf **Bearbeiten**, um die [Ausgabedarstellungen des Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=de) im Asset-Editor zu verwalten.
