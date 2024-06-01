@@ -3,9 +3,9 @@ title: Einführung zu Kernkomponenten für adaptive Formulare in AEM
 description: Erstellen Sie ansprechende Registrierungserlebnisse (Formulare) mit der Flexibilität der Kernkomponenten für adaptive Formulare und stellen Sie sie über Adobe Experience Manager bereit.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: d3a887338387b4d46c1f81c4a6ddf040a82a48b7
+source-git-commit: 1f9cef8eb448b4f5662c95827ab6575bdfeaf740
 workflow-type: tm+mt
-source-wordcount: '2210'
+source-wordcount: '2229'
 ht-degree: 99%
 
 ---
@@ -78,8 +78,9 @@ Die aktuelle Version von AEM Forms enthält die folgenden Kernkomponenten: [Foun
 | Adobe Sign Block | ✔️ | | | [Die Adobe Sign-Integration](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/integrate/services/adobe-sign-integration-adaptive-forms#adobe-acrobat-sign-for-government) ist nur für Foundation-Komponenten verfügbar. |
 | Akkordeon | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/accordion.md)</span> | | Für Foundation-Komponenten können Sie das Akkordeon-Layout in den [Eigenschaften der Bedienfeldkomponenten](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) konfigurieren. |
 | Adaptives Formularfragment | ✔️ | ✔️ | | Für Foundation-Komponenten können Sie aus dem Asset-Browser [ein Fragment hinzufügen](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/forms/adaptive-forms-basic-authoring/adaptive-form-fragments#insert-a-fragment-in-an-adaptive-form). |
-| reCAPTCHA | ✔️ | ✔️ | ✔️ | Verwenden Sie für Foundation-Komponenten die Captcha-Komponente, [um Google reCaptcha zu einem Formular hinzuzufügen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA). |
+| Adaptives Formular – reCAPTCHA | ✔️ | ✔️ | ✔️ | Verwenden Sie für Foundation-Komponenten die Captcha-Komponente, [um Google reCaptcha zu einem Formular hinzuzufügen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA). |
 | Schaltfläche | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/button.md)</span> | ✔️ | |
+| CAPTCHA | ✔️ |  |  | Verwenden Sie für Foundation-Komponenten die Captcha-Komponente, [um Google reCaptcha zu einem Formular hinzuzufügen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA). |
 | Diagramm | ✔️ | | | |
 | Kontrollkästchen | ✔️ | ✔️ | | |
 | Kontrollkästchengruppe | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/checkbox-group.md)</span> | ✔️ | Verwenden Sie für Foundation-Komponenten die Kontrollkästchen-Komponente, um mehrere Kontrollkästchen hinzuzufügen. |
