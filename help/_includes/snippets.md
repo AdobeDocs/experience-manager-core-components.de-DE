@@ -1,7 +1,7 @@
 ---
-source-git-commit: efc42e6c615987a1d85abe18b650ac23a6d84bf6
-workflow-type: ht
-source-wordcount: '211'
+source-git-commit: 46278a9b0f5e548297db3d6fcc42acde67eabf47
+workflow-type: tm+mt
+source-wordcount: '214'
 ht-degree: 100%
 
 ---
@@ -57,29 +57,30 @@ ht-degree: 100%
 ## Verwandte Themen {#more-like-this}
 
 - [Akkordeon](/help/adaptive-forms/components/accordion.md)
+- [Adaptive Formularfragmente](/help/adaptive-forms/components/adaptive-form-fragment.md)
+- [Adaptives Formular – reCAPTCHA](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
 - [Schaltfläche](/help/adaptive-forms/components/button.md)
 - [Kontrollkästchengruppe](/help/adaptive-forms/components/checkbox-group.md)
 - [Kontrollkästchen](/help/adaptive-forms/components/checkbox.md)
 - [Datumsauswahl](/help/adaptive-forms/components/date-picker.md)
 - [Dropdown-Liste](/help/adaptive-forms/components/drop-down-list.md)
-- [E-Mail-Eingabe](/help/adaptive-forms/components/email-input.md)
+- [E-Mail](/help/adaptive-forms/components/email.md)
 - [Formular-Container](/help/adaptive-forms/components/form-container.md)
+- [Formulartitel](/help/adaptive-forms/components/form-title.md)
 - [Dateianhang](/help/adaptive-forms/components/file-attachment.md)
-- [Adaptive Formularfragmente](/help/adaptive-forms/components/adaptive-form-fragment.md)
 - [Fußzeile](/help/adaptive-forms/components/footer.md)
 - [Kopfzeile](/help/adaptive-forms/components/header.md)
 - [Bild](/help/adaptive-forms/components/image.md)
 - [Numerisches Feld](/help/adaptive-forms/components/numeric-box.md)
 - [Panel](/help/adaptive-forms/components/panel.md)
+- [Telefon](/help/adaptive-forms/components/phone.md)
 - [Horizontale Registerkarte](/help/adaptive-forms/components/horizontal-tabs.md)
 - [Vertikale Registerkarte](/help/adaptive-forms/components/vertical-tabs.md)
 - [Optionsschaltfläche](/help/adaptive-forms/components/radio-button.md)
 - [Schaltfläche „Zurücksetzen“](/help/adaptive-forms/components/reset-button.md)
 - [Schaltfläche „Senden“](/help/adaptive-forms/components/submit-button.md)
-- [Telefoneingabe](/help/adaptive-forms/components/telephone-input.md)
 - [Textfeld](/help/adaptive-forms/components/text-box.md)
 - [Text](/help/adaptive-forms/components/text.md)
-- [Titel](/help/adaptive-forms/components/title.md)
 - [Registerkarte „Nutzungsbedingungen“](/help/adaptive-forms/components/terms-and-conditions.md)
 - [Assistent](/help/adaptive-forms/components/wizard.md)
 

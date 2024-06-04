@@ -3,16 +3,14 @@ title: Kernkomponente „Zahleneingabe“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „Zahleneingabe“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: ht
-source-wordcount: '2104'
-ht-degree: 100%
+source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+workflow-type: tm+mt
+source-wordcount: '2163'
+ht-degree: 98%
 
 ---
 
-# Komponente „Numerisches Feld“{#number-input-adaptive-forms-core-component}
-
-<span class="preview"> Dieser Artikel enthält Inhalte zur Vorabveröffentlichungsfunktion **Rich-Text für Titel zulassen**. Die Vorabveröffentlichungsfunktion ist nur über unseren [Vorabveröffentlichungskanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features) zugänglich.</span>
+# Komponente &quot;Numerisches Feld&quot;{#number-input-adaptive-forms-core-component}
 
 Mit der Komponente „Zahleneingabe“ für adaptive Formulare wird Benutzenden ein Formularfeld zur Eingabe numerischer Werte bereitgestellt. In der Regel wird die Komponente durch ein Textfeld mit einem Aufwärts- und Abwärtspfeil zum Erhöhen und Verringern der Zahl dargestellt.
 
@@ -117,7 +115,12 @@ Sie können im Dialogfeld „Konfigurieren“ die Zahleneingabe für Besuchende 
 
 ![Registerkarte „Barrierefreiheit“](/help/adaptive-forms/assets/numberinput_accessibility.png)
 
-**Text für Bildschirmlesehilfen**: Text für Bildschirmlesehilfen bezieht sich auf zusätzlichen Text, der für Hilfstechnologien wie Bildschirmlesehilfen vorgesehen ist, die von Personen mit Sehschwäche verwendet werden. Dieser Text enthält eine Audiobeschreibung des Zwecks des Formularfelds und kann Informationen über den Titel, die Beschreibung, den Namen und alle relevanten Nachrichten (benutzerdefinierten Text) des Felds enthalten. Der Text der Bildschirmlesehilfe hilft sicherzustellen, dass das Formular allen Benutzenden zugänglich ist, auch Personen mit Sehschwäche, und bietet ihnen ein umfassendes Verständnis des Formularfelds und seiner Anforderungen.
+- **Text für Bildschirmlesehilfen**: Text für Bildschirmlesehilfen bezieht sich auf zusätzlichen Text, der für Hilfstechnologien wie Bildschirmlesehilfen vorgesehen ist, die von Personen mit Sehschwäche verwendet werden. Dieser Text enthält eine Audiobeschreibung des Zwecks des Formularfelds und kann Informationen über den Titel, die Beschreibung, den Namen und alle relevanten Nachrichten (benutzerdefinierten Text) des Felds enthalten. Der Text der Bildschirmlesehilfe hilft sicherzustellen, dass das Formular allen Benutzenden zugänglich ist, auch Personen mit Sehschwäche, und bietet ihnen ein umfassendes Verständnis des Formularfelds und seiner Anforderungen.
+   - **Benutzerdefinierter Text**: Wählen Sie diese Option aus, um den benutzerdefinierten Text für ARIA-Barrierefreiheitsbeschriftungen zu verwenden. Wenn Sie diese Option auswählen, wird das Benutzerdefinierter Dialogfeld „Text“ angezeigt. Sie können relevante Informationen im Benutzerdefinierter Dialogfeld „Text“ hinzufügen.
+   - **Beschreibung**: Wählen Sie diese Option aus, um die Beschreibung für ARIA-Barrierefreiheitsbeschriftungen zu verwenden.
+   - **Titel**: Wählen Sie diese Option aus, um den Titel für ARIA-Barrierefreiheitsbeschriftungen zu verwenden.
+   - **Name**: Wählen Sie diese Option aus, um den Namen für ARIA-Barrierefreiheitsbeschriftungen zu verwenden.
+   - **Keine**: Wählen Sie diese Option aus, wenn Sie keine ARIA-Barrierefreiheits-Labels hinzufügen möchten.
 
 ### Registerkarte „Formate“ {#formats-configure-tab}
 
@@ -131,7 +134,7 @@ Sie können im Dialogfeld „Konfigurieren“ die Zahleneingabe für Besuchende 
 
 ## Dialogfeld „Design“ {#design-dialog}
 
-Sie können das Dialogfeld „Design“ verwenden, um CSS-Stile für die Zahleneingabe-Komponente zu definieren und zu verwalten.
+Das Dialogfeld &quot;Design&quot;wird verwendet, um CSS-Stile für die Komponente &quot;Numerisches Feld&quot;zu definieren und zu verwalten.
 
 ### Registerkarte „Stile“ {#styles-tab}
 
@@ -139,7 +142,7 @@ Sie können die Registerkarte zum Definieren und Verwalten von CSS-Stilen für e
 
 ![Registerkarte „Stile“](/help/adaptive-forms/assets/datepicker_styletab.png)
 
-- **Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die Kernkomponente „Zahleneingabe“ für adaptive Formulare bereitstellen.
+- **Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die Kernkomponente &quot;Adaptive Forms Numeric Box&quot;bereitstellen.
 
 - **Zulässige Stile**: Sie können Stile definieren, indem Sie den Namen und die CSS-Klasse für den Stil angeben. Sie können beispielsweise einen Stil mit dem Namen „Fettschrift“ erstellen und die CSS-Klasse „Schriftbreite: Fett“ bereitstellen. Sie können diese Stile bei einem adaptiven Formular im adaptiven Formular-Editor anwenden. Um einen Stil anzuwenden, wählen Sie im Editor für adaptive Formulare die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Eigenschaften-Dialog und wählen Sie den gewünschten Stil aus der Dropdown-Liste **Stile**. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld „Design“ zurück, aktualisieren die Stile auf der Registerkarte „Stile“ und speichern die Änderungen.
 

@@ -3,10 +3,10 @@ title: Kernkomponente für adaptive Formulare – Formular-Container
 description: Ein adaptives Formular zu einer Web-Seite hinzufügen.
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: ht
-source-wordcount: '1340'
-ht-degree: 100%
+source-git-commit: 8bba79956a04020647d5d04f9fe6fa674affedf1
+workflow-type: tm+mt
+source-wordcount: '1341'
+ht-degree: 97%
 
 ---
 
@@ -99,7 +99,7 @@ Benutzende können verschiedene Aktionen für Übermittlungen adaptiver Formular
 
 ![Registerkarte „Zugelassene Komponenten“ des Dialogfelds „Design“](/help/adaptive-forms/assets/formcontainer-allowedcomponents.png)
 
-Über die Registerkarte **Zugelassene Komponenten** kann die Person, die die Vorlage bearbeitet, festlegen, welche Komponenten im Editor für adaptive Formulare zu den Bedienfeldern in der Komponente hinzugefügt werden können.
+Die **Zugelassene Komponenten** -Tab ermöglicht es dem Vorlageneditor, die Komponenten festzulegen, die als Elemente zu den Bedienfeldern in der Komponente im adaptiven Forms-Editor hinzugefügt werden können.
 
 ### Registerkarte „Standardkomponenten“ {#default-components-tab}
 
