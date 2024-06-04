@@ -1,48 +1,49 @@
 ---
-title: Captcha in AEM adaptiven Forms
-description: Verbessern Sie die Formularsicherheit mit Captcha&reg; Service mühelos. Schrittweise Anleitung enthalten!
+title: hCaptcha in adaptiven AEM-Formularen
+description: Mit dem hCaptcha®-Dienst können Sie die Formularsicherheit optimieren. Schrittweise Anleitung enthalten!
 feature-set: Experience Manager Sites, Experience Manager Forms
 feature: Adaptive Forms, Core Components
 role: Architect, Developer, Admin, User
-source-git-commit: ddfd55259f84443e6add3ced09fd319bcd9c1677
+exl-id: eecb38d5-711e-4dc5-bc19-498e003f37e7
+source-git-commit: 4b05fb9d8db515289095f4d3c6a4efbe872dbde5
 workflow-type: tm+mt
 source-wordcount: '583'
-ht-degree: 17%
+ht-degree: 100%
 
 ---
 
-# Captcha Component{#hCaptcha-component-adaptive-forms-core-component}
+# hCaptcha-Komponente{#hCaptcha-component-adaptive-forms-core-component}
 
-<span class="preview"> Diese Funktion ist im Rahmen des Programms für frühzeitige Anmeldung verfügbar. Sie können von Ihrer offiziellen E-Mail-Adresse aus an aem-forms-ea@adobe.com schreiben, um dem Early-Adopter-Programm beizutreten und den Zugriff auf diese Funktion zu beantragen. </span>
+<span class="preview">Diese Funktion ist im Rahmen des Early-Adopter-Programms verfügbar. Sie können von Ihrer offiziellen E-Mail-Adresse aus an aem-forms-ea@adobe.com schreiben, um dem Early-Adopter-Programm beizutreten und den Zugriff auf diese Funktion zu beantragen. </span>
 
-Der Captcha®-Dienst schützt Ihre Formulare vor Bots, Spam und automatisiertem Missbrauch. Es stellt eine Checkbox-Widget-Herausforderung dar und wertet die Benutzerantwort aus, um festzustellen, ob es sich um einen menschlichen oder einen Bot handelt, der mit dem Formular interagiert. Dies verhindert, dass der Benutzer fortfährt, wenn der Test fehlschlägt, und hilft, Online-Transaktionen sicher zu machen, indem Bots davon abgehalten werden, Spam oder böswillige Aktivitäten zu posten.
+Der hCaptcha®-Dienst schützt Ihre Formulare vor Bots, Spam und automatisiertem Missbrauch. Er führt einen Kontrollkästchen-Widget-Test durch und ermittelt anhand der Benutzerantwort, ob ein Mensch oder ein Bot mit dem Formular interagiert. Dabei wird verhindert, dass Benutzende fortfahren, wenn der Test fehlschlägt. Dies erhöht die Sicherheit von Online-Transaktionen, indem Bots keinen Spam senden oder andere bösartige Aktivitäten durchführen können.
 
 ![hCaptcha®](/help/adaptive-forms/assets/hCaptcha-challenge.png)
 
 ## Verwendung {#usage}
 
-Es gibt verschiedene Gründe, warum es sinnvoll ist, eine Captcha-Herausforderung in einen Formularübermittlungsprozess einzubeziehen:
+Es gibt verschiedene Gründe, warum es sinnvoll ist, einen hCaptcha-Test in ein Formular einzufügen:
 
-- **Bot Prevention**: Dadurch wird sichergestellt, dass das Formular von einem Benutzer gesendet wird, wodurch Spam und automatisierte Übermittlungen reduziert werden.
+- **Bot-Prävention**: Der Test stellt sicher, dass das Formular von einem Menschen gesendet wird, wodurch Spam und automatisierte Übermittlungen reduziert werden.
 
-- **Sicherheit**: Es fügt eine zusätzliche Sicherheitsebene hinzu, um die Legitimität jeder Formularübermittlung zu überprüfen und vor bösartigen Angriffen zu schützen.
+- **Sicherheit**: Der Test bietet eine zusätzliche Sicherheitsebene, um die Legitimität jeder Formularübermittlung zu überprüfen und vor bösartigen Angriffen zu schützen.
 
-- **Datenintegrität**: Indem Sie mehrere oder betrügerische Übermittlungen verhindern, können Sie die Integrität und Genauigkeit der über das Formular erfassten Daten wahren.
+- **Datenintegrität**: Da mehrfache oder betrügerische Übermittlungen verhindert werden, wird durch den Test die Integrität und Genauigkeit der über das Formular erfassten Daten gewahrt.
 
-- **Benutzerüberprüfung**: Es überprüft die Identität des Benutzers, der das Formular sendet, und stellt sicher, dass nur authentifizierte Benutzer sensible Transaktionen abschließen können.
+- **Benutzerüberprüfung**: Der Test überprüft die Identität der Person, die das Formular sendet, und stellt sicher, dass nur authentifizierte Benutzende sensible Transaktionen abschließen können.
 
-- **Load Management**: Dies ermöglicht die Verwaltung der Serverlast durch die Steuerung der Rate der Formularübermittlungen, wodurch eine Systemüberlastung während Zeiten mit hohem Traffic-Aufkommen verhindert wird.
+- **Auslastungsverwaltung**: Der Test ermöglicht die Verwaltung der Server-Auslastung. Zu diesem Zweck wird die Rate der Formularübermittlungen gesteuert, sodass das System zu Zeiten mit hohem Traffic nicht überlastet wird.
 
 ## Technische Details {#technical-details}
 
-Aktuelle Informationen zur Captcha-Komponente finden Sie in der technischen Dokumentation zu [GitHub](https://github.com/adobe/aem-core-forms-components/blob/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/hCaptcha/v1/hCaptcha/README.md). Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Entwicklerdokumentation für Kernkomponenten](/help/developing/overview.md).
+Aktuelle Informationen zur hCaptcha-Komponente finden Sie in der technischen Dokumentation auf [GitHub](https://github.com/adobe/aem-core-forms-components/blob/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/hCaptcha/v1/hCaptcha/README.md). Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Entwicklerdokumentation für Kernkomponenten](/help/developing/overview.md).
 
-Geben Sie die Eigenschaften der Captcha-Komponente mithilfe der [Dialogfeld konfigurieren](#configure-dialog). Das Dialogfeld &quot;Konfigurieren&quot;ist Teil der Kernkomponenten, die entwickelt wurden, um das Authoring der Formulare zu erleichtern und eine effiziente Möglichkeit zur Erstellung komplexer Formulare zu bieten.
+Sie können die Eigenschaften der hCaptcha-Komponente im [Dialogfeld „Konfigurieren“](#configure-dialog) festlegen. Das Dialogfeld „Konfigurieren“ ist Teil der Kernkomponenten, die erstellt wurden, um das Authoring der Formulare zu vereinfachen und eine effiziente Methode zum Erstellen komplexer Formulare bereitzustellen.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
 
-Die Adaptive Forms Captcha-Komponente wird im Mai 2024 als Teil der [Kernkomponenten 3.0.20](https://github.com/adobe/aem-core-forms-components/commit/a4cb97131ffad47137a8f5f173401128a1cf3491). Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
+Die hCaptcha-Komponente für adaptive Formulare wurde im Mai 2024 als Teil von [Version 3.0.20 der Kernkomponenten](https://github.com/adobe/aem-core-forms-components/commit/a4cb97131ffad47137a8f5f173401128a1cf3491) veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
 
 |  |  |
 |---|---|
@@ -54,35 +55,35 @@ Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokume
 
 ## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
-Sie können die Eigenschaften Ihrer Captcha-Komponente einfach mit dem Dialogfeld &quot;Konfigurieren&quot;anpassen, das über die Registerkarte &quot;Einfach&quot;und die Registerkarte &quot;Validierung&quot;verfügt, um verschiedene Eigenschaften anzupassen.
+Sie können die Eigenschaften Ihrer hCaptcha-Komponente ganz einfach im Dialogfeld „Konfigurieren“ ändern. Dort können Sie auf den Registerkarten „Allgemein“ und „Validierung“ verschiedene Eigenschaften anpassen.
 
 ### Registerkarte „Allgemein“ {#basic-tab}
 
-- **[!UICONTROL Name]:** Geben Sie den Namen für Ihre Captcha-Komponente an. Sie können eine Formularkomponente sowohl im Formular als auch im Regeleditor leicht mit ihrem eindeutigen Namen identifizieren.
-- **[!UICONTROL Titel]:** Geben Sie den Titel Ihrer Captcha-Komponente an.
-- **[!UICONTROL Konfigurationseinstellungen]:** Wählen Sie eine für Captcha® konfigurierte Cloud-Konfiguration.
-- **Captcha Size:** Sie können die Anzeigegröße des Chaptcha®-Challenger-Dialogfelds auswählen. Verwenden Sie die **[!UICONTROL Kompakt]** Option zur Anzeige einer kleinen Größe und **[!UICONTROL Normal]** Option zur Anzeige eines relativ großen Chaptcha® Challenge-Dialogfelds.<!-- or **[!UICONTROL Invisible]** to validate hCaptcha&reg; without explicitly rendering the checkbox widget on the user interface. -->
+- **[!UICONTROL Name]:** Geben Sie den Namen für die hCaptcha-Komponente an. Sie können eine Formularkomponente sowohl im Formular als auch im Regeleditor leicht anhand ihres eindeutigen Namens identifizieren.
+- **[!UICONTROL Titel]:** Geben Sie den Titel der hCaptcha-Komponente an.
+- **[!UICONTROL Konfigurationseinstellungen]:** Wählen Sie eine für hCaptcha® konfigurierte Cloud-Konfiguration aus.
+- **Captcha-Größe:** Sie können die Anzeigegröße des Dialogfelds für den hCaptcha®-Test auswählen. Verwenden Sie die Option **[!UICONTROL Kompakt]** zur Anzeige eines kleinen und die Option **[!UICONTROL Normal]** zur Anzeige eines relativ großen Dialogfelds für den hCaptcha®-Test.<!-- or **[!UICONTROL Invisible]** to validate hCaptcha&reg; without explicitly rendering the checkbox widget on the user interface. -->
 
-  ![Registerkarte &quot;Captcha Basic&quot;](/help/adaptive-forms/assets/hcaptcha-basic.png)
+  ![hCaptcha-Registerkarte „Allgemein“](/help/adaptive-forms/assets/hcaptcha-basic.png)
 
 ### Registerkarte „Validierung“ {#validation-tab}
 
-- **[!UICONTROL Validierungsmeldung]:** Stellen Sie eine Validierungsmeldung für Ihre Captcha-Validierung bei der Formularübermittlung bereit.
-- **[!UICONTROL Überprüfungsmeldung für Skripten]** - Verwenden Sie diese Option, um eine Eingabeaufforderung einzugeben, wenn die Skriptvalidierung fehlschlägt.
+- **[!UICONTROL Validierungsmeldung]:** Stellen Sie eine Validierungsmeldung für die Captcha-Validierung bei der Formularübermittlung bereit.
+- **[!UICONTROL Skriptüberprüfungsmeldung]**: Verwenden Sie diese Option, um eine Eingabeaufforderung einzugeben, falls die Skriptüberprüfung fehlschlägt.
 
-  ![Registerkarte &quot;Captcha-Validierung&quot;](/help/adaptive-forms/assets/hcaptcha-validation-tab.png)
+  ![hCaptcha-Registerkarte „Validierung“](/help/adaptive-forms/assets/hcaptcha-validation-tab.png)
 
 **hCaptcha® ist eine eingetragene Marke von Intuition Machines, Inc.**
 
-**Mehr erfahren** über andere **Kapitelkomponenten** und ihre Dienste, z. B.:
+**Erfahren Sie mehr** über andere **Captcha-Komponenten** und ihre Dienste, z. B.:
 
-- [Verwenden von Captcha in einem adaptiven Formular für Kernkomponenten](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/integrate-adaptive-forms-hCaptcha-core-components)
+- [Verwenden von hCaptcha in einem adaptiven Formular für Kernkomponenten](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/integrate-adaptive-forms-hCaptcha-core-components)
 
-- [Verwenden von Captcha in einem adaptiven Formular für Foundation-Komponenten](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-hcaptcha)
+- [Verwenden von hCaptcha in einem adaptiven Formular für Foundation-Komponenten](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-hcaptcha)
 
-- [Verwenden von Turnstile CAPTCHA in einem adaptiven Formular für Foundation-Komponenten](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile)
+- [Verwenden von Turnstile CAPTCHA in einem adaptiven Formular für Foundation-Komponenten](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile)
 
-- [Verwenden von Google reCAPTCHA in einem adaptiven Formular für Foundation-Komponenten](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/captcha-adaptive-forms-core-components)
+- [Verwenden von Google reCAPTCHA in einem adaptiven Formular für Foundation-Komponenten](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/captcha-adaptive-forms-core-components)
 
 ## Ähnliche Artikel {#related-articles}
 

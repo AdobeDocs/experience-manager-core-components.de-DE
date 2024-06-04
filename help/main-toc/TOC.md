@@ -8,7 +8,7 @@ feature-set: Experience Manager Sites, Experience Manager Forms
 source-git-commit: d41cf56f3889ff6aa1bf6f753dc5331248d1ae2e
 workflow-type: tm+mt
 source-wordcount: '377'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -117,7 +117,7 @@ ht-degree: 96%
       + [Formularfragment für adaptive Formulare](/help/adaptive-forms/components/adaptive-form-fragment.md)
       + [Adaptive Formulare – Dateianlagen](/help/adaptive-forms/components/file-attachment.md)
       + [Adaptive Formulare – Vertikale Registerkarten](/help/adaptive-forms/components/vertical-tabs.md)
-      + [Adaptives Forms Captcha](/help/adaptive-forms/components/hcaptcha.md)
+      + [Adaptive Formulare – hCaptcha](/help/adaptive-forms/components/hcaptcha.md)
       + [Adaptive Formulare – horizontale Registerkarten](/help/adaptive-forms/components/horizontal-tabs.md)
       + [Adaptive Formulare – Bild](/help/adaptive-forms/components/image.md)
       + [Adaptive Formulare – Numerisches Feld](/help/adaptive-forms/components/numeric-box.md)
