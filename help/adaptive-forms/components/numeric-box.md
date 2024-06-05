@@ -3,16 +3,16 @@ title: Kernkomponente „Zahleneingabe“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „Zahleneingabe“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: b4a66a407e92398a98441c65ab588b9720777dfa
 workflow-type: tm+mt
-source-wordcount: '2163'
-ht-degree: 98%
+source-wordcount: '2283'
+ht-degree: 92%
 
 ---
 
 # Komponente &quot;Numerisches Feld&quot;{#number-input-adaptive-forms-core-component}
 
-Mit der Komponente „Zahleneingabe“ für adaptive Formulare wird Benutzenden ein Formularfeld zur Eingabe numerischer Werte bereitgestellt. In der Regel wird die Komponente durch ein Textfeld mit einem Aufwärts- und Abwärtspfeil zum Erhöhen und Verringern der Zahl dargestellt.
+Eine Komponente &quot;Numerisches Feld&quot;in einem adaptiven Formular ist ein Formularfeldtyp, mit dem Benutzer numerische Werte eingeben können. In der Regel wird die Komponente durch ein Textfeld mit einem Aufwärts- und Abwärtspfeil zum Erhöhen und Verringern der Zahl dargestellt.
 
 Auch Attribute wie „Min.“, „Max.“ „Schritt“ und „Wert“ können damit verwendet werden. Sie können mit diesen Attributen die im Feld zulässigen Mindest- und Höchstwerte, das Schrittintervall zum Erhöhen oder Verringern der Zahl und den Standardwert des Felds festlegen.
 
@@ -127,10 +127,21 @@ Sie können im Dialogfeld „Konfigurieren“ die Zahleneingabe für Besuchende 
 ![Registerkarte „Barrierefreiheit“](/help/adaptive-forms/assets/numberinput_formattab.png)
 
 - **Anzeigeformat**: Sie können mit dieser Option aus verschiedenen numerischen ganzzahligen Formaten für die Anzeige auswählen. Wenn Benutzende aus dem Dropdown-Menü **Typ** eine Option auswählen, erscheint im Bedienfeld die Option **Format**. Sie können das Format auswählen, in dem die Zahlen den Benutzenden angezeigt werden sollen.
+- **Sprache** - Diese Funktion wird zur Formatierung des spezifischen Felds verwendet. Wenn ein Benutzer eine Sprachoption aus der **Typ** Dropdown-Menü, die **IETF BCP 47-Sprach-Tag** im Bereich angezeigt. Sie können die Sprache für die Feldformatierung auswählen, wenn Sie ein adaptives Formular in eine bestimmte Sprache übersetzen.
 
-<!--   **Number of digits before the decimal separator (1234.000)** - Use this option to specify the number of digits to display before the decimal point. 
+Der Sprachensatz ist standardmäßig nicht sichtbar, aber Benutzer können eine benutzerdefinierte **IETF BCP 47-Sprach-Tag** durch Aktualisierung der Vorlagenrichtlinie:
 
-- **Number of digits after the decimal separator (1234.000)** - Use this option to specify the number of digits to display after the decimal point. -->
+1. Öffnen Sie die entsprechende Vorlage, die mit einem adaptiven Formular verknüpft ist, im Vorlageneditor.
+2. Wählen Sie die vorhandene Richtlinie als `numberinput-default-policy` aus dem Dropdown-Menü.
+
+   ![Richtlinie für Datumsauswahl-Vorlagen](/help/adaptive-forms/assets/numberinput-template-policy.png)
+
+3. Klicken Sie auf **Fertig**.
+
+   >[!NOTE]
+   >
+   > Weitere Informationen zur Übersetzung eines adaptiven Formulars in ein bestimmtes Gebietsschema finden Sie unter [Klicken Sie hier](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
+
 
 ## Dialogfeld „Design“ {#design-dialog}
 

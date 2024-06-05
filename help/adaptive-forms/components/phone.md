@@ -3,9 +3,9 @@ title: Adaptive Forms-Kernkomponente - Telefoneingabe, Telefon
 description: Verwenden oder Anpassen der Kernkomponente „Telefoneingabe“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: b4a66a407e92398a98441c65ab588b9720777dfa
 workflow-type: tm+mt
-source-wordcount: '2198'
+source-wordcount: '2197'
 ht-degree: 97%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 97%
 
 # Phone-Komponente{#telephone-input-adaptive-forms-core-component}
 
-Mit der Kernkomponente „Telefoneingabe“ für adaptive Formulare können Benutzende eine Telefonnummer eingeben. Im Telefoneingabefeld werden Tastaturen von Mobilgeräten angezeigt, die für Telefonnummern relevant sind. Zur Spezifikation des Formats und der Beschreibung der Telefonnummer können zusätzliche Attribute wie „Muster“ und „Platzhalter“ verwendet werden.
+Mit der Kernkomponente &quot;Mobiltelefon-Formular&quot;für adaptive Formulare können Benutzer eine Telefonnummer eingeben. Im Telefoneingabefeld werden Tastaturen von Mobilgeräten angezeigt, die für Telefonnummern relevant sind. Zur Spezifikation des Formats und der Beschreibung der Telefonnummer können zusätzliche Attribute wie „Muster“ und „Platzhalter“ verwendet werden.
 
 Das Telefoneingabefeld wird häufig in Kontakt-, Registrierungs- und anderen Formularen verwendet, bei denen unter den Kontaktdaten auch eine Telefonnummer angegeben werden muss. Das Telefoneingabefeld kann auch verwendet werden, um sicherzustellen, dass die Benutzenden eine gültige Telefonnummer eingeben, da der Browser bestimmte Einschränkungen vorgeben kann, z. B. die Länge und das Format der Telefonnummer entsprechend dem Attribut „Muster“.
 
