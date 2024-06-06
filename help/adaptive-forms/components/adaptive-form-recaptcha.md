@@ -1,18 +1,18 @@
 ---
-title: Adaptive Forms-Kernkomponente - Google reCAPTCHA
-description: Verbessern Sie die Formularsicherheit mit dem Google reCAPTCHA-Dienst mühelos mit AEM Forms. Eigenschaften des adaptiven Formulars reCaptcha erläutern
+title: Kernkomponente für adaptive Formulare – Google reCAPTCHA
+description: Mit dem Google reCAPTCHA-Dienst können Sie ganz einfach mit AEM Forms die Sicherheit von Formularen verbessern. Erklärung der Eigenschaften von reCaptcha für adaptive Formulare
 role: Architect, Developer, Admin, User
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1325'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 
 # Adaptives Formular – reCAPTCHA {#google-recaptcha}
 
-CAPTCHA (Vollständig automatisierter öffentlicher Turing-Test zur Unterscheidung von Computern und Menschen von einem Teil) ist ein Programm, das häufig in Online-Transaktionen verwendet wird, um zwischen Menschen und automatisierten Programmen oder Bots zu unterscheiden. Es stellt eine herausfordernde Aufgabe und bewertet die Benutzerantwort, um festzustellen, ob es sich um einen Menschen oder einen Bot handelt, der mit der Site interagiert. Dabei wird verhindert, dass der Benutzer fortfährt, wenn der Test fehlschlägt, wodurch Onlinetransaktionen sicherer werden, da Bots keinen Spam senden oder andere bösartige Zwecke verfolgen können.
+CAPTCHA („Completely Automated Public Turing test to tell Computers and Humans Apart“ – „vollautomatischer öffentlicher Turing-Test zur Unterscheidung von Computern und Menschen“) ist ein Programm, das bei Online-Transaktionen eingesetzt wird, um zwischen Menschen und Bots oder automatisierten Programmen zu unterscheiden. Es stellt eine herausfordernde Aufgabe und bewertet die Benutzerantwort, um festzustellen, ob es sich um einen Menschen oder einen Bot handelt, der mit der Site interagiert. Dabei wird verhindert, dass der Benutzer fortfährt, wenn der Test fehlschlägt, wodurch Onlinetransaktionen sicherer werden, da Bots keinen Spam senden oder andere bösartige Zwecke verfolgen können.
 
 AEM Forms as a Cloud Service unterstützt Google reCAPTCHA v2 in adaptiven Formularen. Sie können es verwenden, um eine CAPTCHA-Herausforderung bei der Formularübermittlung zu stellen
 
@@ -52,26 +52,26 @@ Sie können Ihr Google reCAPTCHA-Erlebnis für Besucherinnen und Besucher im Dia
 
 ![Registerkarte „Allgemein“](/help/adaptive-forms/assets/recaptcha-basictab.png)
 
-- **Name**: Sie können eine Formularkomponente sowohl im Formular als auch im Regel-Editor leicht mit ihrem eindeutigen Namen identifizieren. Der Name darf jedoch keine Leerzeichen oder Sonderzeichen enthalten.
+- **Name**: Sie können eine Formularkomponente sowohl im Formular als auch im Regeleditor durch ihren eindeutigen Namen identifizieren. Der Name darf keine Leerzeichen oder Sonderzeichen enthalten.
 
-- **Titel**: Sie können mit dem Titel leicht eine Komponente in einem Formular identifizieren. Standardmäßig wird der Titel über der Komponente angezeigt. Wenn Sie keinen Titel hinzufügen, wird der Name der Komponente anstelle des Titeltexts angezeigt.
+- **Titel**: Mit dem Titel können Sie eine Komponente in einem Formular leicht identifizieren. Standardmäßig wird der Titel oberhalb der Komponente angezeigt. Wenn Sie keinen Titel hinzufügen, wird der Name der Komponente anstelle des Titeltexts angezeigt.
 
 - **Rich-Text für Titel zulassen**: Diese Funktionen ermöglichen es Benutzenden, einfache Texttitel zu formatieren, die Funktionen wie fett, kursiv, unterstrichener Text, verschiedene Schriftarten, Schriftgrößen, Farben und zusätzliche Optionen enthalten und so die visuelle Darstellung und Anpassung zu verbessern. Sie bietet mehr Flexibilität und kreative Kontrolle bei der Hervorhebung von Titeln in Dokumenten, Websites oder Anwendungen.\
-  Wenn Sie das Kontrollkästchen für &quot;Rich-Text für Titel zulassen&quot;aktivieren, werden Formatierungsoptionen angezeigt, um den Titel der Komponente zu formatieren. Um auf alle verfügbaren Formatierungsoptionen zuzugreifen, können Sie auf die Registerkarte ![Vollbildsymbol](/help/adaptive-forms/assets/fullscreen-icon.png) klicken.
+  Durch Aktivieren des Kontrollkästchens **„Rich-Text für Titel zulassen“ werden Formatierungsoptionen sichtbar, mit denen Sie den Titel der Komponente gestalten können. Um auf alle verfügbaren Formatierungsoptionen zuzugreifen, können Sie auf die Registerkarte ![Vollbildsymbol](/help/adaptive-forms/assets/fullscreen-icon.png) klicken.
 
   ![Rich-Text-Unterstützung](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Titel ausblenden**: Wählen Sie die Option aus, um den Titel der Komponente auszublenden.
 - **Als ungebundenes Formularelement markieren**: Mit dieser Option können Sie Formularfelder konfigurieren, die mit keinem Schema verbunden sind. Mit dieser Option können Sie Daten speichern, ohne die Datenquelle zu aktualisieren. Außerdem können Sie damit Daten auf eine benutzerdefinierte Art und Weise verarbeiten, getrennt von der standardmäßigen Datenbankintegration.
-- **Konfigurationseinstellungen**: Wählen Sie den Konfigurationscontainer aus, der die Cloud-Konfiguration enthält, die AEM Forms mit dem reCAPTCHA-Dienst von Google verbindet.
+- **Konfigurationseinstellungen**: Wählen Sie den Konfigurations-Container aus, der die Cloud-Konfiguration enthält, die AEM Forms mit dem reCAPTCHA-Dienst von Google verbindet.
 
   >[!NOTE]
   >
-  > Siehe Abschnitt [Verwenden von Google reCAPTCHA in einem AEM adaptiven Formular, das auf Kernkomponenten basiert](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/captcha-adaptive-forms-core-components) in diesem Artikel erfahren Sie, wie Sie Google reCAPTCHA für Ihre Umgebung erstellen und konfigurieren.
+  > Im Artikel [Verwenden von Google reCAPTCHA in einem adaptiven Formular in AEM, das auf Kernkomponenten basiert](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/captcha-adaptive-forms-core-components) erfahren Sie, wie Sie Google reCAPTCHA für Ihre Umgebung erstellen und konfigurieren.
 
 - **Typ**: Wählen Sie diese Option, um die Größe für reCAPTCHA auszuwählen.
-   - **Normal**: Bezieht sich auf die standardmäßige, größere Version des reCAPTCHA-Widgets, die für Benutzer sichtbarer und leichter zu erreichen ist, insbesondere auf Geräten mit größeren Bildschirmen.
-   - **Kompakt**: Bezieht sich auf eine kleinere Version des reCAPTCHA-Widgets. Diese Option eignet sich für Situationen, in denen der Platz begrenzt ist, z. B. auf Mobilgeräten oder in engen Layouts auf Webseiten.
+   - **Normal**: Bezieht sich auf die standardmäßige, größere Version des reCAPTCHA-Widgets, die für Benutzende besser sichtbar und leichter zu nutzen sein sollte, insbesondere auf Geräten mit größeren Bildschirmen.
+   - **Kompakt**: Bezieht sich auf eine kleinere Version des reCAPTCHA-Widgets. Diese Option eignet sich bei wenig Platz, z. B. auf Mobilgeräten oder in engen Layouts auf Web-Seiten.
 
 - **Komponente ausblenden**: Wählen Sie diese Option, um die Komponente aus dem Formular auszublenden. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor. Dies ist nützlich, wenn Sie Informationen speichern müssen, die Benutzende nicht sehen oder direkt ändern müssen.
 
@@ -81,7 +81,7 @@ Sie können Ihr Google reCAPTCHA-Erlebnis für Besucherinnen und Besucher im Dia
 
 ### Registerkarte „Validierung“ {#validation-tab}
 
-![Registerkarte &quot;Validierung&quot;](/help/adaptive-forms/assets/recaptcha-validationtab.png)
+![Registerkarte „Validierung“](/help/adaptive-forms/assets/recaptcha-validationtab.png)
 
 - **Fehlermeldung**: Mit dieser Option können Sie eine Nachricht eingeben, die angezeigt wird, wenn das Kontrollkästchen **Erforderlich** aktiviert ist und das Feld leer bleibt.
 
@@ -89,15 +89,15 @@ Sie können Ihr Google reCAPTCHA-Erlebnis für Besucherinnen und Besucher im Dia
 
 ## Dialogfeld „Design“ {#design-dialog}
 
-Das Dialogfeld &quot;Design&quot;wird verwendet, um CSS-Stile für die reCAPTCHA-Komponente zu definieren und zu verwalten.
+Verwenden Sie das Dialogfeld „Design“, um CSS-Stile für die reCAPTCHA-Komponente zu definieren und zu verwalten.
 
 ### Registerkarte „Stile“ {#styles-design-tab}
 
-Die Kernkomponente &quot;Adaptive Forms reCAPTCHA&quot;unterstützt die AEM [Stilsystem](/help/get-started/authoring.md#component-styling).
+Die reCAPTCHA-Kernkomponente in adaptiven Formularen unterstützt das [Stilsystem](/help/get-started/authoring.md#component-styling) von AEM.
 
 ![Dialogfeld „Design“](/help/adaptive-forms/assets/checkbox-style.png)
 
-- **Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die Adaptive Forms reCAPTCHA-Kernkomponente bereitstellen.
+- **Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die reCAPTCHA-Kernkomponente für adaptive Formulare bereitstellen.
 
 - **Zulässige Stile**: Sie können Stile definieren, indem Sie den Namen und die CSS-Klasse für den Stil angeben. Sie können beispielsweise einen Stil mit dem Namen „Fettschrift“ erstellen und die CSS-Klasse „Schriftbreite: Fett“ bereitstellen. Sie können diese Stile bei einem adaptiven Formular im adaptiven Formular-Editor anwenden. Um einen Stil anzuwenden, wählen Sie im Editor für adaptive Formulare die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Eigenschaften-Dialog und wählen Sie den gewünschten Stil aus der Dropdown-Liste **Stile**. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld „Design“ zurück, aktualisieren die Stile auf der Registerkarte „Stile“ und speichern die Änderungen.
 

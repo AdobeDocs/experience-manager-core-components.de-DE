@@ -4,13 +4,13 @@ description: Verwenden oder Anpassen der Kernkomponente „Optionsschaltfläche�
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2134'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Optionsfeld-Komponente {#radio-button-adaptive-forms-core-component}
+# Optionsschaltflächen-Komponente {#radio-button-adaptive-forms-core-component}
 
 Eine Optionsschaltfläche in einem adaptiven Formular ist eine Art Eingabeelement, mit dem Benutzende eine Option aus einer Gruppe verwandter Optionen auswählen können. Sie wird durch eine kleine kreisförmige Schaltfläche dargestellt, die entweder ausgefüllt oder leer ist, um anzugeben, ob die Option ausgewählt ist oder nicht. Wenn Benutzende eine Optionsschaltfläche auswählen, werden die anderen in der Gruppe deaktiviert. Optionsschaltflächen werden in der Regel verwendet, wenn mehrere sich gegenseitig ausschließende Optionen bestehen und jeweils nur eine gleichzeitig ausgewählt werden kann.
 
@@ -26,7 +26,7 @@ In diesem Beispiel wird das Optionenelement verwendet, um die Optionsschaltfläc
 
 Jede Optionsschaltflächen-Option verfügt über einen eindeutigen Datenwert und ein eigenes Textanzeige-Attribut. Wenn Benutzende „1–10“ auswählen, wird der entsprechende Datenwert beim Absenden des Formulars an den Server gesendet. Diese Daten können dann von einem server-seitigen Skript verarbeitet werden, um zu bestimmen, welche Optionen von Benutzenden ausgewählt wurden, und können für verschiedene Aktionen verwendet werden, z. B. zum Aktualisieren anderer Felder im Formular oder zum Senden der Formulardaten an ein server-seitiges Skript zur weiteren Verarbeitung.
 
-Darüber hinaus kann jede Optionsschaltfläche so konfiguriert werden, dass für jede Option unterschiedliche Verarbeitungswerte vorhanden sind. Dies kann mithilfe des Regeleditors für adaptive Formulare festgelegt werden.
+Darüber hinaus kann jede Optionsschaltfläche so konfiguriert werden, dass für jede Option unterschiedliche Verarbeitungswerte vorhanden sind. Dies kann mithilfe des Regeleditors für adaptive Formulare festgelegt werden
 
 ## Verwendung {#reasons-to-use-radio-button}
 
@@ -64,9 +64,9 @@ Im Dialogfeld „Konfigurieren“ können Sie Optionsschaltflächen für Besuche
 
 ![Registerkarte „Allgemein“](/help/adaptive-forms/assets/radiobutton_basictab.png)
 
-- **Name**: Sie können eine Formularkomponente sowohl im Formular als auch im Regel-Editor leicht mit ihrem eindeutigen Namen identifizieren. Der Name darf jedoch keine Leerzeichen oder Sonderzeichen enthalten.
+- **Name**: Sie können eine Formularkomponente sowohl im Formular als auch im Regeleditor durch ihren eindeutigen Namen identifizieren. Der Name darf keine Leerzeichen oder Sonderzeichen enthalten.
 
-- **Titel**: Sie können mit dem Titel leicht eine Komponente in einem Formular identifizieren. Standardmäßig wird der Titel über der Komponente angezeigt. Wenn Sie keinen Titel hinzufügen, wird der Name der Komponente anstelle des Titeltexts angezeigt.
+- **Titel**: Mit dem Titel können Sie eine Komponente in einem Formular leicht identifizieren. Standardmäßig wird der Titel oberhalb der Komponente angezeigt. Wenn Sie keinen Titel hinzufügen, wird der Name der Komponente anstelle des Titeltexts angezeigt.
 - **Rich-Text für Titel zulassen**: Diese Funktionen ermöglichen es Benutzenden, einfache Texttitel zu formatieren, die Funktionen wie fett, kursiv, unterstrichener Text, verschiedene Schriftarten, Schriftgrößen, Farben und zusätzliche Optionen enthalten und so die visuelle Darstellung und Anpassung zu verbessern. Sie bietet mehr Flexibilität und kreative Kontrolle bei der Hervorhebung von Titeln in Dokumenten, Websites oder Anwendungen.\
   Durch Aktivieren des Kontrollkästchens **Rich-Text für Titel zulassen** werden Formatierungsoptionen sichtbar, mit denen Sie den Titel der Komponente gestalten können. Um auf alle verfügbaren Formatierungsoptionen zuzugreifen, können Sie auf die Registerkarte ![Vollbildsymbol](/help/adaptive-forms/assets/fullscreen-icon.png) klicken.
 
@@ -88,7 +88,7 @@ Sie können die Optionen für die Optionsfeldgruppe auch mit **Rich-Text für Op
 
   ![Rich-Text-Unterstützung für Optionen](/help/adaptive-forms/assets/richtextoptions-support.png)
 
-- **Verbindungsreferenz**: Eine Verbindungsreferenz ist ein Verweis auf ein Datenelement, das in einer externen Datenquelle gespeichert ist und in einem Formular verwendet wird. Sie können mit dem Bindungsverweis Daten dynamisch an Formularfelder binden, sodass das Formular die aktuellsten Daten aus der Datenquelle anzeigen kann. Beispielsweise kann ein Bindungsverweis verwendet werden, um den Namen und die Adresse von Kundinnen und Kunden in einem Formular anzuzeigen, basierend auf der im Formular eingegebenen Kunden-ID. Der Bindungsverweis kann auch verwendet werden, um die Datenquelle mit den im Formular eingegebenen Daten zu aktualisieren. Auf diese Weise können Sie mit AEM Forms Formulare erstellen, die mit externen Datenquellen interagieren und so eine nahtlose Benutzererfahrung bei der Datenerfassung und Datenverwaltung bieten.
+- **Bindungsreferenz**: Eine Bindungsreferenz ist ein Verweis auf ein Datenelement, das in einer externen Datenquelle gespeichert ist und in einem Formular verwendet wird. Sie können mit dem Bindungsverweis Daten dynamisch an Formularfelder binden, sodass das Formular die aktuellsten Daten aus der Datenquelle anzeigen kann. Beispielsweise kann ein Bindungsverweis verwendet werden, um den Namen und die Adresse von Kundinnen und Kunden in einem Formular anzuzeigen, basierend auf der im Formular eingegebenen Kunden-ID. Der Bindungsverweis kann auch verwendet werden, um die Datenquelle mit den im Formular eingegebenen Daten zu aktualisieren. Auf diese Weise können Sie mit AEM Forms Formulare erstellen, die mit externen Datenquellen interagieren und so eine nahtlose Benutzererfahrung bei der Datenerfassung und Datenverwaltung bieten.
 
 - **Als ungebundenes Formularelement markieren**: Mit dieser Option können Sie Formularfelder konfigurieren, die mit keinem Schema verbunden sind. Mit dieser Option können Sie Daten speichern, ohne die Datenquelle zu aktualisieren. Außerdem können Sie damit Daten auf eine benutzerdefinierte Art und Weise verarbeiten, getrennt von der standardmäßigen Datenbankintegration.
 

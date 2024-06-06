@@ -6,9 +6,9 @@ feature: Core Components
 user-guide-description: Nutzen Sie die erweiterbaren Hauptkomponenten, damit Autoren bzw. Autorinnen mühelos Inhalte erstellen können.
 feature-set: Experience Manager Sites, Experience Manager Forms
 source-git-commit: d41cf56f3889ff6aa1bf6f753dc5331248d1ae2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '377'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -113,7 +113,7 @@ ht-degree: 97%
       + [Adaptive Formulare – Container](/help/adaptive-forms/components/form-container.md)
       + [Adaptive Formulare – Datumsauswahl](/help/adaptive-forms/components/date-picker.md)
       + [Adaptive Formulare – Dropdown-Liste](/help/adaptive-forms/components/drop-down-list.md)
-      + [Adaptive Forms Email](/help/adaptive-forms/components/email.md)
+      + [Adaptive Formulare – E-Mail](/help/adaptive-forms/components/email.md)
       + [Formularfragment für adaptive Formulare](/help/adaptive-forms/components/adaptive-form-fragment.md)
       + [Adaptive Formulare – Dateianlagen](/help/adaptive-forms/components/file-attachment.md)
       + [Adaptive Formulare – Vertikale Registerkarten](/help/adaptive-forms/components/vertical-tabs.md)
@@ -127,10 +127,10 @@ ht-degree: 97%
       + [Adaptive Formulare – Schaltfläche „Zurücksetzen“](/help/adaptive-forms/components/reset-button.md)
       + [Adaptive Formulare – Schaltfläche „Senden“](/help/adaptive-forms/components/submit-button.md)
       + [Adaptives Formular – Schalter](/help/adaptive-forms/components/adaptive-form-switch.md)
-      + [Adaptives Forms-Telefon](/help/adaptive-forms/components/phone.md)
+      + [Adaptive Formulare – Telefon](/help/adaptive-forms/components/phone.md)
       + [Adaptive Formulare – Text](/help/adaptive-forms/components/text.md)
       + [Adaptive Formulare – Textfeld](/help/adaptive-forms/components/text-box.md)
-      + [Titel des adaptiven Forms-Formulars](/help/adaptive-forms/components/form-title.md)
+      + [Adaptive Formulare – Formulartitel](/help/adaptive-forms/components/form-title.md)
       + [Adaptive Formulare – Assistent](/help/adaptive-forms/components/wizard.md)
       + [Adaptive Formulare – Nutzungsbedingungen](/help/adaptive-forms/components/terms-and-conditions.md)
       + [Kopfzeile](/help/adaptive-forms/components/header.md)

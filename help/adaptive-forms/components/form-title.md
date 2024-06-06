@@ -4,13 +4,13 @@ description: Verwenden oder Anpassen der Kernkomponente „Adaptive Formulare �
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
 source-git-commit: 8bba79956a04020647d5d04f9fe6fa674affedf1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '866'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Formularkomponente{#title-input-adaptive-forms-core-component}
+# Formulartitel-Komponente{#title-input-adaptive-forms-core-component}
 
 In einem adaptiven Formular bezieht sich ein „Titel“ auf den Text, der oben im Formular angezeigt wird, normalerweise unter der Kopfzeile. Der Titel wird mithilfe der Titelkomponente spezifiziert. Diese Komponente kann zum Formular-Layout hinzugefügt werden und ihr Text kann entsprechend dem Zweck oder Thema des Formulars bearbeitet werden. Der Titel dient Benutzenden als Bezeichnung kurze Beschreibung des Formulars und erleichtert die Unterscheidung des Formulars von anderen.
 
@@ -63,7 +63,7 @@ Im Dialogfeld „Konfigurieren“ können Sie den Titel einfach anpassen. Sie k�
 
 Im Dialogfeld „Bearbeiten“ kann der Inhaltsautor bzw. die Inhaltsautorin den Titeltext definieren sowie die Überschriftenebene auswählen.
 
-- **Titel** – Mit dem Titel können Sie eine Komponente in einem Formular leicht identifizieren. Standardmäßig wird der Titel oberhalb der Komponente angezeigt. Wenn Sie keinen Titel hinzufügen, wird der Name der Komponente anstelle des Titeltexts angezeigt.
+- **Titel**: Mit dem Titel können Sie eine Komponente in einem Formular leicht identifizieren. Standardmäßig wird der Titel oberhalb der Komponente angezeigt. Wenn Sie keinen Titel hinzufügen, wird der Name der Komponente anstelle des Titeltexts angezeigt.
 - **Typ/Größe** – Definiert die Überschriftenebene des Titels.
 - **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und in der Datenschicht.
    - Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
@@ -72,7 +72,7 @@ Im Dialogfeld „Bearbeiten“ kann der Inhaltsautor bzw. die Inhaltsautorin den
 
 ## Dialogfeld „Design“ {#design-dialog}
 
-Die Registerkarte &quot;Design&quot;wird zum Definieren und Verwalten von CSS-Stilen für die Formulartitel-Komponente verwendet.
+Die Registerkarte „Design“ wird verwendet, um CSS-Stile für die Formulartitel-Komponente zu definieren und zu verwalten.
 
 ### Titel
 
