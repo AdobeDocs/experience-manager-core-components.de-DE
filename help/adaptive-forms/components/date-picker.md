@@ -4,9 +4,9 @@ description: Verwenden oder Anpassen der Datumsauswahl-Kernkomponente in adaptiv
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
 source-git-commit: b4a66a407e92398a98441c65ab588b9720777dfa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2299'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -131,13 +131,13 @@ Sie können die Datumsauswahl im Dialogfeld „Konfigurieren“ einfach anpassen
 - **Anzeigeformat** – Stellt das Format dar, in dem das Datum angezeigt wird. Die Option **Typ** ermöglicht die Auswahl des Datumsformats. Sie können das Datumsformat auch mithilfe der Option **Benutzerdefiniert** im Dropdown-Menü **Typ** anpassen.
 
 - **Format bearbeiten** – Stellt ein Datumsformat dar, in dem das Datum bearbeitet werden kann. Die Option **Typ** ermöglicht die Auswahl des Datumsformats. Sie können das Datumsformat auch mithilfe der Option **Benutzerdefiniert** im Dropdown-Menü **Typ** anpassen.
-- **Fehlermeldung formatieren** - Mit dieser Option können Sie die auf dem Bildschirm angezeigte Nachricht eingeben, wenn das eingegebene Datum nicht das richtige Format aufweist.
-- **Sprache** - Diese Funktion wird zur Formatierung des spezifischen Felds verwendet. Wenn ein Benutzer eine Sprachoption aus der **Typ** Dropdown-Menü, die **IETF BCP 47-Sprach-Tag** im Bereich angezeigt. Sie können die Sprache für die Feldformatierung auswählen, wenn Sie ein adaptives Formular in eine bestimmte Sprache übersetzen.
+- **Fehlermeldung formatieren**: Mit dieser Option können Sie die auf dem Bildschirm angezeigte Nachricht eingeben, wenn das eingegebene Datum nicht das richtige Format aufweist.
+- **Sprache**: Diese Funktion wird zur Formatierung des spezifischen Felds verwendet. Wenn eine Benutzerin bzw. ein Benutzer eine Sprachoption aus dem Dropdown-Menü **Typ** auswählt, erscheint die Option **IETF BCP 47-Sprach-Tag** im Panel. Sie können die Sprache für die Feldformatierung wählen, wenn Sie ein adaptives Formular in eine bestimmte Sprache übersetzen.
 
-Der Sprachensatz ist standardmäßig nicht sichtbar, aber Benutzer können eine benutzerdefinierte **IETF BCP 47-Sprach-Tag** durch Aktualisierung der Vorlagenrichtlinie:
+Die Sprachauswahl ist standardmäßig nicht sichtbar, aber Benutzende können ein benutzerdefiniertes **IETF BCP 47-Sprach-Tag** eingeben, indem sie die Vorlagenrichtlinie aktualisieren:
 
-1. Öffnen Sie die entsprechende Vorlage, die mit einem adaptiven Formular verknüpft ist, im Vorlageneditor.
-2. Wählen Sie die vorhandene Richtlinie als `datepicker-default-policy` aus dem Dropdown-Menü.
+1. Öffnen Sie im Vorlageneditor die entsprechende Vorlage, die mit einem adaptiven Formular verknüpft ist.
+2. Wählen Sie die bestehende Richtlinie als `datepicker-default-policy` aus dem Dropdown-Menü.
 
    ![Richtlinie für Datumsauswahl-Vorlagen](/help/adaptive-forms/assets/date-picker-template-policy.png)
 
@@ -145,7 +145,7 @@ Der Sprachensatz ist standardmäßig nicht sichtbar, aber Benutzer können eine 
 
    >[!NOTE]
    >
-   > Weitere Informationen zur Übersetzung eines adaptiven Formulars in ein bestimmtes Gebietsschema finden Sie unter [Klicken Sie hier](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
+   > Weitere Informationen zur Übersetzung eines adaptiven Formulars in ein bestimmtes Gebietsschema finden Sie [hier](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
 
 ## Dialogfeld „Design“ {#design-dialog}
 
