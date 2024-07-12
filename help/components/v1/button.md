@@ -2,15 +2,15 @@
 title: Schaltflächenkomponente (v1)
 description: Die Kernkomponente „Schaltflächenkomponente“ ermöglicht die Erstellung und Anzeige einer Schaltfläche.
 role: Architect, Developer, Admin, User
-source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: ht
-source-wordcount: '412'
-ht-degree: 100%
+exl-id: 63af16e4-dd4d-426d-88ef-769ecd1b3175
+source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+workflow-type: tm+mt
+source-wordcount: '397'
+ht-degree: 98%
 
 ---
 
-
-# Schaltflächenkomponente  (v1) {#button-component}
+# Schaltflächenkomponente (v1) {#button-component}
 
 Die Kernkomponente „Schaltflächenkomponente“ ermöglicht die Erstellung und Anzeige eines Schaltflächen-Elements auf einer Seite.
 
@@ -49,13 +49,13 @@ Mit dem Dialogfeld „Konfigurieren“ kann der Inhaltsautor die Schaltfläche u
 
 ![Registerkarte „Eigenschaften“ im Dialogfeld „Design“ der Schaltflächenkomponente](/help/assets/button-edit-properties.png)
 
-* **Text** - Der Text, der auf der Schaltfläche angezeigt werden soll
+* **Text** – Der Text, der auf der Schaltfläche angezeigt werden soll
 * **Verknüpfung** - Link zu einer Inhaltsseite in AEM, einer externen Ressource oder einem Anker
    * Wählen Sie im Dialogfeld **Auswahl** einen Pfad in AEM aus.
-* **Symbol** - Bezeichner für die Anzeige eines Symbols auf der Schaltfläche
+* **Symbol** – Bezeichner für die Anzeige eines Symbols auf der Schaltfläche
 * **ID** - Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
    * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
-   * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
+   * Sofern eine ID angegeben wird, ist vom Autor bzw. der Autorin sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
 ### Registerkarte „Erreichbarkeit“ {#accessibility-tab}

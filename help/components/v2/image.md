@@ -4,8 +4,8 @@ description: Die Kernkomponente „Bildkomponente“ ist eine anpassungsfähige 
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
 source-git-commit: 6c251cd03997dca8961b31498c6f5de3cfdc3793
-workflow-type: ht
-source-wordcount: '2073'
+workflow-type: tm+mt
+source-wordcount: '2048'
 ht-degree: 100%
 
 ---
@@ -121,48 +121,48 @@ Das Dialogfeld „Bearbeiten“ ermöglicht dem Inhaltsautor das Zuschneiden, Ä
 
 * Zuschneiden beginnen
 
-   ![Symbol „Zuschneiden beginnen“](/help/assets/image-start-crop.png)
+  ![Symbol „Zuschneiden beginnen“](/help/assets/image-start-crop.png)
 
-   Wenn Sie diese Option auswählen, wird eine Dropdown-Liste für vordefinierte Zuschneideproportionen geöffnet.
+  Wenn Sie diese Option auswählen, wird eine Dropdown-Liste für vordefinierte Zuschneideproportionen geöffnet.
 
    * Wählen Sie die Option **Freihand**, um Ihre eigene Zuschnittsart zu definieren.
    * Wählen Sie **Beschnitt entfernen**, um das ursprüngliche Asset anzuzeigen.
 
-   Nachdem Sie eine Zuschnittoption ausgewählt haben, verwenden Sie die blauen Griffe, um die Beschneidung auf dem Bild anzupassen.
+  Nachdem Sie eine Zuschnittoption ausgewählt haben, verwenden Sie die blauen Griffe, um die Beschneidung auf dem Bild anzupassen.
 
-   ![Optionen für das Zuschneiden](/help/assets/image-crop-options.png)
+  ![Optionen für das Zuschneiden](/help/assets/image-crop-options.png)
 
 * Nach rechts drehen
 
-   ![Symbol „Nach rechts drehen“](/help/assets/image-rotate-right.png)
+  ![Symbol „Nach rechts drehen“](/help/assets/image-rotate-right.png)
 
-   Verwenden Sie diese Option, um das Bild um 90° nach rechts (im Uhrzeigersinn) zu drehen.
+  Verwenden Sie diese Option, um das Bild um 90° nach rechts (im Uhrzeigersinn) zu drehen.
 
 * Horizontal spiegeln
 
-   ![Symbol „Horizontal spiegeln“](/help/assets/image-flip-horizontal.png)
+  ![Symbol „Horizontal spiegeln“](/help/assets/image-flip-horizontal.png)
 
-   Verwenden Sie diese Option, um das Bild horizontal zu spiegeln oder um 180° entlang der y-Achse zu drehen.
+  Verwenden Sie diese Option, um das Bild horizontal zu spiegeln oder um 180° entlang der y-Achse zu drehen.
 
 * Vertikal spiegeln
 
-   ![Symbol „Vertikal spiegeln“](/help/assets/image-flip-vertical.png)
+  ![Symbol „Vertikal spiegeln“](/help/assets/image-flip-vertical.png)
 
-   Verwenden Sie diese Option, um das Bild vertikal zu spiegeln oder um 180° entlang der x-Achse zu drehen.
+  Verwenden Sie diese Option, um das Bild vertikal zu spiegeln oder um 180° entlang der x-Achse zu drehen.
 
 * Zoom zurücksetzen
 
-   ![Symbol „Zoom zurücksetzen“](/help/assets/image-reset-zoom.png)
+  ![Symbol „Zoom zurücksetzen“](/help/assets/image-reset-zoom.png)
 
-   Wenn das Bild bereits gezoomt wurde, verwenden Sie diese Option, um den Zoom-Grad zurückzusetzen.
+  Wenn das Bild bereits gezoomt wurde, verwenden Sie diese Option, um den Zoom-Grad zurückzusetzen.
 
 * Zoom-Regler öffnen
 
-   ![Symbol „Zoom-Regler öffnen“](/help/assets/image-zoom.png)
+  ![Symbol „Zoom-Regler öffnen“](/help/assets/image-zoom.png)
 
-   Mit dieser Option können Sie einen Schieberegler anzeigen, um den Zoom-Grad des Bildes zu steuern.
+  Mit dieser Option können Sie einen Schieberegler anzeigen, um den Zoom-Grad des Bildes zu steuern.
 
-   ![Steuerelement des Zoom-Reglers](/help/assets/image-zoom-slider.png)
+  ![Steuerelement des Zoom-Reglers](/help/assets/image-zoom-slider.png)
 
 Der Editor für die Bearbeitung im Kontext kann auch zum Ändern des Bildes verwendet werden. Aus Platzgründen sind nur einfache Optionen inline verfügbar. Für vollständige Bearbeitungsoptionen verwenden Sie den Vollbildmodus.
 
@@ -212,37 +212,37 @@ Auf der Registerkarte **Funktionen** können Sie festlegen, welche Optionen den 
 
 * Quelle
 
-   ![Registerkarte „Funktionen“ im Dialogfeld „Design“ der Bildkomponente](/help/assets/image-design-features-source.png)
+  ![Registerkarte „Funktionen“ im Dialogfeld „Design“ der Bildkomponente](/help/assets/image-design-features-source.png)
 
-   Wählen Sie die Option **Asset-Uploads aus Dateisystem zulassen**, damit Inhaltsautoren Bilder von ihrem lokalen Computer hochladen können. Wenn Sie erzwingen möchten, dass Autoren nur Assets aus AEM auswählen, wählen Sie diese Option ab.
+  Wählen Sie die Option **Asset-Uploads aus Dateisystem zulassen**, damit Inhaltsautoren Bilder von ihrem lokalen Computer hochladen können. Wenn Sie erzwingen möchten, dass Autoren nur Assets aus AEM auswählen, wählen Sie diese Option ab.
 
 * Ausrichtung
 
-   ![Registerkarte „Funktionen“ im Dialogfeld „Design“ der Bildkomponente](/help/assets/image-design-features-orientation.png)
+  ![Registerkarte „Funktionen“ im Dialogfeld „Design“ der Bildkomponente](/help/assets/image-design-features-orientation.png)
 
-* **Drehen** – Verwenden Sie diese Option, damit der Inhaltsautor die Option 
-**Nach rechts drehen** verwenden kann.
-* **Spiegeln** – Verwenden Sie diese Option, damit der Inhaltsautor die Optionen 
-**Horizontal spiegeln** und **Vertikal spiegeln** verwenden kann.
+* **Drehen**
+Verwenden Sie diese Option, damit der Inhaltsautor die Option **Rechts drehen** verwenden kann.
+* **Spiegeln**
+Verwenden Sie diese Option, damit der Inhaltsautor die Option **Horizontal spiegeln** und **Vertikal spiegeln** verwenden kann.
 
-   >[!CAUTION]
-   >
-   >Die Option **Spiegeln** ist standardmäßig deaktiviert. Durch Aktivieren werden im Dialogfeld „Bearbeiten“ der Bildkomponente die Felder **Vertikal spiegeln** und **Horizontal spiegeln** angezeigt. Die Funktion wird jedoch derzeit nicht von AEM unterstützt, und die Änderungen, die mit diesen Optionen vorgenommen werden, bleiben nicht erhalten.
+  >[!CAUTION]
+  >
+  >Die Option **Spiegeln** ist standardmäßig deaktiviert. Durch Aktivieren werden im Dialogfeld „Bearbeiten“ der Bildkomponente die Felder **Vertikal spiegeln** und **Horizontal spiegeln** angezeigt. Die Funktion wird jedoch derzeit nicht von AEM unterstützt, und die Änderungen, die mit diesen Optionen vorgenommen werden, bleiben nicht erhalten.
 
 * Beschneiden
 
-   ![Registerkarte „Funktionen“ im Dialogfeld „Design“ der Bildkomponente](/help/assets/image-design-features-cropping.png)
+  ![Registerkarte „Funktionen“ im Dialogfeld „Design“ der Bildkomponente](/help/assets/image-design-features-cropping.png)
 
-   Wählen Sie die Option **Beschneiden zulassen** aus, damit der Inhaltsautor das Bild in der Komponente im Dialogfeld „Bearbeiten“ beschneiden kann.
+  Wählen Sie die Option **Beschneiden zulassen** aus, damit der Inhaltsautor das Bild in der Komponente im Dialogfeld „Bearbeiten“ beschneiden kann.
    * Klicken Sie auf **Hinzufügen**, um ein vordefiniertes Bildseitenverhältnis hinzuzufügen.
    * Geben Sie einen beschreibenden Namen ein, der im Dropdown-Menü **Zuschneiden** angezeigt wird.
    * Geben Sie das numerische Seitenverhältnis des Bildes ein.
    * Verwenden Sie die Ziehpunkte, um die Reihenfolge der Seitenverhältnisse neu anzuordnen.
    * Verwenden Sie das Papierkorbsymbol, um ein Seitenverhältnis zu löschen.
 
-   >[!CAUTION]
-   >
-   >Beachten Sie, dass die Beschneidungsverhältnisse als **Höhe/Breite** definiert sind. Dies unterscheidet sich von der herkömmlichen Definition als Breite/Höhe und erfolgt aus Gründen der Legacy-Kompatibilität. Den Inhaltsautoren wird kein Unterschied bewusst werden, solange Sie einen klaren Namen für das Verhältnis angeben, da nur der Name in der Benutzeroberfläche angezeigt wird und nicht das Verhältnis selbst.
+  >[!CAUTION]
+  >
+  >Beachten Sie, dass die Beschneidungsverhältnisse als **Höhe/Breite** definiert sind. Dies unterscheidet sich von der herkömmlichen Definition als Breite/Höhe und erfolgt aus Gründen der Legacy-Kompatibilität. Den Inhaltsautoren wird kein Unterschied bewusst werden, solange Sie einen klaren Namen für das Verhältnis angeben, da nur der Name in der Benutzeroberfläche angezeigt wird und nicht das Verhältnis selbst.
 
 ### Registerkarte „Arten“ {#styles-tab-1}
 

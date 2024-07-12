@@ -3,7 +3,7 @@ title: Kernkomponente für adaptive Formulare – Registerkarten oben
 description: Verwenden oder Anpassen der Kernkomponente, durch die die Registerkarten in adaptiven Formularen oben angezeigt werden.
 role: Architect, Developer, Admin, User
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 100%
 

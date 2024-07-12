@@ -4,8 +4,8 @@ description: Die Kernkomponente „Download-Komponente“ ermöglicht die Erstel
 role: Architect, Developer, Admin, User
 exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
 source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
-workflow-type: ht
-source-wordcount: '758'
+workflow-type: tm+mt
+source-wordcount: '737'
 ht-degree: 100%
 
 ---
@@ -72,7 +72,7 @@ Die Auswahl eines Download-Assets ähnelt der Funktionalität der [Bildkomponent
    * **Inline anzeigen** - Wenn ausgewählt, wird der angegebene **Aktionstext** inline angezeigt.
 * **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
    * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
-   * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
+   * Sofern eine ID angegeben wird, ist vom Autor bzw. der Autorin sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
 ### Registerkarte „Arten“ {#styles-tab-edit}

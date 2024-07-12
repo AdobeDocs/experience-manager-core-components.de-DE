@@ -4,8 +4,8 @@ description: Lokalisierungsfunktionen der Kernkomponenten
 role: Architect, Developer, Admin, User
 exl-id: 9140b65a-6dd7-4ec9-9095-6e8243ec8424
 source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
-workflow-type: ht
-source-wordcount: '723'
+workflow-type: tm+mt
+source-wordcount: '716'
 ht-degree: 100%
 
 ---
@@ -93,7 +93,7 @@ Zu dieser Vorlage fügen wir die Standardkomponenten hinzu, auf denen unsere Sei
    * Wir weisen die Experience Fragment-Komponente dem Fragmentpfad des in unserer Autorensprache verfassten Fragments zu, das die Fußzeile enthält.
    * Basierend auf diesem Fragmentpfad und der Struktur der Experience Fragments, die die lokalisierte Seitenstruktur widerspiegeln, kann die Komponente den entsprechenden lokalisierten Inhalt dann automatisch finden.
 
-   ![](/help/assets/screen-shot-2019-09-09-11.20.10.png)
+  ![](/help/assets/screen-shot-2019-09-09-11.20.10.png)
 
 ## Seiten {#pages}
 

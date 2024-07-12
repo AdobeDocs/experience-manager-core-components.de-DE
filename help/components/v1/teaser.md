@@ -4,8 +4,8 @@ description: Die Teaser-Komponente kann ein Bild, einen Titel, Rich-Text und opt
 role: Architect, Developer, Admin, User
 exl-id: 48e56938-660a-43e7-9e62-8069283ae73f
 source-git-commit: 84e09fa64b3a7ae40ff3ff1a04ea1c7504db29d2
-workflow-type: ht
-source-wordcount: '745'
+workflow-type: tm+mt
+source-wordcount: '722'
 ht-degree: 100%
 
 ---
@@ -68,7 +68,7 @@ Der Inhaltsautor kann das Dialogfeld „Konfigurieren“ verwenden, um die Eigen
    * **Beschreibung von verknüpfter Seite übernehmen** - Bei Aktivierung dieser Option wird die Beschreibung mit der Beschreibung der verknüpften Seite ausgefüllt.
 * **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
    * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
-   * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
+   * Sofern eine ID angegeben wird, ist vom Autor bzw. der Autorin sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
 ### Verknüpfung und Aktionen {#links-actions}
@@ -91,10 +91,10 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Teaser-Optione
 ![Dialogfeld „Design“ der Teaser-Komponente](/help/assets/teaser-design.png)
 
 * **Aktionsaufrufe**
-   * **Aktionsaufrufe deaktivieren** - Blendet die Option **Aktionsaufrufe** für Inhaltsautoren aus.
+   * **Aktionsaufrufe deaktivieren** - Blendet die Option **Aktionsaufrufe** für Inhaltsautoren aus
 * **Elemente**
-   * **Vortitel ausblenden** - Blendet die Option **Vortitel** für Inhaltsautoren aus.
-   * **Titel ausblenden** - Blendet die Option **Titel** für Inhaltsautoren aus.
+   * **Vortitel ausblenden** - Blendet die Option **Vortitel** für Inhaltsautoren aus
+   * **Titel ausblenden** - Blendet die Option **Titel** für Inhaltsautoren aus
       * Bei Auswahl der Option wird der **Titeltyp** ausgeblendet.
    * **Beschreibung ausblenden** - Blendet die Option **Beschreibung** für Inhaltsautoren aus.
 * **Titeltyp** - Definiert das H-Tag, das vom Titel des Teasers verwendet werden soll.

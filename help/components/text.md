@@ -4,9 +4,9 @@ description: Die Textkomponente ist eine Komponente zur Bearbeitung und Zusammen
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
 source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
-workflow-type: ht
-source-wordcount: '2210'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '2180'
+ht-degree: 99%
 
 ---
 
@@ -31,7 +31,7 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 | v2 | Kompatibel mit<br>[Version 2.17.4](/help/versions.md) und vorherigen | Kompatibel | Kompatibel |
 | [v1](v1/text-v1.md) | Kompatibel | Kompatibel | Kompatibel |
 
-Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
+Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie im Dokument [Kernkomponentenversionen](/help/versions.md).
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
@@ -99,9 +99,9 @@ Wird verwendet, um ausgewählten Text oder Text, der nach dem Cursor eingegeben 
 
 ![Symbol „Als Text einfügen“](/help/assets/text-paste-text.png)
 
-Fügt einen kopierten Text als normalen Text ohne Formatierung ein.
+Fügt einen kopierten Text als unformatierten Text ein.
 
-Wenn Sie diese Option wählen, wird ein Fenster geöffnet, in dem der Text als normaler Text ohne Formatierung eingefügt werden kann, bevor er in den Text eingefügt wird. Akzeptieren durch Tippen oder Klicken auf das Häkchen, abbrechen durch Tippen oder Klicken auf das x.
+Wenn Sie diese Option wählen, wird ein Fenster geöffnet, in dem der Text als normaler Text ohne Formatierung eingefügt werden kann, bevor er in den Text eingefügt wird. Sie können diese Option durch Tippen oder Klicken auf das Häkchen akzeptieren oder den Vorgang durch Tippen oder Klicken auf das x abbrechen.
 
 ![Beispiel für „Als Text einfügen“](/help/assets/text-paste-text-example.png)
 
@@ -109,7 +109,7 @@ Wenn Sie diese Option wählen, wird ein Fenster geöffnet, in dem der Text als n
 
 ![Symbol „Aus Word einfügen“](/help/assets/text-paste-word.png)
 
-Wenn Sie diese Option wählen, wird ein Fenster geöffnet, in dem der formatierte Text als Vorschau eingefügt werden kann, bevor er in den Text eingefügt wird. Akzeptieren durch Tippen oder Klicken auf das Häkchen, abbrechen durch Tippen oder Klicken auf das x.
+Wenn Sie diese Option wählen, wird ein Fenster geöffnet, in dem der formatierte Text als Vorschau eingefügt werden kann, bevor er in den Text eingefügt wird. Sie können diese Option durch Tippen oder Klicken auf das Häkchen akzeptieren oder den Vorgang durch Tippen oder Klicken auf das x abbrechen.
 
 ![Beispiel für „Aus Word einfügen“](/help/assets/text-paste-word-example.png)
 
@@ -133,7 +133,7 @@ Mit dieser Option können Sie den ausgewählten Text in einen Hyperlink konverti
    * Übergeordneter Frame
    * Top-Frame
 
-   Tippen oder klicken Sie auf das Häkchen, um den Link anzuwenden, oder auf das x um abzubrechen.
+  Tippen oder klicken Sie auf das Häkchen, um den Link anzuwenden, oder auf das x um abzubrechen.
 
 ### Verknüpfung aufheben
 
@@ -249,7 +249,7 @@ Wird verwendet, um eine Tabelle in den Text einzufügen. Wenn Sie diese Option a
       * Die erste Zeile sollte verwendet werden
       * Die erste Spalte sollte verwendet werden
       * Die erste Zeile und erste Spalte sollten verwendet werden
-      * Oder es sollte keine Kopfzeile verwendet werden.
+      * Oder es sollte keine Kopfzeile verwendet werden
 * **Beschriftung** - Beschriftung der Tabelle
 
 ### Rechtschreibprüfung
@@ -307,7 +307,7 @@ Die Textkomponente kann auch inline bearbeitet werden, aufgrund von Platzbeschr�
 Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
 
 * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
-* Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
+* Sofern eine ID angegeben wird, ist vom Autor bzw. der Autorin sicherzustellen, dass diese eindeutig ist.
 * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
 ## Dialogfeld „Design“ {#design-dialog}
@@ -364,7 +364,7 @@ Die Option zum Einfügen von Sonderzeichen kann für die Komponente aktiviert od
 * Tippen oder klicken Sie auf die Schaltfläche **Hinzufügen**, um ein neues Zeichen einzufügen.
 * Geben Sie den HTML-Code des Zeichens und eine Beschreibung ein, die im Dialogfeld „Bearbeiten“ angezeigt wird.
 * Um ein Zeichen zu entfernen, tippen oder klicken Sie auf die Schaltfläche **Löschen**.
-* Um die Reihenfolge der Zeichen zu ändern, tippen oder klicken Sie und ziehen Sie die Griffe.
+* Um die Reihenfolge der Zeichen zu ändern, tippen oder klicken Sie auf die Griffe und ziehen Sie sie in die gewünschte Reihenfolge.
 
 ## Registerkarte „Arten“ {#styles-tab}
 

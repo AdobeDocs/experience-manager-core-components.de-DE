@@ -2,15 +2,15 @@
 title: Navigationskomponente (v1)
 description: Mit der Navigationskomponente können Benutzer leicht durch eine globalisierte Site-Struktur navigieren.
 role: Architect, Developer, Admin, User
-source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: ht
-source-wordcount: '1430'
-ht-degree: 100%
+exl-id: 0b7de79a-e0c7-4cf9-b5a9-c78cbc3ecd2f
+source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+workflow-type: tm+mt
+source-wordcount: '1424'
+ht-degree: 99%
 
 ---
 
-
-# Navigationskomponente  (v1) {#navigation-component}
+# Navigationskomponente (v1) {#navigation-component}
 
 Mit der Navigationskomponente können Benutzer leicht durch eine globalisierte Site-Struktur navigieren.
 
@@ -37,7 +37,7 @@ In diesem Dokument wird die v1 der Navigationskomponente beschrieben, die mit Ve
 Webseiten werden oft in verschiedenen Sprachen für verschiedene Regionen angeboten. Normalerweise enthält jede lokalisierte Seite ein Navigationselement, das als Teil der Seitenvorlage enthalten ist. Mit der Navigationskomponente können Sie sie einmal in einer Vorlage für alle Seiten Ihrer Site platzieren. Sie wird dann, basierend auf Ihrer globalisierten Site-Struktur, automatisch an die einzelnen lokalisierten Seiten angepasst.
 
 * Ein Beispiel dafür, wie die Lokalisierungsfunktion der Navigationskomponente funktioniert, finden Sie [unten](#example-localization).
-* Ein Beispiel dafür, wie die Lokalisierungsfunktionen der Kernkomponenten zusammenarbeiten, finden Sie auf der Seite [Kernkomponenten](/help/get-started/localization.md) unter „Lokalisierungsfunktionen“.
+* Ein Beispiel dafür, wie die Lokalisierungsfunktionen der Kernkomponenten zusammenarbeiten, finden Sie in den [Lokalisierungsfunktionen auf der Kernkomponenten-Seite](/help/get-started/localization.md).
 
 ### Beispiel {#example-localization}
 
@@ -142,7 +142,7 @@ Im Dialogfeld „Bearbeiten“ kann der Inhaltsautor die Stammseite für die Nav
 * **Schatten deaktivieren** - Wenn es sich bei der Seite in der Hierarchie um einen Redirect handelt, wird anstelle der Zielseite der Name der umleitenden (Redirect)-Seite angezeigt. Weitere Informationen finden Sie unter [Unterstützung für Shadow Site-Struktur](#shadow-structure).
 * **ID** - Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
    * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
-   * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
+   * Sofern eine ID angegeben wird, ist vom Autor bzw. der Autorin sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
 ### Registerkarte „Erreichbarkeit“ {#accessibility-tab}

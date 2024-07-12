@@ -5,8 +5,8 @@ index: n
 role: Architect, Developer, Admin, User
 exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
 source-git-commit: 5f25aee6ebcb7a5c6b8db0df5b8b853f15af97d0
-workflow-type: ht
-source-wordcount: '1323'
+workflow-type: tm+mt
+source-wordcount: '1293'
 ht-degree: 100%
 
 ---
@@ -86,7 +86,7 @@ Zusätzlich zum standardmäßigen [Dialogfeld „Bearbeiten“](#edit-dialog) un
    * Tippen oder klicken Sie auf **Löschen**, um das aktuell ausgewählte Bild zu deaktivieren.
    * Tippen oder klicken Sie auf **Bearbeiten**, um die [Ausgabedarstellungen des Assets](https://helpx.adobe.com/de/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19) im Asset-Editor zu verwalten.
 
-* **Bild ist dekorativ** - Überprüfen Sie, ob das Bild von Hilfstechnologien ignoriert werden soll und daher keinen alternativen Text erfordert. Dies gilt nur für dekorative Bilder.
+* **Bild ist dekorativ** – Überprüfen Sie, ob das Bild von Hilfstechnologien ignoriert werden soll und daher keinen alternativen Text erfordert. Dies gilt nur für dekorative Bilder.
 * **Alternativtext** - Textalternativen zur Bedeutung oder Funktion des Bildes für sehbeeinträchtigte Leser.
 * **Verknüpfung**
    * Verknüpfen Sie das Bild mit einer anderen Ressource.
@@ -104,28 +104,28 @@ Das Dialogfeld „Bearbeiten“ ermöglicht dem Inhaltsautor das Zuschneiden, Ä
 
 * Zuschneiden beginnen
 
-   ![](/help/assets/chlimage_1-9.png)
+  ![](/help/assets/chlimage_1-9.png)
 
-   Wenn Sie diese Option auswählen, wird eine Dropdown-Liste für vordefinierte Zuschneideproportionen geöffnet.
+  Wenn Sie diese Option auswählen, wird eine Dropdown-Liste für vordefinierte Zuschneideproportionen geöffnet.
 
    * Wählen Sie die Option **Freihand**, um Ihre eigene Zuschnittsart zu definieren.
    * Wählen Sie **Beschnitt entfernen**, um das ursprüngliche Asset anzuzeigen.
 
-   Nachdem Sie eine Zuschnittoption ausgewählt haben, verwenden Sie die blauen Griffe, um die Beschneidung auf dem Bild anzupassen.
+  Nachdem Sie eine Zuschnittoption ausgewählt haben, verwenden Sie die blauen Griffe, um die Beschneidung auf dem Bild anzupassen.
 
-   ![](/help/assets/chlimage_1-10.png)
+  ![](/help/assets/chlimage_1-10.png)
 
 * Nach rechts drehen
 
-   ![](/help/assets/chlimage_1-11.png)
+  ![](/help/assets/chlimage_1-11.png)
 
-   Verwenden Sie diese Option, um das Bild um 90° nach rechts (im Uhrzeigersinn) zu drehen.
+  Verwenden Sie diese Option, um das Bild um 90° nach rechts (im Uhrzeigersinn) zu drehen.
 
 * Startkarte
 
-   ![](/help/assets/chlimage_1-12.png)
+  ![](/help/assets/chlimage_1-12.png)
 
-   Verwenden Sie diese Option, um eine Startkarte auf das Bild anzuwenden. Wenn der Benutzer diese Option auswählt, wird ein neues Fenster geöffnet, in dem er die Form der Karte auswählen kann:
+  Verwenden Sie diese Option, um eine Startkarte auf das Bild anzuwenden. Wenn der Benutzer diese Option auswählt, wird ein neues Fenster geöffnet, in dem er die Form der Karte auswählen kann:
 
    * **Rechteckige Karte hinzufügen**
    * **Kreisdiagramm hinzufügen**
@@ -133,11 +133,11 @@ Das Dialogfeld „Bearbeiten“ ermöglicht dem Inhaltsautor das Zuschneiden, Ä
 
       * Standardmäßig wird eine Dreieckskarte hinzugefügt. Doppelklicken Sie auf eine Linie der Form, um zu einer neuen Seite einen neuen blauen Griff zur Größenanpassung hinzuzufügen.
 
-   Nachdem eine Karten-Form ausgewählt wurde, wird sie mit dem Bild überlagert, sodass die Größe geändert werden kenn. Ziehen Sie die blauen Größenänderungsgriffe per Drag-and-Drop, um die Form anzupassen.
+  Nachdem eine Karten-Form ausgewählt wurde, wird sie mit dem Bild überlagert, sodass die Größe geändert werden kenn. Ziehen Sie die blauen Größenänderungsgriffe per Drag-and-Drop, um die Form anzupassen.
 
-   ![](/help/assets/chlimage_1-13.png)
+  ![](/help/assets/chlimage_1-13.png)
 
-   Nachdem Sie die Größe der Startkarte angepasst haben, klicken Sie darauf, um eine schwebende Symbolleiste zu öffnen, um den Pfad des Links zu definieren.
+  Nachdem Sie die Größe der Startkarte angepasst haben, klicken Sie darauf, um eine schwebende Symbolleiste zu öffnen, um den Pfad des Links zu definieren.
 
    * **Pfad**
       * Verwenden Sie die Option „Pfadwähler“, um einen Pfad in AEM auszuwählen.
@@ -151,23 +151,23 @@ Alternative Beschreibung des Pfadziels
          * **Übergeordneter Frame**
          * **Top-Frame**
 
-   Tippen oder klicken Sie auf das blaue Häkchen zum Speichern, auf das schwarze X zum Abbrechen oder auf den roten Papierkorb, um die Karte zu löschen.
+  Tippen oder klicken Sie auf das blaue Häkchen zum Speichern, auf das schwarze X zum Abbrechen oder auf den roten Papierkorb, um die Karte zu löschen.
 
-   ![](/help/assets/chlimage_1-14.png)
+  ![](/help/assets/chlimage_1-14.png)
 
 * Zoom zurücksetzen
 
-   ![](/help/assets/chlimage_1-15.png)
+  ![](/help/assets/chlimage_1-15.png)
 
-   Wenn das Bild bereits gezoomt wurde, verwenden Sie diese Option, um den Zoom-Grad zurückzusetzen.
+  Wenn das Bild bereits gezoomt wurde, verwenden Sie diese Option, um den Zoom-Grad zurückzusetzen.
 
 * Zoom-Regler öffnen
 
-   ![](/help/assets/chlimage_1-16.png)
+  ![](/help/assets/chlimage_1-16.png)
 
-   Mit dieser Option können Sie einen Schieberegler anzeigen, um den Zoom-Grad des Bildes zu steuern.
+  Mit dieser Option können Sie einen Schieberegler anzeigen, um den Zoom-Grad des Bildes zu steuern.
 
-   ![](/help/assets/chlimage_1-17.png)
+  ![](/help/assets/chlimage_1-17.png)
 
 Der Editor für die Bearbeitung im Kontext kann auch zum Ändern des Bildes verwendet werden. Aus Platzgründen sind nur einfache Optionen inline verfügbar. Für vollständige Bearbeitungsoptionen verwenden Sie den Vollbildmodus.
 
@@ -208,35 +208,36 @@ Auf der Registerkarte **Funktionen** können Sie festlegen, welche Optionen den 
 
 * Quelle
 
-   ![](/help/assets/chlimage_1-19.png)
+  ![](/help/assets/chlimage_1-19.png)
 
-   Wählen Sie die Option **Asset-Uploads aus Dateisystem zulassen**, damit Inhaltsautoren Bilder von ihrem lokalen Computer hochladen können. Wenn Sie erzwingen möchten, dass Autoren nur Assets aus AEM auswählen, wählen Sie diese Option ab.
+  Wählen Sie die Option **Asset-Uploads aus Dateisystem zulassen**, damit Inhaltsautoren Bilder von ihrem lokalen Computer hochladen können. Wenn Sie erzwingen möchten, dass Autoren nur Assets aus AEM auswählen, wählen Sie diese Option ab.
 
 * Ausrichtung
 
-   ![](/help/assets/chlimage_1-20.png)
+  ![](/help/assets/chlimage_1-20.png)
 
-   * **Drehen** – Verwenden Sie diese Option, damit der Inhaltsautor die Option **Nach Rechts drehen** verwenden kann.
-   * **Spiegeln** – Verwenden Sie diese Option, damit der Inhaltsautor die Optionen 
-**Horizontal spiegeln** und **Vertikal spiegeln** verwenden kann.
-   >[!CAUTION]
-   >
-   >Die Option **Spiegeln** ist standardmäßig deaktiviert. Durch Aktivieren werden im Dialogfeld „Bearbeiten“ der Bildkomponente die Felder **Vertikal spiegeln** und **Horizontal spiegeln** angezeigt. Die Funktion wird jedoch derzeit nicht von AEM unterstützt, und die Änderungen, die mit diesen Optionen vorgenommen werden, bleiben nicht erhalten.
+   * **Drehen** - Verwenden Sie diese Option, damit der Inhaltsautor die Option **Nach Rechts drehen** verwenden kann.
+   * **Spiegeln**
+Verwenden Sie diese Option, damit der Inhaltsautor die Option **Horizontal spiegeln** und **Vertikal spiegeln** verwenden kann.
+
+  >[!CAUTION]
+  >
+  >Die Option **Spiegeln** ist standardmäßig deaktiviert. Durch Aktivieren werden im Dialogfeld „Bearbeiten“ der Bildkomponente die Felder **Vertikal spiegeln** und **Horizontal spiegeln** angezeigt. Die Funktion wird jedoch derzeit nicht von AEM unterstützt, und die Änderungen, die mit diesen Optionen vorgenommen werden, bleiben nicht erhalten.
 
 * Beschneiden
 
-   ![](/help/assets/chlimage_1-21.png)
+  ![](/help/assets/chlimage_1-21.png)
 
-   Wählen Sie die Option **Beschneiden zulassen** aus, damit der Inhaltsautor das Bild in der Komponente im Dialogfeld „Bearbeiten“ beschneiden kann.
+  Wählen Sie die Option **Beschneiden zulassen** aus, damit der Inhaltsautor das Bild in der Komponente im Dialogfeld „Bearbeiten“ beschneiden kann.
    * Klicken Sie auf **Hinzufügen**, um ein vordefiniertes Bildseitenverhältnis hinzuzufügen.
    * Geben Sie einen beschreibenden Namen ein, der im Dropdown-Menü **Zuschneiden** angezeigt wird.
    * Geben Sie das numerische Seitenverhältnis des Bildes ein.
    * Verwenden Sie die Ziehpunkte, um die Reihenfolge der Seitenverhältnisse neu anzuordnen.
    * Verwenden Sie das Papierkorbsymbol, um ein Seitenverhältnis zu löschen.
 
-   >[!CAUTION]
-   >
-   >Beachten Sie, dass die Beschneidungsverhältnisse als **Höhe/Breite** definiert sind. Dies unterscheidet sich von der herkömmlichen Definition als Breite/Höhe und erfolgt aus Gründen der Legacy-Kompatibilität. Den Inhaltsautoren wird kein Unterschied bewusst werden, solange Sie einen klaren Namen für das Verhältnis angeben, da nur der Name in der Benutzeroberfläche angezeigt wird und nicht das Verhältnis selbst.
+  >[!CAUTION]
+  >
+  >Beachten Sie, dass die Beschneidungsverhältnisse als **Höhe/Breite** definiert sind. Dies unterscheidet sich von der herkömmlichen Definition als Breite/Höhe und erfolgt aus Gründen der Legacy-Kompatibilität. Den Inhaltsautoren wird kein Unterschied bewusst werden, solange Sie einen klaren Namen für das Verhältnis angeben, da nur der Name in der Benutzeroberfläche angezeigt wird und nicht das Verhältnis selbst.
 
 ## Technische Details {#technical-details}
 

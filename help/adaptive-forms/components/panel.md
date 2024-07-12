@@ -4,7 +4,7 @@ description: Verwenden oder Anpassen der Kernkomponente „Bedienfeld-Container�
 role: Architect, Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2225'
 ht-degree: 100%
 
@@ -144,7 +144,7 @@ Verwenden Sie das Dialogfeld „Design“, um CSS-Stile für die Bedienfeld-Komp
 
 ![Registerkarte „Zugelassene Komponenten“ des Dialogfelds „Design“](/help/adaptive-forms/assets/panel-container-allowed-component.png)
 
-Mithilfe der Registerkarte **Zugelassene Komponenten** kann die Person, die die Vorlage erstellt, festlegen, welche Komponenten im Editor für adaptive Formulare als Elemente zu den Bedienfeldern in der Komponente hinzugefügt werden können.
+Über die Registerkarte **Zugelassene Komponenten** kann die Person, die die Vorlage bearbeitet, festlegen, welche Komponenten im Editor für adaptive Formulare als Elemente zu den Bedienfeldern in der Komponente hinzugefügt werden können.
 
 ### Registerkarte „Standardkomponenten“ {#default-components-tab}
 

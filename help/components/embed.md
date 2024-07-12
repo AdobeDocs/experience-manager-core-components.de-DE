@@ -4,8 +4,8 @@ description: Die Einbettungskomponente ermöglicht das Einbetten externer Inhalt
 role: Architect, Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
 source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
-workflow-type: ht
-source-wordcount: '1395'
+workflow-type: tm+mt
+source-wordcount: '1339'
 ht-degree: 100%
 
 ---
@@ -59,7 +59,7 @@ Wählen Sie zunächst, welcher Ressourcentyp eingebettet werden soll:
 Für jeden Typ von einbettbarem Element können Sie eine **ID** festlegen. Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
 
 * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
-* Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
+* Sofern eine ID angegeben wird, ist vom Autor bzw. der Autorin sicherzustellen, dass diese eindeutig ist.
 * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
 #### URL {#url}

@@ -4,8 +4,8 @@ description: Mit der Experience Fragment-Komponente kann der Inhaltsautor einer 
 role: Architect, Developer, Admin, User
 exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
 source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
-workflow-type: ht
-source-wordcount: '893'
+workflow-type: tm+mt
+source-wordcount: '885'
 ht-degree: 100%
 
 ---
@@ -47,7 +47,7 @@ In diesem Fall wird das Fragment mit derselben Lokalisierung (Sprache, Blueprint
 Dieses Verhalten ist auf Experience Fragment-Komponenten beschränkt, die zu Vorlagen hinzugefügt werden. Experience Fragment-Komponenten, die einzelnen Inhaltsseiten hinzugefügt werden, rendern die exakten Experience Fragment-Komponenten, die innerhalb der Komponente konfiguriert wurden.
 
 * Ein Beispiel dafür, wie die Lokalisierungsfunktion der Experience Fragment-Komponente funktioniert, finden Sie [unten](#example).
-* Ein Beispiel dafür, wie die Lokalisierungsfunktionen der Kernkomponenten zusammenarbeiten, finden Sie auf der Seite [Kernkomponenten](/help/get-started/localization.md) unter „Lokalisierungsfunktionen“.
+* Ein Beispiel dafür, wie die Lokalisierungsfunktionen der Kernkomponenten zusammenarbeiten, finden Sie in den [Lokalisierungsfunktionen auf der Kernkomponenten-Seite](/help/get-started/localization.md).
 
 ### Beispiel {#example}
 
@@ -126,7 +126,7 @@ Wenn Sie die Experience Fragment-Komponente zu einer Vorlage hinzufügen, wird s
 Sie können auch eine **ID** festlegen. Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
 
 * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
-* Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
+* Sofern eine ID angegeben wird, ist vom Autor bzw. der Autorin sicherzustellen, dass diese eindeutig ist.
 * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
 ### Registerkarte „Arten“ {#styles-tab-edit}

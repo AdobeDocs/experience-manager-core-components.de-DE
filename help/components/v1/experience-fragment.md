@@ -2,15 +2,15 @@
 title: Experience Fragment-Komponente (v1)
 description: Mit der Experience Fragment-Komponente kann der Inhaltsautor einer Seite eine Experience Fragment-Variation hinzufügen.
 role: Architect, Developer, Admin, User
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: ht
-source-wordcount: '780'
+exl-id: 42230a7b-6feb-4535-baf9-b8fc06978d98
+source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+workflow-type: tm+mt
+source-wordcount: '770'
 ht-degree: 100%
 
 ---
 
-
-# Experience Fragment-Komponente  (v1) {#experience-fragment-component}
+# Experience Fragment-Komponente (v1) {#experience-fragment-component}
 
 Mit der Kernkomponente „Experience Fragment-Komponente“ kann der Inhaltsautor eine Experience Fragment-Variante auf einer Seite platzieren, während er eine lokalisierte Site-Struktur unterstützt.
 
@@ -44,7 +44,7 @@ In diesem Fall wird das Fragment mit derselben Lokalisierung (Sprache, Blueprint
 Dieses Verhalten ist auf Experience Fragment-Komponenten beschränkt, die zu Vorlagen hinzugefügt werden. Experience Fragment-Komponenten, die einzelnen Inhaltsseiten hinzugefügt werden, rendern die exakten Experience Fragment-Komponenten, die innerhalb der Komponente konfiguriert wurden.
 
 * Ein Beispiel dafür, wie die Lokalisierungsfunktion der Experience Fragment-Komponente funktioniert, finden Sie [unten](#example).
-* Ein Beispiel dafür, wie die Lokalisierungsfunktionen der Kernkomponenten zusammenarbeiten, finden Sie auf der Seite [Kernkomponenten](/help/get-started/localization.md) unter „Lokalisierungsfunktionen“.
+* Ein Beispiel dafür, wie die Lokalisierungsfunktionen der Kernkomponenten zusammenarbeiten, finden Sie in den [Lokalisierungsfunktionen auf der Kernkomponenten-Seite](/help/get-started/localization.md).
 
 ### Beispiel {#example}
 
@@ -123,7 +123,7 @@ Wenn Sie die Experience Fragment-Komponente zu einer Vorlage hinzufügen, wird s
 Sie können auch eine **ID** festlegen. Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
 
 * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
-* Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
+* Sofern eine ID angegeben wird, ist vom Autor bzw. der Autorin sicherzustellen, dass diese eindeutig ist.
 * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
 ## Dialogfeld „Design“ {#design-dialog}

@@ -4,8 +4,8 @@ description: Die Kernkomponente „Listenkomponente“ ermöglicht die einfache 
 role: Architect, Developer, Admin, User
 exl-id: fa34be64-b345-45cd-baf3-571973414852
 source-git-commit: 241c86240377858a73f4a022368d428da9c11100
-workflow-type: ht
-source-wordcount: '1022'
+workflow-type: tm+mt
+source-wordcount: '1012'
 ht-degree: 100%
 
 ---
@@ -143,7 +143,7 @@ Maximale Anzahl der in der Liste angezeigten Elemente.
    * Leer lassen, um alle Elemente zurückzugeben.
 * **ID** - Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
    * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
-   * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
+   * Sofern eine ID angegeben wird, ist vom Autor bzw. der Autorin sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
 ### Registerkarte „Element-Einstellungen“ {#item-settings-tab}

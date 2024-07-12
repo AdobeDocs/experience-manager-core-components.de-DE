@@ -2,15 +2,15 @@
 title: Inhaltsfragmentlisten-Komponente (v1)
 description: Die Inhaltsfragmentlisten-Kernkomponente ermöglicht die Anzeige einer Liste von Inhaltsfragmenten.
 role: Architect, Developer, Admin, User
-source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: ht
-source-wordcount: '725'
-ht-degree: 100%
+exl-id: 37d6632d-360d-4081-8279-8efbb369a82e
+source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+workflow-type: tm+mt
+source-wordcount: '694'
+ht-degree: 96%
 
 ---
 
-
-# Inhaltsfragmentlisten-Komponente  (v1) {#content-fragment-list-component}
+# Inhaltsfragmentlisten-Komponente (v1) {#content-fragment-list-component}
 
 Die Inhaltsfragmentlisten-Kernkomponente ermöglicht die Anzeige einer Liste von [Inhaltsfragmenten](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=de).
 
@@ -67,7 +67,7 @@ Auf der Registerkarte **Eigenschaften** wird festgelegt, welche Inhaltsfragmente
    * Bei keinem Wert werden alle Elemente zurückgegeben.
 * **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
    * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
-   * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
+   * Sofern eine ID angegeben wird, ist vom Autor bzw. der Autorin sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
 >[!NOTE]
@@ -80,7 +80,7 @@ Standardmäßig werden alle Elemente des Inhaltsfragmentmodells in die Liste auf
 ![Registerkarte „Elemente“ im Dialogfeld „Bearbeiten“ der Inhaltsfragmentlisten-Komponente](/help/assets/content-fragment-list-elements.png)
 
 * **Elemente** - Es werden nur die Elemente der Inhaltsfragmente in der angegebenen Liste angezeigt.
-   * Klicken oder tippen Sie auf die Schaltfläche **Hinzufügen**, um ein neues Element hinzuzufügen..
+   * Klicken oder tippen Sie auf die Schaltfläche **Hinzufügen** , um ein neues Element hinzuzufügen.
    * Klicken oder tippen Sie auf die Schaltfläche **Löschen**, um ein ausgewähltes Element zu entfernen.
    * Ziehen Sie den Ziehgriff **Reihenfolge**, um die Reihenfolge der Elemente zu ändern.
 

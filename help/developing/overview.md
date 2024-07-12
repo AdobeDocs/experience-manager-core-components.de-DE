@@ -4,8 +4,8 @@ description: Die Kernkomponenten bieten leistungsfähige und erweiterbare Basisk
 role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
 source-git-commit: 614bc5fd01a76a6888606faa4576e1695b77ba58
-workflow-type: ht
-source-wordcount: '1559'
+workflow-type: tm+mt
+source-wordcount: '1287'
 ht-degree: 100%
 
 ---
@@ -22,14 +22,13 @@ Daher bietet Adobe folgende Empfehlungen:
 Neue Projekte sollten immer versuchen, Kernkomponenten zu verwenden. Wenn Kernkomponenten nicht direkt oder [erweitert](customizing.md) verwendet werden können, um die Projektanforderungen zu erfüllen, erstellen Sie eine benutzerdefinierte Komponente gemäß der Komponentenarchitektur, die in den Kernkomponenten festgelegt ist. Vermeiden Sie die Verwendung der [Foundation-Komponenten](/help/versions.md#foundation-component-support), sofern möglich.
 * **Existierende Projekte**
 Empfohlen wird, weiterhin die [Foundation-Komponenten](/help/versions.md#foundation-component-support) zu verwenden, es sei denn, es ist eine Refaktorierung von Sites oder Komponenten geplant.\
-   Da sie sehr häufig von den meisten vorhandenen Projekten verwendet werden, werden die Foundation-Komponenten [weiterhin unterstützt](/help/versions.md#foundation-component-support).
+  Da sie sehr häufig von den meisten vorhandenen Projekten verwendet werden, werden die Foundation-Komponenten [weiterhin unterstützt](/help/versions.md#foundation-component-support).
 * **Neue benutzerdefinierte Komponenten**
 Überprüfen Sie, ob eine vorhandene [Kernkomponente angepasst werden kann](customizing.md).\
-   Wenn nicht, wird empfohlen, eine neue benutzerdefinierte Komponente zu erstellen, die den [Komponentenrichtlinien](guidelines.md) folgt.
+  Wenn nicht, wird empfohlen, eine neue benutzerdefinierte Komponente zu erstellen, die den [Komponentenrichtlinien](guidelines.md) folgt.
 * **Vorhandene benutzerdefinierte Komponenten**
-Wenn Ihre Komponenten erwartungsgemäß funktionieren, behalten Sie sie unverändert bei.
-\
-   Falls nicht, siehe oben „Neue benutzerdefinierte Komponenten“.
+Wenn Ihre Komponenten erwartungsgemäß funktionieren, behalten Sie sie unverändert bei.\
+  Falls nicht, siehe oben „Neue benutzerdefinierte Komponenten“.
 
 ## So haben Sie Erfolg mit den Kernkomponenten {#how-to-succeed}
 

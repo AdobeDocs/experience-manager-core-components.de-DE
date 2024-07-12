@@ -4,8 +4,8 @@ description: '„Um mit Kernkomponenten in Ihrem eigenen Projekt produktiv zu we
 role: Architect, Developer, Admin, User
 exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
 source-git-commit: 8beae61676340e8aafaee469018d865ea7ed934e
-workflow-type: ht
-source-wordcount: '1008'
+workflow-type: tm+mt
+source-wordcount: '948'
 ht-degree: 100%
 
 ---

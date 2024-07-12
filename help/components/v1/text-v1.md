@@ -5,8 +5,8 @@ index: n
 role: Architect, Developer, Admin, User
 exl-id: c9fe3052-a33d-412e-9456-52c9a0cea292
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '1657'
+workflow-type: tm+mt
+source-wordcount: '1639'
 ht-degree: 100%
 
 ---
@@ -78,180 +78,181 @@ Das Dialogfeld „Bearbeiten“ bietet die standardmäßigen Rich-Text-Formatier
 
 * Fett
 
-   ![](/help/assets/chlimage_1-53.png)
+  ![](/help/assets/chlimage_1-53.png)
 
-   Wird verwendet, um eine fette Formatierung auf den ausgewählten Text anzuwenden oder den nach dem Cursor eingegebenen Text fett zu formatieren.
+  Wird verwendet, um eine fette Formatierung auf den ausgewählten Text anzuwenden oder den nach dem Cursor eingegebenen Text fett zu formatieren.
 
-   **Strg+B** kann als Tastaturbefehl verwendet werden.
+  **Strg+B** kann als Tastaturbefehl verwendet werden.
 
 * Kursiv
 
-   ![](/help/assets/chlimage_1-54.png)
+  ![](/help/assets/chlimage_1-54.png)
 
-   Wird verwendet, um eine kursive Formatierung auf den ausgewählten Text anzuwenden oder nach dem Cursor eingegebenen Text kursiv zu formatieren.
+  Wird verwendet, um eine kursive Formatierung auf den ausgewählten Text anzuwenden oder nach dem Cursor eingegebenen Text kursiv zu formatieren.
 
-   **Strg+I** kann als Tastaturbefehl verwendet werden.
+  **Strg+I** kann als Tastaturbefehl verwendet werden.
 
 * Unterstrichen
 
-   ![](/help/assets/chlimage_1-55.png)
+  ![](/help/assets/chlimage_1-55.png)
 
-   Wird verwendet, um eine unterstrichene Formatierung auf den ausgewählten Text anzuwenden oder Text, der nach dem Cursor eingegeben wird, zu unterstreichen.
+  Wird verwendet, um eine unterstrichene Formatierung auf den ausgewählten Text anzuwenden oder Text, der nach dem Cursor eingegeben wird, zu unterstreichen.
 
-   **Strg+U** kann als Tastaturbefehl verwendet werden.
+  **Strg+U** kann als Tastaturbefehl verwendet werden.
 
 * Tiefgestellt
 
-   ![](/help/assets/chlimage_1-56.png)
+  ![](/help/assets/chlimage_1-56.png)
 
-   Wird verwendet, um ausgewählten Text oder Text, der nach dem Cursor eingegeben wird, als tiefgestellt zu formatieren.
+  Wird verwendet, um ausgewählten Text oder Text, der nach dem Cursor eingegeben wird, als tiefgestellt zu formatieren.
 
 * Hochgestellt
 
-   ![](/help/assets/chlimage_1-57.png)
+  ![](/help/assets/chlimage_1-57.png)
 
-   Wird verwendet, um ausgewählten Text oder Text, der nach dem Cursor eingegeben wird, als hochgestellt zu formatieren.
+  Wird verwendet, um ausgewählten Text oder Text, der nach dem Cursor eingegeben wird, als hochgestellt zu formatieren.
 
 * Als Text einfügen
 
-   ![](/help/assets/chlimage_1-58.png)
+  ![](/help/assets/chlimage_1-58.png)
 
-   Fügt einen kopierten Text als normalen Text ohne Formatierung ein.
+  Fügt einen kopierten Text als normalen Text ohne Formatierung ein.
 
-   Wenn Sie diese Option wählen, wird ein Fenster geöffnet, in dem der Text als normaler Text ohne Formatierung eingefügt werden kann, bevor er in den Text eingefügt wird. Akzeptieren durch Tippen oder Klicken auf das Häkchen, abbrechen durch Tippen oder Klicken auf das x.
+  Wenn Sie diese Option wählen, wird ein Fenster geöffnet, in dem der Text als normaler Text ohne Formatierung eingefügt werden kann, bevor er in den Text eingefügt wird. Akzeptieren durch Tippen oder Klicken auf das Häkchen, abbrechen durch Tippen oder Klicken auf das x.
 
-   ![](/help/assets/chlimage_1-59.png)
+  ![](/help/assets/chlimage_1-59.png)
 
 * Aus Word einfügen
 
-   ![](/help/assets/chlimage_1-60.png)
+  ![](/help/assets/chlimage_1-60.png)
 
-   Wenn Sie diese Option wählen, wird ein Fenster geöffnet, in dem der formatierte Text als Vorschau eingefügt werden kann, bevor er in den Text eingefügt wird. Akzeptieren durch Tippen oder Klicken auf das Häkchen, abbrechen durch Tippen oder Klicken auf das x.
+  Wenn Sie diese Option wählen, wird ein Fenster geöffnet, in dem der formatierte Text als Vorschau eingefügt werden kann, bevor er in den Text eingefügt wird. Akzeptieren durch Tippen oder Klicken auf das Häkchen, abbrechen durch Tippen oder Klicken auf das x.
 
-   ![](/help/assets/chlimage_1-61.png)
+  ![](/help/assets/chlimage_1-61.png)
 
 * Hyperlink
 
-   ![](/help/assets/chlimage_1-62.png)
+  ![](/help/assets/chlimage_1-62.png)
 
-   Mit dieser Option können Sie den ausgewählten Text in einen Hyperlink konvertieren oder einen bereits definierten Link ändern. Diese Option ist nur aktiv, wenn bereits Text ausgewählt ist, und öffnet ein Fenster mit zusätzlichen Optionen zum Festlegen des Links.
+  Mit dieser Option können Sie den ausgewählten Text in einen Hyperlink konvertieren oder einen bereits definierten Link ändern. Diese Option ist nur aktiv, wenn bereits Text ausgewählt ist, und öffnet ein Fenster mit zusätzlichen Optionen zum Festlegen des Links.
 
-   ![](/help/assets/chlimage_1-63.png)
+  ![](/help/assets/chlimage_1-63.png)
 
    * Adresse eingeben
 
       * Wählen Sie im Dialogfeld „Auswahl öffnen“ einen Pfad in AEM aus.
       * Wenn sich der Link nicht in AEM befindet, geben Sie die absolute URL ein (nicht absolute Pfade werden als relativ zu AEM interpretiert)
+
    * Alternativen beschreibenden Text für den Link eingeben
    * Linkverhalten auswählen
 
-      * Target
+      * Ziel
       * Selbe Registerkarte
       * Neue Registerkarte
       * Übergeordneter Frame
       * Top-Frame
 
-   Tippen oder klicken Sie auf das Häkchen, um den Link anzuwenden, oder auf das x, um abzubrechen.
+  Tippen oder klicken Sie auf das Häkchen, um den Link anzuwenden, oder auf das x, um abzubrechen.
 
 * Verknüpfung aufheben
 
-   ![](/help/assets/chlimage_1-64.png)
+  ![](/help/assets/chlimage_1-64.png)
 
-   Mit dieser Option können Sie einen bereits auf den ausgewählten Text angewendeten Link entfernen. Diese Option ist nur aktiv, wenn bereits ein Link ausgewählt ist.
+  Mit dieser Option können Sie einen bereits auf den ausgewählten Text angewendeten Link entfernen. Diese Option ist nur aktiv, wenn bereits ein Link ausgewählt ist.
 
 * Suchen
 
-   ![](/help/assets/chlimage_1-65.png)
+  ![](/help/assets/chlimage_1-65.png)
 
-   Verwenden Sie diese Option, um den Text auf das Vorkommen einer angegebenen Textzeichenfolge zu durchsuchen. Wenn Sie diese Option auswählen, wird ein Fenster zum Festlegen der Suchoptionen geöffnet.
+  Verwenden Sie diese Option, um den Text auf das Vorkommen einer angegebenen Textzeichenfolge zu durchsuchen. Wenn Sie diese Option auswählen, wird ein Fenster zum Festlegen der Suchoptionen geöffnet.
 
-   ![](/help/assets/chlimage_1-66.png)
+  ![](/help/assets/chlimage_1-66.png)
 
-   Geben Sie den Text ein, nach dem Sie suchen möchten, und tippen oder klicken Sie auf **Suchen**, um die Suche zu starten. Tippen Sie auf das x, um abzubrechen.
+  Geben Sie den Text ein, nach dem Sie suchen möchten, und tippen oder klicken Sie auf **Suchen**, um die Suche zu starten. Tippen Sie auf das x, um abzubrechen.
 
-   Wenn Sie eine genaue Übereinstimmung der Groß- und Kleinschreibung möchten, wählen Sie die Option **Groß-/Kleinschreibung berücksichtigen**, bevor Sie die Suche starten.
+  Wenn Sie eine genaue Übereinstimmung der Groß- und Kleinschreibung möchten, wählen Sie die Option **Groß-/Kleinschreibung berücksichtigen**, bevor Sie die Suche starten.
 
-   Wenn eine Übereinstimmung gefunden wird, wird sie hervorgehoben und das Suchdialogfeld wird abgeblendet. Tippen oder klicken Sie im abgeblendeten Dialogfeld erneut auf die Schaltfläche **Suchen**, um nach dem nächsten Vorkommen zu suchen.
+  Wenn eine Übereinstimmung gefunden wird, wird sie hervorgehoben und das Suchdialogfeld wird abgeblendet. Tippen oder klicken Sie im abgeblendeten Dialogfeld erneut auf die Schaltfläche **Suchen**, um nach dem nächsten Vorkommen zu suchen.
 
-   ![](/help/assets/chlimage_1-67.png)
+  ![](/help/assets/chlimage_1-67.png)
 
-   Wenn keine weiteren Vorkommen gefunden werden, wird eine Meldung angezeigt und die Suche wird am Anfang des Texts neu gestartet.
+  Wenn keine weiteren Vorkommen gefunden werden, wird eine Meldung angezeigt und die Suche wird am Anfang des Texts neu gestartet.
 
-   ![](/help/assets/chlimage_1-68.png)
+  ![](/help/assets/chlimage_1-68.png)
 
 * Ersetzen
 
-   ![](/help/assets/chlimage_1-69.png)
+  ![](/help/assets/chlimage_1-69.png)
 
-   Verwenden Sie diese Option, um den Text nach dem Vorkommen einer angegebenen Textzeichenfolge zu durchsuchen und die Übereinstimmungen durch eine andere Zeichenfolge zu ersetzen. Wenn Sie diese Option auswählen, wird ein Fenster zum Festlegen der Optionen für Suchen und Ersetzen geöffnet.
+  Verwenden Sie diese Option, um den Text nach dem Vorkommen einer angegebenen Textzeichenfolge zu durchsuchen und die Übereinstimmungen durch eine andere Zeichenfolge zu ersetzen. Wenn Sie diese Option auswählen, wird ein Fenster zum Festlegen der Optionen für Suchen und Ersetzen geöffnet.
 
-   ![](/help/assets/chlimage_1-70.png)
+  ![](/help/assets/chlimage_1-70.png)
 
-   Geben Sie den Text ein, für den Sie eine Suche durchführen möchten, sowie den Text, durch den er ersetzt werden soll.
+  Geben Sie den Text ein, für den Sie eine Suche durchführen möchten, sowie den Text, durch den er ersetzt werden soll.
 
-   Tippen oder klicken Sie auf **Suchen**, um mit der Suche zu beginnen. Klicken oder tippen Sie auf das x, um abzubrechen.
+  Tippen oder klicken Sie auf **Suchen**, um mit der Suche zu beginnen. Klicken oder tippen Sie auf das x, um abzubrechen.
 
-   Wenn Sie eine genaue Übereinstimmung der Groß- und Kleinschreibung möchten, wählen Sie die Option **Groß-/Kleinschreibung berücksichtigen**, bevor Sie die Suche starten.
+  Wenn Sie eine genaue Übereinstimmung der Groß- und Kleinschreibung möchten, wählen Sie die Option **Groß-/Kleinschreibung berücksichtigen**, bevor Sie die Suche starten.
 
-   Wenn eine Übereinstimmung gefunden wird, wird sie hervorgehoben und das Suchdialogfeld wird abgeblendet. Klicken Sie erneut im abgeblendeten Dialogfeld auf die Schaltfläche **Suchen**, um nach dem nächsten Vorkommen zu suchen, oder klicken Sie auf **Ersetzen**, um den markierten, übereinstimmenden Text zu ersetzen. Beachten Sie, dass die Schaltfläche **Ersetzen** nur aktiv ist, nachdem der Suchtext gefunden wurde.
+  Wenn eine Übereinstimmung gefunden wird, wird sie hervorgehoben und das Suchdialogfeld wird abgeblendet. Klicken Sie erneut im abgeblendeten Dialogfeld auf die Schaltfläche **Suchen**, um nach dem nächsten Vorkommen zu suchen, oder klicken Sie auf **Ersetzen**, um den markierten, übereinstimmenden Text zu ersetzen. Beachten Sie, dass die Schaltfläche **Ersetzen** nur aktiv ist, nachdem der Suchtext gefunden wurde.
 
-   Wählen Sie **Alle ersetzen** aus, um alle Vorkommen des Texts gleichzeitig zu ersetzen.
+  Wählen Sie **Alle ersetzen** aus, um alle Vorkommen des Texts gleichzeitig zu ersetzen.
 
 * Text linksbündig ausrichten
 
-   ![](/help/assets/chlimage_1-71.png)
+  ![](/help/assets/chlimage_1-71.png)
 
-   Wird verwendet, um den Text am linken Rand auszurichten.
+  Wird verwendet, um den Text am linken Rand auszurichten.
 
 * Text zentrieren
 
-   ![](/help/assets/chlimage_1-72.png)
+  ![](/help/assets/chlimage_1-72.png)
 
-   Wird zum Zentrieren des Texts verwendet.
+  Wird zum Zentrieren des Texts verwendet.
 
 * Text rechtsbündig ausrichten
 
-   ![](/help/assets/chlimage_1-73.png)
+  ![](/help/assets/chlimage_1-73.png)
 
-   Wird verwendet, um den Text am rechten Rand auszurichten.
+  Wird verwendet, um den Text am rechten Rand auszurichten.
 
 * Aufzählungszeichen
 
-   ![](/help/assets/chlimage_1-74.png)
+  ![](/help/assets/chlimage_1-74.png)
 
-   Wird verwendet, um den ausgewählten Text als Liste mit Aufzählungszeichen zu formatieren oder eine Liste mit Aufzählungszeichen nach dem Cursor einzufügen.
+  Wird verwendet, um den ausgewählten Text als Liste mit Aufzählungszeichen zu formatieren oder eine Liste mit Aufzählungszeichen nach dem Cursor einzufügen.
 
-   Um eine Liste mit Aufzählungszeichen zu beenden, tippen oder klicken Sie erneut auf die Schaltfläche **Aufzählung** oder geben Sie zwei Zeilenumbrüche hintereinander ein.
+  Um eine Liste mit Aufzählungszeichen zu beenden, tippen oder klicken Sie erneut auf die Schaltfläche **Aufzählung** oder geben Sie zwei Zeilenumbrüche hintereinander ein.
 
 * Nummeriert
 
-   ![](/help/assets/chlimage_1-75.png)
+  ![](/help/assets/chlimage_1-75.png)
 
-   Wird verwendet, um den ausgewählten Text als nummerierte Liste zu formatieren oder eine nummerierte Liste nach dem Cursor einzufügen.
+  Wird verwendet, um den ausgewählten Text als nummerierte Liste zu formatieren oder eine nummerierte Liste nach dem Cursor einzufügen.
 
-   Um eine nummerierte Liste zu beenden, tippen oder klicken Sie erneut auf die Schaltfläche **Nummeriert** oder geben Sie zwei Zeilenumbrüche hintereinander ein.
+  Um eine nummerierte Liste zu beenden, tippen oder klicken Sie erneut auf die Schaltfläche **Nummeriert** oder geben Sie zwei Zeilenumbrüche hintereinander ein.
 
 * Ausrücken
 
-   ![](/help/assets/chlimage_1-76.png)
+  ![](/help/assets/chlimage_1-76.png)
 
-   Wird verwendet, um den Einzug des ausgewählten Texts oder des nach dem Cursor eingegebenen Texts zu verringern.
+  Wird verwendet, um den Einzug des ausgewählten Texts oder des nach dem Cursor eingegebenen Texts zu verringern.
 
-   Nur aktiv, wenn der ausgewählte Text bzw. die ausgewählte Position bereits eingerückt ist.
+  Nur aktiv, wenn der ausgewählte Text bzw. die ausgewählte Position bereits eingerückt ist.
 
 * Einzug
 
-   ![](/help/assets/chlimage_1-77.png)
+  ![](/help/assets/chlimage_1-77.png)
 
-   Wird verwendet, um den Einzug des ausgewählten Texts oder des nach dem Cursor eingegebenen Textes zu erhöhen.
+  Wird verwendet, um den Einzug des ausgewählten Texts oder des nach dem Cursor eingegebenen Textes zu erhöhen.
 
 * Tabelle
 
-   ![](/help/assets/chlimage_1-78.png)
+  ![](/help/assets/chlimage_1-78.png)
 
-   Wird verwendet, um eine Tabelle in den Text einzufügen. Wenn Sie diese Option auswählen, wird ein Fenster zum Festlegen der Details der Tabelle geöffnet.
+  Wird verwendet, um eine Tabelle in den Text einzufügen. Wenn Sie diese Option auswählen, wird ein Fenster zum Festlegen der Details der Tabelle geöffnet.
 
-   ![](/help/assets/chlimage_1-79.png)
+  ![](/help/assets/chlimage_1-79.png)
 
    * **Spalten** - Die Anzahl der Spalten der Tabelle (erforderlich)
    * **Zeilen** - Die Anzahl der Zeilen der Tabelle (erforderlich)
@@ -266,47 +267,47 @@ Das Dialogfeld „Bearbeiten“ bietet die standardmäßigen Rich-Text-Formatier
       * Die erste Spalte sollte verwendet werden
       * Die erste Zeile und erste Spalte sollten verwendet werden
       * Oder es sollte keine Kopfzeile verwendet werden.
-   * **Beschriftung** - Beschriftung der Tabelle
 
+   * **Beschriftung** - Beschriftung der Tabelle
 
 * Rechtschreibprüfung
 
-   ![](/help/assets/chlimage_1-80.png)
+  ![](/help/assets/chlimage_1-80.png)
 
-   Wird verwendet, um die Rechtschreibung des Textinhalts zu überprüfen. Mögliche Rechtschreibfehler sind durch gestrichelte rote Linien unterstrichen.
+  Wird verwendet, um die Rechtschreibung des Textinhalts zu überprüfen. Mögliche Rechtschreibfehler sind durch gestrichelte rote Linien unterstrichen.
 
 * Sonderzeichen
 
-   ![](/help/assets/chlimage_1-81.png)
+  ![](/help/assets/chlimage_1-81.png)
 
-   Wird verwendet, um Sonderzeichen in den Text einzufügen. Wenn Sie diese Option auswählen, wird ein Fenster geöffnet, in dem die verfügbaren Zeichen angezeigt werden.
+  Wird verwendet, um Sonderzeichen in den Text einzufügen. Wenn Sie diese Option auswählen, wird ein Fenster geöffnet, in dem die verfügbaren Zeichen angezeigt werden.
 
-   ![](/help/assets/chlimage_1-82.png)
+  ![](/help/assets/chlimage_1-82.png)
 
-   Tippen oder klicken Sie auf das gewünschte Zeichen, um es nach dem Cursor in den Text einzufügen. Es können mehrere Zeichen eingefügt werden. Tippen oder klicken Sie auf das x, um das Auswahlfenster zu schließen.
+  Tippen oder klicken Sie auf das gewünschte Zeichen, um es nach dem Cursor in den Text einzufügen. Es können mehrere Zeichen eingefügt werden. Tippen oder klicken Sie auf das x, um das Auswahlfenster zu schließen.
 
 * Quellenbearbeitung
 
-   ![](/help/assets/chlimage_1-83.png)
+  ![](/help/assets/chlimage_1-83.png)
 
-   Wird verwendet, um die HTML-Quelle des Texts anzuzeigen und zu ändern.
+  Wird verwendet, um die HTML-Quelle des Texts anzuzeigen und zu ändern.
 
-   Tippen oder klicken Sie auf das Symbol **Quellbearbeitung**, um den Inhalt des Texts statt in der formatierten Ansicht als rohe HTML anzuzeigen. In diesem Modus sind alle anderen Formatierungsoptionen deaktiviert. Tippen oder klicken Sie erneut auf das Symbol **Quellbearbeitung**, um zur formatierten Ansicht zurückzukehren.
+  Tippen oder klicken Sie auf das Symbol **Quellbearbeitung**, um den Inhalt des Texts statt in der formatierten Ansicht als rohe HTML anzuzeigen. In diesem Modus sind alle anderen Formatierungsoptionen deaktiviert. Tippen oder klicken Sie erneut auf das Symbol **Quellbearbeitung**, um zur formatierten Ansicht zurückzukehren.
 
-   >[!CAUTION]
-   >
-   >Wie immer bei Zugriff auf rohe HTML müssen Sie bei der Verwendung der Option **Quellbearbeitung** Vorsicht walten lassen!
-   >
-   >
-   >HTML, die über die **Quellbearbeitung** eingegeben wurde, wird auf XSS-Risiken überprüft und alle Skripte, die eingefügt werden, werden entfernt und nicht auf der resultierenden Seite angezeigt. Fehlerhafte HTML-Einträge, die in der **Quellbearbeitung** eingegeben wurden, können die Vorlage für die Seite durchbrechen, was zu unerwarteten Formatierungen führen oder die resultierende Seite unbrauchbar machen kann.
+  >[!CAUTION]
+  >
+  >Wie immer bei Zugriff auf rohe HTML müssen Sie bei der Verwendung der Option **Quellbearbeitung** Vorsicht walten lassen!
+  >
+  >
+  >HTML, die über die **Quellbearbeitung** eingegeben wurde, wird auf XSS-Risiken überprüft und alle Skripte, die eingefügt werden, werden entfernt und nicht auf der resultierenden Seite angezeigt. Fehlerhafte HTML-Einträge, die in der **Quellbearbeitung** eingegeben wurden, können die Vorlage für die Seite durchbrechen, was zu unerwarteten Formatierungen führen oder die resultierende Seite unbrauchbar machen kann.
 
 * Absatzformat
 
-   ![](/help/assets/chlimage_1-84.png)
+  ![](/help/assets/chlimage_1-84.png)
 
-   Wird verwendet, um Absatzformatierung auf den ausgewählten Text anzuwenden oder auf Text, der nach dem Cursor eingefügt wird. Durch Auswahl dieser Optionen wird eine Dropdown-Liste geöffnet, in der das Absatzformat ausgewählt ist.
+  Wird verwendet, um Absatzformatierung auf den ausgewählten Text anzuwenden oder auf Text, der nach dem Cursor eingefügt wird. Durch Auswahl dieser Optionen wird eine Dropdown-Liste geöffnet, in der das Absatzformat ausgewählt ist.
 
-   ![](/help/assets/chlimage_1-85.png)
+  ![](/help/assets/chlimage_1-85.png)
 
 Die Textkomponente kann auch inline bearbeitet werden, aufgrund von Platzbeschränkungen sind jedoch nicht alle Formatierungsoptionen inline verfügbar. Um alle Optionen anzuzeigen, wechseln Sie zum Vollbildmodus.
 

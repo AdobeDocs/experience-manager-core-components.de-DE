@@ -1,16 +1,16 @@
 ---
-title: Schnellsuch-Komponente  (v1)
+title: Schnellsuchkomponente (v1)
 description: Die Schnellsuch-Komponente bietet Suchfunktionen für eine Website und zeigt Suchergebnisse an, damit Besucher die Site durchsuchen und die Ergebnisse filtern können.
 role: Architect, Developer, Admin, User
 exl-id: 60a043b7-d82c-4bc1-b91a-b77f748f7bc2
 source-git-commit: ae2e1d0aaadbc0ad04847ce9aecb382e10cbedf1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '646'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
-# Schnellsuch-Komponente  (v1) {#quick-search-component}
+# Schnellsuchkomponente (v1) {#quick-search-component}
 
 Die Schnellsuch-Komponente bietet Suchfunktionen für eine Website und zeigt Suchergebnisse an, damit Besucher mühelos übereinstimmende Inhalte finden und Ergebnisse anzeigen können.
 
@@ -56,7 +56,7 @@ Im Dialogfeld „Bearbeiten“ kann der Verfasser des Inhalts festlegen, wo die 
 **Suchstamm** - Die Stammseite, von der aus die Suche gestartet werden soll. Der Suchstamm kann ein Blueprint-Master, ein Sprachen-Master oder eine normale Seite sein.
 * **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und in der [Datenschicht](/help/developing/data-layer/overview.md).
    * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
-   * Sofern eine ID angegeben wird, ist vom Autor sicherzustellen, dass diese eindeutig ist.
+   * Sofern eine ID angegeben wird, ist vom Autor bzw. der Autorin sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
 
 >[!NOTE]
@@ -69,7 +69,7 @@ Im Dialogfeld „Design“ kann der Vorlagenautor den Standardwert festlegen, an
 
 ### Registerkarte „Eigenschaften“ {#properties-tab}
 
-![Dialogfeld „Design“ der Schnellsuch-Komponente](/help/assets/quick-search-design.png)
+![Design-Dialog der Schnellsuch-Komponente](/help/assets/quick-search-design.png)
 
 * **Suchstamm**
 Der Standardwert des Suchstamms, wenn ein Inhaltsautor die Komponente „Schnellsuche“ auf einer Inhaltsseite platziert

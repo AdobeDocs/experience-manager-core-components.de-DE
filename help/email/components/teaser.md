@@ -4,8 +4,8 @@ description: Die E-Mail-Teaser-Komponente kann ein Bild, einen Titel, einen Rich
 role: Architect, Developer, Admin, User
 exl-id: d6123b22-7cba-406c-986d-b6f00322d135
 source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '999'
 ht-degree: 100%
 
 ---
@@ -110,10 +110,10 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Teaser-Optione
 * **Zulässige Überschriftenelemente** – Verwenden Sie die Dropdown-Liste, um festzulegen, welche HTML-Elemente von einem Autor bzw. einer Autorin für den Titeltyp des Teasers ausgewählt werden können.
 * **Standard-Überschriftenelement des Titels** – Das HTML-Standardelement für Überschriften, das für den Titeltyp des Teasers verwendet wird
 * **Aktionsaufrufe**
-   * **Aktionsaufrufe deaktivieren** - Blendet die Option **Aktionsaufrufe** für Inhaltsautoren aus.
+   * **Aktionsaufrufe deaktivieren** - Blendet die Option **Aktionsaufrufe** für Inhaltsautoren aus
 * **Elemente**
-   * **Vortitel ausblenden** - Blendet die Option **Vortitel** für Inhaltsautoren aus.
-   * **Titel ausblenden** - Blendet die Option **Titel** für Inhaltsautoren aus.
+   * **Vortitel ausblenden** - Blendet die Option **Vortitel** für Inhaltsautoren aus
+   * **Titel ausblenden** - Blendet die Option **Titel** für Inhaltsautoren aus
       * Bei Auswahl der Option wird der **Titeltyp** ausgeblendet.
    * **Titeltyp anzeigen**
    * **Beschreibung ausblenden** – Blendet die Option **Beschreibung** für Inhaltsautoren bzw. Inhaltsautorinnen aus.

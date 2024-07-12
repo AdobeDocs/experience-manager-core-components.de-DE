@@ -2,13 +2,13 @@
 title: Anpassen von Kernkomponenten für adaptive Formulare
 description: Erfahren Sie, wie Sie eine Kernkomponente für adaptive Formulare erweitern oder erstellen, um Funktionen zu implementieren, die auf Ihr Unternehmen zugeschnitten sind.
 role: Architect, Developer, Admin
-source-git-commit: 9a80b453d6a6cf7b347128654d3b5e673a063505
-workflow-type: ht
-source-wordcount: '707'
+exl-id: f3ab12aa-d48d-47e9-a965-15052cac6f18
+source-git-commit: 79cedf7099e2dc267a4cb1c25c06d4f0460367b2
+workflow-type: tm+mt
+source-wordcount: '562'
 ht-degree: 100%
 
 ---
-
 
 # Anpassen von Kernkomponenten für adaptive Formulare
 
@@ -57,4 +57,3 @@ Gehen Sie wie folgt vor, um das Erscheinungsbild, das Verhalten und die Funktion
 1. **Bereitstellen der benutzerdefinierten Komponente in Ihrer Produktionsumgebung**
 
    Stellen Sie die Komponente nach dem Testen in Ihrer lokalen Entwicklungsumgebung in Ihren Produktionsumgebungen bereit.
-

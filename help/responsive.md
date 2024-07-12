@@ -2,13 +2,13 @@
 title: Responsives Design der Kernkomponenten
 description: Erfahren Sie mehr über das responsive Design der Kernkomponenten und darüber, wie es sich auf Ihr Projekt auswirken kann.
 role: Architect, Developer, Admin, User
-source-git-commit: d39fe0084522f67664203a026340b23d325c1883
-workflow-type: ht
+exl-id: c0eff174-6803-4b44-aeb1-eae3bc8a36ea
+source-git-commit: 5f49fb45869d1721e16a787a2c6ff927b6ad49fe
+workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 100%
 
 ---
-
 
 # Responsives Design der Kernkomponenten {#responsive-design}
 
