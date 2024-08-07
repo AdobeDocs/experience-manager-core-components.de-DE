@@ -3,10 +3,10 @@ title: Textkomponente
 description: Die Textkomponente ist eine Komponente zur Bearbeitung und Zusammensetzung von Rich-Texten, die eine direkte Bearbeitung ermöglicht.
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
-source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
+source-git-commit: 418f1b6c967760d801d0973a35e0a31343ddca6b
 workflow-type: tm+mt
-source-wordcount: '2180'
-ht-degree: 99%
+source-wordcount: '2181'
+ht-degree: 98%
 
 ---
 
@@ -302,9 +302,9 @@ Die Textkomponente kann auch inline bearbeitet werden, aufgrund von Platzbeschr�
 
 ![Beispiel für die Inline-Bearbeitung](/help/assets/text-edit-inline-example.png)
 
-### Einstellung und ID {#setting-id}
+### Festlegen einer ID {#setting-id}
 
-Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
+Mit dieser Option können Sie die eindeutige Kennung der Komponente im HTML und auf der [Datenschicht](/help/developing/data-layer/overview.md) steuern.
 
 * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
 * Sofern eine ID angegeben wird, ist vom Autor bzw. der Autorin sicherzustellen, dass diese eindeutig ist.
