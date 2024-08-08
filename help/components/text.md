@@ -4,9 +4,9 @@ description: Die Textkomponente ist eine Komponente zur Bearbeitung und Zusammen
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
 source-git-commit: 418f1b6c967760d801d0973a35e0a31343ddca6b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2181'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -304,7 +304,7 @@ Die Textkomponente kann auch inline bearbeitet werden, aufgrund von Platzbeschr�
 
 ### Festlegen einer ID {#setting-id}
 
-Mit dieser Option können Sie die eindeutige Kennung der Komponente im HTML und auf der [Datenschicht](/help/developing/data-layer/overview.md) steuern.
+Diese Option ermöglicht es, die eindeutige Kennung der Komponente in HTML und in der [Datenschicht](/help/developing/data-layer/overview.md) festzulegen.
 
 * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
 * Sofern eine ID angegeben wird, ist vom Autor bzw. der Autorin sicherzustellen, dass diese eindeutig ist.
