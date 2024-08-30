@@ -3,10 +3,10 @@ title: Einführung zu Kernkomponenten für adaptive Formulare in AEM
 description: Erstellen Sie ansprechende Registrierungserlebnisse (Formulare) mit der Flexibilität der Kernkomponenten für adaptive Formulare und stellen Sie sie über Adobe Experience Manager bereit.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 4b05fb9d8db515289095f4d3c6a4efbe872dbde5
+source-git-commit: fd4debea8510b2ae415dd09847444ad96f3478d9
 workflow-type: tm+mt
-source-wordcount: '2229'
-ht-degree: 100%
+source-wordcount: '2205'
+ht-degree: 99%
 
 ---
 
@@ -80,7 +80,6 @@ Die aktuelle Version von AEM Forms enthält die folgenden Kernkomponenten: [Foun
 | Adaptives Formularfragment | ✔️ | ✔️ | | Für Foundation-Komponenten können Sie aus dem Asset-Browser [ein Fragment hinzufügen](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/forms/adaptive-forms-basic-authoring/adaptive-form-fragments#insert-a-fragment-in-an-adaptive-form). |
 | Adaptives Formular – reCAPTCHA | ✔️ | ✔️ | ✔️ | Verwenden Sie für Foundation-Komponenten die Captcha-Komponente, [um Google reCaptcha zu einem Formular hinzuzufügen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA). |
 | Schaltfläche | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/button.md)</span> | ✔️ | |
-| CAPTCHA | ✔️ |  |  | Verwenden Sie für Foundation-Komponenten die Captcha-Komponente, [um Google reCaptcha zu einem Formular hinzuzufügen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA). |
 | Diagramm | ✔️ | | | |
 | Kontrollkästchen | ✔️ | ✔️ | | |
 | Kontrollkästchengruppe | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/checkbox-group.md)</span> | ✔️ | Verwenden Sie für Foundation-Komponenten die Kontrollkästchen-Komponente, um mehrere Kontrollkästchen hinzuzufügen |
@@ -105,12 +104,11 @@ Die aktuelle Version von AEM Forms enthält die folgenden Kernkomponenten: [Foun
 | Panel | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/panel.md)</span> | ✔️ | |
 | Kennwortfeld | ✔️ | | ✔️ | |
 | Telefon / Mobiltelefon | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/phone.md)</span> | ✔️ | |
-| Schaltfläche „Zurück“ | ✔️ | | | Verwenden Sie die [Assistentenkomponente](/help/adaptive-forms/components/wizard.md) für die Schaltflächen „Weiter“ und „Zurück“, um zwischen mehreren Bedienfeldern zu wechseln. |
-| Optionsschaltfläche | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/radio-button.md)</span> | | |
-| Optionsfeldgruppe | | | ✔️ | |
+| Schaltfläche „Zurück“ | ✔️ | ✔️ | | Verwenden Sie die [Assistentenkomponente](/help/adaptive-forms/components/wizard.md) für die Schaltflächen „Weiter“ und „Zurück“, um zwischen mehreren Bedienfeldern zu wechseln. |
+| Optionsfeldgruppe | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/radio-button.md)</span> | ✔️ | |
 | Schaltfläche „Zurücksetzen“ | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/reset-button.md)</span> | ✔️ | |
 | Freihändige Unterschrift | ✔️ | | | |
-| Trennzeichen | ✔️ | | | |
+| Trennzeichen | ✔️ | | | WCM [Operator](/help/components/separator.md)-Komponente verwenden |
 | Schaltfläche „Senden“ | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/submit-button.md)</span> | ✔️ | |
 | Zusammenfassungsschritt | ✔️ | | | |
 | Schalter | ✔️ | <span style="color:blue"> [✔️](/help/adaptive-forms/components/adaptive-form-switch.md) | | |
@@ -118,7 +116,6 @@ Die aktuelle Version von AEM Forms enthält die folgenden Kernkomponenten: [Foun
 | Geschäftsbedingungen | ✔️ | ✔️ | | |
 | Text | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/text.md)</span> | ✔️ | |
 | Textfeld | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/text-box.md)</span> | ✔️ | |
-| Titel | ✔️ | | | Verwenden Sie für Kernkomponenten die [Formulartitel-Komponente](/help/adaptive-forms/components/form-title.md). |
 | Turnstile Captcha | ✔️ | | | [Turnstile Captcha](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile) ist nur für Foundation-Komponenten verfügbar. |
 | Vertikale Registerkarten | ✔️ | ✔️ | | Für Foundation-Komponenten können Sie das [Layout der Registerkarten links (vertikale Registerkarten)](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) in den Eigenschaften der Bedienfeldkomponenten konfigurieren |
 | Assistent | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/wizard.md)</span> | ✔️ | Für Foundation-Komponenten können Sie das [Assistenten-Layout](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) in den Eigenschaften der Bedienfeldkomponenten konfigurieren |
