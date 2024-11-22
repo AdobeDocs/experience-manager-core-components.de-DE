@@ -3,10 +3,10 @@ title: Kernkomponente „Dropdown-Liste“ für adaptive Formulare
 description: Verwenden oder Anpassen der Dropdown-Kernkomponente adaptiver Formulare.
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
 workflow-type: tm+mt
-source-wordcount: '2185'
-ht-degree: 100%
+source-wordcount: '2188'
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ Zusätzlich können Sie die Dropdown-Liste so konfigurieren, dass für jede Opti
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die Kernkomponente „Akkordeon“ für adaptive Formulare wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 für Cloud Service und der Kernkomponenten 1.1.12 für AEM 6.5.16.0 Forms oder höher veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
+Die Kernkomponente &quot;Adaptive Forms-Dropdownliste&quot;wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 für Cloud Service und Kernkomponenten 1.1.12 für AEM 6.5.16.0 Forms oder höher veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
 
 | Komponentenversion | AEM as a Cloud Service | AEM 6.5.16.0 Forms oder höher |
 |---|---|---|
@@ -62,6 +62,8 @@ Erfahren Sie die neuesten Informationen zur Kernkomponente „Dropdown-Liste“ 
 ## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
 Im Dialogfeld zum Konfigurieren der Dropdown-Liste finden Sie allgemeine Optionen zum Anpassen. Sie können auch Optionen für Dropdown-Listen definieren, um das Benutzererlebnis zu verbessern.
+
+### Registerkarte &quot;Allgemein&quot;
 
 ![Registerkarte „Allgemein“](/help/adaptive-forms/assets/dropdown_basictab.png)
 

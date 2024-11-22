@@ -3,10 +3,10 @@ title: Kernkomponente für adaptive Formulare – Texteingabe (Textfeld)
 description: Verwenden oder Anpassen der Texteingabe-Kernkomponente für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
 workflow-type: tm+mt
-source-wordcount: '2121'
-ht-degree: 100%
+source-wordcount: '2124'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ Es gibt mehrere Gründe für die Verwendung der Texteingabekomponente in einem a
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die Kernkomponente „Akkordeon“ für adaptive Formulare wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 für Cloud Service und der Kernkomponenten 1.1.12 für AEM 6.5.16.0 Forms oder höher veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
+Die Kernkomponente &quot;Adaptives Forms-Textfeld&quot;wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 für Cloud Service und Kernkomponenten 1.1.12 für AEM 6.5.16.0 Forms oder höher veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
 
 | Komponentenversion | AEM as a Cloud Service | AEM 6.5.16.0 Forms oder höher |
 |---|---|---|
@@ -50,6 +50,8 @@ Aktuelle Informationen zu Registerkarten in adaptiven Formularen der Haupt-Kernk
 ## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
 Mit dem Dialogfeld „Konfigurieren“ können das Besuchererlebnis bei der Texteingabe einfach anpassen. Sie können auch Optionen zur Texteingabe definieren, die für ein nahtloses Benutzererlebnis sorgen.
+
+### Registerkarte &quot;Allgemein&quot;
 
 ![Registerkarte „Allgemein“](/help/adaptive-forms/assets/textinput_basictab.png)
 

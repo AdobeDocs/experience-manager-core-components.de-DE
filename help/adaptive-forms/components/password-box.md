@@ -1,49 +1,48 @@
 ---
-title: Kernkomponente „Dateianhang“ von adaptiven Formularen
-description: Verwenden oder Anpassen der Kernkomponente „Dateianhang“ von adaptiven Formularen.
+title: Adaptive Forms-Kernkomponente - Kennwortfeld
+description: Verwenden oder Anpassen der Kernkomponente "Adaptives Forms-Kennwort".
 role: Architect, Developer, Admin, User
-exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: 724940e8fe7eb5cfe3dc4edf7568049c993b1255
+hide: true
+hidefromtoc: true
+source-git-commit: 86a30bc396d89340106177deb08323bfc5640e0e
 workflow-type: tm+mt
-source-wordcount: '2043'
-ht-degree: 93%
+source-wordcount: '1916'
+ht-degree: 90%
 
 ---
 
-# Dateianhang-Komponente {#file-attachment-adaptive-forms-core-component}
+# Komponente &quot;Kennwortfeld&quot;
 
-<span class="preview"> Die Funktion **Datentyp des gesendeten Werts** ist im Programm für frühe Benutzer verfügbar. Sie können von Ihrer offiziellen E-Mail-Adresse aus an aem-forms-ea@adobe.com schreiben, um dem Early-Adopter-Programm beizutreten und den Zugriff auf diese Funktion zu beantragen. </span>
+<span class="preview"> Dies ist eine Vorabveröffentlichungsfunktion, auf die über unseren [Vorabveröffentlichungskanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features) zugegriffen werden kann. </span>
 
-Durch Verwendung der Dateianhang-Komponente in einem adaptiven Formular können Benutzende Dateien von ihrem lokalen Computer oder Gerät auswählen und hochladen. Die Dateianhang-Komponente kann so konfiguriert werden, dass bestimmte Dateitypen, Größenbeschränkungen und mehrere Anhänge zulässig sind.
+Mit einer Komponente für Kennwortfelder können Benutzer vertrauliche Informationen eingeben und bearbeiten, die normalerweise für den Datenschutz maskiert sind. Die Kennwortkomponente kann mit verschiedenen Validierungsregeln konfiguriert werden, um die Genauigkeit der Daten sicherzustellen. In Formularen werden die Kennwortfelder häufig verwendet, um die Datensicherheit zu erhöhen.
 
 **Beispiel**
 
-![Beispiel](/help/adaptive-forms/assets/upload-image.png)
+![Beispiel von passwordbox](/help/adaptive-forms/assets/password.png)
 
+Der Benutzer kann auf das Augensymbol klicken, um die Sichtbarkeit des eingegebenen Kennworttextes zu ändern. Sie erhöht die Sicherheit und ermöglicht es Benutzern, vertrauliche Informationen korrekt einzugeben.
 
-## Verwendung {#reasons-to-use-file-attachment}
+## Verwendung
 
-Es gibt mehrere Gründe, warum es sinnvoll ist, eine Dateianhang-Komponente in einem adaptiven Formular zu verwenden, darunter:
+Es gibt mehrere Gründe für die Verwendung der Komponente &quot;Kennwortfeld&quot;in einem adaptiven Formular:
 
-- **Sammeln zusätzlicher Informationen**: Eine Dateianhang-Komponente ermöglicht es Benutzenden, Dokumente, Bilder, Videos oder andere Dateitypen im Zuge der Formularübermittlung hochzuladen. Dies kann für die Übermittlung von zusätzlichen Informationen nützlich sein, wie etwa von Lebensläufen, Informationsmaterialien oder Begleitunterlagen.
+- **Sichere Datenerfassung**: Das Feld &quot;Kennwort&quot;wird verwendet, um vertrauliche Informationen wie Passwörter, PINs und andere vertrauliche Einträge zu erfassen, die maskierte Zeichen für den Datenschutz anzeigen.
 
-- **Einfache Freigabe großer Dateien**: Die Dateianhang-Komponente ermöglicht es Benutzenden, große Dateien einfach für andere freizugeben, ohne auf externe File-Sharing-Dienste angewiesen zu sein.
+- **Benutzerfreundlich**: Das Kennwortfeld ermöglicht Benutzern die sichere Eingabe und Bearbeitung von Informationen, ohne diese auf dem Bildschirm verfügbar zu machen.
 
-- **Komfort**: Die Dateianhang-Komponente ermöglicht es Benutzenden, Dateien von ihrem lokalen Computer hochzuladen, ohne das Formular verlassen oder andere Tools verwenden zu müssen.
+- **Flexibilität**: Die Komponente &quot;Kennwortbox&quot;kann so konfiguriert werden, dass sie Sicherheitsanforderungen wie minimale Zeichenlängen, Sonderzeichen oder andere benutzerdefinierte Überprüfungen erfüllt, um einen starken Datenschutz und eine hohe Genauigkeit zu gewährleisten.
 
-- **Datenanalyse**: Die Dateianhang-Komponente kann verwendet werden, um Daten aus verschiedenen Quellen zu sammeln und zu analysieren oder als Eingabe für die weitere Verarbeitung zu verwenden.
+<!--
+## Version and Compatibility {#version-and-compatibility}
 
-- **Benutzererlebnis**: Die Dateianhang-Komponente kann verwendet werden, um das Formular benutzerfreundlicher zu gestalten, indem eine klare und intuitive Möglichkeit für Benutzende zum Hochladen von Dateien bereitgestellt wird.
+The Adaptive Forms Password box Core Component was released in Feb 2023 as part of the Core Components 2.0.4 for Cloud Service and Core Components 1.1.12 for AEM 6.5.16.0 Forms or later. Here's a table showing all supported versions, AEM compatibility, and links to corresponding documentation:
 
-## Version und Kompatibilität {#version-and-compatibility}
-
-Die Kernkomponente für adaptive Forms-Dateianlagen wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 für Cloud Service und Kernkomponenten 1.1.12 für AEM 6.5.16.0 Forms oder höher veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
-
-| Komponentenversion | AEM as a Cloud Service | AEM 6.5.16.0 Forms oder höher |
+|Component Version|AEM as a Cloud Service|AEM 6.5.16.0 Forms or later|
 |---|---|---|
-| v1 | Kompatibel mit<br>[Version 2.0.4](/help/adaptive-forms/version.md) und höher | Kompatibel mit<br>[Version 1.1.12](/help/adaptive-forms/version.md) und höher (aber nur bis Version 2.0.0). |
+|v1|Compatible with<br>[release 2.0.4](/help/adaptive-forms/version.md) and later| Compatible with<br>[release 1.1.12](/help/adaptive-forms/version.md) and later but less than 2.0.0.|
 
-Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokument [Kernkomponenten-Versionen](/help/adaptive-forms/version.md).
+For information on Core Component versions and releases, refer to the [Core Components Versions](/help/adaptive-forms/version.md) document.
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -51,15 +50,15 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Technische Details {#technical-details}
 
-Die neuesten Informationen zur Kernkomponente „Dateianhänge“ für adaptive Formulare finden Sie in der technischen Dokumentation zu [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/fileinput/v1/fileinput). Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Entwicklerdokumentation für Kernkomponenten](/help/developing/overview.md).
+Aktuelle Informationen zu Registerkarten in adaptiven Formularen der Haupt-Kernkomponente finden Sie in der technischen Dokumentation auf [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/textinput/v1/textinput). Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Entwicklerdokumentation für Kernkomponenten](/help/developing/overview.md).
 
 ## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
-Im Dialogfeld „Konfigurieren“ können Sie die Verwendung von Dateianhängen einfach anpassen. Sie können auch Optionen für den Dateianhang definieren, um das Benutzererlebnis zu verbessern.
+Mit dem Dialogfeld „Konfigurieren“ können das Besuchererlebnis bei der Texteingabe einfach anpassen. Sie können auch Optionen zur Texteingabe definieren, die für ein nahtloses Benutzererlebnis sorgen.
 
-### Registerkarte „Allgemein“ {#basic-tab}
+### Registerkarte &quot;Allgemein&quot;
 
-![Registerkarte „Allgemein“](/help/adaptive-forms/assets/fileattachement_basictab1.png)
+![Registerkarte „Allgemein“](/help/adaptive-forms/assets/password-basic.png)
 
 - **Name**: Sie können eine Formularkomponente sowohl im Formular als auch im Regeleditor durch ihren eindeutigen Namen identifizieren. Der Name darf keine Leerzeichen oder Sonderzeichen enthalten.
 
@@ -69,43 +68,45 @@ Im Dialogfeld „Konfigurieren“ können Sie die Verwendung von Dateianhängen 
 
   ![Rich-Text-Unterstützung](/help/adaptive-forms/assets/richtext-support-title.png)
 
-- **Titel ausblenden**: Wählen Sie diese Option aus, um den Titel der Komponente auszublenden.
+- **Titel ausblenden**: Wählen Sie die Option aus, um den Titel der Komponente auszublenden.
 
-- **Schaltflächentitel**: Diese Option wird verwendet, um die Beschriftung der Schaltfläche festzulegen, die in einem adaptiven Formular angezeigt wird.
+- **Platzhaltertext**: Platzhaltertext in einer Formularkomponente bezieht sich auf eine kurze Beschriftung oder Eingabeaufforderung, die in einem Eingabefeld angezeigt wird, um Benutzende darauf hinzuweisen, welcher Informationstyp in dieses Feld eingegeben werden soll. Der Platzhaltertext verschwindet, wenn Benutzende mit der Eingabe in das Feld beginnen, und erscheint wieder, wenn das Feld leer bleibt. Er stellt einen visuellen Hinweis für Benutzende bereit, fungiert jedoch nicht als permanente Beschriftung oder Wert für das Feld.
 - **Bindungsreferenz**: Eine Bindungsreferenz ist ein Verweis auf ein Datenelement, das in einer externen Datenquelle gespeichert ist und in einem Formular verwendet wird. Sie können mit dem Bindungsverweis Daten dynamisch an Formularfelder binden, sodass das Formular die aktuellsten Daten aus der Datenquelle anzeigen kann. Beispielsweise kann ein Bindungsverweis verwendet werden, um den Namen und die Adresse von Kundinnen und Kunden in einem Formular anzuzeigen, basierend auf der im Formular eingegebenen Kunden-ID. Der Bindungsverweis kann auch verwendet werden, um die Datenquelle mit den im Formular eingegebenen Daten zu aktualisieren. Auf diese Weise können Sie mit AEM Forms Formulare erstellen, die mit externen Datenquellen interagieren und so eine nahtlose Benutzererfahrung bei der Datenerfassung und Datenverwaltung bieten.
 - **Als ungebundenes Formularelement markieren**: Mit dieser Option können Sie Formularfelder konfigurieren, die mit keinem Schema verbunden sind. Mit dieser Option können Sie Daten speichern, ohne die Datenquelle zu aktualisieren. Außerdem können Sie damit Daten auf eine benutzerdefinierte Art und Weise verarbeiten, getrennt von der standardmäßigen Datenbankintegration.
-- **Datentyp des gesendeten Werts**: Wählen Sie die Option aus, um zu bestimmen, wie die angehängte Datei an den Server gesendet wird. Um den Anhang als Binärdaten zu senden, wählen Sie die Option `File` aus. Um den Anhang als Base64-kodierte Zeichenfolge zu senden, wählen Sie die Option `String` aus. Wenn `String` ausgewählt ist, wird die Datei im Binärformat als Daten-URL an den Server gesendet. Der Server konvertiert die Daten-URL automatisch wieder in das Binärformat, wodurch die Kompatibilität mit bestehenden Aktionen gewährleistet wird, z. B. dem Senden von E-Mails und dem Generieren des Datensatzdokuments, ohne dass Benutzer Änderungen vornehmen müssen. Standardmäßig ist die Option `File` ausgewählt.
+
 - **Komponente ausblenden**: Wählen Sie diese Option, um die Komponente aus dem Formular auszublenden. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor. Dies ist nützlich, wenn Sie Informationen speichern müssen, die Benutzende nicht sehen oder direkt ändern müssen.
+
 - **Komponente deaktivieren**: Wählen Sie die Option zum Deaktivieren der Komponente aus. Die deaktivierte Komponente ist nicht aktiv und Endbenutzende können sie nicht bearbeiten. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
+
 - **Schreibgeschützt**: Wählen Sie die Option aus, um die Komponente nicht bearbeitbar zu machen. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
-- **Mehrere Anhänge zulassen**: Wählen Sie diese Option aus, um zuzulassen, dass mit der Schaltfläche **Dateianhang** mehrere Anhänge hochgeladen werden können.
-- **Text ziehen und ablegen**: Dieser Text wird über der Schaltfläche **Anhängen** angezeigt, um Benutzende aufzufordern, Dateien entweder anzuhängen oder per Drag-and-Drop einzufügen. Sie haben die Möglichkeit, den oben auf der Schaltfläche **Anhängen** angezeigten Text anzupassen. Darüber hinaus können Sie den Text mithilfe des Rich-Text-Menüs formatieren.
 
 ### Registerkarte „Validierung“ {#validation-tab}
 
-![Registerkarte „Validierung“](/help/adaptive-forms/assets/fileattachment_validationtab.png)
+![Registerkarte „Validierung“](/help/adaptive-forms/assets/password-validation.png)
 
-- **Erforderlich**: Wählen Sie diese Option, wenn Sie die Komponente in einem adaptiven Formular anzeigen möchten. Nach Auswahl dieser Option müssen Sie Anhänge hinzufügen, bevor Sie mit der Formularübermittlung fortfahren. Wenn diese Option aktiviert ist, kann die Option **Komponente ausblenden** oder **Komponente deaktivieren** auf der Registerkarte **Allgemein** nicht ausgewählt werden.
+- **Erforderlich**: Wählen Sie diese Option, wenn Sie die Komponente in einem adaptiven Formular anzeigen möchten. Nach Auswahl der Option müssen Sie einen Wert eingeben, bevor Sie mit der Formularübermittlung fortfahren. Wenn diese Option aktiviert ist, kann die Option **Komponente ausblenden** oder **Komponente deaktivieren** auf der Registerkarte **Allgemein** nicht ausgewählt werden.
+
 - **Fehlermeldung**: Mit dieser Option können Sie eine Nachricht eingeben, die angezeigt wird, wenn das Kontrollkästchen **Erforderlich** aktiviert ist und das Feld leer bleibt.
 
-- **Meldung zur Skriptvalidierung**: Mit dieser Option können Sie eine Meldung eingeben, die angezeigt wird, wenn die Skriptvalidierung fehlschlägt.
+- **Skriptüberprüfungsmeldung**: Mit dieser Option können Sie eine Meldung eingeben, die angezeigt werden soll, wenn die Skriptüberprüfung fehlschlägt.
 
-<!--   **Minimum files error message** - This option is used to enter an error message that is displayed if you upload files lesser than the specified minimum number of files.-->
+- **Maximale Zeichenanzahl**: Mit dieser Option können Sie die maximal zulässige Anzahl von Zeichen angeben, die in der Komponente erlaubt sind. Wenn Sie Zeichen eingeben, die größer sind als der in **Maximale Zeichenanzahl** angegebene Wert, wird eine Fehlermeldung auf dem Bildschirm angezeigt. Über das Dialogfeld **Fehlermeldung zur maximalen Zeichenanzahl** können Sie eine benutzerdefinierte Fehlermeldung hinzufügen.
 
-- **Maximale Dateigröße (MB)** – Mit dieser Option können Sie eine maximale Dateigröße angeben. Die Dateigrößen sind in MB angegeben.
-  <!--   **Maximum files error message** - This option is used to enter an error message that is displayed if you upload files greater than the specified maximum number of files.-->
+- **Fehlermeldung zur maximalen Zeichenanzahl**: Über das Dialogfeld **Fehlermeldung zur maximalen Zeichenanzahl** können Sie eine benutzerdefinierte Fehlermeldung einfügen, wenn Sie mehr Zeichen eingeben, als in der Option **Maximale Zeichenanzahl** erlaubt.
 
-- **Fehlermeldung zur maximalen Dateigröße** – Mit dieser Option können Sie eine Fehlermeldung eingeben, die angezeigt wird, wenn Sie Dateien hochladen, deren Größe die in der Option **Maximale Dateigröße (MB)** angegebene Dateigröße überschreitet.
+- **Mindestanzahl von Zeichen**: Mit dieser Option können Sie die zulässige Mindestanzahl von Zeichen im Feld angeben. Wenn Sie Zeichen eingeben, die kleiner sind als der Wert in **Mindestanzahl von Zeichen**, wird eine Fehlermeldung auf dem Bildschirm angezeigt. Über das Dialogfeld **Fehlermeldung zur Mindestanzahl von Zeichen** können Sie eine benutzerdefinierte Fehlermeldung hinzufügen.
 
-- **Zulässige Dateitypen** – Hier werden die Dateitypen spezifiziert, die über die Schaltfläche **Dateianhang** hochgeladen werden können. Sie können auch ein neues Dateiformat hinzufügen, indem Sie auf die Schaltfläche **Hinzufügen** klicken. Unterstützte Dateiformate sind: Audio, Video, Bild, Text oder PDF. Sie können zulässige Dateitypen auch löschen oder neu anordnen, indem Sie Folgendes verwenden:
-   - **Löschen** – Durch Tippen oder Klicken können Sie bestimmte Dateitypen entfernen.
-   - **Neu anordnen** – Durch Tippen oder Klicken und Ziehen können Sie die Anordnung zulässiger Dateitypen verändern.
+- **Fehlermeldung zur Mindestanzahl von Zeichen**: Über das Dialogfeld **Fehlermeldung zur Mindestanzahl von Zeichen** können Sie eine benutzerdefinierte Fehlermeldung hinzufügen, wenn Sie weniger Zeichen eingeben, als der in der Option **Mindestanzahl von Zeichen** angegebene Wert.
 
-- **Dateityp-Fehlermeldung** – Mit dieser Option können Sie eine Fehlermeldung eingeben, die angezeigt wird, wenn Sie andere Dateiformate hochladen als diejenigen, die in der Option **Zulässige Dateitypen** aufgeführt sind.
+Die Option **Überprüfungsmuster** ermöglicht die Eingabe eines Musters zur Überprüfung des eingegebenen Texts. Falls der Text nicht mit dem in der Option **Muster** eingegebenen Wert übereinstimmt, wird die Fehlermeldung auf dem Bildschirm angezeigt.
+
+- **Muster**: Mit dieser Option können Sie die zulässigen Überprüfungsmuster für Text eingeben. Reguläre Ausdrücke sind ebenfalls zulässig.
+
+- **Fehlermeldung**: Sie können mit dieser Option eine Nachricht eingeben, die auf dem Bildschirm erscheint, wenn der eingegebene Text nicht mit dem in der Option **Muster** übereinstimmt
 
 ### Registerkarte „Hilfe-Inhalt“ {#help-content-tab}
 
-![Registerkarte „Hilfe-Inhalt“](/help/adaptive-forms/assets/fileattachement_helpcontenttab.png)
+![Registerkarte „Hilfe-Inhalt“](/help/adaptive-forms/assets/password-help.png)
 
 - **Kurzbeschreibung**: Eine Kurzbeschreibung ist eine kurze Erklärung, die zusätzliche Informationen oder Klarstellungen über den Zweck eines Formularfelds bietet. Es hilft Benutzenden zu verstehen, welcher Datentyp in das Feld eingegeben werden soll, und kann Richtlinien oder Beispiele bereitstellen, um sicherzustellen, dass die eingegebenen Informationen gültig sind und die gewünschten Kriterien erfüllen. Standardmäßig bleiben kurze Beschreibungen ausgeblendet. Aktivieren Sie die Option **Kurzbeschreibung immer anzeigen**, um sie unterhalb der Komponente anzuzeigen.
 
@@ -115,11 +116,9 @@ Im Dialogfeld „Konfigurieren“ können Sie die Verwendung von Dateianhängen 
 
 ### Registerkarte „Barrierefreiheit“ {#accessibility-tab}
 
-
-![Registerkarte „Barrierefreiheit“](/help/adaptive-forms/assets/fileattachement_accessibilitytab.png)
+![Registerkarte „Barrierefreiheit“](/help/adaptive-forms/assets/password-accessibilty.png)
 
 - **Text für Bildschirmlesehilfen** – Das ist zusätzlicher Text, der von Hilfstechnologien wie etwa Bildschirmlesehilfen für sehbehinderte Personen vorgelesen wird. Dieser Text enthält eine Audiobeschreibung des Zwecks des Formularfelds und kann Informationen über den Titel, die Beschreibung, den Namen und alle relevanten Nachrichten (benutzerdefinierten Text) des Felds enthalten. Der Text der Bildschirmlesehilfe hilft sicherzustellen, dass das Formular allen Benutzenden zugänglich ist, auch Personen mit Sehschwäche, und bietet ihnen ein umfassendes Verständnis des Formularfelds und seiner Anforderungen.
-
    - **Benutzerdefinierter Text**: Wählen Sie diese Option aus, um den benutzerdefinierten Text für ARIA-Barrierefreiheitsbeschriftungen zu verwenden. Wenn Sie diese Option auswählen, wird das Benutzerdefinierter Dialogfeld „Text“ angezeigt. Sie können relevante Informationen im Benutzerdefinierter Dialogfeld „Text“ hinzufügen.
    - **Beschreibung**: Wählen Sie diese Option aus, um die Beschreibung für ARIA-Barrierefreiheitsbeschriftungen zu verwenden.
    - **Titel**: Wählen Sie diese Option aus, um den Titel für ARIA-Barrierefreiheitsbeschriftungen zu verwenden.
@@ -128,21 +127,21 @@ Im Dialogfeld „Konfigurieren“ können Sie die Verwendung von Dateianhängen 
 
 ## Dialogfeld „Design“ {#design-dialog}
 
-Das Dialogfeld „Design“ wird verwendet, um CSS-Stile für die Komponente „Dateianhang“ zu definieren und zu verwalten.
+Das Dialogfeld „Design“ wird verwendet, um CSS-Stile für die Komponente „Textfeld“ zu definieren und zu verwalten.
 
 ### Registerkarte „Stile“ {#styles-tab}
 
-Die Kernkomponente „Dateianhänge“ für adaptive Formulare unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
+Sie können die Registerkarte zum Definieren und Verwalten von CSS-Stilen für eine Komponente verwenden. Die Kernkomponente „Textfeld“ für adaptive Formulare unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
-![Dialogfeld „Design“](/help/adaptive-forms/assets/checkbox-style.png)
+![Registerkarte „Stile“](/help/adaptive-forms/assets/datepicker_styletab.png)
 
-- **Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die Kernkomponente „Dateianhänge“ für adaptive Formulare bereitstellen.
+- **Standard-CSS-Klassen**: Sie können eine standardmäßige CSS-Klasse für die Textfeld-Kernkomponente für adaptive Formulare bereitstellen.
 
 - **Zulässige Stile**: Sie können Stile definieren, indem Sie den Namen und die CSS-Klasse für den Stil angeben. Sie können beispielsweise einen Stil mit dem Namen „Fettschrift“ erstellen und die CSS-Klasse „Schriftbreite: Fett“ bereitstellen. Sie können diese Stile bei einem adaptiven Formular im adaptiven Formular-Editor anwenden. Um einen Stil anzuwenden, wählen Sie im Editor für adaptive Formulare die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Eigenschaften-Dialog und wählen Sie den gewünschten Stil aus der Dropdown-Liste **Stile**. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld „Design“ zurück, aktualisieren die Stile auf der Registerkarte „Stile“ und speichern die Änderungen.
 
 ### Benutzerdefinierte Eigenschaften
 
-![Dialogfeld „Benutzerdefinierte Eigenschaften“](/help/adaptive-forms/assets/checkbox-customproperties.png)
+![Dialogfeld „Benutzerdefinierte Eigenschaften“](/help/adaptive-forms/assets/datepicker_customproperties.png)
 
 Mit der Option „Benutzerdefinierte Eigenschaften“ können Sie mithilfe der Formularvorlage benutzerdefinierte Attribute (Schlüsselwertpaare) mit einer Kernkomponente eines adaptiven Formulars verknüpfen. Die benutzerdefinierten Eigenschaften werden im Eigenschaftenbereich der Headless-Ausgabedarstellung der Komponente angezeigt. So kann ein dynamisches Formularverhalten erzeugt werden, das sich je nach den benutzerdefinierten Attributwerten anpasst. Beispielsweise können Entwickelnde verschiedene Ausgabedarstellungen einer Headless-Formularkomponente für Mobile-, Desktop- oder Web-Plattformen entwerfen und so das Benutzererlebnis auf einer Vielzahl von Geräten erheblich verbessern.
 
@@ -153,6 +152,13 @@ Mit der Option „Benutzerdefinierte Eigenschaften“ können Sie mithilfe der F
    - **Löschen**: Tippen oder klicken Sie auf diese Option, um den Namen und den Wert der benutzerdefinierten Eigenschaft zu löschen.
 
    - **Neu anordnen**: Ordnen Sie den Namen und Wert der benutzerdefinierten Eigenschaft Antippen oder Klicken und Ziehen neu an.
+
+### Registerkarte „Formate“ {#formats-tab}
+
+Auf der Registerkarte „Formate“ können Sie standardmäßige und benutzerdefinierte Datumsformate angeben.
+
+![Registerkarte „Format“](/help/adaptive-forms/assets/emailinput_formattab.png)
+
 <!--
 
 ## Related article {#related-article}

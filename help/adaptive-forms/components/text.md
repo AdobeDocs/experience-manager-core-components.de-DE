@@ -3,10 +3,10 @@ title: Kernkomponente für adaptive Formulare – Text
 description: Verwenden oder Anpassen der Kernkomponente Adaptive Formulare Text.
 role: Architect, Developer, Admin, User
 exl-id: b8de68e4-ca0d-4ae5-9a04-104cc617f1be
-source-git-commit: 8bba79956a04020647d5d04f9fe6fa674affedf1
+source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
 workflow-type: tm+mt
-source-wordcount: '996'
-ht-degree: 100%
+source-wordcount: '998'
+ht-degree: 96%
 
 ---
 
@@ -34,7 +34,7 @@ Es gibt mehrere Gründe, Text in einem Formular zu verwenden:
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die Kernkomponente „Akkordeon“ für adaptive Formulare wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 für Cloud Service und der Kernkomponenten 1.1.12 für AEM 6.5.16.0 Forms oder höher veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
+Die Adaptive Forms-Text-Kernkomponente wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 für Cloud Service und Kernkomponenten 1.1.12 für AEM 6.5.16.0 Forms oder höher veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
 
 | Komponentenversion | AEM as a Cloud Service | AEM 6.5.16.0 Forms oder höher |
 |---|---|---|
@@ -53,6 +53,8 @@ Aktuelle Informationen zur Text-Kernkomponente für adaptive Formulare finden Si
 ## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
 Sie können Ihr Texterlebnis für Besuchende im Dialogfeld „Konfigurieren“ einfach anpassen. Sie können auch problemlos Textoptionen für ein nahtloses Benutzererlebnis definieren.
+
+### Registerkarte &quot;Allgemein&quot;
 
 ![Registerkarte „Allgemein“](/help/adaptive-forms/assets/text_properties.png)
 
