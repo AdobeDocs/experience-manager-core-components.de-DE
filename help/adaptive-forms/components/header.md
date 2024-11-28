@@ -4,13 +4,13 @@ description: Verwenden oder Anpassen der Header-Kernkomponente für adaptive For
 role: Architect, Developer, Admin, User
 exl-id: aa18def9-0bec-4475-8dde-213860621ef5
 source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '674'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Header {#header-adaptive-forms-core-component}
+# Kopfzeile {#header-adaptive-forms-core-component}
 
 Eine Header-Komponente in einem adaptiven Formular ist ein Abschnitt am oberen Rand des Formulars, der normalerweise den Titel, das Logo oder den Namen des Formulars enthält. Sie können Header auch für andere Informationen verwenden, z. B. eine kurze Beschreibung des Zwecks des Formulars, den Namen der Organisation, die das Formular erstellt hat, oder Kontaktinformationen, um Hilfe zu dem Formular zu erhalten. Benutzende erhalten mit dem Header einen Überblick über das Formular und erhalten Kontext für die Informationen, die sie ausfüllen werden. Er wird verwendet, um Benutzenden zu helfen, den Zweck des Formulars zu verstehen und zu erfahren, wie es korrekt ausgefüllt werden kann.
 
@@ -32,7 +32,7 @@ Eine Header-Komponente in einem adaptiven Formular ist ein Abschnitt am oberen R
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die Kernkomponente &quot;Adaptive Forms-Kopfzeile&quot;wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 für Cloud Service und Kernkomponenten 1.1.12 für AEM 6.5.16.0 Forms oder höher veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
+Die Kernkomponente für den Header in adaptiven Formularen wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 für Cloud Service und der Kernkomponenten 1.1.12 für AEM 6.5.16.0 Forms oder höher veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
 
 | Komponentenversion | AEM as a Cloud Service | AEM 6.5.16.0 Forms oder höher |
 |---|---|---|

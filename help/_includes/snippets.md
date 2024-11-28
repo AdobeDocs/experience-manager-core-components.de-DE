@@ -1,8 +1,8 @@
 ---
 source-git-commit: 86a30bc396d89340106177deb08323bfc5640e0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '214'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 # Snippets {#snippets}
@@ -73,7 +73,7 @@ ht-degree: 99%
 - [Bild](/help/adaptive-forms/components/image.md)
 - [Numerisches Feld](/help/adaptive-forms/components/numeric-box.md)
   <!--- [Password Box](/help/adaptive-forms/components/password-box.md)-->
-- [Panel](/help/adaptive-forms/components/panel.md)
+- [Bedienfeld](/help/adaptive-forms/components/panel.md)
 - [Telefon](/help/adaptive-forms/components/phone.md)
 - [Horizontale Registerkarte](/help/adaptive-forms/components/horizontal-tabs.md)
 - [Vertikale Registerkarte](/help/adaptive-forms/components/vertical-tabs.md)

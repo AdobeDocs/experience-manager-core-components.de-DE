@@ -4,15 +4,15 @@ description: Verwenden oder Anpassen der Kernkomponente „Dateianhang“ von ad
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
 source-git-commit: 724940e8fe7eb5cfe3dc4edf7568049c993b1255
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2043'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # Dateianhang-Komponente {#file-attachment-adaptive-forms-core-component}
 
-<span class="preview"> Die Funktion **Datentyp des gesendeten Werts** ist im Programm für frühe Benutzer verfügbar. Sie können von Ihrer offiziellen E-Mail-Adresse aus an aem-forms-ea@adobe.com schreiben, um dem Early-Adopter-Programm beizutreten und den Zugriff auf diese Funktion zu beantragen. </span>
+<span class="preview"> Die Funktion **Datentyp des gesendeten Werts** ist im Rahmen des Early-Adopter-Programms verfügbar. Sie können von Ihrer offiziellen E-Mail-Adresse aus an aem-forms-ea@adobe.com schreiben, um dem Early-Adopter-Programm beizutreten und den Zugriff auf diese Funktion zu beantragen. </span>
 
 Durch Verwendung der Dateianhang-Komponente in einem adaptiven Formular können Benutzende Dateien von ihrem lokalen Computer oder Gerät auswählen und hochladen. Die Dateianhang-Komponente kann so konfiguriert werden, dass bestimmte Dateitypen, Größenbeschränkungen und mehrere Anhänge zulässig sind.
 
@@ -37,7 +37,7 @@ Es gibt mehrere Gründe, warum es sinnvoll ist, eine Dateianhang-Komponente in e
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die Kernkomponente für adaptive Forms-Dateianlagen wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 für Cloud Service und Kernkomponenten 1.1.12 für AEM 6.5.16.0 Forms oder höher veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
+Die Kernkomponente für Dateianhänge in adaptiven Formularen wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 für Cloud Service und der Kernkomponenten 1.1.12 für AEM 6.5.16.0 Forms oder höher veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
 
 | Komponentenversion | AEM as a Cloud Service | AEM 6.5.16.0 Forms oder höher |
 |---|---|---|
@@ -74,7 +74,7 @@ Im Dialogfeld „Konfigurieren“ können Sie die Verwendung von Dateianhängen 
 - **Schaltflächentitel**: Diese Option wird verwendet, um die Beschriftung der Schaltfläche festzulegen, die in einem adaptiven Formular angezeigt wird.
 - **Bindungsreferenz**: Eine Bindungsreferenz ist ein Verweis auf ein Datenelement, das in einer externen Datenquelle gespeichert ist und in einem Formular verwendet wird. Sie können mit dem Bindungsverweis Daten dynamisch an Formularfelder binden, sodass das Formular die aktuellsten Daten aus der Datenquelle anzeigen kann. Beispielsweise kann ein Bindungsverweis verwendet werden, um den Namen und die Adresse von Kundinnen und Kunden in einem Formular anzuzeigen, basierend auf der im Formular eingegebenen Kunden-ID. Der Bindungsverweis kann auch verwendet werden, um die Datenquelle mit den im Formular eingegebenen Daten zu aktualisieren. Auf diese Weise können Sie mit AEM Forms Formulare erstellen, die mit externen Datenquellen interagieren und so eine nahtlose Benutzererfahrung bei der Datenerfassung und Datenverwaltung bieten.
 - **Als ungebundenes Formularelement markieren**: Mit dieser Option können Sie Formularfelder konfigurieren, die mit keinem Schema verbunden sind. Mit dieser Option können Sie Daten speichern, ohne die Datenquelle zu aktualisieren. Außerdem können Sie damit Daten auf eine benutzerdefinierte Art und Weise verarbeiten, getrennt von der standardmäßigen Datenbankintegration.
-- **Datentyp des gesendeten Werts**: Wählen Sie die Option aus, um zu bestimmen, wie die angehängte Datei an den Server gesendet wird. Um den Anhang als Binärdaten zu senden, wählen Sie die Option `File` aus. Um den Anhang als Base64-kodierte Zeichenfolge zu senden, wählen Sie die Option `String` aus. Wenn `String` ausgewählt ist, wird die Datei im Binärformat als Daten-URL an den Server gesendet. Der Server konvertiert die Daten-URL automatisch wieder in das Binärformat, wodurch die Kompatibilität mit bestehenden Aktionen gewährleistet wird, z. B. dem Senden von E-Mails und dem Generieren des Datensatzdokuments, ohne dass Benutzer Änderungen vornehmen müssen. Standardmäßig ist die Option `File` ausgewählt.
+- **Datentyp des gesendeten Werts**: Wählen Sie die Option aus, um zu bestimmen, wie die angehängte Datei an den Server gesendet wird. Um den Anhang als Binärdaten zu senden, wählen Sie die Option `File` aus. Um den Anhang als Base64-codierte Zeichenfolge zu senden, wählen Sie die Option `String` aus. Wenn `String` ausgewählt ist, wird die Datei im Binärformat als Daten-URL an den Server gesendet. Der Server konvertiert die Daten-URL automatisch wieder in das Binärformat, wodurch die Kompatibilität mit bestehenden Aktionen gewährleistet wird, z. B. dem Senden von E-Mails und dem Generieren des Nachweises, ohne dass Benutzende Änderungen vornehmen müssen. Standardmäßig ist die Option `File` ausgewählt.
 - **Komponente ausblenden**: Wählen Sie diese Option, um die Komponente aus dem Formular auszublenden. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor. Dies ist nützlich, wenn Sie Informationen speichern müssen, die Benutzende nicht sehen oder direkt ändern müssen.
 - **Komponente deaktivieren**: Wählen Sie die Option zum Deaktivieren der Komponente aus. Die deaktivierte Komponente ist nicht aktiv und Endbenutzende können sie nicht bearbeiten. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
 - **Schreibgeschützt**: Wählen Sie die Option aus, um die Komponente nicht bearbeitbar zu machen. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.

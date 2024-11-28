@@ -4,9 +4,9 @@ description: Verwenden oder Anpassen der Kontrollkästchen-Kernkomponente für a
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
 source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1838'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Aktuelle Informationen zur Kontrollkästchen-Kernkomponente für adaptive Formul
 
 Im Dialogfeld „Konfigurieren“ können Sie das Kontrollkästchen-Erlebnis für die Besucherinnen und Besucher einfach anpassen. Sie können auch einfache Kontrollkästchen-Optionen für ein nahtloses Benutzererlebnis definieren.
 
-### Registerkarte &quot;Allgemein&quot;
+### Registerkarte „Allgemein“
 
 ![Registerkarte „Allgemein“](/help/adaptive-forms/assets/checkbox-basic.png)
 

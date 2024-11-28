@@ -1,37 +1,37 @@
 ---
-title: Adaptive Forms-Kernkomponente - Kennwortfeld
-description: Verwenden oder Anpassen der Kernkomponente "Adaptives Forms-Kennwort".
+title: Kernkomponente für adaptive Formulare – Kennwortfeld
+description: Verwendung oder Anpassung der Kernkomponente „Kennwortfeld“ in adaptiven Formularen.
 role: Architect, Developer, Admin, User
 hide: true
 hidefromtoc: true
 source-git-commit: 86a30bc396d89340106177deb08323bfc5640e0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1916'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
-# Komponente &quot;Kennwortfeld&quot;
+# Komponente „Kennwortfeld“
 
 <span class="preview"> Dies ist eine Vorabveröffentlichungsfunktion, auf die über unseren [Vorabveröffentlichungskanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features) zugegriffen werden kann. </span>
 
-Mit einer Komponente für Kennwortfelder können Benutzer vertrauliche Informationen eingeben und bearbeiten, die normalerweise für den Datenschutz maskiert sind. Die Kennwortkomponente kann mit verschiedenen Validierungsregeln konfiguriert werden, um die Genauigkeit der Daten sicherzustellen. In Formularen werden die Kennwortfelder häufig verwendet, um die Datensicherheit zu erhöhen.
+Eine Komponente „Kennwortfeld“ ermöglicht es Benutzenden, sensible Informationen einzugeben und zu bearbeiten, die normalerweise aus Datenschutzgründen maskiert sind. Die Kennwortkomponente kann mit verschiedenen Validierungsregeln konfiguriert werden, um die Genauigkeit der Daten sicherzustellen. In Formularen werden die Kennwortfelder häufig verwendet, um die Datensicherheit zu erhöhen.
 
 **Beispiel**
 
-![Beispiel von passwordbox](/help/adaptive-forms/assets/password.png)
+![Beispiel eines Kennwortfelds](/help/adaptive-forms/assets/password.png)
 
-Der Benutzer kann auf das Augensymbol klicken, um die Sichtbarkeit des eingegebenen Kennworttextes zu ändern. Sie erhöht die Sicherheit und ermöglicht es Benutzern, vertrauliche Informationen korrekt einzugeben.
+Die Benutzenden können auf das Augensymbol klicken, um die Sichtbarkeit des eingegebenen Kennworts umzuschalten. Dies erhöht die Sicherheit und ermöglicht es den Benutzenden, vertrauliche Informationen korrekt einzugeben.
 
 ## Verwendung
 
-Es gibt mehrere Gründe für die Verwendung der Komponente &quot;Kennwortfeld&quot;in einem adaptiven Formular:
+Es gibt mehrere Gründe für die Verwendung einer Komponente „Kennwortfeld“ in einem adaptiven Formular:
 
-- **Sichere Datenerfassung**: Das Feld &quot;Kennwort&quot;wird verwendet, um vertrauliche Informationen wie Passwörter, PINs und andere vertrauliche Einträge zu erfassen, die maskierte Zeichen für den Datenschutz anzeigen.
+- **Sichere Datenerfassung**: Das Kennwortfeld wird zur Erfassung sensibler Informationen wie Kennwörter, PINs und anderer vertraulicher Eingaben verwendet und zeigt aus Datenschutzgründen maskierte Zeichen an.
 
-- **Benutzerfreundlich**: Das Kennwortfeld ermöglicht Benutzern die sichere Eingabe und Bearbeitung von Informationen, ohne diese auf dem Bildschirm verfügbar zu machen.
+- **Benutzerfreundlich**: Das Kennwortfeld ermöglicht Benutzenden die sichere Eingabe und Bearbeitung von Informationen, ohne diese auf dem Bildschirm offenzulegen.
 
-- **Flexibilität**: Die Komponente &quot;Kennwortbox&quot;kann so konfiguriert werden, dass sie Sicherheitsanforderungen wie minimale Zeichenlängen, Sonderzeichen oder andere benutzerdefinierte Überprüfungen erfüllt, um einen starken Datenschutz und eine hohe Genauigkeit zu gewährleisten.
+- **Flexibilität**: Die Komponente „Kennwortfeld“ kann so konfiguriert werden, dass sie Sicherheitsanforderungen wie Mindestlängen für Zeichen, Sonderzeichen oder andere benutzerdefinierte Validierungen erfüllt, um einen starken Datenschutz und eine hohe Genauigkeit zu gewährleisten.
 
 <!--
 ## Version and Compatibility {#version-and-compatibility}
@@ -56,7 +56,7 @@ Aktuelle Informationen zu Registerkarten in adaptiven Formularen der Haupt-Kernk
 
 Mit dem Dialogfeld „Konfigurieren“ können das Besuchererlebnis bei der Texteingabe einfach anpassen. Sie können auch Optionen zur Texteingabe definieren, die für ein nahtloses Benutzererlebnis sorgen.
 
-### Registerkarte &quot;Allgemein&quot;
+### Registerkarte „Allgemein“
 
 ![Registerkarte „Allgemein“](/help/adaptive-forms/assets/password-basic.png)
 

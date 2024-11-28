@@ -4,15 +4,15 @@ description: Ein adaptives Formular zu einer Web-Seite hinzufügen.
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
 source-git-commit: 86a30bc396d89340106177deb08323bfc5640e0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1526'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # Formular-Container {#form-container-adaptive-forms-core-component}
 
-<span class="preview"> In diesem Artikel wird die Funktion **Entwürfe** <!--and **Hamburger Menu Support** --> erläutert, bei der es sich um eine Funktion vor der Veröffentlichung handelt. Die Vorabveröffentlichungsfunktion ist nur über unseren [Vorabveröffentlichungskanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features) zugänglich.</span>
+<span class="preview"> In diesem Artikel wird die Funktion **Entwürfe** <!--and **Hamburger Menu Support** --> erläutert, bei der es sich um eine Vorabveröffentlichungsfunktion handelt. Die Vorabveröffentlichungsfunktion ist nur über unseren [Vorabveröffentlichungskanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features) zugänglich.</span>
 
 Mit Formularen können Besuchende von Websites mit der Website interagieren, indem sie wertvolle Informationen bereitstellen, die die Interaktion und Benutzerzufriedenheit steigern können. Ein Container für adaptive Formulare in Adobe Experience Manager-Sites (AEM) ermöglicht es Besitzenden von Websites, ihren Seiten ganz einfach Formulare hinzuzufügen. Dies erleichtert die Kommunikation zwischen Website-Besuchenden und Besitzenden oder der Organisation der Website, da Besuchende auf diese Weise Feedback geben, Anfragen stellen und andere Aktionen ausführen können
 
@@ -69,7 +69,7 @@ Mit dem Dialogfeld „Konfigurieren“ können Sie das Formular-Container-Erlebn
 - **Rolle**: Die Rolle ist ein HTML-Attribut, mit dem der Zweck eines HTML-Elements für Hilfstechnologien wie Bildschirmlesehilfen angegeben wird. Rollenattribute werden verwendet, um für ein Element zusätzlichen Kontext und eine semantische Bedeutung bereitzustellen, wodurch es für Bildschirmlesehilfen einfacher wird, den Inhalt zu interpretieren und ihn Benutzenden mitzuteilen. In AEM Forms kann beispielsweise die Beschriftung eines Formularfelds die Rolle „Beschriftung“ haben und sein Eingabefeld die Rolle „Textfeld“. Dadurch kann die Bildschirmlesehilfe die Beziehung zwischen Beschrfitung und Eingabefeld verstehen und diese Informationen den Benutzenden korrekt mitteilen.
 
 - **Client-Bibliothekskategorie**: Benutzende können eine benutzerdefinierte JavaScript-Bibliothek pro adaptivem Formular konfigurieren. Es wird empfohlen, nur die wiederverwendbaren Funktionen in der Bibliothek zu behalten, die von den Drittanbieter-Bibliotheken „jquery“ und „underscore.js“ abhängig sind.
-Bisweilen befindet sich bei komplexen **Validierungsregeln** das exakte Validierungsskript in den benutzerdefinierten Funktionen. Benutzende können diese benutzerdefinierten Funktionen über den Ausdruck für die Feldvalidierung abrufen. Um diese benutzerdefinierte Funktionsbibliothek bei serverseitigen Validierungen bekannt und verfügbar zu machen, kann der Formularbenutzer den Namen AEM Client-Bibliothek auf der Registerkarte **[!UICONTROL Einfach]** der Eigenschaften des Containers für adaptive Formulare konfigurieren.
+Bisweilen befindet sich bei komplexen **Validierungsregeln** das exakte Validierungsskript in den benutzerdefinierten Funktionen. Benutzende können diese benutzerdefinierten Funktionen über den Ausdruck für die Feldvalidierung abrufen. Um diese benutzerdefinierte Funktionsbibliothek bei Server-seitigen Validierungen bekannt und verfügbar zu machen, können Benutzende von Formularen den Namen der AEM-Client-Bibliothek auf der Registerkarte **[!UICONTROL Allgemein]** in den Eigenschaften des Containers für adaptive Formulare konfigurieren.
 Der Benutzer bzw. die Benutzerin kann eine benutzerdefinierte JavaScript-Bibliothek für jedes adaptive Formular konfigurieren. Legen Sie in der Bibliothek nur die wiederverwendbaren Funktionen ab, die von den Drittanbieter-Bibliotheken „jquery“ und „underscore“ abhängen.
 
 <!--
@@ -88,9 +88,9 @@ Sie können das Formulardatenmodell verwenden, um ein Formular mit einer Datenqu
 
 ![Registerkarte „Übermittlung“](/help/adaptive-forms/assets/formcontainer_autosavetab.png)
 
-- **Entwürfe automatisch speichern**: Aktivieren Sie das Kontrollkästchen **Entwürfe automatisch speichern** , um das Speichern von Formularen als Entwürfe zu aktivieren.
-- **Voreinstellung speichern**: Konfigurieren Sie **Voreinstellung speichern** als **Entwürfe in regelmäßigen Abständen speichern**, um das Formular nach einem bestimmten Zeitintervall automatisch zu speichern.
-  **Intervallfrequenz (Sekunden)**: Geben Sie das Zeitintervall (in Sekunden) an, um die Dauer festzulegen, in der das Formular automatisch in dem definierten Intervall gespeichert wird.
+- **Entwürfe automatisch speichern**: Aktivieren Sie das Kontrollkästchen **Entwürfe automatisch speichern**, um das Speichern von Formularen als Entwürfe zu aktivieren.
+- **Einstellung speichern**: Konfigurieren Sie **Einstellung speichern** als **Entwürfe in regelmäßigen Abständen speichern**, um das Formular nach einem bestimmten Zeitintervall automatisch zu speichern.
+  **Speicherintervall (Sekunden)**: Geben Sie das Zeitintervall (in Sekunden) an, um die Dauer festzulegen, nach der das Formular automatisch in dem definierten Intervall gespeichert wird.
 
 ### Registerkarte „Übermittlung“ {#submission-tab}
 
