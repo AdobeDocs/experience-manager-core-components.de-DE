@@ -4,7 +4,7 @@ description: Verwenden oder Anpassen der Kernkomponente „E-Mail-Eingabe“ fü
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
 source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2113'
 ht-degree: 100%
 

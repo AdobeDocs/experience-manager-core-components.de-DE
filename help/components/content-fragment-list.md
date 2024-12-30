@@ -83,7 +83,7 @@ Standardmäßig werden alle Elemente des Inhaltsfragmentmodells in die Liste auf
 ![Registerkarte „Elemente“ im Dialogfeld „Bearbeiten“ der Inhaltsfragmentlisten-Komponente](/help/assets/content-fragment-list-elements.png)
 
 * **Elemente** - Es werden nur die Elemente der Inhaltsfragmente in der angegebenen Liste angezeigt.
-   * Klicken oder tippen Sie auf die Schaltfläche **Hinzufügen** , um ein neues Element hinzuzufügen.
+   * Klicken oder tippen Sie auf die Schaltfläche **Hinzufügen**, um ein neues Element hinzuzufügen.
    * Klicken oder tippen Sie auf die Schaltfläche **Löschen**, um ein ausgewähltes Element zu entfernen.
    * Ziehen Sie den Ziehgriff **Reihenfolge**, um die Reihenfolge der Elemente zu ändern.
 

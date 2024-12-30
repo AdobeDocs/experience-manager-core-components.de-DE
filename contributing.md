@@ -1,7 +1,7 @@
 ---
 source-git-commit: 2fbf593dee19f22b87a0f7e98d8a1f0c9252e7e7
-workflow-type: ht
-source-wordcount: '530'
+workflow-type: tm+mt
+source-wordcount: '520'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ Wir freuen uns zwar über jeden Beitrag, um die AEM-Dokumentation zu verbessern,
 
 ## So können Sie einen Beitrag leisten
 
-Wir möchten es Ihnen so einfach wie möglich machen, Ihre Beiträge einzureichen. Es gibt zwei Möglichkeiten:
+Wir möchten es Ihnen so einfach wie möglich machen, Ihre Beiträge einzureichen. Sie können auf zwei Arten beitragen:
 
 * [Erstellen eines Problems](#create-an-issue)
 * [Erstellen einer Pull-Anfrage](#create-a-pull-request)

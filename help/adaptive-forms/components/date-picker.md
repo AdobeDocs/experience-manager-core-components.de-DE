@@ -4,7 +4,7 @@ description: Verwenden oder Anpassen der Datumsauswahl-Kernkomponente in adaptiv
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
 source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2300'
 ht-degree: 100%
 
@@ -122,7 +122,7 @@ Sie können die Datumsauswahl im Dialogfeld „Konfigurieren“ einfach anpassen
    - **Beschreibung**: Wählen Sie diese Option aus, um die Beschreibung für ARIA-Barrierefreiheitsbeschriftungen zu verwenden.
    - **Titel**: Wählen Sie diese Option aus, um den Titel für ARIA-Barrierefreiheitsbeschriftungen zu verwenden.
    - **Name**: Wählen Sie diese Option aus, um den Namen für ARIA-Barrierefreiheitsbeschriftungen zu verwenden.
-   - **Keine**: Wählen Sie diese Option aus, wenn Sie keine ARIA-Barrierefreiheits-Labels hinzufügen möchten.
+   - **Keine**: Wählen Sie diese Option aus, wenn Sie keine ARIA-Barrierefreiheitsbezeichnungen hinzufügen möchten.
 
 ### Registerkarte „Formate“ {#format-tab}
 

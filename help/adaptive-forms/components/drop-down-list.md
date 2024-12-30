@@ -4,7 +4,7 @@ description: Verwenden oder Anpassen der Dropdown-Kernkomponente adaptiver Formu
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
 source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2188'
 ht-degree: 100%
 

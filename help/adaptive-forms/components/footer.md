@@ -4,7 +4,7 @@ description: Verwenden oder Anpassen der Kernkomponente „Fußzeile“ für ada
 role: Architect, Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
 source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 100%
 

@@ -1,5 +1,5 @@
 ---
-title: Download-Komponente
+title: 'Download-Komponente '
 description: Die Kernkomponente „Download-Komponente“ ermöglicht die Erstellung einer Download-Option auf einer Seite.
 role: Architect, Developer, Admin, User
 exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507

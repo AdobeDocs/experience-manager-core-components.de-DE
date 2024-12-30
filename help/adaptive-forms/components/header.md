@@ -4,7 +4,7 @@ description: Verwenden oder Anpassen der Header-Kernkomponente für adaptive For
 role: Architect, Developer, Admin, User
 exl-id: aa18def9-0bec-4475-8dde-213860621ef5
 source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 100%
 

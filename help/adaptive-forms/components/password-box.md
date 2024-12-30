@@ -4,8 +4,9 @@ description: Verwendung oder Anpassung der Kernkomponente „Kennwortfeld“ in 
 role: Architect, Developer, Admin, User
 hide: true
 hidefromtoc: true
-source-git-commit: 86a30bc396d89340106177deb08323bfc5640e0e
-workflow-type: ht
+exl-id: 7e70d9e9-b066-4ba3-b7ed-e4aad026c5e0
+source-git-commit: c5ab7be7f1c3c64bddfd123a5cff5aa8e7543fd3
+workflow-type: tm+mt
 source-wordcount: '1916'
 ht-degree: 100%
 

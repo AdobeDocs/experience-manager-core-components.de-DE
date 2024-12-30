@@ -4,7 +4,7 @@ description: Verwenden oder Anpassen der Schlatflächen-Kernkomponente für adap
 role: Architect, Developer, Admin, User
 exl-id: cb75929b-8c86-49d1-b51a-368f5b80b1a9
 source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1660'
 ht-degree: 100%
 

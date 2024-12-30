@@ -4,7 +4,7 @@ description: Verwenden oder Anpassen der Kernkomponente „Senden-Schaltfläche�
 role: Architect, Developer, Admin, User
 exl-id: e4b8e475-79b9-4c4d-9f11-a125a424d32b
 source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 100%
 

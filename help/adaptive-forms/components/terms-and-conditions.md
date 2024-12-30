@@ -4,7 +4,7 @@ description: Verwenden oder Anpassen der Nutzungsbedingungs-Kernkomponente für 
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
 source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3256'
 ht-degree: 100%
 

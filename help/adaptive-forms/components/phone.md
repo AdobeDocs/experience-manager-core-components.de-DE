@@ -4,7 +4,7 @@ description: Verwenden oder Anpassen der Kernkomponente „Telefoneingabe“ fü
 role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
 source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2199'
 ht-degree: 100%
 

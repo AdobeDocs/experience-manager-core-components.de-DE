@@ -4,7 +4,7 @@ description: Ein adaptives Formular zu einer Web-Seite hinzufügen.
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
 source-git-commit: 86a30bc396d89340106177deb08323bfc5640e0e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1526'
 ht-degree: 100%
 

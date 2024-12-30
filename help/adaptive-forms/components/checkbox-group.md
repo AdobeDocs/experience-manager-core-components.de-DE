@@ -4,7 +4,7 @@ description: Verwenden oder Anpassen der Kernkomponente für adaptive Formulare 
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
 source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2103'
 ht-degree: 100%
 

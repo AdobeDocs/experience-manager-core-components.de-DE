@@ -4,7 +4,7 @@ description: Verwenden oder Anpassen der Kontrollkästchen-Kernkomponente für a
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
 source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1838'
 ht-degree: 100%
 
