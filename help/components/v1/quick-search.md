@@ -1,5 +1,5 @@
 ---
-title: Schnellsuchkomponente (v1)
+title: Schnellsuch-Komponente (v1)
 description: Die Schnellsuch-Komponente bietet Suchfunktionen für eine Website und zeigt Suchergebnisse an, damit Besucher die Site durchsuchen und die Ergebnisse filtern können.
 role: Architect, Developer, Admin, User
 exl-id: 60a043b7-d82c-4bc1-b91a-b77f748f7bc2
@@ -10,7 +10,7 @@ ht-degree: 98%
 
 ---
 
-# Schnellsuchkomponente (v1) {#quick-search-component}
+# Schnellsuch-Komponente (v1) {#quick-search-component}
 
 Die Schnellsuch-Komponente bietet Suchfunktionen für eine Website und zeigt Suchergebnisse an, damit Besucher mühelos übereinstimmende Inhalte finden und Ergebnisse anzeigen können.
 

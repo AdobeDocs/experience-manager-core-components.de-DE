@@ -4,7 +4,7 @@ description: Die Textkomponente ist eine Komponente zur Bearbeitung und Zusammen
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
 source-git-commit: 418f1b6c967760d801d0973a35e0a31343ddca6b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2181'
 ht-degree: 100%
 

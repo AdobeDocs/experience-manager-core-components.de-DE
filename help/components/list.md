@@ -1,5 +1,5 @@
 ---
-title: Listenkomponente
+title: 'Listenkomponente '
 description: Die Kernkomponente „Listenkomponente“ ermöglicht die einfache Erstellung dynamischer sowie statischer Listen.
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd

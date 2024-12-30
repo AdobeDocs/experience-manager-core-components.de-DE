@@ -1,5 +1,5 @@
 ---
-title: Einführung in E-Mail-Kernkomponenten
+title: 'Einführung in E-Mail-Kernkomponenten '
 description: Erstellen Sie ansprechende E-Mail-Inhalte unter Verwendung der flexiblen E-Mail-Kernkomponenten und versenden Sie sie mit Adobe Campaign.
 role: Architect, Developer, Admin, User
 exl-id: 0a411f28-bd6a-4bad-b473-6bc27c1d1055

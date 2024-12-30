@@ -14,7 +14,7 @@ ht-degree: 98%
 
 Erfahren Sie, wie die Kernkomponenten das Adaptive Image Servlet für die Bildbereitstellung verwenden und wie Sie dessen Verwendung optimieren können.
 
-## Adaptives Bildservlet oder Web-optimierte Bildbereitstellung? {#options}
+## Adaptive Image Servlet oder Web-optimierte Bildbereitstellung? {#options}
 
 Die Bild-Kernkomponente kann zwei Methoden zur Bereitstellung von Bildern verwenden.
 
