@@ -3,16 +3,22 @@ title: Adaptive Image Servlet
 description: Erfahren Sie, wie die Kernkomponenten das Adaptive Image Servlet für die Bildbereitstellung verwenden und wie Sie dessen Verwendung optimieren können.
 role: Architect, Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
-source-git-commit: 785aa82930e3bcf6ef16d7a1cdc614d230e8daa8
+source-git-commit: 87a96c1c9476b9d66fdc94d6c24123cdf24b9d91
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 98%
+source-wordcount: '457'
+ht-degree: 85%
 
 ---
 
 # Adaptive Image Servlet {#adaptive-image-servlet}
 
 Erfahren Sie, wie die Kernkomponenten das Adaptive Image Servlet für die Bildbereitstellung verwenden und wie Sie dessen Verwendung optimieren können.
+
+>[!WARNING]
+>
+>Aus Leistungsgründen wird dringend empfohlen, Bilder in DAM zu speichern und eine Web-optimierte Bildbereitstellung zu verwenden.
+>
+>Das Speichern von Bildern direkt unter dem Komponentenknoten ist für gelegentliche Verwendung vorgesehen. Sie nutzt die DAM-Ausgabedarstellungen nicht, um die Verarbeitung im Adaptive Image Servlet zu reduzieren, und lässt die Leistungsvorteile einer Web-optimierten Bildbereitstellung nicht zu, was zu möglichen Leistungsproblemen führt.
 
 ## Adaptive Image Servlet oder Web-optimierte Bildbereitstellung? {#options}
 
