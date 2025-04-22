@@ -3,10 +3,10 @@ title: Navigationskomponente
 description: Mit der Navigationskomponente können Benutzer leicht durch eine globalisierte Site-Struktur navigieren.
 role: Architect, Developer, Admin, User
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '1540'
-ht-degree: 100%
+source-wordcount: '1544'
+ht-degree: 99%
 
 ---
 
@@ -28,10 +28,10 @@ Die aktuelle Version der Navigationskomponente ist v2, die mit Version 2.18.0 de
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
-| Komponentenversion | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| v2 | - | Kompatibel | Kompatibel |
-| [v1](v1/navigation.md) | Kompatibel | Kompatibel | Kompatibel |
+| Komponentenversion | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|--- |--- |--- |---|---|
+| v2 | - | Kompatibel | Kompatibel | Kompatibel |
+| [v1](v1/navigation.md) | Kompatibel | Kompatibel | - | Kompatibel |
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
 

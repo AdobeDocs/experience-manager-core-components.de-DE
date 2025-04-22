@@ -3,10 +3,10 @@ title: E-Mail-Inhaltsfragment-Komponente
 description: Die E-Mail-Inhaltsfragment-Komponente ermöglicht die Anzeige eines Inhaltsfragments in Ihrem Inhalt.
 role: Architect, Developer, Admin, User
 exl-id: 9bc6b730-0d2a-4e5b-891c-d2f67f600bcc
-source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 100%
+source-wordcount: '608'
+ht-degree: 99%
 
 ---
 
@@ -29,9 +29,9 @@ Die aktuelle Version der E-Mail-Inhaltsfragment-Komponente ist v1. Sie wurde mit
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
-| Komponentenversion | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|
-| v1 | Kompatibel | - |
+| Komponentenversion | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|
+| v1 | Kompatibel | Kompatibel | - |
 
 Weitere Informationen zu E-Mail-Kernkomponentenversionen und -Releases finden Sie im Dokument [E-Mail-Kernkomponentenversionen](/help/email/versions.md).
 

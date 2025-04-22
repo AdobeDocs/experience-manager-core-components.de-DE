@@ -3,10 +3,10 @@ title: Bildkomponente
 description: Die Bildkomponenten-Kernkomponente ist eine adaptive Bildkomponente.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 5d2d79c96dc934efd7cccefb1a6a343813376483
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '1957'
-ht-degree: 100%
+source-wordcount: '1961'
+ht-degree: 99%
 
 ---
 
@@ -29,11 +29,11 @@ Die aktuelle Version der Bildkomponente ist v3, die mit Version 2.18.0 der Kernk
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
-| Komponentenversion | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| v3 | - | Kompatibel | Kompatibel |
-| [v2](v2/image.md) | Kompatibel | Kompatibel | Kompatibel |
-| [v1](v1/image-v1.md) | Kompatibel | Kompatibel | Kompatibel |
+| Komponentenversion | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|--- |--- |--- |---|---|
+| v3 | - | Kompatibel | Kompatibel | Kompatibel |
+| [v2](v2/image.md) | Kompatibel | Kompatibel | - | Kompatibel |
+| [v1](v1/image-v1.md) | Kompatibel | Kompatibel | - | Kompatibel |
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
 

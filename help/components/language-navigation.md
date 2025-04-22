@@ -3,10 +3,10 @@ title: Sprachnavigationskomponente
 description: Die Sprachnavigationskomponente stellt eine Sprache/Ländernavigation für eine Site bereit, sodass Besucher zur gleichen Seite in einem anderen Gebietsschema navigieren können.
 role: Architect, Developer, Admin, User
 exl-id: 10b218b4-c439-4a0f-a46f-0b15d78b0360
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '949'
-ht-degree: 100%
+source-wordcount: '953'
+ht-degree: 99%
 
 ---
 
@@ -29,10 +29,10 @@ Die aktuelle Version der Sprachnavigationskomponente ist v2, die mit Version 2.1
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
-| Komponentenversion | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| v2 | - | Kompatibel | Kompatibel |
-| [v1](v1/language-navigation.md) | Kompatibel | Kompatibel | Kompatibel |
+| Komponentenversion | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|--- |--- |--- |---|---|
+| v2 | - | Kompatibel | Kompatibel | Kompatibel |
+| [v1](v1/language-navigation.md) | Kompatibel | Kompatibel | - | Kompatibel |
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie im Dokument [Kernkomponentenversionen](/help/versions.md).
 

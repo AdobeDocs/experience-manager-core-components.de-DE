@@ -3,10 +3,10 @@ title: Fortschrittsleistenkomponente
 description: Die Fortschrittsleistenkomponente visualisiert den Fortschritt bei der Erreichung eines Ziels.
 role: Architect, Developer, Admin, User
 exl-id: 47afc5a6-ac57-4b6c-92c4-015ca956a20b
-source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 100%
+source-wordcount: '340'
+ht-degree: 99%
 
 ---
 
@@ -24,9 +24,9 @@ Die in diesem Dokument beschriebene Fortschrittsleistenkomponente liegt aktuell 
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
-| Komponentenversion | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|---|
-| v1 | Kompatibel mit<br>[Version 2.17.4](/help/versions.md) und vorherigen | Kompatibel | Kompatibel |
+| Komponentenversion | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|---|
+| v1 | Kompatibel mit<br>[Version 2.17.4](/help/versions.md) und vorherigen | Kompatibel | Kompatibel | Kompatibel |
 
 ## Musterkomponentenausgabe {#sample-component-output}
 

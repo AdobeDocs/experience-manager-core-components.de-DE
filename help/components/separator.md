@@ -3,10 +3,10 @@ title: Trennzeichenkomponente
 description: Die Trennzeichen-Komponente erstellt einen Umbruch zwischen Komponenten auf einer Seite
 role: Architect, Developer, Admin, User
 exl-id: 79f19368-67fa-4864-93f7-2aa801d13fdb
-source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 100%
+source-wordcount: '306'
+ht-degree: 99%
 
 ---
 
@@ -24,9 +24,9 @@ Die aktuelle Version der Trennzeichenkomponente ist v1, die mit Version 2.3.0 de
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
-| Komponentenversion | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|---|
-| v1 | Kompatibel mit<br>[Version 2.17.4](/help/versions.md) und vorherigen | Kompatibel | Kompatibel |
+| Komponentenversion | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|---|
+| v1 | Kompatibel mit<br>[Version 2.17.4](/help/versions.md) und vorherigen | Kompatibel | Kompatibel | Kompatibel |
 
 ## Musterkomponentenausgabe {#sample-component-output}
 

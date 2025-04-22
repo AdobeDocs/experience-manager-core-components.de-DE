@@ -3,10 +3,10 @@ title: Breadcrumb-Komponente
 description: Die Kernkomponente „Breadcrumb-Komponente“ ist eine Navigationskomponente, die einen Breadcrumb von Links basierend auf der Position der Seite in der Inhaltshierarchie erstellt.
 role: Architect, Developer, Admin, User
 exl-id: 19d65b9d-a407-4f50-9c55-8de0f12222ed
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 100%
+source-wordcount: '800'
+ht-degree: 99%
 
 ---
 
@@ -26,11 +26,11 @@ Die aktuelle Version der Breadcrumb-Komponente ist v3, die mit Version 2.18.0 de
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
-| Komponentenversion | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- | --- |--- |---|
-| v3 | - | Kompatibel | Kompatibel |
-| [v2](v2/breadcrumb.md) | Kompatibel | Kompatibel | Kompatibel |
-| [v1](v1/breadcrumb-v1.md) | Kompatibel | Kompatibel | Kompatibel |
+| Komponentenversion | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|--- | --- |--- |---|---|
+| v3 | - | Kompatibel | Kompatibel | Kompatibel |
+| [v2](v2/breadcrumb.md) | Kompatibel | Kompatibel | - | Kompatibel |
+| [v1](v1/breadcrumb-v1.md) | Kompatibel | Kompatibel | - | Kompatibel |
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie im Dokument [Kernkomponentenversionen](/help/versions.md).
 

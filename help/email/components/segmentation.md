@@ -3,10 +3,10 @@ title: E-Mail-Segmentierungskomponente
 description: Die E-Mail-Segmentierungskomponente
 role: Architect, Developer, Admin, User
 exl-id: 6c88b8c5-189a-40c0-ab28-04d37dc5fbac
-source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '1086'
-ht-degree: 100%
+source-wordcount: '1090'
+ht-degree: 99%
 
 ---
 
@@ -30,9 +30,9 @@ Die aktuelle Version der E-Mail-Segmentierungs-Komponente ist v1. Sie wurde mit 
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
-| Komponentenversion | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|
-| v1 | Kompatibel | - |
+| Komponentenversion | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|
+| v1 | Kompatibel | Kompatibel | - |
 
 ### Technische Details {#technical-details}
 
@@ -135,6 +135,6 @@ Tippen oder klicken Sie auf die **Hinzufügen**-Schaltfläche, um neue Bedingung
 * **Name der Segmentbedingung** – Eine Beschreibung der Bedingung
 * **Segmentbedingung** – Die tatsächliche Bedingung, die basierend auf Adobe Campaign-Personalisierungsvariablen erfüllt werden muss
    * [Hier finden Sie Adobe Campaign Standard-Personalisierungsressourcen.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=de)
-   * [Hier finden Sie Adobe Campaign Classic-Personalisierungsressourcen.](https://experienceleague.adobe.com/docs/
+   * [Hier finden Sie Adobe Campaign Classic-Personalisierungsressourcen.]&#x200B;(https://experienceleague.adobe.com/docs/
 * **Entfernen** – Tippen oder klicken Sie, um die Bedingung zu entfernen
 * **Neu anordnen** – Tippen oder klicken und ziehen Sie die Bedingungen, um ihre Reihenfolge neu anzuordnen

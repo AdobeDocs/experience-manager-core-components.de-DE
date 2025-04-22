@@ -3,10 +3,10 @@ title: E-Mail-Container-Komponente
 description: Die E-Mail-Container-Komponente ermöglicht die Erstellung eines Containers für mehrere zusätzliche Komponenten in Ihrem E-Mail-Inhalt.
 role: Architect, Developer, Admin, User
 exl-id: 3b271e95-0093-4cb1-bb83-8446ba12a821
-source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 100%
+source-wordcount: '781'
+ht-degree: 99%
 
 ---
 
@@ -30,9 +30,9 @@ Die aktuelle Version der E-Mail-Container-Komponente ist v1. Sie wurde mit dem R
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
-| Komponentenversion | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|
-| v1 | Kompatibel | - |
+| Komponentenversion | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|
+| v1 | Kompatibel | Kompatibel | - |
 
 Weitere Informationen zu E-Mail-Kernkomponentenversionen und -Releases finden Sie im Dokument [E-Mail-Kernkomponentenversionen](/help/email/versions.md).
 

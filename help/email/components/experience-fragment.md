@@ -3,10 +3,10 @@ title: E-Mail-Experience-Fragment-Komponente
 description: Mit der E-Mail-Experience-Fragment-Komponente kann der Inhaltsautor bzw. die Inhaltsautorin eine Experience Fragment-Variation im Inhalt platzieren, während eine lokalisierte Inhaltsstruktur unterstützt wird.
 role: Architect, Developer, Admin, User
 exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
-source-git-commit: e5afead6bfdcc59cbd6da888f4e1e36038c6c0f8
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 100%
+source-wordcount: '866'
+ht-degree: 99%
 
 ---
 
@@ -30,9 +30,9 @@ Die aktuelle Version der E-Mail-Experience Fragment-Komponente ist v1. Sie wurde
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
-| Komponentenversion | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|
-| v1 | Kompatibel | - |
+| Komponentenversion | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|
+| v1 | Kompatibel | Kompatibel | - |
 
 Weitere Informationen zu E-Mail-Kernkomponentenversionen und -Releases finden Sie im Dokument [Kernkomponentenversionen](/help/email/versions.md).
 

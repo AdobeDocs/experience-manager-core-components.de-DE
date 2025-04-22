@@ -3,10 +3,10 @@ title: Inhaltsverzeichniskomponente
 description: Die Inhaltsverzeichniskomponente erstellt ein Inhaltsverzeichnis, das auf den Titeln Ihres Seiteninhalts basiert und Ihren Lesern eine schnelle Navigation auf der Seite ermöglicht.
 role: Architect, Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
-source-git-commit: 8beae61676340e8aafaee469018d865ea7ed934e
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 100%
+source-wordcount: '762'
+ht-degree: 99%
 
 ---
 
@@ -30,9 +30,9 @@ Die aktuelle Version der Inhaltsverzeichniskomponente ist v1, die mit der Versio
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
-| Komponentenversion | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|
-| v1 | Kompatibel | Kompatibel |
+| Komponentenversion | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|
+| v1 | Kompatibel | Kompatibel | Kompatibel |
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
 

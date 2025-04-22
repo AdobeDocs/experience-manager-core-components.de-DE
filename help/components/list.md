@@ -3,10 +3,10 @@ title: 'Listenkomponente '
 description: Die Kernkomponente „Listenkomponente“ ermöglicht die einfache Erstellung dynamischer sowie statischer Listen.
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: af908d77b30b7642b553f38c217136cfd5603108
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 100%
+source-wordcount: '1204'
+ht-degree: 99%
 
 ---
 
@@ -24,12 +24,12 @@ Die aktuelle Version der Listenkomponente ist v4, die mit Version 2.22.0 der Ker
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
-| Komponentenversion | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
+| Komponentenversion | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|--- |--- |--- |---|---|
 | v4 | - | Kompatibel | Kompatibel |
-| [v3](/help/components/v3/list.md) | - | Kompatibel | Kompatibel |
-| [v2](/help/components/v2/list.md) | Kompatibel | Kompatibel | Kompatibel |
-| [v1](/help/components/v1/list-v1.md) | Kompatibel | Kompatibel | Kompatibel |
+| [v3](/help/components/v3/list.md) | - | Kompatibel | Kompatibel | Kompatibel |
+| [v2](/help/components/v2/list.md) | Kompatibel | Kompatibel | - | Kompatibel |
+| [v1](/help/components/v1/list-v1.md) | Kompatibel | Kompatibel | - | Kompatibel |
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
 

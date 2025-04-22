@@ -3,10 +3,10 @@ title: E-Mail-Bildkomponente
 description: Die E-Mail-Bildkomponente ist eine adaptive Bildkomponente, die eine Bearbeitung im Kontext ermöglicht.
 role: Architect, Developer, Admin, User
 exl-id: f5d40047-3082-4edd-a5f6-6ab3e33997f9
-source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '1621'
-ht-degree: 100%
+source-wordcount: '1625'
+ht-degree: 99%
 
 ---
 
@@ -28,9 +28,9 @@ Die aktuelle Version der E-Mail-Bildkomponente ist v1. Sie wurde mit dem Release
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
-| Komponentenversion | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|
-| v1 | Kompatibel | - |
+| Komponentenversion | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|
+| v1 | Kompatibel | Kompatibel | - |
 
 Weitere Informationen zu Kernkomponentenversionen und -Releases finden Sie im Dokument [E-Mail-Kernkomponentenversionen](/help/email/versions.md).
 
