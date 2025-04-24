@@ -3,9 +3,9 @@ title: Komponente „E-Mail-Seite“
 description: Die Komponente „E-Mail-Seite“
 role: Architect, Developer, Admin, User
 exl-id: 17fd0f5e-2b85-41a1-abaf-8ad190a5341a
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '780'
 ht-degree: 99%
 
 ---
@@ -30,7 +30,7 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 
 | Komponentenversion | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|
-| v1 | Kompatibel | Kompatibel | - |
+| v1 | Kompatibel | – | – |
 
 Weitere Informationen zu Versionen und Releases der E-Mail-Kernkomponente finden Sie im Dokument [Versionen der E-Mail-Kernkomponente](/help/email/versions.md).
 

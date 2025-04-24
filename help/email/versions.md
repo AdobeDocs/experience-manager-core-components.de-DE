@@ -3,9 +3,9 @@ title: E-Mail-Kernkomponenten-Versionen
 description: E-Mail-Kernkomponenten werden als Versionen veröffentlicht.
 role: Architect, Developer, Admin, User
 exl-id: 9733659a-641c-4a98-8d10-84e93e0e0a5d
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '444'
 ht-degree: 87%
 
 ---
@@ -23,7 +23,7 @@ Die E-Mail-Kernkomponenten sind so konzipiert, dass sie flexibel und mit allen u
 
 | Version | Beschreibung | AEM 6.5 | AEM 6.5 LTS | Kernkomponenten | Java | Veröffentlichungsdatum |
 |---|---|---|---|---|---|---|
-| [,3,0 ](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.3.0) | Diese Version aktualisiert die eingebettete JSP-Bibliothek. | 6.5.14.0+ | 6,5 LTS GA | [2.21.2+](/help/versions.md) | 8, 11 | 28. Juni 2024 |
+| [,3,0 ](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.3.0) | Diese Version aktualisiert die eingebettete JSP-Bibliothek. | 6.5.14.0+ | – | [2.21.2+](/help/versions.md) | 8, 11 | 28. Juni 2024 |
 | [,2,2 ](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.2.2) | Mit dieser Wartungsversion wurden die Selektorfilterung korrigiert, ein `SelectorParseException` behoben und andere Fehler behoben. | 6.5.14.0+ | – | [2.21.2+](/help/versions.md) | 8, 11 | 24. Mai 2023 |
 | [1.2.0](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.2.0) | In dieser Version wurden Selenium e2e-Tests eingeführt und eine Reihe von Fehlerbehebungen vorgenommen. | 6.5.14.0+ | – | [2.21.2+](/help/versions.md) | 8, 11 | 29. November 2022 |
 | [1.0.0](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.0.0) | Erste Veröffentlichung, ausführliche Details finden Sie in den Versionshinweisen | 6.5.14.0+ | – | [2.21.2+](/help/versions.md) | 8, 11 | 29. November 2022 |
