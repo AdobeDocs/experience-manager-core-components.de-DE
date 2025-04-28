@@ -4,9 +4,9 @@ description: Die Kernkomponente „Listenkomponente“ ermöglicht die einfache 
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
 source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1204'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,10 +26,10 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 
 | Komponentenversion | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |--- |---|---|
-| v4 | - | Kompatibel | Kompatibel |
-| [v3](/help/components/v3/list.md) | - | Kompatibel | Kompatibel | Kompatibel |
-| [v2](/help/components/v2/list.md) | Kompatibel | Kompatibel | - | Kompatibel |
-| [v1](/help/components/v1/list-v1.md) | Kompatibel | Kompatibel | - | Kompatibel |
+| v4 | – | Kompatibel | Kompatibel |
+| [v3](/help/components/v3/list.md) | – | Kompatibel | Kompatibel | Kompatibel |
+| [v2](/help/components/v2/list.md) | Kompatibel | Kompatibel | – | Kompatibel |
+| [v1](/help/components/v1/list-v1.md) | Kompatibel | Kompatibel | – | Kompatibel |
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
 

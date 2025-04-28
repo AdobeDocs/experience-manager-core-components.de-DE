@@ -4,9 +4,9 @@ description: Die Seitenkomponente ist eine Erweiterungskomponente für Seiten, d
 role: Architect, Developer, Admin, User
 exl-id: 2503e067-abed-427d-8a54-8b79e3451487
 source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '695'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -28,9 +28,9 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 
 | Komponentenversion | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|---|
-| v3 | - | Kompatibel | Kompatibel | Kompatibel |
-| [v2](v2/page.md) | Kompatibel | Kompatibel | - | Kompatibel |
-| [v1](v1/page-v1.md) | Kompatibel | Kompatibel | - | Kompatibel |
+| v3 | – | Kompatibel | Kompatibel | Kompatibel |
+| [v2](v2/page.md) | Kompatibel | Kompatibel | – | Kompatibel |
+| [v1](v1/page-v1.md) | Kompatibel | Kompatibel | – | Kompatibel |
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
 

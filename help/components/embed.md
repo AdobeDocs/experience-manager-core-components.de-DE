@@ -4,9 +4,9 @@ description: Die Einbettungskomponente ermöglicht das Einbetten externer Inhalt
 role: Architect, Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
 source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1343'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,8 +29,8 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 
 | Komponentenversion | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |---|---|---|
-| v2 | - | Kompatibel | Kompatibel | Kompatibel |
-| [v1](v1/embed.md) | Kompatibel | Kompatibel | - | Kompatibel |
+| v2 | – | Kompatibel | Kompatibel | Kompatibel |
+| [v1](v1/embed.md) | Kompatibel | Kompatibel | – | Kompatibel |
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie im Dokument [Kernkomponentenversionen](/help/versions.md).
 
@@ -54,7 +54,7 @@ Wählen Sie zunächst, welcher Ressourcentyp eingebettet werden soll:
 
 * [URL](#url)
 * [Einbettbare Prozessoren](#embeddable)
-* [HTML](#html)
+* [HTML ](#html)
 
 Für jeden Typ von einbettbarem Element können Sie eine **ID** festlegen. Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
 
@@ -98,7 +98,7 @@ Andere einbettbare Prozessoren weisen ähnliche Felder auf und können von einem
 >
 >Einbettbare Prozessoren müssen auf der Vorlagenebene über das [Dialogfeld „Design“](#design-dialog) aktiviert werden, damit sie dem Seitenautor zur Verfügung stehen.
 
-#### HTML {#html}
+#### HTML  {#html}
 
 Mit der Einbettungskomponente können Sie Ihrer Seite Freiform-HTML hinzufügen.
 

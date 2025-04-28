@@ -4,9 +4,9 @@ description: Die Textkomponente ist eine Komponente zur Bearbeitung und Zusammen
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
 source-git-commit: da947be103bd68abad82fcfcbee58d527bc14dbd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2185'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 | Komponentenversion | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|---|
 | v2 | Kompatibel mit<br>[Version 2.17.4](/help/versions.md) und vorherigen | Kompatibel | Kompatibel | Kompatibel |
-| [v1](v1/text-v1.md) | Kompatibel | Kompatibel | - | Kompatibel |
+| [v1](v1/text-v1.md) | Kompatibel | Kompatibel | – | Kompatibel |
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie im Dokument [Kernkomponentenversionen](/help/versions.md).
 
