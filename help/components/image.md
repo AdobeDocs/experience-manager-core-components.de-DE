@@ -6,7 +6,7 @@ exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: ad911040d7e47fc3884071005c17accf8edd0a62
 workflow-type: tm+mt
 source-wordcount: '2062'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -31,9 +31,9 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 
 | Komponentenversion | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |--- |---|---|
-| v3 | - | Kompatibel | Kompatibel | Kompatibel |
-| [v2](v2/image.md) | Kompatibel | Kompatibel | - | Kompatibel |
-| [v1](v1/image-v1.md) | Kompatibel | Kompatibel | - | Kompatibel |
+| v3 | – | Kompatibel | Kompatibel | Kompatibel |
+| [v2](v2/image.md) | Kompatibel | Kompatibel | – | Kompatibel |
+| [v1](v1/image-v1.md) | Kompatibel | Kompatibel | – | Kompatibel |
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
 
