@@ -4,9 +4,9 @@ description: Die Bildkomponenten-Kernkomponente ist eine adaptive Bildkomponente
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: ad911040d7e47fc3884071005c17accf8edd0a62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2062'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -49,11 +49,11 @@ Darüber hinaus unterstützt die Bildkomponente verzögertes Laden, um das Laden
 
 ### Unterschiede zu v2 {#v2-differences}
 
-Im Gegensatz zur Version 2 der Bildkomponente verwendet Version 3 die browsernative Reaktionsfähigkeit. Das bedeutet, dass der Browser eine Reihe von Quellen für ein Bild für verschiedene Breiten erhält und der Browser die beste Wahl trifft.
+Im Gegensatz zur Version 2 der Bildkomponente verwendet Version 3 die Browser-native Reaktionsfähigkeit. Das bedeutet, dass der Browser eine Reihe von Quellen für ein Bild für verschiedene Breiten erhält und der Browser die beste Wahl trifft.
 
 In den meisten Fällen ziehen Browser es vor, lokal eine größere Breite zu verkleinern, um einen kleineren Viewport zu erhalten, anstatt das Bild mit geringerer Breite vom Server abzurufen. Dies ist der Grund, warum die Bildkomponente nicht für die Ausrichtung von Grafiken verwendet werden sollte (unterschiedliche Bilder/Zuschnitte für verschiedene Darstellungsfelder).
 
-[Weitere Informationen finden Sie in der technischen Dokumentation ](https://github.com/adobe/aem-core-wcm-components/tree/main/content/src/content/jcr_root/apps/core/wcm/components/image/v3/image#javascript-data-attribute-bindings) Bildkomponente .
+[Bitte lesen Sie die GitHub-Dokumentation der Komponente](https://github.com/adobe/aem-core-wcm-components/tree/main/content/src/content/jcr_root/apps/core/wcm/components/image/v3/image#javascript-data-attribute-bindings) für weitere Informationen.
 
 ## Dynamic Media-Unterstützung {#dynamic-media}
 

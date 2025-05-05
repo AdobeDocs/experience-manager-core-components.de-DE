@@ -4,9 +4,9 @@ description: Erstellen Sie ansprechende E-Mail-Inhalte unter Verwendung der flex
 role: Architect, Developer, Admin, User
 exl-id: 0a411f28-bd6a-4bad-b473-6bc27c1d1055
 source-git-commit: 91cf78d4c6622bbdec5ac7d22954c9c081c839d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '376'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 Erstellen Sie ansprechende E-Mail-Inhalte unter Verwendung der flexiblen E-Mail-Kernkomponenten und versenden Sie sie mit Adobe Campaign.
 
-## Übersicht {#overview}
+## Überblick {#overview}
 
 Die E-Mail-Kernkomponenten basieren auf derselben leistungsstarken Grundlage wie die Kernkomponenten. Sie ermöglichen eine einfache und flexible Drag-and-Drop-Erstellung von E-Mail-Inhalten, die dann mit Adobe Campaign an Ihre Zielgruppe gesendet werden können.
 
