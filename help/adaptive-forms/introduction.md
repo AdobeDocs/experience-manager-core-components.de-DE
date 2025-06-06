@@ -3,9 +3,9 @@ title: Einführung zu Kernkomponenten für adaptive Formulare in AEM
 description: Erstellen Sie ansprechende Registrierungserlebnisse (Formulare) mit der Flexibilität der Kernkomponenten für adaptive Formulare und stellen Sie sie über Adobe Experience Manager bereit.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: b37b6315312ecee0a74d8830d96a72f8a5a04e43
+source-git-commit: 12a829c164839fdcb2c98d52e409ec3ac2079c41
 workflow-type: tm+mt
-source-wordcount: '2215'
+source-wordcount: '2123'
 ht-degree: 100%
 
 ---
@@ -105,6 +105,7 @@ Die aktuelle Version von AEM Forms enthält die folgenden Kernkomponenten: [Foun
 | Schaltfläche „Zurück“ | ✔️ | ✔️ | | Verwenden Sie die [Assistentenkomponente](/help/adaptive-forms/components/wizard.md) für die Schaltflächen „Weiter“ und „Zurück“, um zwischen mehreren Bedienfeldern zu wechseln. |
 | Optionsfeldgruppe | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/radio-button.md)</span> | ✔️ | |
 | Schaltfläche „Zurücksetzen“ | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/reset-button.md)</span> | ✔️ | |
+| Überprüfung |  | <span style="color:blue">[✔️](/help/adaptive-forms/components/reset-button.md)</span> |  | |
 | Freihändige Unterschrift | ✔️ | | | |
 | Trennzeichen | ✔️ | | | Verwenden Sie die WCM-[Trennzeichenkomponente](/help/components/separator.md). |
 | Schaltfläche „Senden“ | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/submit-button.md)</span> | ✔️ | |

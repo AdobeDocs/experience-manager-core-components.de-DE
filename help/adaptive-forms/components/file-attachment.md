@@ -3,10 +3,10 @@ title: Kernkomponente „Dateianhang“ von adaptiven Formularen
 description: Verwenden oder Anpassen der Kernkomponente „Dateianhang“ von adaptiven Formularen.
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: 724940e8fe7eb5cfe3dc4edf7568049c993b1255
+source-git-commit: 8a5133d8551f9e35340b40aa00876cfa0231deb5
 workflow-type: tm+mt
-source-wordcount: '2043'
-ht-degree: 100%
+source-wordcount: '2061'
+ht-degree: 97%
 
 ---
 
@@ -37,7 +37,7 @@ Es gibt mehrere Gründe, warum es sinnvoll ist, eine Dateianhang-Komponente in e
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die Kernkomponente für Dateianhänge in adaptiven Formularen wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 für Cloud Service und der Kernkomponenten 1.1.12 für AEM 6.5.16.0 Forms oder höher veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
+Die Kernkomponente „Dateianhänge“ für adaptive Forms wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 für Cloud Service und der Kernkomponenten 1.1.12 für AEM 6.5.16.0 Forms oder höher veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
 
 | Komponentenversion | AEM as a Cloud Service | AEM 6.5.16.0 Forms oder höher |
 |---|---|---|
@@ -47,7 +47,7 @@ Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokume
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_de). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Technische Details {#technical-details}
 
@@ -103,6 +103,11 @@ Im Dialogfeld „Konfigurieren“ können Sie die Verwendung von Dateianhängen 
 
 - **Dateityp-Fehlermeldung** – Mit dieser Option können Sie eine Fehlermeldung eingeben, die angezeigt wird, wenn Sie andere Dateiformate hochladen als diejenigen, die in der Option **Zulässige Dateitypen** aufgeführt sind.
 
+>
+>
+> Wenn Sie eine Datei senden, indem Sie deren Typ in ein zulässiges Dateitypformat ändern, wird während der Formularübermittlung ein Fehler ausgelöst.
+
+
 ### Registerkarte „Hilfe-Inhalt“ {#help-content-tab}
 
 ![Registerkarte „Hilfe-Inhalt“](/help/adaptive-forms/assets/fileattachement_helpcontenttab.png)
@@ -157,7 +162,7 @@ Mit der Option „Benutzerdefinierte Eigenschaften“ können Sie mithilfe der F
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=de)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

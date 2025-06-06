@@ -5,10 +5,10 @@ breadcrumb-title: Anleitung zu den Hauptkomponenten
 feature: Core Components
 user-guide-description: Nutzen Sie die erweiterbaren Hauptkomponenten, damit Autoren bzw. Autorinnen mühelos Inhalte erstellen können.
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
+source-git-commit: 9f151ae26c9d2006b74656ec5086f1a5e9fc4b30
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 100%
+source-wordcount: '384'
+ht-degree: 96%
 
 ---
 
@@ -105,7 +105,7 @@ ht-degree: 100%
 + Adaptive Formulare {#adaptive-forms}
    + [Einführung](/help/adaptive-forms/introduction.md)
    + [Versionsverlauf](/help/adaptive-forms/version.md)
-   + Adaptive Formulare – Komponenten {#adaptive-forms-components}
+   + Adaptive Forms-Komponenten {#adaptive-forms-components}
       + [Adaptive Formulare – Akkordeon](/help/adaptive-forms/components/accordion.md)
       + [Adaptive Formulare – Schaltfläche](/help/adaptive-forms/components/button.md)
       + [Kontrollkästchen „Adaptive Formulare“](/help/adaptive-forms/components/checkbox.md)
@@ -126,6 +126,7 @@ ht-degree: 100%
       + [Adaptive Formulare – CAPTCHA](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
       + [Adaptive Formulare – Optionsschaltfläche](/help/adaptive-forms/components/radio-button.md)
       + [Adaptive Formulare – Schaltfläche „Zurücksetzen“](/help/adaptive-forms/components/reset-button.md)
+      + [Überprüfung adaptiver Formulare](/help/adaptive-forms/components/review.md)
       + [Adaptive Formulare – Schaltfläche „Senden“](/help/adaptive-forms/components/submit-button.md)
       + [Adaptives Formular – Schalter](/help/adaptive-forms/components/adaptive-form-switch.md)
       + [Adaptive Formulare – Telefon](/help/adaptive-forms/components/phone.md)
@@ -138,7 +139,7 @@ ht-degree: 100%
       + [Fußzeile](/help/adaptive-forms/components/footer.md)
    + [Anpassen von Kernkomponenten für adaptive Formulare](/help/developing/customize-adaptive-forms-core-components.md)
    + [Beispiel-Designs und -vorlagen](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
-+ Entwickeln {#developing}
++ Entwicklung {#developing}
    + [Entwickeln von Kernkomponenten](/help/developing/overview.md)
    + [Wege zum Erfolg](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=de)
    + [WKND-Entwickler-Tutorial](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=de)
@@ -150,7 +151,7 @@ ht-degree: 100%
    + [Adaptive Image Servlet](/help/developing/adaptive-image-servlet.md)
    + [Web-optimierte Bildbereitstellung](/help/developing/web-optimized-image-delivery.md)
    + [Unterstützung für Remote Assets](/help/developing/remote-assets.md)
-   + Adobe Client-Datenschicht {#data-layer}
+   + Adobe-Client-Datenschicht {#data-layer}
       + [Überblick über die Datenschicht](/help/developing/data-layer/overview.md)
       + [Integration mit der Datenschicht](/help/developing/data-layer/integrations.md)
       + [Erweitern der Datenschicht](/help/developing/data-layer/extending.md)
