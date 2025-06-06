@@ -3,7 +3,7 @@ title: Kernkomponente „Dateianhang“ von adaptiven Formularen
 description: Verwenden oder Anpassen der Kernkomponente „Dateianhang“ von adaptiven Formularen.
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: a1a274b152b3a0fe0bcc72858721ef9830487bb9
+source-git-commit: b6ed89048065830171b70f105e755f2279dd7b01
 workflow-type: tm+mt
 source-wordcount: '2061'
 ht-degree: 97%
@@ -47,7 +47,7 @@ Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokume
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_de). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Technische Details {#technical-details}
 
@@ -101,12 +101,8 @@ Im Dialogfeld „Konfigurieren“ können Sie die Verwendung von Dateianhängen 
    - **Löschen** – Durch Tippen oder Klicken können Sie bestimmte Dateitypen entfernen.
    - **Neu anordnen** – Durch Tippen oder Klicken und Ziehen können Sie die Anordnung zulässiger Dateitypen verändern.
 
+  Wenn Sie eine Datei senden, indem Sie deren Typ in ein zulässiges Dateitypformat ändern, wird während der Formularübermittlung ein Fehler ausgelöst.
 - **Dateityp-Fehlermeldung** – Mit dieser Option können Sie eine Fehlermeldung eingeben, die angezeigt wird, wenn Sie andere Dateiformate hochladen als diejenigen, die in der Option **Zulässige Dateitypen** aufgeführt sind.
-
->
->
-> Wenn Sie eine Datei senden, indem Sie deren Typ in ein zulässiges Dateitypformat ändern, wird während der Formularübermittlung ein Fehler ausgelöst.
-
 
 ### Registerkarte „Hilfe-Inhalt“ {#help-content-tab}
 
@@ -162,7 +158,7 @@ Mit der Option „Benutzerdefinierte Eigenschaften“ können Sie mithilfe der F
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=de)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 
