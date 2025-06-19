@@ -4,7 +4,7 @@ description: Erstellen Sie ansprechende Registrierungserlebnisse (Formulare) mit
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
 source-git-commit: 12a829c164839fdcb2c98d52e409ec3ac2079c41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2123'
 ht-degree: 100%
 
@@ -100,8 +100,8 @@ Die aktuelle Version von AEM Forms enthält die folgenden Kernkomponenten: [Foun
 | Schaltfläche „Weiter“ | ✔️ | ✔️ | | Verwenden Sie die [Assistentenkomponente](/help/adaptive-forms/components/wizard.md) für die Schaltflächen „Weiter“ und „Zurück“, um zwischen mehreren Bedienfeldern zu wechseln. |
 | Numerisches Feld | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/numeric-box.md)</span> | ✔️ | |
 | Numerische Schritte | ✔️ | | | |
-| Bedienfeld | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/panel.md)</span> | ✔️ | |
-| Telefon / Mobiltelefon | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/phone.md)</span> | ✔️ | |
+| Panel | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/panel.md)</span> | ✔️ | |
+| Telefon/Mobiltelefon | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/phone.md)</span> | ✔️ | |
 | Schaltfläche „Zurück“ | ✔️ | ✔️ | | Verwenden Sie die [Assistentenkomponente](/help/adaptive-forms/components/wizard.md) für die Schaltflächen „Weiter“ und „Zurück“, um zwischen mehreren Bedienfeldern zu wechseln. |
 | Optionsfeldgruppe | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/radio-button.md)</span> | ✔️ | |
 | Schaltfläche „Zurücksetzen“ | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/reset-button.md)</span> | ✔️ | |
@@ -195,9 +195,9 @@ Der Editor für adaptive Formulare, die auf Kernkomponenten basieren, ähnelt de
 
 * **[Formulardatenmodell](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/using-form-data-model)**: Ein adaptives Formulardatenmodell (Forms Date Model – FDM) dient als Brücke zwischen Ihren adaptiven Formularen und Ihren Datenquellen. Es definiert im Wesentlichen die Struktur und Organisation der Daten, die Ihre Formulare erfassen und mit denen Sie interagieren. Sie können den Editor verwenden, um Ihr Formular einfach mit einem Formulardatenmodell (FDM) zu verbinden.
 
-* **[Formulareinreichungen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Adaptive%20Form%20Submit%20Action&amp;text=Adobe%20recommends%20using%20Core%20Components,to%20create%20standalone%20Adaptive%20Forms.&amp;text=A%20Submit%20Action%20lets%20you,button%20on%20an%20Adaptive%20Form)**: Eine Formulareinreichung bezieht sich auf den Prozess, bei dem Benutzende ihre Formulare ausfüllen und senden. Dadurch wird eine Reihe von Aktionen ausgelöst, die in der Formularkonfiguration definiert sind und letztendlich zur Speicherung oder Verarbeitung der gesendeten Daten führen. Der Editor für adaptive Formulare bietet eine Vielzahl von Optionen zum Konfigurieren von Formulareinreichungen. Einige der gängigen Sendeaktionen sind:
+* **[Formulareinreichungen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Adaptive%20Form%20Submit%20Action&text=Adobe%20recommends%20using%20Core%20Components,to%20create%20standalone%20Adaptive%20Forms.&text=A%20Submit%20Action%20lets%20you,button%20on%20an%20Adaptive%20Form)**: Eine Formulareinreichung bezieht sich auf den Prozess, bei dem Benutzende ihre Formulare ausfüllen und senden. Dadurch wird eine Reihe von Aktionen ausgelöst, die in der Formularkonfiguration definiert sind und letztendlich zur Speicherung oder Verarbeitung der gesendeten Daten führen. Der Editor für adaptive Formulare bietet eine Vielzahl von Optionen zum Konfigurieren von Formulareinreichungen. Einige der gängigen Sendeaktionen sind:
 
-   * [E-Mail senden](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Adaptive%20Form%20Submit%20Action&amp;text=Adobe%20recommends%20using%20Core%20Components,to%20create%20standalone%20Adaptive%20Forms.&amp;text=A%20Submit%20Action%20lets%20you,button%20on%20an%20Adaptive%20Form.)
+   * [E-Mail senden](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Adaptive%20Form%20Submit%20Action&text=Adobe%20recommends%20using%20Core%20Components,to%20create%20standalone%20Adaptive%20Forms.&text=A%20Submit%20Action%20lets%20you,button%20on%20an%20Adaptive%20Form.)
    * [Power Automate-Fluss aufrufen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/integrate/services/forms-microsoft-power-automate-integration)
    * [An SharePoint senden](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-action-sharepoint)
    * [Workfront Fusion aufrufen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Invoke%20a%20Workfront%20Fusion)
