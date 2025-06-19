@@ -8,7 +8,7 @@ feature-set: Experience Manager Sites, Experience Manager Forms
 source-git-commit: 5c4c72b2f52806cbcc889b676dfa2b2b65b08562
 workflow-type: tm+mt
 source-wordcount: '388'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
@@ -105,7 +105,7 @@ ht-degree: 92%
 + Adaptive Formulare {#adaptive-forms}
    + [Einführung](/help/adaptive-forms/introduction.md)
    + [Versionsverlauf](/help/adaptive-forms/version.md)
-   + Adaptive Forms-Komponenten {#adaptive-forms-components}
+   + Adaptive Formulare – Komponenten {#adaptive-forms-components}
       + [Adaptive Formulare – Akkordeon](/help/adaptive-forms/components/accordion.md)
       + [Adaptive Formulare – Schaltfläche](/help/adaptive-forms/components/button.md)
       + [Kontrollkästchen „Adaptive Formulare“](/help/adaptive-forms/components/checkbox.md)
