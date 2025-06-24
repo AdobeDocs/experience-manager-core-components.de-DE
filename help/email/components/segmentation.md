@@ -136,6 +136,6 @@ Tippen oder klicken Sie auf die **Hinzufügen**-Schaltfläche, um neue Bedingung
 * **Name der Segmentbedingung** – Eine Beschreibung der Bedingung
 * **Segmentbedingung** – Die tatsächliche Bedingung, die basierend auf Adobe Campaign-Personalisierungsvariablen erfüllt werden muss
    * [Hier finden Sie Adobe Campaign Standard-Personalisierungsressourcen.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=de)
-   * [Hier finden Sie Adobe Campaign Classic-Personalisierungsressourcen.]&#x200B;(https://experienceleague.adobe.com/docs/
+   * [Hier finden Sie Adobe Campaign Classic-Personalisierungsressourcen.]&#x200B;(https://experienceleague.adobe.com/docs/?lang=de
 * **Entfernen** – Tippen oder klicken Sie, um die Bedingung zu entfernen
 * **Neu anordnen** – Tippen oder klicken und ziehen Sie die Bedingungen, um ihre Reihenfolge neu anzuordnen
