@@ -35,7 +35,7 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 >[!CAUTION]
 >
 >In diesem Dokument wird die v1 der Schnellsuch-Komponente beschrieben.
->>Weitere Informationen zur aktuellen Version der Schnellsuch-Komponente finden Sie im Dokument [Schnellsuch-Komponente](/help/components/quick-search.md).
+>&#x200B;>Weitere Informationen zur aktuellen Version der Schnellsuch-Komponente finden Sie im Dokument [Schnellsuch-Komponente](/help/components/quick-search.md).
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
 
