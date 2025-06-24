@@ -3,12 +3,13 @@ title: Kernkomponente für adaptive Formulare - Kontrollkästchen
 description: Verwenden oder Anpassen der Kontrollkästchen-Kernkomponente für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
-source-wordcount: '1838'
-ht-degree: 100%
+source-wordcount: '1837'
+ht-degree: 99%
 
 ---
+
 
 # Kontrollkästchen-Komponente{#checkbox-component}
 
@@ -19,6 +20,8 @@ Ein Kontrollkästchen wird in der Regel als kleines Quadrat dargestellt, das dur
 >[!NOTE]
 >
 > Für AEM 6.5 Forms wurde diese Komponente mit AEM 6.5 Forms Service Pack 19 (6.5.19.0) eingeführt. Um diese Komponente zu aktivieren, stellen Sie sicher, dass die erforderlichen Versionen der Forms-Kernkomponenten und der WCM-Kernkomponenten installiert sind. Ausführliche Informationen zu den Versionen der Kernkomponenten für adaptive Formulare finden Sie unter [Kernkomponentenversionen für adaptive Formulare](/help/adaptive-forms/version.md)
+
+{{traditional-aem}}
 
 **Beispiel**
 

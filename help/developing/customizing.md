@@ -3,7 +3,7 @@ title: Anpassen der Kernkomponenten
 description: Die Kernkomponenten implementieren verschiedene Muster, die eine einfache Anpassung ermöglichen, von einfachen Stilen bis hin zur Wiederverwendung erweiterter Funktionen.
 role: Architect, Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
-source-git-commit: bd688d422a072a9d5627c27817ac67f95829de4f
+source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 100%
@@ -13,6 +13,8 @@ ht-degree: 100%
 # Anpassen der Kernkomponenten {#customizing-core-components}
 
 Die [Kernkomponenten](overview.md) implementieren verschiedene Muster, die eine einfache Anpassung ermöglichen, von einfachen Stilen bis hin zur Wiederverwendung erweiterter Funktionen.
+
+{{traditional-aem}}
 
 ## Flexible Architektur {#flexible-architecture}
 

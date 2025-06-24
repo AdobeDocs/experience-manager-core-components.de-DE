@@ -3,16 +3,20 @@ title: Kernkomponente für adaptive Formulare – Kontrollkästchen-Gruppe
 description: Verwenden oder Anpassen der Kernkomponente für adaptive Formulare – Kontrollkästchen-Gruppe.
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
-source-wordcount: '2103'
-ht-degree: 100%
+source-wordcount: '2101'
+ht-degree: 98%
 
 ---
 
+
 # Kontrollkästchengruppen-Komponente {#button-component-adaptive-forms-core-component}
 
-Eine Kontrollkästchen-Gruppe in einem adaptiven Formular ist ein Satz verwandter Kontrollkästchen, mit denen Benutzende eine oder mehrere Optionen aus einer Liste auswählen können. Jedes Kontrollkästchen wird durch einen Datenwert (Wert, der für die Verarbeitung der Elemente einer Kontrollkästchengruppe verwendet wird) und einen Anzeigewert (Beschriftung für jedes Kontrollkästchenelement, die seinen Zweck beschreibt) dargestellt
+Eine Kontrollkästchen-Gruppe in einem adaptiven Formular ist ein Satz verwandter Kontrollkästchen, mit denen Benutzende eine oder mehrere Optionen aus einer Liste auswählen können. Jedes Kontrollkästchen wird durch einen Datenwert (Wert, der zur Verarbeitung von Elementen einer Kontrollkästchen-Gruppe verwendet wird) und einen Anzeigewert (Beschriftung für jedes Kontrollkästchen-Element, die seinen Zweck beschreibt) dargestellt
+
+{{traditional-aem}}
+
 **Beispiel**
 
 ![Beispiel einer Kontrollkästchengruppe](/help/adaptive-forms/assets/checkbox-group.png)
@@ -45,7 +49,7 @@ Es gibt verschiedene Gründe, warum von vorteilhaft ist, eine Kontrollkästchen-
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die Kernkomponente für eine Kontrollkästchengruppe in adaptiven Formularen wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 für Cloud Service und der Kernkomponenten 1.1.12 für AEM 6.5.16.0 Forms oder höher veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
+Die Kernkomponente für adaptive Forms-Kontrollkästchen-Gruppen wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 für Cloud Service und der Kernkomponenten 1.1.12 für AEM 6.5.16.0 Forms oder höher veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
 
 | Komponentenversion | AEM as a Cloud Service | AEM 6.5.16.0 Forms oder höher |
 |---|---|---|
@@ -55,7 +59,7 @@ Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokume
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_de). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Technische Details {#technical-details}
 

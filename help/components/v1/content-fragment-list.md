@@ -3,12 +3,14 @@ title: Inhaltsfragmentlisten-Komponente (v1)
 description: Die Inhaltsfragmentlisten-Kernkomponente ermöglicht die Anzeige einer Liste von Inhaltsfragmenten.
 role: Architect, Developer, Admin, User
 exl-id: 37d6632d-360d-4081-8279-8efbb369a82e
-source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '694'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
+
 
 # Inhaltsfragmentlisten-Komponente (v1) {#content-fragment-list-component}
 
@@ -79,7 +81,7 @@ Standardmäßig werden alle Elemente des Inhaltsfragmentmodells in die Liste auf
 
 ![Registerkarte „Elemente“ im Dialogfeld „Bearbeiten“ der Inhaltsfragmentlisten-Komponente](/help/assets/content-fragment-list-elements.png)
 
-* **Elemente** - Es werden nur die Elemente der Inhaltsfragmente in der angegebenen Liste angezeigt.
+* **Elemente** – Es werden nur die Elemente der Inhaltsfragmente in der angegebenen Liste angezeigt.
    * Klicken oder tippen Sie auf die Schaltfläche **Hinzufügen**, um ein neues Element hinzuzufügen.
    * Klicken oder tippen Sie auf die Schaltfläche **Löschen**, um ein ausgewähltes Element zu entfernen.
    * Ziehen Sie den Ziehgriff **Reihenfolge**, um die Reihenfolge der Elemente zu ändern.

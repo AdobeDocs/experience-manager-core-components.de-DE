@@ -3,18 +3,21 @@ title: Kernkomponente „Bild“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „Bild“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: 9ee42d5d-16e3-4973-8364-5bc512ebe72e
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 100%
+source-wordcount: '1056'
+ht-degree: 96%
 
 ---
+
 
 # Bildkomponente{#image-adaptive-forms-core-component}
 
 Mit einer Bildkomponente in einem adaptiven Formular können Sie Bilder in ein Formular einfügen. Diese Bilder können verwendet werden, um das Gesamt-Design des Formulars zu verbessern, zusätzliche Informationen bereitzustellen oder eine visuelle Hilfe zu bieten, sodass Benutzende leichter den Zweck des Formulars verstehen. Die Bildkomponente kann verwendet werden, um ein Logo, ein Foto oder eine Grafik in ein Formular einzufügen.
 
 Für die Barrierefreiheit ist es wichtig, **Alternativtext** zum Bild anzugeben, um eine kurze, beschreibende Textalternative für das Bild bereitzustellen, die das Bild für Benutzende beschreibt, die es nicht sehen können.
+
+{{traditional-aem}}
 
 **Beispiel**
 
@@ -35,7 +38,7 @@ Es gibt verschiedene Gründe, warum es sinnvoll sein kann, eine Bildkomponente z
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die Bildkernkomponente für adaptive Formulare wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 für Cloud Service und der Kernkomponenten 1.1.12 für AEM 6.5.16.0 Forms oder höher veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
+Die Kernkomponente „Adaptive Forms Image“ wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 für Cloud Service und der Kernkomponenten 1.1.12 für AEM 6.5.16.0 Forms oder höher veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
 
 | Komponentenversion | AEM as a Cloud Service | AEM 6.5.16.0 Forms oder höher |
 |---|---|---|
@@ -46,7 +49,7 @@ Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokume
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_de). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Technische Details {#technical-details}
 

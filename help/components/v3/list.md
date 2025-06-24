@@ -3,12 +3,14 @@ title: Listenkomponente (v3)
 description: Die Kernkomponente „Listenkomponente (v3)“ ermöglicht die einfache Erstellung dynamischer sowie statischer Listen.
 role: Architect, Developer, Admin, User
 exl-id: 4aefce2e-9c22-4c6d-869e-aaa8c246b073
-source-git-commit: d86cb826922330f9877a725b84eb1844e1d5c0b7
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '1168'
 ht-degree: 100%
 
 ---
+
 
 # Listenkomponente (v3) {#list-component}
 
@@ -32,8 +34,8 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 
 | Komponentenversion | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
-| [v4](/help/components/list.md) | - | Kompatibel | Kompatibel |
-| v3 | - | Kompatibel | Kompatibel |
+| [v4](/help/components/list.md) | – | Kompatibel | Kompatibel |
+| v3 | – | Kompatibel | Kompatibel |
 | [v2](/help/components/v2/list.md) | Kompatibel | Kompatibel | Kompatibel |
 | [v1](/help/components/v1/list-v1.md) | Kompatibel | Kompatibel | Kompatibel |
 

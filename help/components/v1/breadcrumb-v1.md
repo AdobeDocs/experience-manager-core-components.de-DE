@@ -4,12 +4,13 @@ description: Die Kernkomponente „Breadcrumb-Komponente“ ist eine Navigations
 index: n
 role: Architect, Developer, Admin, User
 exl-id: 4845e649-033a-43a8-b5ee-892a3f2a8b98
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 100%
 
 ---
+
 
 # Breadcrumb-Komponente (v1) {#breadcrumb-component-v}
 
@@ -35,7 +36,7 @@ In der folgenden Tabelle ist die Kompatibilität von v1 der Breadcrumb-Komponent
 >[!CAUTION]
 >
 >In diesem Dokument wird v1 der Breadcrumb-Komponente beschrieben.
->Weitere Informationen zur aktuellen Version der Breadcrumb-Komponente finden Sie im Dokument [Breadcrumb-Komponente](/help/components/breadcrumb.md).
+>>Weitere Informationen zur aktuellen Version der Breadcrumb-Komponente finden Sie im Dokument [Breadcrumb-Komponente](/help/components/breadcrumb.md).
 
 ## Musterkomponentenausgabe {#sample-component-output}
 

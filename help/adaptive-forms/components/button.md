@@ -3,12 +3,13 @@ title: Kernkomponente für adaptive Formulare – Schaltfläche
 description: Verwenden oder Anpassen der Schlatflächen-Kernkomponente für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: cb75929b-8c86-49d1-b51a-368f5b80b1a9
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
-source-wordcount: '1660'
-ht-degree: 100%
+source-wordcount: '1658'
+ht-degree: 98%
 
 ---
+
 
 # Schaltflächen-Komponente {#button-component-adaptive-forms-core-component}
 
@@ -19,6 +20,8 @@ Benutzende können mit dem Regel-Editor für adaptive Formulare verschiedene Akt
 Adaptive Formulare verfügen über separate Komponenten für die Schaltflächen [Senden](/help/adaptive-forms/components/submit-button.md) und [Zurücksetzen](/help/adaptive-forms/components/reset-button.md), sodass Benutzerinnen und Benutzer ein Formular bequem senden oder zurücksetzen können. Die Schaltflächenkomponente kann flexibel so konfiguriert werden, dass sie diese Aktionen je nach spezifischen Anforderungen ausführt.
 
 Benutzende können auf die vollständige Liste der für die Schaltflächen-Komponente unterstützten Aktionen über den Regel-Editor für Adaptive Formulare zugreifen. Mit dem Regel-Editor können Benutzende Regeln erstellen, die von verschiedenen Ereignissen ausgelöst werden, z. B. durch Klicken auf eine Schaltfläche, beim Laden eines Formulars oder Ändern eines Feldwerts. Diese Regeln können dann für verschiedene Aktionen verwendet werden, z. B. zum Anzeigen oder Ausblenden von Komponenten, Festlegen von Feldwerten oder Senden des Formulars.
+
+{{traditional-aem}}
 
 **Beispiel**
 
@@ -40,7 +43,7 @@ Es gibt verschiedene Gründe, warum es sinnvoll ist, eine Schaltfläche in ein a
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die Kernkomponente „Schaltfläche“ für adaptive Formulare wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 für Cloud Service und der Kernkomponenten 1.1.12 für AEM 6.5.16.0 Forms oder höher veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
+Die Schaltflächen-Kernkomponente für adaptive Forms wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 für Cloud Service und der Kernkomponenten 1.1.12 für AEM 6.5.16.0 Forms oder höher veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
 
 | Komponentenversion | AEM as a Cloud Service | AEM 6.5.16.0 Forms oder höher |
 |---|---|---|
@@ -51,7 +54,7 @@ Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokume
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_de). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Technische Details {#technical-details}
 

@@ -3,16 +3,19 @@ title: Experience Fragment-Komponente
 description: Mit der Experience Fragment-Komponente kann der Inhaltsautor einer Seite eine Experience Fragment-Variation hinzufügen.
 role: Architect, Developer, Admin, User
 exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
+workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 100%
 
 ---
 
+
 # Experience Fragment-Komponente {#experience-fragment-component}
 
 Mit der Kernkomponente „Experience Fragment-Komponente“ kann der Inhaltsautor eine Experience Fragment-Variante auf einer Seite platzieren, während er eine lokalisierte Site-Struktur unterstützt.
+
+{{traditional-aem}}
 
 ## Nutzung {#usage}
 

@@ -4,12 +4,13 @@ description: Verwenden der Adobe Client-Datenschicht in Verbindung mit den Kernk
 feature: Core Components, Adobe Client Data Layer
 role: Architect, Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
-source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 100%
 
 ---
+
 
 # Verwenden der Adobe Client-Datenschicht in Verbindung mit den Kernkomponenten {#data-layer-core-components}
 
@@ -24,6 +25,8 @@ Wie auch die Kernkomponenten ist der Code für die Adobe Client-Datenschicht auf
 >Weitere Informationen zur Adobe Client-Datenschicht finden Sie in den Ressourcen des entsprechenden [GitHub-Repositorys.](https://github.com/adobe/adobe-client-data-layer)
 >
 >Weitere technische Details zur Integration der Adobe Client-Datenschicht mit den Kernkomponenten finden Sie in der Datei [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) im Kernkomponenten-Repository.
+
+{{traditional-aem}}
 
 ## Installation und Aktivierung {#installation-activation}
 

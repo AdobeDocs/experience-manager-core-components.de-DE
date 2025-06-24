@@ -3,12 +3,13 @@ title: Kernkomponente für adaptive Formulare – Komponente „Schalter“
 description: Verwenden oder Anpassen der Kernkomponente „Schalter“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: 6ff2ca76-1514-42eb-bde3-60259af2d187
-source-git-commit: 04a89892aafe26fda253bcc5971c03eda27237f9
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
 source-wordcount: '1922'
 ht-degree: 100%
 
 ---
+
 
 # Komponente „Schalter“ für adaptive Formulare{#switch-adaptive-forms-core-component}
 
@@ -17,6 +18,8 @@ Die Komponente „Schalter“ ist eine grafische Benutzeroberfläche, die in For
 Die Komponente „Schalter“ ist ein boolesches Steuerungselement, das den Wert auf „true“ oder „false“ setzt. Beispielsweise wird es verwendet, um eine Funktion ein- oder auszuschalten, z. B. um einen Ton ein- oder auszuschalten oder Bluetooth oder WLAN zu aktivieren bzw. zu deaktivieren.
 
 ![Beispiel für die Komponente „Schalter“](/help/adaptive-forms/assets/switch-example.png)
+
+{{traditional-aem}}
 
 ## Verwendung {#reasons-to-use-switch}
 

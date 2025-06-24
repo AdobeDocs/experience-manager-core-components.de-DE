@@ -3,12 +3,13 @@ title: Kernkomponente für adaptive Formulare - Nutzungsbedingungen
 description: Verwenden oder Anpassen der Nutzungsbedingungs-Kernkomponente für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
-source-wordcount: '3256'
-ht-degree: 100%
+source-wordcount: '3253'
+ht-degree: 98%
 
 ---
+
 
 # Nutzungsbedingungs-Komponente
 
@@ -19,6 +20,8 @@ Die **Nutzungsbedingungskomponente** ist eine Composite-Komponente aus Text, Kon
 >[!NOTE]
 >
 > Für AEM 6.5 Forms wurde diese Komponente mit AEM 6.5 Forms Service Pack 19 (6.5.19.0) eingeführt. Um diese Komponente zu aktivieren, stellen Sie sicher, dass die erforderlichen Versionen der Forms-Kernkomponenten und der WCM-Kernkomponenten installiert sind. Ausführliche Informationen zu den Versionen der Kernkomponenten für adaptive Formulare finden Sie unter [Kernkomponentenversionen für adaptive Formulare](/help/adaptive-forms/version.md)
+
+{{traditional-aem}}
 
 **Beispiel**
 
@@ -40,7 +43,7 @@ Unter [Unterkomponenten der Nutzungsbedingungskomponente](#sub-component) finden
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die Kernkomponente „Allgemeine Geschäftsbedingungen“ für adaptive Formulare wurde im Februar 2023 als Teil der Kernkomponenten 2.0.62 für Cloud Service und der Kernkomponenten 1.1.28 für AEM 6.5.16.0 Forms oder höher veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
+Die Kernkomponente „Nutzungsbedingungen“ für adaptive Forms wurde im Februar 2023 als Teil der Kernkomponenten 2.0.62 für Cloud Service und der Kernkomponenten 1.1.28 für AEM 6.5.16.0 Forms oder höher veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
 
 | Komponentenversion | AEM as a Cloud Service | AEM 6.5.16.0 Forms oder höher |
 |---|---|---|

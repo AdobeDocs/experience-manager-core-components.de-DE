@@ -3,12 +3,13 @@ title: Kernkomponente „Horizontale Registerkarten“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „Horizontale Registerkarten“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
 source-wordcount: '2153'
 ht-degree: 100%
 
 ---
+
 
 # Komponente für horizontale Registerkarten (Registerkarten oben){#horizontal-tabs-adaptive-forms-core-component}
 
@@ -17,6 +18,8 @@ Horizontale Registerkarten in adaptiven Formularen sind so aufgebaut, dass mehre
 Die Registerkarten bestehen in der Regel aus einer Reihe von Links oder Schaltflächen, wobei jeder Link oder jede Schaltfläche einem Abschnitt des Formulars entspricht. Wenn Benutzende auf eine Registerkarte klicken, wird der Formularinhalt dynamisch aktualisiert und der entsprechende Abschnitt angezeigt.
 
 ![Beispiel](/help/adaptive-forms/assets/horizontal-example-new.png)
+
+{{traditional-aem}}
 
 ## Verwendung {#reasons-to-use-horizontal-tabs}
 

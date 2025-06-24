@@ -4,8 +4,9 @@ description: Verwenden oder Anpassen der Überprüfungs-Kernkomponente für adap
 role: Architect, Developer, Admin, User
 hide: true
 hidefromtoc: true
-source-git-commit: 04a685cfa2616839f4fec715847bf0821808bd59
-workflow-type: ht
+exl-id: acd230ed-284b-4df2-98e0-a0090cd73611
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
 source-wordcount: '742'
 ht-degree: 100%
 
@@ -15,6 +16,8 @@ ht-degree: 100%
 # Überprüfungskomponente
 
 Die Überprüfungskomponente in adaptiven Formularen ermöglicht es Benutzenden, die eingegebenen Informationen vor dem Absenden des Formulars zu überprüfen und zu verifizieren. Sie dient als Übersichtsseite und bietet eine schreibgeschützte Ansicht aller Felder und ihrer Werte in einem strukturierten und benutzerfreundlichen Format. Diese Funktion stellt sicher, dass Benutzende Fehler oder Auslassungen identifizieren und korrigieren können, bevor sie ihre Übermittlung abschließen, was das gesamte Formularerlebnis verbessert. Durch Klicken auf das Bearbeitungssymbol können die eingegebenen Informationen vor der Formularübermittlung geändert werden.
+
+{{traditional-aem}}
 
 **Beispiel**
 
@@ -76,4 +79,3 @@ Das folgende Video zeigt, wie Sie die Komponente **Überprüfen** so konfigurier
 ## Siehe auch {#see-also}
 
 {{see-also}}
-

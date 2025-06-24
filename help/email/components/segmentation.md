@@ -3,8 +3,9 @@ title: E-Mail-Segmentierungskomponente
 description: Die E-Mail-Segmentierungskomponente
 role: Architect, Developer, Admin, User
 exl-id: 6c88b8c5-189a-40c0-ab28-04d37dc5fbac
-source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
-workflow-type: ht
+index: false
+source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
+workflow-type: tm+mt
 source-wordcount: '1089'
 ht-degree: 100%
 
@@ -135,6 +136,6 @@ Tippen oder klicken Sie auf die **Hinzufügen**-Schaltfläche, um neue Bedingung
 * **Name der Segmentbedingung** – Eine Beschreibung der Bedingung
 * **Segmentbedingung** – Die tatsächliche Bedingung, die basierend auf Adobe Campaign-Personalisierungsvariablen erfüllt werden muss
    * [Hier finden Sie Adobe Campaign Standard-Personalisierungsressourcen.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=de)
-   * [Hier finden Sie Adobe Campaign Classic-Personalisierungsressourcen.]&#x200B;(https://experienceleague.adobe.com/docs/?lang=de
+   * [Hier finden Sie Adobe Campaign Classic-Personalisierungsressourcen.]&#x200B;(https://experienceleague.adobe.com/docs/
 * **Entfernen** – Tippen oder klicken Sie, um die Bedingung zu entfernen
 * **Neu anordnen** – Tippen oder klicken und ziehen Sie die Bedingungen, um ihre Reihenfolge neu anzuordnen

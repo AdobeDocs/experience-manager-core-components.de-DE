@@ -3,16 +3,19 @@ title: Teaser-Komponente
 description: Die Teaser-Komponente kann ein Bild, einen Titel, Rich-Text und optional einen Link zu weiteren Inhalten anzeigen.
 role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
+workflow-type: tm+mt
 source-wordcount: '1046'
 ht-degree: 100%
 
 ---
 
+
 # Teaser-Komponente {#teaser-component}
 
 Die Kernkomponente „Teaser-Komponente“ kann ein Bild, einen Titel, Rich-Text und optional einen Link zu weiteren Inhalten anzeigen.
+
+{{traditional-aem}}
 
 ## Nutzung {#usage}
 

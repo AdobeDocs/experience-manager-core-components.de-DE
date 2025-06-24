@@ -3,12 +3,13 @@ title: Adaptives Formularfragment
 description: Verwenden Sie Formularfragmente, um Formularsegmente oder Feldgruppen zu erstellen und sie über adaptive Formulare hinweg wiederzuverwenden, um die Effizienz und Wiederverwendbarkeit zu verbessern.
 role: Architect, Developer, Admin, User
 exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
-source-wordcount: '1954'
-ht-degree: 100%
+source-wordcount: '1952'
+ht-degree: 98%
 
 ---
+
 
 # Komponente für adaptives Formularfragment {#form-fragment-component-adaptive-forms-core-component}
 
@@ -25,6 +26,8 @@ Sie können die [Wiederholungsoptionen](https://experienceleague.adobe.com/docs/
 >
 > Sie können [adaptive Formularfragmente von Grund auf neu erstellen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=de#create-a-fragment) oder ein Bedienfeld in einem vorhandenen adaptiven Formular als Fragment speichern.
 
+{{traditional-aem}}
+
 ## Verwendung {#usage}
 
 - **Wiederverwendbarkeit**: Der größte Vorteil von Formularfragmenten ist die Möglichkeit Formularfragmente in mehreren adaptiven Formularen wiederzuverwenden. Dies hilft bei der Aufrechterhaltung von Konsistenz in Design und Funktionalität, da an einem Fragment vorgenommene Änderungen in allen Instanzen übernommen werden, in denen es verwendet wird.
@@ -37,7 +40,7 @@ Sie können die [Wiederholungsoptionen](https://experienceleague.adobe.com/docs/
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die Kernkomponente „Fragment“ für adaptive Formulare wurde als Teil der Kernkomponenten 2.0.50 für Cloud Service und der Kernkomponenten 1.1.26 für AEM 6.5.16.0 Forms oder höher veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
+Die Kernkomponente für adaptive Forms-Fragmente wurde als Teil der Kernkomponenten 2.0.50 für Cloud Service und der Kernkomponenten 1.1.26 für AEM 6.5.16.0 Forms oder höher veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
 
 | Komponentenversion | AEM as a Cloud Service | AEM 6.5.16.0 Forms oder höher |
 |---|---|---|

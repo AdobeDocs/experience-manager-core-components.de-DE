@@ -3,16 +3,19 @@ title: Einführung zu Kernkomponenten für adaptive Formulare in AEM
 description: Erstellen Sie ansprechende Registrierungserlebnisse (Formulare) mit der Flexibilität der Kernkomponenten für adaptive Formulare und stellen Sie sie über Adobe Experience Manager bereit.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 12a829c164839fdcb2c98d52e409ec3ac2079c41
-workflow-type: ht
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
 source-wordcount: '2123'
 ht-degree: 100%
 
 ---
 
+
 # Kernkomponenten für adaptive Formulare  {#adaptive-forms-core-components-introduction}
 
 Mithilfe der Kernkomponenten für adaptive Formulare können Sie in Adobe Experience Manager überzeugende Erlebnisse bei der Registrierung schaffen.
+
+{{traditional-aem}}
 
 ## Kernkomponenten {#overview}
 
