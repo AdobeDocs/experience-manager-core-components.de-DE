@@ -3,12 +3,12 @@ sub-product: AEM Core Components
 user-guide-title: AEM-Kernkomponenten
 breadcrumb-title: Anleitung zu den Hauptkomponenten
 feature: Core Components
-user-guide-description: Verwenden Sie für herkömmliche AEM-Projekte die erweiterbaren Kernkomponenten, damit Autorinnen und Autoren mühelos Inhalte erstellen können.
+user-guide-description: Nutzen Sie für herkömmliche AEM-Projekte die erweiterbaren Hauptkomponenten, damit Autorinnen und Autoren mühelos Inhalte erstellen können.
 feature-set: Experience Manager Sites, Experience Manager Forms
 source-git-commit: 5c4c72b2f52806cbcc889b676dfa2b2b65b08562
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '388'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
