@@ -4,9 +4,9 @@ description: Verwenden oder Anpassen der Nutzungsbedingungs-Kernkomponente für 
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
 source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3253'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Unter [Unterkomponenten der Nutzungsbedingungskomponente](#sub-component) finden
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die Kernkomponente „Nutzungsbedingungen“ für adaptive Forms wurde im Februar 2023 als Teil der Kernkomponenten 2.0.62 für Cloud Service und der Kernkomponenten 1.1.28 für AEM 6.5.16.0 Forms oder höher veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
+Die Kernkomponente „Allgemeine Geschäftsbedingungen“ für adaptive Formulare wurde im Februar 2023 als Teil der Kernkomponenten 2.0.62 für Cloud Service und der Kernkomponenten 1.1.28 für AEM 6.5.16.0 Forms oder höher veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
 
 | Komponentenversion | AEM as a Cloud Service | AEM 6.5.16.0 Forms oder höher |
 |---|---|---|

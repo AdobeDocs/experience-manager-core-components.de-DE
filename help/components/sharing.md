@@ -5,9 +5,9 @@ role: Architect, Developer, Admin, User
 exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
 index: false
 source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '377'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Die Kernkomponente „Social-Sharing-Komponente“ ist ein Widget zum Teilen auf
 
 >[!NOTE]
 >
->Die Social-Sharing-Komponente wurde mit Kernkomponenten (Version [.18.0.](/help/versions.md)) entfernt
+>Die Social-Sharing-Komponente wurde mit [Version 2.18.0](/help/versions.md) der Kernkomponenten entfernt.
 
 {{traditional-aem}}
 

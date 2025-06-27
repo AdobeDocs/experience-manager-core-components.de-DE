@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 exl-id: 28a2d196-cc1f-4e29-a8e4-c2e0acba3bfc
 index: n
 source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1240'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Um die Einbettungskomponente auszuprobieren sowie Beispiele für ihre Konfigurat
 
 ## Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Einbettungskomponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_embed_v1_de).
+Die aktuelle technische Dokumentation zur Einbettungskomponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_embed_v1).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 

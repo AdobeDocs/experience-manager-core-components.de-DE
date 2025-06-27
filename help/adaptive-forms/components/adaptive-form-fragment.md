@@ -4,9 +4,9 @@ description: Verwenden Sie Formularfragmente, um Formularsegmente oder Feldgrupp
 role: Architect, Developer, Admin, User
 exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
 source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1952'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Sie können die [Wiederholungsoptionen](https://experienceleague.adobe.com/docs/
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die Kernkomponente für adaptive Forms-Fragmente wurde als Teil der Kernkomponenten 2.0.50 für Cloud Service und der Kernkomponenten 1.1.26 für AEM 6.5.16.0 Forms oder höher veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
+Die Kernkomponente für Fragmente in adaptiven Formularen wurde als Teil der Kernkomponenten 2.0.50 für Cloud Service und der Kernkomponenten 1.1.26 für AEM 6.5.16.0 Forms oder höher veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
 
 | Komponentenversion | AEM as a Cloud Service | AEM 6.5.16.0 Forms oder höher |
 |---|---|---|
