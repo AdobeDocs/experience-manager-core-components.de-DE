@@ -1,65 +1,55 @@
 ---
-title: Kernkomponente „Datumsauswahl“ für adaptive Formulare
-description: Verwenden oder Anpassen der Datumsauswahl-Kernkomponente in adaptiven Formularen.
+title: Kernkomponente „Datum und Uhrzeit“ der adaptiven Forms
+description: Verwenden oder Anpassen der Datums- und Uhrzeitkernkomponente von Adaptive Forms.
 role: Architect, Developer, Admin, User
-exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
 source-git-commit: daeabccaff39e255c111c6af2540ca4d5be0c709
 workflow-type: tm+mt
-source-wordcount: '2298'
-ht-degree: 100%
+source-wordcount: '1898'
+ht-degree: 74%
 
 ---
 
 
-# Datumsauswahl-Komponente{#date-picker-adaptive-forms-core-component}
+# Datums- und Uhrzeitkomponente
 
-Datumsauswahl-Komponenten in einem adaptiven Formular sind Elemente der Benutzeroberfläche, mit denen Benutzende ein Datum aus einem Kalender auswählen oder manuell ein Datum in einem bestimmten Format eingeben können. Sie können die Datumsauswahl-Komponente so konfigurieren, dass sie unterschiedliche Formatierungen, Validierungen und Standardwerte aufweist.
+Eine Datums- und Uhrzeitkomponente in einem adaptiven Formular ist ein Benutzeroberflächenelement, mit dem Benutzende sowohl **Datum und Uhrzeit** über eine Kalender- und Uhrenschnittstelle auswählen oder Werte in einem bestimmten Format manuell eingeben können. Es stellt eine genaue, standardisierte Eingabe für Anwendungsfälle sicher, in denen sowohl Datum als auch Uhrzeit wichtig sind.
 
 **Beispiel**
 
-![Beispiel](/help/adaptive-forms/assets/date-picker.png)
+![Beispiel](/help/adaptive-forms/assets/date-time-picker.png)
 
-## Verwendung {#reasons-to-use-drop-date-picker}
+## Verwendung {#reasons-to-use-date-time-picker}
 
-Die Verwendung der Datumsauswahl in einem adaptiven Formular kann verschiedene Vorteile haben, darunter:
+Es gibt verschiedene Gründe, warum es sinnvoll ist, eine Datums- und Uhrzeitauswahl in ein Formular einzufügen, darunter:
 
-- **Komfort**: Benutzende können mit einer Datumsauswahl-Komponente einfach ein Datum aus einem Kalender auswählen, ohne das Datum manuell in ein Textfeld eingeben zu müssen. Dies kann Zeit sparen und Fehler reduzieren.
-
-- **Benutzererlebnis**: Sie können mit der Datumsauswahl-Komponente das Formular benutzerfreundlicher gestalten, indem Sie eine klare und intuitive Methode zur Auswahl des Datums bereitstellen.
-
-- **Datenanalyse**: Die Datumsauswahl-Komponente kann verwendet werden, um Daten aus verschiedenen Quellen zu erfassen und zu analysieren oder sie als Eingabe für die weitere Verarbeitung zu verwenden.
-
-- **Event-Management**: Sie können die Datumsauswahl-Komponente auf Event-Management-Websites zur Auswahl einer Veranstaltung verwenden.
-
-- **Buchung und Reservierung**: Die Datumsauswahl-Komponente kann auf Buchungs- und Reservierungs-Websites verwendet werden, um die Ein- und Auscheckdaten auszuwählen.
-
-- **Datumsformat**: Sie können die Datumsauswahl-Komponente verwenden, um das Format zu korrigieren, in dem das Datum angezeigt und eingegeben wird. Stellen Sie sicher, dass das Datumsformat im gesamten Formular gleich ist, um ein konsistentes Benutzererlebnis zu gewährleisten.
+- **Komfort**: Benutzende können einfach sowohl ein Datum als auch eine Uhrzeit auswählen, ohne Werte manuell eingeben zu müssen.
+- **Konsistenz**: Erzwingt ein Standardformat für Datums- und Uhrzeiteingaben im gesamten Formular.
+- **Verbessertes Benutzererlebnis**: Bietet eine intuitive Benutzeroberfläche mit Kalender- und Zeitauswahl.
+- **Ereignisplanung** Nützlich bei der Terminbuchung, in Interviews oder in Formularen zur Besprechungsplanung.
+- **Reisen und Reservierungen**: Ermöglicht Benutzern die Auswahl von Ein-/Auscheckdaten und -zeiten.
+- **Datengenauigkeit**: Reduziert Eingabefehler im Vergleich zur Eingabe in Freitext.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die Kernkomponente für die Datumsauswahl in adaptiven Formularen wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 für Cloud Service und der Kernkomponenten 1.1.12 für AEM 6.5.16.0 Forms oder höher veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
+Die Kernkomponente „Datum und Uhrzeit“ von Adaptive Forms wurde im **August 2025** als Teil von **Kernkomponenten 2.24.6** für Cloud Service und höher veröffentlicht.
 
 | Komponentenversion | AEM as a Cloud Service | AEM 6.5.16.0 Forms oder höher |
 |---|---|---|
-| v1 | Kompatibel mit<br>[Version 2.0.4](/help/adaptive-forms/version.md) und höher | Kompatibel mit<br>[Version 1.1.12](/help/adaptive-forms/version.md) und höher (aber nur bis Version 2.0.0). |
+| v1 | Kompatibel mit<br>[Version 2.24.6](/help/adaptive-forms/version.md) und höher | |
 
-Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokument [Kernkomponenten-Versionen](/help/adaptive-forms/version.md).
-
-<!-- ## Sample Component Output {#sample-component-output}
-
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
+Weitere Informationen zu Versionen finden Sie unter [Kernkomponentenversionen](/help/adaptive-forms/version.md).
 
 ## Technische Details {#technical-details}
 
-Die neuesten Informationen zur Datumsauswahl-Kernkomponente für adaptive Formulare erhalten Sie in der technischen Dokumentation auf [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/datepicker/v1/datepicker). Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Entwicklerdokumentation für Kernkomponenten](/help/developing/overview.md).
+Erhalten Sie die neuesten technischen Details zur Datums- und Uhrzeitkernkomponente von Adaptive Forms auf [GitHub](https://github.com/adobe/aem-core-forms-components). Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie unter [Dokumentation für Kernkomponenten-Entwickler](/help/developing/overview.md).
 
 ## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
-Sie können die Datumsauswahl im Dialogfeld „Konfigurieren“ einfach anpassen. Sie können auch Optionen für die Datumsauswahl definieren, um das Benutzererlebnis zu verbessern.
+Das Dialogfeld „Konfigurieren“ ermöglicht die Anpassung des Datums und der Uhrzeit.
 
 ### Registerkarte „Allgemein“ {#basic-tab}
 
-![Registerkarte „Allgemein“](/help/adaptive-forms/assets/datepicker_basictab.png)
+![Registerkarte „Allgemein“](/help/adaptive-forms/assets/datetime_basictab.png)
 
 - **Name**: Durch den Namen wird die Komponente im Regel-Editor eindeutig identifiziert. Sonderzeichen und Leerzeichen sind im Namen nicht zulässig.
 
@@ -79,12 +69,11 @@ Sie können die Datumsauswahl im Dialogfeld „Konfigurieren“ einfach anpassen
 - **Komponente ausblenden**: Wählen Sie diese Option, um die Komponente aus dem Formular auszublenden. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor. Dies ist nützlich, wenn Sie Informationen speichern müssen, die Benutzende nicht sehen oder direkt ändern müssen.
 - **Komponente deaktivieren**: Wählen Sie die Option zum Deaktivieren der Komponente aus. Die deaktivierte Komponente ist nicht aktiv und Endbenutzende können sie nicht bearbeiten. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
 - **Schreibgeschützt**: Wählen Sie die Option aus, um die Komponente nicht bearbeitbar zu machen. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
-- **Standarddatum**: Mit dieser Option können Sie dem Formularfeld ein Datum hinzufügen. Das eingegebene Datum wird standardmäßig an der Stelle der Komponente angezeigt. Wird kein Datum eingegeben, wird bei der Formularübermittlung dieser Wert gesendet. Wenn **Deaktiverte Komponente** oder **Schreibgeschützte Komponente** ausgewählt wird, wird das Standarddatum auf dem Bildschirm angezeigt und bei der Formularübermittlung gesendet.
-
+- **Standarddatum und -uhrzeit** - Mit dieser Option können Sie dem Formularfeld ein Datum und eine Uhrzeit hinzufügen. Das eingegebene Datum wird standardmäßig an der Stelle der Komponente angezeigt. Wenn Benutzende kein Datum oder keine Uhrzeit eingeben, wird dieser Wert zum Zeitpunkt der Formularübermittlung gesendet. Wenn **Komponente deaktiviert** oder **Schreibgeschützte Komponente** ausgewählt ist, werden Standarddatum und -uhrzeit auf dem Bildschirm angezeigt und bei der Formularübermittlung gesendet.
 
 ### Registerkarte „Validierung“ {#validation-tab}
 
-![Registerkarte „Validierung“](/help/adaptive-forms/assets/datepicker_validation.png)
+![Registerkarte „Validierung“](/help/adaptive-forms/assets/datetime_validation.png)
 
 - **Erforderlich**: Wählen Sie diese Option, wenn Sie die Komponente in einem adaptiven Formular anzeigen möchten. Nachdem Sie die Option ausgewählt haben, müssen Sie eine Auswahl treffen, bevor Sie mit der Formularübermittlung fortfahren. Wenn diese Option aktiviert ist, kann die Option **Komponente ausblenden** oder **Komponente deaktivieren** auf der Registerkarte **Allgemein** nicht ausgewählt werden.
 
@@ -92,20 +81,17 @@ Sie können die Datumsauswahl im Dialogfeld „Konfigurieren“ einfach anpassen
 
 - **Meldung zur Skriptvalidierung**: Mit dieser Option können Sie eine Meldung eingeben, die angezeigt wird, wenn die Skriptvalidierung fehlschlägt.
 
-- **Mindestdatum** – Sie können mit dieser Option das erforderliche Mindestdatum eingeben. Wenn Sie ein Datum eingeben, das vor dem in „Mindestdatum“ angegebenen Datum liegt, erscheint eine Fehlermeldung auf dem Bildschirm. Sie können der **Mindest-Fehlermeldung** eine benutzerdefinierte Fehlermeldung hinzufügen.
+- **Mindestdatum** – Sie können mit dieser Option das erforderliche Mindestdatum eingeben. Wenn Sie ein Datum eingeben, das vor dem in „Mindestdatum und -uhrzeit“ angegebenen Datum liegt, wird eine Fehlermeldung auf dem Bildschirm angezeigt. Sie können der **Mindest-Fehlermeldung** eine benutzerdefinierte Fehlermeldung hinzufügen.
 
-- **Mindest-Fehlermeldung** – Sie können der **Mindest-Fehlermeldung** eine benutzerdefinierte Fehlermeldung hinzufügen, die angezeigt wird, wenn Sie ein Datum eingeben, das vor dem in der Option **Mindestdatum** angegebenen liegt.
-- **Mindestdatum ausschließen**: Mit dieser Option können Sie das Mindestdatum in einem bestimmten Datumsbereich oder einer Reihe von Daten weglassen.
+- **Mindestfehlermeldung** - Sie können im Dialogfeld **Mindestfehlermeldung** eine benutzerdefinierte Fehlermeldung hinzufügen, die angezeigt wird, wenn Sie ein Datum oder eine Uhrzeit eingeben, die vor dem in der Option **Mindestdatum** angegebenen Datum oder Uhrzeit liegt.
 
-- **Maximales Datum** – Sie können mit dieser Option das maximale Datum eingeben. Wenn Sie ein Datum eingeben, das nach dem in „Maximales Datum“ angegebenen Datum liegt, erscheint eine Fehlermeldung auf dem Bildschirm. Sie können im Dialog **Maximal-Fehlermeldung** eine benutzerdefinierte Fehlermeldung hinzufügen.
+- **Maximales Datum** - Mit dieser Option können Sie das erforderliche Datum und die maximale Uhrzeit eingeben. Wenn Sie ein Datum oder eine Uhrzeit eingeben, die nach dem in „Maximales Datum“ angegebenen Datum oder der angegebenen Uhrzeit liegt, wird eine Fehlermeldung auf dem Bildschirm angezeigt. Sie können im Dialog **Maximal-Fehlermeldung** eine benutzerdefinierte Fehlermeldung hinzufügen.
 
-- **Maximal-Fehlermeldung** – Sie können im Dialogfeld **Maximal-Fehlermeldung** eine benutzerdefinierte Fehlermeldung hinzufügen, die angezeigt wird, wenn Sie ein Datum eingeben, das nach der Option **Maximales Datum** liegt.
-
-- **Maximales Datum ausschließen**: Mit dieser Option können Sie das maximale Datum in einem bestimmten Datumsbereich oder einer Reihe von Daten weglassen.
+- **Maximal-Fehlermeldung** - Sie können im Dialogfeld **Maximal-Fehlermeldung** eine benutzerdefinierte Fehlermeldung hinzufügen, die angezeigt wird, wenn Sie ein Datum oder eine Uhrzeit eingeben, die nach dem in der Option **Maximales Datum** angegebenen Datum oder der Uhrzeit liegt.
 
 ### Registerkarte „Hilfe-Inhalt“ {#help-content-tab}
 
-![Registerkarte „Hilfe-Inhalt“](/help/adaptive-forms/assets/datepicker_helptab.png)
+![Registerkarte „Hilfe-Inhalt“](/help/adaptive-forms/assets/datetime_helptab.png)
 
 - **Kurzbeschreibung**: Eine Kurzbeschreibung ist eine kurze Erklärung, die zusätzliche Informationen oder Klarstellungen über den Zweck eines Formularfelds bietet. Es hilft Benutzenden zu verstehen, welcher Datentyp in das Feld eingegeben werden soll, und kann Richtlinien oder Beispiele bereitstellen, um sicherzustellen, dass die eingegebenen Informationen gültig sind und die gewünschten Kriterien erfüllen. Standardmäßig bleiben kurze Beschreibungen ausgeblendet. Aktivieren Sie die Option **Kurzbeschreibung immer anzeigen**, um sie unterhalb der Komponente anzuzeigen.
 
@@ -116,7 +102,7 @@ Sie können die Datumsauswahl im Dialogfeld „Konfigurieren“ einfach anpassen
 
 ### Registerkarte „Barrierefreiheit“ {#accessibility-tab}
 
-![Registerkarte „Barrierefreiheit“](/help/adaptive-forms/assets/datepicker_accessibilitytab.png)
+![Registerkarte „Barrierefreiheit“](/help/adaptive-forms/assets/datetime_accessibilitytab.png)
 
 - **Text für Bildschirmlesehilfen** – Das ist zusätzlicher Text, der von Hilfstechnologien wie etwa Bildschirmlesehilfen für sehbehinderte Personen vorgelesen wird. Dieser Text enthält eine Audiobeschreibung des Zwecks des Formularfelds und kann Informationen über den Titel, die Beschreibung, den Namen und alle relevanten Nachrichten (benutzerdefinierten Text) des Felds enthalten. Der Text der Bildschirmlesehilfe hilft sicherzustellen, dass das Formular allen Benutzenden zugänglich ist, auch Personen mit Sehschwäche, und bietet ihnen ein umfassendes Verständnis des Formularfelds und seiner Anforderungen.
    - **Benutzerdefinierter Text**: Wählen Sie diese Option aus, um den benutzerdefinierten Text für ARIA-Barrierefreiheitsbeschriftungen zu verwenden. Wenn Sie diese Option auswählen, wird das Benutzerdefinierter Dialogfeld „Text“ angezeigt. Sie können relevante Informationen im Benutzerdefinierter Dialogfeld „Text“ hinzufügen.
@@ -125,40 +111,42 @@ Sie können die Datumsauswahl im Dialogfeld „Konfigurieren“ einfach anpassen
    - **Name**: Wählen Sie diese Option aus, um den Namen für ARIA-Barrierefreiheitsbeschriftungen zu verwenden.
    - **Keine**: Wählen Sie diese Option aus, wenn Sie keine ARIA-Barrierefreiheitsbezeichnungen hinzufügen möchten.
 
-### Registerkarte „Formate“ {#format-tab}
+<!--
+### Formats Tab {#format-tab}
 
-![Registerkarte „Formate“](/help/adaptive-forms/assets/datepicker_formattab.png)
+![Formats tab](/help/adaptive-forms/assets/datepicker_formattab.png)
 
-- **Anzeigeformat** – Stellt das Format dar, in dem das Datum angezeigt wird. Die Option **Typ** ermöglicht die Auswahl des Datumsformats. Sie können das Datumsformat auch mithilfe der Option **Benutzerdefiniert** im Dropdown-Menü **Typ** anpassen.
+-   **Display Format** - It represents the date format that is displayed to the user. The **Type** option allows the user to select the date format. You can also customize the date format using the **Custom** option in the **Type** dropdown menu.
 
-- **Format bearbeiten** – Stellt ein Datumsformat dar, in dem das Datum bearbeitet werden kann. Die Option **Typ** ermöglicht die Auswahl des Datumsformats. Sie können das Datumsformat auch mithilfe der Option **Benutzerdefiniert** im Dropdown-Menü **Typ** anpassen.
-- **Fehlermeldung formatieren**: Mit dieser Option können Sie die auf dem Bildschirm angezeigte Nachricht eingeben, wenn das eingegebene Datum nicht das richtige Format aufweist.
-- **Sprache**: Diese Funktion wird zur Formatierung des spezifischen Felds verwendet. Wenn eine Benutzerin bzw. ein Benutzer eine Sprachoption aus dem Dropdown-Menü **Typ** auswählt, erscheint die Option **IETF BCP 47-Sprach-Tag** im Panel. Sie können die Sprache für die Feldformatierung wählen, wenn Sie ein adaptives Formular in eine bestimmte Sprache übersetzen.
+-   **Edit Format** - It represents a date format in which the user can edit the date. The **Type** option allows the user to select the date format. You can also customize the date format using the **Custom** option in the **Type** dropdown menu.
+-  **Format error message** - This option allows you to enter the message displayed on the screen when the entered date is not in the correct format.
+- **Language** - This feature is used for formatting the specific field. When a user selects any language option from the **Type** drop-down menu, the **IETF BCP 47 language tag** option appears in the panel. You can choose the language for field formatting when translating an Adaptive Form into a specific language.
+  
+The set of languages is not visible by default, but users can input a custom **IETF BCP 47 language tag** by updating the template policy:
 
-Die Sprachauswahl ist standardmäßig nicht sichtbar, aber Benutzende können ein benutzerdefiniertes **IETF BCP 47-Sprach-Tag** eingeben, indem sie die Vorlagenrichtlinie aktualisieren:
+  1. Open the corresponding template associated with an Adaptive Form in the template editor.
+  2. Select the existing policy as `datepicker-default-policy` from the drop-down menu.
+   
+        ![Date Picker template Policy](/help/adaptive-forms/assets/date-picker-template-policy.png)
 
-1. Öffnen Sie im Vorlageneditor die entsprechende Vorlage, die mit einem adaptiven Formular verknüpft ist.
-2. Wählen Sie die bestehende Richtlinie als `datepicker-default-policy` aus dem Dropdown-Menü.
+  3. Click **Done**.
 
-   ![Richtlinie für Datumsauswahl-Vorlagen](/help/adaptive-forms/assets/date-picker-template-policy.png)
-
-3. Klicken Sie auf **Fertig**.
-
-   >[!NOTE]
-   >
-   > Weitere Informationen zur Übersetzung eines adaptiven Formulars in ein bestimmtes Gebietsschema finden Sie [hier](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
+        >[!NOTE]
+        >
+        > For further information on how to translate an Adaptive Form to a specific locale, [click here](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
+-->
 
 ## Dialogfeld „Design“ {#design-dialog}
 
-Das Dialogfeld „Design“ wird verwendet, um CSS-Stile für die Komponente „Datumsauswahl“ zu definieren und zu verwalten.
+Sie können das Dialogfeld „Design“ verwenden, um CSS-Stile für die Datums- und Uhrzeitkomponente zu definieren und zu verwalten.
 
 ### Registerkarte „Stile“ {#styles-tab}
 
-Sie können die Registerkarte zum Definieren und Verwalten von CSS-Stilen für eine Komponente verwenden. Die Kernkomponente „Datumsauswahl“ in adaptiven Formularen unterstützt das [Stilsystem](/help/get-started/authoring.md#component-styling) von AEM.
+Sie können die Registerkarte zum Definieren und Verwalten von CSS-Stilen für eine Komponente verwenden. Die Kernkomponente „Datum und Uhrzeit“ von Adaptive Forms unterstützt das AEM [Stilsystem](/help/get-started/authoring.md#component-styling).
 
 ![Registerkarte „Stile“](/help/adaptive-forms/assets/datepicker_styletab.png)
 
-- **Standard-CSS-Klassen**: Sie können für die Datumsauswahl-Kernkomponente in adaptiven Formularen eine Standard-CSS-Klasse bereitstellen.
+- **Standard-CSS** Klassen: Sie können eine standardmäßige CSS-Klasse für die Datums- und Uhrzeit-Kernkomponente von Adaptive Forms bereitstellen.
 
 - **Zulässige Stile**: Sie können Stile definieren, indem Sie den Namen und die CSS-Klasse für den Stil angeben. Sie können beispielsweise einen Stil mit dem Namen „Fettschrift“ erstellen und die CSS-Klasse „Schriftbreite: Fett“ bereitstellen. Sie können diese Stile bei einem adaptiven Formular im adaptiven Formular-Editor anwenden. Um einen Stil anzuwenden, wählen Sie im Editor für adaptive Formulare die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Eigenschaften-Dialog und wählen Sie den gewünschten Stil aus der Dropdown-Liste **Stile**. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld „Design“ zurück, aktualisieren die Stile auf der Registerkarte „Stile“ und speichern die Änderungen.
 
@@ -176,13 +164,14 @@ Mit der Option „Benutzerdefinierte Eigenschaften“ können Sie mithilfe der F
 
    - **Neu anordnen**: Ordnen Sie den Namen und Wert der benutzerdefinierten Eigenschaft Antippen oder Klicken und Ziehen neu an.
 
-### Registerkarte „Formate“ {#formats-tab}
-
-Auf der Registerkarte „Formate“ können Sie standardmäßige und benutzerdefinierte Datumsformate angeben.
-
-![Registerkarte „Format“](/help/adaptive-forms/assets/datepicker_formatpolicy.png)
-
 <!--
+### Formats Tab {#formats-tab}
+
+The formats tab allows you to specify default and custom date formats.
+
+![Formattab](/help/adaptive-forms/assets/datepicker_formatpolicy.png)
+
+
 
 ## Related article {#related-article}
 

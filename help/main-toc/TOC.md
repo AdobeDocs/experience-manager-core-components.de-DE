@@ -5,10 +5,10 @@ breadcrumb-title: Anleitung zu den Hauptkomponenten
 feature: Core Components
 user-guide-description: Nutzen Sie für herkömmliche AEM-Projekte die erweiterbaren Hauptkomponenten, damit Autorinnen und Autoren mühelos Inhalte erstellen können.
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: 5c4c72b2f52806cbcc889b676dfa2b2b65b08562
+source-git-commit: bf6953f24388ed08cd5a66bb51011b3ac82fb58e
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 100%
+source-wordcount: '397'
+ht-degree: 97%
 
 ---
 
@@ -111,6 +111,7 @@ ht-degree: 100%
       + [Kontrollkästchen „Adaptive Formulare“](/help/adaptive-forms/components/checkbox.md)
       + [Adaptive Formulare – Kontrollkästchengruppe](/help/adaptive-forms/components/checkbox-group.md)
       + [Adaptive Formulare – Container](/help/adaptive-forms/components/form-container.md)
+      + [Adaptives Forms - Datum und Uhrzeit](/help/adaptive-forms/components/date-time-component.md)
       + [Adaptive Formulare – Datumsauswahl](/help/adaptive-forms/components/date-picker.md)
       + [Adaptive Formulare – Dropdown-Liste](/help/adaptive-forms/components/drop-down-list.md)
       + [Adaptive Formulare – E-Mail](/help/adaptive-forms/components/email.md)
@@ -127,6 +128,7 @@ ht-degree: 100%
       + [Adaptive Formulare – Optionsschaltfläche](/help/adaptive-forms/components/radio-button.md)
       + [Adaptive Formulare – Schaltfläche „Zurücksetzen“](/help/adaptive-forms/components/reset-button.md)
       + [Überprüfung adaptiver Formulare](/help/adaptive-forms/components/review.md)
+      + [Adaptive Forms Scribble-Signatur](/help/adaptive-forms/components/scribble-signature.md)
       + [Adaptive Formulare – Schaltfläche „Senden“](/help/adaptive-forms/components/submit-button.md)
       + [Adaptives Formular – Schalter](/help/adaptive-forms/components/adaptive-form-switch.md)
       + [Adaptive Formulare – Telefon](/help/adaptive-forms/components/phone.md)
