@@ -1,33 +1,33 @@
 ---
-title: Kernkomponente „Freihandsignatur“ für adaptive Forms
-description: Verwenden oder Anpassen der Kernkomponente „Adaptive Forms Scribble-Signatur“.
+title: Kernkomponente für adaptive Formulare – Freihandsignatur
+description: Verwenden oder Anpassen der Kernkomponente „Freihandsignatur“ in adaptiven Formularen.
 role: Architect, Developer, Admin, User
-source-git-commit: 246a608e4c23a9075813a64691d583584164578c
+exl-id: 608c4368-d539-4d05-a75c-c077ea822f93
+source-git-commit: 006f6c844ab9e7a784dabea026867939445479e9
 workflow-type: tm+mt
 source-wordcount: '1761'
-ht-degree: 79%
+ht-degree: 98%
 
 ---
 
-
-# Komponente für Freihandsignatur
+# Komponente „Freihandsignatur“
 
 <span>Komponente „Freihandsignatur“ befindet sich im Early-Adopter-Programm. Sie können von Ihrer offiziellen E-Mail-ID aus an `aem-forms-ea@adobe.com` schreiben, um dem Early-Adopter-Programm beizutreten und Zugriff auf die Funktion anzufordern.</span>
 
-Eine Komponente für Freihandsignaturen in einem adaptiven Formular ist ein Element der Benutzeroberfläche, mit dem Benutzende ihre **Signatur** direkt innerhalb des Formulars zeichnen können, indem sie eine Maus, einen Stift oder einen Touchscreen verwenden. Es stellt sicher, dass handschriftliche Einwilligungen, Genehmigungen oder Überprüfungen in digitalen Workflows korrekt erfasst werden.
+Eine Komponente des Typs „Freihandsignatur“ in einem adaptiven Formular ist ein Element der Benutzeroberfläche, mit dem Benutzende ihre **Signatur** direkt innerhalb des Formulars zeichnen können, indem sie eine Maus, einen Stift oder einen Touchscreen verwenden. Sie stellt sicher, dass handschriftliches Einverständnis sowie handschriftliche Genehmigungen oder Verifizierungen in digitalen Workflows korrekt erfasst werden.
 
 **Beispiel**
 
 ![Beispiel](/help/adaptive-forms/assets/scribble-signature.png){width=50%,align-center}
 
-**Im Signaturfenster stehen verschiedene Optionen zur Verfügung**
+**Verschiedene im Signaturfenster verfügbare Optionen**
 
 - **A:** Klicken Sie auf das Symbol **Zeichnen**, um Ihre Signatur auf der Arbeitsfläche zu zeichnen.
 - **B:** Klicken Sie auf das Symbol **Löschen**, um die Signatur auf der Arbeitsfläche zu löschen.
 - **C:** Klicken Sie auf das Symbol **Geolocation**, um die Geolocation zusammen mit der Signatur hinzuzufügen.
 - **D:** Klicken Sie auf das **Tastatursymbol**, um Ihren Namen auf der Arbeitsfläche einzugeben.
 
-Sobald Sie im Freihandsignaturfenster auf **Speichern** klicken, können Sie die Signatur nicht mehr bearbeiten. Wenn Sie die Signatur bearbeiten möchten, müssen Sie die aktuelle Signatur ignorieren und mit der obigen Option „Pinsel“/„Tastatur“ erneut signieren.
+Nach Auswählen des Symbols **Speichern** im Fenster „Freihandsignatur“ können Sie die Signatur nicht mehr bearbeiten. Wenn Sie die Signatur bearbeiten möchten, müssen Sie die aktuelle Signatur ignorieren und mit der obigen Option „Pinsel“/„Tastatur“ erneut signieren.
 
 >[!NOTE]
 >
@@ -35,17 +35,17 @@ Sobald Sie im Freihandsignaturfenster auf **Speichern** klicken, können Sie die
 
 ## Verwendung {#reasons-to-use-scribble-signature}
 
-Es gibt verschiedene Gründe, warum es sinnvoll ist, ein Feld Freihandsignatur in ein Formular einzuschließen, darunter:
+Es gibt verschiedene Gründe, warum es sinnvoll ist, ein Feld des Typs „Freihandsignatur“ in ein Formular einzufügen:
 
-- **Digitales Einverständnis**: Ermöglicht Benutzern, rechtsgültige Signaturen elektronisch bereitzustellen.
-- **Verbessertes Benutzererlebnis**: Bietet eine natürliche Möglichkeit, direkt auf Geräten zu signieren, ohne zu scannen oder hochzuladen.
-- **Papierlose Workflows**: Keine Dokumente mehr drucken, signieren und erneut scannen.
-- **Authentifizierung**: Dient als zusätzliche Ebene für die Bestätigung und Genehmigung.
-- **Datengenauigkeit**: Stellt die korrekte Erfassung der handschriftlichen Eingabe des Unterzeichners in digitaler Form sicher.
+- **Digitales Einverständnis**: Ermöglicht es Benutzenden, rechtsgültige Signaturen elektronisch bereitzustellen.
+- **Verbessertes Anwendererlebnis**: Bietet eine natürliche Möglichkeit, Signaturen direkt auf Geräten vorzunehmen, ohne etwas scannen oder hochladen zu müssen.
+- **Papierlose Workflows**: Beseitigt die Notwendigkeit, Dokumente zu drucken, zu signieren und wieder einzuscannen.
+- **Authentifizierung**: Dient als zusätzliche Ebene der Bestätigung und Genehmigung.
+- **Datengenauigkeit**: Stellt die korrekte Erfassung der handschriftlichen Eingabe der unterzeichnenden Person in digitaler Form sicher.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die Kernkomponente „Freihandsignatur“ für adaptive Forms wurde im **August 2025** als Teil von **Kernkomponenten 2.24.6** für Cloud Service und höher veröffentlicht.
+Die Kernkomponente „Freihandsignatur“ für adaptive Formulare wurde im **August 2025** als Teil der **Kernkomponenten 2.24.6** für Cloud Service und höher veröffentlicht.
 
 | Komponentenversion | AEM as a Cloud Service | AEM 6.5.16.0 Forms oder höher |
 |---|---|---|
@@ -55,11 +55,11 @@ Weitere Informationen zu Versionen finden Sie unter [Kernkomponentenversionen](/
 
 ## Technische Details {#technical-details}
 
-Erhalten Sie die neuesten technischen Details zur Kernkomponente „Freihandsignatur“ für adaptive Forms auf [GitHub](https://github.com/adobe/aem-core-forms-components). Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie unter [Dokumentation für Kernkomponenten-Entwickler](/help/developing/overview.md).
+Erhalten Sie die neuesten technischen Details zur Kernkomponente „Freihandsignatur“ für adaptive Formulare auf [GitHub](https://github.com/adobe/aem-core-forms-components). Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Entwicklerdokumentation zu Kernkomponenten](/help/developing/overview.md).
 
 ## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
-Das Dialogfeld „Konfigurieren“ ermöglicht die Anpassung der Komponente Freihandsignatur .
+Das Dialogfeld „Konfigurieren“ ermöglicht die Anpassung der Komponente „Freihandsignatur“.
 
 ### Registerkarte „Allgemein“ {#basic-tab}
 
@@ -83,7 +83,7 @@ Das Dialogfeld „Konfigurieren“ ermöglicht die Anpassung der Komponente Frei
 - **Komponente ausblenden**: Wählen Sie diese Option, um die Komponente aus dem Formular auszublenden. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor. Dies ist nützlich, wenn Sie Informationen speichern müssen, die Benutzende nicht sehen oder direkt ändern müssen.
 - **Komponente deaktivieren**: Wählen Sie die Option zum Deaktivieren der Komponente aus. Die deaktivierte Komponente ist nicht aktiv und Endbenutzende können sie nicht bearbeiten. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
 
-- **Signaturdialogfeldtitel**: Der Signaturdialogfeldtitel definiert den Text, der oben im Signaturerfassungsdialogfeld angezeigt wird. Es dient als Eingabeaufforderung oder Anweisung für den Benutzer, wenn er eine Signatur bereitstellen muss. Der Text führt den Benutzer durch den Signiervorgang, wodurch die Interaktion klar und intuitiv wird.
+- **Titel des Signaturdialogfelds**: Der Titel des Signaturdialogfelds definiert den Text, der oben im Dialogfeld zur Signaturerfassung angezeigt wird. Er dient als Eingabeaufforderung oder Anweisung für Benutzende, wenn sie eine Signatur bereitstellen müssen. Der Text führt Benutzende durch den Signaturvorgang und gestaltet die Interaktion klar und intuitiv.
 
 ### Registerkarte „Validierung“
 
@@ -118,15 +118,15 @@ Das Dialogfeld „Konfigurieren“ ermöglicht die Anpassung der Komponente Frei
 
 ## Dialogfeld „Design“ {#design-dialog}
 
-Sie können das Dialogfeld „Design“ verwenden, um CSS-Stile für die Komponente Freihandsignatur zu definieren und zu verwalten.
+Im Dialogfeld „Design“ können Sie CSS-Stile für die Komponente „Freihandsignatur“ definieren und verwalten.
 
 ### Registerkarte „Stile“ {#styles-tab}
 
-Sie können die Registerkarte zum Definieren und Verwalten von CSS-Stilen für eine Komponente verwenden. Die Kernkomponente „Freihandsignatur“ für adaptive Forms unterstützt das AEM [Stilsystem](/help/get-started/authoring.md#component-styling).
+Sie können die Registerkarte zum Definieren und Verwalten von CSS-Stilen für eine Komponente verwenden. Die Kernkomponente „Freihandsignatur“ für adaptive Formulare unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
 ![Dialogfeld „Design“](/help/adaptive-forms/assets/checkbox-style.png)
 
-- **Standard-CSS** Klassen: Sie können eine standardmäßige CSS-Klasse für die Kernkomponente „Adaptive Forms Scribble Signature“ bereitstellen.
+- **Standard-CSS-Klassen**: Sie können eine Standard-CSS-Klasse für die Kernkomponente „Freihandsignatur“ für adaptive Formulare angeben.
 
 - **Zulässige Stile**: Sie können Stile definieren, indem Sie den Namen und die CSS-Klasse für den Stil angeben. Sie können beispielsweise einen Stil mit dem Namen „Fettschrift“ erstellen und die CSS-Klasse „Schriftbreite: Fett“ bereitstellen. Sie können diese Stile bei einem adaptiven Formular im adaptiven Formular-Editor anwenden. Um einen Stil anzuwenden, wählen Sie im Editor für adaptive Formulare die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Eigenschaften-Dialog und wählen Sie den gewünschten Stil aus der Dropdown-Liste **Stile**. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld „Design“ zurück, aktualisieren die Stile auf der Registerkarte „Stile“ und speichern die Änderungen.
 
