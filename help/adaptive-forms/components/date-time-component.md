@@ -1,18 +1,18 @@
 ---
-title: Kernkomponente „Datum und Uhrzeit“ der adaptiven Forms
-description: Verwenden oder Anpassen der Datums- und Uhrzeitkernkomponente von Adaptive Forms.
+title: Kernkomponente für adaptive Formulare – Datum und Uhrzeit
+description: Verwenden oder Anpassen der Kernkomponente „Datum und Uhrzeit“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 source-git-commit: daeabccaff39e255c111c6af2540ca4d5be0c709
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1898'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
 
-# Datums- und Uhrzeitkomponente
+# Komponente „Datum und Uhrzeit“
 
-Eine Datums- und Uhrzeitkomponente in einem adaptiven Formular ist ein Benutzeroberflächenelement, mit dem Benutzende sowohl **Datum und Uhrzeit** über eine Kalender- und Uhrenschnittstelle auswählen oder Werte in einem bestimmten Format manuell eingeben können. Es stellt eine genaue, standardisierte Eingabe für Anwendungsfälle sicher, in denen sowohl Datum als auch Uhrzeit wichtig sind.
+Die Komponente „Datum und Uhrzeit“ in einem adaptiven Formular ist ein Element der Benutzeroberfläche, mit dem Benutzende **Datum und Uhrzeit** in einem Kalender oder einer Uhr auswählen oder Werte in einem bestimmten Format manuell eingeben können. Sie stellt eine genaue, standardisierte Eingabe für Anwendungsfälle sicher, in denen sowohl Datum als auch Uhrzeit wichtig sind.
 
 **Beispiel**
 
@@ -20,18 +20,18 @@ Eine Datums- und Uhrzeitkomponente in einem adaptiven Formular ist ein Benutzero
 
 ## Verwendung {#reasons-to-use-date-time-picker}
 
-Es gibt verschiedene Gründe, warum es sinnvoll ist, eine Datums- und Uhrzeitauswahl in ein Formular einzufügen, darunter:
+Es gibt verschiedene Gründe, warum es sinnvoll ist, eine Komponente des Typs „Datum und Uhrzeit“ in ein Formular einzufügen:
 
-- **Komfort**: Benutzende können einfach sowohl ein Datum als auch eine Uhrzeit auswählen, ohne Werte manuell eingeben zu müssen.
+- **Komfort**: Ermöglicht es Benutzenden, einfach sowohl ein Datum als auch eine Uhrzeit auszuwählen, ohne manuell Werte eingeben zu müssen.
 - **Konsistenz**: Erzwingt ein Standardformat für Datums- und Uhrzeiteingaben im gesamten Formular.
-- **Verbessertes Benutzererlebnis**: Bietet eine intuitive Benutzeroberfläche mit Kalender- und Zeitauswahl.
-- **Ereignisplanung** Nützlich bei der Terminbuchung, in Interviews oder in Formularen zur Besprechungsplanung.
-- **Reisen und Reservierungen**: Ermöglicht Benutzern die Auswahl von Ein-/Auscheckdaten und -zeiten.
-- **Datengenauigkeit**: Reduziert Eingabefehler im Vergleich zur Eingabe in Freitext.
+- **Verbessertes Anwendererlebnis**: Bietet eine intuitive Benutzeroberfläche mit Kalender- und Zeitauswahl.
+- **Ereignisplanung** Nützlich für Terminbuchung, Interviews oder Formulare zur Besprechungsplanung.
+- **Reisen und Reservierungen**: Ermöglicht Benutzenden die Auswahl von Ein-/Auscheckdaten und -zeiten.
+- **Datengenauigkeit**: Reduziert Eingabefehler im Vergleich zur Freitexteingabe.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die Kernkomponente „Datum und Uhrzeit“ von Adaptive Forms wurde im **August 2025** als Teil von **Kernkomponenten 2.24.6** für Cloud Service und höher veröffentlicht.
+Die Kernkomponente „Datum und Uhrzeit“ für adaptive Formulare wurde im **August 2025** als Teil der **Kernkomponenten 2.24.6** für Cloud Service und höher veröffentlicht.
 
 | Komponentenversion | AEM as a Cloud Service | AEM 6.5.16.0 Forms oder höher |
 |---|---|---|
@@ -41,11 +41,11 @@ Weitere Informationen zu Versionen finden Sie unter [Kernkomponentenversionen](/
 
 ## Technische Details {#technical-details}
 
-Erhalten Sie die neuesten technischen Details zur Datums- und Uhrzeitkernkomponente von Adaptive Forms auf [GitHub](https://github.com/adobe/aem-core-forms-components). Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie unter [Dokumentation für Kernkomponenten-Entwickler](/help/developing/overview.md).
+Erhalten Sie die neuesten technischen Details zur Kernkomponente „Datum und Uhrzeit“ für adaptive Formulare auf [GitHub](https://github.com/adobe/aem-core-forms-components). Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Entwicklerdokumentation zu Kernkomponenten](/help/developing/overview.md).
 
 ## Dialogfeld „Konfigurieren“ {#configure-dialog}
 
-Das Dialogfeld „Konfigurieren“ ermöglicht die Anpassung des Datums und der Uhrzeit.
+Das Dialogfeld „Konfigurieren“ ermöglicht die Anpassung von Datum und Uhrzeit.
 
 ### Registerkarte „Allgemein“ {#basic-tab}
 
@@ -69,7 +69,7 @@ Das Dialogfeld „Konfigurieren“ ermöglicht die Anpassung des Datums und der 
 - **Komponente ausblenden**: Wählen Sie diese Option, um die Komponente aus dem Formular auszublenden. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor. Dies ist nützlich, wenn Sie Informationen speichern müssen, die Benutzende nicht sehen oder direkt ändern müssen.
 - **Komponente deaktivieren**: Wählen Sie die Option zum Deaktivieren der Komponente aus. Die deaktivierte Komponente ist nicht aktiv und Endbenutzende können sie nicht bearbeiten. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
 - **Schreibgeschützt**: Wählen Sie die Option aus, um die Komponente nicht bearbeitbar zu machen. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
-- **Standarddatum und -uhrzeit** - Mit dieser Option können Sie dem Formularfeld ein Datum und eine Uhrzeit hinzufügen. Das eingegebene Datum wird standardmäßig an der Stelle der Komponente angezeigt. Wenn Benutzende kein Datum oder keine Uhrzeit eingeben, wird dieser Wert zum Zeitpunkt der Formularübermittlung gesendet. Wenn **Komponente deaktiviert** oder **Schreibgeschützte Komponente** ausgewählt ist, werden Standarddatum und -uhrzeit auf dem Bildschirm angezeigt und bei der Formularübermittlung gesendet.
+- **Standarddatum und -uhrzeit**: Mit dieser Option können Sie dem Formularfeld ein Datum und eine Uhrzeit hinzufügen. Das eingegebene Datum wird standardmäßig an der Stelle der Komponente angezeigt. Wird kein Datum bzw. keine Uhrzeit eingegeben, wird bei der Formularübermittlung dieser Wert gesendet. Wenn **Deaktivierte Komponente** oder **Schreibgeschützte Komponente** ausgewählt wird, werden Standarddatum und -uhrzeit auf dem Bildschirm angezeigt und bei der Formularübermittlung gesendet.
 
 ### Registerkarte „Validierung“ {#validation-tab}
 
@@ -81,13 +81,13 @@ Das Dialogfeld „Konfigurieren“ ermöglicht die Anpassung des Datums und der 
 
 - **Meldung zur Skriptvalidierung**: Mit dieser Option können Sie eine Meldung eingeben, die angezeigt wird, wenn die Skriptvalidierung fehlschlägt.
 
-- **Mindestdatum** – Sie können mit dieser Option das erforderliche Mindestdatum eingeben. Wenn Sie ein Datum eingeben, das vor dem in „Mindestdatum und -uhrzeit“ angegebenen Datum liegt, wird eine Fehlermeldung auf dem Bildschirm angezeigt. Sie können der **Mindest-Fehlermeldung** eine benutzerdefinierte Fehlermeldung hinzufügen.
+- **Mindestdatum** – Sie können mit dieser Option das erforderliche Mindestdatum eingeben. Wenn Sie ein Datum eingeben, das vor dem in „Mindestdatum und -uhrzeit“ angegebenen Datum liegt, erscheint eine Fehlermeldung am Bildschirm. Sie können der **Mindest-Fehlermeldung** eine benutzerdefinierte Fehlermeldung hinzufügen.
 
-- **Mindestfehlermeldung** - Sie können im Dialogfeld **Mindestfehlermeldung** eine benutzerdefinierte Fehlermeldung hinzufügen, die angezeigt wird, wenn Sie ein Datum oder eine Uhrzeit eingeben, die vor dem in der Option **Mindestdatum** angegebenen Datum oder Uhrzeit liegt.
+- **Fehlermeldung für Minimum**: Im Dialogfeld **Fehlermeldung für Minimum** können Sie eine benutzerdefinierte Fehlermeldung hinzufügen, die angezeigt wird, wenn Sie ein Datum bzw. eine Uhrzeit eingeben, das bzw. die nach dem Datum bzw. der Uhrzeit in der Option **Mindestdatum** liegt.
 
-- **Maximales Datum** - Mit dieser Option können Sie das erforderliche Datum und die maximale Uhrzeit eingeben. Wenn Sie ein Datum oder eine Uhrzeit eingeben, die nach dem in „Maximales Datum“ angegebenen Datum oder der angegebenen Uhrzeit liegt, wird eine Fehlermeldung auf dem Bildschirm angezeigt. Sie können im Dialog **Maximal-Fehlermeldung** eine benutzerdefinierte Fehlermeldung hinzufügen.
+- **Höchstdatum**: Mit dieser Option können Sie das erforderliche Höchstdatum bzw. die erforderliche Höchstuhrzeit eingeben. Wenn Sie ein Datum bzw. eine Uhrzeit eingeben, das bzw. die nach dem bzw. der in „Höchstdatum“ angegebenen Datum bzw. Uhrzeit liegt, erscheint eine Fehlermeldung am Bildschirm. Sie können im Dialog **Maximal-Fehlermeldung** eine benutzerdefinierte Fehlermeldung hinzufügen.
 
-- **Maximal-Fehlermeldung** - Sie können im Dialogfeld **Maximal-Fehlermeldung** eine benutzerdefinierte Fehlermeldung hinzufügen, die angezeigt wird, wenn Sie ein Datum oder eine Uhrzeit eingeben, die nach dem in der Option **Maximales Datum** angegebenen Datum oder der Uhrzeit liegt.
+- **Fehlermeldung für Maximum** – Im Dialogfeld **Fehlermeldung für Maximum** können Sie eine benutzerdefinierte Fehlermeldung hinzufügen, die angezeigt wird, wenn Sie ein Datum bzw. eine Uhrzeit eingeben, das bzw. die nach dem Datum bzw. der Uhrzeit in der Option **Höchstdatum** liegt.
 
 ### Registerkarte „Hilfe-Inhalt“ {#help-content-tab}
 
@@ -133,20 +133,20 @@ The set of languages is not visible by default, but users can input a custom **I
 
         >[!NOTE]
         >
-        > For further information on how to translate an Adaptive Form to a specific locale, [click here](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
+        > For further information on how to translate an Adaptive Form to a specific locale, [click here](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
 -->
 
 ## Dialogfeld „Design“ {#design-dialog}
 
-Sie können das Dialogfeld „Design“ verwenden, um CSS-Stile für die Datums- und Uhrzeitkomponente zu definieren und zu verwalten.
+Im Dialogfeld „Design“ können Sie CSS-Stile für die Komponente „Datum und Uhrzeit“ definieren und verwalten.
 
 ### Registerkarte „Stile“ {#styles-tab}
 
-Sie können die Registerkarte zum Definieren und Verwalten von CSS-Stilen für eine Komponente verwenden. Die Kernkomponente „Datum und Uhrzeit“ von Adaptive Forms unterstützt das AEM [Stilsystem](/help/get-started/authoring.md#component-styling).
+Sie können die Registerkarte zum Definieren und Verwalten von CSS-Stilen für eine Komponente verwenden. Die Kernkomponente „Datum und Uhrzeit“ für adaptive Formulare unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
 
 ![Registerkarte „Stile“](/help/adaptive-forms/assets/datepicker_styletab.png)
 
-- **Standard-CSS** Klassen: Sie können eine standardmäßige CSS-Klasse für die Datums- und Uhrzeit-Kernkomponente von Adaptive Forms bereitstellen.
+- **Standard-CSS-Klassen**: Sie können eine Standard-CSS-Klasse für die Kernkomponente „Datum und Uhrzeit“ für adaptive Formulare angeben.
 
 - **Zulässige Stile**: Sie können Stile definieren, indem Sie den Namen und die CSS-Klasse für den Stil angeben. Sie können beispielsweise einen Stil mit dem Namen „Fettschrift“ erstellen und die CSS-Klasse „Schriftbreite: Fett“ bereitstellen. Sie können diese Stile bei einem adaptiven Formular im adaptiven Formular-Editor anwenden. Um einen Stil anzuwenden, wählen Sie im Editor für adaptive Formulare die Komponente aus, auf die Sie den Stil anwenden möchten, navigieren Sie zum Eigenschaften-Dialog und wählen Sie den gewünschten Stil aus der Dropdown-Liste **Stile**. Wenn Sie die Stile aktualisieren oder ändern müssen, kehren Sie einfach zum Dialogfeld „Design“ zurück, aktualisieren die Stile auf der Registerkarte „Stile“ und speichern die Änderungen.
 
@@ -175,7 +175,7 @@ The formats tab allows you to specify default and custom date formats.
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=de)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 
