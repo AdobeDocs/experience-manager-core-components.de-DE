@@ -4,15 +4,15 @@ description: Verwenden oder Anpassen der Kernkomponente „Freihandsignatur“ i
 role: Architect, Developer, Admin, User
 exl-id: 608c4368-d539-4d05-a75c-c077ea822f93
 source-git-commit: 006f6c844ab9e7a784dabea026867939445479e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1761'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Komponente „Freihandsignatur“
 
-<span>Komponente „Freihandsignatur“ befindet sich im Early-Adopter-Programm. Sie können von Ihrer offiziellen E-Mail-ID aus an `aem-forms-ea@adobe.com` schreiben, um dem Early-Adopter-Programm beizutreten und Zugriff auf die Funktion anzufordern.</span>
+<span>Die Komponente „Freihandsignatur“ befindet sich im Early-Adopter-Programm. Sie können von Ihrer offiziellen E-Mail-ID an `aem-forms-ea@adobe.com` schreiben, um dem Early-Adopter-Programm beizutreten und Zugriff auf die Funktion anzufordern.</span>
 
 Eine Komponente des Typs „Freihandsignatur“ in einem adaptiven Formular ist ein Element der Benutzeroberfläche, mit dem Benutzende ihre **Signatur** direkt innerhalb des Formulars zeichnen können, indem sie eine Maus, einen Stift oder einen Touchscreen verwenden. Sie stellt sicher, dass handschriftliches Einverständnis sowie handschriftliche Genehmigungen oder Verifizierungen in digitalen Workflows korrekt erfasst werden.
 
