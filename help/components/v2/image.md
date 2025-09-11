@@ -4,9 +4,9 @@ description: Die Kernkomponente „Bildkomponente“ ist eine anpassungsfähige 
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
 index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 3908828cf62043483a74e908204c3e9bf540300b
+workflow-type: tm+mt
+source-wordcount: '2048'
 ht-degree: 100%
 
 ---
@@ -40,7 +40,7 @@ Darüber hinaus unterstützt die Bildkomponente verzögertes Laden, um das Laden
 
 >[!TIP]
 >
->Die Bildkomponente wird durch das Adaptive Image Servlet betrieben. Bitte lesen Sie das Dokument [Adaptive Image Servlet](#adaptive-image-servlet) für Details zur Funktionsweise.
+>Die Bildkomponente wird durch das Adaptive Image Servlet betrieben. Bitte lesen Sie das Dokument [Adaptive Image Servlet](/help/developing/adaptive-image-servlet.md) für Details zur Funktionsweise.
 
 ## Dynamic Media-Unterstützung {#dynamic-media}
 
@@ -206,7 +206,7 @@ Darüber hinaus können Sie festlegen, welche allgemeinen Komponentenoptionen au
 
 >[!TIP]
 >
->Im Dokument [Adaptive Image Servlet](#adaptive-image-servlet) finden Sie Tipps zur Optimierung der Ausgabedarstellungsauswahl durch sorgfältige Definition der Breiten.
+>Im Dokument [Adaptive Image Servlet](/help/developing/adaptive-image-servlet.md) finden Sie Tipps zur Optimierung der Ausgabedarstellungsauswahl durch sorgfältige Definition der Breiten.
 
 ### Registerkarte „Funktionen“ {#features-tab}
 
