@@ -4,9 +4,9 @@ description: Kernkomponenten werden als Versionen veröffentlicht, die mehr als 
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 source-git-commit: b6b850237bdab1cb59a81c3162182e5b25fbdb68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3087'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Die folgende Tabelle, deren Inhalt [auf GitHub mit vollständigen Versionsinform
 
 | Version | Beschreibung | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service | Java | Veröffentlichungsdatum |
 |---|---|---|---|---|---|---|---|
-| [,30,0 ](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.0) | In dieser Version wurden eine Reihe von Problemen mit Assets und Dynamic Media behoben, die LTS-Unterstützung erläutert und zahlreiche Fehlerbehebungen vorgenommen. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11 | &#x200B;4. September 2025 |
+| [2.30.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.0) | In dieser Version wurden eine Reihe von Problemen mit Assets und Dynamic Media behoben, die LTS-Unterstützung erläutert und zahlreiche Fehlerbehebungen vorgenommen. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11 | 4. September 2025 |
 | [2.29.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.29.0) | Diese Version bietet nun Unterstützung für die Erstellung von Vorschauversionen von Assets in der Sites-Kernkomponente und beinhaltet zahlreiche Fehlerbehebungen. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11 | &#x200B;21. April 2025 |
 | [2.28.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0) | Diese Version umfasst zahlreiche Fehlerbehebungen. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11 | 17. März 2025 |
 | [2.27.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.27.0) | Diese Version umfasst zahlreiche Fehlerbehebungen. | – | 6.5.21.0+ | – | Kontinuierlich | 11 | &#x200B;10. September 2024 |
