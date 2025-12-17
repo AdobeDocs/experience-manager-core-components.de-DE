@@ -3,10 +3,10 @@ title: Kernkomponente „Telefoneingabefeld, Telefon“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „Telefoneingabe“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '2197'
-ht-degree: 100%
+source-git-commit: f0c4d6adf7266bdb6ebc7cde49656efaf3027624
+workflow-type: tm+mt
+source-wordcount: '2209'
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokume
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_de). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Technische Details {#technical-details}
 
@@ -155,7 +155,7 @@ Mit der Option „Benutzerdefinierte Eigenschaften“ können Sie mithilfe der F
 
 ### Registerkarte „Formate“ {#format-tab}
 
-Auf der Registerkarte „Formate“ können Sie standardmäßige und benutzerdefinierte Zahlenformate angeben.
+Auf der Registerkarte „Formate“ können Sie standardmäßige und benutzerdefinierte Zahlenformate angeben. Darüber hinaus können Sie ein benutzerdefiniertes Zahlenformat hinzufügen, indem Sie auf die Schaltfläche **Hinzufügen** klicken.
 
 ![Registerkarte „Formate“](/help/adaptive-forms/assets/telephoneinput_format.png)
 
@@ -169,7 +169,7 @@ Auf der Registerkarte „Überprüfungsmuster“ können Sie Werte in einem best
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=de)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 
