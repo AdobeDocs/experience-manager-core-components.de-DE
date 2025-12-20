@@ -123,7 +123,7 @@ In der folgenden Tabelle sind die verfügbaren Kernkomponenten mit Links zu ihre
 | [Download](https://adobe.com/go/aem_cmp_tech_download_v1_de) | Hinzufügen eines herunterladbaren Assets zu einer Seite | `-` |
 | [Experience Fragment](https://adobe.com/go/aem_cmp_tech_xf_v1_de) | Hinzufügen eines Experience Fragment zu einer Seite | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
 | [Einbetten](https://adobe.com/go/aem_cmp_tech_embed_v1_de) | Einbetten einer externen Ressource in eine Seite | - |
-| [Fortschrittsleiste](https://adobe.com/go/aem_cmp_tech_progress_v1) | Visualisierung des Fortschritts beim Erreichen eines Ziels | - |
+| [Fortschrittsleiste](https://adobe.com/go/aem_cmp_tech_progress_v1_de) | Visualisierung des Fortschritts beim Erreichen eines Ziels | - |
 | [PDF-Viewer](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1_de) | Zeigt ein PDF-Dokument auf einer Seite an | - |
 
 ## Aktualisierung der Kernkomponenten {#upgrade-of-core-components}

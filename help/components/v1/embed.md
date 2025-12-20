@@ -35,7 +35,7 @@ In diesem Dokument wird die v1 der Einbettungskomponente beschrieben, die mit Ve
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Um die Einbettungskomponente auszuprobieren sowie Beispiele für ihre Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_embed).
+Um die Einbettungskomponente auszuprobieren sowie Beispiele für ihre Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_embed_de).
 
 ## Technische Details {#technical-details}
 
