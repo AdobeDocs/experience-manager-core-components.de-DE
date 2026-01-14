@@ -4,10 +4,10 @@ description: Die E-Mail-Bildkomponente ist eine adaptive Bildkomponente, die ein
 role: Architect, Developer, Admin, User
 exl-id: f5d40047-3082-4edd-a5f6-6ab3e33997f9
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 8952f6c574fe1e21ff35e95bc0af6433f0363e77
+workflow-type: tm+mt
+source-wordcount: '1626'
+ht-degree: 98%
 
 ---
 
@@ -47,9 +47,9 @@ Darüber hinaus unterstützt die E-Mail-Bildkomponente verzögertes Laden, um da
 
 ## Dynamic Media-Unterstützung {#dynamic-media}
 
-Die E-Mail-Bildkomponente unterstützt [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=de#dynamicmedia) Assets. [Wenn diese Funktionen aktiviert sind](#design-dialog), können Sie Dynamic Media-Bild-Assets per Drag-and-Drop oder über den Assets-Browser hinzufügen, wie Sie es mit jedem anderen Bild tun würden. Darüber hinaus werden auch Bild-Modifikatoren, Bildvorgaben und Smartes Zuschneiden unterstützt.
+Die E-Mail-Bildkomponente unterstützt [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=de#dynamicmedia) Assets. [Wenn diese Funktionen aktiviert sind](#design-dialog), können Sie Dynamic Media-Bild-Assets per Drag-and-Drop oder über den Assets-Browser hinzufügen, wie Sie es mit jedem anderen Bild tun würden. Darüber hinaus werden auch Bild-Modifikatoren, Bildvorgaben und Intelligenter Zuschnitt unterstützt.
 
-Ihre mit E-Mail-Kernkomponenten erstellten E-Mail-Erlebnisse können jetzt vielseitige, Sensei-gestützte, zuverlässige, leistungsstarke und plattformübergreifende Dynamic Media-Bildfunktionen enthalten.
+E-Mail-Erlebnisse, die mit den E-Mail-Kernkomponenten erstellt wurden, können mit umfangreichen, Adobe AI-gestützten, robusten, leistungsstarken und plattformübergreifenden Dynamic Media-Bildfunktionen ausgestattet werden.
 
 ## SVG-Unterstützung {#svg-support}
 
@@ -65,7 +65,7 @@ Aus Sicherheitsgründen wird die ursprüngliche SVG niemals direkt vom Bild-Edit
 
 ### Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur E-Mail-Bildkomponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_email_image_v1_de).
+Die aktuelle technische Dokumentation zur E-Mail-Bildkomponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_email_image_v1).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
@@ -98,9 +98,9 @@ Die E-Mail-Bildkomponente bietet einen Dialog zum Konfigurieren, in dem das Bild
 
 ![Registerkarte „Metadaten“ im Dialogfeld „Konfigurieren“ der Bildkomponente](/help/email/assets/email-image-configure-metadata.png)
 
-* **Vorgabetyp** – Hier wird der Typ der verfügbaren Bildvorgaben festgelegt, entweder **Bildvorgabe** oder **Smartes Zuschneiden**. Dies ist nur verfügbar, wenn die [Dynamic Media-Funktionen](#dynamic-meida) aktiviert sind.
+* **Vorgabetyp** – Hier wird der Typ der verfügbaren Bildvorgaben festgelegt, entweder **Bildvorgabe** oder **Intelligenter Zuschnitt**. Dies ist nur verfügbar, wenn die [Dynamic Media-Funktionen](#dynamic-meida) aktiviert sind.
    * **Bildvorgabe** – Wenn der **Vorgabetyp** **Bildvorgabe** ausgewählt ist, ist die Dropdown-Liste **Bildvorgabe** verfügbar, sodass aus den verfügbaren Dynamic Media-Vorgaben ausgewählt werden kann. Dies ist nur verfügbar, wenn für das ausgewählte Asset Vorgaben definiert sind.
-   * **Smartes Zuschneiden** – Wenn der **Vorgabetyp** **Smartes Zuschneiden** ausgewählt ist, ist die Dropdown-Liste **Ausgabedarstellung** verfügbar, sodass aus den verfügbaren Ausgabedarstellungen des ausgewählten Assets ausgewählt werden kann. Dies ist nur verfügbar, wenn für das ausgewählte Asset Ausgabedarstellungen definiert sind.
+   * **Intelligenter Zuschnitt** – Wenn der **Vorgabetyp****Intelligenter Zuschnitt** ausgewählt ist, ist die Dropdown-Liste **Ausgabedarstellung** verfügbar, sodass aus den verfügbaren Ausgabedarstellungen des ausgewählten Assets ausgewählt werden kann. Dies ist nur verfügbar, wenn für das ausgewählte Asset Ausgabedarstellungen definiert sind.
    * **Bild-Modifikatoren** – Hier können zusätzliche Befehle zur Dynamic Media-Bildbereitstellung definiert werden, die durch `&` getrennt sind, unabhängig davon, welcher **Vorgabetyp** ausgewählt ist.
 * **Beschriftung** – Zusätzliche Informationen über das Bild, die standardmäßig unter dem Bild angezeigt werden.
    * **Beschriftung aus DAM abrufen** – Wenn die Option aktiviert ist, wird der Beschriftungstext des Bildes mit dem Wert der `dc:title`-Metadaten in DAM befüllt. Nur verfügbar, wenn ein Asset aus dem DAM ausgewählt wurde.
@@ -118,7 +118,7 @@ Die E-Mail-Bildkomponente bietet einen Dialog zum Konfigurieren, in dem das Bild
 
 >[!TIP]
 >
->**Smartes Zuschneiden** und **Bildvorgabe** sind Optionen, die sich gegenseitig ausschließen. Wenn ein Autor eine Bildvorgabe zusammen mit einer Ausgabedarstellung von Typ „Smartes Zuschneiden“ verwenden muss, muss der Autor **Bild-Modifikatoren** verwenden, um Vorgaben manuell hinzuzufügen.
+>**Intelligenter Zuschnitt** und **Bildvorgabe** sind Optionen, die sich gegenseitig ausschließen. Wenn ein Autor eine Bildvorgabe zusammen mit einer Ausgabedarstellung von Typ „Intelligenter Zuschnitt“ verwenden muss, muss der Autor **Bild-Modifikatoren** verwenden, um Vorgaben manuell hinzuzufügen.
 
 ### Registerkarte „Arten“ {#styles-tab-edit}
 
