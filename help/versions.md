@@ -3,10 +3,10 @@ title: Kernkomponenten-Versionen
 description: Kernkomponenten werden als Versionen veröffentlicht, die mehr als eine Version derselben Kernkomponenten enthalten können. In diesem Dokument wird erläutert, welche Versionen veröffentlicht werden und wie die Kompatibilität mit Kernkomponenten und AEM verstanden werden kann.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: b6b850237bdab1cb59a81c3162182e5b25fbdb68
-workflow-type: ht
-source-wordcount: '3087'
-ht-degree: 100%
+source-git-commit: 684bdb4168be00f02bb306dd7ab183e8c439b9e7
+workflow-type: tm+mt
+source-wordcount: '3110'
+ht-degree: 99%
 
 ---
 
@@ -26,6 +26,7 @@ Die folgende Tabelle, deren Inhalt [auf GitHub mit vollständigen Versionsinform
 
 | Version | Beschreibung | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service | Java | Veröffentlichungsdatum |
 |---|---|---|---|---|---|---|---|
+| [,30,2 ](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.2) | In dieser Version wurde eine nicht lokalisierte Zeichenfolge im Zusammenhang mit dem PDF-Viewer korrigiert. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11 | &#x200B;23. Oktober 2025 |
 | [2.30.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.0) | In dieser Version wurden eine Reihe von Problemen mit Assets und Dynamic Media behoben, die LTS-Unterstützung erläutert und zahlreiche Fehlerbehebungen vorgenommen. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11 | 4. September 2025 |
 | [2.29.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.29.0) | Diese Version bietet nun Unterstützung für die Erstellung von Vorschauversionen von Assets in der Sites-Kernkomponente und beinhaltet zahlreiche Fehlerbehebungen. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11 | &#x200B;21. April 2025 |
 | [2.28.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0) | Diese Version umfasst zahlreiche Fehlerbehebungen. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11 | 17. März 2025 |
@@ -39,7 +40,7 @@ Die folgende Tabelle, deren Inhalt [auf GitHub mit vollständigen Versionsinform
 | [2.24.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.2) | Diese Patch-Version verbessert die Stabilität von Integrationstests. | – | 6.5.21.0+ | – | Kontinuierlich | 8, 11 | &#x200B;22. Februar 2024 |
 | [2.24.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.0) | Diese Version unterstützt die Google Tag Manager-Datenschicht und enthält verschiedene Fehlerbehebungen. | – | 6.5.21.0+ | – | Kontinuierlich | 8, 11 | &#x200B;14. Februar 2024 |
 | [2.23.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.4) | Diese Patch-Version enthielt verschiedene Fehlerbehebungen. | – | 6.5.17.0+ | – | Kontinuierlich | 8, 11 | &#x200B;15. September 2023 |
-| [2.23.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.2) | Mit diesem Patch wurden das smarte Zuschneiden von Dynamic Media für Remote-Assets zu den [Bild-](/help/components/image.md) und [Teaser-Komponenten](/help/components/teaser.md) hinzugefügt und eine Reihe von Fehlern behoben. | – | 6.5.17.0+ | – | Kontinuierlich | 8, 11 | &#x200B;4. August 2023 |
+| [2.23.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.2) | Mit diesem Patch wurden der intelligente Zuschnitt von Dynamic Media für Remote-Assets zu den [Bild-](/help/components/image.md) und [Teaser-Komponenten](/help/components/teaser.md) hinzugefügt und eine Reihe von Fehlern behoben. | – | 6.5.17.0+ | – | Kontinuierlich | 8, 11 | &#x200B;4. August 2023 |
 | [2.23.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.0) | In dieser Version wurde Unterstützung für [Remote-Assets von Next Generation Dynamic Media](/help/developing/remote-assets.md) hinzugefügt. | – | 6.5.17.0+ | – | Kontinuierlich | 8, 11 | &#x200B;6. Juni 2023 |
 | [2.22.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.12) | Diese Patch-Version behebt zwei Probleme. | – | 6.5.14.0+ | – | Kontinuierlich | 8, 11 | &#x200B;25. Mai 2023 |
 | [2.22.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.10) | Diese Patch-Version behebt zwei Regressionen. | – | 6.5.14.0+ | – | Kontinuierlich | 8, 11 | &#x200B;11. Mai 2023 |

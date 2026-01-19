@@ -4,10 +4,10 @@ description: Verwenden der Adobe Client-Datenschicht in Verbindung mit den Kernk
 feature: Core Components, Adobe Client Data Layer
 role: Architect, Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
-source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
-workflow-type: ht
-source-wordcount: '952'
-ht-degree: 100%
+source-git-commit: 8f0ece0eed42f72e919535c6da6e729e54d1d339
+workflow-type: tm+mt
+source-wordcount: '985'
+ht-degree: 96%
 
 ---
 
@@ -89,7 +89,7 @@ Die folgenden Komponenten unterstützen die Datenschicht.
 
 Siehe auch die [von den Komponenten ausgelösten Ereignisse](#events-components).
 
-## Datenschemas der Hauptkomponenten {#data-schemas}
+## Datenschemata der Kernkomponenten {#data-schemas}
 
 Nachfolgend sind die Schemas aufgeführt, die die Kernkomponenten in Verbindung mit der Datenschicht verwenden.
 
@@ -119,6 +119,10 @@ id: {                   // component ID
     parentId            // parent component ID
 }
 ```
+
+>[!NOTE]
+>
+>Dieses Schema ist das generische Komponentenelementschema, das als Basismuster für mehrere Kernkomponenten verwendet wird. Dies garantiert nicht, dass jede aufgelistete Komponente alle diese Felder bei jedem Element ausfüllt.
 
 Das folgende [Ereignis](#events) ist für das Komponenten-/Container-Element-Schema relevant:
 
