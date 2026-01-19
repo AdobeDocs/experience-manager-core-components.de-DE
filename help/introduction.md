@@ -112,7 +112,7 @@ Die aktuelle Version der Kernkomponenten enthält die folgenden Komponenten:
 
 | Version der Kernkomponenten | AEM as a Cloud Service | AEM 6.5 LTS | AEM 6.5 | Java SE-Version | Maven-Version |
 |---|---|---|---|---|---|
-| [,30,2 ](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.2) | Kontinuierlich | 6.5 LTS GA | 6.5.21.0+ | 8, 11 | 3.3.9+ |
+| [,30,2 &#x200B;](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.2) | Kontinuierlich | 6.5 LTS GA | 6.5.21.0+ | 8, 11 | 3.3.9+ |
 
 Die Anforderungen aus früheren Kernkomponenten-Versionen finden Sie unter [Kernkomponenten-Versionen](versions.md).
 
