@@ -3,17 +3,17 @@ title: Kernkomponentenversionen für adaptive Formulare in AEM
 description: AEM-Kernkomponenten werden als Versionen veröffentlicht, die mehr als eine Version derselben Kernkomponenten enthalten können. In diesem Dokument wird erläutert, welche Versionen veröffentlicht werden und wie die Kompatibilität mit Kernkomponenten und AEM verstanden werden kann.
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
+source-git-commit: 2be68aa708131486f7d89f33952153a7a90c3d0a
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 100%
+source-wordcount: '180'
+ht-degree: 92%
 
 ---
 
 
 # Kernkomponentenversionen für adaptive Formulare {#core-components-versions}
 
-Identifizieren Sie die genauen Versionen der Forms-Kernkomponenten und WCM-Kernkomponenten, die zum Aktivieren der neuesten Kernkomponenten von adaptiven Formularen in Ihrer Umgebung erforderlich sind. Machen Sie sich außerdem mit den Komponenten und Funktionen vertraut, die in jeder Version der adaptiven Forms-Kernkomponenten aktiviert sind.
+Identifizieren Sie die genauen Versionen der Abhängigkeiten sowohl von Forms-Kernkomponenten als auch von WCM-Kernkomponenten. Machen Sie sich außerdem mit den Komponenten und Funktionen vertraut, die in jeder Version der adaptiven Forms-Kernkomponenten aktiviert sind.
 
 ## Versionsverlauf für AEM Forms as a Cloud Service {#aem-as-cs-version-history}
 

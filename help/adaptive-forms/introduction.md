@@ -3,10 +3,10 @@ title: Einführung zu Kernkomponenten für adaptive Formulare in AEM
 description: Erstellen Sie ansprechende Registrierungserlebnisse (Formulare) mit der Flexibilität der Kernkomponenten für adaptive Formulare und stellen Sie sie über Adobe Experience Manager bereit.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 2be68aa708131486f7d89f33952153a7a90c3d0a
+workflow-type: tm+mt
+source-wordcount: '1980'
+ht-degree: 98%
 
 ---
 
@@ -194,7 +194,7 @@ Der Editor für adaptive Formulare, die auf Kernkomponenten basieren, ähnelt de
 
 * **Vorbefüllen von Formularen**: Sie können bestimmte Felder in einem Formular automatisch mit vorhandenen Daten füllen, wenn eine Benutzerin oder ein Benutzer es öffnet. Dadurch sparen Benutzende Zeit und Mühe, da die manuelle Eingabe bereits verfügbarer Informationen entfällt. Der Editor für Kernkomponenten bietet einen vorkonfigurierten Vorbefüllungsdienst, um Formularfelder mithilfe eines Formulardatenmodells auszufüllen. Sie können auch benutzerdefinierte Vorbefüllungsdienste für komplexere Szenarien erstellen.
 
-* **[Datensatzdokument (DoR)](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/generate-document-of-record-core-components)**: Ein Datensatzdokument (Document of Record – DoR) bezieht sich auf eine formale, druckbare Darstellung der Daten, die über das Formular übermittelt werden. Es dient als permanenter Datensatz der von der Benutzerin oder vom Benutzer eingegebenen Informationen und liefert eine Momentaufnahme der gesendeten Daten in einem benutzerfreundlichen Format. Dies ist normalerweise ein PDF-Dokument. Sie können den Editor verwenden, um eine benutzerdefinierte Vorlage zu konfigurieren oder eine vorkonfigurierte Vorlage zu verwenden, um ein DoR zu generieren.
+* **[Datensatzdokument (DoR)](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/generate-document-of-record-core-components)**: Ein Datensatzdokument (Document of Record – DoR) bezieht sich auf eine formale, druckbare Darstellung der Daten, die über das Formular übermittelt werden. Es dient als permanente Aufzeichnung der von der Benutzerin oder vom Benutzer eingegebenen Informationen und liefert eine Momentaufnahme der gesendeten Daten in einem benutzerfreundlichen Format. Dies ist normalerweise ein PDF-Dokument. Sie können den Editor verwenden, um eine benutzerdefinierte Vorlage zu konfigurieren oder eine vorkonfigurierte Vorlage zu verwenden, um ein DoR zu generieren.
 
 * **[Formulardatenmodell](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/using-form-data-model)**: Ein adaptives Formulardatenmodell (Forms Date Model – FDM) dient als Brücke zwischen Ihren adaptiven Formularen und Ihren Datenquellen. Es definiert im Wesentlichen die Struktur und Organisation der Daten, die Ihre Formulare erfassen und mit denen Sie interagieren. Sie können den Editor verwenden, um Ihr Formular einfach mit einem Formulardatenmodell (FDM) zu verbinden.
 
@@ -211,30 +211,31 @@ Der Editor für adaptive Formulare, die auf Kernkomponenten basieren, ähnelt de
    * [AEM-Workflow aufrufen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Invoke%20an%20AEM%20Workflow)
 
 
-* [Kernkomponenten für adaptive Formulare im Sites-Seiteneditor](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page): Sie können Kernkomponenten für adaptive Formulare im AEM-Seiteneditor und in AEM Experience Fragments aktivieren und verwenden, um Datenerfassungserlebnisse direkt bei der Erstellung einer Sites-Seite zu erstellen.
+* [Adaptive Forms-Kernkomponenten im Sites-Seiteneditor](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page): Sie können adaptive Forms-Kernkomponenten im AEM-Seiteneditor und in AEM Experience Fragments verwenden, um direkt ein Datenerfassungserlebnis zu erstellen und gleichzeitig eine Sites-Seite zu erstellen.
 
   >[!VIDEO](https://video.tv.adobe.com/v/3419284?quality=12&learn=on)
 
 
 <!-- 
 * **Preview Forms**: You can use the editor to  simulates how the form would appear on various devices like desktops, tablets, and smartphones.
--->
 
 
 
-## Aktivieren der Kernkomponenten für adaptive Formulare
 
-Durch die Aktivierung der Kernkomponenten für adaptive Formulare in AEM Forms as a Cloud Service können Sie mit der Erstellung, Veröffentlichung und Bereitstellung von auf Kernkomponenten basierenden adaptiven Formularen und Headless-Formularen beginnen, und zwar für mehrere Kanäle mithilfe der Instanzen von AEM Forms as a Cloud Service. Detaillierte Anweisungen zum Aktivieren der Kernkomponenten für adaptive Formulare finden Sie unter [Aktivieren der Kernkomponenten für adaptive Formulare in AEM Forms as a Cloud Service und lokaler Entwicklungsumgebung](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=de).
+## Enable Adaptive Forms Core Components
 
-Die Kernkomponenten für adaptive Formulare haben die folgenden Anforderungen.
+Enabling Adaptive Forms Core Components on AEM Forms as a Cloud Service, allows you to start creating, publishing, and delivering Core Components based Adaptive Forms and Headless Forms using your AEM Forms Cloud Service instances to multiple channels. For detailed instructions to enable Adaptive Form Core Components, see [Enable Adaptive Forms Core Components on AEM Forms as a Cloud Service and local development environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html).
 
-| AEM-Version | AEM Forms-Add-on | Kernkomponenten für adaptive Formulare |
+The Adaptive Forms Core Components have the following requirements.
+
+|AEM Version|AEM Forms add-on|Adaptive Forms Core Components|
 |---|---|---|
-| AEM as a Cloud Service | Forms – Digitale Registrierung | [Version 2.0.10](version.md)+ |
-| AEM 6.5 | Forms-Add-on | [Version 1.1.12](version.md)+ |
+|AEM as a Cloud Service|Forms - Digital Enrollment|[Release 2.0.10](version.md)+|
+|AEM 6.5 | Forms add-on |[Release 1.1.12](version.md)+|
 
-Wenn Ihre Version des AEM Cloud Service SDK älter als 2023.02.0 ist, [stellen Sie sicher, dass das `prerelease`-Flag in Ihrer Umgebung aktiviert ist](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features), da Kernkomponenten für adaptive Formulare Teil der Vorabversion vor der Version 2023.02.0 waren.
+If your AEM Cloud Service SDK version older than 2023.02.0, [ensure that you have `prerelease` flag enabled on your environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=en#new-features) as Adaptive Forms Core Components were part of pre-prelease before the 2023.02.0 release.
 
+-->
 
 ## Erstellen eines auf Kernkomponenten basierenden adaptiven Formulars
 
