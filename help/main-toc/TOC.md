@@ -5,10 +5,10 @@ breadcrumb-title: Anleitung zu den Kernkomponenten
 feature: Core Components
 user-guide-description: Nutzen Sie für herkömmliche AEM-Projekte die erweiterbaren Kernkomponenten, damit Autorinnen und Autoren mühelos Inhalte erstellen können.
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: bf6953f24388ed08cd5a66bb51011b3ac82fb58e
+source-git-commit: 1ac3d987337f8279e762ab5357d32bb732dea0be
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 100%
+source-wordcount: '428'
+ht-degree: 98%
 
 ---
 
@@ -141,6 +141,7 @@ ht-degree: 100%
       + [Fußzeile](/help/adaptive-forms/components/footer.md)
    + [Anpassen von Kernkomponenten für adaptive Formulare](/help/developing/customize-adaptive-forms-core-components.md)
    + [Beispiel-Designs und -vorlagen](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
+   + [Validierungsmuster für Texteingaben aktivieren](/help/adaptive-forms/enable-validation-patterns.md)
 + Entwicklung {#developing}
    + [Entwickeln von Kernkomponenten](/help/developing/overview.md)
    + [Wege zum Erfolg](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=de)
