@@ -3,10 +3,10 @@ title: Kernkomponente „Optionsschaltfläche“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „Optionsschaltfläche“ für adaptive Formulare.
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '2135'
-ht-degree: 100%
+source-git-commit: e9354f24e1f2f8cd1e899dbd999e80406b5ce2bc
+workflow-type: tm+mt
+source-wordcount: '2349'
+ht-degree: 91%
 
 ---
 
@@ -49,13 +49,19 @@ Die Kernkomponente für Optionsfelder in adaptiven Formularen wurde im Februar 2
 
 | Komponentenversion | AEM as a Cloud Service | AEM 6.5.16.0 Forms oder höher |
 |---|---|---|
+| v2 | Kompatibel mit <br>[.Version 3.0.142](/help/adaptive-forms/version.md) und höher | |
 | v1 | Kompatibel mit<br>[Version 2.0.4](/help/adaptive-forms/version.md) und höher | Kompatibel mit<br>[Version 1.1.12](/help/adaptive-forms/version.md) und höher (aber nur bis Version 2.0.0). |
+
 
 Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokument [Kernkomponenten-Versionen](/help/adaptive-forms/version.md).
 
+>[!NOTE]
+>
+> Die v1-Version der Kernkomponente für Kontrollkästchen-Gruppen unterstützt WCAG 2.1, das sich darauf konzentriert, Inhalte durch Befolgen von Best Practices für die Benutzerfreundlichkeit und Lesbarkeit zugänglich zu machen. Die v2-Version unterstützt WCAG 2.2, das einen Schritt weiter geht, indem eine klare, vorhersehbare und eindeutige Barrierefreiheit durch logische und semantische Gruppierung verwandter Felder betont wird, was es zu einer kritischen Anforderung für einen inklusiven Formularentwurf macht.
+
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_de). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Technische Details {#technical-details}
 
@@ -84,7 +90,7 @@ Im Dialogfeld „Konfigurieren“ können Sie Optionsschaltflächen für Besuche
    - **Datenwert**: Mit dieser Option können Sie den zu sendenden Inhalt eingeben, wenn eine Option ausgewählt ist.
    - **Text anzeigen** – Mit dieser Option können Sie den Inhalt eingeben, der in einem adaptiven Formular angezeigt werden soll.
    - **Löschen** – Durch Tippen oder Klicken können Sie die Option einer Optionsschaltfläche löschen.
-   - **Neu anordnen**: Durch Tippen oder Klicken und Ziehen können Sie die Anordnung der Optionen anpassen.
+   - **Neu anordnen** – Durch Tippen oder Klicken und Ziehen können Sie die Anordnung der Optionen anpassen.
 Sie können die Optionen für die Optionsfeldgruppe auch mit **Rich-Text für Optionen zulassen** formatieren.
 
   ![Rich-Text-Unterstützung für Optionen](/help/adaptive-forms/assets/richtext-for-options.png)
@@ -167,7 +173,17 @@ Mit der Option „Benutzerdefinierte Eigenschaften“ können Sie mithilfe der F
 
    - **Neu anordnen**: Ordnen Sie den Namen und Wert der benutzerdefinierten Eigenschaft Antippen oder Klicken und Ziehen neu an.
 
-## Ähnliche Artikel {#related-articles}
+## Unterstützung von Feldsets und Legenden für Optionsfelder (v2)
+
+<span class="preview"> Diese Funktion ist über das Early Access-Programm verfügbar. Um den Zugriff anzufordern, senden Sie eine E-Mail von Ihrer offiziellen Adresse an [aem-forms-ea@adobe.com](mailto:aem-forms-ea@adobe.com). </span>
+
+Adaptive Forms-Kernkomponenten verwenden semantische `<fieldset>` und `<legend>` HTML-Elemente, um die Barrierefreiheit für Optionsfeldgruppen zu verbessern. Diese Elemente ermöglichen es Sprachausgaben, die Formularstruktur genau zu interpretieren und die Beziehungen zwischen Gruppenbeschriftungen und ihren Optionen zu vermitteln.
+
+Optionsfeld(v2)-Komponenten werden in einem `<fieldset>`-Element gerendert, wobei die Gruppenbeschriftung als erstes untergeordnetes Element in eine `<legend>` eingeschlossen wird. Redundante oder ungültige ARIA-Attribute werden entfernt und die einzelnen Kennzeichnungen werden korrekt ihren jeweiligen Eingaben zugeordnet. Dadurch wird sichergestellt, dass Bildschirmlesehilfen jede Optionsschaltflächen-Beschriftung zusammen mit dem Gruppenkontext klar lesen.
+
+![Optionsfeld](/help/adaptive-forms/assets/radiobutton-fieldset.png)
+
+## Verwandte Artikel {#related-articles}
 
 {{more-like-this}}
 
