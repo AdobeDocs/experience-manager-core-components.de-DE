@@ -3,10 +3,10 @@ title: Kernkomponenten-Versionen
 description: Kernkomponenten werden als Versionen veröffentlicht, die mehr als eine Version derselben Kernkomponenten enthalten können. In diesem Dokument wird erläutert, welche Versionen veröffentlicht werden und wie die Kompatibilität mit Kernkomponenten und AEM verstanden werden kann.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 684bdb4168be00f02bb306dd7ab183e8c439b9e7
+source-git-commit: 94341eb0f9caf1764aed71f152e75d27ccec0f5a
 workflow-type: tm+mt
-source-wordcount: '3110'
-ht-degree: 99%
+source-wordcount: '3875'
+ht-degree: 96%
 
 ---
 
@@ -26,7 +26,9 @@ Die folgende Tabelle, deren Inhalt [auf GitHub mit vollständigen Versionsinform
 
 | Version | Beschreibung | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service | Java | Veröffentlichungsdatum |
 |---|---|---|---|---|---|---|---|
-| [,30,2 &#x200B;](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.2) | In dieser Version wurde eine nicht lokalisierte Zeichenfolge im Zusammenhang mit dem PDF-Viewer korrigiert. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11 | &#x200B;23. Oktober 2025 |
+| [2.30.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.4) | In dieser Version wurde das Problem der Pfadvalidierung behoben. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11 | &#x200B;30. Januar 2026 |
+| [2.30.3](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.3) | Diese Version korrigierte eine Regression im Dialogfeld für die Titelkomponente. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11 | &#x200B;5. Dezember 2025 |
+| [2.30.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.2) | In dieser Version wurde eine nicht lokalisierte Zeichenfolge im Zusammenhang mit dem PDF-Viewer korrigiert. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11 | &#x200B;23. Oktober 2025 |
 | [2.30.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.0) | In dieser Version wurden eine Reihe von Problemen mit Assets und Dynamic Media behoben, die LTS-Unterstützung erläutert und zahlreiche Fehlerbehebungen vorgenommen. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11 | 4. September 2025 |
 | [2.29.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.29.0) | Diese Version bietet nun Unterstützung für die Erstellung von Vorschauversionen von Assets in der Sites-Kernkomponente und beinhaltet zahlreiche Fehlerbehebungen. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11 | &#x200B;21. April 2025 |
 | [2.28.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0) | Diese Version umfasst zahlreiche Fehlerbehebungen. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11 | 17. März 2025 |
@@ -157,7 +159,7 @@ Weitere Informationen zu Kernkomponentenversionen finden Sie in der [Entwicklerd
 
 ### Versionen {#releases}
 
-Die Kernkomponenten werden über **Versionen** verfügbar gemacht. Sie [stellen die tatsächlichen veröffentlichten Artefakte dar, die auf GitHub verfügbar sind.](https://github.com/adobe/aem-core-wcm-components/releases) Versionen werden mit einer Dezimalzahl im Format gekennzeichnet `X.Y.Z`, und alle Kernkomponenten werden zusammen als bereitstellbares Paket erfasst.
+Die Kernkomponenten werden über (Versionen **verfügbar gemacht** und [stellen die tatsächlichen veröffentlichten Artefakte dar, die auf GitHu verfügbar sind.](https://github.com/adobe/aem-core-wcm-components/releases) Versionen werden mit einer Dezimalzahl im Format gekennzeichnet, `X.Y.Z` alle Kernkomponenten zusammen als bereitstellbares Paket erfassen.
 
 * Mit **Hauptversionen** werden völlig neue Komponenten, Verbesserungen an bestehenden Versionen von Komponenten sowie Standard-Fehlerbehebungen eingeführt. Dies wird durch eine schrittweise Erhöhung in der `X`-Komponente der Versionsnummer dargestellt.
 * In **Nebenversionen** werden neue Komponenten, neue Funktionen für bestehende Versionen von Komponenten sowie Fehlerkorrekturen eingeführt. Dies wird durch eine schrittweise Erhöhung in der `Y`-Komponente der Versionsnummer dargestellt.
