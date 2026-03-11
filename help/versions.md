@@ -3,9 +3,9 @@ title: Kernkomponenten-Versionen
 description: Kernkomponenten werden als Versionen veröffentlicht, die mehr als eine Version derselben Kernkomponenten enthalten können. In diesem Dokument wird erläutert, welche Versionen veröffentlicht werden und wie die Kompatibilität mit Kernkomponenten und AEM verstanden werden kann.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 94341eb0f9caf1764aed71f152e75d27ccec0f5a
+source-git-commit: 3e49862f958e50f095c944c33d1983ae46ab8ace
 workflow-type: tm+mt
-source-wordcount: '3875'
+source-wordcount: '3887'
 ht-degree: 96%
 
 ---
@@ -26,12 +26,12 @@ Die folgende Tabelle, deren Inhalt [auf GitHub mit vollständigen Versionsinform
 
 | Version | Beschreibung | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service | Java | Veröffentlichungsdatum |
 |---|---|---|---|---|---|---|---|
-| [2.30.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.4) | In dieser Version wurde das Problem der Pfadvalidierung behoben. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11 | &#x200B;30. Januar 2026 |
-| [2.30.3](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.3) | Diese Version korrigierte eine Regression im Dialogfeld für die Titelkomponente. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11 | &#x200B;5. Dezember 2025 |
-| [2.30.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.2) | In dieser Version wurde eine nicht lokalisierte Zeichenfolge im Zusammenhang mit dem PDF-Viewer korrigiert. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11 | &#x200B;23. Oktober 2025 |
-| [2.30.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.0) | In dieser Version wurden eine Reihe von Problemen mit Assets und Dynamic Media behoben, die LTS-Unterstützung erläutert und zahlreiche Fehlerbehebungen vorgenommen. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11 | 4. September 2025 |
-| [2.29.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.29.0) | Diese Version bietet nun Unterstützung für die Erstellung von Vorschauversionen von Assets in der Sites-Kernkomponente und beinhaltet zahlreiche Fehlerbehebungen. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11 | &#x200B;21. April 2025 |
-| [2.28.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0) | Diese Version umfasst zahlreiche Fehlerbehebungen. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11 | 17. März 2025 |
+| [2.30.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.4) | In dieser Version wurde das Problem der Pfadvalidierung behoben. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11, 17, 21 | &#x200B;30. Januar 2026 |
+| [2.30.3](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.3) | Diese Version korrigierte eine Regression im Dialogfeld für die Titelkomponente. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11, 17, 21 | &#x200B;5. Dezember 2025 |
+| [2.30.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.2) | In dieser Version wurde eine nicht lokalisierte Zeichenfolge im Zusammenhang mit dem PDF-Viewer korrigiert. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11, 17, 21 | &#x200B;23. Oktober 2025 |
+| [2.30.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.0) | In dieser Version wurden eine Reihe von Problemen mit Assets und Dynamic Media behoben, die LTS-Unterstützung erläutert und zahlreiche Fehlerbehebungen vorgenommen. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11, 17, 21 | 4. September 2025 |
+| [2.29.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.29.0) | Diese Version bietet nun Unterstützung für die Erstellung von Vorschauversionen von Assets in der Sites-Kernkomponente und beinhaltet zahlreiche Fehlerbehebungen. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11, 17, 21 | &#x200B;21. April 2025 |
+| [2.28.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0) | Diese Version umfasst zahlreiche Fehlerbehebungen. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11, 17, 21 | 17. März 2025 |
 | [2.27.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.27.0) | Diese Version umfasst zahlreiche Fehlerbehebungen. | – | 6.5.21.0+ | – | Kontinuierlich | 11 | &#x200B;10. September 2024 |
 | [2.26.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.26.0) | Diese Version umfasst zahlreiche Fehlerbehebungen. | – | 6.5.21.0+ | – | Kontinuierlich | 11 | 31. Juli 2024 |
 | [2.25.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.4) | Dies ist eine kleinere Version, die einige IT-Fehler korrigiert. | – | 6.5.21.0+ | – | Kontinuierlich | 8, 11 | &#x200B;10. Mai 2024 |
