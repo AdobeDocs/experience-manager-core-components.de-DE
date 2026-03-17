@@ -1,12 +1,12 @@
 ---
 title: Bildkomponente
 description: Die Bildkomponenten-Kernkomponente ist eine adaptive Bildkomponente.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 8952f6c574fe1e21ff35e95bc0af6433f0363e77
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '2064'
-ht-degree: 99%
+source-wordcount: '2163'
+ht-degree: 95%
 
 ---
 
@@ -17,9 +17,9 @@ Die Bildkomponenten-Kernkomponente ist eine adaptive Bildkomponente.
 
 {{traditional-aem}}
 
-## Verwendung {#usage}
+## Nutzung {#usage}
 
-Die Bildkomponente bietet adaptive Bildauswahl und responsives Verhalten mit verzögertem Laden für die Menschen, die eine Seite besuchen, sowie einfache Bildplatzierung für die Inhaltsautorin bzw. den Inhaltsautor. 
+Die Bildkomponente bietet adaptive Bildauswahl und responsives Verhalten mit verzögertem Laden für die Menschen, die eine Seite besuchen, sowie einfache Bildplatzierung für die Inhaltsautorin bzw. den Inhaltsautor.
 
 Inhaltsautorinnen und Inhaltsautoren können das [Dialogfeld „Bearbeiten“](#edit-dialog) verwenden, um das Bild-Asset zu bearbeiten, um z. B. einen Zuschnitt anzuwenden oder das Bild zu drehen.
 
@@ -37,7 +37,7 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 | [v2](v2/image.md) | Kompatibel | Kompatibel | – | Kompatibel |
 | [v1](v1/image-v1.md) | Kompatibel | Kompatibel | – | Kompatibel |
 
-Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
+Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie im Dokument [Kernkomponentenversionen](/help/versions.md).
 
 ## Responsive Funktionen {#responsive-features}
 
@@ -59,13 +59,13 @@ In den meisten Fällen ziehen Browser es vor, lokal eine größere Breite zu ver
 
 ## Dynamic Media-Unterstützung {#dynamic-media}
 
-Die Bildkomponente (ab [Version 2.13.0](/help/versions.md)) unterstützt [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html?lang=de)-Assets. [Wenn diese Funktionen aktiviert sind](#design-dialog), können Sie Dynamic Media-Bild-Assets per Drag-and-Drop oder über den Assets-Browser hinzufügen, wie Sie es mit jedem anderen Bild tun würden. Darüber hinaus werden auch Bild-Modifikatoren, Bildvorgaben und Intelligenter Zuschnitt unterstützt.
+Die Bildkomponente (ab Version [.13.0](/help/versions.md)) unterstützt [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html?lang=de)-Assets. [Wenn diese Funktionen aktiviert ](#design-dialog), können Sie Dynamic Media-Bild-Assets einfach per Drag-and-Drop oder über den Asset-Browser hinzufügen, genau wie bei jedem anderen Bild. Darüber hinaus werden auch Bild-Modifikatoren, Bildvorgaben und Intelligenter Zuschnitt unterstützt.
 
-Ihre mit Kernkomponenten erstellten Web-Erlebnisse können umfangreiche, Adobe-KI-gestützte, robuste, leistungsstarke und plattformübergreifende Dynamic Media-Bildfunktionen enthalten.
+Ihre mit Kernkomponenten erstellten Web-Erlebnisse können umfangreiche, Adobe AI-gestützte, robuste, leistungsstarke und plattformübergreifende Dynamic Media-Bildfunktionen enthalten.
 
 ## Unterstützung für Remote Assets {#remote-assets}
 
-Die Bildkomponente (ab [Version 2.23.2](/help/versions.md)) unterstützt Remote-Assets. [Wenn sie konfiguriert sind,](/help/developing/remote-assets.md) können Sie Assets aus einem Remote-Service für Ihre Bildkomponente auswählen.
+Die Bildkomponente (ab Version [.23.2](/help/versions.md)) unterstützt Remote-Assets. [Nach der Konfiguration ](/help/developing/remote-assets.md) Sie Assets aus einem Remote-Service für Ihre Bildkomponente auswählen.
 
 ## SVG-Unterstützung {#svg-support}
 
@@ -179,7 +179,7 @@ Die Bildkomponente bietet ein Dialogfeld zum Konfigurieren, in dem das Bild selb
 
 * **Vorgabetyp** – Hier wird der Typ der verfügbaren Bildvorgaben festgelegt, entweder **Bildvorgabe** oder **Intelligenter Zuschnitt**. Dies ist nur verfügbar, wenn die [Dynamic Media-Funktionen](#dynamic-meida) aktiviert sind.
    * **Bildvorgabe** – Wenn der **Vorgabetyp** **Bildvorgabe** ausgewählt ist, ist die Dropdown-Liste **Bildvorgabe** verfügbar, sodass aus den verfügbaren Dynamic Media-Vorgaben ausgewählt werden kann. Dies ist nur verfügbar, wenn für das ausgewählte Asset Vorgaben definiert sind.
-   * **Intelligenter Zuschnitt** – Wenn der **Vorgabetyp**&#x200B;**Intelligenter Zuschnitt** ausgewählt ist, ist die Dropdown-Liste **Ausgabedarstellung** verfügbar, sodass aus den verfügbaren Ausgabedarstellungen des ausgewählten Assets ausgewählt werden kann. Dies ist nur verfügbar, wenn für das ausgewählte Asset Ausgabedarstellungen definiert sind.
+   * **Intelligenter Zuschnitt** – Wenn der **Vorgabetyp****Intelligenter Zuschnitt** ausgewählt ist, ist die Dropdown-Liste **Ausgabedarstellung** verfügbar, sodass aus den verfügbaren Ausgabedarstellungen des ausgewählten Assets ausgewählt werden kann. Dies ist nur verfügbar, wenn für das ausgewählte Asset Ausgabedarstellungen definiert sind.
    * **Bild-Modifikatoren** – Hier können zusätzliche Befehle zur Dynamic Media-Bildbereitstellung definiert werden, die durch `&` getrennt sind, unabhängig davon, welcher **Vorgabetyp** ausgewählt ist.
 * **Beschriftung** – Zusätzliche Informationen über das Bild, die standardmäßig unter dem Bild angezeigt werden.
    * **Beschriftung aus DAM abrufen** – Wenn diese Option aktiviert ist, wird der Beschriftungstext des Bildes mit dem Wert der `dc:title`-Metadaten in DAM gefüllt.

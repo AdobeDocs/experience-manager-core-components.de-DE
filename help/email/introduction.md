@@ -1,18 +1,18 @@
 ---
-title: 'Einführung in E-Mail-Kernkomponenten '
+title: Einführung in E-Mail-Kernkomponenten
 description: Erstellen Sie ansprechende E-Mail-Inhalte unter Verwendung der flexiblen E-Mail-Kernkomponenten und versenden Sie sie mit Adobe Campaign.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 0a411f28-bd6a-4bad-b473-6bc27c1d1055
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '439'
 ht-degree: 100%
 
 ---
 
 
-# Einführung in E-Mail-Kernkomponenten  {#email-core-components-introduction}
+# Einführung in E-Mail-Kernkomponenten {#email-core-components-introduction}
 
 Erstellen Sie ansprechende E-Mail-Inhalte unter Verwendung der flexiblen E-Mail-Kernkomponenten und versenden Sie sie mit Adobe Campaign.
 
@@ -53,7 +53,7 @@ Die E-Mail-Kernkomponenten haben die folgenden Anforderungen.
 
 Die aktuelle Version der E-Mail-Kernkomponenten enthält die folgenden Komponenten.
 
-* [Seite  ](components/page.md)
+* [Seite](components/page.md)
 * [Container](components/container.md)
 * [Titel](components/title.md)
 * [Text](components/text.md)

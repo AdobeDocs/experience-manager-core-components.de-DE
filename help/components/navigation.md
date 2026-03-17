@@ -1,17 +1,17 @@
 ---
 title: Navigationskomponente
 description: Mit der Navigationskomponente können Benutzer leicht durch eine globalisierte Site-Struktur navigieren.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '1544'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1556'
+ht-degree: 97%
 
 ---
 
 
-# Navigationskomponente {#navigation-component}
+# Navigationskomponente{#navigation-component}
 
 Mit der Navigationskomponente können Benutzer leicht durch eine globalisierte Site-Struktur navigieren.
 
@@ -21,7 +21,7 @@ Mit der Navigationskomponente können Benutzer leicht durch eine globalisierte S
 
 In der Navigationskomponente wird ein Seitenbaum aufgelistet, sodass Benutzer einer Website problemlos in der Site-Struktur navigieren können.
 
-Die Navigationskomponente kann die globale Site-Struktur Ihrer Site automatisch erkennen und [automatisch an eine lokalisierte Site anpassen.](#localized-site-structure) Darüber hinaus kann eine beliebige Site-Struktur durch die Verwendung von [Shadow-Umleitungsseiten](#shadow-structure) zur Darstellung einer anderen Struktur als Ihrer Hauptinhaltsstruktur unterstützt werden.
+Die Navigationskomponente kann die globalisierte Site-Struktur Ihrer Site automatisch erkennen und [sich automatisch an eine lokalisierte Seite anpassen.](#localized-site-structure) Darüber hinaus kann sie jede beliebige Site-Struktur unterstützen, indem sie [Shadow-Umleitungsseiten](#shadow-structure) verwendet, um eine andere Struktur als Ihre Hauptinhaltsstruktur darzustellen.
 
 Das Dialogfeld [„Bearbeiten“](#edit-dialog) ermöglicht es dem Inhaltsautor, die Navigationsstammseite zusammen mit der Navigationstiefe zu definieren. Das [Dialogfeld „Design“](#design-dialog) ermöglicht es dem Vorlagenautor, Standardwerte für den Navigationsstamm und die Tiefe zu definieren.
 
@@ -36,7 +36,7 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 | v2 | – | Kompatibel | Kompatibel | Kompatibel |
 | [v1](v1/navigation.md) | Kompatibel | Kompatibel | – | Kompatibel |
 
-Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
+Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie im Dokument [Kernkomponentenversionen](/help/versions.md).
 
 ## Unterstützung für lokalisierte Site-Strukturen {#localized-site-structure}
 
@@ -146,7 +146,7 @@ Im Dialogfeld „Bearbeiten“ kann der Inhaltsautor die Stammseite für die Nav
 * **Alle untergeordneten Seiten erfassen** - Sammeln Sie alle untergeordneten Seiten, die sich auf dem Navigationsstamm befinden.
 * **Strukturtiefe der Navigation** - Definiert, wie viele Ebenen die Komponente in der Navigationsstruktur im Verhältnis zum Navigationsstamm anzeigen soll (nur verfügbar, wenn **Alle untergeordneten Seiten erfassen** nicht ausgewählt sind).
 * **Schatten deaktivieren** - Wenn es sich bei der Seite in der Hierarchie um einen Redirect handelt, wird anstelle der Zielseite der Name der umleitenden (Redirect)-Seite angezeigt. Weitere Informationen finden Sie unter [Unterstützung für Shadow Site-Struktur](#shadow-structure).
-* **ID** - Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
+* **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
    * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
    * Sofern eine ID angegeben wird, ist vom Autor bzw. der Autorin sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.

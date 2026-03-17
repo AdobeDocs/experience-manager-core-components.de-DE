@@ -1,16 +1,16 @@
 ---
 title: Verwenden von Kernkomponenten
 description: 'Um mit Kernkomponenten in Ihrem eigenen Projekt loszulegen, müssen Sie drei Schritte ausführen: Herunterladen und Installieren, Erstellen von Proxy-Komponenten, Laden der Kernstile und Zulassen der Komponenten in Ihren Vorlagen.'
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
-source-git-commit: 8beae61676340e8aafaee469018d865ea7ed934e
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 96%
+source-wordcount: '1043'
+ht-degree: 92%
 
 ---
 
-# Verwenden von Kernkomponenten {#using-core-components}
+# Verwenden von Kernkomponenten{#using-core-components}
 
 Um mit Kernkomponenten in Ihrem eigenen Projekt produktiv zu werden, sind vier Schritte erforderlich, die in den folgenden Abschnitten einzeln erläutert werden:
 
@@ -44,15 +44,15 @@ Einige Punkte, die Sie beachten sollten, wenn Sie die Kernkomponenten in AEMaaCS
 * Die Projekt-Build-Pipeline erzeugt Warnungen im Protokoll, wenn sie die Kernkomponenten erneut als Teil von `/apps` einbindet, und ignoriert die als Teil Ihres Projekts eingebettete Version.
    * In einer kommenden Version wird das Einbinden der Kernkomponenten den Pipeline-Build erneut fehlschlagen lassen.
 * Wenn Ihr Projekt zuvor die Kernkomponenten in `/apps` enthielt, [müssen Sie Ihr Projekt möglicherweise anpassen.](/help/developing/overview.md#via-aemaacs)
-* Auch wenn sich die Kernkomponenten jetzt in `/libs` befinden, ist es nicht empfehlenswert, ein Overlay des gleichen Pfades in `/apps` zu erstellen. Stattdessen sollte [das Proxy-Komponentenmuster](/help/developing/guidelines.md#proxy-component-pattern) verwendet werden, wenn irgendein Aspekt der Komponenten angepasst werden muss.
+* Obwohl sich die Kernkomponenten jetzt in `/libs` befinden, wird nicht empfohlen, in `/apps` eine Überlagerung desselben Pfads zu erstellen. [Das Proxy-Komponentenmuster](/help/developing/guidelines.md#proxy-component-pattern) sollte stattdessen verwendet werden, wenn ein Aspekt der Komponenten angepasst werden muss.
 * Damit die [Inhaltsverzeichnis-Komponente](/help/components/tableofcontents.md) ihren Inhalt rendern kann, muss ein Filter in OSGi konfiguriert werden.
-   * [Bitte lesen Sie die GitHub-Dokumentation der Komponente](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_de) für weitere Informationen.
+   * [Bitte lesen Sie die GitHub-Dokumentation der Komponente](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1) für weitere Informationen.
 
 ### AEM 6.5 und älter {#aem-65}
 
 Die Kernkomponenten sind nicht Teil des Schnellstarts, wenn Sie im Produktionsmodus (ohne Beispielinhalt) beginnen. Der erste Schritt besteht darin, [das neueste veröffentlichte Inhaltspaket von GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest) herunterzuladen und es in Ihren AEM-Umgebungen zu installieren.
 
-Es gibt verschiedene Möglichkeiten, dies zu automatisieren, aber die einfachste Möglichkeit, ein Inhaltspaket schnell auf einer Instanz zu installieren, erfolgt über den Package Manager; siehe [Installieren von Paketen](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=de#installing-packages). Sobald Sie außerdem eine Veröffentlichungsinstanz ausgeführt haben, müssen Sie dieses Paket für den Herausgeber replizieren. Siehe [Replizieren von Paketen](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=de#replicating-packages).
+Es gibt verschiedene Möglichkeiten, dies zu automatisieren, aber die einfachste Möglichkeit, ein Inhaltspaket schnell auf einer Instanz zu installieren, erfolgt über den Paket-Manager; siehe [Installieren von Paketen](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=de#installing-packages). Sobald Sie außerdem eine Veröffentlichungsinstanz ausgeführt haben, müssen Sie dieses Paket für den Herausgeber replizieren. Siehe [Replizieren von Paketen](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=de#replicating-packages).
 
 ## Proxy-Komponenten erstellen {#create-proxy-components}
 

@@ -1,12 +1,12 @@
 ---
 title: Listenkomponente (v3)
 description: Die Kernkomponente „Listenkomponente (v3)“ ermöglicht die einfache Erstellung dynamischer sowie statischer Listen.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 4aefce2e-9c22-4c6d-869e-aaa8c246b073
-index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '0'
+index: false
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1177'
 ht-degree: 100%
 
 ---
@@ -39,7 +39,7 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 | [v2](/help/components/v2/list.md) | Kompatibel | Kompatibel | Kompatibel |
 | [v1](/help/components/v1/list-v1.md) | Kompatibel | Kompatibel | Kompatibel |
 
-Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
+Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie im Dokument [Kernkomponentenversionen](/help/versions.md).
 
 ## Redirects in Listen {#redirects}
 
@@ -112,7 +112,7 @@ Die Liste kann mithilfe der Ergebnisse einer Suche aus AEM-Inhalten erstellt wer
 
 ![Optionen für die Suchliste](/help/assets/v3/list-edit-search.png)
 
-* **Suchanfrage**
+* **Suchabfrage**
 Die Zeichenfolge, für die eine Volltextsuche ausgeführt wird, um die Listenelemente zu generieren
 * **Suche in**
 Wo die Suche ausgeführt werden soll
@@ -154,7 +154,7 @@ Die Reihenfolge, in der die Elemente angeordnet werden sollen
 * **Maximale Elemente**
 Maximale Anzahl der in der Liste angezeigten Elemente.
    * Leer lassen, um alle Elemente zurückzugeben.
-* **ID** - Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
+* **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
    * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
    * Sofern eine ID angegeben wird, ist vom Autor bzw. der Autorin sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.

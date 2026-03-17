@@ -1,12 +1,12 @@
 ---
 title: Adaptive Image Servlet
 description: Erfahren Sie, wie die Kernkomponenten das Adaptive Image Servlet für die Bildbereitstellung verwenden und wie Sie dessen Verwendung optimieren können.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
-source-git-commit: 3f6e40c4dbfbd1287213d9d16d96183d24f2ad0a
-workflow-type: ht
-source-wordcount: '456'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '487'
+ht-degree: 89%
 
 ---
 
@@ -31,7 +31,7 @@ In diesem Dokument wird das standardmäßige Adaptive Image Servlet beschrieben.
 
 ## Übersicht {#overview}
 
-Standardmäßig verwendet die Bildkomponente das Adaptive Image Servlet der Kernkomponente, um Bilder bereitzustellen. [Das Adaptive Image Servlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) übernimmt die Bildverarbeitung sowie das Streaming und kann von Entwicklern bei der [Anpassung der Kernkomponenten](/help/developing/customizing.md) genutzt werden.
+Standardmäßig verwendet die Bildkomponente das Adaptive Image Servlet der Kernkomponente, um Bilder bereitzustellen. [Das Adaptive Image Servlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) ist für die Bildverarbeitung und das Streaming verantwortlich und kann von Entwicklerinnen und Entwicklern bei der [ der Kernkomponenten genutzt ](/help/developing/customizing.md).
 
 ## Ausgabedarstellungsauswahl {#rendition-selection}
 
@@ -39,7 +39,7 @@ Das Adaptive Image Servlet wählt automatisch die am besten geeignete Ausgabedar
 
 1. Das Adaptive Image Servlet prüft alle verfügbaren Ausgabedarstellungen des Bild-Assets.
 1. Es werden nur solche ausgewählt, die den gleichen MIME-Typ wie das ursprünglich referenzierte Asset haben.
-   * Wenn das ursprüngliche Asset beispielsweise ein PNG war, werden nur PNG-Ausgabedarstellungen berücksichtigt.
+   * E.g. Wenn das ursprüngliche Asset ein PNG war, werden nur PNG-Ausgabedarstellungen berücksichtigt.
 1. Zwischen diesen Ausgabedarstellungen werden die Dimensionen berücksichtigt und sie mit der Größe des Containers verglichen, in dem das Bild angezeigt werden soll.
 1. Wenn die Ausgabedarstellung größer oder gleich der Container-Größe ist, wird sie einer Liste von möglichen Ausgabedarstellungen hinzugefügt.
 1. Wenn die Ausgabedarstellung kleiner als die Container-Größe ist, wird sie ignoriert.

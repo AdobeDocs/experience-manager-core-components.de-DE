@@ -1,12 +1,12 @@
 ---
 title: Kernkomponente für adaptive Formulare - Kontrollkästchen
 description: Verwenden oder Anpassen der Kontrollkästchen-Kernkomponente für adaptive Formulare.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: 2be68aa708131486f7d89f33952153a7a90c3d0a
+source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
 workflow-type: tm+mt
-source-wordcount: '1817'
-ht-degree: 100%
+source-wordcount: '1843'
+ht-degree: 98%
 
 ---
 
@@ -41,13 +41,13 @@ Die häufigsten Gründe für die Verwendung von Kontrollkästchen in einem adapt
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die Kontrollkästchen-Kernkomponente für adaptive Formulare wurde als Teil der Kernkomponenten 2.0.52 veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
+Die Kernkomponente „Adaptive Forms Checkbox“ wurde als Teil der Kernkomponenten 2.0.52 veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
 
 |  |  |
 |---|---|
 | Komponentenversion | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Kompatibel mit<br>[Version 2.0.52](/help/adaptive-forms/version.md) und höher | Kompatibel | Kompatibel |
+| v1 | Kompatibel mit<br>[Version 2.0.52](/help/adaptive-forms/version.md) und höher\|Kompatibel\|Kompatibel |
 
 Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokument [Kernkomponenten-Versionen](/help/adaptive-forms/version.md).
 
@@ -148,7 +148,7 @@ Mit der Option „Benutzerdefinierte Eigenschaften“ können Sie mithilfe der F
 
    - **Neu anordnen**: Ordnen Sie den Namen und Wert der benutzerdefinierten Eigenschaft Antippen oder Klicken und Ziehen neu an.
 
-## Ähnliche Artikel {#related-articles}
+## Verwandte Artikel {#related-articles}
 
 {{more-like-this}}
 

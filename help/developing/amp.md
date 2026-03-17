@@ -1,12 +1,12 @@
 ---
 title: AMP-Unterstützung für die Kernkomponenten
 description: Die Kernkomponenten unterstützen AMP (Accelerated Mobile Pages)
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: 1fd9b6b5-0e4d-48c7-8faa-42e0d4a6bbd0
-source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 100%
+source-wordcount: '578'
+ht-degree: 95%
 
 ---
 
@@ -22,7 +22,7 @@ Accelerated Mobile Pages oder AMP ist ein Open-Source-Framework, das ursprüngli
 
 ## AMP in den Kernkomponenten {#amp-in-core-components}
 
-Die Unterstützung für AMP in den Kernkomponenten ist [vollständig konfigurierbar.](#enabling-amp) AMP-Versionen von Seiten können exklusiv, parallel zu den Standard-HTML-Versionen oder gar nicht bereitgestellt werden.
+Die Unterstützung für AMP in den Kernkomponenten ist [vollständig konfigurierbar.](#enabling-amp) AMP-Seitenversionen können exklusiv oder gar nicht zusammen mit den HTML-Standardversionen bereitgestellt werden.
 
 Die Kernkomponenten nutzen `amp` als Sling-Selektor zum Rendern von AMP-Seiten. Zum Beispiel würde mit `example.html` die normale Seite und mit `example.amp.html` die AMP-Version gerendert.
 

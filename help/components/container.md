@@ -1,17 +1,17 @@
 ---
-title: 'Container-Komponente '
+title: Container-Komponente
 description: Die Kernkomponente „Container-Komponente“ ermöglicht die Erstellung eines Containers für diverse zusätzliche Komponenten auf einer Seite.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 53c7190d-44cb-42ff-bc1a-483c7875bcf8
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '805'
 ht-degree: 100%
 
 ---
 
 
-# Container-Komponente {#container-component}
+# Container-Komponente{#container-component}
 
 Die Kernkomponente „Container-Komponente“ ermöglicht die Erstellung eines Containers für diverse zusätzliche Komponenten auf einer Seite.
 

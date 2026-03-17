@@ -1,17 +1,17 @@
 ---
 title: Inhaltsfragmentlisten-Komponente
 description: Die Inhaltsfragmentlisten-Kernkomponente ermöglicht die Anzeige einer Liste von Inhaltsfragmenten.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 0f2295b1-d287-4f72-8ee4-fa98c4850e53
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '851'
 ht-degree: 100%
 
 ---
 
 
-# Inhaltsfragmentlisten-Komponente {#content-fragment-list-component}
+# Inhaltsfragmentlisten-Komponente{#content-fragment-list-component}
 
 Die Inhaltsfragmentlisten-Kernkomponente ermöglicht die Anzeige einer Liste von [Inhaltsfragmenten](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=de).
 

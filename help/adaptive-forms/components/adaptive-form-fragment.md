@@ -1,11 +1,11 @@
 ---
 title: Adaptives Formularfragment
 description: Verwenden Sie Formularfragmente, um Formularsegmente oder Feldgruppen zu erstellen und sie über adaptive Formulare hinweg wiederzuverwenden, um die Effizienz und Wiederverwendbarkeit zu verbessern.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '1952'
+source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
+workflow-type: tm+mt
+source-wordcount: '2093'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ Sie können die [Wiederholungsoptionen](https://experienceleague.adobe.com/docs/
 
 {{traditional-aem}}
 
-## Verwendung {#usage}
+## Nutzung {#usage}
 
 - **Wiederverwendbarkeit**: Der größte Vorteil von Formularfragmenten ist die Möglichkeit Formularfragmente in mehreren adaptiven Formularen wiederzuverwenden. Dies hilft bei der Aufrechterhaltung von Konsistenz in Design und Funktionalität, da an einem Fragment vorgenommene Änderungen in allen Instanzen übernommen werden, in denen es verwendet wird.
 
@@ -36,7 +36,7 @@ Sie können die [Wiederholungsoptionen](https://experienceleague.adobe.com/docs/
 
 - **Einfache Wartung**: Die Änderungen an einem Formularfragment werden in allen Instanzen übernommen, in denen es verwendet wird. So wird die Wartung vereinfacht und die Fehlerwahrscheinlichkeit verringert.
 
-- **Effizienz**: Entwickler und Entwicklerinnen sparen Zeit, indem sie Formularfragmente nur einmal erstellen und testen. Die Formularfragmente können dann problemlos in mehrere adaptive Formulare integriert werden, ohne dass redundante Arbeit erforderlich ist.
+- **Effizienz**: Design- und Entwicklungs-Teams sparen Zeit, indem sie Formularfragmente nur einmal erstellen und testen. Die Formularfragmente können dann problemlos in mehrere adaptive Formulare integriert werden, ohne dass redundante Arbeit erforderlich ist.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
@@ -160,7 +160,7 @@ Mit der Option „Benutzerdefinierte Eigenschaften“ können Sie mithilfe der F
    - **Neu anordnen**: Ordnen Sie den Namen und Wert der benutzerdefinierten Eigenschaft Tippen oder Klicken und Ziehen neu an.
 
 
-## Ähnliche Artikel {#related-articles}
+## Verwandte Artikel {#related-articles}
 
 {{more-like-this}}
 

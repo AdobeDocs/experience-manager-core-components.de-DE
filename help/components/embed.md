@@ -1,17 +1,17 @@
 ---
 title: Einbettungskomponente
 description: Die Einbettungskomponente ermöglicht das Einbetten externer Inhalte in eine AEM-Inhaltsseite.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1421'
 ht-degree: 100%
 
 ---
 
 
-# Einbettungskomponente  {#embed-component}
+# Einbettungskomponente {#embed-component}
 
 Die Einbettungskomponente der Kernkomponenten ermöglicht das Einbetten externer Inhalte in eine AEM-Inhaltsseite.
 
@@ -39,7 +39,7 @@ Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie im D
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Um die Einbettungskomponente auszuprobieren sowie Beispiele für ihre Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_embed_de).
+Um die Einbettungskomponente auszuprobieren sowie Beispiele für ihre Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_embed).
 
 ## Technische Details {#technical-details}
 
@@ -57,7 +57,7 @@ Wählen Sie zunächst, welcher Ressourcentyp eingebettet werden soll:
 
 * [URL](#url)
 * [Einbettbare Prozessoren](#embeddable)
-* [HTML ](#html)
+* [HTML](#html)
 
 Für jeden Typ von einbettbarem Element können Sie eine **ID** festlegen. Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
 
@@ -101,7 +101,7 @@ Andere einbettbare Prozessoren weisen ähnliche Felder auf und können von einem
 >
 >Einbettbare Prozessoren müssen auf der Vorlagenebene über das [Dialogfeld „Design“](#design-dialog) aktiviert werden, damit sie dem Seitenautor zur Verfügung stehen.
 
-#### HTML  {#html}
+#### HTML {#html}
 
 Mit der Einbettungskomponente können Sie Ihrer Seite Freiform-HTML hinzufügen.
 

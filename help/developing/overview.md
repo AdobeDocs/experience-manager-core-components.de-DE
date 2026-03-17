@@ -1,12 +1,12 @@
 ---
 title: Entwickeln von Kernkomponenten
 description: Die Kernkomponenten bieten leistungsfähige und erweiterbare Basiskomponenten mit umfangreichen Funktionen, kontinuierlicher Bereitstellung, Komponentenversionierung, moderner Implementierung, schlankem Markup und JSON-Export von Inhalten.
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
-source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1339'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ Die Kernkomponenten bieten leistungsfähige und erweiterbare Basiskomponenten mi
 
 ## So haben Sie Erfolg mit den Kernkomponenten {#how-to-succeed}
 
-Die Kernkomponenten sind leistungsstark, flexibel und einfach zu verwenden und anzupassen. [Die Einhaltung einiger wichtiger Richtlinien](success.md) stellt sicher, dass Ihr Projekt mit den Kernkomponenten erfolgreich ist.
+Die Kernkomponenten sind leistungsstark, flexibel und einfach zu verwenden und anzupassen. [Befolgen Sie einige wichtige ](success.md), um sicherzustellen, dass Ihr Projekt mit den Kernkomponenten erfolgreich ist.
 
 ## Migration zu den Kernkomponenten
 
@@ -117,13 +117,13 @@ In der folgenden Tabelle sind die verfügbaren Kernkomponenten mit Links zu ihre
 | [Inhaltsfragment](https://adobe.com/go/aem_cmp_tech_cf_v1_de) | Ermöglicht die Anzeige eines Inhaltsfragments | `-` |
 | [Inhaltsfragmentliste](https://adobe.com/go/aem_cmp_tech_cflist_v1_de) | Ermöglicht die Anzeige einer Liste mit Inhaltsfragmenten | `-` |
 | [Trennzeichen](https://adobe.com/go/aem_cmp_tech_separator_v1_de) | Trennt Inhalt auf einer Seite | `-` |
-| [Akkordeon](https://adobe.com/go/aem_cmp_tech_accordion_v1_de) | Organisieren von Inhalts-Bedienfeldern in einem ausblendbaren Accordion | `-` |
+| [Akkordeon](https://adobe.com/go/aem_cmp_tech_accordion_v1) | Organisieren von Inhalts-Bedienfeldern in einem ausblendbaren Accordion | `-` |
 | [Container](https://adobe.com/go/aem_cmp_tech_container_v1_de) | Organisieren von Komponenten in einem Container | `-` |
-| [Schaltfläche](https://adobe.com/go/aem_cmp_tech_button_v1_de) | Erstellen einer Schaltfläche auf einer Seite | `-` |
-| [Download](https://adobe.com/go/aem_cmp_tech_download_v1_de) | Hinzufügen eines herunterladbaren Assets zu einer Seite | `-` |
+| [Schaltfläche](https://adobe.com/go/aem_cmp_tech_button_v1) | Erstellen einer Schaltfläche auf einer Seite | `-` |
+| [Download](https://adobe.com/go/aem_cmp_tech_download_v1) | Hinzufügen eines herunterladbaren Assets zu einer Seite | `-` |
 | [Experience Fragment](https://adobe.com/go/aem_cmp_tech_xf_v1_de) | Hinzufügen eines Experience Fragment zu einer Seite | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
-| [Einbetten](https://adobe.com/go/aem_cmp_tech_embed_v1_de) | Einbetten einer externen Ressource in eine Seite | - |
-| [Fortschrittsleiste](https://adobe.com/go/aem_cmp_tech_progress_v1_de) | Visualisierung des Fortschritts beim Erreichen eines Ziels | - |
+| [Einbetten](https://adobe.com/go/aem_cmp_tech_embed_v1) | Einbetten einer externen Ressource in eine Seite | - |
+| [Fortschrittsleiste](https://adobe.com/go/aem_cmp_tech_progress_v1) | Visualisierung des Fortschritts beim Erreichen eines Ziels | - |
 | [PDF-Viewer](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1_de) | Zeigt ein PDF-Dokument auf einer Seite an | - |
 
 ## Aktualisierung der Kernkomponenten {#upgrade-of-core-components}

@@ -1,11 +1,11 @@
 ---
 title: Komponentenrichtlinien
 description: Die Kernkomponenten folgen Implementierungsmustern, die sich stark von den Foundation-Komponenten unterscheiden.
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
-source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
-workflow-type: ht
-source-wordcount: '1225'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1296'
 ht-degree: 100%
 
 ---

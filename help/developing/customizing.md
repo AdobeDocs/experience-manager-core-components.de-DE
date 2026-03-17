@@ -1,16 +1,16 @@
 ---
 title: Anpassen der Kernkomponenten
 description: Die Kernkomponenten implementieren verschiedene Muster, die eine einfache Anpassung ermöglichen, von einfachen Stilen bis hin zur Wiederverwendung erweiterter Funktionen.
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
-source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1146'
+ht-degree: 96%
 
 ---
 
-# Anpassen der Kernkomponenten {#customizing-core-components}
+# Anpassen der Kernkomponenten{#customizing-core-components}
 
 Die [Kernkomponenten](overview.md) implementieren verschiedene Muster, die eine einfache Anpassung ermöglichen, von einfachen Stilen bis hin zur Wiederverwendung erweiterter Funktionen.
 
@@ -43,7 +43,7 @@ Es ist möglicherweise sinnvoll, die in einem Kernkomponentendialogfeld verfügb
 
 Jedes Dialogfeld hat eine einheitliche Knotenstruktur. Es wird empfohlen, dass diese Struktur in einer inhärenten Komponente repliziert wird, sodass [Sling Ressource Merger](https://helpx.adobe.com/de/experience-manager/6-4/sites/developing/using/sling-resource-merger.html) und [Ausblende-Bedingungen](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/using/hide-conditions.html) genutzt werden können, um Bereiche des Originaldialogs auszublenden, zu ersetzen oder neu anzuordnen. Die zu replizierende Struktur ist als beliebiger Wert bis zur Registerkartenelement-Knotenebene definiert.
 
-Damit alle Änderungen an einem Dialogfeld in seiner aktuellen Version vollständig kompatibel sind, ist es äußerst wichtig, dass Strukturen unterhalb der Registerkartenelementebene nicht angerührt werden (ausgeblendet, hinzugefügt, ersetzt, neu angeordnet usw.). Stattdessen sollte ein übergeordnetes Tab-Element über die Eigenschaft `sling:hideResource` ausgeblendet werden (siehe [ Eigenschaften der Zusammenführung von Sling-Ressourcen ](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/using/sling-resource-merger.html)) und neue Tab-Elemente hinzugefügt werden, die die maßgeschneiderten Konfigurationsfelder enthalten. `sling:orderBefore` kann verwendet werden, um die Registerkartenelemente bei Bedarf neu anzuordnen.
+Damit alle Änderungen an einem Dialogfeld in seiner aktuellen Version vollständig kompatibel sind, ist es äußerst wichtig, dass Strukturen unterhalb der Registerkartenelementebene nicht angerührt werden (ausgeblendet, hinzugefügt, ersetzt, neu angeordnet usw.). Stattdessen sollte ein Registerkartenelement des übergeordneten Elements über die `sling:hideResource`-Eigenschaft ausgeblendet werden (siehe [Sling Resource Merger Properties](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/using/sling-resource-merger.html)) und neue Registerkartenelemente hinzugefügt werden, die die maßgeschneiderten Konfigurationsfelder enthalten. `sling:orderBefore` Kann verwendet werden, um bei Bedarf Registerkartenelemente neu anzuordnen.
 
 Das folgende Dialogfeld zeigt die empfohlene Dialogfeldstruktur sowie das Ausblenden und Ersetzen einer vererbten Registerkarte wie oben beschrieben:
 
@@ -105,7 +105,7 @@ public class PageHeadline implements Title {
 }
 ```
 
-Weitere Informationen zum Delegierungsmuster finden Sie im GitHub Wiki-Artikel [Delegierungsmuster für Sling-Modelle](https://github.com/adobe/aem-core-wcm-components/wiki/Delegation-Pattern-for-Sling-Models).
+Weitere Informationen zum Delegierungsmuster finden Sie im Kernkomponenten-GitHub Wiki-Artikel [Delegierungsmuster für Sling-Modelle](https://github.com/adobe/aem-core-wcm-components/wiki/Delegation-Pattern-for-Sling-Models).
 
 ### Anpassen des Markup {#customizing-the-markup}
 
@@ -121,7 +121,7 @@ Die erste Art der Anpassung besteht darin, CSS-Stile anzuwenden.
 
 Um dies zu vereinfachen, rendern die Kernkomponenten das Semantik-Markup und folgen einer standardisierten Benennungskonvention, die von [Bootstrap](https://getbootstrap.com/) / inspiriert wurde. Um die Stile für die einzelnen Komponenten einfach zu erreichen und zu benennen, wird jede Kernkomponente in ein DIV-Element mit den Klassen `cmp` und `cmp-<name>` eingeschlossen.
 
-Betrachtet man beispielsweise die HTL-Datei der v1-Kern-Breadcrumb-Komponente: [ breadcrumb.html](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb/breadcrumb.html), so ergibt sich eine Hierarchie der ausgegebenen Elemente von `ol.breadcrumb > li.breadcrumb-item > a`. Um sicherzustellen, dass eine CSS-Regel nur die Breadcrumb-Klasse dieser Komponente betrifft, sollten alle Regeln in einem Namensbereich angeordnet werden, wie unten dargestellt:
+Betrachtet man beispielsweise die HTL-Datei der v1-Kern-Breadcrumb-Komponente: [ breadcrumb.html](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb/breadcrumb.html), so ergibt sich eine Hierarchie der ausgegebenen Elemente von `ol.breadcrumb > li.breadcrumb-item > a`. Um sicherzustellen, dass eine CSS-Regel nur die Breadcrumb-Klasse dieser Komponente betrifft, sollten alle Regeln in einem Namespace angeordnet werden, wie unten dargestellt:
 
 ```shell
 .cmp-breadcrumb .breadcrumb {}  

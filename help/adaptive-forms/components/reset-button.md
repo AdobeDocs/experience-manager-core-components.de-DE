@@ -1,11 +1,11 @@
 ---
 title: Kernkomponente „Zurücksetzen-Schaltfläche“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „Zurücksetzen-Schaltfläche“ für adaptive Formulare.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: e5aa9d89-aece-491e-80a1-7fb9ea6c4b60
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '1549'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1569'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ Eine Schaltfläche zum Zurücksetzen in einem adaptiven Formular ist eine Schalt
 
 {{traditional-aem}}
 
-## Verwendung {#reasons-to-use-reset-button}
+## Nutzung {#reasons-to-use-reset-button}
 
 Die Gründe für die Verwendung einer Zurücksetzen-Schaltfläche in einem adaptiven Formular sind:
 
@@ -43,9 +43,11 @@ Die Kernkomponente für eine Zurücksetzen-Schaltfläche in adaptiven Formularen
 
 Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokument [Kernkomponenten-Versionen](/help/adaptive-forms/version.md).
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_de). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 ## Technische Details {#technical-details}
 
@@ -122,7 +124,7 @@ Mit der Option „Benutzerdefinierte Eigenschaften“ können Sie mithilfe der F
 
    - **Neu anordnen**: Ordnen Sie den Namen und Wert der benutzerdefinierten Eigenschaft Antippen oder Klicken und Ziehen neu an.
 
-## Ähnliche Artikel {#related-articles}
+## Verwandte Artikel {#related-articles}
 
 {{more-like-this}}
 

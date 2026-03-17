@@ -2,12 +2,12 @@
 title: Frontend-Entwicklung mit dem AEM-Projektarchetyp
 description: Erfahren Sie mehr über den optionalen, dedizierten Frontend-Build-Mechanismus des AEM-Projektarchetyps, der auf Webpack basiert.
 feature: Core Components, AEM Project Archetype
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: 99132b49-bd06-4ac2-9348-12c0dfdfe8b2
-source-git-commit: bd92a5d1884056ca7b44ea28e5817d8bde10a4d9
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 100%
+source-wordcount: '710'
+ht-degree: 92%
 
 ---
 
@@ -37,7 +37,7 @@ Jedes daraus resultierende Projekt muss jedoch die Ergebnisse beider Entwicklung
 
 ## Bestimmen des Markups {#determining-markup}
 
-Unabhängig davon, welchen Frontend-Entwicklungs-Workflow Sie für Ihr Projekt implementieren, müssen sich die Backend-Entwickler und Frontend-Entwickler zunächst auf das Markup einigen. In der Regel definiert AEM das Markup, das von den Core-Komponenten bereitgestellt wird. [Dies kann jedoch bei Bedarf angepasst werden.](/help/developing/customizing.md#customizing-the-markup)
+Unabhängig davon, welchen Frontend-Entwicklungs-Workflow Sie für Ihr Projekt implementieren, müssen sich die Backend-Entwickler und Frontend-Entwickler zunächst auf das Markup einigen. Normalerweise definiert AEM das Markup, das von den Kernkomponenten bereitgestellt wird. [Dies kann jedoch bei Bedarf angepasst werden.](/help/developing/customizing.md#customizing-the-markup)
 
 ## Mögliche Frontend-Entwicklungs-Workflows {#possible-workflows}
 
@@ -68,7 +68,7 @@ Mit [Storybook](https://storybook.js.org) können Sie mehr atomare Frontend-Entw
 
 ## Überblick über Clientlibs {#clientlibs}
 
-Das Frontend-Modul wird mithilfe einer [AEM-Clientlib bereitgestellt.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=de). Beim Ausführen des NPM-Build-Skripts wird die Anwendung gebaut und das Paket `aem-clientlib-generator` nimmt die resultierende Build-Ausgabe und wandelt sie in eine solche Clientlib um.
+Das Frontend-Modul wird mithilfe einer [AEM-Client-Bibliothek bereitgestellt](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=de). Beim Ausführen des NPM-Build-Skripts wird die App erstellt, und das `aem-clientlib-generator`-Paket wandelt die resultierende Build-Ausgabe in eine solche Client-Bibliothek um.
 
 Eine Clientlib besteht aus den folgenden Dateien und Verzeichnissen:
 

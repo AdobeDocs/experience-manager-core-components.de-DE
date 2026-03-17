@@ -2,12 +2,12 @@
 title: Integrationen und die Adobe Client-Datenschicht
 description: Erfahren Sie, wie die Adobe Client-Datenschicht in Ihre benutzerdefinierten Komponenten integriert werden kann und wie Sie durch Integrationen mit Adobe Analytics und Adobe Target Erkenntnisse über Ihre Website gewinnen können.
 feature: Core Components, Adobe Client Data Layer
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: 503dd3dc-fe95-4a17-83f5-1f0c1960993d
-source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 100%
+source-wordcount: '424'
+ht-degree: 95%
 
 ---
 
@@ -22,7 +22,7 @@ Die Adobe Client-Datenschicht kann in Ihre benutzerdefinierten Komponenten integ
 So fügen Sie der Datenschicht automatisch eine benutzerdefinierte Komponente hinzu:
 
 1. Definieren Sie die Eigenschaften des Modells für benutzerdefinierte Komponenten, das verfolgt werden soll.
-1. Fügen Sie das `data-cmp-data-layer`-Attribut der HTL der benutzerdefinierten Komponente hinzu. Beispiel: `data-cmp-data-layer="${mycomponent.data.json}"`
+1. Fügen Sie das `data-cmp-data-layer` Attribut zur benutzerdefinierten HTL-Komponente hinzu, z. B. `data-cmp-data-layer="${mycomponent.data.json}"`.
 
 Damit die Datenschicht jedes Mal, wenn auf ein bestimmtes Element der benutzerdefinierten Komponente geklickt wird, automatisch ein `cmp:click`-Ereignis auslöst, fügen Sie in der HTL der benutzerdefinierten Komponente das `data-cmp-clickable`-Attribut dem Element hinzu, das verfolgt werden soll.
 
@@ -40,10 +40,10 @@ In Verbindung mit Adobe Analytics und Adobe Target bildet die Adobe Client-Daten
 
 Erfahren Sie, wie Sie die integrierten Funktionen der Adobe Client-Datenschicht mit den AEM-Kernkomponenten verwenden können, um Daten zu einer Seite in Adobe Experience Manager Sites zu erfassen. Experience Platform Launch und die Adobe Analytics-Erweiterung werden verwendet, um Regeln zum Senden von Seitendaten an Adobe Analytics zu erstellen.
 
-[Sehen Sie sich das Tutorial hier an.](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/analytics/collect-data-analytics.html?lang=de)
+[Tutorial hier ansehen.](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/analytics/collect-data-analytics.html?lang=de)
 
 ### Verfolgen geklickter Komponenten mit Adobe Analytics {#track-clicked-components}
 
 Verwenden Sie die ereignisbasierte Adobe Client-Datenschicht mit den AEM-Kernkomponenten, um Klicks auf bestimmte Komponenten auf einer Adobe Experience Manager-Site zu verfolgen. Erfahren Sie, wie Sie Regeln in Experience Platform Launch verwenden, um Klick-Ereignisse zu überwachen, nach Komponenten zu filtern und die Daten mit einem Verfolgungs-Linkbeacon an Adobe Analytics zu senden.
 
-[Sehen Sie sich das Tutorial hier an.](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/analytics/track-clicked-component.html?lang=de)
+[Tutorial hier ansehen.](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/analytics/track-clicked-component.html?lang=de)

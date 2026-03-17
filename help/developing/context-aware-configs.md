@@ -1,11 +1,11 @@
 ---
 title: Kontextabhängige Konfigurationen von Sling und Kernkomponenten
 description: Die Kernkomponenten nutzen kontextabhängige Konfigurationen von Sling für bestimmte Funktionen
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: d35210f7-a65d-4768-ab9e-f12ec406da2d
-source-git-commit: b72defe1bbe6cb286730ac3f508f7d6c14b3fc33
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '257'
 ht-degree: 100%
 
 ---
@@ -30,5 +30,5 @@ Die einzelnen Konfigurationen hängen von der jeweiligen Komponente oder Funktio
 
 * [Die Seitenkomponente](https://github.com/adobe/aem-core-wcm-components/tree/main/content/src/content/jcr_root/apps/core/wcm/components/page/v3/page#loading-of-context-aware-cssjs) ist beim Rendern von `link`-, `script`- und `meta`-Tags auf eine kontextabhängige Konfiguration angewiesen.
 * [PDF-Viewer-Komponente](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/pdfviewer/v1/pdfviewer#context-aware-config)
-* [Adobe Client-Datenschicht](/help/developing/data-layer/overview.md#installation-activation)
+* [Adobe-Client-Datenschicht](/help/developing/data-layer/overview.md#installation-activation)
 * [AMP-Unterstützung](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)

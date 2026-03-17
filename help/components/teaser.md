@@ -1,12 +1,12 @@
 ---
 title: Teaser-Komponente
 description: Die Teaser-Komponente kann ein Bild, einen Titel, Rich-Text und optional einen Link zu weiteren Inhalten anzeigen.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '1046'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1101'
+ht-degree: 93%
 
 ---
 
@@ -36,7 +36,7 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 
 ## Unterstützung für Remote Assets {#remote-assets}
 
-Die Teaser-Komponente (ab [Version 2.23.2](/help/versions.md)) unterstützt Remote-Assets. [Sobald konfiguriert,](/help/developing/remote-assets.md) können Sie Assets aus einem Remote-Dienst für Ihre Teaser-Komponente auswählen.
+Die Teaser-Komponente (ab [Version 2.23.2](/help/versions.md)) unterstützt Remote-Assets. [Nach der Konfiguration ](/help/developing/remote-assets.md) Sie Assets aus einem Remote-Service für Ihre Teaser-Komponente auswählen.
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
@@ -56,7 +56,7 @@ Der Inhaltsautor kann das Dialogfeld „Konfigurieren“ verwenden, um die Eigen
 
 ![Registerkarte „Links“ im Dialogfeld „Bearbeiten“ der Teaser-Komponente](/help/assets/teaser-edit-links.png)
 
-Der Teaser-Titel, die Beschreibung und das Bild können von der verknüpften Seite oder von der Seite übernommen werden, die im ersten Aktionsaufruf verknüpft ist. Wenn weder ein Link noch ein Aktionsaufruf angegeben ist, werden Titel, Beschreibung und Bild von der aktuellen Seite übernommen.
+Der Teaser-Titel, die Beschreibung und das Bild können von der verknüpften Seite oder von der Seite übernommen werden, die in der ersten call to action verknüpft ist. Wenn weder ein Link noch ein call to action angegeben ist, werden Titel, Beschreibung und Bild von der aktuellen Seite übernommen.
 
 * **Link** – Diese Datei verweist auf eine Inhaltsseite, eine externe URL oder einen Seitenanker.
 * **Link in neuer Registerkarte öffnen** – Wenn diese Option aktiviert ist, wird der Link in einer neuen Browser-Registerkarte geöffnet.

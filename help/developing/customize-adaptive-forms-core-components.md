@@ -1,11 +1,11 @@
 ---
 title: Anpassen von Kernkomponenten für adaptive Formulare
 description: Erfahren Sie, wie Sie eine Kernkomponente für adaptive Formulare erweitern oder erstellen, um Funktionen zu implementieren, die auf Ihr Unternehmen zugeschnitten sind.
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: f3ab12aa-d48d-47e9-a965-15052cac6f18
-source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '754'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ Durch das Anpassen der Kernkomponenten für adaptive Formulare können Sie die v
 Bevor Sie sich mit der Anpassung der Kernkomponenten für adaptive Formulare befassen:
 
 * Erhalten Sie Informationen zur [Architektur von Kernkomponenten](customizing.md#customizing-the-markup-customizing-the-markup) und gehen Sie die [offizielle Dokumentation zu Adobe Experience Manager-Kernkomponenten](customizing.md) durch. Diese umfangreichen Ressourcen dienen während des gesamten Anpassungsprozesses als Leitfaden für Sie.
-* Einrichten der Entwicklungsumgebung – Dies gewährleistet einen reibungslosen Arbeitsablauf für Änderungen an den Kernkomponenten. Verwenden Sie beim Einrichten der Entwicklungsumgebung ein AEM-Archetyp-Projekt, das auf dem neuesten AEM-Archetyp-Projekt basiert. Je nach Umgebung haben Sie folgende Möglichkeiten:
+* Einrichten der Entwicklungsumgebung – Dies gewährleistet einen reibungslosen Workflow für Änderungen an den Kernkomponenten. Verwenden Sie beim Einrichten der Entwicklungsumgebung ein AEM-Archetyp-Projekt, das auf dem neuesten AEM-Archetyp-Projekt basiert. Je nach Umgebung haben Sie folgende Möglichkeiten:
 
    * [Einrichten einer lokalen Entwicklungsumgebung für Forms as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html?lang=de).
    * [Einrichten einer lokalen Entwicklungsumgebung für AEM 6.5 Forms](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html?lang=de)

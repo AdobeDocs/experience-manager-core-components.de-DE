@@ -1,12 +1,12 @@
 ---
 title: Teaser-Komponente (v1)
 description: Die Teaser-Komponente kann ein Bild, einen Titel, Rich-Text und optional einen Link zu weiteren Inhalten anzeigen.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 48e56938-660a-43e7-9e62-8069283ae73f
-index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '0'
+index: false
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '766'
 ht-degree: 100%
 
 ---
@@ -98,7 +98,7 @@ Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Teaser-Optione
    * **Vortitel ausblenden** - Blendet die Option **Vortitel** für Inhaltsautoren aus
    * **Titel ausblenden** - Blendet die Option **Titel** für Inhaltsautoren aus
       * Bei Auswahl der Option wird der **Titeltyp** ausgeblendet.
-   * **Beschreibung ausblenden** - Blendet die Option **Beschreibung** für Inhaltsautoren aus.
+   * **Beschreibung ausblenden** - Blendet die Option **Beschreibung** für Inhaltsautoren aus
 * **Titeltyp** - Definiert das H-Tag, das vom Titel des Teasers verwendet werden soll.
 * **Links**
    * **Bild nicht verknüpfen** - Bei Auswahl dieser Option wird das Teaser-Bild nicht verknüpft.

@@ -1,11 +1,11 @@
 ---
 title: Wege zum Erfolg mit den Kernkomponenten
 description: So implementieren Sie Ihr Projekt erfolgreich mit den Kernkomponenten
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 1ea8cd1c-8435-4ded-82dc-5a7896c53e0c
-source-git-commit: b1d38310a3f05e2dd2a68de1574a278bac2c78e7
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '592'
 ht-degree: 100%
 
 ---
@@ -37,11 +37,11 @@ Anstatt die Kernkomponenten erst in der Implementierungsphase Ihres Projekts zu 
 
 ### Nutzung der Komponentenbibliothek {#component-library}
 
-Berücksichtigen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_de) bereits in der Design-Phase. Die Kernkomponenten sind leistungsstark und flexibel und können Ihnen als ein guter Ausgangspunkt dienen. Fügen Sie benutzerdefinierte Komponenten nur hinzu, wenn eine echte geschäftliche Notwendigkeit besteht, die mit einer Kernkomponente nicht angemessen erfüllt werden kann.
+Berücksichtigen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_de) bereits in der Design-Phase. Die Kernkomponenten sind leistungsstark und flexibel und können Ihnen als ein guter Ausgangspunkt dienen. Fügen Sie benutzerdefinierte Komponenten nur hinzu, wenn eine echte geschäftliche Anforderung besteht, die mit einer Kernkomponente nicht angemessen erfüllt werden kann.
 
 ### Nutzung des Benutzeroberflächen-Kits für Adobe XD {#ui-kit}
 
-Sobald eine benutzerdefinierte Komponente nachweislich benötigt wird, verwenden Sie das Benutzeroberflächen-Kit für Adobe XD, [das hier heruntergeladen werden kann](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd?lang=de), damit die Designerinnen und Designer die Kernkomponenten beim Erstellen der Wireframes und Designs als Bausteine verwenden können.
+Sobald eine benutzerdefinierte Komponente nachweislich benötigt wird, verwenden Sie das Benutzeroberflächen-Kit für Adobe XD, [das hier heruntergeladen werden kann](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd), damit die Designerinnen und Designer die Kernkomponenten beim Erstellen der Wireframes und Designs als Bausteine verwenden können.
 
 ## Leistungsstarke Funktionen nicht übersehen {#powerful-features}
 

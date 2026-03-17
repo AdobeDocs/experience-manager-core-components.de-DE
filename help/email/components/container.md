@@ -1,12 +1,12 @@
 ---
 title: E-Mail-Container-Komponente
 description: Die E-Mail-Container-Komponente ermöglicht die Erstellung eines Containers für mehrere zusätzliche Komponenten in Ihrem E-Mail-Inhalt.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 3b271e95-0093-4cb1-bb83-8446ba12a821
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '815'
 ht-degree: 100%
 
 ---
@@ -39,7 +39,7 @@ Weitere Informationen zu E-Mail-Kernkomponentenversionen und -Releases finden Si
 
 ## Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Container-Komponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_email_container_v1_de).
+Die aktuelle technische Dokumentation zur Container-Komponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_email_container_v1).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
@@ -68,7 +68,7 @@ Die E-Mail-Container-Komponente unterstützt das AEM-[Stilsystem](/help/get-star
 
 Verwenden Sie das Dropdown-Menü, um die Stile auszuwählen, die Sie auf die Komponente anwenden möchten. Die im Dialogfeld „Bearbeiten“ vorgenommenen Auswahlen haben denselben Effekt wie die in der Komponenten-Symbolleiste ausgewählten.
 
-Stile müssen für diese Komponente im [Dialogfeld „Design“](#design-dialog) konfiguriert werden, damit das Dropdown-Menü zur Verfügung steht.
+Stile müssen für diese Komponente im [Dialogfeld „Design“](#design-dialog) konfiguriert werden, damit die Registerkarte verfügbar ist.
 
 ## Dialogfeld „Design“ {#design-dialog}
 

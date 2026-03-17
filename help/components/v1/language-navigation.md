@@ -1,12 +1,12 @@
 ---
 title: Sprachnavigationskomponente (v1)
 description: Die Sprachnavigationskomponente stellt eine Sprache/Ländernavigation für eine Site bereit, sodass Besuchende zur gleichen Seite in einem anderen Gebietsschema navigieren können.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 41194ba0-6833-40e5-88d9-036e9c231edd
-index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '800'
+index: false
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '805'
 ht-degree: 100%
 
 ---

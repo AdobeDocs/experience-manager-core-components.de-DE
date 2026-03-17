@@ -1,11 +1,11 @@
 ---
 title: Kernkomponente für adaptive Formulare – Texteingabe (Textfeld)
 description: Verwenden oder Anpassen der Texteingabe-Kernkomponente für adaptive Formulare.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '2146'
 ht-degree: 100%
 
 ---
@@ -42,9 +42,11 @@ Die Kernkomponente für Textfelder in adaptiven Formularen wurde im Februar 2023
 
 Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokument [Kernkomponenten-Versionen](/help/adaptive-forms/version.md).
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_de). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 ## Technische Details {#technical-details}
 
@@ -78,7 +80,7 @@ Mit dem Dialogfeld „Konfigurieren“ können das Besuchererlebnis bei der Text
 
 - **Schreibgeschützt**: Wählen Sie die Option aus, um die Komponente nicht bearbeitbar zu machen. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
 
-- **Standardwert**: Sie können mit dieser Option einen Standardwert in ein Formularfeld einfügen. Der Text verschwindet, wenn Benutzende mit der Eingabe in das Feld beginnen. Wenn **Komponente deaktiviert** oder **Schreibgeschützte Komponente** ausgewählt ist, wird der Standardwert auf dem Bildschirm angezeigt. Wenn die Benutzenden keinen Wert in das Formularfeld eingeben, wird dieser Wert zum Zeitpunkt der Formularübermittlung gesendet.
+- **Standardwert**: Mit dieser Option können Sie einen Standardwert in ein Formularfeld einfügen. Der Text verschwindet, wenn Benutzende mit der Eingabe in das Feld beginnen. Wenn **Komponente deaktiviert** oder **Schreibgeschützte Komponente** ausgewählt ist, wird auf dem Bildschirm der Standardwert angezeigt. Wenn die Benutzenden keinen Wert in das Formularfeld eingeben, wird dieser Wert zum Zeitpunkt der Formularübermittlung gesendet.
 
 - **Mehrere Zeilen zulassen**: Benutzende können mit dieser Option mehrere Zeilen in ein Formularfeld eingeben.
 
@@ -92,7 +94,7 @@ Mit dem Dialogfeld „Konfigurieren“ können das Besuchererlebnis bei der Text
 
 - **Fehlermeldung**: Mit dieser Option können Sie eine Nachricht eingeben, die angezeigt wird, wenn das Kontrollkästchen **Erforderlich** aktiviert ist und das Feld leer bleibt.
 
-- **Skriptüberprüfungsmeldung**: Mit dieser Option können Sie eine Meldung eingeben, die angezeigt werden soll, wenn die Skriptüberprüfung fehlschlägt.
+- **Meldung zur Skriptvalidierung**: Mit dieser Option können Sie eine Meldung eingeben, die angezeigt wird, wenn die Skriptvalidierung fehlschlägt.
 
 - **Maximale Zeichenanzahl**: Mit dieser Option können Sie die maximal zulässige Anzahl von Zeichen angeben, die in der Komponente erlaubt sind. Wenn Sie Zeichen eingeben, die größer sind als der in **Maximale Zeichenanzahl** angegebene Wert, wird eine Fehlermeldung auf dem Bildschirm angezeigt. Über das Dialogfeld **Fehlermeldung zur maximalen Zeichenanzahl** können Sie eine benutzerdefinierte Fehlermeldung hinzufügen.
 
@@ -100,7 +102,7 @@ Mit dem Dialogfeld „Konfigurieren“ können das Besuchererlebnis bei der Text
 
 - **Mindestanzahl von Zeichen**: Mit dieser Option können Sie die zulässige Mindestanzahl von Zeichen im Feld angeben. Wenn Sie Zeichen eingeben, die kleiner sind als der Wert in **Mindestanzahl von Zeichen**, wird eine Fehlermeldung auf dem Bildschirm angezeigt. Über das Dialogfeld **Fehlermeldung zur Mindestanzahl von Zeichen** können Sie eine benutzerdefinierte Fehlermeldung hinzufügen.
 
-- **Fehlermeldung zur Mindestanzahl von Zeichen**: Über das Dialogfeld **Fehlermeldung zur Mindestanzahl von Zeichen** können Sie eine benutzerdefinierte Fehlermeldung hinzufügen, wenn Sie weniger Zeichen eingeben, als der in der Option **Mindestanzahl von Zeichen** angegebene Wert.
+- **Fehlermeldung zur Mindestanzahl von Zeichen**: Im Dialogfeld **Fehlermeldung zur Mindestanzahl von Zeichen** können Sie eine benutzerdefinierte Fehlermeldung hinzufügen, die angezeigt wird, wenn weniger Zeichen eingegeben werden als die in der Option **Mindestanzahl von Zeichen** definierten.
 
 Die Option **Überprüfungsmuster** ermöglicht die Eingabe eines Musters zur Überprüfung des eingegebenen Texts. Falls der Text nicht mit dem in der Option **Muster** eingegebenen Wert übereinstimmt, wird die Fehlermeldung auf dem Bildschirm angezeigt.
 
@@ -167,11 +169,11 @@ Auf der Registerkarte „Formate“ können Sie standardmäßige und benutzerdef
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=de)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 
-## Ähnliche Artikel {#related-articles}
+## Verwandte Artikel {#related-articles}
 
 {{more-like-this}}
 

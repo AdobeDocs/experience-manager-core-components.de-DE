@@ -1,17 +1,17 @@
 ---
 title: Experience Fragment-Komponente
 description: Mit der Experience Fragment-Komponente kann der Inhaltsautor einer Seite eine Experience Fragment-Variation hinzufügen.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '895'
+ht-degree: 94%
 
 ---
 
 
-# Experience Fragment-Komponente {#experience-fragment-component}
+# Experience Fragment-Komponente{#experience-fragment-component}
 
 Mit der Kernkomponente „Experience Fragment-Komponente“ kann der Inhaltsautor eine Experience Fragment-Variante auf einer Seite platzieren, während er eine lokalisierte Site-Struktur unterstützt.
 
@@ -35,7 +35,7 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 | v2 | – | Kompatibel | Kompatibel | Kompatibel |
 | [v1](v1/experience-fragment.md) | Kompatibel | Kompatibel | – | Kompatibel |
 
-Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
+Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie im Dokument [Kernkomponentenversionen](/help/versions.md).
 
 ## Unterstützung für lokalisierte Site-Strukturen {#localized-site-structure}
 
@@ -124,7 +124,7 @@ Das Dialogfeld „Konfigurieren“ ermöglicht dem Inhaltsautor die Auswahl der 
 
 Verwenden Sie die Schaltfläche **Auswahldialog öffnen**, um die Komponentenauswahl zu öffnen und auszuwählen, welche Variation der Experience Fragment-Komponente zur Inhaltsseite hinzugefügt werden soll.
 
-Wenn Sie die Experience Fragment-Komponente zu einer Vorlage hinzufügen, wird sie automatisch lokalisiert, sofern die Experience Fragments lokalisiert sind. Was auf der Seite gerendert wird, kann sich daher von der Komponente unterscheiden, die Sie explizit auswählen. Weitere Informationen finden Sie im [oben stehenden Beispiel](#example).
+Wenn Sie die Experience Fragment-Komponente zu einer Vorlage hinzufügen, beachten Sie, dass sie automatisch lokalisiert wird, vorausgesetzt, die Experience Fragments sind lokalisiert. Was auf der Seite gerendert wird, kann sich daher von der Komponente unterscheiden, die Sie explizit auswählen. [Weitere Informationen finden Sie ](#example) obigen Beispiel .
 
 Sie können auch eine **ID** festlegen. Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
 

@@ -1,12 +1,12 @@
 ---
 title: Kernkomponente für adaptive Formulare – Komponente „Schalter“
 description: Verwenden oder Anpassen der Kernkomponente „Schalter“ für adaptive Formulare.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 6ff2ca76-1514-42eb-bde3-60259af2d187
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
+workflow-type: tm+mt
+source-wordcount: '1948'
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ Die Komponente „Schalter“ ist ein boolesches Steuerungselement, das den Wert
 
 {{traditional-aem}}
 
-## Verwendung {#reasons-to-use-switch}
+## Nutzung {#reasons-to-use-switch}
 
 Die häufigsten Gründe für die Verwendung von einem Schalter in einem adaptiven Formular sind:
 
@@ -35,13 +35,13 @@ Die häufigsten Gründe für die Verwendung von einem Schalter in einem adaptive
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die Kernkomponente „Schalter“ für adaptive Formulare wurde als Teil der Kernkomponenten 2.0.64 veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
+Die Kernkomponente „Adaptive Forms Switch“ wurde als Teil der Kernkomponenten 2.0.64 veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
 
 |  |  |
 |---|---|
 | Komponentenversion | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Kompatibel mit<br>[Version 2.0.64](/help/adaptive-forms/version.md) und höher | Kompatibel | Kompatibel |
+| v1 | Kompatibel mit<br>[Version 2.0.64](/help/adaptive-forms/version.md) und höher\|Kompatibel\|Kompatibel |
 
 Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokument [Kernkomponenten-Versionen](/help/adaptive-forms/version.md).
 
@@ -78,7 +78,7 @@ Im Dialogfeld „Konfigurieren“ können Sie das Erlebnis für die Komponente �
 
   ![Rich-Text-Unterstützung für Optionen](/help/adaptive-forms/assets/switch-optipn-rich-text.png)
 
-  Durch Aktivieren des Kontrollkästchens **Rich-Text für Optionen zulassen** werden Formatierungsoptionen sichtbar, mit denen Sie die Optionen der Komponente gestalten können. Um auf alle verfügbaren Formatierungsoptionen zuzugreifen, können Sie auf die Registerkarte `Fullscreen` ![Vollbildsymbol](/help/adaptive-forms/assets/fullscreen-icon.png) klicken.
+  Durch Aktivieren des Kontrollkästchens **Rich-Text für Optionen zulassen** werden Formatierungsoptionen sichtbar, mit denen Sie die Optionen der Komponente gestalten können. Um auf alle verfügbaren Formatierungsoptionen zuzugreifen, können Sie auf die Registerkarte `Fullscreen` ![Vollbildschirmsymbol](/help/adaptive-forms/assets/fullscreen-icon.png) klicken.
 
   ![Rich-Text-Unterstützung für Optionen](/help/adaptive-forms/assets/switch-richtext-for-display.png)
 
@@ -89,7 +89,7 @@ Im Dialogfeld „Konfigurieren“ können Sie das Erlebnis für die Komponente �
 
 - **Komponente deaktivieren**: Mit dieser Option können Sie die Komponente deaktivieren oder sperren. Die deaktivierte Komponente ist nicht aktiv und Endbenutzende können sie nicht bearbeiten. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
 
-- **Standardwert**: Mit dieser Option können Sie einen Standardwert in ein Formularfeld einfügen. Wenn **Komponente deaktiviert** oder **Schreibgeschützte Komponente** ausgewählt ist, wird der Standardwert auf dem Bildschirm angezeigt. Wenn die Benutzenden keinen Wert in das Formularfeld eingeben, wird dieser Wert zum Zeitpunkt der Formularübermittlung gesendet.
+- **Standardwert**: Mit dieser Option können Sie einen Standardwert in ein Formularfeld einfügen. Wenn **Komponente deaktiviert** oder **Schreibgeschützte Komponente** ausgewählt ist, wird auf dem Bildschirm der Standardwert angezeigt. Wenn die Benutzenden keinen Wert in das Formularfeld eingeben, wird dieser Wert zum Zeitpunkt der Formularübermittlung gesendet.
 
 ### Registerkarte „Validierung“ {#validation-tab}
 
@@ -157,7 +157,7 @@ Mit der Option „Benutzerdefinierte Eigenschaften“ können Sie mithilfe der F
 
    - **Neu anordnen**: Ordnen Sie den Namen und Wert der benutzerdefinierten Eigenschaft Tippen oder Klicken und Ziehen neu an.
 
-## Ähnliche Artikel {#related-articles}
+## Verwandte Artikel {#related-articles}
 
 {{more-like-this}}
 

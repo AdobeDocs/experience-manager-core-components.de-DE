@@ -1,11 +1,11 @@
 ---
 title: Kernkomponente für adaptive Formulare – Freihandsignatur
 description: Verwenden oder Anpassen der Kernkomponente „Freihandsignatur“ in adaptiven Formularen.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 608c4368-d539-4d05-a75c-c077ea822f93
-source-git-commit: 006f6c844ab9e7a784dabea026867939445479e9
-workflow-type: ht
-source-wordcount: '1761'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1771'
 ht-degree: 100%
 
 ---
@@ -144,7 +144,7 @@ Mit der Option „Benutzerdefinierte Eigenschaften“ können Sie mithilfe der F
 
    - **Neu anordnen**: Ordnen Sie den Namen und Wert der benutzerdefinierten Eigenschaft Antippen oder Klicken und Ziehen neu an.
 
-## Ähnliche Artikel {#related-articles}
+## Verwandte Artikel {#related-articles}
 
 {{more-like-this}}
 

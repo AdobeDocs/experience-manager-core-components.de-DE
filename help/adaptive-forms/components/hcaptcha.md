@@ -1,14 +1,14 @@
 ---
 title: hCaptcha in adaptiven AEM-Formularen
-description: Mit dem hCaptcha®-Dienst können Sie die Formularsicherheit optimieren. Schrittweise Anleitung enthalten!
+description: Verbessern Sie die Formularsicherheit mit dem Service „chaptcha&reg;“. Schrittweise Anleitung enthalten!
 feature-set: Experience Manager Sites, Experience Manager Forms
 feature: Adaptive Forms, Core Components
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: eecb38d5-711e-4dc5-bc19-498e003f37e7
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '583'
-ht-degree: 100%
+source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
+workflow-type: tm+mt
+source-wordcount: '730'
+ht-degree: 92%
 
 ---
 
@@ -23,7 +23,7 @@ Der hCaptcha®-Dienst schützt Ihre Formulare vor Bots, Spam und automatisiertem
 
 {{traditional-aem}}
 
-## Verwendung {#usage}
+## Nutzung {#usage}
 
 Es gibt verschiedene Gründe, warum es sinnvoll ist, einen hCaptcha-Test in ein Formular einzufügen:
 
@@ -52,7 +52,7 @@ Die hCaptcha-Komponente für adaptive Formulare wurde im Mai 2024 als Teil von 
 |---|---|
 | Komponentenversion | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Kompatibel mit<br>[Version 2.0.4](/help/adaptive-forms/version.md) und höher | Kompatibel | Kompatibel |
+| v1 | Kompatibel mit<br>[Version 2.0.4](/help/adaptive-forms/version.md) und höher\|Kompatibel\|Kompatibel |
 
 Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokument [Kernkomponenten-Versionen](/help/adaptive-forms/version.md).
 
@@ -72,7 +72,7 @@ Sie können die Eigenschaften Ihrer hCaptcha-Komponente ganz einfach im Dialogfe
 ### Registerkarte „Validierung“ {#validation-tab}
 
 - **[!UICONTROL Validierungsmeldung]:** Stellen Sie eine Validierungsmeldung für die Captcha-Validierung bei der Formularübermittlung bereit.
-- **[!UICONTROL Skriptüberprüfungsmeldung]**: Verwenden Sie diese Option, um eine Eingabeaufforderung einzugeben, falls die Skriptüberprüfung fehlschlägt.
+- **[!UICONTROL Skriptüberprüfungsmeldung]**: Verwenden Sie diese Option, um eine Aufforderungsnachricht einzugeben, falls die Skriptüberprüfung fehlschlägt.
 
   ![hCaptcha-Registerkarte „Validierung“](/help/adaptive-forms/assets/hcaptcha-validation-tab.png)
 
@@ -80,15 +80,15 @@ Sie können die Eigenschaften Ihrer hCaptcha-Komponente ganz einfach im Dialogfe
 
 **Erfahren Sie mehr** über andere **Captcha-Komponenten** und ihre Dienste, z. B.:
 
-- [Verwenden von hCaptcha in einem adaptiven Formular für Kernkomponenten](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/integrate-adaptive-forms-hcaptcha-core-components)
+- [Verwenden von CAPTCHA in einem adaptiven Formular für Kernkomponenten](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/integrate-adaptive-forms-hcaptcha-core-components)
 
-- [Verwenden von hCaptcha in einem adaptiven Formular für Foundation-Komponenten](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-hcaptcha)
+- [Verwenden von CAPTCHA in einem adaptiven Formular für Foundation-Komponenten](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-hcaptcha)
 
-- [Verwenden von Turnstile CAPTCHA in einem adaptiven Formular für Foundation-Komponenten](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile)
+- [Verwenden von Drehkreuz-CAPTCHA in einem adaptiven Formular für Foundation-Komponenten](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile)
 
 - [Verwenden von Google reCAPTCHA in einem adaptiven Formular für Foundation-Komponenten](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/captcha-adaptive-forms-core-components)
 
-## Ähnliche Artikel {#related-articles}
+## Verwandte Artikel {#related-articles}
 
 {{more-like-this}}
 

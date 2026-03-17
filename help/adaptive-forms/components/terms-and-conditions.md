@@ -1,11 +1,11 @@
 ---
 title: Kernkomponente für adaptive Formulare - Nutzungsbedingungen
 description: Verwenden oder Anpassen der Nutzungsbedingungs-Kernkomponente für adaptive Formulare.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
-source-git-commit: 2be68aa708131486f7d89f33952153a7a90c3d0a
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '3233'
+source-wordcount: '3266'
 ht-degree: 100%
 
 ---
@@ -77,7 +77,7 @@ Sie können das Erlebnis Ihrer Besuchenden mit der Nutzungsbedingungskomponte ü
 
 - **Einverständnistext durch Weblink(s) ersetzen** - Wählen Sie die Option, um einen Einverständnistext durch einen Weblink zu ersetzen.  Wenn die Option deaktiviert ist, wird standardmäßig der Einverständnistext angezeigt.
 
-- **Titel ausblenden** - Wählen Sie die Option aus, um den Titel der Komponente auszublenden.
+- **Titel ausblenden**: Wählen Sie die Option aus, um den Titel der Komponente auszublenden.
 
 - **Daten untergeordneter Komponenten bei Formularübermittlung gruppieren (Daten in Objekt einschließen)** – Wenn die Option ausgewählt ist, werden die Daten aus den untergeordneten Komponenten innerhalb des JSON-Objekts der übergeordneten Komponente verschachtelt. Wenn jedoch die Option nicht ausgewählt ist, weisen die gesendeten JSON-Daten eine flache Struktur auf, ohne dass ein Objekt für die übergeordnete Komponente vorhanden ist. Zum Beispiel:
 
@@ -247,7 +247,7 @@ Benutzende geben ihre Zustimmung oder Bestätigung über ein Kontrollkästchen. 
 Über das Dialogfeld „Konfigurieren“ können Sie die [Kontrollkästchen-Komponente](/help/adaptive-forms/components/checkbox.md) individuell für Besuchende anpassen. Nutzen Sie das Dialogfeld [„Konfigurieren“ der Kontrollkästchen-Komponente](/help/adaptive-forms/components/checkbox.md#configure-dialog), um die Eigenschaften des Kontrollkästchens für ein nahtloses Benutzererlebnis zu definieren.
 
 
-## Ähnliche Artikel {#related-articles}
+## Verwandte Artikel {#related-articles}
 
 {{more-like-this}}
 

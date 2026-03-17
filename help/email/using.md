@@ -1,13 +1,13 @@
 ---
 title: Verwenden von E-Mail-Kernkomponenten
 description: Erfahren Sie mehr über die Grundlagen der Installation, Konfiguration und Verwendung der E-Mail-Kernkomponenten.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 0e79ca8f-eb0a-4519-b1e8-a9d3b0b99987
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '683'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ Erfahren Sie mehr über die Grundlagen der Installation, Konfiguration und Verwe
 
 ## Installieren der E-Mail-Kernkomponenten {#installation}
 
-Die E-Mail-Kernkomponenten können mit AEM 6.5 verwendet werden. Siehe den Abschnitt [Anforderungen des Einführungsdokuments für E-Mail-Kernkomponenten](introduction.md#requirements) für mehr Informationen.
+Die E-Mail-Kernkomponenten können mit AEM 6.5 verwendet werden. Weitere Informationen finden [ im Abschnitt „Anforderungen“ ](introduction.md#requirements) Einführungsdokuments für E-Mail-Kernkomponenten .
 
 ### Installieren von Kernkomponenten {#core-components}
 

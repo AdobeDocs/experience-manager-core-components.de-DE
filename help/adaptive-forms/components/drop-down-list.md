@@ -1,11 +1,11 @@
 ---
 title: Kernkomponente „Dropdown-Liste“ für adaptive Formulare
 description: Verwenden oder Anpassen der Dropdown-Kernkomponente adaptiver Formulare.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '2186'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '2234'
 ht-degree: 100%
 
 ---
@@ -55,9 +55,11 @@ Die Kernkomponente für Dropdown-Listen in adaptiven Formularen wurde im Februar
 
 Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokument [Kernkomponenten-Versionen](/help/adaptive-forms/version.md).
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_de). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 ## Technische Details {#technical-details}
 
@@ -86,18 +88,18 @@ Im Dialogfeld zum Konfigurieren der Dropdown-Liste finden Sie allgemeine Optione
 
   Auf der Registerkarte **Optionen** können Sie Datenwerte hinzufügen und Textpaare anzeigen, indem Sie die Schaltfläche **Hinzufügen** verwenden. Nachdem eine neue Option hinzugefügt wurde, werden die folgenden Aktionen ausgeführt:
 
-   - **Datenwert** – Sie können mit dieser Option den zu sendenden Inhalt eingeben, wenn eine Option ausgewählt ist.
-   - **Text anzeigen** – Sie können mit dieser Option den Inhalt eingeben, der in einem adaptiven Formular angezeigt werden soll.
+   - **Datenwert**: Mit dieser Option können Sie den zu sendenden Inhalt eingeben, wenn eine Option ausgewählt ist.
+   - **Text anzeigen** – Mit dieser Option können Sie den Inhalt eingeben, der in einem adaptiven Formular angezeigt werden soll.
    - **Löschen** – Durch Tippen bzw. Klicken können Sie eine Option eines Dropdown-Menüs löschen.
    - **Neu anordnen** – Durch Tippen bzw. Klicken und Ziehen können Sie die Reihenfolge der Optionen eines Dropdown-Menüs neu anordnen.
 
-- **Standardoptionen**: Mit dieser Option können Sie Standardwerte hinzufügen. Mit dem Löschen-Symbol können Sie eine hinzugefügte Option entfernen. Wenn **Wert speichern unter** auf `Number` gesetzt ist und Sie Zeichenfolgendaten zu **Standardoptionen** hinzufügen, wird auf dem Bildschirm die Feldermeldung `Value type mismatch` angezeigt.
+- **Standardoptionen**: Mit dieser Option können Sie Standardwerte hinzufügen. Mit dem Löschen-Symbol können Sie eine hinzugefügte Option entfernen. Wenn **Wert speichern unter** auf `Number` gesetzt ist und Sie Zeichenfolgendaten zu **Standardoptionen** hinzufügen, wird auf dem Bildschirm die Fehlermeldung `Value type mismatch` angezeigt.
 
-- **Platzhaltertext**: Platzhaltertext in einer Formularkomponente ist eine kurze Beschriftung oder Eingabeaufforderung innerhalb eines Eingabefelds, die Benutzende darüber informiert, welche Art von Text in dieses Feld eingegeben werden soll. Der Platzhaltertext verschwindet, wenn Benutzende mit der Eingabe in das Feld beginnen, und erscheint wieder, wenn das Feld leer bleibt. Er stellt einen visuellen Hinweis für Benutzende bereit, fungiert jedoch nicht als permanente Beschriftung oder Wert für das Feld.
+- **Platzhaltertext**: Platzhaltertext in einer Formularkomponente ist eine kurze Beschriftung oder Eingabeaufforderung in einem Eingabefeld, um Benutzende darüber zu informieren, welchen Text sie in dieses Feld eingeben sollen. Der Platzhaltertext verschwindet, wenn Benutzende mit der Eingabe in das Feld beginnen, und erscheint wieder, wenn das Feld leer bleibt. Er stellt einen visuellen Hinweis für Benutzende bereit, fungiert jedoch nicht als permanente Beschriftung oder Wert für das Feld.
 
 - **Optionen**: Sie können Datenwerte hinzufügen und Textpaare anzeigen, indem Sie die Schaltfläche **Hinzufügen** verwenden.  Nachdem eine neue Option hinzugefügt wurde, können die folgenden Aktionen ausgeführt werden:
    - **Datenwert**: Mit dieser Option können Sie den zu sendenden Inhalt eingeben, wenn eine Option ausgewählt ist.
-   - **Text anzeigen**: Mit dieser Option können Sie den Inhalt eingeben, der in einem adaptiven Formular angezeigt werden soll.
+   - **Text anzeigen** – Mit dieser Option können Sie den Inhalt eingeben, der in einem adaptiven Formular angezeigt werden soll.
    - **Löschen**: Tippen oder klicken, um die Option eines Kontrollkästchens zu löschen.
    - **Neu anordnen**: Tippen oder klicken und ziehen Sie, um die Reihenfolge der Bedienfelder neu anzuordnen.
 
@@ -169,7 +171,7 @@ Mit der Option „Benutzerdefinierte Eigenschaften“ können Sie mithilfe der F
 
    - **Neu anordnen**: Ordnen Sie den Namen und Wert der benutzerdefinierten Eigenschaft Antippen oder Klicken und Ziehen neu an.
 
-## Ähnliche Artikel {#related-articles}
+## Verwandte Artikel {#related-articles}
 
 {{more-like-this}}
 

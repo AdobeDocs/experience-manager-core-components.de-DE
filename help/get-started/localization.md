@@ -1,11 +1,11 @@
 ---
 title: Lokalisierungsfunktionen der Kernkomponenten
 description: Lokalisierungsfunktionen der Kernkomponenten
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 9140b65a-6dd7-4ec9-9095-6e8243ec8424
-source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '727'
 ht-degree: 100%
 
 ---
@@ -97,7 +97,7 @@ Zu dieser Vorlage fügen wir die Standardkomponenten hinzu, auf denen unsere Sei
 
 ## Seiten {#pages}
 
-Nachdem er diese Vorarbeit bereits bei der Einrichtung der Seitenstruktur und -vorlage geleistet hat, braucht der Autor lediglich Inhalte zu den Seiten hinzuzufügen. Dank der Vorlagen und der Lokalisierungslogik der Komponenten werden die Navigations- und die Fußzeilen automatisch der Seite hinzugefügt und lokalisiert.
+Nachdem er diese Vorarbeit bereits bei der Einrichtung der Site-Struktur und -Vorlage geleistet hat, braucht der Autor lediglich Inhalte zu den Seiten hinzuzufügen. Dank der Vorlagen und der Lokalisierungslogik der Komponenten werden die Navigations- und die Fußzeilen automatisch der Seite hinzugefügt und lokalisiert.
 
 Der Autor müsste beispielsweise nur Inhalte wie Textkomponenten zu den englischen und französischen Seiten hinzufügen (unten blau dargestellt).
 

@@ -1,12 +1,12 @@
 ---
 title: Einführung zu Kernkomponenten für adaptive Formulare in AEM
 description: Erstellen Sie ansprechende Registrierungserlebnisse (Formulare) mit der Flexibilität der Kernkomponenten für adaptive Formulare und stellen Sie sie über Adobe Experience Manager bereit.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 2be68aa708131486f7d89f33952153a7a90c3d0a
+source-git-commit: 936fe1b5282d64c0529ab6bff4c9a4bf9f07205d
 workflow-type: tm+mt
-source-wordcount: '1980'
-ht-degree: 98%
+source-wordcount: '3145'
+ht-degree: 95%
 
 ---
 
@@ -40,7 +40,7 @@ Da es sich bei diesen Komponenten um Open-Source-Elemente handelt, können Entwi
 |  |  |
 |---|---|
 | Produktionsbereit | Die Kernkomponenten für adaptive Formulare umfassen 24 zuverlässige WCM-Komponenten. |
-| Cloud-fähig | Verfügbar für [AEM Forms as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/home.html?lang=de). |
+| Cloud-fähig | Verfügbar für [AEM Forms as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/home.html\lang=de). |
 | Vielseitig | Die Komponenten bieten allgemeine Konzepte, mit denen Autoren und Autorinnen von Formularen nahezu jedes beliebige Layout zusammenstellen können. |
 | Konfigurierbar | Die [Inhaltsrichtlinien](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=de#content-policies) auf Vorlagenebene definieren, welche Funktionen verwendet oder nicht verwendet werden dürfen. |
 | Barrierefrei | Sie bieten ARIA-Attribute, unterstützen die Tastaturnavigation und Text für Hilfstechnologien wie Bildschirmlesehilfen. |
@@ -56,21 +56,21 @@ Da es sich bei diesen Komponenten um Open-Source-Elemente handelt, können Entwi
 
 Die Datenerfassung ist für die Lead-Generierung und die Registrierung von entscheidender Bedeutung, und die Kernkomponenten von Adaptive Forms bieten eine leistungsstarke Lösung für die Erstellung von Formularen, die für die Datenerfassung optimiert sind. Einige der Gründe für die Verwendung von Kernkomponenten zum Erstellen dieser Customer Experiences sind:
 
-* **[Verfügbarkeit auf GitHub](https://github.com/adobe/aem-core-forms-components)**: Die Kernkomponenten für adaptive Formulare in AEM sind Open-Source-Komponenten und auf GitHub verfügbar. Darüber hinaus steht eine umfassende Dokumentation bereit. Dies hilft Entwicklern, die Komponenten und ihre Funktionsweise zu verstehen, und unterstützt sie bei der Entwicklung. Die Website [aemcomponents.dev](https://www.aemcomponents.dev/) ist auch eine wertvolle Ressource, über die Entwickler die Komponenten in Verwendung sehen und auf die Dokumentation zugreifen können.
+- **[Verfügbarkeit auf GitHub](https://github.com/adobe/aem-core-forms-components)**: Die Kernkomponenten für adaptive Formulare in AEM sind Open-Source-Komponenten und auf GitHub verfügbar. Darüber hinaus steht eine umfassende Dokumentation bereit. Dies hilft Entwicklern, die Komponenten und ihre Funktionsweise zu verstehen, und unterstützt sie bei der Entwicklung. Die Website [aemcomponents.dev](https://www.aemcomponents.dev/) ist auch eine wertvolle Ressource, über die Entwickler die Komponenten in Verwendung sehen und auf die Dokumentation zugreifen können.
 
-* **[BEM-Modell für die Stilgestaltung](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components)**: Für die Stilgestaltung der Kernkomponenten wird das BEM-Modell (Block Element Modifier) verwendet, bei dem es sich um eine bewährte und häufig verwendete Methode für die Organisation von CSS handelt. Dadurch wird es für Entwickler und Entwicklerinnen einfacher, die Organisation der Stile zu verstehen und diese an ihre spezifischen Anforderungen anzupassen.
+- **[BEM-Modell für die Stilgestaltung](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components)**: Für die Stilgestaltung der Kernkomponenten wird das BEM-Modell (Block Element Modifier) verwendet, bei dem es sich um eine bewährte und häufig verwendete Methode für die Organisation von CSS handelt. Dadurch wird es für Entwickler und Entwicklerinnen einfacher, die Organisation der Stile zu verstehen und diese an ihre spezifischen Anforderungen anzupassen.
 
-* **Keine Abhängigkeit von Bibliotheken von Drittanbietern**: Einer der Vorteile der Kernkomponenten besteht darin, dass sie keine Abhängigkeit von JavaScript-Bibliotheken von Drittanbietern, einschließlich JQuery und Underscore, aufweisen. Dadurch können die Komponenten mit weniger Aufwand schneller erstellt und einfacher in eine vorhandene AEM-Implementierung integriert werden.
+- **Keine Abhängigkeit von Bibliotheken von Drittanbietern**: Einer der Vorteile der Kernkomponenten besteht darin, dass sie keine Abhängigkeit von JavaScript-Bibliotheken von Drittanbietern, einschließlich JQuery und Underscore, aufweisen. Dadurch können die Komponenten mit weniger Aufwand schneller erstellt und einfacher in eine vorhandene AEM-Implementierung integriert werden.
 
-* **Fokus auf Leistung und Barrierefreiheit**: Die Kernkomponenten werden unter Berücksichtigung von Leistung und Barrierefreiheit erstellt, was sich in ihren hohen Google Lighthouse- und Web-Vitalwerten widerspiegelt. Dies erleichtert Entwicklern und Entwicklerinnen das Erstellen barrierefreier und leistungsstarker Web-Seiten, die in der heutigen digitalen Landschaft immer wichtiger werden.
+- **Fokus auf Leistung und Barrierefreiheit**: Die Kernkomponenten werden unter Berücksichtigung von Leistung und Barrierefreiheit erstellt, was sich in ihren hohen Google Lighthouse- und Web-Vitalwerten widerspiegelt. Dies erleichtert Entwicklern und Entwicklerinnen das Erstellen barrierefreier und leistungsstarker Web-Seiten, die in der heutigen digitalen Landschaft immer wichtiger werden.
 
-* **Formularkomponenten in Sites 30-Vorlage und Designs**: Die Kernkomponenten bieten Unterstützung für Formularkomponenten in der Sites 30-Vorlage und den Designs, wodurch Entwickende Formulare in AEM einfacher erstellen und anpassen können.
+- **Formularkomponenten in Sites 30-Vorlage und Designs**: Die Kernkomponenten bieten Unterstützung für Formularkomponenten in der Sites 30-Vorlage und den Designs, wodurch Entwickende Formulare in AEM einfacher erstellen und anpassen können.
 
-* **[Einfachere Gestaltung](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components)**: Die Kernkomponenten sind einfacher zu gestalten als ihre Gegenstücke, die Foundation-Komponenten. Der Design-Erstellungsprozess ähnelt jenem von Sites und bietet die Möglichkeit, das Design/die CSS der übergeordneten Sites-Seite zu übernehmen. Darüber hinaus vereinfacht das BEM-Modell die Gestaltung und Veränderung von Stilen.
+- **[Einfachere Gestaltung](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components)**: Die Kernkomponenten sind einfacher zu gestalten als ihre Gegenstücke, die Foundation-Komponenten. Der Design-Erstellungsprozess ähnelt jenem von Sites und bietet die Möglichkeit, das Design/die CSS der übergeordneten Sites-Seite zu übernehmen. Darüber hinaus vereinfacht das BEM-Modell die Gestaltung und Veränderung von Stilen.
 
-* **Barrierefreiheit**: Kernkomponenten in adaptiven Formularen unterstützen Standards und Richtlinien für die Barrierefreiheit, um sicherzustellen, dass Formulare von Menschen mit Behinderungen verwendet werden können, einschließlich solcher, die Hilfstechnologien wie Bildschirmlesehilfen verwenden.
+- **Barrierefreiheit**: Kernkomponenten in adaptiven Formularen unterstützen Standards und Richtlinien für die Barrierefreiheit, um sicherzustellen, dass Formulare von Menschen mit Behinderungen verwendet werden können, einschließlich solcher, die Hilfstechnologien wie Bildschirmlesehilfen verwenden.
 
-* **[Versionierung](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/add-comments-annotations-versioning-adaptive-form-core-components)**: Sie können mehrere Versionen eines adaptiven Formulars auf der Basis von Kernkomponenten erstellen und verwalten, an kollaborativen Diskussionen teilnehmen, indem Sie Kommentare abgeben, und Anmerkungen zu bestimmten Formularkomponenten hinzufügen, um die Erfahrung bei der Formularerstellung insgesamt zu verbessern.
+- **[Versionierung](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/add-comments-annotations-versioning-adaptive-form-core-components)**: Sie können mehrere Versionen eines adaptiven Formulars auf der Basis von Kernkomponenten erstellen und verwalten, an kollaborativen Diskussionen teilnehmen, indem Sie Kommentare abgeben, und Anmerkungen zu bestimmten Formularkomponenten hinzufügen, um die Erfahrung bei der Formularerstellung insgesamt zu verbessern.
 
 ## Verfügbare Komponenten: Aufschlüsselung nach Komponententyp
 
@@ -88,7 +88,7 @@ Die aktuelle Version von AEM Forms enthält die folgenden Kernkomponenten: [Foun
 | Kontrollkästchengruppe | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/checkbox-group.md)</span> | ✔️ | Verwenden Sie für Foundation-Komponenten die Kontrollkästchen-Komponente, um mehrere Kontrollkästchen hinzuzufügen |
 | Feld zur Datumseingabe | ✔️ | | | Für Kernkomponenten verwenden Sie die Komponente [Datumsauswahl](/help/adaptive-forms/components/date-picker.md). Sie können auch die separaten Komponenten [Textfeld](/help/adaptive-forms/components/text-box.md) oder [numerisches Feld](/help/adaptive-forms/components/numeric-box.md) hinzufügen, um den Tag, den Monat und das Jahr zu erfassen. |
 | Datumsauswahl | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/date-picker.md)</span> | ✔️ | |
-| Dropdown-Liste | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/drop-down-list.md)</span> | ✔️ | |
+| Dropdownliste | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/drop-down-list.md)</span> | ✔️ | |
 | E-Mail | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/email.md)</span> | ✔️ | |
 | Dateianhang | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/file-attachment.md)</span> | ✔️ | |
 | Auflistung der Dateianhänge | ✔️ | | | |
@@ -103,7 +103,7 @@ Die aktuelle Version von AEM Forms enthält die folgenden Kernkomponenten: [Foun
 | Schaltfläche „Weiter“ | ✔️ | ✔️ | | Verwenden Sie die [Assistentenkomponente](/help/adaptive-forms/components/wizard.md) für die Schaltflächen „Weiter“ und „Zurück“, um zwischen mehreren Bedienfeldern zu wechseln. |
 | Numerisches Feld | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/numeric-box.md)</span> | ✔️ | |
 | Numerische Schritte | ✔️ | | | |
-| Panel | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/panel.md)</span> | ✔️ | |
+| Bereich | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/panel.md)</span> | ✔️ | |
 | Telefon/Mobiltelefon | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/phone.md)</span> | ✔️ | |
 | Schaltfläche „Zurück“ | ✔️ | ✔️ | | Verwenden Sie die [Assistentenkomponente](/help/adaptive-forms/components/wizard.md) für die Schaltflächen „Weiter“ und „Zurück“, um zwischen mehreren Bedienfeldern zu wechseln. |
 | Optionsfeldgruppe | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/radio-button.md)</span> | ✔️ | |
@@ -122,7 +122,8 @@ Die aktuelle Version von AEM Forms enthält die folgenden Kernkomponenten: [Foun
 | Vertikale Registerkarten | ✔️ | ✔️ | | Für Foundation-Komponenten können Sie das [Layout der Registerkarten links (vertikale Registerkarten)](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) in den Eigenschaften der Bedienfeldkomponenten konfigurieren |
 | Assistent | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/wizard.md)</span> | ✔️ | Für Foundation-Komponenten können Sie das [Assistenten-Layout](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) in den Eigenschaften der Bedienfeldkomponenten konfigurieren |
 
-<!--| Password Box | ✔️ | ✔️| ✔️ | |
+<!--
+| Password Box | ✔️ | ✔️| ✔️ | |
 | Image Choice | ✔️ | | | |
 -->
 
@@ -130,11 +131,11 @@ Die aktuelle Version von AEM Forms enthält die folgenden Kernkomponenten: [Foun
 >[!NOTE]
 >
 >
-> * Zusätzlich zu den oben aufgeführten Komponenten unterstützt der Formularbaustein alle gültigen [HTML5-Eingabetypen](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#input_types) und [Textbereiche](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea) als Komponenten.
-> * Benötigen Sie eine Komponente, die oben nicht aufgeführt ist? Fordern Sie sie per E-Mail an aem-forms-ea@adobe.com von Ihrer offiziellen Adresse an.
+>- Zusätzlich zu den oben aufgeführten Komponenten unterstützt der Formularbaustein alle gültigen [HTML5-Eingabetypen](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#input_types) und [Textbereiche](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea) als Komponenten.
+>- Benötigen Sie eine Komponente, die oben nicht aufgeführt ist? Fordern Sie sie per E-Mail an aem-forms-ea@adobe.com von Ihrer offiziellen Adresse an.
 
 
-<!-- >
+<!--
 * [Accordion](/help/adaptive-forms/components/accordion.md)
 * [Adaptive Form Fragment](/help/adaptive-forms/components/adaptive-form-fragment.md)
 * [Adaptive Form Switch](/help/adaptive-forms/components/adaptive-form-switch.md)
@@ -160,7 +161,6 @@ Die aktuelle Version von AEM Forms enthält die folgenden Kernkomponenten: [Foun
 * [Text](/help/adaptive-forms/components/text.md)
 * [Form Title](/help/adaptive-forms/components/form-title.md)
 * [Wizard](/help/adaptive-forms/components/wizard.md)
-
 -->
 
 ## Bedienfreundlicher Formular-Editor
@@ -168,63 +168,63 @@ Die aktuelle Version von AEM Forms enthält die folgenden Kernkomponenten: [Foun
 Der Editor für adaptive Formulare, die auf Kernkomponenten basieren, ähnelt dem Editor, den Sie bereits für die Erstellung von AEM Sites-Seiten verwenden. Folgendes erhalten Sie:
 
 
-* **Vertraute Benutzeroberflächen-Elemente und -Einstellungen**: Beim Konfigurieren von Eigenschaften für Formularkomponenten werden Sie feststellen, dass das Dialogfeld „Eigenschaften“ genauso aussieht wie das Dialogfeld, das Sie für WCM-Kernkomponenten verwenden. Dadurch können Sie die gewünschten Optionen schneller finden. Wie bei den WCM-Kernkomponenten wird auch bei den Formularkomponenten das Dialogfeld „Eigenschaften“ in der Mitte des Editors angezeigt, mit klaren Registerkarten, die grundlegende und erweiterte Optionen, Hilfetext und Informationen zur Barrierefreiheit voneinander trennen – alles in einem Registerkartenformat zur einfachen Navigation.
+- **Vertraute Benutzeroberflächen-Elemente und -Einstellungen**: Beim Konfigurieren von Eigenschaften für Formularkomponenten werden Sie feststellen, dass das Dialogfeld „Eigenschaften“ genauso aussieht wie das Dialogfeld, das Sie für WCM-Kernkomponenten verwenden. Dadurch können Sie die gewünschten Optionen schneller finden. Wie bei den WCM-Kernkomponenten wird auch bei den Formularkomponenten das Dialogfeld „Eigenschaften“ in der Mitte des Editors angezeigt, mit klaren Registerkarten, die grundlegende und erweiterte Optionen, Hilfetext und Informationen zur Barrierefreiheit voneinander trennen – alles in einem Registerkartenformat zur einfachen Navigation.
 
-* **[Regeleditor](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/rule-editor-core-components)**: Sie können Ihren Formularen Logik und dynamische Funktionen hinzufügen, ohne Code zu schreiben. Mit dem integrierten Regeleditor können Sie Folgendes:
-   * Felder basierend auf Benutzerentscheidungen ein- oder ausblenden
-   * Ein Objekt aktivieren oder deaktivieren
-   * Einen Wert für ein Objekt festlegen
-   * Berechnungen durchführen
-   * Eine Eigenschaft eines Objekts festlegen
-   * Dateneingaben überprüfen
-   * Einen Dienst aufrufen (externe Funktionalität aufrufen)
-   * Integrierte Funktionen verwenden (vordefinierte Funktionen für häufige Aufgaben)
-   * Benutzerdefinierte Funktionen verwenden (Ihren eigenen Code für bestimmte Anforderungen)
-   * Felder und Bedienfelder validieren (sicherstellen, dass die Daten die Anforderungen erfüllen)
-   * Den Wert eines Objekts validieren
-   * Funktionen zur Berechnung des Werts eines Objekts ausführen
-   * Einen Formulardatenmodelldienst aufrufen und einen Vorgang durchführen
-   * Dynamische Stile hinzufügen (die Darstellung basierend auf Bedingungen ändern)
-   * Andere Regeln erstellen (Kettenaktionen und Logik)
-   * und mehr!
+- **[Regeleditor](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/rule-editor-core-components)**: Sie können Ihren Formularen Logik und dynamische Funktionen hinzufügen, ohne Code zu schreiben. Mit dem integrierten Regeleditor können Sie Folgendes:
+   - Felder basierend auf Benutzerentscheidungen ein- oder ausblenden
+   - Ein Objekt aktivieren oder deaktivieren
+   - Einen Wert für ein Objekt festlegen
+   - Berechnungen durchführen
+   - Eine Eigenschaft eines Objekts festlegen
+   - Dateneingaben überprüfen
+   - Einen Dienst aufrufen (externe Funktionalität aufrufen)
+   - Integrierte Funktionen verwenden (vordefinierte Funktionen für häufige Aufgaben)
+   - Benutzerdefinierte Funktionen verwenden (Ihren eigenen Code für bestimmte Anforderungen)
+   - Felder und Bedienfelder validieren (sicherstellen, dass die Daten die Anforderungen erfüllen)
+   - Den Wert eines Objekts validieren
+   - Funktionen zur Berechnung des Werts eines Objekts ausführen
+   - Einen Formulardatenmodelldienst aufrufen und einen Vorgang durchführen
+   - Dynamische Stile hinzufügen (die Darstellung basierend auf Bedingungen ändern)
+   - Andere Regeln erstellen (Kettenaktionen und Logik)
+   - und mehr!
 
   Der Regeleditor verfügt nicht über den Code-Editor. Sie können [benutzerdefinierte Funktionen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-and-use-custom-functions) verwenden, um Ihren eigenen Code für bestimmte Anforderungen zum Regeleditor hinzuzufügen.
 
 
 
-* **Vorbefüllen von Formularen**: Sie können bestimmte Felder in einem Formular automatisch mit vorhandenen Daten füllen, wenn eine Benutzerin oder ein Benutzer es öffnet. Dadurch sparen Benutzende Zeit und Mühe, da die manuelle Eingabe bereits verfügbarer Informationen entfällt. Der Editor für Kernkomponenten bietet einen vorkonfigurierten Vorbefüllungsdienst, um Formularfelder mithilfe eines Formulardatenmodells auszufüllen. Sie können auch benutzerdefinierte Vorbefüllungsdienste für komplexere Szenarien erstellen.
+- **Vorbefüllen von Formularen**: Sie können bestimmte Felder in einem Formular automatisch mit vorhandenen Daten füllen, wenn eine Benutzerin oder ein Benutzer es öffnet. Dadurch sparen Benutzende Zeit und Mühe, da die manuelle Eingabe bereits verfügbarer Informationen entfällt. Der Editor für Kernkomponenten bietet einen vorkonfigurierten Vorbefüllungsdienst, um Formularfelder mithilfe eines Formulardatenmodells auszufüllen. Sie können auch benutzerdefinierte Vorbefüllungsdienste für komplexere Szenarien erstellen.
 
-* **[Datensatzdokument (DoR)](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/generate-document-of-record-core-components)**: Ein Datensatzdokument (Document of Record – DoR) bezieht sich auf eine formale, druckbare Darstellung der Daten, die über das Formular übermittelt werden. Es dient als permanente Aufzeichnung der von der Benutzerin oder vom Benutzer eingegebenen Informationen und liefert eine Momentaufnahme der gesendeten Daten in einem benutzerfreundlichen Format. Dies ist normalerweise ein PDF-Dokument. Sie können den Editor verwenden, um eine benutzerdefinierte Vorlage zu konfigurieren oder eine vorkonfigurierte Vorlage zu verwenden, um ein DoR zu generieren.
+- **[Datensatzdokument (DoR)](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/generate-document-of-record-core-components)**: Ein Datensatzdokument (Document of Record – DoR) bezieht sich auf eine formale, druckbare Darstellung der Daten, die über das Formular übermittelt werden. Es dient als permanente Aufzeichnung der von der Benutzerin oder vom Benutzer eingegebenen Informationen und liefert eine Momentaufnahme der gesendeten Daten in einem benutzerfreundlichen Format. Dies ist normalerweise ein PDF-Dokument. Sie können den Editor verwenden, um eine benutzerdefinierte Vorlage zu konfigurieren oder eine vorkonfigurierte Vorlage zu verwenden, um ein DoR zu generieren.
 
-* **[Formulardatenmodell](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/using-form-data-model)**: Ein adaptives Formulardatenmodell (Forms Date Model – FDM) dient als Brücke zwischen Ihren adaptiven Formularen und Ihren Datenquellen. Es definiert im Wesentlichen die Struktur und Organisation der Daten, die Ihre Formulare erfassen und mit denen Sie interagieren. Sie können den Editor verwenden, um Ihr Formular einfach mit einem Formulardatenmodell (FDM) zu verbinden.
+- **[Formulardatenmodell](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/using-form-data-model)**: Ein adaptives Formulardatenmodell (Forms Date Model – FDM) dient als Brücke zwischen Ihren adaptiven Formularen und Ihren Datenquellen. Es definiert im Wesentlichen die Struktur und Organisation der Daten, die Ihre Formulare erfassen und mit denen Sie interagieren. Sie können den Editor verwenden, um Ihr Formular einfach mit einem Formulardatenmodell (FDM) zu verbinden.
 
-* **[Formulareinreichungen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Adaptive%20Form%20Submit%20Action&text=Adobe%20recommends%20using%20Core%20Components,to%20create%20standalone%20Adaptive%20Forms.&text=A%20Submit%20Action%20lets%20you,button%20on%20an%20Adaptive%20Form)**: Eine Formulareinreichung bezieht sich auf den Prozess, bei dem Benutzende ihre Formulare ausfüllen und senden. Dadurch wird eine Reihe von Aktionen ausgelöst, die in der Formularkonfiguration definiert sind und letztendlich zur Speicherung oder Verarbeitung der gesendeten Daten führen. Der Editor für adaptive Formulare bietet eine Vielzahl von Optionen zum Konfigurieren von Formulareinreichungen. Einige der gängigen Sendeaktionen sind:
+- **[Formulareinreichungen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Adaptive%20Form%20Submit%20Action&text=Adobe%20recommends%20using%20Core%20Components,to%20create%20standalone%20Adaptive%20Forms.&text=A%20Submit%20Action%20lets%20you,button%20on%20an%20Adaptive%20Form)**: Eine Formulareinreichung bezieht sich auf den Prozess, bei dem Benutzende ihre Formulare ausfüllen und senden. Dadurch wird eine Reihe von Aktionen ausgelöst, die in der Formularkonfiguration definiert sind und letztendlich zur Speicherung oder Verarbeitung der gesendeten Daten führen. Der Editor für adaptive Formulare bietet eine Vielzahl von Optionen zum Konfigurieren von Formulareinreichungen. Einige der gängigen Sendeaktionen sind:
 
-   * [E-Mail senden](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Adaptive%20Form%20Submit%20Action&text=Adobe%20recommends%20using%20Core%20Components,to%20create%20standalone%20Adaptive%20Forms.&text=A%20Submit%20Action%20lets%20you,button%20on%20an%20Adaptive%20Form.)
-   * [Power Automate-Fluss aufrufen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/integrate/services/forms-microsoft-power-automate-integration)
-   * [An SharePoint senden](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-action-sharepoint)
-   * [Workfront Fusion aufrufen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Invoke%20a%20Workfront%20Fusion)
-   * [Mit Formulardatenmodell (FDM) senden](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/using-form-data-model)
-   * [An Azure Blob-Speicher senden](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Submit%20to%20Azure%20Blob%20Storage)
-   * [An REST-Endpunkt senden](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-action-restpoint)
-   * [An OneDrive senden](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=to%20REST%20endpoint-,Submit%20to%20OneDrive,-Invoke%20an%20AEM)
-   * [AEM-Workflow aufrufen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Invoke%20an%20AEM%20Workflow)
+   - [E-Mail senden](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Adaptive%20Form%20Submit%20Action&text=Adobe%20recommends%20using%20Core%20Components,to%20create%20standalone%20Adaptive%20Forms.&text=A%20Submit%20Action%20lets%20you,button%20on%20an%20Adaptive%20Form.)
+   - [Power Automate-Fluss aufrufen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/integrate/services/forms-microsoft-power-automate-integration)
+   - [An SharePoint senden](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-action-sharepoint)
+   - [Workfront Fusion aufrufen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Invoke%20a%20Workfront%20Fusion)
+   - [Senden mit Formulardatenmodell (FDM)](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/using-form-data-model)
+   - [An Azure Blob-Speicher senden](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Submit%20to%20Azure%20Blob%20Storage)
+   - [An REST-Endpunkt senden](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-action-restpoint)
+   - [An OneDrive senden](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=to%20REST%20endpoint-,Submit%20to%20OneDrive,-Invoke%20an%20AEM)
+   - [AEM-Workflow aufrufen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Invoke%20an%20AEM%20Workflow)
 
 
-* [Adaptive Forms-Kernkomponenten im Sites-Seiteneditor](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page): Sie können adaptive Forms-Kernkomponenten im AEM-Seiteneditor und in AEM Experience Fragments verwenden, um direkt ein Datenerfassungserlebnis zu erstellen und gleichzeitig eine Sites-Seite zu erstellen.
+- [Adaptive Forms-Kernkomponenten im Sites-Seiteneditor](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page): Sie können adaptive Forms-Kernkomponenten im AEM-Seiteneditor und in AEM Experience Fragments verwenden, um direkt ein Datenerfassungserlebnis zu erstellen und gleichzeitig eine Sites-Seite zu erstellen.
 
   >[!VIDEO](https://video.tv.adobe.com/v/3419284?quality=12&learn=on)
 
 
 <!-- 
-* **Preview Forms**: You can use the editor to  simulates how the form would appear on various devices like desktops, tablets, and smartphones.
+- **Preview Forms**: You can use the editor to  simulates how the form would appear on various devices like desktops, tablets, and smartphones.
 
 
 
 
 ## Enable Adaptive Forms Core Components
 
-Enabling Adaptive Forms Core Components on AEM Forms as a Cloud Service, allows you to start creating, publishing, and delivering Core Components based Adaptive Forms and Headless Forms using your AEM Forms Cloud Service instances to multiple channels. For detailed instructions to enable Adaptive Form Core Components, see [Enable Adaptive Forms Core Components on AEM Forms as a Cloud Service and local development environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=de).
+Enabling Adaptive Forms Core Components on AEM Forms as a Cloud Service, allows you to start creating, publishing, and delivering Core Components based Adaptive Forms and Headless Forms using your AEM Forms Cloud Service instances to multiple channels. For detailed instructions to enable Adaptive Form Core Components, see [Enable Adaptive Forms Core Components on AEM Forms as a Cloud Service and local development environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html).
 
 The Adaptive Forms Core Components have the following requirements.
 
@@ -233,8 +233,7 @@ The Adaptive Forms Core Components have the following requirements.
 |AEM as a Cloud Service|Forms - Digital Enrollment|[Release 2.0.10](version.md)+|
 |AEM 6.5 | Forms add-on |[Release 1.1.12](version.md)+|
 
-If your AEM Cloud Service SDK version older than 2023.02.0, [ensure that you have `prerelease` flag enabled on your environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features) as Adaptive Forms Core Components were part of pre-prelease before the 2023.02.0 release.
-
+If your AEM Cloud Service SDK version older than 2023.02.0, [ensure that you have `prerelease` flag enabled on your environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=en#new-features) as Adaptive Forms Core Components were part of pre-prelease before the 2023.02.0 release.
 -->
 
 ## Erstellen eines auf Kernkomponenten basierenden adaptiven Formulars
@@ -250,22 +249,26 @@ Sie können die folgenden Aktionen sowohl in Umgebungen von AEM Forms as a Cloud
 
 
 
+<!--
+, such as  [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), to ensure that forms can be used by people with disabilities, including those using assistive technologies such as screen readers.
 
+- **Alignment with AEM Sites**: The Core Components are designed to be more aligned with AEM Sites, making it easier for Sites users to adopt and use them without having to learn anything new. The components use the same front-end pipeline as Sites, making it easier to style and modify their appearance. 
+-->
 
-<!-- >, such as  [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), to ensure that forms can be used by people with disabilities, including those using assistive technologies such as screen readers.
+<!--
+Additionally, the following points further illustrate this alignment:
 
-*   **Alignment with AEM Sites**: The Core Components are designed to be more aligned with AEM Sites, making it easier for Sites users to adopt and use them without having to learn anything new. The components use the same front-end pipeline as Sites, making it easier to style and modify their appearance. 
+    - **Authoring experience inline with Page editor**: The Core Components have an authoring experience that is inline with the Sites editor, with dialogs and other experiences similar to the Page editor. This makes it easier for Sites users to create and manage forms within the familiar context of the Sites editor.
 
-<!-- Additionally, the following points further illustrate this alignment:
+    - **Inline form editing in Sites editor**: The Core Components allow  inline form editing within the Sites editor, avoiding the need to switch back and forth between editors. This streamlines the authoring experience and makes it easier to create and manage forms.
 
-    *   **Authoring experience inline with Page editor**: The Core Components have an authoring experience that is inline with the Sites editor, with dialogs and other experiences similar to the Page editor. This makes it easier for Sites users to create and manage forms within the familiar context of the Sites editor.
+    - **Inheriting Sites features in Forms**: Forms authored within a Sites page inherit the same features as Sites. This provides a seamless and integrated experience for creating and managing forms within the context of AEM Sites 
+-->
 
-    *   **Inline form editing in Sites editor**: The Core Components allow  inline form editing within the Sites editor, avoiding the need to switch back and forth between editors. This streamlines the authoring experience and makes it easier to create and manage forms.
+<!--including Multi Site Manager, the ability to use Sites components within a form for static content, support for scheduled publish/unpublish, form translation aligned with Sites translation, versioning, and targeting -->
 
-    *   **Inheriting Sites features in Forms**: Forms authored within a Sites page inherit the same features as Sites. This provides a seamless and integrated experience for creating and managing forms within the context of AEM Sites 
-    
-    <!--including Multi Site Manager, the ability to use Sites components within a form for static content, support for scheduled publish/unpublish, form translation aligned with Sites translation, versioning, and targeting -->
-
-## Siehe auch {#see-also}
+<!--
+## See Also {#see-also}
 
 {{see-also}}
+-->

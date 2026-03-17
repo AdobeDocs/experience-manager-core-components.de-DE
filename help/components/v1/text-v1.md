@@ -1,12 +1,12 @@
 ---
 title: Textkomponente (v1)
 description: Die Textkomponente ist eine Komponente zur Bearbeitung und Zusammensetzung von Rich-Texten, die eine direkte Bearbeitung ermöglicht.
-index: n
-role: Architect, Developer, Admin, User
+index: false
+role: Developer, Admin, User
 exl-id: c9fe3052-a33d-412e-9456-52c9a0cea292
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1674'
 ht-degree: 100%
 
 ---
@@ -117,7 +117,7 @@ Das Dialogfeld „Bearbeiten“ bietet die standardmäßigen Rich-Text-Formatier
 
   ![](/help/assets/chlimage_1-58.png)
 
-  Fügt einen kopierten Text als normalen Text ohne Formatierung ein.
+  Fügt einen kopierten Text als unformatierten Text ein.
 
   Wenn Sie diese Option wählen, wird ein Fenster geöffnet, in dem der Text als normaler Text ohne Formatierung eingefügt werden kann, bevor er in den Text eingefügt wird. Akzeptieren durch Tippen oder Klicken auf das Häkchen, abbrechen durch Tippen oder Klicken auf das x.
 
@@ -171,7 +171,7 @@ Das Dialogfeld „Bearbeiten“ bietet die standardmäßigen Rich-Text-Formatier
 
   Geben Sie den Text ein, nach dem Sie suchen möchten, und tippen oder klicken Sie auf **Suchen**, um die Suche zu starten. Tippen Sie auf das x, um abzubrechen.
 
-  Wenn Sie eine genaue Übereinstimmung der Groß- und Kleinschreibung möchten, wählen Sie die Option **Groß-/Kleinschreibung berücksichtigen**, bevor Sie die Suche starten.
+  Wenn Sie eine genaue Übereinstimmung der Groß- und Kleinschreibung möchten, wählen Sie die Option **Groß-/Kleinschreibung beachten**, bevor Sie die Suche starten.
 
   Wenn eine Übereinstimmung gefunden wird, wird sie hervorgehoben und das Suchdialogfeld wird abgeblendet. Tippen oder klicken Sie im abgeblendeten Dialogfeld erneut auf die Schaltfläche **Suchen**, um nach dem nächsten Vorkommen zu suchen.
 
@@ -193,7 +193,7 @@ Das Dialogfeld „Bearbeiten“ bietet die standardmäßigen Rich-Text-Formatier
 
   Tippen oder klicken Sie auf **Suchen**, um mit der Suche zu beginnen. Klicken oder tippen Sie auf das x, um abzubrechen.
 
-  Wenn Sie eine genaue Übereinstimmung der Groß- und Kleinschreibung möchten, wählen Sie die Option **Groß-/Kleinschreibung berücksichtigen**, bevor Sie die Suche starten.
+  Wenn Sie eine genaue Übereinstimmung der Groß- und Kleinschreibung möchten, wählen Sie die Option **Groß-/Kleinschreibung beachten**, bevor Sie die Suche starten.
 
   Wenn eine Übereinstimmung gefunden wird, wird sie hervorgehoben und das Suchdialogfeld wird abgeblendet. Klicken Sie erneut im abgeblendeten Dialogfeld auf die Schaltfläche **Suchen**, um nach dem nächsten Vorkommen zu suchen, oder klicken Sie auf **Ersetzen**, um den markierten, übereinstimmenden Text zu ersetzen. Beachten Sie, dass die Schaltfläche **Ersetzen** nur aktiv ist, nachdem der Suchtext gefunden wurde.
 
@@ -225,7 +225,7 @@ Das Dialogfeld „Bearbeiten“ bietet die standardmäßigen Rich-Text-Formatier
 
   Um eine Liste mit Aufzählungszeichen zu beenden, tippen oder klicken Sie erneut auf die Schaltfläche **Aufzählung** oder geben Sie zwei Zeilenumbrüche hintereinander ein.
 
-* Nummeriert
+* Nummerierung
 
   ![](/help/assets/chlimage_1-75.png)
 
@@ -267,7 +267,7 @@ Das Dialogfeld „Bearbeiten“ bietet die standardmäßigen Rich-Text-Formatier
       * Die erste Zeile sollte verwendet werden
       * Die erste Spalte sollte verwendet werden
       * Die erste Zeile und erste Spalte sollten verwendet werden
-      * Oder es sollte keine Kopfzeile verwendet werden.
+      * Oder es sollte keine Kopfzeile verwendet werden
 
    * **Beschriftung** - Beschriftung der Tabelle
 
@@ -363,7 +363,7 @@ Die Option zum Einfügen von Sonderzeichen kann für die Komponente aktiviert od
 * Tippen oder klicken Sie auf die Schaltfläche **Hinzufügen**, um ein neues Zeichen einzufügen.
 * Geben Sie den HTML-Code des Zeichens und eine Beschreibung ein, die im Dialogfeld „Bearbeiten“ angezeigt wird.
 * Um ein Zeichen zu entfernen, tippen oder klicken Sie auf die Schaltfläche **Löschen**.
-* Um die Reihenfolge der Zeichen zu ändern, tippen oder klicken Sie und ziehen Sie die Griffe.
+* Um die Reihenfolge der Zeichen zu ändern, tippen oder klicken Sie auf die Griffe und ziehen Sie sie in die gewünschte Reihenfolge.
 
 ## Technische Details {#technical-details}
 

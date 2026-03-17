@@ -1,12 +1,12 @@
 ---
 title: Formular-Container-Komponente
 description: Die Kernkomponente „Formular-Container-Komponente“ ermöglicht die Erstellung einfacher Übermittlungsformulare.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 552f9dd5-6a3a-42d9-9969-e62a1f36e811
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
-source-wordcount: '914'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '970'
+ht-degree: 97%
 
 ---
 
@@ -69,7 +69,7 @@ Wenn das Formular übermittelt wird, übergibt der Aktionstyp für Formulardaten
 * **Fehlermeldung** – Meldung, die angezeigt wird, wenn die Übermittlung nicht erfolgreich war
 
 >[!TIP]
->Es gibt zusätzliche Timeout-Optionen, die ein Systemadministrator einstellen kann, um die Verarbeitung der weitergeleiteten Formulardaten zu handhaben. [Weitere Informationen finden Sie in der technischen Dokumentation zu GitHub.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
+>Es gibt zusätzliche Zeitüberschreitungsoptionen, die ein Systemadministrator anpassen kann, um die Verarbeitung der weitergeleiteten Formulardaten zu verarbeiten. [Weitere Informationen finden Sie in der technischen Dokumentation auf GitHub.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
 
 ### E-Mail {#mail}
 

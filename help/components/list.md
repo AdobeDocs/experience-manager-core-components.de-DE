@@ -1,17 +1,17 @@
 ---
-title: 'Listenkomponente '
+title: Listenkomponente
 description: Die Kernkomponente „Listenkomponente“ ermöglicht die einfache Erstellung dynamischer sowie statischer Listen.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
+workflow-type: tm+mt
+source-wordcount: '1214'
 ht-degree: 100%
 
 ---
 
 
-# Listenkomponente {#list-component}
+# Listenkomponente{#list-component}
 
 Die Kernkomponente „Listenkomponente“ ermöglicht die einfache Erstellung dynamischer sowie statischer Listen.
 
@@ -29,12 +29,12 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 
 | Komponentenversion | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |--- |---|---|
-| v4 | – | Kompatibel | Kompatibel |
+| v4 | – | Kompatibel | Kompatibel | |
 | [v3](/help/components/v3/list.md) | – | Kompatibel | Kompatibel | Kompatibel |
 | [v2](/help/components/v2/list.md) | Kompatibel | Kompatibel | – | Kompatibel |
 | [v1](/help/components/v1/list-v1.md) | Kompatibel | Kompatibel | – | Kompatibel |
 
-Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
+Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie im Dokument [Kernkomponentenversionen](/help/versions.md).
 
 ## Redirects in Listen {#redirects}
 
@@ -115,7 +115,7 @@ Die Liste kann mithilfe der Ergebnisse einer Suche aus AEM-Inhalten erstellt wer
 
 ![Optionen für die Suchliste](/help/assets/list-edit-search.png)
 
-* **Suchanfrage**
+* **Suchabfrage**
 Die Zeichenfolge, für die eine Volltextsuche ausgeführt wird, um die Listenelemente zu generieren
 * **Suche in**
 Wo die Suche ausgeführt werden soll
@@ -157,7 +157,7 @@ Die Reihenfolge, in der die Elemente angeordnet werden sollen
 * **Maximale Elemente**
 Maximale Anzahl der in der Liste angezeigten Elemente.
    * Leer lassen, um alle Elemente zurückzugeben.
-* **ID** - Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
+* **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
    * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
    * Sofern eine ID angegeben wird, ist vom Autor bzw. der Autorin sicherzustellen, dass diese eindeutig ist.
    * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.

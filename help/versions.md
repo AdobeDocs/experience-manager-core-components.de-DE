@@ -1,9 +1,9 @@
 ---
 title: Kernkomponenten-Versionen
 description: Kernkomponenten werden als Versionen veröffentlicht, die mehr als eine Version derselben Kernkomponenten enthalten können. In diesem Dokument wird erläutert, welche Versionen veröffentlicht werden und wie die Kompatibilität mit Kernkomponenten und AEM verstanden werden kann.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 3e49862f958e50f095c944c33d1983ae46ab8ace
+source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
 workflow-type: tm+mt
 source-wordcount: '3887'
 ht-degree: 96%
@@ -95,10 +95,10 @@ Die folgende Tabelle, deren Inhalt [auf GitHub mit vollständigen Versionsinform
 | [2.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.1.0) | In dieser Version wurden die [Teaser-Komponente](/help/components/teaser.md) sowie Verbesserungen der [Bildkomponente](/help/components/image.md) und zahlreiche Fehlerbehebungen eingeführt. | 6.4.2.0+ | -- |  | – | 8 | &#x200B;13. Juli 2018 |
 | [2.0.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.8) | Dies war eine Version mit Fehlerbehebungen. | 6.4.0.0+ | -- |  | – | 8 | &#x200B;12. Juni 2018 |
 | [2.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.6) | In dieser Version wurden Hintergrundverbesserungen, Fehlerbehebungen und kleine Verbesserungen hinzugefügt, einschließlich Unterstützung für das Spiegeln von Bildern in der [Bildkomponente](/help/components/image.md). | 6.4.0.0+ | – | – | – | 8 | &#x200B;11. April 2018 |
-| [2.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.4) | Diese Version konzentrierte sich hauptsächlich auf Hintergrundverbesserungen, Fehlerbehebungen sowie einige kleinere Verbesserungen der [Bildkomponente](/help/components/image.md), [Seitenkomponente](/help/components/page.md) und [Inhaltsfragment-Komponente](/help/components/content-fragment-component.md). | 6.4.0.0+ | – | – | 8 | &#x200B;7. März 2018 |
+| [2.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.4) | Diese Version konzentrierte sich hauptsächlich auf Hintergrundverbesserungen, Fehlerbehebungen sowie einige kleinere Verbesserungen der [Bildkomponente](/help/components/image.md), [Seitenkomponente](/help/components/page.md) und [Inhaltsfragment-Komponente](/help/components/content-fragment-component.md). | 6.4.0.0+ | – | – | 8 | &#x200B;7. März 2018 | |
 | [2.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.0) | In dieser Version wurden die [Navigationskomponente](/help/components/navigation.md), die [Sprachnavigations-Komponente](/help/components/language-navigation.md) und die [Schnellsuchkomponente](/help/components/quick-search.md) eingeführt sowie das [Stilsystem](/help/get-started/authoring.md#component-styling) für alle Komponenten implementiert. | 6.4.0.0+ | – | – | – | 8 | 16. Januar 2018 |
 | [1.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.1.0) | Diese Version implementiert den JSON-Export für alle Komponenten und führt die [Inhaltsfragment-Komponente](/help/components/content-fragment-component.md) ein. | 6.4.0.0+ | -- |  | – | 8 | &#x200B;10. Oktober 2017 |
-| [1.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.6) | In dieser Version werden mehrere Korrekturen für die [Bildkomponente](/help/components/image.md) hinzugefügt. | 6.4.0.0+ | – | – | 8 | 4. August 2017 |
+| [1.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.6) | In dieser Version werden mehrere Korrekturen für die [Bildkomponente](/help/components/image.md) hinzugefügt. | 6.4.0.0+ | – | – | 8 | 4. August 2017 | |
 | [1.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.4) | In dieser Version werden Fehlerbehebungen für die [Seitenkomponente](/help/components/page.md), die [Bildkomponente](/help/components/image.md) und verschiedene globale Korrekturen und Verbesserungen hinzugefügt. | 6.4.0.0+ | -- |  | – | 8 | 26. April 2017 |
 | [1.0.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.all-1.0.2) | Diese Version fügt Korrekturen für animierte GIF-Bilder in der [Bildkomponente](/help/components/image.md) hinzu. | 6.4.0.0+ | – | – | – | 7 | &#x200B;22. März 2017 |
 | [1.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.0) | Erstmalige Veröffentlichung von Kernkomponenten. | 6.4.0.0+ | – | – | – | 7 | &#x200B;20. März 2017 |

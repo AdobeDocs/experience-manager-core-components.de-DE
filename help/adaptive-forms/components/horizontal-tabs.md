@@ -1,12 +1,12 @@
 ---
 title: Kernkomponente „Horizontale Registerkarten“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „Horizontale Registerkarten“ für adaptive Formulare.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
+workflow-type: tm+mt
+source-wordcount: '2213'
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ Die Registerkarten bestehen in der Regel aus einer Reihe von Links oder Schaltfl
 
 {{traditional-aem}}
 
-## Verwendung {#reasons-to-use-horizontal-tabs}
+## Nutzung {#reasons-to-use-horizontal-tabs}
 
 Die häufigsten Gründe für die Verwendung horizontaler Registerkarten in einem adaptiven Formular sind:
 
@@ -31,24 +31,26 @@ Die häufigsten Gründe für die Verwendung horizontaler Registerkarten in einem
 
 - **Bessere Organisation**: Registerkarten bieten eine klare und übersichtliche Struktur für ein Formular, sodass Benutzende das Formular besser verstehen und ausfüllen können.
 
-- **Erhöhte Benutzerinteraktion**: Horizontale Registerkarten können ein Formular für Benutzende visuell ansprechender und interessanter gestalten, wodurch die Formularausfüllungsrate verbessert werden kann.
+- **Erhöhte Benutzerinteraktion**: Horizontale Registerkarten können ein Formular für Benutzende visuell ansprechender und interessanter gestalten, wodurch die Formularabschlussrate verbessert werden kann.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die Kernkomponente „Horizontale Registerkarten“ für adaptive Formulare wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, Informationen zur AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
+Die Kernkomponente „Horizontale Registerkarten“ von Adaptive Forms wurde im Februar 2023 als Teil der Kernkomponenten 2.0.4 veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
 
 |  |  |
 |---|---|
 | Komponentenversion | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Kompatibel mit<br>[Version 2.0.4](/help/adaptive-forms/version.md) und höher | Kompatibel | Kompatibel |
+| v1 | Kompatibel mit<br>[Version 2.0.4](/help/adaptive-forms/version.md) und höher\|Kompatibel\|Kompatibel |
 
 Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokument [Kernkomponenten-Versionen](/help/adaptive-forms/version.md).
 
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!-- 
+## Sample Component Output {#sample-component-output}
 
-To experience the Horizontal-tabs  Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_Horizontal-tabs ). -->
+To experience the Horizontal-tabs  Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_Horizontal-tabs ). 
+-->
 
 
 ## Technische Details {#technical-details}
@@ -186,7 +188,7 @@ Mit der Option „Benutzerdefinierte Eigenschaften“ können Sie mithilfe der F
 
    - **Neu anordnen**: Ordnen Sie den Namen und Wert der benutzerdefinierten Eigenschaft Antippen oder Klicken und Ziehen neu an.
 
-## Ähnliche Artikel {#related-articles}
+## Verwandte Artikel {#related-articles}
 
 {{more-like-this}}
 

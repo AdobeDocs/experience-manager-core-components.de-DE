@@ -1,9 +1,9 @@
 ---
 title: Kernkomponente „Optionsschaltfläche“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „Optionsschaltfläche“ für adaptive Formulare.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: e9354f24e1f2f8cd1e899dbd999e80406b5ce2bc
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
 source-wordcount: '2349'
 ht-degree: 91%
@@ -59,9 +59,11 @@ Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokume
 >
 > Die v1-Version der Kernkomponente für Kontrollkästchen-Gruppen unterstützt WCAG 2.1, das sich darauf konzentriert, Inhalte durch Befolgen von Best Practices für die Benutzerfreundlichkeit und Lesbarkeit zugänglich zu machen. Die v2-Version unterstützt WCAG 2.2, das einen Schritt weiter geht, indem eine klare, vorhersehbare und eindeutige Barrierefreiheit durch logische und semantische Gruppierung verwandter Felder betont wird, was es zu einer kritischen Anforderung für einen inklusiven Formularentwurf macht.
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_de). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 ## Technische Details {#technical-details}
 

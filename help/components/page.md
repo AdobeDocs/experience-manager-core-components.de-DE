@@ -1,17 +1,17 @@
 ---
 title: Seitenkomponente
 description: Die Seitenkomponente ist eine Erweiterungskomponente für Seiten, die mit dem Vorlageneditor arbeitet und es ermöglicht, Seitenkopf-/Fußzeilen- und Strukturkomponenten mit dem Vorlageneditor zusammenzustellen.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 2503e067-abed-427d-8a54-8b79e3451487
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '739'
+ht-degree: 95%
 
 ---
 
 
-# Seitenkomponente {#page-component}
+# Seitenkomponente{#page-component}
 
 Die Seitenkomponente ist eine Erweiterungskomponente für Seiten, die mit dem [Vorlageneditor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=de) arbeitet und es ermöglicht, Seitenkopf-/Fußzeilen- und Strukturkomponenten mit dem Vorlageneditor zusammenzustellen.
 
@@ -35,11 +35,11 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 | [v2](v2/page.md) | Kompatibel | Kompatibel | – | Kompatibel |
 | [v1](v1/page-v1.md) | Kompatibel | Kompatibel | – | Kompatibel |
 
-Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie in den [Kernkomponentenversionen](/help/versions.md).
+Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie im Dokument [Kernkomponentenversionen](/help/versions.md).
 
 ## Unterstützung von Progressive Web Apps {#pwa-support}
 
-Mit Version 2.15.0 der Kernkomponenten wurde die Unterstützung für die in AEM as a Cloud Service integrierten Funktionen für [Progressive Web Apps (PWA).](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=de) eingeführt. Mit einer einfachen Konfiguration auf Website-Ebene verwandeln Sie Ihr AEM-Erlebnis in eine PWA!
+In Version 2.15.0 der Kernkomponenten wurde die Unterstützung für die integrierten AEM as a Cloud Service-Funktionen [Progressive Web Apps (PWA)) eingeführt.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=de) Mit einer einfachen Konfiguration auf Site-Ebene verwandeln Sie Ihr AEM-Erlebnis in eine PWA!
 
 ### Technische Details {#technical-details}
 

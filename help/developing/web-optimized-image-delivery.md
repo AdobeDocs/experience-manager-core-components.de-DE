@@ -1,12 +1,12 @@
 ---
 title: Web-optimierte Bildbereitstellung
 description: Erfahren Sie, wie die Kernkomponenten die Funktionen zur Web-optimierten Bildbereitstellung von AEM as a Cloud Service nutzen können, um Bilder effizienter bereitzustellen.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
-source-git-commit: eb1822cb41a849695afb5125745ed5f78e3e70a4
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 100%
+source-wordcount: '1130'
+ht-degree: 89%
 
 ---
 
@@ -16,7 +16,7 @@ Erfahren Sie, wie die Kernkomponenten die Funktionen zur Web-optimierten Bildber
 
 ## Übersicht {#overview}
 
-Die Funktion der Web-optimierten Bildbereitstellung von AEM as a Cloud Service stellt Bild-Assets aus dem DAM im [WebP-Format bereit.](https://developers.google.com/speed/webp) WebP kann die Download-Größe eines Bildes im Durchschnitt um etwa 25 % reduzieren, was zu einem schnelleren Laden von Seiten führt.
+Die Funktion der Web-optimierten Bildbereitstellung von AEM as a Cloud Service stellt Bild-Assets aus dem DAM im WebP[Format bereit](https://developers.google.com/speed/webp) WebP kann die Download-Größe eines Bildes im Durchschnitt um etwa 25 % reduzieren, was zu einem schnelleren Laden von Seiten führt.
 
 Die Aktivierung der Web-optimierten Bildbereitstellung in den Kernkomponenten ist einfach. Da alle gängigen Browser WebP unterstützen, ist das Erlebnis für den Endbenutzenden transparent. Der einzige bemerkbare Unterschied ist, dass Inhalte schneller geladen werden!
 
@@ -71,7 +71,7 @@ Um die Wiedergabetreue der Ausgabe zu wahren, skaliert der Bild-Service keine Bi
 
 ### Die URLs meiner Bilder enden immer noch mit .JPG oder .PNG, nicht mit .WEBP und es gibt kein SRCSET-Attribut oder PICTURE-Element. Verwendet dies wirklich optimierte Web-Formate? {#content-negotiation}
 
-Um WebP-Formate bereitzustellen, führt der Web-optimierte Bildbereitstellungsdienst eine [Server-gesteuerte Inhaltsaushandlung.](https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation#server-driven_content_negotiation) durch. Dies hilft bei der Auswahl des optimalen Ausgabeformats für das Bild auf der Grundlage der von der Kundschaft bestätigten Fähigkeiten, sodass der Bildbereitstellungsdienst die Dateierweiterung ignorieren kann.
+Zur Bereitstellung von WebP-Formaten führt der Service für die Web-optimierte Bildbereitstellung [Server-gesteuerte Inhaltsaushandlung“ durch](https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation#server-driven_content_negotiation) Dies hilft bei der Auswahl des optimalen Ausgabeformats für das Bild basierend auf Client-beworbenen Funktionen, sodass der Bildbereitstellungs-Service die Dateierweiterung ignorieren kann.
 
 Der Vorteil des Einsatzes von Inhaltsaushandlungen besteht darin, dass die Browser, die keine Unterstützung für WebP anbieten, weiterhin das JPG- oder PNG-Dateiformat erhalten, ohne dass eine Änderung im Markup der Seite erforderlich ist. Dies bietet eine optimale Kompatibilität für bestehende Sites und garantiert einen möglichst reibungslosen Übergang zur Web-optimierten Bildbereitstellung.
 

@@ -1,12 +1,12 @@
 ---
 title: Kernkomponente für adaptive Formulare – Vertikale Registerkarten
 description: Verwenden oder Anpassen der Kernkomponente „Vertikale Registerkarten“ für adaptive Formulare.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
-source-git-commit: 2be68aa708131486f7d89f33952153a7a90c3d0a
+source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
 workflow-type: tm+mt
-source-wordcount: '2153'
-ht-degree: 100%
+source-wordcount: '2214'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ Wenn Benutzende auf eine Registerkarte klicken, wird der Formularinhalt dynamisc
 
 {{traditional-aem}}
 
-## Verwendung {#reasons-to-use-vertical-tabs}
+## Nutzung {#reasons-to-use-vertical-tabs}
 
 Die häufigsten Gründe für die Verwendung vertikaler Registerkarten in einem adaptiven Formular sind:
 
@@ -38,13 +38,13 @@ Die häufigsten Gründe für die Verwendung vertikaler Registerkarten in einem a
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die Kernkomponente „Vertikale Registerkarten“ für adaptive Formulare wurde als Teil der Kernkomponenten 2.0.18 veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, Informationen zur AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
+Die Kernkomponente „Vertikale Registerkarten“ von Adaptive Forms wurde als Teil der Kernkomponenten 2.0.18 veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
 
 |  |  |
 |---|---|
 | Komponentenversion | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Kompatibel mit<br>[Version 2.0.18](/help/adaptive-forms/version.md) und höher | Kompatibel | Kompatibel |
+| v1 | Kompatibel mit<br>[Version 2.0.18](/help/adaptive-forms/version.md) und höher\|Kompatibel\|Kompatibel |
 
 Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokument [Kernkomponenten-Versionen](/help/adaptive-forms/version.md).
 
@@ -185,7 +185,7 @@ Mit der Option „Benutzerdefinierte Eigenschaften“ können Sie mithilfe der F
 
    - **Neu anordnen**: Ordnen Sie den Namen und Wert der benutzerdefinierten Eigenschaft Antippen oder Klicken und Ziehen neu an.
 
-## Ähnliche Artikel {#related-articles}
+## Verwandte Artikel {#related-articles}
 
 {{more-like-this}}
 

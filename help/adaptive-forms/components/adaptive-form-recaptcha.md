@@ -1,12 +1,12 @@
 ---
 title: Kernkomponente für adaptive Formulare – Google reCAPTCHA
 description: Mit dem Google reCAPTCHA-Dienst können Sie ganz einfach mit AEM Forms die Sicherheit von Formularen verbessern. Erklärung der Eigenschaften von reCaptcha für adaptive Formulare
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 2d986b90-e596-4e8f-9a32-0ebced5461c8
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
+workflow-type: tm+mt
+source-wordcount: '1382'
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ AEM Forms as a Cloud Service unterstützt Google reCAPTCHA v2 in adaptiven Formu
 
 {{traditional-aem}}
 
-## Verwendung {#reasons-to-use-google-recaptcha}
+## Nutzung {#reasons-to-use-google-recaptcha}
 
 
 - **Spam- und Bot-Prävention**: Einer der Hauptgründe für die Verwendung von reCAPTCHA ist, zu verhindern, dass Spam-Sendungen und bösartige Bots Ihr Formular überschwemmen. Die erweiterten Algorithmen von reCAPTCHA können automatisierte Versuche beim Senden des Formulars erkennen und so sicherstellen, dass nur legitime Benutzerinnen und Benutzer mit dem Formular interagieren können.
@@ -39,7 +39,7 @@ Die Kernkomponente „Google reCAPTCHA“ für adaptive Formulare wurde im Augus
 
 | Komponentenversion | AEM as a Cloud Service |
 |--- |--- |
-| v1 | Kompatibel mit<br>[Version 2.0.4](/help/versions.md) und höher | Kompatibel | Kompatibel |
+| v1 | Kompatibel mit <br>[Version 2.0.4](/help/versions.md) und höher \| Compatible\|Compatible |
 
 Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokument [Kernkomponenten-Versionen](/help/versions.md).
 
@@ -118,7 +118,7 @@ Mit der Option „Benutzerdefinierte Eigenschaften“ können Sie mithilfe der F
    - **Neu anordnen**: Ordnen Sie den Namen und Wert der benutzerdefinierten Eigenschaft Tippen oder Klicken und Ziehen neu an.
 
 
-## Ähnliche Artikel {#related-articles}
+## Verwandte Artikel {#related-articles}
 
 {{more-like-this}}
 
