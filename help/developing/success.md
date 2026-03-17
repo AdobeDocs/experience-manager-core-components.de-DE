@@ -41,7 +41,7 @@ Berücksichtigen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_li
 
 ### Nutzung des Benutzeroberflächen-Kits für Adobe XD {#ui-kit}
 
-Sobald eine benutzerdefinierte Komponente nachweislich benötigt wird, verwenden Sie das Benutzeroberflächen-Kit für Adobe XD, [das hier heruntergeladen werden kann](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd), damit die Designerinnen und Designer die Kernkomponenten beim Erstellen der Wireframes und Designs als Bausteine verwenden können.
+Sobald eine benutzerdefinierte Komponente nachweislich benötigt wird, verwenden Sie das Benutzeroberflächen-Kit für Adobe XD, [das hier heruntergeladen werden kann](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd?lang=de), damit die Designerinnen und Designer die Kernkomponenten beim Erstellen der Wireframes und Designs als Bausteine verwenden können.
 
 ## Leistungsstarke Funktionen nicht übersehen {#powerful-features}
 

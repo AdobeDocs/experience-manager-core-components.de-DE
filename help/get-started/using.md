@@ -46,7 +46,7 @@ Einige Punkte, die Sie beachten sollten, wenn Sie die Kernkomponenten in AEMaaCS
 * Wenn Ihr Projekt zuvor die Kernkomponenten in `/apps` enthielt, [müssen Sie Ihr Projekt möglicherweise anpassen.](/help/developing/overview.md#via-aemaacs)
 * Obwohl sich die Kernkomponenten jetzt in `/libs` befinden, wird nicht empfohlen, in `/apps` eine Überlagerung desselben Pfads zu erstellen. [Das Proxy-Komponentenmuster](/help/developing/guidelines.md#proxy-component-pattern) sollte stattdessen verwendet werden, wenn ein Aspekt der Komponenten angepasst werden muss.
 * Damit die [Inhaltsverzeichnis-Komponente](/help/components/tableofcontents.md) ihren Inhalt rendern kann, muss ein Filter in OSGi konfiguriert werden.
-   * [Bitte lesen Sie die GitHub-Dokumentation der Komponente](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1) für weitere Informationen.
+   * [Bitte lesen Sie die GitHub-Dokumentation der Komponente](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_de) für weitere Informationen.
 
 ### AEM 6.5 und älter {#aem-65}
 

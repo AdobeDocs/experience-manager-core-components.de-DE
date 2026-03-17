@@ -43,11 +43,11 @@ Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie im D
 >
 >Auf AEM as a Cloud Service muss Ihre Administratorin oder Ihr Administrator einen Filter für die Komponente aktivieren, damit der Inhalt der Komponente gerendert werden kann.
 >
->[Bitte lesen Sie die GitHub-Dokumentation der Komponente](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1) für weitere Informationen.
+>[Bitte lesen Sie die GitHub-Dokumentation der Komponente](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_de) für weitere Informationen.
 
 ### Technische Details {#technical-details}
 
-Die neueste technische Dokumentation zur Inhaltsverzeichniskomponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1).
+Die neueste technische Dokumentation zur Inhaltsverzeichniskomponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_de).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
