@@ -31,7 +31,7 @@ In diesem Dokument wird das standardmäßige Adaptive Image Servlet beschrieben.
 
 ## Übersicht {#overview}
 
-Standardmäßig verwendet die Bildkomponente das Adaptive Image Servlet der Kernkomponente, um Bilder bereitzustellen. [Das Adaptive Image Servlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) ist für die Bildverarbeitung und das Streaming verantwortlich und kann von Entwicklerinnen und Entwicklern bei der [ der Kernkomponenten genutzt ](/help/developing/customizing.md).
+Standardmäßig verwendet die Bildkomponente das Adaptive Image Servlet der Kernkomponente, um Bilder bereitzustellen. [Das Adaptive Image Servlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) ist für die Bildverarbeitung und das Streaming verantwortlich und kann von Entwicklerinnen und Entwicklern bei der [&#x200B; der Kernkomponenten genutzt &#x200B;](/help/developing/customizing.md).
 
 ## Ausgabedarstellungsauswahl {#rendition-selection}
 

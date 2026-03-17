@@ -124,7 +124,7 @@ Das Dialogfeld „Konfigurieren“ ermöglicht dem Inhaltsautor die Auswahl der 
 
 Verwenden Sie die Schaltfläche **Auswahldialog öffnen**, um die Komponentenauswahl zu öffnen und auszuwählen, welche Variation der Experience Fragment-Komponente zur Inhaltsseite hinzugefügt werden soll.
 
-Wenn Sie die Experience Fragment-Komponente zu einer Vorlage hinzufügen, beachten Sie, dass sie automatisch lokalisiert wird, vorausgesetzt, die Experience Fragments sind lokalisiert. Was auf der Seite gerendert wird, kann sich daher von der Komponente unterscheiden, die Sie explizit auswählen. [Weitere Informationen finden Sie ](#example) obigen Beispiel .
+Wenn Sie die Experience Fragment-Komponente zu einer Vorlage hinzufügen, beachten Sie, dass sie automatisch lokalisiert wird, vorausgesetzt, die Experience Fragments sind lokalisiert. Was auf der Seite gerendert wird, kann sich daher von der Komponente unterscheiden, die Sie explizit auswählen. [Weitere Informationen finden Sie &#x200B;](#example) obigen Beispiel .
 
 Sie können auch eine **ID** festlegen. Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
 

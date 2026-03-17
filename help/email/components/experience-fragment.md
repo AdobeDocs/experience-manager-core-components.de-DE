@@ -120,7 +120,7 @@ Das Dialogfeld „Konfigurieren“ ermöglicht dem Inhaltsautor bzw. der Inhalts
 
 Verwenden Sie die Schaltfläche **Auswahldialog öffnen**, um die Komponentenauswahl zu öffnen und auszuwählen, welche Variation der Experience Fragment-Komponente zur Inhaltsseite hinzugefügt werden soll.
 
-Wenn Sie die E-Mail-Experience-Fragment-Komponente zu einer Vorlage hinzufügen, wird sie automatisch lokalisiert, sofern die Experience Fragments lokalisiert sind. Was auf der Seite gerendert wird, kann sich daher von der Komponente unterscheiden, die Sie explizit auswählen. [Weitere Informationen finden Sie ](#example) obigen Beispiel .
+Wenn Sie die E-Mail-Experience-Fragment-Komponente zu einer Vorlage hinzufügen, wird sie automatisch lokalisiert, sofern die Experience Fragments lokalisiert sind. Was auf der Seite gerendert wird, kann sich daher von der Komponente unterscheiden, die Sie explizit auswählen. [Weitere Informationen finden Sie &#x200B;](#example) obigen Beispiel .
 
 Sie können auch eine **ID** festlegen. Diese Option ermöglicht das Festlegen der eindeutigen Kennung der Komponente in HTM.
 

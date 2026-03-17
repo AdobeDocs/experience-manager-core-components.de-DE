@@ -18,7 +18,7 @@ Die Kernkomponenten bieten leistungsfähige und erweiterbare Basiskomponenten mi
 
 ## So haben Sie Erfolg mit den Kernkomponenten {#how-to-succeed}
 
-Die Kernkomponenten sind leistungsstark, flexibel und einfach zu verwenden und anzupassen. [Befolgen Sie einige wichtige ](success.md), um sicherzustellen, dass Ihr Projekt mit den Kernkomponenten erfolgreich ist.
+Die Kernkomponenten sind leistungsstark, flexibel und einfach zu verwenden und anzupassen. [Befolgen Sie einige wichtige &#x200B;](success.md), um sicherzustellen, dass Ihr Projekt mit den Kernkomponenten erfolgreich ist.
 
 ## Migration zu den Kernkomponenten
 

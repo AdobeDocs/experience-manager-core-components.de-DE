@@ -121,7 +121,7 @@ Die erste Art der Anpassung besteht darin, CSS-Stile anzuwenden.
 
 Um dies zu vereinfachen, rendern die Kernkomponenten das Semantik-Markup und folgen einer standardisierten Benennungskonvention, die von [Bootstrap](https://getbootstrap.com/) / inspiriert wurde. Um die Stile für die einzelnen Komponenten einfach zu erreichen und zu benennen, wird jede Kernkomponente in ein DIV-Element mit den Klassen `cmp` und `cmp-<name>` eingeschlossen.
 
-Betrachtet man beispielsweise die HTL-Datei der v1-Kern-Breadcrumb-Komponente: [ breadcrumb.html](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb/breadcrumb.html), so ergibt sich eine Hierarchie der ausgegebenen Elemente von `ol.breadcrumb > li.breadcrumb-item > a`. Um sicherzustellen, dass eine CSS-Regel nur die Breadcrumb-Klasse dieser Komponente betrifft, sollten alle Regeln in einem Namespace angeordnet werden, wie unten dargestellt:
+Betrachtet man beispielsweise die HTL-Datei der v1-Kern-Breadcrumb-Komponente: [&#x200B; breadcrumb.html](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb/breadcrumb.html), so ergibt sich eine Hierarchie der ausgegebenen Elemente von `ol.breadcrumb > li.breadcrumb-item > a`. Um sicherzustellen, dass eine CSS-Regel nur die Breadcrumb-Klasse dieser Komponente betrifft, sollten alle Regeln in einem Namespace angeordnet werden, wie unten dargestellt:
 
 ```shell
 .cmp-breadcrumb .breadcrumb {}  

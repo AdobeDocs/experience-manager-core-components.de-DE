@@ -18,7 +18,7 @@ Erfahren Sie mehr über die Grundlagen der Installation, Konfiguration und Verwe
 
 ## Installieren der E-Mail-Kernkomponenten {#installation}
 
-Die E-Mail-Kernkomponenten können mit AEM 6.5 verwendet werden. Weitere Informationen finden [ im Abschnitt „Anforderungen“ ](introduction.md#requirements) Einführungsdokuments für E-Mail-Kernkomponenten .
+Die E-Mail-Kernkomponenten können mit AEM 6.5 verwendet werden. Weitere Informationen finden [&#x200B; im Abschnitt „Anforderungen“ &#x200B;](introduction.md#requirements) Einführungsdokuments für E-Mail-Kernkomponenten .
 
 ### Installieren von Kernkomponenten {#core-components}
 
