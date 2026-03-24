@@ -3,7 +3,7 @@ title: Lokalisierungsfunktionen der Kernkomponenten
 description: Lokalisierungsfunktionen der Kernkomponenten
 role: Developer, Admin, User
 exl-id: 9140b65a-6dd7-4ec9-9095-6e8243ec8424
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+source-git-commit: f3a3cfcadf76058eb0c927424fe41f03a55a58c8
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 100%
@@ -110,3 +110,4 @@ Die Navigations- und Experience Fragment-Komponenten stammen aus der Seitenvorla
 Im Folgenden sehen Sie eine umfassende Darstellung, wie diese einfachen, aber leistungsstarken Elemente zusammenarbeiten, um lokalisierte Seiten für Autoren bereitzustellen.
 
 ![](/help/assets/screen-shot-2019-09-09-11.27.58.png)
+
