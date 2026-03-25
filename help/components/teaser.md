@@ -3,9 +3,9 @@ title: Teaser-Komponente
 description: Die Teaser-Komponente kann ein Bild, einen Titel, Rich-Text und optional einen Link zu weiteren Inhalten anzeigen.
 role: Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+source-git-commit: ff337aee45ea3d39f9669a8fa46accaed854532a
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1098'
 ht-degree: 93%
 
 ---
@@ -36,7 +36,7 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 
 ## Unterstützung für Remote Assets {#remote-assets}
 
-Die Teaser-Komponente (ab [Version 2.23.2](/help/versions.md)) unterstützt Remote-Assets. [Nach der Konfiguration &#x200B;](/help/developing/remote-assets.md) Sie Assets aus einem Remote-Service für Ihre Teaser-Komponente auswählen.
+Die Teaser-Komponente (ab [Version 2.23.2](/help/versions.md)) unterstützt Remote-Assets. [Nach der Konfiguration ](/help/developing/remote-assets.md) Sie Assets aus einem Remote-Service für Ihre Teaser-Komponente auswählen.
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
@@ -105,7 +105,7 @@ Stile müssen für diese Komponente im [Dialogfeld „Design“](#design-dialog)
 
 ## Dialogfeld „Bearbeiten“ {#edit-dialog}
 
-Die Teaser-Komponente delegiert das Rendern von Bildern an die [Bild-Komponente](image.md). Daher wird das [Dialogfeld „Bearbeiten“]&#x200B;(image.md#edit-dialog) dem Inhaltsautor zur Bearbeitung des Teaserbilds zur Verfügung gestellt.
+Die Teaser-Komponente delegiert das Rendern von Bildern an die [Bild-Komponente](image.md). Daher wird das [Dialogfeld „Bearbeiten“](image.md#edit-dialog) dem Inhaltsautor zur Bearbeitung des Teaser-Bildes zur Verfügung gestellt.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
