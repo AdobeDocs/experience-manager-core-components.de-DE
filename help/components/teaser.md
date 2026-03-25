@@ -36,7 +36,7 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 
 ## Unterstützung für Remote Assets {#remote-assets}
 
-Die Teaser-Komponente (ab [Version 2.23.2](/help/versions.md)) unterstützt Remote-Assets. [Nach der Konfiguration ](/help/developing/remote-assets.md) Sie Assets aus einem Remote-Service für Ihre Teaser-Komponente auswählen.
+Die Teaser-Komponente (ab [Version 2.23.2](/help/versions.md)) unterstützt Remote-Assets. [Nach der Konfiguration &#x200B;](/help/developing/remote-assets.md) Sie Assets aus einem Remote-Service für Ihre Teaser-Komponente auswählen.
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
