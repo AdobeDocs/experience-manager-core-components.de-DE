@@ -5,10 +5,10 @@ breadcrumb-title: Anleitung zu den Kernkomponenten
 feature: Core Components
 user-guide-description: Nutzen Sie für herkömmliche AEM-Projekte die erweiterbaren Kernkomponenten, damit Autorinnen und Autoren mühelos Inhalte erstellen können.
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: 1ac3d987337f8279e762ab5357d32bb732dea0be
+source-git-commit: ece6b7092a19c98c836d58f3f4d5ff15a0276b1c
 workflow-type: tm+mt
 source-wordcount: '428'
-ht-degree: 98%
+ht-degree: 96%
 
 ---
 
@@ -122,12 +122,12 @@ ht-degree: 98%
       + [Adaptive Formulare – horizontale Registerkarten](/help/adaptive-forms/components/horizontal-tabs.md)
       + [Adaptive Formulare – Bild](/help/adaptive-forms/components/image.md)
       + [Adaptive Formulare – Numerisches Feld](/help/adaptive-forms/components/numeric-box.md)
-      + [Adaptive Formulare – Kennwortfeld](/help/adaptive-forms/components/password-box.md)
+      + {hide-from-toc}[Adaptive Forms - Kennwortfeld](/help/adaptive-forms/components/password-box.md)
       + [Adaptive Formulare – Bedienfeld](/help/adaptive-forms/components/panel.md)
       + [Adaptive Formulare – CAPTCHA](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
       + [Adaptive Formulare – Optionsschaltfläche](/help/adaptive-forms/components/radio-button.md)
       + [Adaptive Formulare – Schaltfläche „Zurücksetzen“](/help/adaptive-forms/components/reset-button.md)
-      + [Überprüfung adaptiver Formulare](/help/adaptive-forms/components/review.md)
+      + {hide-from-toc}[Überprüfung adaptiver Formulare](/help/adaptive-forms/components/review.md)
       + [Adaptives Formular – Freihandsignatur](/help/adaptive-forms/components/scribble-signature.md)
       + [Adaptive Formulare – Schaltfläche „Senden“](/help/adaptive-forms/components/submit-button.md)
       + [Adaptives Formular – Schalter](/help/adaptive-forms/components/adaptive-form-switch.md)
@@ -141,7 +141,7 @@ ht-degree: 98%
       + [Fußzeile](/help/adaptive-forms/components/footer.md)
    + [Anpassen von Kernkomponenten für adaptive Formulare](/help/developing/customize-adaptive-forms-core-components.md)
    + [Beispiel-Designs und -vorlagen](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
-   + [Validierungsmuster für Texteingaben aktivieren](/help/adaptive-forms/enable-validation-patterns.md)
+   + {hide-from-toc}[Validierungsmuster für Texteingaben aktivieren](/help/adaptive-forms/enable-validation-patterns.md)
 + Entwicklung {#developing}
    + [Entwickeln von Kernkomponenten](/help/developing/overview.md)
    + [Wege zum Erfolg](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=de)
