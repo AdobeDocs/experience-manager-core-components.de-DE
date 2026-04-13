@@ -3,7 +3,7 @@ title: Aktivieren und Verwenden von Validierungsmustern für Texteingaben in Ado
 description: Erfahren Sie, wie Sie Vorlagenrichtlinien konfigurieren, um Validierungsmuster wie Telefonnummern, Sozialversicherungsnummern und Postleitzahlen offenzulegen, und diese dann in Ihrem adaptiven Forms verwenden.
 hide: true
 exl-id: e4500666-1346-4558-861d-da9541dcef51
-source-git-commit: ece6b7092a19c98c836d58f3f4d5ff15a0276b1c
+source-git-commit: 59064c359aea14af99675709bbddf9a933a959df
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 1%
