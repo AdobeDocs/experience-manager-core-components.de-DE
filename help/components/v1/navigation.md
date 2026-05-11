@@ -5,9 +5,9 @@ role: Developer, Admin, User
 exl-id: 0b7de79a-e0c7-4cf9-b5a9-c78cbc3ecd2f
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1435'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Mit der Navigationskomponente können Benutzer leicht durch eine globalisierte S
 
 In der Navigationskomponente wird ein Seitenbaum aufgelistet, sodass Benutzer einer Website problemlos in der Site-Struktur navigieren können.
 
-Die Navigationskomponente kann die globalisierte Site-Struktur Ihrer Site automatisch erkennen und [sich automatisch an eine lokalisierte Seite anpassen.](#localized-site-structure) Darüber hinaus kann sie jede beliebige Site-Struktur unterstützen, indem sie [Shadow-Umleitungsseiten](#shadow-structure) verwendet, um eine andere Struktur als Ihre Hauptinhaltsstruktur darzustellen.
+Die Navigationskomponente kann die globale Site-Struktur Ihrer Site automatisch erkennen und [automatisch an eine lokalisierte Site anpassen](#localized-site-structure). Darüber hinaus kann eine beliebige Site-Struktur durch die Verwendung von [Shadow-Umleitungsseiten](#shadow-structure) zur Darstellung einer anderen Struktur als Ihrer Hauptinhaltsstruktur unterstützt werden.
 
 Das Dialogfeld [„Bearbeiten“](#edit-dialog) ermöglicht es dem Inhaltsautor, die Navigationsstammseite zusammen mit der Navigationstiefe zu definieren. Das [Dialogfeld „Design“](#design-dialog) ermöglicht es dem Vorlagenautor, Standardwerte für den Navigationsstamm und die Tiefe zu definieren.
 

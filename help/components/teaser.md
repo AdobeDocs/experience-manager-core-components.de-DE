@@ -4,9 +4,9 @@ description: Die Teaser-Komponente kann ein Bild, einen Titel, Rich-Text und opt
 role: Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
 source-git-commit: ff337aee45ea3d39f9669a8fa46accaed854532a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1098'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 
 ## Unterstützung für Remote Assets {#remote-assets}
 
-Die Teaser-Komponente (ab [Version 2.23.2](/help/versions.md)) unterstützt Remote-Assets. [Nach der Konfiguration &#x200B;](/help/developing/remote-assets.md) Sie Assets aus einem Remote-Service für Ihre Teaser-Komponente auswählen.
+Die Teaser-Komponente (ab [Version 2.23.2](/help/versions.md)) unterstützt Remote-Assets. [Sobald konfiguriert,](/help/developing/remote-assets.md) können Sie Assets aus einem Remote-Dienst für Ihre Teaser-Komponente auswählen.
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
@@ -56,7 +56,7 @@ Der Inhaltsautor kann das Dialogfeld „Konfigurieren“ verwenden, um die Eigen
 
 ![Registerkarte „Links“ im Dialogfeld „Bearbeiten“ der Teaser-Komponente](/help/assets/teaser-edit-links.png)
 
-Der Teaser-Titel, die Beschreibung und das Bild können von der verknüpften Seite oder von der Seite übernommen werden, die in der ersten call to action verknüpft ist. Wenn weder ein Link noch ein call to action angegeben ist, werden Titel, Beschreibung und Bild von der aktuellen Seite übernommen.
+Der Teaser-Titel, die Beschreibung und das Bild können von der verknüpften Seite oder von der Seite übernommen werden, die über den ersten Aktionsaufruf verknüpft ist. Wenn weder ein Link noch ein Aktionsaufruf angegeben ist, werden der Titel, die Beschreibung und das Bild von der aktuellen Seite übernommen.
 
 * **Link** – Diese Datei verweist auf eine Inhaltsseite, eine externe URL oder einen Seitenanker.
 * **Link in neuer Registerkarte öffnen** – Wenn diese Option aktiviert ist, wird der Link in einer neuen Browser-Registerkarte geöffnet.

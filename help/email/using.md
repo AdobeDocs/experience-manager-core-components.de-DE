@@ -5,9 +5,9 @@ role: Developer, Admin, User
 exl-id: 0e79ca8f-eb0a-4519-b1e8-a9d3b0b99987
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '683'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Erfahren Sie mehr über die Grundlagen der Installation, Konfiguration und Verwe
 
 ## Installieren der E-Mail-Kernkomponenten {#installation}
 
-Die E-Mail-Kernkomponenten können mit AEM 6.5 verwendet werden. Weitere Informationen finden [&#x200B; im Abschnitt „Anforderungen“ &#x200B;](introduction.md#requirements) Einführungsdokuments für E-Mail-Kernkomponenten .
+Die E-Mail-Kernkomponenten können mit AEM 6.5 verwendet werden. Weitere Informationen finden Sie im [Abschnitt „Anforderungen“ des Einführungsdokuments für E-Mail-Kernkomponenten](introduction.md#requirements).
 
 ### Installieren von Kernkomponenten {#core-components}
 

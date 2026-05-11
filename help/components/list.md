@@ -4,7 +4,7 @@ description: Die Kernkomponente „Listenkomponente“ ermöglicht die einfache 
 role: Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
 source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1214'
 ht-degree: 100%
 
@@ -86,8 +86,8 @@ Die Liste kann aus den untergeordneten Seiten der aktuellen Seite oder einer and
    * Die Seite, deren untergeordnete Seiten in die Liste aufgenommen werden sollen
    * Frei lassen, um aktuelle Seite zu verwenden
 
-* **Untergeordnete Tiefe**,
-Wie viele Ebenen in der Hierarchie angelegt werden sollten
+* **Elementtiefe**
+Wie viele Ebenen in der Hierarchie verwendet werden sollten
 
 #### Liste fester Werte {#fixed-list}
 
@@ -115,7 +115,7 @@ Die Liste kann mithilfe der Ergebnisse einer Suche aus AEM-Inhalten erstellt wer
 
 ![Optionen für die Suchliste](/help/assets/list-edit-search.png)
 
-* **Suchabfrage**
+* **Suchanfrage**
 Die Zeichenfolge, für die eine Volltextsuche ausgeführt wird, um die Listenelemente zu generieren
 * **Suche in**
 Wo die Suche ausgeführt werden soll
@@ -129,14 +129,14 @@ Die Liste kann mithilfe von Seiten erstellt werden, die bestimmten Tags unter ei
 ![Optionen für die Tag-Liste](/help/assets/list-edit-tags.png)
 
 * **Übergeordnete Seite**
-Wo die Tag-Übereinstimmung beginnen sollte
+Wo die Tag-Abstimmung beginnen sollte
    * Wählen Sie im **Dialogfeld „Auswahl“** den Speicherort in AEM aus
    * Aktuelle Seite verwenden, wenn leer
 * **Tags**
-Welche Tags sollten abgeglichen werden
+Welche Tags abgestimmt werden sollten
    * Verwenden Sie das Dialogfeld **Durchsuchen**, um die Tags auszuwählen.
 * **Übereinstimmung**
-Definieren, welche Art von Übereinstimmung eine Seite qualifizieren soll, damit sie in die Liste aufgenommen wird
+Definieren Sie, welche Art von Übereinstimmung eine Seite dazu qualifizieren soll, in die Liste aufgenommen zu werden
    * **beliebiges Tag**
    * **alle Tags**
 
@@ -147,15 +147,15 @@ Unabhängig davon, wie Sie die Liste erstellen, gibt es bestimmte Sortieroptione
 ![Sortieroptionen](/help/assets/list-edit-sort-options.png)
 
 * **Sortieren nach**
-Anordnung der Elemente
+Wie die Elemente sortiert werden sollen
    * **Titel**
    * **Datum der letzten Änderung**
 * **Sortierreihenfolge**
-Die Reihenfolge, in der die Elemente angeordnet werden sollen
+Die Reihenfolge, in der die Elemente sortiert werden sollen
    * **Aufsteigend**
    * **Absteigend**
 * **Maximale Elemente**
-Maximale Anzahl der in der Liste angezeigten Elemente.
+Die maximale Anzahl der in der Liste angezeigten Elemente.
    * Leer lassen, um alle Elemente zurückzugeben.
 * **ID** – Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
    * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
@@ -194,15 +194,15 @@ Auf der Registerkarte **Listen-Einstellungen** kann das Datumsformat sowie der L
 ![Listeneinstellung im Dialogfeld „Design“ der Listenkomponente](/help/assets/list-design-list-settings.png)
 
 * **Datumsformat**
-Format für die Anzeige des letzten Änderungsdatums
+Das Format für die Anzeige des letzten Änderungsdatums
 * **Untergeordnete Elemente deaktivieren**
-Deaktiviert den Listentyp „untergeordnete Elemente“ in der Komponente
+Deaktiviert den untergeordneten Listentyp in der Komponente
 * **Statische Anzeige deaktivieren**
-Deaktiviert den Listentyp „Statisch“ in der Komponente
+Deaktiviert den statischen Listentyp in der Komponente
 * **Suche deaktivieren**
-Deaktiviert den Listentyp „Suche“ in der Komponente
+Deaktiviert den Suchlistentyp in der Komponente
 * **Tags deaktivieren**
-Deaktiviert den Listentyp „Tags“ in der Komponente
+Deaktiviert den Tag-Listentyp in der Komponente
 
 ### Elementeinstellungen {#item-settings}
 
@@ -211,11 +211,11 @@ Auf der Registerkarte **Element-Einstellungen** können die Formatierungsoptione
 ![Elementeinstellungen im Dialogfeld „Design“ der Listenkomponente](/help/assets/list-design-item-settings.png)
 
 * **Elemente verknüpfen**
-Aktiviert die Option „Elemente verknüpfen“ im [Dialogfeld „Bearbeiten“](#edit-dialog)
+Aktivieren Sie die Option „Elemente verknüpfen“ im [Dialogfeld „Bearbeiten“](#edit-dialog)
 * **Beschreibungen anzeigen**
-Aktiviert die Option „Beschreibungen anzeigen“ im [Dialogfeld „Bearbeiten“](#edit-dialog)
+Aktivieren Sie die Option „Beschreibungen anzeigen“ im [Dialogfeld „Bearbeiten“](#edit-dialog)
 * **Datum anzeigen**
-Aktiviert die Option „Datum anzeigen“ im [Dialogfeld „Bearbeiten“](#edit-dialog)
+Aktivieren Sie die Option „Datum anzeigen“ im [Dialogfeld „Bearbeiten“](#edit-dialog)
 
 ### Registerkarte „Arten“ {#styles-tab}
 

@@ -5,9 +5,9 @@ feature: Core Components, AEM Project Archetype
 role: Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1326'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Der Projektarchetyp erleichtert die ersten Schritte der Entwicklung in AEM. Sie 
 
 * **WKND-Tutorial:** Eine hervorragende Einführung in die Entwicklung in AEM, einschließlich der Nutzung des Archetyps, finden Sie im Tutorial [Erste Schritte mit AEM Sites – WKND-Tutorial](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=de). Es bietet ein praktisches Beispiel dafür, wie Sie mithilfe des Archetyps ein einfaches Projekt implementieren können.
 * **WKND Events Tutorial:** Wenn Sie besonders an der Entwicklung von Single Page Applications (SPA) in AEM interessiert sind, sollten Sie sich das entsprechende [WKND Events Tutorial](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html?lang=de) ansehen.
-* **Beginnen Sie alleine!** - Sie können den [aktuellen Projektarchetyp auf GitHub herunterladen](https://github.com/adobe/aem-project-archetype) und Ihr erstes Projekt selbst erstellen.
+* **Legen Sie selbst los:** Sie können den [aktuellen, auf GitHub verfügbaren Projektarchetypen](https://github.com/adobe/aem-project-archetype) ganz einfach herunterladen und Ihr erstes Projekt erstellen.
 
 ## Verwendung des Archetyps {#how-to-use-the-archetype}
 
@@ -79,7 +79,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 ### Modulstruktur {#module-structure}
 
-Der Abschnitt `<modules>` des übergeordneten POM definiert die Module, die das Projekt erstellen wird. Standardmäßig erstellt das Projekt [die zuvor definierten Standardmodule.](#what-you-get) Bei der Weiterentwicklung eines Projekts können immer weitere Module hinzugefügt werden.
+Der Abschnitt `<modules>` des übergeordneten POM definiert die Module, die das Projekt erstellen wird. Standardmäßig erstellt das Projekt [die zuvor definierten Standardmodule](#what-you-get) Im Laufe der Entwicklung eines Projekts können jederzeit weitere Module hinzugefügt werden.
 
 ### Abhängigkeiten {#dependencies}
 
@@ -87,7 +87,7 @@ Im Abschnitt `<dependencyManagement>` des übergeordneten POM werden alle Abhän
 
 #### Uber-Jar {#uber-jar}
 
-Eine der wichtigsten Abhängigkeiten ist die [AEM Java-API-JAR.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html?lang=de) Dies umfasst alle AEM-APIs mit nur einem Abhängigkeitseintrag für die Version von AEM.
+Eine der wichtigsten Abhängigkeiten ist [AEM-Java-API-Jar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html?lang=de).Diese umfasst alle AEM-APIs mit nur einem einzigen Abhängigkeitseintrag für die Version von AEM.
 
 >[!NOTE]
 >
@@ -95,7 +95,7 @@ Eine der wichtigsten Abhängigkeiten ist die [AEM Java-API-JAR.](https://experie
 
 #### Kernkomponenten {#core-components}
 
-Der Archetyp nutzt natürlich die [Kernkomponenten.](/help/introduction.md) Um die Kernkomponenten in allen Bereitstellungen zu nutzen, ist es daher Best Practice, sie als Teil des Maven-Projekts einzubeziehen.
+Der Archetyp nutzt natürlich die [Kernkomponenten](/help/introduction.md). Um die Kernkomponenten in allen Bereitstellungen zu nutzen, empfiehlt es sich daher, sie in das Maven-Projekt einzubeziehen.
 
 Die Datei „core.wcm.components.example“enthält eine Reihe von Beispielseiten, die Beispiele für die Kernkomponenten illustrieren. Als Best Practice sollten Sie bei der Bereitstellung eines Projekts für die Produktion diese Abhängigkeit und die Einbeziehung von Unterpaketen entfernen.
 

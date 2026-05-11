@@ -1,7 +1,7 @@
 ---
 source-git-commit: bf6953f24388ed08cd5a66bb51011b3ac82fb58e
 workflow-type: ht
-source-wordcount: '254'
+source-wordcount: '748'
 ht-degree: 100%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 100%
 - [Senden von Daten adaptiver Formulare an eine Datenbank](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/data-integration.html?lang=de)
 - [Senden von Daten adaptiver Formulare an einen REST-Endpunkt](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#submit-to-rest-endpoint?lang=de)
 - [Senden von Daten adaptiver Formulare an einen AEM-Workflow](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=de#invoke-an-aem-workflow)
-- [Verwenden von Forms Portal zur Auflistung von adaptiven AEM-Formularen auf einer AEM-Website](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-forms-portal.html?lang=de)
+- [Verwenden des Formularportals zur Auflistung von adaptiven AEM-Formularen auf einer AEM-Website](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-forms-portal.html?lang=de)
 
 ## Verwandte Themen {#more-like-this}
 
@@ -81,7 +81,7 @@ ht-degree: 100%
 - [Optionsschaltfläche](/help/adaptive-forms/components/radio-button.md)
 - [Schaltfläche „Zurücksetzen“](/help/adaptive-forms/components/reset-button.md)
 - [Überprüfung](/help/adaptive-forms/components/review.md)
-- [Freihändige Unterschrift](/help/adaptive-forms/components/scribble-signature.md)
+- [Freihandsignatur](/help/adaptive-forms/components/scribble-signature.md)
 - [Schaltfläche „Senden“](/help/adaptive-forms/components/submit-button.md)
 - [Textfeld](/help/adaptive-forms/components/text-box.md)
 - [Text](/help/adaptive-forms/components/text.md)

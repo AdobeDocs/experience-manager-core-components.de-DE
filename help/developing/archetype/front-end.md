@@ -5,9 +5,9 @@ feature: Core Components, AEM Project Archetype
 role: Developer, Admin
 exl-id: 99132b49-bd06-4ac2-9348-12c0dfdfe8b2
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '710'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Jedes daraus resultierende Projekt muss jedoch die Ergebnisse beider Entwicklung
 
 ## Bestimmen des Markups {#determining-markup}
 
-Unabhängig davon, welchen Frontend-Entwicklungs-Workflow Sie für Ihr Projekt implementieren, müssen sich die Backend-Entwickler und Frontend-Entwickler zunächst auf das Markup einigen. Normalerweise definiert AEM das Markup, das von den Kernkomponenten bereitgestellt wird. [Dies kann jedoch bei Bedarf angepasst werden.](/help/developing/customizing.md#customizing-the-markup)
+Unabhängig davon, welchen Frontend-Entwicklungs-Workflow Sie für Ihr Projekt implementieren, müssen sich die Backend-Entwickler und Frontend-Entwickler zunächst auf das Markup einigen. In der Regel definiert AEM das Markup, das von den Kernkomponenten bereitgestellt wird. [Dies kann jedoch bei Bedarf angepasst werden.](/help/developing/customizing.md#customizing-the-markup)
 
 ## Mögliche Frontend-Entwicklungs-Workflows {#possible-workflows}
 
@@ -68,7 +68,7 @@ Mit [Storybook](https://storybook.js.org) können Sie mehr atomare Frontend-Entw
 
 ## Überblick über Clientlibs {#clientlibs}
 
-Das Frontend-Modul wird mithilfe einer [AEM-Client-Bibliothek bereitgestellt](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=de). Beim Ausführen des NPM-Build-Skripts wird die App erstellt, und das `aem-clientlib-generator`-Paket wandelt die resultierende Build-Ausgabe in eine solche Client-Bibliothek um.
+Das Frontend-Modul wird über eine [AEM-Clientlib](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=de) verfügbar gemacht. Beim Ausführen des NPM-Build-Skripts wird die Anwendung erstellt und das Paket `aem-clientlib-generator` nimmt die resultierende Build-Ausgabe und wandelt sie in eine solche Clientlib um.
 
 Eine Clientlib besteht aus den folgenden Dateien und Verzeichnissen:
 

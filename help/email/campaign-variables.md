@@ -5,7 +5,7 @@ role: Developer, Admin, User
 exl-id: 124ff5bf-6612-4baf-b0ff-6b1a95b455c1
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Die Liste der verfügbaren Personalisierungsfelder wird mit Ihrer Adobe Campaign
 
 Das Dialogfeld „Adobe Campaign-Variable auswählen“ ist in vielen Bearbeitungsdialogfeldern der E-Mail-Kernkomponenten verfügbar. Um sie zu verwenden, klicken Sie neben dem entsprechenden Feld einfach auf **Adobe Campaign-Variable auswählen**. Dieses Symbol kann zwei Formen annehmen.
 
-![Adobe Campaign-Button](/help/email/assets/campaign-button.png)
+![Schaltfläche „Adobe Campaign“](/help/email/assets/campaign-button.png)
 ![Symbol „Adobe Campaign-Variable auswählen“](/help/email/assets/select-adobe-campaign-variable-icon.png)
 
 Durch Klicken auf beide Symbole wird das Dialogfeld **Adobe Campaign-Variable auswählen** angezeigt.

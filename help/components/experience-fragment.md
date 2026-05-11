@@ -4,9 +4,9 @@ description: Mit der Experience Fragment-Komponente kann der Inhaltsautor einer 
 role: Developer, Admin, User
 exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '895'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -124,7 +124,7 @@ Das Dialogfeld „Konfigurieren“ ermöglicht dem Inhaltsautor die Auswahl der 
 
 Verwenden Sie die Schaltfläche **Auswahldialog öffnen**, um die Komponentenauswahl zu öffnen und auszuwählen, welche Variation der Experience Fragment-Komponente zur Inhaltsseite hinzugefügt werden soll.
 
-Wenn Sie die Experience Fragment-Komponente zu einer Vorlage hinzufügen, beachten Sie, dass sie automatisch lokalisiert wird, vorausgesetzt, die Experience Fragments sind lokalisiert. Was auf der Seite gerendert wird, kann sich daher von der Komponente unterscheiden, die Sie explizit auswählen. [Weitere Informationen finden Sie &#x200B;](#example) obigen Beispiel .
+Wenn Sie die Experience Fragment-Komponente zu einer Vorlage hinzufügen, wird sie automatisch lokalisiert, sofern die Experience Fragments lokalisiert sind. Was auf der Seite gerendert wird, kann sich daher von der Komponente unterscheiden, die Sie explizit auswählen. Weitere Informationen finden Sie im [oben stehenden Beispiel](#example).
 
 Sie können auch eine **ID** festlegen. Diese Option dient zur Kontrolle der eindeutigen Kennung der Komponente in der HTML-Datei und auf der [Datenschicht](/help/developing/data-layer/overview.md).
 

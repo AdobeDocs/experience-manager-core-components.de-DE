@@ -4,9 +4,9 @@ description: 'Um mit Kernkomponenten in Ihrem eigenen Projekt loszulegen, müsse
 role: Developer, Admin, User
 exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1043'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Einige Punkte, die Sie beachten sollten, wenn Sie die Kernkomponenten in AEMaaCS
 * Die Projekt-Build-Pipeline erzeugt Warnungen im Protokoll, wenn sie die Kernkomponenten erneut als Teil von `/apps` einbindet, und ignoriert die als Teil Ihres Projekts eingebettete Version.
    * In einer kommenden Version wird das Einbinden der Kernkomponenten den Pipeline-Build erneut fehlschlagen lassen.
 * Wenn Ihr Projekt zuvor die Kernkomponenten in `/apps` enthielt, [müssen Sie Ihr Projekt möglicherweise anpassen.](/help/developing/overview.md#via-aemaacs)
-* Obwohl sich die Kernkomponenten jetzt in `/libs` befinden, wird nicht empfohlen, in `/apps` eine Überlagerung desselben Pfads zu erstellen. [Das Proxy-Komponentenmuster](/help/developing/guidelines.md#proxy-component-pattern) sollte stattdessen verwendet werden, wenn ein Aspekt der Komponenten angepasst werden muss.
+* Auch wenn sich die Kernkomponenten jetzt in `/libs` befinden, ist es nicht empfehlenswert, ein Overlay des gleichen Pfades in `/apps` zu erstellen. Stattdessen sollte [das Proxy-Komponentenmuster](/help/developing/guidelines.md#proxy-component-pattern) verwendet werden, wenn irgendein Aspekt der Komponenten angepasst werden muss.
 * Damit die [Inhaltsverzeichnis-Komponente](/help/components/tableofcontents.md) ihren Inhalt rendern kann, muss ein Filter in OSGi konfiguriert werden.
    * [Bitte lesen Sie die GitHub-Dokumentation der Komponente](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_de) für weitere Informationen.
 
@@ -65,7 +65,7 @@ Für jede Kernkomponente, die für eine Site verwendet werden soll, müssen Sie 
 1. Erstellen Sie eine entsprechende Proxy-Komponente im Komponentenordner der Site.
 
    **Beispiel**
-Unter `/apps/my-site/components` Erstellen eines Titelknotens des Typs `cq:Component`
+Erstellen Sie unter `/apps/my-site/components` einen Titelknotens des Typs `cq:Component`
 
 1. Verweisen Sie auf die entsprechende Kernkomponentenversion mit dem übergeordneten Typ.
 
@@ -76,7 +76,7 @@ Fügen Sie folgende Eigenschaft hinzu:\
 1. Definieren Sie die Gruppe, den Titel und optional die Beschreibung der Komponente. Diese Werte sind projektspezifisch und bestimmen, wie die Komponente Autoren offensteht.
 
    **Beispiel**
-Fügen Sie folgende Eigenschaften hinzu:
+Fügen Sie die folgenden Eigenschaften hinzu:
 
    ```shell
    componentGroup="My Site"

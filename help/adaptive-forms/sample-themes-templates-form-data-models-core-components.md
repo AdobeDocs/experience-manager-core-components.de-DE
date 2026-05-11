@@ -7,9 +7,9 @@ role: Admin, User
 level: Intermediate
 exl-id: aef6e88b-dcae-4777-9893-9257d7702f43
 source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1384'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -41,10 +41,10 @@ Folgende Beispiel-Designs, -vorlagen und -formulardatenmodelle sind im Inhaltspa
 Anhand von Beispiel-Designs können Autorinnen und Autoren die Formatierung für Formulare definieren und anpassen. Schon mit Grundkenntnissen von CSS können sie Designs nach Bedarf anpassen.
 
 **Wie bekomme ich diese Designs?**
-Diese Designs erhalten Sie, indem Sie die folgenden Schritte für die Umgebung **AEM as a Cloud Service** ausführen:
+Sie erhalten diese Designs anhand der folgenden Schritte, die unten für die **AEM as a Cloud Service**-Umgebung beschrieben sind:
 
 <!-- 1. [Enable Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=de) -->
-1. [AEM Archetype 47-Projekt oder höher in Ihrer Umgebung bereitstellen](https://github.com/adobe/aem-project-archetype)
+1. [Bereitstellen eines Projekts des AEM-Archetyps 47 oder höher in Ihrer Umgebung](https://github.com/adobe/aem-project-archetype)
 
 
 Wenn Sie einen AEM-Archetyp bereitstellen, können Sie nur die vorkonfigurierten Designs in Ihren Formularen verwenden, um die Designs gemäß Ihren Anforderungen anzupassen. [Verwenden Sie die Frontend-Pipeline](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=de), um die Designs bereitzustellen.
@@ -200,8 +200,8 @@ Mit der Formularvorlage „Registrierung für Nebenleistungen“ können Sie ein
 
 ### Nebenleistungen für Mitarbeitende – Übersicht {#Employee-Benefits-Summary}
 
-Die Formularvorlage „Nebenleistungen für Mitarbeitende – Übersicht“ wird verwendet, um ein Formular zu erstellen, in dem wichtige Details zu den Nebenleistungen einer Einzelperson erfasst werden. Es hilft bei der schnellen und genauen Bewertung der Abdeckung und bietet einen umfassenden Überblick über effiziente Hilfe und Unterstützung.
-![Übersicht über die Leistungen an Arbeitnehmer](/help/adaptive-forms/assets/Employee-benefits-summary.png)
+Die Formularvorlage „Nebenleistungen für Mitarbeitende – Übersicht“ wird verwendet, um ein Formular zu erstellen, in dem wichtige Details zu den Nebenleistungen einer Einzelperson erfasst werden. Sie hilft bei der schnellen und präzisen Bewertung der Absicherung, indem ein umfassender Überblick gegeben wird, um effiziente Hilfe und Unterstützung leisten zu können.
+![Nebenleistungen für Mitarbeitende – Übersicht](/help/adaptive-forms/assets/Employee-benefits-summary.png)
 
 
 ### Anforderung eines Kontoauszugs {#Request-for-Account-Statement}

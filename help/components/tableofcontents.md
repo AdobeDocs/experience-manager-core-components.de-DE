@@ -4,9 +4,9 @@ description: Die Inhaltsverzeichniskomponente erstellt ein Inhaltsverzeichnis, d
 role: Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '753'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -85,4 +85,4 @@ Mithilfe des Design-Dialogs kann der Autor der Vorlage den Standardwert für den
 
 ### Registerkarte „Stile“ {#styles-tab}
 
-Die Inhaltsverzeichniskomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
+Die Komponente „Inhaltsverzeichnis“ unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).

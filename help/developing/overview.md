@@ -4,9 +4,9 @@ description: Die Kernkomponenten bieten leistungsfähige und erweiterbare Basisk
 role: Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1339'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Die Kernkomponenten bieten leistungsfähige und erweiterbare Basiskomponenten mi
 
 ## So haben Sie Erfolg mit den Kernkomponenten {#how-to-succeed}
 
-Die Kernkomponenten sind leistungsstark, flexibel und einfach zu verwenden und anzupassen. [Befolgen Sie einige wichtige &#x200B;](success.md), um sicherzustellen, dass Ihr Projekt mit den Kernkomponenten erfolgreich ist.
+Die Kernkomponenten sind leistungsstark, flexibel und einfach zu verwenden und anzupassen. [Die Einhaltung einiger wichtiger Richtlinien](success.md) stellt sicher, dass Ihr Projekt mit den Kernkomponenten erfolgreich ist.
 
 ## Migration zu den Kernkomponenten
 

@@ -4,9 +4,9 @@ description: Verwenden oder Anpassen der Kernkomponente „Fußzeile“ für ada
 role: Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '783'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -63,11 +63,11 @@ Im Dialogfeld „Konfigurieren“ können Sie Ihre Fußzeile einfach anpassen. S
 ![Registerkarte „Eigenschaften“](/help/adaptive-forms/assets/footer_propertiestab.png)
 
 - **Dialogfeld „Bearbeiten“**
-Das Dialogfeld „Bearbeiten“ bietet standardmäßige Rich-Text-Formatierungswerkzeuge, mit denen der Benutzende Text für die Fußzeile erstellen kann.
+Das Dialogfeld „Bearbeiten“ bietet standardmäßige Rich-Text-Formatierungs-Tools, mit denen Benutzende Text für die Fußzeile erstellen können.
 
-- **Fett** - Mit dieser Option wird Fett oder Fett formatiert   Formatieren von Text, der nach dem Cursor eingegeben wird. `Ctrl+B` ist ein Tastaturbefehl.
+- **Fett** – Mit dieser Option wird Text fett formatiert, der zuvor markiert wurde oder nach dem Cursor eingegeben wird. `Ctrl+B` ist ein Tastaturbefehl.
 
-- **Kursiv** - Mit dieser Option wird der Text kursiv formatiert.   Kursiv Formatierter Text nach dem Cursor `Ctrl+I` ist ein Tastaturbefehl.
+- **Kursiv** – Mit dieser Option wird der Text kursiv formatiert, der zuvor markiert wurde oder nach dem Cursor eingegeben wird. `Ctrl+I` ist ein Tastaturbefehl.
 
 ![Aufzählungsoptionen](/help/adaptive-forms/assets/footer_bullet.png)
 

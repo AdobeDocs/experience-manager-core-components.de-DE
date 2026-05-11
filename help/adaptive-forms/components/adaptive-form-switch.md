@@ -4,9 +4,9 @@ description: Verwenden oder Anpassen der Kernkomponente „Schalter“ für adap
 role: Developer, Admin, User
 exl-id: 6ff2ca76-1514-42eb-bde3-60259af2d187
 source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1948'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -35,13 +35,13 @@ Die häufigsten Gründe für die Verwendung von einem Schalter in einem adaptive
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die Kernkomponente „Adaptive Forms Switch“ wurde als Teil der Kernkomponenten 2.0.64 veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
+Die Kernkomponente „Schalter“ für adaptive Formulare wurde als Teil der Kernkomponenten 2.0.64 veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
 
 |  |  |
 |---|---|
 | Komponentenversion | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Kompatibel mit<br>[Version 2.0.64](/help/adaptive-forms/version.md) und höher\|Kompatibel\|Kompatibel |
+| v1 | Kompatibel mit<br>[Version 2.0.64](/help/adaptive-forms/version.md) und höher\|Kompatibel\|Kompatibel |
 
 Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokument [Kernkomponenten-Versionen](/help/adaptive-forms/version.md).
 

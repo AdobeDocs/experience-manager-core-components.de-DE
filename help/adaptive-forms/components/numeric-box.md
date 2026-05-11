@@ -4,9 +4,9 @@ description: Verwenden oder Anpassen der Kernkomponente „Zahleneingabe“ für
 role: Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2446'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -178,7 +178,7 @@ Mit der Option „Benutzerdefinierte Eigenschaften“ können Sie mithilfe der F
 
 ### Registerkarte „Formate“ {#formats-tab}
 
-Auf der Registerkarte „Formate“ können Sie standardmäßige und benutzerdefinierte Datumsformate angeben. Darüber hinaus können Sie auch ein neues benutzerdefiniertes Zahlenformat mit der Schaltfläche **Hinzufügen** hinzufügen.
+Auf der Registerkarte „Formate“ können Sie standardmäßige und benutzerdefinierte Datumsformate angeben. Außerdem können Sie ein neues benutzerdefiniertes Zahlenformat hinzufügen, indem Sie auf die Schaltfläche **Hinzufügen** klicken.
 
 ![Registerkarte „Format“](/help/adaptive-forms/assets/emailinput_formattab.png)
 
@@ -190,12 +190,12 @@ Um die verfügbaren Formate für die Komponente anzuzeigen, müssen Sie sie zur 
 
 So fügen Sie der Vorlagenrichtlinie Formate hinzu:
 
-1. Öffnen Sie die entsprechende Vorlage, die mit einem adaptiven Formular oder Sites verknüpft ist, im Vorlageneditor.
-2. Wählen Sie **Abschnitt „Zugelassene**&quot; die Komponente **[!UICONTROL Zahleneingabe]** aus.
-   ![Richtlinie für Datumsauswahl-Vorlagen](/help/adaptive-forms/assets/number-input-policy.png)
-3. Klicken Sie auf **[!UICONTROL Hinzufügen]**, um eine neue Richtlinie für die Zahleneingaben -Komponente zu erstellen.
+1. Öffnen Sie im Vorlageneditor die entsprechende Vorlage, die mit einem adaptiven Formular oder Sites verknüpft ist.
+2. Wählen Sie im Abschnitt **Zugelassene Komponenten** die Komponente **[!UICONTROL Zahleneingabe]** aus.
+   ![Vorlagenrichtlinie für Datumsauswahl](/help/adaptive-forms/assets/number-input-policy.png)
+3. Klicken Sie auf das Symbol **[!UICONTROL Hinzufügen]**, um eine neue Richtlinie für die Komponente „Zahleneingabe“ zu erstellen.
 4. Geben Sie einen Namen für die Richtlinie ein und wählen Sie alle erforderlichen Formate auf der Registerkarte **Format** aus.
-   ![Richtlinie erstellen](/help/adaptive-forms/assets/date-picker-format-policy.png)
+   ![Erstellen einer Richtlinie](/help/adaptive-forms/assets/date-picker-format-policy.png)
 5. Klicken Sie auf **[!UICONTROL Fertig]**.
 
 <!--

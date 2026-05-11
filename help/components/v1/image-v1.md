@@ -5,7 +5,7 @@ index: false
 role: Developer, Admin, User
 exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1369'
 ht-degree: 100%
 
@@ -144,7 +144,7 @@ Das Dialogfeld „Bearbeiten“ ermöglicht dem Inhaltsautor das Zuschneiden, Ä
       * Verwenden Sie die Option „Pfadwähler“, um einen Pfad in AEM auszuwählen.
       * Wenn der Pfad sich nicht in AEM befindet, verwenden Sie die absolute URL. Nicht absolute Pfade werden relativ zu AEM interpretiert.
 
-      * **Alternativer Text**
+      * **Alternativtext**
 Alternative Beschreibung des Pfadziels
       * **Target**
          * **Selbe Registerkarte**
@@ -166,7 +166,7 @@ Alternative Beschreibung des Pfadziels
 
   ![](/help/assets/chlimage_1-16.png)
 
-  Mit dieser Option können Sie einen Schieberegler anzeigen, um den Zoom-Grad des Bildes zu steuern.
+  Mit dieser Option können Sie einen Schieberegler anzeigen, um den Zoom-Faktor des Bildes zu steuern.
 
   ![](/help/assets/chlimage_1-17.png)
 
@@ -217,9 +217,9 @@ Auf der Registerkarte **Funktionen** können Sie festlegen, welche Optionen den 
 
   ![](/help/assets/chlimage_1-20.png)
 
-   * **Drehen** - Verwenden Sie diese Option, damit der Inhaltsautor die Option **Nach Rechts drehen** verwenden kann.
+   * **Drehen** – Verwenden Sie diese Option, damit bei der Inhaltserstellung die Option **Nach Rechts drehen** verwendet werden kann.
    * **Spiegeln**
-Verwenden Sie diese Option, damit der Inhaltsautor die Option **Horizontal spiegeln** und **Vertikal spiegeln** verwenden kann.
+Verwenden Sie diese Option, damit die Autorin bzw. der Autor der Inhalte die Option **Horizontal spiegeln** und **Vertikal spiegeln** verwenden kann.
 
   >[!CAUTION]
   >
