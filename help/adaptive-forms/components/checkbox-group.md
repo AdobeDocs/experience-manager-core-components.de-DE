@@ -4,9 +4,9 @@ description: Verwenden oder Anpassen der Kernkomponente für adaptive Formulare 
 role: Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
-source-wordcount: '2315'
-ht-degree: 91%
+workflow-type: ht
+source-wordcount: '2316'
+ht-degree: 100%
 
 ---
 
@@ -53,19 +53,19 @@ Die Kernkomponente für Kontrollkästchengruppen in adaptiven Formularen wurde i
 
 | Komponentenversion | AEM as a Cloud Service | AEM 6.5.16.0 Forms oder höher |
 |---|---|---|
-| v2 | Kompatibel mit <br>[.Version 3.0.142](/help/adaptive-forms/version.md) und höher | |
+| v2 | Kompatibel mit<br>[Version 3.0.142](/help/adaptive-forms/version.md) und höher | |
 | v1 | Kompatibel mit<br>[Version 2.0.4](/help/adaptive-forms/version.md) und höher | Kompatibel mit<br>[Version 1.1.12](/help/adaptive-forms/version.md) und höher (aber nur bis Version 2.0.0). |
 
 Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokument [Kernkomponenten-Versionen](/help/adaptive-forms/version.md).
 
 >[!NOTE]
 >
-> Die v1-Version der Kernkomponente für Kontrollkästchen-Gruppen unterstützt WCAG 2.1, das sich darauf konzentriert, Inhalte durch Befolgen von Best Practices für die Benutzerfreundlichkeit und Lesbarkeit zugänglich zu machen. Die v2-Version unterstützt WCAG 2.2, das einen Schritt weiter geht, indem eine klare, vorhersehbare und eindeutige Barrierefreiheit durch logische und semantische Gruppierung verwandter Felder betont wird, was es zu einer kritischen Anforderung für einen inklusiven Formularentwurf macht.
+> Die v1-Version der Kernkomponente „Kontrollkästchengruppe“ unterstützt WCAG 2.1, das sich darauf konzentriert, Inhalte durch Befolgen von Best Practices für Benutzerfreundlichkeit und Lesbarkeit barrierefrei zu gestalten. Die v2-Version unterstützt WCAG 2.2, das einen Schritt weiter geht, indem klare, vorhersehbare und eindeutige Barrierefreiheit durch logische und semantische Gruppierung verwandter Felder ermöglicht wird, und eine wichtige Anforderung für das Design inklusiver Formulare darstellt.
 
 <!--
 ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_de). 
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
 -->
 
 ## Technische Details {#technical-details}
@@ -81,7 +81,7 @@ Im Dialogfeld „Konfigurieren“ können Sie das Kontrollkästchen-Erlebnis fü
 
 ![Registerkarte „Allgemein“](/help/adaptive-forms/assets/checkbox_basictab.png)
 
-- **Name**: Der Name identifiziert die Komponente eindeutig im Regel-Editor. Sonderzeichen und Leerzeichen sind in den Namensfolgen nicht zulässig.
+- **Name**: Durch den Namen wird die Komponente im Regel-Editor eindeutig identifiziert.Sonderzeichen und Leerzeichen sind im Namen nicht zulässig.
 
 - **Titel**: Mit dem Titel können Sie eine Komponente in einem Formular leicht identifizieren. Standardmäßig wird der Titel oberhalb der Komponente angezeigt. Wenn Sie keinen Titel hinzufügen, wird der Name der Komponente anstelle des Titeltexts angezeigt.
 
@@ -180,15 +180,15 @@ Mit der Option „Benutzerdefinierte Eigenschaften“ können Sie mithilfe der F
 
    - **Neu anordnen**: Ordnen Sie den Namen und Wert der benutzerdefinierten Eigenschaft Antippen oder Klicken und Ziehen neu an.
 
-## Unterstützung von Feldsets und Legenden für Kontrollkästchen-Gruppen (v2)
+## Unterstützung von Feldsätzen und Legenden für Kontrollkästchengruppen (v2)
 
-<span class="preview"> Diese Funktion ist über das Early Access-Programm verfügbar. Um den Zugriff anzufordern, senden Sie eine E-Mail von Ihrer offiziellen Adresse an [aem-forms-ea@adobe.com](mailto:aem-forms-ea@adobe.com). </span>
+<span class="preview"> Diese Funktion ist über das Early-Access-Programm verfügbar. Um Zugriff anzufordern, senden Sie eine E-Mail von Ihrer offiziellen Adresse an [aem-forms-ea@adobe.com](mailto:aem-forms-ea@adobe.com). </span>
 
-Adaptive Forms-Kernkomponenten verwenden semantische `<fieldset>` und `<legend>` HTML-Elemente, um die Barrierefreiheit für Kontrollkästchen-Gruppen zu verbessern. Diese Elemente ermöglichen es Sprachausgaben, die Formularstruktur genau zu interpretieren und die Beziehungen zwischen Gruppenbeschriftungen und ihren Optionen zu vermitteln.
+Kernkomponenten verwenden semantische `<fieldset>`- und `<legend>`-HTML-Elemente, um die Barrierefreiheit für Kontrollkästchengruppen zu verbessern. Diese Elemente ermöglichen es Bildschirmlesehilfen, die Formularstruktur korrekt zu interpretieren und die Beziehungen zwischen Gruppen-Labels und ihren Optionen zu vermitteln.
 
-Kontrollkästchen-Komponente (v2) wird in einem `<fieldset>`-Element gerendert, wobei die Gruppenbeschriftung als erstes untergeordnetes Element in einen `<legend>` eingeschlossen wird. Durch diese Struktur wird sichergestellt, dass die Sprachausgabe die Gruppentitel vor dem Lesen der einzelnen Kontrollkästchen-Optionen ausgibt, sodass Benutzende mit Hilfstechnologien den Kontext und den Zweck jeder Option besser verstehen können.
+Die Komponente „Kontrollkästchengruppe“ (v2) wird in einem `<fieldset>`-Element gerendert, wobei das Gruppen-Label als erstes untergeordnetes Element in ein `<legend>`-Element eingeschlossen wird. Durch diese Struktur wird sichergestellt, dass die Bildschirmlesehilfen das Gruppen-Label vor dem Lesen der einzelnen Kontrollkästchenoptionen ausgibt, sodass Benutzende mit Hilfstechnologien den Kontext und den Zweck jeder Option besser verstehen können.
 
-![Checkbox-Feldgruppe](/help/adaptive-forms/assets/checkbox-fieldset.png)
+![Kontrollkästchenfeldsatz](/help/adaptive-forms/assets/checkbox-fieldset.png)
 
 ## Verwandte Artikel {#related-articles}
 

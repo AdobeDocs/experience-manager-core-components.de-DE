@@ -5,9 +5,9 @@ role: Developer, Admin, User
 exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '894'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -120,7 +120,7 @@ Das Dialogfeld „Konfigurieren“ ermöglicht dem Inhaltsautor bzw. der Inhalts
 
 Verwenden Sie die Schaltfläche **Auswahldialog öffnen**, um die Komponentenauswahl zu öffnen und auszuwählen, welche Variation der Experience Fragment-Komponente zur Inhaltsseite hinzugefügt werden soll.
 
-Wenn Sie die E-Mail-Experience-Fragment-Komponente zu einer Vorlage hinzufügen, wird sie automatisch lokalisiert, sofern die Experience Fragments lokalisiert sind. Was auf der Seite gerendert wird, kann sich daher von der Komponente unterscheiden, die Sie explizit auswählen. [Weitere Informationen finden Sie &#x200B;](#example) obigen Beispiel .
+Wenn Sie die E-Mail-Experience-Fragment-Komponente zu einer Vorlage hinzufügen, wird sie automatisch lokalisiert, sofern die Experience Fragments lokalisiert sind. Was auf der Seite gerendert wird, kann sich daher von der Komponente unterscheiden, die Sie auswählen. Weitere Informationen finden Sie im [oben stehenden Beispiel](#example).
 
 Sie können auch eine **ID** festlegen. Diese Option ermöglicht das Festlegen der eindeutigen Kennung der Komponente in HTM.
 

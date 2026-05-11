@@ -5,9 +5,9 @@ role: Developer, Admin, User
 exl-id: 9733659a-641c-4a98-8d10-84e93e0e0a5d
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '604'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Weitere Informationen zu Anforderungen und Installation finden Sie im [Abschnitt
 
 ## Versionsverlauf und Kompatibilität {#release-history-and-compatibility}
 
-Die E-Mail-Kernkomponenten sind so konzipiert, dass sie flexibel und mit allen unterstützten AEM-Versionen kompatibel sind. Die vollständigen Details zum Versionsverlauf der E-Mail-Kernkomponenten [finden Sie auf GitHub.](https://github.com/adobe/aem-core-email-components/releases) Die folgende Tabelle bietet jedoch einen Überblick über die Versionen der E-Mail-Kernkomponenten und ihre Kompatibilität mit AEM-Versionen und Java-Versionen.
+Die E-Mail-Kernkomponenten sind so konzipiert, dass sie flexibel und mit allen unterstützten AEM-Versionen kompatibel sind. Die vollständigen Details zum Versionsverlauf der E-Mail-Kernkomponenten [finden Sie auf GitHub](https://github.com/adobe/aem-core-email-components/releases). Die folgende Tabelle bietet jedoch einen Überblick über die Versionen der E-Mail-Kernkomponenten und ihre Kompatibilität mit AEM-Versionen und Java-Versionen.
 
 | Version | Beschreibung | AEM 6.5 | AEM 6.5 LTS | Kernkomponenten | Java | Veröffentlichungsdatum |
 |---|---|---|---|---|---|---|

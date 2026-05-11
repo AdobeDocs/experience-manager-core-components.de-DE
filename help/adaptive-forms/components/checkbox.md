@@ -4,9 +4,9 @@ description: Verwenden oder Anpassen der Kontrollkästchen-Kernkomponente für a
 role: Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
 source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1843'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -41,13 +41,13 @@ Die häufigsten Gründe für die Verwendung von Kontrollkästchen in einem adapt
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die Kernkomponente „Adaptive Forms Checkbox“ wurde als Teil der Kernkomponenten 2.0.52 veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
+Die Kernkomponente „Kontrollkästchen“ für adaptive Formulare wurde als Teil der Kernkomponenten 2.0.52 veröffentlicht. Hier finden Sie eine Tabelle mit allen unterstützten Versionen, AEM-Kompatibilität und Links zur entsprechenden Dokumentation:
 
 |  |  |
 |---|---|
 | Komponentenversion | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Kompatibel mit<br>[Version 2.0.52](/help/adaptive-forms/version.md) und höher\|Kompatibel\|Kompatibel |
+| v1 | Kompatibel mit<br>[Version 2.0.52](/help/adaptive-forms/version.md) und höher\|Kompatibel\|Kompatibel |
 
 Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokument [Kernkomponenten-Versionen](/help/adaptive-forms/version.md).
 

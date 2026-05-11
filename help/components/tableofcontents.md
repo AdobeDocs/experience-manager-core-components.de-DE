@@ -4,9 +4,9 @@ description: Die Inhaltsverzeichniskomponente erstellt ein Inhaltsverzeichnis, d
 role: Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '753'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,11 +43,11 @@ Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie im D
 >
 >Auf AEM as a Cloud Service muss Ihre Administratorin oder Ihr Administrator einen Filter für die Komponente aktivieren, damit der Inhalt der Komponente gerendert werden kann.
 >
->[Bitte lesen Sie die GitHub-Dokumentation der Komponente](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_de) für weitere Informationen.
+>[Bitte lesen Sie die GitHub-Dokumentation der Komponente](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1) für weitere Informationen.
 
 ### Technische Details {#technical-details}
 
-Die neueste technische Dokumentation zur Inhaltsverzeichniskomponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_de).
+Die neueste technische Dokumentation zur Inhaltsverzeichniskomponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
@@ -85,4 +85,4 @@ Mithilfe des Design-Dialogs kann der Autor der Vorlage den Standardwert für den
 
 ### Registerkarte „Stile“ {#styles-tab}
 
-Die Inhaltsverzeichniskomponente unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).
+Die Komponente „Inhaltsverzeichnis“ unterstützt das AEM-[Stilsystem](/help/get-started/authoring.md#component-styling).

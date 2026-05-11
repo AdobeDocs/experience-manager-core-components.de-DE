@@ -4,8 +4,8 @@ description: Die Schnellsuch-Komponente bietet Suchfunktionen für eine Website 
 role: Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
-source-wordcount: '626'
+workflow-type: ht
+source-wordcount: '627'
 ht-degree: 100%
 
 ---
@@ -64,22 +64,22 @@ Im Dialogfeld „Bearbeiten“ kann der Verfasser des Inhalts festlegen, wo die 
 
 ## Dialogfeld „Design“ {#design-dialog}
 
-Im Dialogfeld „Design“ kann der Vorlagenautor den Standardwert festlegen, an dem die Suche in der Inhaltsstruktur beginnen soll, sowie eine maximale Ergebnissatzgröße und minimale Suchbegriffslänge. Das Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die für die Inhaltsautoren verfügbaren Textformatierungsoptionen zu definieren.
+Im Dialogfeld „Design“ kann die Autorin bzw. der Autor der Vorlage den Standardwert, an dem die Suche in der Inhaltsstruktur beginnen soll, sowie eine maximale Ergebnissatzgröße und minimale Suchbegriffslänge festlegen.Im Dialogfeld „Design“ kann die Autorin bzw. der Autor der Vorlage festlegen, welche Textformatierungsoptionen den Erstellenden von Inhalten zur Verfügung stehen.
 
 ### Registerkarte „Eigenschaften“ {#properties-tab}
 
 ![Design-Dialog der Schnellsuch-Komponente](/help/assets/quick-search-design.png)
 
 * **Suchstamm**
-Der Standardwert des Suchstamms, wenn ein Inhaltsautor die Komponente „Schnellsuche“ auf einer Inhaltsseite platziert
+Der Standardwert des Suchstamms, wenn eine Autorin bzw. ein Autor von Inhalten die Komponente „Schnellsuche“ auf einer Inhaltsseite platziert
 * **Ergebnisgröße**
 Die maximale Anzahl von Ergebnissen, die durch eine Suchanfrage abgerufen werden
 * **Minimale Länge für Suchbegriff**
-Mindestlänge des Suchbegriffs, um die Suche zu starten
+Mindestlänge des Suchbegriffs, damit die Suche gestartet werden kann
 
 >[!NOTE]
 >
->**Die Größe der Ergebnisse** und die **Minimale Länge für Suchbegriff** können nur im Designmodus festgelegt werden und daher nur auf Vorlagenebene, d. h. Inhaltsautoren können diese Werte nicht ändern.
+>**Ergebnisgröße** und **Minimale Länge für Suchbegriff** können nur im Design-Modus festgelegt werden und daher nur auf Vorlagenebene, d. h. bei der Inhaltserstellung können diese Werte nicht geändert werden.
 
 >[!CAUTION]
 >

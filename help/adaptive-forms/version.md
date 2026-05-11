@@ -4,16 +4,16 @@ description: AEM-Kernkomponenten werden als Versionen veröffentlicht, die mehr 
 role: Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '213'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
 # Kernkomponentenversionen für adaptive Formulare {#core-components-versions}
 
-Identifizieren Sie die genauen Versionen der Abhängigkeiten sowohl von Forms-Kernkomponenten als auch von WCM-Kernkomponenten. Machen Sie sich außerdem mit den Komponenten und Funktionen vertraut, die in jeder Version der adaptiven Forms-Kernkomponenten aktiviert sind.
+Identifizieren Sie die genauen Versionen der Abhängigkeiten sowohl von Formularkernkomponenten als auch von WCM-Kernkomponenten. Machen Sie sich außerdem mit den Komponenten und Funktionen vertraut, die in jeder Version der adaptiven Forms-Kernkomponenten aktiviert sind.
 
 ## Versionsverlauf für AEM Forms as a Cloud Service {#aem-as-cs-version-history}
 

@@ -4,9 +4,9 @@ description: Mit dem Google reCAPTCHA-Dienst können Sie ganz einfach mit AEM Fo
 role: Developer, Admin, User
 exl-id: 2d986b90-e596-4e8f-9a32-0ebced5461c8
 source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1382'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Die Kernkomponente „Google reCAPTCHA“ für adaptive Formulare wurde im Augus
 
 | Komponentenversion | AEM as a Cloud Service |
 |--- |--- |
-| v1 | Kompatibel mit <br>[Version 2.0.4](/help/versions.md) und höher \| Compatible\|Compatible |
+| v1 | Kompatibel mit<br>[Version 2.0.4](/help/versions.md) und höher \|Kompatibel\|Kompatibel |
 
 Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokument [Kernkomponenten-Versionen](/help/versions.md).
 

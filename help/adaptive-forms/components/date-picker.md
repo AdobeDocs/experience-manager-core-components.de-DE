@@ -4,9 +4,9 @@ description: Verwenden oder Anpassen der Datumsauswahl-Kernkomponente in adaptiv
 role: Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2465'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokume
 <!--
 ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_de). 
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
 -->
 
 ## Technische Details {#technical-details}
@@ -180,7 +180,7 @@ Mit der Option „Benutzerdefinierte Eigenschaften“ können Sie mithilfe der F
 
 ### Registerkarte „Formate“ {#formats-tab}
 
-Auf der Registerkarte „Formate“ können Sie standardmäßige und benutzerdefinierte Datumsformate angeben. Darüber hinaus können Sie auch ein neues benutzerdefiniertes Datumsformat mit der Schaltfläche **Hinzufügen** hinzufügen.
+Auf der Registerkarte „Formate“ können Sie standardmäßige und benutzerdefinierte Datumsformate angeben. Außerdem können Sie ein neues benutzerdefiniertes Datumsformat hinzufügen, indem Sie auf die Schaltfläche **Hinzufügen** klicken.
 
 ![Registerkarte „Format“](/help/adaptive-forms/assets/datepicker_formatpolicy.png)
 
@@ -192,19 +192,19 @@ Um die verfügbaren Formate für die Komponente anzuzeigen, müssen Sie sie zur 
 
 So fügen Sie der Vorlagenrichtlinie Formate hinzu:
 
-1. Öffnen Sie die entsprechende Vorlage, die mit einem adaptiven Formular oder Sites verknüpft ist, im Vorlageneditor.
-2. Wählen Sie **Abschnitt „Zugelassene**&quot; die Komponente **[!UICONTROL Datumsauswahl]** aus.
-   ![Richtlinie für Datumsauswahl-Vorlagen](/help/adaptive-forms/assets/date-picker-policy.png)
-3. Klicken Sie auf **[!UICONTROL Hinzufügen]**, um eine neue Richtlinie für die Datumsauswahl-Komponente zu erstellen.
+1. Öffnen Sie im Vorlageneditor die entsprechende Vorlage, die mit einem adaptiven Formular oder Sites verknüpft ist.
+2. Wählen Sie im Abschnitt **Zugelassene Komponenten** die Komponente **[!UICONTROL Datumsauswahl]** aus.
+   ![Vorlagenrichtlinie für Datumsauswahl](/help/adaptive-forms/assets/date-picker-policy.png)
+3. Klicken Sie auf das Symbol **[!UICONTROL Hinzufügen]**, um eine neue Richtlinie für die Komponente „Datumsauswahl“ zu erstellen.
 4. Geben Sie einen Namen für die Richtlinie ein und wählen Sie alle erforderlichen Formate auf der Registerkarte **Format** aus.
-   ![Richtlinie erstellen](/help/adaptive-forms/assets/number-input-format-policy.png)
+   ![Erstellen einer Richtlinie](/help/adaptive-forms/assets/number-input-format-policy.png)
 5. Klicken Sie auf **[!UICONTROL Fertig]**.
 
 <!--
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=de)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

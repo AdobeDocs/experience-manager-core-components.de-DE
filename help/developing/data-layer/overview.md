@@ -5,9 +5,9 @@ feature: Core Components, Adobe Client Data Layer
 role: Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1024'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Wie auch die Kernkomponenten ist der Code für die Adobe Client-Datenschicht auf
 
 ## Installation und Aktivierung {#installation-activation}
 
-Ab Version 2.9.0 der Kernkomponenten ist die Datenschicht als AEM-Client-Bibliothek in den Kernkomponenten enthalten und muss nicht installiert werden. Alle vom [AEM-Projektarchetyp v. generierten Projekte 24+](/help/developing/archetype/overview.md) enthalten standardmäßig eine aktivierte Datenschicht.
+Ab Version 2.9.0 der Kernkomponenten ist die Datenschicht als AEM-Client-Bibliothek in den Kernkomponenten enthalten und muss nicht installiert werden. Alle vom [AEM-Projektarchetyp ab Version24](/help/developing/archetype/overview.md) generierten Projekte enthalten standardmäßig eine aktivierte Datenschicht.
 
 Um die Datenschicht manuell zu aktivieren, müssen Sie eine [kontextabhängige Konfiguration](/help/developing/context-aware-configs.md) dafür erstellen:
 
@@ -313,7 +313,7 @@ window.adobeDataLayer.push(function (dl) {
 
 ## Tutorial
 
-Möchten Sie die Datenschicht und die Kernkomponenten detaillierter untersuchen? [Sehen Sie sich dieses praktische Tutorial an](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html?lang=de).
+Möchten Sie mehr über die Datenschicht und die Kernkomponenten erfahren? [Sehen Sie sich dieses praxisorientierte Tutorial an.](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html?lang=de)
 
 >[!TIP]
 >

@@ -5,7 +5,7 @@ index: false
 role: Developer, Admin, User
 exl-id: 510d059c-e60a-40aa-9032-66a901109f6e
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '866'
 ht-degree: 100%
 
@@ -227,11 +227,11 @@ Auf der Registerkarte **Elementeinstellungen** kann die Formatierung der Listene
 ![](/help/assets/chlimage_1-44.png)
 
 * **Elemente verknüpfen**
-Elemente mit der entsprechenden Seite verknüpfen
+Verknüpft Elemente mit der entsprechenden Seite
 * **Beschreibung anzeigen**
-Beschreibung des Link-Elements anzeigen
+Zeigt Beschreibungen des verknüpften Elements an
 * **Datum anzeigen**
-Änderungsdatum des Link-Elements anzeigen
+Zeigt das Bearbeitungsdatum des verknüpften Elements an
 
 ## Dialogfeld „Design“ {#design-dialog}
 
