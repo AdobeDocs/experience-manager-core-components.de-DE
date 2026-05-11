@@ -39,7 +39,7 @@ Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie im D
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Um die Einbettungskomponente auszuprobieren sowie Beispiele für ihre Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_embed).
+Um die Einbettungskomponente auszuprobieren sowie Beispiele für ihre Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_embed_de).
 
 ## Technische Details {#technical-details}
 

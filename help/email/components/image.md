@@ -65,7 +65,7 @@ Aus Sicherheitsgründen wird die ursprüngliche SVG niemals direkt vom Bild-Edit
 
 ### Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur E-Mail-Bildkomponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_email_image_v1).
+Die aktuelle technische Dokumentation zur E-Mail-Bildkomponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_email_image_v1_de).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 

@@ -35,7 +35,7 @@ In diesem Dokument wird die v1 der Schaltflächenkomponente beschrieben, die mit
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Um die Schaltflächen-Komponente sowie Beispiele für die Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_button).
+Um die Schaltflächen-Komponente sowie Beispiele für die Konfigurationsoptionen sowie HTML- und JSON-Ausgaben zu erhalten, besuchen Sie die [Komponentenbibliothek](https://adobe.com/go/aem_cmp_library_button_de).
 
 ## Technische Details {#technical-details}
 
