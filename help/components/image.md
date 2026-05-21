@@ -3,13 +3,17 @@ title: Bildkomponente
 description: Die Bildkomponenten-Kernkomponente ist eine adaptive Bildkomponente.
 role: Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '2163'
+TQID: https://experienceleague.adobe.com/MYJ14L6Q1TDwtxhUEBvnOO2ZRMmdkuyYDFflMSOFNmw
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d095671a-1355-40aa-8b5f-06c33c68080bid: e9001ce2-5245-4a8e-8601-dd958009072f
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 2163
 ht-degree: 100%
 
 ---
-
 
 # Bildkomponente {#image-component}
 
@@ -131,7 +135,7 @@ Wenn Sie Standard-AEM-Assets bearbeiten, können Sie auf das Symbol **Bearbeiten
 
   ![Symbol „Zoom-Regler öffnen“](/help/assets/image-zoom.png)
 
-  Mit dieser Option können Sie einen Schieberegler anzeigen, um den Zoom-Faktor des Bildes zu steuern.
+  Mit dieser Option können Sie einen Schieberegler anzeigen, um den Zoom-Grad des Bildes zu steuern.
 
   ![Steuerelement des Zoom-Reglers](/help/assets/image-zoom-slider.png)
 
@@ -240,7 +244,7 @@ Sie können eine Liste von Breiten in Pixeln für das Bild definieren, und die K
 
 >[!TIP]
 >
->Tipps zur Optimierung der Auswahl für die Ausgabedarstellung durch sorgfältige Definition der Breiten finden Sie im Dokument [Adaptive Image Servlet](/help/developing/adaptive-image-servlet.md).
+>Im Dokument [Adaptive Image Servlet](/help/developing/adaptive-image-servlet.md) finden Sie Tipps zur Optimierung der Ausgabedarstellungsauswahl durch sorgfältige Definition der Breiten.
 
 ### Registerkarte „Arten“ {#styles-tab}
 

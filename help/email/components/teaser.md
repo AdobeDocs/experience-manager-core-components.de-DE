@@ -4,13 +4,17 @@ description: Die E-Mail-Teaser-Komponente kann ein Bild, einen Titel, einen Rich
 role: Developer, Admin, User
 exl-id: d6123b22-7cba-406c-986d-b6f00322d135
 index: false
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '1048'
+TQID: https://experienceleague.adobe.com/mfcLCMOS-ytFmu3D79F-fjdMi7zELN0TVyh4Xr6qFao
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 1048
 ht-degree: 100%
 
 ---
-
 
 # E-Mail-Teaser-Komponente {#email-teaser-component}
 
@@ -36,7 +40,7 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 
 ### Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur E-Mail-Teaser-Komponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_email_teaser_v1_de).
+Die aktuelle technische Dokumentation zur E-Mail-Teaser-Komponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_email_teaser_v1).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
@@ -78,7 +82,7 @@ Der Teaser-Titel, die Beschreibung und das Bild können aus dem verknüpften Inh
 
 * **Vorgestelltes Bild von Seite übernehmen** – Verwendet das in den Seiteneigenschaften der verknüpften Seite definierte Bild oder das der aktuellen Seite, wenn keines gefunden wird.
 * **Bild-Asset** – Ziehen Sie ein Asset aus dem [Asset-Browser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=de) oder tippen Sie auf die Option **Durchsuchen**, um es aus einem lokalen Dateisystem hochzuladen.
-   * Tippen oder klicken Sie auf **Löschen**, um die Auswahl des aktuell ausgewählten Bilds aufzuheben.
+   * Tippen oder klicken Sie auf **Löschen**, um das aktuell ausgewählte Bild zu deaktivieren.
    * Tippen oder klicken Sie auf **Bearbeiten**, um die [Ausgabedarstellungen des Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=de) im Asset-Editor zu verwalten.
 * **Alternativtext für Barrierefreiheit** – In diesem Feld können Sie eine Beschreibung des Bildes für sehbehinderte Benutzer definieren.
    * **Alternativtext von Seite übernehmen** – Diese Option verwendet die alternative Beschreibung des verknüpften Asset-Werts der `dc:description`-Metadaten in DAM oder der aktuellen Seite, wenn kein Asset verknüpft ist.

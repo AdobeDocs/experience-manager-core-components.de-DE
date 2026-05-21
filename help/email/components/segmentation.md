@@ -4,13 +4,18 @@ description: Die E-Mail-Segmentierungskomponente
 role: Developer, Admin, User
 exl-id: 6c88b8c5-189a-40c0-ab28-04d37dc5fbac
 index: false
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '1156'
+TQID: https://experienceleague.adobe.com/JlOOouhbsCBeyZQ9dAMyWwbTucpcLrqEgC1VjDVsV54
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+subfeature_v2: id: a6c0bfb4-91d0-4952-9c1d-c7f39e7705c4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 1156
 ht-degree: 100%
 
 ---
-
 
 # E-Mail-Segmentierungskomponente {#email-segmentation-component}
 
@@ -37,7 +42,7 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 
 ### Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur E-Mail-Teaser-Komponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_email_segmentation_v1_de).
+Die aktuelle technische Dokumentation zur E-Mail-Teaser-Komponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_email_segmentation_v1).
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
@@ -136,6 +141,6 @@ Tippen oder klicken Sie auf die **Hinzufügen**-Schaltfläche, um neue Bedingung
 * **Name der Segmentbedingung** – Eine Beschreibung der Bedingung
 * **Segmentbedingung** – Die tatsächliche Bedingung, die basierend auf Adobe Campaign-Personalisierungsvariablen erfüllt werden muss
    * [Hier finden Sie Adobe Campaign Standard-Personalisierungsressourcen.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=de)
-   * [Hier finden Sie Adobe Campaign Classic-Personalisierungsressourcen.]&#x200B;(https://experienceleague.adobe.com/docs/?lang=de
+   * [Hier finden Sie Adobe Campaign Classic-Personalisierungsressourcen.]&#x200B;(https://experienceleague.adobe.com/docs/
 * **Entfernen** – Tippen oder klicken Sie, um die Bedingung zu entfernen
 * **Neu anordnen** – Tippen oder klicken und ziehen Sie die Bedingungen, um ihre Reihenfolge neu anzuordnen

@@ -3,13 +3,17 @@ title: Kernkomponente „Horizontale Registerkarten“ für adaptive Formulare
 description: Verwenden oder Anpassen der Kernkomponente „Horizontale Registerkarten“ für adaptive Formulare.
 role: Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
-source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: ht
-source-wordcount: '2213'
+TQID: https://experienceleague.adobe.com/E8NSb3GcPauGGJgcsEaxr-rbG2HVy96fCelp17EZ9n4
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 2213
 ht-degree: 100%
 
 ---
-
 
 # Komponente für horizontale Registerkarten (Registerkarten oben){#horizontal-tabs-adaptive-forms-core-component}
 
@@ -21,7 +25,7 @@ Die Registerkarten bestehen in der Regel aus einer Reihe von Links oder Schaltfl
 
 {{traditional-aem}}
 
-## Verwendung {#reasons-to-use-horizontal-tabs}
+## Nutzung {#reasons-to-use-horizontal-tabs}
 
 Die häufigsten Gründe für die Verwendung horizontaler Registerkarten in einem adaptiven Formular sind:
 
@@ -125,7 +129,7 @@ Mit der Schalfläche **Hinzufügen** können Sie eine Komponente vom Komponenten
 - **Symbol**: Das Symbol identifiziert die Komponente des Bedienfelds in der Liste. Sie können den Mauszeiger über das Symbol bewegen, um den vollständigen Komponentennamen als QuickInfo anzuzeigen.
 - **Beschreibung**: Die Beschreibung, die als Text des Bedienfelds verwendet wird. Standardmäßig der Name der für das Bedienfeld ausgewählten Komponente.
 - **Entfernen**: Tippen oder klicken Sie, um das Bedienfeld aus der Komponente „Horizontale Registerkarten“ zu löschen.
-- **Neu anordnen**: Tippen oder klicken und ziehen Sie, um die Reihenfolge der Bedienfelder neu anzuordnen.
+- **Neu anordnen** - Tippen oder klicken und ziehen Sie, um die Reihenfolge der Bedienfelder neu anzuordnen.
 
 ### Registerkarte „Hilfe-Inhalt“ {#help-content}
 
