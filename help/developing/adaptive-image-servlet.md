@@ -3,9 +3,17 @@ title: Adaptive Image Servlet
 description: Erfahren Sie, wie die Kernkomponenten das Adaptive Image Servlet für die Bildbereitstellung verwenden und wie Sie dessen Verwendung optimieren können.
 role: Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: ht
-source-wordcount: '487'
+TQID: https://experienceleague.adobe.com/zfjxGeTjON5PKCAp63gcBb76rDEmIPewkGcLFvsNb0c
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+workflow-type: tm+mt
+source-wordcount: 487
 ht-degree: 100%
 
 ---
@@ -39,7 +47,7 @@ Das Adaptive Image Servlet wählt automatisch die am besten geeignete Ausgabedar
 
 1. Das Adaptive Image Servlet prüft alle verfügbaren Ausgabedarstellungen des Bild-Assets.
 1. Es werden nur solche ausgewählt, die den gleichen MIME-Typ wie das ursprünglich referenzierte Asset haben.
-   * Zum Beispiel,wenn das ursprüngliche Asset ein PNG war, werden nur PNG-Ausgabedarstellungen berücksichtigt.
+   * E.g. wenn das ursprüngliche Asset ein PNG war, werden nur PNG-Ausgabedarstellungen berücksichtigt.
 1. Zwischen diesen Ausgabedarstellungen werden die Dimensionen berücksichtigt und sie mit der Größe des Containers verglichen, in dem das Bild angezeigt werden soll.
 1. Wenn die Ausgabedarstellung größer oder gleich der Container-Größe ist, wird sie einer Liste von möglichen Ausgabedarstellungen hinzugefügt.
 1. Wenn die Ausgabedarstellung kleiner als die Container-Größe ist, wird sie ignoriert.
