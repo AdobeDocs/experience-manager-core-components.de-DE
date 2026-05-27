@@ -37,7 +37,7 @@ Ausnahmen von dieser Regel gelten für die Versionshinweise, in denen bekannte P
 
 Alle Ideen, die Sie zur Verbesserung der AEM-Dokumentation haben, sind als Beiträge willkommen. Kommentare, Probleme und Pull-Anfragen sind jedoch nur für *Beiträge* vorgesehen. Sie sind nicht zur Beantwortung Ihrer Fragen über die Verwendung von AEM, Implementierung Ihres AEM-Projekts oder zur Lösung technischer Probleme vorgesehen.
 
-Fragen zur Verwendung von AEM oder zu technischen Fehlern, die möglicherweise bei Ihnen auftreten, sollten entsprechend dem herkömmlichen Support-Vorgang über das [Enterprise-Support-Portal für Experience Cloud gemeldet ](https://helpx.adobe.com/de/contact/enterprise-support.ec.html) in der [Experience Manager-Community diskutiert ](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager).
+Fragen zur Verwendung von AEM oder zu technischen Fehlern, die möglicherweise bei Ihnen auftreten, sollten entsprechend dem herkömmlichen Support-Vorgang über das [Enterprise-Support-Portal für Experience Cloud gemeldet &#x200B;](https://helpx.adobe.com/de/contact/enterprise-support.ec.html) in der [Experience Manager-Community diskutiert &#x200B;](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager).
 
 ***AEM-Dokumentationsbeiträge sind kein Ersatz für die Adobe-***. Beiträge, die um Antwort auf Support-Fragen bitten, werden abgelehnt.
 
