@@ -4,20 +4,11 @@ description: Erhalten Sie Lösungen für Probleme mit den Kernkomponenten und er
 role: Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 TQID: https://experienceleague.adobe.com/TDVZQa4ww1rGJIoAeFyMRPREuUSWPcAUI0mwBHYASTI
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-subfeature_v2:
-  - id: f86a5563-8f73-4ec0-be7d-a1782604870a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+subfeature_v2: id: f86a5563-8f73-4ec0-be7d-a1782604870a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c18d9e03-ac7d-4811-9c92-3e92ddc70adeid: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
 source-wordcount: 1076
@@ -58,7 +49,7 @@ Die Kernkomponenten sind eine Reihe standardisierter WCM-Komponenten (Web Conten
 | SEO-freundlich | Die HTML-Ausgabe ist schematisch und stellt [schema.org](https://schema.org)-Mikrodatenanmerkungen bereit. |
 | WebApp-fähig | Die [optimierte JSON-Ausgabe](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/develop-sling-model-exporter.html?lang=de) ermöglicht das Client-seitige Rendern, wobei die [kontextbezogene Bearbeitung](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html?lang=de) weiterhin möglich ist. |
 | AMP-Unterstützung | Die Komponenten verfügen über integrierte [Unterstützung für den AMP-Standard](/help/developing/amp.md), wodurch mobile Erlebnisse beschleunigt werden. |
-| Design-Kit | Mit einem [Benutzeroberflächen-Kit für Adobe XD](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd?lang=de) können Designer Wireframes erstellen, die sie dann [nach Bedarf formatieren](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd) können. |
+| Design-Kit | Mit einem [Benutzeroberflächen-Kit für Adobe XD](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) können Designer Wireframes erstellen, die sie dann [nach Bedarf formatieren](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd) können. |
 | Themen-fähig | Die Komponenten implementieren das [Stilsystem](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=de) und das Markup folgt den [BEM-CSS-Konventionen](https://getbem.com/). |
 | Anpassbar | Verschiedene Muster ermöglichen eine [einfache Anpassung](developing/customizing.md), von der Anpassung des HTML-Codes bis hin zur Wiederverwendung erweiterter Funktionen. |
 | Versionierung | Die [Versionierungsrichtlinie](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) stellt sicher, dass die Kernkomponenten Ihre Website nicht beschädigen, wenn Funktionen verbessert werden, die sich auf Sie auswirken könnten. |
