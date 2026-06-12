@@ -103,7 +103,7 @@ Sie können in diesem Abschnitt den Text eingeben, den Sie in die Kopfzeile einf
 
 -->
 
-## Verwandte Artikel {#related-articles}
+## Ähnliche Artikel {#related-articles}
 
 {{more-like-this}}
 

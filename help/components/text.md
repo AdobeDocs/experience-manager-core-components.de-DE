@@ -15,8 +15,8 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 2265
-ht-degree: 100%
+source-wordcount: 2206
+ht-degree: 99%
 
 ---
 
@@ -161,9 +161,9 @@ Verwenden Sie diese Option, um den Text nach dem Vorkommen einer angegebenen Tex
 
 ![Beispiel für „Suchen“](/help/assets/text-find-example.png)
 
-Geben Sie den Text ein, nach dem Sie suchen möchten, und tippen oder klicken Sie auf **Suchen**, um die Suche zu starten. Tippen Sie auf das x, um abzubrechen.
-Wenn Sie eine genaue Übereinstimmung der Groß- und Kleinschreibung möchten, wählen Sie die Option **Groß-/Kleinschreibung beachten**, bevor Sie die Suche starten.
-Wenn eine Übereinstimmung gefunden wird, wird sie hervorgehoben und das Suchdialogfeld wird abgeblendet. Tippen oder klicken Sie im abgeblendeten Dialogfeld erneut auf die Schaltfläche **Suchen**, um nach dem nächsten Vorkommen zu suchen.
+Geben Sie den Text ein, nach dem Sie suchen möchten, und tippen oder klicken Sie auf **Suchen** um die Suche zu starten. Tippen oder klicken Sie auf das x, um den Vorgang abzubrechen.
+Wenn Sie eine genaue Übereinstimmung der Groß- und Kleinschreibung möchten, wählen Sie die Option **Groß-/Kleinschreibung beachten** bevor Sie die Suche starten.
+Wenn eine Übereinstimmung gefunden wird, wird sie hervorgehoben und das Suchdialogfeld ist abgeblendet. Tippen oder klicken Sie erneut **Suchen** im abgeblendeten Dialogfeld, um nach dem nächsten Vorkommen zu suchen.
 
 ![Beispiel für mittels „Suchen“ gefundenen Text](/help/assets/text-find-example-found.png)
 

@@ -123,7 +123,7 @@ Die aktuelle Version von AEM Forms enthält die folgenden Kernkomponenten: [Foun
 | Optionsfeldgruppe | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/radio-button.md)</span> | ✔️ | |
 | Schaltfläche „Zurücksetzen“ | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/reset-button.md)</span> | ✔️ | |
 | Überprüfung |  | <span style="color:blue">[✔️](/help/adaptive-forms/components/reset-button.md)</span> |  | |
-| Freihandsignatur | ✔️ | | | |
+| Freihändige Unterschrift | ✔️ | | | |
 | Trennzeichen | ✔️ | | | Verwenden Sie die WCM-[Trennzeichenkomponente](/help/components/separator.md). |
 | Schaltfläche „Senden“ | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/submit-button.md)</span> | ✔️ | |
 | Zusammenfassungsschritt | ✔️ | | | |
@@ -134,7 +134,7 @@ Die aktuelle Version von AEM Forms enthält die folgenden Kernkomponenten: [Foun
 | Textfeld | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/text-box.md)</span> | ✔️ | |
 | Turnstile Captcha | ✔️ | | | [Turnstile Captcha](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile) ist nur für Foundation-Komponenten verfügbar. |
 | Vertikale Registerkarten | ✔️ | ✔️ | | Für Foundation-Komponenten können Sie das [Layout der Registerkarten links (vertikale Registerkarten)](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) in den Eigenschaften der Bedienfeldkomponenten konfigurieren |
-| Assistent | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/wizard.md)</span> | ✔️ | Für Foundation-Komponenten können Sie das [Assistenten-Layout](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) in den Eigenschaften der Panel-Komponenten konfigurieren |
+| Assistent | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/wizard.md)</span> | ✔️ | Für Foundation-Komponenten können Sie das [Assistenten-Layout](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) in den Eigenschaften der Bedienfeldkomponenten konfigurieren |
 
 <!--
 | Password Box | ✔️ | ✔️| ✔️ | |

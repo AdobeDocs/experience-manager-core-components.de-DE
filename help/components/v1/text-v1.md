@@ -124,7 +124,7 @@ Das Dialogfeld „Bearbeiten“ bietet die standardmäßigen Rich-Text-Formatier
 
   ![](/help/assets/chlimage_1-58.png)
 
-  Fügt einen kopierten Text als unformatierten Text ein.
+  Fügt einen kopierten Text als normalen Text ohne Formatierung ein.
 
   Wenn Sie diese Option wählen, wird ein Fenster geöffnet, in dem der Text als normaler Text ohne Formatierung eingefügt werden kann, bevor er in den Text eingefügt wird. Akzeptieren durch Tippen oder Klicken auf das Häkchen, abbrechen durch Tippen oder Klicken auf das x.
 
@@ -232,7 +232,7 @@ Das Dialogfeld „Bearbeiten“ bietet die standardmäßigen Rich-Text-Formatier
 
   Um eine Liste mit Aufzählungszeichen zu beenden, tippen oder klicken Sie erneut auf die Schaltfläche **Aufzählung** oder geben Sie zwei Zeilenumbrüche hintereinander ein.
 
-* Nummerierung
+* Nummeriert
 
   ![](/help/assets/chlimage_1-75.png)
 

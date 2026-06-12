@@ -18,8 +18,8 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 1637
-ht-degree: 100%
+source-wordcount: 1529
+ht-degree: 99%
 
 ---
 
@@ -31,7 +31,7 @@ Mit Formularen können Besuchende von Websites mit der Website interagieren, ind
 
 {{traditional-aem}}
 
-## Nutzung {#reasons-to-use-forms-container}
+## Verwendung {#reasons-to-use-forms-container}
 
 Es gibt mehrere Gründe, warum ein Formular einer Website hinzugefügt werden kann:
 - **Datenerfassung**: Formulare können verwendet werden, um Daten von Website-Besuchenden für verschiedene Zwecke zu erfassen, wie z. B. Marktforschung, Benutzerverhaltensanalyse und mehr.
@@ -85,9 +85,9 @@ Mit dem Dialogfeld „Konfigurieren“ können Sie das Formular-Container-Erlebn
 
 - **Rolle**: Die Rolle ist ein HTML-Attribut, mit dem der Zweck eines HTML-Elements für Hilfstechnologien wie Bildschirmlesehilfen angegeben wird. Rollenattribute werden verwendet, um für ein Element zusätzlichen Kontext und eine semantische Bedeutung bereitzustellen, wodurch es für Bildschirmlesehilfen einfacher wird, den Inhalt zu interpretieren und ihn Benutzenden mitzuteilen. In AEM Forms kann beispielsweise die Beschriftung eines Formularfelds die Rolle „Beschriftung“ haben und sein Eingabefeld die Rolle „Textfeld“. Dadurch kann die Bildschirmlesehilfe die Beziehung zwischen Beschrfitung und Eingabefeld verstehen und diese Informationen den Benutzenden korrekt mitteilen.
 
-- **Client-Bibliothekskategorie**: Benutzende können eine benutzerdefinierte JavaScript-Bibliothek pro adaptivem Formular konfigurieren. Es wird empfohlen, nur die wiederverwendbaren Funktionen in der Bibliothek zu behalten, die von den Drittanbieter-Bibliotheken „jquery“ und „underscore.js“ abhängig sind.
-Bisweilen befindet sich bei komplexen **Validierungsregeln** das exakte Validierungsskript in den benutzerdefinierten Funktionen. Benutzende können diese benutzerdefinierten Funktionen über den Ausdruck für die Feldvalidierung abrufen. Um diese benutzerdefinierte Funktionsbibliothek bei Server-seitigen Validierungen bekannt und verfügbar zu machen, können Benutzende von Formularen den Namen der AEM-Client-Bibliothek auf der Registerkarte **[!UICONTROL Allgemein]** in den Eigenschaften des Containers für adaptive Formulare konfigurieren.
-Der Benutzer bzw. die Benutzerin kann eine benutzerdefinierte JavaScript-Bibliothek für jedes adaptive Formular konfigurieren. Legen Sie in der Bibliothek nur die wiederverwendbaren Funktionen ab, die von den Drittanbieter-Bibliotheken „jquery“ und „underscore“ abhängen.
+- **Client-Bibliothekskategorie** - Benutzende können eine benutzerdefinierte JavaScript-Bibliothek pro adaptivem Formular konfigurieren. Es wird empfohlen, nur die wiederverwendbaren Funktionen in der Bibliothek zu behalten, die von Drittanbieterbibliotheken jquery und underscore.js abhängig sind.
+Bisweilen befindet sich bei komplexen **das exakte Validierungsskript in den benutzerdefinierten Funktionen** und die Benutzer rufen diese benutzerdefinierten Funktionen über den Ausdruck für die Feldvalidierung auf. Um diese benutzerdefinierte Funktionsbibliothek bei Server-seitigen Validierungen bekannt und verfügbar zu machen, kann der Formularbenutzer den Namen der AEM-Client-Bibliothek auf der Registerkarte **[!UICONTROL Standard]** des Dialogfelds „Container für adaptive Formulare“ konfigurieren.
+Der Benutzer kann eine benutzerdefinierte JavaScript-Bibliothek pro adaptivem Formular konfigurieren. Behalten Sie in der Bibliothek nur die wiederverwendbaren Funktionen bei, die von Drittanbieterbibliotheken jquery und underscore.js abhängig sind.
 
 <!--
 - **Enable the hamburger menu for mobile view** - Select the checkbox to integrate a hamburger menu into your form for mobile view. Represented by three horizontal lines stacked vertically, this menu provides a clear and uncluttered display for panels on smaller devices, especially on mobile devices. For more information about the hamburger menu, refer to the [Learn more about the hamburger menu](#learn-more-about-the-hamburger-menu) section. 
@@ -234,7 +234,7 @@ To enable hamburger menu for form, perform the following steps:
 ![Basic tab](/help/adaptive-forms/assets/formcontainer_basictab.png)
 -->
 
-## Verwandte Artikel {#related-articles}
+## Ähnliche Artikel {#related-articles}
 
 {{more-like-this}}
 

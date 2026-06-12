@@ -39,7 +39,7 @@ Sie können die [Wiederholungsoptionen](https://experienceleague.adobe.com/docs/
 
 {{traditional-aem}}
 
-## Nutzung {#usage}
+## Verwendung {#usage}
 
 - **Wiederverwendbarkeit**: Der größte Vorteil von Formularfragmenten ist die Möglichkeit Formularfragmente in mehreren adaptiven Formularen wiederzuverwenden. Dies hilft bei der Aufrechterhaltung von Konsistenz in Design und Funktionalität, da an einem Fragment vorgenommene Änderungen in allen Instanzen übernommen werden, in denen es verwendet wird.
 
@@ -171,7 +171,7 @@ Mit der Option „Benutzerdefinierte Eigenschaften“ können Sie mithilfe der F
    - **Neu anordnen**: Ordnen Sie den Namen und Wert der benutzerdefinierten Eigenschaft Tippen oder Klicken und Ziehen neu an.
 
 
-## Verwandte Artikel {#related-articles}
+## Ähnliche Artikel {#related-articles}
 
 {{more-like-this}}
 

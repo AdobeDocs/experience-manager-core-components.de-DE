@@ -186,7 +186,7 @@ Auf der Registerkarte „Formate“ können Sie standardmäßige und benutzerdef
 
 -->
 
-## Verwandte Artikel {#related-articles}
+## Ähnliche Artikel {#related-articles}
 
 {{more-like-this}}
 
