@@ -17,8 +17,8 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 2316
-ht-degree: 100%
+source-wordcount: 2302
+ht-degree: 99%
 
 ---
 
@@ -114,7 +114,7 @@ Im Dialogfeld „Konfigurieren“ können Sie das Kontrollkästchen-Erlebnis fü
 
   ![Rich-Text-Unterstützung für Optionen](/help/adaptive-forms/assets/richtext-for-options.png)
 
-  Sobald Sie das Kontrollkästchen **Rich-Text für Optionen zulassen** aktivieren, werden Formatierungsoptionen sichtbar, um die Optionen der Komponente zu gestalten. Um auf alle verfügbaren Formatierungsoptionen zuzugreifen, können Sie auf die Registerkarte `Fullscreen` ![Vollbildschirmsymbol](/help/adaptive-forms/assets/fullscreen-icon.png) klicken.
+  Wenn Sie das Kontrollkästchen für **Rich-Text für Optionen zulassen** aktivieren, werden Formatierungsoptionen angezeigt, um die Optionen der Komponente zu gestalten. Um auf alle verfügbaren Formatierungsoptionen zuzugreifen, können Sie auf die Registerkarte `Fullscreen`![Vollbildsymbol](/help/adaptive-forms/assets/fullscreen-icon.png) klicken.
   ![Rich-Text-Unterstützung für Optionen](/help/adaptive-forms/assets/richtextoptions-support.png)
 
 - **Bindungsreferenz**: Eine Bindungsreferenz ist ein Verweis auf ein Datenelement, das in einer externen Datenquelle gespeichert ist und in einem Formular verwendet wird. Sie können mit dem Bindungsverweis Daten dynamisch an Formularfelder binden, sodass das Formular die aktuellsten Daten aus der Datenquelle anzeigen kann. Beispielsweise kann ein Bindungsverweis verwendet werden, um den Namen und die Adresse von Kundinnen und Kunden in einem Formular anzuzeigen, basierend auf der im Formular eingegebenen Kunden-ID. Der Bindungsverweis kann auch verwendet werden, um die Datenquelle mit den im Formular eingegebenen Daten zu aktualisieren. Auf diese Weise können Sie mit AEM Forms Formulare erstellen, die mit externen Datenquellen interagieren und so eine nahtlose Benutzererfahrung bei der Datenerfassung und Datenverwaltung bieten.

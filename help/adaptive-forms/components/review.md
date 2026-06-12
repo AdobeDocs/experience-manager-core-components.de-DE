@@ -80,7 +80,7 @@ Nehmen Sie als Beispiel ein **Kreditantragsformular**, das aus vier Registerkart
 
 Das folgende Video zeigt, wie Sie die Komponente **Überprüfen** so konfigurieren, dass sie den Benutzenden die Flexibilität bietet, Informationen zu bearbeiten:
 
-## Verwandte Artikel {#related-articles}
+## Ähnliche Artikel {#related-articles}
 
 {{more-like-this}}
 

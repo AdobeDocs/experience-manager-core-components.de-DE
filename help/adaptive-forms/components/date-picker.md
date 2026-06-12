@@ -219,7 +219,7 @@ So fügen Sie der Vorlagenrichtlinie Formate hinzu:
 
 -->
 
-## Verwandte Artikel {#related-articles}
+## Ähnliche Artikel {#related-articles}
 
 {{more-like-this}}
 

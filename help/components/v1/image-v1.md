@@ -175,7 +175,7 @@ Alternative Beschreibung des Pfadziels
 
   ![](/help/assets/chlimage_1-16.png)
 
-  Mit dieser Option können Sie einen Schieberegler anzeigen, um den Zoom-Faktor des Bildes zu steuern.
+  Mit dieser Option können Sie einen Schieberegler anzeigen, um den Zoom-Grad des Bildes zu steuern.
 
   ![](/help/assets/chlimage_1-17.png)
 

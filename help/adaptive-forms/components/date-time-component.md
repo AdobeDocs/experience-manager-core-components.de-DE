@@ -191,7 +191,7 @@ The formats tab allows you to specify default and custom date formats.
 
 -->
 
-## Verwandte Artikel {#related-articles}
+## Ähnliche Artikel {#related-articles}
 
 {{more-like-this}}
 

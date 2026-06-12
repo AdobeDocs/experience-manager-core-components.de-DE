@@ -30,7 +30,7 @@ AEM Forms as a Cloud Service unterstützt Google reCAPTCHA v2 in adaptiven Formu
 
 {{traditional-aem}}
 
-## Nutzung {#reasons-to-use-google-recaptcha}
+## Verwendung {#reasons-to-use-google-recaptcha}
 
 
 - **Spam- und Bot-Prävention**: Einer der Hauptgründe für die Verwendung von reCAPTCHA ist, zu verhindern, dass Spam-Sendungen und bösartige Bots Ihr Formular überschwemmen. Die erweiterten Algorithmen von reCAPTCHA können automatisierte Versuche beim Senden des Formulars erkennen und so sicherstellen, dass nur legitime Benutzerinnen und Benutzer mit dem Formular interagieren können.
@@ -129,7 +129,7 @@ Mit der Option „Benutzerdefinierte Eigenschaften“ können Sie mithilfe der F
    - **Neu anordnen**: Ordnen Sie den Namen und Wert der benutzerdefinierten Eigenschaft Tippen oder Klicken und Ziehen neu an.
 
 
-## Verwandte Artikel {#related-articles}
+## Ähnliche Artikel {#related-articles}
 
 {{more-like-this}}
 

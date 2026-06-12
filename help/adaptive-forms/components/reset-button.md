@@ -18,8 +18,8 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 1569
-ht-degree: 100%
+source-wordcount: 1527
+ht-degree: 99%
 
 ---
 
@@ -31,7 +31,7 @@ Eine Schaltfläche zum Zurücksetzen in einem adaptiven Formular ist eine Schalt
 
 {{traditional-aem}}
 
-## Nutzung {#reasons-to-use-reset-button}
+## Verwendung {#reasons-to-use-reset-button}
 
 Die Gründe für die Verwendung einer Zurücksetzen-Schaltfläche in einem adaptiven Formular sind:
 
@@ -85,7 +85,7 @@ Im Dialogfeld „Konfigurieren“ können Sie die Schaltfläche „Zurücksetzen
 - **Als ungebundenes Formularelement markieren**: Mit dieser Option können Sie Formularfelder konfigurieren, die mit keinem Schema verbunden sind. Mit dieser Option können Sie Daten speichern, ohne die Datenquelle zu aktualisieren. Außerdem können Sie damit Daten auf eine benutzerdefinierte Art und Weise verarbeiten, getrennt von der standardmäßigen Datenbankintegration.
 
 - **Komponente ausblenden**: Wählen Sie diese Option, um die Komponente aus dem Formular auszublenden. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor. Dies ist nützlich, wenn Sie Informationen speichern müssen, die Benutzende nicht sehen oder direkt ändern müssen.
-- **Komponente deaktivieren**: Wählen Sie die Option zum Deaktivieren der Komponente aus. Die deaktivierte Komponente ist nicht aktiv und Endbenutzende können sie nicht bearbeiten. Benutzende können den Wert des Felds anzeigen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regel-Editor.
+- **Komponente deaktivieren** - Wählen Sie diese Option, um die Komponente zu deaktivieren. Die deaktivierte Komponente ist nicht aktiv und kann vom Endbenutzer nicht bearbeitet werden. Der/die Benutzende kann den Wert des Felds sehen, ihn jedoch nicht ändern. Die Komponente bleibt für andere Zwecke verfügbar, z. B. für Berechnungen im Regeleditor.
   <!--   **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.-->
 
 ### Registerkarte „Hilfe-Inhalt“ {#help-content}
@@ -136,7 +136,7 @@ Mit der Option „Benutzerdefinierte Eigenschaften“ können Sie mithilfe der F
 
    - **Neu anordnen**: Ordnen Sie den Namen und Wert der benutzerdefinierten Eigenschaft Antippen oder Klicken und Ziehen neu an.
 
-## Verwandte Artikel {#related-articles}
+## Ähnliche Artikel {#related-articles}
 
 {{more-like-this}}
 

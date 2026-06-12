@@ -32,7 +32,7 @@ Das Telefoneingabefeld wird häufig in Kontakt-, Registrierungs- und anderen For
 
 {{traditional-aem}}
 
-## Nutzung {#reasons-to-use-telephone-input}
+## Verwendung {#reasons-to-use-telephone-input}
 
 Häufige Gründe für die Verwendung eines Telefoneingabefelds in einem adaptiven Formular sind:
 
@@ -187,7 +187,7 @@ Auf der Registerkarte „Überprüfungsmuster“ können Sie Werte in einem best
 -->
 
 
-## Verwandte Artikel {#related-articles}
+## Ähnliche Artikel {#related-articles}
 
 {{more-like-this}}
 

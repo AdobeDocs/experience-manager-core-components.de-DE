@@ -19,8 +19,8 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 3266
-ht-degree: 100%
+source-wordcount: 3244
+ht-degree: 99%
 
 ---
 
@@ -196,7 +196,7 @@ Diese Komponente ersetzt einen Zustimmungstext durch einen Weblink oder Links. E
 
 - **Titel ausblenden**: Wählen Sie die Option aus, um den Titel der Komponente auszublenden.
 
-- **Links** - Geben Sie den Link und den entsprechenden Anzeigetext an, der anstelle des Zustimmungstextes verwendet werden soll. Sie können mehrere Links hinzufügen, indem Sie auf die Schaltfläche **Hinzufügen** klicken.
+- **Links** - Geben Sie den Link und den entsprechenden Anzeigetext an, der anstelle des Einverständnistextes verwendet wird. Sie können mehrere Links hinzufügen, indem Sie auf die Schaltfläche **Hinzufügen** klicken.
 Nachdem eine neue Option hinzugefügt wurde, können die folgenden Aktionen ausgeführt werden:
    - **Link**: Mit dieser Option können Sie die URL für die Umleitung eingeben, wenn eine Option ausgewählt wird.
    - **Text anzeigen** – Mit dieser Option können Sie den Inhalt eingeben, der in einem adaptiven Formular angezeigt werden soll.
@@ -260,7 +260,7 @@ Benutzende geben ihre Zustimmung oder Bestätigung über ein Kontrollkästchen. 
 Über das Dialogfeld „Konfigurieren“ können Sie die [Kontrollkästchen-Komponente](/help/adaptive-forms/components/checkbox.md) individuell für Besuchende anpassen. Nutzen Sie das Dialogfeld [„Konfigurieren“ der Kontrollkästchen-Komponente](/help/adaptive-forms/components/checkbox.md#configure-dialog), um die Eigenschaften des Kontrollkästchens für ein nahtloses Benutzererlebnis zu definieren.
 
 
-## Verwandte Artikel {#related-articles}
+## Ähnliche Artikel {#related-articles}
 
 {{more-like-this}}
 

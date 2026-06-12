@@ -17,8 +17,8 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 2349
-ht-degree: 100%
+source-wordcount: 2334
+ht-degree: 99%
 
 ---
 
@@ -103,8 +103,8 @@ Im Dialogfeld „Konfigurieren“ können Sie Optionsschaltflächen für Besuche
    - **Datenwert**: Mit dieser Option können Sie den zu sendenden Inhalt eingeben, wenn eine Option ausgewählt ist.
    - **Text anzeigen** – Mit dieser Option können Sie den Inhalt eingeben, der in einem adaptiven Formular angezeigt werden soll.
    - **Löschen** – Durch Tippen oder Klicken können Sie die Option einer Optionsschaltfläche löschen.
-   - **Neu anordnen** – Durch Tippen oder Klicken und Ziehen können Sie die Anordnung der Optionen anpassen.
-Sie können die Optionen für die Optionsfeldgruppe auch mit **Rich-Text für Optionen zulassen** formatieren.
+   - **Neu anordnen** - Tippen oder klicken und ziehen Sie die Optionen, um ihre Reihenfolge neu anzuordnen.
+Sie können die Optionen für die Optionsschaltflächengruppe auch mit „Rich-Text für Optionen **&quot;**.
 
   ![Rich-Text-Unterstützung für Optionen](/help/adaptive-forms/assets/richtext-for-options.png)
 

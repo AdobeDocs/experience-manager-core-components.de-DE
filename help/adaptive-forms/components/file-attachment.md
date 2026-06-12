@@ -17,8 +17,8 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 2089
-ht-degree: 100%
+source-wordcount: 2083
+ht-degree: 99%
 
 ---
 
@@ -108,7 +108,7 @@ Im Dialogfeld „Konfigurieren“ können Sie die Verwendung von Dateianhängen 
 
 <!--   **Minimum files error message** - This option is used to enter an error message that is displayed if you upload files lesser than the specified minimum number of files.-->
 
-- **Maximale Dateigröße (MB)** – Mit dieser Option können Sie eine maximale Dateigröße angeben. Die Dateigrößen sind in MB angegeben.
+- **Maximale Dateigröße (MB)** - Mit dieser Option können Sie eine maximale Dateigröße angeben. Die Dateigrößen werden in MB angegeben.
   <!--   **Maximum files error message** - This option is used to enter an error message that is displayed if you upload files greater than the specified maximum number of files.-->
 
 - **Fehlermeldung zur maximalen Dateigröße** – Mit dieser Option können Sie eine Fehlermeldung eingeben, die angezeigt wird, wenn Sie Dateien hochladen, deren Größe die in der Option **Maximale Dateigröße (MB)** angegebene Dateigröße überschreitet.
@@ -178,7 +178,7 @@ Mit der Option „Benutzerdefinierte Eigenschaften“ können Sie mithilfe der F
 
 -->
 
-## Verwandte Artikel {#related-articles}
+## Ähnliche Artikel {#related-articles}
 
 {{more-like-this}}
 

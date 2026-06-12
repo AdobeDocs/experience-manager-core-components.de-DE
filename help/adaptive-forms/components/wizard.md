@@ -18,8 +18,8 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 2246
-ht-degree: 100%
+source-wordcount: 2211
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ Jeder Schritt des Assistenten beinhaltet in der Regel eine Gruppe verwandter For
 
 Das Assistenten-Layout ist nützlich, wenn Formulare viele Felder oder Informationen enthalten, die ausgefüllt werden müssen, da das Formular in kleinere, besser überblickbare Abschnitte unterteilt wird. Außerdem können sich Benutzende auf eine Gruppe von Feldern konzentrieren, sodass das Ausfüllen des Formulars sie nicht überfordert.
 
-Dieses Layout kann jedoch auch die Komplexität des Formulars erhöhen, da Benutzende mehrere Seiten durchlaufen müssen, um es auszufüllen. Daher müssen vor der Verwendung des Assistenten-Layouts die Anforderungen des Formulars sowie die Bedürfnisse der Benutzenden sorgfältig überlegt werden.
+Es kann jedoch auch die Komplexität des Formulars erhöhen, da der Benutzer mehrere Seiten durchlaufen muss, um das Formular auszufüllen. Daher müssen vor der Verwendung eines Assistenten-Layouts die Anforderungen des Formulars sowie die Bedürfnisse der Benutzenden sorgfältig überlegt werden.
 Sie können die Kernkomponente „Assistent“ für adaptive Formulare verwenden, um ein Assistenten-Layout zu erstellen.
 
 {{traditional-aem}}
@@ -215,7 +215,7 @@ Mit der Option „Benutzerdefinierte Eigenschaften“ können Sie mithilfe der F
 
    - **Neu anordnen**: Ordnen Sie den Namen und Wert der benutzerdefinierten Eigenschaft Antippen oder Klicken und Ziehen neu an.
 
-## Verwandte Artikel {#related-articles}
+## Ähnliche Artikel {#related-articles}
 
 {{more-like-this}}
 

@@ -130,7 +130,7 @@ Das Dialogfeld „Bearbeiten“ bietet standardmäßige Rich-Text-Formatierungs-
 
 -->
 
-## Verwandte Artikel {#related-articles}
+## Ähnliche Artikel {#related-articles}
 
 {{more-like-this}}
 
