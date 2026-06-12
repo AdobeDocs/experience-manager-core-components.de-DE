@@ -4,21 +4,14 @@ description: Verwenden oder Anpassen der Kernkomponente „Horizontale Registerk
 role: Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
 TQID: https://experienceleague.adobe.com/E8NSb3GcPauGGJgcsEaxr-rbG2HVy96fCelp17EZ9n4
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 2213
-ht-degree: 100%
+source-wordcount: 2186
+ht-degree: 99%
 
 ---
 
@@ -32,7 +25,7 @@ Die Registerkarten bestehen in der Regel aus einer Reihe von Links oder Schaltfl
 
 {{traditional-aem}}
 
-## Nutzung {#reasons-to-use-horizontal-tabs}
+## Verwendung {#reasons-to-use-horizontal-tabs}
 
 Die häufigsten Gründe für die Verwendung horizontaler Registerkarten in einem adaptiven Formular sind:
 
@@ -125,7 +118,7 @@ Sie können die Wiederholungsoptionen verwenden, um die Komponente „Horizontal
 - **Registerkarten oben wiederholbar machen**: Eine Umschalter-Funktion, mit der Benutzende die Wiederholungsfunktion aktivieren oder deaktivieren können.
 - **Mindestwiederholungen**: Legt fest, wie oft die Komponente „Horizontale Registerkarten“ mindestens wiederholt werden kann. Der Wert null zeigt an, dass die Komponente „Horizontale Registerkarten“ nicht wiederholt wird. Der Standardwert ist null.
 - **Maximale Wiederholungen**: Legt fest, wie oft die Komponente „Horizontale Registerkarten“ maximal wiederholt werden kann. Standardmäßig ist dieser Wert unbegrenzt.
-Um wiederholbare Abschnitte innerhalb der horizontalen Registerkarten effektiv zu verwalten, folgen Sie den Schritten, die im Artikel [Erstellen von Formularen mit wiederholbaren Abschnitten](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=de) beschrieben sind.
+Um wiederholbare Abschnitte innerhalb der horizontalen Registerkarten effektiv zu verwalten, führen Sie die Schritte aus, die im Artikel [Erstellen von Formularen mit wiederholbaren Abschnitten](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=de) beschrieben werden.
 
 ### Registerkarte „Elemente“ {#items-tab}
 
@@ -199,7 +192,7 @@ Mit der Option „Benutzerdefinierte Eigenschaften“ können Sie mithilfe der F
 
    - **Neu anordnen**: Ordnen Sie den Namen und Wert der benutzerdefinierten Eigenschaft Antippen oder Klicken und Ziehen neu an.
 
-## Verwandte Artikel {#related-articles}
+## Ähnliche Artikel {#related-articles}
 
 {{more-like-this}}
 

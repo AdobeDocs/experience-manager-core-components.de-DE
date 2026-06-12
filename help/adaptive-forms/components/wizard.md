@@ -4,22 +4,14 @@ description: Verwenden oder Anpassen der Kernkomponente „Assistent“ für ada
 role: Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
 TQID: https://experienceleague.adobe.com/F48Og-1CMLNxu-Ajxuh8V-frKVTdvIpVhR2FAaYqalA
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c18d9e03-ac7d-4811-9c92-3e92ddc70adeid: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 2246
-ht-degree: 100%
+source-wordcount: 2211
+ht-degree: 98%
 
 ---
 
@@ -31,7 +23,7 @@ Jeder Schritt des Assistenten beinhaltet in der Regel eine Gruppe verwandter For
 
 Das Assistenten-Layout ist nützlich, wenn Formulare viele Felder oder Informationen enthalten, die ausgefüllt werden müssen, da das Formular in kleinere, besser überblickbare Abschnitte unterteilt wird. Außerdem können sich Benutzende auf eine Gruppe von Feldern konzentrieren, sodass das Ausfüllen des Formulars sie nicht überfordert.
 
-Dieses Layout kann jedoch auch die Komplexität des Formulars erhöhen, da Benutzende mehrere Seiten durchlaufen müssen, um es auszufüllen. Daher müssen vor der Verwendung des Assistenten-Layouts die Anforderungen des Formulars sowie die Bedürfnisse der Benutzenden sorgfältig überlegt werden.
+Es kann jedoch auch die Komplexität des Formulars erhöhen, da der Benutzer mehrere Seiten durchlaufen muss, um das Formular auszufüllen. Daher müssen vor der Verwendung eines Assistenten-Layouts die Anforderungen des Formulars sowie die Bedürfnisse der Benutzenden sorgfältig überlegt werden.
 Sie können die Kernkomponente „Assistent“ für adaptive Formulare verwenden, um ein Assistenten-Layout zu erstellen.
 
 {{traditional-aem}}
@@ -75,7 +67,7 @@ Informationen zu Versionen und Freigaben der Kernkomponente finden Sie im Dokume
 <!--
 ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_de). 
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
 -->
 
 ## Technische Details {#technical-details}
@@ -215,7 +207,7 @@ Mit der Option „Benutzerdefinierte Eigenschaften“ können Sie mithilfe der F
 
    - **Neu anordnen**: Ordnen Sie den Namen und Wert der benutzerdefinierten Eigenschaft Antippen oder Klicken und Ziehen neu an.
 
-## Verwandte Artikel {#related-articles}
+## Ähnliche Artikel {#related-articles}
 
 {{more-like-this}}
 

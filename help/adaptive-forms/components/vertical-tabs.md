@@ -4,28 +4,21 @@ description: Verwenden oder Anpassen der Kernkomponente „Vertikale Registerkar
 role: Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
 TQID: https://experienceleague.adobe.com/WDH-FeDLxftyNGf06-6aoUoY0NTF1G-M5BqzgXukExk
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 2214
-ht-degree: 100%
+source-wordcount: 2130
+ht-degree: 98%
 
 ---
 
 # Komponente „Vertikale Registerkarten“{#vertical-tabs-adaptive-forms-core-component}
 
-Vertikale Registerkarten in adaptiven Formularen sind so aufgebaut, dass mehrere Abschnitte eines Formulars gruppiert und als separate, vertikal ausgerichtete Registerkarten angezeigt werden. Benutzende können zwischen den Registerkarten wechseln, um auf verschiedene Abschnitte des Formulars zuzugreifen. Jede Registerkarte dient als Auslöser zum Anzeigen und Ausblenden des jeweiligen Formularinhalts. Mit vertikalen Registerkarten können Sie lange Formulare in überschaubare Abschnitte organisieren und das Benutzererlebnis verbessern. Registerkarten können dazu beitragen, ein Formular für Menschen mit Beeinträchtigungen zugänglicher zu machen, da sie mithilfe der Tastaturnavigation zwischen den Abschnitten wechseln können.
-Wenn Benutzende auf eine Registerkarte klicken, wird der Formularinhalt dynamisch aktualisiert und der entsprechende Abschnitt angezeigt.
+Vertikale Registerkarten in einem adaptiven Formular sind so aufgebaut, dass mehrere Abschnitte eines Formulars gruppiert und als separate, vertikal ausgerichtete Registerkarten angezeigt werden. Benutzende können zwischen den Registerkarten wechseln, um auf verschiedene Abschnitte des Formulars zuzugreifen. Jede Registerkarte dient als Trigger zum Anzeigen und Ausblenden des zugehörigen Formularinhalts. Mit den vertikalen Registerkarten können Sie lange Formulare in überschaubare Abschnitte organisieren und das Benutzererlebnis verbessern. Registerkarten können ein Formular für Benutzende mit Behinderungen barrierefreier gestalten, da sie mithilfe der Tastaturnavigation zwischen Abschnitten wechseln können.
+Wenn ein(e) Benutzende(r) auf eine Registerkarte klickt, wird der Formularinhalt dynamisch aktualisiert und der entsprechende Abschnitt wird angezeigt.
 
 >[!NOTE]
 >
@@ -35,7 +28,7 @@ Wenn Benutzende auf eine Registerkarte klicken, wird der Formularinhalt dynamisc
 
 {{traditional-aem}}
 
-## Nutzung {#reasons-to-use-vertical-tabs}
+## Verwendung {#reasons-to-use-vertical-tabs}
 
 Die häufigsten Gründe für die Verwendung vertikaler Registerkarten in einem adaptiven Formular sind:
 
@@ -196,7 +189,7 @@ Mit der Option „Benutzerdefinierte Eigenschaften“ können Sie mithilfe der F
 
    - **Neu anordnen**: Ordnen Sie den Namen und Wert der benutzerdefinierten Eigenschaft Antippen oder Klicken und Ziehen neu an.
 
-## Verwandte Artikel {#related-articles}
+## Ähnliche Artikel {#related-articles}
 
 {{more-like-this}}
 

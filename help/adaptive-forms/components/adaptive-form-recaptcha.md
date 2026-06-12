@@ -4,17 +4,10 @@ description: Mit dem Google reCAPTCHA-Dienst können Sie ganz einfach mit AEM Fo
 role: Developer, Admin, User
 exl-id: 2d986b90-e596-4e8f-9a32-0ebced5461c8
 TQID: https://experienceleague.adobe.com/m2HA7znVUf--ni0mhg7KTaiWximFKw3dNHn-5Z9iBv0
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
 source-wordcount: 1382
@@ -30,7 +23,7 @@ AEM Forms as a Cloud Service unterstützt Google reCAPTCHA v2 in adaptiven Formu
 
 {{traditional-aem}}
 
-## Nutzung {#reasons-to-use-google-recaptcha}
+## Verwendung {#reasons-to-use-google-recaptcha}
 
 
 - **Spam- und Bot-Prävention**: Einer der Hauptgründe für die Verwendung von reCAPTCHA ist, zu verhindern, dass Spam-Sendungen und bösartige Bots Ihr Formular überschwemmen. Die erweiterten Algorithmen von reCAPTCHA können automatisierte Versuche beim Senden des Formulars erkennen und so sicherstellen, dass nur legitime Benutzerinnen und Benutzer mit dem Formular interagieren können.
@@ -129,7 +122,7 @@ Mit der Option „Benutzerdefinierte Eigenschaften“ können Sie mithilfe der F
    - **Neu anordnen**: Ordnen Sie den Namen und Wert der benutzerdefinierten Eigenschaft Tippen oder Klicken und Ziehen neu an.
 
 
-## Verwandte Artikel {#related-articles}
+## Ähnliche Artikel {#related-articles}
 
 {{more-like-this}}
 

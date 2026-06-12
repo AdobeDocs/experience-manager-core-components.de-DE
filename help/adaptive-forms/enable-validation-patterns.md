@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie Vorlagenrichtlinien konfigurieren, um Überpr
 hide: true
 exl-id: e4500666-1346-4558-861d-da9541dcef51
 source-git-commit: 59064c359aea14af99675709bbddf9a933a959df
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 100%
 
@@ -73,7 +73,7 @@ Nachdem Überprüfungsmuster in der Vorlage aktiviert wurden, können Sie ein ad
 3. Wählen Sie **Adaptives Formular** aus den Optionen der Dropdown-Liste aus.
 4. Wählen Sie die Vorlage aus, in der Sie die Überprüfungsmuster aktiviert haben (z. B **Blank**), und klicken Sie auf **Weiter**.
 5. Am Bildschirm „Eigenschaften hinzufügen“:
-   - Gegen Sie einen **Titel** für Ihr Formular ein (z. B. „TestRichtlinie“). Das Feld **Name** wird basierend auf dem Titel automatisch ausgefüllt. 
+   - Gegen Sie einen **Titel** für Ihr Formular ein (z. B. „TestRichtlinie“). Das Feld **Name** wird basierend auf dem Titel automatisch ausgefüllt.
    - Stellen Sie sicher, dass die korrekte **Design-Client-Bibliothek** ausgewählt ist (z. B. `adaptiveform.theme.canvas3`).
 6. Klicken Sie auf **Erstellen**. Eine Erfolgsmeldung wird angezeigt.
 7. Klicken Sie auf **Bearbeiten**, um das Formular im Editor zu öffnen.
@@ -88,7 +88,7 @@ Nachdem Überprüfungsmuster in der Vorlage aktiviert wurden, können Sie ein ad
 
 1. Klicken Sie auf die neu hinzugefügte Komponente **Texteingabe**, um sie auszuwählen.
 2. Klicken Sie auf das Symbol **Konfigurieren** (dargestellt durch einen Schraubenschlüssel) in der Symbolleiste, die über der Komponente angezeigt wird.
-3. Navigieren Sie im Dialogfeld „Eigenschaften“ zur Registerkarte **Formate**. 
+3. Navigieren Sie im Dialogfeld „Eigenschaften“ zur Registerkarte **Formate**.
 4. Navigieren Sie zum Dropdown-Menü **Typ** und ändern Sie die Auswahl in **Telefonnummer** (oder ein anderes aktiviertes Format).
 
 ### Schritt 4: Konfigurieren der Datenvalidierung
