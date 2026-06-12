@@ -14,8 +14,8 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: tm+mt
-source-wordcount: 559
-ht-degree: 100%
+source-wordcount: 544
+ht-degree: 98%
 
 ---
 
@@ -42,8 +42,8 @@ In der folgenden Tabelle ist die Kompatibilität von v1 der Breadcrumb-Komponent
 
 >[!CAUTION]
 >
->In diesem Dokument wird v1 der Breadcrumb-Komponente beschrieben.
->Weitere Informationen zur aktuellen Version der Breadcrumb-Komponente finden Sie im Dokument [Breadcrumb-Komponente](/help/components/breadcrumb.md).
+>In diesem Dokument wird die v1 der Breadcrumb-Komponente beschrieben.
+>Weitere Informationen zur aktuellen Version der Breadcrumb-Komponente finden Sie im Dokument [Breadcrumb-Komponente](/help/components/breadcrumb.md) .
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
