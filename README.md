@@ -1,5 +1,5 @@
 ---
-source-git-commit: d1ab5eb1b3de07ccdf095b03f7c2e760dfc3d413
+source-git-commit: 78c755d553fdb424fee36bcb2a2c52627c51eaad
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 4%
@@ -20,3 +20,4 @@ Ihre Beiträge zur Dokumentation sind willkommen. Siehe die folgenden Ressourcen
 ## Kernkomponenten-Repository
 
 Die [Adobe Experience Manager-](https://github.com/adobe/aem-core-wcm-components) selbst werden als Projekt in einem separaten Repository gepflegt. Bitte schauen Sie sich dieses Projekt an, wenn Sie technische/Entwicklerdokumentation zu den Komponenten benötigen, zu den Komponenten selbst beitragen möchten oder ein Problem mit den Funktionen oder Funktionen der Kernkomponenten einreichen müssen.
+
