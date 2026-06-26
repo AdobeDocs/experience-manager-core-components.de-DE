@@ -17,10 +17,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+source-git-commit: 2a9a69dd7eeade8cdc2f681a354350c4370d5d1b
 workflow-type: tm+mt
-source-wordcount: 739
-ht-degree: 100%
+source-wordcount: 778
+ht-degree: 90%
 
 ---
 
@@ -50,10 +50,6 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie im Dokument [Kernkomponentenversionen](/help/versions.md).
 
-## Unterstützung von Progressive Web Apps {#pwa-support}
-
-Mit Version 2.15.0 der Kernkomponenten wurde die Unterstützung für die in AEM as a Cloud Service integrierten Funktionen für [Progressive Web Apps (PWA)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=de) eingeführt. Mit einer einfachen Konfiguration auf Site-Ebene verwandeln Sie Ihr AEM-Erlebnis in eine PWA.
-
 ### Technische Details {#technical-details}
 
 Die aktuelle technische Dokumentation zur Seitenkomponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_page_v3_de).
@@ -63,6 +59,12 @@ Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dok
 ## Dialogfeld „Bearbeiten“ {#edit-dialog}
 
 Da die Komponente die gesamte Seite darstellt, befinden sich Einstellungen, die normalerweise in einem Dialogfeld „Bearbeiten“ enthalten wären, im Fenster [Seiteneigenschaften](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=de).
+
+### Unterstützung strukturierter Daten {#structured-data}
+
+[Version 2.31.0](/help/versions.md) der Kernkomponenten führte die Unterstützung strukturierter Daten (JSON-LD) auf Seitenebene der Typen [schema.org](https://schema.org) für alle Versionen der Seitenkomponente ein.  AEM rendert diese Blöcke Server-seitig im Seitenkopf.
+
+[Version 2026.6.0 von AEM as a Cloud Service](https://experienceleague.adobe.com/de/docs/experience-manager-release-information/aem-release-updates/update-releases-roadmap) wurde die Möglichkeit für Autoren hinzugefügt, im Abschnitt **SEO** der Registerkarte **Erweitert** das Fenster Seiteneigenschaften zu verwenden, um einen oder mehrere JSON-LD-Blöcke zu einer Seite hinzuzufügen.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
