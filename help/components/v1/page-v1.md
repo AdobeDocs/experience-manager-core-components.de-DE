@@ -696,7 +696,7 @@ Im Folgenden finden Sie ein Beispiel von [We.Retail](https://helpx.adobe.com/de/
 
 ## Dialogfeld „Bearbeiten“ {#edit-dialog}
 
-Da die Komponente die gesamte Seite darstellt, befinden sich Einstellungen, die normalerweise in einem Dialogfeld „Bearbeiten“ enthalten wären, im Fenster [Seiteneigenschaften](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/authoring/editing-page-properties).
+Da die Komponente die gesamte Seite darstellt, befinden sich Einstellungen, die normalerweise in einem Dialogfeld „Bearbeiten“ enthalten wären, im Fenster [Seiteneigenschaften](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/sites/authoring/authoring/editing-page-properties).
 
 ### Unterstützung strukturierter Daten {#structured-data}
 
