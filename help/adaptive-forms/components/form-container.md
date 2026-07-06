@@ -16,16 +16,16 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+source-git-commit: 0af65c80f9cc58c4ba48d5b3dc7a026820bd2833
 workflow-type: tm+mt
-source-wordcount: 1529
-ht-degree: 99%
+source-wordcount: 2555
+ht-degree: 64%
 
 ---
 
 # Formular-Container {#form-container-adaptive-forms-core-component}
 
-<span class="preview"> In diesem Artikel wird die Funktion **Entwürfe** <!--and **Hamburger Menu Support** --> erläutert, bei der es sich um eine Vorabveröffentlichungsfunktion handelt. Die Vorabversionsfunktion ist nur über unseren [Vorabversionskanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features) zugänglich.</span>
+<span class="preview"> In diesem Artikel werden die Funktionen **Entwürfe** und **Hamburger-**) erläutert, die Vorabversionsfunktionen sind. Die Vorabversionsfunktion ist nur über unseren [Vorabversionskanal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=de#new-features) zugänglich.</span>
 
 Mit Formularen können Besuchende von Websites mit der Website interagieren, indem sie wertvolle Informationen bereitstellen, die die Interaktion und Benutzerzufriedenheit steigern können. Ein Container für adaptive Formulare in Adobe Experience Manager-Sites (AEM) ermöglicht es Besitzenden von Websites, ihren Seiten ganz einfach Formulare hinzuzufügen. Dies erleichtert die Kommunikation zwischen Website-Besuchenden und Besitzenden oder der Organisation der Website, da Besuchende auf diese Weise Feedback geben, Anfragen stellen und andere Aktionen ausführen können
 
@@ -85,26 +85,25 @@ Mit dem Dialogfeld „Konfigurieren“ können Sie das Formular-Container-Erlebn
 
 - **Rolle**: Die Rolle ist ein HTML-Attribut, mit dem der Zweck eines HTML-Elements für Hilfstechnologien wie Bildschirmlesehilfen angegeben wird. Rollenattribute werden verwendet, um für ein Element zusätzlichen Kontext und eine semantische Bedeutung bereitzustellen, wodurch es für Bildschirmlesehilfen einfacher wird, den Inhalt zu interpretieren und ihn Benutzenden mitzuteilen. In AEM Forms kann beispielsweise die Beschriftung eines Formularfelds die Rolle „Beschriftung“ haben und sein Eingabefeld die Rolle „Textfeld“. Dadurch kann die Bildschirmlesehilfe die Beziehung zwischen Beschrfitung und Eingabefeld verstehen und diese Informationen den Benutzenden korrekt mitteilen.
 
-- **Client-Bibliothekskategorie** - Benutzende können eine benutzerdefinierte JavaScript-Bibliothek pro adaptivem Formular konfigurieren. Es wird empfohlen, nur die wiederverwendbaren Funktionen in der Bibliothek zu behalten, die von Drittanbieterbibliotheken jquery und underscore.js abhängig sind.
-Bisweilen befindet sich bei komplexen **das exakte Validierungsskript in den benutzerdefinierten Funktionen** und die Benutzer rufen diese benutzerdefinierten Funktionen über den Ausdruck für die Feldvalidierung auf. Um diese benutzerdefinierte Funktionsbibliothek bei Server-seitigen Validierungen bekannt und verfügbar zu machen, kann der Formularbenutzer den Namen der AEM-Client-Bibliothek auf der Registerkarte **[!UICONTROL Standard]** des Dialogfelds „Container für adaptive Formulare“ konfigurieren.
-Der Benutzer kann eine benutzerdefinierte JavaScript-Bibliothek pro adaptivem Formular konfigurieren. Behalten Sie in der Bibliothek nur die wiederverwendbaren Funktionen bei, die von Drittanbieterbibliotheken jquery und underscore.js abhängig sind.
+- **Client-Bibliothekskategorie**: Benutzende können eine benutzerdefinierte JavaScript-Bibliothek pro adaptivem Formular konfigurieren. Es wird empfohlen, nur die wiederverwendbaren Funktionen in der Bibliothek zu behalten, die von den Drittanbieter-Bibliotheken „jquery“ und „underscore.js“ abhängig sind.Bisweilen befindet sich bei komplexen **Validierungsregeln** das exakte Validierungsskript in den benutzerdefinierten Funktionen. Benutzende können diese benutzerdefinierten Funktionen über den Ausdruck für die Feldvalidierung abrufen. Um diese benutzerdefinierte Funktionsbibliothek bei Server-seitigen Validierungen bekannt und verfügbar zu machen, können Benutzende von Formularen den Namen der AEM-Client-Bibliothek auf der Registerkarte **[!UICONTROL Allgemein]** in den Eigenschaften des Containers für adaptive Formulare konfigurieren.Der Benutzer bzw. die Benutzerin kann eine benutzerdefinierte JavaScript-Bibliothek für jedes adaptive Formular konfigurieren. Legen Sie in der Bibliothek nur die wiederverwendbaren Funktionen ab, die von den Drittanbieter-Bibliotheken „jquery“ und „underscore“ abhängen.
 
-<!--
-- **Enable the hamburger menu for mobile view** - Select the checkbox to integrate a hamburger menu into your form for mobile view. Represented by three horizontal lines stacked vertically, this menu provides a clear and uncluttered display for panels on smaller devices, especially on mobile devices. For more information about the hamburger menu, refer to the [Learn more about the hamburger menu](#learn-more-about-the-hamburger-menu) section. 
--->
+- **Hamburger-Menü für Mobilansicht aktivieren** - Aktivieren Sie das Kontrollkästchen, um ein Hamburger-Menü in Ihr Formular für Mobilansicht zu integrieren. Dieses Menü wird durch drei horizontal gestapelte Linien dargestellt. Es bietet eine klare und übersichtliche Anzeige für Bedienfelder auf kleineren Geräten, insbesondere auf Mobilgeräten. Weitere Informationen zum Hamburger-Menü finden Sie im Abschnitt [Weitere Informationen zum Hamburger-Menü](#learn-more-about-the-hamburger-menu).
 
 
 ### Registerkarte „Datenmodell“ {#data-model-tab}
 
-![Registerkarte „Übermittlung“](/help/adaptive-forms/assets/formcontainer_fdmtab.png)
+![Registerkarte „Datenmodell“](/help/adaptive-forms/assets/formcontainer_fdmtab.png)
 
 Sie können das Formulardatenmodell verwenden, um ein Formular mit einer Datenquelle zu verbinden und Daten basierend auf Benutzeraktionen zu senden und zu empfangen. Sie können auch ein Formular mit einem JSON-Schema verbinden, um die gesendeten Daten in einem vordefinierten Format zu empfangen. Verbinden Sie Ihr Formular je nach Anforderung mit einem JSON-Schema oder Formulardatenmodell:
-- Erstellen Sie ein JSON-Schema und laden Sie es in Ihre Umgebung hoch
-- Erstellen eines Formulardatenmodells
+- **None** - Verknüpfen Sie das Formular nicht mit einem Datenmodell.
+- **Schema** - Verbinden Sie das Formular mit einem JSON-Schema, das in Ihre Umgebung hochgeladen wurde.
+- **Formulardatenmodell** - Verbinden Sie das Formular mit einem Formulardatenmodell, um es in externe Datenquellen zu integrieren.
+- **Connector** - Verbinden des Formulars mit einer Connector-basierten Datenquelle.
+- **Formularvorlagen** - Verknüpfen Sie das Formular mit einer Formularvorlage.
 
-### Entwürfe
+### Registerkarte Entwürfe {#drafts-tab}
 
-![Registerkarte „Übermittlung“](/help/adaptive-forms/assets/formcontainer_autosavetab.png)
+![Registerkarte „Entwürfe“](/help/adaptive-forms/assets/formcontainer_autosavetab.png)
 
 - **Entwürfe automatisch speichern**: Aktivieren Sie das Kontrollkästchen **Entwürfe automatisch speichern**, um das Speichern von Formularen als Entwürfe zu aktivieren.
 - **Einstellung speichern**: Konfigurieren Sie **Einstellung speichern** als **Entwürfe in regelmäßigen Abständen speichern**, um das Formular nach einem bestimmten Zeitintervall automatisch zu speichern.
@@ -113,6 +112,8 @@ Sie können das Formulardatenmodell verwenden, um ein Formular mit einer Datenqu
 ### Registerkarte „Übermittlung“ {#submission-tab}
 
 Benutzende können verschiedene Aktionen für Übermittlungen adaptiver Formulare konfigurieren.
+
+- **Beim Senden** - Wählen Sie **Umleiten zu URL**, um Formularbenutzende nach dem Senden an eine konfigurierte Seite zu senden, oder **Nachricht anzeigen**, um eine Bestätigungsmeldung im Formular anzuzeigen.
 
 - **Umleitungs-URL/-pfad**: Diese Option ermöglicht es, eine Seite für jedes Formular zu konfigurieren, zu dem die Formularbenutzenden nach dem Übermitteln eines adaptiven Formulars umgeleitet werden. Klicken Sie hier, um weitere Informationen zum [Konfigurieren von Umleitungsseiten](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html?lang=de) zu erhalten.
 
@@ -123,6 +124,21 @@ Benutzende können verschiedene Aktionen für Übermittlungen adaptiver Formular
 ![Registerkarte „Nachricht anzeigen“](/help/adaptive-forms/assets/formconatiner_showmessage.png)
 
 - **Übermittlungsaktion**: Eine Übermittlungsaktion wird ausgelöst, wenn in einem adaptiven Formular auf die Schaltfläche „Senden“ geklickt wird. Benutzende können in der Dropdown-Liste „Übermittlungsaktionen“ auswählen, die standardmäßig unterstützt werden. Erfahren Sie, wie Sie [eine Übermittlungsaktion auf der Registerkarte „Übermittlung“ konfigurieren](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=de#supporting-custom-functions-in-validation-expressions-br).
+
+- **Aktionskonfiguration** - Konfigurieren von Zuordnungen für die Übergabe von Feldwerten als Anforderungsparameter für die Dankeseite.
+
+- **POST-Anfrage aktivieren** - Wählen Sie diese Option, um die Formulardaten mithilfe einer HTTP-POST-Anfrage zu senden.
+
+### Registerkarte „Datensatzdokument“ {#document-of-record-tab}
+
+![Registerkarte „Datensatzdokument“](/help/adaptive-forms/assets/formcontainer_dortab.png)
+
+Ein [Datensatzdokument (DoR) &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/generate-document-of-record-core-components) eine formale, druckbare Darstellung der über das Formular übermittelten Daten. Verwenden Sie die **Datensatzdokument**, um zu konfigurieren, wie ein Datensatzdokument generiert wird, wenn ein Benutzer das Formular sendet:
+
+- **Keine** - Es wird kein Datensatzdokument für das Formular generiert.
+- **Formularvorlage als Datensatzdokument-Vorlage zuordnen** - Verwenden Sie eine vorhandene Formularvorlage als DoR-Vorlage.
+- **Datensatzdokument generieren** - Automatisches Generieren eines Datensatzdokuments basierend auf den gesendeten Formulardaten.
+- **Dateianhänge aus Datensatzdokument ausschließen** - Wählen Sie diese Option, um Dateianhänge aus dem generierten Datensatzdokument wegzulassen.
 
 ## Dialogfeld „Design“ {#design-dialog}
 
@@ -170,44 +186,44 @@ Mit der Option „Benutzerdefinierte Eigenschaften“ können Sie mithilfe der F
 
    - **Neu anordnen**: Ordnen Sie den Namen und Wert der benutzerdefinierten Eigenschaft Antippen oder Klicken und Ziehen neu an.
 
+## Weitere Informationen zum Hamburger-Menü {#learn-more-about-the-hamburger-menu}
+
+Ein Hamburger-Menü, häufig als Mobilmenü oder Navigationsschublade bezeichnet, ist ein beliebtes Design-Element in mobilen Benutzeroberflächen. Es zeigt drei horizontale Linien, die vertikal gestapelt sind und einem Hamburger ähneln. Das Design spart effizient Platz auf dem Bildschirm, indem sekundäre Navigationsoptionen ausgeblendet werden, bis sie benötigt werden, insbesondere auf kleineren Geräten wie Mobilgeräten. AEM-Formulare können effizient im Hamburger-Menü organisiert werden, sodass Benutzende auf verschiedene Bereiche innerhalb eines Formulars zugreifen können, ohne die Hauptbenutzeroberfläche zu überfordern.
+
+Betrachten wir ein Szenario, in dem ein Finanzinstitut ein Online-Kreditantragsformular anbietet, in dem die Benutzer detaillierte Informationen über mehrere Bedienfelder hinweg bereitstellen müssen, z. B. persönliche Details, Finanzinformationen, Kreditvoreinstellungen und Belege. Das Formular enthält mehrere Bedienfelder und Optionen, die die Benutzeroberfläche insbesondere auf Mobilgeräten überladen können. Benutzende benötigen eine organisierte Möglichkeit, durch diese Bedienfelder zu navigieren, ohne überfordert zu sein. Das Hamburger-Menü wird implementiert, um das Benutzererlebnis auf Mobilgeräten zu verbessern.
+
+### Komponenten des Hamburger-Menüs
+
+![Hamburger-](/help/adaptive-forms/assets/hamburger-menu.png){width=50%, align=center}
+
+**a. Hamburger-**: Das Hamburger-Menü enthält einen Navigationsbereich, der beim Klicken oder Tippen auf das Hamburger-Symbol ausgeblendet oder heruntergefahren wird. Das Menü zeigt die Bereichsüberschriften an, und durch Auswahl eines Bereichs wird der Fokus auf diesen Bereich verschoben. Benutzende können damit einfach zwischen verschiedenen Bedienfeldern navigieren.
+
+![Hamburger-](/help/adaptive-forms/assets/hamburger-menu-icon.png){width=50%}
+
+**b. Breadcrumb**: Breadcrumbs geben den aktuellen Speicherort des Benutzers im Formular an. Sie bieten ein hierarchisches Protokoll, das den Navigationspfad der Benutzenden anzeigt und ihnen dabei hilft, ihre Position im Formular zu verstehen.
+
+**C. Aktives Bedienfeld**: Das aktive Bedienfeld bezieht sich auf den Abschnitt oder Teil des Formulars, der derzeit angezeigt wird. Wenn ein(e) Benutzende(r) eine Option aus dem Hamburger-Menü auswählt, wird das entsprechende Bedienfeld zum aktiven Bedienfeld, das die relevanten Felder und Informationen für diesen Abschnitt anzeigt.
+
+### Beim Arbeiten mit dem Hamburger-Menü zu berücksichtigende Punkte
+
+- Das Menü „Hamburger“ zeigt nur die Namen der Bedienfelder an. Im Folgenden finden Sie verschiedene Szenarien, die zeigen, wie der Bereichsname basierend auf den Konfigurationseigenschaften des Bereichs im Navigationsbereich des Hamburger-Menüs angezeigt wird:
+
+   - Wenn Sie die Eigenschaften des Bereichs auf „Ausgeblendet“ setzen, wird der Name des Bereichs nicht im Navigationsbereich des Hamburger-Menüs angezeigt. Wenn Sie beispielsweise die Eigenschaften des `Financial Information` Bedienfelds als `hidden` konfigurieren, wird der Bereichsname nicht im Navigationsbereich des Hamburger-Menüs angezeigt.
+
+     ![Ausgeblendetes Bedienfeld](/help/adaptive-forms/assets/hidden-panel.png){width=50%}
+
+   - Wenn Sie die Eigenschaften des Bedienfelds auf `disabled` setzen, wird sein Name im Navigationsbereich des Hamburger-Menüs angezeigt, Sie können ihn jedoch nicht auswählen oder bearbeiten. Wenn Sie beispielsweise die Eigenschaften des `Financial Information` Bedienfelds als `disabled` konfigurieren, wird der Bereichsname im Navigationsbereich angezeigt, kann jedoch nicht ausgewählt oder bearbeitet werden.
+
+     ![Bedienfeld deaktiviert](/help/adaptive-forms/assets/disabled-panel.png){width=50%}
+
+   - Wenn Sie den Titel des Bedienfelds ausblenden, wird es nicht im Navigationsbereich des Hamburger-Menüs angezeigt. Stattdessen wird eine leere Platzierung angezeigt. Sie können jedoch zu den Feldern des Bedienfelds navigieren, indem Sie auf diese Platzierung klicken. Wenn Sie beispielsweise den Titel des `Financial Information` Bedienfelds ausblenden, wird das leere Feld an dieser Stelle im Navigationsbereich des Hamburger-Menüs angezeigt. Sie können zu den Feldern des Bedienfelds navigieren, indem Sie auf die Leerstelle klicken.
+
+     ![Ausgeblendetes Titelfeld](/help/adaptive-forms/assets/hidden-title-panel.png){width=50%}
+
+- Standardmäßig unterstützt der Navigationsbereich in der Breadcrumb-Komponente bis zu drei Navigationsebenen. Mit der benutzerdefinierten Komponente können Sie jedoch die Navigationshierarchie so konfigurieren, dass sie beliebig viele Ebenen aufnimmt.
+- Bei Verwendung des Menüs „Hamburger“ können Benutzende mit Pfeilen zwischen Bedienfeldern navigieren. Sobald ein Bedienfeld ausgewählt wurde, wird das Menü jedoch automatisch geschlossen und der Fokus wechselt zu den Feldern im ausgewählten Bedienfeld.
+
 <!--
-## Learn more about the hamburger menu
-
-A hamburger menu, often referred to as a mobile menu or navigation drawer, is a popular design element in mobile user interfaces. It features three horizontal lines stacked vertically, resembling a hamburger. The design efficiently conserves screen space by hiding secondary navigation options until they are needed, especially on smaller devices such as mobile. AEM forms can be efficiently organized within the hamburger menu, enabling users to access various panels within a form without overwhelming the main interface.
-
-Consider a scenario, where a financial institution offers an online loan application form that requires users to provide detailed information across several panels, such as personal details, financial information, loan preferences, and supporting documents. The form includes multiple panels and options that can clutter the interface, especially on mobile devices. Users need an organized way to navigate through these panels without feeling overwhelmed. The hamburger menu is implemented to enhance the user experience on mobile devices.
-
-### Components of hamburger menu
-
-![Hamburger Menu](/help/adaptive-forms/assets/hamburger-menu.png){width=50%, align=center}
-
-**A. Hamburger menu**: The hamburger menu features a navigation panel that slides out or drops down when the hamburger icon is clicked or tapped. The menu displays the panel headings, and selecting a panel shifts the focus to that panel. It allows users to easily navigate between different panels.
-
-![Hamburger Menu](/help/adaptive-forms/assets/hamburger-menu-icon.png){width=50%}
-
-**B. Breadcrumb**: Breadcrumbs indicate the user's current location within the form. They offer a hierarchical trail that shows the user's navigation path and helps them understand their position in the form.
-
-**C. Active panel**: The active panel refers to the section or part of the form that is currently being displayed. When a user selects an option from the hamburger menu, the corresponding panel becomes the active panel, showing the relevant fields and information for that section.
-
-### Points to consider while working with the hamburger menu
-
-- The hamburger menu displays only the names of the panels. Here are different scenarios illustrating how the panel name appears in the navigation pane of the hamburger menu based on the configuration properties of the panel:  
-  
-  - If you set the properties of the panel to hidden, the panel's name does not appear in the navigation pane of the hamburger menu. For example, if you configure the properties of the `Financial Information` panel as `hidden`, the panel name does not appear in the navigation pane of the hamburger menu.
-    
-    ![Hidden panel](/help/adaptive-forms/assets/hidden-panel.png){width=50%}
-
-  - If you set the properties of the panel to `disabled`, its name appears in the navigation pane of the hamburger menu, but you cannot select or edit it. For example, if you configure the properties of the `Financial Information` panel as `disabled`, the panel name appears in the navigation pane, but it cannot be selected or edited. 
-     
-    ![Disabled panel](/help/adaptive-forms/assets/disabled-panel.png){width=50%}
-
-  - If you hide the  title of the panel, it does not appear in the navigation pane of the hamburger menu. A blank space shows up instead, but you can navigate to the fields of the panel by clicking on that space. For example, if you hide the title of the `Financial Information` panel, the blank space appears in its place in the navigation pane of the hamburger menu. You can navigate to the fields of the panel by clicking on the blank space.
-    
-    ![Hidden title panel](/help/adaptive-forms/assets/hidden-title-panel.png){width=50%}
-
-- By default, the navigation pane in the breadcrumb component supports up to three levels of navigation. However, with the custom component, you can configure the navigation hierarchy to accommodate as many levels as needed.
-- When using the hamburger menu, the user can navigate between panels using arrows. However, once a panel is selected, the menu automatically closes, and focus shifts to the fields within the chosen panel.
-
 ### Advantages to use hamburger menu
 
 - **Space efficiency**: By hiding form navigation options until needed, the hamburger menu maximizes screen space, which is especially beneficial on smaller devices.
@@ -231,7 +247,7 @@ To enable hamburger menu for form, perform the following steps:
 1. Select the **[!UICONTROL Add hamburger menu support]** checkbox.
 1. Click **[!UICONTROL Done]**.
 
-![Basic tab](/help/adaptive-forms/assets/formcontainer_basictab.png)
+![Basic tab](/help/adaptive-forms/assets/formcontainer_basictab1.png)
 -->
 
 ## Ähnliche Artikel {#related-articles}
