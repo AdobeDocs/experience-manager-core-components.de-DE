@@ -4,10 +4,17 @@ description: Die Schnellsuch-Komponente bietet Suchfunktionen für eine Website 
 role: Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
 TQID: https://experienceleague.adobe.com/wU-3pacdEz9ne8b53-mKJy-XxRdyz2gu4Jvj-yFgGOw
-product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: f7fb04a4420a61d8a4755f2b3f09aad91b12c7eb
 workflow-type: tm+mt
 source-wordcount: 863
@@ -26,7 +33,7 @@ Die Schnellsuch-Komponente bietet Suchfunktionen für eine Website und zeigt Suc
 
 Die Schnellsuch-Komponente bietet Site-Besuchern die Möglichkeit, nach Inhalten zu suchen, die Ergebnisse unmittelbar anzuzeigen und leicht zu den passenden Seiten zu navigieren. Neue Ergebnisse werden dynamisch abgerufen, wenn der Benutzer die Suchergebnisse durchblättert.
 
-Mit [ Dialogfeld „Bearbeiten](#edit-dialog) kann der Inhaltsautor definieren, wo in der Inhaltsstruktur die Suche beginnen soll, und optional den Umschalter Semantische Suche ausblenden. Mit dem [Design-](#design-dialog) kann der Vorlagenautor den Standardwert festlegen, an dem in der Inhaltsstruktur die Suche beginnen soll, die maximale Ergebnissatzgröße, die minimale Suchbegrifflänge und ob der Umschalter für die semantische Suche standardmäßig für Besuchende angezeigt wird.
+Mit [&#x200B; Dialogfeld „Bearbeiten](#edit-dialog) kann der Inhaltsautor definieren, wo in der Inhaltsstruktur die Suche beginnen soll, und optional den Umschalter Semantische Suche ausblenden. Mit dem [Design-](#design-dialog) kann der Vorlagenautor den Standardwert festlegen, an dem in der Inhaltsstruktur die Suche beginnen soll, die maximale Ergebnissatzgröße, die minimale Suchbegrifflänge und ob der Umschalter für die semantische Suche standardmäßig für Besuchende angezeigt wird.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
@@ -63,7 +70,7 @@ Im Dialogfeld „Bearbeiten“ kann der Inhaltsautor definieren, wo in der Inhal
   * Wenn Sie das Feld leer lassen, wird automatisch eine eindeutige ID generiert, die Sie über die resultierende Seite finden.
   * Sofern eine ID angegeben wird, ist vom Autor bzw. der Autorin sicherzustellen, dass diese eindeutig ist.
   * Änderungen der ID können sich auf das CSS-, JS- und Datenschicht-Tracking auswirken.
-* **Umschalter für die semantische Suche in dieser Instanz ausblenden** - Wenn diese Option aktiviert ist, wird der Umschalter für die semantische Suche ausgeblendet, unabhängig davon, wie [ Dialogfeld „Design](#design-dialog) konfiguriert ist, um es anzuzeigen.
+* **Umschalter für die semantische Suche in dieser Instanz ausblenden** - Wenn diese Option aktiviert ist, wird der Umschalter für die semantische Suche ausgeblendet, unabhängig davon, wie [&#x200B; Dialogfeld „Design](#design-dialog) konfiguriert ist, um es anzuzeigen.
   * Deaktivieren Sie diese Option, um die Standardeinstellung der Vorlage zu verwenden.
   * Diese Option kann den Umschalter nicht zwingen, auf einer Platzierung anzuzeigen, auf der das Dialogfeld „Design“ ihn ausblendet.
 
