@@ -29,7 +29,7 @@ Die Inhaltsdatenkomponente bietet den Besuchern Ihrer Site eine generative KI-ge
 
 ## Nutzung {#usage}
 
-Mit der KI-Suche „Inhaltsdaten“ können Besuchende eine [Content-Source](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources) direkt auf einer Seite durchsuchen und optional eine von KI erstellte generative Ergebniszusammenfassung anzeigen. Es kombiniert ein standardmäßiges Volltext-/semantisches Suchfeld mit einem umschaltbaren Bedienfeld **KI-generierte Zusammenfassung anzeigen** das von AEM Content AI unterstützt wird.
+Mit der KI-Suche „Inhaltsdaten“ können Besuchende eine [Content-Source](https://experienceleague.adobe.com/de/docs/experience-manager-content-ai/using/contentsources) direkt auf einer Seite durchsuchen und optional eine von KI erstellte generative Ergebniszusammenfassung anzeigen. Es kombiniert ein standardmäßiges Volltext-/semantisches Suchfeld mit einem umschaltbaren Bedienfeld **KI-generierte Zusammenfassung anzeigen** das von AEM Content AI unterstützt wird.
 
 Mit [&#x200B; Dialogfeld „Bearbeiten](#edit-dialog) kann der Inhaltsautor den Inhaltsbereich der Suche, das Suchverhalten und die generativen Einstellungen definieren. Es gibt kein Dialogfeld „Design“, da auf Vorlagenebene keine Einstellungen verfügbar sind.
 
@@ -78,7 +78,7 @@ Das Dialogfeld „Bearbeiten“ ermöglicht es dem Inhaltsautor, den Inhaltsbere
   * **CUSTOM** - Eine Quelle, die außerhalb der eigenen Aufnahme-Pipelines von AEM registriert ist
 * **Inhaltsquellen** - Dies definiert den Content Source, nach dem diese Komponente sucht.
   * Verfügbare Einträge entsprechen bereits vorhandenen und verfügbaren Inhaltsquellen (**verfügbar** sowie dem in **Content Source Type** festgelegten
-  * Weitere Informationen finden Sie [&#x200B; Dokument „Einrichten und Verwalten &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources) Content-KI-Quellen“.
+  * Weitere Informationen finden Sie [&#x200B; Dokument „Einrichten und Verwalten &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-content-ai/using/contentsources) Content-KI-Quellen“.
 
 ### Registerkarte Suchverhalten {#search-behavior}
 

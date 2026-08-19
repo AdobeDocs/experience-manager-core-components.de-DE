@@ -26,8 +26,8 @@ Die Inhaltsdatenkomponente bietet den Besuchern Ihrer Site eine generative KI-ge
 
 ## Voraussetzungen {#prerequisites}
 
-* Mindestens ein [Content Source](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources) wurde bereits erstellt und weist den Status **Verfügbar** auf.
-* Der **AEM Content AI Client** OSGi-Konfiguration (`ContentAIClientImpl`), die sowohl in der Autoren- als auch in der Veröffentlichungsinstanz eingerichtet ist, mit gültigen API-Anmeldeinformationen und einem **Default Content Source**-Wert. Informationen zum Abrufen von Anmeldeinformationen finden [&#x200B; im Dokument „Einrichten &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/setup-adc-project) Adobe Developer Console-Projekts“.
+* Mindestens ein [Content Source](https://experienceleague.adobe.com/de/docs/experience-manager-content-ai/using/contentsources) wurde bereits erstellt und weist den Status **Verfügbar** auf.
+* Der **AEM Content AI Client** OSGi-Konfiguration (`ContentAIClientImpl`), die sowohl in der Autoren- als auch in der Veröffentlichungsinstanz eingerichtet ist, mit gültigen API-Anmeldeinformationen und einem **Default Content Source**-Wert. Informationen zum Abrufen von Anmeldeinformationen finden [&#x200B; im Dokument „Einrichten &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-content-ai/using/setup-adc-project) Adobe Developer Console-Projekts“.
 
 ## Erstellen einer Proxy-Komponente {#proxy-component}
 
@@ -54,10 +54,10 @@ Ihre Inhaltsautoren können jetzt die Inhaltskomponenten-KI-Suchen auf ihren Sei
 
 * Standardsuchabfragen werden von derselben Abrufebene wie der Source-Index für Inhalte bereitgestellt und geben übereinstimmende Seiten, Fragmente oder Assets aus der konfigurierten Quelle zurück.
 * Wenn die KI-generierte Zusammenfassung aktiviert ist, ruft die Komponente zusätzlich den generativen Endpunkt der AEM-Inhalts-KI auf, wodurch die Antwort im selben indizierten Inhalt geerdet wird, und zeigt Quellen neben der Zusammenfassung an, damit Besucher sie überprüfen können.
-* Da beide Funktionen aus demselben verwalteten Source für Inhalte gelesen werden, bleiben die Ergebnisse und Zusammenfassungen mit den aktuell indizierten Inhalten konsistent. Wenn Sie die Akquise erneut ausführen (siehe [Steuern von Inhaltsquellen](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources)), werden beide aktualisiert.
+* Da beide Funktionen aus demselben verwalteten Source für Inhalte gelesen werden, bleiben die Ergebnisse und Zusammenfassungen mit den aktuell indizierten Inhalten konsistent. Wenn Sie die Akquise erneut ausführen (siehe [Steuern von Inhaltsquellen](https://experienceleague.adobe.com/de/docs/experience-manager-content-ai/using/contentsources)), werden beide aktualisiert.
 
 ## Nächste Schritte {#next-steps}
 
-* [Steuern Ihrer Inhaltsquellen](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources) - Erstellen und verwalten Sie die Content-Source, nach der diese Komponente sucht.
-* [Einrichten eines Adobe Developer Console-Projekts](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/setup-adc-project) - Abrufen der von der OSGi Content AI-Client-Konfiguration verwendeten Anmeldeinformationen.
+* [Steuern Ihrer Inhaltsquellen](https://experienceleague.adobe.com/de/docs/experience-manager-content-ai/using/contentsources) - Erstellen und verwalten Sie die Content-Source, nach der diese Komponente sucht.
+* [Einrichten eines Adobe Developer Console-Projekts](https://experienceleague.adobe.com/de/docs/experience-manager-content-ai/using/setup-adc-project) - Abrufen der von der OSGi Content AI-Client-Konfiguration verwendeten Anmeldeinformationen.
 * [Content AI-API-Referenz](https://developer.adobe.com/experience-cloud/experience-manager-apis/api/experimental/contentai/) - Verstehen Sie die zugrunde liegenden Endpunkte für Suchen und generative Zusammenfassungen, die diese Komponente aufruft.

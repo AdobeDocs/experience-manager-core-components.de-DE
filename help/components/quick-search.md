@@ -53,7 +53,7 @@ Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie im D
 
 ## Musterkomponentenausgabe {#sample-component-output}
 
-Um die Schnellsuch-Komponente kennenzulernen und Beispiele für die Konfigurationsoptionen sowie die HTML- und JSON-Ausgabe zu sehen, besuchen Sie die [Komponentenbibliothek.](https://adobe.com/go/aem_cmp_library_search)
+Um die Schnellsuch-Komponente kennenzulernen und Beispiele für die Konfigurationsoptionen sowie die HTML- und JSON-Ausgabe zu sehen, besuchen Sie die [Komponentenbibliothek.](https://adobe.com/go/aem_cmp_library_search_de)
 
 ## Technische Details {#technical-details}
 
