@@ -15,10 +15,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: f7fb04a4420a61d8a4755f2b3f09aad91b12c7eb
+source-git-commit: f939ce7498d9ec1901bea4b5fbf631365ba923fa
 workflow-type: tm+mt
-source-wordcount: 863
-ht-degree: 46%
+source-wordcount: 909
+ht-degree: 41%
 
 ---
 
@@ -43,19 +43,25 @@ Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die 
 
 | Komponentenversion | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |--- |---|---|
-| v3 | – | Kompatibel | Kompatibel | Kompatibel |
+| v3 | – | Kompatibel* | Kompatibel* | Kompatibel |
 | [v2](/help/components/v2/quick-search.md) | – | Kompatibel | Kompatibel | Kompatibel |
 | [v1](/help/components/v1/quick-search.md) | Kompatibel mit<br>[Version 2.17.4](/help/versions.md) und vorherigen | Kompatibel | – | Kompatibel |
 
-Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie im Dokument [Kernkomponentenversionen](/help/versions.md).
+*Der Umschalter Semantische Suche ist nur bei AEM as a Cloud Service verfügbar.
 
-### Technische Details {#technical-details}
+Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie im Dokument [Kernkomponentenversionen.](/help/versions.md)
+
+## Musterkomponentenausgabe {#sample-component-output}
+
+Um die Schnellsuch-Komponente kennenzulernen und Beispiele für die Konfigurationsoptionen sowie die HTML- und JSON-Ausgabe zu sehen, besuchen Sie die [Komponentenbibliothek.](https://adobe.com/go/aem_cmp_library_search_de)
+
+## Technische Details {#technical-details}
 
 >[!NOTE]
 >
 >Der Schutz der Suchkomponente oder einer beliebigen AEM-basierten Anwendung gegen DOS-Angriffe sollte auf höherer Ebene implementiert werden, z. B. durch Verwendung von `mod_security` auf dem Dispatcher.
 
-Die neueste technische Dokumentation zur Schnellsuch-Komponente [finden Sie auf GitHub](https://adobe.com/go/aem_cmp_tech_search_v2_de).
+Die aktuelle technische Dokumentation zur Schnellsuch-Komponente [finden Sie auf GitHub.](https://adobe.com/go/aem_cmp_tech_search_v3)
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 

@@ -21,10 +21,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 851de520ea02d9d47366967e70174eca714dd348
+source-git-commit: 20b54716af29ed8f283b3e6fffc2682dfee0d999
 workflow-type: tm+mt
-source-wordcount: 4192
-ht-degree: 96%
+source-wordcount: 4244
+ht-degree: 95%
 
 ---
 
@@ -46,6 +46,7 @@ Die folgende Tabelle, deren Inhalt [auf GitHub mit vollständigen Versionsinform
 |---|---|---|---|---|---|---|---|
 | [2.32.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.4) | Diese Version behebt einen Fehler. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11, 17, 21 | &#x200B;15. Juli 2026 |
 | [2.32.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.2) | Diese Version behob Fehler in den vorherigen Versionen der Client-Bibliotheken für die Suche. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11, 17, 21 | &#x200B;15. Juli 2026 |
+| [2.32.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.0) | Diese Version führt die [Inhaltsdatenkomponente](/help/components/ai-search.md) eine neue KI-Suche der [Schnellsuch-Komponente](/help/components/quick-search.md) mit einem optionalen Umschalter für KI-Suchen ein und behebt unter anderem Lokalisierungsfehler. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11, 17, 21 | &#x200B;14. Juli 2026 |
 | [2.32.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.0) | Diese Version führte eine neue Version der [Schnellsuch-Komponente](/help/components/quick-search.md) mit einem optionalen Umschalter für KI-Suchen ein und behebt unter anderem Lokalisierungsfehler. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11, 17, 21 | &#x200B;14. Juli 2026 |
 | [2.31.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.2) | Diese Version behebt Fehler, bei denen bestimmte Informationen nicht ordnungsgemäß persistiert wurden. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11, 17, 21 | &#x200B;22. Juni 2026 |
 | [2.31.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.0) | Mit dieser Version wurde die Unterstützung für JSON-LD-Daten für die Seitenkomponente sowie eine verbesserte Leistung für mehrere andere Komponenten zusätzlich zu zahlreichen Fehlerbehebungen eingeführt. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11, 17, 21 | &#x200B;19. Mai 2026 |
