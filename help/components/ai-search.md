@@ -2,10 +2,17 @@
 title: Inhaltskomponenten-KI-Suche
 description: Die Inhaltsdatenkomponente bietet den Besuchern Ihrer Site eine generative KI-gestützte KI-Suche.
 role: Developer, Admin, User
-product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: e721e8b9469646300432b87d42bfb742aaf5f3fb
 workflow-type: tm+mt
 source-wordcount: 805
@@ -24,11 +31,11 @@ Die Inhaltsdatenkomponente bietet den Besuchern Ihrer Site eine generative KI-ge
 
 Mit der KI-Suche „Inhaltsdaten“ können Besuchende eine [Content-Source](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources) direkt auf einer Seite durchsuchen und optional eine von KI erstellte generative Ergebniszusammenfassung anzeigen. Es kombiniert ein standardmäßiges Volltext-/semantisches Suchfeld mit einem umschaltbaren Bedienfeld **KI-generierte Zusammenfassung anzeigen** das von AEM Content AI unterstützt wird.
 
-Mit [ Dialogfeld „Bearbeiten](#edit-dialog) kann der Inhaltsautor den Inhaltsbereich der Suche, das Suchverhalten und die generativen Einstellungen definieren. Es gibt kein Dialogfeld „Design“, da auf Vorlagenebene keine Einstellungen verfügbar sind.
+Mit [&#x200B; Dialogfeld „Bearbeiten](#edit-dialog) kann der Inhaltsautor den Inhaltsbereich der Suche, das Suchverhalten und die generativen Einstellungen definieren. Es gibt kein Dialogfeld „Design“, da auf Vorlagenebene keine Einstellungen verfügbar sind.
 
 >[!NOTE]
 >
->Um die Inhaltskomponente verwenden zu können, müssen Sie Zugriff auf eine Content-KI-Source haben und Ihr Administrator muss die KI-Suche für Ihr Projekt aktiviert haben. Weitere KI-Suchen finden [ im Dokument „Konfigurieren ](/help/developing/ai-search.md) Inhaltsdatenkomponente“.
+>Um die Inhaltskomponente verwenden zu können, müssen Sie Zugriff auf eine Content-KI-Source haben und Ihr Administrator muss die KI-Suche für Ihr Projekt aktiviert haben. Weitere KI-Suchen finden [&#x200B; im Dokument „Konfigurieren &#x200B;](/help/developing/ai-search.md) Inhaltsdatenkomponente“.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
@@ -71,7 +78,7 @@ Das Dialogfeld „Bearbeiten“ ermöglicht es dem Inhaltsautor, den Inhaltsbere
   * **CUSTOM** - Eine Quelle, die außerhalb der eigenen Aufnahme-Pipelines von AEM registriert ist
 * **Inhaltsquellen** - Dies definiert den Content Source, nach dem diese Komponente sucht.
   * Verfügbare Einträge entsprechen bereits vorhandenen und verfügbaren Inhaltsquellen (**verfügbar** sowie dem in **Content Source Type** festgelegten
-  * Weitere Informationen finden Sie [ Dokument „Einrichten und Verwalten ](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources) Content-KI-Quellen“.
+  * Weitere Informationen finden Sie [&#x200B; Dokument „Einrichten und Verwalten &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources) Content-KI-Quellen“.
 
 ### Registerkarte Suchverhalten {#search-behavior}
 

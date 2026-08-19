@@ -2,10 +2,16 @@
 title: Konfigurieren der Inhaltsdatenkomponente
 description: Die Inhaltsdatenkomponente bietet den Besuchern Ihrer Site eine generative KI-gestützte KI-Suche. Erfahren Sie, wie Sie diese Komponente für Ihre Inhaltsautoren aktivieren.
 role: Developer, Admin
-product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
 source-git-commit: 865622469555a773138d3ff1b54138f2b76994b0
 workflow-type: tm+mt
 source-wordcount: 485
@@ -21,11 +27,11 @@ Die Inhaltsdatenkomponente bietet den Besuchern Ihrer Site eine generative KI-ge
 ## Voraussetzungen {#prerequisites}
 
 * Mindestens ein [Content Source](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources) wurde bereits erstellt und weist den Status **Verfügbar** auf.
-* Der **AEM Content AI Client** OSGi-Konfiguration (`ContentAIClientImpl`), die sowohl in der Autoren- als auch in der Veröffentlichungsinstanz eingerichtet ist, mit gültigen API-Anmeldeinformationen und einem **Default Content Source**-Wert. Informationen zum Abrufen von Anmeldeinformationen finden [ im Dokument „Einrichten ](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/setup-adc-project) Adobe Developer Console-Projekts“.
+* Der **AEM Content AI Client** OSGi-Konfiguration (`ContentAIClientImpl`), die sowohl in der Autoren- als auch in der Veröffentlichungsinstanz eingerichtet ist, mit gültigen API-Anmeldeinformationen und einem **Default Content Source**-Wert. Informationen zum Abrufen von Anmeldeinformationen finden [&#x200B; im Dokument „Einrichten &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/setup-adc-project) Adobe Developer Console-Projekts“.
 
 ## Erstellen einer Proxy-Komponente {#proxy-component}
 
-Wie alle Kernkomponenten wird empfohlen, eine Proxy-KI-Suche für die standardmäßige Inhaltsdatenkomponente zu erstellen, die im Lieferumfang von AEM enthalten ist. Wenn Sie Ihre projektspezifischen Änderungen in der Proxy-Komponente unter `/apps` lassen, werden die Basiskomponenten unter `/libs` automatisch von Adobe aktualisiert, und Ihre Projektkomponente erbt diese Aktualisierungen automatisch. Weitere Informationen finden Sie [ den Dokumenten ](/help/get-started/using.md#aemaacs)Verwenden von Kernkomponenten[ und ](/help/developing/guidelines.md)Komponentenrichtlinien“.
+Wie alle Kernkomponenten wird empfohlen, eine Proxy-KI-Suche für die standardmäßige Inhaltsdatenkomponente zu erstellen, die im Lieferumfang von AEM enthalten ist. Wenn Sie Ihre projektspezifischen Änderungen in der Proxy-Komponente unter `/apps` lassen, werden die Basiskomponenten unter `/libs` automatisch von Adobe aktualisiert, und Ihre Projektkomponente erbt diese Aktualisierungen automatisch. Weitere Informationen finden Sie [&#x200B; den Dokumenten &#x200B;](/help/get-started/using.md#aemaacs)Verwenden von Kernkomponenten[&#x200B; und &#x200B;](/help/developing/guidelines.md)Komponentenrichtlinien“.
 
 ## Client-Bibliotheken konfigurieren {#clientlib}
 
@@ -42,7 +48,7 @@ Wenn Ihr Projekt darüber hinaus einen eigenen Markenstil verwendet, fügen Sie 
 
 ## Verwenden der Inhaltskomponenten-KI-Suchen {#using}
 
-Ihre Inhaltsautoren können jetzt die Inhaltskomponenten-KI-Suchen auf ihren Seiten platzieren. Weitere KI-Suchen finden Sie [ Dokument ](/help/components/ai-search.md)Inhaltsdatenkomponente“.
+Ihre Inhaltsautoren können jetzt die Inhaltskomponenten-KI-Suchen auf ihren Seiten platzieren. Weitere KI-Suchen finden Sie [&#x200B; Dokument &#x200B;](/help/components/ai-search.md)Inhaltsdatenkomponente“.
 
 ## Verwendung der Inhalts-KI durch die Komponente {#how-it-works}
 
