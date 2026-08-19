@@ -4,27 +4,15 @@ description: Kernkomponenten werden als Versionen veröffentlicht, die mehr als 
 role: Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 TQID: https://experienceleague.adobe.com/XTlpl5LlUcde1kvtWXPWtZczkafTGRk2g2OZ6MBDaRY
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ae478996-b206-4712-9b0c-dc78a2644453
-  - id: d429a63e-ade4-4117-b04e-9b996d1c94ef
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-subfeature_v2:
-  - id: a94e5c13-4138-47ec-b9c8-e804e17aaca2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 851de520ea02d9d47366967e70174eca714dd348
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ae478996-b206-4712-9b0c-dc78a2644453id: d429a63e-ade4-4117-b04e-9b996d1c94efid: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+subfeature_v2: id: a94e5c13-4138-47ec-b9c8-e804e17aaca2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 20b54716af29ed8f283b3e6fffc2682dfee0d999
 workflow-type: tm+mt
-source-wordcount: 4192
-ht-degree: 96%
+source-wordcount: 4244
+ht-degree: 95%
 
 ---
 
@@ -46,6 +34,7 @@ Die folgende Tabelle, deren Inhalt [auf GitHub mit vollständigen Versionsinform
 |---|---|---|---|---|---|---|---|
 | [2.32.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.4) | Diese Version behebt einen Fehler. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11, 17, 21 | &#x200B;15. Juli 2026 |
 | [2.32.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.2) | Diese Version behob Fehler in den vorherigen Versionen der Client-Bibliotheken für die Suche. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11, 17, 21 | &#x200B;15. Juli 2026 |
+| [2.32.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.0) | Diese Version führt die [Inhaltsdatenkomponente](/help/components/ai-search.md) eine neue KI-Suche der [Schnellsuch-Komponente](/help/components/quick-search.md) mit einem optionalen Umschalter für KI-Suchen ein und behebt unter anderem Lokalisierungsfehler. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11, 17, 21 | &#x200B;14. Juli 2026 |
 | [2.32.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.0) | Diese Version führte eine neue Version der [Schnellsuch-Komponente](/help/components/quick-search.md) mit einem optionalen Umschalter für KI-Suchen ein und behebt unter anderem Lokalisierungsfehler. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11, 17, 21 | &#x200B;14. Juli 2026 |
 | [2.31.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.2) | Diese Version behebt Fehler, bei denen bestimmte Informationen nicht ordnungsgemäß persistiert wurden. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11, 17, 21 | &#x200B;22. Juni 2026 |
 | [2.31.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.0) | Mit dieser Version wurde die Unterstützung für JSON-LD-Daten für die Seitenkomponente sowie eine verbesserte Leistung für mehrere andere Komponenten zusätzlich zu zahlreichen Fehlerbehebungen eingeführt. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11, 17, 21 | &#x200B;19. Mai 2026 |
