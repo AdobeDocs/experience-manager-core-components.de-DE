@@ -61,7 +61,7 @@ Um die Schnellsuch-Komponente kennenzulernen und Beispiele für die Konfiguratio
 >
 >Der Schutz der Suchkomponente oder einer beliebigen AEM-basierten Anwendung gegen DOS-Angriffe sollte auf höherer Ebene implementiert werden, z. B. durch Verwendung von `mod_security` auf dem Dispatcher.
 
-Die aktuelle technische Dokumentation zur Schnellsuch-Komponente [finden Sie auf GitHub.](https://adobe.com/go/aem_cmp_tech_search_v3)
+Die aktuelle technische Dokumentation zur Schnellsuch-Komponente [finden Sie auf GitHub.](https://adobe.com/go/aem_cmp_tech_search_v3_de)
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
