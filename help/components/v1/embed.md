@@ -7,22 +7,27 @@ index: false
 TQID: https://experienceleague.adobe.com/YHV-xySiw1BjEKsfT-ALcfEHNDhOtREXJroHUf3p6m4
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+    internal-label: Security
+source-git-commit: 404cb0693a33ee0f76ca33fe8dd3aad0785fd55e
 workflow-type: tm+mt
-source-wordcount: 1317
+source-wordcount: '1317'
 ht-degree: 100%
-
 ---
-
 # Einbettungskomponente (v1) {#embed-component}
 
 Die Einbettungskomponente der Kernkomponenten ermöglicht das Einbetten externer Inhalte in eine AEM-Inhaltsseite.
@@ -145,12 +150,12 @@ Der Dialogfeld „Design“ ermöglicht es dem Vorlagenautor, die Optionen, die 
 ![Registerkarte „YouTube“ im Dialogfeld „Design“ der Einbettungskomponente](/help/assets/embed-design-youtube.png)
 
 * **Konfiguration des Stummschaltungsverhaltens zulassen** - Erlaubt es dem Autor von Inhalten, die Option **Stummschalten aktivieren** in der Komponente zu konfigurieren, wenn der YouTube-Einbettungstyp ausgewählt ist.
-   * **Standardwert für die Stummschaltung** - Legt bei Auswahl des YouTube-Einbettungstyps automatisch die Option **Stummschalten aktivieren** fest.
+  * **Standardwert für die Stummschaltung** - Legt bei Auswahl des YouTube-Einbettungstyps automatisch die Option **Stummschalten aktivieren** fest.
 * **Konfiguration des automatischen Wiedergabeverhaltens zulassen** - Erlaubt es dem Autor von Inhalten, die Option **Automatische Wiedergabe aktivieren** in der Komponente zu konfigurieren, wenn der YouTube-Einbettungstyp ausgewählt ist.
-   * **Standardwert für die automatische Wiedergabe** - Legt bei Auswahl des YouTube-Einbettungstyps automatisch die Option **Automatische Wiedergabe aktivieren** fest.
+  * **Standardwert für die automatische Wiedergabe** - Legt bei Auswahl des YouTube-Einbettungstyps automatisch die Option **Automatische Wiedergabe aktivieren** fest.
 * **Konfiguration des Schleifenverhaltens zulassen** - Erlaubt es dem Autor von Inhalten, die Option **Schleife aktivieren** in der Komponente zu konfigurieren, wenn der YouTube-Einbettungstyp ausgewählt ist.
-   * **Standardwert für Schleifen** - Legt bei Auswahl des YouTube-Einbettungstyps automatisch die Option **Schleife aktivieren** fest.
+  * **Standardwert für Schleifen** - Legt bei Auswahl des YouTube-Einbettungstyps automatisch die Option **Schleife aktivieren** fest.
 * **Konfiguration der Inline-Wiedergabe (iOS) zulassen** - Erlaubt es dem Autor von Inhalten, die Option **Inline-Wiedergabe (iOS) aktivieren** in der Komponente zu konfigurieren, wenn der YouTube-Einbettungstyp ausgewählt ist.
-   * **Standardwert für die Inline-Wiedergabe (iOS)** - Legt bei Auswahl des YouTube-Einbettungstyps automatisch die Option **Inline-Wiedergabe (iOS) aktivieren** fest.
+  * **Standardwert für die Inline-Wiedergabe (iOS)** - Legt bei Auswahl des YouTube-Einbettungstyps automatisch die Option **Inline-Wiedergabe (iOS) aktivieren** fest.
 * **Konfiguration zugehöriger Videos zulassen** - Erlaubt es dem Autor von Inhalten, die Option **Unbeschränkte zugehörige Videos** in der Komponente zu konfigurieren, wenn der YouTube-Einbettungstyp ausgewählt ist.
-   * **Standardwert für unbeschränkte zugehörige Videos** - Legt bei Auswahl des YouTube-Einbettungstyps automatisch die Option **Unbeschränkte zugehörige Videos** fest.
+  * **Standardwert für unbeschränkte zugehörige Videos** - Legt bei Auswahl des YouTube-Einbettungstyps automatisch die Option **Unbeschränkte zugehörige Videos** fest.
