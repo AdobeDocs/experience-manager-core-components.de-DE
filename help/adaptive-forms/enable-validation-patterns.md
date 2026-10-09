@@ -3,13 +3,16 @@ title: Aktivieren und Verwenden von Überprüfungsmustern für Texteingaben in a
 description: Erfahren Sie, wie Sie Vorlagenrichtlinien konfigurieren, um Überprüfungsmuster wie Telefonnummern, Sozialversicherungsnummern und Postleitzahlen verfügbar zu machen, und verwenden sie diese dann in Ihrem adaptiven Formular.
 hide: true
 exl-id: e4500666-1346-4558-861d-da9541dcef51
-source-git-commit: 59064c359aea14af99675709bbddf9a933a959df
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+source-git-commit: 025b8134f7675b4515f4586910a94a2732bfa2ee
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 100%
-
 ---
-
 # Aktivieren und Verwenden von Überprüfungsmustern für Texteingaben in adaptiven Formularen von Adobe Experience Manager
 
 ## Übersicht
@@ -113,13 +116,13 @@ So überprüfen Sie, ob die Überprüfungsmuster ordnungsgemäß funktionieren:
 ## Fehlerbehebung
 
 - **Problem:** Die Überprüfungsmuster werden nicht in der Formularkomponente angezeigt.
-   - **Lösung:** Stellen Sie sicher, dass die Vorlagenrichtlinie korrekt gespeichert wurde und dass Sie beim Erstellen des Formulars die richtige Vorlage verwenden.
+  - **Lösung:** Stellen Sie sicher, dass die Vorlagenrichtlinie korrekt gespeichert wurde und dass Sie beim Erstellen des Formulars die richtige Vorlage verwenden.
 
 - **Problem:** Es kann nicht auf den Vorlageneditor zugegriffen werden.
-   - **Lösung:** Vergewissern Sie sich, dass Sie über die erforderlichen Berechtigungen zum Bearbeiten von Vorlagen verfügen (Zugehörigkeit der Gruppe `template-authors`).
+  - **Lösung:** Vergewissern Sie sich, dass Sie über die erforderlichen Berechtigungen zum Bearbeiten von Vorlagen verfügen (Zugehörigkeit der Gruppe `template-authors`).
 
 - **Problem:** Die Texteingabekomponente validiert eine Eingabe nicht korrekt.
-   - **Lösung:** Überprüfen Sie die Einstellungen für das Überprüfungsmuster auf der Registerkarte „Überprüfung“ der Komponente erneut und stellen Sie sicher, dass das richtige Muster ausgewählt ist.
+  - **Lösung:** Überprüfen Sie die Einstellungen für das Überprüfungsmuster auf der Registerkarte „Überprüfung“ der Komponente erneut und stellen Sie sicher, dass das richtige Muster ausgewählt ist.
 
 ## Nächste Schritte
 

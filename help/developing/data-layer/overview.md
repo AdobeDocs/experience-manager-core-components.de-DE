@@ -4,38 +4,53 @@ description: Verwenden der Adobe Client-Datenschicht in Verbindung mit den Kernk
 feature: Core Components, Adobe Client Data Layer
 role: Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
-TQID: https://experienceleague.adobe.com/CwXfehtriHzjTKA7cCwCb0HCcAWTm5I49UF3x3rrc3c
+TQID: 'https://experienceleague.adobe.com/CwXfehtriHzjTKA7cCwCb0HCcAWTm5I49UF3x3rrc3c'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
   - id: c124fa01-25c5-42ec-adf6-21d1c114058b
+    internal-label: Developer tools
   - id: d429a63e-ade4-4117-b04e-9b996d1c94ef
+    internal-label: Integrations
   - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
+    internal-label: Developer tools
+  - id: d9d38edd-df1b-480c-8f5e-72b62576f390
+    internal-label: Site and page features
 subfeature_v2:
   - id: a0ab86ed-7176-40e5-bccb-a2cc1295200c
+    internal-label: Edge Delivery Services
   - id: a94e5c13-4138-47ec-b9c8-e804e17aaca2
+    internal-label: Adobe Client Data Layer
   - id: ca9acb56-1fd9-4553-930f-d71ab7d4045d
+    internal-label: AEM Project Archetype
   - id: cd14456d-a492-4b5c-8a82-1fbd4460dbd2
+    internal-label: Java Content Repository
   - id: f88183b7-5ea5-436c-ac46-96b53f0281ea
+    internal-label: Edge Delivery Services
+  - id: c43ff1f6-5a6d-4e8c-b3cc-6bdb3fa6e092
+    internal-label: Core components
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+    internal-label: Developer
+source-git-commit: 025b8134f7675b4515f4586910a94a2732bfa2ee
 workflow-type: tm+mt
-source-wordcount: 1024
+source-wordcount: '1024'
 ht-degree: 100%
-
 ---
-
 # Verwenden der Adobe Client-Datenschicht in Verbindung mit den Kernkomponenten {#data-layer-core-components}
 
-Ziel der Adobe Client-Datenschicht ist es, für beliebige Skripte anhand einer standardisierten Methode für die Bereitstellung und den Zugriff auf alle Arten von Daten den Aufwand für die Instrumentierung von Websites zu reduzieren.
+Ziel der Adobe-Client-Datenschicht ist es, den Aufwand für die Instrumentierung von Websites zu reduzieren, indem eine standardisierte Methode zum Bereitstellen und Zugreifen auf beliebige Arten von Daten für beliebige Skripte bereitgestellt wird.
 
-Die Adobe Client-Datenschicht ist plattformunabhängig, aber für die Verwendung mit AEM vollständig in die Kernkomponenten integriert.
+Die Adobe-Client-Datenschicht ist plattformunabhängig, aber für die Verwendung mit AEM vollständig in die Kernkomponenten integriert.
 
-Wie auch die Kernkomponenten ist der Code für die Adobe Client-Datenschicht auf GitHub zusammen mit der zugehörigen Entwicklerdokumentation verfügbar. Das vorliegende Dokument gibt einen Überblick darüber, wie die Kernkomponenten mit der Datenschicht interagieren, für vollständige technische Details ist jedoch die Dokumentation auf GitHub zu konsultieren.
+Wie auch die Kernkomponenten ist der Code für die Adobe-Client-Datenschicht auf GitHub zusammen mit der zugehörigen Entwicklerdokumentation verfügbar. Das vorliegende Dokument gibt einen Überblick darüber, wie die Kernkomponenten mit der Datenschicht interagieren, für vollständige technische Details ist jedoch die Dokumentation auf GitHub zu konsultieren.
 
 >[!TIP]
 >
@@ -139,7 +154,7 @@ id: {                   // component ID
 
 >[!NOTE]
 >
->Dieses Schema ist das generische Komponentenelementschema, das als Basismuster für mehrere Kernkomponenten verwendet wird. Dies garantiert nicht, dass jede aufgelistete Komponente alle diese Felder bei jedem Element ausfüllt.
+>Dieses Schema ist das generische Schema für Komponentenelemente, das als Basismuster für mehrere Kernkomponenten verwendet wird. Dies garantiert nicht, dass jede aufgelistete Komponente alle diese Felder bei jedem Element ausfüllt.
 
 Das folgende [Ereignis](#events) ist für das Komponenten-/Container-Element-Schema relevant:
 
@@ -202,11 +217,11 @@ Die folgenden [Ereignisse](#events) sind für das Container-Schema relevant:
 
 ### Bild-Schema {#image}
 
-Das Bild-Schema wird von der folgenden Komponente verwendet:
+Das Bildschema wird von der folgenden Komponente verwendet:
 
 * [Bild](/help/components/image.md)
 
-Das Bild-Schema wird wie folgt definiert:
+Das Bildschema wird wie folgt definiert:
 
 ```javascript
 id: {
@@ -277,7 +292,7 @@ Das für das Inhaltsfragment-Element verwendete Schema lautet wie folgt:
 
 Es gibt eine Reihe von Ereignissen, die Kernkomponenten über die Datenschicht auslösen. Die Best Practice für die Interaktion mit der Datenschicht besteht darin, [einen Ereignis-Listener zu registrieren](https://github.com/adobe/adobe-client-data-layer/wiki#addeventlistener) und *dann* eine Aktion auf Grundlage des Ereignistyps und/oder der Komponente zu ergreifen, die das Ereignis ausgelöst hat. Dadurch werden potenzielle Überschneidungen mit asynchronen Skripten vermieden.
 
-Im Folgenden finden Sie die vorkonfigurierten Ereignisse in den AEM-Kernkomponenten:
+Im Folgenden finden Sie die in den AEM-Kernkomponenten vorkonfigurierten Ereignisse:
 
 * **`cmp:click`**: Beim Klicken auf ein klickbares Element (ein Element mit einem `data-cmp-clickable`-Attribut) löst die Datenschicht ein `cmp:click`-Ereignis aus.
 * **`cmp:show`** und **`cmp:hide`**: Beim Manipulieren des Akkordeon (Erweitern/Reduzieren), des Karussells (nächste/vorherige Schaltflächen) und der Registerkarten (Registerkartenauswahl) löst die Datenschicht ein `cmp:show`- bzw. ein `cmp:hide`-Ereignis aus. Ein `cmp:show`-Ereignis wird auch beim Laden der Seite ausgelöst und wird als erstes Ereignis erwartet.
@@ -334,4 +349,4 @@ Möchten Sie mehr über die Datenschicht und die Kernkomponenten erfahren? [Sehe
 
 >[!TIP]
 >
->Um die Flexibilität der Datenschicht weiter zu untersuchen, sollten Sie sich mit den Integrationsoptionen vertraut machen, einschließlich der Aktivierung der Datenschicht für Ihre benutzerdefinierten Komponenten.
+>Um die Flexibilität der Datenschicht weiter zu erkunden, machen Sie sich mit den Integrationsoptionen vertraut, einschließlich der Aktivierung der Datenschicht für Ihre benutzerdefinierten Komponenten.
