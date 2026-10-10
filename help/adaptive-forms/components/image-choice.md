@@ -3,13 +3,23 @@ title: Kernkomponente „Bildauswahl“ für adaptive Forms
 description: Verwenden der Kernkomponente „Bildauswahl“.
 role: Developer, Admin, User
 hide: true
-source-git-commit: 0af65c80f9cc58c4ba48d5b3dc7a026820bd2833
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 025b8134f7675b4515f4586910a94a2732bfa2ee
 workflow-type: tm+mt
 source-wordcount: '1318'
 ht-degree: 58%
-
 ---
-
 # Adaptives Formular - Bildauswahl-Feld {#image-choice}
 
 Die Bildauswahl-Komponente in einem Formular ermöglicht es Benutzenden, Auswahlen basierend auf visuellen Darstellungen (z. B. Bildern) und nicht auf textbasierten Optionen vorzunehmen. Es stellt eine Reihe von Bildern dar, die jeweils eine eigene Auswahl darstellen. Benutzer können ein oder mehrere Bilder auswählen, wobei visuelles Feedback ihre Auswahl angibt. Diese Komponente ist für Optionen wie Produktvarianten, Umfrageantworten oder Profilbilder nützlich. Es verbessert die Benutzerinteraktion und Klarheit durch eine intuitive, visuell ansprechende Auswahlmethode.
@@ -102,8 +112,8 @@ Im Dialogfeld „Konfigurieren“ können Sie die Bildauswahl-Komponente einfach
 ![Barrierefreiheit der Bildauswahl](accessibility-imagechoice.png)
 
 - **Text für Bildschirmlesehilfen**: Text für Bildschirmlesehilfen bezieht sich auf zusätzlichen Text, der für Hilfstechnologien wie Bildschirmlesehilfen vorgesehen ist, die von Personen mit Sehschwäche verwendet werden. Dieser Text enthält eine Audiobeschreibung des Zwecks des Formularfelds und kann Informationen über den Titel, die Beschreibung, den Namen und alle relevanten Nachrichten (benutzerdefinierten Text) des Felds enthalten. Der Text der Bildschirmlesehilfe hilft sicherzustellen, dass das Formular allen Benutzenden zugänglich ist, auch Personen mit Sehschwäche, und bietet ihnen ein umfassendes Verständnis des Formularfelds und seiner Anforderungen.
-   - **Benutzerdefinierter Text**: Wählen Sie diese Option aus, um den benutzerdefinierten Text für ARIA-Barrierefreiheitsbeschriftungen zu verwenden. Wenn Sie diese Option auswählen, wird das Benutzerdefinierter Dialogfeld „Text“ angezeigt. Sie können relevante Informationen im Benutzerdefinierter Dialogfeld „Text“ hinzufügen.
-   - **Titel**: Wählen Sie diese Option aus, um den Titel für ARIA-Barrierefreiheitsbeschriftungen zu verwenden.
+  - **Benutzerdefinierter Text**: Wählen Sie diese Option aus, um den benutzerdefinierten Text für ARIA-Barrierefreiheitsbeschriftungen zu verwenden. Wenn Sie diese Option auswählen, wird das Benutzerdefinierter Dialogfeld „Text“ angezeigt. Sie können relevante Informationen im Benutzerdefinierter Dialogfeld „Text“ hinzufügen.
+  - **Titel**: Wählen Sie diese Option aus, um den Titel für ARIA-Barrierefreiheitsbeschriftungen zu verwenden.
 
 ## Ähnliche Artikel {#related-articles}
 

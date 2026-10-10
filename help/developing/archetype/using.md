@@ -4,22 +4,34 @@ description: Erfahren Sie, wie Sie mit dem AEM-Projektarchetyp ein minimales, au
 feature: Core Components, AEM Project Archetype
 role: Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
-TQID: https://experienceleague.adobe.com/GF0KmU6oEdnUs6Ic5-XB6n4jLs3Wl-P6r1C9eQ9ypiY
+TQID: 'https://experienceleague.adobe.com/GF0KmU6oEdnUs6Ic5-XB6n4jLs3Wl-P6r1C9eQ9ypiY'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: d9d38edd-df1b-480c-8f5e-72b62576f390
+    internal-label: Site and page features
+  - id: c124fa01-25c5-42ec-adf6-21d1c114058b
+    internal-label: Developer tools
+subfeature_v2:
+  - id: c43ff1f6-5a6d-4e8c-b3cc-6bdb3fa6e092
+    internal-label: Core components
+  - id: ca9acb56-1fd9-4553-930f-d71ab7d4045d
+    internal-label: AEM Project Archetype
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+    internal-label: Developer
+source-git-commit: 025b8134f7675b4515f4586910a94a2732bfa2ee
 workflow-type: tm+mt
-source-wordcount: 1326
+source-wordcount: '1326'
 ht-degree: 100%
-
 ---
-
 # Verwenden des AEM-Projektarchetyps {#using-the-archetype}
 
 In diesem Dokument wird erläutert, wie Sie den AEM-Projektarchetyp verwenden, um ein minimales, auf Best Practices beruhendes Adobe Experience Manager-Projekt als Ausgangspunkt für Ihre eigenen AEM-Projekte zu erstellen.
@@ -52,7 +64,7 @@ Beim Erstellen des Projekts mit Maven werden die Artefakte (Pakete und OSGi-Pake
 
 Der Archetyp besteht aus Modulen, die alle bei Verwendung des Archetyps automatisch erstellt werden.
 
-* **[core](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/core)** ist ein Java-Bundle, das alle Kernfunktionen wie OSGi-Dienste, Listener und Scheduler sowie komponentenbezogenen Java-Code wie Servlets und Anforderungsfilter enthält.
+* **[core](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/core)** ist ein Java-Paket, das alle Kernfunktionen wie OSGi-Dienste, Listener und Scheduler sowie komponentenbezogenen Java-Code wie Servlets und Anforderungsfilter enthält.
 * **[it.tests](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/it.tests)** sind Java-basierte Integrationstests.
 * **[ui.apps](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.apps)** enthält die `/apps`- und `/etc`-Teile des Projekts, d. h. JS- und CSS-clientlibs, Komponenten und Vorlagen.
 * **[ui.content](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.content)** enthält Beispielinhalt mit den Komponenten des Moduls ui.apps.
@@ -117,6 +129,6 @@ Die Datei „core.wcm.components.example“enthält eine Reihe von Beispielseite
 
 Es gibt drei Testebenen im Projekt, und da es sich bei ihnen um unterschiedliche Testtypen handelt, werden sie auf unterschiedliche Weise oder an verschiedenen Orten durchgeführt.
 
-* **[Unit-Tests](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/core)**: Testen von klassischen Einheiten des im Bundle enthaltenen Codes
+* **[Unit-Tests](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/core)**: Testen von klassischen Einheiten des im Paket enthaltenen Codes
 * **[Integrationstests](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/it.tests)**: Server-seitige Integrationstests, die Unit-ähnliche Tests in der AEM-Umgebung, d. h. auf dem AEM-Server, ausführen
 * **[UI-Tests](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.tests)**: Selenium-basierte Browser-seitige Tests, die das Browser-seitige Verhalten überprüfen

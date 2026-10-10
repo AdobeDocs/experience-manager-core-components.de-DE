@@ -4,30 +4,44 @@ description: Erfahren Sie mehr über den AEM-Projektarchetyp, der als Vorlage f�
 feature: Core Components, AEM Project Archetype
 role: Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-TQID: https://experienceleague.adobe.com/snvIzunCCWegShAzgcg9Zpof00Wq-tAYkaoGvq4RwEk
+TQID: 'https://experienceleague.adobe.com/snvIzunCCWegShAzgcg9Zpof00Wq-tAYkaoGvq4RwEk'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+  - id: d9d38edd-df1b-480c-8f5e-72b62576f390
+    internal-label: Site and page features
+  - id: c124fa01-25c5-42ec-adf6-21d1c114058b
+    internal-label: Developer tools
 subfeature_v2:
   - id: f86a5563-8f73-4ec0-be7d-a1782604870a
+    internal-label: Editable templates
+  - id: c43ff1f6-5a6d-4e8c-b3cc-6bdb3fa6e092
+    internal-label: Core components
+  - id: ca9acb56-1fd9-4553-930f-d71ab7d4045d
+    internal-label: AEM Project Archetype
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+    internal-label: Content structure
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+    internal-label: Security
+source-git-commit: 025b8134f7675b4515f4586910a94a2732bfa2ee
 workflow-type: tm+mt
-source-wordcount: 705
+source-wordcount: '705'
 ht-degree: 100%
-
 ---
-
 # AEM-Projektarchetyp {#aem-project-archetype}
 
-Der AEM-Projektarchetyp ist eine Maven-Vorlage, anhand derer ein minimales, auf Best Practices basierendes Adobe Experience Manager(AEM)-Projekt als Ausgangspunkt für Ihre Website erstellt wird. Diese Dokumentation bietet einen Überblick über die Vorteile des Archetyps und die allgemeine Verwendung. Ausführliche technische Anweisungen und Dokumentation finden Sie im GitHub-Repository für Archetypen.
+Der AEM-Projektarchetyp ist eine Maven-Vorlage, anhand derer ein minimales, auf Best Practices basierendes Adobe Experience Manager (AEM)-Projekt als Ausgangspunkt für Ihre Website erstellt wird. Diese Dokumentation bietet einen Überblick über die Vorteile des Archetyps und die allgemeine Verwendung. Ausführliche technische Anweisungen und Dokumentation finden Sie im GitHub-Repository des Archetyps.
 
 >[!TIP]
 >
@@ -37,7 +51,7 @@ Der AEM-Projektarchetyp ist eine Maven-Vorlage, anhand derer ein minimales, auf 
 
 ## Gründe für die Verwendung des Archetyps {#why-use-the-archetype}
 
-Mithilfe des AEM-Projektarchetyps können Sie auf dem Weg zum Aufbau eines AEM-Projekts mit bewährten Verfahren und nur wenigen Tastenanschlägen beginnen. Durch Verwendung des Archetyps werden alle Teile bereits vorhanden sein, sodass das resultierende Projekt minimal ist, es jedoch bereits alle [Schlüsselfunktionen](/help/developing/archetype/using.md#what-you-get) von AEM implementiert, sodass Sie nur auf dem Aufbau aufbauen und erweitern müssen.
+Mit dem AEM-Projektarchetyp machen Sie sich mit nur wenigen Tastenanschlägen auf den Weg zu einem AEM-Projekt, das auf Best Practices basiert. Durch Verwendung des Archetyps werden alle Teile bereits vorhanden sein, sodass das resultierende Projekt minimal ist, es jedoch bereits alle [Schlüsselfunktionen](/help/developing/archetype/using.md#what-you-get) von AEM implementiert, sodass Sie nur auf dem Aufbau aufbauen und erweitern müssen.
 
 Natürlich gibt es viele Elemente, die mit [einem erfolgreichem AEM-Projekt](/help/developing/success.md) einhergehen, aber die Verwendung des AEM-Projektarchetyps ist eine solide Grundlage und wird dringend für jedes AEM-Projekt empfohlen.
 
@@ -65,5 +79,5 @@ Natürlich gibt es viele Elemente, die mit [einem erfolgreichem AEM-Projekt](/he
 * **[Verwenden des Archetyps:](using.md)** Einen Überblick über die Verwendung des Archetyps in Ihrem Projekt und der daraus resultierenden Module
 * **[Frontend-Entwicklung mit dem AEM-Projektarchetyp:](front-end.md)** Verwendung des Frontend-Moduls des Archetyps
 * **Die folgenden Tutorials basieren auf diesem Archetyp:**
-   * **[WKND-Site:](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=de)** Erfahren Sie, wie Sie eine neue Website beginnen.
-   * **[WKND Single Page App:](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html?lang=de)** Erfahren Sie, wie Sie eine Web-App für React oder Angular erstellen, die vollständig in AEM erstellt werden kann.
+  * **[WKND-Site:](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=de)** Erfahren Sie, wie Sie eine neue Website beginnen.
+  * **[WKND Single Page App:](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html?lang=de)** Erfahren Sie, wie Sie eine Web-App für React oder Angular erstellen, die vollständig in AEM erstellt werden kann.
