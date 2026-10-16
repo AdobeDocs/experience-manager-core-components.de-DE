@@ -36,11 +36,11 @@ Die Inhaltsdatenkomponente bietet den Besuchern Ihrer Site eine generative KI-ge
 
 Mit der KI-Suche „Inhaltsdaten“ können Besuchende eine [Content-Source](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources) direkt auf einer Seite durchsuchen und optional eine von KI erstellte generative Ergebniszusammenfassung anzeigen. Es kombiniert ein standardmäßiges Volltext-/semantisches Suchfeld mit einem umschaltbaren Bedienfeld **KI-generierte Zusammenfassung anzeigen** das von AEM Content AI unterstützt wird.
 
-Mit [ Dialogfeld „Bearbeiten](#edit-dialog) kann der Inhaltsautor den Inhaltsbereich der Suche, das Suchverhalten und die generativen Einstellungen definieren. Es gibt kein Dialogfeld „Design“, da auf Vorlagenebene keine Einstellungen verfügbar sind.
+Mit [&#x200B; Dialogfeld „Bearbeiten](#edit-dialog) kann der Inhaltsautor den Inhaltsbereich der Suche, das Suchverhalten und die generativen Einstellungen definieren. Es gibt kein Dialogfeld „Design“, da auf Vorlagenebene keine Einstellungen verfügbar sind.
 
 >[!NOTE]
 >
->Um die Inhaltskomponente verwenden zu können, müssen Sie Zugriff auf eine Content-KI-Source haben und Ihr Administrator muss die KI-Suche für Ihr Projekt aktiviert haben. Weitere KI-Suchen finden [ im Dokument „Konfigurieren ](/help/developing/ai-search.md) Inhaltsdatenkomponente“.
+>Um die Inhaltskomponente verwenden zu können, müssen Sie Zugriff auf eine Content-KI-Source haben und Ihr Administrator muss die KI-Suche für Ihr Projekt aktiviert haben. Weitere KI-Suchen finden [&#x200B; im Dokument „Konfigurieren &#x200B;](/help/developing/ai-search.md) Inhaltsdatenkomponente“.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
@@ -88,7 +88,7 @@ Das Dialogfeld „Bearbeiten“ ermöglicht es dem Inhaltsautor, den Inhaltsbere
   * **CUSTOM** - Eine Quelle, die außerhalb der eigenen Aufnahme-Pipelines von AEM registriert ist
 * **Inhaltsquellen** - Dies definiert den Content Source, nach dem diese Komponente sucht.
   * Verfügbare Einträge entsprechen bereits vorhandenen und verfügbaren Inhaltsquellen (**verfügbar** sowie dem in **Content Source Type** festgelegten
-  * Weitere Informationen finden Sie [ Dokument „Einrichten und Verwalten ](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources) Content-KI-Quellen“.
+  * Weitere Informationen finden Sie [&#x200B; Dokument „Einrichten und Verwalten &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources) Content-KI-Quellen“.
 
 ### Registerkarte Suchverhalten {#search-behavior}
 
