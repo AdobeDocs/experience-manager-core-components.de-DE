@@ -1,42 +1,52 @@
 ---
 title: Kernkomponenten-Versionen
-description: Kernkomponenten werden als Versionen veröffentlicht, die mehr als eine Version derselben Kernkomponenten enthalten können. In diesem Dokument wird erläutert, welche Versionen veröffentlicht werden und wie die Kompatibilität mit Kernkomponenten und AEM verstanden werden kann.
+description: Kernkomponenten werden als Releases veröffentlicht, die mehr als eine Version derselben Kernkomponenten enthalten können. In diesem Dokument wird erläutert, was Releases und Versionen sind und wie die Kompatibilität mit Kernkomponenten und AEM zu verstehen ist.
 role: Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 TQID: https://experienceleague.adobe.com/XTlpl5LlUcde1kvtWXPWtZczkafTGRk2g2OZ6MBDaRY
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
   - id: d429a63e-ade4-4117-b04e-9b996d1c94ef
+    internal-label: Integrations
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
 subfeature_v2:
   - id: a94e5c13-4138-47ec-b9c8-e804e17aaca2
+    internal-label: Adobe Client Data Layer
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 2bcb4b4397044b709cabaa5bf18efa235c56e7ec
+    internal-label: Accessibility
+source-git-commit: 16bb25a40209343edaeddb9948a58d921d3defe3
 workflow-type: tm+mt
-source-wordcount: 4308
-ht-degree: 94%
-
+source-wordcount: '4354'
+ht-degree: 93%
 ---
-
 # Kernkomponenten-Versionen {#core-components-versions}
 
 Die Kernkomponenten sind mit Installationen von [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=de) und [AEM On-Premise](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=de) kompatibel.
 
 ## Versionsverlauf und Kompatibilität {#release-history-and-compatibility}
 
-Die Kernkomponenten sind so konzipiert, dass sie flexibel und mit allen unterstützten AEM-Versionen kompatibel sind. Daher kann eine Version der Komponenten mehrere Versionen derselben Komponente enthalten.
+Die Kernkomponenten sind so konzipiert, dass sie flexibel und mit allen unterstützten AEM-Versionen kompatibel sind. Daher kann ein Release der Komponenten mehrere Versionen derselben Komponente enthalten.
 
-Die folgenden Tabellen zeigen die Kompatibilität der Versionen der Kernkomponenten und erläutern, welche Komponentenversionen in welchen Versionen enthalten sind.
+Die folgenden Tabellen zeigen die Kompatibilität der Releases der Kernkomponenten und erläutern, welche Komponentenversionen in welchen Releases enthalten sind.
 
 ### Versionsverlauf und Anforderungen {#release-history-requirements}
 
@@ -44,6 +54,7 @@ Die folgende Tabelle, deren Inhalt [auf GitHub mit vollständigen Versionsinform
 
 | Version | Beschreibung | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service | Java | Veröffentlichungsdatum |
 |---|---|---|---|---|---|---|---|
+| [2.33.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.33.0) | In dieser Version wird eine Reihe von KI-Suchen behandelt, die sich auf Inhaltsfragmente beziehen. Außerdem wird  2 der Inhaltsfragmentkomponente eingeführt[Inhaltsfragmentkomponente](/help/components/ai-search.md) | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11, 17, 21 | &#x200B;5. Oktober 2026 |
 | [2.32.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.8) | Diese Version aktiviert die [Inhaltsdatenkomponente](/help/components/ai-search.md) auf AMS. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11, 17, 21 | &#x200B;8. September 2026 |
 | [2.32.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.6) | Diese Version behebt einen Fehler. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11, 17, 21 | &#x200B;10. August 2026 |
 | [2.32.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.4) | Diese Version behebt einen Fehler. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11, 17, 21 | &#x200B;15. Juli 2026 |
@@ -53,17 +64,17 @@ Die folgende Tabelle, deren Inhalt [auf GitHub mit vollständigen Versionsinform
 | [2.31.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.2) | Diese Version behebt Fehler, bei denen bestimmte Informationen nicht ordnungsgemäß persistiert wurden. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11, 17, 21 | &#x200B;22. Juni 2026 |
 | [2.31.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.0) | Mit dieser Version wurde die Unterstützung für JSON-LD-Daten für die Seitenkomponente sowie eine verbesserte Leistung für mehrere andere Komponenten zusätzlich zu zahlreichen Fehlerbehebungen eingeführt. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11, 17, 21 | &#x200B;19. Mai 2026 |
 | [2.30.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.4) | In dieser Version wurde ein Problem mit der Pfadvalidierung behoben. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11, 17, 21 | 30. Januar 2026 |
-| [2.30.3](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.3) | In dieser Version wurde eine Regression im Dialogfeld der Richtlinie für die Titelkomponente korrigiert. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11, 17, 21 | 5. Dezember 2025 |
+| [2.30.3](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.3) | In dieser Version wurde eine Regression im Richtlinien-Dialogfeld der Titelkomponente korrigiert. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11, 17, 21 | 5. Dezember 2025 |
 | [2.30.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.2) | In dieser Version wurde eine nicht lokalisierte Zeichenfolge im Zusammenhang mit dem PDF-Viewer korrigiert. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11, 17, 21 | 23. Oktober 2025 |
 | [2.30.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.0) | In dieser Version wurden eine Reihe von Problemen mit Assets und Dynamic Media behoben, die LTS-Unterstützung erläutert und zahlreiche Fehlerbehebungen vorgenommen. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11, 17, 21 | 4. September 2025 |
 | [2.29.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.29.0) | Diese Version bietet nun Unterstützung für die Erstellung von Vorschauversionen von Assets in der Sites-Kernkomponente und beinhaltet zahlreiche Fehlerbehebungen. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11, 17, 21 | &#x200B;21. April 2025 |
 | [2.28.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0) | Diese Version umfasst zahlreiche Fehlerbehebungen. | – | 6.5.21.0+ | 6.5 LTS GA | Kontinuierlich | 8, 11, 17, 21 | 17. März 2025 |
 | [2.27.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.27.0) | Diese Version umfasst zahlreiche Fehlerbehebungen. | – | 6.5.21.0+ | – | Kontinuierlich | 11 | &#x200B;10. September 2024 |
 | [2.26.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.26.0) | Diese Version umfasst zahlreiche Fehlerbehebungen. | – | 6.5.21.0+ | – | Kontinuierlich | 11 | 31. Juli 2024 |
-| [2.25.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.4) | Dies ist eine kleinere Version, die einige IT-Fehler korrigiert. | – | 6.5.21.0+ | – | Kontinuierlich | 8, 11 | &#x200B;10. Mai 2024 |
+| [2.25.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.4) | Dies ist eine kleinere Version, die einige IT-Ausfälle behebt. | – | 6.5.21.0+ | – | Kontinuierlich | 8, 11 | &#x200B;10. Mai 2024 |
 | [2.25.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.2) | Dies ist eine kleinere Version, die einige IT-Fehler korrigiert. | – | 6.5.21.0+ | – | Kontinuierlich | 8, 11 | &#x200B;9. Mai 2024 |
 | [2.25.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.0) | Diese Version bietet Unterstützung für spezifische intelligente Zuschnitte in Dynamic Media, enthält Verbesserungen der Performance und Barrierefreiheit sowie verschiedene Fehlerbehebungen. | – | 6.5.21.0+ | – | Kontinuierlich | 8, 11 | &#x200B;02. Mai 2024 |
-| [2.24.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.6) | Diese Patch-Version enthält Verbesserungen bei der Initialisierung von Datensätzen. | – | 6.5.21.0+ | – | Kontinuierlich | 8, 11 | &#x200B;22. April 2024 |
+| [2.24.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.6) | Diese Patch-Version enthält Verbesserungen bei der Initialisierung der Datenschicht. | – | 6.5.21.0+ | – | Kontinuierlich | 8, 11 | &#x200B;22. April 2024 |
 | [2.24.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.4) | Diese Patch-Version behebt einen Fehler bei der Initialisierung des Sling-Modells. | – | 6.5.21.0+ | – | Kontinuierlich | 8, 11 | &#x200B;01. April 2024 |
 | [2.24.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.2) | Diese Patch-Version verbessert die Stabilität von Integrationstests. | – | 6.5.21.0+ | – | Kontinuierlich | 8, 11 | &#x200B;22. Februar 2024 |
 | [2.24.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.0) | Diese Version unterstützt die Google Tag Manager-Datenschicht und enthält verschiedene Fehlerbehebungen. | – | 6.5.21.0+ | – | Kontinuierlich | 8, 11 | &#x200B;14. Februar 2024 |
@@ -173,11 +184,11 @@ Die folgende Tabelle zeigt, welche Versionen welcher Komponenten in welchen Rele
 
 Kernkomponenten werden über GitHub verteilt. Dadurch kann Adobe den Komponenten schneller Funktionen hinzufügen und die Community-Eingabe außerhalb des AEM-Versionszyklus zulassen.
 
-Die Kernkomponenten werden mit definierten AEM-Versionen bereitgestellt, mit denen sie kompatibel sind. Dies bedeutet, dass eine AEM-Version mehrere Versionen der Kernkomponenten unterstützen kann.
+Die Kernkomponenten werden mit definierten AEM-Versionen bereitgestellt, mit denen sie kompatibel sind. Dies bedeutet, dass eine AEM-Version mehrere Versionen oder Releases der Kernkomponenten unterstützen kann.
 
 ### Versionen {#versions}
 
-Die Hauptiteration der Kernkomponenten sind die **Versionen**. Jede Komponente hat eine Version. Versionen werden mit dem Zusatz **v** bezeichnet und es ihnen eine positive Ganzzahl ungleich Null angehängt, z. B. v1 und v2. Versionen werden nur für Änderungen inkrementiert, die nicht abwärtskompatibel sind. Dies gilt normalerweise für die Einführung neuer Funktionen und Funktionalitäten.
+Die Hauptiteration der Kernkomponenten sind die **Versionen**. Jede Komponente hat eine Version. Versionen werden mit dem Zusatz **v** bezeichnet und es ihnen eine positive Ganzzahl ungleich Null angehängt, z. B. v1 und v2. Versionen werden nur für Änderungen inkrementiert, die nicht abwärtskompatibel sind. Dies gilt normalerweise für die Einführung neuer Funktionen und Funktionalität.
 
 Entwickler und Administratoren können Versionen der Kernkomponenten anhand einer Zahl in ihren Ressourcentyppfaden und in den vollständig qualifizierten Java-Klassennamen ihrer Implementierungen erkennen. Diese Versionsnummer stellt eine Hauptversion dar, wie in [der semantischen Versionierung der Richtlinien](https://semver.org/) dargestellt wird.
 
@@ -193,9 +204,9 @@ Die Kernkomponenten werden über **Versionen** verfügbar gemacht und [stellen d
 
 >[!NOTE]
 >
->Versionen können mehrere Versionen derselben Komponente enthalten.
+>Releases können mehrere Versionen derselben Komponente enthalten.
 >
->Dieselbe Version einer Komponente kann in mehreren Versionen angezeigt werden.
+>Dieselbe Version einer Komponente kann in mehreren Releases angezeigt werden.
 
 ## Support für Kernkomponenten {#core-components-support}
 
@@ -203,7 +214,7 @@ Kernkomponenten sind ein integraler Bestandteil von AEM und werden unter denselb
 
 Wie bei anderen Produktmerkmalen gilt für das Ende der Lebensdauer die allgemeine Regel:
 
-* Komponenten werden zuerst als veraltet angekündigt, bevor sie entfernt werden
+* Ankündigung der Veraltung von Komponenten vor ihrer Entfernung
 * Sie werden dann frühestens nach Ankündigung aus dem AEM-Release entfernt.
 
 Dadurch erhalten Kunden mindestens einen Versionszyklus, um zur neuen Version der Komponente zu wechseln, bevor die Unterstützung endet.

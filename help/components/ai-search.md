@@ -4,22 +4,27 @@ description: Die Inhaltsdatenkomponente bietet den Besuchern Ihrer Site eine gen
 role: Developer, Admin, User
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: e721e8b9469646300432b87d42bfb742aaf5f3fb
+    internal-label: Security
+source-git-commit: 6022fccf65523915134f38894fe5689849b2602f
 workflow-type: tm+mt
-source-wordcount: 805
+source-wordcount: '829'
 ht-degree: 16%
-
 ---
-
 
 # Inhaltskomponenten-KI-Suche {#content-ai-search-component}
 
@@ -29,23 +34,26 @@ Die Inhaltsdatenkomponente bietet den Besuchern Ihrer Site eine generative KI-ge
 
 ## Nutzung {#usage}
 
-Mit der KI-Suche „Inhaltsdaten“ können Besuchende eine [Content-Source](https://experienceleague.adobe.com/de/docs/experience-manager-content-ai/using/contentsources) direkt auf einer Seite durchsuchen und optional eine von KI erstellte generative Ergebniszusammenfassung anzeigen. Es kombiniert ein standardmäßiges Volltext-/semantisches Suchfeld mit einem umschaltbaren Bedienfeld **KI-generierte Zusammenfassung anzeigen** das von AEM Content AI unterstützt wird.
+Mit der KI-Suche „Inhaltsdaten“ können Besuchende eine [Content-Source](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources) direkt auf einer Seite durchsuchen und optional eine von KI erstellte generative Ergebniszusammenfassung anzeigen. Es kombiniert ein standardmäßiges Volltext-/semantisches Suchfeld mit einem umschaltbaren Bedienfeld **KI-generierte Zusammenfassung anzeigen** das von AEM Content AI unterstützt wird.
 
-Mit [&#x200B; Dialogfeld „Bearbeiten](#edit-dialog) kann der Inhaltsautor den Inhaltsbereich der Suche, das Suchverhalten und die generativen Einstellungen definieren. Es gibt kein Dialogfeld „Design“, da auf Vorlagenebene keine Einstellungen verfügbar sind.
+Mit [ Dialogfeld „Bearbeiten](#edit-dialog) kann der Inhaltsautor den Inhaltsbereich der Suche, das Suchverhalten und die generativen Einstellungen definieren. Es gibt kein Dialogfeld „Design“, da auf Vorlagenebene keine Einstellungen verfügbar sind.
 
 >[!NOTE]
 >
->Um die Inhaltskomponente verwenden zu können, müssen Sie Zugriff auf eine Content-KI-Source haben und Ihr Administrator muss die KI-Suche für Ihr Projekt aktiviert haben. Weitere KI-Suchen finden [&#x200B; im Dokument „Konfigurieren &#x200B;](/help/developing/ai-search.md) Inhaltsdatenkomponente“.
+>Um die Inhaltskomponente verwenden zu können, müssen Sie Zugriff auf eine Content-KI-Source haben und Ihr Administrator muss die KI-Suche für Ihr Projekt aktiviert haben. Weitere KI-Suchen finden [ im Dokument „Konfigurieren ](/help/developing/ai-search.md) Inhaltsdatenkomponente“.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
-Die aktuelle KI-Suche der Inhaltsdatenkomponente ist v1, die mit Version 2.32.0 der Kernkomponenten im Juli 2026 eingeführt wurde und in diesem Dokument beschrieben wird.
+Die aktuelle KI-Suche der Inhaltsdatenkomponente ist v2, die mit Version 2.33.0 der Kernkomponenten im Oktober 2026 eingeführt wurde und in diesem Dokument beschrieben wird.
 
 Die folgende Tabelle enthält alle unterstützten Versionen der Komponente, die AEM-Versionen, mit denen die Versionen der Komponente kompatibel sind, sowie Links zur Dokumentation für frühere Versionen.
 
-| Komponentenversion | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
-|---|---|---|---|---|
-| v1 | – | – | – | Laufend |
+| Komponentenversion | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|
+| v2 | 6.5.21.0 und höher* | 6,5 GA* | Kompatibel |
+| [v1](/help/components/v1/ai-search.md) | – | – | Kompatibel |
+
+*Die Unterstützung für die Inhaltsdatenkomponente in AEM 6.5 und 6.5 LTS ist auf Adobe Managed Services (AMS) beschränkt.
 
 Weitere Informationen zu Kernkomponentenversionen und -freigaben finden Sie im Dokument [Kernkomponentenversionen.](/help/versions.md)
 
@@ -55,7 +63,7 @@ Um die Inhaltskomponenten-KI-Suche sowie Beispiele für die Konfigurationsoption
 
 ## Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Inhaltsdatenkomponente [finden Sie auf GitHub.](https://adobe.com/go/aem_cmp_tech_ai_search_v1_de)
+Die aktuelle technische Dokumentation zur Inhaltsdatenkomponente [finden Sie auf GitHub.](https://adobe.com/go/aem_cmp_tech_ai_search_v2)
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
@@ -78,7 +86,7 @@ Das Dialogfeld „Bearbeiten“ ermöglicht es dem Inhaltsautor, den Inhaltsbere
   * **CUSTOM** - Eine Quelle, die außerhalb der eigenen Aufnahme-Pipelines von AEM registriert ist
 * **Inhaltsquellen** - Dies definiert den Content Source, nach dem diese Komponente sucht.
   * Verfügbare Einträge entsprechen bereits vorhandenen und verfügbaren Inhaltsquellen (**verfügbar** sowie dem in **Content Source Type** festgelegten
-  * Weitere Informationen finden Sie [&#x200B; Dokument „Einrichten und Verwalten &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-content-ai/using/contentsources) Content-KI-Quellen“.
+  * Weitere Informationen finden Sie [ Dokument „Einrichten und Verwalten ](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources) Content-KI-Quellen“.
 
 ### Registerkarte Suchverhalten {#search-behavior}
 

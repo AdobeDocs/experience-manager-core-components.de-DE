@@ -5,13 +5,11 @@ breadcrumb-title: Anleitung zu den Kernkomponenten
 feature: Core Components
 user-guide-description: Nutzen Sie für herkömmliche AEM-Projekte die erweiterbaren Kernkomponenten, damit Autorinnen und Autoren mühelos Inhalte erstellen können.
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: 20b54716af29ed8f283b3e6fffc2682dfee0d999
+source-git-commit: 16bb25a40209343edaeddb9948a58d921d3defe3
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 97%
-
+source-wordcount: '445'
+ht-degree: 96%
 ---
-
 
 # Hilfe zu AEM-Kernkomponenten {#using}
 
@@ -71,6 +69,7 @@ ht-degree: 97%
     + [Seite (v1)](/help/components/v1/page-v1.md)
     + [Teaser (v1)](/help/components/v1/teaser.md)
     + [Schnellsuche (v1)](/help/components/v1/quick-search.md)
+    + [Content-KI-Suchen](/help/components/v1/ai-search.md)
     + [Text (v1)](/help/components/v1/text-v1.md)
     + [Titel (v1)](/help/components/v1/title-v1.md)
     + v1-Formularkomponenten {#v1-forms}
@@ -113,25 +112,25 @@ ht-degree: 97%
     + [Kontrollkästchen „Adaptive Formulare“](/help/adaptive-forms/components/checkbox.md)
     + [Adaptive Formulare – Kontrollkästchengruppe](/help/adaptive-forms/components/checkbox-group.md)
     + [Adaptive Formulare – Container](/help/adaptive-forms/components/form-container.md)
-    + [Adaptives Formular – Datum und Uhrzeit](/help/adaptive-forms/components/date-time-component.md)
+    + [Adaptive Formulare – Datum und Uhrzeit](/help/adaptive-forms/components/date-time-component.md)
     + [Adaptive Formulare – Datumsauswahl](/help/adaptive-forms/components/date-picker.md)
     + [Adaptive Formulare – Dropdown-Liste](/help/adaptive-forms/components/drop-down-list.md)
     + [Adaptive Formulare – E-Mail](/help/adaptive-forms/components/email.md)
-    + [Formularfragment für adaptive Formulare](/help/adaptive-forms/components/adaptive-form-fragment.md)
-    + [Adaptive Formulare – Dateianlagen](/help/adaptive-forms/components/file-attachment.md)
+    + [Adaptive Formulare – Formularfragment](/help/adaptive-forms/components/adaptive-form-fragment.md)
+    + [Adaptive Formulare – Dateianhänge](/help/adaptive-forms/components/file-attachment.md)
     + [Adaptive Formulare – Vertikale Registerkarten](/help/adaptive-forms/components/vertical-tabs.md)
     + [Adaptive Formulare – hCaptcha](/help/adaptive-forms/components/hcaptcha.md)
-    + [Adaptive Formulare – horizontale Registerkarten](/help/adaptive-forms/components/horizontal-tabs.md)
+    + [Adaptive Formulare – Horizontale Registerkarten](/help/adaptive-forms/components/horizontal-tabs.md)
     + [Adaptive Formulare – Bild](/help/adaptive-forms/components/image.md)
     + {hide-from-toc}[Adaptive Forms-Bildauswahl](/help/adaptive-forms/components/image-choice.md)
-    + [Adaptive Formulare – Numerisches Feld](/help/adaptive-forms/components/numeric-box.md)
+    + [Adaptive Formulare – Numerisches Feld](/help/adaptive-forms/components/numeric-box.md)
     + {hide-from-toc}[Adaptive Formulare – Kennwortfeld](/help/adaptive-forms/components/password-box.md)
     + [Adaptive Formulare – Bedienfeld](/help/adaptive-forms/components/panel.md)
     + [Adaptive Formulare – CAPTCHA](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
-    + [Adaptive Formulare – Optionsschaltfläche](/help/adaptive-forms/components/radio-button.md)
+    + [Adaptive Formulare – Optionsfeld](/help/adaptive-forms/components/radio-button.md)
     + [Adaptive Formulare – Schaltfläche „Zurücksetzen“](/help/adaptive-forms/components/reset-button.md)
     + {hide-from-toc}[Adaptive Formulare – Überprüfung](/help/adaptive-forms/components/review.md)
-    + [Adaptives Formular – Freihandsignatur](/help/adaptive-forms/components/scribble-signature.md)
+    + [Adaptive Formulare – Freihandsignatur](/help/adaptive-forms/components/scribble-signature.md)
     + [Adaptive Formulare – Schaltfläche „Senden“](/help/adaptive-forms/components/submit-button.md)
     + [Adaptives Formular – Schalter](/help/adaptive-forms/components/adaptive-form-switch.md)
     + [Adaptive Formulare – Telefon](/help/adaptive-forms/components/phone.md)
