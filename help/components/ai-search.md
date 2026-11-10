@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 6022fccf65523915134f38894fe5689849b2602f
+source-git-commit: a8f6d16fa3ca5d542e9416f97685ef28569adc65
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 16%
+source-wordcount: '801'
+ht-degree: 15%
 ---
 
 # Inhaltskomponenten-KI-Suche {#content-ai-search-component}
@@ -34,13 +34,13 @@ Die Inhaltsdatenkomponente bietet den Besuchern Ihrer Site eine generative KI-ge
 
 ## Nutzung {#usage}
 
-Mit der KI-Suche „Inhaltsdaten“ können Besuchende eine [Content-Source](https://experienceleague.adobe.com/de/docs/experience-manager-content-ai/using/contentsources) direkt auf einer Seite durchsuchen und optional eine von KI erstellte generative Ergebniszusammenfassung anzeigen. Es kombiniert ein standardmäßiges Volltext-/semantisches Suchfeld mit einem umschaltbaren Bedienfeld **KI-generierte Zusammenfassung anzeigen** das von AEM Content AI unterstützt wird.
+Mit der KI-Suche „Inhaltsdaten“ können Besuchende eine [Content-Source](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources) direkt auf einer Seite durchsuchen und optional eine von KI erstellte generative Ergebniszusammenfassung anzeigen. Es kombiniert ein standardmäßiges Volltext-/semantisches Suchfeld mit einem umschaltbaren Bedienfeld **KI-generierte Zusammenfassung anzeigen** das von AEM Content AI unterstützt wird.
 
-Mit [&#x200B; Dialogfeld „Bearbeiten](#edit-dialog) kann der Inhaltsautor den Inhaltsbereich der Suche, das Suchverhalten und die generativen Einstellungen definieren. Es gibt kein Dialogfeld „Design“, da auf Vorlagenebene keine Einstellungen verfügbar sind.
+Mit [ Dialogfeld „Bearbeiten](#edit-dialog) kann der Inhaltsautor den Inhaltsbereich der Suche, das Suchverhalten und die generativen Einstellungen definieren. Es gibt kein Dialogfeld „Design“, da auf Vorlagenebene keine Einstellungen verfügbar sind.
 
 >[!NOTE]
 >
->Um die Inhaltskomponente verwenden zu können, müssen Sie Zugriff auf eine Content-KI-Source haben und Ihr Administrator muss die KI-Suche für Ihr Projekt aktiviert haben. Weitere KI-Suchen finden [&#x200B; im Dokument „Konfigurieren &#x200B;](/help/developing/ai-search.md) Inhaltsdatenkomponente“.
+>Um die Inhaltskomponente verwenden zu können, müssen Sie Zugriff auf eine Content-KI-Source haben und Ihr Administrator muss die KI-Suche für Ihr Projekt aktiviert haben. Weitere KI-Suchen finden [ im Dokument „Konfigurieren ](/help/developing/ai-search.md) Inhaltsdatenkomponente“.
 
 ## Version und Kompatibilität {#version-and-compatibility}
 
@@ -63,7 +63,7 @@ Um die Inhaltskomponenten-KI-Suche sowie Beispiele für die Konfigurationsoption
 
 ## Technische Details {#technical-details}
 
-Die aktuelle technische Dokumentation zur Inhaltsdatenkomponente [finden Sie auf GitHub.](https://adobe.com/go/aem_cmp_tech_ai_search_v2_de)
+Die aktuelle technische Dokumentation zur Inhaltsdatenkomponente [finden Sie auf GitHub.](https://adobe.com/go/aem_cmp_tech_ai_search_v2)
 
 Weitere Informationen zur Entwicklung von Kernkomponenten finden Sie in der [Dokumentation zu Kernkomponenten für Entwickler](/help/developing/overview.md).
 
@@ -86,7 +86,7 @@ Das Dialogfeld „Bearbeiten“ ermöglicht es dem Inhaltsautor, den Inhaltsbere
   * **CUSTOM** - Eine Quelle, die außerhalb der eigenen Aufnahme-Pipelines von AEM registriert ist
 * **Inhaltsquellen** - Dies definiert den Content Source, nach dem diese Komponente sucht.
   * Verfügbare Einträge entsprechen bereits vorhandenen und verfügbaren Inhaltsquellen (**verfügbar** sowie dem in **Content Source Type** festgelegten
-  * Weitere Informationen finden Sie [&#x200B; Dokument „Einrichten und Verwalten &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-content-ai/using/contentsources) Content-KI-Quellen“.
+  * Weitere Informationen finden Sie [ Dokument „Einrichten und Verwalten ](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources) Content-KI-Quellen“.
 
 ### Registerkarte Suchverhalten {#search-behavior}
 
@@ -102,13 +102,13 @@ Das Dialogfeld „Bearbeiten“ ermöglicht es dem Inhaltsautor, den Inhaltsbere
 
 ### Registerkarte „Generative Suche“ {#generative-search}
 
-![Registerkarte „Generative Suche“ im Dialogfeld „Bearbeiten“](/help/assets/content-ai-search-edit-generative-search.png)
+![Registerkarte „Generative Suche“ im Dialogfeld „Bearbeiten“](/help/assets/content-ai-search-edit-ai-search-mode.png)
 
-* **Umschalter für generative Zusammenfassung für Besucher anzeigen** - Wenn diese Option deaktiviert ist, können Besuchende nicht ändern, ob die KI-Zusammenfassung angezeigt wird.
+* **Registerkarte „KI-Modus“ für Besuchende anzeigen** - Wenn diese Option deaktiviert ist, wird keine Registerkartenleiste angezeigt und die API für die generative Suche wird nie aufgerufen.
+  * Besucherinnen und Besucher sehen nur eine einfache Suchergebnisansicht.
   * Der Standardwert ist aktiviert.
-* **Generative Zusammenfassung standardmäßig anzeigen** - Mit dieser Option wird der Standardstatus des Umschalters „Besucherzugriff“ für die von KI generierte Zusammenfassung festgelegt.
+* **Schaltfläche „Erneut versuchen anzeigen“, wenn** KI-Antwort fehlschlägt: Die Registerkarte „KI-Modus“ zeigt bei einem Fehler immer eine Fehlermeldung an. Diese Option steuert nur, wenn daneben eine Schaltfläche „Erneut versuchen“ angezeigt wird.
   * Der Standardwert ist aktiviert.
-* **GenSearch Error Fallback** - Definiert, wie sich die Suche verhalten soll oder fehlerhaft ist.
-  * **Nur Ergebnisse (Fehler ausblenden)** - Wenn ein Fehler auftritt, werden nur die zurückgegebenen Ergebnisse angezeigt, nicht der Fehler und nicht die Schaltfläche „Erneut versuchen“. Dies ist der Standardwert.
-  * **Fehler mit Wiederholen anzeigen** - Wenn ein Fehler auftritt, wird der Fehler mit der Schaltfläche „Wiederholen“ angezeigt.
-  * **Nur Fehlermeldung anzeigen** - Wenn ein Fehler auftritt, nur die Fehlermeldung anzeigen, aber keine Ergebnisse.
+* **Text des Haftungsausschlusses** - Dieser Text wird unter der generativen Zusammenfassung auf der Registerkarte „KI-Modus“ angezeigt.
+  * Lassen Sie das Feld leer (Standard), um den standardmäßigen Haftungsausschluss zu verwenden.
+
