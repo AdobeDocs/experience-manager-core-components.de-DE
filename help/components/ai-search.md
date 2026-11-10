@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 6022fccf65523915134f38894fe5689849b2602f
+source-git-commit: a8f6d16fa3ca5d542e9416f97685ef28569adc65
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 16%
+source-wordcount: '801'
+ht-degree: 15%
 ---
 
 # Inhaltskomponenten-KI-Suche {#content-ai-search-component}
@@ -102,13 +102,13 @@ Das Dialogfeld „Bearbeiten“ ermöglicht es dem Inhaltsautor, den Inhaltsbere
 
 ### Registerkarte „Generative Suche“ {#generative-search}
 
-![Registerkarte „Generative Suche“ im Dialogfeld „Bearbeiten“](/help/assets/content-ai-search-edit-generative-search.png)
+![Registerkarte „Generative Suche“ im Dialogfeld „Bearbeiten“](/help/assets/content-ai-search-edit-ai-search-mode.png)
 
-* **Umschalter für generative Zusammenfassung für Besucher anzeigen** - Wenn diese Option deaktiviert ist, können Besuchende nicht ändern, ob die KI-Zusammenfassung angezeigt wird.
+* **Registerkarte „KI-Modus“ für Besuchende anzeigen** - Wenn diese Option deaktiviert ist, wird keine Registerkartenleiste angezeigt und die API für die generative Suche wird nie aufgerufen.
+  * Besucherinnen und Besucher sehen nur eine einfache Suchergebnisansicht.
   * Der Standardwert ist aktiviert.
-* **Generative Zusammenfassung standardmäßig anzeigen** - Mit dieser Option wird der Standardstatus des Umschalters „Besucherzugriff“ für die von KI generierte Zusammenfassung festgelegt.
+* **Schaltfläche „Erneut versuchen anzeigen“, wenn** KI-Antwort fehlschlägt: Die Registerkarte „KI-Modus“ zeigt bei einem Fehler immer eine Fehlermeldung an. Diese Option steuert nur, wenn daneben eine Schaltfläche „Erneut versuchen“ angezeigt wird.
   * Der Standardwert ist aktiviert.
-* **GenSearch Error Fallback** - Definiert, wie sich die Suche verhalten soll oder fehlerhaft ist.
-  * **Nur Ergebnisse (Fehler ausblenden)** - Wenn ein Fehler auftritt, werden nur die zurückgegebenen Ergebnisse angezeigt, nicht der Fehler und nicht die Schaltfläche „Erneut versuchen“. Dies ist der Standardwert.
-  * **Fehler mit Wiederholen anzeigen** - Wenn ein Fehler auftritt, wird der Fehler mit der Schaltfläche „Wiederholen“ angezeigt.
-  * **Nur Fehlermeldung anzeigen** - Wenn ein Fehler auftritt, nur die Fehlermeldung anzeigen, aber keine Ergebnisse.
+* **Text des Haftungsausschlusses** - Dieser Text wird unter der generativen Zusammenfassung auf der Registerkarte „KI-Modus“ angezeigt.
+  * Lassen Sie das Feld leer (Standard), um den standardmäßigen Haftungsausschluss zu verwenden.
+
